@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHERECRATES, ΑΥΤΟΜΟΛΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Pherecrates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0486.aytomoloi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0486.aytomoloi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0486.aytomoloi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi"><head>ΑΥΤΟΜΟΛΟΙ</head><div type="textpart" subtype="fragment" n="19" xml:id="kock-0486-aytomoloi-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-19-l1" xml:lang="grc">οὗτοι γὰρ ἡμῖν οἱ κακῶς ἀπολούμενοι</l>
+                <l n="2" xml:id="kock-0486-aytomoloi-19-l2" xml:lang="grc">ἐπαμφοτερίζουσ᾽ ἐμποδὼν καθήμενοι.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Pac. 477 αἰνίττεται εἰς τοὺς Ἀργείους ἐν τούτῳ τῷ πολέμῳ ἐπαμφοτερίζοντας. διὸ καὶ πολλὰ ἐκωμῳδοῦντο . . . καὶ Φερεκράτης ἐν Αὐτομόλοις κτλ. Bekker. Anecd. 41, 16 ἐπαμφοτερίζειν· τὸ μὴ παγίως ἓν τι βουλεύεσθαι καὶ πράττειν, ἀλλὰ καὶ τόδε καὶ τόδε διανοεῖσθαι.</note>
+              <note type="apparatus">foedus centennale Atheniensium et Argivorum ab his ruptum Ol. 90, 3 intellexit Meinekius I 81.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="20" xml:id="kock-0486-aytomoloi-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-20-l1" xml:lang="grc">ὁπόταν σχολάζῃς, νίψον, ἵνα τὰ λήια</l>
+                <l n="2" xml:id="kock-0486-aytomoloi-20-l2" xml:lang="grc">συγκαρκινωθῇ.</l>
+              </lg>
+              <note type="source">Harpocratio p. 106 in. ὅταν ὁ σῖτος ῥιζωθῇ κατὰ τῆς γῆς, κεκαρκινῶσθαί φασι· Φερεκράτης Αὐτομόλοις κτλ. omisso fabulae nomine Photius et Suidas καρκίνος. Pollux 7, 150 Φερεκράτης ἐν τοῖς Αὐτομόλοις ἔφη ‘ἵνα τὰ λήια συγκαρκινωθῇ’.</note>
+              <note type="apparatus">νίψον Porsonus] νῆψον. νεῖψον Bekkerus. et νείφειν et νίφειν a grammaticis commemoratur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="21" xml:id="kock-0486-aytomoloi-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-21-l1" xml:lang="grc">ὑμεῖς γὰρ ἀεὶ στραγγαλίδας ἐσφίγγετε.</l>
+              </lg>
+              <note type="source">Photius, Suidas, Zonaras στραγγαλίδες· τὰ δύσλυτα ἅμματα· Φερεκράτης Αὐτομόλοις· ὑμεῖς κτλ.</note>
+              <note type="apparatus">in Athenienses dictum videtur Dobraeo Advers. I 609, qui quotiens pacem peterent Lacedaemonii, semper difficultatem aliquam nectere solerent.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="22" xml:id="kock-0486-aytomoloi-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-22-l1" xml:lang="grc">ἡ γυνὴ δ᾽ ἡμῶν ἑκάστῳ λέκιθον ἕψουσ᾽ ἢ φακῆν</l>
+                <l n="2" xml:id="kock-0486-aytomoloi-22-l2" xml:lang="grc">ἀναμένει καὶ σμικρὸν ὀπτῶσ᾽ ὀρφανὸν ταρίχιον.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 119 d ὑποκοριστικῶς δ᾽ εἴρηκε (ταρίχιον) Φερεκράτης ἐν Αὐτομόλοις.</note>
+              <note type="apparatus">ἕψουσ᾽ ἢ Iacobs. Addit. Ath. 83] ἑψούση. ‘ὀρφανὸν ταρίχιον dicit salsamentum nullis condimentis adparatum’. Meinek. id dici poterat ταρίχιον ὀρφ. ἀρτυμάτων (cf. Plat. Alcib. 2, 147 a), sine genetivo dici non poterat. quapropter Bergkius (Mein. V p. LII) ὀρφὸν ἢ τ. at orphum pretiosissimum fuisse piscem docet Aristoph. Vesp. 493: hic contra vilissimi cibi significantur. scribendum est ἔριφον ἢ τ. Antiph. 222, 7. Euphron. 1, 20. cf. etiam Aristoph. Pac. 562.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="23" xml:id="kock-0486-aytomoloi-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-23-l1" xml:lang="grc">ὅτε τοῖσι θεοῖς θύετε, πρώτιστ᾽ ἀποκρίνετε τοῖς ἱερεῦσιν</l>
+                <l n="2" xml:id="kock-0486-aytomoloi-23-l2" xml:lang="grc">τὸ νομιζόμενον πρώτοις ὑμῶν, εἶτ᾽ (αἰσχύνη τὸ κατειπεῖν)</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="27" xml:id="kock-0486-aytomoloi-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-27-l1" xml:lang="grc">τοὐψάριον τουτὶ παρέθηκέ τις ἡμῖν.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 385 e Φερεκράτης Αὐτομόλοις.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="28" xml:id="kock-0486-aytomoloi-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-28-l1" xml:lang="grc">οὐ γαλαθηνὸν ἄρ᾽ ὗν θύειν μέλλεις.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 396 e Φερεκράτης Αὐτομόλοις. ὗν L] ἣν PV.</note>
+              <note type="apparatus">metrum videtur anapaesticum esse, ⏑⏑ οὐ γ. κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0486-aytomoloi-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-29-l1" xml:lang="grc">πίνειν ἀεὶ καὶ μεθύειν πρὶν ἀγορὰν πεπληθέναι.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 330, 19 et Suidas ἀγορᾶς ὥρα. Φερεκράτης ἐν Αὐτομόλοις.</note>
+              <note type="apparatus">versus est Eupolideus ex parabasi petitus, qua poeta mollitiem et luxuriam civium videtur castigasse. praeter ceteros Alcibiadem reprehendi, qui matutinarum compotationum morem induxerat, Fritzschius animadvertit Fragm. Eup. vers. 12. cf. Eupol. 351.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30" xml:id="kock-0486-aytomoloi-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-30-l1" xml:lang="grc">ἐν χρῷ κουριῶντας</l>
+              </lg>
+              <note type="source">Φερεκράτης . . . ἢ ὅστις τοὺς Αὐτομόλους αὐτοῦ διεσκεύασε. Pollux 2, 33.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="31" xml:id="kock-0486-aytomoloi-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-31-l1" xml:lang="grc">πασσυδί</l>
+              </lg>
+              <note type="source">Photius et Suidas πασσυδεί· παντελῶς. ὁ Θουκυδίδης (8, 1) . . . ὅπερ ἀγνοήσαντές τινες γράφουσι πασσυδί. ἔστι καὶ ἐν Αὐτομόλοις Φερεκράτους. Lob. Phryn. 515 et Soph. Ai. 836 p. 369. Blomfield Gloss. Aesch. Prom. 216. 'Pherecrates fortasse usus est forma antiquiore πανσυδί, de qua cf. Spitzner. Il. 2, 12'. Meinek.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="23_2" xml:id="kock-0486-aytomoloi-23_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-23_2-l1" xml:lang="grc">οὐ τὼ μηρὼ περιλάψαντες μέχρι βουβώνων * * *</l>
+                <l n="2" xml:id="kock-0486-aytomoloi-23_2-l2" xml:lang="grc">καὶ τὴν ὀσφὺν κομιδῇ ψιλήν, λοιπὸν τὸν σπόνδυλον αὐτὸν</l>
+                <l n="5" xml:id="kock-0486-aytomoloi-23_2-l5" xml:lang="grc">ὥσπερ ῥινήσαντες νέμεθ’ ὥσπερ καὶ τοῖς κυσὶν ἡμῖν;</l>
+                <l n="6" xml:id="kock-0486-aytomoloi-23_2-l6" xml:lang="grc">εἶτ’ ἀλλήλους αἰσχυνόμενοι θυλήμασι κρύπτετε πολλοῖς.</l>
+              </lg>
+              <note type="source">Clemens Alex. Strom. 7, 846 ὅ γε κωμικὸς ἐκεῖνος Φερεκράτης ἐν Αὐτομόλοις χαριέντως αὐτοὺς πεποίηκε τοὺς θεοὺς καταμεμφομένους τοῖς ἀνθρώποις τῶν ἱερῶν.</note>
+              <note type="apparatus">1. ὅτε Sylburg] ὅτι. ἀποκρίνετε Sylb.] ἀποκρίνεται. in exitu τοῖς ἱερεῦσιν recte ut videtur add. G. Hermannus. 2. πρώτοις post νομιζόμενον add. Herm. (vel κἄπειθ’) et εἶτ’ ante αἰσχύνη. ὑμῶν] ὑμῖν Herm. τὸ Sylb.] τοι. τῷ cod. L. 3. τὼ μηρώ Sylb.] τῷ μηρῷ. περιλάψαντες] περιλέψαντες Herm. μέχρι Herm.] κομιδῇ μέχρι. in exitu κρέα πάντα add. Hermannus. 4. σπόνδυλον] σφόνδυλον Meinek. 5. ῥινήσαντες] ῥίνῃ ῥινήσαντες Hermannus, deleto καὶ ante τοῖς. fortasse ante ῥινήσαντες eiecto ὥσπερ, quod etiam Meinekius delebat, inserendum est τοῖσιν ἰδοῦσιν. νέμεθ’ Grotius Exc. 511] ἐνέμεθ’. 6. θυλήμασι Ruhnken. Tim. 144] οὐ λήμασι. Bekker. Anecd. 42, 26 θυλήματα . . ἄλφιτα οἴνῳ καὶ ἐλαίῳ μεμαγμένα. cf. Teleclid. 33. Amips. 7. Eubul. Clem. Alex. Strom. 7, 847. Menand. Athen. 4, 146e. Schoemann. Ant. gr.² II 219.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="24" xml:id="kock-0486-aytomoloi-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-24-l1" xml:lang="grc">νὴ τὴν Δήμητρ’, ἀνιαρὸν ἄρ’ ἦν τὸ κακῶς ᾄδοντος ἀκούειν·</l>
+                <l n="2" xml:id="kock-0486-aytomoloi-24-l2" xml:lang="grc">βουλοίμην γὰρ κἂν ἀκαλήφαις τὸν ἴσον χρόνον ἐστεφανῶσθαι.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 370, 24. Schol. Ald. Aristoph. Eq. 422 et Suid. ἀκαλήφη· κνίδη, καὶ ἡ χερσαία καὶ ἡ θαλαττία, ἥτις ἐστὶ κογχύλιόν τι. Φερεκράτης Αὐτομόλοις κτλ. Athen. 3, 90a Φερεκράτης ἐν Αὐτομόλοις· κἂν ἀκαλήφαις — ἐστεφανῶσθαι.</note>
+              <note type="apparatus">v. 1 ἄρ’ add. Dindorfius in adn. Ath. ‘ex urticis ego malim tantisper ferre coronam’. Grotius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="25" xml:id="kock-0486-aytomoloi-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-25-l1" xml:lang="grc">ὥσπερ τῶν αἰγιδίων ὄζειν ἐκ τοῦ στόματος μελικήρας.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 648c καὶ τῶν καλουμένων δὲ μελικηρίδων μνημονεύει Φερεκράτης ἐν Αὐτομόλοις οὕτως κτλ.</note>
+              <note type="apparatus">μελικήρας Schweighaeuserus] μελικῆραι. ‘μελικῆρας PVL’ Dindf. ‘dicit alicui non minus suavem animam esse quam capellis, quas bene olentibus herbis vesci notum est’. Dobr. Aristoph. Plut. 1021.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="26" xml:id="kock-0486-aytomoloi-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_aytomoloi">
+              <lg>
+                <l n="1" xml:id="kock-0486-aytomoloi-26-l1" xml:lang="grc">ἀτραπίζοντες τὰς ἁρμονίας διὰ πασῶν.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 460, 27 ἀτραπίζειν· βαδίζειν ἢ ὁδοποιεῖν. οὕτω Φερεκράτης Αὐτομόλοις. Hesych. ἀτραπίζειν· βαδίζειν, ὁδοιπορεῖν.</note>
+              <note type="apparatus">ineunte versu duo anapaesti exciderunt. loquitur poeta de re</note>
+            </div>
+          </div></body></text></TEI>

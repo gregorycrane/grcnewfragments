@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-phrixos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΦΡΙΞΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.phrixos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.phrixos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.phrixos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos"><head>ΦΡΙΞΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-phrixos-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos">
+            <note type="source">1. Aristoph. Ran. 1256. (1225.)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σιδώνιόν ποτ᾽ ἄστυ Κάδμος ἐκλιπὼν</l>
+              <l n="2" xml:lang="grc">Ἀγήνορος παῖς</l>
+            </lg>
+            <note type="commentary">ubi Schol. τοῦ δευτέρου Φρίξου Εὐριπίδου ἡ ἀρχή· τὸ λοιπὸν δὲ τοῦ στίχου</note>
+            <lg type="fragment">
+              <l n="3" xml:lang="grc">ἵκετ᾽ ἐς Θήβης πέδον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-phrixos-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos">
+            <note type="source">2. Schol. Eur. Phen. 6. ἐν γοῦν τῷ Φρίξῳ φησίν·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ἦσαν γὰρ, [ὡς λέγουσιν,] Ἀγήνορος κόροι</l>
+              <l n="2" xml:lang="grc">Κίλιξ, ἀφ᾽ οὗ καὶ Κιλικία κικλήσκεται,</l>
+              <l n="3" xml:lang="grc">Φοίνιξ, ὅθενπερ τοὔνομ᾽ ἡ χώρα φέρει,</l>
+              <l n="4" xml:lang="grc">καὶ Θάσος</l>
+            </lg>
+            <note type="commentary">Valck. 1. c. præterea huc referri voluit versum, qui sine auctoris nomine legitur apud Plut. de Exil. 17, (p. 607 B,) καὶ ὁ τοῦ Διονύσου πάππος (sc. φυγὰς ἦν), ὡς ἐξεπέμφθη τὴν Εὐρώπην ἀνευρεῖν, οὐδ᾽ αὐτὸς ἐπανῆλθε,</note>
+            <lg type="fragment">
+              <l n="5" xml:lang="grc">Φοίνιξ πεφυκὼς, ἐκ δ᾽ ὁρίζεται γένος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-phrixos-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos">
+            <note type="source">3. Eratosth. Catast. 14. Ταῦρος. Οὗτος λέγεται ἐν τοῖς ἄστροις τεθῆναι διὰ τὸ Εὐρώπην ἀγαγεῖν ἐκ Φοινίκης εἰς Κρήτην διὰ τοῦ πελάγους, ὡς Εὐριπίδης φησὶν ἐν τῷ Φρίξῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-phrixos-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:824">
+            <note type="source">4. Stobæus LXXIII, 35.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὡς οὐδὲν ὑγιές φασι μητρυιάς φρονεῖν</l>
+              <l n="2" xml:lang="grc">νόθοισι παισίν᾽ ὧν φυλάξομαι ψόγον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-phrixos-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:822">
+            <note type="source">5. Stobæus LXVII, 15.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γυνὴ γὰρ ἐν κακοῖσι καὶ νόσοις πόσει</l>
+              <l n="2" xml:lang="grc">ἥδιστόν ἐστι, δώματ᾽ ἦν οἰκῇ καλῶς,</l>
+              <l n="3" xml:lang="grc">ὀργήν τε πραΰνουσα καὶ δυσθυμίας</l>
+              <l n="4" xml:lang="grc">ψυχὴν μεθιστᾶσ᾽᾽ ἡδὺ κἀπάται φίλων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-phrixos-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:823">
+            <note type="source">6. Stobæus LXXIV, 31.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δίκαι᾽ ἔλεξε˙ χρὴ γὰρ εὐναίῳ πόσει</l>
+              <l n="2" xml:lang="grc">γυναῖκα κοινῇ τὰς τύχας φέρειν ἀεί.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-phrixos-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:827">
+            <note type="source">7. Etym. Μ. p. 714, 17. Σιροὶ, τὸ ἐπιτήδειον ἀγγεῖον εἰς ἀπόθεσιν πυρῶν καὶ τῶν ἄλλων ὀσπρίων. Ἀμμώνιος δὲ ἱστορεῖ, ὡς οἱ Ἀττικοὶ ὀξύνοντες τὸ ὄνομα τὸ ι βραχύνουσι, καὶ ἡ τριβὴ τῆς ἀναγνώσεως ἐκτείνεται. εὑρίσκεται δὲ καὶ βραχὺ, ὡς παρ᾽ Εὐριπίδῃ Φρίξῳ·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ἀνοῖξαι μὲν σιροὺς οὐκ ἠξίου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-phrixos-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:829">
+            <note type="source">8. Stobæus VIII, 7.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀνὴρ δ᾽ ὃς εἶναι φής, ἀνέρος οὐκ ἄξιον</l>
+              <l n="2" xml:lang="grc">δειλὸν κεκλῆσθαι καὶ νοσεῖν αἰσχρὰν νόσον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-phrixos-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:826">
+            <note type="source">9. Etym. M. p. 410, 13. ζῆθι· τὸ παραστατικὸν ζῆ, ὡς παρ᾽ Εὐριπίδῃ ἐν Ἰφιγενείᾳ (Taur 682.) καὶ ἐν Φρίξῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δι᾽ ἐλπίδος ζῆ καὶ δι᾽ ἐλπίδος τρέφου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-phrixos-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:828">
+            <note type="source">10. Stobæus XLIII, 4.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Αἱ γὰρ πόλεις εἴσ᾽ ἄνδρες, οὐκ ἐρημία.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-phrixos-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:833">
+            <note type="source">11. Stobæus CXX, 18.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τίς δ᾽ οἶδεν, εἰ ζῆν τοῦθ᾽, ὁ κέκληται θανεῖν,</l>
+              <l n="2" xml:lang="grc">τὸ ζῆν δὲ θνήσκειν ἐστί. πλὴν ὅμως βροτῶν</l>
+              <l n="3" xml:lang="grc">νοσοῦσιν οἱ βλέποντες, οἱ δ᾽ ὀλωλότες</l>
+              <l n="4" xml:lang="grc">οὐδὲν νοσοῦσιν, οὐδὲ κέκτηνται κακά.</l>
+            </lg>
+          </div>
+        <div type="textpart" subtype="fragment" n="12" xml:id="fragment-phrixos-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:830">
+            <note type="source">12. Athen. VI, p. 264 B, sq.</note>
+            <quote>οὗτοι οὖν οἱ κατὰ τὰς ὁμολογίας καταμείναντες καὶ παραδόντες ἑαυτοὺς ἐκλήθησαν τότε μὲν μενέσται, νῦν δὲ πενέσται· καὶ πολλοὶ τῶν κυρίων ἑαυτῶν εἰσὶν εὐπορώτεροι. καὶ Εὐριπίδης δ᾽ ἐν Φρίξῳ λάτριας αὐτοὺς ὀνομάζει διὰ τούτων</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Λάτρις πενέστης ἁμὸς ἀρχαίων δόμων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-phrixos-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:831">
+            <note type="source">13. Stobæus LXII, 39.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πολλοῖσι δούλοις τοὔνομ᾽ αἰσχρὸν, ἡ δὲ φρὴν</l>
+              <l n="2" xml:lang="grc">τῶν οὐχὶ δούλων ἐστ᾽ ἐλευθερωτέρα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-phrixos-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:832">
+            <note type="source">14. Justin. Mart. de Mon. p. 109 ed. Col. (p. 41 F. ed. Hag. Comit. 1742.)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰ δ᾽ εὐσεβὴς ὢν τοῖσι δυσσεβεστάτοις</l>
+              <l n="2" xml:lang="grc">εἰς ταὔτ᾽ ἔπρασσον, πῶς τάδ᾽ ἂν καλῶς ἔχοι,</l>
+              <l n="3" xml:lang="grc">εἰ Ζεὺς ὁ λῷστος μηδὲν ἔνδικον φρονεῖ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-phrixos-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos">
+            <note type="source">15. Sext. Empiric. adv. Math. I, 13, p. 274 et 287, (p. 661 et 665 ed. Bekk.)</note>
+            <quote>Οἷόν ἐστι καὶ τὸ παρὰ Εὐριπίδῃ λεχθὲν ἐν Φρίξῳ</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ὅστις δὲ θνητῶν οἴεται καθ᾽ ἡμέραν</l>
+              <l n="2" xml:lang="grc">κακόν τι πράσσων τοὺς θεοὺς λεληθέναι,</l>
+              <l n="3" xml:lang="grc">δοκεῖ πονηρὰ καὶ δοκῶν ἁλίσκεται,</l>
+              <l n="4" xml:lang="grc">ὅταν σχολὴν ἄγουσα τυγχάνῃ Δίκη,</l>
+              <l n="5" xml:lang="grc">τιμωρίαν ἔτισεν ὧν ἦρξεν κακῶν.</l>
+            </lg>
+            <note type="commentary">Apud Justin. hic versus præmittitur vitiosus: ἄφθονον βίου μῆκος δίδωσι πρὸς κρίσιν, apud Clem. vero hic: ὃς τοῖς ἁμαρτάνουσι πρὸς μῆκος βίου δίδωσιν· εἴ τις οἴεται καθ' ἡμέραν κ.τ.λ. Post quartum versum quinque alios subjiciunt Justin. et Clem.</note>
+            <lg type="fragment">
+              <l n="6" xml:lang="grc">ὁρᾶθ᾽ ὅσοι δοκεῖτε οὐκ εἶναι θεόν.</l>
+              <l n="7" xml:lang="grc">(δὶς ἐξαμαρτάνοντες οὐκ εὐγνωμόνως.)</l>
+              <l n="8" xml:lang="grc">ἔστιν γὰρ, ἔστιν' εἰ δέ τις πράττει κακῶς,</l>
+              <l n="9" xml:lang="grc">κακὸς πεφυκὼς, τὸν χρόνον κερδαινέτω·</l>
+              <l n="10" xml:lang="grc">χρόνῳ γὰρ οὗτος ὕστερον δώσει δίκην.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-phrixos-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:834">
+            <note type="source">16. Stobæus CXXII, 9.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καὶ γὰρ πέφυκε τοῦτ᾽ ἐν ἀνθρώπων φύσει·</l>
+              <l n="2" xml:lang="grc">ἦν καὶ δίκῃ θνήσκῃ τις, οὐχ ἦσσον ποθεῖ</l>
+              <l n="3" xml:lang="grc">πᾶς τις δακρύειν τοὺς προσήκοντας φίλους.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-phrixos-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:825">
+            <note type="source">17. Stobæus XCIV, 2.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κρείσσων δὲ βαιὸς ὄλβος ἀβλαβής βροτοῖς,</l>
+              <l n="2" xml:lang="grc">ἢ δῶμα πλούτῳ δυσσεβῶς ὠγκωμένον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-phrixos-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_phrixos" sameAs="urn:cts:greekLit:tlg0006.phrixos.nauck1889grc1:836">
+            <note type="source">18. Phot. πώγωνα πυρὸς, τὴν ἀναφορὰν τοῦ πυρός. Εὐριπίδης Φρίξῳ.</note>
+            <note type="commentary">Huc procul dubio respexit Poll. Οπ. ΙΙ, 88, ἐν τῇ τραγῳδίᾳ πώγων πυρὸς, ἡ εἰς ὀξὺ ἀναδρομὴ τῆς φλογός.</note>
+          </div>
+        </div></body></text></TEI>

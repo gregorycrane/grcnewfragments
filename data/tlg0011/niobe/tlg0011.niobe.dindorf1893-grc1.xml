@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-niobe-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΝΙΟΒΗ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.niobe; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.niobe.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.niobe.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_niobe"><head>ΝΙΟΒΗ</head><div type="textpart" subtype="fragment" n="393" xml:id="fragment-niobe-dindorf1893_grc1-393" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_niobe" sameAs="urn:cts:greekLit:tlg0011.niobe.nauck1889grc1:410">
+            <note type="source">Athenæus XIII, p. 601 a. Αἰσχύλος μέγας ὢν ποιητὴς καὶ Σοφοκλῆς ἦγον εἰς τὰ θέατρα διὰ τῶν τραγῳδιῶν τοὺς τῶν παίδων ἔρωτας· ὁ μὲν τὸν Ἀχιλλέως πρὸς Πάτροκλον, ὁ δ᾽ ἐν τῇ Νιόβῃ τὸν τῶν Νιόβης παίδων. Plutarchus Moral. p. 760 e. Τῶν τοῦ Σοφοκλέους Νιοβιδῶν βαλλομένων καὶ θνησκόντων ἀνακαλεῖταί τις οὐδένα βοηθὸν ἄλλον οὐδὲ σύμμαχον ἢ τὸν ἐραστὴν “Ὦ ἀμφ᾽ ἐμοῦ στεῖλαι.”</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="394" xml:id="fragment-niobe-dindorf1893_grc1-394" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_niobe">
+            <note type="source">Eustathius p. 1367, 21. Τῆς Νιόβης ἡ συμφορὰ κατὰ μέν τινας ἐν Λυδίᾳ, κατὰ δέ τινας ἐν Θήβαις γενέσθαι λέγεται. Σοφοκλῆς δὲ τοὺς μὲν παῖδας αὐτῇ ἐν Θήβαις ἀπολέσθαι φησίν· αὐτὴν δὲ εἰς Λυδίαν ἐλθεῖν. Lutatius ad Statii Theb. lib. VI, Niobe, secundum Homerum, duodecim filios habuit. Sophocles autem dicit eam quatuordecim habuisse. Vide Hermann. Opusc. vol. III, p. 38.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="395" xml:id="fragment-niobe-dindorf1893_grc1-395" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_niobe">
+            <note type="source">Diogenes Laërt. in vita Zenonis VII, 28. Ἐτελεύτα δὲ οὕτως. ἐκ τῆς σχολῆς ἀπιὼν προσέπταισε καὶ τὸν δάκτυλον περίερρηξε. παίσας δὲ τὴν γῆν τῇ χειρὶ, φησὶ τὸ ἐκ τῆς Νιόβης “Ἔρχομαι, τί μ' αύεις;” Eadem Suidas in αὔεις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="396" xml:id="fragment-niobe-dindorf1893_grc1-396" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_niobe" sameAs="urn:cts:greekLit:tlg0011.niobe.nauck1889grc1:413">
+            <note type="source">Schol. Edip. Colon. 684. Καν τῇ Νιόβη ὁ Σ. τὸν κρόκον ἄντικρυς τῇ Δήμητρι ἀνατίθεται.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="397" xml:id="fragment-niobe-dindorf1893_grc1-397" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_niobe" sameAs="urn:cts:greekLit:tlg0011.niobe.nauck1889grc1:411">
+            <note type="source">Harpocratio, Δερμηστής: Δίδυμος μὲν ἀποδίδωσι τὴν σκώληκα οὕτω λέγεσθαι τῷ Σοφοκλεῖ ἐν Νιόβῃ. Ἀρίσταρχος δὲ τὸ Σοφόκλειον ἐξηγούμενος τὸν ὄφιν ἀπέδωκε. μήποτε δὲ μᾶλλον ἂν ὅστις τὰ δέρματα ἐσθίει δερμηστής. Conf. fragm. 562. et Bekkeri Anecd. p. 240, 14.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="398" xml:id="fragment-niobe-dindorf1893_grc1-398" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_niobe">
+            <note type="source">Athenæus IV, p. 176 f. Τοὺς ἐλύμους αὐλοὺς, ὧν μνημονεύει Σ. ἐν Νιόβῃ τε καν Τυμπανισταῖς, οὐκ ἄλλους τινὰς εἶναι ἀκούομεν ἢ τοὺς Φρυγίους.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="399" xml:id="fragment-niobe-dindorf1893_grc1-399" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_niobe" sameAs="urn:cts:greekLit:tlg0011.niobe.nauck1889grc1:409">
+            <note type="source">Scholiasta Homeri Iliad. 6, 533. et Odyss. θ, 186. Ἡ ἀντὶ τοῦ ἦν—Σ. ἐν τῇ Νιόβῃ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἦ γὰρ φίλη ἐγὼ τῶνδε τοῦ προφερτέρου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="400" xml:id="fragment-niobe-dindorf1893_grc1-400" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_niobe">
+            <note type="source">Plutarchus, Moral. p. 691 d. Αὑτοὺς παραλογιζόμεθα, θερμὸν εὐθὺς εἶναι τὸ θερμαῖνον ὑπολαμβάνοντες· καὶ ταῦθ᾽ ὁρῶντες ὅτι ταὐτὸ ἱμάτιον ἐν χειμῶνι θερμαίνει, ἐν δὲ ἡλίῳ ψύχειν λέγομεν, ὥσπερ ἡ τραγικὴ τροφὸς ἐκείνη τὰ τῆς Νιόβης τέκνα τιθηνεῖται</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">λεπτοσπαθήτων χλανιδίων ἐρειπίοις</l>
+              <l n="2" xml:lang="grc">θάλπουσα καὶ ψύχουσα, καὶ πόνῳ πόνον</l>
+              <l n="3" xml:lang="grc">ἐκ νυκτὸς ἀλλάσσουσα τὸν καθ᾽ ἡμέραν.</l>
+            </lg>
+            <note type="commentary">Postrema καὶ πόνῳ ἡμέραν addita ex eodem p. 496 ubi σπαργάνων scriptum pro χλανιδίων. Ad So.</note>
+          </div>
+        </div></body></text></TEI>

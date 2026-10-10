@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΦΡΥΓΕΣ Η ΕΚΤΟΡΟΣ ΛΥΤΡΑ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.phryges; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges"><head xml:lang="grc">ΦΡΥΓΕΣ Η ΕΚΤΟΡΟΣ ΛΥΤΡΑ</head>
+          <note type="introduction" xml:lang="mul">De trilogia cuius haec fabula fuisse videatur, cf. p. 42 . summa argumenti cognoscitur ex Schol. A Il. Χ 351 , ubi de verbis οὐδ’ εἴ κεν σ’ αὐτὸν χρυσῷ ἐρύσασθαι ἀνώγοι Δαρδανίδης Πρίαμος haec annotantur : ὑπερβολικῶς λέγει· ὁ δὲ Αἰσχύλος ἐπ’ ἀληθείας ἀντίσταθμον χρυσὸν πεποίηκε πρὸς τὸ Ἕκτορος σῶμα ἐν Φρυξὶν. (aliud scholion codicis T : ὁ μέντοι Αἰσχύλος Ἕκτορος λύτροις ἀληθὲς αὐτὸ ἐξεδέξατο.) Φρύγες igitur Troiani dicuntur, cf. fr. 271 et 446 . Athenaeus I p. 21 F : Ἀριστοφάνης γοῦν, παρὰ δὲ τοῖς κωμικοῖς ἡ περὶ τῶν τραγικῶν ἀπόκειται πίστις, ποιεῖ αὐτὸν Αἰσχύλον λέγοντα (Com. 2 p. 1177) ’τοῖσι χοροῖς αὐτὸς τὰ σχήματ’ ἐποίουν’, καὶ πάλιν ’τοὺς Φρύγας οἶδα θεωρῶν, ὅτε τῷ Πριάμῳ συλλυσόμενοι (συλλησόμενοι C) τὸν παῖδ’ ἦλθον τεθνεῶτα, πολλὰ τοιαυτὶ καὶ τοιαυτὶ καὶ δεῦρο σχηματίσαντας’ . Achillem poeta diu silentem fecit, cf. Vita Aeschyli p. 3, 11 (Westerm. Βιογρ. p. 119, 36) Ar. Ran. 911 Schol. Aesch. Prom. 436 Eust. Od. p. 1941, 1 Eust. Il. p. 1343, 62 , quos locos attulimus p. 50 . adde Schol. Ar. Ran. 911 : ὁ Ἀχιλλεὺς δὲ καθήμενός ἐστι καὶ οὐκ ἀποκρινόμενος παρ’ Αἰσχύλῳ ἐν δράματι ἐπιγραφομένῳ Φρυξὶν ἢ Ἕκτορος λύτροις (λουτροῖς RVΘ, λύτροις Θ in glossa) . quibus subiciuntur recentiora haec, quae om. R : ἄλλως· εἰκὸς τὸν ἐν τοῖς Φρυξὶν Ἀχιλλέα ἢ Ἕκτορος λύτροις· ἢ τὸν ἐν Μυρμιδόσιν, ὃς μέχρι τριῶν ἡμερῶν οὐδὲν φθέγγεται. Hermann huic fabulae adscribit fr. 296 . in Stobaei Flor. 4, 21 versus πολλάκι τοι καὶ μωρὸς ἀνὴρ κατακαίριον εἶπεν lemma habet Αἰσχύλος ἐν Φρυξὶν, errore manifesto : perturbatas illo in loco scriptorum notationes in ordinem redigere temptavit Hermann Opusc. vol. 5 p. 159 sq. , qui fortasse hac in re verum vidit, quod versum οὐ χρὴ ποδώκη τὸν τρόπον λίαν φορεῖν (adesp. fr. 519) Aeschylo tribuit.</note>
+          <div type="textpart" subtype="fragment" n="263" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" xml:id="aesch-fr263">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-263-1">ἀλλὰ ναυβάτην</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-263-2">φορτηγὸν, ὅστις ῥῶπον ἐξάγει χθονός</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Pollux 7, 131 : τῷ μέντοι φορτηγῷ ἐπὶ τῶν τὰ φορτία ἀγόντων ἐμπόρων κέχρηται Αἰσχύλος ἐν Φρυξὶν ἢ λύτροις ’ἀλλὰ — χθονός’ .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="264" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" xml:id="aesch-fr264">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-264-1">ἀνὴρ δ’ ἐκεῖνος ἦν πεπαίτερος μόρων</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. II p. 51 C : μόρα δὲ τὰ συκάμινα καὶ παρ’ Αἰσχύλῳ ἐν Φρυξὶν ἐπὶ τοῦ Ἕκτορος ’ἀνὴρ — μόρων’ . Eust. Il. p. 211, 16 : πεπαίτερον, ὅπερ ἐστὶν ὡριμώτερον. Αἰσχύλος ’ἀνὴρ — μόρων’ . Phot. Lex. p. 275, 19 : μόρον· τὸ συκάμινον. Αἰσχύλος. Meineke contulit Theocr. 7, 120 : ἀπίοιο πεπαίτερος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="265" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" xml:id="aesch-fr265">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-265-1">διαπεφρούρηται βίος</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 494 : διαπεφρούρηται βίος· Αἰσχύλος Φρυξίν. οἷον ἡ διὰ τοῦ βίου φρουρὰ (φθορὰ codex) συντετέλεσται, ἢ διελήλυθεν ὁ χρόνος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="266" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" xml:id="aesch-fr266">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-266-1">καὶ τοὺς θανόντας εἰ θέλεις εὐεργετεῖν</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-266-2">εἴτ’ οὖν κακουργεῖν, ἀμφιδεξίως ἔχει</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-266-3">τῷ μήτε χαίρειν μήτε λυπεῖσθαι φθιτούς.</l>
+              <l n="4" xml:id="nauck-tfg-1-aesch-266-4">ἡμῶν γε μέντοι Νέμεσις ἔσθ’ ὑπερτέρα,</l>
+              <l n="5" xml:id="nauck-tfg-1-aesch-266-5">καὶ τοῦ θανόντος ἡ Δίκη πράσσει κότον.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Stob. Flor. 125, 7 : Αἰσχύλου Ἕκτορος. ’καὶ τοὺς — πράσσει κότον’ .</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 εἰ θέλεις om. A εἴτε λῇς . v. 2 ὃ εἴτ’ οὖν ἤγουν (Adv. crit. 1 p. 206) . v. 3 καὶ τῷ . v. 3 βροτούς φθιτούς . v. 5 κότον τόκον scripsi in priore edit. , quam coniecturum probat Ribbeck Röm. Tragödie p. 130 . φόνον (in Soph. El. 792 p. 306) , τάφον (Emend. Aeschyl. p. 161) . καὶ τοῦ θανόντος εἰ δίκην πράσσει κότος (Adnot. ad trag. Gr. fr. p. 26) . nihil in his inest quod ulla probabilitatis specie commendetur.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="267" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" xml:id="aesch-fr267">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-267-1">Ἀνδραίμονος γένεθλον. . Λυρνησσίου,</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-267-2">ὅθεν περ Ἕκτωρ ἄλοχον ἤγαγεν φίλην</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. Eur. Andr. 1 : τὴν ἐν Ἀσίᾳ λέγει τὴν Ὑποπλάκιον Θήβην — . ἔνιοι δὲ καὶ τὴν Χρύσην καὶ τὴν Λυρνησσὸν ἐν τῷ τῆς Θήβης πεδίῳ τάσσουσιν, ὡς ὁ Αἰσχύλος Λυρνησσίδα προσαγορεύας τὴν Ἀνδρομάχην ἐν τοῖς Φρυξὶν, ἔνθα καὶ ξένως ἱστορεῖ Ἀνδραίμονος αὐτὴν λέγων ’Ἀνδραίμονος — φίλην’ .</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 γένεθλον ὦ γένεθλα τοῦ γένεθλον ἦν . v. 2 περ ἕκτωρ M παρ’ ἕκτορος GT περ Ἕκτωρ σ῾ .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="268" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" xml:id="aesch-fr268">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-268-1">ἀγαστά</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 15 : ἀγαστά· ἃ ἄν τις ἀγάσαιτο, οἷον ἀρεστά . Αἰσχύλος Φρυξίν (φραζ’ codex) . Alberti ἀγατά ex litterarum ordine scribendum coniecit.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="269" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" xml:id="aesch-fr269">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-269-1">ἀδίοπον</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 46 : ἀδίοπον· ἄναρχον καὶ ἀφύλακτον. Αἰσχύλος Φρυξί. δίοποι γὰρ οἱ τῆς νεὼς φύλακες. eadem Anecd. Bekk. p. 344, 8 omissis verbis Αἰσχύλος Φρυξί. cf. Eust. Il. p. 203, 13 : ἀδίοπος γάρ, φασίν, ὁ ἄναρχος καὶ ἀφύλακτος, ἐπεὶ δίοποι οἱ βασιλεῖς καὶ οἱ διέποντες.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="270" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" xml:id="aesch-fr270">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-270-1">ἀροτόν</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 286 : ἀροτόν· τὸν ὁλκὸν τοῦ Ἕκτορος, ἢ τὸ ἀντίσταθμον. Αἰσχύλος Φρυξί (φρυξίς codex) . lemma vitiosum, ἀντίρροπον coni. M. Schmidt.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="271" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" xml:id="aesch-fr271">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-271-1">ἐπιστροφαί</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 2 p. 170 : ἐπιστροφαί· διατριβαί , δίαιται. Αἰσχύλος Φρυξὶν. Bergk probabiliter huc refert versum sine poetae nom. ab Eust. Od. p. 1484, 49 traditum, Κίλιξ δὲ χώρα καὶ Σύρων ἐπιστροφαί. ac fortasse cum hoc versu iungendum est adespoton fr. 560 , ita ut scribamus : χωρὶς τὰ Μυσῶν καὶ Φρυγῶν ὁρίσματα Κίλιξ τε χώρα καὶ Σύρων ἐπιστροφαί.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="272" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" xml:id="aesch-fr272">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-272-1">τιτῆναι</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 4 p. 160 : τιτῆναι· βασιλίδες (βασι/λδ’ codex) . ἢ Ἕκτορος λύτροις. post βασιλίδες excidisse Αἰσχύλος ἐν Φρυξὶν coni. Soping. Hesych. 4 p. 156 : τιήνη· ἡ βασίλισσα. p. 160 : τίταξ· ἔντιμος ἢ δυνάστης, οἳ δὲ βασιλεύς.</note>
+          </div>
+        </div></body></text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATES, ΑΜΦΙΣΒΗΤΗΣΙΜΑ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Crates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0433.amphisbetesima.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0433.amphisbetesima.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0433.amphisbetesima.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_amphisbetesima"><head>ΑΜΦΙΣΒΗΤΗΣΙΜΑ</head><div type="textpart" subtype="fragment" n="52" xml:id="kock-0433-amphisbetesima-52" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_amphisbetesima">
+              <note type="source">Schol. latinus Arati p. 36 Buhl. et Crates comicus a Vesta incipiens profari carmina (videtur). est enim proverbium <foreign xml:lang="grc">ἀφ' Ἑστίας ἄρχου</foreign>. Schol. Ven. Aristoph. Vesp. 846 <foreign xml:lang="grc">τῇ γὰρ Ἑστίᾳ τὰς ἀπαρχὰς ἔθος ἦν ποιεῖσθαι</foreign>.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="53" xml:id="kock-0433-amphisbetesima-53" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_amphisbetesima">
+              <lg>
+                <l n="1" xml:id="kock-0433-amphisbetesima-53-l1" xml:lang="grc">ἀχράδων πρόσφερε</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 475, 12 <foreign xml:lang="grc">Εὔπολις Ἀστρατεύτοισιν οἱ πεπείρους ἀχράδας πρὸς τῇ συκίδι προσετως καὶ ἀχράδων . . . . φερεκράτης</foreign>. Meinekius ed. min. p. VII et 164 Eupolidis fragmentum (33) voce <foreign xml:lang="grc">προσετως</foreign> terminat et reliqua ita explet: <foreign xml:lang="grc">καὶ 'ἀχράδων πρόσφερε' Κράτης</foreign>.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="54" xml:id="kock-0433-amphisbetesima-54" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_amphisbetesima">
+              <lg>
+                <l n="1" xml:id="kock-0433-amphisbetesima-54-l1" xml:lang="grc">Σαρπηδονία ἀκτή</l>
+              </lg>
+              <note type="source">
+                <foreign xml:lang="grc">ἄκρα τῆς Θρᾴκης. Κράτης τὴν μεγάλην. Suid. Hesych. Σαρπηδόνιον· τὸ μέγα. καὶ ἡ ἐν Θρᾴ[ση]κῃ καὶ Κιλικίᾳ πέτρα ὑψηλοτάτη. Phot. Σαρπηδών· μεγάλη· καὶ Σαρπηδόνιον δέσμα, τὸ μέγα. Σαρπηδὼν ἀκτή· ἄκρα τῆς Θρᾴκης· κρατίστην, (scr. Κράτης τὴν) μεγάλην.</foreign> haec ad grammatici Cratetis commentarios Euripideos pertinere docent Schol. Eurip. Rhes. 28 conl. cum schol. v. 5 (p. 19—21 Dindf.).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="55" xml:id="kock-0433-amphisbetesima-55" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_amphisbetesima">
+              <lg>
+                <l n="1" xml:id="kock-0433-amphisbetesima-55-l1" xml:lang="grc">ἡμεροῦν</l>
+              </lg>
+              <note type="source">
+                <foreign xml:lang="grc">Κράτης· τὸ τὴν γῆν ἐξημεροῦν καὶ ἐργάζεσθαι. Hesych.</foreign> — grammaticum intellegit Meinekius (251). <foreign xml:lang="grc">ἐπέχω.</foreign>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="56" xml:id="kock-0433-amphisbetesima-56" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_amphisbetesima">
+              <lg>
+                <l n="1" xml:id="kock-0433-amphisbetesima-56-l1" xml:lang="grc">ῥῆσις</l>
+              </lg>
+              <note type="source">
+                <foreign xml:lang="grc">τὸ ψήφισμα. οὕτω Κράτης Phot.</foreign> 'nisi Cratetem dicit grammaticum'. Meinek.</note>
+              <note type="apparatus">Praeterea cf. Cratin. 302. 373. 445. Antiphan. Stob. Flor. 115, 9.</note>
+            </div>
+          </div></body></text></TEI>

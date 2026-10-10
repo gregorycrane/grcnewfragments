@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>METAGENES, ΑΥΡΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Metagenes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0475.ayrai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0475.ayrai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0475.ayrai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0475_ayrai"><head>ΑΥΡΑΙ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0475-ayrai-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0475_ayrai">
+              <lg>
+                <l n="1" xml:id="kock-0475-ayrai-1-l1" xml:lang="grc">τίς ἡ Κολαινὶς Ἄρτεμις;</l>
+                <l n="2" xml:id="kock-0475-ayrai-1-l2" xml:lang="grc">ἱερεὺς γὰρ ὢν τετύχηκα τῆς Κολαινίδος.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Av. 873 Ἀρτέμιδι ἐπώνυμον ἡ Κολαινίς. Μεταγένης δὲ ἐν Αὔραις κτλ. τίς ἡ om. Ald., cuius sane auctoritas nulla est.</note>
+              <note type="apparatus">unum loqui arguit γάρ particula: idem autem non potest simul sacerdotem se Dianae Colaenidis fuisse dicere et quae ea dea sit quaerere. scribendum videtur τί σοι Κολαινὶς Ἄρτεμις; quid ad te pertinet? cf. Aristoph. Eq. 1198. Thesm. 498. Diphil. 17, 4. 32, 18. Apollodor. com. 4, 3. Nicomach. 1, 24. et de Colaenide Diana Pausan. 1, 31, 5. Preller. Myth. gr.<hi rend="superscript">2</hi> I 236 n. 1.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0475-ayrai-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0475_ayrai">
+              <lg>
+                <l n="1" xml:id="kock-0475-ayrai-2-l1" xml:lang="grc">ἀλλ', ὦγαθέ, δειπνῶμεν πρῶτον, κἄπειτά με πάντ' ἐπερώτα,</l>
+                <l n="2" xml:id="kock-0475-ayrai-2-l2" xml:lang="grc">ἅττ' ἂν βούλῃ· νῦν γὰρ πεινῶν δεινῶς πώς εἰμ' ἐπιλήσμων.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 385 b ἐξ Αὐρῶν Μεταγένους κτλ. πρῶτον add. Porsonus.</note>
+              <note type="apparatus">πάντ'] πᾶν Cobet. N. 1. 142. non recte. ἅττ' Κ.] ὅ τι. cf. Bentlei Dobraeique adnotata ad Aristoph. Nub. 348. hoc fragmentum cum fr. 3 Bergkius R. c. Att. 421. 2 ita coniungit, ut fr. 2 alterius personae responsum esse statuat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0475-ayrai-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0475_ayrai">
+              <lg>
+                <l n="1" xml:id="kock-0475-ayrai-3-l1" xml:lang="grc">ὥσπερ ἐπειδὰν δειπνῶμέν που, τότε πλεῖστα λαλοῦμεν ἅπαντες.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 355 a ἐκ Μαμμακύθου ἢ Αὐρῶν Μεταγένους ἰαμβεῖον κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0475-ayrai-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0475_ayrai">
+              <lg>
+                <l n="1" xml:id="kock-0475-ayrai-4-l1" xml:lang="grc">ὑμῖν ὀρχηστρίδας εἶπον ἑταίρας</l>
+                <l n="2" xml:id="kock-0475-ayrai-4-l2" xml:lang="grc">ὡραίας πρότερον, νῦν δ' οὐχ ὑμῖν ἀγορεύω</l>
+                <l n="3" xml:id="kock-0475-ayrai-4-l3" xml:lang="grc">ἄρτι χνοαζούσας αὐλητρίδας, αἵ τε τάχιστα</l>
+                <l n="4" xml:id="kock-0475-ayrai-4-l4" xml:lang="grc">ἀνδρῶν φορτηγῶν ὑπὸ γούνατα μισθοῦ ἔλυσαν.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 571 b κατὰ τὰς Μεταγένους Αὔρας ἢ τὸν Ἀρισταγόρου Μαμμάκυθον κτλ.</note>
+              <note type="apparatus">νῦν δ' οὐχ] νῦν δ' αὖθ' Bergkius R. c. Att. 422, quod necessarium videtur, nisi aut per interrogationem sententia efferatur aut post ἔλυσαν alterum membrum a particula ἀλλά incipiens excidisse statuatur. χνοάζουσαι αὐλητρίδες quomodo esse possint nescio. χλοαζούσας scribendum videtur, nisi forte genitalium lanugo significatur. ἄνδρας φορτηγούς Schweig-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0475-ayrai-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0475_ayrai">
+              <p>οἰκίσκον</p>
+              <p>ἐκάλουν οἱ Ἀττικοὶ τὸ ὑφ’ ἡμῶν λεγόμενον ὀρνιθοτροφεῖον ... Μεταγένης Αὔραις. Harpocration. cf. Aristoph. fr. 405. 406. 441.</p>
+              <note type="apparatus">
+                <p>De aliis fragmentis fortasse ad Auras referendis cf. Bergk. R. c. Att. 422.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

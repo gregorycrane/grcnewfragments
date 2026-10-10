@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>POLYZELUS, ΔΗΜΟΤΥΝΔΑΡΕΩΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Polyzelus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0499.demotyndareos.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0499.demotyndareos.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0499.demotyndareos.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0499_demotyndareos"><head>ΔΗΜΟΤΥΝΔΑΡΕΩΣ</head><div type="textpart" subtype="fragment" n="30" xml:id="kock-0499-demotyndareos-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0499_demotyndareos">
+              <p>ἐπιθυμήματα</p>
+              <note type="source">παρὰ Φιλύλλῳ. Pollux 2, 231. i. e. cupiditates. cf. quae paullo ante dixit Pollux.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="31" xml:id="kock-0499-demotyndareos-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0499_demotyndareos">
+              <p>ἡμίπλεκτοι</p>
+              <note type="source">Φιλύλλιος. Pollux 6, 161.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="32" xml:id="kock-0499-demotyndareos-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0499_demotyndareos">
+              <p>μετάκερας</p>
+              <note type="source">τὸ εὔκρατον ἢ τὸ ψυχρόν. Φιλύλλιος. Photius. cf. Amphid. 7. Alexid. 134.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="33" xml:id="kock-0499-demotyndareos-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0499_demotyndareos">
+              <p>πηνίσασθαι</p>
+              <note type="source">ἀπὸ πηνίου. Φιλύλλιος δὲ αὐτὸ εἴρηκεν. Pollux 7, 31.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="1" xml:id="kock-0499-demotyndareos-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0499_demotyndareos">
+              <note type="source">Erotianus 64, 15 Klein. οἶνον αὐτίτην τὸν ἀπαράχυτον, ὡς καὶ Πολύζηλος ἐν Δημοτυνδάρεῳ φησίν· ἀμαθῶς γὰρ αὐτίτης πᾶσί τε θεοξενίης ἐγίνετο. Athenaeus 1, 31 e Πολύζηλος δὲ αὐτίτην καλεῖ οἶνον.</note>
+              <note type="apparatus">οἶνον Gadaldinus ap. Eustachium] δεινὸν (i. e. δ' οἶνον). αὐτίτην] ἀϋτίτην Eustach. ἀντίην C τὴν B. Δημοτυνδάρεω Eustach.] δημως τυνδάρεων AB δήμω τὴν δάρεων C. ἐγίνετο] ἐγένετο C. Theoxenia inprimis Pellenae in Achaia, sed etiam Delphis, in Teno Paroque insulis celebrabantur, in Attica non videntur usitata fuisse. cf. C. F. Hermann. Antiq. relig. 64, 5. 65, 18. 25. Schoemann. Ant. gr.² II 440. 1. Boeckh. Explic. Pind. 194. Polyzelus videtur scripsisse ἀβλαβῶς (i. e. ita ut nemo ebrius fieret) γὰρ αὐτίτης (ἐκεῖ) | ἅπασιν ἐν θεοξενίοις ἐπίνετο. Theoxeniis enim vinum merum non peregrinum potum videtur. ἐν θεοξ., cf. Aristoph. fr. 433.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0499-demotyndareos-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0499_demotyndareos">
+              <lg>
+                <l n="1" xml:id="kock-0499-demotyndareos-2-l1" xml:lang="grc">ἵξει πρὸς Ἐννεάκρουνον, εὔυδρον τόπον.</l>
+              </lg>
+              <note type="source">Etymol. m. 343, 42 Ἐννεάκρουνος, κρήνη Ἀθήνησιν παρὰ τὸν Ἰλισσόν, ἢ πρότερον Καλλιρρόη ἔσκεν. ἀφ' ἧς λουτρὰ ταῖς γαμουμέναις μετίασι. Πολύζηλος Δημοτυνδάρεῳ κτλ. ῥητορική.</note>
+              <note type="apparatus">δὲ ἵξει ἃ ἐνν. ἔνυδρον τόπον D ἵξει ἃ ἐνν. ἔνυδρον τό M. ἵξει πρὸς Ἐννεάκρουνον ἔνυδρον τόπον cod. Flor. Milleri (Mélanges 113). atque in hoc (ἵξει πρός) acquiescendum videtur, dummodo pro ἔνυδρον cum Meinekio scribatur εὔυδρον. coniecturis Sylburgii, Valesii, Hemsterhusii, Toupii facile carebimus. de futuro ἵξομαι cf. Theopomp. 17. de Enneacruno Bursian. Geogr. gr. I 299. ceterum in verbis πρότερον Καλλιρρόη ἔσκεν Meinekius hemistichium epici poetae agnovit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0499-demotyndareos-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0499_demotyndareos">
+              <lg>
+                <l n="1" xml:id="kock-0499-demotyndareos-3-l1" xml:lang="grc">τριῶν κακῶν γοῦν ἦν ἑλέσθ' αὐτῷ τι πᾶσ' ἀνάγκη,</l>
+                <l n="2" xml:id="kock-0499-demotyndareos-3-l2" xml:lang="grc">ἢ ξύλον ἐφέλκειν, ἢ πιεῖν κώνειον, ἢ προδόντα</l>
+                <l n="3" xml:id="kock-0499-demotyndareos-3-l3" xml:lang="grc">τὴν ναῦν ὅπως τάχιστα τῶν κακῶν ἀπαλλαγῆναι.</l>
+                <l n="4" xml:id="kock-0499-demotyndareos-3-l4" xml:lang="grc">ταῦτ' ἔστι τρία Θηραμένους, ἅ σοι φυλακτέ' ἐστί.</l>
+              </lg>
+              <note type="source">Photius τῶν τριῶν κακῶν ἕν· . . . ταῦτα δὲ εἶναι λέγουσιν ἃ Θηραμένης ὥρισε προστιμήματα. Πολύζηλος Δημοτυνδάρεῳ κτλ. similiter Suidas τῶν τριῶν κακῶν (τριῶν γοῦν κακῶν). cf. Aristoph. fr. 549.</note>
+              <note type="apparatus">Meinekius τριῶν κακῶν ἓν ἦν et v. 4 ταυτὶ τὰ τρία, at recte Cobetus N. 1. 145 ἦν (v. 4 φυλακτέ' ἐστί), Herwerdenus Nov. add. crit. 13 αὐτῷ (v. 4 ἃ σοι φ.) ferri non posse monuerunt. itaque ille τριῶν κακῶν ἓν γοῦν ἑλέσθ' αὐτῷ 'στι κτλ., hic τριῶν γὰρ ἓν κακῶν ἑλέσθ' αὐτοῦ 'στι κτλ. scribendum videtur v. 1 τριῶν</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0499-demotyndareos-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0499_demotyndareos">
+              <lg>
+                <l n="1" xml:id="kock-0499-demotyndareos-4-l1" xml:lang="grc">λεκανίῳ γὰρ</l>
+                <l n="2" xml:id="kock-0499-demotyndareos-4-l2" xml:lang="grc">πρῶτον μὲν ἐναπονίψεις,</l>
+                <l n="3" xml:id="kock-0499-demotyndareos-4-l3" xml:lang="grc">ἐνεξεμεῖς, ἐνεκπλυνεῖς,</l>
+                <l n="4" xml:id="kock-0499-demotyndareos-4-l4" xml:lang="grc">ἐναποπατήσεις, Κλεινία.</l>
+              </lg>
+              <note type="source">Pollux 10, 76 καὶ γὰρ ἵνα ἐξεμοῦσι, καὶ τοῦτο λεκάνην ὠνόμαζον . . . Πολύζηλος δὲ ἐν Δημοτυνδάρεῳ κτλ.</note>
+              <note type="apparatus">ἐναποπατήσεις Bentl.] ἐναποβάσεις. Κλεινία Dobr. Adv. I 578] κυανία. Φανία Bentl. Epist. Hemst. 97. Elmsleius Acharn. 1110 λεκανίῳ γὰρ ἐναπονίψει πρῶτον, εἶτ᾿ ἐνεξεμεῖ· | εἶτ᾽ ἐνεκπλυνεῖ δέ, κατ᾿ ἐναποπατήσει, Μάνια. Cobetus N. 1. 145 ὥσπερ λεκανίῳ τῷδε γὰρ πρῶτον μὲν ἐναπονίψει, ἐνεξεμεῖς, ἐνεκπλυνεῖς, ἔπειτ᾽ ἐναποπατήσει. at tetrametri trochaici tali sententiae vix conveniunt. recte tamen ἐναποπατήσει, pers. 2. desideratur quod verbis πρῶτον μέν respondeat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0499-demotyndareos-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0499_demotyndareos">
+              <note type="source">Schol. Lucian. 46 Iacob. Πολύζηλος δὲ ἐν τῷ Δημοτυνδάρεῳ</note>
+              <p>Φρύγα αὐτὸν (Ὑπέρβολον) εἶναι εἰς τὸ βάρβαρον σκώπτων φησί.</p>
+            </div>
+          </div></body></text></TEI>

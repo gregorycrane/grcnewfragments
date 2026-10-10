@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΠΡΩΤΕΥΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.proteys; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.proteys.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.proteys.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:proteys"><head>ΠΡΩΤΕΥΣ</head>
+          <pb n="605" facs="urn:hathi:iau.31858007086675:scan:613"/>
+          <div type="textpart" subtype="fragment" n="194" xml:id="frag_584b6262a3" corresp="urn:cite2:perseus:fragmentaryplays.v1:proteys" sameAs="urn:cts:greekLit:tlg0085.proteys.nauck1889-grc1:210">
+            <note type="source">Athenaeus IX. p. 394 a.</note>
+            <note type="source">Φάψ—Αἰσχύλου ἐν τῷ τραγικῷ (i. q. σατυρικῷ) Πρωτεῖ οὕτω μνημονεύοντος τοῦ ὄρνιθος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_584b6262a3-l1" xml:lang="grc">Σιτουμένην δύστηνον ἀθλίαν φάβα,</l>
+              <l n="2" xml:id="frag_584b6262a3-l2" xml:lang="grc">μέσακτα πλευρὰ πρὸς πτύοις πεπλεγμένην.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="195" xml:id="frag_789d5c6d33" corresp="urn:cite2:perseus:fragmentaryplays.v1:proteys" sameAs="urn:cts:greekLit:tlg0085.proteys.nauck1889-grc1:211">
+            <note type="source">Herodianus περὶ μονήρους λέξεως p. 35, 19.</note>
+            <note type="source">Γάρος Αἰσχύλος Πρωτεῖ σατυρικῷ “Καὶ τὸν ἰχθύων γάρον.” Omisso nomine fabulae affertur ab Athenaeo II. p. 67 c. Conf. Herodianum Piersoni p. 437.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="196" xml:id="frag_17e28ed77d" corresp="urn:cite2:perseus:fragmentaryplays.v1:proteys">
+            <note type="source">Scholiasta Homeri Odyss. δ, 366.</note>
+            <note type="source">Εἰδοθέη: ἀπὸ τῆς εἰδήσεως καὶ ἐπιστήμης τοῦ πατρὸς τὸ ὄνομα. καὶ Αἰσχύλος δὲ ἐν Πρωτεῖ Εἰδοθέαν αὐτὴν καλεῖ. Etymolog. Gudian. p. 316, 30. ex codice Parisino 2638. correctum, Κερδώ: ὑποκοριστικῶς, ὡς παρ' Αἰσχύλῳ ἡ Εἰδὼ καὶ Ὑψὼ ἀντὶ τοῦ Εἰδοθέα καὶ Ὑψιπύλη. Conf. Bekkeri Anecd. II. p. 857, 9.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="197" xml:id="frag_467a0eefd5" corresp="urn:cite2:perseus:fragmentaryplays.v1:proteys" sameAs="urn:cts:greekLit:tlg0085.proteys.nauck1889-grc1:213">
+            <note type="source">Hesychius, Ἄελπτοι: δεινοὶ καὶ ἄαπτοι. Αἰσχύλος Πρωτεῖ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="198" xml:id="frag_6394d58a46" corresp="urn:cite2:perseus:fragmentaryplays.v1:proteys" sameAs="urn:cts:greekLit:tlg0085.proteys.nauck1889-grc1:214">
+            <note type="source">Hesychius, Ἄμαλα: τὴν ναῦν, ἀπὸ τοῦ ἀμᾶν τὴν ἅλα. Αἰσχύλος Πρωτεῖ σατυρικῷ. Corrupte Etymolog. M. p. 75, 22. Ἁμάδα τὴν ναῦν Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="199" xml:id="frag_60443170b0" corresp="urn:cite2:perseus:fragmentaryplays.v1:proteys" sameAs="urn:cts:greekLit:tlg0085.proteys.nauck1889-grc1:215">
+            <note type="source">Hesychius, Ἐπάσω: ἐκτήσω. Αἰσχύλος Πρωτεῖ σατυρικῷ.</note>
+          </div>
+        </div></body></text>
+</TEI>

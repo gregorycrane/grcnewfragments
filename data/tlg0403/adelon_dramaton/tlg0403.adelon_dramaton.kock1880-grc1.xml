@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>AMIPSIAS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Amipsias</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0403.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0403.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0403.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="21" xml:id="kock-0403-adelon_dramaton-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0403-adelon_dramaton-21-l1" xml:lang="grc">κατὰ χειρὸς ὕδωρ</l>
+              </lg>
+              <note type="source">ὡς Εὔπολις ἐν Χρυσῷ γένει καὶ Ἀμειψίας Σφενδόνῃ. Athenaeus 9, 408 e.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="22" xml:id="kock-0403-adelon_dramaton-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0403-adelon_dramaton-22-l1" xml:lang="grc">Α. αὔλει μοι μέλος,</l>
+                <l n="2" xml:id="kock-0403-adelon_dramaton-22-l2" xml:lang="grc">σὺ δ’ ᾆδε πρὸς τήνδ’· ἐκπίομαι δ’ ἐγὼ τέως.</l>
+                <l n="3" xml:id="kock-0403-adelon_dramaton-22-l3" xml:lang="grc">Β. αὔλει σύ, καὶ σὺ τὴν ἄμυστιν λάμβανε.</l>
+                <l n="4" xml:id="kock-0403-adelon_dramaton-22-l4" xml:lang="grc">‘οὐ χρὴ πόλλ’ ἔχειν θνητὸν ἄνθρωπον,</l>
+                <l n="5" xml:id="kock-0403-adelon_dramaton-22-l5" xml:lang="grc">ἀλλ’ ἐρᾶν καὶ κατεσθίειν· σὺ δὲ κάρτα φείδῃ.’</l>
+              </lg>
+              <note type="source">Athenaeus 11, 783 e ἔπινον δὲ τὴν ἄμυστιν μετὰ μέλους, μεμετρημένου πρὸς ὠκύτητα χρόνου, ὡς Ἀμειψίας κτλ.</note>
+              <note type="apparatus">2. σὺ δ’ ᾆδε πρός, τήνδ’ ἐκπίομαι (i. e. τὴν κύλικα) Iacobs. Addit. Ath. 249. Cobet. Obs. crit. 62 σὺ δ’ ᾆδε, τήνδ’ (τὴν δ’) ἐγὼ τέως ἐκπίομαι, quam emendationem audacissimam iure dicit Meinekius V 52. 3. καὶ σὺ add. Iacobs. κἆτα Meinekius in ed. min. 4. ἄνθρωπον] ἄνθρωπον ὄντ’ Meinek., numeris creticis. 5. κατεσθίειν] κἀσθίειν idem. κάρτα φείδῃ] κάρτ’ ἀφειδής Meinekius. πρὸς τήνδε qui v. 2 coniungunt, tibicinam intellegunt. Dobr. Advers. II 330. at ᾄδειν πρὸς αὐλόν dicitur, cf. Aristoph. Eq. 578. Vesp. 1420. Pac. 19. Lys. 628. Ran. 415. 611. Plut. 1001, ᾄδειν πρὸς αὐλητρίδα quod sciam non dicitur. versus nondum persanatus videtur. ad Apocottabizontas Bergkius refert R. c. Att. 368. iubet aliquis tibicinam modos canendi praeire, alium ex sodalibus carmen canere, dum ipse ἄμυστιν bibat. tum ille ‘infla tibias’, inquit ad tibicinam conversus, ‘et tu’, ad alterum qui ἄμυστιν bibere volebat, ‘poculum sume’. quo facto ipse scolium canit, recte Meinekius φείδεσθαι nullo casu addito dici posse negavit: verbis σὺ δὲ κάρτ’ ἀφειδής qui scolium canit potantem (A) compellat, quia vini nimis cupidus esse videtur (τήνδε τὴν ἄμυστιν πίομαι).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="23" xml:id="kock-0403-adelon_dramaton-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0403-adelon_dramaton-23-l1" xml:lang="grc">εἰ μὲν θανοῦσιν ἔστι τις τιμὴ κάτω,</l>
+                <l n="2" xml:id="kock-0403-adelon_dramaton-23-l2" xml:lang="grc">καταβῶμεν.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Vesp. 1169 εἰ δὲ μὴ ἀπεσχεδίασται τὸ διαλυκώνισον, τάχα ἂν λέγοιτο ἀπὸ Λύκου πεντάθλου· φαίνεται γάρ τις καὶ μαλακώτερος γενέσθαι. Ἀμειψίας κτλ.</note>
+              <note type="apparatus">μὲν — τιμὴ κάτω Meinek.] μὴ — τιμή (τις μὴ Ald.). verba scholiastae Meinekius sic corrigit ἀπὸ Λύκωνος Αὐτολύκου πεντάθλου, Lyconem Autolyci pancratiastae patrem haec apud Amipsiam loqui putans. cf. Eupol.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="24" xml:id="kock-0403-adelon_dramaton-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <head>24</head>
+              <lg>
+                <l n="1" xml:id="kock-0403-adelon_dramaton-24-l1" xml:lang="grc">ἔρρ’ ἐς κόρακας, μονοφάγε καὶ τοιχωρύχε.</l>
+              </lg>
+              <note type="source">Athenaeus 1, 8 e ὅτι τὸ μονοφαγεῖν ἐστιν ἐν χρήσει τοῖς παλαιοῖς . . . Ἀμειψίας κτλ. μονοφάγος hic is est qui solus cenat. cf. Plat. 207. Aristoph. Vesp. 923.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="25" xml:id="kock-0403-adelon_dramaton-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <head>25</head>
+              <lg>
+                <l n="1" xml:id="kock-0403-adelon_dramaton-25-l1" xml:lang="grc">οὐ σχῖνος οὐδ’ ἀσφάραγος, οὐ δάφνης κλάδοι</l>
+              </lg>
+              <note type="source">Athenaeus 2, 62 f Ἀμειψίας κτλ. scribendum duco οὐκ ἀσφάραγος. cf. Aristoph. fr. 317. Lobeck. Phrynich. 110.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="26" xml:id="kock-0403-adelon_dramaton-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <head>26</head>
+              <lg>
+                <l n="1" xml:id="kock-0403-adelon_dramaton-26-l1" xml:lang="grc">ἐπ’ αὐτὸν ἥκεις τὸν βατῆρα τῆς θύρας.</l>
+              </lg>
+              <note type="source">Pollux 2, 200 βατὴρ ὁ οὐδός, ἐφ’ οὗ καὶ βαίνομεν, ὡς Ἀμειψίας κτλ. Diogenian. 3, 38 αὐτὸν κέκρουκας τὸν βατῆρα τῆς θύρας· οἷον ἐπ’ αὐτὰ ἀφῖξαι τὰ πράγματα. cf. Apostol. 4, 31. Suidas αὐτὸν κέκρουκας κτλ. ἐπὶ τῶν ἀληθευόντων· οἷον ἐπ’ αὐτὴν ἐλήλυθας τὴν ἀλήθειαν. Milleri Mélanges 382 αὐτὸν τὸν βοτῆρα (scr. βατῆρα) ἔκρουσεν· ἐπὶ τῶν τυγχανόντων ὧν ἐφίενται. Eustath. 1404, 58.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="27" xml:id="kock-0403-adelon_dramaton-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <head>27</head>
+              <note type="source">Schol. Aristoph. Plut. 883 δακτύλιον δὲ τὸν λεγόμενον φαρμακίτην Εὔπολις Βάπταις μέμνηται. ὁ δ’ Εὔδαμος φαρμακοπώλης, καὶ Ἀμειψίας. verba καὶ Ἀμειψίας (exspect. ὡς καὶ Ἀμ.) post μέμνηται transposuit Kusterus. quod si verum est, non Eudamum, sed anulum magicum commemoravit Amipsias. cf. Cratin. 299. Eupol. 87. Aristoph. fr. 250.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="28" xml:id="kock-0403-adelon_dramaton-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <head>28</head>
+              <note type="source">Vita Aristoph. XXVII 10 Duebn. διὸ καὶ ἔσκωπτον αὐτὸν (Ἀριστοφάνη) Ἀριστώνυμός τε καὶ Ἀμειψίας τετράδι λέγοντες γεγονέναι. cf. Plat. 100.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0403-adelon_dramaton-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <head>29</head>
+              <lg>
+                <l n="1" xml:id="kock-0403-adelon_dramaton-29-l1" xml:lang="grc">ἄκοπος ἀνήρ</l>
+              </lg>
+              <note type="source">ἀντὶ τοῦ οὐδέπω ἠνοχλημένος ὑπό τινος. οὕτως Ἀμειψίας. Bekker. Anecd. 365, 30 et Suidas.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30" xml:id="kock-0403-adelon_dramaton-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <head>30</head>
+              <lg>
+                <l n="1" xml:id="kock-0403-adelon_dramaton-30-l1" xml:lang="grc">ἀναβιβῶμαι</l>
+              </lg>
+              <note type="source">ἀντὶ τοῦ ἀναβιβάσομαι. Ἀμειψίας. Suidas et Zonaras 195.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="31" xml:id="kock-0403-adelon_dramaton-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <p>ἀνήκω</p>
+              <note type="source">Ἀμειψίας ἀντὶ τοῦ ἀναβέβηκα καὶ προελήλυθα ἔφη. Bekker. Anecd. 403, 5 et Suidas. sed Suidas ἀνῆκα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="32" xml:id="kock-0403-adelon_dramaton-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <p>ἀνίστω</p>
+              <note type="source">ἀντὶ τοῦ ἀνίστασο. οὕτως Ἀμειψίας. Bekker. Anecd. 405, 15 et Suidas ἀνίστη.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="33" xml:id="kock-0403-adelon_dramaton-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <p>ἀποσεσύκασται</p>
+              <note type="source">τετρύγηται. Ἀμειψίας. Bekker. Anecd. 435, 9. paullo aliter Etym. m. 125, 49 et Hesych. ἀποσεσύκασται· τὰ σῦκα ἀποβέβληκε βρωθέντα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="34" xml:id="kock-0403-adelon_dramaton-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <p>νεογύνην</p>
+              <note type="source">τὸν νεόγαμον Ἀμειψίας ὠνόμασε. Pollux 3, 48.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="35" xml:id="kock-0403-adelon_dramaton-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <p>ὀρίγανον</p>
+              <note type="source">οὐδετέρως Ἐπίχαρμος καὶ Ἀμειψίας. Athenaeus 2, 68 b.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="36" xml:id="kock-0403-adelon_dramaton-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <p>ὀφρυάζειν</p>
+              <note type="source">ὁ κωμικὸς Ἀμειψίας τὸ νεύειν εἴρηκε. Pollux 2, 50. cf. Porson. Advers. 285. Hesychius ὀφρυάζει· ταῖς ὀφρύσι νεύει. aliter Photius ὀφρυάζειν· τὸ συνάγειν τὰς ὀφρῦς. ac cum Pollux 2, 49 interpretetur τὰς ὀφρῦς συνάγων ὁ φροντιστής, Fritzschius Q. Arist. 256 ad Connum hoc fragmentum rettulit, coniectura admodum incerta.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="37" xml:id="kock-0403-adelon_dramaton-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <p>σκότος καὶ σκότον</p>
+              <note type="source">ἑκατέρως. οὕτως Ἀμειψίας. Photius. σκότον casu accusativo Amipsias videtur dixisse. Soph. OC. 106.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="38" xml:id="kock-0403-adelon_dramaton-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_adelon_dramaton">
+              <p>στρωματόδεσμον</p>
+              <note type="source">καὶ ἀρρενικῶς καὶ οὐδετέρως. Ἀμειψίας. Bekker. Anecd. 113, 26. Phryn. Epit. 401 στρωματόδεσμος ἀρχαῖον καὶ δόκιμον. λέγε οὖν ἀρσενικῶς καὶ οὐδετέρως. ubi cf. Lobeck.</note>
+            </div>
+          </div></body></text></TEI>

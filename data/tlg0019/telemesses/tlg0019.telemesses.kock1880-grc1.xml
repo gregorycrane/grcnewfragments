@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΤΕΛΕΜΗΣΣΗΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.telemesses.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.telemesses.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.telemesses.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telemesses"><head>ΤΕΛΕΜΗΣΣΗΣ</head><div type="textpart" subtype="fragment" n="528" xml:id="kock-0019-telemesses-528" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telemesses">
+              <lg>
+                <l n="1" xml:id="kock-0019-telemesses-528-l1" xml:lang="grc">οὐ γὰρ τίθεμεν τὸν ἀγῶνα τόνδε τὸν τρόπον</l>
+                <l n="2" xml:id="kock-0019-telemesses-528-l2" xml:lang="grc">ὥσπερ τέως ἦν, ἀλλὰ καινῶν πραγμάτων.</l>
+              </lg>
+              <note type="source">Schol. Platon. 335 Bekk. ἐν δὲ τοῖς Ἀριστοφάνους Τελμησσεῦσι (τὸ τέως) ἀντὶ τοῦ πρότερον κεῖται κτλ.</note>
+              <note type="apparatus">fortasse ex prologo excerpta. de certamine comico poeta loquitur, καινὰς ἰδέας spectatoribus promittens.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="529" xml:id="kock-0019-telemesses-529" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telemesses">
+              <note type="source">Aristides I 277, 6 Iebb. ἡ κωμωδία γε τὸ λοιπόν ἐστιν, ἔλεγον δὲ ἀναφέρων εἰς τοὺς Τελμισσέας τοῦ Ἀριστοφάνους ὡς ἐκεῖ λόγῳ τις ἠγωνίζετο, ἔργῳ δὲ οὔ.</note>
+              <note type="apparatus">quae verba prorsus obscura sunt. Bergkius Aristophanem scripsisse existimat λόγῳ γὰρ ἠγωνιζόμεσθ', ἔργοισι δ' οὔ. quae artissime videntur coniungenda esse cum fr. 528.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="530" xml:id="kock-0019-telemesses-530" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telemesses">
+              <lg>
+                <l n="1" xml:id="kock-0019-telemesses-530-l1" xml:lang="grc">Α. τράπεζαν ἡμῖν εἴσφερε</l>
+                <l n="2" xml:id="kock-0019-telemesses-530-l2" xml:lang="grc">τρεῖς πόδας ἔχουσαν, τέτταρας δὲ μὴ 'χέτω.</l>
+                <l n="3" xml:id="kock-0019-telemesses-530-l3" xml:lang="grc">Β. καὶ πόθεν ἐγὼ τρίπουν τράπεζαν λήψομαι;</l>
+              </lg>
+              <note type="source">Athenaeus 2, 49 c Ἀριστοφάνης. Eustathius 1398, 17. 867, 25. 10, 80 Ἀριστοφάνης ἐν Τελμισσεῦσι· καὶ πόθεν — λήψομαι. idem 6, 83 τρίποδες . . . ἐν Τελμισεῦσιν Ἀριστοφάνους. εἴσφερε</note>
+              <note type="apparatus">Porsonus] φέρε. aptius videtur ἔκφερε. cf. Pherecr. 67. τέτταρας Eustath.] τέσσαρας.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="531" xml:id="kock-0019-telemesses-531" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telemesses">
+              <lg>
+                <l n="1" xml:id="kock-0019-telemesses-531-l1" xml:lang="grc">οἴνου τε Χίου στάμνον ἥκειν καὶ μύρον.</l>
+              </lg>
+              <note type="source">Pollux 10, 72 Ἀριστοφάνης ἐν Τελμισσεῦσι λέγει.</note>
+              <note type="apparatus">excidit κέλευσον (αὐτὸν φέροντα). artissime videntur cohaerere cum fr. 530 et 532.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="532" xml:id="kock-0019-telemesses-532" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telemesses">
+              <lg>
+                <l n="1" xml:id="kock-0019-telemesses-532-l1" xml:lang="grc">πινακίσκον ἄπυρον ἰχθυηρόν</l>
+              </lg>
+              <note type="source">Pollux 10, 82 Ἀριστοφάνης δ' ἔοικε διαιρεῖν τινας ἀπύρους καὶ ἐμπύρους πινακίσκους, ὡς ὅταν φῇ ἐν Τελμισσεῦσι κτλ. Bekker. Anecd. 14, 22 ἄπυρον πινακίσκον· καινόν, μήπω πυρὶ προσενηνεγμένον.</note>
+              <note type="apparatus">fortasse inserto τ' post ἄπυρον continuanda cum 531. — Plut. 814 confert Dindorfius.</note>
+            </div>
+          </div></body></text></TEI>

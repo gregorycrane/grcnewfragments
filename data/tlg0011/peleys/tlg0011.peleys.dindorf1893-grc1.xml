@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-peleys-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΠΗΛΕΥΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.peleys; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.peleys.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.peleys.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_peleys"><head>ΠΗΛΕΥΣ</head><div type="textpart" subtype="fragment" n="434" xml:id="fragment-peleys-dindorf1893_grc1-434" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_peleys">
+            <note type="source">Clemens Alex. Strom. VI, p. 748. schol. Aristoph. Nubium v. 1419.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πηλέα τὸν Αἰάκειον οἰκουρὺς μόνη</l>
+              <l n="2" xml:lang="grc">γερονταγωγῶ κἀναπαιδεύω πάλιν.</l>
+              <l n="3" xml:lang="grc">πάλιν γὰρ αὖθις παῖς ὁ γηράσκων ἀνήρ.</l>
+            </lg>
+            <note type="commentary">Versum 2 attulit Trypho in Museo Cantabrig. I, p. 49. et utitur eo Aristophanes in Equitibus v. 1098.</note>
+            <lg type="fragment">
+              <l n="4" xml:lang="grc">Καὶ μὴν ἐμαυτὸν ἐπιτρέπω σοι τουτονὶ</l>
+              <l n="5" xml:lang="grc">γερονταγωγεῖν κἀναπαιδεύειν πάλιν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="435" xml:id="fragment-peleys-dindorf1893_grc1-435" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_peleys">
+            <note type="source">Aristophanes Avibus v. 852.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁμορροθῶ, συνθέλω,</l>
+              <l n="2" xml:lang="grc">συμπαραινέσας ἔχω,</l>
+              <l n="3" xml:lang="grc">προσόδια μεγάλα</l>
+              <l n="4" xml:lang="grc">σεμνὰ προσιέναι θεοῖσιν.</l>
+              <l n="5" xml:lang="grc">ἴτω δὲ Πυθιὰς βυὰ τῷ θεῷ.</l>
+            </lg>
+            <note type="commentary">ubi scholiasta, Ὁμορροθώ: Σοφοκλέους ἐκ Πηλέως, ἀντὶ τοῦ τὸ αὐτὸ φρονῶ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="436" xml:id="fragment-peleys-dindorf1893_grc1-436" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_peleys" sameAs="urn:cts:greekLit:tlg0011.peleys.nauck1889grc1:448">
+            <note type="source">Stobæus CXXI, 9. Σ. Π.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὸ μὴ γὰρ εἶναι κρεῖσσον ἢ τὸ ζῆν κακῶς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="437" xml:id="fragment-peleys-dindorf1893_grc1-437" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_peleys" sameAs="urn:cts:greekLit:tlg0011.peleys.nauck1889grc1:454">
+            <note type="source">Harpocratio in ξηραλοιφεῖν, Σ. Π.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καὶ ξηραλοιφῶν εἶματος διὰ πτυχῶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="438" xml:id="fragment-peleys-dindorf1893_grc1-438" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_peleys">
+            <note type="source">Scholiasta Aristophanis Equit. v. 1147. Σ. Π. [scrib. Ποιμένων ex codd.]</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κημοῖσι πλεκτοῖς πορφύρας φθείρει γένος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="439" xml:id="fragment-peleys-dindorf1893_grc1-439" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_peleys" sameAs="urn:cts:greekLit:tlg0011.peleys.nauck1889grc1:452">
+            <note type="source">Stephanus in Δώτιον, Σ. Π.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Βασιλεὺς χώρας τῆς Δωτιάδος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="440" xml:id="fragment-peleys-dindorf1893_grc1-440" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_peleys" sameAs="urn:cts:greekLit:tlg0011.peleys.nauck1889grc1:455">
+            <note type="source">Stephanus, Κυκνίτις: ἧς ὁ Κύκνος ἐβασίλευσε. Σοφοκλῆς ἐν Πηλεῖ καὶ ἐν Ποιμέσι “ Βοὴν Κυκνίτιν.”</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="441" xml:id="fragment-peleys-dindorf1893_grc1-441" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_peleys" sameAs="urn:cts:greekLit:tlg0011.peleys.nauck1889grc1:456">
+            <note type="source">Antiatticista p. 106. 13. Λιποψυχεῖν: Σ. Πηλεῖ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="442" xml:id="fragment-peleys-dindorf1893_grc1-442" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_peleys" sameAs="urn:cts:greekLit:tlg0011.peleys.nauck1889grc1:453">
+            <note type="source">Antiatticista p. 107, 30. Μὴ νόμισον: ἀντὶ τοῦ μὴ νομίσῃς. Σ. Π. καὶ “μὴ ψεύσον.” Locum alterum ex Peleo servavit scholiasta Aristoph. Thesmoph. v. 870.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μὴ ψεῦσον, ὦ Ζεῦ· μή μ᾿ ἔλῃς ἄνευ δορός.</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

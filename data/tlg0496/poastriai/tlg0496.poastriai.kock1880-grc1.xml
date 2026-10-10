@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHRYNICHUS, ΠΟΑΣΤΡΙΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Phrynichus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0496.poastriai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0496.poastriai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0496.poastriai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_poastriai"><head>ΠΟΑΣΤΡΙΑΙ</head><div type="textpart" subtype="fragment" n="38" xml:id="kock-0496-poastriai-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_poastriai">
+              <lg>
+                <l n="1" xml:id="kock-0496-poastriai-38-l1" xml:lang="grc">αὐτοπυρίταισί τ’ ἄρτοις καὶ λιπῶσι στεμφύλοις</l>
+              </lg>
+              <note type="source">Athenaeus 3, 110e Φρύνιχος δ’ ἐν Ποαστρίαις αὐτοπυρίτας αὐτοὺς (ἄρτους) καλῶν φησιν κτλ. Pollux 7, 23 ἄρτους δὲ αὐτοπυρίτας ἐρεῖς, ὡς ἐν Ποαστρίαις Φρύνιχος. ubi διπυρρίτας A. correxit ex Athe-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="39" xml:id="kock-0496-poastriai-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_poastriai">
+              <lg>
+                <l n="1" xml:id="kock-0496-poastriai-39-l1" xml:lang="grc">ὥσπερ ἐμὸν αὐτῆς ἴδιον</l>
+              </lg>
+              <note type="source">Priscianus 17, 126 quod mirum est, hoc ipsum ἴδιον, etiam primae et secundae adiungitur personae apud illos, ut . . . Phroenichus Ποαστρίαις· ὥσπερ ἐμὸν αὐτῆς ἴδιον.</note>
+              <note type="apparatus">αὐτῆς d] AITHC MD. ἴδιον] ΔΙΟΝ R. videtur mulier gloriari quod privignum non aliter atque filium curet.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="40" xml:id="kock-0496-poastriai-40" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_poastriai">
+              <lg>
+                <l n="1" xml:id="kock-0496-poastriai-40-l1" xml:lang="grc">κύλικ' ἀρύστιχον</l>
+              </lg>
+              <note type="source">Φρύνιχος Ποαστρίαις. Athen. 10, 424 c.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="41" xml:id="kock-0496-poastriai-41" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_poastriai">
+              <note type="source">Schol. Lucian. p. 186 Iac. Μειδίας ὀρτυγοκόπος ἦν, ὡς Πλάτων Περιάλγει· καὶ ὡς πονηρὸν δὲ καὶ κόβαλον καὶ τῶν δημοσίων νοσφιστὴν Φρύνιχος καὶ Πλάτων διαβάλλουσιν. Schol. Aristoph. Av. 1297 δηλοῖ δὲ τοῦτο Ἀριστοφάνης Περιάλγει . . . λέγει δὲ ἐν Ποαστρίαις ὁ αὐτὸς ὡς καὶ περὶ ἀλέκτορας αὐτοῦ (Μειδίου) ἐσπουδακότος.</note>
+              <note type="apparatus">Phrynichi nomen pro ὁ αὐτός restituendum esse arbitratur Meinekius, transponenda verba λέγει — ἐσπουδακότος post Φρύνιχος ἐν Ἐφιάλτῃ (fr. 4) Dindorfius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="42" xml:id="kock-0496-poastriai-42" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_poastriai">
+              <note type="source">Harpocratio 75, 23 ὅτι δὲ ἐπὶ παντὸς τοῦ ἐκ τῶν ἰδίων ἐκβαλλομένου τάττεται τοὔνομα (ἐξούλης), καὶ οὐχ ὡς οἴεται Καικίλιος μόνων τῶν ἐκ καταδίκης ὀφειλόντων, καὶ Φρύνιχος ἐν Ποαστρίαις δῆλον ποιεῖ. adfert H. Iacobi Aristid. 45 p. 167 (133 Dind.) δέδοικα . . . μὴ καὶ ταῖς γραυσὶν ἡμᾶς ἐξούλης ὀφλεῖν ἐπισκώπτων φῇ τις ἀνήρ κωμικός. cf. Boeckh. Oecon.² I 496. Meier et Schoem. Att. Proc. 748.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="43" xml:id="kock-0496-poastriai-43" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_poastriai">
+              <lg>
+                <l n="1" xml:id="kock-0496-poastriai-43-l1" xml:lang="grc">χοιροτροφεῖον</l>
+              </lg>
+              <note type="source">ἐν ᾧ χοῖροι τρέφονται, ὡς . . . Φρύνιχος ἐν Ποαστρίαις. Pollux 10, 159. cf. Eupol. 453.</note>
+            </div>
+          </div></body></text></TEI>

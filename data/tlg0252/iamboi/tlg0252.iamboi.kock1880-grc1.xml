@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>HERMIPPUS, ΙΑΜΒΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Hermippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0252.iamboi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0252.iamboi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0252.iamboi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_iamboi"><head>ΙΑΜΒΟΙ</head><div type="textpart" subtype="fragment" n="75" xml:id="kock-0252-iamboi-75" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_iamboi">
+              <head>σύνθετον</head>
+              <note type="source">Athenaeus 15, 700 d Ἕρμιππος ὁ κωμῳδιοποιὸς ἐν Ἰάμβοις τὸ στρατιωτικὸν λυχνεῖον οὕτως ὀνομάζει.</note>
+              <note type="apparatus">Schweighaeuserus σύνδετον, ex laminis corneis vel ligneis.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="71" xml:id="kock-0252-iamboi-71" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_iamboi">
+              <lg>
+                <l n="1" xml:id="kock-0252-iamboi-71-l1" xml:lang="grc">ὕστερον δ’ αὐτὸν στρατηγὸν οὓς ἀνειλωτημένην</l>
+                <l n="2" xml:id="kock-0252-iamboi-71-l2" xml:lang="grc">καὶ κασαλβάζουσαν εἶδον καὶ σεσαλωκισμένην.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Vesp. 1169 <foreign xml:lang="grc">διασαλακώνισον· ὁμοίως δ’ ἐστὶ καὶ παρ’ Ἑρμίππῳ ἐν τοῖς Τετραμέτροις κτλ.</foreign>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>sic libri. αὐτὴν στρατηγῶν Meinekius, οὖσαν Fritzschius Qu. Arist. 287, εἱλωτισμένην Meinekius, σεσαλακωνισμένην Schneiderus in Lex. gr. σαλακωνεύω. Suidas κατειλωτισμένος· καταδεδουλωμένος, ἐκ τοῦ εἴλως, εἴλωτος, ὃ σημαίνει τὸν δοῦλον. quae ad hunc ipsum versum videntur pertinere. quid Fritzschii οὖσαν participio passivi additum sibi velit exputare non possum. scribendum erit ὕστερον δ’ αὐτὴν στρατηγῶν εὖ συνειλωτισμένην | καὶ κασαλβάζουσαν εἶδον καὶ σεσαλακωνισμένην. quae scripta sunt haud multo post Heracleam urbem in Trachinis vicinia ab Lacedaemoniis conditam exeunte anno Ol. 88, 2. Thuc. 3, 92. 3. nam ad annum Ol. 95, 2 eaque quae narrat Diodorus 14, 38 (cl. 82) referri non possunt. Hermippus autem eo tempore praetor Atheniensium fuisse videtur ut Sophocles in bello Samio.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="72" xml:id="kock-0252-iamboi-72" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_iamboi">
+              <note type="source">
+                <p>Schol. Aristoph. Av. 303 <foreign xml:lang="grc">Ἑρμίππου Τετραμέτροις· καὶ Θεμιστοκλέους τὸν πρωνός τις ὢν κεβλήπυρίς τις ὀνομάζεται.</foreign>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>Dobraeus ὥς τις ὢν κοπρώνης, quo difficultas non tollitur. fortasse poeta scripsit Θεμιστοκλέους τε τῶν προσηκόντων τις ὢν | κεβλήπυρις Τισ . . . . . ὠνομάζετο.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="73" xml:id="kock-0252-iamboi-73" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_iamboi">
+              <note type="source">
+                <p>Schol. Aristoph. Plut. 701 <foreign xml:lang="grc">Ἕρμιππος ἐν τῷ πρώτῳ Ἰάμβῳ τῶν τριμέτρων Ἀσκληπιοῦ καὶ Λαμπετίας τῆς Ἡλίου λέγει Μαχάονα καὶ Ποδαλείριον καὶ Ἰασὼ καὶ Πανάκειαν καὶ Αἴγλην νεωτάτην.</foreign>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>λαμπετείας τοῦ Ἰλίου V. trimetri facile restitui possunt. Ἀσκληπιοῦ καὶ Λαμπετίας τῆς Ἡλίου | (παῖδες) Μαχάων (εἰσὶ) καὶ Ποδαλείριος· | ἔπειτ’ Ἰασὼ καὶ Πανάκεια (θυγατέρες)· νεωτάτη δ’ Αἴγλη. Aesculapii filias eodem ordine ab Aristide 7, 46 (I 79 Dind.), alio a Suida in Ἠπιόνη et Plinio 35, 137 recenseri adnotavit Hemsterhusius (Aristoph. Plut. 701).</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="74" xml:id="kock-0252-iamboi-74" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_iamboi">
+              <note type="source">
+                <p>Athenaeus 15, 667 d <foreign xml:lang="grc">ὁμοίως διεξέρχονται ὅτι ἆθλα προὔκειτο</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="80" xml:id="kock-0252-iamboi-80" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_iamboi">
+              <lg>
+                <l n="1" xml:id="kock-0252-iamboi-80-l1" xml:lang="grc">ἐγώ σου σήμερον</l>
+                <l n="2" xml:id="kock-0252-iamboi-80-l2" xml:lang="grc">τύπτων τὸ πρόσωπον αἱμορυγχίαν ποιήσω.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 362, 15 αἱμορυγχία (cod. αἱμορυχία et mox ῥύχος)· Δώριόν ἐστι τούνομα, πλὴν καὶ ὁ Ἀττικὸς Ἕρμιππος ἐχρήσατο τῇ φωνῇ εἰπών· ἐγώ — ποιήσω. σημαίνει δὲ τὸ καθῃμάχθαι τὸ ῥύγχος. Φρύνιχος μέντοι οὐκ ἐγκρίνει τὴν φωνήν. Bachm. Anecd. 51, 21 αἱμορυχία. Δώριόν ἐστι τοὔνομα, πλὴν καὶ ὁ Ἀττικὸς Ἕρμιππος ἐχρήσατο τῇ φωνῇ. Hesych. αἱμορυγχιᾶν· καθῃμάχθαι τὸ ῥύγχος, ubi αἱμορυγχίαν M. Schmidt. αἱμορυγχιᾶν Schneiderus in Lex., atque id ipsum Bekkeri grammaticus, cum addat καθημάχθαι, scripsisse videtur.</note>
+              <note type="apparatus">ποιήσω] ποῶ Bekker. at futuro opus est. neque αἱμορρυγχιᾶν cum Meinekio scribi opus est: cf. φυλλοροεῖν Pherecr. 130, 10. τήμερόν σου et νὴ Δί' αἱμορρ. Meinekius, etiam dimetros effici posse adnotans ἐγώ — τήμερον | τύπτων — νὴ Δί' αἱμορρ. π.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="81" xml:id="kock-0252-iamboi-81" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_iamboi">
+              <lg>
+                <l n="1" xml:id="kock-0252-iamboi-81-l1" xml:lang="grc">ὥστε Μαραθῶνος τὸ λοιπὸν ἐπ' ἀγαθῷ μεμνημένοι</l>
+                <l n="2" xml:id="kock-0252-iamboi-81-l2" xml:lang="grc">πάντες ἐμβάλλουσιν ἀεὶ μάραθον εἰς τὰς ἁλμάδας.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 56c φησὶν Ἕρμιππος.</note>
+              <note type="apparatus">2. ἐμβάλλουσιν ἀεὶ BC] ἀεὶ ἐμβάλλουσιν VL. ἐμβαλοῦσιν Porsonus Aristoph. Eccles. 275 propter τὸ λοιπόν. Hesych. ἁλμάδες· κολυμβάδες ἐλαῖαι. καὶ ἐκ σινάπιος γογγυλίδες. optimae quaeque olivae muria condiebantur. Geop. 9, 28, 1 μεγάλαι καὶ ἄθικτοι ἐλαῖαι, τῇ χειρὶ ληφθεῖσαι. Columell. R. r. 12, 49, 4 sine macula, quam candidissimae, manu destrictae. Pallad. R. r. 12, 22, 2 electas olivas muria maturabis. Coraes 'olivas feniculo condire etiamnum apud Graecos solemne est. has feniculo et murio conditas olivas' (eae sunt ἁλμάδες) 'adpellant κολυμβητὰς ἐλαίας, vocabulo paullum deflexo a veterum κολυμβάδες'.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="82" xml:id="kock-0252-iamboi-82" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_iamboi">
+              <lg>
+                <l n="1" xml:id="kock-0252-iamboi-82-l1" xml:lang="grc">Μενδαῖον, τοῦ μὲν καὶ ἐνουροῦσιν θεοὶ αὐτοὶ</l>
+                <l n="2" xml:id="kock-0252-iamboi-82-l2" xml:lang="grc">στρώμασιν ἐν μαλακοῖς. Μάγνητα δὲ μειλιχόδωρον</l>
+                <l n="3" xml:id="kock-0252-iamboi-82-l3" xml:lang="grc">καὶ Θάσιον, τῷ δὴ μήλων ἐπιδέδρομεν ὀδμή,</l>
+                <l n="4" xml:id="kock-0252-iamboi-82-l4" xml:lang="grc">ταῦτον ἐγὼ κρίνω πολὺ πάντων εἶναι ἄριστον</l>
+                <l n="5" xml:id="kock-0252-iamboi-82-l5" xml:lang="grc">τῶν ἄλλων οἴνων, μετ' ἀμύμονα Χῖον ἄλυπον.</l>
+                <l n="6" xml:id="kock-0252-iamboi-82-l6" xml:lang="grc">ἔστι δέ τις οἶνος, τὸν δὴ σαπρίαν καλέουσιν,</l>
+              </lg>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>AMIPSIAS, ΚΟΝΝΟΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Amipsias</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0403.konnos.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0403.konnos.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0403.konnos.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_konnos"><head>ΚΟΝΝΟΣ</head><div type="textpart" subtype="fragment" n="10" xml:id="kock-0403-konnos-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_konnos">
+              <lg>
+                <l n="1" xml:id="kock-0403-konnos-10-l1" xml:lang="grc">ὥστε ποιοῦντες χρησμοὺς αὐτοὶ</l>
+                <l n="2" xml:id="kock-0403-konnos-10-l2" xml:lang="grc">διδόασ' ᾄδειν</l>
+                <l n="3" xml:id="kock-0403-konnos-10-l3" xml:lang="grc">Διυπείθει τῷ παραμαινομένῳ.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Av. 988 Ἀμειψίας ἐν Κόννῳ κτλ. αὐτοὶ διδόασ' ᾄδειν Dobraeus] αὐτοῖς δίδοσθαι δεῖν. de Diopithe cf. Teleclid. 6. παραμαίνεσθαι ad analogiam verbi παραπαίειν novavit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0403-konnos-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_konnos">
+              <note type="source">Athen. 5, 218 c Ἀμειψίας δ' ἐν Κόννῳ . . . οὐ καταριθμεῖ αὐτὸν (Πρωταγόραν) ἐν τῷ τῶν φροντιστῶν χορῷ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0403-konnos-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_konnos">
+              <p>κλιμακίδα</p>
+              <note type="source">ἐν Ἀμειψίου Κόννῳ. Pollux 10, 171. Bekker. Anecd. 272, 18 κλιμακίδες· αἱ τῶν πλοίων ἀποβάθραι.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="kock-0403-konnos-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_konnos">
+              <lg>
+                <l n="1" xml:id="kock-0403-konnos-7-l1" xml:lang="grc">ἐντευθενὶ δίδοται μάλισθ' ἱερώσυνα,</l>
+                <l n="2" xml:id="kock-0403-konnos-7-l2" xml:lang="grc">κωλή, τὸ πλευρόν, ἡμίκραιρ' ἀριστερά.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 368 e κωλῆνα λέγουσι καὶ κωλῆν . . . Ἀμειψίας Κόννῳ κτλ. Herodianus II 911, 17 κωλῆ. Ἀμειψίας Κόννῳ κτλ.</note>
+              <note type="apparatus">ἐντευθενὶ Fritzsch. Q. Arist. 253] ἐντεῦθεν ὅσαι Herod., om. Athen. ἐντεῦθεν ἐδίδοθ' ὅσα Hermann. ἱερώσυνα] ἱερωσύνα Athen. ἱερώσυνα, κωλῆ, τὸ] ἱερωσανακωλεῖτο cod. Herod. ἡμίκραιρ' ἀριστερά Athen.] ἢ μικρᾶς ἀριστερᾶς cod. Herod. Hesych. ἱερώσυνα· τὰ τῷ ἱερεῖ διδόμενα ἱερεῖα (τοῦ ἱερείου?). Bekker. Anecd. 44, 9 ἱερώσυνα· τὰ τοῖς θεοῖς (?) ἐξαιρούμενα μέρη. 266, 7 ἱερώσυνα· τὰ εἰωθότα δίδοσθαι τοῖς ἱερεῦσιν ὑπὲρ τῆς ἱερωσύνης. τι πλευρόν Herwerd. Obs. crit. 33. fortasse κωλῆ τε πλευρόν θ', ἡμ. — Hieroclem aliquem loqui consentaneum est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0403-konnos-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_konnos">
+              <lg>
+                <l n="1" xml:id="kock-0403-konnos-8-l1" xml:lang="grc">ὀρφῷσι σελαχίοις τε καὶ φάγροις βορά.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 327 d μνημονεύει δὲ αὐτῶν (φάγρων) . . . Ἀμειψίας ἐν Κόννῳ κτλ.</note>
+              <note type="apparatus">ὀρφῷσι Bergk. R. c. Att. 418] ὀρφοῖσι. βορά Schweigh.] ασι βορά A. ασι ex proximo οισ natum videtur Meinekio. frustra adversantur Fritzschius Q. Arist. 254. Bergk. R. c. Att. 418. hic quod scribit φάγροισι κἀόσιν βορά, conl. Hesych. ἀών· ἰχθὺς ποιός, iam propterea inprobandum, quod ἀόνα piscem ex solo Epicharmo novimus. ceterum cf. Plat. 56.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="9" xml:id="kock-0403-konnos-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_konnos">
+              <lg>
+                <l n="1" xml:id="kock-0403-konnos-9-l1" xml:lang="grc">Σώκρατες ἀνδρῶν βέλτιστ' ὀλίγων, πολλῶν δὲ ματαιόταθ',</l>
+                <l n="2" xml:id="kock-0403-konnos-9-l2" xml:lang="grc">ἥκεις</l>
+                <l n="3" xml:id="kock-0403-konnos-9-l3" xml:lang="grc">καὶ σὺ πρὸς ἡμᾶς; καρτερικός γ' εἶ. πόθεν ἄν σοι χλαῖνα</l>
+                <l n="4" xml:id="kock-0403-konnos-9-l4" xml:lang="grc">γένοιτο;</l>
+                <l n="5" xml:id="kock-0403-konnos-9-l5" xml:lang="grc">Β. τουτὶ τὸ κακὸν τῶν σκυτοτόμων κατ' ἐπήρειαν γεγένηται.</l>
+                <l n="6" xml:id="kock-0403-konnos-9-l6" xml:lang="grc">οὗτος μέντοι πεινῶν οὕτως οὐπώποτ' ἔτλη κολακεῦσαι.</l>
+              </lg>
+              <note type="source">Diogenes Laert. 2, 27 τοῦτο δ' ἐνέσται καὶ παρὰ τῶν κωμῳδιοποιῶν λαβεῖν, οἳ λανθάνουσιν ἑαυτοὺς δι' ὧν σκώπτουσιν ἐπαινοῦντες αὐτόν, Ἀριστοφάνης μὲν . . . Ἀμειψίας δ' ἐν τρίβωνι παράγων αὐτόν φησιν οὕτως κτλ. ad Connum rettulit Menagius.</note>
+              <note type="apparatus">1. ὀλίγῳ et πολλῷ Dobraeus Add. Arist. Acharn. 270. 2. ἡμᾶς; καρτερικός γ' εἶ. Cobet in ed. Diog.] ἡμᾶς καρτερικός τ' εἶ; contra Fritzschius Q. Arist. 249 'Socrates inter paucos (φροντιστάς) viro-</note>
+            </div>
+          </div></body></text></TEI>

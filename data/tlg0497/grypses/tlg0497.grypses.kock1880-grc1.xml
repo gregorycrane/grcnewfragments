@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PLATO COMICUS, ΓΡΥΨΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.grypses.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.grypses.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.grypses.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_grypses"><head>ΓΡΥΨΕΣ</head><div type="textpart" subtype="fragment" n="15" xml:id="kock-0497-grypses-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_grypses">
+              <head>15</head>
+              <lg>
+                <l n="1" xml:id="kock-0497-grypses-15-l1" xml:lang="grc">ἀνηρπάκασ' ἁπαξάπαντ' αὐτῷ κανῷ.</l>
+              </lg>
+              <note type="source">Zenobius 2, 31 αὐτῷ κανῷ· αὕτη τάττεται κατὰ τῶν ἄρδην ὁτιοῦν λυμαινομένων. φησὶ γὰρ ὁ Δίδυμος ὅτι τὰ δεῖπνα ἐπὶ κανῶν ἐκομίζετο, καθάπερ ἐν Κρυψίοις λέγεται Πλάτων ἀνήρπακας ἁπαξάπαντ' αὐτῷ κανῷ. Meinekius ἐν Γρυψὶ λέγεται Πλάτωνι (vel λέγει Πλάτων). omisso fabulae titulo Proverb. Bodlei. 155, ubi recte ἀνηρπάκασ'. cf. Diogenian. 2, 39. 4, 68. Apostol. 4, 40.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="16" xml:id="kock-0497-grypses-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_grypses">
+              <head>16</head>
+              <lg>
+                <l n="1" xml:id="kock-0497-grypses-16-l1" xml:lang="grc">ἃ ἆ, γελῶν ἐπηκροασάμην πάλαι.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 360, 6 αἲ αἴ· ἠθικὸν τοῦτο. Πλάτων Γρυψίν· κτλ. ἔστι δὲ πολὺ παρὰ τοῖς τῆς μέσης κωμῳδίας καὶ νέας ποιηταῖς.</note>
+              <note type="apparatus">ἐπηκροασάμην Meinek.] αἲ αἴ — δ' ἐπηκροώμην. γελῶν Bekker.] γελῶ. Bergkius R. c. Att. 383 αἰαῖ· γέλων δ' ἐπηκροώμην σου πάλαι 'hahahae: risum tuum dudum audivi'. narrare videtur nescio quis se alterum ridentem audivisse. itaque scribendum est ἃ ἃ γελῶν· ἐπηκροώμην γὰρ πάλαι. initio pauca desunt. Photius ἃ ἃ . . . δασυνθὲν δὲ γέλωτα δηλοῖ, ὥς φησι Διογενιανός. Eustath. 855, 19 κεῖται ἐν Ἐπιλογῇ λέξεων ἀρχαίᾳ, ὅτι ἃ ἃ δασυνθὲν γέλωτα δηλοῖ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="17" xml:id="kock-0497-grypses-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_grypses">
+              <head>17</head>
+              <lg>
+                <l n="1" xml:id="kock-0497-grypses-17-l1" xml:lang="grc">ἰχθῦς, κωλᾶς, φύσκας</l>
+              </lg>
+              <note type="source">Athenaeus 9, 368e ἀπὸ δὲ τοῦ κωλέα συνῃρημένον ἐστίν . . . κωλῆ . . . Πλάτων Γρυψίν κτλ. ἐρίφων κωλᾶς vel tale quid Bergkius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="18" xml:id="kock-0497-grypses-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_grypses">
+              <head>18</head>
+              <lg>
+                <l n="1" xml:id="kock-0497-grypses-18-l1" xml:lang="grc">πλειστηριάσαντες</l>
+              </lg>
+              <note type="source">ἀντὶ τοῦ ὑπερβαλόντες ἐν τῇ τιμῇ τῶν πιπρασκομένων . . . κέχρηται τῷ ὀνόματι καὶ Πλάτων ὁ κωμικὸς ἐν Γρυψίν. Harpocration, Photius, Cramer. Anecd. Ox. II 498, 19 (ubi in fine οὕτω Πλάτων</note>
+            </div>
+          </div></body></text></TEI>

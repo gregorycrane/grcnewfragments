@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>THEOPOMPUS, ΕΙΡΗΝΗ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Theopompus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0513.eirene.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0513.eirene.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0513.eirene.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_eirene"><head>ΕΙΡΗΝΗ</head><div type="textpart" subtype="fragment" n="7" xml:id="kock-0513-eirene-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_eirene">
+              <lg>
+                <l n="1" xml:id="kock-0513-eirene-7-l1" xml:lang="grc">ἡμᾶς δ’ ἀπαλλαχθέντας ἐπ’ ἀγαθαῖς τύχαις</l>
+                <l n="2" xml:id="kock-0513-eirene-7-l2" xml:lang="grc">ὀβελισκολυχνίου καὶ ξιφομαχαίρας πικρᾶς.</l>
+              </lg>
+              <note type="source">Pollux 10, 118 τὸ δὲ ὀβελισκολύχνιον στρατιωτικὸν μέντοι χρῆμα, εἴρηται δὲ ὑπὸ Θεοπόμπου τοῦ κωμικοῦ ἐν Εἰρήνῃ κτλ. Athenaeus 15, 700e καὶ τάχα τούτῳ (ξυλολυχνούχῳ) ὅμοιόν ἐστι τὸ παρὰ Θεοπόμπῳ ὀβελισκολύχνιον. Eustathius 1571, 22. Pollux 6, 103 τὸ δὲ παρὰ Θεοπόμπῳ ὀβελισκολύχνιον, τὸ μὲν σκεῦος ἦν στρατιωτικόν, τὸ δὲ ὄνομα ὑπομόχθηρον.</note>
+              <note type="apparatus">ut ξιφομάχαιρα gladius simul et culter est, sic ὀβελισκολύχνιον veru cum lychno coniunctum. aut protagonistam aut coryphaeum haec composita pace dixisse consentaneum est. ridicule in C. Th. Muelleri Fragm. hist. gr. haec ad rerum scriptorem referuntur I 329.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0513-eirene-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_eirene">
+              <lg>
+                <l n="1" xml:id="kock-0513-eirene-8-l1" xml:lang="grc">ὁ μὲν ἄρτος ἡδύ, τὸ δὲ φενακίζειν προσὸν</l>
+                <l n="2" xml:id="kock-0513-eirene-8-l2" xml:lang="grc">ἔμβαμμα τοῖς ἄρτοις πονηρὸν γίγνεται.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 368e οἱ δὲ Ἀττικοὶ καὶ ἔμβαμμα λέγουσιν, ὡς Θεόπομπος ἐν Εἰρήνῃ κτλ.</note>
+              <note type="apparatus">μὲν Porson.] μὲν γὰρ. Iacobs. Addit. Ath. 198 ἄρτος interpretis esse ratus ὁ μὲν γὰρ ἡδύς.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="9" xml:id="kock-0513-eirene-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_eirene">
+              <lg>
+                <l n="1" xml:id="kock-0513-eirene-9-l1" xml:lang="grc">ἄχθομαι δ’ ἀπολωλεκὼς</l>
+                <l n="2" xml:id="kock-0513-eirene-9-l2" xml:lang="grc">ἀλεκτρυόνα τίκτουσαν ᾠὰ πάγκαλα.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 374b καὶ Θεόπομπος δ’ ἐν Εἰρήνῃ ἐπὶ τῆς θηλείας ἔταξε τὸν ἀλεκτρυόνα λέγων οὕτως κτλ. Schol. Aristoph. Nub. 663 οἱ Ἀττικοὶ οὕτω καὶ τὰς θηλείας ἐκάλουν, ὡς καὶ Θεόπομπος.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="10" xml:id="kock-0513-eirene-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_eirene">
+              <lg>
+                <l n="1" xml:id="kock-0513-eirene-10-l1" xml:lang="grc">χλαῖναν δέ σοι</l>
+                <l n="2" xml:id="kock-0513-eirene-10-l2" xml:lang="grc">λαβὼν παχεῖαν ἐπιβαλῶ Λακωνικήν.</l>
+              </lg>
+              <note type="source">Pollux 10, 124 τὴν χλαῖναν δὲ οὕτως ἐκάλουν οἱ τῆς κωμῳ-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0513-eirene-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_eirene">
+              <lg>
+                <l n="1" xml:id="kock-0513-eirene-11-l1" xml:lang="grc">μᾶζαι, πλακοῦντες, ἰσχάδες Τιθράσιαι</l>
+              </lg>
+              <note type="source">Athenaeus 15, 652 f Θεόπομπος δ’ Εἰρήνῃ τὰς Τιθρασίας ἐπαινῶν ἰσχάδας φησὶν οὕτως κτλ.</note>
+              <note type="apparatus">cf. Aristoph. Ran. 477. videtur ubique scribendum esse Τειθράσιαι. cf. Kirchhoff. I. A. 179. H. Roehl. Ind. C. I. p. 13.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0513-eirene-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_eirene">
+              <lg>
+                <l n="1" xml:id="kock-0513-eirene-12-l1" xml:lang="grc">μητρυιόν</l>
+              </lg>
+              <note type="source">τοῦτον (τὸν πατρωὸν) . . . κέκληκε καὶ Θεόπομπος ὁ κωμικὸς ἐν Εἰρήνῃ. Pollux 3, 27. Photius μητρυῖον (sic)· Θεόπομπος τὸν πατρωὸν (πατρυῖον). Eustathius 560, 14 καὶ μητρυιὸν οἱ παλαιοὶ φασι τὸν πατρωόν, ἀρρενωνυμοῦντες τὴν μητρυιάν, καὶ λέγει οὕτω Θεόπομπος.</note>
+              <note type="apparatus">Praeterea ad Pacem fr. 65 rettulit Meinek. I 240, dubitans tamen ipse II 820.</note>
+            </div>
+          </div></body></text></TEI>

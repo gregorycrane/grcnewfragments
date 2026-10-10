@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-aiolos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΑΙΟΛΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.aiolos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.aiolos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.aiolos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_aiolos"><head>ΑΙΟΛΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-aiolos-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_aiolos">
+            <note type="source">1. Dicæarch. Βίῳ Ἑλλάδος. p. 22. ed. Hudson. sine nomine fabulæ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἕλλην γὰρ, ὡς ἔοικε, γίγνεται Διὸς,</l>
+              <l n="2" xml:lang="grc">Τοῦ δ᾽ Αἴολος παῖς, Αἰόλου δὲ Σίσυφος</l>
+              <l n="3" xml:lang="grc">Ἀθάμας τε Κρηθεύς θ᾽, ὅς τ᾽ ἐπ᾽ Ἀλφειοῦ ῥοαῖς</l>
+              <l n="4" xml:lang="grc">θεοῦ μανεὶς ἔρριψε Σαλμωνεὺς φλόνα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-aiolos-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_aiolos">
+            <note type="source">2. Stobæus LXV, 1.</note>
+            <pb n="655" facs="urn:hathi:iau.31858007086675:scan:663"/>
+            <note type="source">Stobaeus IV, 11.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κακῆς ἀπ᾽ ἀρχῆς γίγνεται τέλος κακόν.</l>
+            </lg>
+            <note type="commentary">Chorus percepto de morte Canaces nuntio hæc dixisse videtur.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="23" xml:id="fragment-aiolos-dindorf1893_grc1-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_aiolos">
+            <note type="source">23. Stobaeus CXIV, 8.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οἴμοι, τίς ἀλγεῖν οὐκ ἐπίσταται κακοῖς;</l>
+              <l n="2" xml:lang="grc">τίς ἂν κλύων τῶνδ᾽ οὐκ ἂν ἐκβάλοι δάκρυ;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="24" xml:id="fragment-aiolos-dindorf1893_grc1-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_aiolos">
+            <note type="source">24. Stobaeus CXVI, 4.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φεῦ, φεῦ, παλαιὸς αἶνος ὡς καλῶς ἔχει·</l>
+              <l n="2" xml:lang="grc">γέροντές ἐσμεν οὐδὲν ἄλλο πλὴν ὄχλος</l>
+              <l n="3" xml:lang="grc">καὶ σχῆμ᾽, ὀνείρων δ᾽ ἕρπομεν μιμήματα.</l>
+              <l n="4" xml:lang="grc">νοῦς δ᾽ οὐκέτ᾽ ἐστὶν, οἰόμεσθα δ᾽ εὖ φρονεῖν.</l>
+            </lg>
+            <note type="commentary">Ab Aeolo post liberorum obitum enuntiata esse recte monuerunt Grauertus et Welckerus.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="25" xml:id="fragment-aiolos-dindorf1893_grc1-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_aiolos">
+            <note type="source">25. Galen. de Hippocr. et Plat. dogm. IV, 7. (T. V, p. 152. Chart. T. V, p. 418. Kuehn.)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰ μὲν τόδ᾽ ἦμαρ πρῶτον ἦν κακουμένῳ,</l>
+              <l n="2" xml:lang="grc">καὶ μὴ μακρὰν δὴ διὰ πόνων ἐναυστόλουν,</l>
+              <l n="3" xml:lang="grc">εἰκὸς σφαδάζειν ἦν ἂν, ὡς νεόζυγα</l>
+              <l n="4" xml:lang="grc">πῶλον χαλινὸν ἀρτίως δεδεγμένον·</l>
+              <l n="5" xml:lang="grc">νῦν δ᾽ ἀμβλύς εἰμι καὶ κατηρτυκὼς πόνων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="26" xml:id="fragment-aiolos-dindorf1893_grc1-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_aiolos">
+            <note type="source">26. Stobaeus CVIII, 19.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μοχθεῖν ἀνάγκη· τὰς δὲ δαιμόνων τύχας</l>
+              <l n="2" xml:lang="grc">Ὅστις φέρει κάλλιστ᾽, ἀνὴρ οὗτος σοφός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="27" xml:id="fragment-aiolos-dindorf1893_grc1-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_aiolos">
+            <note type="source">27. Stobaeus CIV, 10.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Αἰεὶ τὸ μὲν ζῇ, τὸ δὲ μεθίσταται κακόν,</l>
+              <l n="2" xml:lang="grc">τὸ δ᾽ ἐκπέφηνεν αὖτις ἐξ ἀρχῆς νέον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="28" xml:id="fragment-aiolos-dindorf1893_grc1-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_aiolos">
+            <note type="source">28. Suid. v. κλῆρος Ἑρμοῦ. Phot. p. 125, Herm. p. 169 Pors. κλῆρος Ἑρμοῦ· συνηθείᾳ ἀρχαίᾳ ἔβαλλον οἱ κληροῦντες εἰς ὑδρίαν ἐλαίας φύλλον, ὃ προσηγόρευον Ἑρμῆν· καὶ πρῶτον ἐξῄρουν τοῦτο, τιμὴν τῷ θεῷ ταύτην ἀπονέμοντες· ἐλάγχανεν δὲ ὁ μετὰ τὸν θεόν. Εὐριπίδης ἐν Αἰόλῳ μνημονεύει τοῦ ἔθους τούτου.</note>
+            <note type="commentary">Welckerus huc etiam refert inc. fab. fgm. CXXV. Cf. quae ad fm. XI monuimus.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="29" xml:id="fragment-aiolos-dindorf1893_grc1-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_aiolos">
+            <note type="source">29. Hesych. Ἀκρατές· ἀσθενές. Εὐριπίδης Αἰόλῳ.</note>
+            <note type="commentary">Voce ἀκρατὴς, viribus defectus, de senectute usus esse videtur, ita quidem, ut eam Aeolus ipse (cf. fgm. XXIV.), quod recte Welckerus perspexit, de se adhiberet. Similiter Soph. Ol. 1237. γῆρας ἀκρατὲς ἀπροσόμιλον. cf. Eustath. ad Il. κ′. p. 790, 62. ἀκρατὲς ἐκεῖνος γῆράς φησιν, οὐ τὸ ἀκόλαστον, ἀλλὰ τὸ ποιοῦν πάρεσιν, ὡς μὴ ἔχοντα τὸν γέροντα κρατεῖν ἑαυτοῦ.</note>
+            <note type="commentary">Ad hanc fabulam praeterea referam inc. fab. fragmenta CXC, CXCI, CXCII.</note>
+          </div>
+        </div></body></text></TEI>

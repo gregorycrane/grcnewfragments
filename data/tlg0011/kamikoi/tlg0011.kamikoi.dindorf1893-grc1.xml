@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-kamikoi-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΚΑΜΙΚΙΟΙ Η ΜΙΝΩΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.kamikoi; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.kamikoi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.kamikoi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kamikoi"><head>ΚΑΜΙΚΙΟΙ Η ΜΙΝΩΣ</head><div type="textpart" subtype="fragment" n="299" xml:id="fragment-kamikoi-dindorf1893_grc1-299" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kamikoi" sameAs="urn:cts:greekLit:tlg0011.kamikoi.nauck1889grc1:301">
+            <note type="source">Athenæus III, p. 86 d. Τῶν στραβήλων μνημονεύει καὶ Σοφ. ἐν Καμικίοις οὕτως</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἁλίας στραβήλου τῆσδε τέκνον εἴ τινα</l>
+              <l n="2" xml:lang="grc">δυναίμεθ' εὑρεῖν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="300" xml:id="fragment-kamikoi-dindorf1893_grc1-300" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kamikoi">
+            <note type="source">Athenæus IX. p. 388 f. Πέρδιξ· τοῦ ὀνόματος ἔνιοι συστέλλουσι τὴν μέσην συλλαβήν, ὡς Ἀρ-</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="301" xml:id="fragment-kamikoi-dindorf1893_grc1-301" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kamikoi">
+            <note type="source">Photius p. 413, 15. et Suidas in Πέρδικος ἱερὸν — Σοφοκλῆς δὲ ἐν Καμικίοις (libri κωμικοῖς) τὸν ὑπὸ Δαιδάλου ἀναιρεθέντα Πέρδικα εἶναι τοὔνομα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="302" xml:id="fragment-kamikoi-dindorf1893_grc1-302" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kamikoi">
+            <note type="source">Clemens Alex. Strom. VI. p. 741.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ ἔστι τοῖς μὴ δρῶσι σύμμαχος τύχη.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="303" xml:id="fragment-kamikoi-dindorf1893_grc1-303" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kamikoi" sameAs="urn:cts:greekLit:tlg0011.kamikoi.nauck1889grc1:304">
+            <note type="source">Hesychius, Κωχεύουσιν· ὀχοῦσι, μετεωρίζουσι. πιστοί με σοφοκλῆς καμίκην κωχεύουσιν ἐμφοραιδέσμας. Paullo emendatius Etymolog. MS. apud Ruhnkenium in Auctario, Κωχεύουσιν· ό. μ. Σ. καμικοῖς</note>
+            <quote>πιστοί με κωχεύουσιν ἐν φοραὶ δέμας.</quote>
+            <note type="commentary">Recte, nisi quod ἐν φορᾷ scribendum. Ruhnkenio ἀμφορεῖ placebat, comparata Hesychii glossa, Ἀμφορεῖ· τῷ (codex ἀμφορείῳ) φορτίῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="304" xml:id="fragment-kamikoi-dindorf1893_grc1-304" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kamikoi">
+            <note type="source">Ioannes Damasc. in Gaisfordi append. ad Stobæum vol. IV. p. 36. Εὐριπίδου Κωμικοῦ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὅστις νέος ὢν μουσῶν ἀμελεῖ</l>
+              <l n="2" xml:lang="grc">τόν τε παρελθόντ' ἀπόλωλε χρόνον</l>
+              <l n="3" xml:lang="grc">καὶ τὸν μέλλοντα τέθνηκε.</l>
+            </lg>
+            <note type="commentary">Gaisfordius Σοφοκλέους Καμικίων.</note>
+          </div>
+        </div></body></text></TEI>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΘΑΛΑΜΟΠΟΙΟΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.thalamopoioi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.thalamopoioi.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.thalamopoioi.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:thalamopoioi"><head xml:lang="grc">ΘΑΛΑΜΟΠΟΙΟΙ</head>
+          <note type="introduction" xml:lang="mul">Ἱκέτιδας, Θαλαμοποιούς, Δαναΐδας trilogiam effecisse coni. Hermann, qui de Θαλαμοποιῶν argumento haec disputat : Aegyptus schickt seine Söhne nach Argos, mit dem Befehl den Danaus umzubringen oder ihm nicht mehr vor Augen zu kommen. Die Aegyptiaden bekriegen den Danaus in Argos, der zu schwach um Widerstand zu leisten ihnen die Töchter verspricht, wenn sie vom Krieg abstehen wollen. Sie nehmen das an ; er aber, ihnen misstrauend, befiehlt seinen Töchtern ihre Männer in der Hochzeitnacht zu ermorden ; alle vollziehen den Befehl, die einzige Hypermnestra (potius Hypermestra) ausgenommen. cf. Hygin. fab. 168 .</note>
+          <div type="textpart" subtype="fragment" n="78" corresp="urn:cite2:perseus:fragmentaryplays.v1:thalamopoioi" xml:id="aesch-fr78">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-78-1">ἀλλ’ εἶ ὃ μέν τις Λέσβιον φατνώματι</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-78-2">κῦμ’ ἐν τριγώνοις ἐκπεραινέτω ῥυθμοῖς</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Pollux 7, 122 : καὶ ἐκφάτνωμα (φάτνωμα Hermann) δὲ καὶ κῦμα μέρη ἔργων ἐν Αἰσχύλου Θαλαμοποιοῖς ’ἀλλ’ — ῥυθμοῖς’ . v. 1 εἶ φάτνωμά τι ante Bekkerum edebatur . v. 2 ἐμπεραινέτω libri ἐκπεραινέτω (Emend. IV p. 374) .</note>
+          </div>
+        </div></body></text>
+</TEI>

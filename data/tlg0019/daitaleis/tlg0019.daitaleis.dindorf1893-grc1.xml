@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0019-daitaleis-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aristophanes, ΔΑΙΤΑΛΕΙΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aristophanes</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="716" to="745"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 716–745. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aristophanes-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-09">Folded page-local headings into stable Aristophanic work identities, restored Dindorf's per-work numbering, and removed demonstrable duplicate page-724 records; transcribed content otherwise unchanged. Geras is absent from the source extraction.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0019.daitaleis; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0019.daitaleis.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0019.daitaleis.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis"><head>ΔΑΙΤΑΛΕΙΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-daitaleis-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">1. Galenus in praefatione lexici Hippocratici, ubi de vocabulo γλῶσσα agit p. 404.</note>
+            <quote>Νομίζω δέ σοι τὰ ὑπὸ Ἀριστοφάνους ἀρκέσειν τὰ ἐκ τῶν Δαιταλέων ὧδέ πως ἔχοντα</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πρὸς ταῦτα σὺ λέξον Ὁμηρείους γλώττας, τί</l>
+              <l n="2" xml:lang="grc">καλοῦσι κόρυμβα.</l>
+            </lg>
+            <note type="commentary">προβάλλει γὰρ ἐν ἐκείνῳ τῷ δράματι ὁ ἐκ τοῦ δήμου τῶν Δαιταλέων πρεσβύτης τῷ ἀκολάστῳ υἱεῖ πρῶτον μὲν τὰ κόρυμβα τί ποτ᾽ ἐστὶν ἐξηγήσασθαι, μετὰ δὲ τοῦτο “τί καλοῦσ᾽ ἀμενηνὰ κάρηνα.” κἀκεῖνος μέντοι ἀντιπροβάλλει τῶν ἐν τοῖς Σόλωνος ἄξοσι γλωττῶν εἰς δίκας διαφερούσας ὡδί πως</note>
+            <lg type="fragment">
+              <l n="3" xml:lang="grc">Ὁ μὲν οὖν σὸς, ἐμὸς δ᾽ οὗτος ἀδελφὸς φρασάτω</l>
+              <l n="4" xml:lang="grc">τί καλοῦσιν ἰδυίους.</l>
+            </lg>
+            <note type="commentary">εἰτ᾽ ἐφεξῆς προβάλλει τί ποτ᾽ ἐστὶ τὸ ὀπυίειν. ἐξ ὧν δῆλον ὡς ἡ γλῶττα παλαιόν ἐστιν ὄνομα τῆς συνηθείας ἐκπεπτωκός· ὅτι δὲ καὶ αὐτὸς ἕκαστος τῶν περὶ λόγους ἐχόντων ἠξίου ποιεῖν ὀνόματα καινὰ δηλοῖ μὲν καὶ ὁ Ἀντιφῶν ἱκανῶς, ὅς γε ὅπως αὐτὰ ποιητέον ἐκδιδάσκει, δηλοῖ δὲ καὶ αὐτὸς οὗτος ὁ Ἀριστοφάνης ἐν ταὐτῷ δράματι διὰ τῶνδε</note>
+            <lg type="fragment">
+              <l n="5" xml:lang="grc">ἀλλ᾽ εἰ σορέλλη καὶ μύρον καὶ ταινίαι.</l>
+            </lg>
+            <note type="commentary">εἶτα ὁ πρεσβύτης ἐπισκώπτων</note>
+            <lg type="fragment">
+              <l n="6" xml:lang="grc">ἰδοὺ σορέλλη· τοῦτο παρὰ Λυσιστράτου.</l>
+            </lg>
+            <note type="commentary">πάλιν δὲ αὐτοῦ τοῦ ἀκολάστου υἱέος εἰπόντος</note>
+            <lg type="fragment">
+              <l n="7" xml:lang="grc">ἢ μὴν ἴσως σὺ καταπλιγήσει τῷ χρόνῳ</l>
+            </lg>
+            <note type="commentary">καὶ τοῦθ᾽ υἱοῦ ὁ πρεσβύτης ἐπισκώπτων ἐρεῖ</note>
+            <lg type="fragment">
+              <l n="8" xml:lang="grc">τὸ καταπλιγήσει τοῦτο παρὰ τῶν ῥητόρων.</l>
+            </lg>
+            <note type="commentary">εἰτ᾽ αὖθις ἐκείνου φάντος</note>
+            <lg type="fragment">
+              <l n="9" xml:lang="grc">τί ὑποτεκμαίρει καὶ κακῶς ἄνδρας λέγεις</l>
+              <l n="10" xml:lang="grc">καλοκαγαθίαν ἀσκοῦντας;</l>
+            </lg>
+            <note type="commentary">εἶτα ὁ πρεσβύτης</note>
+            <lg type="fragment">
+              <l n="11" xml:lang="grc">οἴμ᾽, ὦ Θρασύμαχε,</l>
+              <l n="12" xml:lang="grc">τίς τοῦτο τῶν ξυνηγόρων τερατεύεται;</l>
+            </lg>
+            <note type="commentary">Ad eandem fabulae partim alia quaedam fragmenta satis probabili conjectura referre licet, de quibus partim admonuit Suevernius in commentatione de Nubibus p. 28.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-daitaleis-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">2. Athenaeus XV, p. 694 a.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δισον δή μοι σκολιόν τι λαβὼν Ἀλκαίου κάνα-</l>
+              <l n="2" xml:lang="grc">κρέοντος.</l>
+            </lg>
+            <note type="commentary">quae senis esse ad filium verba videntur, quemadmodum in Nubibus v. 1356, Phidippidem Simonidis</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-daitaleis-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">3. Athenaeus XII, p. 527 c.</note>
+            <quote>Διαβόητοι δ᾽ εἰσὶ περὶ τρυφὴν Σικελιῶταί τε καὶ Συρακόσιοι, ὡς καὶ Ἀριστοφάνης φησὶν ἐν Δαιταλεῦσιν</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀλλ᾽ οὐ γὰρ ἔμαθε ταῦτ᾽ ἐμοῦ πέμποντος, ἀλλὰ</l>
+              <l n="2" xml:lang="grc">μᾶλλον</l>
+              <l n="3" xml:lang="grc">πίνειν, ἔπειτ᾽ ἄδειν κακῶς, Συρακοσίαν τράπεζαν,</l>
+              <l n="4" xml:lang="grc">Συβαρίτιδάς τ᾽ εὐωχίας καὶ Χῖον ἐκ Λακαινᾶν.</l>
+            </lg>
+            <note type="apparatus">V. 1. legebatur ἐμάθετε ταῦτ᾽, quod correxit Elmsleius in censuris Edinensibus vol. XIX. p. 86. Porsonus ἐμάθετ᾽ αὔτ᾽ vere fortasse. V. 2. libri συρακοσίων. Epitome Συρακουσίους. Recte Porsonus Συρακοσίαν, videnturque ex hoc loco glossam suam Συρακοσία τράπεζα Hesychius et Photius petivisse. Versum tertium attulit Athenaeus ubi de poculis Λακαίναις dictis egit XI, p. 484 f. quo in loco in fine versus inutilis librarii alicujus annotatio addita legitur κυλίκων μέθυ ἡδέως καὶ φίλως, quam miris conjecturis tentare quam litura sanare maluerunt critici. Ad Χῖον ἐκ Λακαινᾶν fortasse pertinet Hesychii glossa Χῖον τὸν ἐκ Δακαίνης· ἐκ κύλικος Λακαίνης οἶνον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-daitaleis-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">4. Juveni molli et inerti vitae dedito conveniunt haec ab Athenaeo relata IV, p. 184 e.</note>
+            <quote>Ἐμφανίζει δὲ καὶ ὁ Ἀριστοφάνης ἐν τοῖς Δαιταλεῦσι τὴν περὶ τὸ πρᾶγμα τοῦτο (h. e. τὴν αὐλητικὴν) σπουδὴν, ὅταν λέγῃ</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὅστις αὐλοῖς καὶ λύραισι κατατέτριμμαι χρώμενος,</l>
+              <l n="2" xml:lang="grc">εἶτά με σκάπτειν κελεύεις;</l>
+            </lg>
+            <note type="commentary">τὸν γέροντά φησι</note>
+            <lg type="fragment">
+              <l n="3" xml:lang="grc">ἀποβήσεταί σοι ταῦτα ποὶ τὰ ῥήματα</l>
+            </lg>
+            <note type="commentary">πάλιν ὁ πρεσβύτης καὶ τοῦτο σκώπτει</note>
+            <lg type="fragment">
+              <l n="4" xml:lang="grc">παρ᾽ Ἀλκιβιάδου τοῦτο τἀποβήσεται.</l>
+            </lg>
+            <note type="apparatus">In codice scriptum ὅστις δ᾽ αὐτὴν αὐλοῖς καὶ λύραις. αὐτὴν delevit Casaubonus, δ᾽ Brunckius. Quod σκάπτειν dicit, non sensu verbi proprio intelligendum, sed ad pervulgatum apud Graecos proverbium spectare videtur σκάπτειν οὐκ ἐπίσταμαι, de quo dictum ab interpretibus Avium v. 1432 τί γὰρ πάθω; σκάπτειν γὰρ οὐκ ἐπίσταμαι et ab Valckenario in scholiis in N.T. vol. I, p. 522. Ad ejus similitudinem compositum quod in Vespis dixit v. 959. ξύγγνωθι· κιθαρίζειν γὰρ οὐκ ἐπίσταται, quæ cum Avium versu commiscuisse videtur Suidas, qui in v. ἐπίστω ex Aristophane versum attulit σύγγνωθί μοι· σκάπτειν γὰρ οὐκ ἐπίσταμαι: ita enim recte Brunckius vulgatum σκώπτειν corrigit.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-daitaleis-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">5. Athenaeus IX, p. 368 e. ubi de κωλαῖς agit, Ἀριστοφάνης Δαιταλεῦσι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καὶ δελφακίων ἁπαλῶν κωλαῖ καὶ χναυμάτια</l>
+              <l n="2" xml:lang="grc">πτερόεντα.</l>
+            </lg>
+            <note type="apparatus">πτερόεντα χναυμάτια Henr. Stephanus in Thesauro vol. iv. p. 543. recte interpretari videtur aviculas delicatius apparatas.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="6" xml:id="fragment-daitaleis-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Athenaeus XIV, p. 646 b. Χαρίσιος. τούτου μνημονεύει Ἀριστοφάνης ἐν Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐγὼ δ᾽ ἰὼν</l>
+              <l n="2" xml:lang="grc">πέμψω πλακοῦντ᾽ εἰς ἑσπέραν χαρίσιον.</l>
+            </lg>
+            <note type="apparatus">Correxi δ᾽ ἰών. Codex δὲ νῶν. Idem πλακουντεσπεραν. Bentleius ad Callimachi fragmenta πλακούντ᾽ ἐς ἑσπέραν, contra usum linguae vulgaris: quanquam ἐς ἑσπέραν libri praebent, Pac. 966. Eccles. 1047. Apud Suidam in ἀνάστατοι scriptum πέμψω πλακούντας (corruptius etiam παλλακαῖς in χαρίσιον) ἑσπέρας χαρισίους.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-daitaleis-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Athenaeus XV, p. 690 e. Ψάγδης (μέμνηται) Ἀριστοφάνης ἐν Δαιταλεῦσι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φέρ᾽ ἴδω τί σοι δῶ τῶν μύρων; ψάγδαν φιλεῖς;</l>
+            </lg>
+            <note type="commentary">Paullo post p. 691 c. σάγδαν ex hoc loco memorat, ut in multis nominibus peregrinis ambigua inter 4, et o scriptura est.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-daitaleis-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Pollux X, 119, 120. Εἴρηται δ᾽ ὑπ᾽ αὐτοῦ ἐν Δαιταλεῦσι καὶ ἄγγη μυρηρὰ (meliores codices ἄγγη μυροφορικά,) λέγοιτο δ᾽ ἂν καὶ λήκυθος μυρηρά· σὺ δ᾽ ἂν εἴποις καὶ μυροφόρον. — καὶ τὸ μὲν εἰς τὰς ληκύθους καθιέμενον ἐπὶ γεύματι τοῦ μύρου σπαθίδα καὶ σπάθην κλητέον, Ἀριστοφάνους μὲν εἰπόντος ἐν Δαιταλεῦσι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τῆς μυρηρᾶς ληκύθου</l>
+              <l n="2" xml:lang="grc">πρὶν κατελάσας τὴν σπαθίδα γεύσασθαι μύρου.</l>
+            </lg>
+            <note type="apparatus">Codex Kuhnii καθελεύσας. Brunckius κατελάσαι. Pollux VII, 177. σπαθίδα δὲ τὴν καθιεμένην εἰς τὸ μύρον Ἀριστοφάνης εἴρηκεν ἐν Δαιταλεῦσι. Photius p. 529, 6. Σπαθίδα: τὴν τῶν μυρεψῶν σπάθην. οὕτως Ἀριστοφάνης.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-daitaleis-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Athenaeus XV, p. 667 f. Ἕτερον δ᾽ ἐστὶν εἶδος παιδιᾶς τῆς ἐν λεκάνῃ. αὕτη δ᾽ ὕδατος πληροῦται, ἐπινεῖ τε ἐπ᾽ αὐτῆς ὀξύβαφα κενὰ, ἐφ᾽ ἃ βάλλοντες τὰς λάταγας ἐκ καρχησίων ἐπειρῶντο καταδύειν. ἀνῃρεῖτο δὲ τὰ κοτταβεία ὁ πλείω καταδύσας. (sequuntur comicorum loci duo de ὀξυβάφοις.) τὸ δ᾽ ἄθλον</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐθέλω βάψας πρὸς ναυτοδίκας πλεῖν ἐξαίφνης.</l>
+            </lg>
+            <note type="source">Ἀριστοφάνης Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Ἔγνωκ᾽ ἐγὼ δὲ χαλκίον</l>
+              <l n="3" xml:lang="grc">(τοῦτ᾽ ἔστι κοτταβεῖον) ἱστάναι καὶ μυρρίνας.</l>
+            </lg>
+            <note type="apparatus">Dobræus, Ἐθέλω βάψας πρὸς ναυτοδίκας ξένον ἐξαίφνης. Verba τοῦτ᾽ ἔστι κοτταβεῖον interpretis, non Aristophanis esse vidit Jacobsius. Versus, nisi aliquid excidit, trochaici sunt habendi et fortasse ex ea fabulae parte sumpti unde est fragmentum IV.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-daitaleis-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Athenaeus III, p. 127 c. Χόνδρον δὲ εἴρηκε τὸ ῥόφημα Ἀριστοφάνης ἐν Δαιταλεῦσιν οὕτως</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἣ χόνδρον ἔψων, εἶτα μυῖαν ἐμβαλὼν</l>
+              <l n="2" xml:lang="grc">ἐδίδου ῥοφεῖν ἄν.</l>
+            </lg>
+            <note type="apparatus">Vulgo ἑψῶν. Verba e prologo sumpta esse suspicatur Dobræus.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-daitaleis-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Athenaeus IX, p. 400 a. ex Tryphone, Τὸν δὲ λαγὼν ἐπ᾽ αἰτιατικῆς Ἀριστοφάνης ἐν Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀπόλωλα· τίλλων τὸν λαγὼν ὀφθήσομαι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-daitaleis-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Pollux X, 109. Καὶ μὴν καὶ ἐπίχυσις χαλκίου ἓν τῶν τοῦ μαγείρου σκευῶν. Ἀριστοφάνης δὲ αὐτὸ εἴρηκεν ἐν Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ, ἀλλὰ ταῦτά γ᾽ ἐπίχυσις τοῦ χαλκίου.</l>
+            </lg>
+            <note type="source">Idem X, 92. τὸ δὲ ὄνομα ἡ ἐπίχυσις εἴρηται ἐν Ἀριστοφάνους Δαιταλεῦσι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-daitaleis-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Photius p. 606, 20. Τροπίας οἶνος: ὁ τετραμμένος καὶ ἐξεστηκώς. Ἀριστοφάνης Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ταχύ νυν πέτου καὶ μὴ τροπίαν οἶνον φέρε.</l>
+            </lg>
+            <note type="apparatus">ταχυ νύν Suidas in τροπίας. Photii codex ταχὺ νῦν. Pro πέτου apud Suidam πότον, i. e. ποτόν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-daitaleis-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Scholiasta Aristoph. Equit. v. 577. schol. Platonis p. 334. Bekker. schol. Diogenis in Notices et Extraits vol. X, p. 226. Photius et Suidas, Στλεγγίς: ἡ ξύστρα· ἐν Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐδ᾽ ἐστὶν αὐτῇ στλεγγὶς οὐδὲ λήκυθος.</l>
+            </lg>
+            <note type="apparatus">οὐδ᾽ ἐστὶν] οὐδὲ γὰρ schol. Aristoph. αὐτῇ schol. Diogenis et in scholio Platonico, ubi αὐτοῖς editum, codex Parisinus. αὐτὴ schol. Aristoph. Cæteri αὕτη.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-daitaleis-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Suidas, Ἀναλίσκειν καὶ ἀναλοῦν τῇ αἰτιατικῇ ἑκάτερα· Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰς τὰς τριήρεις δεῖ μ᾽ ἀναλοῦν ταῦτα καὶ τὰ τείχη.</l>
+            </lg>
+            <note type="source">Addit Suidas, ἐν δὲ τῷ παρεληλυθότι καὶ διὰ τοῦ ἡ ἀδιαφόρως, οἷον ἀνήλισκον καὶ ἀνάλισκον, καὶ αὖθις,</note>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Εἰς οἱ ἀνάλουν οἱ πρὸ τοῦ τὰ χρήματα.</l>
+            </lg>
+            <note type="commentary">Hæc quoque Aristophani tribuit Porsonus: recte fortasse, quanquam ejusdem hæc esse poetæ non sequitur ex illo αὖθις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-daitaleis-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Harpocratio in ναυτοδίκαι, Ἀριστοφάνης Δαιταλεῦσιν, Ἐθέλω βάψας (βλάψας codex Vratisl.) πρὸς ναυτοδίκας ξένην ἐξαίφνης. Suidas, βάψας: τὴν κώπην· ἔπλευσας (corr. πλεύσας cum Dobræo)· ἐλθὼν πρὸς τοὺς ναυτοδίκας, οἱ τὰ τῆς ξενίας ἐδίκαζον. ἢ ἀπὸ τῶν φαρμακοποιούντων· λέγουσι γὰρ τὸ βάψας ποιήσω μέλαν. Hesychius, βάψας: δεύσας, πλεύσας. ἢ τὴν κώπην βάψας. Ex his Brunckius hoc composuit fragmentum βάψας τὴν κώπην εὐθὺς ἔπλευσα | πρὸς ναυτοδίκας, οἱ τῆς ξενίας ἐδίκαζον. Apparet postrema οἱ τὰ τῆς ξενίας ἐδίκαζον grammatici verba esse: Aristophanis autem hæc fortasse fuerunt</note>
+            <note type="apparatus">Dobræus, Ἐθέλω βάψας πρὸς ναυτοδίκας ξένον ἐξαίφνης. ἀποφῆναι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-daitaleis-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Harpocratio in ἐπίπεμπτον, Ἀριστοφάνης Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἢν μὴ μεταλάβῃ τοὐπίπεμπτον, κλαέτω.</l>
+            </lg>
+            <note type="apparatus">ἣν Brunckius. Vulgo εἰ. οὐ μὴ ex codice nescio quo restitui jubet Porsonus in Adversar. p. 309, et ex suis libris posuit Bekkerus, p. 82, 8. Photius p. 597, 1, τοὐπίπεμπτον: οἱ γὰρ μὴ μεταλαβόντες τὸ ἐ μέρος τῶν ψήφων ἄτιμοι ἦσαν. οὕτως Ἀριστοφάνης. Eadem Etymol. M, p. 763, 22.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-daitaleis-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Harpocratio in κιγκλὶς, αἱ τῶν δικαστηρίων θύραι κιγκλίδες ἐκαλοῦντο. Ἀριστοφάνης Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁ δ᾽ ἡλιαστὴς εἶρπε πρὸς τὴν κιγκλίδα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="19" xml:id="fragment-daitaleis-dindorf1893_grc1-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Pollux X, 158. ἔτι δὲ (προσθετέον) καὶ γύργαθον καὶ θωμὸν, Ἀριστοφάνους ἐν Δαιταλεῦσιν εἰπόντος</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰ μὴ δικῶν τε γυργαθὸς ψηφισμάτων τε θωμός.</l>
+            </lg>
+            <note type="commentary">γύργαθος ex hac fabula affertur ab Polluce VII, 176 θωμόν ex Babyloniis memorat Mæris: vide fragm. XXV. Minus accurate Athenæi epitome I, p. 4 d. γυργάθους ψηφισμάτων Ἀριστοφάνης φησίν. Corri-</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="20" xml:id="fragment-daitaleis-dindorf1893_grc1-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Photius et Suidas, Σεῖσαι: τὸ συκοφαντῆσαι — Ἀριστοφάνης Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἔσειον, ᾔτουν χρήματ', ἠπείλουν, ἐσυκοφάντουν</l>
+              <l n="2" xml:lang="grc">πάλιν.</l>
+            </lg>
+            <note type="commentary">πάλιν si est Aristophanis, novi versus initium habendum erit: sin, ut mihi videtur, grammatici est, alius locus excidisse putandus, veluti Pacis v. 640. τῶν δὲ συμμάχων ἔσειον τοὺς παχεῖς καὶ πλουσίους. Brunckius et apud Photium Porsonus trimetros fecerunt verbo transposito, πάλιν ἐσυκοφάντουν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="21" xml:id="fragment-daitaleis-dindorf1893_grc1-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Athenæus III, p. 119 c. de forma masculina ὁ τάριχος disputans ex hac fabula apposuit</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ αἰσχυνοῦμαι τὸν τάριχον τουτονὶ</l>
+              <l n="2" xml:lang="grc">πλύνων ἅπασιν ὅσα σύνοιδ᾽ αὐτῷ κακά.</l>
+            </lg>
+            <note type="commentary">Ex epitome hunc locum attulit recens grammaticus ab Hermanno editus p. 325. unde ei commune cum epitome vitium est, in qua πλύνων εἰπεῖν ἅπασιν scriptum. Corrupte apud Eustath. p. 73 extr. τάριχον τοῦτον πλύνω. πλύνων] Diphilus Siphnius apud Athen. ibid. p. 121 c. πάντας δὲ χρὴ τοὺς ταρίχους πλύνειν, ἄχρι ἂν τὸ ὕδωρ ἄνοσμον καὶ γλυκὺ γένηται. αὐτῷ] αὑτῷ Hermanus. Ad sententiam verborum quod attinet, Casaubonus non τάριχον qui proprie dicitur intelligit, sed hominem nequam, quemadmodum, quod Wakefieldus comparavit, Angli a pickled fellow vel simpliciter a pickle dicunt.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="fragment-daitaleis-dindorf1893_grc1-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Suidas in Αἰγέα, Αἰγέα καὶ Ἐρεχθέα καὶ πάντων τῶν τοιούτων ἐκτείνεται τὸ τελευταῖον ἄλφα. Ἀριστοφάνης Δαιταλεῦσι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὸν Ἐρεχθέα μοι καὶ τὸν Αἰγέα κάλει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="23" xml:id="fragment-daitaleis-dindorf1893_grc1-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Scholiasta Theocriti II, 12. Σκύλακες: διὰ τὸ σκύλακας ἐκφέρεσθαι δεῖπνα τῇ Ἑκάτῃ. Ἀριστοφάνης ἐν Δαιταλεῦσι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τί δαί; κυνίδιον λευκὸν ἐπρίω τῇ θεᾷ</l>
+              <l n="2" xml:lang="grc">εἰς τὰς τριόδους.</l>
+            </lg>
+            <note type="commentary">Legebatur τί δὲ κυνίδιον λεπρὸν λευκὸν ἐπρίω. Elmsleius ad Acharn. v. 724. Τί δαί; λεπρὸν κυνίδιον ἐπρίω τῇ θεῷ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="24" xml:id="fragment-daitaleis-dindorf1893_grc1-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Pollux ΙΧ, 88. Καὶ κατακεκερματίσθαι μὲν ἐπὶ λόγου Πλάτων, ἐπὶ δὲ ἀργυρίου Ἀριστοφάνης ἐν Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐδ᾽ ἀργύριόν ἐστιν κεκερματισμένον.</l>
+            </lg>
+            <note type="commentary">Sine nomine fabulæ affertur VII, 170.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="25" xml:id="fragment-daitaleis-dindorf1893_grc1-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Athenæus VII, p. 299, ubi de nominativo ἔγχελυς agit ex hac fabula posuit exemplum</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">καὶ λεῖος ὥσπερ ἔγχελυς.</l>
+            </lg>
+            <note type="commentary">Ex epitome, omisso καὶ, habent Eustathius p. 1240, 18, et grammaticus Hermanni p. 321. Schol. Theocriti XI, 10. Κικίννοις: τοῖς μαλλίοις, τῇ κόμῃ, ὡς καὶ ὁ κωμικὸς κέχρηται, Ὥσπερ ἔγχελυς (alii codd. ἐγχελεις) χρυσοῦς ἔχων κικίννους (vulgo κικίνους et supra κικίνοις). Aristophanis igitur versus fuit, quod non fugit Hemsterhusium.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="26" xml:id="fragment-daitaleis-dindorf1893_grc1-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Athenæus IV, p. 169 c. Τὴν χύτραν δ' Ἀριστοφάνης κακκάβην εἴρηκεν ἐν Δαιταλεῦσι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κἄγειν ἐκεῖθεν κακκάβην.</l>
+            </lg>
+            <note type="commentary">Vide ad Dædali fr. X, et Σκηνὰς καταλαμβ. fr. VII.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="27" xml:id="fragment-daitaleis-dindorf1893_grc1-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Photius p. 313, 14. Ὀαὶ τῶν ἱματίων: Ἀριστοφάνης Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὅτε τὰς ὀὰς ἴσας ἐποιήσατο.</l>
+            </lg>
+            <note type="commentary">Eustathius p. 1828, 54. ἐν δὲ ἀνωνύμῳ ῥητορικῷ λεξικῷ γράφεται καὶ ὅτι ὀξυτόνως καὶ συνεσταλμένως ὀαὶ ἱματίων. φέρει δὲ καὶ χρῆσιν τοῦ κωμικοῦ τὸ “Ὅτε τὰς ὀὰς ἐποιήσατο.”</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="28" xml:id="fragment-daitaleis-dindorf1893_grc1-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Phrynichus p. 91. Ἀκεστὴς λέγουσιν οἱ παλαιοὶ, οὐκ ἠπητής. ἔστι μὲν ἠπήσασθαι ἅπαξ παρ Ἀριστοφάνει ἐν Δαιταλεῦσι, παίζοντι τὰς Ἡσιόδου ὑποθήκας</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καὶ κόσκινον ἠπήσασθαι.</l>
+            </lg>
+            <note type="commentary">Aristophanis verba attulit Thomas Mag. p. 27. Est versus heroici exitus, cujus in vicinia fortasse lectum fuit oraculum Atheniensibus aliquando editum Αἰετὸς ἐν νεφέλῃσι γενήσεαι ἤματα πάντα, de quo scholiasta Equit. v. 1010. τούτου δὲ τοῦ χρησμοῦ οὐ μόνον ἐνταῦθα, ἀλλὰ καὶ ἐν Ὄρνισι καὶ Δαιταλεῦσι μέμνηται.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="29" xml:id="fragment-daitaleis-dindorf1893_grc1-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Eustathius p. 1579, 30. de prosodia nominum in oia et eia agens, καὶ ἡ ἀναιδεία δέ φησι (Αἴλιος Διονύσιος) καὶ ἡ προνοία, ὧν πάντων ἐκτείνεται μὲν ἡ τελευταία, ἡ δὲ πρὸ αὐτῆς ὀξύνεται. Ἀριστοφάνης Δαιταλεῦσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ παρανοία καὶ ἀναιδεία.</l>
+            </lg>
+            <note type="commentary">Patet his verbis non fuisse in alio quam anapæstis metro locum. In eo autem non potuit ὦ προνοία dici, et mira est providentiæ cum impudentia conjunctio. Scribendum igitur Ὦ παρανοία καὶ ἀναιδεία. pariterque in grammatici verbis καὶ ἡ παρανοία. Memorabilem in hoc genere productionem nominis proprii, Ιφιγενεία, Æschylo nuper restituimus in Agamemnone v. 1524. Pors., in cæteris præclaram sequuti emendationem Hermanni, ἀλλ᾽ ἐμὸν ἐκ τοῦδ᾽ ἔρνος ἀερθὲν, τὴν πολυκλαύτην Ἰφιγενείαν, ἄξια δράσας ἄξια πάσχων. Libri τὴν πολύκλαυτόν τ' ἰφιγένειαν ἀνάξια δράσας.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="30" xml:id="fragment-daitaleis-dindorf1893_grc1-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Harpocratio in ἁλίπεδον, Ἀριστοφάνης Δαιταλεῦσι διὰ ψιλοῦ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐν ἀλιπέδῳ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="31" xml:id="fragment-daitaleis-dindorf1893_grc1-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Grammaticus Bekkeri p. 427, 3. Ἀποβροχθίσαι: τὸ καταπιεῖν. ὡς ἡμεῖς, Ἀριστοφάνης Δαιταλεῦσιν ἐχρήσατο.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="32" xml:id="fragment-daitaleis-dindorf1893_grc1-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Pollux X, 172. Θυλακίσκον, ὡς ἐν Δαιταλεῦσιν Ἀριστοφάνης.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="33" xml:id="fragment-daitaleis-dindorf1893_grc1-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Antiatticista Bekkeri p. 104, 28. Κλινάρια: οὐ μόνον κλινίδια. Ἀριστοφάνης Δαιταλεῦσιν. κλινάριον ex hac fabula Pollux X, 32.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="34" xml:id="fragment-daitaleis-dindorf1893_grc1-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Pollux VII, 153. Ἀριστοφάνης δ' ἐν Δαιταλεῦσι καὶ λυρωνίαν που λέγει.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="35" xml:id="fragment-daitaleis-dindorf1893_grc1-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">Photius p. 291, 16. Νεβλάρετοι: περαίνει. ἄσημος φωνὴ ἐπὶ τοῦ περαίνειν. Ἀριστο-</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="36" xml:id="fragment-daitaleis-dindorf1893_grc1-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">36. Photius p. 350, 10.</note>
+            <quote>Ὄρτυγας· συστέλλοντες οἱ Ἀττικοὶ λέγουσι τὸ υ, καὶ τὸν ὀρτυγοκόμον βραχέως. δηλοῖ Ἀριστοφάνης Δαιταλεῦσιν.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="37" xml:id="fragment-daitaleis-dindorf1893_grc1-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">37. Suidas.</note>
+            <quote>Ῥαγδαίους· —ἔστι τὸ ὄνομα— καὶ ἐν Δαιταλεῦσιν Ἀριστοφάνους.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="38" xml:id="fragment-daitaleis-dindorf1893_grc1-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">38. Athenaeus IV, p. 183 e.</note>
+            <quote>Μνημονεύει δὲ τοῦ τριγώνου (instrumenti musici) τούτου — Ἀριστοφάνης ἐν Δαιταλεῦσι.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="39" xml:id="fragment-daitaleis-dindorf1893_grc1-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">39. Pollux VII, 168.</note>
+            <quote>Τῷ δὲ λοῦσθαι καὶ τὸ ψυχρολουτρεῖν ἂν προσήκοι, εἰρημένου τοῦ ἐψυχρολουτρήσαμεν ἐν Δαιταλεῦσιν Ἀριστοφάνους.</quote>
+            <note type="commentary">Recte Wyttenbachius ad Plutarchum vol. VI, p. 446, et Falckenburgius meliorem formam ψυχρολουτεῖν restituere videntur. De utraque dictum ab Lobeckio ad Phrynich. p. 594.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="40" xml:id="fragment-daitaleis-dindorf1893_grc1-40" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">40. Scholiasta ad Acharn. v. 271.</note>
+            <quote>ὡρικὴν ὑληφόρον· ἀντὶ τοῦ ὡραίαν καὶ ἀκμαίαν· ὡρικὸν δὲ μειράκιον καὶ κόρη, ὡς ἐν (καὶ ὡρικῶς ἐν Dobraeus) Δαιταλεῦσιν αὐτός.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="41" xml:id="fragment-daitaleis-dindorf1893_grc1-41" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">41. Harpocratio, Θήτες.</note>
+            <quote>ὅτι δὲ οὐκ ἐστρατεύοντο εἴρηκε καὶ Ἀριστοφάνης ἐν Δαιταλεῦσιν.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="42" xml:id="fragment-daitaleis-dindorf1893_grc1-42" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daitaleis">
+            <note type="source">42. Scholiasta ad Vespar. v. 819.</note>
+            <quote>εἶχον δὲ καὶ οἱ ἥρωες πανοπλίαν. καὶ δῆλον ἐκ τῶν Δαιταλέων.</quote>
+          </div>
+        </div></body></text></TEI>

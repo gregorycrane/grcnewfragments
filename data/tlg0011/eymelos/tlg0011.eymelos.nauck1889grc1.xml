@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-eymelos-nauck1889grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΕΥΜΗΛΟΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0011">Sophocles</author>
+        <editor>August Nauck</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability>
+          <p>Derived scholarly transcription; verify against page images before quotation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>August Nauck, Tragicorum Graecorum Fragmenta, second edition (Leipzig: Teubner, 1889).</bibl>
+        <ptr target="../../../nauck1889/source/nauck1889.tragicorum-graecorum-fragmenta.xml"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Extracted deterministically from nauck.tragfrag-2.xml; repaired the malformed TEI namespace URI.</change>
+    <change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.eymelos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.eymelos.nauck1889grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.eymelos.nauck1889grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_eymelos"><head>ΕΥΜΗΛΟΣ</head><div type="textpart" subtype="fragment" n="202" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_eymelos" xml:id="fragment-eymelos-nauck1889grc1-202">
+            <head>202</head>
+            <lg>
+              <l n="1" xml:lang="grc">ἀσάμινθος</l>
+            </lg>
+            <p>Hesych. 1 p. 79 : αἵματος ἆσαι Ἄρηα (αἱματώσασαι ἄρηας cod.)·
+αἵματος κορέσαι τὸ δόρυ, ἢ αἵματι μολῦναι καὶ χρῶσαι αὐτό . ἄση
+γὰρ ἡ ῥυπαρία, ὅθεν καὶ ἀσάμινθος (ἀσάμεθα cod.) , ἐν ᾗ τὴν ἄσην
+μινύθοντες (μηνύθοντε cod.) ἐνεορεῖ (ἐλούοντο corrigunt) . Σοφοκλῆς
+Εὐμήλῳ (ἀμήλῳ codex) . post μινύθοντες lacunam indicavit M.
+Schmidt, qui ἐνεορεῖ et quae sequuntur verba ad αἱματῶσαι glossam
+revocanda esse suspicatur. quae in Etym. M. p. 797 , 7 sine
+scriptoris nomine afferuntur verba, φοιβανάτω δέ τις ἀσάμινθον,
+Sophocli temere tribuit Bergk Lyr. ed. quart. vol. 3 p. 213 .</p>
+          </div>
+          <div type="textpart" subtype="fragment" n="203" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_eymelos" xml:id="fragment-eymelos-nauck1889grc1-203">
+            <head>203</head>
+            <lg>
+              <l n="1" xml:lang="grc">καθελών</l>
+            </lg>
+            <p>Harpocr. p. 104 , 18 : καθελών — ἀντὶ τοῦ ἀνελὼν ἢ ἀποκτείνας.
+ἐχρήσαντο δὲ οὕτω τῷ ὀνόματι καὶ ἄλλοι, ὡς καὶ Στησίχορος ἐν
+Ἰλίου πέρσιδι καὶ Σοφοκλῆς ἐν Εὐμήλῳ . cf. Phot. Lex. p. 122 , 1
+(Suid. v. καθελών et Zon. Lex. v. καθελών p. 1165) : καθελών· Δημοσθένης
+ἀντὶ τοῦ ἀνελὼν ἤτοι ἀποκτείνας, καὶ Στησίχορος καὶ Σοφοκλῆς.</p>
+          </div>
+        </div></body></text></TEI>

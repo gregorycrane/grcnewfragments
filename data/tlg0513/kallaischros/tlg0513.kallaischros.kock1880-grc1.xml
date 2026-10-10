@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>THEOPOMPUS, ΚΑΛΛΑΙΣΧΡΟΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Theopompus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0513.kallaischros.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0513.kallaischros.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0513.kallaischros.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_kallaischros"><head>ΚΑΛΛΑΙΣΧΡΟΣ</head><div type="textpart" subtype="fragment" n="21" xml:id="kock-0513-kallaischros-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_kallaischros">
+              <note type="source">Pollux 9, 59 τὰ δὲ στατῆρος ἄξια στατηριαῖα φαίης ἄν, ὡς Θεόπομπος ἐν Καλλαίσχρῳ.</note>
+              <lg>
+                <l n="1" xml:id="kock-0513-kallaischros-21-l1" xml:lang="grc">οὔ φησιν εἶναι τῶν ἑταιρῶν τὰς μέσας</l>
+                <l n="2" xml:id="kock-0513-kallaischros-21-l2" xml:lang="grc">στατηριαίας.</l>
+              </lg>
+              <note type="apparatus">οὐ φησιν] οὐ φασιν Meinek. 'quae de urbe dicta videntur, in qua meretrices magno pretio noctes vendebant, ut vel mediocres statera exigerent. Epicrat. 3, 16. 22.'</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="22" xml:id="kock-0513-kallaischros-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_kallaischros">
+              <note type="source">Athenaeus 10, 423 a καὶ ἠρίσταμεν δ’ εἴρηκεν . . . Θεόπομπος Καλλαίσχρῳ κτλ. cf. Hermipp. 60.</note>
+              <lg>
+                <l n="1" xml:id="kock-0513-kallaischros-22-l1" xml:lang="grc">ἠρίσταμεν· δεῖ γὰρ συνάπτειν τὸν λόγον.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="23" xml:id="kock-0513-kallaischros-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_kallaischros">
+              <note type="source">Athenaeus 7, 302 e Θεόπομπος ἐν Καλλαίσχρῳ κτλ.</note>
+              <lg>
+                <l n="1" xml:id="kock-0513-kallaischros-23-l1" xml:lang="grc">ἰχθύων δὲ δὴ</l>
+                <l n="2" xml:id="kock-0513-kallaischros-23-l2" xml:lang="grc">ὑπογάστρι’, ὦ Δάματερ.</l>
+              </lg>
+              <note type="apparatus">παρατηρητέον ὅτι ἐπὶ ἰχθύων μὲν ὑπογάστριον λέγουσι, σπανίως δ’ ἐπὶ χοίρων καὶ τῶν ἄλλων ζῴων. 9, 399 d ὑπογάστριον δὲ μόνον ὡς ἐπὶ τῶν ἰχθύων λέγεται. Θεόπομπος Καλλαίσχρῳ κτλ. ὑπογάστρι’ ὦ] ὑπογαστρίω (sine accentu) A 399 d. ὑπογάστριον ὦ 302 e. Δάματερ] Δήμητερ B 302 e. διαματερ A 399 d. ὦ Δάματερ est admirantis exclamatio, ὦ Δήμητερ vocativus. Photius et Suidas ‘Ἡράκλεις· ἐπίφθεγμα θαυμαστικόν· ὥσπερ τὸ ὦ Δάματερ τοῦ ὦ Δήμητερ διαφέρει. Eustath. 1385, 53 τὸ ὦ Δάματερ τὸ θαυμαστόν (θαυμαστικόν), ὃ κεῖται καὶ παρὰ τῷ κωμικῷ (Aristoph. Plut. 555. 872)</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΜΥΡΜΙΔΟΝΕΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.myrmidones; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.myrmidones.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.myrmidones.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones"><head>ΜΥΡΜΙΔΟΝΕΣ</head>
+          <pb n="599" facs="urn:hathi:iau.31858007086675:scan:607"/>
+          <div type="textpart" subtype="fragment" n="122" xml:id="frag_6a11e105a9" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" sameAs="urn:cts:greekLit:tlg0085.myrmidones.nauck1889-grc1:131">
+            <note type="source">Harpocratio, Προπεπωκότες: ἀντὶ τοῦ προδεδωκότες· ἐκ μεταφορᾶς δὲ λέγεται. — ἐν ἀρχῇ δὲ τῶν Μυρμιδόνων Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_6a11e105a9-l1" xml:lang="grc">Τάδε μὲν λεύσσεις, φαίδιμ' Ἀχιλλεῦ,</l>
+              <l n="2" xml:id="frag_6a11e105a9-l2" xml:lang="grc">δοριλυμάντους Δαναῶν μόχθους,</l>
+              <l n="3" xml:id="frag_6a11e105a9-l3" xml:lang="grc">οὓς * * εἴσω κλισίας.</l>
+            </lg>
+            <note type="commentary">Primum versum attulit Aristophanes Ranar. v. 1023. ubi scholiasta, Ἔστι δὲ ἀρχὴ Μυρμιδόνων Αἰσχύλου. V. 3. σὺ προπίνεις supplet Blomfildus in præfatione ad Persas p. XIV. Ad hanc fabulam Aristophanis locum in Ranis v. 942. male retulit schol. cujus verba ad Phryges apponentur.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="123" xml:id="frag_b121603208" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones">
+            <note type="source">Aristophanes Avium v. 808.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_b121603208-l1" xml:lang="grc">Ταυτὶ μὲν ἠκάσμεσθα κατὰ τὸν Αἰσχύλον,</l>
+              <l n="2" xml:id="frag_b121603208-l2" xml:lang="grc">τάδ' οὐχ ὑπ' ἄλλων, ἀλλὰ τοῖς αὑτῶν πτεροῖς.</l>
+            </lg>
+            <note type="commentary">ubi scholiasta, Αἰσχύλον ἐκεῖνος γὰρ Λιβυστικὴν αὐτὴν καλεῖ παροιμίαν,</note>
+            <lg type="fragment">
+              <l n="3" xml:id="frag_b121603208-l3" xml:lang="grc">Ὡς δ' ἐστὶ μύθων τῶν Λιβυστικῶν λόγος</l>
+              <l n="4" xml:id="frag_b121603208-l4" xml:lang="grc">πληγέντ' ἀτράκτῳ τοξικῷ τὸν αἰετὸν</l>
+              <l n="5" xml:id="frag_b121603208-l5" xml:lang="grc">εἰπεῖν ἰδόντα μηχανὴν πτερώματος,</l>
+              <l n="6" xml:id="frag_b121603208-l6" xml:lang="grc">τάδ' οὐχ ὑπ' ἄλλων, ἀλλὰ τοῖς αὑτῶν πτεροῖς</l>
+              <l n="7" xml:id="frag_b121603208-l7" xml:lang="grc">ἁλισκόμεσθα.</l>
+            </lg>
+            <note type="commentary">πεποίηκε γὰρ ὁ Αἰσχύλος ἀετὸν τρωννύμενον καὶ λέγοντα ταῦτα, ἐπειδὴ εἶδε τὸ βέλος ἐπτερωμένον καὶ ἐμπεπαρμένον αὐτῷ, καὶ ἡμεῖς οὖν, φησὶν, οὐχ ὑπ' ἄλλων πάσχομεν ταῦτα, ἀλλὰ τῇ ἑαυτῶν γνώμῃ. τοῖς αὑτῶν πτεροῖς: ὅλον τοῦτο ἐκ Μυρμιδόνων Αἰσχύλου. Scholiastam exscripsit Suidas in ταυτὶ μὲν, ubi v. 1. ὁ δὲ pro ὡς δ' scriptum, et in οὐχ ὑπ' ἄλλων, ubi prima poetæ verba omisit. Postrema verba Τάδ' — πτεροῖς in proverbium abierunt, quo plures scriptores utuntur, quorum locos Casaubonus ad Athen. XI. p. 494 b. et Porsonus ad Euripidis Medeam 139. VIII. indicarunt. Aristidem II. p. 15, 16. Iebb. memoravit Stanleius.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="124" xml:id="frag_d3f5a4d98d" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones">
+            <note type="source">Grammaticus Bekkeri I. p. 321, 19. Suidas, Ἀβδέλυκτα: ἀμύσακτα, ἀμίαντα, τὰ μὴ μιαίνοντα, ἃ οὐκ ἄν τις βδελυχθείη καὶ δυσχεράνειε. τραγικωτέρα δὲ ἡ λέξις. Αἰσχύλος Μυρμιδόσι (Μυρμιδόσι om. grammaticus Bekkeri)</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_d3f5a4d98d-l1" xml:lang="grc">Καὶ μὴν φιλῶ γε κἀβδέλυκτά μοι τάδε.</l>
+            </lg>
+            <note type="commentary">Codicis sui et Suidæ scripturam γὰρ ἀβδελυκτ' ἐμοὶ correxit Bekkerus.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="125" xml:id="frag_3e230e57ab" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones">
+            <note type="source">Aristophanes Ranar. v. 1295</note>
+          </div>
+          <pb n="600" facs="urn:hathi:iau.31858007086675:scan:608"/>
+          <div type="textpart" subtype="fragment" n="126" xml:id="frag_dc41801b99" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones">
+            <note type="source">Aristophanes Ranar. v. 1447.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_dc41801b99-l1" xml:lang="grc">Βέβληκ᾽ Ἀχιλλεὺς δύο κύβω καὶ τέτταρα.</l>
+            </lg>
+            <note type="commentary">ubi scholiasta, Ἐκ Μυρμιδόνων. πεποίηκε γὰρ αὐτοὺς κυβεύοντας. ἔθος δὲ τοῖς κυβεύουσιν οὕτω λέγειν· β΄, δ΄, γ΄, ε΄. τοῦτο δὲ λέγει ὁ Διόνυσος, δεικνὺς ὡς Αἰσχύλος νενίκηκε. Ex alius scholiastæ annotatione intelligitur alios hunc versum ex Euripidis Telepho, alios aliunde sumptum credidisse.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="127" xml:id="frag_9c7f4e57cf" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones">
+            <note type="source">Aristophanes Ecclesiaz. v. 392.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_9c7f4e57cf-l1" xml:lang="grc">Ἀντίλοχ᾽, ἀποίμωξόν με τοῦ τριωβόλου</l>
+              <l n="2" xml:id="frag_9c7f4e57cf-l2" xml:lang="grc">τὸν ζῶντα μᾶλλον· τἀμὰ γὰρ διοίχεται.</l>
+            </lg>
+            <note type="commentary">ubi scholiasta et Suidas in ἀποίμωξον, Παρὰ τὰ ἐξ Αἰσχύλου Μυρμιδόνων</note>
+            <lg type="fragment">
+              <l n="3" xml:id="frag_9c7f4e57cf-l3" xml:lang="grc">Ἀντίλοχ᾽, ἀποίμωξόν με τοῦ τεθνηκότος</l>
+              <l n="4" xml:id="frag_9c7f4e57cf-l4" xml:lang="grc">τὸν ζῶντα μᾶλλον.</l>
+            </lg>
+            <note type="commentary">"Verba esse Achillis respondentis Antilocho, qui primus ei Patrocli interfecti nuncium attulerat, ut etiam ap. Homer. Il. σ, 18. monuit Porson. ad Med. Eurip. v. 750." Butler.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="128" xml:id="frag_d37ca463d3" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones">
+            <note type="source">Athenæus XIII. p. 602 e. Παρὰ δὲ Σπαρτιάταις — πρὸ τῶν γάμων ταῖς παρθένοις ὡς παιδικοῖς νόμος ἐστὶν ὁμιλεῖν. — Αἰσχύλος Μυρμιδόσι</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_d37ca463d3-l1" xml:lang="grc">Σέβας δὲ μηρῶν ἁγνὸν οὐκ ἐπῃδέσω,</l>
+              <l n="2" xml:id="frag_d37ca463d3-l2" xml:lang="grc">ὦ δυσχάριστε τῶν πυκνῶν φιλημάτων.</l>
+            </lg>
+            <note type="commentary">Plutarchus Moral. p. 751 c. Πρόσλαβε δὲ τῷ Σόλωνι καὶ τὸν Αἰσχύλον λέγοντα “Σέβας δὲ μηρῶν οὐ κατῃδέσω, ὦ δυσχάριστε τῶν πικρῶν φιλημάτων.” Alterum versum attulit idem p. 61 a. Achillis ad Patrocli cadaver verba esse vidit Porsonus ad Medeam v. 750 et recte eo retulisse videtur versum ab Luciano vol. II. p. 457. allatum, Στένων γοῦν Ἀχιλλεὺς τὸν Πατρόκλου θάνατον ἀταμιεύτῳ πάθει πρὸς τὴν ἀλήθειαν ἀπερράγη,</note>
+            <lg type="fragment">
+              <l n="3" xml:id="frag_d37ca463d3-l3" xml:lang="grc">Μηρῶν τε τῶν σῶν εὐσεβὴς ὁμιλία.</l>
+            </lg>
+            <note type="commentary">ubi quod post ὁμιλία in libris additur καλλίων vel καλλίω nihil aliud esse videtur quam κλαίων. Et ita corrigebat etiam Dobræus in Appendice ad Aristoph. p. (129.) Ad Achillis et Patrocli amorem in hac fabula descriptum spectat Athenæi locus XIII. p. 601 a. Καὶ Αἰσχύλος μέγας ὢν ποιητὴς καὶ Σοφοκλῆς ἦγον εἰς τὰ θέατρα διὰ τῶν τραγῳδιῶν τοὺς ἔρωτας, ὁ μὲν τὸν Ἀχιλλέως πρὸς Πάτροκλον, ὁ δ᾽ ἐν τῇ Νιόβῃ τὸν τῶν παίδων. Plato in Convivio p. 180 a. Αἰσχύλος δὲ φλυαρεῖ φάσκων Ἀχιλλέα Πατρόκλου ἐρᾶν, ὃς ἦν καλλίων οὐ μόνον Πατρόκλου, ἀλλὰ καὶ τῶν ἡρώων ἁπάντων καὶ ἔτι ἀγένειος, ἔπειτα νεώτερος πολύ, ὥς φησιν Ὅμηρος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="129" xml:id="frag_1d2f1c6028" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" sameAs="urn:cts:greekLit:tlg0085.myrmidones.nauck1889-grc1:133">
+            <note type="source">Scholiasta Aristoph. Avium v. 1256. Τριέμβολον· πολλάκις ἐμβαλεῖν δυνάμενον. μήποτε δὲ</note>
+            <note type="commentary">καὶ πλοίου τις ἦν κατασκευή. καὶ γὰρ δεκέμβολον Αἰσχύλος εἶπε τὴν τοῦ Νέστορος ναῦν ἐν Μυρμιδόσιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="130" xml:id="frag_523ba0b607" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" sameAs="urn:cts:greekLit:tlg0085.myrmidones.nauck1889-grc1:134">
+            <note type="source">Scholiasta Aristophanis Pacis v. 1177.</note>
+            <note type="commentary">Ωσπερ ξουθὸς ἱππαλεκτρυών· ὡς φοινικᾶ πτερὰ ἔχοντα δηλοῖ. ὅτι τοῦ παρ᾽ Αἰσχύλῳ πολλάκις κληθέντος ἱππαλεκτρυόνος, ὃν ἀεὶ κωμῳδοῦσιν, ἐν Μυρμιδόσι μέμνηται. Ἄλλως. ὁ Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_523ba0b607-l1" xml:lang="grc">ἀπὸ δ᾽ αὖτε ξουθὸς ἱππαλεκτρυὼν στάζει κηρ</l>
+              <l n="2" xml:id="frag_523ba0b607-l2" xml:lang="grc">θέντων φαρμάκων πολὺς πόνος.</l>
+            </lg>
+            <note type="commentary">Quæ duorum versuum fragmenta sunt. Aristophanes Avium v. 800. κἄστι νυνὶ ξουθὸς ἱππαλεκτρυών. ubi scholiasta, Παρὰ τὰ γραφέντα ἐκ Μυρμιδόνων Αἰσχύλου. Aristophanes Ranar. v. 959. (940.)</note>
+            <note type="commentary">ΔΙΟΝΥΣΟΣ. Νὴ τοὺς θεοὺς, ἐγὼ γοῦν ἤδη ποτ᾽ ἐν μακρῷ χρόνῳ νυκτὸς διηγρύπνησα τὸν ξουθὸν ἱππαλεκτρυόνα ζητῶν τίς ἐστιν ὄρνις. ΑΙΣΧΥΛΟΣ. σημεῖον ἐν ταῖς ναυσὶν, ὦ μαθέστατ᾽, ἐνεγέγραπτο.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="131" xml:id="frag_729e095b13" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" sameAs="urn:cts:greekLit:tlg0085.myrmidones.nauck1889-grc1:141">
+            <note type="source">Hesychius, Ἀγρέμονα· τὸν κάμακα, ἀπὸ τοῦ αἱρεῖν καὶ λαμβάνειν, ἤγουν ἀγρεύειν. ἡ λαμπάδα, ἢ δόρυ. Αἰσχύλος δὲ ἐν Μυρμιδόσιν ἀγρέμονα τὸν ἐπιμήνιον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="132" xml:id="frag_f8deb13346" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" sameAs="urn:cts:greekLit:tlg0085.myrmidones.nauck1889-grc1:142">
+            <note type="source">Hesychius, Κουράς· ἡ ἐν τοῖς ὀροφήμασι γραφή, ὀροφικὸς πίναξ. παρὰ δὲ Αἰσχύλῳ ἐν Μυρμιδόσιν ἀμφιβάλλει ἐγκουράδι. ἔστι δὲ ἐγκουρὰς ὀροφικὸς πίναξ. Idem, Ἐγκουράδες· οἱ ἐν ταῖς ὀροφαῖς γραφικοὶ προσώπων πίνακες. ἔστι γὰρ κουρὰς ἡ κορυφὴ (ὀροφὴ Struvius in Supplementis Schneideri p. 117.) καὶ ὁ γραπτὸς πίναξ, ἐγκουρὰς δὲ γεγραμμένος. Αἰσχύλος Μυρμιδόσιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="133" xml:id="frag_0ed707a0fe" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" sameAs="urn:cts:greekLit:tlg0085.myrmidones.nauck1889-grc1:140">
+            <note type="source">Scholiasta Aristoph. Avium v. 1420. Πτερῶν πτερῶν δεῖ· παρὰ τὸ Αἰσχύλου ἐκ Μυρμιδόνων</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_0ed707a0fe-l1" xml:lang="grc">Ὅπλων ὅπλων δεῖ.</l>
+            </lg>
+          </div>
+        </div></body></text>
+</TEI>

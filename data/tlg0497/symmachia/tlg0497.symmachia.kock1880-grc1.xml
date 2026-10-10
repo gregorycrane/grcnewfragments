@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PLATO COMICUS, ΣΥΜΜΑΧΙΑ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.symmachia.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.symmachia.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.symmachia.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia"><head>ΣΥΜΜΑΧΙΑ</head><div type="textpart" subtype="fragment" n="148" xml:id="kock-0497-symmachia-148" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <lg>
+                <l n="1" xml:id="kock-0497-symmachia-148-l1" xml:lang="grc">ὠτογλυφίδα λαβοῦσ’ ἀνασκαλεύεται.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 2, 83 ὠτογλυφὶς δὲ εἴρηται παρὰ Πλάτωνι τῷ κωμικῷ ἐν Συμμαχίᾳ σὺν ἐλαίῳ ὠτογλυφίδα κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>σὺν ἐλαίῳ] καὶ ἐν Λαΐῳ Cobetus Obs. crit. 126. pro dittographia nominis Συμμαχίᾳ habet Meinekius. ἀνασκαλεύεται Meinek.] ἀνασκάλλεται. si vera est Cobeti coniectura, nihil nisi ὠτογλυφίς est Symmachiae, cetera verba ad Laium transferenda sunt.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="149" xml:id="kock-0497-symmachia-149" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <lg>
+                <l n="1" xml:id="kock-0497-symmachia-149-l1" xml:lang="grc">τὸ γὰρ ἔψημά σου</l>
+                <l n="2" xml:id="kock-0497-symmachia-149-l2" xml:lang="grc">γευόμενος ἔλαθον ἐκροφήσας.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 6, 17 τὸ νῦν ἕψημα ὀνομαζόμενον, ὅπερ ἐστὶν οἶνος ἡψη-</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="154" xml:id="kock-0497-symmachia-154" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <lg>
+                <l n="1" xml:id="kock-0497-symmachia-154-l1" xml:lang="grc">ἢ 'ξ Ἀρκαδίας οὕτω δριμυτάτην ὀρίγανον</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 2, 68b et Eustath. 1148, 26 θηλυκῶς (τὴν ὀρίγανον λέγει) Πλάτων ἢ Κάνθαρος κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>ἢ 'ξ] ἐξ Eustath. οὕτω] τοι Porson. οὕτω post Κάνθαρον transponendum numerosque choriambicos esse statuit Meinekius. fortasse legendum οὐ δρ. ὀρίγανον; ad Symmachiam, quia utrum Platonis an Canthari sit ambigitur, rettulit Porsonus.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="155" xml:id="kock-0497-symmachia-155" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <lg>
+                <l n="1" xml:id="kock-0497-symmachia-155-l1" xml:lang="grc">αὐλητρίδα πεζήν</l>
+              </lg>
+              <note type="source">
+                <p>Photius πεζὰς μόσχους· ἀντὶ τοῦ ἑταίρας ... τὰς χωρὶς ὀργάνων. Κάνθαρος Συμμαχίᾳ αὐλ. π. cf. Eupol. 169.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="156" xml:id="kock-0497-symmachia-156" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <lg>
+                <l n="1" xml:id="kock-0497-symmachia-156-l1" xml:lang="grc">κεναγγίαν</l>
+              </lg>
+              <note type="source">
+                <p>τὴν πεῖναν. Πλάτων Συμμαχίᾳ. Bekker. Anecd. 104, 8. Pollux 6, 31 Πλάτων δὲ ὁ κωμικὸς καὶ κεναγγίαν εἴρηκε.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="157" xml:id="kock-0497-symmachia-157" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <lg>
+                <l n="1" xml:id="kock-0497-symmachia-157-l1" xml:lang="grc">ὀρνιθευτής</l>
+              </lg>
+              <note type="source">
+                <p>ὁ ὀρνιθοθήρας ... Πλάτων ἢ Κάνθαρος Συμμαχίᾳ. Harpocratio 139, 17. Aristoph. Av. 526.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="150" xml:id="kock-0497-symmachia-150" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <lg>
+                <l n="1" xml:id="kock-0497-symmachia-150-l1" xml:lang="grc">νάρκη γὰρ ἑφθὴ βρῶμα χάριεν γίγνεται.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 314 a Πλάτων ἢ Κάνθαρος ἐν Συμμαχίᾳ κτλ. absunt haec a cod. B. ἑφθὴ Bentl. Menandr. p. 69 (498 ed. Meinek.)] ἔφη. γὰρ ἑφθὴ om. C.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="151" xml:id="kock-0497-symmachia-151" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <lg>
+                <l n="1" xml:id="kock-0497-symmachia-151-l1" xml:lang="grc">βατίς τε καὶ σμύραινα πρόσεστι.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 312 c Πλάτων δὲ ἢ Κάνθαρος ἐν Συμμαχίᾳ σὺν τῷ σ (σμύραινα) κτλ. πρόσεστι] προσέτι Meinek. Anal. crit. 138.</note>
+              <note type="apparatus">possunt etiam tetrametrorum reliquiae esse βατίς τε καὶ σμύραινα | πρόσεστιν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="152" xml:id="kock-0497-symmachia-152" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <lg>
+                <l n="1" xml:id="kock-0497-symmachia-152-l1" xml:lang="grc">ἐγὼ γὰρ ὑμῖν ἢν φράσω</l>
+              </lg>
+              <note type="source">Priscianus 18, 170 abundat enim γάρ. Πλάτων ἢ Κάνθαρος Συμμαχίᾳ οὕτως ἤρξατο κτλ. ἢν] νῦν (MO) a.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="153" xml:id="kock-0497-symmachia-153" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <lg>
+                <l n="1" xml:id="kock-0497-symmachia-153-l1" xml:lang="grc">εἴξασιν γὰρ τοῖς παιδαρίοις τούτοις, οἳ ἑκάστοτε γραμμὴν</l>
+                <l n="2" xml:id="kock-0497-symmachia-153-l2" xml:lang="grc">ἐν ταῖσιν ὁδοῖς διαγράψαντες διανειμάμενοι δίχ’ ἑαυτοὺς</l>
+                <l n="3" xml:id="kock-0497-symmachia-153-l3" xml:lang="grc">ἑστᾶσ’ αὐτῶν οἱ μὲν ἐκεῖθεν τῆς γραμμῆς, οἱ δ’ αὖ ἐκεῖθεν</l>
+                <l n="4" xml:id="kock-0497-symmachia-153-l4" xml:lang="grc">εἷς δ’ ἀμφοτέρων ὄστρακον αὐτοῖς ἀνίησιν εἰς μέσον ἑστώς,</l>
+                <l n="5" xml:id="kock-0497-symmachia-153-l5" xml:lang="grc">κἂν μὲν πίπτῃσι τὰ λεύκ’ ἐπάνω, φεύγειν ταχὺ τοὺς ἑτέρους δεῖ,</l>
+                <l n="6" xml:id="kock-0497-symmachia-153-l6" xml:lang="grc">τοὺς δὲ διώκειν.</l>
+              </lg>
+              <note type="source">Hermias Platon. Phaedr. p. 90 Ast. Schol. Plat. p. 314 Bekker. τοῦτο δέ ἐστιν ἐκεῖνο, ὁ κατὰ τὴν ὀστρακίνδα καλουμένην παιδιὰν γινόμενόν ἐστιν, ἣν Πλάτων ὁ κωμικὸς ἐν τῇ Συμμαχίᾳ σαφῶς συνίστησι διὰ τούτων κτλ. Eustathius 1161, 42 χρῆσις της λέξεως ἐν τῇ κωμῳδίᾳ πρὸς αἴνιγμα τοῦ ῥηθέντος ἐξοστρακισμού. Πλάτων δέ, φασίν, ὁ κωμικὸς φράζει αὐτὴν οὕτως κτλ. cf. Schol. Plat. 315. (R. Foerster. Mus. Rh. XXX 288). Sueton. Miller: (Mélanges 436) παροιμία ὀστράκου περιστροφή, ἐπὶ τῶν ἀθρόον μεταβαλλομένων, ἐκ μεταφορᾶς παιδιᾶς τοιᾶσδε· παῖδες δίχα διηρημένοι γραμμῆς μέσον κεχαραγμένης ὄστρακον ἐδίδουν ἑνί, ἐν ἑτέρῳ μέρει πεπισσωμένον, ὅπερ ἀναρρίπτων ὁ παῖς ἐπέλεγε νὺξ ἢ ἡμέρα· καὶ εἰ τὸ πεπισσωμένον ἄνω συνέβη πεσεῖν, ἔφευγον οἱ τοῦτο τὸ μέρος</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="158" xml:id="kock-0497-symmachia-158" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <p>παραθήκην</p>
+              <note type="source">Πλάτων Συμμαχίᾳ. Photius. eadem videtur esse quae vulgo dicebatur παρακαταθήκη.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="159" xml:id="kock-0497-symmachia-159" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_symmachia">
+              <p>πορνοβοσκῆσαι</p>
+              <note type="source">ἐν τῇ Πλάτωνος Συμμαχίᾳ. Pollux 7, 202.</note>
+            </div>
+          </div></body></text></TEI>

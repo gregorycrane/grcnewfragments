@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>DIOCLES COMICUS, ΜΕΛΙΤΤΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Diocles Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0443.melittai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0443.melittai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0443.melittai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0443_melittai"><head>ΜΕΛΙΤΤΑΙ</head><div type="textpart" subtype="fragment" n="13" xml:id="kock-0443-melittai-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0443_melittai">
+              <p>ἐντυλίξαι</p>
+              <note type="source">τὸ ἐνειλῆσαι. Διοκλῆς Μελίτταις. Bekker. Anecd. 97, 9. Aristoph. Nub. 987. Plut. 692.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="kock-0443-melittai-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0443_melittai">
+              <lg>
+                <l n="1" xml:id="kock-0443-melittai-6-l1" xml:lang="grc">πῶς δὲ καὶ κεκραμένον</l>
+                <l n="2" xml:id="kock-0443-melittai-6-l2" xml:lang="grc">πίνειν τὸν οἶνον δεῖ με; Β. τέτταρα καὶ δύο.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 426 d Διοκλῆς ἐν Μελίσσαις. Eustathius 1624, 49 κατὰ Διοκλῆν πίνειν οἶνον κεκραμένον τέτταρα καὶ δύο. — με; Β. τέτταρα Meinek.] μετὰ τέτταρα. cf. Pherecr. 70, 4. Phot. 599 extr.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0443-melittai-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0443_melittai">
+              <lg>
+                <l n="1" xml:id="kock-0443-melittai-7-l1" xml:lang="grc">καὶ διὰ τετρημένων ἀθέλδεται τύπων.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 350, 14 ἀθέλδεται· διηθεῖται. Διοκλῆς Μελίσσαις κτλ. διὰ τετρημένων Bekker.] διατετριμμένον cod. Bekker. Anecd. 353, 2 ἀθέλβεται· διηθεῖται. Hesychius ἀθελβάζειν· διηθεῖν. ἀθελβεῖν· ἕλκειν. ἀθέλγειν· ἀμέλγειν. ἀθέλγηται· θηλάζηται . . . ἢ θλίβηται. ἀθέλδεται· διηθεῖται. ἀθλέβεται· διηθεῖται. denique ἐξαφθεγγόμεναι· ἐκθλιβόμεναι. ubi M. Schmidtius cum Vossio ἐξαθελγόμεναι. τύπων corruptum est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0443-melittai-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0443_melittai">
+              <lg>
+                <l n="1" xml:id="kock-0443-melittai-8-l1" xml:lang="grc">ἀπὸ λασάνων θερμὴν ἀφαιρήσω χύτραν.</l>
+              </lg>
+              <note type="source">Pollux 10, 99 τὸν καλούμενον χυτρόποδα ἔστι μὲν καὶ λάσανα κεκλημένον εὑρεῖν, ὡς Διοκλῆς ἐν Μελίτταις κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="9_10" xml:id="kock-0443-melittai-9_10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0443_melittai">
+              <lg>
+                <l n="1" xml:id="kock-0443-melittai-9_10-l1" xml:lang="grc">ἡ μίλτος οἶμαι καὶ τὸ τιγγάβαρι.</l>
+                <l n="2" xml:id="kock-0443-melittai-9_10-l2" xml:lang="grc">* * *</l>
+                <l n="3" xml:id="kock-0443-melittai-9_10-l3" xml:lang="grc">τιγγάβαρι καὶ μίλτος ἀναμεμιγμένη.</l>
+              </lg>
+              <note type="source">Eustathius 310, 30 τιγγάβαρι τὸ κιννάβαρι Ἀττικοί. Διοκλῆς· ἡ μίλτος κτλ. καὶ πάλιν· τιγγάβαρι κτλ., οὗ τὴν ἐργασίαν φασὶ πρῶτον εὑρεῖν Καλλίαν Ἀθηναῖον. Photius 587, 20 τιαγγάβαρι (sic)· τὸ κιννάβαρι, Διοκλῆς. Hesychius (Herodian. II 591, 1) τίγγα Διοκλῆς ἐν Μελίτταις. Ἡρακλέων δὲ οὐ διελών (i. e. una voce ex duabus formata), ὅτι βαρὺ τὸ κιννάβαρι λέγει. Cramer. Anecd. Oxon. II 120, 29 κιννάβαρι, Ἀττικοὶ δὲ τὸ τιγγάβαρυ. manifestum est apud Hesychium pro τίγγα scribendum esse τίγγα βαρύ. Aristoph. fr. 320, 3. ceterum cf. Nauck. Aristoph. Byz. 205. initio v. 2 καὶ add. Meinekius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0443-melittai-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0443_melittai">
+              <lg>
+                <l n="1" xml:id="kock-0443-melittai-11-l1" xml:lang="grc">γυναικάριον</l>
+              </lg>
+              <note type="source">Διοκλῆς Μελίτταις. Bekker. Anecd. 87, 4.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0443-melittai-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0443_melittai">
+              <lg>
+                <l n="1" xml:id="kock-0443-melittai-12-l1" xml:lang="grc">δραπέτευμα</l>
+              </lg>
+              <note type="source">Διοκλῆς Μελίτταις. Bekker. Anecd. 88, 20.</note>
+            </div>
+          </div></body></text></TEI>

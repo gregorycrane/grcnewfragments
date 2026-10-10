@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΜΥΣΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.mysoi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.mysoi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.mysoi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:mysoi"><head>ΜΥΣΟΙ</head>
+          <pb n="600" facs="urn:hathi:iau.31858007086675:scan:608"/>
+          <div type="textpart" subtype="fragment" n="134" xml:id="frag_7e6a532b86" corresp="urn:cite2:perseus:fragmentaryplays.v1:mysoi" sameAs="urn:cts:greekLit:tlg0085.mysoi.nauck1889-grc1:143">
+            <note type="source">Strabo XIII. p. 616. Ῥεῖ δ᾽ ἐκ τοῦ Τήμνου ποταμὸς Μύσιος, ἐμβάλλων εἰς τὸν Κάϊκον ὑπὸ ταῖς πηγαῖς αὐτοῦ· ἀφ᾽ οὗ δέχονταί τινες εἰπεῖν Αἰσχύλον κατὰ τὴν εἰσβολὴν τοῦ ἐν Μυρμιδόσι (recte Pauwius Μυσοῖς) προλόγου</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_7e6a532b86-l1" xml:lang="grc">Ἰὼ Κάϊκε Μύσιαί τ᾽ ἐπιρροαί.</l>
+            </lg>
+            <note type="commentary">Macrobius Saturnal. V, 20. Hoc in loco ad fidem sensui faciendam, quod uliginosa sint non tantum Gargara pro vicinia montis, sed et universa Mysia arva, adhiberi potest testi Æschylus, Ἰὼ Κάϊκε Μύσιαί τ᾽ ἐπιρροαί.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="135" xml:id="frag_54e13a5d6a" corresp="urn:cite2:perseus:fragmentaryplays.v1:mysoi" sameAs="urn:cts:greekLit:tlg0085.mysoi.nauck1889-grc1:144">
+            <note type="source">Photius p. 344. et Suidas, Ὀργεώνες· ἤδη δὲ μεταφέροντες καὶ τοὺς ἱερέας οὕτω καλοῦσιν. — Αἰσχύλος ἐν Μυσοῖς, τὸν ἱερέα τοῦ Καΐκου προσαγορεύων,</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_54e13a5d6a-l1" xml:lang="grc">Ποταμοῦ Καΐκου χαῖρε πρῶτος ὀργεών·</l>
+              <l n="2" xml:id="frag_54e13a5d6a-l2" xml:lang="grc">εὐχαῖς δὲ σώζοις δεσπότας παιωνίαις.</l>
+            </lg>
+            <note type="commentary">Apud Suidam est σώσεις· παιονίας. Ad hunc locum spectat etiam Harpocratio in ὀργεῶνες.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="136" xml:id="frag_1d3a52ac20" corresp="urn:cite2:perseus:fragmentaryplays.v1:mysoi">
+            <note type="source">Stephanus Byzant. Οἶος· πολίχνιον Τενέας. Αἰσχύλος Μυσοῖς.</note>
+          </div>
+        <pb n="601" facs="urn:hathi:iau.31858007086675:scan:609"/>
+          <div type="textpart" subtype="fragment" n="137" xml:id="frag_8c1c62c2e7" corresp="urn:cite2:perseus:fragmentaryplays.v1:mysoi">
+            <note type="source">Aristoteles de Poetic. c. 44. p. 94. Tyrwh. (XXV. p. 69. Herm.) Primum locum attulit Plato de Republ. III. p. 391 e.</note>
+            <quote>Ὥσπερ ἐν Ἠλέκτρᾳ οἱ Πύθια ἀπαγγέλλοντες ἢ ἐν Μυσοῖς ὁ ἄφωνος (Τήλεφος) ἐκ Γεγέας εἰς τὴν Μυσίαν ἥκων.</quote>
+            <note type="commentary">Πᾶς γὰρ ἑαυτῷ συγγνώμην ἔξει κακῷ ὄντι, πεισθεὶς ὡς ἄρα τοιαῦτα πράττουσί τε καὶ ἔπραττον καὶ</note>
+          </div>
+        </div></body></text>
+</TEI>

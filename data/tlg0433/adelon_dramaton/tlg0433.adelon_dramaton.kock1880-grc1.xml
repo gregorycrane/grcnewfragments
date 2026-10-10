@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATES, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Crates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0433.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0433.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0433.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="44" xml:id="kock-0433-adelon_dramaton-44" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <head>ἀναγκόσιτον</head>
+              <note type="source">Κράτης. Athen. 2, 47 e.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="45" xml:id="kock-0433-adelon_dramaton-45" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <head>ἀνεβιωσάμην</head>
+              <note type="apparatus">ἀντὶ τοῦ ἀναβιῶναι ἐποίησα. Κράτης. Bekker. 395, 19. Suid. (Bekk. Κράτ. . .)</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="46" xml:id="kock-0433-adelon_dramaton-46" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <head>ἀψάλακτος</head>
+              <note type="apparatus">ἀπαθής, ἀτιμώρητος. ἀψάλακτον γὰρ τὸ ἄθικτον. οὕτω Κράτης (κρ suprascr. αἱ Α). Suid. — idem διαψαλάττεσθαι· . . . τὸ γὰρ ἀψάλακτον, ἄθικτον. οὕτω Κράτης. cf. Zonar. 536.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="47" xml:id="kock-0433-adelon_dramaton-47" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <head>διαβάλλειν</head>
+              <note type="apparatus">τὸ ἐξαπατᾶν . . . Κράτης. Suid. cf. quae adnotavi ad Aristoph. Av. 1648.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="48" xml:id="kock-0433-adelon_dramaton-48" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <head>ἐθελόσυχνος</head>
+              <note type="apparatus">παρὰ Κράτητι . . ἀπὸ τοῦ ἐθέλω· σημαίνει δὲ τὸν θέλοντα συχνάζειν. Etym. m. 299, 30. in Mus. Rh. XXX 415 sq. mihi videor demonstrasse scribendum esse ἐθελήσυχος . . . ἡσυχάζειν et (conl. Hes. Op. 118) ad Θηρία hoc fragmentum referendum esse.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="49" xml:id="kock-0433-adelon_dramaton-49" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <head>ἡμιμάσητοι</head>
+              <note type="source">Κράτης. Pollux 6, 161.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="50" xml:id="kock-0433-adelon_dramaton-50" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <head>μεμνοῖτο</head>
+              <note type="apparatus">Κράτης. Etym. m. 579 init. (Κρᾶ D. κρατῖνος M). scribendum videtur μεμνῇτο. Xen. An. 1, 7, 5 codices μέμνοιο, Schneiderus μεμνῷο, Cobetus N. 1. 224 μεμνῇο. Aristoph. Plut. 991 μεμνῷτο solus M et γρ. n. cf. Schneider. Plat. Reip. 7, 518a. Leg. 5, 731c. 742e. 6, 776b. 11, 931e.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="51" xml:id="kock-0433-adelon_dramaton-51" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <head>παλίνδικον</head>
+              <note type="source">Κράτης τὸν πολλάκις δικαζόμενον. Pollux 8, 26.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="39" xml:id="kock-0433-adelon_dramaton-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0433-adelon_dramaton-39-l1" xml:lang="grc">ὁ γὰρ χρόνος μ’ ἔκαμψε, τέκτων μὲν σοφός,</l>
+                <l n="2" xml:id="kock-0433-adelon_dramaton-39-l2" xml:lang="grc">ἅπαντα δ’ ἐργαζόμενος ἀσθενέστερα.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 116, 31.</note>
+              <note type="apparatus">μὲν Voss. Gesn. marg.] οὐ. Meinekius in ed. min. contulit Critiam Plut. Mor. 879 f. χρόνου καλὸν ποίκιλμα τέκτονος σοφοῦ. addo Diphil. Stob. Fl. 116, 32.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="40" xml:id="kock-0433-adelon_dramaton-40" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0433-adelon_dramaton-40-l1" xml:lang="grc">πάνυ γάρ ἐστιν ὡρικώτατα</l>
+                <l n="2" xml:id="kock-0433-adelon_dramaton-40-l2" xml:lang="grc">τὰ τιτθί’ ὥσπερ μῆλον ἢ μιμαίκυλα.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 50 e Κράτης· πάνυ γάρ κτλ. sine poetae nomine Eustath. 1633, 58.</note>
+              <note type="apparatus">ὡρικώτατα B] ὡρικωτάτη. μιμαίκυλα] μιμαίκυλον Eustath. Dobraeus Advers. II 297 πάνυ γάρ ἐστιν ὡρικὰ τὰ τιτθί’. Meinekius πάνυ γάρ ἐστιν ὡρική, τά τε (vel τὰ δὲ) τιτθί’ ὥσπερ κτλ. πάνυ cum superlativo gradu non coniungitur. itaque nescio an pro πάνυ γὰρ scribendum sit Παιδιαῖς. in altero versu scribendum videtur μῆλα καὶ μιμαίκυλα. μιμαίκυλα sunt arbutei fetus (κομάρου), quos Hehnius (Kulturpfl.² 351) cum dicit apud Aristophanem primum commemorari, fallitur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="41" xml:id="kock-0433-adelon_dramaton-41" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0433-adelon_dramaton-41-l1" xml:lang="grc">ἀλλὰ σικύαν ποτιβαλῶ τοι, καναταλὴς ἀποσχάσω.</l>
+              </lg>
+              <note type="source">Pollux 4, 183 σικύα ἕν τι τῶν ἐργαλείων (τῶν ἰατρικῶν) ὡς Κράτης ὁ κωμικός· ἀλλὰ κτλ.</note>
+              <note type="apparatus">ποτιβαλῶ τοι Meinek.] ποτιβάλλω σοι. καναταλὴς] κἂν τὸ λῆς, si id volueris, Kuhnius. καὶ τὸ λῆς Meinek. induxit poeta medicum sicuti solebant illi dorice loquentem. ita prorsus apud nos in praescriptis suis latino, si dis placet, sermone utuntur. cf. Epicrat. Athen. 2, 59 c et de verbo ἀποσχάζειν Lob. Phryn. 219.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="42" xml:id="kock-0433-adelon_dramaton-42" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <p>ἀδικοχρήματος</p>
+              <note type="source">ὡς Κράτης. Bekker. Anecd. 343, 10.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="43" xml:id="kock-0433-adelon_dramaton-43" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <p>ἀλλόκοτον</p>
+              <note type="source">Κράτης ἐπὶ ὀνείρατος ἠλλαγμένου καὶ τερατώδους. Bekker. Anecd. 15, 5.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="24" xml:id="kock-0433-adelon_dramaton-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0433-adelon_dramaton-24-l1" xml:lang="grc">τοῖς δὲ τραγῳδοῖς ἕτερος σεμνὸς πᾶσιν λόγος ἄλλος ὅδ᾽ ἔστιν.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 379, 31 et Suid. ἄλλο ἕτερον· ἐκ παραλλήλου λέγουσιν . . . Κράτης Παιδιαῖς. ὅδ᾽] Suid. δ᾽.</note>
+              <note type="apparatus">non sine aliqua invidia Crates tragicorum poetarum in scribendis fabulis condicionem multo faciliorem esse queritur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="25" xml:id="kock-0433-adelon_dramaton-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <note type="source">Athen. 11, 478f</note>
+              <p>κύλικα μὲν (τὸν κότυλον) οὐκ εἶναι· οὐ γὰρ ἔχειν ὦτα, παραπλήσιον δ᾽ ὑπάρχειν λουτηρίῳ βαθεῖ, ποτηρίου δὲ εἶδος εἶναι. δύνασθαι δὲ καὶ τὸν παρὰ τοῖς Αἰτωλοῖς . . . λεγόμενον κότυλον, ὃν ὅμοιον ὄντα τοῖς προειρημένοις ἓν οὖς ἔχειν. μνημονεύει δ᾽ αὐτοῦ Κράτης ἐν Παιδιαῖς.</p>
+              <note type="apparatus">Cf. fr. 40 et quae ad Cratin. 415 adnotavimus. quae Pollux de puerorum ludis 9, 110—129 excerpsit, ea magnam partem ad hanc potissimum Cratetis comoediam pertinere consentaneum est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30" xml:id="kock-0433-adelon_dramaton-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0433-adelon_dramaton-30-l1" xml:lang="grc">ἵππῳ γηράσκοντι τὰ μείονα κύκλ᾽ ἐπίβαλλε.</l>
+              </lg>
+              <note type="source">Zenobius 4, 41 ἵππῳ γηράσκοντι τὰ μείονα κύκλ᾽ ἐπίβαλλε· ταύτης μέμνηται Κράτης ὁ κωμικὸς ἐν Σαμίοις. τάττεται δὲ ἐπὶ τῶν διὰ γῆρας δεομένων ῥαστώνης τινὸς καὶ ἀναπαύλης. μετῆκται δὲ ἀπὸ στρατιωτικῶν ἵππων, οἷς γηράσκουσιν ἐπέβαλλον τὸ καλούμενον τρουσίππιον· ἔστι δὲ τοῦτο σιδηροῦς τροχίσκος . . . ὃν ἐκπυροῦντες ἐπέβαλλον ταῖς σιαγόσι τῶν ἵππων.</note>
+              <note type="apparatus">verba Zenobii praebui ut exstant apud Millerum (Mélanges 370). cf. Diogenian. 5, 27. Plutarch. Prov. 1, 13. Eupol. 318.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="31" xml:id="kock-0433-adelon_dramaton-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_adelon_dramaton">
+              <p>περιπόρφυρα ἱμάτια</p>
+              <note type="source">Κράτης ἐν Σαμίοις. Pollux 7, 63.</note>
+            </div>
+          </div></body></text></TEI>

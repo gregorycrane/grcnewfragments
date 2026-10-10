@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-tereys-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΤΗΡΕΥΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.tereys; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.tereys.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.tereys.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys"><head>ΤΗΡΕΥΣ</head><div type="textpart" subtype="fragment" n="511" xml:id="fragment-tereys-dindorf1893_grc1-511" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys">
+            <note>"Ad hoc drama alludit comicus in Avibus</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="512" xml:id="fragment-tereys-dindorf1893_grc1-512" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys" sameAs="urn:cts:greekLit:tlg0011.tereys.nauck1889grc1:528">
+            <note type="source">Stobæus X, 25.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φιλάργυρον μὲν πᾶν τὸ βάρβαρον γενος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="513" xml:id="fragment-tereys-dindorf1893_grc1-513" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys" sameAs="urn:cts:greekLit:tlg0011.tereys.nauck1889grc1:529">
+            <note type="source">Stobæus XIII, 5.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Θάρσει· λέγων τἀληθὲς, οὐ σφαλεῖ ποτε.</l>
+            </lg>
+            <note type="commentary">"In Vindobon. Εὐριπ. Τηρεῖ. eodem errore quo deceptus fuit Apostolius Proverb. X, 12." BRUNCK.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="514" xml:id="fragment-tereys-dindorf1893_grc1-514" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys" sameAs="urn:cts:greekLit:tlg0011.tereys.nauck1889grc1:530">
+            <note type="source">Stobæus XX, 32.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἄνους ἐκεῖνος, αἱ δ᾽ ἀνούστεραι ἔτι</l>
+              <l n="2" xml:lang="grc">ἐκεῖνον ἠμύναντο καρτερόν.</l>
+              <l n="3" xml:lang="grc">Ὅστις γὰρ ἐν κακοῖσι θυμωθεὶς βροτῶν</l>
+              <l n="4" xml:lang="grc">μείζον προσάπτει τῆς νόσου τὸ φάρμακον,</l>
+              <l n="5" xml:lang="grc">ἰατρός ἐστιν οὐκ ἐπιστήμων κακῶν.</l>
+            </lg>
+            <note type="commentary">"In Reg. cod. lemma adscriptum 1. versui Σοφ. et 3. τοῦ αὐτοῦ Τηρεῖ. Hoc statim 1. versui appositum in Vindobon. continuatis una serie quinque versibus." BRUNCK.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="515" xml:id="fragment-tereys-dindorf1893_grc1-515" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys" sameAs="urn:cts:greekLit:tlg0011.tereys.pearson1917-grc1:590">
+            <note type="source">Stobæus XXII, 22.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Θνητὴν δὲ φύσιν χρὴ θνητὰ φρονεῖν,</l>
+              <l n="2" xml:lang="grc">τοῦτο κατειδότας, ὡς οὐκ ἔστιν</l>
+              <l n="3" xml:lang="grc">πλὴν Διὸς οὐδεὶς τῶν μελλόντων</l>
+              <l n="4" xml:lang="grc">ταμίας, ὅ τι χρὴ τετελέσθαι.</l>
+            </lg>
+            <note type="commentary">V. 1. Ita Grotius. Vulgo θνητὰ φρονεῖν χρὴ θνητὴν φύσιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="516" xml:id="fragment-tereys-dindorf1893_grc1-516" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys" sameAs="urn:cts:greekLit:tlg0011.tereys.nauck1889grc1:525">
+            <note type="source">Stobæus XXXIX, 12.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πολλὰ σε ζηλῶ βίου,</l>
+              <l n="2" xml:lang="grc">μάλιστα δ᾽ εἰ γῆς μὴ πεπείρασαι ξένης.</l>
+            </lg>
+            <note type="commentary">'Perperam in libris κάλλιστα." BRUNCK.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="517" xml:id="fragment-tereys-dindorf1893_grc1-517" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys" sameAs="urn:cts:greekLit:tlg0011.tereys.nauck1889grc1:524">
+            <note type="source">Stobæus LXVIII, 19.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Νῦν δ᾽ οὐδέν εἰμι χωρὶς, ἀλλὰ πολλάκις</l>
+              <l n="2" xml:lang="grc">ἔβλεψα ταύτῃ τὴν γυναικείαν φύσιν,</l>
+              <l n="3" xml:lang="grc">ὡς οὐδέν ἐσμεν· αἱ, νέαι μὲν ἐν πατρὸς</l>
+              <l n="4" xml:lang="grc">ἥδιστον, οἶμαι, ζῶμεν ἀνθρώπων βίον·</l>
+              <l n="5" xml:lang="grc">τερπνῶς γὰρ ἀεὶ πάντας ἁνοία τρέφει.</l>
+              <l n="6" xml:lang="grc">ὅταν δ᾽ ἐς ἥβην ἐξικώμεθ᾽ εὔφρονες,</l>
+              <l n="7" xml:lang="grc">ὠθούμεθ᾽ ἔξω καὶ διεμπολώμεθα</l>
+              <l n="8" xml:lang="grc">θεῶν πατρῴων τῶν τε φυσάντων ἄπο,</l>
+              <l n="9" xml:lang="grc">αἱ μὲν ξένους πρὸς ἄνδρας, αἱ δὲ βαρβάρους,</l>
+              <l n="10" xml:lang="grc">αἱ δ᾽ εἰς ἀήθη δώμαθ', αἱ δ᾽ ἐπίρροθα.</l>
+              <l n="11" xml:lang="grc">καὶ ταῦτ᾽, ἐπειδὰν εὐφρόνη ζεύξῃ μία,</l>
+              <l n="12" xml:lang="grc">χρεὼν ἐπαινεῖν καὶ δοκεῖν καλῶς ἔχειν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="518" xml:id="fragment-tereys-dindorf1893_grc1-518" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys" sameAs="urn:cts:greekLit:tlg0011.tereys.pearson1917-grc1:591">
+            <note type="source">Stobæus LXXXVI, 12.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐν φῦλον ἀνθρώπων μί᾽ ἔδειξε πατρὸς καὶ ματρὸς ἡμᾶς</l>
+              <l n="2" xml:lang="grc">ἁμέρα τοὺς πάντας· οὐδεὶς ἔξοχος ἄλλος ἔβλαστεν ἄλλου.</l>
+              <l n="3" xml:lang="grc">βόσκει δὲ τοὺς μὲν μοῖρα δυσαμερίας, τοὺς δ᾽ ὄλβος ἡμῶν,</l>
+              <l n="4" xml:lang="grc">τοὺς δὲ δουλείας ζυγὸν ἔσχεν ἀνάγκας.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="519" xml:id="fragment-tereys-dindorf1893_grc1-519" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys">
+            <note type="source">Stobæus XCVIII, 45.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὰν γὰρ ἀνθρώπου ζόαν</l>
+              <l n="2" xml:lang="grc">ποικιλομήτιδες ἆται</l>
+              <l n="3" xml:lang="grc">πημάτων πάσαις μεταλλάσσουσιν ὥραις</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="520" xml:id="fragment-tereys-dindorf1893_grc1-520" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys">
+            <note type="source">Stobæus CV, 21. scholiasta Homeri Iliad. θ, 5. Cicero ad Atticum IV, 8.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μήπω μέγ' εἴπῃς, πρὶν τελευτήσαντ᾽ ἴδῃς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="521" xml:id="fragment-tereys-dindorf1893_grc1-521" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys" sameAs="urn:cts:greekLit:tlg0011.tereys.nauck1889grc1:526">
+            <note type="source">Stobæus CVIII, 58.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀλγεινὰ, Πρόκνη, δῆλον· ἀλλ᾽ ὅμως χρεὼν</l>
+              <l n="2" xml:lang="grc">τὰ θεῖα θνητοὺς ὄντας εὐπετῶς φέρειν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="522" xml:id="fragment-tereys-dindorf1893_grc1-522" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys" sameAs="urn:cts:greekLit:tlg0011.tereys.pearson1917-grc1:595">
+            <note type="source">Aristoteles de Poetica cap. XVI. ubi de variis agnitionibus agit,</note>
+            <quote>Καὶ ἐν τῷ Σοφοκλέους Τηρεῖ ἡ τῆς κερκίδος φωνή.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="523" xml:id="fragment-tereys-dindorf1893_grc1-523" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys" sameAs="urn:cts:greekLit:tlg0011.tereys.nauck1889grc1:523">
+            <note type="source">Scholiasta Homeri Iliad. ο, 705. Διονύσιος ὁ Ἀλικαρνασσεὺς ἐν τετάρτῳ Ἀττικῶν ὀνομάτων οὕτως ἔφη· φίλιππος μὲν τῆς μέσης δασυνομένης τὸ προσηγορικόν· οὕτως γὰρ καὶ ἐν Τηρεῖ Σοφοκλέους ἀναγινώσκομεν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἥλιε φιλίππος Θρῃξὶ πρέσβιστον σέλας.</l>
+            </lg>
+            <note type="commentary">σέβας Bothius.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="524" xml:id="fragment-tereys-dindorf1893_grc1-524" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys" sameAs="urn:cts:greekLit:tlg0011.tereys.nauck1889grc1:537">
+            <note type="source">Hesychius, Αἴγλη : χλίδων. Σ. Τηρεῖ. De vocabulo χλίδων dixi ad Aristophanis fragm. p. VI.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="525" xml:id="fragment-tereys-dindorf1893_grc1-525" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys">
+            <note type="source">Herodianus περὶ μονήρους λέξεως p. 36, 23. exscriptus ab grammaticis ad fragm. 331 indicatis,</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φάρος κατὰ συστολὴν παρὰ Σοφοκλεῖ ἐν Τηρεῖ,</l>
+              <l n="2" xml:lang="grc">Σπεύδουσαν αὐτὴν, ἐν δὲ ποικίλῳ φάρει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="526" xml:id="fragment-tereys-dindorf1893_grc1-526" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tereys">
+            <note type="source">Scholiasta Æschyli Prometh. v. 128.</note>
+            <quote>Ἐχρῶντο δὲ αὐτοῖς (versibus Anacreonteis) οὐκ ἐν παντὶ τόπῳ, ἀλλ᾽ ἐν τοῖς θρην τικοῖς, ὡς καὶ Σοφοκλῆς Τηρεί.</quote>
+          </div>
+        </div></body></text></TEI>

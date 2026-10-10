@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHERECRATES, ΙΠΝΟΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Pherecrates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0486.ipnos.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0486.ipnos.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0486.ipnos.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_ipnos"><head>ΙΠΝΟΣ</head><div type="textpart" subtype="fragment" n="64" xml:id="kock-0486-ipnos-64" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_ipnos">
+              <lg>
+                <l n="1" xml:id="kock-0486-ipnos-64-l1" xml:lang="grc">κᾆτα μυροπωλεῖν τί παθόντ' ἄνδρ' ἐχρῆν καθήμενον</l>
+                <l n="2" xml:id="kock-0486-ipnos-64-l2" xml:lang="grc">ὑψηλῶς ὑπὸ σκιαδείῳ, κατεσκευασμένον</l>
+                <l n="3" xml:id="kock-0486-ipnos-64-l3" xml:lang="grc">συνέδριον τοῖς μειρακίοις ἐλλαλεῖν δι' ἡμέρας;</l>
+              </lg>
+              <lg>
+                <l n="4" xml:id="kock-0486-ipnos-64-l4" xml:lang="grc">*</l>
+                <l n="5" xml:id="kock-0486-ipnos-64-l5" xml:lang="grc">*</l>
+                <l n="6" xml:id="kock-0486-ipnos-64-l6" xml:lang="grc">*</l>
+              </lg>
+              <lg>
+                <l n="4_2" xml:id="kock-0486-ipnos-64-l4_2" xml:lang="grc">αὐτίκ' οὐδεὶς οὐδὲ μαγείραιναν εἶδε πώποτε,</l>
+                <l n="5_2" xml:id="kock-0486-ipnos-64-l5_2" xml:lang="grc">ἀλλ' οὐ μὴν οὐδ' ἰχθυοπώλαιναν.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 612 a: Φερεκράτης ἐν Ἰπνῷ ἢ Παννυχίδι φησί· κᾆτα — ἡμέρας. εἶθ' ἑξῆς φησίν αὐτίκ' οὐδεὶς κτλ. ἑκάστῳ γὰρ γένει ἁρμόζοντα δεῖν εἶναι καὶ τὰ τῆς τέχνης.</note>
+              <note type="apparatus">1. κᾆτα μ. Casaubon.] καταμ. παθόντ' Dobr.] μαθόντ' A. ἄνδρ' ἐχρῆν Erfurdt. Obs .444] ἂν δὲ χρὴν Α. τί πάθοντ'; ἂν δὲ χρῇ Dobr. 2. σκιαδείῳ Erfurdt] σκιαδίῳ. 3. τοῖς Herm. El. doctr. m. 580] οὗ τοῖς. ἐλλαλεῖν Dobr.] ἐλάλει. 5. ἀλλ' add. K. conl. Hom. Il. 23, 441. de anapaesto alterius basis v. 1 cf. Cratin. 98, 8. Athen. 15, 687 a Σόλων . . . διὰ τῶν νόμων κεκώλυκε τοὺς ἄνδρας μυροπωλεῖν. — κατεσκευασμένον participium medii est. Plat. Prot. 317 d βούλεσθε οὖν συνέδριον κατασκευάσωμεν, ἵνα καθεζόμενοι διαλέγησθε. de ἐλλαλεῖν cf. quae ad Aristoph. Av. 38 adnotavi, de αὐτίκα veluti statim ibid. 166. μαγείραιναν et ἰχθυοπώλαιναν comice fictas esse animadvertit Meinek. V 27. ex parabasi sine dubio hoc fragmentum excerptum est, simillima Thesm. 785 sq. laudant se ipsae mulieres, quod quid genus muliebre et virile deceat multo melius teneant viris. ac chorus mulierum Παννυχίδι optime convenit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="65" xml:id="kock-0486-ipnos-65" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_ipnos">
+              <lg>
+                <l n="1" xml:id="kock-0486-ipnos-65-l1" xml:lang="grc">ὑποζυγίοις ἀλοάσαντ' εὐθὺς ἐκποιῆσαι.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 379, 28 ἀλοάσαντα· ἐν τῷ ἃ (ridicule cod. πρώτῳ, ut pro ῆ infra ὀγδόῳ). Φερεκράτης Ἴπνῳ κτλ. τὸ δὲ συγκόψαι πληγαῖς ἀλοῆσαι ἐν τῷ ῆ. cf. Suidas ἀλοάων· ἵππον ὑποζύγιον — ἐκποιῆσαι, i. e. Ἰπνῷ. atque A ἵπποι.</note>
+              <note type="apparatus">metrum Meinekius indicavit esse Archilochium, sententiam 'frumentum terere tritumque statim vendere', qua notione ἐκποιεῖν apud Atticos legi non magis memini quam Herwerd. Obs. crit. 9, qui ἐμπολῆσαι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="66" xml:id="kock-0486-ipnos-66" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_ipnos">
+              <note type="source">Schol. Aristoph. Pac. 1242 μνημονεύει δὲ Φερεκράτης ἐν Παννυχίδι τῶν κυμβείων καὶ τοῦ κατάκτου κοττάβου.</note>
+            </div>
+          </div></body></text></TEI>

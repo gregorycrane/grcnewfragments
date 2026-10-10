@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>NICOCHARES, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Nicochares</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0480.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0480.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0480.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="8" xml:id="kock-0480-adelon_dramaton-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0480-adelon_dramaton-8-l1" xml:lang="grc">δαρθείς</l>
+              </lg>
+              <note type="source">ἀντὶ τοῦ δαρείς. Νικόχαρις Κενταύρῳ. Bekker. Anecd. 89, 5.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="kock-0480-adelon_dramaton-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0480-adelon_dramaton-15-l1" xml:lang="grc">εἰς αὔριον δ’ ἀντὶ ῥαφάνων ἑψήσομεν</l>
+                <l n="2" xml:id="kock-0480-adelon_dramaton-15-l2" xml:lang="grc">βαλάνιον, ἵνα νῶν ἐξάγῃ τὴν κραιπάλην.</l>
+              </lg>
+              <note type="source">Athenaeus 1, 34d ὅτι δὲ τὴν κράμβην ῥάφανον ἐκάλουν οἱ παλαιοὶ δηλοῖ . . . Νικοχάρης κτλ.</note>
+              <note type="apparatus">1. δ’ add. Schweighaeuser. 2. βαλάνιον B et cod. Casauboni] βαλανεῖον. ἵνα νῶν L] ἵν’ οὖν V. ἐξάγῃ Dindorfius] ἐξάρῃ. Plin. N. h. 23, 145 aiunt quinis (amygdalae amarae) nucibus fere praesumtis ebrietatem non sentire potores.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="16" xml:id="kock-0480-adelon_dramaton-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0480-adelon_dramaton-16-l1" xml:lang="grc">εἰ πεύσομαι τὸν ἀηδόνειον</l>
+                <l n="2" xml:id="kock-0480-adelon_dramaton-16-l2" xml:lang="grc">ὕπνον ἀποδαρθόντ’, αὐτὸς αὑτὸν αἰτιῶ.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 349, 8 ἀηδόνειος ὕπνος· Νικόχαρις κτλ. sic</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="17" xml:id="kock-0480-adelon_dramaton-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0480-adelon_dramaton-17-l1" xml:lang="grc">κύουσαν δέλφακα</l>
+              </lg>
+              <note type="source">θηλυκῶς Νικοχάρης ἔφη. Athenaeus 14, 657 a.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="18" xml:id="kock-0480-adelon_dramaton-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0480-adelon_dramaton-18-l1" xml:lang="grc">τὴν ἀλάστορα Σφίγγα</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 382, 27 <foreign xml:lang="grc">ἀλάστωρ· θηλυκῶς Νικόχαρις κτλ.</foreign>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="19" xml:id="kock-0480-adelon_dramaton-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0480-adelon_dramaton-19-l1" xml:lang="grc">ἄζειν</l>
+              </lg>
+              <note type="source">τὸ διὰ τοῦ στόματος ἀθρόως ἐκπνεῖν λέγουσιν Ἀττικοί, μιμούμενοι τὸν ἦχον τοῦ πνεύματος. οὕτω Νικόχαρις. Bekker. Anecd. 348, 18.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="20" xml:id="kock-0480-adelon_dramaton-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0480-adelon_dramaton-20-l1" xml:lang="grc">ἀνηλεήμων</l>
+              </lg>
+              <note type="source">Νικόχαρις λέγει. Bekker. Anecd. 400, 30. Dorvill. Charit. 724. Schaefer. Gregor. Cor. 163.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="21" xml:id="kock-0480-adelon_dramaton-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0480-adelon_dramaton-21-l1" xml:lang="grc">ὁ παιδαριώδης</l>
+              </lg>
+              <note type="source">παρὰ Νικοχάρει. Pollux 2, 19.</note>
+            </div>
+          </div></body></text></TEI>

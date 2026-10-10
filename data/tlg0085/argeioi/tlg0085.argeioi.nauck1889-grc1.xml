@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΑΡΓΕΙΟΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.argeioi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.argeioi.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.argeioi.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:argeioi"><head xml:lang="grc">ΑΡΓΕΙΟΙ</head>
+          <note type="introduction" xml:lang="mul">Ἀργεῖοι titulus perhibetur in catalogo fabularum Aeschylearum sicut in Etym. M. p. 341, 6. potius Ἀργείαν scripsisse Aeschylum arbitratur M. Schmidt Philol. vol. 16 p. 161. de Argia Adrasti filia et Polynicis uxore cf. Diod. 4, 65, 3 Hesiod. fr. 62 Rzach. Hygin. fab. 72 al.</note>
+          <div type="textpart" subtype="fragment" n="16" corresp="urn:cite2:perseus:fragmentaryplays.v1:argeioi" xml:id="aesch-fr16">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-16-1">καὶ παλτὰ κἀγκυλητὰ καὶ χλῆδον βαλών</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Harpocr. v. χλῆδος p. 184, 22: Αἰσχύλος Ἀργείοις (ἀργείαις vel ἀργίαις libri) καὶ παλτὰ — βαλών . Salmasius coni. πάλτ’ ἀναγκύλητα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" corresp="urn:cite2:perseus:fragmentaryplays.v1:argeioi" xml:id="aesch-fr17">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-17-1">Καπανεύς μοι καταλείπεται</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-17-2">λοιποῖς ἀκέραυνος ἄρθρων</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-17-3">ἐπηλυσίων ἀπέλιπεν</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Etym. M. p. 341, 5: ἐνηλύσια· εὐκίνητα, καὶ ἤλυσιν τὴν ἔλευσιν. Αἰσχύλος ἐν Ἀργείοις Καπανεύς — ἀπέλιπεν. οἳ δὲ τὰ κατασκηφθέντα. οὕτως εἰς τὸ ῥητορικόν. εἰς δὲ τοὺς ἐτυμολόγους εὗρον· ἐνηλύσια λέγεται εἰς ἃ κεραυνὸς εἰσβέβληκεν, ἃ καὶ ἀνατίθεται Διὶ καταιβάτῃ καὶ λέγεται ἄδυτα καὶ ἄβατα.</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 μου ed. μοι F. v. 2 ἀρούρων ed. ἀρότρων DFP ἄρθρων M. Schmidt Zeitschr. f. d. Alterth. 1856 p. 361 . Stanley coni. ἐνηλυσίων. locus corruptissimus. Hesychius 2 p. 97: ἐνηλύσιος· ἐμβρόντητος, κεραυνόβλητος. et ἐνηλύσια· τὰ κατασκηφθέντα χωρία ἐνηλύσια λέγονται. ἔνιοι δὲ εὐκίνητα, παρὰ τὴν ἔλευσιν (M. Schmidt coni. παρὰ τὴν ἤλυσιν τὴν ἔλευσιν).</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" corresp="urn:cite2:perseus:fragmentaryplays.v1:argeioi" xml:id="aesch-fr18">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-18-1">ἀπόσκημμα</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 257: ἀπόσκημμα· ἀπέρεισμα (ἀπέρισμα cod., corr. Alberti). Meursius Ἀργείοις (ἀργίας cod.).</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="19" corresp="urn:cite2:perseus:fragmentaryplays.v1:argeioi" xml:id="aesch-fr19">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-19-1">ἐμμέλεια</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 2 p. 76: ἐμμέλεια· εἶδος ὀρχήσεως — τραγικὴ δὲ ἡ ὄρχησις. Ἀργυρίοις δὲ Αἰσχύλος ἀντὶ τοῦ σατυρική , ἥ ἐστι σίκινις (σικήνης codex). pro ἀργυρίοις Meursius et alii Ἀργείοις scripserunt, contra Bothe ἀκύρως δὲ Αἰσχύλος ἀντὶ τῆς σατυρικῆς. Hermann Opusc. 7 p. 207 proposuit τραγικὴ δὲ ἡ ὄρχησις· Αἰσχύλος Ἀργείοις. ἦν δὲ καὶ σατυρική , ἥ ἐστι σίκινις.</note>
+          </div>
+        </div></body></text>
+</TEI>

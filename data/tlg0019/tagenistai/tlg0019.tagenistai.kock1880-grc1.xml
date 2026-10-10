@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΤΑΓΗΝΙΣΤΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.tagenistai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.tagenistai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.tagenistai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai"><head>ΤΑΓΗΝΙΣΤΑΙ</head><div type="textpart" subtype="fragment" n="523" xml:id="kock-0019-tagenistai-523" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <note type="source">Photius et Suidas, Apostol. 13, 87 παραιξορουσον (Suidas παραιξοροῦσιν, Apostol. παραξοροῦσιν)· Ἀριστοφάνης Ταγηνισταῖς.</note>
+              <note type="apparatus">ἀπέδωκαν δὲ οἱ μὲν παιδιᾶς εἶδός τι, Εὐφρόνιος δὲ παροιμιωδῶς λέγεσθαι ἐπὶ τῶν παρακελευομένων ταχέως ἥκειν ἢ ἀπαλλάττεσθαι. Πάρι, ἐξόρουσον ex Il. 3, 325 Dindorf., παρεξόρουσον Dobraeus et Bernhardyus in Suida. πάρεξ ὄρουσον Meinekius. est ex eodem dicendi genere atque οὐκ ἀπολιβάξεις; οὐ πτερυγιεῖς; al.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="524" xml:id="kock-0019-tagenistai-524" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <note type="source">παραλοῦται (Ἀριστοφάνης) ἐν Ταγηνισταῖς. Pollux 7, 168. cf. fr. 55.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="525" xml:id="kock-0019-tagenistai-525" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <note type="source">σπινός διὰ τοῦ ἑνὸς ν λέγουσιν. Ἀριστοφάνης Ταγηνισταῖς. Photius.</note>
+              <note type="apparatus">σπίνος scribi iubet Herodian. I 176, 14. II 447, 13. 945, 17.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="526" xml:id="kock-0019-tagenistai-526" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <note type="source">τέλειον Schol. Platon. 383 Bekk. ἐκιρνῶντο (ἐν ταῖς συνουσίαις) κρατῆρες τρεῖς, καὶ τὸν μὲν πρῶτον Διὸς Ὀλυμπίου καὶ θεῶν Ὀλυμπίων ἔλεγον, τὸν δὲ δεύτερον ἡρώων, τὸν δὲ τρίτον σωτῆρος . . . ἔλεγον δὲ αὐτὸν καὶ τέλειον, ὡς . . . Ἀριστοφάνης Ταγηνισταῖς.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="527" xml:id="kock-0019-tagenistai-527" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <note type="source">φήληξ Schol. Pac. 1174 Σαρδιανικόν· καὶ ἐν Ταγηνισταῖς τῇ λέξει κέχρηται.</note>
+              <note type="apparatus">ita Bekkerus, Dindorfius ad v. 1165 rettulit, ubi V οὗτος δὲ (voce φήληξ) ἐπὶ τοῦ ὠμοῦ σύκου κέχρηται, εἰπὼν οἰδαίνοντα· οἰδαίνεται γὰρ ὅτε ἄρχεται πεπαίνεσθαι· καὶ ἐν Ταγηνισταῖς δὲ τῇ λέξει κέχρηται. Bekker. Anecd. 71, 4 φήληκες· τῶν σύκων τὰ δόξαν παρέχοντα ὡς ἤδη πέπονα καὶ ἐδώδιμα, ἄωρα δέ ἐστι. 315, 11 φήληξ δ᾽ ἐστὶν ὁ ὄλυνθος ὁ φαινόμενος μὲν ὥσπερ πέπειρος, οὐκ ἂν δέ. Ad Tagenistas sine dubio pertinet fr. 680. ac probabiliter fr. 672 ad eosdem refert Toeppelius Eupol. Adul. 40. cf. etiam fr. 675.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="488" xml:id="kock-0019-tagenistai-488" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <p>488</p>
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-488-l1" xml:lang="grc">καὶ μὴν πόθεν Πλούτων γ’ ἂν ὠνομάζετο,</l>
+                <l n="2" xml:id="kock-0019-tagenistai-488-l2" xml:lang="grc">εἰ μὴ τὰ βέλτιστ’ ἔλαχεν; ἓν δέ σοι φράσω,</l>
+                <l n="3" xml:id="kock-0019-tagenistai-488-l3" xml:lang="grc">ὅσῳ τὰ κάτω κρείττω ’στὶν ὧν ὁ Ζεὺς ἔχει.</l>
+                <l n="4" xml:id="kock-0019-tagenistai-488-l4" xml:lang="grc">ὅταν γὰρ ἱστῇς, τοῦ ταλάντου τὸ ῥέπον</l>
+                <l n="5" xml:id="kock-0019-tagenistai-488-l5" xml:lang="grc">κάτω βαδίζει, τὸ δὲ κενὸν πρὸς τὸν Δία.</l>
+              </lg>
+              <p>* * * *</p>
+              <lg>
+                <l n="6" xml:id="kock-0019-tagenistai-488-l6" xml:lang="grc">οὐδὲ γὰρ ἂν ἀποθανόντες ἐστεφανωμένοι</l>
+                <l n="7" xml:id="kock-0019-tagenistai-488-l7" xml:lang="grc">προὐκείμεθ’, οὐδὲ βακκάρει κεχριμένοι,</l>
+                <l n="8" xml:id="kock-0019-tagenistai-488-l8" xml:lang="grc">εἰ μὴ καταβάντας εὐθέως πίνειν ἔδει.</l>
+                <l n="9" xml:id="kock-0019-tagenistai-488-l9" xml:lang="grc">διὰ ταῦτα γάρ τοι καὶ καλοῦνται μακάριοι·</l>
+                <l n="10" xml:id="kock-0019-tagenistai-488-l10" xml:lang="grc">πᾶς γὰρ λέγει τις, ὁ μακαρίτης οἴχεται,</l>
+                <l n="11" xml:id="kock-0019-tagenistai-488-l11" xml:lang="grc">κατέδαρθεν· εὐδαίμων, ὅσ’ οὐκ ἀνιάσεται.</l>
+                <l n="12" xml:id="kock-0019-tagenistai-488-l12" xml:lang="grc">καὶ θύομεν αὐτοῖσι τοῖς ἐναγίσμασιν</l>
+                <l n="13" xml:id="kock-0019-tagenistai-488-l13" xml:lang="grc">ὥσπερ θεοῖσι καὶ χυάς γε χεόμενοι</l>
+                <l n="14" xml:id="kock-0019-tagenistai-488-l14" xml:lang="grc">αἰτούμεθ’ αὐτοὺς δεῦρ’ ἀνεῖναι τἀγαθά.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 121, 18 Ἀριστοφάνους Ταγηνισταῖς. lemma omissum in ed. Trincav., cod. V et Vind. Ἀριστοφάνης ταγηνί. totum fr. omissum in cod. A.</note>
+              <note type="apparatus">1. γ’ ἂν Voss.] ἂν. 3. κρείττω ’στὶν Voss.] κρείττον’ ἐστὶν. 4. ἱστῇς Cobetus De orat. artific. p. 23] ἱστᾷς. ῥέπον Voss.] ῥέον. lacunam post v. 5 indicavit Bergkius consulto omissa esse a Stobaeo censens ‘quae alter ex conloquentibus interposuerat’. 6—14 non recte Aristophani Dindorfius adimit novae comoediae poetae tribuens. sunt enim ex eadem comoedia eademque scaena. 6. οὐδὲ γὰρ ἂν ἀποθανόντες K.] οὐ γὰρ ἄν ποτε οὕτως. οὕτω στεφανωμένοι Voss. Vindob. ἀλλ’ οὐ γὰρ ἂν ποθ’ οὕτως Grotius pravum versum esse non sentiens. οὔτ’ ἂν ἀποτεθνεῶτες Iacobs. Lect. Stob. 2. οὐ γὰρ ἂν ποτε | οὕτω στεφάνοισιν. Meinekius, et Bergkius in exitu addens νεκροί. 7. οὐδὲ βακκάρει κεχριμένοι conl. Magnet. 3 Cobet. V. 1.2 127] οὐδ’ ἂν κατακεκριμένοι. κατακρινόμενοι Voss. Vindob. κατακεκρυμμένοι Nmp. κατακεχρισμένοι Gesner. ἄνω κάτω κεχρισμένοι Grotius. οὐδ’ αὖ κρᾶτα κατακεχρισμένοι Gaisf. οὐδ’ ἂν κατακεχριμένοι μύροις Dindorfius. 11. ὅσ’ K.] ὅτι. ‘felicem, qui tot sollicitudines iam non sensurus sit’ (quas sensurus erat, si diutius vixisset). ὁ δ’ Iacobs. Lect. Stob. 145. ἔτ’ οὐκ Hanov. Exerc. crit. 148 conl. Plut. 1177. 12. θύομεν] θύομέν γ’ Grotius. 13. γε] τε Voss. χεόμενοι Seidlerus] χέομεν. 14. ἀνεῖναι Fritzsch. Ran. p. 441] ἀνιέναι. τἀγαθά] τὰ καλὰ (spatio intermisso vacuo) γαθὰ Voss. unde τὰ καλὰ δεῦρ ἀνιέναι Dindorfius.</note>
+              <note type="apparatus">cum v. 4 Iacobsius Lect. Stob. 2 confert Plut. Mor. 485 f <quote>ἀδελφῷ δὲ χρὴ μὴ καθάπερ πλάστιγγα ῥέπειν ἐπὶ τοὐναντίον,</quote> cum</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="489" xml:id="kock-0019-tagenistai-489" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-489-l1" xml:lang="grc">ἀλλὰ στεφάνωσαι· καὶ γὰρ ἡλικίαν ἔχεις</l>
+                <l n="2" xml:id="kock-0019-tagenistai-489-l2" xml:lang="grc">ἀποχρῶσαν ἤδη.</l>
+              </lg>
+              <note type="source">
+                <p>Bekker. Anecd. 439, 22 et Suidas ἀποχρώντως. αὐτάρκως, ἱκανῶς. Ἀριστοφάνης Ταγηνισταῖς κτλ. ταγηνίταις cod. Bekker.</p>
+              </note>
+              <note type="apparatus">
+                <p>decrepitus aliquis his verbis compellatur, quae videntur ex eadem ac fr. 488 scaena desumpta esse. ἀποχρῶσαν ἤδη] ἤδη ᾽ποχρώντως M. Schmidtius Hesych. ἀποχρώντως. στεφάνωσαι, i. e. ad mortem. cf. exempla ad fr. 488 adlata.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="490" xml:id="kock-0019-tagenistai-490" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-490-l1" xml:lang="grc">τοῦτον τὸν ἄνδρ᾽ ἢ βυβλίον διέφθορεν</l>
+                <l n="2" xml:id="kock-0019-tagenistai-490-l2" xml:lang="grc">ἢ Πρόδικος ἢ τῶν ἀδολεσχῶν εἷς γέ τις.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Nub. 361 et Suidas Πρόδικος· μνημονεύει δ᾽ αὐτοῦ καὶ Ἀριστοφάνης ἐν Ταγηνισταῖς οὕτως κτλ. v. 2 Procl. Plat. Parmen. IIII 50 Cousin, ubi coniungitur cum Eupol. 352, 1.</p>
+              </note>
+              <note type="apparatus">
+                <p>τοῦτον τὸν ἄνδρ᾽ Hermannus] τὸν ἄνδρα τοῦτον. τὸν ἄνδρα τόνδ᾽ Dindf. potest etiam ἢ omitti. βυβλίον Κ.] βιβλίον. διέφθορεν] διέφθειρεν G. Ald. Suid. εἷς γέ τις] εἴσφρησις Schol.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="491" xml:id="kock-0019-tagenistai-491" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-491-l1" xml:lang="grc">τί οὖν ποιῶμεν; χλανίδ᾽ ἐχρῆν λευκὴν λαβεῖν·</l>
+                <l n="2" xml:id="kock-0019-tagenistai-491-l2" xml:lang="grc">εἶτ᾽ Ἰσθμιακὰ λαβόντες ὥσπερ οἱ χοροί</l>
+                <l n="3" xml:id="kock-0019-tagenistai-491-l3" xml:lang="grc">ᾄδωμεν εἰς τὸν δεσπότην ἐγκώμιον.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="492" xml:id="kock-0019-tagenistai-492" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-492-l1" xml:lang="grc">Α. τί πρὸς τὰ Λυδῶν δεῖπνα καὶ τὰ Θετταλῶν;</l>
+                <l n="2" xml:id="kock-0019-tagenistai-492-l2" xml:lang="grc">Β. τὰ Θετταλικὰ μὲν πολὺ καπανικώτερα.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 418 d ταῦτα δὲ καπανικὰ εἴρηκεν Ἀριστοφάνης ἐν Ταγηνισταῖς· τί κτλ. οἷον τὰ ἁμαξιαῖα. Θετταλοὶ γὰρ τὰς ἀπήνας καπάνας ἔλεγον. Eustathius 857, 30 δηλοῖ Ἀριστοφάνης ἐν τῷ Λυδῶν δεῖπνα καὶ Θετταλῶν, ὧν τὰ Θετταλικὰ πολὺ καπανικώτερα. Hesych. καπανικώτερα· ἀπὸ τῆς φάτνης. χορταστικώτερα. τινὲς δὲ ἀντὶ τοῦ μείζονα. καπάνας γὰρ ἀπήνας λέγουσι.</note>
+              <note type="apparatus">cf. Ahrens Dial. II 134. 2. τὰ Steph. Thes. Lond.] καὶ τὰ. Θετταλικὰ C] θετταλικῶν. Θετταλῶν Meinekius in ed. Athen. in v. 1 utique scribendum est τί πρὸς τὰ Λυδῶν δεῖπνά σοι τὰ Θ., i. e. τί σοι δοκεῖ εἶναι τὰ Λ. πρ. τ. Θ. explicari quidem possit quod vulgatur ita: quid tibi cena (ea qua modo fruebaris) esse videbatur prae Lydorum Thessalorumque epulis? iam quod de Lydis respondit excidit (τὰ δὲ τῶν γε Λυδῶν μυριάκις τρυφερώτερα). at tum valde iniuriose responderet ὁ ταγηνιστής. videntur potius nulla alia cena comparata duo parasiti Lydorum Thessalorumque epulas aestimare.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="493" xml:id="kock-0019-tagenistai-493" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-493-l1" xml:lang="grc">ἐρείδετον, κἀγὼ κατόπιν σφῶν ἕψομαι.</l>
+              </lg>
+              <note type="source">Photius ἐρείδειν· τὸ ἐσθίειν σφοδρῶς· ἢ ἄλλο τι ἐνεργεῖν συντόνως. Ταγηνισταῖς κτλ.</note>
+              <note type="apparatus">hic manifesto est acriter progredi. cf. fr. 74.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="494" xml:id="kock-0019-tagenistai-494" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-494-l1" xml:lang="grc">οὐ μὴν ὅ γε σὸς ἀδελφὸς οὗ ἀπελάγχανεν.</l>
+              </lg>
+              <note type="source">Harpocratio ἀπολαχεῖν· ἀντὶ ἁπλοῦ τοῦ λαχεῖν . . . Ἀριστοφάνης Ταγηνισταῖς κτλ.</note>
+              <note type="apparatus">οὗ om. Darmst. οὐκ Salmas. cf. Dobr. Aristoph. p. 104. Bekker. Anecd. 430, 9 ἀπολαχεῖν· ἀντὶ τοῦ λαχεῖν. οὕτω Λυσίας καὶ Ἀριστοφάνης καὶ Ἀντιφῶν. cf. ibid. 1113 (ubi ἀντιλαχεῖν) et Zon. 265. Meinekius V 67 οὐ μὴν ὁ σός γ' ἀδελφὸς ἁπελάγχανον, i. e. οὗ ἀπελάγχανον. non tuus frater id possidet quod ego sortiebar. quod miror Meinekio placuisse. optime Bekker. Anecd. 217, 3 ἀπολαχεῖν τὸ διανείμασθαι τὰ πατρῷα ἢ καὶ ἄλλα κοινά, δόντα πρός τινας καὶ ἀπολαβεῖν τὸ προσῆκον μέρος ἕκαστον τῶν διανειμαμένων. scribendum videtur ἁπελάγχα-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="495" xml:id="kock-0019-tagenistai-495" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-495-l1" xml:lang="grc">ἀπασκαρίζειν ὡσπερεὶ πέρκην χαμαί</l>
+              </lg>
+              <note type="source">
+                <p>Suidas <foreign xml:lang="grc">ἀπασκαρίζειν· Ἀριστοφάνης Ταγηνισταῖς</foreign> κτλ. exscripsit ex conlectione <foreign xml:lang="grc">λέξεων χρησίμων</foreign> Bekker. Anecd. 418, 5, ubi hodie lemma solum relictum est. cf. Cratin. 26. <foreign xml:lang="grc">πέρκην</foreign> accusativus est subiecti. Hesych. <foreign xml:lang="grc">ἀπασκαρίζειν· σπαίρειν.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="496" xml:id="kock-0019-tagenistai-496" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-496-l1" xml:lang="grc">ὑποπεπώκαμεν γάρ, ὦνδρες, καὶ καλῶς ἠρίσταμεν.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 10, 422f <foreign xml:lang="grc">ἠρίσταμεν δ᾽ εἴρηκεν Ἀριστοφάνης ἐν Ταγηνισταῖς</foreign> κτλ. <foreign xml:lang="grc">γάρ</foreign> add. Porsonus. <foreign xml:lang="grc">μὲν</foreign> Erfurdt. <foreign xml:lang="grc">ὦνδρες</foreign> Dindorf.] <foreign xml:lang="grc">ὦ ἄνδρες.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="497" xml:id="kock-0019-tagenistai-497" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-497-l1" xml:lang="grc">λαμβάνετε κόλλαβον ἕκαστος.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 3, 110f <foreign xml:lang="grc">κολλάβους δ᾽ ἄρτους ὁ Ἀριστοφάνης ἐν Ταγηνισταῖς</foreign> κτλ. Casaubonus in ed. pr. <foreign xml:lang="grc">λαμβάνετέ τε κόλλαβον ἕκαστος.</foreign> potest tamen tetrametri trochaici initium esse.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="498" xml:id="kock-0019-tagenistai-498" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-498-l1" xml:lang="grc">τὸ δ᾽ ἔτνος τοὐν ταῖς κυλίχναις τουτὶ θερμὸν καὶ τοῦτο παφλάζον.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 88 <foreign xml:lang="grc">κυλίχνας δὲ ἀγγεῖον ὀψοφόρον ἐν Ταγηνισταῖς δόξειεν ἂν Ἀριστοφάνης λέγειν εἰπών</foreign> κτλ. <foreign xml:lang="grc">τοὐν</foreign> Dindorfius] <foreign xml:lang="grc">ἐν.</foreign>
+                  <foreign xml:lang="grc">καὶ τοῦτο</foreign> corruptum videtur.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="499" xml:id="kock-0019-tagenistai-499" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-499-l1" xml:lang="grc">(εἶτ᾽ ἔγχελυς ἦν μάλα) γενναία·</l>
+                <l n="2" xml:id="kock-0019-tagenistai-499-l2" xml:lang="grc">Βοιωτὶς δ᾽ ἦν ἐξ Ἀγχομενοῦ.</l>
+              </lg>
+              <note type="source">
+                <p>Herodianus I 180, 32. II 913, 23 Lentz. <foreign xml:lang="grc">Ἀγχομενὸς γενναία βοιώτιος ἐν Ἀγχομενοῦ Ἀριστοφάνης Ταγηνισταῖς.</foreign> ut supra scripsimus Lehrsius. quibus quae uncis inclusa praeposui, exempli causa adieci. <foreign xml:lang="grc">Ἀγχομενός</foreign> nomen est proprium hominis, non oppidi ut <foreign xml:lang="grc">Ὀρχομενός.</foreign> videtur Lehrsio cena conlaticia significari, ad quam anguilla Boeotia ex Anchomeni domo missa sit, conl. Pac. 1149 <foreign xml:lang="grc">(κὰξ ἐμοῦ).</foreign> 1154. alia Herwerdenus Anal. crit. 29 et Fritzschius De com. gr. fr. 7 excogitaverunt.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="500_501" xml:id="kock-0019-tagenistai-500_501" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-500_501-l1" xml:lang="grc">χθονία θ’ Ἑκάτη</l>
+                <l n="2" xml:id="kock-0019-tagenistai-500_501-l2" xml:lang="grc">σπείρας ὄφεων ἐλελιζομένη.</l>
+                <l n="3" xml:id="kock-0019-tagenistai-500_501-l3" xml:lang="grc">Β. τί καλεῖς τὴν Ἔμπουσαν;</l>
+              </lg>
+              <note type="source">Schol. Ran. 293 ἔνιοι δὲ (τὴν Ἔμπουσαν) τὴν αὐτὴν τῇ Ἑκάτῃ, ὡς Ἀριστοφάνης ἐν τοῖς Ταγηνισταῖς· χθονίας — ἐλελιζομένη. εἶτα ἐπιφέρει· τί καλεῖς τὴν ἔμπουσαν. χθονία θ’ Ἑκάτη σπείρας ὄφεων Porsonus] χθονίας Ἑκάτης πείρα σοφῶν. ἐλελιζομένη Seidlerus] ἐξελιζομένη. εἱλιξαμένη Porsonus. cf. Soph. fr. 490 N. στεφανωσαμένη δρυΐ καὶ πλεκταῖς | ὠμῶν σπείραισι δρακόντων. Hesych. ἐλελιζομένη· σειομένη.</note>
+              <note type="apparatus">3. καλεῖς Ἑκάτην Bergkius. addendum videtur οὗτος, τί καλεῖς τ. Ἔμπ.; Bergkius poetae tragici fragmentum (adesp. 306 N.), quod ipse Euripidis, Porsonus Aeschyli esse iudicat, imitatione expressum esse censet. cf. Ran. 293 et Fritzsch. Ran. p. 162. 3.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="502" xml:id="kock-0019-tagenistai-502" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-502-l1" xml:lang="grc">φέρε παῖ ταχέως κατὰ χειρὸς ὕδωρ,</l>
+                <l n="2" xml:id="kock-0019-tagenistai-502-l2" xml:lang="grc">παράπεμπε τὸ χειρόμακτρον.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 410 b χειρόμακτρον δὲ καλεῖται ᾧ τὰς χεῖρας ἀπεμάττοντο ὠμολίνῳ . . . Ἀριστοφάνης Ταγηνισταῖς κτλ. παράπεμπε, ut παραφέρειν 466. alter versus est logaoedicus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="503" xml:id="kock-0019-tagenistai-503" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-503-l1" xml:lang="grc">ὡς οὐψώνης διατρίβειν</l>
+                <l n="2" xml:id="kock-0019-tagenistai-503-l2" xml:lang="grc">ἡμῶν τἄριστον ἔοικεν.</l>
+              </lg>
+              <note type="source">Athenaeus 4, 171 b ὀψώνην δ’ εἴρηκεν Ἀριστοφάνης ἐν Ταγηνισταῖς διὰ τούτων κτλ. τἄριστον Bergk. R. c. Att. 162] τὸ ἄριστον (prandium). sunt paroemiaci continuati, ut Cratin. 144.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="504" xml:id="kock-0019-tagenistai-504" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-504-l1" xml:lang="grc">ὁ δὲ λύων κύστιν ὑείαν</l>
+                <l n="2" xml:id="kock-0019-tagenistai-504-l2" xml:lang="grc">κἀξαιρῶν τοὺς Δαρεικούς</l>
+              </lg>
+              <note type="source">Pollux 10, 151 ἐπὶ τοῦ αὐτοῦ δὲ (τοῦ βαλλαντίου) κύστιν ὑείαν, ἐν Ταγηνισταῖς κτλ. κἀξαιρῶν] κἀξαίρων. κᾆτ’ ἐξαιρῶν Bentleius. item paroemiaci.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="505" xml:id="kock-0019-tagenistai-505" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-505-l1" xml:lang="grc">δεῦρο δ’ ἂν οὐκ ἀπέδραμεν.</l>
+              </lg>
+              <note type="source">Herodianus Piersoni 465 et Bekker. Anecd. 1066 ἀπέδραν ἐγὼ τὸ πρῶτον πρόσωπον . . καὶ ἀπέδραμεν ἡμεῖς τὸ πληθυντικόν. καὶ</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="506" xml:id="kock-0019-tagenistai-506" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-506-l1" xml:lang="grc">ἅλις ἀφύης μοι. παρατέταμαι γὰρ τὰ λιπαρὰ κάπτων.</l>
+                <l n="2" xml:id="kock-0019-tagenistai-506-l2" xml:lang="grc">ἀλλὰ φέρεθ’ ἡπάτιον, ἢ καπριδίου νέου</l>
+                <l n="3" xml:id="kock-0019-tagenistai-506-l3" xml:lang="grc">κόλλοπά τιν’· εἰ δὲ μή, πλευρὸν ἢ γλῶτταν ἢ</l>
+                <l n="4" xml:id="kock-0019-tagenistai-506-l4" xml:lang="grc">σπλῆνά γ’ ἢ νῆστιν, ἢ δέλφακος ὀπωρινῆς</l>
+                <l n="5" xml:id="kock-0019-tagenistai-506-l5" xml:lang="grc">ἠτριαίαν φέρετε δεῦρο μετὰ κολλάβων</l>
+                <l n="6" xml:id="kock-0019-tagenistai-506-l6" xml:lang="grc">χλιαρῶν.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 3, 96 c γλώσσης δὲ μέμνηται Ἀριστοφάνης ἐν Ταγηνισταῖς διὰ τούτων· ἅλις κτλ. v. 2 Athen. 3, 107 f ἡπάτιον Ἀριστοφάνης εἴρηκεν ἐν Ταγηνισταῖς. v. 4 — 6 Athen. 3, 110 f κολλάβους δ’ ἄρτους ὁ Ἀριστοφάνης ἐν Ταγηνισταῖς (fr. 497). καὶ πάλιν· ἢ δέλφακος — χλιερῶν. Schol. Eq. Ald. 645. Acharn. 639. Suidas ἅλις, ἀφύα, θωπεύει et παρατέταμαι. Etymol. m. 439, 44. Photius 299, 5. Eustathius 1752, 16. v. 3. Hesych. ἐκολλόπωσε· . . . ἔστι δὲ τὰ νωτιαῖα μέρη τῶν βοῶν, ἐξ ὧν γίγνονται οἱ κόλλοπες. v. 4. Photius νῆστιν· τὸ ἔντερον ἢ σπλῆνα ἢ γλῶτταν. Ἀριστοφάνης. idem νήστις· τὸ μεταξὺ τῆς κοιλίας καὶ τοῦ στομάχου ἔντερον . . . ἔντερον, ἐν ᾧ περιελίττουσιν οἱ μάγειροι τὰς χορδάς. Athen. 9, 374 f Ἀριστοφάνης Ταγηνισταῖς· ἢ δέλφακος ὀπωρινῆς ἠτριαῖον. Etymol. m. 439, 42 Ἀριστοφάνης . . . ἠτριαία, θηλυκῶς, ἐν Ταγηνισταῖς.</p>
+              </note>
+              <note type="apparatus">
+                <p>1. παρατέταμαι] παρατέταγμαι A Athen. κάπτων] ἐσθίων ex interpretamento Schol. Ach. 639, Suid. ἅλις, θωπεύει, παρατέταμαι. 2. φέρεθ’ Dindorf.] φέρετ’ ἀπόβασιν. φέρετ’ ὀπτὰ, βάτιν Seidlerus. φέρεθ’ ἡπάτιον ἢ βάτιον ὀπτὸν Fritzschius. 3. τιν’ Dindf.] τινὰ. 4. σπλῆνά γ’ Hermannus] σπληνός. σπλῆνα Phot. σπλήνας Seidlerus. ὀπωρινῆς Athen. 3, 110 f. 9, 374 f] ἢ ῥίνης 96 c. 5. ἠτριαίαν Athen. 3, 110 f et Etymol.] ἠτριαῖον. ἢ τριέα vulgo 96 c. 6. χλιαρῶν] χλιερῶν 110 f. metrum v. 1 est ∪ ∪ ∪ — — ter repet., numeris anapaesticis, si quid video. ac sic Bergkius Mus. Rhen. XX 290, διπλοῦν ἀνάπαιστον adpellari posse dicens. cetera sunt paeonica.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="507" xml:id="kock-0019-tagenistai-507" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <lg>
+                <l n="1" xml:id="kock-0019-tagenistai-507-l1" xml:lang="grc">μηδὲ τὰ Φαληρικὰ τὰ μικρὰ τάδ’ ἀφύδια</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 7, 285 e ἀφύδια δ’ Ἀριστοφάνης Ταγηνισταῖς κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>τὰ Φαληρικὰ τὰ μικρὰ Porson. Gaisf. Hephaest. 331] τὰ μικρὰ τὰ Φαληρικά. ad eandem ac fr. 506 fabulae partem videntur pertinere.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="508" xml:id="kock-0019-tagenistai-508" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <note type="source">Athenaeus 6, 269 e</note>
+              <p>τί δεῖ πρὸς τούτοις ἔτι παρατίθεσθαι τὰ ἐκ Ταγηνιστῶν τοῦ χαρίεντος Ἀριστοφάνους; πάντες γὰρ τῆς καταχήνης αὐτοῦ πλήρεις ἐστέ.</p>
+              <note type="apparatus">aureae aetatis felicitatem cum contemptu quodam vel ironia etiam in Tagenistis commemorari dicit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="509" xml:id="kock-0019-tagenistai-509" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <p>Διὸς Κόρινθος</p>
+              <note type="source">μέμνηται δὲ ταύτης Ἀριστοφάνης — καὶ ἐν Ταγηνισταῖς. Schol. Platonis 368 Bekk. cf. Ran. 439.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="510" xml:id="kock-0019-tagenistai-510" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <p>λίθους πωρίνους</p>
+              <note type="source">ὡς ἐν Ταγηνισταῖς. Pollux 10, 173.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="511" xml:id="kock-0019-tagenistai-511" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <p>μελιτηρὸν ἄγγος</p>
+              <note type="source">ἐν Ταγηνισταῖς. Pollux 10, 93.</note>
+              <note type="apparatus">μελιτηρὸν recte Cobet. Mnem. V 194] μελιτήριον. cf. ἀλφιτηρός, οἰνηρός, σιτηρός, μυρηρός, ἀνθρακηρός, ὀξηρός, γαρηρός, ἐλαιηρός, μαζηρός, ἰχθυηρός. verum fortasse Pollux ἐπίχυσιν apud Aristophanem dici narrat pro μελιτηρῷ ἄγγει. scribit enim: τὸ δὲ ὄνομα ἡ ἐπίχυσις εἴρηται ἐν Δαιταλεῦσιν· ἐν δὲ Ταγηνισταῖς ὀνόμασταί τι καὶ μελιτηρὸν ἄγγος (ἐπίχυσις). antea τὴν ἐλαιηρὰν ἐπίχυσιν commemoraverat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="512" xml:id="kock-0019-tagenistai-512" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <p>ἀμφαρίστερον</p>
+              <note type="source">Galenus Hipp. aphor. V 322 ed. Basil. Kuehn. XVIII 147. 8.</note>
+              <note type="apparatus">ἀμφιδέξιον Εὐριπίδης εἴρηκε σίδηρον τὸν ἑκατέρωθεν μὲν τέμνοντα, περιδέξιον δὲ τὸν Ἀστεροπαῖον Ὅμηρος τὸν ἀμφοτέραις ταῖς χερσὶν ὁμοίως χρώμενον . . . κατὰ δὲ τὸν αὐτὸν τρόπον ἀμφαρίστερον Ἀριστοφάνης εἶπεν ἐν Ταγηνισταῖς ἄνθρωπον ἀριστερόν. i. e. hominem utraque manu inhabilem, prorsus ineptum. Bekker. Anecd. 3, 20 ἀμφαρίστερος· ἐναντίον τῷ περιδέξιος· σκωπτικὸν πάνυ τὸ ὄνομα. Hesych. ἀμφαρίστερος· ἀμφοτέρωθεν ἀριστερός . . . ἐναντίος τῷ περιδεξίῳ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="513_514" xml:id="kock-0019-tagenistai-513_514" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <p>βάθρα, βαθρίδια</p>
+              <note type="source">ὡς ἐν Ταγηνισταῖς. Pollux 10, 47.</note>
+              <note type="apparatus">βαθρίδια Hemsterhus.] βαθράδια. etiamne βάθρα ad Tagenistas pertineant dubium est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="515" xml:id="kock-0019-tagenistai-515" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <head>515</head>
+              <p>
+                <hi rend="italic">δόκος</hi>
+              </p>
+              <p>πρὸς ἀντιδιαστολὴν τοῦ δοκὸς ὀξυτόνου τοῦ σημαίνοντος τὴν δόκησιν. καὶ παρὰ Ἀριστοφάνει ἐν Ταγηνισταῖς σημαίνει τὴν ἀγχόνην. Cramer. Anecd. Ox. I 223, 19. Herodian. I 148, 27 Lentz. immo ὁ δόκος est opinio (ἡ δόκησις), ἡ δοκός trabs.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="516" xml:id="kock-0019-tagenistai-516" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <head>516</head>
+              <p>
+                <hi rend="italic">ἐσχάρια</hi>
+              </p>
+              <p>Pollux 10, 101 ἐσχάραν εἴποις ἂν τὸ ἀνθράκιον τοῦτο καὶ ἐσχάριον, Ἀριστοφάνους ἐν Ταγηνισταῖς εἰπόντος ἐσχάρια.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="517" xml:id="kock-0019-tagenistai-517" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <head>517</head>
+              <p>
+                <hi rend="italic">καρπεύειν</hi>
+              </p>
+              <p>τὸ εὐκαρπεῖν ἐν Ταγηνισταῖς. Pollux 7, 149.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="518" xml:id="kock-0019-tagenistai-518" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <head>518</head>
+              <p>
+                <hi rend="italic">κηρύκιον</hi>
+              </p>
+              <p>ὡς ἐν Ταγηνισταῖς. Pollux 10, 173. conchae marinae genus est.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="519" xml:id="kock-0019-tagenistai-519" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <head>519</head>
+              <p>
+                <hi rend="italic">κύπασσις</hi>
+              </p>
+              <p>χιτῶνος εἶδός φασιν αὐτὸν εἶναι . . ., οἱ μὲν γυναικείου, οἱ δὲ ἀνδρείου. μέμνηται δ’ αὐτοῦ . . . καὶ Ἀριστοφάνης ἐν τοῖς Ταγηνισταῖς. Harpocratio.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="520" xml:id="kock-0019-tagenistai-520" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <head>520</head>
+              <p>
+                <hi rend="italic">κωνῆσαι</hi>
+              </p>
+              <p>Ἀριστοφάνης ἐν Ταγηνισταῖς τὸ περιενεγκεῖν λέγει. Etym. m. 551, 23. Gud. 358, 22. Cramer. Anecd. Par. IIII 52, 17. κωνῆσαι] κωνίσαι Etym. m. Sorb. Et. Gud. Cram. An. περικωνῆσαι Bergk. conl. Vesp. 600. περιενεγκεῖν] περιενείκειν, περιενικεῖν pars codicum. an περιεγκινεῖν? κωνεῖν a κῶνος, i. e. βέμβιξ. Hesych. κωνῆσαι· κύκλῳ περιενεγκεῖν et ἀνακωνᾶν· ἀναστρέφειν. cf. ἐκώνα et κωνᾶν. Photius κωνῆσαι· περιενεγκεῖν . . . κώνους γὰρ καλοῦσι τοὺς στροβίλους . . . εἴληπται ἀπὸ τῆς τῶν κώνων περιαγωγῆς.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="521" xml:id="kock-0019-tagenistai-521" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <head>521</head>
+              <p>
+                <hi rend="italic">μυρίδιον</hi>
+              </p>
+              <p>εἴρηκε τὸ μύρον Ἀριστοφάνης ἐν Ταγηνισταῖς. Pollux 10, 119.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="522" xml:id="kock-0019-tagenistai-522" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_tagenistai">
+              <head>522</head>
+              <p>
+                <hi rend="italic">νεβρίδα</hi>
+              </p>
+              <p>ὡς ἐν Ταγηνισταῖς. Pollux 10, 173.</p>
+            </div>
+          </div></body></text></TEI>

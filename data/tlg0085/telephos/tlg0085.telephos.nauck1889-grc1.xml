@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΤΗΛΕΦΟΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.telephos; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.telephos.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.telephos.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:telephos"><head xml:lang="grc">ΤΗΛΕΦΟΣ</head>
+          <note type="introduction" xml:lang="mul">Schol. Ar. Ach. 332 : ὁ Τήλεφος κατὰ τὸν τραγῳδοποιὸν Αἰσχύλον, ἵνα τύχῃ παρὰ τοῖς Ἕλλησι σωτηρίας, τὸν Ὀρέστην εἶχε συλλαβών. ad Aeschylum translata esse quae de Euripidis Telepho dici debebant probabiliter coni. Fr. Vater de Soph. Alead. p. 19 . originem eroris W. H. van de Sande Bakhuyzen de parodia in com. Aristoph. p. 9 inde derivat, quod primitus τὸν τραγῳδοποιόν in scholio scriptum fuerit, et postea ab homine Euripideae fabulae ignaro Aeschyli nomen additum sit.</note>
+          <div type="textpart" subtype="fragment" n="238" corresp="urn:cite2:perseus:fragmentaryplays.v1:telephos" xml:id="aesch-fr238">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-238-1">κύδιστ’ Ἀχαιῶν Ἀτρέως πολυκοίρανε μάνθανέ μου παῖ .</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ar. Ran. 1270 : ’κύδιστ’ — παῖ’ ubi Schol. R : ἐκ Τηλέφου Αἰσχύλου. plura alii libri : Ἀρίσταρχος καὶ Ἀπολλώνιος, ἐπισκέψασθε πόθεν εἰσί. Τιμαχίδας δὲ ἐκ Τηλέφου Αἰσχύλου, Ἀσκληπιάδης δὲ ἐξ Ἰφιγενείας. de sede Aeschylei versus suam coniecturam Timachidas videtur esse secutus.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="239" corresp="urn:cite2:perseus:fragmentaryplays.v1:telephos" xml:id="aesch-fr239">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-239-1">. . ἁπλῆ γὰρ οἶμος εἰς Ἅιδου φέρει</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Plat. Phaedon. p. 108 A (Stob. Ecl. 1, 49, 58 p. 434, 26 ed. Wachsm.) : ἔστι δὲ ἄρα ἡ πορεία οὐχ ὡς ὁ Αἰσχύλου Τήλεφος λέγει· ἐκεῖνος μὲν γὰρ ἁπλῆν οἶμον φησὶν εἰς Ἅιδου φέρειν, ἣ δ’ οὔτε ἁπλῆ οὔτε μία φαίνεταί μοι εἶναι. Dionys. Hal. Rhet. c. 6, 5 vol. 5 p. 265 : μία γὰρ καὶ ἡ αὐτὴ οἶμος κατὰ τὸν Αἰσχύλον εἰς Ἅιδου φέρουσα. Clemens Alex. Strom. IV p. 583 : οὐκ ἔστιν οὖν κατὰ τὸν Αἰσχύλου Τήλεφον νοεῖν ἁπλῆν οἶμον εἰς Ἅιδου φέρειν, ὁδοὶ δὲ πολλαὶ καὶ ἀπάγουσαι ἁμαρτίαι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="240" corresp="urn:cite2:perseus:fragmentaryplays.v1:telephos" xml:id="aesch-fr240">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-240-1">ἀμφιδεξίοις χερσί</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 159 : ἀμφιδεξίοις χερσί· ταῖς τῶν τοξοτῶν (τόξων codex) , διὰ τὸ ἑκατέραν χεῖρα ἐνεργεῖν ἐν τῷ τοξεύειν. Αἰσχύλος Τηλέφῳ . Aeschylum χερσὶν ἀμφιδεξίοις scripsisse suspicor. interpretatio falsa, ut opinor : cf. ἀμφιδεξίοις ἀκμαῖς Soph. Oed. R. 1243 .</note>
+          </div>
+        </div></body></text>
+</TEI>

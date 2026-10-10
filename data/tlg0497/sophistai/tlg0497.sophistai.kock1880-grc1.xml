@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PLATO COMICUS, ΣΟΦΙΣΤΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.sophistai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.sophistai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.sophistai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai"><head>ΣΟΦΙΣΤΑΙ</head><div type="textpart" subtype="fragment" n="135" xml:id="kock-0497-sophistai-135" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <lg>
+                <l n="1" xml:id="kock-0497-sophistai-135-l1" xml:lang="grc">τὸ Σποργίλου κουρεῖον, ἔχθιστον τέγος</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Av. 299 et omisso fabulae nomine Suidas Σποργίλος· μνημονεύει αὐτοῦ (Σποργίλου) Πλάτων ἐν Σοφισταῖς κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>τέγος] στέγος V. parodia est Euripidis fr. 727 N. ἀπέπτυσ᾽ ἐχθροῦ φωτὸς ἔχθιστον τέκος. cf. Aristoph. Pac. 528 et Herwerd. Obs. crit. 32.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="136" xml:id="kock-0497-sophistai-136" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <lg>
+                <l n="1" xml:id="kock-0497-sophistai-136-l1" xml:lang="grc">καὶ γὰρ Προμηθεύς ἐστιν ἀνθρώποις ὁ νοῦς.</l>
+              </lg>
+              <note type="source">
+                <p>Syncellus Chronogr. I 282 Dind. Προμηθεύς . . . ἐμυθεύετο πλάττειν ἀνθρώπους ἐξ ἀπαιδευσίας καὶ ἀλογίας εἰς παίδευσιν μετάγων, ὥς φησιν ὁ Πλάτων, ὁ τὴν παλαιὰν κωμῳδίαν, ἐν Σοφισταῖς κτλ. Schol. Voss. ined. Aeschyl. Prom. 114 apud Cobetum Observ. crit. 190 καὶ Πλάτων ἐν τῇ παλαιᾷ κωμῳδίᾳ φησὶν ἐν Σοφισταῖς κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>καὶ γὰρ Προμηθεύς K.] Προμήθεια γάρ Syncell. Προμηθεύς γάρ Schol. Aesch. προμηθία γάρ Dindorf. ὁ γὰρ Προμηθεύς Meinekius conl. Anal. Alexandr. 99. non recte: nam Προμηθεύς praedicatum est: ‘instar Promethei enim homini mens est’. Protagorae de Prometheo fabulam, qualis est apud Platonem philosophum, quodammodo significari sententia est Meinekii. cf. Cobet. Obs. crit. 190.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="137" xml:id="kock-0497-sophistai-137" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <lg>
+                <l n="1" xml:id="kock-0497-sophistai-137-l1" xml:lang="grc">κἂν ᾖ γαλεός, κἂν λειόβατος, κἂν ἔγχελυς.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 7, 312 b λειόβατος· οὗτος καλεῖται καὶ ῥίνη. ἔστι δὲ λευκόσαρκος, ὡς Ἐπαίνετος ἐν Ὀψαρτυτικῷ. Πλάτων Σοφισταῖς κτλ. Photius λειόβατος· ἰχθύος εἶδος. ἔστι δὲ ὅμοιον νάρκῃ.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="138" xml:id="kock-0497-sophistai-138" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <lg>
+                <l n="1" xml:id="kock-0497-sophistai-138-l1" xml:lang="grc">ἐν τρισὶν</l>
+                <l n="2" xml:id="kock-0497-sophistai-138-l2" xml:lang="grc">πληγαῖς ἀπηδέσθη τὸ ῥάμφος.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="145" xml:id="kock-0497-sophistai-145" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <p>κέρκους</p>
+              <p>τὰς οὐρὰς οὐκ οἴονται δεῖν λέγειν. ἐπιχωριάζει δὲ κατὰ τὴν Ἀσίαν, βάρβαρον μέντοι νομίζεται. Πλάτων Σοφισταῖς. Bekker. Anecd. 103, 6. apud comicos quidem poetas ea vox septiens vel octiens reperitur.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="146" xml:id="kock-0497-sophistai-146" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <p>λυχνίας</p>
+              <p>(λίθος) παρὰ Πλάτωνι ἐν τοῖς Σοφισταῖς. Pollux 7, 100.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="147" xml:id="kock-0497-sophistai-147" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <p>πλαίσιον</p>
+              <p>εἶδος μέτρου, ἢ ἡ ἐν τετραγώνῳ τῶν στρατιωτῶν τάξις, ὡς Πλάτων ἐν Σοφιστῇ. Zonaras 1555. cf. Aristoph. Ran. 800.</p>
+              <note type="apparatus">
+                <p>Ad Sophistas praeterea fr. 191 incerta sane coniectura refert Cobetus Obs. crit. 188.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="134" xml:id="kock-0497-sophistai-134" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <lg>
+                <l n="1" xml:id="kock-0497-sophistai-134-l1" xml:lang="grc">Ξενοκλῆς ὁ δωδεκαμήχανος,</l>
+                <l n="2" xml:id="kock-0497-sophistai-134-l2" xml:lang="grc">ὁ Καρκίνου παῖς τοῦ θαλαττίου</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Pac. 792 Ξενοκλῆς ὁ Καρκίνου δοκεῖ μηχανὰς</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="139" xml:id="kock-0497-sophistai-139" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <note type="source">Schol. Aristoph. Vesp. 157</note>
+              <note type="apparatus">Δρακοντίδης· πονηρὸς οὗτος καὶ πλείσταις καταδίκαις ἐνεχόμενος, ὡς Πλάτων Σοφισταῖς. ad eum Cobetus Obs. crit. 186 pertinere censet Plat. Reip. 8, 558 a οὔτε φροντίζοντος οὔτε ὁρῶντος οὐδενὸς περινοστεῖ ὥσπερ ἥρως.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="140" xml:id="kock-0497-sophistai-140" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <note type="source">Schol. Aristoph. Nub. 331 et Suidas</note>
+              <note type="apparatus">σοφιστής· Πλάτων γὰρ οὖν ὁ κωμικὸς ἐν δράματι Σοφισταῖς καὶ τὸν Ὀπούντιον αὐλητὴν (ποιητὴν Suid.) Βακχυλίδην εἰς τοὔνομα κατέταξε τῶν σοφιστῶν. diversus est a poeta lyrico Bacchylide.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="141" xml:id="kock-0497-sophistai-141" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <note type="source">Harpocratio 28, 3</note>
+              <note type="apparatus">Ἀπόληξις εἷς τῶν ῑ συγγραφέων, ὃν Πλάτων κωμῳδεῖ ἐν Σοφιστῇ. συγγραφεῖς sunt 'decemviri constituendae reipublicae Ol. 92, 2 auctore Pisandro creati. Thucyd. 8, 67. cf. Bekker. Anecd. 301, 13.' Cobet. Obs. crit. 186. Apolexis autem postea Antiphontem Rhamnusium, quem in quadringentorum imperio constituendo adiuverat, capitis accusavit. Harpocrat. στασιώτης. Cobet. 187.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="142" xml:id="kock-0497-sophistai-142" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <lg>
+                <l n="1" xml:id="kock-0497-sophistai-142-l1" xml:lang="grc">ὀθόνινον πρόσωπον</l>
+              </lg>
+              <note type="source">Pollux 10, 167</note>
+              <note type="apparatus">τῶν σκευῶν ἐστι καὶ προσωπεῖον . . . καὶ προσωπὶς καὶ ὡς ἐν τοῖς Σοφισταῖς Πλάτων ὀθ. πρ. ὀθόνινον Hoeschelius] ὠθόνιον. Bekkerus ὀθόνιον. πρόσωπον idem quod προσωπεῖον.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="143" xml:id="kock-0497-sophistai-143" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <lg>
+                <l n="1" xml:id="kock-0497-sophistai-143-l1" xml:lang="grc">ἀπαρτί</l>
+              </lg>
+              <note type="apparatus">ἀντὶ τοῦ ἄρτι ἀπὸ νῦν. Πλάτων Σοφισταῖς. Bekker. Anecd. 79, 30.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="144" xml:id="kock-0497-sophistai-144" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_sophistai">
+              <lg>
+                <l n="1" xml:id="kock-0497-sophistai-144-l1" xml:lang="grc">δεδειπνάναι</l>
+              </lg>
+              <note type="source">Athenaeus 10, 422 f. Bekker. Anecd. 89, 26</note>
+              <note type="apparatus">Πλάτων Σοφισταῖς. δεδειπνάναι· Πλάτων Σοφισταῖς. cf. Hermipp. 60.</note>
+            </div>
+          </div></body></text></TEI>

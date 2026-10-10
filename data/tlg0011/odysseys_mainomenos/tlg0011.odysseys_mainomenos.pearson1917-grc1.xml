@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-odysseys_mainomenos-pearson1917-grc1"><teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title>Sophocles, ΟΔΥΣΣΕΥΣ ΜΑΙΝΟΜΕΝΟΣ: fragments</title>
+ <editor>A.C. PEARSON, M.A.</editor>
+ <sponsor>University of Leipzig</sponsor>
+ <funder>European Social Fund Saxony</funder>
+ <principal>Gregory Crane</principal>
+ <principal>Monica Berti</principal>
+ <meeting/>
+ <respStmt>
+ <persName xml:id="DDD">Digital Divide Data</persName>
+ <resp>Corrected and encoded the text</resp>
+ </respStmt>
+ <respStmt>
+ <persName>Greta Franzini</persName>
+ <resp>Project Manager (University of Leipzig)</resp>
+ </respStmt>
+ <respStmt>
+ <persName>Simona Stoyanova</persName>
+ <resp>Project Assistant (University of Leipzig)</resp>
+ </respStmt>
+ <respStmt>
+ <persName>Bruce Robertson</persName>
+ <resp>Technical Advisor</resp>
+ </respStmt>
+ </titleStmt>
+ <publicationStmt>
+ <authority>University of Leipzig</authority>
+ <idno type="filename">TO BE ADDED BY LEIPZIG</idno>
+ <availability>
+ <p>Available under a Creative Commons Attribution-ShareAlike 4.0 International
+ License</p>
+ </availability>
+ <date>2014</date>
+ <publisher>University of Leipzig</publisher>
+ <pubPlace>Germany</pubPlace>
+ </publicationStmt>
+ <sourceDesc>
+ <listBibl xml:lang="la">
+ <biblStruct>
+ <monogr>
+ <title>THE FRAGMENTS OF SOPHOCLES</title>
+ <editor>
+ <persName>
+ <name xml:lang="la">A.C. PEARSON, M.A.</name>
+ </persName>
+ </editor>
+ <author ref="urn:tmp">A.C. PEARSON, M.A.</author>
+ <imprint>
+ <publisher>at the University Press</publisher>
+ <pubPlace>Cambridge</pubPlace>
+ <date>1917</date>
+ </imprint>
+ <biblScope unit="volume">vol. ii</biblScope>
+ </monogr>
+ </biblStruct>
+ </listBibl>
+ </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+ <p>Text encoded in accordance with the latest EpiDoc standards (January 2014)</p>
+ <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+ <profileDesc>
+ <langUsage>
+ <language ident="el">Greek</language>
+<language ident="la">Latin</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change/>
+<change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.odysseys_mainomenos; wording was not changed.</change></revisionDesc>
+</teiHeader>
+
+<text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.odysseys_mainomenos.pearson1917-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.odysseys_mainomenos.pearson1917-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_odysseys_mainomenos"><head>ΟΔΥΣΣΕΥΣ ΜΑΙΝΟΜΕΝΟΣ</head><div type="textpart" subtype="fragment" n="463" xml:id="fragment-odysseys_mainomenos-pearson1917_grc1-463" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_odysseys_mainomenos">
+<head>463</head>
+<quote type="fragtext">
+<lg>
+<l n="1">κρεκτοῖσι νόμοις</l>
+</lg>
+</quote>
+<listApp>
+<app><lem>κρεκτοῖσι</lem> <rdg> θρεκτοῖσι cod. (γρ. κρεκτοῖς)</rdg></app>
+</listApp>
+<p>463 Hesych. II p. 323 θρεκτοῖσι νόμοις· ἀντὶ τοῦ τροχαίοις (τροχαῖος cod. : τραχέσι vulgo). Σοφοκλῆς Ὀδυσσεῖ μαινομένῳ. ἔνιοι δὲ κρεκτοῖσι (κρεκτοῖς cod.).</p>
+<p>There can hardly be any doubt that <lemma>κρεκτοῖσι</lemma>, first preferred by L. Dindorf, is right. κρέκω is strictly to strike a stringed instrument with the plectrum, as contrasted with ψάλλω, to use the fingers for the same purpose. Thus κρεκτοῖσι νόμοις should apply to a strain sung to the accompaniment of the lyre. Cf. Ap. Rhod. 4. 908 (Orpheus with his lyre makes music to drown the song of the Sirens) ὄφρ' ἄμυδις κλονέοντος ἐπιβρομέωνται ἀκουαὶ | κρεγμῷ. Α. Ρ. 9. 584 αἰόλον ἐν κιθάρᾳ νόμον ἔκρεκον· ἐν δὲ μεσεύσᾳ | ὠδᾷ μοι χορδὰν πλᾶκτρον ἀπεκρέμασεν. But κρέκω is sometimes equivalent to ψάλλω: Telest. fr. 5 τοὶ δ᾽ ὀξυφώνοις πηκτίδων ψαλμοῖς κρέκον | Λύδιον ὕμνον, Α. Ρ. 9. 433. See also on fr. 238. And it is used even for the music of the flute: Ar. Av. 682 ἀλλ᾽ ὦ καλλιβόαν κρέκουσ' | αὐλόν. Aesch. Cho. 818 ὁμοῦ κρεκτὸν γοητῶν νόμον is unfortunately corrupt. Without the context we cannot determine the exact force which Sophocles gave to κρεκτός.</p>
+</div>
+
+<div type="textpart" subtype="fragment" n="464" xml:id="fragment-odysseys_mainomenos-pearson1917_grc1-464" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_odysseys_mainomenos">
+<head>464</head>
+<quote type="fragtext">
+<lg>
+<l n="1">ἐμπερής</l>
+</lg>
+</quote>
+<p>464 Hesych. II p. 79 ἐμπερής· ἔμπειρος. Σοφοκλῆς Ὀδυσσεῖ μαινομένῳ.</p>
+<p>As ἔμπειρος is for ἐμ-περ-ιο-ς, ἐμπερής appears to postulate the stem ἐμπερεσ. On the other hand, the Attic πέρας corresponds to the Ionic πεῖραρ and the Lesbian πέρρατα (i.e. περ-ϝατα etc.): Brugmann, Comp. Gr. I p. 146 E. tr. ἐμπερής is entirely isolated, unless the Alexandrian ἐμπέραμος is to be taken into account. The latter word seems to have no analogous formations in the mo (mmo) class, and, if it has any claim to independence, ἐμπείραμος must be due to the influence of ἔμπειρος. For ἐμπέραμος : ἐμπερής Lobeck (Path. Prol. p. 156) compares ἰταμός : ἴτης. But the analogy breaks down, since ἴτης does not belong to the εσ stems. Blaydes compares πολυσπερής.</p>
+</div>
+
+<div type="textpart" subtype="fragment" n="465" xml:id="fragment-odysseys_mainomenos-pearson1917_grc1-465" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_odysseys_mainomenos">
+<head>465</head>
+<quote type="fragtext">
+<lg>
+<l n="1">ἠμάλαψε</l>
+</lg>
+</quote>
+<listApp>
+<app><lem>ἠμάλαψε</lem> <rdg> ἠμαλάψαι cod.</rdg></app>
+</listApp>
+<p>465 Hesych. II p. 276 ἠμαλάψαι· κρύψαι, ἀφανίσαι. Σοφοκλῆς Ὀδυσσεῖ μαινομένῳ.</p>
+<p>It seems that we must either correct the lemma to ἀμαλάψαι, or, as is more probable, restore (with Nauck and M. Schmidt) ἠμάλαψεν· ἔκρυψεν, ἠφάνισε. Ellendt mentions a third possibility, that the gloss should be rewritten as κέκρυψαι, ἠφανίσαι. Cf. Phot. lex. p. 68, 3 ἠμάλαπτεν· ἔκρυπτεν, ἠφάνιζεν. The word only occurs elsewhere in Lycophr. 33 ὅν ποτε γνάθοις | Τρίτωνος ἠμάλαψε κάρχαρος κύων, unless Weil's ἀμαλαπτομέναν is right in Aesch. Prom. 929. For the form ἀμαλάττω see Lobeck, Rhem. p. 250.</p>
+<pb n="118"/>
+</div>
+<div type="textpart" subtype="fragment" n="466" xml:id="fragment-odysseys_mainomenos-pearson1917_grc1-466" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_odysseys_mainomenos">
+<p>466</p>
+<quote type="fragtext">
+<lg>
+<l n="1">θριάζειν</l>
+</lg>
+</quote>
+<p>466 Hesych. II p. 324 θριάζειν· φυλλολογεῖν, ἐνθουσιᾶν, ἐνθουσιάζειν. Εὐριπίδης Λικυμνίῳ (fr. 478) καὶ Σοφοκλῆς Ὀδυσσεῖ μαινομένῳ.</p>
+<p>θριάζειν was derived, no doubt incorrectly, from θρῖον: hence the gloss φυλλολογεῖν. Cf. Etym. Μ. p. 455, 45 θρῖα· κυρίως τὰ τῆς συκῆς φύλλα· καὶ θριάζειν, τὸ φυλλολογεῖν· δηλοῖ δὲ καὶ τὸ ἐνθουσιάζειν. But θριάζειν 'to be inspired' or 'possessed' is connected with a group of words which show clearly the same radical idea. Thus θρίασις is defined by Suid. s.v. θρίαμβος as ἡ τῶν ποιητῶν μανία. θρίαμβος, a hymn sung in procession in honour of Dionysus, belongs to the same root, but is influenced by the analogy of ἴαμβος. Probably διθύραμβος should be added, as formed from *διθρίαμβος, whatever is the origin of the first syllable: see Sturtevant in Class. Phil. V 330. Here belong also the rare words θρίσσειν and θριᾶσθαι: see for the former Erotian p. 77, 5 θρίσσειν· μαίνεσθαι, ὡς καὶ Ἀριστοφάνης ὁ γραμματικός (fr. 69 Nauck). θρίσσειν δὲ φασὶ τὸ κατὰ ψυχὴν ἐξίστασθαι, and for the latter, which is glossed by μαντεύεσθαι, Bekk. anecd. p. 265, 15, Etym. M. p. 455, 42. But the most interesting member of the group is θριαί, the name given to pebbles used in divination (αἱ μαντικαὶ ψῆφοι): see Frazer on Pausan. 7. 25. 10. They were personified as the Thriae, and localized on Parnassus as the nurses of Apollo: for a full account of them see Allen and Sikes, Homeric Hymns, p. 312. Hesych. II p. 325 gives Θριώ as ἑορτὴ Ἀπόλλωνος, and the same origin may be assumed for the Thriasian plain at Eleusis (this was where Athena threw down the θριαί, when she was told that they belonged to Apollo: Etym. M., Bekk. anecd.), and the Thriasian gate at Athens (Plut. Pericl. 30). For ἐνθριάζω see on fr. 544. Blaydes's proposal to substitute θυρσάζειν (Ar. Lys. 1313) is misconceived.</p>
+</div>
+
+<div type="textpart" subtype="fragment" n="467" xml:id="fragment-odysseys_mainomenos-pearson1917_grc1-467" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_odysseys_mainomenos">
+<p>467</p>
+<quote type="fragtext">
+<lg>
+<l n="1">μαγμόν</l>
+</lg>
+</quote>
+<p>467 <app><lem>μαγμόν</lem><rdg> μαγνον (sic) cod.</rdg></app> Schleussner</p>
+<p>467 Phot. lex. p. 240, 10 μαγνον. Σοφοκλῆς Ὀδυσσεῖ· τὸν μέγαν. τὸν ἀπομάσσοντα καὶ καθαίροντα. This obscure gloss is to some extent elucidated by a comparison with Hesych. III p. 62 μαγμόν· τὸ καθάρσιον. ἀπομάσσειν γὰρ λέγουσιν ὅταν περικαθαίρωσι τοὺς ἐνοχλουμένους τινὶ πάθει. The presence of ἀπομάσσειν in both passages can hardly be accidental, and, although μαγμός is not such a formation as we should expect for the nomen agentis, μαγνον is altogether unintelligible. So also Hesych. III p. 61 μαγίδες· αἷς ἀπομάττουσι καὶ καθαίρουσι.</p>
+<p>Ellendt was probably right in ejecting τὸν μέγαν as a Byzantine interpolation, suggested by magnus. Barker had corrected the text of Photius to μάγον...τὸν μαγέα, and Naber, who agrees as to the lemma, thinks that the reference is to O.T. 387 and that Ὀδυσσεῖ is an error for Οἰδίποδι. For ἀπόμαγμα see on fr. 34. Blaydes conj. μάκτην. It is impossible to determine whether the fr. belongs here or to the Νίπτρα. Dindorf assigned it to the latter, but the subject-matter rather suggests the Ὀδυσσεὺς μαινόμενος.</p>
+<p>It is perhaps worth observing that schol. N on Hom. Ω 482 says τὸν δὲ καθαίροντα καὶ ἁγνίτην ἔλεγον, but ἁγνίτην can hardly have become μαγνον.</p>
+<pb n="119"/>
+<p>ΟΙΚΛΗΣ</p>
+<p>Pollux 10. 39 and schol. V Ar. Eq. 498 quote the Iocles of Sophocles, but no such person as Iocles is known to the mythographers. Hence Welcker, following a suggestion of Brunck, and bringing frs. 313 and 1125 into the same connexion, inferred that Iocles was a mistake for Iphicles. But, whereas Brunck declared for the brother of Heracles, Welcker agreed with Boeckh (Tr. Gr. princ. p. 129) that Iphiclus the son of Phylacus — occasionally known as Iphicles — was meant. The story of Iphiclus and the brothers Melampus and Bias is told in Hom. λ 286—297, and was well known in later times; see e.g. Prop. 2. 3. 51 ff. But the constant recurrence of the form Ἴφικλος is against Welcker's view, and the argument which he draws from the schol. on Apoll. Rh. 1. 54 is based on an error. Dindorf advocates an alternative suggestion of Brunck that Ἰοκλῆς was an error for Οἰκλῆς, and supports it by showing that the same corruption occurs in Eur. Suppl. 925, schol. Hom. λ 326, and Diod. 4. 68. The mistake is curiously persistent, occurring at least five times in the MSS of Apollodorus (1. 68, III. 3, 60, 63, 87), and probably also in schol. Eur. Phoen. 133 Περιβοίας τῆς Ἱππόνου τοῦ Ἰοκλέους τοῦ Ἀστακοῦ κτἑ. Assuming then that the title Iocles is due to corruption, it is difficult to resist the inference that it should be replaced by Oecles. Welcker answers that nothing is known of Oecles making it likely that he would have given his name to a tragedy. That is true; but it is also possible that he was a character in the Alcmaeon (cf. Apollod. 3. 87), or perhaps even that he was represented as the companion of Heracles on his expedition against Laomedon (Apollod. 2. 134). Ahrens makes an alternative suggestion, that the subject of the play was the appeal of Alcmaeon to his grandfather for assistance and his rejection by him; but, even if the text of Apollodorus warrants the inference drawn from it, the material is scarcely sufficient for more than an episode.</p>
+</div>
+
+</div></body></text></TEI>

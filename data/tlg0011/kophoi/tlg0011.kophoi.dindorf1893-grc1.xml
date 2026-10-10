@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-kophoi-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, Κωφοί: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.kophoi; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.kophoi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.kophoi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kophoi"><head>Κωφοί</head><div type="textpart" subtype="fragment" n="333" xml:id="fragment-kophoi-dindorf1893_grc1-333" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kophoi">
+            <note type="source">Scholiasta Nicandri Ther. 343. Ἄλλοι δὲ οὕτω τὸν μῦθον φασίν. Προμηθέα τὸ πῦρ κλέψαντα καὶ τοῖς ἀνθρώποις δωρησάμενον οἱ λαβόντες ἐμήνυσαν, οὐ καλὴν τῆς χάριτος τίνοντες ἀμοιβήν· ἐφ᾽ οἷς τὸν Δία φασὶν ἐπαινέσαντα φάρμακον αὐτοῖς ἀγηρασίας δοῦναι· τοὺς δὲ λαβόντας ἀποφέρειν τὸ δωρηθὲν ἐπὶ ὄνου· τὸν δὲ δίψει τειρόμενον ἐλθεῖν εἰς κρήνην, ἣν ἐφύλασσεν ὄφις· καὶ τοῦ ποτοῦ ὀρεγόμενος ἀπέδοτο τοῦ γήρως τὸ φάρμακον· διὸ πάντας μὲν τοὺς ὄφεις καθ᾽ ἕκαστον νεάζειν ἐνιαυτὸν, ἀποδυομένους τὸ γῆρας, τὸν δὲ ὄφιν τῆς κρήνης φύλακα καταλαβεῖν τὸ δίψος. ὅθεν τοῖς δηχθεῖσιν ἐμποιεῖ δίψαν. ἔστι δὲ ὁ μῦθος παρὰ Σοφοκλεῖ ἐν Κωφοῖς. Eandem fabulam narrat Ælianus de Nat. Anim. VI, 51. omisso nomine dramat's. Κρήνης φύλακα χωρίτην ὄφιν memorat poeta supra fragm. 219.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="334" xml:id="fragment-kophoi-dindorf1893_grc1-334" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kophoi" sameAs="urn:cts:greekLit:tlg0011.kophoi.nauck1889grc1:336">
+            <note type="source">Schol. Apollonii Rhodii I, 972.</note>
+            <quote>Λέγεται <note type="apparatus">delet Blomfildus</note> δὲ ἴουλος καὶ ζῶόν τι, θηρίδιον πολύπουν· ἑκατέρωθεν γὰρ ἔχει πολλοὺς πόδας, ὥσπερ ἡ σκολόπενδρα. Θεόφραστος δὲ ἐν τῇ πρὸς Φανίαν ἐπιστολῇ καὶ ὄνον φησὶν αὐτὸν καλεῖσθαι, ὡς παρὰ Σοφοκλεῖ ἐν Κωφοῖς σατύροις</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κυλισθεὶς ὡς τις ὄνος ἰσόσπριος.</l>
+            </lg>
+            <note type="apparatus">Codex Paris. ὥσπερ ὄνος.</note>
+            <note type="source">Hesychius, Ὄνος ἰσόσπριος·</note>
+            <quote>ἔστι δὲ ζῶον πολύπουν, ὀσπρίῳ ὅμοιον, ὁ καὶ ἴουλον τινές φασιν.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="335" xml:id="fragment-kophoi-dindorf1893_grc1-335" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kophoi" sameAs="urn:cts:greekLit:tlg0011.kophoi.pearson1917-grc1:365">
+            <note type="source">Schol. Apollonii Rhodii I, 1126.</note>
+            <quote>Ὅτι δὲ Νύμφη τις Οἰαξίδος γῆς δραξαμένη τοὺς καλουμένους Ἰδαίους Δακτύλους ἐποίησε παρὰ Στησιμβρότου εἴληφε· καὶ ὅτι διὰ τὸ ῥυῆναι αὐτοὺς διὰ τῶν χειρῶν, Δάκτυλοι ἐκλήθησαν. Σοφοκλῆς δὲ αὐτοὺς Φρύγας καλεῖ ἐν Κωφοῖς σατύροις.</quote>
+            <note type="commentary">"Confer Zenobium Prov. IV, 80. Κέλμις ἐν σιδήρῳ, ubi male citatur Sophocles ἐν Σατύροις, et Wesselingium ad Diodorum Sic. tom. I. p. 831, 4." BRUNCK.</note>
+          </div>
+        </div></body></text></TEI>

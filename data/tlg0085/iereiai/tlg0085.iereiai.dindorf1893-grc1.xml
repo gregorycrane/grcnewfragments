@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΙΕΡΕΙΑΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.iereiai; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.iereiai.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.iereiai.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:iereiai"><head>ΙΕΡΕΙΑΙ</head>
+          <pb n="597" facs="urn:hathi:iau.31858007086675:scan:605"/>
+          <div type="textpart" subtype="fragment" n="79" xml:id="frag_444f473411" corresp="urn:cite2:perseus:fragmentaryplays.v1:iereiai" sameAs="urn:cts:greekLit:tlg0085.iereiai.nauck1889-grc1:86">
+<note type="source">Macrobius Saturnal. V, 22. In tertio Æneidos libro cursim legitur, neque unde translatum sit quæritur "Quæ Phœbo pater omnipotens, mihi Phœbus Apollo Prædixit." Sed affirmo doctissimum vatem etiam in hoc Æschylum eminentissimum tragædiarum scriptorem secutum, qui in fabula quæ Latina lingua SACERDOTES inscribitur sic ait</note>
+<lg type="fragment">
+<l n="1" xml:id="frag_444f473411-l1" xml:lang="grc">Στέλλειν ὅπως τάχιστα· ταῦτα γὰρ πατὴρ</l>
+<l n="2" xml:id="frag_444f473411-l2" xml:lang="grc">Ζεὺς ἐγκαθίει Λοξίᾳ θεσπίσματα.</l>
+</lg>
+<note type="commentary">Attulit etiam scholiasta Sophoclis Œdip. Col. v. 793. omisso θεσπίσματα.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="80" xml:id="frag_3f23f66fdc" corresp="urn:cite2:perseus:fragmentaryplays.v1:iereiai" sameAs="urn:cts:greekLit:tlg0085.iereiai.nauck1889-grc1:88">
+<note type="source">Hesychius, Κασωλάβα: οἱ μὲν πόλις, οἱ δὲ κώμη. Αἰσχύλος Ἱερείαις.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="81" xml:id="frag_060c662fa8" corresp="urn:cite2:perseus:fragmentaryplays.v1:iereiai">
+<note type="source">Aristoteles Ethic. Nicom. III, 2. Ο δὲ πράττει ἀγνοήσειεν ἄν τις, οἷον λέγοντές φασιν ἐκπεσεῖν αὐτοῖς, ἢ οὐκ εἰδέναι ὅτι ἀπόρρητα ἦν, ὥσπερ Αἰσχύλος τὰ μυστικά. ubi Eustratius p. 40 a. Δοκεῖ γὰρ Αἰσχύλος λέγειν μυστικά τινα ἔν τε ταῖς Τοξότισι καὶ Ἱερείαις καὶ ἐν Σισύφῳ πετροκυλιστῇ καὶ ἐν Ἰφιγενεία καὶ ἐν Οἰδίποδι. ἐν γὰρ τούτοις πᾶσι περὶ Δημήτρας λέγων τῶν μυστικωτέρων περιεργότερον ἅπτεσθαι ἔοικε. λέγει δὲ καὶ περὶ Αἰσχύλου καὶ Ἡρακλείδης ὁ Ποντικὸς ἐν τῷ πρώτῳ περὶ Ὁμήρου ὡς κινδυνεύοντος ἐπὶ σκηνῆς ἀναιρεθῆναι ἐπὶ τῷ τῶν μυστικῶν περιφέρειν τινὰ δοκεῖν, εἰ μὴ προαισθόμενος κατέφυγεν ἐπὶ τὸν τοῦ Διονύσου βωμόν. cet. Ælianus V. H. V, 19. Αἰσχύλος ὁ τραγῳδὸς ἐκρίνετο ἀσεβείας ἐπί τινι δράματι. ἑτοίμων οὖν ὄντων Ἀθηναίων βάλλειν αὐτὸν λίθοις Ἀμεινίας ὁ νεώτερος ἀδελφὸς διακαλυψάμενος τὸ ἱμάτιον ἔδειξε τὸν πῆχυν ἔρημον τῆς χειρός. ἔτυχε δὲ ἀριστεύων ἐν Σαλαμῖνι ὁ Ἀμεινίας, ἀποβεβληκὼς τὴν χεῖρα, καὶ πρῶτος Ἀθηναίων τῶν ἀριστείων ἔτυχεν. ἐπεὶ δὲ εἶδον οἱ δικασταὶ τοῦ ἀνδρὸς τὸ πάθος, ὑπεμνήσθησαν τῶν ἔργων αὐτοῦ καὶ ἀφῆκαν τὸν Αἰσχύλον. Clemens Alexandr. Strom. II. p. 387. Ως Αἰσχύλος τὰ μυστήρια ἐπὶ σκηνῆς ἐξειπὼν ἐν Ἀρείῳ πάγῳ κριθεὶς οὕτως ἀφείθη, ἐπιδείξας αὑτὸν μὴ μεμνημένον. Vide Lobeckii Aglaoph. p. 77.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="81b" xml:id="frag_a4d5808911" corresp="urn:cite2:perseus:fragmentaryplays.v1:iereiai">
+<note type="source">Vid. fragm. 317.</note>
+</div>
+        </div></body></text>
+</TEI>

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PLATO COMICUS, ΕΟΡΤΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.eortai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.eortai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.eortai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai"><head>ΕΟΡΤΑΙ</head><div type="textpart" subtype="fragment" n="28" xml:id="kock-0497-eortai-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-28-l1" xml:lang="grc">τῶν γὰρ τετραπόδων οὐδὲν ἀποκτείνειν ἔδει</l>
+                <l n="2" xml:id="kock-0497-eortai-28-l2" xml:lang="grc">ἡμᾶς τὸ λοιπόν, πλὴν ὑῶν. τὰ γὰρ κρέα</l>
+                <l n="3" xml:id="kock-0497-eortai-28-l3" xml:lang="grc">ἥδιστ᾽ ἔχουσι, κοὐδὲν ἀφ᾽ ὑὸς γίγνεται</l>
+                <l n="4" xml:id="kock-0497-eortai-28-l4" xml:lang="grc">πλὴν ὑστριχὶς καὶ πηλὸς ἡμῖν καὶ βοή.</l>
+              </lg>
+              <note type="source">Clemens Alex. Strom. 7, 33 p. 849 οὐ κακῶς ὁ κωμικὸς Πλάτων ἐν ταῖς Ἑορταῖς τῷ δράματί φησι κτλ.</note>
+              <note type="apparatus">οὐδὲν ἀποκτείνειν] οὐδὲ ἓν κτείνειν Herwerd. Stud. crit. 5. at κτείνειν apud comicos non exstat nisi in parodiis et choricis. ἔδει | ἡμᾶς Sylburg.] ἡμᾶς ἔδει</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0497-eortai-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <p>29</p>
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-29-l1" xml:lang="grc">ἐξιόντι μοι</l>
+                <l n="2" xml:id="kock-0497-eortai-29-l2" xml:lang="grc">ἁλιεὺς ἀπήντησεν φέρων μοι κεστρέας.</l>
+                <l n="3" xml:id="kock-0497-eortai-29-l3" xml:lang="grc">Β. ἰχθῦς ἀσίτους καὶ πονηροὺς . . .</l>
+              </lg>
+              <note type="source">Athenaeus 7, 308a Πλάτων τε ἐν Ἑορταῖς φησιν κτλ.</note>
+              <note type="apparatus">μοι] μὲν γὰρ BP. 3. πονηροὺς] τοὺς πονηροὺς ἦγέ μοι. σὺ δέ μοι εἰπέ codices. ἦγέ μοι non magis poetae sunt quam σὺ δέ μοι εἰπέ. fortasse πονηροὺς ἔν γ' ἐμοί. cf. Aristoph. fr. 267, et de cestreo Aristoph. fr. 156.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30" xml:id="kock-0497-eortai-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <p>30</p>
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-30-l1" xml:lang="grc">εὖ γέ σοι γένοιθ', ὅτι</l>
+                <l n="2" xml:id="kock-0497-eortai-30-l2" xml:lang="grc">ἔσωσας ἐκ τῶν σίγμα τῶν Εὐριπίδου.</l>
+              </lg>
+              <note type="source">Schol. Eurip. Med. 476 ὁ Πλάτων ἐν ταῖς Ἑορταῖς φησιν κτλ. Eustathius 813, 46 Αἴλιος δὲ Διονύσιος ἱστορεῖ τοὺς κωμικοὺς μάλιστα ἐκκλίνειν πᾶν τὸ ἔχον σιγμὸν καὶ ἐξήχησιν καὶ ψόφον . . . διὸ καὶ διασύροντες τοὺς τραγικοὺς ὡς μὴ τοιούτους προσπαίζουσιν ἐν τῷ ἔσωσας κτλ. et 896, 56 καὶ ἡ κωμωδία μετὰ τὴν εὕρεσιν τῆς χρήσεως τοῦ τ ἀντὶ τοῦ σ ἐπισημαίνεται χαίρειν, ὡς ἀπαλλαγεῖσα τῶν σιγμάτων Εὐριπίδου. 1379, 58 δηλοῖ καὶ ὁ πρός τινα ἐν διπλασιασμοῖς τοῦ τ ἀττικίζοντα εἰπὼν ὡς εὖ γέ σοι ὅτι ἀπήλλαξας ἡμᾶς τῶν σιγμάτων Εὐριπίδου. Cramer. Anecd. Par. III 13, 36 ἔσωσεν ἡμᾶς ἐκ τῶν σιγμάτων Εὐρ. εὖ γε σοι γένοιπ' ὅτι Meinek. ed. min.] εὖ γέ σοι ὅτι Eustath. 1379, 58. ἡμᾶς ὅτι Meinek. antehac. ἡμᾶς omitti iussit Cobet. Obs. crit. 183 conl. Aristoph. Plut. 390. Nub. 1499. σίγμα τῶν Choerob. Bekker. Anecd. 1169] σιγμάτων. 'τὸ δὲ ἀληθέστερον κατὰ διάστασιν ἀναγινώσκεται, οἷον ἔσωσά σ' ἐκ τῶν σῖγμα καὶ ἐπιφέρεται τῶν Εὐριπίδου'. cf. Eubul. 26. 27. Xen. Hell. 4, 7, 10 τὰ σίγμα τὰ ἐπὶ τῶν ἀσπίδων. εὖ σοι γένοιτο ipsius Euripidis sunt. cf. Eur. fr. 702 N. Athen. 5, 186c.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="31" xml:id="kock-0497-eortai-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <p>31</p>
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-31-l1" xml:lang="grc">τὸν μαινόμενον, τὸν Κρῆτα, τὸν μόγις Ἀττικόν.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="32" xml:id="kock-0497-eortai-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-32-l1" xml:lang="grc">καὶ τὰς ὀφρῦς σχάσασθε καὶ τὰς ὄμφακας.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Acharn. 352 et Suidas ὄμφαξ et δεινόν· θηλυκῶς δὲ καὶ τὰς ὄμφακας λέγει (Meinek. λέγουσιν, λεγομένας Nauck. Philol. VI 415), ἔχεις παρὰ Πλάτωνι τῷ κωμικῷ ἐν δράματι Ἑορταῖς κτλ. Bekker. Anecd. 56, 10 τὰς ὄμφακας θηλυκῶς εἶπε Πλάτων. σχάσασθε] σχάσασθαι codices Suid. deteriores (δεινόν). ὄμφακας ‘metaphorice dicit de animi acerbitate. Aristoph. Ach. 351. Bekker. Anecd. 53, 9 ὄμφακας βλέπει, οἷον αὐστηρὸν καὶ δριμύ. Phot. ὄμφακα πᾶν τὸ αὐστηρὸν λέγουσιν’. Meinek.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="33" xml:id="kock-0497-eortai-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-33-l1" xml:lang="grc">ὁπόθεν ἔσοιτο μᾶζα καὶ παροψίδες.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 367 c Πλάτωνα οἶδα εἰρηκότα ἐν Ἑορταῖς οὕτως κτλ. et 368 c Πλάτων Ἑορταῖς ὁπόθεν κτλ. περὶ βολβῶν δ’ ἀρτύσεως καὶ σκευασίας τὸν λόγον ποιεῖται.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="34" xml:id="kock-0497-eortai-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-34-l1" xml:lang="grc">ἔπειτα κλίνην ἀμφίκολλον πυξίνην</l>
+              </lg>
+              <note type="source">Pollux 10, 34 καὶ ἀμφίκολλος (κλίνη)· οὕτω γὰρ τὴν κατακεκολλημένην ὠνόμασεν ἐν ταῖς Ἑορταῖς Πλάτων κτλ. ‘ἀμφίκολλος κλίνη lectus est utrimque agglutinatum habens pluteum, sustinendo pulvino capitis.’ Kuehnius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="35" xml:id="kock-0497-eortai-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-35-l1" xml:lang="grc">κατηδέσθημεν ἂν</l>
+                <l n="2" xml:id="kock-0497-eortai-35-l2" xml:lang="grc">καὶ κατεκόπημεν εὐθύς.</l>
+              </lg>
+              <note type="source">Eustathius 1403, 34 Πλάτων . . . ἐν Ἑορταῖς κτλ. bestias ipsas loqui monuit Cobet. Obs. crit. 191. cf. fr. 28.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="36" xml:id="kock-0497-eortai-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-36-l1" xml:lang="grc">ἐμφέρεσθε δὲ</l>
+                <l n="2" xml:id="kock-0497-eortai-36-l2" xml:lang="grc">τὰ ῥάμματα.</l>
+              </lg>
+              <note type="source">Pollux 10, 135 δεῖ δὲ ἐπὶ ταῖς ἐσθῆσι καὶ ῥαμμάτων. εἴρηται δὲ τοὔνομα ἐν Πλάτωνος Ἑορταῖς κτλ. ἐμφέρεσθε Meinek.] ἐμφέρεσθαι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="43" xml:id="kock-0497-eortai-43" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-43-l1" xml:lang="grc">Α. γυνὴ καθεύδουσ᾽ ἐστὶν ἀργόν. Β. μανθάνω.</l>
+                <l n="2" xml:id="kock-0497-eortai-43-l2" xml:lang="grc">Α. ἐγρηγορυίας δ᾽ εἰσὶν αἱ παροψίδες,</l>
+                <l n="3" xml:id="kock-0497-eortai-43-l3" xml:lang="grc">αὗται μόνον κρείττους πολὺ χρῆμ᾽ εἰς ἡδονὴν</l>
+                <l n="4" xml:id="kock-0497-eortai-43-l4" xml:lang="grc">ἠταλλαβεῖν. οὐ γάρ τινες παροψίδες</l>
+                <l n="5" xml:id="kock-0497-eortai-43-l5" xml:lang="grc">εἴσ᾽, ἀντιβολῶ σε;</l>
+              </lg>
+              <note type="source">Athenaeus 9 p. 367 c ἐν δὲ Εὐρώπη (Πλάτων) πάλιν ἐπὶ παροψήματος διὰ πλειόνων εἴρηκεν, ἐν οἷς ἐστι καὶ τάδε γυνὴ κτλ. κἂν τοῖς δ᾽ ἑξῆς δίεισιν ὥσπερ ἐπὶ παροψήματος λέγων τῶν παροψίδων.</note>
+              <note type="apparatus">2. εἰσὶν αἱ] εἰσὶ καὶ Meinek. 3. αὗται μόνον] αὐταὶ μοναὶ Meinek. αὐτὸ μόνον οὐ Hermann. plenius interpungeus post κρείττους. κρείττους] κρεῖττον Schweighaeuser. λόγου κρειττόν τι χρῆμ᾽ Cobetus Obs. crit. 192. 3. 4. ἠταλλαβεῖν Α. εἰς κάλλος, εἰς ἐσθῆτα λαβεῖν. (οὐ γάρ τινες | παροψίδες ταῦτ᾽ εἰσίν; ἀντ. σε) Hermannus anapaesti incisione intolerabili. ἢ καταλαβεῖν Fritzschius De parops. 6. (i. e. ὥστε καταλ.). at voluptas quae non percipiatur nulla est. ἢ τἄλλ᾽ ἅπαντ᾽ Herwerden. Obs. crit. 30. in proximis οὐ γάρ; Β. τίνες | παροψίδες εἰσίν; ἀντιβολῶ σε Cobetus παροψίδας eas esse explicans, quas Lucianus dicat in Amoribus, Achilles Tatius lib. II. Aristoph. Lys. 162 sq. — videtur conloqui Iuppiter tauri instar in Venerem ruens cum altero nescio quo (Venerem ipsam fuisse opinor vel Mercurium), qui ne dormienti Europae vim inferat ita suadet, ut vigilantis coitum multo iucundiorem esse dicat. is morae inpatientem tandem permovet ut aliquamdiu cesset. emendanda autem haec sic fere puto:
+<lg>
+                  <l n="1_2" xml:id="kock-0497-eortai-43-l1_2" xml:lang="grc">Α. γυνὴ καθεύδουσ᾽ ἐστὶν ἀργόν. ΖΕΥΣ. μανθάνω.</l>
+                  <l n="2_2" xml:id="kock-0497-eortai-43-l2_2" xml:lang="grc">Α. ἐγρηγορυίας δ᾽ εἰσὶν αἱ παροψίδες</l>
+                  <l n="3_2" xml:id="kock-0497-eortai-43-l3_2" xml:lang="grc">αὗται, λόγου κρείττους, πολὺ χρῆμ᾽ εἰς ἡδονήν,</l>
+                  <l n="4_2" xml:id="kock-0497-eortai-43-l4_2" xml:lang="grc">ἧς μεταλαβεῖν ὀργᾷς. ΖΕΥΣ. τίνες παροψίδες;</l>
+                  <l n="5_2" xml:id="kock-0497-eortai-43-l5_2" xml:lang="grc">εἴπ᾽, ἀντιβολῶ σε.</l>
+                </lg>
+πολὺ χρῆμα multo rarius dicitur quam μέγα χρῆμα. unum in promptu habeo exemplum, sed id locupletissimum, Aristoph. Plut. 894. ὀργᾶν sic Av. 462. cf. etiam Lys. 1113. 'vigilantis sunt deliciae illae, iucundiores quam dici potest, quaeque plurimum conferant ad voluptatem, cuius tu compos fieri gestis.' Timocl. 22, 4 sq. comparat Meinekius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="44" xml:id="kock-0497-eortai-44" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-44-l1" xml:lang="grc">ἁλιευόμενός ποτ᾽ αὐτὸν εἶλον ἀνδράχμη</l>
+                <l n="2" xml:id="kock-0497-eortai-44-l2" xml:lang="grc">μετὰ πρημνάδων, κἄπειτ᾽ ἀφῆχ᾽, ὅτι ἦν βόαξ.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 328 f πρημνάδας δὲ τὰς θυννίδας ἔλεγον. Πλάτων Εὐρώπη κτλ. Bekker. Anecd. 383, 10 ἁλιευόμενος· ἀντὶ τοῦ ἁλιεύων. Πλάτων. ἁλιευόμενος L] ἁλιεύμενος Α. εἶλον Meinek.]</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="37" xml:id="kock-0497-eortai-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-37-l1" xml:lang="grc">ὡς μέγα μέντοι πάνυ τὴν Αἴτνην ὄρος εἶναί φασι τεκμαίρου,</l>
+                <l n="2" xml:id="kock-0497-eortai-37-l2" xml:lang="grc">ἔνθα τρέφεσθαι τὰς κανθαρίδας τῶν ἀνθρώπων λόγος ἐστὶν</l>
+                <l n="3" xml:id="kock-0497-eortai-37-l3" xml:lang="grc">οὐδὲν ἐλάττους.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Pac. 73 μεγάλοι λέγονται εἶναι κατὰ τὴν Αἴτνην κάνθαροι . . . Πλάτων Ἑορταῖς κτλ.</note>
+              <note type="apparatus">πάνυ Meinek.] πάλαι. ἔνθα Cobet. Obs. crit. 192] ὅθεν. suspecta mihi sunt εἶναί φασι. fort. εἶναι δεῖ, σὺ τ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="38" xml:id="kock-0497-eortai-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-38-l1" xml:lang="grc">ὁ δὲ τὸν ἐγκέφαλόν τις ἐξαύσας καταπίνει.</l>
+              </lg>
+              <note type="source">Eustathius 1547, 58 τὸ ὀπτῆσαι ἐξαῦσαι. Πλάτων Ἑορταῖς κτλ.</note>
+              <note type="apparatus">Meinekius τὸ ὀπτῆσαι ἐξαῦσαι Πλάτων Ἑορταῖς οἶδε· τὸν ἐγκέφαλον παῖς ἐξαύσας καταπίνει. an τοῦ δὲ τὸν ἐγκ. πᾶς ἐξαύσας κ.? de verbo ἐξαύω Lobeck. Rhem. 11. 12.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="39" xml:id="kock-0497-eortai-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-39-l1" xml:lang="grc">ἀστραβεύειν</l>
+              </lg>
+              <note type="source">Πλάτων εἴρηκεν ἐν Ἑορταῖς. Pollux 7, 186.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="40" xml:id="kock-0497-eortai-40" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-40-l1" xml:lang="grc">τὰς ἐγκεντρίδας</l>
+              </lg>
+              <note type="source">ἐπὶ τῇ τῶν ὑποζυγίων χρήσει Πλάτων ὁ κωμικὸς ἐν Ἑορταῖς εἴρηκεν. Pollux 10, 54. cf. Pherecr. 48. aliter Aristoph. Vesp. 427. 1073.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="41" xml:id="kock-0497-eortai-41" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-41-l1" xml:lang="grc">κόφινος</l>
+              </lg>
+              <note type="source">οὐ ῥητέον φασίν, ἀλλὰ ἄρριχος. Πλάτων Ἑορταῖς. Bekker. Anecd. 102, 1. etiam aliis comicis usitatum.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="42" xml:id="kock-0497-eortai-42" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_eortai">
+              <lg>
+                <l n="1" xml:id="kock-0497-eortai-42-l1" xml:lang="grc">στυλοβάτην</l>
+              </lg>
+              <note type="source">ἐν τῇ οἰκίᾳ Πλάτων εἴρηκεν ὁ κωμικὸς ἐν Ἑορταῖς. Pollux 7, 121. distinguit enim hunc στυλοβάτην a cognomine basi columnae doricae. Hesych. στυλοβάτης· τοῦ κίονος ἡ βάσις.</note>
+            </div>
+          </div></body></text></TEI>

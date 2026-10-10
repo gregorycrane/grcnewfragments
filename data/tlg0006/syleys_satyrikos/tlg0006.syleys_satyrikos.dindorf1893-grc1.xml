@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-syleys_satyrikos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΣΥΛΕΥΣ ΣΑΤΥΡΙΚΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.syleys_satyrikos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.syleys_satyrikos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.syleys_satyrikos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_syleys_satyrikos"><head>ΣΥΛΕΥΣ ΣΑΤΥΡΙΚΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-syleys_satyrikos-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_syleys_satyrikos">
+            <note type="source">Philo Jud. quod omn. prob. lib. sit. § 15, (p. 461 ed. Mang. p. 880 ed. Pfeif.)</note>
+            <note type="commentary">Πάλιν τὸν αὐτὸν σπουδαῖον οὐχ ὁρᾷς, ὅτι οὐδὲ πωλούμενος θεράπων εἶναι δοκεί (sc. Ἡρακλῆς, cujus verba Philo antea attulit, cf. fgm. IV.), καταπλήττων τοὺς ὁρῶντας, ὡς οὐ μόνον ἐλεύθερος ὢν, ἀλλὰ καὶ δεσπότης ἐσόμενος τοῦ πριαμένου; Ὁ γοῦν Ἑρμῆς πυνθανομένῳ, εἰ (ita recte ed. Richterus pro vulg. πυνθανομένοις</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="2_3" xml:id="fragment-syleys_satyrikos-dindorf1893_grc1-2_3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_syleys_satyrikos">
+            <note type="source">2, 3. Pergit Philo 1. c.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐδεὶς δ᾽ ἐς οἴκους δεσπότας ἀμείνονας</l>
+              <l n="2" xml:lang="grc">αὑτοῦ πρίασθαι βούλεται· σὲ δ᾽ εἰσορῶν</l>
+              <l n="3" xml:lang="grc">πᾶς τις δέδοικεν. Ὄμμα γὰρ πυρὸς γέμεις,</l>
+              <l n="4" xml:lang="grc">ταῦρος λέοντος ὡς βλέπων πρὸς ἐμβολήν.</l>
+            </lg>
+            <note type="commentary">Εἰτ᾽ ἐπιλέγει τὸ ἦθος αὐτοῦ</note>
+            <lg type="fragment">
+              <l n="5" xml:lang="grc">σοῦ κατηγορῶ</l>
+              <l n="6" xml:lang="grc">σιγῶντος, ὡς εἴης ἂν οὐχ ὑπήκοος,</l>
+              <l n="7" xml:lang="grc">τάσσειν δὲ μᾶλλον ἢ π̓ιτάσσεσθαι θέλοις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-syleys_satyrikos-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_syleys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.syleys_satyrikos.nauck1889grc1:687">
+            <note type="source">4. Philo Jud. judic. de Joseph. § 14, (p. 53 M, p. 537 P,) Leg. allegor. III, 71, (p. 127 M, p. 98 P.) Quod omn. prob. lib. sit. § 4, (p. 449 M, p. 869 P.) et § 15, (p. 461 Μ, p. 880 P,) Euseb. Præp. Evang. VI, p. 242. Artemid. Oneirocr. IV, 59.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πρὸς ταῦτ᾽ ἴτω μὲν πῦρ, ἴτω δὲ φάσγανον,</l>
+              <l n="2" xml:lang="grc">πίμπρη, κάταιθε σάρκας, ἐμπλήσθητί μου</l>
+              <l n="3" xml:lang="grc">πίνων κελαινὸν αἷμα· πρόσθε γὰρ κάτω</l>
+              <l n="4" xml:lang="grc">γῆς εἶσιν ἄστρα, γῆ δ᾽ ἄνεισ᾽ εἰς αἰθέρα,</l>
+              <l n="5" xml:lang="grc">πρὶν ἐξ ἐμοῦ σοι θῶπ᾿ ἀπαντῆσαι λόγον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-syleys_satyrikos-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_syleys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.syleys_satyrikos.nauck1889grc1:691">
+            <note type="source">5. Philo Jud. 1. c. (p. 461 M. p. 880 P.) pergit : Ἐπεὶ δὲ καὶ πριαμένου Συλέως εἰς ἀγρὸν ἐπέμφθη, διέδειξεν ἔργοις τὸ τῆς φύσεως ἀδούλωτον· τὸν μὲν γὰρ ἄριστον τῶν ἐκεῖ ταύρων καταθύσας Διὶ πρόφασιν εὐωχεῖτο· πολὺν δ᾽ οἶνον ἐμφορήσας ἀθρόον, εὐ μάλα κατακλιθεὶς ἠκρατίζετο. Συλεῖ δὲ ἀφικομένῳ καὶ δυσανασχετοῦντι ἐπί τε τῇ βλάβῃ καὶ τῇ τοῦ θεράποντος ῥαθυμίᾳ, καὶ ἐπὶ τῇ περιττῇ καταφρονήσει, μηδὲν μήτε τῆς χρόας, μήτε ὧν ἔπραττε μεταβαλών, εὐτολμότατά φησι,</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">κλίθητι καὶ πίωμεν, ἐν τούτῳ δέ μου</l>
+              <l n="2" xml:lang="grc">τὴν πεῖραν εὐθὺς λάμβαν᾽, εἰ κρείσσων ἔσῃ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-syleys_satyrikos-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_syleys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.syleys_satyrikos.nauck1889grc1:692">
+            <note type="source">6. Stobæus XLVI, 1.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τοῖς μὲν δικαίοις ἔνδικος, τοῖς δ᾽ αὖ κακοῖς</l>
+              <l n="2" xml:lang="grc">πάντων μέγιστος πολέμιος κατὰ χθόνα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-syleys_satyrikos-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_syleys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.syleys_satyrikos.nauck1889grc1:694">
+            <note type="source">7. Lexic. Sangerman. in Bekk. An. Gr. p. 85, 10. Βαυβᾶν ἀντὶ τοῦ καθεύδειν. Εὐριπίδης Συλεῖ·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Βαυβῶμεν εἰσελθόντες· ἀπόμορξαι σέθεν</l>
+              <l n="2" xml:lang="grc">τὰ δάκρυα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-syleys_satyrikos-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_syleys_satyrikos">
+            <note type="source">8. Eustath. in Iliad. a', p. 107, 45. Etym. Magn. p. 294, 45. Apollon. Dysc. de pronom. p. 353 C. Joan. Alex. τονικ. παραγγελμ. ed. Dindf. p. 25, 5.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰα δὴ, φίλον ξύλον,</l>
+              <l n="2" xml:lang="grc">ἔγειρέ μοι σεαυτὸ, καὶ γίγνου θρασύ.</l>
+            </lg>
+            <note type="commentary">Ad Syleum præterea referuntur a Bachmanno et Fritzschio (ad Aristoph. Thesm. 425) versus, qui sine auctoris nomine afferuntur in Scholiis Lips. ad ΙΙ. β, 269 :</note>
+            <lg type="fragment">
+              <l n="3" xml:lang="grc">Ὡς αἰσχρόν ἐστι καὶ καλῶν ἀπ᾿ ὀμμάτων</l>
+              <l n="4" xml:lang="grc">κλαῖον πρόσωπον καὶ δακρυρροοῦν ὁρᾶν.</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

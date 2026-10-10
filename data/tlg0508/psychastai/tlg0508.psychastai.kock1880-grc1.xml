@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>STRATTIS, ΨΥΧΑΣΤΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Strattis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0508.psychastai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0508.psychastai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0508.psychastai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_psychastai"><head>ΨΥΧΑΣΤΑΙ</head><div type="textpart" subtype="fragment" n="54" xml:id="kock-0508-psychastai-54" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_psychastai">
+              <p>Σαννυρίωνος σκυτίνην ἐπικουρίαν</p>
+              <note type="source">Athenaeus 12, 551 c περὶ δὲ τοῦ Σαννυρίωνος καὶ Στράττις ἐν Ψυχασταῖς φησι κτλ.</note>
+              <note type="apparatus">cum Athenaeus gracilitatem Sannyrionis exemplis inlustret, non credo Bergkio R. c. Att. 271 Sannyrionem quod obscaenum illud spectaculum, de quo Aristoph. Nub. 538. 9, spectatoribus exhibuerit inrideri, sed cum Dalecampio illum lorica nescio qua, ut corpus plenius videretur, usum esse existimo. Aristophanes Lys. 110 ὄλισβον ita dixit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="55" xml:id="kock-0508-psychastai-55" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_psychastai">
+              <lg>
+                <l n="1" xml:id="kock-0508-psychastai-55-l1" xml:lang="grc">κομίσειέ μοί τις</l>
+                <l n="2" xml:id="kock-0508-psychastai-55-l2" xml:lang="grc">θυμαλώπων ὧδε μεστὴν ἐσχάραν;</l>
+              </lg>
+              <note type="source">Pollux 10, 101 καὶ μὴν ἐσχάραν εἴποις ἂν τὸ ἀνθράκιον τοῦτο (τὸν καλούμενον χυτρόποδα) κτλ. . . . ὁ δὲ Στράττις ἐν Ψυχασταῖς φησι κτλ. καὶ εἰσὶν οἱ θυμάλωπες οἱ ἡμίκαυτοι ἄνθρακες.</note>
+              <note type="apparatus">Elmsleius Aristoph. Ach. 321 λιβανωτὸν ἔνδοθεν τίς ἂν κομίσειέ μοι | καὶ θυμαλώπων κτλ. ceterum ὧδε est huc. cf. Aristoph. fr. 348.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="56" xml:id="kock-0508-psychastai-56" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_psychastai">
+              <head>56</head>
+              <p>εἴτε σκιάδειον</p>
+              <p>(εἴτε) ῥιπίδα</p>
+              <note type="source">Pollux 10, 127 θολία πλέγμα τι θολοειδὲς ἐπὶ σκιᾷ, καὶ ῥιπίς, καὶ σκιάδιον, ὃ καὶ σκιάδα ἂν εἴποις· οὕτω γὰρ καὶ τὸ Διονύσου σκιάδιον καλεῖται. καὶ πτερὸν δὲ τὸ σκιάδιον οἱ κωμῳδιοποιοὶ καλοῦσι. ὁ δὲ Στράττις ἐν Ψυχασταῖς προειπὼν ῥιπίδα ἐπήγαγε εἴτε σκιάδιον.</note>
+              <note type="apparatus">prius εἴτε add. K. unus ex refrigerationis amatoribus aut flabellum aut umbraculum adferri iubet. fallitur enim Pollux, cum ῥιπίδα et σκιάδειον idem esse dicit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="57" xml:id="kock-0508-psychastai-57" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_psychastai">
+              <head>57</head>
+              <lg>
+                <l n="1" xml:id="kock-0508-psychastai-57-l1" xml:lang="grc">οἶνον γὰρ πιεῖν</l>
+                <l n="2" xml:id="kock-0508-psychastai-57-l2" xml:lang="grc">οὐδ᾽ ἂν εἷς δέξαιτο θερμόν, ἀλλὰ πολὺ τοὐναντίον</l>
+                <l n="3" xml:id="kock-0508-psychastai-57-l3" xml:lang="grc">ψυχόμενον ἐν τῷ φρέατι καὶ χιόνι μεμιγμένον.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 124d ὅτι δὲ καὶ τὸν οἶνον ἔψυχον ὑπὲρ τοῦ ψυχρότερον αὐτὸν πίνειν Στράττις φησὶν ἐν Ψυχασταῖς κτλ.</note>
+              <note type="apparatus">πολὺ τοὐναντίον] πᾶν τοὐναντίον Meinek. Anal. crit. 57. at cf. Plat. Apol. 39 c. καὶ χιόνι Porson.] χιόνι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="58" xml:id="kock-0508-psychastai-58" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_psychastai">
+              <head>58</head>
+              <lg>
+                <l n="1" xml:id="kock-0508-psychastai-58-l1" xml:lang="grc">αἱ δ᾽ ἀλεκτρυόνες ἅπασαι</l>
+                <l n="2" xml:id="kock-0508-psychastai-58-l2" xml:lang="grc">καὶ τὰ χοιρίδια τέθνηκε</l>
+                <l n="3" xml:id="kock-0508-psychastai-58-l3" xml:lang="grc">καὶ τὰ μίκρ᾽ ὀρνίθια.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 373f τὸν δ᾽ ἀλεκτρυόνα οἱ ἀρχαῖοι καὶ θηλυκῶς εἰρήκασι . . . Στράττις Ψυχασταῖς κτλ. v. 1. 2 Eustathius 1479, 28.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="59" xml:id="kock-0508-psychastai-59" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_psychastai">
+              <head>59</head>
+              <lg>
+                <l n="1" xml:id="kock-0508-psychastai-59-l1" xml:lang="grc">ὁ δέ τις ψυκτῆρ᾽, ὁ δέ τις κύαθον</l>
+                <l n="2" xml:id="kock-0508-psychastai-59-l2" xml:lang="grc">χαλκοῦν κλέψας ἀπορῶν κεῖται,</l>
+                <l n="3" xml:id="kock-0508-psychastai-59-l3" xml:lang="grc">κοτύλη δ᾽ ἀνὰ χοίνικα μάττει.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 502e Στράττις Ψυχασταῖς κτλ.</note>
+              <note type="apparatus">3. κοτύλη δ᾽ B] κοτυλίδ᾽. κοτύλη δ᾽ Dobraeus Advers. II 335 ‘prae inopia mensuram sui panis adeo contrahit, ut pro quaque choenice tantum cotylen ponat’. non intellego.</note>
+            </div>
+          </div></body></text></TEI>

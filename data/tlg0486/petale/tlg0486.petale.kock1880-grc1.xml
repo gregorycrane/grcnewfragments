@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHERECRATES, ΠΕΤΑΛΗ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Pherecrates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0486.petale.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0486.petale.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0486.petale.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_petale"><head>ΠΕΤΑΛΗ</head><div type="textpart" subtype="fragment" n="135" xml:id="kock-0486-petale-135" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_petale">
+              <lg>
+                <l n="1" xml:id="kock-0486-petale-135-l1" xml:lang="grc">ἀλλ’ ὦ περιστέριον ὁμοῖον Κλεισθένει,</l>
+                <l n="2" xml:id="kock-0486-petale-135-l2" xml:lang="grc">πέτου, κόμισον δέ μ’ εἰς Κύθηρα καὶ Κύπρον.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 395 c Φερεκράτης ἐν Πετάλῃ κτλ. Κλεισθένει Pors. Advers. 113. Elmsl. Ach. 118] Καλλισθένει.</note>
+              <note type="apparatus">Venus aut puellula loqui videtur quae, ut Trygaeus cantharo, columba vehi volebat. de Clisthene cf. Aristoph. Eq. 1374 cum interpr.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="136" xml:id="kock-0486-petale-136" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_petale">
+              <lg>
+                <l n="1" xml:id="kock-0486-petale-136-l1" xml:lang="grc">παίειν με τύπτειν λακπατεῖν ὠθεῖν δάκνειν.</l>
+              </lg>
+              <note type="source">Photius λακπατεῖν· Φερεκράτης Πετάλῃ κτλ. λακπατεῖν Alberti Hesych. λακπατῆσαι] λάκπάπτειν et λάκπαπτειν cod.</note>
+              <note type="apparatus">infinitivus pendebat a verbo quod proxime antecedebat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="137" xml:id="kock-0486-petale-137" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_petale">
+              <lg>
+                <l n="1" xml:id="kock-0486-petale-137-l1" xml:lang="grc">πρόσαιρε τὸ κανοῦν, εἰ δὲ βούλει, πρόσφερε.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 358, 7 et Suidas (αἴρειν) αἶρε· πρόσφερε. αἴρειν γὰρ καὶ τὸ προσφέρειν δηλοῖ . . . καὶ μετὰ τῆς προθέσεως Φερεκράτης Πετάλῃ κτλ.</note>
+              <note type="apparatus">tautologia consulto quaesita. cf. Aristoph. Ran. 1159 (Mein.).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="138" xml:id="kock-0486-petale-138" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_petale">
+              <lg>
+                <l n="1" xml:id="kock-0486-petale-138-l1" xml:lang="grc">κἀκ πιθῶνος ἤρυσαν</l>
+                <l n="2" xml:id="kock-0486-petale-138-l2" xml:lang="grc">ἄκρατον.</l>
+              </lg>
+              <note type="source">Pollux 7, 163 ἀπὸ δὲ τῶν πίθων ὁ πιθών, Φερεκράτους εἰπόντος ἐν Πετάλῃ κτλ. ἤρυσαν Meinek.] εἴρυσαν. cf. Eupol. 111.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="139" xml:id="kock-0486-petale-139" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_petale">
+              <note type="source">Athenaeus 8, 343 c κωμῳδοῦσι δ’ αὐτὸν (Μελάνθιον) ἐπ’ ὀψοφαγίᾳ Λεύκων ἐν Φράτερσιν, Ἀριστοφάνης ἐν Εἰρήνῃ, Φερεκράτης ἐν Πετάλῃ.</note>
+              <note type="apparatus">cf. Meinek. I 205 sq. Bergk. R. c. Att. 340. Eupol. 41. 164. Plat. 132. Archipp. 28. Aristoph. Av. 151 cum interpr.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="134" xml:id="kock-0486-petale-134" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_petale">
+              <lg>
+                <l n="1" xml:id="kock-0486-petale-134-l1" xml:lang="grc">οὗτος πόθεν ἦλθες; Β. εἰς Κολωνὸν ἱέμην,</l>
+                <l n="2" xml:id="kock-0486-petale-134-l2" xml:lang="grc">οὐ τὸν ἀγοραῖον, ἀλλὰ τὸν τῶν ἱππέων.</l>
+              </lg>
+            </div>
+          </div></body></text></TEI>

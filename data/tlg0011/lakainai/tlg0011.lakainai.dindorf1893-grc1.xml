@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-lakainai-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΛΑΚΑΙΝΑΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.lakainai; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.lakainai.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.lakainai.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_lakainai"><head>ΛΑΚΑΙΝΑΙ</head><div type="textpart" subtype="fragment" n="336" xml:id="fragment-lakainai-dindorf1893_grc1-336" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_lakainai" sameAs="urn:cts:greekLit:tlg0011.lakainai.nauck1889grc1:338">
+            <note type="source">Pollux IX, 49.</note>
+            <quote>Ἔστι δὲ ἡ ψαλὶς, εἶδος οἰκοδομήματος. ἤπου καὶ Σοφ. ἐν Λακαίναις λέγει</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Στενὴν δ᾽ ἔδυμεν ψαλίδα κοὐκ ἀβάρβαρον.</l>
+            </lg>
+            <note type="apparatus">ἀβόρβορον Blomfildus.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="337" xml:id="fragment-lakainai-dindorf1893_grc1-337" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_lakainai" sameAs="urn:cts:greekLit:tlg0011.lakainai.nauck1889grc1:339">
+            <note type="source">Priscianus XVIII. p. 197. Krehl.</note>
+            <quote>Attici, ἄρχω τοῦδε καὶ τόδε, ἀντὶ τοῦ κατάρχω. Σοφ. Λακαίναις</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Θεοῖς ἄρ᾽ οὔποτ᾽, εἴ τι χρὴ βροτὸν λέγειν,</l>
+              <l n="2" xml:lang="grc">ἄρξασι Φρυξὶ τὴν κατ᾽ Ἀργείους ὕβριν</l>
+              <l n="3" xml:lang="grc">ξυναινῶ ταῦτα. μὴ μάχου βίᾳ.</l>
+            </lg>
+            <note type="apparatus">Codex Monac. ΞΥΝΑΙΝΕΤΑTAYTA. Ergo initium versus fuit ξυναινέσω.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="338" xml:id="fragment-lakainai-dindorf1893_grc1-338" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_lakainai">
+            <note type="source">Herodianus περὶ μονήρους λέξεως p. 40, 11.</note>
+            <quote>Τὸ παρὰ Σοφοκλεῖ ἐν Λακαίναις δανοτὴς εἰρημένον “Ἐν ᾗ παύσετ᾽ (παύσαιθ᾽?) ἁμερίων μόχθων τε καὶ δανοτῆτος.”</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="339" xml:id="fragment-lakainai-dindorf1893_grc1-339" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_lakainai">
+            <note type="source">Strabo VIII. p. 364.</note>
+            <quote>Τὴν δὲ Λᾶν οἱ Διόσκουροι ποτὲ ἐκ πολιορκίας ελεῖν ἱστοροῦνται, ἀφ᾽ οὗ δὴ Λαπέρσαι προσηγορεύθησαν. καὶ Σοφοκλῆς λέγει που</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Νὴ τὰ Λαπέρσα, νὴ τὸν Εὐρώταν τρίτον,</l>
+              <l n="2" xml:lang="grc">νὴ τοὺς ἐν Ἄργει καὶ κατὰ Σπάρτην θεούς.</l>
+            </lg>
+            <note type="commentary">Conf. Hesychii interpretes ad Λαπέρσαι.</note>
+          </div>
+        </div></body></text></TEI>

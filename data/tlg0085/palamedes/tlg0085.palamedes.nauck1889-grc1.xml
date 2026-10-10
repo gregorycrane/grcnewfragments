@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΠΑΛΑΜΗΔΗΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.palamedes; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.palamedes.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.palamedes.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:palamedes"><head xml:lang="grc">ΠΑΛΑΜΗΔΗΣ</head>
+          <note type="introduction" xml:lang="mul">Non memoratur in fabularum indice. Schol. Aesch. Prom. 457 de Aeschyleis verbis ἔστε δή σφιν ἀντολὰς ἐγὼ ἄστρων ἔδειξα, haec annotat : τούτων τὴν εὕρεσιν καὶ Παλαμήδῃ προσῆψεν. versus tres qui in Prometheo leguntur (459-461) , καὶ μὴν ἀριθμὸν ἔξοχον σοφισμάτων ἐξηῦρον αὐτοῖς γραμμάτων τε συνθέσεις, μνήμην ἁπάντων, μουσομήτορ’ ἐργάνην, in Palamede primitus extitisse coni. Kiehl. ad eandem fabulam adesp. fr. 470 rettulit C. Wachsmuth.</note>
+          <div type="textpart" subtype="fragment" n="181" corresp="urn:cite2:perseus:fragmentaryplays.v1:palamedes" xml:id="aesch-fr181">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-181-1">τίνος κατέκτας ἕνεκα παῖδ’ ἐμὸν βλάβης ;</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. A Il. Δ 319 : ἔκταν — ἐν χρήσει ὁρᾶται Ἀττικοῖς. — Αἰσχύλος δὲ Παλαμήδῃ ’τίνος — βλάβης ;’ Nauplii haec esse verba coni. Vater in Eur. Rhes. p. 233 .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="182" corresp="urn:cite2:perseus:fragmentaryplays.v1:palamedes" xml:id="aesch-fr182">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-182-1">καὶ ταξιάρχας καὶ στρατάρχας καὶ ἑκατοντάρχας</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-182-2">ἔταξα, σῖτον δ’ εἰδέναι διώρισα,</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-182-3">ἄριστα, δεῖπνα δόρπα θ’ αἱρεῖσθαι τρίτα.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. I p. 11 D : Φιλήμων δὲ φησὶν ὅτι τροφαῖς τέτταρσιν ἐχρῶντο οἱ παλαιοί. — ἔστι δ’ ἡ τάξις καὶ παρ’ Αἰσχύλῳ τῶν ὀνομάτων ἐν οἷς ὁ Παλαμήδης πεποίηται λέγων ’καὶ ταξιάρχας — τρίτα’ . similiter Eust. Od. p. 1791, 42 qui omisit verba καὶ ταξιάρχας — ἔταξα (v. 1 et 2) . v. 3 ex Aeschylo afferunt Schol. Il. Β 308 in Anecd. Paris. vol. 3 p. 7, 15 et p. 154, 6 Schol. AB Il. Β 381 Schol. Od. β 20 Etym. Gud. p. 150, 19 Eust. Il. p. 242, 22 p. 1358, 4 Od. p. 1432, 5 p. 1833, 4 . respicit Phrynichus Bekk. p. 23, 23 : ὁ δὲ Αἰσχύλος τρεῖς (sc. τροφάς) οἶδεν, ἀφελὼν τὴν δειελινήν.</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 καὶ ταξιάρχας χἁκατοντάρχας στρατῷ . vitiosam esse terminationem ας, ubi requiratur ους, censet Wilamowitz-Moellendorff Aus Kydathen p. 223 . v. 2 εἰδέναι num verum sit iure dubitant Gomperz et Kaibel. v. 3 θ’ δ’ om. τρίτα om. τρία τρία ἢ μάλιστα τρίτα .</note>
+          </div>
+        </div></body></text>
+</TEI>

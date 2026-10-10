@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΝΙΟΒΗ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.niobe; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.niobe.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.niobe.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:niobe"><head>ΝΙΟΒΗ</head>
+          <pb n="601" facs="urn:hathi:iau.31858007086675:scan:609"/>
+          <div type="textpart" subtype="fragment" n="146" xml:id="frag_c9db44979b" corresp="urn:cite2:perseus:fragmentaryplays.v1:niobe" sameAs="urn:cts:greekLit:tlg0085.niobe.nauck1889-grc1:163">
+            <note type="source">Dissertatio Hermanni in Opusc. vol. III. p. 37. Strabo XII. p. 580.</note>
+            <note type="commentary">Αἰσχύλος δὲ συγχεῖ ἐν τῇ Νιόβῃ· φησὶ γὰρ ἐκείνη μνησθήσεσθαι τῶν περὶ Τάνταλον</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_c9db44979b-l1" xml:lang="grc">Οἷς ἐν Ἰδαίῳ πάγῳ</l>
+              <l n="2" xml:id="frag_c9db44979b-l2" xml:lang="grc">Διὸς πατρώου βωμός ἐστι.</l>
+            </lg>
+            <note type="commentary">καὶ πάλιν “Σίπυλον Ἰδαίαν ἀνὰ | χθόνα.” καὶ ὁ Τάνταλος λέγει</note>
+            <lg type="fragment">
+              <l n="3" xml:id="frag_c9db44979b-l3" xml:lang="grc">Σπείρω δ᾽ ἄρουραν δώδεχ᾽ ἡμερῶν ὁδὸν,</l>
+              <l n="4" xml:id="frag_c9db44979b-l4" xml:lang="grc">Βερέκυντα χῶρον, ἔνθ᾽ Ἀδραστείας ἔδος</l>
+              <l n="5" xml:id="frag_c9db44979b-l5" xml:lang="grc">Ἴδης τε μυκηθμοῖσι καὶ βρυχήμασιν</l>
+              <l n="6" xml:id="frag_c9db44979b-l6" xml:lang="grc">ἕρπουσι μήλων πᾶν δ᾽ ὀρεχθεῖ πέδον.</l>
+            </lg>
+            <note type="commentary">De quibus dixit Hermannus p 42. 43.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="147" xml:id="frag_9abf7e6ffe" corresp="urn:cite2:perseus:fragmentaryplays.v1:niobe" sameAs="urn:cts:greekLit:tlg0085.niobe.nauck1889-grc1:161">
+            <note type="source">Stobaeus CXVIII, 1. Αἰσχύλου Νιόβης</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_9abf7e6ffe-l1" xml:lang="grc">Μόνος θεῶν γὰρ Θάνατος οὐ δώρων ἐρᾷ,</l>
+              <l n="2" xml:id="frag_9abf7e6ffe-l2" xml:lang="grc">οὔτ᾽ ἄν τι θύων οὔτ᾽ ἐπισπένδων ἄνοις,</l>
+              <l n="3" xml:id="frag_9abf7e6ffe-l3" xml:lang="grc">οὐ βωμός ἐστιν οὐδὲ παιωνίζεται.</l>
+              <l n="4" xml:id="frag_9abf7e6ffe-l4" xml:lang="grc">μόνου δὲ Πειθὼ δαιμόνων ἀποστατεῖ.</l>
+            </lg>
+            <note type="commentary">Primum versum affert Aristophanes Ranar. v. 1392. scholiasta Sophoclis Electr. v. 139. Suidas in πάγκοινος, scholiasta Euripidis Alcest. v. 56. tres primos versus scholiasta Homeri Iliad. 4, 159. et Eustathius p. 744, 2. ubi v. 3. scriptum οὐδ᾽ ἔστι βωμός. et v. 2. λάβοις. Apud Stobæum vaoîs: unde Dobræus avots. Primo versui apud scholiastam Sophoclis et Suidam subjiciuntur verba Μόνος οὐ δέχεται γλυκερᾶς μέρος ἐλπίδος, quæ unde sumpta sint nescitur.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="148" xml:id="frag_9c1282a3a9" corresp="urn:cite2:perseus:fragmentaryplays.v1:niobe">
+            <note type="source">Aristophanes Avium v. 1246.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_9c1282a3a9-l1" xml:lang="grc">Ἆρ᾽ οἶσθ᾽ ὅτι Ζεὺς εἴ με λυπήσει πέρα,</l>
+              <l n="2" xml:id="frag_9c1282a3a9-l2" xml:lang="grc">μέλαθρα μὲν αὐτοῦ καὶ δόμους Ἀμφίονος</l>
+              <l n="3" xml:id="frag_9c1282a3a9-l3" xml:lang="grc">καταιθαλώσω πυρφόροισιν αἰετοῖς;</l>
+            </lg>
+            <note type="commentary">ubi scholiasta corrupte, Καὶ δόμους Ἀμφίονος: ἐκ Νιόβης Αἰσχύλου. ἐξέρριπται δέ τ᾽ Ἀμφίονος ἐκ μονῳδίας.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="149" xml:id="frag_3218bc81bb" corresp="urn:cite2:perseus:fragmentaryplays.v1:niobe" sameAs="urn:cts:greekLit:tlg0085.niobe.nauck1889-grc1:157">
+            <note type="source">Hesychius, Ἐπώζειν: ἐπικαθῆσθαι τοῖς ὠοῖς. Αἰσχύλος Νιόβῃ μεταφορικῶς</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_3218bc81bb-l1" xml:lang="grc">Ἐφημένη τάφον</l>
+              <l n="2" xml:id="frag_3218bc81bb-l2" xml:lang="grc">τέκνοις ἔπωζε τοῖς τεθνηκόσιν.</l>
+            </lg>
+            <note type="commentary">De Niobe sepulcro liberorum assidente vide quæ infra ad Phryges afferentur et scholiastam Promethei v. 433. Eustathium p. 1343, 62. 1940, 64.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="150" xml:id="frag_c8cf2d6abd" corresp="urn:cite2:perseus:fragmentaryplays.v1:niobe" sameAs="urn:cts:greekLit:tlg0085.niobe.nauck1889-grc1:155">
+            <note type="source">Hephæstio p. 7. ed. Gaisf. ubi de correpta diphthongo agit, Αἰσχύλος ἐν Νιόβῃ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_c8cf2d6abd-l1" xml:lang="grc">Ἴστρος τοιαύτας παρθένους λοχεύεται.</l>
+            </lg>
+            <note type="source">Afferunt omisso fabulæ nomine Priscianus p. 562.</note>
+          </div>
+          <pb n="602" facs="urn:hathi:iau.31858007086675:scan:610"/>
+          <div type="textpart" subtype="fragment" n="151" xml:id="frag_f7a729d7f5" corresp="urn:cite2:perseus:fragmentaryplays.v1:niobe" sameAs="urn:cts:greekLit:tlg0085.niobe.nauck1889-grc1:156">
+            <note type="source">Plato de Republ. II. p. 380 a.</note>
+            <quote>Οὐδ᾽ αὖ, ὡς Αἰσχύλος λέγει, ἐατέον ἀκούειν τοὺς νέους ὅτι</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_f7a729d7f5-l1" xml:lang="grc">Θεὸς μὲν αἰτίαν φύει βροτοῖς,</l>
+              <l n="2" xml:id="frag_f7a729d7f5-l2" xml:lang="grc">ὅταν κακῶσαι δῶμα παμπήδην θέλῃ.</l>
+            </lg>
+            <note type="commentary">ἀλλ᾽ ἐὰν τις ποιῇ, ἐν οἷς ταῦτα τὰ ἰαμβεῖα ἔνεστι τὰ τῆς Νιόβης πάθη. Omisso poetae et fabulae nomine attulerunt Plutarchus Moral. p. 17 b. 1065 e. Stobaeus II, 7.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="152" xml:id="frag_91fb96cc03" corresp="urn:cite2:perseus:fragmentaryplays.v1:niobe" sameAs="urn:cts:greekLit:tlg0085.niobe.nauck1889-grc1:166">
+            <note type="source">Hesychius, Κάκαλα: τείχη. Αἰσχύλος Νιόβῃ. Photius p. 125, 4. Κάκαλον: τεῖχος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="153" xml:id="frag_a2304929f7" corresp="urn:cite2:perseus:fragmentaryplays.v1:niobe" sameAs="urn:cts:greekLit:tlg0085.niobe.nauck1889-grc1:165">
+            <note type="source">Hesychius, Ἠμορίς: κενὴ, ἐστερημένη. Αἰσχύλος Νιόβῃ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="154" xml:id="frag_7b845db1c6" corresp="urn:cite2:perseus:fragmentaryplays.v1:niobe">
+            <note type="source">Scholiasta Euripidis Phoenissar. v. 159.</note>
+            <note type="commentary">Περὶ δὲ τοῦ πλήθους τῶν Νιοβιδῶν αὐτὸς Εὐριπίδης ἐν Κρεσφόντῃ φησὶ</note>
+            <quote>“Καὶ δὶς ἔπτ᾽ αὐτῆς τέκνα Νιόβης θανόντα Λοξίου τοξεύμασιν.”</quote>
+            <note type="commentary">ὁμοίως καὶ Αἰσχύλος ἐν Νιόβῃ καὶ Ἀριστοφάνης δὲ ἐν δράματι Νιόβης (in Δράμασιν ἡ Νιόβῳ fragm. 272. p. 131.) ὁμοίως ζ' αὐτὰς λέγουσιν, εἶναι δὲ ἑπτὰ καὶ τοὺς ἄρρενας.</note>
+          </div>
+        </div></body></text>
+</TEI>

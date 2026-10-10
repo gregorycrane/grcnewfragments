@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΒΟΥΚΟΛΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.boykoloi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.boykoloi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.boykoloi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_boykoloi"><head>ΒΟΥΚΟΛΟΙ</head><div type="textpart" subtype="fragment" n="15" xml:id="kock-0434-boykoloi-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_boykoloi">
+              <lg>
+                <l n="1" xml:id="kock-0434-boykoloi-15-l1" xml:lang="grc">ὃς οὐκ ἔδωκ᾽ αἰτοῦντι Σοφοκλέει χορόν,</l>
+                <l n="2" xml:id="kock-0434-boykoloi-15-l2" xml:lang="grc">τῷ Κλεομάχου δ᾽, ὃν οὐκ ἂν ἠξίουν ἐγὼ</l>
+                <l n="3" xml:id="kock-0434-boykoloi-15-l3" xml:lang="grc">ἐμοὶ διδάσκειν οὐδ᾽ ἂν εἰς Ἀδώνια.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="16" xml:id="kock-0434-boykoloi-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_boykoloi">
+              <lg>
+                <l n="1" xml:id="kock-0434-boykoloi-16-l1" xml:lang="grc">ἐν Καρὶ τὸν κίνδυνον ἐν ἐμοὶ δὴ δοκεῖ</l>
+                <l n="2" xml:id="kock-0434-boykoloi-16-l2" xml:lang="grc">πρώτῳ πεπειρᾶσθαι.</l>
+              </lg>
+              <note type="source">Schol. Platon. Bekk. 322 <foreign xml:lang="grc">Κρατίνος Βουκόλοις</foreign>. <foreign xml:lang="grc">πεπειρᾶσθαι</foreign> Meinek.] <foreign xml:lang="grc">πειρᾶσθαι</foreign>.</note>
+              <note type="apparatus">'in me tanquam in vili capite omnium primo periculum fecisse videtur' Herwerdenus (Obs. crit. in fragm. com. gr. 3. 4), hoc quoque fragmento archontem notari coniciens Cratino invisum. Zenob. 3, 59 <quote>
+                  <foreign xml:lang="grc">‘ἐν Καρὶ τὸν κίνδυνον’</foreign>
+                </quote>
+                <foreign xml:lang="grc">ἐπὶ τῶν ἐν εὐτελέσι</foreign> (in corpore vili) <foreign xml:lang="grc">τὴν πεῖραν ποιουμένων. Κᾶρες γὰρ ἐμισθοφόρουν πρῶτοι</foreign>. similiter Hesych. <foreign xml:lang="grc">ἐν Καρί</foreign>. cf. Philem. 18. Eur. Cycl. 654. Cic. Flacc. 27, 65 nonne hac vestra voce volgatum est, si quid cum periculo experiri velis, in Care id potissimum esse faciendum?</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="17" xml:id="kock-0434-boykoloi-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_boykoloi">
+              <lg>
+                <l n="1" xml:id="kock-0434-boykoloi-17-l1" xml:lang="grc">καὶ πρὸς τὸν οὐρανὸν σκια-</l>
+                <l n="2" xml:id="kock-0434-boykoloi-17-l2" xml:lang="grc">μαχῶν ἀπο-</l>
+                <l n="3" xml:id="kock-0434-boykoloi-17-l3" xml:lang="grc">κτίννυσι ταῖς ἀπειλαῖς.</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="kock-0434-boykoloi-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_boykoloi">
+              <note type="source">
+                <p>Hesychius <foreign xml:lang="grc">πυρπερέγχει· Κρατῖνος ἀπὸ διθυράμβου ἐν Βουκόλοις ἀρξάμενος, ἐπειδὴ χορὸν οὐκ ἔλαβε παρὰ (cod. πὲ) τοῦ ἄρχοντος ἔστιν οὗ ᾐτήρει.</foreign> Casaubonus <foreign xml:lang="grc">πῦρ πῦρ ἔγχει· Κρατῖνος ... ἔλαβε παρὰ τοῦ ἄρχοντος παρ’ οὗ ᾐτήκει.</foreign> Bergkius R. c. Att. 31 <foreign xml:lang="grc">πῦρ πυρὶ ἔγχει.</foreign> Fritzschius (Arist. Ran. p. 57) <foreign xml:lang="grc">πῦρ πρὸς ἔγχει ... παρὰ τοῦ ἄρχοντος. ἔστιν οὖν τήρει (τὸν τεθυμωμένον),</foreign>
+                  <foreign xml:lang="la">τήρει</foreign> autem interpretatur ‘cave’. at cave graece est <foreign xml:lang="grc">εὐλαβοῦ, φυλάττου,</foreign> non <foreign xml:lang="grc">τήρει,</foreign> et proverbium quod Cratinus paullulum inmutavit non fuit <foreign xml:lang="grc">πῦρ μαχαίρᾳ σκαλεύειν,</foreign> sed <foreign xml:lang="grc">πῦρ ἐπὶ πῦρ,</foreign> i. e. <foreign xml:lang="grc">κακὸν ἐπὶ κακῷ</foreign> Zenob. 5, 69. Diogen. 6, 71. Boisson. Anecd. II 56 <foreign xml:lang="grc">εἰ πυρὶ πῦρ ἐπάγεις βρόμιον, μάλα πολλὸν ἀνάπτεις,</foreign> quocum Boissonadius contulit Flor. 4, 6 cum solus gravis reipublicae esset Antonius, quasi ignis incendio Lepidus accessit. Arist. fr. 453. Plat. Leg. 2, 666 a <foreign xml:lang="grc">οὐ χρὴ πῦρ ἐπὶ πῦρ ὀχετεύειν</foreign> (de vino). facillimum videtur scribere <foreign xml:lang="grc">πυρὶ πῦρ ἐπέγχει.</foreign> Eur. Cycl. 423 <foreign xml:lang="grc">ἐγὼ δ’ ἐπεγχέων ἄλλην ἐπ’ ἄλλῃ σπλάγχν’ ἐθέρμαινον ποτῷ.</foreign> felicissima translatione Cratinus Bacchum precatur ut his ipsis Dionysiis non vinum, ut soleat, sed ignes ignibus superinfundat, i. e. ignes indignationis, quos ipse in archontem emittat. ignes bibere vult, ut ignem evomat. ab his verbis parodum simul et fabulam poeta videtur exorsus esse. dithyrambum autem adpellavit Hesychius, ‘quoniam et sententiarum ardore fervebat et numeris ferebatur concitatissimis’. Meinek.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="19" xml:id="kock-0434-boykoloi-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_boykoloi">
+              <note type="source">
+                <p>Bekk. Anecd. 394, 8 et Suidas <foreign xml:lang="grc">ἀνδρακάδα. ἀνδρακάς· κατ’ ἄνδρα, χωρίς. Κρατῖνος ἐν Βουκόλοις.</foreign> apud Bekkerum corrupte <foreign xml:lang="grc">τὸ κατὰ ἄνδρα χωρῆσαι.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="20" xml:id="kock-0434-boykoloi-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_boykoloi">
+              <note type="source">
+                <p>Bekk. Anecd. 395, 27 et Suid. <foreign xml:lang="grc">ἀνεσίαν τὴν ἄνεσιν καὶ τὴν ἄδειαν. Κρατῖνος Βουκόλοις.</foreign> cf. Lob. Phryn. 527 (Mein.).</p>
+              </note>
+              <note type="apparatus">
+                <p>Ad Bubulcos praeterea fr. 281 et 286 referebat Bergkius R. c. Att. 34. cf. etiam fr. 294.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

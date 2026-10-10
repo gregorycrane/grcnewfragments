@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΨΥΧΑΓΩΓΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.psychagogoi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.psychagogoi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.psychagogoi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:psychagogoi"><head>ΨΥΧΑΓΩΓΟΙ</head>
+          <pb n="608" facs="urn:hathi:iau.31858007086675:scan:616"/>
+          <div type="textpart" subtype="fragment" n="255" xml:id="frag_ebc8dc4693" corresp="urn:cite2:perseus:fragmentaryplays.v1:psychagogoi" sameAs="urn:cts:greekLit:tlg0085.psychagogoi.nauck1889-grc1:275">
+            <note type="source">Scholiasta Homeri Odyss. λ, 134. Αἰσχύλος ἐν Ψυχαγωγοῖς</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_ebc8dc4693-l1" xml:lang="grc">Ἐρωδιὸς γὰρ ὑψόθει ποτώμενος</l>
+              <l n="2" xml:id="frag_ebc8dc4693-l2" xml:lang="grc">ὄνθῳ σε πλήξει, νηδύος χειλώμασιν.</l>
+              <l n="3" xml:id="frag_ebc8dc4693-l3" xml:lang="grc">ἐκ τοῦδ᾽ ἄκανθα ποντίου βοσκήματος</l>
+              <l n="4" xml:id="frag_ebc8dc4693-l4" xml:lang="grc">σήψει παλαιὸν δέρμα καὶ τριχορρυές.</l>
+            </lg>
+            <note type="source">Vide Valckenar. Diatrib. p. 286.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="256" xml:id="frag_10bcb8b25b" corresp="urn:cite2:perseus:fragmentaryplays.v1:psychagogoi" sameAs="urn:cts:greekLit:tlg0085.psychagogoi.nauck1889-grc1:273">
+            <note type="source">Aristophanes Ranar. v. 1297.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_10bcb8b25b-l1" xml:lang="grc">Ἑρμᾶν μὲν πρόγονον τίομεν γένος οἱ περὶ λίμναν.</l>
+            </lg>
+            <note type="source">ubi scholiasta, ἐκ τῶν Αἰσχύλου Ψυχαγωγῶν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="257" xml:id="frag_1dc394ea43" corresp="urn:cite2:perseus:fragmentaryplays.v1:psychagogoi" sameAs="urn:cts:greekLit:tlg0085.psychagogoi.nauck1889-grc1:278">
+            <note type="source">Hesychius, Δρώπτειν: διακόπτειν, ἢ διασκοπεῖν. Αἰσχύλος Ψυχαγωγοῖς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="258" xml:id="frag_5defe7caab" corresp="urn:cite2:perseus:fragmentaryplays.v1:psychagogoi" sameAs="urn:cts:greekLit:tlg0085.psychagogoi.nauck1889-grc1:274">
+            <note type="source">Pollux X, 10.</note>
+            <quote>Αὐτὸ μὲν γὰρ τοὔνομα τῆς σκευοθήκης εὕροις ἂν ἐν τοῖς Αἰσχύλου Ψυχαγωγοῖς</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_5defe7caab-l1" xml:lang="grc">Καὶ σκευοθηκῶν ναυτικῶν τ᾽ ἐρειπίων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="259" xml:id="frag_12ee1254aa" corresp="urn:cite2:perseus:fragmentaryplays.v1:psychagogoi" sameAs="urn:cts:greekLit:tlg0085.psychagogoi.nauck1889-grc1:276">
+            <note type="source">Photius p. 534, 1.</note>
+            <quote>Σταθερόν: τινὲς καὶ ἐπὶ τοῦ στασίμου, ὡς Αἰσχύλος ἐν Ψυχαγωγοῖς “Σταθεροῦ χεύματος.”</quote>
+            <note type="source">Apud Suidam χρήματος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="260" xml:id="frag_538dd8e7c7" corresp="urn:cite2:perseus:fragmentaryplays.v1:psychagogoi" sameAs="urn:cts:greekLit:tlg0085.psychagogoi.nauck1889-grc1:277">
+            <note type="source">Schol. Apollon. III, 846.</note>
+            <quote>Ὅτι δὲ τὴν Δαῖραν Περσεφόνην καλοῦσι Τιμοσθένης ἐν τῷ Ἐξηγητικῷ συγκατατίθεται καὶ Αἰσχύλος ἐν Ψυχαγωγοῖς ἐμφαίνει, τὴν Περσεφόνην ἐκδεχόμενος Δαῖραν.</quote>
+            <note type="source">Conf. Eustathium p. 648, 40.</note>
+          </div>
+        </div></body></text>
+</TEI>

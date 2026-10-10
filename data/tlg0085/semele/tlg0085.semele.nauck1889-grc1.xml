@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΣΕΜΕΛΗ Η ΥΔΡΟΦΟΡΟΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.semele; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.semele.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.semele.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:semele"><head xml:lang="grc">ΣΕΜΕΛΗ Η ΥΔΡΟΦΟΡΟΙ</head>
+          <note type="introduction" xml:lang="mul">Σεμέλη ἢ Ὑδροφόρος fabularum index. Schol. Apoll. Rhod. 1, 636 : τὴν Σεμέλην Θυώνην καλοῦσιν, ἐπειδὴ Αἰσχύλος ἔγκυον αὐτὴν παρεισήγαγεν οὖσαν καὶ ἐνθεαζομένην, ὁμοίως δὲ καὶ τὰς ἐφαπτομένας τῆς γαστρὸς αὐτῆς ἐνθεαζομένης. hinc patet argumentum fabulae fuisse mythum quem tradunt Apollod. 3, 4, 3 et Hyginus fab. 179 .</note>
+          <div type="textpart" subtype="fragment" n="221" corresp="urn:cite2:perseus:fragmentaryplays.v1:semele" xml:id="aesch-fr221">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-221-1">Ζεὺς ὃς κατέκτα τοῦτον</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. A Il. Δ 319 de aoristo ἔκταν (cf. Aeschyli fr. 181) : καὶ ἐν Σεμέλῃ ἢ Υσροφόροις ’Ζεὺς — τοῦτον’ . Etym. Gud. p. 305, 31 : τὸ τρίτον ἔκτα, οἷον ’Ζεὺς ὃς κατέκτα’ .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="222" corresp="urn:cite2:perseus:fragmentaryplays.v1:semele" xml:id="aesch-fr222">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-222-1">Ἀμφίδρομος</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 160 : ἀμφίδρομος· Αἰσχύλος Σεμέλῃ ἔπλασε δαίμονα καινὸν (καὶ cod.) περὶ (l. παρὰ) τὰ ἀμφidρόμια, ὡσεὶ ᾤδει (ὠδει/ή codex) ἔλεγες τὸν Γενέθλιον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="223" corresp="urn:cite2:perseus:fragmentaryplays.v1:semele" xml:id="aesch-fr223">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-223-1">ἀνταία</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 209 : ἀνταία· ἐναντία, ἱκέσιός. Αἰσχύλος Σεμέλῃ σημαίνει δὲ καὶ δαίμονα (δαιμόνια Lobeck Aglaoph. p. 121)· καὶ τὴν Ἑκάτην δὲ ἀνταίαν λέγουσιν ἀπὸ τοῦ ἐπιπέμπειν αὐτά . cf. Etym. M. p. 111, 49 : ἀνταία καὶ ἡ Ἑκάτη ἐπιθετικῶς. Διογενειανός, ἱκέσιος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="224" corresp="urn:cite2:perseus:fragmentaryplays.v1:semele" xml:id="aesch-fr224">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-224-1">ἄστεκτα</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 304 : ἄστερκτα· τὰ οὐ δυνάμενα κατασχεθῆναι. Αἰσχύλος Σεμέλῃ . ubi ἄστεκτα Guyetus et al. cf. Anecd. Bekk. p. 456, 1 : ἄστεκτα· ἀβάστακτα, ἀνυπομόνητα, οὐ δυνάμενα κατασχεθῆναι.</note>
+          </div>
+        </div></body></text>
+</TEI>

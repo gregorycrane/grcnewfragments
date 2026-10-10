@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-krisis-nauck1889grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΚΡΙΣΙΣ ΣΑΤΥΡΙΚΗ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0011">Sophocles</author>
+        <editor>August Nauck</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability>
+          <p>Derived scholarly transcription; verify against page images before quotation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>August Nauck, Tragicorum Graecorum Fragmenta, second edition (Leipzig: Teubner, 1889).</bibl>
+        <ptr target="../../../nauck1889/source/nauck1889.tragicorum-graecorum-fragmenta.xml"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Extracted deterministically from nauck.tragfrag-2.xml; repaired the malformed TEI namespace URI.</change>
+    <change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.krisis; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.krisis.nauck1889grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.krisis.nauck1889grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_krisis"><head>ΚΡΙΣΙΣ ΣΑΤΥΡΙΚΗ</head><div type="textpart" subtype="fragment" n="333" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_krisis" xml:id="fragment-krisis-nauck1889grc1-333">
+            <head>333</head>
+            <lg>
+              <l n="1" xml:lang="grc">καὶ δὴ φάρει τῷδ’ ὡς ἐμῷ καλύπτομαι.</l>
+            </lg>
+            <p>Herod. περὶ διχρ. in Anecd. Oxon. vol. 3 p. 295 , 10 : τὸ φάρος
+συστέλλον τὸ A, ὡς παρὰ Σοφοκλεῖ ἐν Κρίσει σατυρικῇ ‘καὶ — καλύπτομαι’ .
+eadem fere Grammaticus Herm. p. 444 . titulus fabulae lacuna
+interceptus est in Herod. π. μον. λέξ. p. 36 , 24 : κατὰ συστολὴν
+παρὰ Σοφοκλεῖ ἐν Τηρεῖ ‘σπεύδουσαν αὐτήν, ἐν δὲ ποικίλῳ φάρει
+τῴδ’ ὡς ἐμ·ῷ καλύπτομαι’ . τῷδ’ ὡς ἔχω coni. F. G. Schmidt Krit.
+Stud. 1 p. 258 .</p>
+          </div>
+          <div type="textpart" subtype="fragment" n="334" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_krisis" xml:id="fragment-krisis-nauck1889grc1-334">
+            <head>334</head>
+            <p>Ath. XV p. 687 C : Σοφοκλῆς δ’ ὁ ποιητὴς ἐν Κρησὶ (Κρίσει
+Tyrwhitt) τῷ δράματι τὴν μὲν Ἀφροδίτην ἡδονήν τινα οὖσαν δαίμονα
+μύρῳ τε ἀλειφομένην παράγει καὶ κατοπτριζομένην, τὴν δ’ Ἀθηνᾶν
+φρόνησιν οὖσαν καὶ νοῦν, ἔτι δ’ ἀρετὴν ἐλαίῳ χριομένην (ita
+pro χρωμένην leg.) καὶ γυμναζομένην.</p>
+          </div>
+        </div></body></text></TEI>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΠΕΛΑΡΓΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.pelargoi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.pelargoi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.pelargoi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi"><head>ΠΕΛΑΡΓΟΙ</head><div type="textpart" subtype="fragment" n="430" xml:id="kock-0019-pelargoi-430" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <lg>
+                <l n="1" xml:id="kock-0019-pelargoi-430-l1" xml:lang="grc">ὁ μὲν ᾖδεν Ἀδμήτου λόγον πρὸς μυρρίνην,</l>
+                <l n="2" xml:id="kock-0019-pelargoi-430-l2" xml:lang="grc">ὁ δ’ αὐτὸν ἠνάγκαζεν Ἁρμοδίου μέλος.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Vesp. 1239 ἐν Πελαργοῖς. μέλος] μέρος V. Zenob. 1, 18 Ἀδμήτου μέλος· τὸ εἰς Ἄδμητον μέλος ᾀδόμενον [πένθιμον]. est autem scolium Ἀδμήτου λόγον, ὦ ’ταῖρε, μαθὼν τοὺς ἀγαθοὺς φίλει, τῶν δειλῶν δ’ ἀπέχου, γνοὺς ὅτι δειλοῖς ὀλίγα χάρις. Harmodii autem notissimum illud ἐν μύρτου κλαδὶ Bergk. PL. scol. 9. 21. Fritzsch. Q. Arist. 48 — 53. Admeti scolium erat Praxillae, Harmodii a Callistrato inventum. canebat in convivio nescio quis Admeti scolium, sed ab altero cogebatur Harmodii carmen canere. Nub. 1356. 1364. Cratin. 236. Eupol. 361.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="431" xml:id="kock-0019-pelargoi-431" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <note type="source">
+                <p>Schol. Plut. 84 Ven. τὸν Πατροκλέα κωμῳδεῖ ὡς Ἀθηναῖον μὲν καὶ πλούσιον, σκνιπὸν δὲ καὶ φειδωλόν. ἦν δὲ τραγῳδίας ποιητής, ἄλλως δὲ καὶ κακόβιος καὶ φιλοχρήματος, ὡς καὶ ἐν Πελαργοῖς εἴρηται περὶ τούτου, ὅστις ἕνεκεν τῆς φειδωλίας οὐδένα εἴα προσίεσθαι φυλακῆς ἕνεκα τῶν χρημάτων καὶ γλίσχρου βίου. in Rav. εἷς ἦν τῶν τὸν Λακωνικὸν βίον ζηλούντων, Ἀθηναῖος πλούσιος μὲν σφόδρα, ἄλλως δὲ κακόβιός τις καὶ φιλοχρήματος καὶ σκνιφὸς κωμῳδεῖται, ὡς ἐν τοῖς Πελαργοῖς. similia Suidas Πατροκλῆς. Fritzschius Q. Arist. 81 ὅστις ἕνεκεν φειδωλίας ἂν οὐδέν’ οἱ | εἴα προσικέσθαι καὶ φυλακῆς τῶν χρημάτων | γλίσχρου βίου τε. facilius meo iudicio ὅστις ἕνεκα τῆς φειδωλίας | οὐδένα προσίει καὶ φυλ. κτλ. Patroclem eundem esse suspicatur Bergkius, quem Stephanus Byz. commemoret Ἀτήνη· δῆμος τῆς Ἀντιοχίδος φυλῆς . . . ὁ δημότης Ἀτηνεύς. Πατροκλῆς Ἀτηνεὺς ἐχορήγει καὶ Παντακλῆς. sed nimis incerta apud Stephanum lectio, siquidem Πατροκλῆς solus A, Προκλῆς PpRV. extrema Meinekius sic redintegrabat ἐχορήγει. [Ἀντιοχὶς ἐνί]κα. Πατροκλῆς [ἐδίδασκεν]. choragicus est titulus.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="432" xml:id="kock-0019-pelargoi-432" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <lg>
+                <l n="1" xml:id="kock-0019-pelargoi-432-l1" xml:lang="grc">ἀπεσημηνάμην</l>
+                <l n="2" xml:id="kock-0019-pelargoi-432-l2" xml:lang="grc">τὰς τῶν κακούργων οἰκίας.</l>
+              </lg>
+              <note type="source">
+                <p>Herodianus Piers. 462 σημεῖον λέγοντες σημειοῦσθαι οὐ λέγομεν, ἀλλ’ ἀποσημαίνεσθαι, ὡς Ἀριστοφάνης ἐν Πελαργοῖς κτλ. Thomas Mag. 337 Ritschl. ἀποσημαίνεσθαι similiter dictum esse videtur ac παρασημαίνεσθαι Demosth. 42, 2 ἀντὶ τοῦ τὰ σημεῖα ἐὰν τῶν οἰκημάτων ἃ παρεσημηνάμην . . . ἀνέωξε. cf. 42, 6. 8. 26. Fritzsch. Q. Arist. 56.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="433" xml:id="kock-0019-pelargoi-433" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <lg>
+                <l n="1" xml:id="kock-0019-pelargoi-433-l1" xml:lang="grc">ἀτταγᾶς ἥδιστον ἕψειν ἐν ἐπινικίοις κρέας.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 387 f Ἀριστοφάνης Πελαργοῖς. ἀττάγας ἑψεῖν A.</note>
+              <note type="apparatus">τοῖς ἐπινικίοις, non ἐν ἐπινικίοις Plato Symp. 174 a, ut τοῖς Παναθηναίοις cet. attamen C. I. 2374 e in eodem titulo et τοῖς θεοξενίοις et ἐν τοῖς θεοξενίοις, et ἐν θεοξενίοις probabiliter restitui Polyzel. 1. ad victoriam scaenicam recte rettulit Suevern. De Arist. Senect. 21 adn.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="434" xml:id="kock-0019-pelargoi-434" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <lg>
+                <l n="1" xml:id="kock-0019-pelargoi-434-l1" xml:lang="grc">κεφαλάς τ’ ἀρνῶν κωλᾶς τ’ ἐρίφων</l>
+              </lg>
+              <note type="source">Athenaeus 9, 368 e Ἀριστοφάνης . . . ἐν Πελαργοῖς. τ’ add. Bergkius.</note>
+              <note type="apparatus">anapaesticus est dim. aut pars tetram.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="435" xml:id="kock-0019-pelargoi-435" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <lg>
+                <l n="1" xml:id="kock-0019-pelargoi-435-l1" xml:lang="grc">βαλανεὺς δ’ ὠθεῖ ταῖς ἀρυταίναις.</l>
+              </lg>
+              <note type="source">Pollux 10, 63 ἀρύταινα . . . Ἀριστοφάνους εἰπόντος κτλ. Moeris 192, 13 βαλανεὺς παρὰ Πλάτωνι καὶ Ἀριστοφάνει Πελαργοῖς.</note>
+              <note type="apparatus">cum βαλανεύς haud rarum sit vocabulum (Eq. 1403. Av. 491. Ran. 710. Plut. 955. cf. Fritzsch. Q. Arist. 65), nequaquam certum est ad Pelargos totum versum pertinere. Bekker. Anecd. 20, 22 ἀρύταινα σκεῦός τι, ᾧ οἱ βαλανεῖς χρῶνται πρὸς τὸ παρέχειν (recte Fritzsch. παραχεῖν), ἀπὸ τοῦ ἀρύεσθαι, ὅ ἐστιν ἀπαντλεῖν. cf. Eq. 1091.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="436" xml:id="kock-0019-pelargoi-436" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <lg>
+                <l n="1" xml:id="kock-0019-pelargoi-436-l1" xml:lang="grc">χαλκώματα, προσκεφάλαια.</l>
+              </lg>
+              <note type="source">Pollux 10, 174 χαλκώματα ἐν μέρει τῶν σκευῶν . . . εἰπόντος Ἀριστοφάνους ἐν Πελαργοῖς κτλ. idem 7, 105 χαλκώματα δ’ Ἀριστοφάνης ἐν Πελαργοῖς καὶ Σφηξὶν (1214) εἴρηκεν.</note>
+              <note type="apparatus">versus est paroemiacus aut exitus tetrametri.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="437" xml:id="kock-0019-pelargoi-437" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <lg>
+                <l n="1" xml:id="kock-0019-pelargoi-437-l1" xml:lang="grc">ἣν γὰρ ἓν’ ἄνδρ’ ἄδικον σὺ διώκῃς, ἀντιμαρτυροῦσι</l>
+                <l n="2" xml:id="kock-0019-pelargoi-437-l2" xml:lang="grc">δώδεκα τοῖς ἑτέροις ἐπισίτιοι.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 247 a ἐπισίτιοι καλοῦνται οἱ ἐπὶ τροφαῖς ὑπουργοῦντες . . . Ἀριστοφάνης Πελαργοῖς κτλ.</note>
+              <note type="apparatus">σὺ διώκης Porson.] συνδιώκης PVL. ἐπισίτιοι] ἐπίσιτοι Dindorf. metrum est Horat. Carm. 1, 4. τοῖς ἑτέροις Herwerdenus Mnem. nov. VI 61 sic interpretatur: ‘si unum inprobum persequeris, tibi contrarium testimonium ferunt duodecim pretio corrupti a reliquis inprobis, qui suam rem agi intellegunt’. recte, nisi quod non pretio corrupti, sed victus gratia id facere dicuntur. pendet autem τοῖς ἑτέροις (κακοῖς) ab ἐπίσιτοι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="438" xml:id="kock-0019-pelargoi-438" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <note type="source">Schol. Plat. 330 Bekk.</note>
+              <p>Μέλητος δὲ τραγῳδίας φαῦλος ποιητής, Θρᾷξ γένος, ὡς Ἀριστοφάνης Βατράχοις, Πελαργοῖς, Λαΐου υἱὸν αὐτὸν λέγων, ἐπεὶ ᾧ ἔτει οἱ Πελαργοὶ ἐδιδάσκοντο καὶ ὁ Μέλητος Οἰδιπόδειαν καθῆκεν, ὡς Ἀριστοτέλης Διδασκαλίαις. cf. fr. 114. 150. Laii filius Meletus dicitur propter insanos puerorum amores, quorum quasi inventor Laius habebatur (Meinek. Q. scen. II 18. Fritzsch. Q. Arist. 45); Thrax autem quia comici peregrinam ei originem exprobrabant. erat ex pago Pitthensium (Plat. Euthyphr. 2b), qui in admittendis ad civitatem peregrinis facillimi esse dicebantur. cum in ultimis demum Aristophanis fabulis commemoretur et a Platone adulescens dicatur, Pelargi inter postremas poetae comoedias referendi sunt.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="439" xml:id="kock-0019-pelargoi-439" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <note type="source">Schol. Plut. 665</note>
+              <p>εἴρηται δὲ καὶ ἐν Πελαργοῖς περὶ αὐτοῦ (Νεοκλείδου) ὅτι ῥήτωρ καὶ συκοφάντης ἐστίν. Suidas proverbium commemorat Νεοκλείδου κλεπτίστερος, quod Hemsterhusius ex Pelargis excerptum esse arbitratur. cf. Eccl. 254. fortasse scripsit καὶ τίς Νεοκλείδου τοῦ τυφλοῦ κλεπτίστερος;</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="440" xml:id="kock-0019-pelargoi-440" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <lg>
+                <l n="1" xml:id="kock-0019-pelargoi-440-l1" xml:lang="grc">ὀβολίας ἄρτους</l>
+              </lg>
+              <p>τοὺς ὀβολοῦ πωλουμένους. Ἀριστοφάνης Πελαργοῖς. Bekker. Anecd. 111, 7. cf. Pherecr. 55. Aristoph. fr. 103. scribendum videtur ὀβολιαίους ἄρτους. nam prorsus diversi sunt ἄρτοι ὀβελίαι, i. e. ἐπ' ὀβελῶν ὀπτώμενοι et ὀβολιαῖοι, qui obolo venibant.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="441" xml:id="kock-0019-pelargoi-441" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_pelargoi">
+              <lg>
+                <l n="1" xml:id="kock-0019-pelargoi-441-l1" xml:lang="grc">οἰκίσκον</l>
+              </lg>
+              <p>ἐκάλουν οἱ Ἀττικοὶ τὸ ὑφ' ἡμῶν λεγόμενον ὀρνιθοτροφεῖον. Ἀριστοφάνης Πελαργοῖς. Harpocration. Photius οἰκίσκος· περδικοτροφεῖον (cod. παιδικοτρ.) Ἀριστοφάνης Πελαργοῖς. cf. fr. 405.</p>
+              <p>Ad Pelargos praeterea Fritzschius Q. Arist. 81 refert fr. 669.</p>
+            </div>
+          </div></body></text></TEI>

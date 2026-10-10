@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-peliades-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΠΕΛΙΑΔΕΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.peliades; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.peliades.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.peliades.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades"><head>ΠΕΛΙΑΔΕΣ</head><div type="textpart" subtype="fragment" n="1_2" xml:id="fragment-peliades-dindorf1893_grc1-1_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:601">
+            <note type="source">1, 2. Eurip. Med. 688.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τί χρῆμα δράσας; φράζε μοι σαφέστερον.</l>
+            </lg>
+            <note type="commentary">ad quem locum Schol. adnotat: σεσημείωται ὁ στίχος, ὅτι καὶ ἐν Πελιάσιν ἐστὶν, ὧν ἡ ἀρχή· Μήδεια, πρὸς μὲν δώμασιν τυραννικοῖς – Ita ex correctione Valck. Diatr. p. 200 legitur pro vulg. πολιάσιν ἄρχει μήδεια-δώμασι. Haud dubie Welck. recte prologum Medeæ tribuit et ad eundem refert versum, quem sine auctoris et fabulæ nomine citat Chœrobosc. ad Theodos. apud Bekk. An. Gr. p. 1309 b. (a Bekkero etiam p. 1447 Euripidi vindicatum):</note>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Αἴσωνος υἱὸς Κρηθέως ἀφ᾽ αἵματος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-peliades-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:606">
+            <note type="source">3. Orion. Anthologn. (farrag. Eurip. nr. 5. post tit. VIII.) p. 55 ed. Schneidew. Stob. Ecl. Ethic. II, p. 336 ed. Heer.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ ἔστι τὰ θεῶν ἄδικ᾽, ἐν ἀνθρώποισι δὲ</l>
+              <l n="2" xml:lang="grc">κακοῖς νοσοῦντα σύγχυσιν πολλὴν ἔχει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-peliades-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:604">
+            <note type="source">4. Stobæus Floril. III, 22. Schol. Pind. Pyth. II, 173.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πρὸς κέντρα μὴ λάκτιζε τοῖς κρατοῦσί σου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-peliades-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:605">
+            <note type="source">5. Stobæus XLIX, 7.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὸ δ᾽ ἔσχατον δὴ τοῦτο θαυμαστὸν βροτοῖς,</l>
+              <l n="2" xml:lang="grc">τυραννίς· οὐχ εὕροις ἂν ἀθλιώτερον.</l>
+              <l n="3" xml:lang="grc">φίλους τε πορθεῖν καὶ κατακτανεῖν χρεών·</l>
+              <l n="4" xml:lang="grc">πλεῖστος φόβος πρόσεστι, μὴ δράσωσί τι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-peliades-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades">
+            <note type="source">6. Stobæus LXXIV, 26.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Αἰνῶ˙ διδάξαι δ᾽, ὦ τέκνον, σὲ βούλομαι</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-peliades-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:607">
+            <note type="source">7. Stobæus XCII, 4.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁρῶσι δ᾽ οἱ διδόντες εἰς τὰ χρήματα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-peliades-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:616">
+            <note type="source">8. Æl. Hist. An. VII, 47. τῶν δὲ ὑστρέχων καὶ τῶν τοιούτων ἀγρίων τὰ ἔκγονα ὄβρια καλεῖται καὶ μέμνηται Εὐριπίδης ἐν Πελιάσι τοῦ ὀνόματος καὶ Αἰσχύλος ἐν Ἀγαμέμνονι καὶ Δικτυουλκοῖς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-peliades-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:610">
+            <note type="source">9. Joan. Damasc. in Gaisf. Append. ad Stobæum vol. IV. p. 12, Εὐριπίδου Πελιάσι·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φθείρου· τὸ γὰρ δρᾶν οὐκ ἔχων λόγους ἔχεις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-peliades-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:609">
+            <note type="source">10. Ibid. p. 20, et p. 33.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁ γὰρ ξυνὼν, κακὸς μὲν ἦν τύχῃ γεγὼς,</l>
+              <l n="2" xml:lang="grc">τοιούσδε τοὺς ξυνόντας ἐκπαιδεύεται,</l>
+              <l n="3" xml:lang="grc">χρηστοὺς δ᾽ ὁ χρηστός· ἀλλὰ τὰς ὁμιλίας</l>
+              <l n="4" xml:lang="grc">ἐσθλὰς διώκειν, ὦ νέοι, σπουδάζετε.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-peliades-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:608">
+            <note type="source">11. Ibid. p. 31.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐν τοῖσι μὲν δεινοίσιν ὡς φίλοι φίλων</l>
+              <l n="2" xml:lang="grc">ὅταν δὲ πράξωσ᾽ εὐ, διωθοῦνται χάριν,</l>
+              <l n="3" xml:lang="grc">αὐτοὶ δι᾽ αὑτοὺς εὐτυχεῖν ἡγούμενοι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-peliades-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades">
+            <note type="source">12. Hesych. Ἀρταμεῖν, κατακόπτειν. Εὐριπίδης Πολιάσιν. (sic). Idem Ἀντεμμάσσασθαι, ἀνταποδοῦναι, ἐπιπλῆξαι. Εὐριπίδης Πολιάσιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-peliades-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:613">
+            <note type="source">13. Lexic. Sangermann. in Bekk. An. Gr. p. 95, 23. Εὐστόχως. Εὐριπίδης Πελιάσιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-peliades-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:615">
+            <note type="source">14. Ibid. p. 106, 27. Λύσιμον θηλυκῶς λέγει Εὐριπίδης Πελιάσιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-peliades-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peliades" sameAs="urn:cts:greekLit:tlg0006.peliades.nauck1889grc1:614">
+            <note type="source">15. Schol. Plat. p. 137 Ruhnk. Κατηβολὴ, τὸ ἐπιβάλλον. Εὐριπίδης Τημένῳ καὶ Πελιάσι. Vide et Elms. ad Eur. Me. 1019, 20.</note>
+          </div>
+        </div></body></text></TEI>

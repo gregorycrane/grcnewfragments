@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΠΡΟΑΓΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.proagon.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.proagon.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.proagon.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_proagon"><head>ΠΡΟΑΓΩΝ</head><div type="textpart" subtype="fragment" n="461" xml:id="kock-0019-proagon-461" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_proagon">
+              <lg>
+                <l n="1" xml:id="kock-0019-proagon-461-l1" xml:lang="grc">ἐγευσάμην χορδῆς ὁ δύστηνος τέκνων·</l>
+                <l n="2" xml:id="kock-0019-proagon-461-l2" xml:lang="grc">πῶς ἐσίδω ῥύγχος περικεκαυμένον;</l>
+              </lg>
+              <note type="source">Athenaeus 3, 95d Ἀριστοφάνης Προάγωνι κτλ. τέκνων A] τέκνον VL. κύων iam ante Cobetum (Mnem. VIII 35. 6) Iacobs. Addit. Ath. 65. 2. σ᾽ (post πῶς) add. Dobr. ἐσίδω A] εἰσίδω. περικεκαυμένον] πέριξ κεκαυμένον? Dindf.</note>
+              <note type="apparatus">Iacobsius de proverbio cogitabat χαλεπὸν χορίων κύνα γεῦσαι. non recte: ridet enim poeta haud dubie Euripidis Thyesten (quae tragoedia acta erat Ol. 85, 2) funestas liberorum dapes agnoscentem. propterea alterum versum dimetrum esse dochmiacum Bergkio credo, scribendum vero existimo πῶς σφ᾽ ἐσίδω ῥύγχος περικεκαυμένος; videntur enim in Proagone Thyestae non liberorum carnes adpositae fuisse, sed ut comoediae conveniebat, farcimen a liberis confectum (χορδὴ τέκνων). in quo edendo cum labra sibi adusserit, exclamat ‘qui possum liberos adspicere, labra adustus?’</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="462" xml:id="kock-0019-proagon-462" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_proagon">
+              <lg>
+                <l n="1" xml:id="kock-0019-proagon-462-l1" xml:lang="grc">οἴμοι τάλας, τί μου στρέφει τὴν γαστέρα;</l>
+                <l n="2" xml:id="kock-0019-proagon-462-l2" xml:lang="grc">βάλλ᾽ ἐς κόρακας. πόθεν ἂν λάσανα γένοιτό μοι;</l>
+              </lg>
+              <note type="source">Pollux 10, 44 ὅτι δὲ οὐ μόνον ἐπὶ τοῦ ἀκινήτου ἀποπάτου τὰ λάσανα ὀνομαστέον, ἀλλὰ καὶ ἐπὶ τοῦ τιθεμένου καὶ ἀναιρουμένου, μαρτυροῦσιν Ἀριστοφάνης μὲν ἐν Προάγωνι εἰπών κτλ. Antiphan. 176, 4 confert Bergkius.</note>
+              <note type="apparatus">ὁ τάλας idem videtur esse, cuius erat fr. 461. βάλλ᾽ ἐς κόρακας fortasse alteri personae tribuenda.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="463" xml:id="kock-0019-proagon-463" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_proagon">
+              <lg>
+                <l n="1" xml:id="kock-0019-proagon-463-l1" xml:lang="grc">κάμνοντα δ’ αὐτὸν τοῦ θέρους ἰδών ποτε</l>
+                <l n="2" xml:id="kock-0019-proagon-463-l2" xml:lang="grc">ἔτρωγ’, ἵνα κάμνοι, σῦκα τῆς μεσημβρίας.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 80a ἄλλοι δέ φασιν ὅτι μὴ δεῖ σῦκα προσφέρεσθαι μεσημβρίας· νοσώδη γὰρ εἶναι τότε . . . Ἀριστοφάνης δ’ ἐν Προάγωνι κτλ.</note>
+              <note type="apparatus">significatur nescio quis alteri tanto amore coniunctus, ut cum eum aegrotantem vidisset, ipse vellet aegrotare. cf. Pherecr. 80.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="464" xml:id="kock-0019-proagon-464" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_proagon">
+              <lg>
+                <l n="1" xml:id="kock-0019-proagon-464-l1" xml:lang="grc">ὥρα βαδίζειν μοὐστὶν ἐπὶ τὸν δεσπότην·</l>
+                <l n="2" xml:id="kock-0019-proagon-464-l2" xml:lang="grc">ἤδη γὰρ αὐτοὺς οἴομαι δεδειπνάναι.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 422e δεδειπνάναι . . . Ἀριστοφάνης ἐν Προάγωνι κτλ.</note>
+              <note type="apparatus">μοὐστὶν ἐπὶ Bergk.] μοι ’στὶν ἐπὶ PV. μοι ’στὶ πρὸς L. recte ἐπί: videtur enim servus loqui, qui erum a convivio alienae domi habito domum deducere parat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="465" xml:id="kock-0019-proagon-465" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_proagon">
+              <lg>
+                <l n="1" xml:id="kock-0019-proagon-465-l1" xml:lang="grc">ὁ δ’ ἀλφίτων γε πριάμενος τρεῖς χοίνικας</l>
+                <l n="2" xml:id="kock-0019-proagon-465-l2" xml:lang="grc">κοτύλης δεούσας εἴκοσ’ ἀπολογίζεται.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 478f Ἀθηναῖοι δὲ μέτρον τι καλοῦσι κοτύλην . . . Ἀριστοφάνης Προάγωνι κτλ. epitome ἀλφίτων χοίνικας τρεῖς κοτύλης δεούσας, ac sic Eustathius 1282, 53.</note>
+              <note type="apparatus">1. γε add. Schweighaeuserus. at quidni δὴ vel μοι? 2. δεούσας] δὲ οὔσης B. δεούσης Casaub. non recte. εἴκοσ’ L, membranae Italicae Casauboni, B] οἴκαδ’ A. Dobraeus ἑκτέα λογίζεται. de fraudulento promo condo haec dicta esse Bergkius arbitratur: is non plenas tres choenices quas emerat ero pro viginti choenicibus (vel pro octo, si Dobraeum sequaris) in rationem induxerat. quattuor autem κοτύλαι choenicem, octo choenices ἑκτέα efficiunt. Hultsch. Metrol. 83. ἀπολογίζεται, ut Xen. Hell. 6, 1, 3 τἄλλα διοικῶν ἀπελογίζετο κατ’ ἐνιαυτόν. Oecon. 9, 8 δίχα τὰ εἰς ἐνιαυτὸν ἀπολελογισμένα κατέθεμεν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="466" xml:id="kock-0019-proagon-466" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_proagon">
+              <lg>
+                <l n="1" xml:id="kock-0019-proagon-466-l1" xml:lang="grc">τί οὐκ ἐκέλευσας παραφέρειν τὰ ποτήρια;</l>
+              </lg>
+              <note type="source">Athenaeus 9, 380d παραφέρειν . . . Ἀριστοφάνης ἐν Προάγωνι κτλ.</note>
+              <note type="apparatus">cf. fr. 502. erus compellari videtur a conviva aliquo morae inpatienti.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="467" xml:id="kock-0019-proagon-467" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_proagon">
+              <lg>
+                <l n="1" xml:id="kock-0019-proagon-467-l1" xml:lang="grc">σταθερὰ δὲ κάλυξ νεαρᾶς ἥβης</l>
+              </lg>
+              <note type="source">Photius et Suidas σταθερόν . . . τινὲς καὶ ἐπὶ τοῦ στασίμου,</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="468" xml:id="kock-0019-proagon-468" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_proagon">
+              <note type="source">
+                <p>Schol. Lucian. 140 Iacob. ὁ Φρυνώνδας ἐπὶ πονηρίᾳ βοᾶται Εὐπόλιδι ἐν Ἀστρατεύτοις, Δήμοις, Ἀριστοφάνει δὲ Προάγωνι. cf. fr. 26. Eupol. 39. 127.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="469" xml:id="kock-0019-proagon-469" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_proagon">
+              <lg>
+                <l n="1" xml:id="kock-0019-proagon-469-l1" xml:lang="grc">ἐν πίθῳ τὴν κεραμείαν</l>
+              </lg>
+              <note type="apparatus">
+                <p>παροιμία . . . ἐπὶ τῶν τὰς πρώτας μαθήσεις ὑπερβαινόντων, ἁπτομένων δὲ τῶν μειζόνων καὶ ἤδη τῶν τελειοτέρων. κέχρηται δὲ αὐτῇ Ἀριστοφάνης ἐν Προάγωνι. Schol. Plat. 322 Bekker. Zenob. 3, 65 et Diogenian. 2, 65 . . . ὡς εἴ τις μανθάνων κεραμεύειν, πρὶν μαθεῖν πίνακας ἢ ἄλλο τι τῶν μικρῶν πλάττειν, πίθῳ ἐγχειροίη. cf. etiam Gregor. Cypr. Mosq. 3, 28. Macar. 3, 90. Apostol. 7, 32. Schneidewin. Paroemiogr. praef. XVI. usus est Plato Lach. 187 b. Gorg. 514 e.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="470" xml:id="kock-0019-proagon-470" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_proagon">
+              <lg>
+                <l n="1" xml:id="kock-0019-proagon-470-l1" xml:lang="grc">ἀντλίον</l>
+              </lg>
+              <note type="source">
+                <p>Bekker. Anecd. 411, 17 ἀντλιαντλητῆρα . . . Ἀριστοφάνης δὲ Προάγωνι καὶ Ἐπίλυκος Κωραλίσκῳ (fr. 5) τὸ αὐτὸ τοῦτο ἀντλίον κεκλήκασιν.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-phrixos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΦΡΙΞΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.phrixos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.phrixos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.phrixos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phrixos"><head>ΦΡΙΞΟΣ</head><div type="textpart" subtype="fragment" n="646" xml:id="fragment-phrixos-dindorf1893_grc1-646" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phrixos">
+            <note type="source">Etymolog. Gud. p. 330, 43. Κνυζῶ :—</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σοφοκλῆς Φρίξῳ “Κυνηδὸν ἐξέπραξαν κνυζούμενον.”</l>
+            </lg>
+            <note type="commentary">Blomfildus, Κυνηδὸν ἐξέκραξαν ὡς κνυζούμενοι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="647" xml:id="fragment-phrixos-dindorf1893_grc1-647" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phrixos" sameAs="urn:cts:greekLit:tlg0011.phrixos.nauck1889grc1:654">
+            <note type="source">Stephanus in Ἄστυ. —προάστιος. οὕτω γὰρ καὶ τὸ θηλυκὸν εὑρίσκεται, προαστία γῆ, ἐν Φρίξῳ Σοφοκλέους</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὅρια κελεύθου τῆσδε γῆς προαστίας.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="648" xml:id="fragment-phrixos-dindorf1893_grc1-648" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phrixos" sameAs="urn:cts:greekLit:tlg0011.phrixos.nauck1889grc1:656">
+            <note type="source">Antiatticista p. 83, 23. Ἀφελής : Σ. Φρίξῳ.</note>
+          </div>
+        </div></body></text></TEI>

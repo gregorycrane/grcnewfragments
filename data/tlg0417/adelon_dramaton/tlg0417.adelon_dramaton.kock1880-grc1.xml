@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARCHIPPUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Archippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0417.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0417.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0417.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="46" xml:id="kock-0417-adelon_dramaton-46" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <head>46</head>
+              <lg>
+                <l n="1" xml:id="kock-0417-adelon_dramaton-46-l1" xml:lang="grc">ἀμαθὴς σοφός, δίκαιος ἄδικος</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 343, 14 ἄδικος· ὁ μὴ ἔχων δίκην διὰ τὸ μὴ δικάζεσθαί τινι. Ἄρχιππος κτλ. καὶ τὸ ἀμαθὴς δὲ ἐνταῦθα ἀντὶ τοῦ μηδὲν φύσει εἰδώς.</note>
+              <note type="apparatus">non omnia recte grammaticus. laudatur homo, qui quamquam sophisticas artes non didicerit sapiens sit, et iustus, quod nullam egerit causam.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="47" xml:id="kock-0417-adelon_dramaton-47" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <head>47</head>
+              <lg>
+                <l n="1" xml:id="kock-0417-adelon_dramaton-47-l1" xml:lang="grc">φέρε καθίζωμ’ ἐνθαδί.</l>
+              </lg>
+              <note type="source">Zonaras 1169, 6 Ἄρχιππος κτλ. καθίζωμ’ ἐνθαδί Meinek.] καθίζωμεν θαδί.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="48" xml:id="kock-0417-adelon_dramaton-48" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <head>48</head>
+              <lg>
+                <l n="1" xml:id="kock-0417-adelon_dramaton-48-l1" xml:lang="grc">ἐωθώς ·</l>
+              </lg>
+              <note type="source">χωρὶς τοῦ ι Ἄρχιππος. Photius et Suidas ἐωθώς. cf. Arar. 18.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="49" xml:id="kock-0417-adelon_dramaton-49" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <head>49</head>
+              <lg>
+                <l n="1" xml:id="kock-0417-adelon_dramaton-49-l1" xml:lang="grc">ἰσόχρυσον</l>
+              </lg>
+              <note type="source">Ἄρχιππος ὁ κωμικὸς εἴρηκε. Pollux 6, 174.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="50" xml:id="kock-0417-adelon_dramaton-50" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <head>50</head>
+              <lg>
+                <l n="1" xml:id="kock-0417-adelon_dramaton-50-l1" xml:lang="grc">ξύστρα</l>
+              </lg>
+              <note type="source">ὄνομα παρὰ Ἀρχίππῳ τῷ κωμικῷ. Herodian. apud Lob. Phrynich. p. 460.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="51" xml:id="kock-0417-adelon_dramaton-51" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <head>51</head>
+              <lg>
+                <l n="1" xml:id="kock-0417-adelon_dramaton-51-l1" xml:lang="grc">τῆς παιδοτριβίας</l>
+              </lg>
+              <note type="source">Ἄρχιππος ὁ κωμικὸς εἴρηκεν. Pollux 3, 154.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="52" xml:id="kock-0417-adelon_dramaton-52" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <head>52</head>
+              <lg>
+                <l n="1" xml:id="kock-0417-adelon_dramaton-52-l1" xml:lang="grc">σιλλοῦν</l>
+              </lg>
+              <note type="source">τοὺς ὀφθαλμοὺς ἠρέμα παραφέρειν. οὕτως Ἄρχιππος. Photius. cf. ἰλλός, ἰλλοῦν, ἰλλώπτειν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="53" xml:id="kock-0417-adelon_dramaton-53" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <head>53</head>
+              <lg>
+                <l n="1" xml:id="kock-0417-adelon_dramaton-53-l1" xml:lang="grc">Σκιάποδες</l>
+              </lg>
+              <note type="source">Λιβυκὸν ἔθνος. οὕτως Ἄρχιππος. Photius. cf. Aristoph. Av. 1552.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="54" xml:id="kock-0417-adelon_dramaton-54" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <head>54</head>
+              <lg>
+                <l n="1" xml:id="kock-0417-adelon_dramaton-54-l1" xml:lang="grc">συμπατριώτης</l>
+              </lg>
+              <note type="source">Ἄρχιππος. Bekker. Anecd. 113, 20. συμπατριώτας Pollux 3, 54. cf. Pherecr. 11.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="43" xml:id="kock-0417-adelon_dramaton-43" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0417-adelon_dramaton-43-l1" xml:lang="grc">ὡς ἡδὺ τὴν θάλατταν ἀπὸ τῆς γῆς ὁρᾶν</l>
+                <l n="2" xml:id="kock-0417-adelon_dramaton-43-l2" xml:lang="grc">ὦ μῆτέρ ἐστι μὴ πλέοντα μηδαμοῦ.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 59, 7 Ἀρχίππου. sic A] Καλλιμάχου Trinc.</note>
+              <note type="apparatus">cf. Meinek. Menandr. p. 86. τὴν A Voss.] μὲν. ἀπὸ τῆς γῆς cod. Franc.] ἀπὸ γῆς. ἀποιγ A. ἀπὸ γῆς εἰσορᾶν Doederl. Spec. ed. Soph. 105. Nauckius contulit Lucret. 2, 1 suave mari magno turbantibus aequora ventis e terra magnum alterius spectare laborem. addo Horat. Epist. 1, 11, 10 Neptunum procul e terra spectare furentem.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="44" xml:id="kock-0417-adelon_dramaton-44" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0417-adelon_dramaton-44-l1" xml:lang="grc">σκαφεῦσι κηπωροῖσι τοῖς τ’ ὀνηλάταις,</l>
+                <l n="2" xml:id="kock-0417-adelon_dramaton-44-l2" xml:lang="grc">καὶ ταῖς γυναιξὶ προσέτι ταῖς ποαστρίαις</l>
+              </lg>
+              <note type="source">Pollux 7, 148 σκαφέας δ’ Ἄρχιππος καλεῖ κτλ. κηπουροῖσι ut formam Atticam praefert Meinekius. cf. Dindorf. Arist. fr. p. 219.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="45" xml:id="kock-0417-adelon_dramaton-45" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0417_adelon_dramaton">
+              <note type="source">Plutarchus Alcib. 1 τῇ δὲ φωνῇ καὶ τὴν τραυλότητα ἐμπρέψαι λέγουσι, καὶ τῷ λάλῳ πιθανότητα παρασχεῖν χάριν ἐπιτελοῦσαν. μέμνηται δὲ καὶ Ἀριστοφάνης αὐτοῦ (Ἀλκιβιάδου) τῆς τραυλότητος .. καὶ Ἄρχιππος τὸν υἱὸν τοῦ Ἀλκιβιάδου σκώπτων βαδίζει, φησί, διακεχλιδώς, θοιμάτιον ἕλκων, ὅπως ἐμφερὴς μάλιστα τῷ πατρὶ δόξειεν εἶναι, κλασαυχενεύεταί τε καὶ τραυλίζεται. Hesych. διακεχλοιδώς· διαρρέων ὑπὸ τρυφῆς. διακεχλιδέναι· θρύπτεσθαι. κλασαυχενεύεται E] κλαυσαυχενεύεται. κλασταυχενεύεται Reiskius.</note>
+              <note type="apparatus">verba ὅπως — εἶναι non poetae videri indicat Sintenis. Meinekius διακ. | ὁδὶ βαδίζει θ. ἕλκ. ὅπ. | μ. δόξει’ ἐμφ. εἶναι πατρί, | κλ. τε καὶ τρ. mutatione paene nulla scribo βαδίζει ... | διακεχλιδώς τε, θοιμάτιον ἕλκων, ὅπως | προσεμφερὴς μάλιστα δόξῃ τῷ πατρί, | κτλ. cf. Aristoph. fr. 460. κλασαυχενεύεται ‘egregie exprimit fractam Alcibiadis in capite gestando mollitiem’. Meinek. conl. Clem. Alex. Paed. 3 p. 294 P.</note>
+            </div>
+          </div></body></text></TEI>

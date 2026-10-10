@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-oikles-nauck1889grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΙΟΚΛΗΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0011">Sophocles</author>
+        <editor>August Nauck</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability>
+          <p>Derived scholarly transcription; verify against page images before quotation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>August Nauck, Tragicorum Graecorum Fragmenta, second edition (Leipzig: Teubner, 1889).</bibl>
+        <ptr target="../../../nauck1889/source/nauck1889.tragicorum-graecorum-fragmenta.xml"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Extracted deterministically from nauck.tragfrag-2.xml; repaired the malformed TEI namespace URI.</change>
+    <change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.oikles; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.oikles.nauck1889grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.oikles.nauck1889grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_oikles"><head>ΙΟΚΛΗΣ</head><div type="textpart" subtype="fragment" n="277" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_oikles" xml:id="fragment-oikles-nauck1889grc1-277">
+            <head>277</head>
+            <lg>
+              <l n="1" xml:lang="grc">λινορραφῆ τυλεῖα</l>
+            </lg>
+            <p>Pollux 10 , 39 : καὶ τύλη δὲ παρ’ Εὐπόλιδι ἔστιν ἰάζοντι ἐν τοῖς
+Κόλαξιν. ἀλλὰ καὶ παρὰ Σοφοκλεῖ ἐν τῷ Ἰοκλεῖ λέγοντι ‘ἀλλὰ καὶ
+λινορραφῆ τυλεῖα’ . quae tanquam Sophoclea perhibentur ἀλλὰ καὶ
+verba ut ex praegressis repetita delevit Fritzsche. eundem locum
+vitiose scriptum affert Pollux 7 , 191 : Σοφοκλῆς δ’ ἔφη ‘κλινοραφὴς
+τυλία’ .</p>
+          </div>
+          <div type="textpart" subtype="fragment" n="278" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_oikles" xml:id="fragment-oikles-nauck1889grc1-278">
+            <head>278</head>
+            <lg>
+              <l n="1" xml:lang="grc">ἀλλ’ ἴθι χαίρων καὶ πράξειας</l>
+              <l n="2" xml:lang="grc">κατὰ νοῦν τὸν ἐμόν</l>
+            </lg>
+            <p>Ar. Eq. 498 : ‘ἀλλ’ ἴθι — ἐμόν’ . ubi Schol. : παρὰ τὸ Σοφόκλειον
+ἐξ Ἰοκλέους (sic V, ἐξ Ἰολάου al.) . verba ἀλλ’ ἴθι χαίρων repetit
+Aristophanes Nub. 510 et Pac. 729 , manifesto hunc locum respicit
+Eq. 548 : ἵν’ ὁ ποιητὴς ἀπίῃ χαίρων, κατὰ νοῦν πράξας, φαιδρὸς
+λάμποντι προσώπῳ .</p>
+            <pb n="196"/>
+            <p>ΙΠΠΟΔΑΜΕΙΑ v. ΟΙΝΟΜΑΟΣ</p>
+          </div>
+        </div></body></text></TEI>

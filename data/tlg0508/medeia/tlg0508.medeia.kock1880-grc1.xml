@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>STRATTIS, ΜΗΔΕΙΑ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Strattis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0508.medeia.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0508.medeia.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0508.medeia.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_medeia"><head>ΜΗΔΕΙΑ</head><div type="textpart" subtype="fragment" n="33" xml:id="kock-0508-medeia-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_medeia">
+              <lg>
+                <l n="1" xml:id="kock-0508-medeia-33-l1" xml:lang="grc">καὶ λέγ' ὅτι μύρον αὐτῇ φέρεις</l>
+                <l n="2" xml:id="kock-0508-medeia-33-l2" xml:lang="grc">τοιοῦτον, οἷον οὐ Μέγαλλος πώποτε</l>
+                <l n="3" xml:id="kock-0508-medeia-33-l3" xml:lang="grc">ἥψησεν, οὐδὲ Δεινίας ἁγύπτιος</l>
+                <l n="4" xml:id="kock-0508-medeia-33-l4" xml:lang="grc">οὔτ' εἶδεν οὔτ' ἐκτήσατο.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 690f <hi rend="italic">μνημονεύει</hi> (Μεγάλλου) <hi rend="italic">Στράττις ἐν Μηδείᾳ</hi> κτλ.</note>
+              <note type="apparatus">
+                <hi rend="italic">αὐτῇ φέρεις</hi> Iacobs.] <hi rend="italic">φέρεις αὐτῇ</hi>. Erfurdt. Observ. 471 <hi rend="italic">φέρεις αὐτῇ μύρον</hi>. 3. <hi rend="italic">Δεινίας</hi> Schweighaeus.] <hi rend="italic">Δινίας</hi>. <hi rend="italic">ἁγύπτιος</hi> (i. e. ὁ Αἰγ.) K.] <hi rend="italic">Αἰγύπτιος</hi>. 4. <hi rend="italic">εἶδεν</hi>] <hi rend="italic">οἶδεν</hi> Meinek. Anal. crit. 337. de unguento Megalleo cf. Pherecr. 140. Aristoph. fr. 536. Diniae nomen homini Aegyptio inditum est, postquam Athenis consedit. cf. Archipp. 25. — sunt verba Medeae Creontis filiae fatalia illa dona mittentis.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="34" xml:id="kock-0508-medeia-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_medeia">
+              <lg>
+                <l n="1" xml:id="kock-0508-medeia-34-l1" xml:lang="grc">οἶσθ' ᾧ προσέοικεν, ὦ Κρέων, τὸ βρέγμα σου;</l>
+                <l n="2" xml:id="kock-0508-medeia-34-l2" xml:lang="grc">ἐγᾧδα· δίνῳ περὶ κάτω τετραμμένῳ.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 467 e <hi rend="italic">Σέλευκος δ' εἰπὼν ἐκπώματος εἶναι γένος τὸν δεῖνον, παρατίθεται Στράττιδος ἐκ Μηδείας</hi> κτλ.</note>
+              <note type="apparatus">
+                <hi rend="italic">βρέγμα</hi> i. q. <hi rend="italic">βρεχμός</hi> Hom. Il. 5, 586. Photius 418, 4 <hi rend="italic">περὶ κάτω</hi> (πκάτω cod. Dobr. 708, in ed. per errorem <hi rend="italic">περικατατραπήσεται</hi>) <hi rend="italic">τραπήσεται· ἀντὶ τοῦ περιτραπήσεται κάτω· συνήθως λέγουσιν</hi>. <hi rend="italic">δίνῳ</hi> Cobet. V. l.² 90] <hi rend="italic">δείνῳ</hi>. cf. Aristoph. Nub. 1474. aliud poculi genus est <hi rend="italic">ἡ δεινιάς</hi>, ab inventore Dinia adpellata. Athen. 11, 467 e. duo conloqui censet Naber. Mnem. nov. VIII 39.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="35" xml:id="kock-0508-medeia-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_medeia">
+              <head>Μυσῶν λείαν</head>
+              <note type="source">παροιμία τίς ἐστιν .., ἣν φησι Δήμων ... τὴν ἀρχὴν λαβεῖν ἀπὸ τῶν καταδραμόντων ἀστυγειτόνων τε καὶ ληστῶν τὴν Μυσίαν</note>
+            </div>
+          </div></body></text></TEI>

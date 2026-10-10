@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΨΥΧΟΣΤΑΣΙΑ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.psychostasia; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.psychostasia.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.psychostasia.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:psychostasia"><head xml:lang="grc">ΨΥΧΟΣΤΑΣΙΑ</head>
+          <note type="introduction" xml:lang="mul">Plutarchus de audiendis poetis c. 2 p. 17 A : ἐπὶ τοῦ Διὸς εἰρηκότος Ὁμήρου ’εν δ’ ἐτίθει δύο κῆρε τανηλεγέος θανάτοιο, τὴν μὲν Ἀχιλλῆος, τὴν δ’ Ἕκτορος ἱπποδάμοιο· ἕλκε δὲ μέσσα λαβών· ῥέπε δ’ Ἕκτορος αἴσιμον ἦμαρ· ᾤχετο δ’ εἰς Ἀίδαο, λίπεν δέ ἑ Φοῖβος Ἀπόλλων’, τραγῳδίαν ὁ Αἰσχύλος ὅλην τῷ μύθῳ περιέθηκεν ἐπιγράψας Ψυχοστασίαν καὶ παραστήσας ταῖς πλάστιγξι τοῦ Διὸς ἔνθεν μὲν Θέτιν, ἔνθεν δὲ τὴν Ἠώ , δεομένας δπὲρ τῶν υἱέων μαχομένων. Schol. A Il. Θ 70 (cf. Eust. Il. p. 699, 31) : κῆρε — τὰς θανατηφόρους μοίρας λέγει· ὁ δὲ Αἰσχύλος νομίσας λέγεσθαι τὰς ψυχάς, ἐποίησε τὴν Ψυχοστασίαν, ἐν ᾗ ἔστιν ὁ Ζεὺς ἱστὰς ἐν τῷ ζυγῷ τὴν τοῦ Μέμνονος καὶ Ἀχιλλέως ψυχήν. Schol. B ibid. : Πορφυρίου. πρὸς Αἰσχύλον Ψυχοστασίαν γράψαντα. Schol. BΤ Il. Χ 209 : κῆρας τὰς μοίρας λέγει, οὐ τὰς ψυχάς, ὡς ἐξεδέξατο φαύλως Αἰσχύλος (ὡς ἐξεδέχετο Αἰσχύλος T) . Eust. Il. p. 1266, 37 : φασὶ δὲ οἱ παλαιοὶ ἐκ τούτου τοῦ χωρίου πεπλάσθαι — τὴν Ψυχοστασίαν τῷ Αἰσχύλῳ κῆρε νοήσαντι τὰς ψυχάς, ὡς καθόλου τοῦ Διὸς ψυχὰς ἱστῶντος. Pollux 4, 130 : ἀπὸ δὲ τοῦ θεολογείου ὄντος ὑπὲρ τὴν σκηνὴν ἐν ὕψει ἐπιφαίνονται θεοί , ὡς ὁ Ζεὺς καὶ οἱ περὶ αὐτὸν ἐν Ψυχοστασίᾳ . ἡ δὲ γέρανος μηχάνημά ἐστιν ἐκ μετεώρου καταφερόμενον ἐφ’ ἁρπαγῇ σώματος, ᾧ κέχρηται Ἠὼς ἁρπάζουσα τὸ σῶμα τοῦ Μέμνονος.</note>
+          <div type="textpart" subtype="fragment" n="279" corresp="urn:cite2:perseus:fragmentaryplays.v1:psychostasia" xml:id="aesch-fr279">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-279-1">ἀνηκίδωτοι</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 199 : ἀνηκίδωτοιἀνηκίδοτοι· ἄνευ ἀκίδος. Αἰσχύλος Ψυχοστασίᾳ . Anecd. Bekk. p. 402, 25 : ἀνηκίδωτοι· ἄνευ ἀκίδος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="280" corresp="urn:cite2:perseus:fragmentaryplays.v1:psychostasia" xml:id="aesch-fr280">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-280-1">αὐριβάτας</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 323 : αὐριβάτας. Αἰσχύλος τὸ αὖριαὔριον ἐπὶ τοῦ ταχέως τίθησι. καὶ ὁ αὐτὸς Ψυχοστασίᾳ οὕτως φησὶ τὸ ὄνομα, ταχυβήμωνταχυβήλων . cf. Anecd. Bekk. p. 464, 9 : αὐρίβατον· τὸ αὖρι τιθέασιν ἐπὶ τοῦ ταχέως καὶ τάχα, οὐκ ἀπὸ τῆς αὔρας, ἀλλὰ κατά τινα βαρβαρικὴν λέξιν, τάχα δὲ καὶ ἀπὸ τοῦ αὔριον.</note>
+          </div>
+        </div></body></text>
+</TEI>

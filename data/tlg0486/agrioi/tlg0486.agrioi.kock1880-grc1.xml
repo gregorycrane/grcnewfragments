@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHERECRATES, ΑΓΡΙΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Pherecrates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0486.agrioi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0486.agrioi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0486.agrioi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi"><head>ΑΓΡΙΟΙ</head><div type="textpart" subtype="fragment" n="7" xml:id="kock-0486-agrioi-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <lg>
+                <l n="1" xml:id="kock-0486-agrioi-7-l1" xml:lang="grc">μὴ θαυμάσης·</l>
+                <l n="2" xml:id="kock-0486-agrioi-7-l2" xml:lang="grc">τῶν γὰρ προτενθῶν ἐσμεν· ἀλλ' οὐκ οἶσθα σύ.</l>
+              </lg>
+              <note type="source">Athenaeus 4, 171 d μνημονεύει αὐτῶν (τῶν προτενθῶν) καὶ Φερεκράτης ἐν Ἀγρίοις. cf. Aristoph. Nub. 1198 cum interpr.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0486-agrioi-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <lg>
+                <l n="1" xml:id="kock-0486-agrioi-8-l1" xml:lang="grc">πρὶν ἀνακυκῆσαι τὰς ἀπίους ἁρπάζετε.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Eccl. 355 et Suid. ἄπιος· ... ἐν ἀγρίοις Φερεκράτει κτλ. ἐπέχει δὲ τὴν γαστέρα ἡ ἀχράς. τὰς Suid. EV] τοὺς Schol. ἁρπάζετε Suid.] ἁρπαζέτω Schol. — de sententia cf. Alexid. 32. in aqua adponebantur pira, ne flaccescerent. eadem de causa, ut videtur, aqua saepius ἀνεκυκᾶτο. 'pira rapitis, priusquam aqua probe laventur'. Toup. Append. Theocr. 7 p. 15.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="9" xml:id="kock-0486-agrioi-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <lg>
+                <l n="1" xml:id="kock-0486-agrioi-9-l1" xml:lang="grc">οὐδ' ἀποπροσωπίζεσθε κυάμοις; Β. πώμαλα.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 433, 18 ἀποπροσωπίζεσθαι· ἀπονίπτεσθαι καὶ σμᾶσθαι τὸ πρόσωπον. οὕτω Φερεκράτης Ἀγρίοις· οὐδ' — πώμαλα. Pollux 2, 48 ἀποπροσωπίζεσθαι δὲ τὸ καθαίρειν τὸ πρόσωπον εἶπε Φερεκράτης οὐδὲ ἀποπροσωπίζεσθε κυάμοις. Hesych. ἀποπροσωπίζεσθαι· ἐκμαλάσσεσθαι τὸ πρόσωπον ἢ ἐσοπτρίζεσθαι. πώμαλα Aristoph. Plut. 66. fr. 346. his verbis μισάνθρωποι illi homines feros de vitae quam agant genere videntur interrogare, quo fortasse etiam pertinet fr. 8.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="10" xml:id="kock-0486-agrioi-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <lg>
+                <l n="1" xml:id="kock-0486-agrioi-10-l1" xml:lang="grc">οὐ γὰρ ἦν τότ' οὔτε Μάνης οὔτε Σηκὶς οὐδενὶ</l>
+                <l n="2" xml:id="kock-0486-agrioi-10-l2" xml:lang="grc">δοῦλος, ἀλλ' αὐτὰς ἔδει μοχθεῖν ἅπαντ' ἐν οἰκίᾳ·</l>
+                <l n="3" xml:id="kock-0486-agrioi-10-l3" xml:lang="grc">εἶτα πρὸς τούτοισιν ἤλουν ὄρθριαι τὰ σιτία,</l>
+                <l n="4" xml:id="kock-0486-agrioi-10-l4" xml:lang="grc">ὥστε τὴν κώμην ὑπηχεῖν θιγγανουσῶν τὰς μύλας.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 263 b Φερεκράτης ἐν Ἀγρίοις. Eustath. 1885, 29 ἤλων ὄρθριαι τὰ σιτία. 2. αὐτὰς] αὐτοὺς B. at cf. v. 4. ἅπαντ' ἐν οἰκίᾳ Canterus Nov. 1. 4, 5] ἅπαντα ταὐτῇ οἰκίᾳ V. ἅπαντα τὰν τῇ οἰκίᾳ PL. 3. ἤλουν Piers. Moer. 81] ἥλων A, ἤλων C et</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0486-agrioi-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <lg>
+                <l n="1" xml:id="kock-0486-agrioi-11-l1" xml:lang="grc">οἶμαι δ’ αὐτὸν κινδυνεύειν εἰς τὴν Αἴγυπτον * * *</l>
+                <l n="2" xml:id="kock-0486-agrioi-11-l2" xml:lang="grc">οἴκους λέξεις, ἵνα μὴ ξυνέχῃ τοῖσι Λυκούργου πατριώταις.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Av. 1294 <foreign xml:lang="grc">φαίνονται τὸν Λυκοῦργον Αἰγύπτιον εἶναι νομίζοντες ἢ τὸ γένος ἢ τοὺς τρόπους. Φερεκράτης Ἀγρίοις</foreign>.</p>
+              </note>
+              <note type="apparatus">
+                <p>incredibilia de his versibus protulerunt Portus (cf. quae Dindorfius ad schol. Ar. adnotavit), Bergkius Comment. crit. I 27, Herwerdenus Obs. crit. 8 et Mnemos. nov. VI 56. recte Bothius voce <foreign xml:lang="grc">οἴκους</foreign> facile expelli potuisse statuit <foreign xml:lang="grc">ἀποικεῖν</foreign>. quo recepto scribendum videtur</p>
+                <lg>
+                  <l n="1_2" xml:id="kock-0486-agrioi-11-l1_2" xml:lang="grc">Α. οἶμαι δ’ αὐτὸν κινδυνεύσειν εἰς τὴν Αἴγυπτον ἀποικεῖν.</l>
+                  <l n="2_2" xml:id="kock-0486-agrioi-11-l2_2" xml:lang="grc">Β. εἰκός γ’· ἔξεισ’, ἵν’ Ἄρη ξυνάγῃ τοῖσι Λυκούργου πατριώταις.</l>
+                </lg>
+                <p>Plat. Phileb. 31 d <foreign xml:lang="grc">πάνυ λέγεις εἰκός</foreign>. atque <foreign xml:lang="grc">εἰκός γε</foreign> in conloquio respondentis apud Platonem frequentissimum. <foreign xml:lang="grc">Ἄρη συνάγειν</foreign> ab Homero mutuatus est. Il. 2, 381. 19, 275. cf. 5, 861. 14, 149. 448. Phot. <foreign xml:lang="grc">πατριώτης ὁ βάρβαρος λέγεται τῷ βαρβάρῳ καὶ οὐ πολίτης. πατριῶται· οἱ δοῦλοι τῶν Ἑλλήνων. πολῖται δὲ οἱ ἐλεύθεροι· οἱ δὲ τοὺς βαρβάρους πατριώτας</foreign>. Hesych. <foreign xml:lang="grc">πατριώτης· παρὰ Ἀθηναίοις ὁ βάρβαρος καὶ οὐ πολίτης</foreign>. cf. Cobet V. 1.<hi rend="superscript">2</hi> 244. itaque hoc ipso vocabulo Lycurgus <foreign xml:lang="grc">ὡς ξένος καὶ βάρβαρος κωμῳδεῖται</foreign>. quis sit <foreign xml:lang="grc">αὐτός</foreign> v. 1, ignoramus. quem postquam eorum qui conloquuntur alter in Aegyptum migraturum esse dixit, alter adsen-tiens ‘credo’ inquit ‘proficiscetur scilicet ut bellum inferat Lycurgi popularibus’, i. e. Aegyptiis. cf. Cratin. 30.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0486-agrioi-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <lg>
+                <l n="1" xml:id="kock-0486-agrioi-12-l1" xml:lang="grc">ὅδε δὴ δελφίς ἐστι μολιβδοῦς δελφινοφόρος τε κεροῦχος,</l>
+                <l n="2" xml:id="kock-0486-agrioi-12-l2" xml:lang="grc">ὃς διακόψει τοὔδαφος αὐτῶν ἐμπίπτων καὶ καταδύων.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Eq. 762 <foreign xml:lang="grc">δηλοῦται δὲ καὶ ὑπὸ Φερεκράτους ἐν τοῖς Ἀγρίοις ὅταν λέγῃ· ὁ δὲ κτλ. ὅδε Κ. κεροῦχος, ὃς Salma-</foreign>
+                </p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="kock-0486-agrioi-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <head>5</head>
+              <lg>
+                <l n="1" xml:id="kock-0486-agrioi-5-l1" xml:lang="grc">ἢ μὴν σὺ σαυτὸν μακαριεῖς, ὦ ᾽τάν, ὅταν</l>
+                <l n="2" xml:id="kock-0486-agrioi-5-l2" xml:lang="grc">οὗτοί σε κατορύττωσιν. Β. οὐ δῆτ᾽· ἀλλ᾽ ἐγὼ</l>
+                <l n="3" xml:id="kock-0486-agrioi-5-l3" xml:lang="grc">τούτους πρότερον· οὗτοι δὲ μακαριοῦσ᾽ ἐμέ.</l>
+                <l n="4" xml:id="kock-0486-agrioi-5-l4" xml:lang="grc">καίτοι πόθεν ληνοὺς τοσαύτας λήψομαι;</l>
+              </lg>
+              <note type="source">Pollux 10, 150 σοροποιοῦ σκεύη σορός . . ληνός . . . Φερεκράτης ἐν τοῖς Ἀγρίοις. ὦ τῶν addidit Bentleius. μακαριοῦσ᾽ ἐμέ Κ.] μακαριοῦσί με vel μακαριοῦσιν ἐμέ.</note>
+              <note type="apparatus">sententiam optime explicavit Bentleius ‘cum laudasset nescio quis fortunas suas cum ob alia tum ob firmam credo valetudinem, etsi strenue nepotaretur, hunc alter excipiens ita vero, ait εἰρωνικῶς, tum fortunas tuas laudabis, cum cognati tui te mox sepelient. non, non, subiungit ille; equidem eos omnes componam, et illi μακαριοῦσί με, superstitem et sanum’.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" xml:id="kock-0486-agrioi-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <head>6</head>
+              <lg>
+                <l n="1" xml:id="kock-0486-agrioi-6-l1" xml:lang="grc">φέρ᾽ ἴδω, κιθαρῳδὸς τίς κάκιστος ἐγένετο;</l>
+                <l n="2" xml:id="kock-0486-agrioi-6-l2" xml:lang="grc">Β. ὁ Πεισίου Μέλης. Α. μετὰ δὲ Μέλητα τίς;</l>
+                <l n="3" xml:id="kock-0486-agrioi-6-l3" xml:lang="grc">Β. ἔχ᾽ ἀτρέμ᾽, ἐγᾧδα, Χαῖρις.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="13" xml:id="kock-0486-agrioi-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <lg>
+                <l n="1" xml:id="kock-0486-agrioi-13-l1" xml:lang="grc">ἐνθρύσκοισι καὶ βρακάνοις</l>
+                <l n="2" xml:id="kock-0486-agrioi-13-l2" xml:lang="grc">καὶ στραβήλοις ζῆν· ὁπόταν δ'</l>
+                <l n="3" xml:id="kock-0486-agrioi-13-l3" xml:lang="grc">ἤδη πεινῶσι σφόδρα,</l>
+                <l n="4" xml:id="kock-0486-agrioi-13-l4" xml:lang="grc">ὡσπερεὶ τοὺς πουλύποδας</l>
+                <l n="5" xml:id="kock-0486-agrioi-13-l5" xml:lang="grc">5 * * * νύκτωρ περιτρώ-</l>
+                <l n="6" xml:id="kock-0486-agrioi-13-l6" xml:lang="grc">γειν αὑτῶν τοὺς δακτύλους.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 316 e λέγουσι δὲ καὶ ὡς ἂν ἀπορήσῃ τροφῆς (ὁ πουλύπους) αὑτὸν κατεσθίει. ὧν εἷς ἐστι καὶ ὁ κωμωδιοποιὸς Φερεκράτης κτλ. ἐν τοῖς ἐπιγραφομένοις Ἀγρίοις .. Pollux 6, 45 τὰς δὲ κοτινάδας ἐλάας στραβήλους (τραμβύλους Α) ὠνόμασε Φερεκράτης.</note>
+              <note type="apparatus">4. ὡσπερεὶ] ὡσπερὶ Α. ὡς περὶ Β. πουλύποδας Schweighaeuserus] πολύποδας. Attici semper πουλύπους, numquam πολύπους. v. 5. lacunam statuit Dobraeus Aristoph. Nub. 518 p. 22. Addend. 120, cuius etiam in describendis versibus rationem secutus sum: namque haud raro versus Eupolideus in duo versus ita dividitur, ut priorem partem saepius repetitam altera tamquam clausula sequatur. cf. fr. 96. ἔνθρυσκον, non ἄνθρ., etiam Theophr. H. pl. 7, 7, 1 ἔνθρυσκον ἡδύοσμον. βράκανον syllabam primam corripere videtur Meinekio; apud poetas alibi non invenitur. v. 5 νύκτωρ ἀνστάντας Bergk. R. c. Att. 303. at surgere non opus est eum qui sibi digitos circumrodit. Herwerd. Mnem. nov. VI 56 τοὺς πόδας νύκτωρ. fort. ῥυζῶντας (ῥύζοντας) νύκτωρ. cf. Hermipp. 24. describit his verbis poeta victum τῶν ἀγρίων.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="14" xml:id="kock-0486-agrioi-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <note type="source">Schol. Aristoph. Vesp. 1509 εἰς σμικρὸν τὸν Ξενοκλέα (Φιλοκλέα Ald.), καὶ τὸ φαλάγγιον μικρὸν καὶ συνεστραμμένον. δῆλον δὲ ἐκ τῶν Φερεκράτους Ἀγρίων (sic Flor. Christ. pro ἀγγείων)· καὶ Καρκίνος μέν τις ἦν Θωρυκίου υἱός. ἦσαν δὲ αὐτῷ τρεῖς τινες μικροὶ κομῆται τότε καὶ νῦν εἰσι μικροὶ καὶ (om. καὶ Ald.) κομῆται. φίλαρχοι τότε παῖδες ἦσαν ὄντες νῦν φιλαρχικώτεροι. μὰ τὸν Δί' οὐ τρεῖς τε ἐκεῖνοί εἰσιν οἱ τέτταρες. οἱ τέσσαρες V. ἢ τέσσαρες G. in tetrametros trochaicos redegit Meinekius I 515:</note>
+              <lg>
+                <l n="1" xml:id="kock-0486-agrioi-14-l1" xml:lang="grc">τρεῖς τινες μικροί κομῆται καὶ φιλαρχικοί (φιλορχ. ΙΙ 259) τότε</l>
+                <l n="2" xml:id="kock-0486-agrioi-14-l2" xml:lang="grc">παῖδες ὄντες· νῦν δέ γ' εἰσὶ καὶ φιλαρχικώτεροι (φιλορχ.).</l>
+                <l n="3" xml:id="kock-0486-agrioi-14-l3" xml:lang="grc">Β. ἀλλὰ μὰ Δί' οὐ τρεῖς ἐκεῖνοί γ' εἰσίν, ἀλλὰ τέτταρες.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="15" xml:id="kock-0486-agrioi-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <head>Ἀντρώνιος ὄνος</head>
+              <note type="source">
+                <p>ἐπὶ τῶν μεγάλων καὶ ἀγρίων καὶ ἀνενεργήτων. ἐν Ἄντρωνι γάρ, ὥς φησι Φερεκράτης, μεγάλοι ὄνοι ἐγίνοντο. Diogenian. 1, 26. nomen fabulae addunt B (ἐν Ἀκρίοις) A (Ἀγρίοις ut videtur). Harpocr. 24 adn. Bekk. lin. 5 (ex cod. Marc.) ἀντρώνειος ὄνος παρὰ φερεκράτη. ἔστι δὲ παροιμία λεγομένη ἐπὶ τῶν μεγάλων μὲν ὄντων, ἀνοήτων δέ. alii ὄνον ἀλέτην dici putabant. cf. Meinek. Steph. Byz. Ἀντρών. falluntur omnes: unus recte interpretatur Strabo 9, 435: κατὰ δὲ τὸν Ἀντρῶνα (oppidum est Thessaliae, Bursian. Geogr. gr. I 81) ἕρμα ὕφαλον ἐν τῷ πρὸς Εὐβοίᾳ ἐστὶ πόρῳ, καλούμενον ὄνος Ἀντρῶνος. ceterum ἡ (Strab. ὁ) Ἀντρών ὀξύνεται Herodian. I 35, 2. cf. II 643, 12. 728, 17. 29 Lentz.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="16" xml:id="kock-0486-agrioi-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <head>βύρσης γλευκαγωγοῦ</head>
+              <note type="source">
+                <p>Φερεκράτης εἴρηκεν ἐν Ἀγρίοις. Pollux 7, 193. i. e. ‘corii mustum tenentis’.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="17" xml:id="kock-0486-agrioi-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <head>γέρροις ἀποσταυροῦνται</head>
+              <note type="source">
+                <p>ἐπὶ φυλακῆς τινος . . . ἐν τοῖς Ἀγρίοις Φερεκράτους. Schol. Lucian. p. 220 Iacobitz. γέρρα sunt crates vimineae (Fest. p. 94 Muell.), quibus ductis sibi locum a communi reliquorum hominum usu secludebant. cf. Eupol. 405.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="18" xml:id="kock-0486-agrioi-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_agrioi">
+              <note type="source">
+                <p>Etym. m. 753, 7 Φερεκράτης Ἀγρίοις (ἀγροῖς VM)· τερθρία μέντοι πνοη διὰ τοῦ ι, ἡ ὀπισθία. cod. M τερθρι (suprascr. α) μέντοι πνοὴ διὰ τοῦ ι ἡ ὀπισθία σοφοκλῆς κη (suprascr. δ) κενὸν ἐωρα 3. itaque τερθρία πνοή ex Sophoclis Cedalione sumpta existimant Gaisfordius et Schneidewinius (G. g. A. 1848, 1786). Nauck. progr. Ioachim. 1855, 20 τερθρεία — ἀντὶ τοῦ κενοσπουδία, παρὰ τὸ τερθρεύειν καὶ τερθρευόμενος κενὸν ἑώρα 3 φερεκράτης ἀγροῖς τερθρία μέντοι πνοὴ διὰ τοῦ ι ἡ ὀπισθία σοφοκλῆς κη (suprascr. δ). Sophoclis igitur est τερθρία πνοή, Pherecratem Nauckius dixisse suspicatur τερθρευόμενος κενὸν ὡράξει. cf. Cratin. 272. Hermipp. 42. Eupol. 358. τερθρεύειν quomodo ex τερατεύειν formatum sit docet Lobeck Pathol. el. I 226.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΗΔΩΝΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.edonoi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.edonoi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.edonoi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:edonoi"><head>ΗΔΩΝΟΙ</head>
+          <pb n="596" facs="urn:hathi:iau.31858007086675:scan:604"/>
+          <div type="textpart" subtype="fragment" n="54" xml:id="frag_8fc62965c6" corresp="urn:cite2:perseus:fragmentaryplays.v1:edonoi">
+            <note type="source">Strabo X. p. 470.</note>
+            <quote>Τούτοις δ᾽ ἔοικε καὶ τὰ παρὰ τοῖς Θραξὶ τά τε Κοτύττια καὶ τὰ Βενδίδεια, παρ᾽ οἷς καὶ τὰ Ὀρφικὰ τὴν καταρχὴν ἔσχε. τῆς μὲν οὖν Κότυος τῆς ἐν τοῖς Ἠδωνοῖς Αἰσχύλος μέμνηται καὶ τῶν περὶ αὐτὴν ὀργάνων. εἰπὼν γάρ</quote>
+            <quote>Σεμνὰ Κότυς ἐν τοῖς Ἠδωνοῖς,</quote>
+            <note type="apparatus">Æschyli igitur verba fuerunt ὄρει ὄργαν᾽ ἔχοντες</note>
+            <quote>ὄρεια δ᾽ ὄργαν᾽ ἔχοντας τοὺς περὶ τὸν Διόνυσον, εὐθέως ἐπιφέρει</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_8fc62965c6-l1" xml:lang="grc">Ὁ μὲν ἐν χερσὶν</l>
+              <l n="2" xml:id="frag_8fc62965c6-l2" xml:lang="grc">βόμβυκας ἔχων, τόρνου κάματον,</l>
+              <l n="3" xml:id="frag_8fc62965c6-l3" xml:lang="grc">δακτυλόδεικτον πίμπλησι μέλος,</l>
+              <l n="4" xml:id="frag_8fc62965c6-l4" xml:lang="grc">μανίας ἐπαγωγὸν ὁμοκλάν·</l>
+              <l n="5" xml:id="frag_8fc62965c6-l5" xml:lang="grc">ὁ δὲ χαλκοδέτοις κοτύλαις ὀτοβεῖ.</l>
+            </lg>
+            <quote>καὶ πάλιν</quote>
+            <lg type="fragment">
+              <l n="6" xml:id="frag_8fc62965c6-l6" xml:lang="grc">Ψαλμὸς δ᾽ ἀλαλάζει</l>
+              <l n="7" xml:id="frag_8fc62965c6-l7" xml:lang="grc">ταυρόφθογγοι δ᾽ ὑπομυκῶνται</l>
+              <l n="8" xml:id="frag_8fc62965c6-l8" xml:lang="grc">ποθὲν ἐξ ἀφανοῦς φοβεροὶ μῖμοι,</l>
+              <l n="9" xml:id="frag_8fc62965c6-l9" xml:lang="grc">τυπάνου δ᾽ εἰκὼν ὥσθ᾽ ὑπογείου</l>
+              <l n="10" xml:id="frag_8fc62965c6-l10" xml:lang="grc">βροντῆς φέρεται βαρυταρβής.</l>
+            </lg>
+            <note type="source">Scholiasta Venetus Iliad. ψ, 34.</note>
+            <quote>Καθόλου δὲ κοτύλας ἐκάλουν πάντα τὰ κοῖλα. καὶ Αἰσχύλος ἐν Ἠδωνοῖς τὰ κύμβαλα “Ὁ δὲ χαλκοδέτοις κοτύλαις στοβεῖ.”</quote>
+            <note type="apparatus">Corrige ὀτοβεῖ ex Eustathio p. 1282, 16. qui nomen fabulæ omisit. Attulit hunc versum Athenæus XI. p. 479 b.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="55" xml:id="frag_b2df469941" corresp="urn:cite2:perseus:fragmentaryplays.v1:edonoi">
+            <note type="source">Scholiasta Aristophanis Thesmophor. v. 135.</note>
+            <quote>Λέγει δὲ (Λυκοῦργος) ἐν τοῖς Ἠδωνοῖς πρὸς τὸν συλληφθέντα Διόνυσον “Ποδαπὸς ὁ γύννις;”</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="56" xml:id="frag_0438471cb9" corresp="urn:cite2:perseus:fragmentaryplays.v1:edonoi" sameAs="urn:cts:greekLit:tlg0085.edonoi.nauck1889-grc1:60">
+            <note type="source">Aristophanes in Avibus v. 277.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_0438471cb9-l1" xml:lang="grc">Τίς ποτ᾽ ἔσθ᾽ ὁ μουσόμαντις ἄτοπος ὄρνις ὀριβάτης;</l>
+            </lg>
+            <note type="commentary">ubi scholiasta, Τοῦτο εἶπεν εἰς τὸ τερατῶδες τοῦ ὄρνιθος ἀφορῶν, οὐδὲν πρὸς τὸ προσκείμενον. παρὰ τὸ ἐξ Ἠδωνῶν Αἰσχύλου “Τί ποτ᾽ ἔσται ὁ μουσόμαντις ἄλαλος ἀβρατεὺς ὃν σθένει.”</note>
+            <note type="source">Suidas, Μουσόμαντις: κομπώδης. τοιοῦτοι γὰρ οἱ μάντεις καὶ οἱ ποιηταί. παρὰ τὸ ἐξ Ἠδωνῶν Αἰσχύλου “Τίς ποτ᾽ ἔσται ὁ μουσόμαντις ἄλλος ἀβρατεύς.”</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="57" xml:id="frag_bc288778d3" corresp="urn:cite2:perseus:fragmentaryplays.v1:edonoi" sameAs="urn:cts:greekLit:tlg0085.edonoi.nauck1889-grc1:67">
+            <note type="source">Erotianus p. 190.</note>
+            <quote>Ἴκταρ : ἐγγὺς, παρὰ τοῖς Ἀττικοῖς, ὡς καὶ Αἰσχύλος ἐν Εὐμενίσι φησί· μέμνηται ὁ αὐτὸς τῆς λέξεως καὶ ἐν Ἠδωνοῖς.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="58" xml:id="frag_757dddd7b1" corresp="urn:cite2:perseus:fragmentaryplays.v1:edonoi" sameAs="urn:cts:greekLit:tlg0085.edonoi.nauck1889-grc1:63">
+            <note type="source">Hesychius, Ἄδασμος: οὐδένα δασμὸν ἐκτελοῦσα, οἷον τελοῦσα ἐνοίκιον. Αἰσχύλος Ἠδωνοῖς (codex ἡδονήν).</note>
+            <note type="source">Photius p. 8, 4. Ἄδασμος: οὐδένα δασμὸν ἐκτίνουσα, οὐδὲ μερίζουσα δασμὸν τῆς οἰκήσεως. οὕτως Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="59" xml:id="frag_a61d2c9b50" corresp="urn:cite2:perseus:fragmentaryplays.v1:edonoi">
+            <note type="source">Hesychius et Suidas, Αἰγίζειν: διασπᾶν. ἐκ μεταφορᾶς, παρ᾽ ὁ καὶ τὸ αἰγίζεσθαι ἀπὸ τῶν αἰγίδων, Αἰσχύλος. ὁ δ᾽ αὐτὸς ἐν Ἠδωνοῖς (ἡδονῇ codex Hesychii) καὶ τὰς νεβρίδας οὕτω λέγει.</note>
+            <note type="commentary">Hæc partim repetuntur infra apud Suidam, Ηδωνὶς Ηδωνίδος: χώρα οὕτω λέγεται. καὶ Ἠδωνοὶ ὄνομα ἔθνους. Αἰσχύλος. ὁ δ᾽ αὐτὸς ἐν Ἠδωνοῖσι καὶ τὰς νεβρίδας οὕτως καλεῖ. καὶ ἔστιν ἐν τῷ αἰγίζειν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="60" xml:id="frag_3820795113" corresp="urn:cite2:perseus:fragmentaryplays.v1:edonoi" sameAs="urn:cts:greekLit:tlg0085.edonoi.nauck1889-grc1:65">
+            <note type="source">Hesychius, Ἀμφίδρομος: Αἰσχύλος Σεμελῃ</note>
+            <quote>ἔπλασε δαίμονα καινον περὶ τὰ Ἀμφιδρόμια, ὡς εἰ ἔλεγες τὸν γενέθλιον. δηλοῖ δὲ καὶ ἐξ ἑκατέρου μέρους θεώμενον ἢ προηγούμενον, ἢ ὁρμᾶν δυνάμενον, ὡς Αἰσχύλος Ηδωνοῖς (codex ἡδωνές).</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="61" xml:id="frag_5013ae8c2e" corresp="urn:cite2:perseus:fragmentaryplays.v1:edonoi" sameAs="urn:cts:greekLit:tlg0085.edonoi.nauck1889-grc1:66">
+            <note type="source">Hesychius, Ἄσσιστα: ἔγγιστα. Αἰσχύλος Ηδωνοῖς (codex ἡδωνῶν).</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="62" xml:id="frag_9301326768" corresp="urn:cite2:perseus:fragmentaryplays.v1:edonoi" sameAs="urn:cts:greekLit:tlg0085.edonoi.nauck1889-grc1:62">
+            <note type="source">Scholiasta Homeri Iliad. ι, 535.</note>
+            <quote>Ξενοφῶντα δὲ γένος τι Ἰνδῶν φάναι τὸν χλούνην εἶναι, καθάπερ καὶ παρ᾽ Αἰσχύλῳ ἐν Ἠδωνοῖς</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_9301326768-l1" xml:lang="grc">Μακροσκελὴς μὲν ἄραμα χλούνης τις εἶ.</l>
+            </lg>
+            <note type="commentary">Vocabulum χλούνης ex Æschylo memorat Eustathius p. 772, 53. Ὅτι δὲ καὶ ἐντομίαν ὁ χλούνης δηλοῖ οὐ μόνον Αἰσχύλος δίδωσι χρῆσιν. χλοῦνις legitur in Eumen. v. 188.</note>
+          </div>
+        </div></body></text>
+</TEI>

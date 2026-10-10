@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΤΟΞΟΤΙΔΕΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.toxotides; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.toxotides.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.toxotides.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:toxotides"><head>ΤΟΞΟΤΙΔΕΣ</head>
+          <pb n="606" facs="urn:hathi:iau.31858007086675:scan:614"/>
+          <div type="textpart" subtype="fragment" n="224" xml:id="frag_cf03663084" corresp="urn:cite2:perseus:fragmentaryplays.v1:toxotides">
+            <note type="source">Antigonus Carystius Hist. mirab. cap. 127. p. 174. Τῶν δὲ θηλέων ζώων τροπικώτερόν φησιν εἶναι πρὸς τὴν συνουσίαν ἵππον. φαίνεται δὲ καὶ Αἰσχύλος ἱστορικῶς τὸ τοιοῦτον οὕτως πως εἰρηκέναι πρὸς τὰς παρθένους ἐν ταῖς Τοξότισιν</note>
+          <note type="source">Fragmentum ex incerto dramate, ut videtur, servatum.</note>
+<lg type="fragment">
+<l n="1" xml:id="frag_cf03663084-l1" xml:lang="grc">Ἄδων ταῖς ἁγναῖς παρθένοις γαμηλίων</l>
+<l n="2" xml:id="frag_cf03663084-l2" xml:lang="grc">λέκτρων ἄστει μὴ βλεμμάτων ῥεπιβούλη.</l>
+</lg>
+<note type="commentary">καὶ διαλιπὼν προσέθηκεν</note>
+<lg type="fragment">
+<l n="3" xml:id="frag_cf03663084-l3" xml:lang="grc">Οὔ με μὴ λάθῃ φλέγων</l>
+<l n="4" xml:id="frag_cf03663084-l4" xml:lang="grc">ὀφθαλμὸς, ἥτις ἀνδρὸς ἢ γεγευμένη.</l>
+<l n="5" xml:id="frag_cf03663084-l5" xml:lang="grc">ἔχων δὲ τούτων θυμὸν ἱππογνώμονα.</l>
+</lg>
+<note type="apparatus">V. 1. et 2. nondum emendati, nisi quod Salmasius recte ῥέπει βολή correxit. V. 3. supplendum νέας γυναικὸς ex Plutarchi Moral. p. 81 d. 767 b. qui hunc et sequentem versum sine fabulae nomine attulit. V. 5. ἔχω Salmasius. θυμὸν ἱππογνώμονα ex hoc versu sumpsit Etymolog. M. p. 209, 48. 474, 45.</note>
+</div>
+        <pb n="607" facs="urn:hathi:iau.31858007086675:scan:615"/>
+          <div type="textpart" subtype="fragment" n="225" xml:id="frag_6a1d3e698b" corresp="urn:cite2:perseus:fragmentaryplays.v1:toxotides">
+<note type="source">Grammaticus Bekkeri I. p. 351, 4. ex Phrynicho Ἄθηρος ἡμέρα:—Αἰσχύλος ἐν Τοξότισι (codex τοξότῃσι)—ἐπὶ Ἀκταίωνος</note>
+<lg type="fragment">
+<l n="1" xml:id="frag_6a1d3e698b-l1" xml:lang="grc">Οὔπω τις Ἀκταίων' ἄθηρος ἡμέρα</l>
+<l n="2" xml:id="frag_6a1d3e698b-l2" xml:lang="grc">κενὸν πόνου πλουτοῦντ' ἔπεμψεν ἐς δόμους.</l>
+</lg>
+<note type="commentary">Æschylus Ἀκτέων' scripserat. De Actaeone scholiasta Homeri Iliad. 1, 593. Ὁ δὲ Αἰσχύλος ἐπὶ τοῦ διαφθείρειν ψιλῶς τέταχε (τὸ ἀμαθύνειν) περὶ τοῦ Ἀκταίωνος λέγων</note>
+<lg type="fragment">
+<l n="3" xml:id="frag_6a1d3e698b-l3" xml:lang="grc">Κύνες διημάθυνον ἄνδρα δεσπότην.</l>
+</lg>
+<note type="commentary">Pollux V, 47. Τὰ μὲν δὴ τῶν Ἀκταίονος κυνῶν ὀνόματα κατὰ τὴν Αἰσχύλου δόξαν Κόραξ, Ἅρπυια, Χάρων, Λυκόττας.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="226" xml:id="frag_7a330c3f5d" corresp="urn:cite2:perseus:fragmentaryplays.v1:toxotides" sameAs="urn:cts:greekLit:tlg0085.toxotides.nauck1889-grc1:246">
+<note type="source">Hesychius, Πεζοφόροις ζώμασιν: Αἰσχύλος Τοξότισιν, ὥσπερ πέζαν ἐχόντων τῶν χιτώνων, τινὲς δὲ ποδήρεσι. Πεζοφόρα ζώματα ex Æschylo memorat Pollux VII, 51.</note>
+</div>
+        </div></body></text>
+</TEI>

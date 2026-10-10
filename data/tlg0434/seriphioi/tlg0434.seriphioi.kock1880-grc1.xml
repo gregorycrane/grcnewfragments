@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΣΕΡΙΦΙΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.seriphioi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.seriphioi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.seriphioi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi"><head>ΣΕΡΙΦΙΟΙ</head><div type="textpart" subtype="fragment" n="205" xml:id="kock-0434-seriphioi-205" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <lg>
+                <l n="1" xml:id="kock-0434-seriphioi-205-l1" xml:lang="grc">αἶρε δεῦρο τοὺς βρικέλους.</l>
+              </lg>
+              <note type="source">Κρατῖνος. Etym. m. Milleri (Mélanges 71), ubi primum hoc fragmentum plenius editum legitur.</note>
+              <note type="apparatus">βρικέλους Miller] τρικέλους. ad Seriphios pertinere docet Hesych. βρίκελοι· οἱ μὲν τοὺς ἱστί-ποδας, ἀπὸ (cod. ἐπὶ) τοῦ βάρους καὶ τοῦ ξύλου. οἱ δὲ βαρβά-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="206" xml:id="kock-0434-seriphioi-206" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <lg>
+                <l n="1" xml:id="kock-0434-seriphioi-206-l1" xml:lang="grc">οὕτω σταθερῶς τοῖς λωποδύταις ὁ πόρος πεινῶσι παφλάζει.</l>
+              </lg>
+              <note type="apparatus">
+                <p>Photius et Suidas σταθερόν· . . . Κρατῖνος ἐν Σεριφίοις ἐπὶ τοῦ ὀξέως (ὀξέος) ἢ ἰσχυροῦ. σταθερῶς Phot.] σταθερὸς Suid. fortasse σταθερόν. σερεφίοις cod. Phot., σερίφοις codices Suid. — ut proprie ἡ χύτρα παφλάζει eis qui esurientes iamiam cupiditatem expleturi sunt, ita poeta praedonibus fretum ea quae opus sunt praebere dicit.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="207" xml:id="kock-0434-seriphioi-207" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <lg>
+                <l n="1" xml:id="kock-0434-seriphioi-207-l1" xml:lang="grc">ἐς Συρίαν δ' ἐνθένδ' ἀφικνεῖ μετέωρος ὑπ' αὔρας.</l>
+                <l n="2" xml:id="kock-0434-seriphioi-207-l2" xml:lang="grc">Β. ἱμάτιον μοχθηρόν, ὅταν βορρᾶς καταπνεύσῃ.</l>
+              </lg>
+              <note type="apparatus">
+                <p>Pollux 7, 69 συρίαν δὲ ἱμάτιον Κρατῖνός φησι Σεριφίοις. versum secundum alteri personae tribuit Meinekius, cui haec Polydectae verba videntur Perseo contra Gorgonas proficiscenti itineris rationem explicantis (Menandr. praef. XVIII adn.) Poll. 7, 61 ἣν δὲ συρίαν οἱ πολλοί, ταύτην αὐτόποκον ἱμάτιον οἱ κωμικοί. Hesych. συρία· παχεῖα χλαῖνα. sed ut erat crassa, ita etiam vento pervia et propterea ἱμάτιον μοχθηρόν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="208" xml:id="kock-0434-seriphioi-208" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <lg>
+                <l n="1" xml:id="kock-0434-seriphioi-208-l1" xml:lang="grc">εἶτα Σάκας ἀφικνεῖ καὶ Σιδονίους καὶ Ἐρεμβούς,</l>
+                <l n="2" xml:id="kock-0434-seriphioi-208-l2" xml:lang="grc">ἔς τε πόλιν δούλων, ἀνδρῶν νεοπλουτοπονήρων,</l>
+                <l n="3" xml:id="kock-0434-seriphioi-208-l3" xml:lang="grc">αἰσχρῶν, Ἀνδροκλέων, Διονυσοκουρώνων.</l>
+              </lg>
+              <note type="apparatus">
+                <p>v. 1. 2. Stephanus Byz. Δούλων πόλις· φασὶ δὲ καὶ κατὰ Κρήτην Δουλόπολιν εἶναι χιλίανδρον. σημειωτέον δ' ὅτι Κρατῖνος ἐν Σεριφίοις πόλιν δούλων φησίν, Ἀπολλωνίου φήσαντος μὴ δεῖν τὰς παραθέσεις ἐναλλάσσειν δίχα ποιητικῆς ἀνάγκης, ὥς φησι Κρατῖνος 'εἶτα Σάκας' κτλ. ἔστι δὲ χωρίον ἐν Αἰγύπτῳ, ὥς φησιν Ὀλυμπιανός. v. 3. Hesych. Διονυσοκουροπυρώνων. Κρατῖνος ἐν Σεριφίοις Αἰσχρῶν Ἀνδροκλέων Διονυσοκουρώνων. ἔνιοί φασιν ἐν τῷ αὐτῷ πέντε κωμῳδεῖσθαι Αἰσχρόν, Ἀνδροκλέα, Διονύσιον, Κῦρον, Πυρῶν (sic), ἁμαρτάνοντες· οὐδεὶς γὰρ Ἀθηναίων ἀναγράφεται Κύρος· δεῖ οὖν γράφειν Διονυσοκουροπυρώνων. τὸν γὰρ Διόνυσον κουρέα ὄντα κωμῳδεῖν· κουρεὺς δὲ ἦν πρὸς πάππου ὡς δηλοῖ ὁ τὰς Ἀταλάντας συνθείς. tertium versum cum primis coniunxit Bergkius Epist. Schill. 118. 1. Σάκας] Σάβας Holstenius conl. Dionys. Perieg. 958 Ἐρυθραίης</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="209" xml:id="kock-0434-seriphioi-209" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <lg>
+                <l n="1" xml:id="kock-0434-seriphioi-209-l1" xml:lang="grc">οἰκοῦσιν φεύγοντες, ἀίδρυτον κακὸν ἄλλοις.</l>
+              </lg>
+              <note type="source">Hesychius ἀΐδρυτον κακόν· Κρατίνος Σεριφίοις (sic Valesius pro ἐριφίοις). οἰκοῦσι φεύγοντες ἀΐδρυτον κακὸν ἄλλοις. κακοΐδρυτον, ἢ οἷον ἄλλοι αὑτοῖς οὐκ ἂν ἱδρύσαιντο, τὴν φυγήν, ὡς εἴ τις ἄγαλμα ἱδρύσαιτο. sic nunc ex Meinekii emendatione M. Schmidt. Etymol. m. 42, 10 ἀΐδρυτον κακόν· τὸ κατάρατον, ὃ οὐκ ἄν τις αὑτῷ ἱδρύσαιτο.</note>
+              <note type="apparatus">de forma ἀΐδρυτος (ἀνίδρ.) cf. Lob. Phryn. 730. Aristoph. Lys. 809. loquitur de hominibus, qui voluntario exsilio solum verterant, quod aliis videatur malum intolerabile. ita fere Meinekius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="210" xml:id="kock-0434-seriphioi-210" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <note type="source">Bekk. Anecd. 85, 1 βόθυνον οὔ φασι δεῖν λέγειν. ἀλλὰ Σόλων ἔφη ἐν τοῖς νόμοις. Κρατῖνος Σεριφίοις·</note>
+              <lg>
+                <l n="1" xml:id="kock-0434-seriphioi-210-l1" xml:lang="grc">ἀλλ’ ἀπίωσιν ἐν χορῷ</l>
+                <l n="2" xml:id="kock-0434-seriphioi-210-l2" xml:lang="grc">ἐς βόθυνον ἱέναι.</l>
+              </lg>
+              <note type="source">ἔστι δὲ παιδιά τις ἐς βόθυνον ἱέναι. dixit etiam Xenoph. Oec. 19, 3 βοθύνους οἴους ὀρύττουσι τοῖς φυτοῖς. Harpocrat. βόθυνος τόπος τις ἰδίως οὕτω καλούμενος ἐν τῇ ἱερᾷ ὁδῷ. unde Sauppius Isaei fr. 19 ἀλλ’ ἀπίωσιν ἐν χορῷ | ἐς Βόθυνον, deinde ἐς βόθυνον ἱέναι. ἔστι δὲ παιδιά τις.</note>
+              <note type="apparatus">metrum Bergkio videbatur Cratineum admisso in medio versu hiatu, de qua re iure dubitat Meinekius. trochaicum propter dactylum admixtum esse non potest. arbitror esse glyconeum polyschematistum.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="211" xml:id="kock-0434-seriphioi-211" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <lg>
+                <l n="1" xml:id="kock-0434-seriphioi-211-l1" xml:lang="grc">χαίρετε πάντες ὅσοι πολύβωτον ποντίαν Σέριφον.</l>
+              </lg>
+              <note type="source">Hephaest. 15, 10 παρὰ δὲ Κρατίνῳ ἐν τοῖς Σεριφίοις οὐκέτι ἀκατάληκτόν ἐστι τὸ δακτυλικὸν τὸ ἡγούμενον τοῦ ἰθυφαλλικοῦ, ἀλλὰ</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="212" xml:id="kock-0434-seriphioi-212" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <note type="source">
+                <p>Schol. Arist. Nub. 687 Κρατῖνος δὲ ἐν Σεριφίοις (Ἀμυνίαν) ὡς ἀλαζόνα καὶ κόλακα καὶ συκοφάντην. Schol. Vesp. 74 ὧδε μὲν ὡς φιλόκυβος ὁ Ἀμυνίας κωμῳδεῖται· ἐν δὲ Σεριφίοις Κρατίνου ὡς ἀλαζὼν καὶ συκοφάντης καὶ κόλαξ. cf. quae adnotavimus ad Eupol. 209.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="213" xml:id="kock-0434-seriphioi-213" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <lg>
+                <l n="1" xml:id="kock-0434-seriphioi-213-l1" xml:lang="grc">πολυτρήτοις φωσί</l>
+              </lg>
+              <note type="source">
+                <p>Etym. m. Milleri (Mélanges 305) φῷδες . . . Κρατῖνος ἐριφίοις. recte Millerus Σεριφίοις. idem πολυτρήτοις] πολυτρίτοις. Homerici epitheti nova significatione usus est, <hi rend="italic">pustulas cutem multis locis perforantes</hi> dicens.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="214" xml:id="kock-0434-seriphioi-214" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <lg>
+                <l n="1" xml:id="kock-0434-seriphioi-214-l1" xml:lang="grc">ἀμοργοί</l>
+              </lg>
+              <note type="source">
+                <p>πόλεως ὄλεθροι Κρατῖνος Σεριφίοις. καλοῦσι δὲ καὶ μοργοὺς τὸ ᾶ ἀφαιροῦντες Suidas. ἀμοργοί a verbo ἀμέργω finxit. recte Meinekius statuit Cratini verba esse ἀμοργοὶ πόλεως ὄλεθροι.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="215" xml:id="kock-0434-seriphioi-215" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <note type="source">
+                <p>Bekker. Anecd. 444, 16 ἀριστεροστάτης ἐν τῷ κωμικῷ χορῷ, ἐν δὲ τῷ τραγικῷ μέσος ἀριστεροῦ. Κρατῖνος Σεριφίοις. unam vocem ἀριστεροστάτης Cratini esse arbitror.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="216" xml:id="kock-0434-seriphioi-216" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <note type="source">
+                <p>Pollux 10, 156 τὴν δὲ Ἀνδρομέδαν Κρατῖνος ἐν τοῖς Σεριφίοις δελεάστραν καλεῖ. scilicet quod Perseum amore cepit. Plaut. Asin. 1, 3, 67 <hi rend="italic">escast meretrix, lectus inlex est.</hi>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="217" xml:id="kock-0434-seriphioi-217" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_seriphioi">
+              <note type="source">
+                <p>Etymol. m. 751, 5. Phot. Suid. τελενικίσαι· ἐν Σερίφοις (i. e. Σεριφίοις). τὸ κενῶσαι, ἀπὸ Τελενίκου τινός, ὡς τὸ εἰκός, πένητος παντελῶς. καὶ λέγεταί τις Τελενίκειος ἠχώ, ἐκ μεταφορᾶς ἀπὸ τῶν κενῶν ἀγγείων. similiter Apostol. 16, 23. Hesych. τελε-</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΒΑΚΧΑΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.bakchai; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.bakchai.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.bakchai.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:bakchai"><head xml:lang="grc">ΒΑΚΧΑΙ</head>
+          <div type="textpart" subtype="fragment" n="22" corresp="urn:cite2:perseus:fragmentaryplays.v1:bakchai" xml:id="aesch-fr22">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-22-1">τό τοι κακὸν ποδῶκες ἔρχεται βροτοῖς</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-22-2">καὶ τἀμπλάκημα τῷ περῶντι τὴν θέμιν.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Stob. Ecl. 1, 3, 26 et 27 p. 57, 5 : Αἰσχύλου Βακχῶν (lemma om. Ρ, αἰσχύλου κἀκχῶν F habet in marg.) . τό τοι — θέμιν · Theophilus ad Autol. 2, 37 p. 178 : ὅτι μέλλει ἡ τοῦ θεοῦ κρίσις γίνεσθαι καὶ τὰ κακὰ τοὺς πονηροὺς αἰφνιδίως καταλαμβάνειν, καὶ τοῦτο Αἰσχύλος ἐσήμανεν λέγων τὸ κακὸν — θέμιν . non cohaerent cum his versibus quae Stobaeus subicit lemmate non adscripto, ὁρᾷς Δίκην ἄναυδον οὐχ ὁρωμένην κτἑ . (adesp. fr. 493) : eadem cum Aeschyleo loco coniungit Theophilus, usus nimirum hoc florilegio cuius nunc auctor perhibetur Stobaeus.</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 τό τοι Stobaei P τῶ τοι F τὸ (om. τοι) Theoph. v. 2 καὶ τ’ ἀμπλάκημα Stob. καὶ τὰ ἀμβλακήματα (om. τῷ) Theoph. κατ’ ἀμπλάκημα God. Hermann καὶ τοὐπίκλημα Meineke .</note>
+          </div>
+        </div></body></text>
+</TEI>

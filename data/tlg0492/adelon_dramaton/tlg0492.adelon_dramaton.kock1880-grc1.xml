@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHILONIDES, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Philonides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0492.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0492.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0492.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0492_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="7" xml:id="kock-0492-adelon_dramaton-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0492_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0492-adelon_dramaton-7-l1" xml:lang="grc">ὅρκους δὲ μοιχῶν εἰς τέφραν ἐγὼ γράφω.</l>
+              </lg>
+              <note type="source">
+                <p>Helladius Photii Bibl. 530, 15 ὁ στίχος ὁ καὶ παροιμιαζόμενος ‘ὅρκους ἐγὼ γυναικὸς εἰς ὕδωρ γράφω’ ἐστὶ μὲν Σοφοκλέους, τοῦτον δὲ παρῳδήσας ὁ Φιλωνίδης ἔφη· ὅρκους κτλ. cf. Suid. εἰς τέφραν γράφειν et ἐς τέφραν γράφεις.</p>
+              </note>
+              <note type="apparatus">
+                <p>versus Sophoclis a Philonide propterea deflexus, quia adulteri apud Athenienses ἐρραφανιδοῦντο τέφρᾳ τε ἐτίλλοντο. Aristoph. Nub. 1083.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0492-adelon_dramaton-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0492_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0492-adelon_dramaton-8-l1" xml:lang="grc">κατάκειμαι δ’, ὡς ὁρᾶτε, δεκάπαλαι.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 1, 23 e Φιλωνίδης.</p>
+              </note>
+              <note type="apparatus">
+                <p>δ’ add. Meinek. ἤδη κατάκειμαι δ’ Iacobs Addit. 17. καίτοι κατάκειμαί γ’ Hanov. 15 comparans Aristoph. Eq. 1153 sq.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="9" xml:id="kock-0492-adelon_dramaton-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0492_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0492-adelon_dramaton-9-l1" xml:lang="grc">τὰ καταχύσματ’ αὐτοῖσιν ὄξος οὐκ ἔχει.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 2, 67 d Φιλωνίδης.</p>
+              </note>
+              <note type="apparatus">
+                <p>τὰ καταχύσματα | αὐτοῖσιν ὄξος οὐκ ἔχει Hanovius 15. fortasse τὸ γὰρ κατάχυσμ’ αὐτοῖσιν κτλ. cf. Aristoph. Av. 535. 1589 sq.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="10" xml:id="kock-0492-adelon_dramaton-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0492_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0492-adelon_dramaton-10-l1" xml:lang="grc">ὦ πολυτρίχου πώγωνος</l>
+              </lg>
+              <note type="source">
+                <p>Φιλωνίδης Pollux 2, 24.</p>
+              </note>
+              <note type="apparatus">
+                <p>Meinekius confert Theocr. 10, 40 <quote>
+                    <lg>
+                      <l n="1_2" xml:id="kock-0492-adelon_dramaton-10-l1_2" xml:lang="grc">ὦ μοι τῶ πώγωνος, ὃν ἀλιθίως ἀνέφυσα.</l>
+                    </lg>
+                  </quote>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0492-adelon_dramaton-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0492_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0492-adelon_dramaton-11-l1" xml:lang="grc">ἐπιχάρτην</l>
+              </lg>
+              <note type="source">
+                <p>Φιλωνίδης τὸν ἐπιχαίροντα εἴρηκεν. Pollux 3, 101.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

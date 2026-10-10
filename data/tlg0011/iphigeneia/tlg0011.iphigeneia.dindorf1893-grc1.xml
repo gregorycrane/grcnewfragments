@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-iphigeneia-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, Ἰφιγένεια: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.iphigeneia; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.iphigeneia.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.iphigeneia.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_iphigeneia"><head>Ἰφιγένεια</head><div type="textpart" subtype="fragment" n="288" xml:id="fragment-iphigeneia-dindorf1893_grc1-288" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_iphigeneia">
+            <note type="source">Stobæus XXX, 6.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τίκτει γὰρ οὐδὲν ἐσθλὸν εἰκαία σχολή</l>
+              <l n="2" xml:lang="grc">θεὸς δὲ τοῖς ἀγροῦσιν οὐ παρίσταται.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="289" xml:id="fragment-iphigeneia-dindorf1893_grc1-289" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_iphigeneia" sameAs="urn:cts:greekLit:tlg0011.iphigeneia.nauck1889grc1:286">
+            <note type="source">Athenæus XII. p. 513 d.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Νοῦν δεῖ πρὸς ἀνδρὶ, σῶμα πουλύπους ὅπως</l>
+              <l n="2" xml:lang="grc">πέτρα, τραπέσθαι γνησίου φρονήματος.</l>
+            </lg>
+            <note type="commentary">Νοῦν δεῖ Porsonus. Codex νόει.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="290" xml:id="fragment-iphigeneia-dindorf1893_grc1-290" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_iphigeneia" sameAs="urn:cts:greekLit:tlg0011.iphigeneia.nauck1889grc1:288">
+            <note type="source">Hesychius, Ἀκρουχεῖ· ἄκρον ἔχει. Ἄκρον δὲ ὄρος τῆς Ἀργείας, ἐφ' οὗ Ἀρτέμιδος ἱερὸν ἱδρύσατο Μελάμπους, καθάρας τὰς Προιτίδας, ἤγουν ταῖς Χάρισι. Σ. Ἰφιγενείᾳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="291" xml:id="fragment-iphigeneia-dindorf1893_grc1-291" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_iphigeneia">
+            <note type="source">Hesychius in ἀπυνδάκωτος, Σοφοκλῆς ἐν Ἰφιγενείᾳ πύνδακα τοῦ ξίφους τὴν λαβὴν ἔφη. Eadem Suidas, sed omisso nomine fabulæ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="292" xml:id="fragment-iphigeneia-dindorf1893_grc1-292" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_iphigeneia" sameAs="urn:cts:greekLit:tlg0011.iphigeneia.nauck1889grc1:289">
+            <note type="source">Hesychius, Βασίλη· βασίλεια. Σ. Ἰφιγενείᾳ. Ita corrigenda codicis scriptura, βασιλ, ἡ βασίλεια. Formam vocis βασίλη annotavit Stephanus Byz. in Ἀγάμεια. Ea fortasse restituenda Pindaro Nem. I, 39. ubi vulgo βασίλεια, Boeckhius Βασιλῆ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="293" xml:id="fragment-iphigeneia-dindorf1893_grc1-293" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_iphigeneia" sameAs="urn:cts:greekLit:tlg0011.iphigeneia.nauck1889grc1:284">
+            <note type="source">Photius p. 410, 10. et Suidas in πενθερὸς, Σοφοκλῆς εἶπε πενθερὸν τὸν γαμβρὸν ἐν Ἰφιγενείᾳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σὺ δ' ὦ μεγίστων τυγχάνουσα πενθερῶν.</l>
+            </lg>
+            <note type="commentary">ἀντὶ γαμβρῶν. Ad hunc locum spectat Etymolog. M. p. 220, 40.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="294" xml:id="fragment-iphigeneia-dindorf1893_grc1-294" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_iphigeneia" sameAs="urn:cts:greekLit:tlg0011.iphigeneia.nauck1889grc1:291">
+            <note type="source">Ὕποφρον: vide fragm. 226.</note>
+          </div>
+        </div></body></text></TEI>

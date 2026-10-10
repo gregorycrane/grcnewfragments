@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-elenes_apaitesis-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΕΛΕΝΗ. ΕΛΕΝΗΣ ΑΡΠΑΓΗ. ΕΛΕΝΗΣ ΑΠΑΙΤΗΣΙΣ. ΕΛΕΝΗΣ ΓΑΜΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.elenes_apaitesis; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.elenes_apaitesis.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.elenes_apaitesis.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_elenes_apaitesis"><head>ΕΛΕΝΗ. ΕΛΕΝΗΣ ΑΡΠΑΓΗ. ΕΛΕΝΗΣ ΑΠΑΙΤΗΣΙΣ. ΕΛΕΝΗΣ ΓΑΜΟΣ</head><div type="textpart" subtype="fragment" n="185" xml:id="fragment-elenes_apaitesis-dindorf1893_grc1-185" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_elenes_apaitesis" sameAs="urn:cts:greekLit:tlg0011.elenes_apaitesis.pearson1917-grc1:178">
+            <note type="source">Schol. Aristoph. Equit. 84.</note>
+            <quote>Βέλτιστον ἡμῖν αἷμα ταύρειον πιεῖν:—ἔστι γοῦν ἀπὸ Σοφοκλέους Ἑλένης</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐμοὶ δὲ λῷστον αἷμα ταύρου γ᾽ ἐκπιεῖν,</l>
+              <l n="2" xml:lang="grc">καὶ μή τι πλείους τῶνδ᾽ ἔχειν δυσφημίας.</l>
+            </lg>
+            <note type="commentary">τινὲς δέ φασιν ὅτι Σοφοκλῆς περὶ Θεμιστοκλέους τοῦτό φησι. ψεύδονται δέ· οὐ γάρ ἐστι πιθανόν. V. 1. Mirum si poeta hoc scribere maluit quam αἷμα ταύρειον πιεῖν. V. 2. vulgo καὶ μή γε πλείω. Ceterum conf. fragm. 20.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="186" xml:id="fragment-elenes_apaitesis-dindorf1893_grc1-186" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_elenes_apaitesis" sameAs="urn:cts:greekLit:tlg0011.elenes_apaitesis.nauck1889grc1:178">
+            <note type="source">Schol. Euripidis Phoeniss. 312.</note>
+            <quote>Εἰ γὰρ καὶ Ἑλληνικῶς ἐλάλουν αἱ Φοίνισσαι. ἀλλ᾽ οὖν γε τὴν πάτριον ἀπήχησιν ἔσωζον τῆς φωνῆς, ὡς Σοφοκλῆς ἐν Ἑλένης ἀπαιτήσει</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καὶ γὰρ χαρακτὴρ αὐτὸς ἐν γλώσσῃ τί με</l>
+              <l n="2" xml:lang="grc">παρηγορεῖ Λάκωνος ὀσμᾶσθαι λόγου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="187" xml:id="fragment-elenes_apaitesis-dindorf1893_grc1-187" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_elenes_apaitesis" sameAs="urn:cts:greekLit:tlg0011.elenes_apaitesis.nauck1889grc1:179">
+            <note type="source">Erotianus p. 180.</note>
+            <quote>Θράσσει:—ἔστι δὲ ὀχλεῖ, ὡς καὶ Σοφοκλῆς ἐν Ἑλένης ἀπαιτήσει φησί·</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γυναῖκα δ᾽ ἐξελόντες, ἢ θράσσει γένυν</l>
+              <l n="2" xml:lang="grc">τε ὡς τοῦ μὲν αἰόλον γραφίοις ἐνημμένοις.</l>
+            </lg>
+            <note type="commentary">V. 2. alii libri ἔωλον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="188" xml:id="fragment-elenes_apaitesis-dindorf1893_grc1-188" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_elenes_apaitesis">
+            <note type="source">Strabo XIV. p. 643.</note>
+            <quote>οἱ δὲ τὸν Κάλχαντά φασιν ἀποθανεῖν ὑπὸ λύπης καὶ κατά τι λόγιον. λέγει δ᾽ αὐτὸ Σοφοκλῆς ἐν Ἑλένης ἀπαιτήσει, ὡς εἱμαρμένον εἴη ἀποθανεῖν, ὅταν κρείττονι ἑαυτοῦ μάντει περιτύχῃ.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="189" xml:id="fragment-elenes_apaitesis-dindorf1893_grc1-189" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_elenes_apaitesis" sameAs="urn:cts:greekLit:tlg0011.elenes_apaitesis.nauck1889grc1:180">
+            <note type="source">Hesychius,</note>
+            <quote>Ἀναχαιτίζειν: ἀναπείθειν, ἀναχαλινοῦν. ἀνακρούεται, ἀναποδίζει. κυρίως δὲ ἐπὶ τῶν ἵππων. Σ. Ἑλένης ἀπαιτήσει. Suidas, Ἀναχαιτίζει: αἰτιατικῇ. ἀναποδίζει, ἐγκόπτει. ἀναχαιτίζειν Σοφοκλῆς τὸ ἀπειθεῖν καὶ ἀντιτείνειν.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="190" xml:id="fragment-elenes_apaitesis-dindorf1893_grc1-190" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_elenes_apaitesis">
+            <note type="source">Athenæus III. p. 76 d.</note>
+            <quote>Σοφοκλῆς ἐν Ἑλένης γάμῳ τροπικῶς τῷ τοῦ δένδρου ὀνόματι τὸν καρπὸν ἐκάλεσεν εἰπὼν</quote>
+          </div>
+        </div></body></text></TEI>

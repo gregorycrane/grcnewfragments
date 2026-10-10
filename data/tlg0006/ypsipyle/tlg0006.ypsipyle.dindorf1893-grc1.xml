@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-ypsipyle-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΥΨΙΠΥΛΗ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.ypsipyle; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.ypsipyle.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.ypsipyle.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle"><head>ΥΨΙΠΥΛΗ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-ypsipyle-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:752">
+            <note type="source">1. Aristoph. Ran. 1242. (1213.) Macrob. Sat. 1, 18. Schol. Aristoph. Nub. 604:</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Διόνυσος, ὃς θύρσοισι καὶ νεβρῶν δοραῖς</l>
+              <l n="2" xml:lang="grc">καθαπτὸς ἐν πεύκαισι Παρνασὸν κάτα</l>
+              <l n="3" xml:lang="grc">πηδᾷ χορεύων παρθένοις σὺν Δελφίσιν.</l>
+            </lg>
+            <note type="commentary">Schol. ad Ran. 1242. adnotat: Ὑψιπύλης ἡ ἀρχὴ, et ad vs. 1244. τὸ δὲ λοιπὸν τοῦ ἰάμβου π. σ. Δ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-ypsipyle-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:753">
+            <note type="source">2. Macrob. Sat. V, 18. Licet abunde ista sufficiant ad probationem moris antiqui, quo ita loquendi usus fuit, ut Achelous commune omnis aquæ nomen haberetur, tamen his quoque Euripidis nobilissimi tragædiarum scriptoris additur auctoritas, quam idem Didymus grammaticus in his libris, quos τραγῳδουμένης λέξεως scripsit, posuit his verbis: Ἀχελῷον πᾶν ὕδωρ Εὐριπίδης φησὶν ἐν Ὑψιπύλῃ· λέγων γὰρ περὶ ὕδατος ὄντος σφόδρα πόρρω τῆς Ἀκαρνανίας (ἐν ᾗ ἐστὶ ποταμὸς Ἀχελῷος) φησί</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δείξω μὲν ἀργεννοῖσιν Ἀχελώου ῥύον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-ypsipyle-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:756">
+            <note type="source">3. Aristoph. Ran. 1357. (1322.)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Περίβαλλ᾽, ὦ τέκνον, ὠλένας.</l>
+            </lg>
+            <note type="commentary">ubi schol. καὶ τὸ “περίβαλ᾽ ὦ τέκνον᾽ ἐξ Ὑψιπύλης.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-ypsipyle-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:754">
+            <note type="source">4. Plut. de amic. mult. 2, (p. 93 D,) ὥσπερ ὁ τῆς Ὑψιπύλης τρόφιμος·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">εἰς τὸν λειμῶνα καθίσας</l>
+              <l n="2" xml:lang="grc">ἔδρεπεν ἕτερον ἐφ᾽ ἑτέρῳ αἰρόμενος</l>
+              <l n="3" xml:lang="grc">ἄγρευμ᾽ ἀνθέων ἡδομένᾳ ψυχᾷ,</l>
+              <l n="4" xml:lang="grc">τὸ νήπιον ἄπληστον ἔχων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-ypsipyle-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:759">
+            <note type="source">5. Orion. Anthologn. VII, 5, p. 51 ed. Schneidew.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πρὸς τὰς χρήσεις χρὴ καὶ τὰ πράγματα σκοπεῖν,</l>
+              <l n="2" xml:lang="grc">καὶ τὰς διαίτας τῶν κακῶν τε κἀγαθῶν,</l>
+              <l n="3" xml:lang="grc">πειθὼ δὲ τοῖς μὲν σώφροσιν πολλὴν ἔχειν,</l>
+              <l n="4" xml:lang="grc">τοῖς μὴ δικαίοις δ᾽ οὐδὲ συμβάλλειν χρεών.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-ypsipyle-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:758">
+            <note type="source">6. Stobæus X, 26.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κακοῖς τὸ κέρδος τῆς δίκης ὑπέρτερον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-ypsipyle-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle">
+            <note type="source">7. Schol. Aristoph. ad Ran. 1363. (1327,</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-ypsipyle-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:760">
+            <note type="source">8. Stobæus XX, 31.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἔξω γὰρ ὀργῆς πᾶς ἀνὴρ σοφώτερος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-ypsipyle-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:762">
+            <note type="source">9. Eustath. ad Il. v. p. 959, 42. Philem. gram. p. 147 ed. Osann.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εὔσημα καὶ σὰ καὶ κατεσφραγισμένα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-ypsipyle-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle">
+            <note type="source">10. Stobæus CVIII, 11. Plut. Consol. ad Apoll. 16. (p. 110 F. sq.)</note>
+            <note type="commentary">Οὐ φαύλως γὰρ ἂν δόξειεν ὁ παρὰ τῷ ποιητῇ Ἀμφιάρεως παραμυθεῖσθαι τὴν Ἀρχεμόρου μητέρα δυσχεραίνουσαν, ὅτι νήπιος ὢν ὁ παῖς καὶ ἄγαν ἄωρος ἐτελεύτησε· φησὶ γὰρ οὕτως·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἔφυ μὲν οὐδεὶς, ὅστις οὐ πονεῖ, βροτῶν,</l>
+              <l n="2" xml:lang="grc">θάπτει τε τέκνα, χἄτερ᾽ αὖ κτᾶται νέα,</l>
+              <l n="3" xml:lang="grc">αὐτός τε θνήσκει, καὶ τάδ᾽ ἄχθονται βροτοὶ</l>
+              <l n="4" xml:lang="grc">εἰς γῆν φέροντες γῆν· ἀναγκαίως δ᾽ ἔχει</l>
+              <l n="5" xml:lang="grc">βίον θερίζειν ὥστε κάρπιμον στάχυν,</l>
+              <l n="6" xml:lang="grc">καὶ τὸν μὲν εἶναι, τὸν δὲ μή· τί ταῦτα δεῖ</l>
+              <l n="7" xml:lang="grc">στένειν, ἅπερ δεῖ κατὰ φύσιν διεκπερᾶν;</l>
+              <l n="8" xml:lang="grc">δεινὸν γὰρ οὐδὲν τῶν ἀναγκαίων βροτοῖς.</l>
+            </lg>
+            <note type="commentary">His solus Clemens Alex. Strom. IV, 7, § 54, (p. 587 fin. P), qui tres priores et duos postremos versus affert, hunc vs. præfixit</note>
+            <quote>
+              <l n="9" xml:lang="grc">Ἅ γ᾽ οὖν παραινῶ, ταῦτά μου δέξαι, γύναι.</l>
+            </quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-ypsipyle-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle">
+            <note type="source">11. Galen. T. V. p. 615 ed. Basil. (XII, p. 376 Chart.) de voce ἀέτωμα οἴκου 8. ἀετός· καὶ Εὐριπίδης ἐν Ὑψιπύλῃ φησίν·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἰδοὺ πρὸς αἰθέρ᾽ ἐξαμιλλῆσαι κόραι</l>
+              <l n="2" xml:lang="grc">γραπτοὺς <gap reason="editorial"/> οἷσι προσβλέπον τύπους.</l>
+            </lg>
+            <note type="apparatus">Valck. Diatr. p. 214. locum correxit et lacunam explevit scribens: ἐξαμιλλῶνται κόραι γραπτοὺς ἐν ἀετοῖσι προσβλέπειν τύπους. Ego præfero Musgravii scripturam, multo minus a codicibus recedentem:</note>
+            <quote>
+              <l n="3" xml:lang="grc">Ἰδοὺ, πρὸς αἰθέρ᾽ ἐξαμίλλησαι κόραις,</l>
+              <l n="4" xml:lang="grc">γραπτοὺς ἐν αἰετοῖσι προσβλέπων τύπους.</l>
+            </quote>
+            <note type="commentary">h. e. Adspice: ad cælum contende oculis, pictas in fastigiis figuras contemplans.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-ypsipyle-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:765">
+            <note type="source">12. Schol. Aristoph. ad Ran. 1355. (1320.) verba: “οἰνάνθας γάνος ἀμπέλου” κ.τ.λ. adnotat: παρὰ τὰ ἐξ Ὑψιπύλης Εὐριπίδου</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">οἰνάνθα φέρει τὸν ἱερὸν βότρυν.</l>
+            </lg>
+            <note type="commentary">ἡ πρώτη δὲ ἔκφυσις τῆς ἀμπέλου οἰνάνθη λέγεται.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-ypsipyle-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:761">
+            <note type="source">13. Stobæus CX, 16.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἄελπτον οὐδὲν, πάντα δ᾽ ἐλπίζειν χρεών.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-ypsipyle-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:763">
+            <note type="source">14. Schol. Aristoph. Ran. 64. ἢ ἐτέρᾳ φράσω· — ἀντὶ τοῦ ἄλλῳ τινὶ ὑποδείγματι, οἷον ἄλλῳ τρόπῳ. ἔστι δὲ τὸ ἡμιστίχιον ἐξ Ὑψιπύλης Εὐριπίδου.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-ypsipyle-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:767">
+            <note type="source">15. Harpocrat. v. Ἀρκτεῦσαι· ὅτι δὲ αἱ ἀρκτευόμεναι παρθένοι ἄρκτοι καλοῦνται, Εὐριπίδης ἐν Υψιπύλῃ, Ἀριστοφάνης Λημνίαις καὶ Λυσιστράτῃ (vs. 645, ad quem locum cf. Bergl.).</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-ypsipyle-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:766">
+            <note type="source">16. Hesych. Ἀναδρομαὶ, αὐξήσεις, βλαστήσεις. Εὐριπίδης Ικέτισιν (fortasse corrigendum Τημενίσιν, nam in Supplicibus hæc vox non extat), Ὑψιπύλῃ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-ypsipyle-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:768">
+            <note type="source">17. Lexic. Sangerm. in Bekk. An. Gr. p. 93, 26. Ἐκδημία, οὐ μόνον ἀποδημία. Εὐριπίδης Ὑψιπύλῃ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-ypsipyle-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:769">
+            <note type="source">18. Phot. p. 180, 12. Κροταλίζειν· οὐ διὰ τῶν χειρῶν κροτεῖν, ἀλλὰ διὰ κροτάλου τῆς κροταλισάσης, ὡς Εὐριπίδης φησὶν ὁ κωμικὸς (sic) περὶ τῆς Ὑψιπύλης λέγων.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="19" xml:id="fragment-ypsipyle-dindorf1893_grc1-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle" sameAs="urn:cts:greekLit:tlg0006.ypsipyle.nauck1889grc1:770">
+            <note type="source">19. Lexic. Sangerm. in Bekk. An. Gr. p. 109, 15. Νεαρὸς, ἀντὶ τοῦ νέος. Εὐριπίδης Ὑψιπύλῃ. Frequens est apud tragicos vocabulum.</note>
+          </div>
+        </div></body></text></TEI>

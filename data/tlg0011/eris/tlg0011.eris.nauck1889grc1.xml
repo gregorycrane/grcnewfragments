@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-eris-nauck1889grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΕΡΙΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0011">Sophocles</author>
+        <editor>August Nauck</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability>
+          <p>Derived scholarly transcription; verify against page images before quotation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>August Nauck, Tragicorum Graecorum Fragmenta, second edition (Leipzig: Teubner, 1889).</bibl>
+        <ptr target="../../../nauck1889/source/nauck1889.tragicorum-graecorum-fragmenta.xml"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Extracted deterministically from nauck.tragfrag-2.xml; repaired the malformed TEI namespace URI.</change>
+    <change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.eris; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.eris.nauck1889grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.eris.nauck1889grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_eris"><head>ΕΡΙΣ</head><div type="textpart" subtype="fragment" n="189" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_eris" xml:id="fragment-eris-nauck1889grc1-189">
+            <head>189</head>
+            <lg>
+              <l n="1" xml:lang="grc">ἐγὼ δὲ πεινῶσ’ αὖ πρὸς ἴτρια βλέπω.</l>
+            </lg>
+            <p>Ath. XIV p. 646 D : ἴτριον πεμμάτιον λεπτὸν διὰ σησάμου καὶ
+μέλιτος γινόμενον. μνημονεύει αὐτοῦ — Σοφοκλῆς Ἔριδι ἐγὼ —
+βλέπω’ .</p>
+          </div>
+          <div type="textpart" subtype="fragment" n="190" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_eris" xml:id="fragment-eris-nauck1889grc1-190">
+            <head>190</head>
+            <lg>
+              <l n="1" xml:lang="grc">εὔωρος γάμου</l>
+            </lg>
+            <p>Hesych. 2 p. 237 : εὔωρος γάμος. Σοφοκλῆς Ἔριδι. ἤτοι ὡραῖος
+(ὥριος vulgo) ἢ ὀλίγωρος· οὕτω γὰρ λέγουσι κατὰ ἀντίφρασιν, ὡς ὁ
+αὐτὸς ἐν Σκυρίαις χρῆται τῷ εὐωριάζειν. pro γάμος legendum esse
+γάμου docet interpretatio ὀλίγωρος ceterum falsa.</p>
+          </div>
+          <div type="textpart" subtype="fragment" n="191" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_eris" xml:id="fragment-eris-nauck1889grc1-191">
+            <head>191</head>
+            <lg>
+              <l n="1" xml:lang="grc">μίαν μίαν</l>
+            </lg>
+            <p>
+Antiatt. p. 108 , 9 : μίαν μίαν· ἀντὶ τοῦ κατὰ μίαν. Σοφοκλῆς
+Ἔριδι.</p>
+          </div>
+        </div></body></text></TEI>

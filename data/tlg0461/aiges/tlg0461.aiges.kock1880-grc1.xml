@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUPOLIS, ΑΙΓΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Eupolis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0461.aiges.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0461.aiges.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0461.aiges.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges"><head>ΑΙΓΕΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0461-aiges-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-1-l1" xml:lang="grc">ὡς δή ποτ’ αὐτῶν ἦν κάμῃ τις, εὐθέως</l>
+                <l n="2" xml:id="kock-0461-aiges-1-l2" xml:lang="grc">ἐρεῖ· πρίω μοι σελάχι’· ἤν τ’ ἴδῃ λύκον,</l>
+                <l n="3" xml:id="kock-0461-aiges-1-l3" xml:lang="grc">κεκράξεται φράσει τε πρὸς τὸν αἰπόλον.</l>
+              </lg>
+              <note type="source">Erotianus 121 Klein. σελαχίοισι· τοῖς μικροῖς ἰχθυδίοις, ἢ τοῖς ὀστρακοδέρμοις, οἷον καράβοις, καρκίνοις, κήρυξι. μέμνηται τῆς λέξεως καὶ Εὔπολις ἐν Αἰξὶ λέγων κτλ. Herodian. Philet. 453 Piers. καὶ πρίω τὸ προστακτικόν. Εὔπολις πρίω μοι σελάχιον. Etymol. m. 132, 50 καὶ πριῶ (πρίω) μοι, φησὶν ὁ κωμωδός, σελάχιον. Etymol. Gud. 70, 29 (πρίωμαι). Cramer. Anecd. Oxon. I 23, 19 (πριῶ μοι). Photius σελάχια· βραχέως. οὕτως Εὔπολις.</note>
+              <note type="apparatus">δή Klein] ἡ. ποτ’ Charter] ποτὲ BC τὸ A. αὐτῶν Herwerd. Obs. crit. 21. 2] αὐτὸν. 2. ἐρεῖ Meinekius] ἐρεῖ πρὸς αὐτὸν. πρίω μοι Herodian. Phil. Etym. m.] πρίονοι A πριόνοι Bz πρίονος C. σελάχι’, ἤν τ’ ἴδῃ K.] σελάχιον. τί δ’ (δὲ) ἢν. 3. κεκράξεται B (m. pr. -ηται)] κεκράξηται C. φράσει τε Meinek.] φρασεῖται. in exitu v. 2 Cobetus Obs. crit. Plat. 150. N. 1. 161, qui tetrametros putabat esse, τί δ’ ἢν ἴδῃ λύκον τις. cum σέλαχος, σελάχη, σελάχιον, σελάχια sint pisces minuti, plerumque plurali numero, sicut ἀφύαι, commemorantur. cf. fr. 5. Aristoph. fr. 489. Aristot. H. a. 3, 1. 511 a 5. 5, 5. 540b 17. Athen. 7, 301 b. 8, 356 cd. Phot. σελάχια. Hesych. σελάχιον· κόμμα ἰχθύος. ἢ τὰ σελάχια λεγόμενα. idem σελάχη· εἴδη θαλασσίων θηρίων. Bergk. R. c. Att. 315. Lobeck. Pathol. prol. 333. Rhemat. 305.</note>
+              <note type="apparatus">una persona loquitur, non duae. praedicat fiduciam, qua caprae pastorem in omnibus periculis adeant. ‘cum aegrotant’ inquit ‘eum remedium emere iubent; cum lupum conspiciunt, hostis adventum nuntiantes accurrunt.’ sunt enim σελάχια inter remedia. cf. Hippocrat. II 264. 291. 696. 806 Kuehn. loqui videtur idem fr. 4. 13.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0461-aiges-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <head>2</head>
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-2-l1" xml:lang="grc">σὺ δ᾽ αἰγιάζεις ἐνθαδὶ καθήμενος.</l>
+              </lg>
+              <note type="apparatus">ἀντὶ τοῦ περὶ αἰγῶν λαλεῖς. Bekker. Anecd. 353, 27 (Suidas αἰγιάζειν). αἰγιάζεις Bekker] αἰγιάζων cod. περὶ αἰγῶν Bekker] περιάγων cod.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0461-aiges-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <head>3</head>
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-3-l1" xml:lang="grc">καὶ ζῆν μαθόντι μηδὲ τάγυρι μουσικῆς.</l>
+              </lg>
+              <note type="apparatus">Photius et Suidas τάγυρι· τὸ βραχύτατον καὶ ἐλάχιστον, οἷον ψῖχα λέγουσιν. Εὔπολις Αἰξίν· καὶ ζῆν μαθόντι κτλ. Etymol. m. 743, 57 Εὔπολις Αἰξί, μαθόντι δὲ μὴ τάγυρι μουσικῆς. Etym. m. Milleri (Mélanges 277) Ἐξίῳ pro Αἰξί. initio versus καὶ ζῆν (excidit e. c. αἰσχρόν) Meinekius utpote ex Αἰξίν natum eiecit. καὶ μὴν Kusterus, κἀξῆν Bergk. R. c. Att. 334. Hesych. ταγύρια· τὰ ἐλάχιστα, τὰ τυχόντα. Herodian. I 354, 8 Lentz. τάγυρι, χνάσμι, κάρι, σίσελι οὐχ Ἑλληνικά, ξένα δέ. addere poterat βλίτυρι Diog. L. 7, 57. cf. Append. prov. Leutsch. 1, 56. Lobeck. Aglaoph. 1331.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0461-aiges-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <head>4</head>
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-4-l1" xml:lang="grc">ἐγὼ τελῶ τὸν μισθὸν ὅντιν᾽ ἂν χρῇ.</l>
+              </lg>
+              <note type="apparatus">Suidas χρή· ὀξυτόνως, ἤγουν δεῖ. χρῇ δὲ περισπωμένως τὸ ὑποτακτικόν. σημαίνει δὲ τὸ δέῃ. Εὔπολις Αἰξίν· ἐγὼ τελῶ κτλ. χρῇ] με χρῇ Valckenarius. ‘nisi tetrametri sunt reliquiae’. Meinek. χρῇ idem esse ac χρήζη ‘mercedem quamcumque postulaverit’ Bergkius censet R. c. Att. 333. loqui videtur aut pater filium vel filios sophistae erudiendos tradens aut ille ipse agricola, ab amicis tandem permotus ut litteris musicaeque studeat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0461-aiges-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <head>5</head>
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-5-l1" xml:lang="grc">καὶ τῆς λοπάδος· ἔνεισι δ᾽ ἑψητοί τινες.</l>
+              </lg>
+              <note type="apparatus">Photius ἑψητοί· πληθυντικῶς. τὰ ἰχθύδια· ὡς ἀφυῖαι (ἀφύαι) καὶ μεμβράδες. Εὔπολις Αἰξίν κτλ. λοπάδος Porson.] λοιπάδος cod. Athen. 8. 356c ἑψητός, τὸ μικρὸν ἰχθύδιον. genetivum sublata post λοπάδος interpunctione ab ἔνεισιν, ut vult Meinekius, pendere posse non credo. nam Sophocl. Phil. 648 cum Wakefieldo scrib. ἔπι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" xml:id="kock-0461-aiges-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <head>6</head>
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-6-l1" xml:lang="grc">ὦ Χάριτες, αἷς μέλουσιν ἑψητοί.</l>
+              </lg>
+              <note type="apparatus">Athenaeus 7, 301a Εὔπολις Αἰξίν. αἷς Meinek.] αἶσι. μέλουσιν A] μέλλουσιν. videntur trimetri reliquiae esse.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0461-aiges-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <head>7</head>
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-7-l1" xml:lang="grc">πλὴν</l>
+                <l n="2" xml:id="kock-0461-aiges-7-l2" xml:lang="grc">ἅπαξ ποτ᾽ ἐν Φαίακος ἔφαγον καρίδας.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="20" xml:id="kock-0461-aiges-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <p>νεόκοπον κάρδοπον</p>
+              <note type="source">
+                <p>Εὔπολις ἐν Αἰξὶν εἴρηκεν, ὡς Ἀριστοφάνης ἐν Σφηξὶ (648) νεόκοπτον μύλην. Pollux 10, 102. 7, 22 νεόκοπον κάρδοπον εἴρηκεν Εὔπολις τὴν νεωστὶ κεκομμένην.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="21" xml:id="kock-0461-aiges-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <p>ἀνακές</p>
+              <note type="source">
+                <p>ὀξυτόνως Ἀττικοί, ὡς καὶ Εὔπολις Αἰξίν. ἀθεράπευτον, Ἕλληνες. Moeris 191, 21 Bekk. ἀνακές, i. e. ἀνήκεστον (Pierson).</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="22" xml:id="kock-0461-aiges-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <p>ἀνεσκιρτημένας</p>
+              <note type="source">
+                <p>Bekker. Anecd. 16, 20 Εὔπολις ἐπὶ τῶν αἰγῶν εἶπε τὴν λέξιν. ad Capras haec pertinere monuit Meinekius.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="23" xml:id="kock-0461-aiges-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <p>βαλλαντίδια</p>
+              <note type="source">
+                <p>ὡς ἐν Αἰξὶν Εὔπολις. Pollux 10, 151. βαλλαντίδια (ι) Meinek.] βαλαντίδια.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="24" xml:id="kock-0461-aiges-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <p>βίος</p>
+              <note type="source">
+                <p>ἐπὶ οὐσίας . . . Εὔπολις Αἰξίν. Bekker. Anecd. 83, 31. οὐσίας Alberti apud Wesseling. Diss. Herod. 44] συνουσίας.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="25" xml:id="kock-0461-aiges-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <p>ἐλεινόν</p>
+              <note type="source">
+                <p>ἀντὶ τοῦ ἐλεεινόν. Εὔπολις Αἰξίν. Bekker. Anecd. 92, 9. Hermannum Hymn. Cer. 284 Bekkerus, Fritzschium Aristoph. Thesm. p. 456 Meinekius conferri iubet.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="kock-0461-aiges-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-8-l1" xml:lang="grc">Διόνυσε χαῖρε. μή τι πέντε καὶ δύο;</l>
+              </lg>
+              <note type="source">Athenaeus 10, 426ef οἱ δ᾽ ἐπιτεταμένως χρώμενοι τῷ ποτῷ δύο οἴνου ἔπινον πρὸς πέντε ὕδατος . . . Εὔπολις Αἰξίν. Photius 599, 23. Eustath. 1624, 44.</note>
+              <note type="apparatus">μή τι] μήτε B. μήτοι Eustath. Phot. 599, 24 τὸ παροιμιακόν· ἢ πέντε πίνειν ἢ τρί᾽ ἢ μὴ τέτταρα. τὸ μὲν γὰρ πέντε ἐστὶ τρία καὶ δύο, τὸ δὲ τρία ἥμισυ καὶ διπλάσιον, τὸ δὲ τέτταρα ἴσον ἴσῳ. cf. Cratin. 183. Pherecr. 70. Hermipp. 25. Amips. 4. Nicochar. 1.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="9" xml:id="kock-0461-aiges-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-9-l1" xml:lang="grc">τὴν πανδοκεύτριαν γὰρ ὁ γλάμων ἔχει.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Vesp. 902 ἐκτείνουσι μέντοι καὶ τὸ ὁ ἄρθρον. Εὔπολις Αἰξί κτλ.</note>
+              <note type="apparatus">ὁ Porsonus] ἀνὴρ ὁ. γλάμων Fritzsch. Q. Arist. 90. 235] γλήμων. τλήμων V. Dindorfius ἁνὴρ ὁ γλάμων | ἔχει. Fritzschius ὁ γλάμων ἀνὴρ | ἔχει. veri similius est ὁ γλάμων ἔχει | ἀνήρ, i. e. in matrimonio. significatur Archedemus. Aristoph. Ran. 417. 588.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="10" xml:id="kock-0461-aiges-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-10-l1" xml:lang="grc">προσένεγκέ μουγγὺς τὸ στόμ᾽ ὀσφρέσθαι τὸ σόν.</l>
+              </lg>
+              <note type="source">Priscianus 18, 252 ὀσφραίνομαι τοῦδε καὶ τόδε. Εὔπολις Αἰξίν.</note>
+              <note type="apparatus">ὀσφρέσθαι Elmsl. Aristoph. Ach. 179] ὀσφραίνεσθαι. cf. Pherecr. 69, 4.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0461-aiges-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-11-l1" xml:lang="grc">ταύτην ἐγὼ ζητῶν πάλαι τὴν ἁρμογήν.</l>
+              </lg>
+              <note type="source">Pollux 4, 57 τὴν ἁρμονίαν ἁρμογὴν Εὔπολις εἴρηκε· ταύτην κτλ. Suidas ἁρμογή· Εὔπολις Αἰξίν κτλ.</note>
+              <note type="apparatus">ζητῶν] ἐζήτουν Suidas. ᾽ζήτουν Meinekius. Bekker. Anecd. 15, 20 ἁρμογή· μουσικὸν τοὔνομα, τιθέμενον ἐπὶ τῶν ἁρμόσεων, ἃς ποιοῦνται οἱ μουσικοί, ἐπειδὰν ἐξ ἁρμονίας εἰς ἑτέραν ἁρμονίαν μετίωσι, φέρε (i. e. velut) ἐκ Δωρίων εἰς Ὑπιώνια ἢ ἐκ Φρυγίων εἰς Ὑπερμιξολύδια. fortasse sophistae sunt verba.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0461-aiges-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-12-l1" xml:lang="grc">τοῦδε νῦν γεῦσαι λαβών.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 380e τὸ γεῦσαι ἔχομεν ἐν Εὐπόλιδος Αἰξί κτλ. Aristoph. Ach. 188. 191.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="13" xml:id="kock-0461-aiges-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-13-l1" xml:lang="grc">ἐπίσταμαι γὰρ αἰπολεῖν, σκάπτειν, νεᾶν, φυτεύειν.</l>
+              </lg>
+              <note type="source">Photius <foreign xml:lang="grc">νεᾶν· οὐ νεοῦν τὴν γῆν, καὶ νεατὸν Ξενοφῶν, οὐ νέωσιν. Εὔπολις Αἰξίν.</foreign>
+              </note>
+              <note type="apparatus">in codice perperam a verbo <foreign xml:lang="grc">νεᾶν</foreign> ‘novus articulus’ incipit. correxit Porsonus. cf. Aristoph. Nub. 1117. loquitur ille sive agricola sive pastor.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="14" xml:id="kock-0461-aiges-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-14-l1" xml:lang="grc">βοσκόμεθ’ ὕλης ἀπὸ παντοδαπῆς, ἐλάτης, πρίνου κομάρου τε</l>
+                <l n="2" xml:id="kock-0461-aiges-14-l2" xml:lang="grc">πτόρθους ἁπαλοὺς ἀποτρώγουσαι, καὶ πρὸς τούτοισί γε θαλλόν,</l>
+                <l n="3" xml:id="kock-0461-aiges-14-l3" xml:lang="grc">κύτισόν τ’ ἠδὲ σφάκον εὐώδη, καὶ σμίλακα τὴν πολύφυλλον,</l>
+                <l n="4" xml:id="kock-0461-aiges-14-l4" xml:lang="grc">κότινον, σχῖνον, μελίαν, λεύκην, ἀρίαν, δρῦν, κιττόν, ἐρίκην,</l>
+                <l n="5" xml:id="kock-0461-aiges-14-l5" xml:lang="grc">πρόμαλον, ῥάμνον, φλόμον, ἀνθέρικον, φηγόν, κισθόν, θύμα,</l>
+                <l n="6" xml:id="kock-0461-aiges-14-l6" xml:lang="grc">θύμβραν.</l>
+              </lg>
+              <note type="source">Plutarchus Mor. 662e <foreign xml:lang="grc">αἱ παρ’ Εὐπόλιδι αἶγες ἀντικαρτεροῦσιν ὑμνοῦσαι τὴν τροφὴν ὡς παμμιγῆ καὶ ποικίλην οὖσαν, οὕτω πως λέγουσαι κτλ.</foreign> Macrobius Saturn. 7, 5 notus est omnibus Eupolis inter elegantes habendus veteris comoediae poetas. is in fabula quae inscribitur Aeges, inducit capras de cibi sui copia in haec se verba iactantes: <foreign xml:lang="grc">βοσκόμεθ’ ὕλης κτλ.</foreign> Scholiast. Iliad. 16, 353. Eustath. 1063, 44 <foreign xml:lang="grc">πρόβατα γὰρ πάντα ἐκάλουν τὰ θρέμματα οἱ παλαιοί, καὶ Εὔπολις προβατικὸν χορόν φησι τὸν ἐξ αἰγῶν.</foreign> Cram. Anecd. Par. III 21, 30 <foreign xml:lang="grc">προβατικὸν χωρίον (!) τὸν ἐξ αἰγῶν φησὶ τόπον.</foreign> Erotianus Gloss. Hipp. 112 Klein. <foreign xml:lang="grc">πρόμαλόν ἐστιν εἶδος φυτοῦ οὗ μέμνηται καὶ Εὔπολις ἐν Αἰξίν.</foreign>
+              </note>
+              <note type="apparatus">2. <foreign xml:lang="grc">τούτοισί γε θαλλόν</foreign> Meinek.] <foreign xml:lang="grc">τούτοισιν ἔτ’ ἄλλ’ οἷον. τούτοισιν εταλλοην</foreign> cod. Macr. Par. <foreign xml:lang="grc">τούτοισιν ἔτ’ ἄλλα</foreign> Grotius. <foreign xml:lang="grc">τούτοις τιθύμαλλον</foreign> Bergk. R. c. Att. 199. comparat Meinekius Athen. 13, 587a <foreign xml:lang="grc">θαλλῷ χαίρουσιν αἱ αἶγες, διόπερ οὐδ’ εἰς ἀκρόπολιν ἀνιεῖσι τὸ ζώον.</foreign> addere poterat Plut. Mor. 30d <foreign xml:lang="grc">ἡ δὲ αἶξ τὸν θαλλόν (διώκει).</foreign> Harpocr. 130, 14 <foreign xml:lang="grc">Αἶγα λέγεσθαι ἑταίραν διὰ τὸ Θαλλὸν τὸν κάπηλον καταφαγεῖν· ὅτι γὰρ θαλλῷ χαίρουσιν αἱ αἶγες, καὶ Σοφοκλῆς Ποιμέσιν (fr. 459 N.).</foreign> 3. <foreign xml:lang="grc">σφάκον</foreign> Bodaeus Stapelius Theophr. p. 409 (Lob. Phryn. 110. cf. Pathol. el. I 510)] <foreign xml:lang="grc">φάσκον. τὴν</foreign> om. Plut. 4. <foreign xml:lang="grc">λεύκην</foreign> K., <foreign xml:lang="grc">ἀρίαν</foreign> Lobeck. Rhemat. 356] <foreign xml:lang="grc">πεύκην, ἁλίαν</foreign> Macr. om. Plut. <foreign xml:lang="grc">ἐρίκην</foreign>] <foreign xml:lang="grc">μυρίκην</foreign> Plut. 5. <foreign xml:lang="grc">θύμα</foreign> om. Plut. 3. <foreign xml:lang="grc">κύτισον.</foreign> Theocr. 10, 30 <foreign xml:lang="grc">ὁ αἴξ τὰν κύτισον. ἠδέ.</foreign> cf. quae congessimus ad Cratin. 95. 4. ‘pinea fronde non vescuntur caprae.’ Meinekius verissime. at populea libenter: quapropter scribendum erat <foreign xml:lang="grc">λεύκην, ἁλίαν δρῦν</foreign> (sic Macr.) Meinekius eandem putabat ac <foreign xml:lang="grc">θαλασσίαν.</foreign> sed rectissime Lobeckius <foreign xml:lang="grc">ἀρίαν.</foreign> Hesych. <foreign xml:lang="grc">ἀρία· φυτὸν ἡ ἀρία.</foreign> cf. Eupol. 360. Theophr. H. pl. 3, 3, 8. 3, 4, 2. 4. 3, 16, 3. 3, 17, 1. 4, 7, 2. 5, 1, 2. 5, 3, 3. 5, 4, 2.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="15" xml:id="kock-0461-aiges-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-15-l1" xml:lang="grc">αὐτοῦ τὴν χερνίβα παύσεις.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 9, 409 b παρὰ μέντοι τοῖς τραγικοῖς καὶ τοῖς κωμικοῖς παροξυτόνως ἀνέγνωσται χερνίβα . . . παρ’ Εὐπόλιδι ἐν Αἰξίν κτλ. ἔστι δὲ ὕδωρ, εἰς ὃ ἀπέβαπτον δαλὸν ἐκ τοῦ βωμοῦ λαμβάνοντες, ἐφ’ οὗ τὴν θυσίαν ἐπετέλουν· καὶ τούτῳ περιρραίνοντες τοὺς παρόντας ἥγνιζον.</p>
+              </note>
+              <note type="apparatus">
+                <p>de accentu cf. G. Herm. Eurip. Herc. fur. 924. est aut versus paroemiacus aut tetrametri anap. exitus.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="16" xml:id="kock-0461-aiges-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-16-l1" xml:lang="grc">σφυράδων πολλῶν ἀναμέστη</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Pac. 790 σφυράδες εἰσί τὰ τῶν αἰγῶν καὶ προβάτων ἀποπατήματα. Εὔπολις Αἰξί κτλ. ἀναμέστη] ἀνάμεστοι Dindorfius.</p>
+              </note>
+              <note type="apparatus">
+                <p>sed potest poeta etiam ἀνάμεστος vel ἀνάμεστα vel etiam ἅμα μεστή scripsisse. versus est qualis 15</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="17" xml:id="kock-0461-aiges-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <note type="source">
+                <p>Quintil. Inst. 1, 10, 17 eosdem utriusque (musicae et litterarum) praeceptores fuisse cum Sophron ostendit . . . tum Eupolis, apud quem Prodamus et musicen et litteras docet. ad Capras haec pertinere docet Cramer. Anecd. Ox. IIII 325, 1 πάλαι τοὺς αὐτοὺς γραμματικῆς καὶ μουσικῆς εἶναι διδασκάλους, ὡς Εὔπολις εἰσάγει ἐν Αἰξί.</p>
+              </note>
+              <note type="apparatus">
+                <p>cf. Mein. I 114sq. in Prodami ceterum ignoti locum Prodicum substituit Bergkius R. c. Att. 335, Pronomum M. Horstig (apud Meinek.). Athen. 4, 184 d Ἀλκιβιάδην φησί (Δοῦρις) μαθεῖν τὴν αὐλητικὴν οὐ παρὰ τοῦ τυχόντος, ἀλλὰ Προνόμου τὴν μεγίστην ἐσχηκότος δόξαν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="18" xml:id="kock-0461-aiges-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-18-l1" xml:lang="grc">βουκολεῖσθαι αἶγας</l>
+              </lg>
+              <note type="source">
+                <p>Εὔπολις Αἰξίν. ἱπποβουκολῶ Εὐριπίδης Φοινίσσαις. Bekker. Anecd. 84, 19. ut οἰκοδομεῖν ναῦς, τείχη cet.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="19" xml:id="kock-0461-aiges-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <lg>
+                <l n="1" xml:id="kock-0461-aiges-19-l1" xml:lang="grc">ἱερεὺς Διονύσου</l>
+              </lg>
+              <note type="source">
+                <p>Εὔπολις Αἰξίν, Ἱππόνικον σκώπτων ὡς ἐρυθρὸν τῇ ὄψει. Hesychius. Schol. Aristoph. Ran. 308 Εὔπολις τὸν τοῦ Διονύσου ἱερέα</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="26" xml:id="kock-0461-aiges-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <p>
+                <hi rend="italic">ἐλελήθεισαν</hi>
+              </p>
+              <note type="apparatus">
+                <p>μετὰ τῆς θᾶ. Εὔπολις Αἰξίν. Bekker. Anecd. 91, 29. θᾶ] ει Lobeck. Phryn. 150. in versu anapaestico ea forma videtur poeta usus esse.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="27" xml:id="kock-0461-aiges-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <p>
+                <hi rend="italic">ἔφιππον</hi>
+              </p>
+              <note type="apparatus">
+                <p>Εὔπολις Αἰξίν. Photius. <hi rend="italic">equitem</hi> dicere videtur.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="28" xml:id="kock-0461-aiges-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <p>
+                <hi rend="italic">μεμβράδες</hi>
+              </p>
+              <note type="apparatus">
+                <p>ἐν ταῖς Εὐπόλιδος Αἰξὶν ἔστιν εὑρεῖν διὰ τοῦ μ γραφόμενον (pro βεμβράδες). Athen. 7, 287 d. cf. Aristoph. Vesp. 493. 4 et quae adnotavi ad Phryn. 50.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0461-aiges-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <p>
+                <hi rend="italic">νεανισκεύεται</hi>
+              </p>
+              <note type="apparatus">
+                <p>Εὔπολις Σφιγξίν. Photius. Αἰξὶν Meinek. I 115. nam in Aristophanis Vespis quidem (Σφηξίν) non exstat.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30" xml:id="kock-0461-aiges-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aiges">
+              <p>
+                <hi rend="italic">χορδῶν</hi>
+              </p>
+              <note type="apparatus">
+                <p>μέμνηται . . . καὶ Εὔπολις ἐν Αἰξίν. Athen. 3, 94 f. Theocr. 6, 1 Δαμοίτας καὶ Δάφνις ὁ βουκόλος. id recte (pro οἱ βουκόλοι) dictum esse negans Schol. addit τῷ αὐτῷ ἁμαρτήματι περιπέπτωκε καὶ Εὔπολις ἐν Αἰξίν. verba poetae non addit. Ad Capras praeterea Bergkius R. c. Att. 334 rettulit fr. 303. 353.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

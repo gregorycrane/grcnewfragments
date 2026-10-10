@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-telephos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΤΗΛΕΦΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.telephos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.telephos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.telephos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos"><head>ΤΗΛΕΦΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-telephos-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:696">
+            <note type="source">r. Dion. Hal. de comp. verb. 426 ed. Schæf. Ἐκ δὲ τῆς ποιήσεως τῆς ἰαμβικῆς τὰ Εὐριπίδου ταυτί·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ γαῖα πατρὶς, ἣν Πέλοψ ὁρίζεται,</l>
+              <l n="2" xml:lang="grc">χαῖρ᾽</l>
+            </lg>
+            <note type="commentary">τὸ πρῶτον ἀχρὶ τούτων κῶλον.</note>
+            <lg type="fragment">
+              <l n="3" xml:lang="grc">ὅς τε πέτρον Ἀρκάδων δυσχειμέρων</l>
+              <l n="4" xml:lang="grc">[Πὰν] ἐμβατεύεις.</l>
+            </lg>
+            <note type="commentary">τὸ δεύτερον μέχρι τοῦδε.</note>
+            <lg type="fragment">
+              <l n="5" xml:lang="grc">ἔνθεν εὔχομαι γένος.</l>
+            </lg>
+            <note type="commentary">τοῦτο τρίτον. Τὰ μὲν πρότερα μείζονα στίχου, τοῦτο δὲ ἔλαττον.</note>
+            <lg type="fragment">
+              <l n="6" xml:lang="grc">Αὔγη γὰρ Ἀλέου παῖς με τῷ Τιρυνθίῳ</l>
+              <l n="7" xml:lang="grc">τίκτει λαθραίως Ἡρακλεῖ·</l>
+            </lg>
+            <note type="commentary">μετὰ τοῦτο</note>
+            <lg type="fragment">
+              <l n="8" xml:lang="grc">Παρθένιον.</l>
+              <l n="9" xml:lang="grc">ξύνοιδ᾽ ὄρος</l>
+            </lg>
+            <note type="commentary">Οὐδέτερον αὐτῶν στίχῳ συμμετρούμενον. εἰτ᾽ αὖθις ἕτερον στίχου τε ἔλαττον καὶ στίχου μείζον·</note>
+            <lg type="fragment">
+              <l n="10" xml:lang="grc">ἔνθα μητέρ᾽ ὠδίνων ἐμὴν</l>
+              <l n="11" xml:lang="grc">ἔλυσεν Εἰλείθυια.</l>
+            </lg>
+            <note type="commentary">καὶ τὰ ἑξῆς τούτων παραπλήσια.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-telephos-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:697">
+            <note type="source">2. Locum e Diogen. Epist. 5. in Notit. Mss. T. 10, 2, p. 241, probabiliter huc retulit Boissonadius:</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πτώχ᾿ ἀμφίβλητα σώματος λαβὼν ῥάκη</l>
+              <l n="2" xml:lang="grc">ἀρκτήρια τύχης.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-telephos-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:726">
+            <note type="source">3. Schol. Plat. p. 50 R. Ψυκτήρ, σκεῦος, ἔνθα διανίζουσι τὰ ποτήρια, ἢ ποτηρίου εἶδος, ὡς Εὐριπίδης Τηλέφῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-telephos-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:698">
+            <note type="source">4. Aristoph. Ach. 439 sq.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δεῖ γάρ με δόξαι πτωχὸν εἶναι τήμερον,</l>
+              <l n="2" xml:lang="grc">εἶναι μὲν, ὅσπερ εἰμὶ, φαίνεσθαι δὲ μή.</l>
+            </lg>
+            <note type="commentary">Eundem locum affert Suid. v. εἶναι et φαινομένα, ubi addit: τούτεστι μὴ ἀλλάξαι τὴν φύσιν, ἀλλὰ τὴν μορφήν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-telephos-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:701">
+            <note type="source">5. Stobæus XXIX, 9.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μοχθεῖν ἀνάγκη τοὺς θέλοντας εὐτυχεῖν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-telephos-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos">
+            <note type="source">6. Eustath. ad II. π'. p. 1084, 2.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Βέβληκ᾿ Ἀχιλλεὺς δύο κύβω καὶ τέτταρα.</l>
+            </lg>
+            <note type="commentary">ἤγουν δύω μονάδας καὶ τέτταρα. ὃν στίχον Εὐριπίδης ἐν Τηλέφῳ θεὶς, ὅπου κυβεύοντας ἥρωας εἰσήγαγε, καὶ μαθὼν ἐπ᾿ αὐτῷ χλευασθῆναι ὡς εὐτελεῖ, καθὰ σκώπτει καὶ ὁ κωμικὸς, αἰδεσθεὶς περιεῖλεν ὅλον τὸ ἐπεισόδιον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-telephos-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:713">
+            <note type="source">7. Aristoph. Equ. 806.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ πόλις ῎Αργους, κλύεθ᾽ οἷα λέγει.</l>
+            </lg>
+            <note type="commentary">ad quem locum schol. "&amp; πόλις "Αργους” ἀπὸ Της λέφου Εὐριπίδου. τὸ δὲ “κλύεθ᾽ οἷα λέγει” ἀπὸ Μηδείας (vs. 170.)</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-telephos-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:722">
+            <note type="source">8. Schol. Aristoph. Nub. 888. ἴθ᾿ ὅποι χρήζεις· πάντα δὲ ἐκ Τηλέφου Εὐριπίδου·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ἴθ᾽ ὅποι χρήζεις· οὐκ ἀπολοῦμαι</l>
+              <l n="2" xml:lang="grc">τῆς σῆς Ἑλένης ούνεκα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-telephos-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:723">
+            <note type="source">9. Stobaeus XXXIX, 10.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σπάρτην ἔλαχες· κείνην κόσμει,</l>
+              <l n="2" xml:lang="grc">τὰς δὲ Μυκήνας ἡμεῖς ἰδίᾳ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-telephos-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:705">
+            <note type="source">10. Aristot. Rhet. III, 2, 10. τὸ δὲ, ὡς ὁ Τήλεφος Εὐριπίδου φησὶ, κώπας ἀνάσσειν καὶ ἀποβὰς εἰς Μυσίαν. Reliqua supplet schol.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κώπης ἀνάσσει κἀποβὰς εἰς Μυσίαν</l>
+              <l n="2" xml:lang="grc">ἐτραυματίσθη πολεμίῳ βραχίονι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-telephos-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:703">
+            <note type="source">11. Schol. Aristoph. Ach. 496. Ἐκ Τηλέφου Εὐριπίδου.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μή μοι φθονήσητ᾽, ἄνδρες Ἑλλήνων ἄκροι,</l>
+              <l n="2" xml:lang="grc">εἰ πτωχὸς ὢν τέτληκ᾽ ἐν ἐσθλοῖσιν λέγειν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-telephos-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:707">
+            <note type="source">12. Aristoph. Ach. 445. Εὐδαιμονοίης, Τηλέφῳ δ᾽ ἁγὼ φρονῶ. ubi schol. παρὰ τὰ ἐκ Τηλέφου Εὐριπίδου·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καλῶς ἔχοιμι, Τηλέφῳ δ᾽ ἁγὼ φρονῶ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-telephos-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:714">
+            <note type="source">13. Sext. Empir. adv. Eth. p. 702, (p. 557 ed. Bekk.) Stobaeus XCIII, 19. XCVII, 11.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τί γάρ με πλοῦτος ὠφελεῖ νοσοῦντά γε·</l>
+              <l n="2" xml:lang="grc">σμίκρ᾽ ἂν θέλοιμι καὶ καθ᾽ ἡμέραν ἔχων</l>
+              <l n="3" xml:lang="grc">ἄλυπον οἰκεῖν βίοτον, ἢ πλουτῶν νοσεῖν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-telephos-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos">
+            <note type="source">14. Plato Gorg. p. 521 Β. εἴ σοι Μυσόν γε ἥδιον καλεῖν κ.τ.λ., ad quem locum Olymp. in Cod. Cizensi ap. Stallb. Ἡ παροιμία αὕτη ἐκ τοῦ Τηλέφου ἐστὶν Εὐριπίδου· ἐκεῖ γὰρ ἐρωτᾷ τις περὶ τοῦ Τηλέφου καί φησι τὸ Μυσὸν Τήλεφον. εἴτε δὲ Μυσὸς ἦν, εἴτε ἄλλοθέν ποθεν, πῶς ὅτι ὁ Τήλεφος γνωρίζεται. Hinc vir doctus in Diar. Liter. Halens. 1840, p. 57 eleganter versus elicuit:</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ὁ δ᾽ εἴτε Μυσὸς εἴτε κἄλλοθέν ποθεν</l>
+              <l n="2" xml:lang="grc">οὐκ ἔσθ᾽ ὅπως οὐ Τήλεφος γνωρίζεται.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-telephos-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos">
+            <note type="source">15. Aristoph. Lys. 707.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἄνασσα πράγους τοῦδε καὶ βουλεύματος,</l>
+              <l n="2" xml:lang="grc">τί μοι σκυθρωπὸς ἐξελήλυθας δόμων;</l>
+            </lg>
+            <note type="commentary">ubi Schol. ἐκ Τηλέφου Εὐριπίδου.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-telephos-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:702">
+            <note type="source">16. Stobaeus LI, 8.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τόλμα ἀεὶ, κἄν τι τρηχὺ νέμωσι θεοί.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-telephos-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:700">
+            <note type="source">17. Aristoph. Equ. 1237.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ Φοῖβ᾽ Ἄπολλον Λύκιε, τί ποτέ μ᾽ ἐργάσει;</l>
+            </lg>
+            <note type="commentary">ubi schol. ὁ στίχος ἐκ τοῦ Τηλέφου Εὐριπίδου.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-telephos-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:727">
+            <note type="source">18. Schol. Venet. ad Aristoph. Pac. 527. ἐσχημάτισται ὡς ἀπὸ τοῦ βλέπω βλεπτὸς καὶ Ἀττικῶς βλέπος, καὶ ὡς ἀπὸ τοῦ ῥέω ῥέος. ἔστι δὲ Εὐριπίδου ἐκ Τηλέφου ἢ Τληπολέμου τὸ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ἀπέπτυσ᾽ ἐχθροῦ φωτὸς ἔχθιστον τέκος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="19" xml:id="fragment-telephos-dindorf1893_grc1-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:721">
+            <note type="source">19. Ammon. de diff. voc. v. πρόξενος. Πρόξενος πόλεως καὶ ἔθνους, ὡς παρὰ Θουκυδίδῃ, ξένος δὲ ὁ εἰς ἑνός· ὁ δὲ αὐτὸς καὶ ἰδιόξενος· οὐκ ὀρθῶς οὖν Εὐριπίδης ἐν Τηλέφῳ πρόξενον εἴρηκε τὸν ἰδιόξενον·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">κακός τίς ἐστι προξένῳ σοι χρώμενος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="20" xml:id="fragment-telephos-dindorf1893_grc1-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:706">
+            <note type="source">20. Stobaeus XIII, 10.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀγάμεμνον, οὐδ᾽ εἰ πέλεκυν ἐν χεροῖν ἔχων</l>
+              <l n="2" xml:lang="grc">μέλλοι τις εἰς τράχηλον ἐμβαλεῖν ἐμὸν,</l>
+              <l n="3" xml:lang="grc">σιγήσομαι, δίκαιά γ᾽ ἀντειπεῖν ἔχων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="21" xml:id="fragment-telephos-dindorf1893_grc1-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos">
+            <note type="source">21. Aristoph. Acharn. 470.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">καὶ γάρ εἰμ᾽ ἄγαν</l>
+              <l n="2" xml:lang="grc">ὀχληρὸς οὖν δοκῶν γε κυιράνους στυγεῖν.</l>
+            </lg>
+            <note type="commentary">ubi schol. τοῦτο πεπαρῷδηται ἀσήμως ἐξ Οἰνέως Εὐριπίδου. ὁ δὲ Σύμμαχος καὶ ἐκ Τηλέφου φησὶν αὐτό.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="fragment-telephos-dindorf1893_grc1-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:708">
+            <note type="source">22. Aristoph. Ach. 539.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐρεῖ τις, οὐ χρῆν· ἀλλὰ τί χρῆν, εἴπατε.</l>
+            </lg>
+            <note type="commentary">Schol. καὶ τοῦτο ἀπὸ Τηλέφου Εὐριπίδου.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="23" xml:id="fragment-telephos-dindorf1893_grc1-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:709">
+            <note type="source">23. Aristoph. Ach. 542.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καθῆσθ᾽ ἂν ἐν δόμοισιν; ἢ πολλοῦ γε δεῖ.</l>
+            </lg>
+            <note type="commentary">Schol. ἀντὶ τοῦ οὐδὲ ὅλως. καὶ τοῦτο ἐκ Τηλέφου.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="24" xml:id="fragment-telephos-dindorf1893_grc1-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos">
+            <note type="source">24. Aristoph. Ach. 554.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ταῦτ᾽ οἶδ᾽ ὅτι ἂν ἐδρᾶτε. τὸν δὲ Τήλεφον</l>
+              <l n="2" xml:lang="grc">οὐκ οἰόμεσθα· νοῦς ἄρ᾽ ἡμῖν οὐκ ἔνι.</l>
+            </lg>
+            <note type="commentary">Schol. ad verba Τὸν δὲ Τήλεφον : καὶ ταῦτα ἐκ Τηλέφου Εὐριπίδου.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="25" xml:id="fragment-telephos-dindorf1893_grc1-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos">
+            <note type="source">25. Schol. Rav. Aristoph. Acharn. 576. κακορροθεῖ· κακῶς ἀγορεύει. καὶ τοῦτο ἐκ Τηλέφου.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="25_2" xml:id="fragment-telephos-dindorf1893_grc1-25_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:711">
+            <note type="source">25. Aristoph. Thesm. 517.</note>
+            <quote>“Ταῦτ᾽ οὐ ποιοῦμεν τὰ κακά; νὴ τὴν Ἄρτεμιν, Ἡμεῖς γε. κατ᾽ Εὐριπίδῃ θυμούμεθα, Οὐδὲν παθοῦσαι μεῖζον, ἢ δεδράκαμεν;”</quote>
+            <note type="commentary">quos ad vs. schol. Rav. adnotat: παρὰ τὰ ἐκ Τηλέφου Εὐριπίδου·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">εἰ δὴ θυμούμεθα</l>
+              <l n="2" xml:lang="grc">παθόντες οὐδὲν μᾶλλον ἢ δεδρακότες.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="27" xml:id="fragment-telephos-dindorf1893_grc1-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:715">
+            <note type="source">27. Stobaeus XXIX, 55.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ ἆρ᾽ Ὀδυσσεύς ἐστιν αἱμύλος μόνος.</l>
+              <l n="2" xml:lang="grc">χρεία διδάσκει, κἂν βραδύς τις ᾖ, σοφόν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="28" xml:id="fragment-telephos-dindorf1893_grc1-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:720">
+            <note type="source">28. Schol. Aristoph. Ach. 8. ἄξιον γὰρ Ἑλλάδι· τοῦτο παρῳδία καλεῖται, ὅτ᾽ ἂν ἐκ τραγῳδίας μετενεχθῇ. ἔστι δὲ τὸ ἡμιστίχιον ἐκ Τηλέφου Εὐριπίδου, ἔχον οὕτως·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">κακῶς ὅλοιτ᾽ ἄν· ἄξιον γὰρ Ἑλλάδι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="29" xml:id="fragment-telephos-dindorf1893_grc1-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:717">
+            <note type="source">29. Aristoph. Ach. 453.</note>
+            <quote>“Τί δ᾽ ὦ τάλας γε τοῦδ᾽ ἔχεις πλέκους χρέος;”</quote>
+            <note type="commentary">ubi Schol. καὶ τοῦτο δὲ παρὰ τὰ ἐκ Τηλέφου Εὐριπίδου·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τί δ᾽, ὦ τάλας, σὺ τῷδε πείθεσθαι θέλεις;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="30" xml:id="fragment-telephos-dindorf1893_grc1-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:719">
+            <note type="source">30. Clem. Alex. Strom. VI, 2, § 16, (p. 746 P.) καὶ μὴν ἐν Τηλέφῳ εἰπόντος Εὐριπίδου·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἕλληνες ὄντες βαρβάροις δουλεύσομεν;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="31" xml:id="fragment-telephos-dindorf1893_grc1-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:718">
+            <note type="source">31. Stobaeus XX, 37. Arsen. Viol. p. 489 ed. Walz, sine nom. auct. et fab.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὥρα σε θυμοῦ κρείσσονα γνώμην ἔχειν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="32" xml:id="fragment-telephos-dindorf1893_grc1-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:716">
+            <note type="source">32. Stobaeus XXII, 32.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σὺ δ᾽ εἰκ᾽ ἀνάγκῃ, καὶ θεοῖσι μὴ μάχου.</l>
+              <l n="2" xml:lang="grc">τόλμα δὲ προσβλέπειν με, καὶ φρονήματος</l>
+              <l n="3" xml:lang="grc">χάλα, τα τοι μέγιστα πολλάκις θεὸς</l>
+              <l n="4" xml:lang="grc">ταπείν᾽ ἔθηκε καὶ συνέστειλεν πάλιν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="33" xml:id="fragment-telephos-dindorf1893_grc1-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_telephos" sameAs="urn:cts:greekLit:tlg0006.telephos.nauck1889grc1:724">
+            <note type="source">33. Plut. de aud. 16, (p. 46 Ε. fin.) Οὐ γὰρ μόνον, ὡς Εὐριπίδης φησὶ, τὸ Τηλέφου τραῦμα</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πριστοῖσι λόγχης θέλγεται ῥινήμασιν,</l>
+            </lg>
+            <note type="commentary">ἀλλὰ καὶ τὸν ἐκ φιλοσοφίας ἐμφυόμενον εὐφυέσι νέοις δηγμὸν αὐτὸς ὁ τρώσας λόγος ἰᾶται.</note>
+          </div>
+        </div></body></text></TEI>

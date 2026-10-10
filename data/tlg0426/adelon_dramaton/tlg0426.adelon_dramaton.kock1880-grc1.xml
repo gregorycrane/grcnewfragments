@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CALLIAS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Callias</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0426.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0426.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0426.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="21" xml:id="kock-0426-adelon_dramaton-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0426-adelon_dramaton-21-l1" xml:lang="grc">ἔτνος, πῦρ, γογγυλίδες, ῥάφανοι, δρυπεπεῖς, ἐλατῆρες</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 2, 57a Καλλίας δ’ ἐπὶ τῆς ῥαφανῖδος εἴρηκε τὴν ῥάφανον. περὶ γοῦν τῆς ἀρχαιότητος τῆς κωμῳδίας διεξιὼν φησιν κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>ἔτνος insolenter producta prima syll. πῦρ] πῦαρ (πύαρ Arnaldus Lect. gr. I 17. πυριάτης Fritzsch. Aristoph. Thesm. p. 239. de victus qui olim choreutis praeberi solebat simplicitate loquitur.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="22" xml:id="kock-0426-adelon_dramaton-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0426-adelon_dramaton-22-l1" xml:lang="grc">δυαδελφίδην ταὐτῷ μυχῷ</l>
+              </lg>
+              <note type="source">
+                <p>Καλλίας. Pollux 3, 25. δύο ἀδελφιδὰς τούτω μοιχῶ A. om. BC.</p>
+              </note>
+              <note type="apparatus">
+                <p>δύ’ ἀδελφίδι’ ἐν ταὐτῷ μυχῷ Meinek.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="23" xml:id="kock-0426-adelon_dramaton-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <p>Μεγαρικαὶ σφίγγες</p>
+              <note type="source">
+                <p>Καλλίας πόρνας τινὰς οὕτως εἴρηκεν. Hesychius. Photius Μεγαρικαὶ σφίγγες· αἱ πόρναι οὕτως εἴρηνται· ἴσως δὲ ἐντεῦθεν καὶ σφίγκται οἱ μαλακοὶ ὠνομάσθησαν. Nauckius Philol. II 150. VI 415 sq. φύσιγγες pro σφίγγες. at Hesych. Κορίνθιαι· αἱ πέδαι, καὶ (Meinek. Κορίνθιαι πέδαι· . . . καὶ) αἱ ἀπὸ Κορίνθου τῆς πόλεως γυναῖκες. cf. Anaxil. Athen. 13, 558a.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="24" xml:id="kock-0426-adelon_dramaton-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <p>μετάλλου στόμιον</p>
+              <note type="source">
+                <p>Καλλίας ὁ κωμικὸς εἴρηκε. Pollux 2, 101.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="25" xml:id="kock-0426-adelon_dramaton-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <p>Βολβός</p>
+              <note type="source">
+                <p>Athenaeus 1, 22c ὀρχησταὶ ἔνδοξοι Βολβὸς μὲν παρὰ Κρατίνῳ (fr. 394) καὶ Καλλίᾳ.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="26" xml:id="kock-0426-adelon_dramaton-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <p>βουβωνιᾶν</p>
+              <note type="source">
+                <p>ὡς ὁ Καλλίας. Pollux 2, 186.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="27" xml:id="kock-0426-adelon_dramaton-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <p>δοκησιδέξιον</p>
+              <note type="source">
+                <p>Pollux 4, 9 δοκησίνους, ὃν καὶ δοκησιδέξιον Καλλίας εἴρηκεν ὁ κωμικός. cf. Pherecr. 154.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="28" xml:id="kock-0426-adelon_dramaton-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <p>ἐλλεβοριᾶν</p>
+              <note type="source">
+                <p>τὸ ἐλλεβόρου δεῖσθαι, ὡς Καλλίας φησί, καὶ ἐλλεβορίζειν. Schol.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="28_2" xml:id="kock-0426-adelon_dramaton-28_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <note type="source">Aristoph. Vesp. 1489. Etymol. m. 331, 30, Suidas, Zonaras</note>
+              <note type="apparatus">ἐλλεβοριᾶν· τὸ ἐλλεβόρου δεῖσθαι ὡς φαρμάκου. οὕτω Καλλίας.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0426-adelon_dramaton-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <head>μαμμᾶν</head>
+              <note type="apparatus">Ἀργεῖοι τὸ ἐσθίειν. οὕτω Καλλίας. Photius. id non solum Argivorum fuisse docet Aristoph. Nub. 1383. an scribendum <choice>
+                  <sic>αἱ μαῖαι</sic>
+                  <corr>αἱ μαῖαι</corr>
+                </choice> pro Ἀργεῖοι?</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30" xml:id="kock-0426-adelon_dramaton-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <head>στρηνόφωνος</head>
+              <note type="source">παρὰ Καλλίᾳ τῷ κωμικῷ. Pollux 2, 112.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="31" xml:id="kock-0426-adelon_dramaton-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <note type="source">Photius</note>
+              <note type="apparatus">ὑηνῶν· σκαιῶν καὶ ἀμαθῶν· καὶ ὑηνία σκαιότης καὶ ἀμαθία. οὕτως Καλλίας. Zonaras 1764 ὑηνεὺς ὁ σκαιός, ὁ φλύαρος, ὁ ἀμαθής. καὶ ὑηνία. οὕτω Καλλίας. itaque utrum ὑηνός an ὑηνία ad Calliam pertineat incertum est. videntur autem Hippocratis filii, ab omnibus comicis propter ὑηνίαν exagitati, hic quoque significari.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="32" xml:id="kock-0426-adelon_dramaton-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <note type="source">Hesychius</note>
+              <note type="apparatus">σκανα . . . ντα· ἐπιχαλκ . . . παρὰ Σώφρονίωσκανὰς πορεύση ἐν τῇ ἀσπίδι. Καλλίας δὲ σκεῦος. disputarunt de his Lobeckius Paralip. 334 adn. 15, Ahrens Dial. 475 (Sophron. fr. 93). ac priora quidem huc non pertinere constat. sed etiam quae Calliae esse dicuntur dubium est utrum ad comicum an ad Syracusanum referantur qui de Agathocle scripsit. quid significetur facile adparebit conl. Photius 518, 29 et Etym. m. 716, 54 σκηνὴν δὲ ἣν ἔχουσιν . . . ἔοικε δὲ σκεῦός τι εἶναι, ὅπερ οἱ μὲν κόσμον τινὰ γυναικεῖον εἶναί φασιν, οἱ δὲ σκιάδειον. Photius 743, 13 σκηνή· . . . οἱ δὲ εἶδος κόσμου γυναικείου, οἱ δὲ σκεῦός τι οὕτω καλούμενον. Demosth. 41, 11 σκηνὴν δὲ ἣν ἔχουσιν, οὐδέ γε ταύτην λαβόντες ἀναφέρουσιν (i. e. Betthimmel). ea igitur significatione Callias quoque sive comicus sive rerum scriptor usus erat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="33" xml:id="kock-0426-adelon_dramaton-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <note type="source">Athenaeus 13, 577bc</note>
+              <note type="apparatus">Ἀριστοφῶν δὲ . . ὁ τὸν νόμον εἰσενεγκὼν ἐπ᾽ Εὐκλείδου ἄρχοντος, ὃς ἂν μὴ ἐξ ἀστῆς γένηται νόθον εἶναι, αὐτὸς ἀπεδείχθη ὑπὸ Καλλιάδου τοῦ κωμικοῦ ἐκ Χορηγίδος τῆς ἑταίρας παιδοποιησάμενος. Calliam, non Calliadem significari censet Meinek. I 449. 450. quod si verum est utrum Callias in comoedia an in iudicio id fecerit quaeritur.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="19" xml:id="kock-0426-adelon_dramaton-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0426-adelon_dramaton-19-l1" xml:lang="grc">τραυλὴ μέν ἐστιν, ἀλλ' ἀνεστομωμένη.</l>
+              </lg>
+              <note type="source">Pollux 2, 102</note>
+              <note type="apparatus">Καλλίας ὁ κωμικός κτλ. 'dicuntur haec in mulierem blaesam, sed multa in dicendo acrimonia utentem. Soph. OC. 795 πολλὴν ἔχον στόμωσιν.' Meinek.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="20" xml:id="kock-0426-adelon_dramaton-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0426-adelon_dramaton-20-l1" xml:lang="grc">μετὰ μαινομένων φασὶν χρῆναι μαίνεσθαι πάντας ὁμοίως.</l>
+              </lg>
+              <note type="source">Clemens Alex. Strom. 6, 743</note>
+              <note type="apparatus">Καλλίᾳ τῷ κωμικῷ γράφοντι κτλ. Μένανδρος ἐν Πωλουμένοις παρισάζεται κτλ. ὁμοίως ad Calliae ver-</note>
+            </div>
+          </div></body></text></TEI>

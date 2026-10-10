@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΔΗΛΙΑΔΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.deliades.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.deliades.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.deliades.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades"><head>ΔΗΛΙΑΔΕΣ</head><div type="textpart" subtype="fragment" n="27" xml:id="kock-0434-deliades-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <lg>
+                <l n="1" xml:id="kock-0434-deliades-27-l1" xml:lang="grc">τῷ δ’ ὑποτρίψας τι μέρος πνίξον καθαρύλλως.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 396 b Κρατίνος ἐν Δηλιάσι.</note>
+              <note type="apparatus">scribendum videtur τοῦ, suspensum a τι μέρος. τυροῦ opinor vel alius condimenti. fragmentum est tetrametri anapaestici; desunt duo anapaesti. aliter Herwerd. Stud. crit. 76.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="28_29" xml:id="kock-0434-deliades-28_29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <lg>
+                <l n="1" xml:id="kock-0434-deliades-28_29-l1" xml:lang="grc">εἴ τις δ’ ὑμῶν κάλλει προκριθῇ.</l>
+                <l n="2" xml:id="kock-0434-deliades-28_29-l2" xml:lang="grc">πρὶν παροῦσα διδάσκῃ.</l>
+              </lg>
+              <note type="source">Bekk. Anecd. 129, 10 λείπει δὲ (ἂν) καὶ ἐν ὑποτακτικοῖς . . . Κρατῖνος Δηλιάσιν.</note>
+              <note type="apparatus">alter versus est anapaesticus, alter pherecrateus. de syntaxi, perperam a Cobeto (Mnem. nov. II 420) in comicorum fabulis damnata, cf. L. Schmidt in ind. Marburg. 1868/9 p. 16. Thuc. 6, 21, 1. Plat. Leg. 6, 761 c. 12, 958 d. Xen. Anab. 3, 1, 36. 3, 2, 22. 7, 6, 24 cum adn. Krueg. Arist. Eq. 698. 700. 805. Pac. 450. fr. 201. nam tragicorum quidem exempla adferre nihil attinet, aliquanto etiam frequentius πρίν sine ἄν cum coniunct.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30" xml:id="kock-0434-deliades-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <lg>
+                <l n="1" xml:id="kock-0434-deliades-30-l1" xml:lang="grc">τούτοισι δ’ ὄπισθεν ἴτω δίφρον φέρων Λυκοῦργος</l>
+                <l n="2" xml:id="kock-0434-deliades-30-l2" xml:lang="grc">ἔχων καλάσιριν.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Av. 1294 φαίνονται τὸν Λυκοῦργον Αἰγύπτιον εἶναι νομίζοντες ἢ τὸ γένος ἢ τοὺς τρόπους . . . Κρατίνος Δηλιάσι.</note>
+              <note type="apparatus">τούτοισι δ’ ὄπισθεν Herm. Opusc. V 296] τούτοις δὲ ὄπισθεν. vel ‘aliis numeris τούτοισι δ’ ἐξόπισθ’ ἴτω’. Meinek. de Lycurgo cf. Arist. Av. 1296 cum interpr. is quod a comicis (Pherecr. 11) Aegyptiae originis fuisse dicitur, id neque ab ulla eius inprobitate (αἰγυπτιάζειν enim dicebant pro πονηρεύεσθαι) neque cum Bergkio (R. c. Att. 40. 1) a cognatione nescio qua Eteobutadarum cum Aegyptiorum aliqua gente repetendum est (ei enim, si Lycurgus ad eos pertinebat, omnium maxime αὐτοχθονίαν prae se ferebant), sed probabiliter ita explicandum videtur, ut nuper</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="31" xml:id="kock-0434-deliades-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <note type="source">
+                <p>Schol. Aristoph. Vesp. 542 <foreign xml:lang="grc">Παναθηναίοις οἱ γέροντες θαλλοὺς ἔχοντες ἐπόμπευον . . . μνημονεύει τοῦ ἔθους (τοῦ θαλλοφορεῖν) Κρατῖνος ἐν Δηλιάσιν.</foreign> Xen. Symp. 4, 17 <foreign xml:lang="grc">θαλλοφόρους γὰρ τῇ Ἀθηνᾷ τοὺς καλοὺς γέροντας ἐκλέγονται.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="32" xml:id="kock-0434-deliades-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <note type="source">
+                <p>Hesych. <foreign xml:lang="grc">βοῦς ἐν αὐλίῳ· παροιμία ἐπὶ τῶν ἀχρήστων. Κρατῖνος Δηλιάσιν.</foreign> Diogen. 3, 70 et Apostol. 5, 10 <foreign xml:lang="grc">βοῦς ἐν αὐλίῳ γέρων, ἐπὶ τῶν δι’ ἀσθένειαν ἡσυχαζόντων.</foreign> Suid. <foreign xml:lang="grc">βοῦς ἐν αὐλίῳ κάθῃ· παροιμία ἐπὶ τῶν ἀχρήστων.</foreign> Longus 4, 18, 3 <foreign xml:lang="grc">οὐδ’ εἰ μέλλω βοῦς ἐν αὐλίῳ καταλείπεσθαι.</foreign> etiam de eis dici qui suis cari esse desierunt, docet Villoison.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="33" xml:id="kock-0434-deliades-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <note type="source">
+                <p>Aristoteles Bekk. p. 1098, 18 <foreign xml:lang="grc">μία γὰρ χελιδὼν ἔαρ οὐ ποιεῖ.</foreign> ad quae schol. Cramer. Anecd. Par. I 182, 24 <foreign xml:lang="grc">κέχρηται τῇ παροιμίᾳ Κρατῖνος ἐν Δηλιάσιν.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="34" xml:id="kock-0434-deliades-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <note type="source">
+                <p>Bekk. Anecd. 94, 7 <foreign xml:lang="grc">ἐξ αὐτῆς· ἀντὶ τοῦ παραχρῆμα. Κρατῖνος Δηλιάσιν.</foreign> Hesych. <foreign xml:lang="grc">ἐξαυτῆς· παραυτίκα.</foreign> cf. Lobeck. Phryn. 47 adn. 2. Fritzsch. Arist. Thesm. 87 (p. 25). <foreign xml:lang="grc">ἐξαυτῆς</foreign> ortum esse ex <foreign xml:lang="grc">ἐξαίφνης</foreign> conicit Herwerden. Obs. crit. 4.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="35" xml:id="kock-0434-deliades-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <note type="source">
+                <p>Bekk. Anecd. 96, 14 <foreign xml:lang="grc">ἐγκυρῆσαι· ἀντὶ τοῦ ἐντυχεῖν. Κρατῖνος Δηλιάσιν.</foreign> cf. Suidas et Zonaras 609. <foreign xml:lang="grc">ἐγκῦρσαι</foreign> Soph. El. 863.</p>
+              </note>
+              <note type="apparatus">
+                <p>Fragm. 309 ad hanc fabulam referebat Bergkius R. c. Att. 44. cf. etiam quae ad fr. 180 adnotavi, et fr. 378.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="kock-0434-deliades-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <lg>
+                <l n="1" xml:id="kock-0434-deliades-22-l1" xml:lang="grc">Ὑπερβορέους αἴθρια τιμῶντας στέφη.</l>
+              </lg>
+              <note type="source">
+                <p>Hesychius αἴθρια· Κρατίνος Δηλιάσιν. . . . τὰ γὰρ Ὑπερβορέων ἱερὰ κατά τινα πάτριον ἁγιστείαν οὐχ ὑπὸ στέγην ἀλλ᾽ ὑπ᾽ αἴθριον διαφυλάττεται. cod. αἴθρια· Κρατίνος Ἡλιᾶσιν. ὑπερμορίους † Αἴθριαι τιμῶντας στέφη· Ὑπερβορέους Musurus, Δηλιάσιν Sopingus. aut Ὑπερβορείους aut αἴθρεια Meinekius.</p>
+              </note>
+              <note type="apparatus">
+                <p>nota est Herodoti (4, 32—35, cf. Pausan. 1, 31, 2) narratio de sacris quibusdam ab Hyperboreis per longas itinerum ambages in Graeciam et Delum insulam perlatis vel, quod postea faciebant, transmissis. haec sacra Herodotus dicit ἱρὰ ἐνδεδεμένα ἐν καλάμῃ πυρῶν, Pausanias ἀπαρχάς, easque narrat κεκρύφθαι μὲν ἐν καλάμῃ πυρῶν, γινώσκεσθαι δὲ ὑπ᾽ οὐδένων. semper ea sub divo adservari solere neque Herodotus neque Pausanias auctor est; tradunt cum Hesychio alii grammatici, velut Bekk. Anecd. 355, 29 αἴθρια στέφη·</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="23" xml:id="kock-0434-deliades-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <lg>
+                <l n="1" xml:id="kock-0434-deliades-23-l1" xml:lang="grc">ἐτήσιοι γὰρ πρόσιτ᾽ ἀεὶ πρὸς τὴν τέχνην.</l>
+              </lg>
+              <note type="source">
+                <p>Photius ἐτήσιοι· πρόσκαιροι Κρατίνος Δηλιάσιν. πρόσιτ᾽ ἀεὶ Porson] πρόσιτα εἰ. praeterea cod. δειλιᾶσιν. male grammaticus ἐτήσιοι· πρόσκαιροι. nec prorsus recte Bergkius (R. c. Att. 45) 'quotannis acceditis ad artem', propterea etiam quam artem dicat poeta dubitans. at significat sine dubio artem scaenicam, qua, quoniam Lenaeis tantum modo et Dionysiis fabulae agebantur, post annua demum intervalla Athenienses fruebantur. ea ipsa re, in epirrhemate fortasse, Cratinus falsa civium de arte comica iudicia quodammodo excusari posse dicebat.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="24" xml:id="kock-0434-deliades-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <lg>
+                <l n="1" xml:id="kock-0434-deliades-24-l1" xml:lang="grc">ἦν ἆρ᾽ ἀληθὴς ὁ λόγος, ὡς δὶς παῖς γέρων.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Platonis in Boettig. Opusc. III 197 μέμνηται δὲ αὐτῆς (τῆς παροιμίας) Κρατῖνος ἐν Δηλιάσιν. ἆρ᾽ — παῖς Bastius apud Boettig.] ἄρα — παῖς ἐστὶν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="25_26" xml:id="kock-0434-deliades-25_26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <lg>
+                <l n="1" xml:id="kock-0434-deliades-25_26-l1" xml:lang="grc">ἵνα σιωπῇ τῆς τέχνης ῥάζωσι τὸν λοιπὸν χρόνον.</l>
+                <l n="2" xml:id="kock-0434-deliades-25_26-l2" xml:lang="grc">ἔρραζε πρὸς τὴν γῆν, ὁ δ᾽ ἠσκάριζε κἀπέπαρδε.</l>
+              </lg>
+              <note type="source">
+                <p>Photius et Suidas ῥάζειν καὶ ῥύζειν· τὸ ὑλακτεῖν . . . ἀπο τούτου δὲ ἐπὶ τοὺς πικραινομένους καὶ σκαιολογοῦντας μετηνέχθη· Κρατῖνος Δηλιάσιν. 2. δ᾽ ἠσκάριζε Pierson. Moer. 36. Pors. Misc. 377] ὁ δὲ σκαρίζει. Phot. ἠσκάριζεν· ἀντὶ τοῦ ἤσπαιρεν. et ἀπασκαρίζειν Arist. fr. 495. Menand. apud Suid. ἀπασκαρίζειν. κἀπέπαρδε Pors.] κατέπαρδε Phot., καὶ πέπορδε Suid. — recte sine dubio iam ante Cobetum (Mnem. VIII 48) Porsonus apud Dobr. Arist. Nub. 1350 κἀπεπόρδει: imperfecto enim, non aoristo opus est. Arist. Pac. 335 ἥδομαι γὰρ καὶ γέγηθα καὶ πέπορδα καὶ γελῶ.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="36" xml:id="kock-0434-deliades-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_deliades">
+              <lg>
+                <l n="1" xml:id="kock-0434-deliades-36-l1" xml:lang="grc">ὅτε σὺ τοὺς καλοὺς θριάμβους ἀναρύτουσ’ ἀπηχθάνου.</l>
+              </lg>
+              <note type="source">Suidas <foreign xml:lang="grc">ἀναρύτειν· ἀναντλεῖν, ἀπὸ τοῦ ἀρύεσθαι. Κρατῖνος Διδασκαλίαις. ἀναρρύτειν vel ἀναρύττειν</foreign> codices Suidae plerique, sed recte <foreign xml:lang="grc">ἀναρύτειν</foreign> A. cf. Porson. Eurip. Phoen. 463. Hesych. <foreign xml:lang="grc">θρίαμβος· Διονυσιακὸς ὕμνος.</foreign>
+              </note>
+              <note type="apparatus">‘ridet nescio quam mulierculam quae hymnos cantando corruperit. <foreign xml:lang="grc">ἀναρύτειν</foreign> magna cum aerumna vocem promere dixisse videtur. similiter <foreign xml:lang="grc">ἀνασπᾶν λόγους</foreign> Soph. Ai. 302.’ Meinek. — non credo. <foreign xml:lang="grc">ἀναρύτειν θριάμβους</foreign> rectissime poeta dicitur qui carmina Bacchica ex imo pectore haurit. itaque Musam Cratini ipsam adpellari existimo, quae in summa carminum suorum pulchritudine invidiam aemulorum hominumque a poeta exagitatorum evitare non potuerit.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-phryges-nauck1889grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΦΡΥΓΕΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0011">Sophocles</author>
+        <editor>August Nauck</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability>
+          <p>Derived scholarly transcription; verify against page images before quotation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>August Nauck, Tragicorum Graecorum Fragmenta, second edition (Leipzig: Teubner, 1889).</bibl>
+        <ptr target="../../../nauck1889/source/nauck1889.tragicorum-graecorum-fragmenta.xml"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Extracted deterministically from nauck.tragfrag-2.xml; repaired the malformed TEI namespace URI.</change>
+    <change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.phryges; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.phryges.nauck1889grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.phryges.nauck1889grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phryges"><head>ΦΡΥΓΕΣ</head><div type="textpart" subtype="fragment" n="657" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phryges" xml:id="fragment-phryges-nauck1889grc1-657">
+            <head>657</head>
+            <lg>
+              <l n="1" xml:lang="grc">τοὺς εὐγενεῖς γὰρ κἀγαθούς, ὦ παῖ , φιλεῖ</l>
+              <l n="2" xml:lang="grc">Ἄρης ἐναίρειν· οἱ δὲ τῇ γλώσσῃ θρασεῖς</l>
+              <l n="3" xml:lang="grc">φεύγοντες ἄτας ἐκτός εἰσι τῶν κακῶν·</l>
+              <l n="4" xml:lang="grc">Ἄρης γὰρ οὐδὲν τῶν κακῶν λωτίζεται.</l>
+            </lg>
+            <p>Stob. Flor. 8 , 5 : Σοφοκλέους Φρυγῶν. ‘τοὺς εὐγενεῖς — κακῶν
+λογίζεται’ . v. 2 συναίρειν SMA, ἐναίρειν Β m. sec. , ἀναιρεῖν
+Valckenaer Diatr. p. 226 . v. 3 ἐκτός εἰσι πημάτων scripserim. v. 4
+sine poetae et fab. nomine in Schol. BL Il. Β 833 legitur. οὐδένα
+Schol. Il. ληίζεται Schol. Il. , λογίζεται Stob. , λωτίζεται C. Keil et
+Conington. similiter flos delibatus populi dicitur ab Ennio.</p>
+          </div>
+        </div></body></text></TEI>

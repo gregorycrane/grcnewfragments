@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>TELECLIDES, ΠΡΥΤΑΝΕΙΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Teleclides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0510.prytaneis.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0510.prytaneis.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0510.prytaneis.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_prytaneis"><head>ΠΡΥΤΑΝΕΙΣ</head><div type="textpart" subtype="fragment" n="22" xml:id="kock-0510-prytaneis-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_prytaneis">
+              <note type="source">Athen. 12, 553e τὸν ἐπὶ Θεμιστοκλέους βίον Τηλεκλείδης ἐν Πρυτάνεσιν ἁβρὸν ὄντα παραδίδωσι.</note>
+              <note type="apparatus">vitam placidam et hilarem qualis erat post victorias Persicas significat. Bergk. R. Att. 328.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="23" xml:id="kock-0510-prytaneis-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_prytaneis">
+              <lg>
+                <l n="1" xml:id="kock-0510-prytaneis-23-l1" xml:lang="grc">Δάκης τίς ἐστιν ὅντιν' ἀνθρώπων ὁρᾶς.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Vesp. 836 ἀλλ' ἔοικεν ὁ Λάβης ὠνοματοπεποιῆσθαι ἁπλῶς, καθάπερ ὁ Δάκης ὁ παρὰ Τηλεκλείδῃ ἐν Πρυτάνεσι κτλ.</note>
+              <note type="apparatus">scribo Δάκης τίς ἐστιν, ἤν τιν' ἀνθρώπων ὁρᾷ. atque ὁρᾷ etiam Herwerd. Obs. crit. 18. 'statim ad mordendum paratus, ubi aliquem hominem videt'.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="24_25" xml:id="kock-0510-prytaneis-24_25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_prytaneis">
+              <lg>
+                <l n="1" xml:id="kock-0510-prytaneis-24_25-l1" xml:lang="grc">καὶ μελιχρὸν οἶνον ἕλκειν</l>
+                <l n="2" xml:id="kock-0510-prytaneis-24_25-l2" xml:lang="grc">ἐξ ἡδύπνου λεπαστῆς</l>
+                <l n="3" xml:id="kock-0510-prytaneis-24_25-l3" xml:lang="grc">τυρίον ἐπεσθίοντα.</l>
+              </lg>
+              <note type="source">v. 1.2 Athenaeus 486a Τηλεκλείδου ἐκ Πρυτάνεων. v. 3 Athen. 4, 170d ἐπεσθίειν εἴρηκε Τηλεκλείδης Πρυτάνεσιν οὕτως· τυρίον κτλ.</note>
+              <note type="apparatus">recte coniunxit Bergkius R. c. Att. 327. ἡδύπνου Elmsl. Edinb. Rev. XVIIII 90] ἡδυπνόου. non adsentior Meinekio, qui cum antea Bergkium secutus esset, in editione Athenaei cum Iacobsio (Addit. Ath. 265), Elmsleio, Dindorfio εἶλκεν scripsit duobus prioribus versibus continuatis (Anal. crit. 225). quo facto duo fragmenta coniungi iam non possunt. 'quam suave est membra stratum sub</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="26" xml:id="kock-0510-prytaneis-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_prytaneis">
+              <p>26</p>
+              <lg>
+                <l n="1" xml:id="kock-0510-prytaneis-26-l1" xml:lang="grc">εὐχροεῖν, ὀρνιθοθηρᾶν, σωφρονεῖν</l>
+              </lg>
+              <note type="source">Τηλεκλείδης εἴρηκεν ἐν Πρυτάνεσιν. Pollux 7, 135.</note>
+              <note type="apparatus">initio syllaba deest. de insolentiore composito ὀρνιθοθηρᾶν cf. Lob. Phryn. 627. Rhem. 170. haec quoque ad aetatis Themistocleae descriptionem pertinent.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="27" xml:id="kock-0510-prytaneis-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_prytaneis">
+              <p>27</p>
+              <lg>
+                <l n="1" xml:id="kock-0510-prytaneis-27-l1" xml:lang="grc">ναὶ μὰ τὰς κράμβας</l>
+              </lg>
+              <note type="source">Athenaeus 9, 370b Τηλεκλείδης Πρυτάνεσι.</note>
+              <note type="apparatus">cf. eiusdem iurandi generis exempla apud Athenaeum ibidem et 370c. Eupol. 70. 74 et interpr. Aristoph. Av. 521.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="28" xml:id="kock-0510-prytaneis-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_prytaneis">
+              <p>28</p>
+              <lg>
+                <l n="1" xml:id="kock-0510-prytaneis-28-l1" xml:lang="grc">δι' ἡμέρας</l>
+              </lg>
+              <note type="source">Τηλεκλείδης ἐν τοῖς Πρυτάνεσι . . εἶπεν ἀντὶ τοῦ δι' ὅλης ἡμέρας. Harpocr. 61, 9.</note>
+              <note type="apparatus">τοῖς Πρυτάνεσι Maussacus] τῷ Πρυτανείῳ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0510-prytaneis-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_prytaneis">
+              <p>29</p>
+              <note type="source">Hesych. δορυφόνον· τὸν δολοφονοῦντα. Ἀριστοφάνης Δαιδάλῳ. ὅτι δὲ Φιλόκτητος τῇ λέξει ἐχρήσατο πρῶτος, δηλοῖ Τηλεκλείδης ἐν Πρυτάνεσι. δηλοῖ δὲ τὸν δολοφονοῦντα. cod. πρυτανεῦσι.</note>
+              <note type="apparatus">pro Φιλόκτητος Hemsterhusius Φιλόξενος, cui adversatur Meinekius I 89. recte Pearso Φιλοκλῆς. cf. fr. 14. 'δορυφόνος quo pacto τὸν δολοφονοῦντα significare possit non intellego' Meinek. nimirum scribendum est δολοφόνον. Aesch. Ag. 1129 δολοφόνου λέβητος τύχαν σοι λέγω, quem versum a comico in re coquinaria per iocum adhibitum esse conicit M. Schmidt. Hesych. I p. 527.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30" xml:id="kock-0510-prytaneis-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_prytaneis">
+              <p>30</p>
+              <lg>
+                <l n="1" xml:id="kock-0510-prytaneis-30-l1" xml:lang="grc">ῥαγδαίους</l>
+              </lg>
+              <note type="source">τοὺς κεκινημένους καὶ σφοδροὺς καὶ βιαίους . . . ἔστι καὶ ἐν Πρυτάνεσι Τηλεκλείδου τὸ ὄνομα. Photius et Suidas.</note>
+              <note type="apparatus">cf. Aristoph. fr. 243. Antiphan. 7.</note>
+            </div>
+          </div></body></text></TEI>

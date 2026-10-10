@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΝΕΜΕΣΙΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.nemesis.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.nemesis.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.nemesis.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis"><head>ΝΕΜΕΣΙΣ</head><div type="textpart" subtype="fragment" n="110" xml:id="kock-0434-nemesis-110" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <lg>
+                <l n="1" xml:id="kock-0434-nemesis-110-l1" xml:lang="grc">Σπάρτην λέγω γε σπαρτίδα τὴν σπάρτινον.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 186 εἰ δὲ καὶ πλέγμα τι σπάρτινον ἢ σάκον σπάρτινον ἐθέλοις καλεῖν, καὶ πρὸς τοῦτο Κρατῖνός σοι βοηθεῖ ἐν Νεμέσει λέγων σπάρτην κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>Meinekius Σπάρτην λέγω τὴν Σπαρτιάδ᾽, οὐ τὴν σπαρτίνην, Spartam dico Spartiacam urbem, non funiculum spartinum. 'Nemesis aliusve personae ad ministrum' (fortasse igitur Mercurium) 'verba esse suspicabar, qui cum Spartam illud ovum portare iuberetur, innata huic hominum generi scurrilitate Spartam non de urbe sed de funiculo spartino se intelligere simularet'. simillimus est iocus Arist. Av. 814. 5.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="111" xml:id="kock-0434-nemesis-111" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <lg>
+                <l n="1" xml:id="kock-0434-nemesis-111-l1" xml:lang="grc">μόλ᾽ ὦ Ζεῦ ξένιε καὶ μακάριε.</l>
+              </lg>
+              <note type="source">
+                <p>Plutarchus Pericl. 3 Περικλέα τὰ μὲν ἄλλα τὴν ἰδέαν τοῦ σώματος ἄμεμπτον, προμήκη δὲ τὴν κεφαλὴν καὶ ἀσύμμετρονε ὅθεν . . . Κρατῖνος ἐν Νεμέσει· μόλε (μόλ᾽ Reiskius), ὦ Ζεῦ ξένι. (al. μέγιστε) καὶ μακάριε. κάριε omnes codices Stephani et manu sec. supr. scr. Plut. A, μακροκάρηνε ex Xylandro x.</p>
+              </note>
+              <note type="apparatus">
+                <p>Meinekius V p. XXXVI cum Ungero Theb. Parad. 463 scribendum esse putat Καραῖε, quod propter capitis magnitudinem Pericles inrideatur. at cum hoc Iovis cognomen fuerit rarissimum et Boeotis modo usitatum (Hesych. Καραιός. Phot. Κάριος Ζεύς· ἐν Θεσσαλίᾳ καὶ Βοιωτίᾳ), Atheniensibus plurimis fortasse ignotum, scribendum potius videtur ~ μόλ᾽ ὦ Ζεῦ ξένιε καὶ καράνιε, altero cognomine ex κεραύνιος ridicule et ut omnes intellegerent deflexo. ξένιος Zuendelio Bernensi (apud Mein. V p. XXXVI) dici videtur 'tamquam spuriorum patronus eo tempore quo amissis filiis legitimis iterum dux Atheniensium creatus ad populum tulisset λυθῆναι τὸν περὶ τῶν νόθων νόμον', ut Aspasiae filium sibi adoptare liceret. quae si vera sunt, adparet comoediam actam esse Ol. 87, 3. fortasse in ea re potissimum fabulae argumentum versabatur.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="112" xml:id="kock-0434-nemesis-112" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <lg>
+                <l n="1" xml:id="kock-0434-nemesis-112-l1" xml:lang="grc">Ψύρα τε τὴν Σπάρτην ἄγεις.</l>
+              </lg>
+              <note type="source">
+                <p>Stephanus Byz. Ψύρα· νῆσος μικρὰ πλησίον Χίου . . . λαμβάνεται δὲ τὸ ὄνομα ἐπὶ εὐτελείᾳ διὰ τὸ εὐτελεστάτην εἶναι τὴν νῆσον. Κρατῖνος ἐν Νεμέσει. cf. Herodian I 384, 12 Lentz. fr. 350. Strab. 14, 645 εἶτα Μέλαινα ἄκρα, καθ᾽ ἣν τὰ Ψύρα, νῆσος</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="113" xml:id="kock-0434-nemesis-113" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <lg>
+                <l n="1" xml:id="kock-0434-nemesis-113-l1" xml:lang="grc">τἄλλα πάντ' ὀρνίθια.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="114" xml:id="kock-0434-nemesis-114" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <lg>
+                <l n="1" xml:id="kock-0434-nemesis-114-l1" xml:lang="grc">ὄρνιθα φοινικόπτερον.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 9, 373cd ὀρνίθια δ' εἴρηκε Κρατῖνος ἐν Νεμέσει... ἐπὶ δὲ τοῦ ἀρσενικοῦ οὐ μόνον ὄρνιν, ἀλλὰ καὶ ὄρνιθα ὁ αὐτὸς Κρατῖνος ἐν τῷ αὐτῷ δράματί φησιν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="115" xml:id="kock-0434-nemesis-115" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <lg>
+                <l n="1" xml:id="kock-0434-nemesis-115-l1" xml:lang="grc">ἐν τῷ κύφωνι τὸν αὐχέν' ἔχων.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 177 Κρατίνου εἰπόντος ἐν Νεμέσει ‘ἐν τῷ κύφωνι τὸν αὐχέν' ἔχων’ ἢ που νοητέον ὡς σκεῦος ἦν τι ἀγορανομικόν, ᾧ τὸν αὐχένα ἐνθέντα ἔδει (sic Mein. pro δεῖ) μαστιγοῦσθαι τὸν περὶ τὴν ἀγορὰν κακουργοῦντα.</p>
+              </note>
+              <note type="apparatus">
+                <p>dubitari potest an erraverit Pollux. nam nequaquam ad solum forum et maleficos forenses ὁ κύφων pertinet. cf. Arist. Plut. 476. 606. de accentu Herod. I 37, 9 Lentz. τὰ εἰς φων ἀρσενικὰ μὴ διὰ τοῦ ντ κλινόμενα βαρύνεται, Τρύφων . . . κύφων. apud Pollucem κυφῶνι.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="116" xml:id="kock-0434-nemesis-116" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <lg>
+                <l n="1" xml:id="kock-0434-nemesis-116-l1" xml:lang="grc">τῷ δὲ κοττάβῳ προθέντας ἐν πατρικοῖσι νόμοις τὸ κεινέου</l>
+                <l n="2" xml:id="kock-0434-nemesis-116-l2" xml:lang="grc">ὀξυβάφοις βάλλειν μὲν τῷ πόντῳ δὲ βάλλοντι νέμω πλεῖ-</l>
+                <l n="3" xml:id="kock-0434-nemesis-116-l3" xml:lang="grc">στα τύχης.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 15, 667f Κρατῖνος ἐν Νεμέσει. ita A. ceterorum codicum varietates excerpere nihil attinet. Athen. 15, 666c κότταβος καὶ τὸ ἄγγος εἰς ὃ ἔβαλλον τὰς λάταγας, ὡς Κρατῖνος ἐν Νεμέσει δείκνυσιν. et 667e ἕτερον δ' ἐστὶν εἶδος παιδιᾶς τῆς (τῆς παιδιᾶς τὸ) ἐν λεκάνῃ. αὕτη δ' ὕδατος πληροῦται, ἐπινεῖ δ' ἐπ' αὐτῆς ὀξύβαφα κενά, ἐφ' ἃ βάλλοντες τὰς λάταγας ἐκ καρχησίων ἐπειρῶντο καταδύειν· ἀνῃρεῖτο δὲ τὰ κοττάβια ὁ πλείω καταδύσας.</p>
+              </note>
+              <note type="apparatus">
+                <p>ecloga paene desperata et hominum doctorum coniecturis multum temptata, veluti Herwerdenus Obs. crit. 5 πατρίοισι et (pro τὸ κεινέου) τοῖς ἐπινέουσιν ex Athenaeo, Dobraeus μέτωπον, τῷ pro μὲν τῷ πόντῳ (neutrum intellego), Bothius τἀπινέοντ' ὀξύβαφα βάλλειν τῷ ποτῷ, Meinekius βαλόντι pro βάλλοντι. ex quibus aliquid tamen lucis, dubiae sane et fallacis, adfulget. potuit certe Cratinus scribere (cf. quae modo adposuimus Athenaei verba 667e)</p>
+              </note>
+              <pb n="51" facs="urn:hathi:hvd.hxijva:scan:83"/>
+              <lg>
+                <l n="4" xml:id="kock-0434-nemesis-116-l4" xml:lang="grc">τῷ δὲ κοττάβῳ προθέντας ἐν πατρίοισι νόμοις</l>
+                <l n="5" xml:id="kock-0434-nemesis-116-l5" xml:lang="grc">τοῖς ἐπινέουσιν ὀξυβάφοισιν ἐμβάλλειν ποτόν,</l>
+                <l n="6" xml:id="kock-0434-nemesis-116-l6" xml:lang="grc">τῷ δὲ βαλόντι πλεῖστα νέμειν πλεῖστα τιμῆς.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="117" xml:id="kock-0434-nemesis-117" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <note type="source">Schol. Aristoph. Av. 521</note>
+              <note type="apparatus">ἔζη δὲ (Λάμπων) ἐπὶ τῆς τῶν Ὀρνίθων διδασκαλίας, οὐχ ὡς τινες ἐτεθνήκει. πολλῷ γὰρ ὕστερον Κρατῖνος ἐν τῇ Νεμέσει οἶδεν αὐτὸν ζῶντα. de tempore fabulae fallitur. de Lampone cf. fr. 57. 8.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="118" xml:id="kock-0434-nemesis-118" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <note type="source">Schol. Aristoph. Av. 858 et Suid.</note>
+              <note type="apparatus">Χαῖρις· ἔστι καὶ ἕτερος (Χαῖρις) αὐλητής, οὗ μνημονεύει Κρατῖνος ἐν Νεμέσει. cf. quae ad Arist. Av. 858 adnotavimus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="119" xml:id="kock-0434-nemesis-119" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <note type="source">Priscianus 17, 169</note>
+              <note type="apparatus">Κρατῖνος ἐν Νεμέσει ΜΕΘΥΣΤΕΡΟΙ EXPONOI. ita M. ΜΕΘΥΣΤΕΡΟΥ ΧΡΟΝΟΥ O. METICTEROI ΧΡΟΝΟΙ R. μεθυστέρῳ χρόνῳ Meinekius. aut hoc aut μεθυστέρῳ ἐν χρόνῳ videtur Cratinus scripsisse.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="120" xml:id="kock-0434-nemesis-120" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <note type="apparatus">ἀπόκινον</note>
+              <note type="source">Athenaeus 14, 629c</note>
+              <note type="apparatus">τὴν δ’ ἀπόκινον καλουμένην ὄρχησιν, ἧς μνημονεύει Κρατῖνος ἐν Νεμέσει . . . ὕστερον μακτρισμὸν ἐκάλεσαν. cf. Arist. fr. 275. Eq. 20 cum interpr.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="107" xml:id="kock-0434-nemesis-107" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <lg>
+                <l n="1" xml:id="kock-0434-nemesis-107-l1" xml:lang="grc">ὄρνιθα τοίνυν δεῖ σε γίγνεσθαι μέγαν.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 9, 373 c ὀρνίθια δ’ εἴρηκε Κρατῖνος ἐν Νεμέσει . . . ἐπὶ δὲ τοῦ ἀρσενικοῦ οὐ μόνον ὄρνιν, ἀλλὰ καὶ ὄρνιθα ὁ αὐτὸς Κρατῖνος ἐν τῷ αὐτῷ δράματί φησιν.</p>
+              </note>
+              <note type="apparatus">
+                <p>dicit haec sive Venus sive Mercurius sive alius Iovis in explenda libidine minister, iubens eum facere quod opus sit ut Nemesi potiatur. ὄρνις videtur esse cycnus, quamquam etiam sunt qui gallum censeant intellegendum, ut Nemesis quoque in anserem se transformavisse dicebatur. cf. Bergk. R. c. Att. 398.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="108" xml:id="kock-0434-nemesis-108" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <lg>
+                <l n="1" xml:id="kock-0434-nemesis-108-l1" xml:lang="grc">Λήδα, σὸν ἔργον· δεῖ σ’ ὅπως εὐσχήμονος</l>
+                <l n="2" xml:id="kock-0434-nemesis-108-l2" xml:lang="grc">ἀλεκτρυόνος μηδὲν διοίσεις τοὺς τρόπους,</l>
+                <l n="3" xml:id="kock-0434-nemesis-108-l3" xml:lang="grc">ἐπὶ τῷδ’ ἐπώζουσ’, ὡς ἂν ἐκλέψῃς καλὸν</l>
+                <l n="4" xml:id="kock-0434-nemesis-108-l4" xml:lang="grc">ἡμῖν τι καὶ θαυμαστὸν ἐκ τοῦδ’ ὄρνεον.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 9, 373 e τὸν δ’ ἀλεκτρυόνα . . . οἱ ἀρχαῖοι καὶ θηλυκῶς εἰρήκασι. Κρατῖνος Νεμέσει.</p>
+              </note>
+              <note type="apparatus">
+                <p>εὐσχήμονος Steph. Thes. 10942] εὐσχημόνως. 2. διοίσεις VL] διοίσει A. 3. ἐπώζουσ’ Valcken. Eur. Phoen. 166] ἐπωάζουσα A. — σὸν ἔργον] cf. quae adnotavimus ad Arist. Nub. 1494. de syntaxi verborum δεῖ σ’ ὅπως cf. Lobeck. Soph. Ai. 556. Philoct. 54. 55. videtur Cratinus quoque finxisse ovum a Nemesi partum, ab Leda exclusum esse. atque ita fabulam Phidias repraesentaverat in templo Nemesis Rhamnusiae. Paus. 1, 33, 7.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="109" xml:id="kock-0434-nemesis-109" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_nemesis">
+              <lg>
+                <l n="1" xml:id="kock-0434-nemesis-109-l1" xml:lang="grc">ὥστ’ οὖν ἐσθίων τοῖς σιτίοισιν ἥδομαι.</l>
+                <l n="2" xml:id="kock-0434-nemesis-109-l2" xml:lang="grc">ἅπαντα δ’ εἶναί μοι δοκεῖ ῥοδωνιὰ</l>
+                <l n="3" xml:id="kock-0434-nemesis-109-l3" xml:lang="grc">καὶ μῆλα καὶ σέλινα καὶ σισύμβρια.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Theocriti 11, 10 ῥόδων δὲ τῆς γυναικείας ἥβης, παρόσον καὶ ῥοδωνιὰν αὐτὴν ἔσθ’ ὅτε λέγουσιν, ὡς Κρατῖνος ἐν Νεμέσει.</p>
+              </note>
+              <note type="apparatus">
+                <p>οὖν expellit Meinekius. σιτίοισι Mein.] σιτίοις. v. 2. μοι add. Meursius Bibl. Att. 1469 d. — ὡς στρουθίων Duebnerus in ed. Paris. schol. Theocr. scribendum potius videtur πῶς οὖν σπίνων qui fit igitur ut fringillarum cibis delecter? videtur enim Iuppiter mirari, cur quamquam in cycnum vel anserem se convertit tamen minimarum avicularum victu gaudeat. cf. quae adnotavi ad Arist. Av. 1079. Meinekius confert Hesych. ῥοδωνιά· ὁ τόπος, ἔνθα φύεται</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

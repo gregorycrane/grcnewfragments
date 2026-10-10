@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-daidalos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, Δαίδαλος: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.daidalos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.daidalos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.daidalos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_daidalos"><head>Δαίδαλος</head><div type="textpart" subtype="fragment" n="170" xml:id="fragment-daidalos-dindorf1893_grc1-170" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_daidalos">
+            <note type="source">Pollux VII, 117. Ἐπεὶ δὲ καὶ τοὺς οἰκοδόμους Ὅμηρος τέκτονας καλεῖ, καὶ ἀρχιτέκτων εἴρηται</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="171" xml:id="fragment-daidalos-dindorf1893_grc1-171" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_daidalos" sameAs="urn:cts:greekLit:tlg0011.daidalos.pearson1917-grc1:160">
+            <note type="source">Schol. Platonis p. 396.</note>
+            <quote>Σαρδάνιος γέλως— Σιμωνίδης δὲ ἀπὸ Τάλω τοῦ χαλκοῦ, ὃν Ἥφαιστος ἐδημιούργησε Μίνῳ, φύλακα τῆς νήσου ποιήσασθαι, ἔμψυχον ὄντα, τοὺς πελάζοντάς φησι κατακαίοντα ἀναιρεῖν. ὅθεν ἀπὸ τοῦ σεσηρέναι διὰ τὴν φλόγα τὸν σαρδάνιόν φησι λεχθῆναι γέλωτα. ὁμοίως καὶ Σοφοκλῆς ἐν Δαιδάλῳ.</quote>
+            <note type="commentary">Confer parœmiographos in Σαρδώνιος γέλως.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="172" xml:id="fragment-daidalos-dindorf1893_grc1-172" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_daidalos">
+            <note type="source">Schol. Apollonii Rhodii IV, 1638.</note>
+            <quote>Τάλως δὲ ἦν μὲν τοῦ γένους ἐκείνου τοῦ χαλκοῦ. ὅλος δὲ χαλκοῦς ὢν σύριγγα εἶχεν ἐπὶ τοῦ σφυροῦ ὑμένι περιεχομένην. σύριγξ δὲ ἐστιν ἡ περόνη. ῥαγείσης οὖν τῆς σύριγγος εἵμαρτο ἁλῶναι αὐτόν. τοῦτο δὲ καὶ Σοφοκλῆς φησιν ἐν Τάλῳ.</quote>
+            <note type="commentary">Brunckius ἐν Δαιδάλῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="173" xml:id="fragment-daidalos-dindorf1893_grc1-173" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_daidalos" sameAs="urn:cts:greekLit:tlg0011.daidalos.nauck1889grc1:165">
+            <note type="source">Scholiasta Aristoph. Pacis v. 73.</note>
+            <quote>Μεγάλοι λέγονται εἶναι κατὰ τὴν Αἴτνην κάνθαροι. — Σοφοκλῆς Δαιδάλῳ</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">“Ἀλλ᾽ οὐδὲ μὲν δὴ κάνθαρος τῶν Αἰτναίων</l>
+              <l n="2" xml:lang="grc">πάντων.”</l>
+            </lg>
+            <note type="commentary">λέγει δὲ πάντα εἰκάζων εἰς μέγαν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="174" xml:id="fragment-daidalos-dindorf1893_grc1-174" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_daidalos" sameAs="urn:cts:greekLit:tlg0011.daidalos.nauck1889grc1:166">
+            <note type="source">Hesychius,</note>
+            <quote>Γοργάδων: ἁλιάδων.</quote>
+            <note type="commentary">Σ. Δαιδάλῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="175" xml:id="fragment-daidalos-dindorf1893_grc1-175" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_daidalos" sameAs="urn:cts:greekLit:tlg0011.daidalos.nauck1889grc1:167">
+            <note type="source">Hesychius,</note>
+            <quote>Ἐσέφθην: ἐσεβάσθην, ἡσυχάσας ᾐσχύνθην.</quote>
+            <note type="commentary">Σ. Δαιδάλῳ (codex παιδάλῳ). ἐσέφθην ex Sophocle Chœroboscus Bekkeri p. 1418. et Photius p. 19, 7.</note>
+          </div>
+        </div></body></text></TEI>

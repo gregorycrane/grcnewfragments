@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHILYLLIUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Philyllius</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0494.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0494.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0494.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="2" xml:id="kock-0494-adelon_dramaton-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton">
+              <head>ἀναλφάβητος</head>
+              <note type="apparatus">Φιλύλλιος Αἰγεῖ. Bekker. Anecd. 83, 18. Φιλύλλιος Ruhnken. Tim. 167 a] Φιλύαλλος. Suidas ἀναλφάβητος· ἀμάθητος γραμμάτων ἁπάντων καὶ τὸ δὴ λεγόμενον ἀναλφάβητος. ἀνάλφιτον· Φιλύλλιος Αἰγεῖ. adparet Philyllii nomen ad priorem glossam transponendum esse. verba ἀμάθητος — ἀναλφάβητος Procopii esse Kusterus monuit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="20" xml:id="kock-0494-adelon_dramaton-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0494-adelon_dramaton-20-l1" xml:lang="grc">ἕλκειν τὸ βέδυ σωτήριον προσεύχομαι,</l>
+                <l n="2" xml:id="kock-0494-adelon_dramaton-20-l2" xml:lang="grc">ὅπερ μέγιστόν ἐστιν ὑγιείας μέρος,</l>
+                <l n="3" xml:id="kock-0494-adelon_dramaton-20-l3" xml:lang="grc">τὸ τὸν ἀέρ᾽ ἕλκειν καθαρόν, οὐ τεθολωμένον.</l>
+              </lg>
+              <note type="source">Clemens Alex. Strom. 5, 8, 46 p. 673 P. ἔμπαλιν δὲ ὁ κωμικὸς Φιλύλλιος βέδυ τὸν ἀέρα βιόδωρον ὄντα διὰ τούτων γινώσκει κτλ.</note>
+              <note type="apparatus">Φιλύλλιος Casaub. Athen. 3, 9 p. 169] φιλύδεος L. ὑγιείας Sylburg.] ὑγείας L. ‘precor ut liceat mihi aëra salubrem spirare’.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="21" xml:id="kock-0494-adelon_dramaton-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0494-adelon_dramaton-21-l1" xml:lang="grc">οὐκ εἰμὶ τέττιξ οὐδὲ κοχλίας, ὦ γύναι.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 63a Φιλύλλιος κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="22" xml:id="kock-0494-adelon_dramaton-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0494-adelon_dramaton-22-l1" xml:lang="grc">τὸ κάταγμα κροκυδίζουσαν αὐτὴν κατέλαβον.</l>
+              </lg>
+              <note type="source">Pollux 7, 29 κροκυδίζειν δὲ Φιλύλλιος εἶπε κτλ. ὅπερ ἔστιν ἐκλέγουσαν τὸ τραχύ. cf. Aristoph. fr. 651. 657.</note>
+              <note type="apparatus">αὐτὴν] Αὔγην Bergk. R. c. Att. 428 Herculem de Auge in fabula cognomine haec dicere censens.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="23" xml:id="kock-0494-adelon_dramaton-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0494-adelon_dramaton-23-l1" xml:lang="grc">ἤ τις κάμηλος ἔτεκε τὸν Φιλωνίδην.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Plut. 179 κωμῳδεῖται δὲ (Φιλωνίδης) ὡς εὔπορος καὶ ὡς μέγας τῷ σώματι . . . περὶ δὲ τοῦ μεγέθους Φιλύλλιός φησιν κτλ.</note>
+              <note type="apparatus">ἤ τις Bothius] ἥτις. Φιλύλλιος Iungermann. Poll. 10, 93] Φύλλιος Ald. potest sententia etiam per interrogationem efferri.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="24" xml:id="kock-0494-adelon_dramaton-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton">
+              <note type="source">Athenaeus 1, 31 a φησὶ δὲ Φιλύλλιος ὅτι παρέξω Λέσβιον, Χῖον, σαπρόν, Θάσιον, Βίβλινον, Μενδαῖον, ὥστε μηδένα κραιπαλᾶν.</note>
+              <note type="apparatus">σαπρόν C] Παπ* V, σα superscripto πς″ E, πα superscripto πζ″ B. μηδένα B] μηδέν. Φιλύλλιος Ruhnken.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="25" xml:id="kock-0494-adelon_dramaton-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0494-adelon_dramaton-25-l1" xml:lang="grc">ᾠά, κάρυ᾽, ἀμυγδάλαι</l>
+              </lg>
+              <note type="source">Athenaeus 2, 52 b Φιλύλλιος.</note>
+              <note type="apparatus">ᾠά] ὅα Dalecampius. cf. Ruhnken. Tim. 188. 9. cum fr. 19 incerta coniectura coniungit Meinekius ita, ut aut ᾠά in versu priore posita fuisse, aut scribendum censeat ᾧ, ἀμυγδάλαι, | καρύδι᾽, ἐπιφορήματα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="26" xml:id="kock-0494-adelon_dramaton-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0494-adelon_dramaton-26-l1" xml:lang="grc">καὶ λύχνον δίμυξον οἴσω καὶ θρυαλλίδ᾽, ἦν δέῃ.</l>
+              </lg>
+              <note type="source">Pollux 6, 103 λύχνου διμύξου τῶν κωμῳδῶν Φιλύλλιος μνημονεύει. Athenaeus 15, 700 f cod. A. . . . σω καὶ θρυαλλίδ᾽, ἣν δές. eas Philyllii versus reliquias esse monuit Schweighaeuserus conl. epitoma 699 d δίμυξόν φησι λύχνον Φιλύλλιος.</note>
+              <note type="apparatus">hinc versum explevit Porson. Adv. 140. ἣν δέῃ Porson.] ην δενί A. possunt etiam trimetri esse καὶ λύχνον | δίμυξον κτλ., quod praefero.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="27" xml:id="kock-0494-adelon_dramaton-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0494-adelon_dramaton-27-l1" xml:lang="grc">μαινίδες . . . σκόμβροι, κοχλίαι, κορακῖνοι</l>
+              </lg>
+              <note type="source">Athenaeus 2, 63 a Φιλύλλιος (fr. 21).</note>
+              <note type="apparatus">καὶ πάλιν κτλ. supplet Meinekius ὀρφῴ in ed. min., ἀφύη in Anal. Ath. 33. melius illud, ne dactylus cum anapaesto, quod rarissime fit, coniungatur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="28" xml:id="kock-0494-adelon_dramaton-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0494-adelon_dramaton-28-l1" xml:lang="grc">ἅλα</l>
+              </lg>
+              <note type="source">ἀντὶ τοῦ ἅλες. Φιλύλλιος. Bekker. Anecd. 381, 6.</note>
+              <note type="apparatus">Φιλύλλιως Bekker.] φιλάλλιος cod. φιλλύλιος Eudemus. Suidas ἅλω· ἀντὶ τοῦ ἅλες. at recte Piersonus Moer. 17 ἀλῶ· ἀντὶ τοῦ ἀλέσω. nam Moeris ipse ἀλεῖς Ἀττικοί, ἀλέσεις Ἕλληνες. idem aliquanto post Cobetus Mnem. nov. III 405.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0494-adelon_dramaton-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0494-adelon_dramaton-29-l1" xml:lang="grc">δᾶδας</l>
+              </lg>
+              <note type="source">Φιλύλλιος τὰς λαμπάδας καλεῖ. Athenaeus 15, 700 e. Eusta-</note>
+            </div>
+          </div></body></text></TEI>

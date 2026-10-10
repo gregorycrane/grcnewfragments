@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΔΡΑΜΑΤΑ Η ΚΕΝΤΑΥΡΟΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.dramata_e_kentauros.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.dramata_e_kentauros.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.dramata_e_kentauros.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros"><head>ΔΡΑΜΑΤΑ Η ΚΕΝΤΑΥΡΟΣ</head><div type="textpart" subtype="fragment" n="267" xml:id="kock-0019-dramata_e_kentauros-267" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_kentauros-267-l1" xml:lang="grc">ἐγὼ γάρ, εἴ τί σ' ἠδίκηκ', ἐθέλω δίκην</l>
+                <l n="2" xml:id="kock-0019-dramata_e_kentauros-267-l2" xml:lang="grc">δοῦναι πρόδικον ἐν τῶν φίλων τῶν σῶν ἑνί.</l>
+              </lg>
+              <note type="source">Photius πρόδικον δίκην· τὴν ἐπὶ φίλων καὶ διαιτητῶν. Ἀριστοφάνης Κενταύρῳ κτλ. Suidas male πρόδικον· δικαστὴν ἐπὶ φίλων καὶ διαιτητήν. Ἀριστοφάνης Κενταύρῳ κτλ. τί σ' ἠδίκηκ', ἐθέλω — ἐν — ἐνί Porson.] τις ἢ δίκη, θέλω — ἐν — ἔνι cod. Phot. τις ἠδίκηκε, θέλω — ἑνὶ — ἐνί AV Suid.</note>
+              <note type="apparatus">non recte Cobetus Mnem. V 193 ἐπὶ τῶν φ. τ. σ. τινός, quod propter tribrachum cum anapaesto coniunctum admitti nullo modo potest. ἐν praepositio, de qua ille cum Hermanno, Bergkio, Bernhardyo dubitabat, rectissime posita est. Soph. Ant. 459 ἐν θεοῖσι τὴν δίκην δοῦναι, deorum iudicio vel arbitrio. Plat. Gorg. 464d ἐν παισὶ διαγωνίζεσθαι, ut infantes iudices sint. Leg. 11, 916b διαδικαζέσθω ἔν τισι τῶν ἰατρῶν. et 11, 920de διαλλάττεσθαι ἐν διαιτηταῖς ἢ γείτοσιν. Eurip. Hipp. 1320 σὺ δ' ἔν τ' ἐκείνῳ κἂν ἐμοὶ φαίνει κακός. Amphid. 21 μάταιός ἐστιν ἔν γ' ἐμοὶ καὶ τοῖς σοφοῖς κριταῖς ἅπασιν. ceterum cf. Hesych. δίκη πρόδικος· ἡ πρὸ τοῦ ἀχθῆναι εἰς δίκην ὁμολογουμένη.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="268" xml:id="kock-0019-dramata_e_kentauros-268" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_kentauros-268-l1" xml:lang="grc">ἀνοιγέτω τις δώματ'· αὐτὸς ἔρχεται.</l>
+              </lg>
+              <note type="source">Pollux 3, 74 Ἀριστοφάνης κατὰ τὴν τῶν πολλῶν συνήθειαν τὸν δεσπότην αὐτὸν κέκληκεν εἰπὼν ἐν Δράμασιν ἢ Κενταύρῳ κτλ. Bekker. Anecd. 78, 29 αὐτός, ἀντὶ τοῦ ὁ δεσπότης, αὐτὸς λέγει, αὐτὸς ἄρχεται, Ἀριστοφάνης. ubi ἔρχεται Fritzschius. ἄνοιγέ τις τὰ δ. Dobraeus, sed sine articulo τραγικώτερον sonat. cf. Theocr. 24, 50. Nub. 219. fr. 713.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="269" xml:id="kock-0019-dramata_e_kentauros-269" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_kentauros-269-l1" xml:lang="grc">ἀλλ' ἐς κάδον λαβών τιν' οὔρει πίττινον.</l>
+              </lg>
+              <note type="source">Pollux 10, 185 τοῖς δὲ σκεύεσιν . . . προσαριθμεῖν καὶ κάδον πίττινον ἔξεστιν, Ἀριστοφάνους ἐν Δράμασιν ἢ Κενταύρῳ εἰπόντος κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="270" xml:id="kock-0019-dramata_e_kentauros-270" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_kentauros-270-l1" xml:lang="grc">ἐκκρουσαμένους τοὺς πύνδακας</l>
+              </lg>
+              <note type="source">Pollux 10, 79 τὸν δὲ πυθμένα καὶ πύνδακα . . . Ἀριστοφάνης γοῦν ἐν Δράμασιν ἢ Κενταύρῳ ἐκκρουσαμένους τοὺς πύνδακας εἴρηκε.</note>
+              <note type="apparatus">ἐκκρουσαμένους] ἐκκρουσάμενος Casaub. Athen. 7, 301b. ἐσκρουσαμένους cum Meinekio Bekkerus. ἐκκεκρουσμένους Bergkius. cur emendatione opus sit non video. 'postquam doliorum fundos pertuderunt', Centauri opinor, quorum fortasse cum Hercule convivium describebatur. est exitus trimetri iambici aut pars tetrametri anapaestici.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="271" xml:id="kock-0019-dramata_e_kentauros-271" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_kentauros-271-l1" xml:lang="grc">πτίσσω, βράττω, μάττω, δεύω, πέττω, καταλῶ.</l>
+              </lg>
+              <note type="source">Pollux 7, 24 τῶν δὲ περὶ ἀρτοπωλίαν ἀθρόα ἐν Ἀριστοφάνους Δράμασιν ἢ Κενταύρῳ κτλ.</note>
+              <note type="apparatus">πτίσσω Brunck.] πήττω A (i. e. πτίττω). πίπτω B. πίττω ceteri. πτίττω cum Dindorfio Bekkerus. at cf. Pherecr. 183. in exitu ionicus minor deest. loquitur fortasse servus cenam Herculi parans.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="272" xml:id="kock-0019-dramata_e_kentauros-272" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_kentauros-272-l1" xml:lang="grc">χωρεῖ ἄκλητος ἀεὶ δειπνήσων· οὐ γὰρ ἄκανθαι.</l>
+              </lg>
+              <note type="source">Hesychius οὐ γὰρ ἄκανθαι· παροιμία. Ἀριστοφάνης . . . ἐν Δράμασιν ἢ Κενταύρῳ· χωρεῖ — δειπνήσων.</note>
+              <note type="apparatus">χωρεῖ Bergk.] χωρεῖ δ'. οὐ γὰρ ἄκανθαι in ipso versu, necessarium utique, om. Hesychius, in fine addens ἔοικε δὲ ὑπομιμνήσκειν τὴν τοῦ βίου διαφορὰν καὶ μεταβολήν. quae quorsum pertineant explicat quodammodo Photius οὐ γὰρ ἄκανθαι· λεγόμενον ἐπὶ τῶν ὠφελίμων· ἀπὸ τῆς τοῦ βίου εἰς τὸ ἡμερώτερον μεταβολῆς. Suidas ἀληλεσμένος βίος· . . . ἄλλη δὲ παροιμία φησίν· οὐ γὰρ ἄκανθαι· ἔοικε δὲ ὑπομιμνήσκειν τὴν τοῦ βίου μεταβολήν, ἀγρίου καὶ ἀκανθώδους πρότερον ὄντος, πρὶν ἐπιμέλειαν τῆς γῆς καὶ τῶν σπερμάτων γενέσθαι. Zenob. 3, 98 Ἀθήνησιν ἐν τοῖς γάμοις ἔθος ἦν ἀμφιθαλῆ παῖδα ἀκάνθας μετὰ δρυΐνων καρπῶν στέφεσθαι . . . ἐσήμαινον δὲ ὡς ἀπώσαντο μὲν τὴν ἀγρίαν καὶ παλαιὰν δίαιταν, εὑρήκασι δὲ τὴν ἥμερον τροφήν. cf. fr. 483. initio aliquid deesse videtur, ut sit tetr. anap. Bergkius Herculem dici existimat, qui etiam non invitatus conviviis interesse solebat, veluti Ceycis. Cratin. 169. Eupol. 289.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="273" xml:id="kock-0019-dramata_e_kentauros-273" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_kentauros-273-l1" xml:lang="grc">τὸ δὲ πορνεῖον Κύλλου πήρα.</l>
+              </lg>
+              <note type="source">Hesychius Κύλλου πήρα· ζητοῦσι διὰ τί τὸ πορνεῖον Κύλλου πήραν Ἀριστοφάνης εἴρηκεν ἐν Δράμασιν ἢ Κενταύρῳ· τὸ δὲ π. Κ. π. ἔστι γὰρ χωρίον Ἀθήνησιν ἐπηρεφὲς καὶ κρήνη. ἀντὶ δὲ τοῦ πέραν πήραν ἔφη. Photius Κυλλοῦ πήραν· ἡ Πήρα χωρίον πρὸς τῷ Ὑμηττῷ, ἐν ᾧ ἱερὸν Ἀφροδίτης. καὶ κρήνη, ἐξ ἧς αἱ πιοῦσαι εὐτοκοῦσι καὶ αἱ ἄγονοι γόνιμοι γίνονται . . . τάττεται δὲ ἡ παροιμία ἐπὶ τῶν τὴν φύσιν βιαζομένων ἐξ ἐπιτεχνήσεως.</note>
+              <note type="apparatus">Herodian. I 157, 17 Κύλλος τὸ κύριον, οὗ μέμνηται καὶ Ἀριστοφάνης. Cratin. 102.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="274" xml:id="kock-0019-dramata_e_kentauros-274" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+              <note type="source">Pollux 9, 36 κωμήτας (Nub. 965) τοὺς γείτονας καὶ κωμήτιδας ὠνόμαζον. Ἀριστοφάνης γοῦν ἐν μὲν Δράμασιν ἢ Κενταύρῳ ἔφη·</note>
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_kentauros-274-l1" xml:lang="grc">ἐν κωμήτισι καπηλοῖς ἐπίχαρτον.</l>
+              </lg>
+              <note type="apparatus">Bergkius κωμήτισιν καπήλισίν τ' ἐπίχαρτον ἦν, versu pessimo. fortasse ἣν κωμήτισι πᾶσίν τε καπήλοις ἐπίχ., metro choriambico. cf. fr. 109.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="275" xml:id="kock-0019-dramata_e_kentauros-275" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+              <head>ἀπόκινον</head>
+              <note type="source">Athenaeus 14, 629 c τὴν δ’ ἀπόκινον καλουμένην ὄρχησιν, ἧς μνημονεύει . . . Ἀριστοφάνης τ’ ἐν Κενταύρῳ καὶ ἄλλοι πλείονες, ὕστερον μακτρισμὸν ὠνόμασαν. cf. Eq. 20. Cratin. 120.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="276" xml:id="kock-0019-dramata_e_kentauros-276" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+              <head>λίθος δεκατάλαντος</head>
+              <note type="source">ὁ Ἀριστοφάνης ἐν Δράμασιν ἢ Κενταύρῳ. Pollux 9, 53.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="277" xml:id="kock-0019-dramata_e_kentauros-277" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+              <head>κλιμακτῆρες</head>
+              <note type="source">οἱ ἀναβασμοὶ τῆς κλίμακος ὡς ἐν Ἀριστοφάνους Δράμασιν ἢ Κενταύρῳ. Pollux 10, 171. cf. Eur. Helen. 1570.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΕΠΙΓΟΝΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.epigonoi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.epigonoi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.epigonoi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:epigonoi"><head>ΕΠΙΓΟΝΟΙ</head>
+          <pb n="595" facs="urn:hathi:iau.31858007086675:scan:603"/>
+          <div type="textpart" subtype="fragment" n="49" xml:id="frag_7c13329d81" corresp="urn:cite2:perseus:fragmentaryplays.v1:epigonoi" sameAs="urn:cts:greekLit:tlg0085.epigonoi.nauck1889-grc1:55">
+            <note type="source">Scholiasta Pindari Isthm. VI, 10. Τὸν δὲ τρίτον κρατῆρα Διὸς σωτῆρος ἔλεγον.-τὸν μὲν γὰρ πρῶτον Διὸς Ὀλυμπίου ἐκίρνασαν, τὸν δὲ δεύτερον ἡρώων, τὸν δὲ τρίτον Διὸς σωτῆρος. καθὰ καὶ Αἰσχύλος ἐν Ἐπιγόνοις</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_7c13329d81-l1" xml:lang="grc">Λοιβὰς Διὸς μὲν πρῶτον ὡραίου γάμου</l>
+              <l n="2" xml:id="frag_7c13329d81-l2" xml:lang="grc">Ἥρας τε.</l>
+            </lg>
+            <note type="commentary">εἶτα</note>
+            <lg type="fragment">
+              <l n="3" xml:id="frag_7c13329d81-l3" xml:lang="grc">τὴν δευτέραν δὲ κρᾶσιν ἥρωσιν νέμω.</l>
+            </lg>
+            <note type="commentary">εἶτα</note>
+            <lg type="fragment">
+              <l n="4" xml:id="frag_7c13329d81-l4" xml:lang="grc">τρίτον Διὸς σωτῆρος εὐκταίαν λίβα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="50" xml:id="frag_c4db38beca" corresp="urn:cite2:perseus:fragmentaryplays.v1:epigonoi" sameAs="urn:cts:greekLit:tlg0085.epigonoi.nauck1889-grc1:56">
+            <note type="source">Hesychius, Τιμαλφής: ἔντιμος, τιμὴν ἀλφάνουσα, διὰ τιμῆς ἀγομένη. - Αἰσχύλος δὲ ἐν Ἐπιγόνοις ἐπὶ τοῦ ἐντίμου.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="51" xml:id="frag_03b8ae857f" corresp="urn:cite2:perseus:fragmentaryplays.v1:epigonoi">
+            <note type="source">Apud Athenæum XIII. p. 584 d. Andronicus histrio versum ex Epigonis recitasse memoratur</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_03b8ae857f-l1" xml:lang="grc">Ὀλόμενε παίδων, ποῖον εἴρηκας λόγον;</l>
+            </lg>
+            <note type="commentary">Dubitatur utrum Æschyli an Sophoclis Epigonos dicat. Andronicus autem Demosthenis oratoris ætate vixit.</note>
+          </div>
+        </div></body></text>
+</TEI>

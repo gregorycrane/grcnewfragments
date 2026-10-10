@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0019-telmeses-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aristophanes, ΤΕΛΜΗΣΗΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aristophanes</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="716" to="745"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 716–745. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aristophanes-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-09">Folded page-local headings into stable Aristophanic work identities, restored Dindorf's per-work numbering, and removed demonstrable duplicate page-724 records; transcribed content otherwise unchanged. Geras is absent from the source extraction.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0019.telmeses; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0019.telmeses.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0019.telmeses.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses"><head>ΤΕΛΜΗΣΗΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-telmeses-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(1.) Aristides vol. I, p. 277, 6, Jebb.</note>
+            <quote>Ἡ κωμωδία γε τὸ λοιπόν ἐστιν, ἔλεγον δὲ ἀναφέρων εἰς τοὺς Τελμισέας τοῦ Ἀριστοφάνους ὡς ἐκεῖ λόγῳ τις</quote>
+          </div>
+        <div type="textpart" subtype="fragment" n="2" xml:id="fragment-telmeses-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(2.) Athenaei epitome II, p. 49 c.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">α. Τράπεζαν ἡμῖν φέρε</l>
+              <l n="2" xml:lang="grc">τρεῖς πόδας ἔχουσαν, τέτταρας δὲ μὴ χ̓έτω.</l>
+              <l n="3" xml:lang="grc">β. καὶ πόθεν ἐγὼ τρίπουν τράπεζαν λήψομαι;</l>
+            </lg>
+            <note type="commentary">Ex Athenaeo attulit Eustathius p. 1398, 17. Idem p. 867, 25. πέπαικται τὸ Οἴμοι πῶς ἂν εὕροιμι τρίπουν τράπεζαν; Versum tertium ex Τελμησεῦσιν affert Pollux X, 80. Idem VI, 83. Καὶ τρίποδες — καὶ ἔστι τοὔνομα — καὶ ἐν Τελμισεῦσιν Ἀριστοφάνους.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-telmeses-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(3.) Pollux X, 72.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οἴνου τε Χίου στάμνον ἥκειν καὶ μύρον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-telmeses-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(4.) Pollux X, 82.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πινακίσκον ἄπυρον ἰχθυηρόν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-telmeses-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(5.) Stephanus Byzant. Τελμισσός: — ὁ πολίτης Τελμισσεύς. καὶ δρᾶμα Ἀριστοφάνους Τελμισσεῖς. λέγεται καὶ τετρασυλλάβως Τελεμισσεῖς, ὡς αὐτὸς ἐν αὐτῷ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὡς ἄν τις ἂν οὖν ἢ τι ποιήσας ὡς Τελεμισσεῖς.</l>
+            </lg>
+            <note type="source">καὶ πάλιν</note>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Φέρε δὴ τοίνυν ταῦθ᾽ ὅταν ἔλθῃ, τί ποιεῖν χρή μ᾽,</l>
+              <l n="3" xml:lang="grc">ὦ Τελεμισσεῖς;</l>
+            </lg>
+            <note type="commentary">ἔστι δὲ τὸ μέτρον ἀναπαιστικὸν τετράμετρον καταληκτικόν, οὗ πρὸ τῆς τελευταίας συλλαβῆς ἀνάπαιστος τάττεται, σπανιαίτατα δὲ σπονδεῖος. Prior versus aperte corruptus. ἦτι codex Vratislaviensis, ἤτι Vossianus. Vulgo ὅτι. Cæterum Aristophanes scripserat Τελεμησῆς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-telmeses-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(6.) Hesychius, Μετάλλειον μύρον: Ἀριστοφάνης</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μεταπέμπου νῦν ταῦτα σπουδῇ καὶ μύρον, εὕρημα</l>
+              <l n="2" xml:lang="grc">Μετάλλου.</l>
+            </lg>
+            <note type="commentary">Μέταλλος γάρ τις Σικελιώτης τὴν τοῦ Μεταλλείου μύρου κατασκευὴν εὗρε. μνημονεύει δὲ καὶ Φερεκράτης ἐν τῇ Πετάλῃ. Ab aliis Μέγαλλος vocatur, de quo dicetur ad locum Athenæi XV, p. 690 f. Τὸ Μεγάλλιον. ὠνομάσθη γὰρ καὶ τοῦτο ἀπὸ Μεγάλλου τοῦ Σικελιώτου. οἱ δ᾽ Ἀθηναῖόν φασιν εἶναι τὸν Μέγαλλον. μνημονεύει δ᾽ αὐτοῦ Ἀριστοφάνης ἐν Τελμισσεῦσι καὶ Φερεκράτης ἐν Πετάλῃ. In Aristophanis versu eam scripturam diserte testatur Etymolog. M. p. 587, 7.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-telmeses-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(7.) Athenæus VII, p. 308 f. ubi de κορακίνοις agit, ex Τελμισσεῦσιν affert verba</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μελανοπτερύγων κορακίνων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-telmeses-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(8.) Grammaticus Bekkeri p. 386, 6.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀλφιτόχρωτος κεφαλῆς: τῆς πολιᾶς. Τελμισσεῦσιν Ἀριστοφάνης.</l>
+            </lg>
+            <note type="commentary">Conf. Hesychium et Eustathium p. 868, 37. 976, 53.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-telmeses-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(9.) Hesychius, Πύλαι: Ἀριστοφάνης Τελμισσεῦσιν ἀπὸ (ἐπὶ Heinsius) τῶν θυτῶν λέγει. ἐκεῖνοι γὰρ ἐπισκέπτονται τὰς ἐκτροπὰς τοῦ ἥπατος καὶ τὰς φλέβας.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-telmeses-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(10.) Harpocratio, Σιπύα: — Ἀριστοφάνης Τελμισεῦσιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-telmeses-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(11.) Etymolog. M. p. 142, 143. Ἀρίστυλλος: ὄνομα παρ᾽ Ἀριστοφάνει. εἴρηται δὲ ὑποκοριστικῶς ὁ Ἀριστοκλῆς. οὕτως Ἡρωδιανὸς εἰς τὴν Ἀπολλωνίου εἰσαγωγὴν ἢ περὶ παθῶν. Διογένης (διογενιανὸς codex Augustanus) ἀντὶ τοῦ ἄριστος. καὶ Ἀριστοφάνης ἐν Τελμισοῖς. Codex Augustanus apud Tittmannum ad Zonaram I, p. CXXVI, post παρ᾽ Ἀριστοφάνει addere dicitur ἐν τελμησοῖς. Quod si ita est, suspicor eum postrema καὶ Ἀριστοφάνης ἐν Τελμισοῖς omittere. Aristylli nomen legitur in Ecclesiaz. v. 674. in Pluto v. 314.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-telmeses-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmeses">
+            <note type="source">(12.) Scholiasta Platonis Clarkianus p. 331. Ἀριστοφάνης δὲ ἐν Τελμισσεῦσιν εἰς συκοφάντην ἀποσκώπτει τὸν Χαιρεφῶντα.</note>
+          </div>
+        </div></body></text></TEI>

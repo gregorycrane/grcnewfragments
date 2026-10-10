@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-meleagros-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΜΕΛΕΑΓΡΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.meleagros; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.meleagros.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.meleagros.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros"><head>ΜΕΛΕΑΓΡΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-meleagros-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:515">
+            <note type="source">1. Demetr. Phaler. de elocut. 58, (in Walz. Rhet. Gr. T. IX, p. 32.) Gregor. Corinth. in Walz. Rhet. Gr. T. VII, p. 1214. Lucian. Conviv. 25. (T. III, p. 436. R. T. III, p. 498 sq. Jacob.) Schol. Aristot. Rhet. III, 9, 4.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καλυδὼν μὲν ἥδε γαῖα, Πελοπίας χθονὸς</l>
+              <l n="2" xml:lang="grc">ἐν ἀντιπόρθμοις πεδί᾽ ἔχουσ᾽ εὐδαίμονα.</l>
+              <l n="3" xml:lang="grc">Οἰνεὺς δ᾽ ἀνάσσει τῆσδε γῆς Αἰτωλίας,</l>
+              <l n="4" xml:lang="grc">Πορθάονος παῖς, ὅς ποτ᾽ Ἀλθαίαν γαμεῖ,</l>
+              <l n="5" xml:lang="grc">Λήδας ὅμαιμον, Θεστίου δὲ παρθένον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-meleagros-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros">
+            <note type="source">2. Pseudo-Plutarch. Parallel. 26 (p. 312 Α.) Ἄρης Ἀλθαίᾳ συνῆλθε καὶ Μελέαγρον ποιήσας ὡς Εὐριπίδης Μελεάγρῳ. Locus depravatus est, quem sic Matthiaeus restituit: —συνῆλθε καὶ Μελέαγρον ἐγέννησε (vel ἐτέκνωσε) ὡς Εὐρ. ἐν Μελεάγρῳ ἐποίησεν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-meleagros-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:516">
+            <note type="source">3. Aristoph. Ran. 1269. (1240)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οἰνεύς ποτ᾽ ἐκ γῆς πολύμετρον λαβὼν στάχυν,</l>
+              <l n="2" xml:lang="grc">θύων ἀπαρχὰς</l>
+            </lg>
+            <note type="commentary">ubi schol. adnotat: ἔστι μὲν ἐκ Μελεάγρου μετὰ ἱκανὰ τῆς ἀρχῆς· ἡ δὲ ἀρχὴ τοῦ δράματος “Καλυδών μὲν ἥδε γαῖα Πελοπίας χθονός.” τὸ δὲ λεῖπον τοῦ στίχου “οὐκ ἔθυσεν Ἀρτέμιδι.”</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-meleagros-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros">
+            <note type="source">4. Aristoph. Ran. 1349 (1314) sq.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ειλίσσετε δακτύλοις φάλαγγες</l>
+              <l n="2" xml:lang="grc">ἱστότονα πηνίσματα</l>
+              <l n="3" xml:lang="grc">κερκίδος ἀοιδοῦ μελέτας, κ.τ.λ.</l>
+            </lg>
+            <note type="commentary">Schol. adscribit: τὸ δὲ κέρκιδος ἐκ Μελεάγρου Εὐριπίδου. — (schol. Venet. ad 1351: καὶ ταῦτα Εὐριπίδου· ἔστι δὲ ἀσυνάρτητα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-meleagros-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:518">
+            <note type="source">5. Stobaeus LXXV, 2.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καὶ κτῆμα δ᾽, ὦ τεκοῦσα, κάλλιστον τόδε,</l>
+              <l n="2" xml:lang="grc">πλούτου δὲ κρεῖσσον· τοῦ μὲν ὠκεῖα πτέρυξ,</l>
+              <l n="3" xml:lang="grc">παῖδες δὲ χρηστοὶ, κἂν θάνωσι, δώμασι</l>
+              <l n="4" xml:lang="grc">καλὸν τὸ θησαύρισμα, τοῖς τεκοῦσί τε</l>
+              <l n="5" xml:lang="grc">ἀνάθημα βιότου, κοὔποτ᾽ ἐκλείπει δόμους.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-meleagros-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:520">
+            <note type="source">6. Stobaeus LXXII, 12.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἡγησάμην οὖν, εἰ παραζεύξειέ τις</l>
+              <l n="2" xml:lang="grc">χρηστῷ πονηρὸν λέκτρον, οὐκ ἂν εὐτεκνεῖν,</l>
+              <l n="3" xml:lang="grc">ἐσθλοῖν δ᾽ ἀπ᾽ ἀμφοῖν ἐσθλὸν ἂν φῦναι γόνον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-meleagros-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:527">
+            <note type="source">7. Stobaeus LXXXVII, 5.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μόνον δ᾽ ἂν αὐτὰ χρημάτων οὐκ ἂν λάβοις,</l>
+              <l n="2" xml:lang="grc">γενναιότητα κἀρετήν· καλὸς δέ τις</l>
+              <l n="3" xml:lang="grc">κἂν ἐκ πονηρῶν σωμάτων γένοιτο παῖς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-meleagros-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:517">
+            <note type="source">8. Etym. M. v. Μελέαγρος p. 576, 30. ἐτυμολογεῖ Εὐριπίδης·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μελέαγρε, μελέαν γάρ ποτ᾽ ἀγρεύεις ἄγραν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-meleagros-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:524">
+            <note type="source">9. Stobaeus LXIV, 10.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἡ γὰρ Κύπρις πέφυκε τῷ σκότῳ φίλη,</l>
+              <l n="2" xml:lang="grc">τὸ φῶς δ᾽ ἀνάγκην προστίθησι σωφρονεῖν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-meleagros-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:521">
+            <note type="source">10. Stobaeus LXXIV, 12.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἔνδον μένουσαν τὴν γυναῖκ᾽ εἶναι χρεών</l>
+              <l n="2" xml:lang="grc">ἐσθλὴν, θύρασι δ᾽ ἀξίαν τοῦ μηδενός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-meleagros-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:522">
+            <note type="source">11. Stobaeus LXXIII, 29.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰ κερκίδων μὲν ἀνδράσιν μελοι πόνος,</l>
+              <l n="2" xml:lang="grc">γυναιξὶ δ᾽ ὅπλων ἐμπέσοιεν ἡδοναί;</l>
+              <l n="3" xml:lang="grc">ἐκ τῆς ἐπιστήμης γὰρ ἐκπεπτωκότες</l>
+              <l n="4" xml:lang="grc">κεῖνοί τ᾽ ἂν οὐδὲν εἶεν, οὔθ᾽ ἡμεῖς ἔτι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-meleagros-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:525">
+            <note type="source">12. Stobaeus LXX, 6.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰ δ᾽ εἰς γάμους ἔλθοιμ᾽, ὁ μὴ τύχοι ποτέ,</l>
+              <l n="2" xml:lang="grc">τῶν ἐν πόνοισιν ἡμερευουσῶν ἀεὶ</l>
+              <l n="3" xml:lang="grc">βελτίον᾽ ἂν τέκοιμι δώμασιν τέκνα.</l>
+              <l n="4" xml:lang="grc">ἐκ γὰρ πατρὸς καὶ μητρὸς ὅστις ἐκπονεῖ</l>
+              <l n="5" xml:lang="grc">σκληρὰς διαίτας οἱ γόνοι βελτίονες.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-meleagros-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:528">
+            <note type="source">13. Stobaeus LXXIII, 31.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μισῶ γυναῖκας, ἐκ πασῶν δὲ σὲ [πλέον],</l>
+              <l n="2" xml:lang="grc">ἥτις πονηρὰ τἄργ᾽ ἔχουσ᾽ εἰτ᾽ εὖ λέγεις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-meleagros-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:530">
+            <note type="source">14. Macrob. Saturn. V, 18. Morem Ætolis fuisse uno tantummodo pede calceato in bellum ire ostendit clarissimus scriptor Euripides, in cujus tragedia, quæ Meleager inscribitur, nuntius inducitur describens, quo quisque habitu fuerit ex ducibus, qui ad aprum capiendum convenerant; in eo hi versus sunt:</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τελαμὼν δὲ χρυσοῦν αἰετὸν πέλτης ἔπι</l>
+              <l n="2" xml:lang="grc">πρόβλημα θηρὸς, βότρυσι δ᾽ ἔστεψεν κάρα,</l>
+              <l n="3" xml:lang="grc">Σαλαμῖνα κοσμῶν πατρίδα τὴν εὐδαίμονα.</l>
+              <l n="4" xml:lang="grc">Κύπριδος δὲ μίσημ᾽, Ἀρκὰς Ἀταλάντη, κύνας</l>
+              <l n="5" xml:lang="grc">καὶ τόξ᾽ ἔχουσα· πελέκεως δὲ δίστομον</l>
+              <l n="6" xml:lang="grc">γένυν ἔπαλλ᾽ Ἄγκαιος· οἱ δὲ Θεστίου</l>
+              <l n="7" xml:lang="grc">κόροι τὸ λαιὸν ἴχνος ἀνάρβυλοι ποδὸς,</l>
+              <l n="8" xml:lang="grc">τὸν δ᾽ ἐν πεδίλοις, ὡς ἐλάφριζον γόνυ</l>
+              <l n="9" xml:lang="grc">ἔχοιεν, ὃς δὴ πᾶσιν Αἰτωλοῖς νόμος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-meleagros-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros">
+            <note type="source">15. Aristid. Rhet. in Walz. Rhet. Gr. T. IX, p. 404. Hermog. p. 564. Schol. Aristot. Rhet. III, 9, omnes sine nom. fab. Eustath. in Il. ί, p. 753 sine nom. auctoris et fab.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ Ζεῦ, γένοιτο καταβαλεῖν τὴν σῦν ἐμέ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-meleagros-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:529">
+            <note type="source">16. Stobaeus LXXII, 3.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὡς ἡδὺ δούλοις δεσπότας χρηστοὺς λαβεῖν,</l>
+              <l n="2" xml:lang="grc">καὶ δεσπόταισι δοῦλον εὐμενῆ δόμοις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-meleagros-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros">
+            <note type="source">17. Orion. Anthologn. VII, 1, p. 50 ed. Schneidew.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὸ τ.. κράτιστον. κἂν γυνὴ κράτι.. ἦ,</l>
+              <l n="2" xml:lang="grc">τοῦτ᾽ ἔστ᾽ ἀρετή· τὸ δὲ ὄνομα οὐ διαφέρει.</l>
+            </lg>
+            <note type="commentary">Sic Orio, unde Schneidewinus elicuit:</note>
+            <lg type="fragment">
+              <l n="3" xml:lang="grc">Τό τοι κράτιστον, κἂν γυνὴ κράτιστον ή,</l>
+              <l n="4" xml:lang="grc">τοῦτ᾽ ἔστιν ἀρετή· τὸ δὲ ὄνομ᾽ οὐδὲν διαφέρει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-meleagros-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:519">
+            <note type="source">18. Stobaeus VIII, 3.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δειλοὶ γὰρ ἄνδρες οὐκ ἔχουσιν ἐν μάχῃ</l>
+              <l n="2" xml:lang="grc">ἀριθμὸν, ἀλλ᾽ ἄπεισι, κἂν παρῶσ᾽ ὅμως.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="19" xml:id="fragment-meleagros-dindorf1893_grc1-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:531">
+            <note type="source">19. Aristoph. Ran. 1449. (1402.)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">σιδηροβριθές τ᾽ ἔλαβε δεξιᾷ ξύλον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="20" xml:id="fragment-meleagros-dindorf1893_grc1-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:532">
+            <note type="source">20. Stobæus XCVIII, 4. CXXI, 25.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τοὺς ζῶντας εὖ δρᾶν· κατθανὼν δὲ πᾶς ἀνὴρ</l>
+              <l n="2" xml:lang="grc">γῆ καὶ σκιά· τὸ μηδὲν εἰς οὐδὲν ῥέπει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="21" xml:id="fragment-meleagros-dindorf1893_grc1-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:538">
+            <note type="source">21. Hesych. Ἀντήλιοι θεοί, οἱ πρὸ τῶν πυλῶν ἱδρυμένοι. Εὐριπίδης Μελεάγρῳ. Cf. fgm. XIX sub fin.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="fragment-meleagros-dindorf1893_grc1-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:533">
+            <note type="source">22. Stobæus CXIX, 9.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τερπνὸν τὸ φῶς μοι, τὸ δ᾽ ὑπὸ γῆν Ἄιδου σκότος</l>
+              <l n="2" xml:lang="grc">οὐδ᾽ εἰς ὄνειρον οὐδεὶς ἀνθρώπους μολεῖν.</l>
+              <l n="3" xml:lang="grc">ἐγὼ μὲν οὖν γεγῶσα τηλικήδ᾽ ὅμως</l>
+              <l n="4" xml:lang="grc">ἀπέπτυσ᾽ αὐτὸ, κοὔποτ᾽ εὔχομαι θανεῖν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="23" xml:id="fragment-meleagros-dindorf1893_grc1-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:534">
+            <note type="source">23. Etym. Μ. v. φῷ. p. 803, 46. Φῷ ἀντὶ τοῦ φωτὶ σὺν τῷ ι. Εὐριπίδης Μελεάγρῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὸ μὲν * ἐν φῷ, τὸ δὲ κάτω σκότος κακόν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="24" xml:id="fragment-meleagros-dindorf1893_grc1-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:535">
+            <note type="source">24. Suid. v. νῦν δή. Phot. p. 223.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁρᾷς σὺ νῦν δή μ᾽ ὡς ἐπράϋνας, τύχη.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="25" xml:id="fragment-meleagros-dindorf1893_grc1-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:536">
+            <note type="source">25. Stobæus CV, 46.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φεῦ, τὰ τῶν εὐδαιμονούντων ὡς τάχα στρέφει θεός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="26" xml:id="fragment-meleagros-dindorf1893_grc1-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_meleagros" sameAs="urn:cts:greekLit:tlg0006.meleagros.nauck1889grc1:537">
+            <note type="source">26. Schol. Pind. Nem. X, 12. Τυδεύς –– ἀπεγεύσατο τῶν Μελανιππείων κρεῶν, ὡς καὶ Εὐριπίδης ἐν τῷ Μελεάγρῳ φησίν·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰς ἀνδροβρῶτας ἡδονὰς ἀφίξεται</l>
+              <l n="2" xml:lang="grc">κάρηνα Τυδεὺς γένυσι Μελανίππου σπάσας.</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

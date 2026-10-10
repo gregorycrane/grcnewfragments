@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHERECRATES, ΤΥΡΑΝΝΙΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Pherecrates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0486.tyrannis.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0486.tyrannis.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0486.tyrannis.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_tyrannis"><head>ΤΥΡΑΝΝΙΣ</head><div type="textpart" subtype="fragment" n="143" xml:id="kock-0486-tyrannis-143" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_tyrannis">
+              <lg>
+                <l n="1" xml:id="kock-0486-tyrannis-143-l1" xml:lang="grc">εἶτ’ ἐκεραμεύσαντο τοῖς μὲν ἀνδράσιν ποτήρια</l>
+                <l n="2" xml:id="kock-0486-tyrannis-143-l2" xml:lang="grc">πλατέα, τοίχους οὐκ ἔχοντ’ ἀλλ’ αὐτὸ τοὔδαφος μόνον,</l>
+                <l n="3" xml:id="kock-0486-tyrannis-143-l3" xml:lang="grc">κοὐχὶ χωροῦντ’ οὐδὲ κόγχην, ἐμφερῆ γευστηρίοις·</l>
+                <l n="4" xml:id="kock-0486-tyrannis-143-l4" xml:lang="grc">σφίσι δέ γ’ αὐταῖσιν βαθείας κύλικας ὥσπερ ὁλκάδας</l>
+                <l n="5" xml:id="kock-0486-tyrannis-143-l5" xml:lang="grc">οἰναγωγούς, περιφερεῖς, λεπτάς, μέσας γαστροιίδας,</l>
+                <l n="6" xml:id="kock-0486-tyrannis-143-l6" xml:lang="grc">οὐκ ἀβούλως, ἀλλὰ πόρρωθεν κατεσκευασμέναι</l>
+                <l n="7" xml:id="kock-0486-tyrannis-143-l7" xml:lang="grc">αὔθ’, ὅπως ἀνεκλογίστως πλεῖστος οἶνος ἐκποθῇ.</l>
+                <l n="8" xml:id="kock-0486-tyrannis-143-l8" xml:lang="grc">εἶθ’ ὅταν τὸν οἶνον αὐτὰς αἰτιώμεθ’ ἐκπιεῖν,</l>
+                <l n="9" xml:id="kock-0486-tyrannis-143-l9" xml:lang="grc">λοιδοροῦνται κὠμνύουσι μὴ ’κπιεῖν ἀλλ’ ἢ μίαν.</l>
+                <l n="10" xml:id="kock-0486-tyrannis-143-l10" xml:lang="grc">ἡ δὲ κρείττων ἡ μί’ ἐστὶ χιλίων ποτηρίων.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 11, 481 b ὅτι δὲ μεγάλοις ποτηρίοις αἱ γυναῖκες ἐχρῶντο ὁ αὐτὸς εἴρηκε Φερεκράτης ἐν Τυραννίδι διὰ τούτων· εἶτ’ ἐκεραμεύσαντο κτλ. Eustathius 1632, 30. Athen. 11, 460 c κρείττων μί’ ἐστὶ χιλίων ποτηρίων.</p>
+              </note>
+              <note type="apparatus">
+                <p>1. εἶτ’ ἐκεραμεύσαντο Bergkius] εἶτα κεραμεύσαντα. μὲν add. C. 3. χωροῦντ’ Casaubonus] δωροῦντ’. 4. σφίσι δέ γ’ Bergk.] φασί δ’. 5. μέσας] μεστὰς C. epit. Hoesch. Eust. γαστροιίδας Α. omittunt C et Eustathius. Porsonus Adv. 127 ἐγγάστριδας. Hesych. γαστροειδής· προγάστωρ. καὶ γαστροπίων. videtur ex masculino γάστρων (Aristoph. Ran. 200) comice finxisse femininum γαστρώνιδας. etiam λεπτάς manifesto corruptum. dubito λευράς an στρεβλάς reponendum sit. 6. πόρρωθεν ‘ex longinquo rem (αὐτό) ita instituentes ut plurimum vini bibere possent. 7. ἀνεκλογίστως idem fere quod ἀνεξελέγκτως.’ Meinek.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="144" xml:id="kock-0486-tyrannis-144" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_tyrannis">
+              <p>γυμνῷ φυλακὴν ἐπιτάττειν</p>
+              <note type="source">
+                <p>Hesych. παροιμία ἐπὶ τῶν μὴ δεομένων προστάξεως, διὰ τὸ ἀναγκαίως καὶ χωρὶς ἐπικελεύσεως τοῦτο πράττειν. Φερεκράτης Τυραννίδι. Zenob. 2, 98.</p>
+              </note>
+              <note type="apparatus">
+                <p>non recte Hesychium reprehendit Meinekius Philem. 361. φυλακή non solum est custodia, sed etiam circumspectio, quam nudo imperare non opus est, quia sua ipse condicione ea uti cogitur.</p>
+                <p>Ad hanc fabulam fortasse pertinebant fr. 187. 192.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="141" xml:id="kock-0486-tyrannis-141" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_tyrannis">
+              <lg>
+                <l n="1" xml:id="kock-0486-tyrannis-141-l1" xml:lang="grc">κἄπειθ᾽ ἵνα μὴ πρὸς τοῖσι βωμοῖς πανταχοῦ</l>
+                <l n="2" xml:id="kock-0486-tyrannis-141-l2" xml:lang="grc">ἀεὶ λοχῶντες βωμολόχοι καλώμεθα,</l>
+                <l n="3" xml:id="kock-0486-tyrannis-141-l3" xml:lang="grc">ἐποίησεν ὁ Ζεὺς καπνοδόκην μεγάλην πάνυ.</l>
+              </lg>
+              <note type="source">
+                <p>Harpocratio βωμολοχεύεσθαι· κυρίως ἐλέγοντο βωμολόχοι οἱ ἐπὶ τῶν θυσιῶν ὑπὸ τοὺς βωμοὺς καθίζοντες καὶ μετὰ κολακείας προσαιτοῦντες. ἔτι δὲ καὶ οἱ παραλαμβανόμενοι ταῖς θυσίαις αὐληταί τε καὶ μάντεις. Φερεκράτης Τυραννίδι· κἄπειθ᾽ ἵνα μὴ κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>κἄπειθ᾽ Bekker] καὶ ἔπειτα. Porsonus Phoen. 1422 ἔπειθ᾽. τοῖσι Maussacus] τοῖς. βωμοῖς] ναοῖς BG. καλώμεθα] καλούμεθα C, qui πρὸς τοῖσι βωμοῖς omittit. deum aliquem loqui animadvertit Dobraeus Adv. I 586. dicit autem deos antehac fumo sacrorum insidiantes circum aras sedisse; deinde Iovem famae deorum consulentem caelum aeneum ut καπνοδόκην terris superstruxisse, ut iam fumus conlectus per καπνοδόκης foramen ad deorum sedes perveniret.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="142" xml:id="kock-0486-tyrannis-142" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0486_tyrannis">
+              <lg>
+                <l n="1" xml:id="kock-0486-tyrannis-142-l1" xml:lang="grc">ἆρ᾽ ἀράχνι᾽ ὥσπερ ταῖς σιπύαισι ταῖς κεναῖς;</l>
+              </lg>
+              <note type="source">
+                <p>Suidas ἀράχνη· Φερεκράτης Τυραννίδι· ἀράχνεια ὥσπερ ταῖς σικύαισι ταῖς κεναῖς. et σικυαῖσι· Φερεκράτης Τυραννίδι· ἀρ᾽ ἀράχνι᾽ ὥσπερ ταῖς σικυαῖσι ταῖς κεναῖς.</p>
+              </note>
+              <note type="apparatus">
+                <p>Valckenarius Diatr. 169 a σιπυαῖσι, quod σιπύαισι scribendum erat. Harpocr. σιπύα· σιτη-</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

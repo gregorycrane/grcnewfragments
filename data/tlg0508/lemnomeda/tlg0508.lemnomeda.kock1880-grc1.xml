@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>STRATTIS, ΛΗΜΝΟΜΕΔΑ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Strattis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0508.lemnomeda.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0508.lemnomeda.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0508.lemnomeda.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_lemnomeda"><head>ΛΗΜΝΟΜΕΔΑ</head><div type="textpart" subtype="fragment" n="28" xml:id="kock-0508-lemnomeda-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_lemnomeda">
+              <lg>
+                <l n="1" xml:id="kock-0508-lemnomeda-28-l1" xml:lang="grc">ἡ σφύραινα δ᾽ ἐστὶ τίς;</l>
+                <l n="2" xml:id="kock-0508-lemnomeda-28-l2" xml:lang="grc">Β. κέστραν μὲν ὕμμες ὡττικοὶ κικλήσκετε.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 323 b Στράττις γοῦν ἐν Μακεδόσιν ἐρομένου τινὸς Ἀττικοῦ ὡς ἀγνοοῦντος τὸ ὄνομα (σφύραινα), καὶ λέγοντος· ἡ — τίς; φησὶν ὁ ἕτερος· κέστραν κτλ. ὡττικοὶ Schweighaeus.] ὦττικοί. Athenaeus 8, 355 d αἱ σφύραιναι τῶν γόγγρων εἰσὶ τροφιμώτεραι.</note>
+              <note type="apparatus">σφύραινα pro κέστρα Macedones dixisse ex titulo comoediae conligit Herwerd. Mnem. nov. IIII 307.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0508-lemnomeda-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_lemnomeda">
+              <lg>
+                <l n="1" xml:id="kock-0508-lemnomeda-29-l1" xml:lang="grc">πνικτόν τι τοίνυν . . ἔστω σοι συχνὸν</l>
+                <l n="2" xml:id="kock-0508-lemnomeda-29-l2" xml:lang="grc">τοιοῦτον.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 396 a Στράττις . . . ἐν Μακεδόσιν ἢ Κινησίᾳ.</note>
+              <note type="apparatus">ὄψον supplet et Παυσανίᾳ pro Κινησίᾳ Meinekius, et in Anal. crit. 171 ἐστί pro ἔστω. scribendum videtur A. πνικτόν τι τοίνυν ὄψον ἔστι σοι; B. πυκνὸν | τοιοῦτον.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30" xml:id="kock-0508-lemnomeda-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_lemnomeda">
+              <lg>
+                <l n="1" xml:id="kock-0508-lemnomeda-30-l1" xml:lang="grc">τὸν πέπλον δὲ τοῦτον</l>
+                <l n="2" xml:id="kock-0508-lemnomeda-30-l2" xml:lang="grc">ἕλκουσ᾽ ὀνεύοντες τοπείοις ἄνδρες ἀναρίθμητοι</l>
+                <l n="3" xml:id="kock-0508-lemnomeda-30-l3" xml:lang="grc">εἰς ἄκρον ὥσπερ ἱστίον τὸν ἱστόν.</l>
+              </lg>
+              <note type="source">Harpocratio τοπεῖον· τοπεῖα λέγουσι τὰ σχοινία. Στράττις Μακεδόσι κτλ. Etymol. m. 762, 20 Στράττις Μακεδόσι· τὸν πέπλον — ἄνδρες. ac sic Photius 595, 18 et Suidas τοπεῖον.</note>
+              <note type="apparatus">ἕλκουσ᾽ ὀνεύοντες Meinekius probante Boeckhio Oec. Att. III 144] ἕλκουσι δονεύοντες Harpocr. codices plerique. δεσμεύοντες Etym. Phot. Harp. D. τοπείοις] τὸ πιεις Phot. m. pr., τοπιεῖς corr. ἄκρον] ἄλλον B Harp., ἄκραν Hemsterhus. Poll. 10, 130. τὸν om. C Harp. ἱστὸν Dobraeus Advers. I 589] εἰς τὸν. Bekker. Anecd. 57, 21 ὀνεύειν· τὸ περιάγειν τὰ μηχανήματα, οἷς τούς τε λίθους καὶ τὰ ἄλλα ἕλκουσιν (ἀνέλκουσιν?). ὄνος δ᾽ ἐστὶν αὐτὸ τὸ μηχάνημα τὸ διὰ τροχιλιῶν καὶ σχοινίων. Thucyd. 7, 25 confert Meinekius. Photius 116, 11 ὁ μὲν ἱστός, τὸ ἐπίμηκες ξύλον ἄνω τεταμένον· κεραία δέ, τὰ πλάγια, ὥστε γενέσθαι (scr. γίνεσθαι) γράμμα τὸ τοῦ· διετείνετο δὲ πολλάκις ὁ τῆς Ἀθηνᾶς πέπλος εἰς τοιοῦτο σχῆμα ξύλων καὶ ἐπόμπευσεν (ἐπόμπευεν). cf. Aristoph. Eq. 566. Michaelis Parthenon. 212. iure priore vocis ἄκρον syllaba producta offenditur Herwerden. Mnem. nov. VI 59. scilicet syllabae tres excidisse videntur, veluti εἰς ἄκρον ἑκάστοθ᾽ ὥσπερ κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="31" xml:id="kock-0508-lemnomeda-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_lemnomeda">
+              <lg>
+                <l n="1" xml:id="kock-0508-lemnomeda-31-l1" xml:lang="grc">ὑπογάστριά θ᾽ ἡδέα θύννων</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="21" xml:id="kock-0508-lemnomeda-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_lemnomeda">
+              <note type="source">Erotianus 85, 14 Klein. καμμάρῳ· ἐφ’ ἱδρῶσι δὲ παραλαμβάνειν . . . Στράττιν ἐν κυνηγοῖς λέγοντα . . . Strattidis verba interierunt. Κινησίᾳ pro κυνηγοῖς Maussac. Harpocrat. II 306 (ed. Dindf.). ceterum κάμμορον, κάμμαρον, κάμαρον scribitur: est medicamentum refrigeratorium, φάρμακόν τι ψυκτικὸν ἢ τάχα τὸ κώνειον Erotian. 86, 4.</note>
+              <note type="apparatus">Ad Cinesiam Meinekius praeterea refert fr. 64.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="22" xml:id="kock-0508-lemnomeda-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_lemnomeda">
+              <lg>
+                <l n="1" xml:id="kock-0508-lemnomeda-22-l1" xml:lang="grc">Ἑρμῆς, ὃν ἕλκουσ’ οἱ μὲν ἐκ προχοιδίου,</l>
+                <l n="2" xml:id="kock-0508-lemnomeda-22-l2" xml:lang="grc">οἱ δ’ ἐκ καδίσκου γ’ ἴσον ἴσῳ κεκραμένον.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 473c μνημονεύει τοῦ καδίσκου καὶ Στράττις ὁ κωμικὸς ἐν Λημνομέδᾳ λέγων οὕτως κτλ. idem 1, 32b ‘Ἑρμῆς δ’ εἶδος πόσεως παρὰ Στράττιδι. Eustathius 1470, 64. 2. γ’ addidit Fritzschius Q. Arist. 269. Porsonus σ’. cf. Cratin. 193. Photius ‘Ἑρμῆς· πόσεως εἶδος· ὡς ἀγαθοῦ δαίμονος καὶ Διὸς σωτῆρος. similia Hesychius ‘Ἑρμῆς.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="23" xml:id="kock-0508-lemnomeda-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_lemnomeda">
+              <lg>
+                <l n="1" xml:id="kock-0508-lemnomeda-23-l1" xml:lang="grc">Χῖος παραστὰς Κῷον οὐκ ἐᾷ λέγειν.</l>
+              </lg>
+              <note type="source">Schol. Plat. 320 Bekk. τῶν δὲ βόλων ὁ μὲν τὰ ἓξ δυνάμενος Κῷος καὶ ἑξίτης ἐλέγετο, Χῖος δὲ ὁ τὸ ἕν, καὶ κύων. λέγεται δέ τις καὶ παροιμία ἀπὸ τούτου οἷον Χῖος παραστὰς Κῷον οὐκ ἐάσω· ἀφ’ οὗ καὶ Στράττις Λιμνοπέδαις κτλ. Eustathius 1397, 41. Zenob. 4, 74 Κῷος Χίῳ· ὁ Κῷος ἀστράγαλος ἠδύνατο ἕξ. παροιμία δέ ἐστι Χίος πρὸς Κῷον. ὁ μὲν γὰρ Χῖος ἠδύνατο ἕν, ὁ δὲ Κῷος ἕξ. Append. prov. 5, 28 Χῖος παραστὰς Κῷον οὐκ ἐᾷ λέγειν. ἀπὸ ἀστραγάλων παρῳδήθη ἡ παροιμία. Apostol. 18, 26a Χῖος παραστὰς οὐκ ἐᾷ Κῷον λέγειν, falsa interpretatione addita. idem 10, 35 Κῷος πρὸς Χῖον· ὅταν ἐλάττω πρὸς μείζω τις παραβάλλει. discernenda igitur sunt duo proverbia: Κῷος πρὸς Χῖον, i. e. optimus talorum iactus prae pessimo, et Χίος παραστὰς Κῷον οὐκ ἐᾶ λέγειν vel οὐκ ἐάσω, i. e., si Sauppium sequimur, οὐκ ἐᾶ σῴζειν (vers. choliamb.). cf. Diphil. Athen. 6, 247a (v. 4) οὐκ ἄν ποτε Εὐριπίδης (talorum iactus) γυναίκα σώσειεν. Cous enim iactus erat optimus (6. 6. 6. 6), quem qui iecisset, iactum iterabat. periculum igitur erat</note>
+            </div>
+          </div></body></text></TEI>

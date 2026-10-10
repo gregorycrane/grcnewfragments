@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHRYNICHUS, ΜΥΣΤΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Phrynichus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0496.mystai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0496.mystai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0496.mystai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_mystai"><head>ΜΥΣΤΑΙ</head><div type="textpart" subtype="fragment" n="36" xml:id="kock-0496-mystai-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_mystai">
+              <lg>
+                <l n="1" xml:id="kock-0496-mystai-36-l1" xml:lang="grc">μάστιγα δ’ ἐν χεροῖν ἔχων ἐτεύτασεν.</l>
+              </lg>
+              <note type="source">Photius τευτάζειν· πραγματεύεσθαι ἢ σκευωρεῖσθαι ἢ στραγγεύεσθαι καὶ πολὺ διατρίβειν ἐν τῷ αὐτῷ . . . Φρύνιχος Μύσταις κτλ. χεροῖν Ruhnken. Tim. 254] χερσίν. ἐτεύτασεν Bergk. R. c. Att. 375] τευτασθαι (sic). τευτάζεται Ruhnken. at media forma inusitata comicis. flagello sine dubio is de quo narratur ad coercendos servos utebatur. cf. Aristoph. Eq. 59. 64. 67.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="37" xml:id="kock-0496-mystai-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_mystai">
+              <lg>
+                <l n="1" xml:id="kock-0496-mystai-37-l1" xml:lang="grc">ἐβουλόμην ἂν ἡμιν ὥσπερ καὶ προτοῦ</l>
+              </lg>
+              <note type="source">Eustathius 1112, 36 Ἴωνες δὲ πολλάκις δὲ καὶ Ἀθηναῖοι προπερισπῶσι (τὸ ἡμῖν) ἐν συστολῇ τοῦ ῑ . . . Φρύνιχος Μύστῃ κτλ. at cum eius quam Eustathius commemorat consuetudinis apud tragicos quidem permulta, apud comicos certa exempla nulla exstent (cf. quae adnotavimus ad Aristoph. Av. 386), scribendum videtur ἐβουλόμην ἂν νὴ Δί’ ὥσπερ κτλ.</note>
+              <note type="apparatus">Ad Mystas Bergkius R. c. Att. 375 adsentiente Meinekio refert fr. 70.</note>
+            </div>
+          </div></body></text></TEI>

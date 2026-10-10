@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΑΡΓΕΙΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.argeioi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.argeioi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.argeioi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:argeioi"><head>ΑΡΓΕΙΟΙ</head>
+          <pb n="593" facs="urn:hathi:iau.31858007086675:scan:601"/>
+          <div type="textpart" subtype="fragment" n="14" xml:id="frag_8b0af97868" corresp="urn:cite2:perseus:fragmentaryplays.v1:argeioi" sameAs="urn:cts:greekLit:tlg0085.argeioi.nauck1889-grc1:16">
+            <note type="source">Harpocratio, Χλῆδος : — Αἰσχύλος Ἀργείοις (ἀργίαις codex Vratisl.)</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_8b0af97868-l1" xml:lang="grc">Καὶ παλτὰ κἀγκυλητὰ καὶ χλῆδον βαλών.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="frag_bb7096225f" corresp="urn:cite2:perseus:fragmentaryplays.v1:argeioi">
+            <note type="source">Etymolog. Μ. p. 341, 5. Ενηλύσια: εὐκίνητα. καὶ ἤλυσιν τὴν ἔλευσιν. Αἰσχύλος ἐν Ἀργείοις</note>
+            <quote>“Καπανεύς μου καταλείπεται λοιποῖς ἀκέραυνος ἀρούρων ἐπηλυσίων (ἐνηλυσίων Stanleius) ἀπέλιπεν.”</quote>
+            <note type="source">οἱ δὲ τὰ κατασκηφθέντα. Hesychius, Ἐνηλύσια: τὰ κατασκηφθέντα χωρία ἐνηλύσια λέγεται. ἔνιοι δὲ εὐκίνητα, παρὰ τὴν ἔλευσιν. V. Herm. Opusc. vol. VII. p. 209.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="frag_4e1645122e" corresp="urn:cite2:perseus:fragmentaryplays.v1:argeioi" sameAs="urn:cts:greekLit:tlg0085.argeioi.nauck1889-grc1:18">
+            <note type="source">Hesychius, Ἀπόσκημμα: ἀπέρεισμα. Αἰσχύλος Ἀργείοις. Codex ἀργίας.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="frag_e8e18da207" corresp="urn:cite2:perseus:fragmentaryplays.v1:argeioi" sameAs="urn:cts:greekLit:tlg0085.argeioi.nauck1889-grc1:19">
+            <note type="source">Hesychius, Ἐμμέλεια: εἶδος ὀρχήσεως. καὶ Πλάτων ἐπαινεῖ τὴν ὄρχησιν καί φησιν (exciderunt Platonis verba de Leg. VII. p. 816 b.) ἢ ἀπὸ τοῦ μέλους ὠνομάσθη ἢ ἀπὸ τοῦ πρὸς τὰ μέλη γίνεσθαι. τραγικὴ δὲ ἡ ὄρχησις. Ἀργείοις (codex ἀργυρίοις) δὲ Αἰσχύλος ἀντὶ τοῦ σατυρικὴ, ἢ ἐστι σίκινις (codex σικήνης).</note>
+          </div>
+        </div></body></text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΝΕΑΝΙΣΚΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.neaniskoi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.neaniskoi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.neaniskoi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:neaniskoi"><head>ΝΕΑΝΙΣΚΟΙ</head>
+          <pb n="601" facs="urn:hathi:iau.31858007086675:scan:609"/>
+          <div type="textpart" subtype="fragment" n="138" xml:id="frag_faa037ddf1" corresp="urn:cite2:perseus:fragmentaryplays.v1:neaniskoi" sameAs="urn:cts:greekLit:tlg0085.neaniskoi.nauck1889-grc1:146">
+            <note type="source">Fuit tetralogiae Lycurgeae: vide ad Lycurgum. Athenaeus XI. p. 503 c.</note>
+            <note type="commentary">Νίκανδρος δ' ὁ Θυατειρηνὸς καλεῖσθαί φησι ψυκτῆρας καὶ τοὺς ἀλσώδεις καὶ συσκίους τόπους τοὺς τοῖς θεοῖς ἀνειμένους ἐν οἷς ἐστιν ἀναψῦξαι. Αἰσχύλος Νεανίσκοις</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_faa037ddf1-l1" xml:lang="grc">Σαύρας ὑποσκίοισιν ἐν ψυκτηρίοις.</l>
+            </lg>
+            <note type="apparatus">Αὔρας Valckenarius ad Hippolytum p. 184 b.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="139" xml:id="frag_daab06a43e" corresp="urn:cite2:perseus:fragmentaryplays.v1:neaniskoi" sameAs="urn:cts:greekLit:tlg0085.neaniskoi.nauck1889-grc1:147">
+            <note type="source">Hesychius, Ἀρείφατον λῆμα: ἰσχυρὸν, ἀντὶ, Ἄρει ἐοικός. Αἰσχύλος Νεανίσκοις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="140" xml:id="frag_181f2ee1ee" corresp="urn:cite2:perseus:fragmentaryplays.v1:neaniskoi" sameAs="urn:cts:greekLit:tlg0085.neaniskoi.nauck1889-grc1:148">
+            <note type="source">Hesychius, Ἀφοίβαντον: ἀκάθαρτον. Αἰσχύλος Νεανίσκοις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="141" xml:id="frag_de1cfbd1dc" corresp="urn:cite2:perseus:fragmentaryplays.v1:neaniskoi" sameAs="urn:cts:greekLit:tlg0085.neaniskoi.nauck1889-grc1:149">
+            <note type="source">Photius p. 326, 15. Ὀκτώπαν ποταμὸν Αἰσχύλος διαπέπλευκε Νεανίσκοις. Hesychius, Ὀκτώπας : ποταμός.</note>
+          </div>
+        </div></body></text>
+</TEI>

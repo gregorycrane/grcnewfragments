@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΗΡΩΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.heroes.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.heroes.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.heroes.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes"><head>ΗΡΩΕΣ</head><div type="textpart" subtype="fragment" n="298" xml:id="kock-0019-heroes-298" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <lg>
+                <l n="1" xml:id="kock-0019-heroes-298-l1" xml:lang="grc">Α. οὐκ ἠγόρευον; οὗτός ἐστ᾽ οὐκ Ἀργόλας.</l>
+                <l n="2" xml:id="kock-0019-heroes-298-l2" xml:lang="grc">Β. μὰ Δί᾽ οὐδέ γ᾽ Ἕλλην, ὅσον ἔμοιγε φαίνεται.</l>
+              </lg>
+              <note type="source">Steph. Byz. <hi rend="italic">Ἄργος . . . τὸ ἐθνικὸν Ἀργεῖος . . . λέγεται καὶ Ἀργόλας. Ἀριστοφάνης Ἥρωσιν κτλ.</hi>
+              </note>
+              <note type="apparatus">1. <hi rend="italic">ἐστ᾽ οὐκ</hi> Scaliger Append. Coniect. Varr. 184] <hi rend="italic">ἐστί γ᾽ οὐκ.</hi> 2. <hi rend="italic">οὐδέ γ᾽</hi> Scaliger] <hi rend="italic">οὐδ᾽.</hi> cf. Herodian. II 55, 7 (<hi rend="italic">οὗτός ἐστ᾽ ὁ Ἀργ.</hi>). Cobet. Mnem. V 197 <hi rend="italic">οὑτοσί γ᾽ οὐκ.</hi> aut sic aut <hi rend="italic">οὗτος οὐκ ἔστ᾽</hi> scribendum. cf. quae adnotavi ad Nub. 687.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="299" xml:id="kock-0019-heroes-299" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <lg>
+                <l n="1" xml:id="kock-0019-heroes-299-l1" xml:lang="grc">τρέχ᾽ εἰς τὸν οἶνον ἀμφορέα κενὸν λαβὼν</l>
+                <l n="2" xml:id="kock-0019-heroes-299-l2" xml:lang="grc">τῶν ἔνδοθεν καὶ βύσμα καὶ γευστήριον,</l>
+                <l n="3" xml:id="kock-0019-heroes-299-l3" xml:lang="grc">κἄπειτα μίσθου σαυτὸν ἀμφορεαφορεῖν.</l>
+              </lg>
+              <note type="source">Suidas <hi rend="italic">ἀμφορεαφόρους· τοὺς μισθίους, τοὺς τὰ κεράμια φέροντας. καὶ ἀμφορεαφόρος ὁ κεράμια μισθοῦ φέρων . . . Ἀριστοφάνης Ἥρωσι κτλ.</hi> Pollux 10, 75 <hi rend="italic">καὶ τὸ παρ᾽ Ἀριστοφάνει γευστήριον τρέχ᾽ — γευστήριον.</hi> et 10, 172 <hi rend="italic">καὶ βύσμα δ᾽ ἂν εἴη τῶν χρησίμων, Ἀριστοφάνους εἰπόντος βύσμα καὶ γευστήριον.</hi> 6, 99 <hi rend="italic">καὶ γευστηρίου μὲν Ἀριστοφάνης μέμνηται.</hi>
+              </note>
+              <note type="apparatus">1. <hi rend="italic">τρέχ᾽ εἰς</hi>] <hi rend="italic">τρέχειν</hi> Suidae A. <hi rend="italic">κενὸν</hi> Suid.] <hi rend="italic">κοινὸν</hi> Poll. 2. <hi rend="italic">τῶν — βύσμα</hi> Poll.] <hi rend="italic">τὸν — γεῦμα</hi> Suid. qui loquitur non servum sed per iocum alium aliquem iubet amphoras gestare. <hi rend="italic">εἰς τὸν οἶνον</hi> in forum vinarium. cf. Eq. 857. Eupol. 304.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="300" xml:id="kock-0019-heroes-300" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <lg>
+                <l n="1" xml:id="kock-0019-heroes-300-l1" xml:lang="grc">ὀβολῶν δεουσῶν τεττάρων καὶ τῆς φορᾶς.</l>
+              </lg>
+              <note type="source">Pollux 7, 133 Ἀριστοφάνης δ’ ἐν τοῖς Ἥρωσι δοκεῖ τὸ κόμιστρον κατὰ τὸ νῦν ἔθος εἰρηκέναι φοράν, ὅταν εἴπῃ κτλ.</note>
+              <note type="apparatus">in versu proximo praeierat sine dubio δραχμῶν. cf. Eupol. 271. sine idonea ratione Bergkius hanc versum cum 299 eadem scaena coniunctum esse opinatur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="301" xml:id="kock-0019-heroes-301" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <lg>
+                <l n="1" xml:id="kock-0019-heroes-301-l1" xml:lang="grc">ἢ καρδοπείῳ περιπαγῇ τὸν αὐχένα.</l>
+              </lg>
+              <note type="source">Pollux 10, 113 καὶ παυσικάπη, ἣν καὶ καρδοπεῖον ὠνόμαζον, ὡς ἐν Ἥρωσιν Ἀριστοφάνης κτλ.</note>
+              <note type="apparatus">ἣν — περιπαγῇς Bergkius. at ἦν in eis quae ante dicta erant positum fuisse potest.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="302" xml:id="kock-0019-heroes-302" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <lg>
+                <l n="1" xml:id="kock-0019-heroes-302-l1" xml:lang="grc">παύσειν ἔοιχ’ ἡ παυσικάπη κάπτοντά σε.</l>
+              </lg>
+              <note type="source">Schol. Pac. Ven. 14 εἰώθασι γὰρ ἅμα τῷ μάττειν ἐσθίειν· ἀφ’ οὗ καὶ τὴν παυσικάπην ἐπενόησαν, τροχοειδές τι, δι’ οὗ τὸν τράχηλον εἶρον πρὸς τὸ μὴ δύνασθαι τὴν χεῖρα προσάγειν. μέμνηται δὲ ἐν Ἥρωσιν Ἀριστοφάνης κτλ.</note>
+              <note type="apparatus">παυσικάπη Dindorf.] παυσικάη V. minatur servo quisquis loquitur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="303" xml:id="kock-0019-heroes-303" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <lg>
+                <l n="1" xml:id="kock-0019-heroes-303-l1" xml:lang="grc">ἴθι δὴ λαβὼν τὸν ῥόμβον ἀνακωδώνισον.</l>
+              </lg>
+              <note type="source">Pollux 10, 173 Ἀριστοφάνης ἐν Ἥρωσιν.</note>
+              <note type="apparatus">ῥόμβον] ῥύμβον Meinek. cf. Eupol. 72. verba prorsus obscura.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="304" xml:id="kock-0019-heroes-304" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <lg>
+                <l n="1" xml:id="kock-0019-heroes-304-l1" xml:lang="grc">οἱ γὰρ ἥρως ἐγγύς εἰσιν.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 1197 φησὶν Ἡρωδιανὸς ἐν τῇ καθόλου ἐν τῇ περὶ τῆς εὐθείας τῶν πληθυντικῶν διδασκαλίᾳ, ὡς ἡ οἱ ἥρωες εὐθεῖα τῶν πληθυντικῶν εὕρηται κατὰ κρᾶσιν παρὰ Ἀριστοφάνει ἐν Ὄρνισιν (recte Bergk. Ἥρωσιν) οἷον· οἱ γὰρ ἥρως ἐγγὺς εἰσιν, ἀντὶ τοῦ οἱ ἥρωες. Phrynichus Ecl. 158 ἅπαξ βιασθεὶς Ἀριστοφάνης ὑπὸ τοῦ μέτρου οἱ ἥρως εἶπε. τῷ δ’ ἠναγκασμένῳ οὐ χρηστέον. cf. Thom. Mag. 424. 5. Herodian. I 424, 13. II 341, 29. Lascaris Gramm. III 2, 7 apud Lobeck.</note>
+              <note type="apparatus">chori adventus eodem modo nuntiatur atque Eq. 242. 244.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="305" xml:id="kock-0019-heroes-305" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <lg>
+                <l n="1" xml:id="kock-0019-heroes-305-l1" xml:lang="grc">μὴ γεύεσθε δ’ ἅττ’ ἂν καταπέσῃ</l>
+                <l n="2" xml:id="kock-0019-heroes-305-l2" xml:lang="grc">τῆς τραπέζης ἐντός.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="306" xml:id="kock-0019-heroes-306" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <lg>
+                <l n="1" xml:id="kock-0019-heroes-306-l1" xml:lang="grc">μήτε ποδάνιπτρον θύραζ' ἐκχεῖτε μήτε λούτριον.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 7, 167 καὶ τὸ ὕδωρ τοῦ λουτροῦ λούτριον, ὡς Ἀριστοφάνης ἐν Ἥρωσι κτλ. idem 10, 78 καλεῖται μέντοι καὶ ποδανιπτήρ . . . τὸ δὲ ἀπ' αὐτοῦ ὕδωρ νίπτρον ἢ λούτριον ἢ ποδάνιπτρον, ὡς ἐν Ἥρωσιν Ἀριστοφάνης λέγει.</p>
+              </note>
+              <note type="apparatus">
+                <p>μήτε ποδάνιπτρον Seidler.] μήτ' ἀπόνιπτρον.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="307" xml:id="kock-0019-heroes-307" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <lg>
+                <l n="1" xml:id="kock-0019-heroes-307-l1" xml:lang="grc">κἀπὸ τῆς Διειτρέφους τραπέζης</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Av. 798 Διειτρέφης . . . ὅτι δὲ ἦν νεόπλουτος οὗτος ἐνεφαίνετο καὶ ἐν τοῖς Ἥρωσι κτλ., εἰ μὴ ἐν εἰρωνείᾳ.</p>
+              </note>
+              <note type="apparatus">
+                <p>κἀπὸ — Διειτρέφους Elmsl. Med. 139] καὶ ἀπὸ — Διτρεφούς.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="308" xml:id="kock-0019-heroes-308" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <note type="source">
+                <p>Schol. Thesmoph. 21 οἷόν τέ πού 'στιν αἱ σοφαὶ ξυνουσίαι· διὰ τούτου φαίνεται ὑπονοῶν Εὐριπίδου εἶναι τὸ 'σοφοὶ τύραννοι τῶν σοφῶν συνουσία'. ἔστι δὲ Σοφοκλέους ἐξ Αἴαντος Λοκροῦ. ἐνταῦθα μέντοι ὑπονοεῖ μόνον, ἐν δὲ τοῖς Ἥρωσιν ἄντικρυς ἀποφαίνεται. καὶ Ἀντισθένης καὶ Πλάτων (Theag. 125d. Reipubl. 8, 568a) Εὐριπίδου αὐτὸ εἶναι ἡγοῦνται, οὐκ ἔχω εἰπεῖν ὅ τι παθόντες. ἔοικε δὲ ἤτοι πεπλανημένος ἢ συνεξαπατῆσαι τοὺς ἄλλους, ὥσπερ ὑπονοοῦσί τινες συμπτώσεις τῷ τε Σοφοκλεῖ καὶ τῷ Εὐριπίδῃ, ὥσπερ καὶ ἐπὶ ἄλλων τινῶν· τὸ μέντοι δρᾶμα ἐν ᾧ Εὐριπίδης ταῦτα εἶπεν οὐ σῴζεται. cf. Eupol. 314. Sophoclis eum versum esse data opera demonstrat Aristides II 288, 2 (373, 2 Dindf.).</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="309" xml:id="kock-0019-heroes-309" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <note type="source">Schol. Soph. Oed. Col. 793</note>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0019-heroes-309-l1" xml:lang="grc">δοκεῖ γὰρ ὁ Ἀπόλλων παρὰ Διὸς</l>
+                  <l n="2" xml:id="kock-0019-heroes-309-l2" xml:lang="grc">λαμβάνειν τοὺς χρησμούς, ὡς . . . καὶ Ἀριστοφάνης Ἥρωσιν.</l>
+                </lg>
+              </quote>
+            </div>
+            <div type="textpart" subtype="fragment" n="310" xml:id="kock-0019-heroes-310" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0019-heroes-310-l1" xml:lang="grc">ἐμπόλω Διοσκόρω</l>
+                </lg>
+              </quote>
+              <note type="source">ἐν Ἥρωσιν Ἀριστοφάνης. Pollux 7, 15. mihi quidem ἔμπολος aliunde non cognitum.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="311" xml:id="kock-0019-heroes-311" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0019-heroes-311-l1" xml:lang="grc">πῶς πίομαι;</l>
+                </lg>
+              </quote>
+              <note type="source">Etymol. m. 673, 1. Draco 73, 14 τὸ δὲ πίω ἐκτείνει . . . Ἀριστοφάνης ἐν Ἥρωσι κτλ. cf. Herodian. II 570, 10. πίωμαι Etym. m. V.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="312" xml:id="kock-0019-heroes-312" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0019-heroes-312-l1" xml:lang="grc">ἀνδραποδώνης</l>
+                </lg>
+              </quote>
+              <note type="source">ἐν τοῖς Ἥρωσιν Ἀριστοφάνης. Pollux 7, 16.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="313" xml:id="kock-0019-heroes-313" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0019-heroes-313-l1" xml:lang="grc">ἀρτοποιία</l>
+                </lg>
+              </quote>
+              <note type="source">ἐν Ἀριστοφάνους Ἥρωσιν. Pollux 7, 21.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="314" xml:id="kock-0019-heroes-314" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0019-heroes-314-l1" xml:lang="grc">ἡλίσκον</l>
+                </lg>
+              </quote>
+              <note type="source">τὸν ἥλιον . . ἐν Ἥρωσιν Ἀριστοφάνης κέκληκε. Pollux 10, 61. Photius ἡλίσκον· τὸν μικρὸν ἧλον. Ἀριστοφάνης. Pollux 10, 188 ἥλους οἱ πολλοί, καὶ ἡλίσκους οἱ κωμῳδοὶ λέγουσιν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="315" xml:id="kock-0019-heroes-315" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0019-heroes-315-l1" xml:lang="grc">πυελίδα</l>
+                </lg>
+              </quote>
+              <note type="source">τὸ ὑφ' ἡμῶν λεγόμενον σφραγιδοφυλάκιον . . . Ἀριστοφάνης Ἥρωσιν. Harpocratio. cf. Photius, qui fabulae nomen omittit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="316" xml:id="kock-0019-heroes-316" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_heroes">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0019-heroes-316-l1" xml:lang="grc">χερνίβιον</l>
+                </lg>
+              </quote>
+              <note type="source">Ἀριστοφάνης ἐν Ἥρωσι. Athen. 9, 409 c. fortasse pertinet ad fr. 306, ut alterum versum incipiant verba μήτε χερνίβιον. Ad Heroes fr. 692 refert Dindorfius.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>SANNYRION, ΓΕΛΩΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Sannyrion</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0501.gelos.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0501.gelos.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0501.gelos.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0501_gelos"><head>ΓΕΛΩΣ</head><div type="textpart" subtype="fragment" n="12" xml:id="kock-0501-gelos-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0501_gelos">
+              <lg>
+                <l n="1" xml:id="kock-0501-gelos-12-l1" xml:lang="grc">ἀλλ' οὐ τρυγερὰ τὰ φθέγματ' οὐδὲ γλύξιδας.</l>
+              </lg>
+              <note type="source">Pollux 2, 118 καὶ τρυγεροὺς τὰ φθέγματα, ὡς ἔφη Πολύζηλος ὁ κωμικός κτλ.</note>
+              <note type="apparatus">nisi τρυγεροὺς vel τρυγεράς scripsit poeta, τὰ παιδία vel tale aliquid intellegendum videtur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="1" xml:id="kock-0501-gelos-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0501_gelos">
+              <lg>
+                <l n="1" xml:id="kock-0501-gelos-1-l1" xml:lang="grc">πέλανον καλοῦμεν ἡμεῖς οἱ θεοί,</l>
+                <l n="2" xml:id="kock-0501-gelos-1-l2" xml:lang="grc">ἃ καλεῖτε σεμνῶς ἄλφιθ' ὑμεῖς οἱ βροτοί.</l>
+              </lg>
+              <note type="source">Harpocratio πέλανος· λέγεται δὲ πέμματά τινα τοῖς θεοῖς γινόμενα ἐκ τοῦ ἀφαιρεθέντος σίτου ἐκ τῆς ἅλω. Σαννυρίων δ' ἐν Γέλωτί φησι κτλ.</note>
+              <note type="apparatus">Σαννυρίων add. Maussacus, lacun. AB. καλοῦμεν — θεοί desunt in AB. 2. καλεῖτε] καλεῖται AB. σεμνῶς] γυμνῶς Lobeck. Aglaoph. 868 n. a. καλεῖτ' ἀσέμνως Meinekius ante Cobetum. Mnem. IIII 112. ceterum ἄσεμνος apud Atticos me legere non memini.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0501-gelos-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0501_gelos">
+              <lg>
+                <l n="1" xml:id="kock-0501-gelos-2-l1" xml:lang="grc">Μέλητον τὸν ἀπὸ Ληναίου νεκρόν</l>
+              </lg>
+              <note type="source">Athenaeus 12, 551 c περὶ δὲ Μελήτου αὐτὸς ὁ Σαννυρίων ἐν Γέλωτι λέγει κτλ.</note>
+              <note type="apparatus">accusatorem dicit Socratis. cf. Aristoph. fr. 114. 149, 10.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0501-gelos-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0501_gelos">
+              <lg>
+                <l n="1" xml:id="kock-0501-gelos-3-l1" xml:lang="grc">ὦ βατίδες, ὦ γλαύκων κάρα</l>
+              </lg>
+              <note type="source">Athenaeus 7, 286 c Σαννυρίων δ' ἐν Γέλωτι κτλ.</note>
+              <note type="apparatus">dubitari potest initiumne sit an exitus trimetri.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0501-gelos-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0501_gelos">
+              <lg>
+                <l n="1" xml:id="kock-0501-gelos-4-l1" xml:lang="grc">κεραμικὴν γαῖαν στρέφων</l>
+              </lg>
+              <note type="source">ὡς Σαννυρίων ἐν Γέλωτι. Pollux 10, 185.</note>
+              <note type="apparatus">στρέφων 'propter figuli rotam'. Meinek. παρατραγῳδεῖ, ut docet forma γαῖαν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0501-gelos-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0501_gelos">
+              <note type="source">Schol. Platon. 331 Bekk. Ἀριστώνυμος δ’ ἐν Ἡλίῳ ῥιγοῦντι καὶ Σαννυρίων ἐν Γέλωτι τετράδι φασὶν αὐτὸν (Ἀριστοφάνη) γενέσθαι, διὸ τὸν βίον κατέτριψεν ἑτέροις πονῶν. οἱ γὰρ τετράδι γεννώμενοι πονοῦντες ἄλλοις καρποῦσθαι παρέχουσιν. cf. Aristonym. 4.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" xml:id="kock-0501-gelos-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0501_gelos">
+              <note type="source">καὶ ἐπὶ τοῦ μεμισθωμένου ἐπὶ τῷ τὰ ἐνοίκια ἐκλέγειν ἢ οἰκίας ἢ συνοικίας, ὡς δηλοῖ . . . καὶ Σαννυρίων Γέλωτι. Harpocrat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0501-gelos-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0501_gelos">
+              <note type="source">ὡς Σαννυρίων Γέλωτι. Pollux 9, 26. non adparet utrumque an alterum tantum ex Sannyrione excerpserit.</note>
+            </div>
+          </div></body></text></TEI>

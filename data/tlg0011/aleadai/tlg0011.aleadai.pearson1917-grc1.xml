@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-aleadai-pearson1917-grc1"><teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Sophocles, ΑΛΕΑΔΑΙ: fragments</title>
+<editor>A. C. PEARSON, M.A.</editor>
+<sponsor>University of Leipzig</sponsor>
+<funder>European Social Fund Saxony</funder>
+<principal>Gregory Crane</principal>
+<principal>Monica Berti</principal>
+<meeting/>
+<respStmt>
+ <persName xml:id="DDD">Digital Divide Data</persName>
+ <resp>Corrected and encoded the text</resp>
+</respStmt>
+<respStmt>
+ <persName>Greta Franzini</persName>
+ <resp>Project Manager (University of Leipzig)</resp>
+</respStmt>
+<respStmt>
+ <persName>Simona Stoyanova</persName>
+ <resp>Project Assistant (University of Leipzig)</resp>
+</respStmt>
+<respStmt>
+ <persName>Bruce Robertson</persName>
+ <resp>Technical Advisor</resp>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<authority>University of Leipzig</authority>
+<idno type="filename">TO BE ADDED BY LEIPZIG</idno>
+<availability>
+ <p>Available under a Creative Commons Attribution-ShareAlike 4.0 International
+ License</p>
+</availability>
+<date>2014</date>
+<publisher>University of Leipzig</publisher>
+<pubPlace>Germany</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<listBibl xml:lang="la">
+ <biblStruct>
+ <monogr>
+ <title>THE FRAGMENTS OF SOPHOCLES</title>
+ <editor>
+	<persName>
+	 <name xml:lang="la">A. C. PEARSON, M.A.</name>
+	</persName>
+ </editor>
+ <author ref="urn:tmp">A. C. PEARSON, M.A.</author>
+ <imprint>
+	<publisher>at the University Press</publisher>
+	<pubPlace>Cambridge</pubPlace>
+	<date>1917</date>
+ </imprint>
+ <biblScope unit="volume">vol. i</biblScope>
+ </monogr>
+ </biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<p>Text encoded in accordance with the latest EpiDoc standards (January 2014)</p>
+<refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="el">Greek</language>
+<language ident="la">Latin</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change/>
+<change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.aleadai; wording was not changed.</change></revisionDesc>
+</teiHeader>
+
+<text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.aleadai.pearson1917-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.aleadai.pearson1917-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai"><head>ΑΛΕΑΔΑΙ</head><div type="textpart" subtype="fragment" n="77" xml:id="fragment-aleadai-pearson1917_grc1-77" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>77</p>
+<quote type="fragtext"><lg>
+<l n="1">ἐνταῦθα μέντοι πάντα τἀνθρώπων νοσεῖ,</l>
+<l n="2">κακοῖς ὅταν θέλωσιν ἰᾶσθαι κακά.</l></lg></quote>
+<p>77 Stob. flor. 4. 37 (III p. 228, 17 Hense) Σοφοκλέους. ‘ἐνταῦθα...κακά.’ The extract is omitted in SMA, ed. Trinc. gives as above, and Ἀλεάδαις is added after Σοφοκλέους by two of Schow's MSS known as B, C. For these see Hense in Rh. Mus. XLI 59 f.</p>
+<p>1 <lemma>ἐνταῦθα</lemma> looks forward to the following clause: cf. Eur. fr. 497 καὶ γὰρ ἐντεῦθεν νοσεῖ | τὰ τῶν γυναικῶν· οἱ μὲν κτἑ.
+<pb n="49"/>
+Hec. 306 ἐν τῷδε γὰρ κάμνουσιν αἱ πολλαὶ πόλεις, | ὅταν τις κτέ. Hel. 581 ἐκεῖ νοσοῦμεν, ὅτι δάμαρτ' ἄλλην ἔχω. I. T. 1018 τῇδε γὰρ νοσεῖ | νόστος πρὸς οἴκους looks backward. For the use of ὅταν see A.J.P. XXXIII 428.</p>
+<p>2 <lemma>κακοῖς κτέ.</lemma> For the proverb κακὸν κακῷ ἰᾶσθαι cf. Aesch. fr. 349 μὴ κακοῖς ἰῶ κακά, Soph. fr. 589, Ai. 362 μὴ κακὸν κακῷ διδοὺς | ἄκος πλέον τὸ πῆμα τῆς ἄτης τίθει, where Jebb gives other illustrations. See also on fr. 854. Plut. de garrul. 4 p. 504 B ἔστι δὲ θεραπεύων τῆς νόσου βαρύτερος (sc. ὁ ἀδόλεσχος), where the doctor himself rather than his drugs is at fault. Similarly Eur. Bacch. 839 κακοῖς θηρᾶν κακά, Aelian nat. an. 3. 47 (of Oedipus) μὴ τῷ οἴκῳ καὶ τῷ γένει καταρώμενον εἶτα μέντοι κακῷ ἀνηκέστῳ ἰᾶσθαι κακὰ τὰ ἤδη παρελθόντα.</p>
+</div>
+<div type="textpart" subtype="fragment" n="78" xml:id="fragment-aleadai-pearson1917_grc1-78" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>78</p>
+<quote type="fragtext">
+<lg>
+<l n="1">τοῖς γὰρ δικαίοις ἀντέχειν οὐ ῥᾴδιον.</l>
+</lg>
+</quote>
+<p>78 Stob. flor. 9. 4 (III p. 346, 14 Hense) Σοφοκλέους (Εὐριπίδου Α) Ἀλεάδαι (ἁλαιάδαι Μ, ἀλωάδαι Α). 'τοῖς... ῥᾴδιον.'</p>
+<p>This is the converse of our proverb 'Might is Right.' Cf. O. C. 880 τοῖς τοι δικαίοις χὼ βραχὺς νικᾷ μέγαν. Eur. Suppl. 437 νικᾷ δ᾽ ὁ μείων τὸν μέγαν δίκαι' ἔχων. Eur. fr. 584 εἷς τοι δίκαιος μυρίων οὐκ ἐνδίκων | κρατεῖ, τὸ θεῖον τὴν δίκην τε συλλαβών. These are variations of the simple theme in Eur. fr. 343 θάρσει· τό τοι δίκαιον ἰσχύει μέγα. See also fr. 80.</p>
+</div>
+
+<div type="textpart" subtype="fragment" n="79" xml:id="fragment-aleadai-pearson1917_grc1-79" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>79</p>
+<quote type="fragtext">
+<lg>
+<l n="1">κακὸν τὸ κεύθειν κοὐ πρὸς ἀνδρὸς εὐγενοῦς.</l>
+</lg>
+</quote>
+<app>
+<lem>κοὐ</lem>
+<rdg>Gesner: καὶ S</rdg>
+</app>
+<p>79 Stob. flor. 12. 3 (III p. 444, 8 Hense) τοῦ αὐτοῦ (sc. Σοφοκλέους) Ἀλεάδς. ‘κακὸν... εὐγενοῦς.' The extract is contained in S only of Hense's MSS.</p>
+<p>κεύθειν, i.e. to hide one's true thought. Cf. Hom. I 312 ἐχθρὸς γάρ μοι κεῖνος ὁμῶς Ἀΐδαο πύλῃσιν, | ὅς χ᾽ ἕτερον μὲν κεύθῃ ἐνὶ φρεσὶν ἄλλο δὲ εἴπῃ. Pseudo-Phocylides 48 μήδ᾽ ἕτερον κεύθοις κραδίῃ νόον, ἄλλ᾽ ἀγορεύων. Sall. Cat. 10. For the absolute use of κεύθειν in the transitive sense cf. Trach. 988, Aesch. Cho. 101 μὴ κεύθετ᾽ ἔνδον καρδίας φόβῳ τινός, 'don't practise concealment.' Herwerden conj. κλέπτειν. With the addition, noblesse oblige, cf. Chaeremon fr. 27 (TGF p. 789) ψευδῆ δὲ τοῖς ἐσθλοῖσιν οὐ πρέπει λέγειν. — πρὸς : 'befitting' (proceeding from). For this idiom see my n. on Eur. Hel. 950 and Blaydes on Ai. 319. So fr. 319. For καὶ and κοὐ confused Campbell refers to Trach. 1046.</p>
+</div>
+
+<div type="textpart" subtype="fragment" n="80" xml:id="fragment-aleadai-pearson1917_grc1-80" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>80</p>
+<quote type="fragtext">
+<lg>
+<l n="1">καὶ γὰρ δικαία γλῶσσ᾽ ἔχει κράτος μέγα.</l>
+</lg>
+</quote>
+<p>80 Stob. flor. 13. 6 (III p. 457, 10 Hense) Σοφοκλέους ἐξ Ἀλεαδῶν (L has ἐξ Ἀλεάδων without the poet's name: Σοφοκλέους Ἀλεάδαι SMA) καὶ γὰρ...μέγα.</p>
+<p>For the sentiment see on fr. 78. It is referred to also in Phil. 1245 f. σὺ δ' οὔτε φωνεῖς οὔτε δρασείεις σοφά. | ἀλλ᾽ εἰ δίκαια, τῶν σοφῶν κρείσσω τάδε.</p>
+<pb n="50"/>
+</div>
+
+<div type="textpart" subtype="fragment" n="81" xml:id="fragment-aleadai-pearson1917_grc1-81" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>81</p>
+<quote type="fragtext">
+<lg>
+<l n="1">ὦ παῖ, σιώπα· πόλλ᾽ ἔχει σιγὴ καλά.</l>
+</lg>
+</quote>
+<app>
+<lem>σιγὴ</lem>
+<rdg>Μ et Plut. : σιωπή S</rdg>
+</app>
+<p>81 Stob. flor. 33. 3 (III p. 678, 10 Hense) Σοφοκλέους Ἀλεάδαις (αἰλέασι Μ, but S omits the name of the play, and A the whole extract). 'ὦ...καλά.' Plut. de garrul. 2 p. 502 Ε εἴπωμεν πρὸς τὸν ἀδόλεσχον ‘ὦ...καλά.' Arsenius p. 737, 9 (=Apostol. XVIII 62 a) assigns the line to Menander, but Dindorf and Hense point out that this is due to the fact that Menander is the author of the verse immediately preceding it in Stobaeus.</p>
+<p>The verse is not a general recommendation of silence; and the context would probably have shown that silence was enjoined in painful circumstances, where the truth must be avoided. Such at least was the ordinary man's morality: see Pind. Nem. 5. 16 οὔτοι ἅπασα κερδίων | φαίνοισα πρόσωπον ἀλάθει᾽ ἀτρεκής· | καὶ τὸ σιγᾶν πολλάκις ἐστὶ σοφώτατον ἀνθρώπῳ νοῆσαι, fr. 180 ἔσθ' ὅτε πιστοτάτα σιγᾶς ὁδός· κέντρον δὲ μάχας ὁ κρατιστεύων λόγος. Aesch. fr. 188 πολλοῖς γάρ ἐστι κέρδος ἡ σιγὴ βροτῶν. Αg. 553 πάλαι τὸ σιγᾶν φάρμακον βλάβης ἔχω should be compared with Carcin. fr. 7 πολλῶν γὰρ ἀνθρώποισι φάρμακον κακῶν | σιγή. —πολλά... καλά in place of the more usual πολλὰ καὶ καλά: see Jebb on Phil. 583.</p>
+</div>
+
+<div type="textpart" subtype="fragment" n="82" xml:id="fragment-aleadai-pearson1917_grc1-82" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>82</p>
+<quote type="fragtext">
+<lg>
+<l n="1">τί ταῦτα πολλῶν ῥημάτων ἔτ᾽ ἔστι σοι;</l>
+<l n="2">τὰ γὰρ περισσὰ πανταχοῦ λυπήρ᾽ ἔπη.</l>
+</lg>
+</quote>
+<p>82 Stob. flor. 36. 11 (III p. 692, 12 Hense) Σοφοκλέους Ἀλεάδαις. 'τί...ἔπη.”</p>
+<p>1 'Why should this still need many words from you?' Herwerden conjectured ῥημάτων ἐπαξιοῖς, but ἔτι is indispensable (better ἔτ' ἀξιοῖς, as Hense says) and the genitive (descriptive, = ‘requiring many words') is idiomatic: Plat. Gorg. 461 A ταῦτα οὖν ὅπῃ ποτὲ ἔχει, οὐκ ὀλίγης συνουσίας ἐστὶν ὥστε ἱκανῶς διασκέψασθαι. Η. quotes Pind. Nem. 10. 46 μακροτέρας γὰρ ἀριθμῆσαι σχολᾶς. Herodian Philet. (Pierson's Moeris, p. 475) ὀλίγης ἐστι διδασκαλίας, ἀντὶ τοὐ, ὀλίγων δεῖται πρὸς μάθησιν. Euenus fr. 1, 5 τοὺς ξυνετοὺς... οἵπερ καὶ ῥᾴστης εἰσὶ διδασκαλίης.</p>
+<p>2 περισσὰ is used as in Aesch. Theb. 1034 περισσὰ κηρύσσειν. Cf. Eur. Suppl. 459 περισσὰ φωνῶν, Med. 819 περισσοὶ πάντες οὑν μέσῳ λόγοι. But in Ο. Τ. 841 περισσὸν λόγον means ’remarkable, of special note.'</p></div>
+<div type="textpart" subtype="fragment" n="83" xml:id="fragment-aleadai-pearson1917_grc1-83" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>83</p>
+<quote type="fragtext">
+<lg>
+<l n="1">μὴ πάντ᾿ ἐρεύνα· πολλὰ καὶ λαθεῖν καλόν.</l></lg>
+</quote>
+<p>83 λαθεῖν καλόν Blomfield: λαλεῖν κακόν codd.</p>
+<p>83 Stob. flor. 41. 4 (III p. 758, 5
+Hense) Σοφοκλέους Ἀλεάδαις.
+‘μὴ...καλόν.’</p>
+<p>The verse is a pendant of fr. 81: ‘Silence
+is good, where there is a skeleton in the
+house.’ On the other hand, good fortune
+should be proclaimed to all. Cf. Pind.
+Pyth. 3. 83 τὰ καλὰ τρέψαντες ἔξω. fr. 42
+καλῶν μὲν ὧν μοῖραν τε τερπνῶν ἐς μέσον
+χρὴ παντὶ λαῷ | δείκνυναι· εἰ δέ τις ἀνθρώποισι |
+θεόσδοτος ἀτλάτα κακότας | προστύχῃ,
+ταύταν σκότει κρύπτειν ἔοικεν, Eur.
+fr. 460. See on fr. 64, where the phrase
+σιγὴ κόσμος is discussed: it is worth notice
+that, in the passages there mentioned,
+Bacchylides takes the conventional view,
+whereas Euripides advocated the dignity
+of silence. Blomfield's correction is
+strongly supported by Eur. Hipp. 465 ἐν
+σοφοῖσι γὰρ | τάδ᾿ ἐστὶ θνητῶν, λανθάνειν
+τὰ μὴ καλά. Blaydes thought τοι preferable
+to καὶ; but see on fr. 23.</p>
+
+<pb n="51"/>
+</div>
+
+<div type="textpart" subtype="fragment" n="84" xml:id="fragment-aleadai-pearson1917_grc1-84" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>84</p>
+<quote type="fragtext">
+<lg>
+<l n="1">κοὐκ οἶδ᾿ ὅτι χρὴ πρὸς ταῦτα λέγειν,</l>
+<l n="2">ὅταν οἵ γ᾿ ἀγαθοὶ πρὸς τῶν ἀγενῶν</l>
+<l n="3">κατανικῶνται.</l>
+<l n="4">ποία πόλις ἂν τάδ᾿ ἐνέγκοι;</l></lg>
+</quote>
+<p>84. 2 γ΄ Valckenaer: τ΄ codd. | ἀγενῶν Grotius: ἀγεννῶν codd.</p>
+<p>84 Stob. flor. 43. 6 (IV p. 2, 12 Hense)
+Σοφοκλέους (τοῦ αὐτοῦ S) Ἀλεάδαι. ‘κοὐκ...
+ἐνέγκοι;’ Also in corp. Par. 716 Elter,
+with χρὴ omitted in v. 1.</p>
+<p>The non-committal punctuation adopted
+by Dindorf and Nauck, who, keeping τ΄
+in v. 2, print commas after λέγειν and
+κατανικῶνται, leaves the connexion of the
+clauses obscure. But τ΄ does not seem to
+be in place as a connective, whether or
+not a heavier stop is placed after λέγειν.
+I have followed Valckenaer in giving γ΄
+for τ΄, and in joining the ὅταν clause with
+the words which precede it. The subordinate
+clause then conveys a causal implication,
+as in Phil. 451 ποῦ χρὴ τίθεσθαι
+ταῦτα, ποῦ δ᾿ αἰνεῖν, ὅταν | τὰ θεῖ᾿ ἐπαινῶν
+τοὺς θεοὺς εὕρω κακούς; For ὅταν so used
+see my paper in A.J.P. XXXIII 426 ff.</p>
+<p>The appearance of γε, as after ὁπότε,
+ὅπου, ἐπειδή, εὖτε and the like, is idiomatic:
+see Neil's Equites p. 190, Kuehner-
+Gerth § 509, 9 (c), and cf. Ai. 715, Phil.
+1099. H. points out that a similar question
+arises in Phil. 456, where γ΄ is given
+as a variant for θ΄ in L and is the reading
+of several other MSS. But, independently
+of authority, the case for θ΄ is strong
+there. Robert, retaining τ΄, assumes a
+lacuna after κατανικῶνται. Hense suggests
+οἱ λαμπροὶ or the like.</p>
+<p>2 f. For the political conditions assumed,
+the overthrow of the nobles by
+the masses, see on fr. 192. ἀγενῶν shows
+that in ἀγαθοὶ the political meaning is
+foremost.— κατανικῶνται: the compound
+does not seem to occur elsewhere (τάδε
+—or πολὺ—νικῶνται conj. Blaydes, μέγα
+νικῶνται Herwerden). —πρὸς: fr. 932.</p>
+<p>4 τάδε, ‘things like these,’ of what has
+been mentioned: cf. Thuc. 2. 71 τάδε μὲν
+ἡμῖν πατέρες οἱ ὑμέτεροι ἔδοσαν.</p>
+</div>
+
+<div type="textpart" subtype="fragment" n="85" xml:id="fragment-aleadai-pearson1917_grc1-85" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>85</p>
+<quote type="fragtext">
+<lg>
+<l n="1">δοκῶ μέν, οὐδείς· ἀλλ᾿ ὅρα μὴ κρεῖσσον ᾖ</l>
+<l n="2">καὶ δυσσεβοῦντα τῶν ἐναντίων κρατεῖν</l>
+<l n="3">ἢ δοῦλον αὐτὸν ὄντα τῶν πέλας κλύειν.</l></lg>
+</quote>
+<p>85 Stob. flor. 54. 21 (IV p. 351, 5
+Hense) Σοφοκλέους Ἀλεαδῶν (ἀλεάδων M,
+ἀλεαιάδων primitus A). ‘δοκῶ...κλύειν.’</p>
+<p>1 ‘The preceding sentence must have
+been "Who would willingly be irreligious?"
+τίς ἂν ἑκὼν ἕλοιτο δυσσεβὴς εἶναι;’ (Η.)
+F. W. Schmidt needlessly wished to alter
+οὐδείς to ἄθεος or ἀσεβής.—δοκῶ μέν: an
+instance of μέν solitarium; for it must not
+be supposed that μέν is answered by ἀλλ᾿
+ὅρα. Eur. Hec. 218 f., Soph. O.T. 1051
+should be distinguished: in the one case
+ἀλλά and in the other ἀτάρ introduces the
+explicit contrast. For μέν accompanying
+and emphasizing δοκῶ and other verbs cf.
+Eur. Hel. 917 (n.), 1205, Soph. O.C.
+995, El. 61, Phil. 339. Many examples
+in other authors are collected by Blaydes
+on Ar. Pac. 47. For μέν solitarium in
+comedy see Starkie on Vesp. 77; and for
+the orators Wyse on Isae. 1 1.</p>
+<p>ὅρα μὴ...ᾖ. For the subjunctive see
+Jebb on Phil. 30. Its use here in preference
+to the indicative shows that the
+speaker is rather looking forward to the
+circumstances of the particular case than
+weighing the general application of the
+maxim.</p>
+<p>2 f. Several critics have missed an
+antithesis to δυσσεβοῦντα which they
+expect to find in v. 3. Thus for ἢ δοῦλον
+αὐτὸν ὄντα Cobet substituted ἢ τοὺς θεοὺς
+σέβοντα, F. W. Schmidt ἢ δαίμονας τιμῶντα,
+Vitelli ἢ δοῦλον αὖ θεῶν ὄντα and</p>
+
+<pb n="52"/>
+<p>Weil ἢ δοῦλον ἁγνὸν ὄντα; Papageorgius
+changed δοῦλον to χρηστὸν, and Nauck
+conjectured δειλὸν for δοῦλον. But the
+presence of καὶ and αὐτὸν shows that these
+corrections are misconceived: the thought
+is, ‘It is better to conquer one's foes
+even by foul means than to be so reduced
+as to be the slave of others.’ To a freeborn
+Greek slavery is the worst of all
+evils; hence the arrogant note in αὐτόν,
+which contrasts as in Phil. 316. For the
+φύσει δοῦλοι the case is different. It is
+not so much slavery that is contrasted
+with sovereignty, as degradation with
+power once enjoyed. In Eur. Phoen.
+524 f. εἴπερ γὰρ ἀδικεῖν χρή, τυραννίδος
+πέρι | κάλλιστον ἀδικεῖν· τἄλλα δ᾿ εὐσεβεῖν
+χρεών, sovereignty is taken as the supreme
+limit of happiness, the attainment of which
+justifies ἀδικία, much as here stress is laid
+on slavery as the extremity of misfortune.
+In Aesch. Ag. 478 the Chorus pray for
+the middle state: μήτ᾿ εἴην πτολιπόρθης, |
+μήτ᾿ οὖν αὐτὸς ἁλοὺς ὑπ᾿ ἄλλῳ βίον κατίδοιμι.
+Η. compared Trag. fr. adesp. 181
+ἔα με κερδαίνοντα κεκλῆσθαι κακόν· | κρεῖσσον
+γὰρ ἢ σέβοντα τοὺς θεῶν νόμους | πένητα
+ναίειν δόξαν ἠμποληκότα, and with v.
+3 Eur. Hel. 730 κρεῖσσον γὰρ τόδ᾿ (i.e. to
+be a loyal slave with a mind free) ἢ δυοῖν
+κακοῖν | ἕν᾿ ὄντα χρῆσθαι, τὰς φρένας τ᾿
+ἔχειν κακάς, | ἄλλων τ᾿ ἀκούειν δοῦλον
+ὄντα τῶν πέλας. Add Ant. 479 ὅστις
+δοῦλός ἐστι τῶν πέλας. Gomperz, who at
+one time was inclined to follow Cobet in
+suspecting the text, subsequently defended
+it on similar lines to the view taken
+above (Nachlese, p. 5).</p>
+</div>
+
+<div type="textpart" subtype="fragment" n="86" xml:id="fragment-aleadai-pearson1917_grc1-86" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>86</p>
+<quote type="fragtext">
+<lg>
+<l n="1">παῦσαι. καταρκεῖ τοῦδε κεκλῆσθαι πατρός,</l>
+<l n="2">εἴπερ πέφυκά γ᾿· εἰ δὲ μή, μείων βλαβή.</l>
+<l n="3">τό τοι νομισθὲν τῆς ἀληθείας κρατεῖ.</l>
+</lg>
+</quote>
+<p>86. 2 μείων Gesner: μείζων SA, μεῖζον Μ 3 τοι] τι Α primitus</p>
+<p>86 Stob. flor. 76. 9 (IV p. 610, 2
+Hense) Σοφοκλῆς Ἀλεάδαις (ἀλεάδες Α).
+‘παῦσαι...κρατεῖ.’</p>
+<p>We may perhaps assume that these
+words were spoken by Telephus in reference
+to the supposed parentage of Heracles
+(or Corythus).</p>
+<p>1 κεκλῆσθαι πατρός: cf. fr. 564 (n.).
+For the gen. cf. Trach. 1105 ὁ τῆς ἀρίστης
+μητρὸς ὠνομασμένος.</p>
+<p>2 εἴπερ πέφυκά γ᾿. For the meaning
+of εἴπερ )( εἴ γε see the exhaustive discussion
+by E. S. Thompson in his edition of
+the Meno, p. 258 ff. Here εἴπερ bears its
+common meaning of si modo (fr. 104 n.),
+but the addition of γ᾿ changes the tone.
+It is impossible to reproduce the nuances
+of Greek particles in English; but the
+speech-stress, which we indicate by the
+use of italics in printing, may serve roughly
+to convey the difference between εἴπερ
+πέφυκα, ‘If I am his son,’ and εἴπερ πέφυκά
+γ᾿, ‘If I am his son.’ Cf. Plat.
+Euthyphr. 8 C τοῦτο γάρ, οἶμαι, οὐ τολμῶσι
+λέγειν...ὡς οὐχί, εἴπερ ἀδικοῦσί γε, δοτέον
+δίκην. For εἴπερ γε in dialogue see on
+Eur. Phoen. 725, 1652.—μείων βλαβή:
+i.e., to be called the son of such a father
+rather than to learn the truth.</p>
+<p>3 τό τοι νομισθὲν κτέ. Cf. the wellknown
+conclusion of Gray’s ode On a
+distant prospect of Eton College, ‘Thought
+would destroy their Paradise. | No more;
+where ignorance is bliss, | 'tis folly to be
+wise.’ So Eur. fr. 205 φρονῶ δ᾿ ὃ πάσχω·
+καὶ τόδ᾿ οὐ σμικρὸν κακόν· | τὸ μὴ εἰδέναι γὰρ
+ἡδονὴν ἔχει τινὰ | νοσοῦντα· κέρδος δ᾿ ἐν
+κακοῖς ἀγνωσία. Apollod. Caryst. fr. 10
+(III 284 K.) οἱ γὰρ ἀτυχοῦντες τὸν χρόνον
+κερδαίνομεν | ὁπόσον ἂν ἀγνοῶμεν ἠτυχηκότες.
+This comes from the Hecyra,
+which was translated by Terence, and the
+corresponding lines in his version are
+286 f. nam nos omnes, quibus est alicunde
+aliquis obiectus labos, | omne quod est
+interea tempus prius quam id rescitum est
+lucro est. See also on fr. 583. 5. Ai. 554
+τὸ μὴ φρονεῖν γὰρ κάρτ᾿ ἀνώδυνον κακόν.
+Eur. Bacch. 1259 ff. Or. 236 κρεῖσσον δὲ
+τὸ δοκεῖν, κἂν ἀληθείας ἀπῇ.</p>
+
+<pb n="53"/>
+</div>
+
+<div type="textpart" subtype="fragment" n="87" xml:id="fragment-aleadai-pearson1917_grc1-87" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>87</p>
+<quote type="fragtext">
+<lg>
+<l n="1">A. ὅδ᾿, εἰ νόθος τις, γνησίοις ἴσον σθένει.</l>
+<l n="2">B. ἅπαν τὸ χρηστὸν γνησίαν ἔχει φύσιν.</l></lg>
+</quote>
+<p>87. 1 ὅδ᾿, εἰ scripsi: ὁ δ᾿ εἰ codd., ὁ δὴ vulgo | τοῖς γνησίοις SM, τις τοῖς γνησίοις
+Α: corr. Nauck | σθένοι A 2 γνησίαν Stob.: τὴν ἴσην Clem.</p>
+<p>87 Stob. flor. 77. 9 (IV p. 614, 11
+Hense) Σοφοκλῆς Ἀλεάδαις (-δες A, om. S).
+‘ὁ δ᾿ ...φύσιν.’ The second v. is quoted
+by Clem. Alex. strom. 6 p. 741 Σοφοκλέους
+δὲ ἐξ Ἀλευάδων ‘ἅπαν τὸ χρηστὸν
+τὴν ἴσην ἔχει φύσιν.’</p>
+<p>The spirit of the second line (‘'Tis only
+noble to be good’) is after the manner of
+Euripides: El. 384 τῇ δ᾿ ὁμιλίᾳ βροτοὺς |
+κρινεῖτε καὶ τοῖς ἤθεσιν τοὺς εὐγενεῖς.
+fr. 336 ὁ μὲν γὰρ ἐσθλὸς εὐγενὴς ἔμοιγ᾿
+ἀνήρ. fr. 53 οὐκ ἔστιν ἐν κακοῖσιν εὐγένεια,
+| παρ᾿ ἀγαθοῖσι δ᾿ ἀνδρῶν. Similarly
+with special reference to the stigma
+of bastardy: Andr. 638 νόθοι τε πολλοὶ
+γνησίων ἀμείνονες. fr. 141 τῶν γνησίων
+γὰρ οὐδὲν ὄντες ἐνδεεῖς (sc. νόθοι) | νόμῳ
+νοσοῦσιν. fr. 168 ὀνόματι μεμπτὸν τὸ
+νόθον, ἡ φύσις δ᾿ ἴση. fr. 377 μάτην δὲ
+θνητοὶ τοὺς νόθους φεύγουσ᾿ ἄρα | παῖδας
+φυτεύειν· ὃς γὰρ ἂν χρηστὸς φύῃ, | οὐ τοὔνομ᾿
+αὐτοῦ τὴν φύσιν διαφθερεῖ.</p>
+<p>1 f. Nauck was the first to recognize
+that the verses should be divided between
+two speakers, but his suggestion that the
+first line should be read as a question (οὐ
+δὴ νόθος τις...σθένει; ‘surely a mere bastard
+is not the equal of the well-born?’
+with οὐ δὴ interrogative as in Trach. 668,
+Phil. 900) throws an unusual emphasis
+on the indefinite pronoun. I have reverted
+to the reading of the MSS, writing
+ὅδ᾿ for ὁ δ᾿ (see cr. n.): ‘he, as no other
+bastard....’ Cf. Trach. 8 ὄκνον |
+ἔσχον, εἴ τις Αἰτωλὶς γυνή, O. C. 1664
+εἴ τις βροτῶν | θαυμαστός (sc. ἐξεπέμπετο),
+and the well-known attracted examples
+Ai. 488, O. C. 734. See also
+Kuehner-Gerth II 573, Headlam on
+Aesch. Ag. 119. Campbell, who gives
+the lines to a single speaker, renders:
+‘But he, though in one way base-born,
+copes with the legitimate.’ But the
+translation as italicized is hard to justify.
+R. Ellis, on the same assumption and
+with a comma at σθένοι, proposed οὐδ᾿
+εἰ for ὁ δ᾿ εἰ. But no satisfactory meaning
+could be elicited from this, unless χρηστόν
+bore the sense of δυσγενές. Blaydes conjectured
+(inter alia) ἢν δ᾿ ᾖ νόθος τις.</p>
+</div>
+<div type="textpart" subtype="fragment" n="88" xml:id="fragment-aleadai-pearson1917_grc1-88" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>first line should be read as a question (οὐ δὴ νόθος τις...σθένει; 'surely a mere bastard is not the equal of the well-born?' with οὐ δὴ interrogative as in <bibl>Trach. 668</bibl>, <bibl>Phil. 900</bibl>) throws an unusual emphasis on the indefinite pronoun. I have reverted to the reading of the MSS with ὅδ' for ὁ δ' (see cr. n.): 'he, as no other bastard....' Cf. <bibl>Trach. 8</bibl> ὄκνον | ἄλγιστον ἔσχον, εἴ τις Αἰτωλὶς γυνή, <bibl>Ο. C. 1664</bibl> ἀλλ᾽ εἴ τις βροτῶν | θαυμαστὸς (sc. ἐξεπέμπετο), and the well-known attracted examples <bibl>Ai. 488</bibl>, <bibl>Ο. С. 734</bibl>. See also Kuehner-Gerth II 573, Headlam <bibl>Aesch. Ag. 119</bibl>. Campbell, who gives the lines to a single speaker, renders: 'But he, though in one way base, yet copes with the legitimate.' But the translation as italicized is hard to justify. R. Ellis, on the same assumption and with a comma at σθένοι, proposed οὐδ' εἰ for ὁ δ᾽ εἰ. But no satisfactory meaning could be elicited from this, unless χρηστόν bore the sense of δυσγενές. Blaydes conjectured (inter alia) ἣν δ' ᾖ νόθος τις.</p>
+<p>88</p>
+<quote type="fragtext">
+<lg>
+<l n="1">τὰ χρήματ᾿ ἀνθρώποισιν εὑρίσκει φίλους,</l>
+<l n="2">αὖθις δὲ τιμάς, εἶτα τῆς ὑπερτάτης</l>
+<pb n="54"/>
+<l n="3">τυραννίδος θακοῦσιν ἀγχίστην ἕδραν.</l>
+<l n="4">ἔπειτα δ᾽ οὐδεὶς ἐχθρὸς οὔτε φύεται</l>
+<l n="5">πρὸς χρήμαθ᾽ οἵ τε φύντες ἀρνοῦνται στυγεῖν.</l>
+<l n="6">δεινὸς γὰρ ἕρπειν πλοῦτος ἔς τε τἄβατα</l>
+<l n="7">καὶ πρὸς βέβηλα, χὡπόθεν πένης ἀνὴρ</l>
+<pb n="55"/>
+<l n="8">οὐδ᾽ ἐντυχὼν δύναιτ᾽ ἂν ὧν ἐρᾷ τυχεῖν.</l>
+<l n="9">καὶ γὰρ δυσειδὲς σῶμα καὶ δυσώνυμον</l>
+<l n="10">γλώσσῃ σοφὸν τίθησιν εὔμορφόν τ᾿ ἰδεῖν.</l>
+<l n="11">μόνῳ δὲ χαίρειν κἀν νόσων ξυνουσίᾳ</l>
+<l n="12">πάρεστιν αὐτῷ κἀπικρύπτεσθαι κακά.</l>
+</lg>
+</quote>
+<p>88. 2 <app><lem>αὖθις</lem><rdg>Nauck coni. εὐθύς</rdg></app></p>
+<p>88 The whole passage is quoted by <bibl>Stob. flor. 91. 27 (IV p. 740, 17 Hense)</bibl> from Σοφοκλέους Ἀλεάδαι. Vv. 6-10 appear in <bibl>Plut. de aud. poet. 4 p. 21 B</bibl> as from Sophocles. V. I was a well-known tag: see <bibl>Menander monost. 500</bibl>, and <bibl>Stob. flor. 94. 8 (IV p. 770, 10 Hense)</bibl>, where it is attributed to Sophocles without the name of the play. <bibl>Plut. de am. prol. 5 p. 497 B</bibl> attributes it to Euripides, but, as he follows with δύναμίν τε πλείστην τῶν ἐν ἀνθρώποις ἔχειν (<bibl>Phoen. 440</bibl>), it is clear that he intended to quote <bibl>Phoen. 439</bibl>. Nauck refers to <bibl>Plaut. Stich. 522</bibl> res amicos invenit. It is thought that this passage is referred to by <bibl>Dio Chrys. 7. 102</bibl> in the words τοῖς ὑπὸ Σοφοκλέους εἰς τὸν πλοῦτον εἰρημένοις.</p>
+<p>1 <lemma>εὑρίσκει</lemma>. O. Hense suggested that this was a gloss, which had taken the place of an original ἀλφάνει, comparing <bibl>Hesych. I p. 134</bibl> etc. But there is no reason for disturbing the text: cf. <bibl>El. 1061</bibl>.</p>
+<p>3 <app><lem>θακοῦσιν</lem><rdg>Salmasius : τ' ἄγουσιν Α, ἄκουσιν SM</rdg></app> | <app><lem>ἀγχίστην</lem><rdg>SM: αἰσχίστην Α, ἡδίστην Β, ἐσχάτην M. Schmidt</rdg></app>
+4 sq. del. Hense
+6 <app><lem>δεινὸς</lem><rdg>Plut.: ξένος SM, γένος Α</rdg></app> | <app><lem>ἔς τε</lem><rdg>Gesner: ἔσται Stobaei codd., πρός τε Plut.</rdg></app> | <app><lem>τἄβατα</lem><rdg>(τ᾿ ἄβατα codd. Plut.)] τὰ βατὰ Stobaei codd.</rdg></app>
+7 <app><lem>βέβηλα</lem><rdg>Vater: τὰ βατά Stob. Plut.</rdg></app></p>
+<p>3 See cr. n. Other conjectures which have less probability are ταγοῦσιν Bothe, θάκησιν Fr. Vater and Meineke, θάκοισιν Ellendt, θεοῖσιν Weil and Wecklein. The reading of B looks like a bad conjecture, but is adopted by Dindorf (and Blaydes, who compares <bibl>O. T. 541</bibl>). For the confusion of αἴσχιστος and ἔσχατος see Cobet, Var. Lect. p. 144, where he corrects <bibl>Lucian Pisc. 27</bibl>. In support of ἐσχάτην J. refers to <bibl>fr. 907</bibl> ἤδη γὰρ ἕδρᾳ Ζεὺς ἐν ἐσχάτῃ θεῶν (n.). Cobet, Coll. Crit. p. 188, perhaps rightly, prefers ἀγχίστην, thinking that rich men whose influence is greatest with monarchs are said τῆς ὑπερτάτης τυραννίδος θακεῖν ἀγχίστην ἕδραν. Mekler conj. μακαριστὴν and Wecklein ἀρχικήν. Gaisford approved ἐχθίστην, another word sometimes confused with αἰσχίστην.</p>
+<p>4 f. are considered by O. Hense to be an intrusion, and Nauck agrees. <lemma>ἔπειτα δ'</lemma>, in the next place, distinguishes from the general advantages bestowed by wealth the particular fact that no one seeks to oppose its influence. 'Not only does no one become the foe of the rich man, but even his former enemies dissemble their hatred.' Meineke's οἵ τ' ἔχοντες is wide of the mark.—<lemma>φύεται</lemma>, denoting it is no one's nature to be' (cf. <bibl>Tr. fr. adesp. 543</bibl> οὐκ ἐν γυναιξὶ φύεται πιστὴ χάρις), corresponds to φύντες—those in whom the condition is realized. For the strong aor. in this sense (which L. and S. wrongly say is rare) see <bibl>Ant. 721</bibl> φῦναι τὸν ἄνδρα πάντ' ἐπιστήμης πλέων ('prove to be'), <bibl>O. C. 1444</bibl> ταῦτα δ᾽ ἐν τῷ δαίμονι | καὶ τῇδε φῦναι χἁτέρᾳ ('to be realized'), and many other instances in Sophocles. For τε co-ordinated with οὔτε see Jebb on <bibl>O. C. 1397 f.</bibl>, and <bibl>Eur. Hel. 156</bibl>, <bibl>Hclid. 454</bibl>, <bibl>Phoen. 891</bibl>.</p>
+<p>7 f. See cr. n. Other conjectures are γε τὰ βατά Blomfield (τὰ βατά γε Blaydes), τὰ βάσιμα Nauck, καὶ τἀπρόσικτα Campbell, τὰ βαιά Schwartz, τὰ λευρά Hense. For the word βέβηλος see on <bibl>fr. 570</bibl>. There can be no reasonable doubt that τὰ βατά was a gloss on βέβηλα: see schol. on <bibl>O. C. 1ο</bibl> βεβήλοις] βατοῖς, <bibl>Suid. s.v. βέβηλος</bibl> τόπος: ὁ βατὸς πᾶσι καὶ ἀκάθαρτος. <bibl>Etym. M. s.υ. βέβηλος</bibl>: ὁ μὴ ἱερὸς τόπος ἀκάθαρτος καὶ βατός. <bibl>Bekk. anecd. p. 323, 13</bibl> ἀβέβηλα τὰ ἄβατα χωρία. <bibl>Schol. Aesch. Suppl. 518</bibl> βέβηλον ἄλσος] τὸ πᾶσι βατὸν καὶ μὴ ἱερόν. We might equally well have found τὰ βάσιμα, another scholiastic word, which Nauck actually wished to put in the text. Madvig (Adv. Crit. p. 614) depraved it still further by proposing χώποι θέλει· πένης δ᾽ ἀνήρ. It will be observed that the addition of βέβηλα is redundant to the sense, and serves merely to round off the expression. The Greek love of antithesis was sometimes indulged at the expense of logic: <bibl>Εl. 305</bibl> τὰς οὔσας τέ μοι | καὶ τὰς ἀπούσας ἐλπίδας διέφθορεν, <bibl>Ant. 1109</bibl> ἴτ' ἴτ᾽ ὀπάονες, | οἵ τ᾽ ὄντες οἵ τ᾽ ἀπόντες. See also my note on <bibl>Eur. Hclid. 182</bibl> (with which passage <bibl>Andoc. 4. 7</bibl> should be compared), and add <bibl>Alcman fr. 23, 44</bibl> ἐμὲ δ᾽ οὔτ᾽ ἐπαινῆν | οὔτε μωμήσθαι νιν ἁ κλεννὰ χοραγὸς | οὐδ᾽ ἁμὼς ἐῇ. J. quotes <bibl>Tr. fr. adesp. 436</bibl> δοῦλε, δεσποτῶν ἄκουε καὶ δίκαια κάδικα, and <bibl>437</bibl>. The subject is treated exhaustively by E. Kemmer, die polare Ausdrucksweise, 1903.</p>
+<p><lemma>χώπόθεν κτέ.</lemma> The general sense is: 'And to such places where the poor man could not even obtain access so as to realize his desires.' The rich man alone has the entrée to influential quarters. We may illustrate by <bibl>O. T. 597 f.</bibl>, where Creon parades the value of his influence with Oedipus: νῦν οἱ σέθεν χρήζοντες ἐκκαλοῦσί με· | τὸ γὰρ τυχεῖν αὐτοῖσι πᾶν ἐνταῦθ᾽ ἔνι. Either οὐδ᾽ or μηδ' would serve, and J. preferred the generic μηδ', quoting <bibl>Trach. 800</bibl> ἐνταῦθ᾽ ὅπου με μή τις ὄψεται βροτῶν; but it seems more likely that οὐδέ would be supplanted by μηδέ than vice versa: see Cobet, Var. Lect. pp. 47, 315.—<lemma>ἐντυχών</lemma> is used in the special sense of interviewing, obtaining an audience: cf. <bibl>Dem. 19. 175</bibl> αὐτὸς δὲ ἰδίᾳ πάντα τὸν χρόνον ἐντυγχάνων οὐδ᾽ ὁτιοῦν ἐπαύσατο Φιλίππῳ. This sense became very common in later Greek: hence ἔντευξις, ἐντευκτικός, δυσέντευκτος, and even ἐντευξίδιον (a petition). The careless repetition of τυχεῖν after ἐντυχὼν is excused by the meaning of the latter: <bibl>Eur. Hel. 674</bibl> (n.). Meineke's οὐδ' εὐστοχῶν is unnecessary. The negative qualifies both the participle and the main verb, as in <bibl>Aesch. Αg. 302</bibl> δ δ' οὔτι μέλλων οὐδ᾽ ἀφρασμόνως ὕπνῳ | νικώμενος παρῆκεν ἀγγέλου μέρος: see n. on <bibl>Eur. Hclid. 813</bibl>.—The explanation recommended above is confirmed by the emphasis which falls more strongly upon οὐδ᾽ ἐντυχὼν than upon τυχεῖν. J., however, joins τυχεῖν τo δεινὸς, interpreting: 'And knows how to obtain the objects of its desire in quarters from which the poor man could not obtain those objects, even if they came in his way.' In other words, 'Wealth wins its way to places which are wholly inaccessible to poverty. But even in quarters to which poverty may chance to have access, wealth succeeds where the other fails.' Tucker proposed μηδ' ἔν γ' ὕπνῳ quoting Solon ap. <bibl>Arist. Ath. pol. 12 (p. 48 S.)</bibl>, but the change is unnecessary. So also is Wecklein's assumption that after δύναιτ' ἄν something like εὑρίσκειν πόρον, | ἐκεῖνος αἰὲν οἶδεν is needed. Headlam (C. R. XV 99 n.) favoured εὐτυχῶν, and so Blaydes (see cr. n.).—For ὧν ἐρᾷ τυχεῖν see on <bibl>fr. 356</bibl>.</p>
+<p>8 <app><lem>οὐδ᾽ ἐντυχὼν</lem><rdg>Plut.: μηδ᾽ εὐτυχὼν (—ῶν A) Stobaei codd.</rdg></app>
+9 <app><lem>δυσειδὲς</lem><rdg>καὶ σῶμα καὶ Α</rdg></app> | <app><lem>δυσώνυμον</lem><rdg>: v. comm.</rdg></app>
+11 <app><lem>κἀν νόσων ξυνουσίᾳ</lem><rdg>Meineke: καὶ νοσεῖν ἐξουσία codd.</rdg></app>
+12 <app><lem>κἀπικρύπτεσθαι</lem><rdg>Blaydes: κἀπικρύψασθαι SM, κἀπικρύψεσθαι Α, κἀποκρύπτεσθαι Nauck</rdg></app></p>
+<p>9 f. <lemma>καὶ γὰρ δυσειδές κτέ.</lemma> Observe that καὶ ('even ') qualifies the following adjectives, although in such cases it is more usual for γάρ to be postponed (καὶ δυσειδὲς γάρ). Cf. <bibl>Trach. 92</bibl> καὶ γὰρ ὑστέρῳ τὸ γ᾽ εὐ | πράσσειν...κέρδος ἐμπολᾷ, with Jebb's note. See also Kuehner-Gerth 11 338.—<lemma>δυσώνυμον</lemma> in this context has given rise to much suspicion : thus Meineke boldly substituted γῆρας νέον for γλώσσῃ σοφόν, coll. <bibl>Eur. fr. 575</bibl>; Wecklein changed γλώσσῃ to γνώμην, with δυσειδή for δυσειδές; Blaydes read κἄνδρα δύστομον for καὶ δυσώνυμον ; J. proposed καὶ δύσθρουν στόμα, comparing <bibl>Pind. P. 4. 63</bibl> δυσθρόου φωνᾶς ('slow speech'-of Βάττος, the stammerer). But I am not convinced that δυσώνυμον is unintelligible, though it cannot mean, as Brunck suggested, prave loquentem. The description exactly fits the personality of Thersites, whom Sophocles may have had in mind: he too was 'hated for his tongue,' cf. <bibl>Hom. Β 222</bibl> τῷ δ' ἄρ᾽ Ἀχαιοί | ἐκπάγλως κοτέοντο νεμέσσηθέν τ᾽ ἐνὶ θυμῷ. On this view, γλώσσῃ should be connected with δυσώνυμον, which is an epic word and is employed in the epic sense: <bibl>T 571</bibl> ἥδε δὴ ἠὼς εἶσι δυσώνυμος ἤ μ' Ὀδυσῆος | οἴκου ἀποσχήσει—'that accursed day is at hand....' Note the chiasmus, by which εὔμορφον relates to δυσειδές, and σοφόν to δυσώνυμον.</p>
+<p>11 f. <lemma>κάν νόσων ξυνουσίᾳ.</lemma> See cr. n. There are several other conjectures (κού νοσεῖν Ellendt, ἀφαιρεῖν καὶ νόσων ξυνουσίας Ο. Hense, ἀμαυροῦν καὶ νόσων ξυνουσίαν Holzner, κἀνοσεῖν ἐξουσία Bergk, ἀνοσίων or κἀνόμων ἐξουσίᾳ F. W. Schmidt, ἐᾶν νόσους ἐξουσία Enger, καὶ νοσοῦντ' ἐξουσία Papabasileios), but none so satisfactory as Meineke's, which J. and H. accepted. H. points out that the Greeks did not say ἐξουσία πάρεστι but merely πάρεστι or ἔξεστι, or ἐξουσία (ἐστί): therefore ἐξουσία cannot stand. Moreover, the sense requires not χαίρειν καὶ νοσεῖν but χαίρειν καὶ νοσοῦντι, or, in a synonymous phrase, καὶ νόσῳ ξυνόντι : <bibl>Ο. Τ. 303</bibl> οἴᾳ νόσῳ σύνεστιν, <bibl>Αί. 338</bibl> τοῖς πάλαι νοσήμασι ξυνοῦσι, <bibl>Εur. fr. 1079</bibl> ταύτῃ τῇ νόσῳ ξυνών, <bibl>Phil. 520</bibl> ὅταν δὲ πλησθῇς τῆς νόσου ξυνουσίᾳ. Wealth can be happy in spite of sickness because it can afford <pb n="56"/> to pay physicians for a cure: <bibl>Eur. El. 427</bibl> σκοπῶ τὰ χρήμαθ᾽ ὡς ἔχει μέγα σθένος, | ξένοις τε δοῦναι σῶμά τ᾽ ἐς νόσους πεσὸν | δαπάναισι σῶσαι. So in a Comparison of Wealth and Virtue (<bibl>Stob. flor. 91. 33</bibl>) Wealth ἐσεμνύνετο χρείας ἀνθρώπων διορθοῦν,...πρέπειν μὲν εἰρήνῃ, πολέμοις δὲ παρέχειν, θεραπεύειν δ' ἐκ νόσων...νόσοι δ' ἐν ἀνθρώποις εἰσίν, ἐφ᾽ ἃ πάντα δεῖ χρημάτων. —Wecklein's change of χαίρειν to χλίειν is unnecessary.</p>
+<p>For the general sense H. quoted <bibl>Menand. fr. 90 (111 28 Κ.)</bibl> πλοῦτος δὲ πολλῶν ἐπικάλυμμ᾽ ἐστιν κακῶν, and <bibl>fr. 485 (III 140 Κ.)</bibl> τοῦτο μόνον ἐπισκοτεῖ | καὶ δυσγενείᾳ καὶ τρόπου πονηρίᾳ, | καὶ πᾶσιν οἷς ἔσχηκεν ἄνθρωπος κακοῖς, | τὸ πολλὰ κεκτῆσθαι· τὰ δ' ἄλλ᾽ ἐλέγχεται.</p>
+<p>He also urged, as against Nauck's reading, that ἐπικρύπτεσθαι rather than ἀποκρύπτεσθαι is the vox propria in the sense of to cloak: but the inference is by no means certain. Cf. <bibl>Eur. fr. 416</bibl> (<bibl>Stob. Aor. 4. 9</bibl>) τῷ θρασεῖ τὰς συμφορὰς | ζητοῦσ᾽ ἀμαυροῦν κἀπικρύπτεσθαι (Trinc., κἀποκ. ΜΑ, Nauck) κακά. <bibl>fr. 553</bibl> ἐκμαρτυρεῖν γὰρ ἄνδρα τὰς αὑτοῦ τύχας | εἰς πάντας ἀμαθές, τὸ δ᾽ ἐπικρύπτεσθαι σοφόν. In <bibl>fr. 460. 2</bibl> χρὴ περιστεῖλαι καλῶς | κρύπτοντά καὶ μὴ πᾶσι κηρύσσειν τάδε, the simple verb is found. Bruno Keil (Herm. XXIII 379) adduced <bibl>Isocr. 1. 42</bibl> in support of Nauck's reading. For the moral precept which enjoined the concealment of misfortune see on <bibl>frs. 83</bibl>, <bibl>653</bibl>.</p>
+</div>
+
+
+<div type="textpart" subtype="fragment" n="89" xml:id="fragment-aleadai-pearson1917_grc1-89" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>89</p>
+<quote type="fragtext">
+<lg>
+<l n="1">νομὰς δέ τις κεροῦσσ᾽ ἀπ᾿ ὀρθίων πάγων</l>
+<l n="2">καθεῖρπεν ἔλαφος</l>
+<l n="3">ἄρασα μύξας</l>
+<l n="4">καὶ κερασφόρους</l>
+<l n="5">στόρθυγγας εἶρφ᾽ ἕκηλος</l>
+</lg>
+</quote>
+<p>89 <bibl>Aelian nat. an. 7. 39</bibl> ὅσοι λέγουσι θῆλυν ἔλαφον κέρατα οὐ φύειν, οὐκ αἰδοῦνται τοὺς τοῦ ἐναντίου μάρτυρας, Σοφοκλέα μὲν εἰπόντα ‘νομὰς... ἔλαφος' καὶ πάλιν · ἄρασα...ἕκηλος. καὶ ταῦτα μὲν ὁ τοῦ Σοφίλλου ἐν τοῖς Ἀλεάδαις. V. I is partly quoted by <bibl>Etym. Gud. p. 317, 12</bibl> (<bibl>Etym. Paris. p. 1444 E</bibl>) and <bibl>Zon. lex. s.v. κερόεις p. 1186</bibl> κεροῦσσα, οἷον ' νόμος δέ τι κεροῦσα· &lt;Ἡρωδιανὸς &gt; περὶ παθῶν, and referred to by <bibl>Pollux 5.76</bibl> τῶν δὲ ἐλάφων ἄκερως μὲν ἡ θήλεια, ὁ δὲ ἄρρην κερωφόρος,......καὶ χρυσόκερως ὁ ὑπὸ Ἡρακλέους ἁλούς. καὶ Ἀνακρέων (<bibl>fr. 51</bibl>) μὲν σφάλλεται κερόεσσαν ἔλαφον προσειπών, καὶ Σοφοκλῆς κεροῦσσαν τὴν Τηλέφου τροφόν. V. 3 is referred to by <bibl>Pollux 2. 72</bibl> παρὰ δὲ Σοφοκλεῖ καὶ μύξαι οἱ μυκτῆρες κέκληνται.</p>
+<p>1 Aelian continues his evidence from the poets by citing <bibl>Eur. fr. 857</bibl>, <bibl>fr. 740</bibl>, <bibl>Pind. Ol. 3. 29</bibl>, <bibl>Anacreon fr. 51</bibl> ἀγανῶς οἱά τε νεβρὸν νεοθηλέα | γαλαθηνόν, ὅς τ᾽ ἐν ὕλῃ κεροέσσης | ὑπολειφθεὶς ὑπὸ μητρὸς ἐπτοήθη. Add <bibl>Simonid. fr. 30</bibl> θάνατον κεροέσσᾳ εὑρέμεν ματεύων ἐλάφῳ, <bibl>Eur. Her. 375</bibl> τὰν χρυσοκάρανον δόρκα. The zoologists and grammarians were eager to point out the blunder: <bibl>Arist. h. a. 4. 11. 538b 18</bibl>, <bibl>poet. 25. 1460b 31</bibl> ἔλαττον γὰρ (sc. ἁμάρτημα) εἰ μὴ ᾔδει ὅτι ἔλαφος θήλεια κέρατα οὐκ ἔχει ἢ εἰ ἀμιμήτως ἔγραψεν, <bibl>schol. Pind. Ol. 3. 52</bibl> ἐπιμελῶς οἱ ποιηταὶ τὴν θήλειαν ἔλαφον κέρατα ἔχουσαν εἰσάγουσιν, καθάπερ καὶ τὴν θηλάζουσαν τὸν Τήλεφον γράφουσι καὶ πλάττουσι. The mistake is generally accounted for by the consideration that legend loves the miraculous, and is not content to follow the prosaic limits of science; but Ridgeway in Early Age of Greece, I p. 360 ff., holds that the story of Heracles reflects a knowledge of the existence of the reindeer in northern Europe. In that case we must suppose other miraculous does were given antlers on the analogy of this famous quest.—<lemma>νομάς</lemma>: roaming. See Jebb on <bibl>O. T. 1350</bibl>.—<lemma>ὀρθίων πάγων</lemma>. Dindorf quotes <bibl>Ant. 985</bibl> ὀρθόποδος ὑπὲρ πάγου.</p>
+<p>2 Wagner suggested as a supplement Τηλέφου νέου τροφός.</p>
+<p>3 <lemma>μύξας</lemma> = μυκτήρας. Cf. <bibl>Phot. lex. p. 280, 3</bibl> μύξαν· αὐτὸν τὸν μυκτήρα καλοῦσιν, οὐχὶ τὸ ὑγρόν· οὕτως Ἀριστοφάνης (<bibl>fr. 820, 1 580 K.</bibl>). Similarly <bibl>Hesych. III p. 128</bibl>. Meineke, who would have preferred μυξωτῆρε but for the evidence of Pollux, fills up the gap by reading μύξας &lt;ὕψι&gt;. Blaydes supplied δεῦρο. —<lemma>κερασφόρους</lemma>: observe the transference of the epithet, and see n. on <bibl>fr. 11</bibl>.</p>
+<pb n="57"/>
+</div>
+
+
+<div type="textpart" subtype="fragment" n="90" xml:id="fragment-aleadai-pearson1917_grc1-90" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>90</p>
+<quote type="fragtext">
+<lg>
+<l n="1">ἐφυμνεῖς</l>
+</lg>
+</quote>
+<p>90 <bibl>Hesych. 11 p. 244</bibl> ἐφυμνεῖς· ἐπᾴδεις. Σοφοκλῆς Ἀλεάδαις.</p>
+<p><lemma>ἐφυμνεῖν</lemma> is to chant over, and both it and ἐπᾴδειν may be construed with acc. of the theme and dat. of the person affected. It is probable that the verb was used here with the same simple sense as in <bibl>Aesch. Eum. 903</bibl> τί οὖν μ' ἄνωγας τῇδ᾽ ἐφυμνῆσαι χθονί;</p>
+</div>
+
+
+<div type="textpart" subtype="fragment" n="91" xml:id="fragment-aleadai-pearson1917_grc1-91" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aleadai">
+<p>91</p>
+<quote type="fragtext">
+<lg>
+<l n="1">φρονεῖν</l>
+</lg>
+</quote>
+<p>91 <bibl>Erotian gloss. Hippocr. p. 84. 2</bibl> κατεφρόνεε· κατενόει. φρονεῖν γὰρ ἔλεγον οἱ παλαιοὶ τὸ νοεῖν, ὡς καὶ Εὐριπίδης ἐν Ἀντιόπῃ (<bibl>fr. 205</bibl>) φάσκει· ‘φρονῶ δ᾽ ὁ πάσχω· καὶ τόδ' οὐ μικρὸν κακόν.' μέμνηται καὶ Σοφοκλῆς ἐν Ἀλεάδαις (ἀχαιάδι codd.: corr. Schleusner) καὶ ἐν Ἀμφιαράῳ (<bibl>fr. 119</bibl>).</p>
+<p>Similar statements are made by <bibl>Etym. M. p. 800, 43</bibl> φρονεῖν σημαίνει καὶ τὸ νοεῖν and <bibl>Hesych. IV p. 259</bibl>. There are several such passages in Sophocles: <bibl>Trach. 1145</bibl> φρονῶ δὴ ξυμφορᾶς ἵν᾿ ἕσταμεν, <bibl>ib. 289</bibl> φρόνει νιν ὡς ἥξοντα, <bibl>Ant. 49</bibl>, <bibl>996</bibl>, <bibl>O.C. 872</bibl>, and others. The examples are not well arranged in Ellendt.</p>
+<p>ΑΛΕΞΑΝΔΡΟΣ</p>
+<p>Fr. 93 confirms the view generally held that the story of the play is to be found in <bibl>Hygin. fab. 91</bibl>, and is therefore similar to that of the Alexandros of Euripides, which was put on the stage with the Troades in 415 B.C. When Hecuba was pregnant with Paris, she dreamed that she gave birth to a flaming torch, from which a number of snakes crawled forth. The diviners held that the welfare of Troy depended on the destruction of the child to be born. Consequently, when Alexandros was born, he was sent away to be killed; but his guards pitied him and were content to expose him, with the result that he was discovered by some shepherds, who reared him as their own son, and called him by the name Paris. Paris grew to maturity among the herds on Mt Ida, and made a special favourite of one of the bulls. At length Priam determined to celebrate funeral games in honour of his child long since lost, and sent some of his servants to choose a bull as prize for the victor in one of the contests. The bull of Paris was selected, and he was so much distressed in consequence that he went down to the town, entered for the contest, and defeated all his opponents, including his own brothers. Deiphobus¹, <pb n="58"/> in anger at the success of a clown, drew his sword upon him; but Paris took refuge at the altar of Ζεὺς ἑρκεῖος. Cassandra then declared that the newcomer was her brother, and Priam recognised his son (by means of certain crepundia¹, according to <bibl>Serv. on Verg. Aen. 5. 370</bibl>), and welcomed him to the palace. Of course there is nothing to connect Sophocles with any particular details in the above account; and we are not in a position to distinguish the treatment of Euripides from that of Sophocles.</p>
+<p>Robert (Bild und Lied, pp. 233-239) undertook to show that the story concerning the dream of Hecuba and the exposure of Paris, his rescue and ultimate restoration to his home, was not, as Welcker believed (Ep. Cycl. II 90), contained in the Cypria, but was the invention of the fifth century, and in all probability of Sophocles in the Alexandros, in the composition of which he was largely influenced by the Herodotean account of the youth of Cyrus (1 108 ff.). He had an easy task in demolishing the argument by which Welcker attempted to establish the indispensability of the story to the narrative of the Cypria, viz. that the circumstances of the judgment of Paris presuppose his residence on Ida, and that this in its turn implies his escape from exposure; for his adoption of a pastoral life was in no way inconsistent with his recognition as one of the princely family of Priam. But there is a wide gap between the admission that the origin of the story cannot be traced to the Cypria and the conclusion that Sophocles was its author. Even if Robert is correct in his inference from <bibl>Tro. 919 ff.</bibl> and <bibl>Androm. 293 ff.</bibl> that in the latter passage Euripides followed an older and simpler version, according to which Hecuba refused to surrender Paris to death, notwithstanding the vaticinations of Cassandra-a conclusion which is by no means certain-it helps very little towards the result which Robert desired to establish. Moreover, the discovery of the fragments of Pindar's Paeans has destroyed the foundation of Robert's theory; for in <bibl>8. 27 ff.</bibl> there is an unmistakable allusion to Hecuba's dream. But, apart from this, the onus of strictly proving their case lies on those who seek to show that any tragic plot was invented by its author; if even Euripides, so far as we can tell, never dared to do anything of the kind, we may be quite sure that Sophocles was far less likely to make the experiment.</p>
+<p>It will be observed that Hyginus states that Alexandros was the name originally given to the child, and that Paris was <note type="footnote">1 The detail is suggestive of a tragic origin, and is referred by Ahrens to Euripides. On the other hand, there seems to be no reason for tracing to Sophocles the statement of Asclepiades (FHG III 303) that the slave who exposed Paris was called Archialos (Agelaus, according to Apollod. 3. 149).</note> <pb n="59"/> substituted by the shepherds. The exact opposite is asserted by <bibl>Eur. fr. 64</bibl>: cf. <bibl>Enn. trag. fr. 38</bibl>, <bibl>Ov. Her. 16. 358</bibl>, and perhaps <bibl>Eur. I.A. 1293</bibl> (Murray). <bibl>Apollodorus (3. 150)</bibl> says that the shepherds who originally found him called him Paris, and that his exploits subsequently earned for him the name of Alexandros. Are we to infer that Hyginus followed Sophocles rather than Euripides?</p>
+</div>
+
+
+</div></body></text></TEI>

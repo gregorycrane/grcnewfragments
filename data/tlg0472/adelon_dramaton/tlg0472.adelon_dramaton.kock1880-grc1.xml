@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>LYSIPPUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Lysippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0472.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0472.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0472.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0472_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="7" xml:id="kock-0472-adelon_dramaton-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0472_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0472-adelon_dramaton-7-l1" xml:lang="grc">εἰ μὴ τεθέασαι τὰς Ἀθήνας, στέλεχος εἶ,</l>
+                <l n="2" xml:id="kock-0472-adelon_dramaton-7-l2" xml:lang="grc">εἰ δὲ τεθέασαι μὴ τεθήρευσαι δ', ὄνος,</l>
+                <l n="3" xml:id="kock-0472-adelon_dramaton-7-l3" xml:lang="grc">εἰ δ' εὐαρεστῶν ἀποτρέχεις, κανθήλιος.</l>
+              </lg>
+              <note type="source">Dicaearchus Descr. Graec. 22 Buttm. τὸ καθόλου δ' ὅσον αἱ λοιπαὶ πόλεις πρός τε ἡδονὴν καὶ βίου διόρθωσιν τῶν ἀγρῶν διαφέρουσι, τοσοῦτον τῶν λοιπῶν πόλεων ἡ τῶν Ἀθηναίων παραλλάττει. φυλακτέον δ' ὡς ἔνι μάλιστα τὰς ἑταίρας, μὴ λάθῃ τις ἡδέως ἀπολόμενος. οἱ στίχοι Λυσίππου κτλ. — τεθήρευσαι. Xen. Memor. 1, 2, 24 Ἀλκιβιάδης ὑπὸ γυναικῶν θηρώμενος. cf. 2, 6, 28. 3, 11, 7sq.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0472-adelon_dramaton-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0472_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0472-adelon_dramaton-8-l1" xml:lang="grc">κύων δέ τις</l>
+                <l n="2" xml:id="kock-0472-adelon_dramaton-8-l2" xml:lang="grc">ἐβόα δεδεμένος ἔνδον ὥσπερ Βούδιος.</l>
+              </lg>
+              <note type="source">Hesychius Βούδιος· παρὰ Λυσίππῳ τὸ ὄνομα κτλ. Σέλευκος</note>
+            </div>
+          </div></body></text></TEI>

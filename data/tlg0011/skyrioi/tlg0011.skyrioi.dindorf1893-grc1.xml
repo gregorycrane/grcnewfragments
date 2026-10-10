@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-skyrioi-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΣΚΥΡΙΑΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.skyrioi; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.skyrioi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.skyrioi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_skyrioi"><head>ΣΚΥΡΙΑΙ</head><div type="textpart" subtype="fragment" n="496" xml:id="fragment-skyrioi-dindorf1893_grc1-496" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_skyrioi">
+            <note>"Notum argumentum fabulæ. Vide Hyginum cap. XCVI. et Philostrati junioris iconem, cui titulus Achilles in Scyro p. 863, ubi Sophoclei dramatis meminit : Σκῦρος, νῆσος, ἣν ὁ θεῖος Σοφοκλῆς ἀνεμώδεα καλεῖ." BRUNCK.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="497" xml:id="fragment-skyrioi-dindorf1893_grc1-497" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_skyrioi">
+            <note type="source">Plutarchus Moral. p. 34 d.</note>
+            <quote>Τὴν δὲ πρὸς τὸν Ἀχιλλέα τὸν ἐν Σκύρῳ καθήμενον ἐν ταῖς παρθένοις γεγενημένην ἐπίπληξιν ὑπὸ τοῦ Ὀδυσσέως</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σὺ δ᾽ ὦ τὸ λαμπρὸν φῶς ἀποσβεννὺς γένους,</l>
+              <l n="2" xml:lang="grc">ξαίνεις, ἀρίστου πατρὸς Ἑλλήνων γεγώς;</l>
+            </lg>
+            <note>Iterum hos versus affert Plutarchus p. 72 e, præmissis verbis, Ὁ ἐν τοῖς Σκυρίοις Ὀδυσσεύς. Ubi καταισχύνων pro ἀποσβεννύς scriptum.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="498" xml:id="fragment-skyrioi-dindorf1893_grc1-498" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_skyrioi" sameAs="urn:cts:greekLit:tlg0011.skyrioi.nauck1889grc1:510">
+            <note type="source">Stobæus LI, 24.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φιλεῖ γὰρ ἄνδρας πόλεμος ἀγρεύειν νέους.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="499" xml:id="fragment-skyrioi-dindorf1893_grc1-499" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_skyrioi" sameAs="urn:cts:greekLit:tlg0011.skyrioi.nauck1889grc1:511">
+            <note type="source">Stobæus LIX, 3.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οἱ ποντοναῦται τῶν ταλαιπώρων βροτῶν,</l>
+              <l n="2" xml:lang="grc">οἷς οὔτε δαίμων οὔτε τις θεῶν νέμων</l>
+              <l n="3" xml:lang="grc">πλούτου ποτ᾽ ἂν νείμειεν ἀξίαν χάριν,</l>
+              <l n="4" xml:lang="grc">λεπταῖς ἐπὶ ῥοπαῖσιν ἐμπολὰς μακρὰς</l>
+              <l n="5" xml:lang="grc">ἀεὶ παραρρίπτοντες οἱ πολύφθοροι</l>
+              <l n="6" xml:lang="grc">ἢ ᾽σωσαν, ἢ ᾽κέρδαναν, ἢ διώλεσαν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="500" xml:id="fragment-skyrioi-dindorf1893_grc1-500" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_skyrioi">
+            <note type="source">Stobæus CXVI, 28. Σοφοκλέους Σκυρίων</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐδὲν γὰρ ἄλγος οἷον ἡ πολλὴ ζόη.</l>
+            </lg>
+            <note>Hunc versum duo alii sequuntur sine lemmate,</note>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Πάντ᾽ ἐμπέφυκε τῷ μακρῷ γήρᾳ κακὰ,</l>
+              <l n="3" xml:lang="grc">νοῦς φροῦδος, ἔργ᾽ ἀχρεῖα, φροντίδες κεναί.</l>
+            </lg>
+            <note>Versum alterum ex Sophocle affert Clemens Alex. p. 73, ὦτ᾽ ἀχρεῖα exhibens.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="501" xml:id="fragment-skyrioi-dindorf1893_grc1-501" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_skyrioi" sameAs="urn:cts:greekLit:tlg0011.skyrioi.nauck1889grc1:513">
+            <note type="source">Stobæus CXXIV, 17.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀλλ᾽ εἰ μὲν ἦν κλαίουσιν ἰᾶσθαι κακὰ,</l>
+              <l n="2" xml:lang="grc">καὶ τὸν θανόντα δακρύοις ἀνιστάναι,</l>
+              <l n="3" xml:lang="grc">ὁ χρυσὸς ἦσσον κτῆμα τοῦ κλαίειν ἂν ἦν.</l>
+              <l n="4" xml:lang="grc">νῦν δ᾽, ὦ γεραιὲ, ταῦτ᾽ ἀνηνύτως ἔχει,</l>
+              <l n="5" xml:lang="grc">τὸν μὲν τάφῳ κρυφθέντα πρὸς τὸ φῶς ἄγειν·</l>
+              <l n="6" xml:lang="grc">κἀμοὶ γὰρ ἂν πατήρ γε δακρύων χάριν</l>
+              <l n="7" xml:lang="grc">ἀνῆκτ᾽ ἂν εἰς φῶς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="502" xml:id="fragment-skyrioi-dindorf1893_grc1-502" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_skyrioi" sameAs="urn:cts:greekLit:tlg0011.skyrioi.nauck1889grc1:514">
+            <note type="source">Hesychius</note>
+            <quote>Ἀποστιβής (codex ἀποστίβ··)· ἀποπεφοιτηκώς. οὐ τὴν αὐτὴν τρίβον στείβων, τουτέστ φοιτῶν. Σ. Σκυρίαις.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="503" xml:id="fragment-skyrioi-dindorf1893_grc1-503" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_skyrioi" sameAs="urn:cts:greekLit:tlg0011.skyrioi.nauck1889grc1:515">
+            <note type="source">Hesychius</note>
+            <quote>Αὐτόσσυτον αὐτοκέλευστον, Σ. Σκυρίαις.</quote>
+            <note>Omisso nomine fabulæ grammaticus Bekkeri p. 467, 31.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="504" xml:id="fragment-skyrioi-dindorf1893_grc1-504" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_skyrioi" sameAs="urn:cts:greekLit:tlg0011.skyrioi.nauck1889grc1:516">
+            <note type="source">Hesychius</note>
+            <quote>Ἀχρήματον· ἀδάπανον. Σ. Σκυρίαις.</quote>
+            <note>Codex ἀχρήματα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="505" xml:id="fragment-skyrioi-dindorf1893_grc1-505" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_skyrioi" sameAs="urn:cts:greekLit:tlg0011.skyrioi.nauck1889grc1:517">
+            <note type="source">Hesychius</note>
+            <quote>in εἴωρος—ὡς ὁ αὐτὸς (Σοφοκλῆς) ἐν Σκυρίαις χρῆται τῷ εὐωριάζειν.</quote>
+          </div>
+        </div></body></text></TEI>

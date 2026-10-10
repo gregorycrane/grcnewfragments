@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTONYMUS, ΗΛΙΟΣ ΡΙΓΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristonymus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0420.elios_rigon.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0420.elios_rigon.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0420.elios_rigon.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0420_elios_rigon"><head>ΗΛΙΟΣ ΡΙΓΩΝ</head><div type="textpart" subtype="fragment" n="2_3" xml:id="kock-0420-elios_rigon-2_3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0420_elios_rigon">
+              <lg>
+                <l n="1" xml:id="kock-0420-elios_rigon-2_3-l1" xml:lang="grc">ὅ γέ τοι Σικελὸς ταῖς βεμβραφύαις προσέοικεν ὁ καρκινοβήτης.</l>
+              </lg>
+              <note type="apparatus">* * * *</note>
+              <lg>
+                <l n="2" xml:id="kock-0420-elios_rigon-2_3-l2" xml:lang="grc">ὥστ’ οὔτ’ ἀφύη νῦν ἔστιν ἁπλῶς οὔτ’ αὖ βεμβρὰς κακοδαίμων.</l>
+              </lg>
+              <note type="apparatus">v. 1 Athenaeus 7, 287c γίνεται δέ, φησίν, ἐκ μόνης τῆς βεμβράδος σκευασία τις ἡ προσαγορευομένη βεμβραφύαι, ὧν μνημονεύει Ἀριστώνυμος ἐν Ἡλίῳ ῥιγῶντι ὅ γέ τοι — καρκινοβάτης (sic enim libri). Etymol. m. 195, 33 Ἀριστώνυμος ταῖς μεμβραφύαις — καρκινοβαίτης. v. 2 Athenaeus 7, 287d Ἀττικοὶ δ’ ὅμως βεμβράδας λέγουσιν . . . Ἀριστώνυμος Ἡλίῳ ῥιγῶντι οὔτ’ ἀφύη — κακοδαίμων et 284f καὶ ἑνικῶς δὲ ἀφύην λέγουσιν. Ἀριστώνυμος Ἡλίῳ ῥιγῶντι ὥστ’ οὔτ’ — ἁπλῶς. Etymol. m. 195, 33 καὶ αὖθις· οὔτ’ ἀφύη — κακόδαιμον. coniunxit Bergkius R. c. Att. 316. βεμβραφύαις VDM Etym. m.] μεμβραφύαις. καρκινοβήτης Meinek.] καρκινοβάτης Athen. καρκινοβαίτης cod. Etym. m. praeter VDM. 2. ἀφύη] ἀφύην Ath. 284f. ἔστιν ἁπλῶς K.] ἔστιν ἔτι σαφῶς Athen. 287d. ἔσθ’ ἁπλῶς Athen. 284f. ἔστι σαφῶς Etym. m. (σαφῶς om. V). ἔστ’ ἔθ’ ἁπλῶς Dindorf. κακοδαίμων] κακόδαιμον (κακοδαίμον M) Etym. m. — nihil hic turpe significatur, ut putabat Bergkius R. c. Att. 316. quis fuerit ille Sicelus vel Siculus ὁ καρκινοβήτης, ignoramus. sed dicitur ipse ut βεμβραφύαι totus ex bembradibus et apuis constare, i. e. tot bembrades et apuas devorasse, ut nusquam neque</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0420-elios_rigon-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0420_elios_rigon">
+              <note type="source">Schol. Platon. 331 Bekk.</note>
+              <p>Ἀριστώνυμος ἐν Ἡλίῳ ῥιγοῦντι καὶ Σαννυρίων ἐν Γέλωτι τετράδι φασὶν αὐτὸν (Ἀριστοφάνη) γενέσθαι, διὸ τὸν βίον κατέτριψεν ἑτέροις πονῶν. Vita Aristoph. XXVII 10 Duebn. εὐλαβὴς δὲ σφόδρα γενόμενος τὴν ἀρχήν, ἄλλως τε καὶ εὐφυής, τὰ μὲν πρῶτα διὰ Καλλιστράτου καὶ Φιλωνίδου καθίει δράματα. διὸ καὶ ἔσκωπτον αὐτὸν Ἀριστώνυμός τε καὶ Ἀμειψίας, τετράδι λέγοντες γεγονέναι, κατὰ τὴν παροιμίαν, ἄλλοις πονοῦντα. cf. Plat. 99. 100.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0420-elios_rigon-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0420_elios_rigon">
+              <p>ἀπόδειξιν δοῦναι</p>
+              <note type="source">ἀντὶ τοῦ ἀποδείξασθαι. Ἀριστώνυμος Ἡλίῳ ῥιγοῦντι. Bekker. Anecd. 81, 26.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" xml:id="kock-0420-elios_rigon-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0420_elios_rigon">
+              <p>ἀρνακίς</p>
+              <note type="source">Ἀριστώνυμος Ἡλίῳ ῥιγοῦντι. Bekker. Anecd. 83, 24. Aristoph. Nub. 730.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0420-elios_rigon-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0420_elios_rigon">
+              <p>σιωπηλός</p>
+              <note type="source">Ἀριστώνυμος Ἡλίῳ ῥιγοῦντι. Bekker. Anecd. 113, 24. Eurip. Med. 320.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΚΗΡΥΚΕΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.kerykes; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.kerykes.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.kerykes.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerykes"><head>ΚΗΡΥΚΕΣ</head>
+          <pb n="598" facs="urn:hathi:iau.31858007086675:scan:606"/>
+          <div type="textpart" subtype="fragment" n="99" xml:id="frag_64c555a6a0" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerykes" sameAs="urn:cts:greekLit:tlg0085.kerykes.nauck1889-grc1:112">
+            <note type="source">Pollux IX, 136. Φαῦλον τὸ λογγάζειν ἐν τοῖς Κήρυξι τοῖς Αἰσχύλου. De hoc vocabulo dixi ad Aristophanis fragm. 641. p. 233. Photius p. 228, 22. Λογγάσω: στραγγεύσομαι· ὁ ἡμεῖς λαγγάσω καὶ λαγγονεύσω λέγομεν. Αἰσχύλος. Quibus quæ adduntur δὲ ἐξ ὧν τὰ ἀπόγεια δοῦσιν λογγάσια alius glossæ fragmentum sunt, qua de vocabulo λογγῶνες explicatum fuit.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="100" xml:id="frag_ef917b5d0b" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerykes" sameAs="urn:cts:greekLit:tlg0085.kerykes.nauck1889-grc1:108">
+            <note type="source">Pollux X, 68. Μήποτ' οὖν βέλτιον στενόστομον αὐτὸ καλεῖν. εἴρηται δὲ τοὔνομα ἐπὶ ἀμφορέως ἐν σατυρικῷ δράματι Κήρυξι τοῖς Αἰσχύλου</note>
+            <quote>Στενόστομον τὸ τεῦχος.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="101" xml:id="frag_0553108cc1" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerykes" sameAs="urn:cts:greekLit:tlg0085.kerykes.nauck1889-grc1:109">
+            <note type="source">Pollux X, 186. Φαίης δ' ἂν καὶ σισύρναν, Αἰσχύλου ἐν Κήρυξι σατύροις λέγοντος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_0553108cc1-l1" xml:lang="grc">Καὶ τῆς σισύρνης τῆς λεοντείας.</l>
+            </lg>
+            <note type="apparatus">Alii codices κατὰ pro καὶ et λεοντίας. δορᾶς addebat Toupius Emend. vol. II. p. 166. comparatis Hesychii et Suidæ glossis Λεόντειος δορά et Λεοντεία δυρά.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="102" xml:id="frag_c70307cc5e" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerykes" sameAs="urn:cts:greekLit:tlg0085.kerykes.nauck1889-grc1:111">
+            <note type="source">Antiatticista Bekkeri I. p. 102, 14. Κακοποιεῖν : Αἰσχύλος Κήρυξιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="103" xml:id="frag_f2f0c57c6c" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerykes" sameAs="urn:cts:greekLit:tlg0085.kerykes.nauck1889-grc1:113">
+            <note type="source">Antiatticista Bekkeri I. p. 109, 22. Νοσσόν: χωρὶς τοῦ ε Αἰσχύλος Κήρυξιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="104" xml:id="frag_82f158e5be" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerykes" sameAs="urn:cts:greekLit:tlg0085.kerykes.nauck1889-grc1:110">
+            <note type="source">Photius p. 477, 11. Πυρσοκόρσου λέοντος: Αἰσχύλος ἐν Κάρυξι σατύροις. Hesychius, Πυρσοκόρσου λέοντος: Πυρροκεφάλου, ξανθοτρίχου.</note>
+          </div>
+        </div></body></text>
+</TEI>

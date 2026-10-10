@@ -1,0 +1,1024 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.incertae; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.incertae.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.incertae.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+          <pb n="609" facs="urn:hathi:iau.31858007086675:scan:617"/>
+          <div type="textpart" subtype="fragment" n="266" xml:id="frag_5e322d71fa" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plato de Republica II. p. 383 a.</note>
+            <quote>Πολλὰ ἄρα Ὁμήρου ἐπαινοῦντες ἄλλα τοῦτο οὐκ ἐπαινεσόμεθα τὴν τοῦ ἐνυπνίου πομπὴν ὑπὸ Διὸς τῷ Ἀγαμέμνονι, οὐδ᾽ Αἰσχύλου, ὅταν φῇ ἡ Θέτις τὸν Ἀπόλλω ἐν τοῖς αὐτῆς γάμοις ᾄδοντα ἐνδατεῖσθαι τὰς ἑὰς εὐπαιδίας</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_5e322d71fa-l1" xml:lang="grc">νόσων τ᾽ ἀπείρους καὶ μακραίωνας βίους,</l>
+              <l n="2" xml:id="frag_5e322d71fa-l2" xml:lang="grc">ξύμπαντά τ᾽ εἰπὼν θεοφιλεῖς ἐμὰς τύχας</l>
+              <l n="3" xml:id="frag_5e322d71fa-l3" xml:lang="grc">παιᾶν᾽ ἐπευφήμησεν εὐθυμῶν ἐμέ.</l>
+              <l n="4" xml:id="frag_5e322d71fa-l4" xml:lang="grc">κἀγὼ τὸ Φοίβου θεῖον ἀψευδὲς στόμα</l>
+              <l n="5" xml:id="frag_5e322d71fa-l5" xml:lang="grc">ἤλπιζον εἶναι, μαντικῇ βρύον τέχνῃ,</l>
+              <l n="6" xml:id="frag_5e322d71fa-l6" xml:lang="grc">ὁ δ᾽ αὐτὸς ὑμνῶν, αὐτὸς ἐν θοίνῃ παρὼν,</l>
+              <l n="7" xml:id="frag_5e322d71fa-l7" xml:lang="grc">αὐτὸς τάδ᾽ εἰπὼν, αὐτός ἐστιν ὁ κτανὼν</l>
+              <l n="8" xml:id="frag_5e322d71fa-l8" xml:lang="grc">τὸν παῖδα τὸν ἐμόν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="267" xml:id="frag_cc516c8414" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus Eclog. Phys. I, 4. vol. I. p. 118. Heeren. (p. 9. Canter.) Αἰσχύλου</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_cc516c8414-l1" xml:lang="grc">Δράσαντι γάρ τοι καὶ παθεῖν ὀφείλεται.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="268" xml:id="frag_d84ec4a9a4" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Theophilus ad Autolycum II, 54. p. 256. ed. Wolf.</note>
+            <quote>Καὶ ὅτι μελλει ἡ τοῦ θεοῦ κρίσις γίνεσθαι καὶ τὰ κακὰ τοὺς πονηροὺς αἰφνιδίως καταλαμβάνειν καὶ τοῦτο Αἰσχύλος ἐσήμανε λέγων</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_d84ec4a9a4-l1" xml:lang="grc">Τό τοι κακὸν ποδῶκες ἔρχεται βροτοῖς</l>
+              <l n="2" xml:id="frag_d84ec4a9a4-l2" xml:lang="grc">καὶ ταμπλάκημα τῷ περῶντι τὴν θέμιν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="269" xml:id="frag_14a679cf73" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <lg type="fragment">
+              <l n="1" xml:id="frag_14a679cf73-l1" xml:lang="grc">Ὁρᾷς δίκην ἄναυδον οὐχ ὁρωμένην</l>
+              <l n="2" xml:id="frag_14a679cf73-l2" xml:lang="grc">εὔδοντι καὶ στείχοντι καὶ καθημένῳ·</l>
+              <l n="3" xml:id="frag_14a679cf73-l3" xml:lang="grc">ἑξῆς δ᾽ ὀπηδεῖ δόχμιον, ἄλλοθ᾽ ὕστερον.</l>
+              <l n="4" xml:id="frag_14a679cf73-l4" xml:lang="grc">οὐδ᾽ ἐγκαλύπτει νὺξ κακῶς εἰργασμένα,</l>
+              <l n="5" xml:id="frag_14a679cf73-l5" xml:lang="grc">ὅ τι δ᾽ ἂν ποιῇς, νόμιζ᾽ ὁρᾶν θεούς τινα.</l>
+            </lg>
+            <note type="commentary">Affert hos versus, in quibus plura sunt minime Æschylea, Theophilus ibidem et omisso nomine poetæ et quibusdam aliter scriptis Stobæus 1. 1.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="270" xml:id="frag_3aed38b5fd" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus Eclog. phys. II. 8, 10. vol. II. p. 340. Αἰσχύλου</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_3aed38b5fd-l1" xml:lang="grc">Κοινὸν τύχη, γνώμη δὲ τῶν κεκτημένων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="271" xml:id="frag_71d67d9617" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus Florileg. III, 1.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_71d67d9617-l1" xml:lang="grc">[Ἀ δεῖ παρὼν φρόντιζε, μὴ παρὼν ἀπῇς.]</l>
+              <l n="2" xml:id="frag_71d67d9617-l2" xml:lang="grc">Ὁ χρήσιμ᾽ εἰδὼς, οὐχ ὁ πόλλ᾽ εἰδὼς, συφός.</l>
+            </lg>
+            <note type="commentary">Priorem versum, qui non videtur Æschyli esse, omittit codex optimus.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="272" xml:id="frag_cc0972800e" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus IV, 16.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_cc0972800e-l1" xml:lang="grc">Η βαρὺ φόρημ᾽ ἄνθρωπος εὐτυχῶν ἄφρων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="273" xml:id="frag_971859f9a1" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus IX, 23. scholiasta Homeri Iliad. β, 114. Eustathius p. 188, 44.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_971859f9a1-l1" xml:lang="grc">Ἀπάτης δικαίας οὐκ ἀποστατεῖ θεός.</l>
+            </lg>
+            <note type="commentary">Attulit etiam Sextus in Fabricii Biblioth. vol. XII. p. 626. addito alio Æschyli versu</note>
+            <lg type="fragment">
+              <l n="2" xml:id="frag_971859f9a1-l2" xml:lang="grc">Ψευδῶν δὲ καιρὸν ἔσθ᾽ ὅπου τιμᾷ θεός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="274" xml:id="frag_c78a857e9f" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus XVIII, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_c78a857e9f-l1" xml:lang="grc">Κάτοπτρον εἴδους χαλκός ἐστ', οἶνος δὲ νοῦ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="275" xml:id="frag_47fff38065" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus XX, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_47fff38065-l1" xml:lang="grc">Ὀργῆς ματαίας εἰσὶν αἴτιοι λόγοι.</l>
+            </lg>
+            <note type="commentary">Ex Promethei v. 378. Ὀργῆς νοσούσης εἰσὶν ἰατροὶ λόγοι detortus putatur.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="276" xml:id="frag_d73075e9c7" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae" sameAs="urn:cts:greekLit:tlg0085.incertae.nauck1889-grc1:405">
+            <note type="source">Stobæus XXVII, 2.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_d73075e9c7-l1" xml:lang="grc">Οὐκ ἀνδρὸς ὅρκοι πίστις, ἀλλ᾽ ὅρκων ἀνήρ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="277" xml:id="frag_b09991ef00" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus XXIX, 21.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_b09991ef00-l1" xml:lang="grc">Φιλεῖ δὲ τῷ κάμνοντι συσπεύδειν θεός.</l>
+            </lg>
+            <note type="commentary">Euripidi tribuit Trincavelli editio et Apostolius XIX, 98. Fortasse excidit Æschyli Persarum versus 742. Ἀλλ᾽ ὅταν σπεύδῃ τις αὐτὸς, χὼ θεὸς συλλαμβάνει.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="278" xml:id="frag_7d1daca7a4" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus XXIX, 24.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_7d1daca7a4-l1" xml:lang="grc">Καλὸν δὲ καὶ γέροντα μανθάνειν σοφά.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="279" xml:id="frag_0a99292f4f" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus XXXIV, 5.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_0a99292f4f-l1" xml:lang="grc">Πρὸ τῶν τοιούτων χρὴ λόγων δάκνειν στόμα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="280" xml:id="frag_b5263aa70a" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Clemens Alexandr. Strom. VI. p. 620.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_b5263aa70a-l1" xml:lang="grc">Οἴκοι μένειν δεῖ τὸν καλῶς εὐδαίμονα</l>
+              <l n="2" xml:id="frag_b5263aa70a-l2" xml:lang="grc">καὶ τὸν κακῶς πράσσοντα καὶ τοῦτον μένειν.</l>
+            </lg>
+            <note type="commentary">Priorem versum affert Stobæus XXXIX, 14. Sophocli tributum.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="281" xml:id="frag_7e4619c3cf" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus XLV, 14.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_7e4619c3cf-l1" xml:lang="grc">Κακοὶ γὰρ εὖ πράσσοντες οὐκ ἀνασχετοί.</l>
+            </lg>
+          </div>
+        <pb n="610" facs="urn:hathi:iau.31858007086675:scan:618"/>
+          <div type="textpart" subtype="fragment" n="282" xml:id="frag_74357a876c" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus XCVIII, 49.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_74357a876c-l1" xml:lang="grc">Τὸ γὰρ βρότειον σπέρμ᾽ ἐφήμερα φρονεῖ</l>
+              <l n="2" xml:id="frag_74357a876c-l2" xml:lang="grc">καὶ πιστὸν οὐδὲν μᾶλλον ἢ καπνοῦ σκιά.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="283" xml:id="frag_ca23b74637" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus CXV, 10.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_ca23b74637-l1" xml:lang="grc">Γῆρας γὰρ ἤβης ἐστὶν ἐνδικώτερον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="284" xml:id="frag_5271937dcf" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Athenæus VII. p. 303 c. Μνημονεύει δὲ τοῦ θύννου καὶ Αἰσχύλος λέγων</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_5271937dcf-l1" xml:lang="grc">Σφύρας δέχεσθαι κἀπιχαλκεύειν μύδρους</l>
+              <l n="2" xml:id="frag_5271937dcf-l2" xml:lang="grc">ὃς ἀστενακτὶ θυννὸς ὡς ἠνέσχετο</l>
+              <l n="3" xml:id="frag_5271937dcf-l3" xml:lang="grc">ἄναυδος.</l>
+            </lg>
+            <note type="commentary">καὶ ἀλλαχοῦ</note>
+            <lg type="fragment">
+              <l n="4" xml:id="frag_5271937dcf-l4" xml:lang="grc">Τὸ σκαιὸν ὄμμα παραβαλὼν θύννου δίκην.</l>
+            </lg>
+            <note type="commentary">ὡς τοῦ θύννου τῷ σκαιῷ ὀφθαλμῷ οὐ βλέποντος. Versum postremum afferunt Ælianus de N. A. IX, 42. Plutarchus Moral. p. 979 e. Apostolius Proverb. X, 38.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="285" xml:id="frag_1af26a221e" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Athenæus XI. p. 491 a.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_1af26a221e-l1" xml:lang="grc">Αἱ δ᾽ ἔπτ᾽ ῎Ατλαντος παῖδες ὠνομασμέναι</l>
+              <l n="2" xml:id="frag_1af26a221e-l2" xml:lang="grc">πατρὸς μέγιστον ἆθλον οὐρανοστεγῆ</l>
+              <l n="3" xml:id="frag_1af26a221e-l3" xml:lang="grc">κλαίεσκον, ἔνθα νυκτέρων φαντασμάτων</l>
+              <l n="4" xml:id="frag_1af26a221e-l4" xml:lang="grc">ἔχουσι μορφὰς ἄπτεροι Πελειάδες.</l>
+            </lg>
+            <note type="commentary">ἀπτέρους αὐτὰς εἴρηκε διὰ τὴν πρὸς τὰς ὄρνεις ὁμωνυμίαν. Ad Heliades refert Hermannus in Opusc. vol. III. p. 141.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="286" xml:id="frag_5f6db7c4ef" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Eusebius Præp. Evang. XIII, 3.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_5f6db7c4ef-l1" xml:lang="grc">Ἀλλ' οὔτε πολλὰ τραύματ᾽ ἐν στέρνοις λαβὼν</l>
+              <l n="2" xml:id="frag_5f6db7c4ef-l2" xml:lang="grc">θνήσκει τις, εἰ μὴ τέρμα συντρέχοι βίου,</l>
+              <l n="3" xml:id="frag_5f6db7c4ef-l3" xml:lang="grc">οὔτ᾽ ἐν στέγῃ τις ἥμενος παρ᾿ ἑστίᾳ</l>
+              <l n="4" xml:id="frag_5f6db7c4ef-l4" xml:lang="grc">φεύγει τι μᾶλλον τὸν πεπρωμένον μόρον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="287" xml:id="frag_c591e5014d" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plutarchus Moral. p. 106 с.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_c591e5014d-l1" xml:lang="grc">῾Ὡς οὐ δικαίως θάνατον ἔχθουσιν βροτοὶ,</l>
+              <l n="2" xml:id="frag_c591e5014d-l2" xml:lang="grc">ὅσπερ μέγιστον ῥῦμα τῶν πολλῶν κακῶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="288" xml:id="frag_4fd0f9b7f0" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plutarchus in vita Demetrii c. 35. p. 905 d. Διὸ καί φασιν αὐτὸν ἐν ταῖς χείροσι μεταβολαῖς πρὸς τὴν τύχην ἀναφθέγγεσθαι τὸ Αἰσχύλειον</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_4fd0f9b7f0-l1" xml:lang="grc">Σύ τοί μ᾽ ἔφυσας, σύ με καταίθειν μοι δοκεῖς.</l>
+            </lg>
+            <note type="commentary">Repetit hæc in Moral. p. 827 c. ubi με φυσᾷς scriptum et μοι omissum. Grotius καταφθιεῖν δοκεῖς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="289" xml:id="frag_3e9d64f645" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Ælian. de N. A. XII, 8. Ζῶόν ἐστιν ὁ πυραύστης, ὁπεροῦν χαίρει μὲν τῇ λαμπηδόνι τοῦ πυρὸς καὶ προσπέταται τοῖς λύχνοις ἐν ἀκμαζούσῃ ἔτι τῇ φλογὶ, καὶ δοκεῖ τι λήψεσθαι, ἐμπεσὼν δὲ ὑπὸ ῥύμης εἶτα μέντοι καταπέφλεκται. μέμνηται δὲ αὐτοῦ καὶ ὁ Αἰσχύλος ὁ τῆς τραγῳδίας ποιητὴς λέγων</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_3e9d64f645-l1" xml:lang="grc">Δέδοικα μῶρον κάρτα πυραύστου μόρον.</l>
+            </lg>
+            <note type="commentary">Attulerunt Suidas in πυραύστου, Zenobius V, 79. Apostolius XX, 65.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="290" xml:id="frag_6271c94678" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Scriptor dissertationis de Nilo, quæ libro secundo Athenæi subjecta est p. 165. ed. nostræ, Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_6271c94678-l1" xml:lang="grc">Γένος μὲν αἰνεῖν ἐκμαθὼν ἐπίσταμαι</l>
+              <l n="2" xml:id="frag_6271c94678-l2" xml:lang="grc">Αἰθιοπίδος γῆς, Νεῖλος ἔνθ' ἑπτάρρους</l>
+              <l n="3" xml:id="frag_6271c94678-l3" xml:lang="grc">γαῖαν κυλίνδει πνευμάτων ἐπομβρία,</l>
+              <l n="4" xml:id="frag_6271c94678-l4" xml:lang="grc">ἥλιος ἐν ᾗ πυρωπὸς ἐκλάμψας χθονὶ</l>
+              <l n="5" xml:id="frag_6271c94678-l5" xml:lang="grc">τήκει πετραίαν χιόνα· πᾶσα δ᾽ εὐθαλὴς</l>
+              <l n="6" xml:id="frag_6271c94678-l6" xml:lang="grc">Αἴγυπτος ἁγνοῦ νάματος πληρουμένη</l>
+              <l n="7" xml:id="frag_6271c94678-l7" xml:lang="grc">φερέσβιον Δήμητρος ἀντέλλει στάχυν.</l>
+            </lg>
+            <note type="apparatus">V. 2. correxi librorum scripturam ἔνθα Νεῖλος ἑπτάρρους.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="291" xml:id="frag_eeb77756e8" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Aristoteles H. A. IX, 49. Μεταβάλλει δὲ καὶ ὁ ἔποψ τὸ χρῶμα καὶ τὴν ἰδέαν, ὥσπερ ὁ Αἰσχύλος πεποίηκεν ἐν τοῖσδε</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_eeb77756e8-l1" xml:lang="grc">Τοῦτον δ᾽ ἐπόπτην ἔποπα τῶν αὑτοῦ κακῶν</l>
+              <l n="2" xml:id="frag_eeb77756e8-l2" xml:lang="grc">πεποικίλωκε κἀποδηλώσας ἔχει</l>
+              <l n="3" xml:id="frag_eeb77756e8-l3" xml:lang="grc">θρασὺν πετραῖον ὄρνιν ἐν παντευχίᾳ,</l>
+              <l n="4" xml:id="frag_eeb77756e8-l4" xml:lang="grc">ὃς ἦρι μὲν φαίνοντι διαπάλλει πτερὸν</l>
+              <l n="5" xml:id="frag_eeb77756e8-l5" xml:lang="grc">κίρκου λεπάργου. δύο γὰρ οὖν μορφὰς φανεῖ</l>
+              <l n="6" xml:id="frag_eeb77756e8-l6" xml:lang="grc">παιδός τε χαὐτοῦ νηδύος μιᾶς ἄπο.</l>
+              <l n="7" xml:id="frag_eeb77756e8-l7" xml:lang="grc">νέας δ᾽ ὀπώρας ἡνίκ᾽ ἂν ξανθῇ στάχυς,</l>
+              <l n="8" xml:id="frag_eeb77756e8-l8" xml:lang="grc">στικτή νιν αὖθις ἀμφινωμήσει πτέρυξ.</l>
+              <l n="9" xml:id="frag_eeb77756e8-l9" xml:lang="grc">ἀεὶ δὲ μίσει τῶνδ᾽ ἄπ᾿ ἄλλον εἰς τόπον</l>
+              <l n="10" xml:id="frag_eeb77756e8-l10" xml:lang="grc">δρυμοὺς ἐρήμους ἢ πάγους ἀποικιεῖ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="292" xml:id="frag_f0cbbec5d0" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Clemens Alexandr. Strom. IV. p. 494.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_f0cbbec5d0-l1" xml:lang="grc">Τῷ πονοῦντι δ᾽ ἐκ θεῶν</l>
+              <l n="2" xml:id="frag_f0cbbec5d0-l2" xml:lang="grc">ὀφείλεται τέκνωμα τοῦ πόνου κλέος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="293" xml:id="frag_75e58fd97a" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Clemens Alexandr. Strom. V. p. 558.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_75e58fd97a-l1" xml:lang="grc">Ἀλλ᾽ ἔστι κἀμοὶ κλὴς ἐπὶ γλώσσῃ φύλαξ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="294" xml:id="frag_6cbb6fd106" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plutarchus Moral. p. 950 e. Τὸ γὰρ ὕδωρ ὁ μὲν Αἰσχύλος εἰ καὶ τραγικῶς, ἀλλ᾽ ἀληθῶς εἶπε “Παῦ ὕδωρ δίκην πυρός.”</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="295" xml:id="frag_52236d5fb1" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Clemens Alexandr. Strom. V. p. 603.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_52236d5fb1-l1" xml:lang="grc">Ζεύς ἐστιν αἰθὴρ, Ζεὺς δὲ γῆ, Ζεὺς δ᾽ οὐρανός.</l>
+              <l n="2" xml:id="frag_52236d5fb1-l2" xml:lang="grc">Ζεύς τοι τὰ πάντα χὤ τι τῶνδ᾽ ὑπέρτερον.</l>
+            </lg>
+            <note type="apparatus">V. 2. χώ τι] χωρεῖ Euseb. Præp. Evang. XIII. p. 681.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="296" xml:id="frag_3ba64a2aee" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Aristides II. p. 292. Μὴ μὲν οὖν ἔμοιγε κατ᾿ Αἰσχύλον μήτε παρασπιστὴς μήτ᾽ ἐγγὺς εἴη ὅστις μὴ φίλος τῷ ἀνδρὶ τούτῳ μηδὲ τιμᾷ τὰ πρέποντα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="297" xml:id="frag_16a2369ec1" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae" sameAs="urn:cts:greekLit:tlg0085.incertae.nauck1889-grc1:408">
+            <note type="source">Plutarchus Moral. p. 36 с.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_16a2369ec1-l1" xml:lang="grc">Θάρσει· πόνου γὰρ ἄκρον οὐκ ἔχει χρόνον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="298" xml:id="frag_3544e0b624" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Scholiasta Homeri Iliad. π, 542.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_3544e0b624-l1" xml:lang="grc">Ὅπου γὰρ ἰσχὺς συζυγοῦσι καὶ δίκη,</l>
+              <l n="2" xml:id="frag_3544e0b624-l2" xml:lang="grc">ποία ξυνωρὶς τῶνδε καρτερωτέρα;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="299" xml:id="frag_cfe9b55046" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Scholiasta Aristoph. Nubium v. 1128.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_cfe9b55046-l1" xml:lang="grc">Δεινοὶ πλέκειν τοι μηχανὰς Αἰγύπτιοι.</l>
+            </lg>
+            <note type="commentary">Non nominato auctore afferunt Stephanus Byz. in Αἴγυπτος, Suidas in deινοὶ, Zenobius III, 37. Diogenianus IV, 35.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="300" xml:id="frag_c9174bfd97" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Scholiasta Nubium v. 1367. Μυρρίνης γὰρ κλάδον κατέχοντες ᾖδον τὰ Αἰσχύλου, ὥσπερ τὰ Ὁμήρου μετὰ δάφνης. παρὰ τὸ Αἰσχύλου, οὖνεκ᾽ ἐκεῖ ἄνθεα λειμώνια.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="301" xml:id="frag_f01741bbd8" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Aristophanes Ranar. v. 716.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_f01741bbd8-l1" xml:lang="grc">Τὴν πόλιν καὶ ταῦτ᾽ ἔχοντες κυμάτων ἐν ἀγκάλαις.</l>
+            </lg>
+            <note type="commentary">ubi scholiasta, Δίδυμός φησι παρὰ τὸ Αἰσχύλου· ἔστ δὲ ὄντως παρὰ Ἀρχιλόχῳ</note>
+            <lg type="fragment">
+              <l n="2" xml:id="frag_f01741bbd8-l2" xml:lang="grc">Ψυχὰς ἔχοντες κυμάτων ἐν ἀγκάλαις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="302" xml:id="frag_175949e9fa" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Eustathius p. 641, 59.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_175949e9fa-l1" xml:lang="grc">Οὔτε δῆμος οὔτ᾽ ἔτης ἀνήρ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="303" xml:id="frag_cda06fd8f3" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Eustathius p. 1484, 48. Αἰθίοπα γοῦν φωνὴν Αἰσχύλος λέγει, καὶ,</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_cda06fd8f3-l1" xml:lang="grc">Πότερα γυνή τις Αἰθίοψ φανήσεται ;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="304" xml:id="frag_88055c5014" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Eustathius p. 1625, 43.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_88055c5014-l1" xml:lang="grc">Λεοντοχόρταν βούβαλιν νεαίρετον.</l>
+            </lg>
+            <note type="apparatus">Legebatur νεαίτερον. νεαίρετος Agam. 1063. 1065.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="305" xml:id="frag_c761614ef7" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Eustathius p. 1923, 61. Αἰσχύλος "Ως λέγει γέρον γράμμα.”</note>
+          </div>
+        <pb n="611" facs="urn:hathi:iau.31858007086675:scan:619"/>
+          <div type="textpart" subtype="fragment" n="306" xml:id="frag_1bb5f14a0f" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Athenæus II. p. 67 f.</note>
+            <quote>Παρ' Αἰσχύλῳ “Διαβρέχεις τἀρτύματα.”</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="307" xml:id="frag_346ccab25f" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Athenæus III. p. 99 b.</note>
+            <quote>Αἰσχύλος τὸν ῞Αιδην ἀγησίλαον εἶπε.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="308" xml:id="frag_81d3299995" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Athenæus XIV. p. 632 c.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_81d3299995-l1" xml:lang="grc">Εἴτ᾽ οὖν σοφιστὴς καλὰ παραπαίων χέλυν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="309" xml:id="frag_088a2aa62f" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Athenæus IX. p. 375 d.</note>
+            <quote>Αἰσχύλος φησὶν</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_088a2aa62f-l1" xml:lang="grc">Ἐγὼ δὲ χοῖρον καὶ μάλ᾽ εὐθηλούμενον</l>
+              <l n="2" xml:id="frag_088a2aa62f-l2" xml:lang="grc">τόνδ᾽ ἐν ῥοθοῦντι κριβάνῳ θήσω. τί γὰρ</l>
+              <l n="3" xml:id="frag_088a2aa62f-l3" xml:lang="grc">ὄψον γένοιτ᾽ ἂν ἀνδρὶ τοῦδε βέλτερον;</l>
+            </lg>
+            <note type="commentary">καὶ πάλιν</note>
+            <lg type="fragment">
+              <l n="4" xml:id="frag_088a2aa62f-l4" xml:lang="grc">Λευκὸς, τί δ᾽ οὐχί; καὶ καλῶς ἠφευμένος</l>
+              <l n="5" xml:id="frag_088a2aa62f-l5" xml:lang="grc">ὁ χοῖρος. ἔψου, μηδὲ λυπηθῇς πυρί.</l>
+            </lg>
+            <note type="commentary">καὶ ἔτι</note>
+            <lg type="fragment">
+              <l n="6" xml:id="frag_088a2aa62f-l6" xml:lang="grc">Θύσας δὲ χοῖρον τόνδε τῆς αὐτῆς ὑὸς,</l>
+              <l n="7" xml:id="frag_088a2aa62f-l7" xml:lang="grc">ἢ πολλά μ᾽ ἐν δόμοισιν εἴργασται κακὰ</l>
+              <l n="8" xml:id="frag_088a2aa62f-l8" xml:lang="grc">δονοῦσα καὶ τρέπουσα τύρβ᾽ ἄνω κάτω.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="310" xml:id="frag_481fbcf344" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Athenæus XII. p. 528 c.</note>
+            <quote>Τοὺς δὲ Κουρῆτας Φύλαρχος διὰ τῆς ἑνδεκάτης τῶν ἱστοριῶν Αἰσχύλον ἱστορεῖν διὰ τὴν τρυφὴν τυχεῖν τῆς προσηγορίας·</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_481fbcf344-l1" xml:lang="grc">Χλιδῶν τε πλόκαμος ὥστε παρθένοις ἁβραῖς·</l>
+              <l n="2" xml:id="frag_481fbcf344-l2" xml:lang="grc">ὅθεν καλεῖν Κουρῆτα λαὸν ἤνεσαν.</l>
+            </lg>
+            <note type="apparatus">παρθένου ἁβρᾶς epitome et Eustathius p. 1292, 55.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="311" xml:id="frag_843f6d03a4" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Athenæus XIII. p. 573 b.</note>
+            <quote>Καταλέξω δέ σοι, Ἰωνικήν τινα ῥῆσιν ἐκτείνας κατὰ τὸν Αἰσχύλον περὶ ἑταιρῶν.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="312" xml:id="frag_2d9bb84e8e" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Philo p. 886 d.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_2d9bb84e8e-l1" xml:lang="grc">Ποῦ δ᾽ ἐστὶν Ἀργοῶς ἱρὸν, αὔδασον, ξύλον;</l>
+            </lg>
+            <note type="source">Hyginus Poet. Astron. II, 37.</note>
+            <note type="commentary">Homerus hunc eundem locum (Pagasas) in Thessalicæ finibus esse demonstrat; Æschylus autem et nonnulli aiunt a Minerva quandam materiam loquentem eodem esse conjunctam.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="313" xml:id="frag_45039cd3d6" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Strabo VI. p. 258.</note>
+            <quote>Ὠνομάσθη δὲ Ῥήγιον εἴθ᾽, ὥς φησιν Αἰσχύλος, διὰ τὸ συμβὰν πάθος τῇ χώρᾳ ταύτῃ· ἀπορραγῆναι γὰρ ἀπὸ τῆς ἠπείρου τὴν Σικελίαν ὑπὸ σεισμῶν ἄλλοι τε κἀκεῖνος εἴρηκεν “Ἀφ᾽ οὗ δὴ Ῥήγιον κικλήσκεται.”</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="314" xml:id="frag_35da14ea4f" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Strabo VIII. p. 341.</note>
+            <quote>Καὶ Αἰσχύλος</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_35da14ea4f-l1" xml:lang="grc">Κύπρου Πάφου τ᾽ ἔχουσα πάντα κλῆρον.</l>
+            </lg>
+            <note type="source">Ex Strabone Eustathius p. 305, 34.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="315" xml:id="frag_6f618a28a2" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Strabo VIII. p. 387.</note>
+            <quote>Τῶν δὲ λοιπῶν πόλεων τῶν Ἀχαϊκῶν εἴτε μερίδων Ῥύπες μὲν οὐκ οἰκοῦνται· τὴν δὲ χώραν Ῥυπίδα καλουμένην ἔσχον Αἰγιεῖς καὶ Φαρεῖς. καὶ Αἰσχύλος δὲ λέγει που</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_6f618a28a2-l1" xml:lang="grc">Βουράν θ' ἱεράν τε καὶ κεραυνίας Ῥύπας.</l>
+            </lg>
+            <note type="apparatus">Casaubonus Ἱεράν τε Βοῦραν καὶ — Photius p. 492, 10. Ῥύπες: τῶν Ὠλενίων Ἀχαιῶν. οὕτως Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="316" xml:id="frag_948020eda0" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Strabo IX. p. 393.</note>
+            <quote>Αἰσχύλος εἴρηκεν</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_948020eda0-l1" xml:lang="grc">Αἴγινα δ᾽ αὕτη πρὸς νότου κεῖται πνοάς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="317" xml:id="frag_6c1b8060d4" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Aristophanes Ranar. v. 1280. ex Æschylo</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_6c1b8060d4-l1" xml:lang="grc">Κύδιστ᾽ Ἀχαιῶν Ἀτρέως πολυκοίρανε μάνθανέ</l>
+              <l n="2" xml:id="frag_6c1b8060d4-l2" xml:lang="grc">μου παῖ.</l>
+            </lg>
+            <note type="source">et v. 1283. (ex Ἱερείαις)</note>
+            <lg type="fragment">
+              <l n="3" xml:id="frag_6c1b8060d4-l3" xml:lang="grc">Εὐφαμεῖτε μελισσονόμοι δόμον Ἀρτέμιδος πέλας</l>
+              <l n="4" xml:id="frag_6c1b8060d4-l4" xml:lang="grc">οἴγειν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="318" xml:id="frag_0b32fc881e" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Aristophanes apud Pollucem VI, 80. ex Æschylo</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_0b32fc881e-l1" xml:lang="grc">Ὀξυγλύκειάν τἄρα κοκκιεῖς ῥόαν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="319" xml:id="frag_970aa9b50f" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Scholiasta Pindari Nem. X, 31.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_970aa9b50f-l1" xml:lang="grc">Ἥρα τελεία, Ζηνὸς εὐναία δάμαρ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="320" xml:id="frag_a395116771" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Pollux VII, 78.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_a395116771-l1" xml:lang="grc">Σὺ δὲ σπαθητοῖς τριμιτίνοις ὑφάσμασι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="321" xml:id="frag_e51f74dd69" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Pollux VII, 167.</note>
+            <quote>Αἰσχύλος δ᾽ ἂν ἐοίκοι τὰ βαλανεῖα λουτήρια λέγειν</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_e51f74dd69-l1" xml:lang="grc">Λοῦταί γε μὲν δὴ λουτρὸν αὐτὸ δεύτερον.</l>
+              <l n="2" xml:id="frag_e51f74dd69-l2" xml:lang="grc">Ἀλλ᾽ ἐκ μεγίστων εὐμαρῶς λουτηρίων.</l>
+            </lg>
+            <note type="commentary">Alter versus aperte Æschyli est: prior, cujus vera scriptura Falckenburgii libro debetur, ad præcedentia Pollucis verba pertinet, sive Æschyli sive alius est. Ad Glaucum Pontium hæc refert Hermannus Opusc. vol. II. p. 69.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="322" xml:id="frag_0e7310af75" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymolog. M. p. 149. extr.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_0e7310af75-l1" xml:lang="grc">Τοσαῦτα, κῆρυξ, ἐξ ἐμοῦ διάρτασον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="323" xml:id="frag_f97ffa751f" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymolog. M. p. 271, 18.</note>
+            <quote>Οἱ δέ φασι σπιδέος, πολλοῦ καὶ μακροῦ, καὶ γὰρ Αἰσχύλος πολλάκις οὕτως ἔχειν τὴν λέξιν τίθεται· οἷον “Σπίδιον μήκος ὁδοῦ.”</quote>
+            <note type="source">Σπίδιον πεδίον ex Æschylo Eustathius p. 882, 58.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="324" xml:id="frag_fc4745a07e" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymolog. M. p. 450, 36.</note>
+            <quote>Θίς: καὶ ἐπὶ τοῦ σωροῦ θηλυκῶς παρὰ Αἰσχύλῳ “Θινὸς ἐμβολὰς ἁλός.”</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="325" xml:id="frag_3af7112cb9" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymolog. M. p. 537, 47.</note>
+            <quote>Καὶ νεοκρᾶτας σπονδὰς Αἰσχύλος τὰς νεωστὶ ἐγχυθείσας.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="326" xml:id="frag_3b9542db6a" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plato de Republ. VIII. p. 563 b.</note>
+            <quote>Οὐκοῦν κατ᾿ Αἰσχύλον, ἔφη, ἐροῦμεν ὅ τι νῦν ἦλθ᾽ ἐπὶ στόμα.</quote>
+            <note type="commentary">Hoc Æschyli dicto utuntur Plutarchus Moral. p. 763 b. Themistius p. 52 b.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="327" xml:id="frag_9609b0a840" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plato de Republ. VIII. p. 550 c.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_9609b0a840-l1" xml:lang="grc">῎Αλλον ἄλλῃ πρὸς πόλει τεταγμένον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="328" xml:id="frag_f3bd3a456a" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymolog. M. p. 490, 11.</note>
+            <quote>῾Ὁ δὲ Αἰσχύλος τὰ δόλια πάντα καλεῖ κάπηλα “Κάπηλα προσφέρων τεχνήματα.”</quote>
+            <note type="source">Eadem Suidas in κάπηλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="329" xml:id="frag_94103e5381" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Eustathius p. 1183, 18.</note>
+            <quote>Σημείωσαι δὲ ὅτι ἐπιτήδειος ἐδόκει πρὸς καθαρμὸν ὁ σῆς, ὡς δηλοῖ Αἰσχύλος ἐν τῷ</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_94103e5381-l1" xml:lang="grc">Πρὶν ἂν παλαγμοῖς αἵματος χοιροκτόνου</l>
+              <l n="2" xml:id="frag_94103e5381-l2" xml:lang="grc">αὐτός σε χράνῃ Ζεὺς καταστάξας χεροῖν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="330" xml:id="frag_ed839ca037" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Eustathius p. 1157, 33.</note>
+            <quote>Αἰσχύλος δέ φησι καὶ τὴν τάφρον αὐλῶνα, ἔνθα καὶ φιμοὺς λέγει αὐλωτούς, διὰ τὸ κώδωνας, φησὶ, προσῆφθαι αὐτοῖς, οἷς ἐμφυσῶντες οἱ ἵπποι ὡς φωνὴν σάλπιγγος προΐεντο. γράφει οὖν οὕτως</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_ed839ca037-l1" xml:lang="grc">Ὅς εἶχε πώλους τέσσαρας ζυγηφόρους</l>
+              <l n="2" xml:id="frag_ed839ca037-l2" xml:lang="grc">φιμοῖσιν αὐλωτοῖσιν ἐστομωμένας.</l>
+            </lg>
+            <note type="commentary">Ad Glaucum Potniensem refert Hermannus Opusc. vol. II. p. 64. Conf. Hesych. in αὐλωτοὶ φιμοί.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="331" xml:id="frag_83ade6a8e6" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Schol. Aristoph. Equitum v. 361.</note>
+            <quote>Σχελίδας: βοὸς πλευρά. ἡ ἁπλῶς τὰ πλευρικά, ὡς Αἰσχύλος.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="332" xml:id="frag_a96c0ad94b" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Schol. Aristoph. Acharn. v. 75.</note>
+            <quote>Ὦ Κραναὰ πόλις: τοῦτο τέτριπται ὑπὸ τῶν παλαιῶν. καὶ Αἰσχύλος γὰρ καὶ Σοφοκλῆς ἐχρήσαντο τῇ λέξει.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="333" xml:id="frag_4743c55b04" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Τὸ ψιλὴς ψιλῆτος παρ' Αἰσχύλῳ memorant scholiasta Homeri Iliad. €, 9. et Eustathius p. 515, 11.</note>
+          </div>
+        <pb n="612" facs="urn:hathi:iau.31858007086675:scan:620"/>
+          <div type="textpart" subtype="fragment" n="334" xml:id="frag_61890e8a59" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Eustathius p. 706, 50.</note>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:id="frag_61890e8a59-l1" xml:lang="grc">Αἰσχύλος φησὶν</l>
+                <l n="2" xml:id="frag_61890e8a59-l2" xml:lang="grc">“Ἐν διρρυμίᾳ πῶλοι.”</l>
+              </lg>
+            </quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="335_336" xml:id="frag_ebec22c2e0" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Eustathius p. 1538, 50.</note>
+            <quote>Στόμις παρ Αἰσχύλῳ ὁ ὥσπερ στόματι ἀντερείδων χαλινοῖς (ἵππος).</quote>
+            <note type="commentary">In στόμα corruptum ap. Polluc. II, 100. qui per τραχύν explicat.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="337" xml:id="frag_e28c51d12c" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Μυχθίζειν ex Æschylo affert Eustathius p. 440, 25. 1695, 49.</note>
+            <note type="commentary">ἀναμυχθίζει est in Prometheo ν. 743.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="338" xml:id="frag_f5fed06dd2" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stephanus Byz. Αἴνηθος: ὄρος. Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="339" xml:id="frag_0019918acd" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Tzetzes ad Lycophr. ν. 1247.</note>
+            <quote>Θέοινος ὁ Διόνυσος, ὡς θεὸς οἴνου εὑρετὴς, ὡς καὶ Αἰσχύλος φησὶ</quote>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:id="frag_0019918acd-l1" xml:lang="grc">Πάτερ Θέοινε, Μαινάδων ζευκτήριε.</l>
+              </lg>
+            </quote>
+            <note type="commentary">Ad hunc versum spectat Harpocratio in Θεοίνιον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="340" xml:id="frag_e86c25e706" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Pollux IΙ, 125.</note>
+            <quote>Ἀπεριλάλητος Αἰσχύλος.</quote>
+            <note type="commentary">Est ex Arist. Ran. 839.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="341" xml:id="frag_9aaeb51997" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Pollux VI, 40.</note>
+            <quote>Παμπόνηρος δὲ ὁ παρὰ τῷ Μυρτίλῳ τῷ κωμικῷ καταφαγὰς, εἰ καὶ Αἰσχύλος ἐχρήσατο.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="342" xml:id="frag_74d91444fb" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Pollux VII, 60.</note>
+            <quote>Ἡ δὲ μανδύη ὅμοιόν τι τῷ καλουμένῳ φαινόλῃ. τίνων δέ ἐστιν, ὡς μὴ περιερχώμεθα Κρῆτας ἢ Πέρσας, Αἰσχύλος ἐρεῖ</quote>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:id="frag_74d91444fb-l1" xml:lang="grc">Λιβυρνικῆς μίμημα μανδύης χιτών.</l>
+              </lg>
+            </quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="343" xml:id="frag_11f13b1678" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Pollux VII, 177.</note>
+            <quote>Καὶ τὸν τὰς ἀλαβάστρους φέροντα Αἰσχύλος εἴρηκεν ἀλαβαστροφόρον.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="344" xml:id="frag_33f6bf6683" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Pollux X, 180.</note>
+            <quote>Αἰσχύλον εἰπόντα “Ὀστέων στέγαστρον.”</quote>
+            <note type="commentary">Fortasse in 'Οστολόγοις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="345" xml:id="frag_8979db1102" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Hesychius, Ἐδανοῖς: βρωσίμοις. Αἰσχύλος.</note>
+            <note type="commentary">Ἐδανὸν est in Agam. v. 1407.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="346" xml:id="frag_55984ba74e" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Hesychius, Ηριγένεια:</note>
+            <quote>καὶ παρ᾿ Αἰσχύλῳ ἡ λέαινα ἠριγένεια, ἢ ἡ ἐν τῷ ἀέρι τίκτουσα, ἢ ἡ ἐν τῷ ἔαρι.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="347" xml:id="frag_d53d26bb88" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Hesychius, Ἴττυγα: ἐκπληκτικὰ Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="348" xml:id="frag_5cc8cb532f" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Hesychius, Κεχρηματεῖσθαι (?): πεφρύχθαι.</note>
+            <note type="commentary">Musurus κεχρηματίσθαι. Fort. κεχρωματίσθαι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="349" xml:id="frag_e7b02dc15c" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Hesychius, Σαυροβριθές ἔγχος: ἐκ τοῦ σαυρωτῆρος βαρύ.</note>
+            <quote>καὶ Αἰσχύλος ὀπισθοβριθὲς ἔγχος ἔφη.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="350" xml:id="frag_56a391d3b5" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymol. M. p. 93, 49.</note>
+            <quote>"Αμφις: τοῦτο οὐ συγκοπὴ, ἀλλὰ μετασχηματισμός. ἀπὸ γὰρ τοῦ Ἀμφιάραος ῎Αμφις, ὡς παρὰ Αἰσχύλῳ.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="351" xml:id="frag_85d47e5044" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymol. M. p. 151, 48.</note>
+            <quote>Ἀσαλής: ὁ ἀμέριμνος. Αἰσχύλος “Ἀσαλὴς μανία.”</quote>
+            <note type="commentary">Eadem grammaticus Bekkeri I. p. 450, 28.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="352" xml:id="frag_337bd3ee32" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymol. M. p. 161, 15.</note>
+            <quote>Ἀσχαδές: ἀκατάστατον. Αἰσχύλος.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="353" xml:id="frag_7166404b32" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymol. M. p. 182. extr.</note>
+            <quote>"Αχνη: -Αἰσχύλος δὲ τὸν καπνόν.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="354" xml:id="frag_771db48643" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymol. M. p. 279, 17.</note>
+            <quote>Τρισόζωος παρὰ Αἰσχύλῳ.</quote>
+            <note type="commentary">In Etymolog. Gud. p. 585, 14. Τρισόζυος παρ᾿ Αἰσχύλῳ. Sylburgius τρισσόζωος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="355" xml:id="frag_0f2f974fc6" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymol. M. p. 346. extr.</note>
+            <quote>Ἐξαυστήρ: σημαίνει σκεθός τι. παρὰ τὸ αὔω, αὔσω, αὐστὴρ καὶ ἐξαυστήρ. Αἰσχύλος.</quote>
+            <note type="commentary">Vide Valckenar. Anim. ad Ammon. p. 33.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="356" xml:id="frag_bf6436d8ac" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymol. M. p. 674, 20.</note>
+            <quote>Πλάστιγξ: ἡ μάστιξ ἀπὸ τοῦ πλήσσειν, παρ᾿ Αἰσχύλῳ.</quote>
+            <note type="commentary">V. Choeph. 290.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="357" xml:id="frag_a00fe090b8" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Photius p. 52, 20.</note>
+            <quote>Αἰσχύλος “Ζεύγος τεθρίππων.”</quote>
+            <note type="commentary">Conf. Etymolog. M. p. 409, 46.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="358" xml:id="frag_1c1944e71d" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plutarchus Moral. p. 116 f.</note>
+            <quote>Καὶ ὁ τραγικὸς Αἰσχύλος</quote>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:id="frag_1c1944e71d-l1" xml:lang="grc">Ἀνδρῶν γάρ ἐστιν ἐνδίκων τε καὶ σοφῶν</l>
+                <l n="2" xml:id="frag_1c1944e71d-l2" xml:lang="grc">ἐν τοῖς κακοῖσι μὴ τεθυμῶσθαι θεοῖς.</l>
+              </lg>
+            </quote>
+            <note type="commentary">Euripidi hæc tribuuntur ab Stobæo CVIII, 43. ubi Ἀνδρῶν τάδ᾽ ἐστὶν-.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="359" xml:id="frag_2868a7f531" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plutarchus Moral. p. 625 d.</note>
+            <quote>Οἱ γὰρ πρεσβύτεροι πόρρω τὰ γράμματα τῶν ὀμμάτων ἀπάγοντες ἀναγινώσκουσιν, ἐγγύθεν δ᾽ οὐ δύνανται. καὶ τοῦτο παραδηλῶν ὁ Αἰσχύλος φησὶν</quote>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:id="frag_2868a7f531-l1" xml:lang="grc">Σὺ δὲ</l>
+                <l n="2" xml:id="frag_2868a7f531-l2" xml:lang="grc">ἄπωθεν εἶδες αὐτόν· οὐ γὰρ ἐγγύθεν</l>
+                <l n="3" xml:id="frag_2868a7f531-l3" xml:lang="grc">ὁρᾷς, γέρων δὲ γραμματεὺς γενοῦ σαφής.</l>
+              </lg>
+            </quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="360" xml:id="frag_ec29d7922d" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plutarchus Moral. p. 434 a.</note>
+            <quote>Καὶ μετάλλων ἴσμεν ἐξαμαυρώσεις γεγονέναι καινὰς, ὡς τῶν περὶ τὴν Ἀττικὴν ἀργυρείων καὶ τῆς ἐν Εὐβοίᾳ χαλκίτιδος, ἐξ ἧς ἐδημιουργεῖτο τὰ ψυχρήλατα τῶν ξιφῶν, ὡς Αἰσχύλος εἴρηκε</quote>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:id="frag_ec29d7922d-l1" xml:lang="grc">Λαβὼν γὰρ αὐτόθακτον Εὐβοικὸν ξίφος.</l>
+              </lg>
+            </quote>
+            <note type="commentary">Xylander αὐτόθηκτον. Valcken. ὑδρόθηκτον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="361" xml:id="frag_6e1aeba744" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plutarchus Moral. p. 454 e.</note>
+            <quote>Καθάπερ οὖν τὴν φλόγα θριξὶ λαγῴαις ἀναπτομένην καὶ θρυαλλίσι καὶ συρφετῷ ῥᾴδιόν ἐστιν ἐπισχεῖν, ἐὰν δ᾽ ἐπιλάβηται τῶν στερεῶν καὶ βάθος ἐχόντων, ταχὺ διέφθειρε καὶ συνεῖλεν</quote>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:id="frag_6e1aeba744-l1" xml:lang="grc">Ὑψηλὸν ἡ βάσασα τεκτόνων πόνον,</l>
+              </lg>
+            </quote>
+            <quote>ὥς φησιν Αἰσχύλος.</quote>
+            <note type="commentary">ήβήσασα Heathius.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="362" xml:id="frag_dc7e3bb6ff" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Proclus ad Hesiodi "Ἔργ. ν. 176.</note>
+            <quote>Τουτέστι τὸ ἐκ Πανδώρας γένος, ἥτις ἦν κατὰ τὸν Αἰσχύλον</quote>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:id="frag_dc7e3bb6ff-l1" xml:lang="grc">Τοῦ πηλοπλάστου σπέρματος θνητὴ γυνή.</l>
+              </lg>
+            </quote>
+            <note type="commentary">Pertinet ad Prometheum: vide Hermann. de Prometheo soluto p. 20.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="363" xml:id="frag_fc17ca9968" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plutarchus Moral. p. 1057 f.</note>
+            <quote>Γέγονεν ἐκ ῥυσοῦ καὶ ὠχροῦ καὶ κατ᾿ Αἰσχύλον</quote>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:id="frag_fc17ca9968-l1" xml:lang="grc">Ἐξ ὀσφυαλγοῦς κὠδυνοσπάδος λυγροῦ</l>
+                <l n="2" xml:id="frag_fc17ca9968-l2" xml:lang="grc">γέροντος</l>
+                <l n="3" xml:id="frag_fc17ca9968-l3" xml:lang="grc">εὐπρεπὴς, θεοειδής, καλλίμορφος.</l>
+              </lg>
+            </quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="364" xml:id="frag_c173f2576c" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Suidas, Ἀποφώλιοι: ξένοι (ξένιοι grammaticus Bekkeri I. p. 439, 12.), οἱ φυλὴν μὴ νέμοντες. οὕτως Αἰσχύλος. ἢ ἀπαίδευτοι. φωλεοὶ γὰρ τὰ παιδευτήρια, ὡς φασιν οἱ Ιωνες. Hesychius, Ἀποφύλιοι: ξένοι οἱ μὴ ἔχοντες φυλήν. Αἰσχύλος (excidit nomen fabulæ) σατυρικῷ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="365" xml:id="frag_8427b8567d" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plutarchus Moral. p. 358 e.</note>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:id="frag_8427b8567d-l1" xml:lang="grc">Ἀποπτύσαι δεῖ καὶ καθήρασθαι στόμα,</l>
+              </lg>
+            </quote>
+            <quote>κατ᾿ Αἰσχύλον.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="366" xml:id="frag_5d0c85e1f6" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plutarchus Moral. p. 293 a.</note>
+            <quote>Τί τὸ φυξίμηλον; τῶν μικρῶν ἐστι καὶ χαμαιζήλων φυτῶν, ὧν ἐπιώντα τοὺς βλαστοὺς τὰ βοσκήματα κολούει καὶ ἀδικεῖ καὶ λυμαίνεται τὴν αὔξησιν. ὅταν γοῦν ἀναδραμόντα μέγεθος λάβῃ, καὶ διαφύγῃ τὸ βλάπτεσθαι ὑπὸ τῶν ἐπιγενομένων, φυξίμηλα καλεῖται. τὸ δὲ μαρτύριον Αἰσχύλος.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="367" xml:id="frag_01e84e7d57" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Hesychius, "Ανω ποταμῶν: παροιμία ἐπὶ τῶν ἐπ᾿ ἐναντία γινομένων. κέχρηνται καὶ Αἰσχύλος καὶ Εὐριπίδης.</note>
+          </div>
+        <pb n="613" facs="urn:hathi:iau.31858007086675:scan:621"/>
+          <div type="textpart" subtype="fragment" n="368" xml:id="frag_83a810bcbc" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Orio Etymolog. p. 26, 4.</note>
+            <note type="source">Τὰ εἰς ξ μὴ ὄντα ἐθνικὰ ὁμοίως λέγεται καὶ ἐπὶ θηλυκῶν. Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_83a810bcbc-l1" xml:lang="grc">Δέσποινα νύμφη δυσχίμων ὀρῶν ἄναξ.</l>
+            </lg>
+            <note type="source">Suidas, Ἄναξ: θηλυκῶς. οὕτως Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="369" xml:id="frag_6c59fec7b9" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Pollux VII, 61.</note>
+            <note type="source">Καὶ χλαῖναν δὲ παχεῖαν, ἣν χειμάμυναν Αἰσχύλος κέκληκεν. Conf. Hesychium h. v.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="370" xml:id="frag_979234f360" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymol. M. p. 118, 22.</note>
+            <note type="source">Ἀπάργματα: λέγεται τὰ ὑπὸ τῶν τραγῳδῶν λεγόμενα μασχαλίσματα. ταῦτα δέ ἐστι τὰ τοῦ φονευθέντος ἀκρωτηριάσματα. ἦν γάρ τι νομικὸν τοῖς δολοφονήσασιν ἀφοσιῶσαι τὸν φόνον, διὰ τοῦ δολοφονηθέντος ἀκρωτηριασμοῦ. —ὅτι δὲ καὶ ἐγεύοντο τοῦ αἵματος καὶ ἀπέπτυον Αἰσχύλος μαρτυρεῖ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="371" xml:id="frag_5088cb1ebf" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Schol. Soph. Electr. v. 283.</note>
+            <note type="source">Ἐπικουφίζεται γὰρ τοῖς δακρύοις ἡ συμφορά. Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_5088cb1ebf-l1" xml:lang="grc">Οἱ τε στεναγμοὶ τῶν πόνων ἐρείσματα.</l>
+            </lg>
+            <note type="source">Schol. Homeri Iliad. ψ, 10. Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="2" xml:id="frag_5088cb1ebf-l2" xml:lang="grc">Οἱ τοι στεναγμοὶ τῶν πόνων ἰάματα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="372" xml:id="frag_fa54900e58" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Schol. Soph. Ed. Col. v. 1047.</note>
+            <note type="source">Τὰ ἐν Ἐλευσῖνι τέλη φησὶ, καὶ εἴη ἂν λαμπάσιν ἀκταῖς λέγων ταῖς λαμπαδευομέναις καὶ καταλαμπομέναις ὑπὸ τῆς μυστικῆς φλογὸς καὶ τῶν ἱερῶν δάδων, περὶ ὧν Αἰσχύλος φησὶ</note>
+            <note type="source">Bastius ad Gregor. p. 241. et Bekkerus in Anecdotis III. p. 1073. ex codice Parisino ediderunt. Conf. Hermann. Opusc. vol. II. p. 84. Blomfild. præf. ad Persas p. XXVII.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="373" xml:id="frag_37762f9edc" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Schol. Soph. Ed. Col. v. 1049.</note>
+            <note type="source">Τέλη δὲ τὰς τελετάς· καὶ Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_37762f9edc-l1" xml:lang="grc">Ἔφριξ᾽ ἔρως δὲ τοῦδε μυστικοῦ τέλους.</l>
+            </lg>
+            <note type="apparatus">ἔρωτι Brunckius.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="374" xml:id="frag_0162587f66" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Schol. Theocriti II, 36.</note>
+            <note type="source">Ἱδρύοντο δὲ αὐτὴν (τὴν Ἑκάτην) καὶ πρὸ τῶν θυρῶν, ὡς φησιν Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_0162587f66-l1" xml:lang="grc">Δέσποιν᾽ Ἑκάτη</l>
+              <l n="2" xml:id="frag_0162587f66-l2" xml:lang="grc">τῶν βασιλείων πρόδρομος μελάθρων.</l>
+            </lg>
+            <note type="apparatus">unus liber πρόδομος.</note>
+            <note type="source">Aristides vol. I. p. 17. Ἀλλ᾽ ὦ τῶν βασιλείων πρόδρομος μελάθρων, Αἰσχύλῳ χορὸς ᾐσε, τῶν τε οὐρανίων καὶ τῶν (τῶν omittunt codices) πατρῴων καὶ τῶν ἐν τῇ ἡμετέρᾳ μεγίστων ἃ νύκτωρ μοι προὔφαινες.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="375" xml:id="frag_5d2df5a97e" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Schol. Pind. Pyth. II, 18.</note>
+            <note type="source">Ἐναγώνιος δὲ ὁ Ἑρμῆς, ὡς τῶν ἀγώνων προστάτης, ὡς καὶ Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_5d2df5a97e-l1" xml:lang="grc">Ἐναγώνιε Μαίας καὶ Διὸς Ἑρμᾶ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="376" xml:id="frag_7dcbcb38de" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Schol. Apollon. Rhod. I, 473.</note>
+            <note type="source">Αἰσχύλος τὰς Βάκχας χαλιμάδας ἔφη. De hoc vocabulo dixit Nækius in libro de Chœrilo p. 217. χαλίκρητοι σπονδαὶ ex Æschylo Eustathius p. 1471, 2.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="377" xml:id="frag_15c09e30e0" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Schol. Apollon. Rhod. IV, 1348.</note>
+            <note type="source">Στέρφεσιν αἰγείοις: τοῖς δέρμασιν· ἔνθεν καὶ στερφῶσαι. Ἴβυκος δὲ στερφωτῆρα στρατὸν εἴρηκε τὸν ἔχοντα δέρματα. ὅθεν καὶ παρ᾽ Αἰσχύλῳ ἀξιοῦσι γράφειν μελανοστέρφων γένος, οὐχ, ὥς τινες, μελανοστέρνων· οὐ γὰρ μόνα τὰ στέρνα μέλανα ἔχουσιν, ἀλλὰ καὶ ὅλον τὸ σῶμα. ὅθεν καὶ τὸ κεράμιον στέρφος λέγεται.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="378" xml:id="frag_9204350fed" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Eustathius p. 827, 31.</note>
+            <note type="source">Οὕτω δὲ καὶ Αἰσχύλου μάχλον, φασὶν, ἄμπελον εἰπόντος τὴν ῥεομένην, ἡ κωμῳδία μάχλον εἶπε τὸν ὑπὸ καταφερείας δίυγρον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="379" xml:id="frag_48e918b8ac" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Athenæus III. p. 86 b.</note>
+            <note type="source">Αἰσχύλος δὲ ἐν Πέρσαις τίς ἀνήρει τοὺς νήσους (corr. Πέρσαις τινὰς νήσους) νηριτοτρόφους εἴρηκεν. Neque hæc in Persis leguntur neque vocabulum ὑπόξυλος, quod ex hac</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="380" xml:id="frag_1e4fa032ae" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Ammonius p. 69.</note>
+            <note type="source">Θεωρὸς καὶ θεατὴς διαφέρει. θεωρὸς μὲν γάρ ἐστιν ὁ εἰς θεοὺς πεμπόμενος, θεατὴς δὲ ὁ ἀγώνων καὶ θεάτρων.—καὶ Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_1e4fa032ae-l1" xml:lang="grc">Βοᾷς τοιοῦδε πράγματος θεωρὸς ὤν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="381" xml:id="frag_216c293a42" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Plutarchus Moral. p. 389 a.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_216c293a42-l1" xml:lang="grc">Μιξοβόαν γὰρ, Αἰσχύλος φησὶ, πρέπει</l>
+              <l n="2" xml:id="frag_216c293a42-l2" xml:lang="grc">διθύραμβον ὁμαρτεῖν</l>
+              <l n="3" xml:id="frag_216c293a42-l3" xml:lang="grc">σύγκοινον Διονύσῳ.</l>
+            </lg>
+            <note type="apparatus">σύγκωμον Porsonus ad Toupium vol. IV. p. 490.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="382" xml:id="frag_a6b6fa81f9" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Aristophanes Ranar. v. 913. 914.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_a6b6fa81f9-l1" xml:lang="grc">Δήμητερ ἡ θρέψασα τὴν ἐμὴν φρένα,</l>
+              <l n="2" xml:id="frag_a6b6fa81f9-l2" xml:lang="grc">εἶναί με τῶν σῶν ἄξιον μυστηρίων.</l>
+            </lg>
+            <note type="source">ubi scholiasta, Παρόσον Ἐλευσίνιος τὸν δῆμον ὁ Αἰσχύλος ἦν· ἢ ὅτι ἐν τοῖς Ἐλευσινίοις ἐτελεῖτο τὰ δράματα τοῦ Αἰσχύλου. ἐστὶ δὲ τοῦτο τὸ ἔπος Αἰσχύλου.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="383" xml:id="frag_0ced6c8ca1" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Macrobius Saturnal. I, 18.</note>
+            <note type="source">Euripides in Licymnio Apollinem Liberumque unum eundemque deum esse significans scribit. Ad eandem sententiam Æschylus</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_0ced6c8ca1-l1" xml:lang="grc">Ὁ κισσεὺς Ἀπόλλων, ὁ Καβαῖος</l>
+              <l n="2" xml:id="frag_0ced6c8ca1-l2" xml:lang="grc">Λαμπραῖσιν ἀστραπαῖσι λαμπάδων σθένει.</l>
+            </lg>
+            <note type="apparatus">Σαβαῖος Barnesius ad Eurip. Bacchar. v. 408. Conf. Lobeck. Aglaoph. p. 80.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="384" xml:id="frag_82fe21cedb" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Stobæus CXXI, 17. Αἰσχύλου (?)</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_82fe21cedb-l1" xml:lang="grc">Ζωῆς πονηρᾶς θάνατος εὐπορώτερος.</l>
+              <l n="2" xml:id="frag_82fe21cedb-l2" xml:lang="grc">τὸ μὴ γενέσθαι δ᾽ ἐστὶν ἢ πεφυκέναι</l>
+              <l n="3" xml:id="frag_82fe21cedb-l3" xml:lang="grc">κρείσσον κακῶς πάσχοντα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="385" xml:id="frag_a4e3bf5825" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Photius p. 188, 24.</note>
+            <note type="source">Κυντερώτατα καὶ κυντατώτατα λέγουσιν. Εὔβουλος—Φερεκράτης—καὶ Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="386" xml:id="frag_7c5c7facbb" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Photius p. 206, 18.</note>
+            <note type="source">Λάμπουρις: ἡ ἀλώπηξ παρ᾽ Αἰσχύλῳ. Æschyli nomen omittit Hesychius.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="387" xml:id="frag_22f75ad548" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Photius p. 246, 23.</note>
+            <note type="source">Μαραθώνιον ποίημα: Αἰσχύλος. εὐδοκίμησε γὰρ ἐν τῷ Μαραθῶνι σὺν τῷ ἀδελφῷ Κυναιγείρῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="388" xml:id="frag_f934144865" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Photius p. 286, 8.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_f934144865-l1" xml:lang="grc">Ναρᾶς τε Δίρκης· ῥευστικῆς. Αἰσχύλος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="389" xml:id="frag_b933b01d21" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Photius p. 331, 2.</note>
+            <note type="source">Ὁμάμαιτα: τὰ οὐρήματα. Αἰσχύλος. Hesychius, Ὁμίχματα: οὐρήματα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="390" xml:id="frag_b2ec8cb240" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Photius p. 353, 17.</note>
+            <note type="source">Ὀστράκων: τῶν τοῦ ὠοῦ. Αἰσχύλος. Hesychius, Ὀστράκων:</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_b2ec8cb240-l1" xml:lang="grc">Ἀπτῆνα, τυτθὸν, ἄρτι γυμνὸν ὀστράκων.</l>
+            </lg>
+            <note type="source">ἀντὶ τοῦ ὠῶν. τινὲς δὲ κελύφων.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="391" xml:id="frag_dd6251c1ba" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Photius p. 361, 11.</note>
+            <note type="source">Οὐρανιζέτω: πρὸς τὸν οὐρανὸν διικνείσθω. Αἰσχύλος. Οὐρανίζετο: πρὸς τὸν οὐρανὸν διικνεῖτο.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="392" xml:id="frag_c5f51ef597" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Photius p. 427, 9.</note>
+            <note type="source">Πεφρασμένος: παρεσκευασμένος εἰς τὸ φρασθῆναι, προσεκτικὴν ἔχων διάνοιαν. Αἰσχύλος. Æschyli nomen omisit Hesychius.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="393" xml:id="frag_3a80371a67" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Photius p. 447, 14.</note>
+            <note type="source">Πρέψαι: τὸ ὁμοιώσαι. Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="394" xml:id="frag_b40bd98122" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Photius p. 497, 14.</note>
+            <note type="source">Σάλα: φροντίς. οὕτως</note>
+          </div>
+        <pb n="614" facs="urn:hathi:iau.31858007086675:scan:622"/>
+          <div type="textpart" subtype="fragment" n="395" xml:id="frag_23850decd6" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Schol. Homeri Iliad. ξ. 200. Ὁμοίως δὲ καὶ Αἰσχύλος τὰς ἐν κύκλῳ ἑστώσας ἐν ἀπείρονι σχήματί φησιν ἵστασθαι</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_23850decd6-l1" xml:lang="grc">Ὑμεῖς δὲ βωμὸν τόνδε καὶ πυρὸς σέλας</l>
+              <l n="2" xml:id="frag_23850decd6-l2" xml:lang="grc">κύκλῳ περίστητ᾽, ἐν λόχῳ τ᾽ ἀπείρονι</l>
+              <l n="3" xml:id="frag_23850decd6-l3" xml:lang="grc">εὔξασθε.</l>
+            </lg>
+            <note type="commentary">Vulgo παρίστατε. Correxit Hermannus Opusc. vol. II. p. 325. Eadem in schol. ad Odyss. a, 98. ubi περίστατε.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="396" xml:id="frag_cba2377a56" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Eustathius p. 995, 1. Τρωτὸς ὅλον ἦν ὁ Αἴας τὸ σῶμα καὶ οὐ μόνον τὰ περὶ μασχάλην κατὰ Αἰσχύλον καὶ ἄλλους.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="397" xml:id="frag_f6fa0174c3" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Schol. Aristoph. Avium v. 1679. Καὶ Αἰσχύλος τὸ βαρβαρίζειν χελιδονίζειν φησί. Conf. Agam. v. 1050.</note>
+            <quote>Χελιδόνος δίκην ἀγνῶτα φωνὴν βάρβαρον κεκτημένη.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="398" xml:id="frag_b34f21e9c7" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Pausanias VIII, 37, 6. Δήμητρος δὲ Ἄρτεμιν θυγατέρα εἶναι, καὶ οὐ Λητοῦς, ὄντα Αἰγυπτίων τὸν λόγον Αἰσχύλος ἐδίδαξεν Εὐφορίωνος τοὺς Ἕλληνας.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="399" xml:id="frag_9268476bde" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Hesychius, Ἀλαιός: ὁ παλαιὸς, ἄφρων. Αἰσχύλος. Immo ἀλεός.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="400" xml:id="frag_0ce94db31d" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Athenæus VIII. p. 362 f. Τὰς δὲ τοιαύτας εὐωχίας Αἰσχύλος καὶ Εὐριπίδης εἰλαπίνας ἀπὸ τοῦ λελαπάχθαι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="401" xml:id="frag_f93ff39fbf" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymolog. Gudianum p. 378, 38. Μανὸν ἔλεγον τὸ ἀραιὸν, ὡς καὶ Αἰσχύλος</note>
+            <quote>Ἐν μανοστήμοις πέπλοις</quote>
+            <note type="commentary">τοῦτ᾽ ἔστιν ἀραιοῖς. Eadem ex aliis codicibus ediderunt Salmasius ad Tertullianum de pallio p. 41. Ruhnkenius ad Timæum p. 177. Blochius ad Etymolog. M. II. p. 957. μανοστήμοις ex hoc loco Hesychius. Id prima syllaba correpta dixisse poeta videtur. Quo non refutatur Phrynichi (in Bekkeri Anecdotis I. p. 51.) præceptum de prosodia adjectivi μανός.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="402" xml:id="frag_73b8a13ec0" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae" sameAs="urn:cts:greekLit:tlg0085.incertae.nauck1889-grc1:336">
+            <note type="source">Hesychius, Ἀσκεύοις: Ψιλοῖς, ἀπαρασκεύοις. Αἰσχύλος Ἀγαμέμνονι. Fortasse in perdita Choephororum parte lectum fuit. Ita γονίας, quod in Choephor. v. 1067. legitur, ex Agamemnone affert Hesychius, in qua fabula id non magis legitur quam quæ grammaticus Bekkeri p. 353, 11. attulit, χαλκὸν ἀθέριτον ἀσπίδος (ἀθέριστον ἀσπίδων Blomfildus) ὑπερτενῆ. De qua re dixit Blomfildus in præfat. ad Agamemn. p. IX. X.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="403" xml:id="frag_5db1d1d9fa" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Proverbium ab Zenobio VI, 14. ex Æschyli Ajace Locrensi allatum ad Sophocleam fabulam retuli. Contrario errore scholiasta Promethei v. 435. Phryges Æschyli Sophocli tribuit.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="404" xml:id="frag_21196349a6" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Etymolog. Gudian. p. 85, 44. Ἀστεμφής:—παρὰ τὸ στέμβω, ὁ σημαίνει τὸ κινεῖν συνεχῶς, οὐ μέμνηται Αἰσχύλος. Ita hæc emendanda ex codicibus Parisinis apud Bastium ad Gregor. p. 828.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="405" xml:id="frag_07de13cf78" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Phrynichus Bekkeri p. 6, 13. Ἄτεγκτος παρηγορήμασιν: Αἰσχύλος. δυτικῇ ἀντὶ γενικῆς Ἀττικῷ ἐχρήσατο ἤθει.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="406" xml:id="frag_85b0bc02c4" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Phrynichus Bekkeri p. 6, 16. Ἀπαίρειν: τὸ μὲν πλεῖστον οἱ Ἀττικοὶ ἐπὶ πλοῦ τιθέασι, πλὴν καὶ ἐπὶ τῆς ὁδοιπορίας, ὡς Αἰσχύλος καὶ Ἀριστοφάνης.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="407" xml:id="frag_7634a58621" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Phrynichus Bekkeri, p. 20, 13. Ἀναγκόδακρυς: ὁ πρὸς ἀνάγκην δακρύων καὶ μὴ ἐκ πάθους τινὸς ἢ συμφορᾶς. Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="408" xml:id="frag_378ce1a8cf" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Phrynichus Bekkeri p. 23, 12. Ἀκταινῶσαι:—Αἰσχύλος</note>
+            <quote>οὐκέτ᾽ ἀκταίνω</quote>
+            <note type="commentary">φησὶ, βαρυτόνως, οἷον οὐκέτι ὀρθοῦν δύναμαι ἐμαυτήν. Ad Eumenid. v. 36. ὡς μήτε σωκεῖν μήτε μ᾽ ἀκταίνειν βάσιν retulit Ruhnkenius ad Timæum p. 21. qui aliorum grammaticorum de hoc verbo locos indicat.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="409" xml:id="frag_3301d5a737" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Phrynichus Bekkeri p. 48, 21. Αἰσχύλος</note>
+            <quote>Μὴ κακοῖς ἰῶ κακά.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="410" xml:id="frag_819bdf6400" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Grammaticus Bekkeri I. p. 337, 8. Αἰσχύλος δέ φησι καὶ</note>
+            <quote>φρὴν ἀγέλαστος.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="411" xml:id="frag_20b669fa5d" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Grammaticus Bekkeri I. p. 347, 32. Ἄειλα: τὰ πολύσκια χωρία κατὰ στέρησιν τῆς ἔλης. οὕτως Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="412" xml:id="frag_78ab5a09ef" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Grammaticus Bekkeri I. p. 349, 6. Ἀηδόνειος θρῆνος: Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_78ab5a09ef-l1" xml:lang="grc">Θρηνεῖ δὲ γόον τὸν ἀηδόνιον.</l>
+            </lg>
+            <note type="commentary">Codex ἀηδόνειον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="413" xml:id="frag_dafe32a114" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Grammaticus Bekkeri I. p. 363, 17. Αἰῶ τὸν αἰῶνα κατὰ ἀποκοπὴν Αἰσχύλος εἶπεν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="414" xml:id="frag_34d6897e90" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Grammaticus Bekkeri I. p. 368, 29. Ἀκνίσωτος οἶκος: ὁ ἄνευ πυρὸς καὶ κνίσης. οὕτως Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="415" xml:id="frag_cdfe88713f" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Grammaticus Bekkeri I. p. 372, 9. Ἄκουε τὰς ἐμὰς ἐπιστολάς: ἀντὶ τοῦ τῶν ἐμῶν ἐπιστολῶν. οὕτως Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="416" xml:id="frag_bfa1d2daf8" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae" sameAs="urn:cts:greekLit:tlg0085.incertae.nauck1889-grc1:294">
+            <note type="source">Grammaticus Bekkeri I. p. 382, 30. Αἰσχύλος</note>
+            <quote>μέγαν ἀλάστορον</quote>
+            <note type="commentary">εἶπεν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="417" xml:id="frag_24ad441b69" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Grammaticus Bekkeri I. p. 383, 31. Ἀλκάθω καὶ ἀλκάθειν (immo ἀλκαθεῖν): Σοφοκλῆς καὶ Αἰσχύλος. σημαίνει δὲ τὸ βοηθεῖν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="418" xml:id="frag_2b9a563dc1" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Grammaticus Bekkeri I. p. 421, 5. Ἀπέλλητοι: ἀνταγωνισταί. οὕτως Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="419" xml:id="frag_3bed4d5212" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Grammaticus Bekkeri I. p. 450, 4. Ἀρχῆθεν: οὐκ ἔστι παρὰ τοῖς Ἀττικοῖς πλὴν παρ᾽ Αἰσχύλῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="420" xml:id="frag_3c2818c096" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Grammaticus Bekkeri I. p. 450, 30. Ἄσαι: βλάψαι. οὕτως Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="421" xml:id="frag_6131b3a242" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Grammaticus Bekkeri I. p. 467, 9. Αὐτόκρανον λόγον: τὸν ἐξ ἑαυτοῦ τὸ τέλος ἐπιφέροντα. οὕτως Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="422" xml:id="frag_3a7676f51c" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Chœroboscus Bekkeri III. p. 1196. Τοῦ βοῦς ἡ γενικὴ οὐ μόνον βοὸς, ἀλλὰ καὶ τοῦ βοῦ παρὰ Σοφοκλεῖ ἐν Ἰνάχῳ καὶ παρὰ τῷ Αἰσχύλῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="423" xml:id="frag_a1c3069a9e" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Chœroboscus Bekkeri p. 1391. Κραταίπιλος ὁ ἰσχυρὸν πίλιον ἔχων παρὰ Αἰσχύλῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="424" xml:id="frag_e178f9f236" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Chœroboscus Bekkeri p. 1408. Πάλμυς Πάλμυος· τὸ γὰρ Πάλμυδος διὰ τοῦ -δος κλιθὲν παρ᾽ Αἰσχύλῳ ἡμάρτηται. ἔστι δὲ ὄνομα κύριον βασιλέως.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="425" xml:id="frag_cfe7e5457d" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Scholiasta Aristophanis Lysistr. v. 1259. Μολὺς δ᾽ ἀμφὶ τὰς γένυας ἀφρὸς ἦνσει: πρὸς τοὺς παρὰ τῷ Ἀρχιλόχῳ· πολὺς δὲ ἀφρὸς ἦν περὶ τὸ στόμα. καὶ Σοφοκλῆς (Electr. v. 719.) Αἰσχύλος δὲ</note>
+            <quote>Ἀφρὸς βορῆς ἐρρυηκότα στόμα.</quote>
+            <note type="commentary">Porsonus Ἀφρὸς βρότειος ἐρρύη κατὰ στόμα.</note>
+          </div>
+        <pb n="615" facs="urn:hathi:iau.31858007086675:scan:623"/>
+          <div type="textpart" subtype="fragment" n="426" xml:id="frag_54445d96b3" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Harpocration, Μαλακίζομεν Δημοσθένης θ΄ Φιλιππικῶν φησὶ, “μένομεν καὶ μαλακιζόμεθα.” ἐν ἐνίοις γράφεται μαλκίομεν, ὅπερ δηλοῖ τὸν ὄρρον φρίττειν. Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_54445d96b3-l1" xml:lang="grc">Ἔλα, δίωκ᾿ ἀκμῆτι μαλκίων ποδί.</l>
+            </lg>
+            <note type="commentary">Legebatur ἐλαδίω (vel ελλαδίῳ) κεκμῆτι. Correxit Hermannus Opusc. vol. VII. p. 194.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="427" xml:id="frag_2ae27e397e" corresp="urn:cite2:perseus:fragmentarycollections.v1:incertae">
+            <note type="source">Æschyli de Saturno locus quidam memoratur in scholio lacero codicis Vaticani ad Rhesum v. 36.</note>
+          </div>
+        </div></body></text>
+</TEI>

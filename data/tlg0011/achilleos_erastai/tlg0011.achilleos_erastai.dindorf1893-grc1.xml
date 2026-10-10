@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-achilleos_erastai-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, Ἀχιλλέως Ἐρασταί: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.achilleos_erastai; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.achilleos_erastai.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.achilleos_erastai.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achilleos_erastai"><head>Ἀχιλλέως Ἐρασταί</head><div type="textpart" subtype="fragment" n="162" xml:id="fragment-achilleos_erastai-dindorf1893_grc1-162" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achilleos_erastai">
+            <note type="source">Stobæus LXIV, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Νόσημ᾽ ἔρωτος τοῦτ᾽ ἐφίμερον κακόν·</l>
+              <l n="2" xml:lang="grc">ἔχοιμ᾽ ἂν αὐτὸ μὴ κακῶς ἀπεικάσαι,</l>
+              <l n="3" xml:lang="grc">ὅταν πάγου φανέντος αἰθρίου χεροῖν</l>
+              <l n="4" xml:lang="grc">κρύσταλλον ἁρπάσωσι παῖδες ἀσταγῆ.</l>
+              <l n="5" xml:lang="grc">τὰ πρῶτ᾽ ἔχουσιν ἡδονὰς ποταινίους,</l>
+              <l n="6" xml:lang="grc">τέλος δ᾽ ὁ χυμὸς οὔθ᾽ ὅπως ἀφῇ θέλει</l>
+              <l n="7" xml:lang="grc">οὔτ᾽ ἐν χεροῖν τὸ κτῆμα σύμφορον μένειν.</l>
+              <l n="8" xml:lang="grc">οὕτω γε τοὺς ἐρῶντας αὑτὸς ἵμερος</l>
+              <l n="9" xml:lang="grc">δρᾶν καὶ τὸ μὴ δρᾶν πολλάκις προΐεται.</l>
+            </lg>
+            <note type="commentary">Plutarchus Moral. p. 508 c. Ὥσπερ οἱ παῖδες τὸν κρύσταλλον οὔτε κατέχειν οὔτε ἀφεῖναι θέλουσι. Zenobius V, 58. Ὁ παῖς τὸν κρύσταλλον. ἐπὶ τῶν μήτε κατέχειν δυναμένων μήτε μεθεῖναι βουλομένων ἡ παροιμία εἴρηται. μέμνηται αὐτῆς Σοφοκλῆς Ἀχιλλέως ἐρασταῖς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="163" xml:id="fragment-achilleos_erastai-dindorf1893_grc1-163" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achilleos_erastai" sameAs="urn:cts:greekLit:tlg0011.achilleos_erastai.nauck1889grc1:154">
+            <note type="source">Scholiasta Pindari Nem. III, 60. Διωκομένη ἡ Θέτις ὑπὸ τοῦ Πηλέως μετέβαλλε τὰς μορφάς, ὁτὲ μὲν εἰς πῦρ, ὁτὲ δὲ εἰς θηρία. ὁ δὲ καρτερήσας περιγέγονε, περὶ δὲ τῆς μεταμορφώσεως αὐτῆς καὶ Σοφοκλῆς φησιν ἐν Ἀχιλλέως ἐρασταῖς</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τίς γάρ με μόχθος οὐκ ἐπεστάτει; λέων</l>
+              <l n="2" xml:lang="grc">δράκων τε, πῦρ, ὕδωρ.</l>
+            </lg>
+            <note type="source">Schol. Apollonii Rh. IV, 816. Σοφοκλῆς δὲ ἐν Ἀχιλλέως ἐρασταῖς φησιν ὑπὸ Πηλέως λοιδορηθεῖσαν τὴν Θέτιν καταλιπεῖν αὐτόν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="164" xml:id="fragment-achilleos_erastai-dindorf1893_grc1-164" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achilleos_erastai" sameAs="urn:cts:greekLit:tlg0011.achilleos_erastai.nauck1889grc1:156">
+            <note type="source">Schol. Pindari Nem. VI, 90. Οὐκ ἐκ παραδρομῆς δὲ ζάκοτον εἶπε τὸ δόρυ τοῦ Ἀχιλλέως ἀλλ᾽ ὅτι ἰδιώτερον παρὰ τὰ ἄλλα κατεσκεύαστο. δίκρουν γάρ, ὥστε δύο αἰχμὰς ἔχειν καὶ μιᾷ βολῇ δισσὰ τὰ τραύματα ἀπεργάζεσθαι.—Σοφοκλῆς ἐν Ἀχιλλέως ἐρασταῖς</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἤ δορὸς διχόστομον πλᾶκτρον· δίπτυχοι γὰρ ὀδύναι μιν</l>
+              <l n="2" xml:lang="grc">ἤρικον Ἀχιλληίου δόρατος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="165" xml:id="fragment-achilleos_erastai-dindorf1893_grc1-165" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achilleos_erastai" sameAs="urn:cts:greekLit:tlg0011.achilleos_erastai.nauck1889grc1:157">
+            <note type="source">Scholiasta Aristoph. Vespar. 1021. Παιδικὰ ἐπὶ ἀρρένων καὶ ἐν τοῖς Ἀχιλλέως ἐρασταῖς ἐξείληπται. ἐπιδόντων γάρ τι τῶν σατύρων εἰς τὴν γυναικείαν ἐπιθυμίαν φησὶν ὁ Φοίνιξ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Παπαῖ, τὰ παιδίχ᾽, ὡς ὁρᾷς, ἀπώλεσας.</l>
+            </lg>
+            <note type="source">Eadem Photius p. 369, 10. Suidas in παιδικά, grammaticus Coislinianus apud Bachmannum Anecd. I. p. 324. ex quo Montefalcon. p. 474. ὡς ὁρῶσ᾽ ἀπώλεσας edidit, Bachmannus, ex conjectura ut videtur, ὡς ὁρῶ σ᾽ ἀπώλεσαν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="166" xml:id="fragment-achilleos_erastai-dindorf1893_grc1-166" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achilleos_erastai" sameAs="urn:cts:greekLit:tlg0011.achilleos_erastai.nauck1889grc1:158">
+            <note type="source">Athenæus IX. p. 401 d. Τίς μνημονεύει, κατὰ τὸ σύνθετον ὁμοίως ἡμῖν, συάγρου, ἐπὶ τοῦ ἀγρίου σύος; Σοφοκλῆς μὲν γὰρ ἐν Ἀχιλλέως ἐρασταῖς ἐπὶ κυνὸς ἔταξε τοὔνομα, ἀπὸ τοῦ σῦς ἀγρεύειν, λέγων</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σὺ δ᾽, ὦ σύαγρε, Πηλιωτικὸν τρέφος.</l>
+            </lg>
+            <note type="source">Epitome et Eustathius p. 1872, 12. βρέφος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="167" xml:id="fragment-achilleos_erastai-dindorf1893_grc1-167" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achilleos_erastai" sameAs="urn:cts:greekLit:tlg0011.achilleos_erastai.nauck1889grc1:159">
+            <note type="source">Scholiasta Sophoclis Edip. Col. v. 481. Ὕδατος, μελίσσης: ὕδατος καὶ μέλιτος. ἀπὸ γὰρ τοῦ ποιοῦντος τὸ ποιούμενον. καὶ ἐν Ἐρασταῖς</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γλώσσης μελίσσης τῷ κατερρυηκότι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="168" xml:id="fragment-achilleos_erastai-dindorf1893_grc1-168" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achilleos_erastai" sameAs="urn:cts:greekLit:tlg0011.achilleos_erastai.nauck1889grc1:160">
+            <note type="source">Chœroboscus p. 463, 27. Gaisf.—ἀρῶξιν, παρὰ Σοφοκλεῖ ἐν Ἀχιλλέως ἐρασταῖς</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁ δ᾽ ἔνθ᾽ ὅπλοις ἀρῶξιν Ἡφαίστου τεχνίτου.</l>
+            </lg>
+            <note type="commentary">τοῦτο γὰρ κατὰ μεταπλασμὸν ἀπὸ τοῦ ἀρρήκτοις γενόμενον—. Codex ὁ δὲ ἔνθ᾽. τεχνίτου in τέχνῃ mutandum videtur. Ἐνδύνθ᾽ ὅπλοις ἀρρῶξιν Ἡφαίστου τέχνῃ Lobeck. Paralip. p. 287.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="169" xml:id="fragment-achilleos_erastai-dindorf1893_grc1-169" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achilleos_erastai">
+            <note type="source">Hesychius, Ὀμμάτειος πόθος: διὰ τὸ ἐκ τοῦ ὁρᾶν ἁλίσκεσθαι ἔρωτι. ἐκ τοῦ γὰρ ἐσορᾶν γίνεται ἀνθρώποις ἐρᾶν. καὶ ἐν Ἀχιλλέως ἐρασταῖς ὀμματοπάλογχα φησίν. Casaubonus ὀμμάτων ἄπο λόγχας φησίν recte, nisi quod ἀφίησιν scribere debebat.</note>
+          </div>
+        </div></body></text></TEI>

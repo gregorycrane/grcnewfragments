@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-philoktetes-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΦΙΛΟΚΤΗΤΗΣ ΕΝ ΤΡΟΙΑΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.philoktetes; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.philoktetes.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.philoktetes.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_philoktetes"><head>ΦΙΛΟΚΤΗΤΗΣ ΕΝ ΤΡΟΙΑΙ</head><div type="textpart" subtype="fragment" n="626" xml:id="fragment-philoktetes-dindorf1893_grc1-626" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_philoktetes" sameAs="urn:cts:greekLit:tlg0011.philoktetes.pearson1917-grc1:698">
+            <note type="source">Stobæus CXXI, 7. Σ. Φιλοκτήτου</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀλλ᾽ ἔσθ᾽ ὁ θάνατος λοῖσθος ἰατρὸς νόσων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="627" xml:id="fragment-philoktetes-dindorf1893_grc1-627" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_philoktetes">
+            <note type="source">Priscianus XVIII. vol. II, p. 180. ed. Krehl.</note>
+            <quote>Σοφοκλῆς ἐν Φιλοκτήτῃ τῷ ἐν Τροίᾳ</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="628" xml:id="fragment-philoktetes-dindorf1893_grc1-628" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_philoktetes" sameAs="urn:cts:greekLit:tlg0011.philoktetes.nauck1889grc1:638">
+            <note type="source">Hesychius,</note>
+            <quote>Δράκοντα· τὸ κηρύκιον. Σ. Φιλοκτήτῃ.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="629" xml:id="fragment-philoktetes-dindorf1893_grc1-629" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_philoktetes" sameAs="urn:cts:greekLit:tlg0011.philoktetes.nauck1889grc1:639">
+            <note type="source">Hesychius,</note>
+            <quote>Δρυοπαγῆ στόλον· τὸν πάσσαλον. Σ. Φιλοκτήτῃ.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="630" xml:id="fragment-philoktetes-dindorf1893_grc1-630" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_philoktetes">
+            <note type="source">Hesychius,</note>
+            <quote>Ζηλῶ· μακαρίζω. Σ. Φιλοκτήτῃ ἐν Τροίᾳ.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="631" xml:id="fragment-philoktetes-dindorf1893_grc1-631" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_philoktetes" sameAs="urn:cts:greekLit:tlg0011.philoktetes.nauck1889grc1:637">
+            <note type="source">Hesychius,</note>
+            <quote>Ῥακτηρίοις κέντροισιν· ἀντὶ τοῦ ταῖς κώπαις, διὰ τὸ ἀράττεσθαι. καὶ ἐν Φιλοκτήτῃ τῷ ἐν Τροίᾳ</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μέλῃ βοῶν ἄναυδα καὶ ῥακτήρια</l>
+            </lg>
+            <note type="commentary">ἀντὶ τοῦ ψοφώδη καὶ θορυβώδη.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="632" xml:id="fragment-philoktetes-dindorf1893_grc1-632" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_philoktetes">
+            <note type="commentary">Ad hanc fabulam, quam satyricam fuisse conjicit, Hermannus in præfat. ad Philoct. p. X. refert versus duo quos ad Philoctetam dictos sine poetæ nomine attulit Plutarchus Vit. p. 89 e. Moral. p. 789 a.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τίς δ᾽ ἄν σε νύμφη, τίς δὲ παρθένος νέα</l>
+              <l n="2" xml:lang="grc">δέξαιτ᾽ ἄν; εὖ γοῦν ὡς γαμεῖν ἔχεις τάλας.</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

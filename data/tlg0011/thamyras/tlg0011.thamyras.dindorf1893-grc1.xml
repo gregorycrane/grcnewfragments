@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-thamyras-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΘΑΜΥΡΑΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.thamyras; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.thamyras.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.thamyras.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_thamyras"><head>ΘΑΜΥΡΑΣ</head><div type="textpart" subtype="fragment" n="227" xml:id="fragment-thamyras-dindorf1893_grc1-227" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_thamyras" sameAs="urn:cts:greekLit:tlg0011.thamyras.nauck1889grc1:220">
+            <note type="source">Athenæus I. p. 20. Σοφοκλῆς δὲ πρὸς τῷ καλὸς γεγενῆσθαι τὴν ὥραν ἦν καὶ ὀρχηστικὴν δεδιδαγμένος, καὶ μουσικὴν ἔτι παῖς ὢν παρὰ Λάμπρῳ καὶ τὸν Θάμυριν διδάσκων αὐτὸς ἐκιθάρισεν. ἄκρως δὲ ἐσφαίρισεν, ὅτε τὴν Ναυσικάαν καθῆκε.</note>
+            <note type="source">Pollux IV, 75. Μόναυλος εὕρημα μέν ἐστιν Αἰγυπτίων, μέμνηται δὲ αὐτοῦ Σ. ἐν Θαμύρι. Athenæus IV. p. 175. Τοῦ δὲ μοναύλου μνημονεύει Σοφοκλῆς μὲν ἐν Θαμύρᾳ οὕτως</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὤιχωκε γὰρ κροτητὰ πηκτίδων μέλη,</l>
+              <l n="2" xml:lang="grc">λύρα μοναύλοις τε χειμωντεως</l>
+              <l n="3" xml:lang="grc">ναὸς στέρημα κωμασάσης.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="228" xml:id="fragment-thamyras-dindorf1893_grc1-228" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_thamyras" sameAs="urn:cts:greekLit:tlg0011.thamyras.nauck1889grc1:217">
+            <note type="source">Athenæus XIV. p. 637 a. Σοφοκλῆς δ᾽ ἐν Θαμύρᾳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πηκταὶ δὲ λύραι καὶ μαγάδιδες</l>
+              <l n="2" xml:lang="grc">τὰ τ᾽ ἐν Ἕλλησι ξόαν᾽ ἡδυμελῆ.</l>
+            </lg>
+            <note type="source">Photius p. 239, 15. Μάγαδις : ψαλτικὸν ὄργανον. οὕτω Σοφοκλῆς. De alio instrumento, τριγώνῳ, quod ex Thamyra memoratur, vide infra fragm. 361.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="229" xml:id="fragment-thamyras-dindorf1893_grc1-229" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_thamyras" sameAs="urn:cts:greekLit:tlg0011.thamyras.nauck1889grc1:216">
+            <note type="source">Eustathius p. 358, 40. Ὅτι δὲ Θρακικὸς καὶ ὁ Ἄθως, οὗ μνεία παρὰ τῷ ποιητῇ, δηλοῖ, φασὶ, Σοφοκλῆς ἐν Θαμύριδι εἰπὼν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Θρῄσσαν σκοπιὰν Ζηνὸς Ἀθῴου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="230" xml:id="fragment-thamyras-dindorf1893_grc1-230" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_thamyras" sameAs="urn:cts:greekLit:tlg0011.thamyras.nauck1889grc1:221">
+            <note type="source">Scholiasta Edipodis Colon. 378. Ἄργος κοῖλον-καὶ ἐν Θαμύρᾳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐκ μὲν Ἐριχθονίου ποτιμάστιον ἔσχεθε κοῦρον</l>
+              <l n="2" xml:lang="grc">Αὐτόλυκον, πολέων κτεάνων σίνιν Ἄργεϊ κοίλῳ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="231" xml:id="fragment-thamyras-dindorf1893_grc1-231" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_thamyras" sameAs="urn:cts:greekLit:tlg0011.thamyras.nauck1889grc1:222">
+            <note type="source">Antiatticista p. 105, 27. Κάνναβις: Σ. Θαμύρᾳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="232" xml:id="fragment-thamyras-dindorf1893_grc1-232" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_thamyras" sameAs="urn:cts:greekLit:tlg0011.thamyras.nauck1889grc1:223">
+            <note type="source">Plutarchus Moral. p. 455 d. Ἀλλ᾽ ὀργιζόμεθα καὶ πολεμίοις καὶ φίλοις, καὶ τέκνοις καὶ γονεῦσι, καὶ θεοῖς νὴ Δία, καὶ θηρίοις καὶ ἀψύχοις σκεύεσιν, ὡς ὁ Θάμυρις</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ῥηγνὺς χρυσόδετον κέρας,</l>
+              <l n="2" xml:lang="grc">ῥηγνὺς ἁρμονίαν χορδοτόνου λύρας.</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

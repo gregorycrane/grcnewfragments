@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUPOLIS, ΦΙΛΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Eupolis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0461.philoi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0461.philoi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0461.philoi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi"><head>ΦΙΛΟΙ</head><div type="textpart" subtype="fragment" n="265" xml:id="kock-0461-philoi-265" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-philoi-265-l1" xml:lang="grc">νὴ τὸν Ποσειδῶ, κοὐδέποτέ γ᾽ ἴσχει θύρα.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="266" xml:id="kock-0461-philoi-266" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-philoi-266-l1" xml:lang="grc">οὐ δεινὰ ταῦτα δὲ ’Αργείας φορεῖν</l>
+                <l n="2" xml:id="kock-0461-philoi-266-l2" xml:lang="grc">σχιστὰς ἐνεργεῖν.</l>
+              </lg>
+              <note type="apparatus">Ammonius Differ. verb. p. 133 σχισταί· τὰ ὑποδήματα. Εὔπολις Φίλοις κτλ. φορεῖν Cobet. N. 1. 156] φέρειν. ex Ptol. Ascalon. §. 210 varietatem ἐνεγκεῖν enotat Valckenaer. Scaligeri emendationem οὐ δ. ταῦτά γ’ ’Αργείας φ. σχιστάς; ἐνεργεῖν; non intellego. Pollux 7, 85 σχισταὶ πολυτελὲς ὑπόδημα καὶ θρυπτικόν· ταύτας δὲ καὶ λεπτοσχιδεῖς ὠνόμαζον. et 88 αἱ δὲ ’Αργεῖαι παντὶ δῆλον ὡς ’Αργείων τὸ εὕρημα. Hesych. ’Αργεῖαι· ὑποδήματα πολυτελῆ γυναικεῖα. Fritzschius Ran. p. 195 οὐ δεινὸν ἐνταυθὶ μὲν ’Αργείας φέρειν, σχιστὰς δ’ ἐν ’Αργει; ‘nonne indignum est hic (Athenis) Argivos calceos, scissos autem gestare Argis?’ Cobetus οὐ δεινὰ ταῦτα δ’ ἐστίν; ’Αργείας φορεῖν σχιστάς; ‘exprobrat alicui nescio quis cultum nimis elegantem’. atque ita fere Herwerdenus Obs. crit. 26 (δή ’στιν), qui tamen postea (Stud. crit. 77) aliam emendationem admodum contortam excogitavit. at σχιστάς et ’Αργείας easdem fuisse non credo, quamquam ita etiam Wilamow. 36. 7 not. 23.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="267" xml:id="kock-0461-philoi-267" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-philoi-267-l1" xml:lang="grc">ῥέγκειν δὲ τοὺς ὅλμους . οἴμοι τῶν κακῶν.</l>
+              </lg>
+              <note type="apparatus">Photius ὅλμοι καὶ ὑφόλμια· ἐπὶ αὐλῶν. Εὔπολις Φίλοις κτλ. ὅλμους ἄν Meinekius. ἰώ μοι τῶν κακῶν Herwerdenus Obs. crit 27 aut convicium his verbis contineri in inperitum tibicinem censens aut tibiarum usum reprehendi tam crebrum, ut ligulae tristem sortem querentes exclament ‘vae mihi’. prius verum videtur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="268" xml:id="kock-0461-philoi-268" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-philoi-268-l1" xml:lang="grc">οὐκ ἐσωφρόνησας, ὦ πρεσβῦτα, τὴν κατάστασιν</l>
+                <l n="2" xml:id="kock-0461-philoi-268-l2" xml:lang="grc">τήνδε λαμβάνων ἄφνω πρὶν καὶ μαθεῖν τὴν ἱππικήν.</l>
+              </lg>
+              <note type="apparatus">Harpocratio et sine fabulae nomine Photius et Suidas κατάστασις· . . . ἔοικεν ἀργύριον εἶναι ὅπερ οἱ κατασταθέντες ἱππεῖς ἐλάμβανον ἐκ τοῦ δημοσίου ἐπὶ τῇ καταστάσει . . . παρεμφαίνει τοῦτο καὶ Εὔπολις Φίλοις κτλ. cf. Boeckh. Oec. Att.² I 354. non intellego τήνδε. an scribendum τῆσδε et cogitandum de ea arte equestri, quam Athenienses verbo κελητίζειν significabant? Aristoph. Vesp. 501.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="269" xml:id="kock-0461-philoi-269" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-philoi-269-l1" xml:lang="grc">Χῖος δεσπότην ὠνήσατο</l>
+              </lg>
+              <note type="source">Athenaeus 6, 266 f τὸ δαιμόνιον (τοῖς Χίοις) ἐμήνισε πρώτοις χρησαμένοις ὠνητοῖς ἀνδραπόδοις . . . μήποτ’ οὖν διὰ ταῦτα καὶ ἡ παροιμία . . . ᾗ κέχρηται Εὔπολις ἐν Φίλοις. Eustathius 1462, 36.</note>
+              <note type="apparatus">offendit forma Ionica (ὠνήσατο). cf. Lobeck. Phryn. 138. quocirca Meinekius aut Athenaeum hoc proverbium confudisse cum alio quodam aut Ionicam formam in proverbio Ionico servatam, Cobetus Mnem. V 108. 110 Eupolin eodem proverbio, non eisdem verbis usum esse statuit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="270" xml:id="kock-0461-philoi-270" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-philoi-270-l1" xml:lang="grc">εὐφρανῶ δὲ νώ</l>
+              </lg>
+              <note type="source">Apollonius De pron. 85, 21 Schneid. μονοσυλλάβως (νώ) Εὔπολις Μαρικᾷ . . . καὶ ἔτι ἐν Φίλοις κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="271" xml:id="kock-0461-philoi-271" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-philoi-271-l1" xml:lang="grc">τί μισθοῖ; ποῖ; πόση τις ἡ φορά;</l>
+              </lg>
+              <note type="source">Pollux 7, 133 Ἀριστοφάνης δ’ ἐν τοῖς Ἥρωσι (fr. 300) δοκεῖ τὸ κόμιστρον κατὰ τὸ νῦν ἔθος εἰρηκέναι τὴν φοράν. τούτῳ δ’ ἂν ἐοίκοι καὶ τὸ ἐν τοῖς Φίλοις Εὐπόλιδος κτλ. τιμῆς εἴποι τις πόση ἡ διαφορά Α. ἀλλ’ εἰς τί μισθοῖ; Bekkerus. Nauckius Hall. allg. Lz. 1848, 520 τίς μισθός; εἰπέ (εἶπον Philol. VI 414)· τίς; πόση νὴ Δία φορά; conl. περὶ ὕψους 33, 5 ἢ νὴ Δία Σοφοκλῆς; κόμιστρα Eurip. Herc. fur. 1387. non credo pro πρὸς Διός in interrogatione νὴ Δία posuisse Eupolin. εἶπον imperative Menand. Etym. m. 302, 26.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="272" xml:id="kock-0461-philoi-272" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-philoi-272-l1" xml:lang="grc">τὴν δ’ αὐτὸς ἐκκανάξει</l>
+              </lg>
+              <note type="source">Pollux 10, 85 τὸ ἐκκενῶσαι ἢ ἐκπιεῖν κανάξαι λέγουσι καὶ ἐκκανάξαι, ὡς καὶ Εὔπολις ἐν τοῖς Φίλοις κτλ. τὴν δ’ vel τήνδ’, i. e. κύλικα, exitus tetrametri iambici.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="273" xml:id="kock-0461-philoi-273" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi">
+              <note type="source">Schol. Platon. 332 Bekk. Εὔπολις δ’ ἐν Φίλοις καὶ ἐπὶ τῇ γυναικὶ Ῥοδίᾳ κωμῳδεῖ αὐτόν (Λύκωνα). cf. fr. 45. 46.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="274" xml:id="kock-0461-philoi-274" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi">
+              <note type="source">Schol. Platon. 391 Bekk. Κρατῖνος δὲ Ὀμφάλῃ τύραννον αὐτὴν (Ἀσπασίαν) καλεῖ, χείρων Εὔπολις Φίλοις. Meinekius Κρατῖνος δὲ Ὀμφάλην τύραννον αὐτὴν καλεῖ Χείρωσιν, Ἥραν Εὔπολις Φίλοις. cf. 249. Cratin. 241.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="275" xml:id="kock-0461-philoi-275" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_philoi">
+              <p>ἀνακογχυλίσασθαι</p>
+              <p>οὐχὶ ἀναγαργαρίσασθαι. Εὔπολις ἐν Φίλοις. Herodianus Philet. 453 Piers. Harpocrat. cod. Marc. 444 p. 35 Bekk. ἀνακογχυλίσασθαι ἐπὶ τοῦ ἐν τῷ βίῳ (vulgari consuetudine) λεγομένου ἀναγαργαρίσασθαι. Εὔπολις ἐν Φίλοις. fortasse huc pertinent quae Gaisfordus in Etym. m. p. 266 (suae ed.) ex cod. Va transscripsit ἀνακογχυλίσαι ὕδωρ καὶ ὕδατι, οἷον· ὕδωρ μοί τις δότω | ἀνακογχυλίσαι (ἀνακογχυλίσασθαι?). καὶ πάλιν· ἀνακογχύλισον ὕδατι. quorum posterius ex Platonis Symposio 185d desumptum videtur, ubi editiones ὕδατι ἀνακογχυλίασον.</p>
+              <note type="apparatus">Ad Amicos Meinekius rettulit fr. 407, Wilamowitzius Obs. crit. 49. 50 fr. 321. 328. 344, ubi cf. quae adnotavimus.</note>
+            </div>
+          </div></body></text></TEI>

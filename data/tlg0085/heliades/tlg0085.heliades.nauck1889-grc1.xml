@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΗΛΙΑΔΕΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.heliades; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.heliades.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.heliades.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:heliades"><head xml:lang="grc">ΗΛΙΑΔΕΣ</head>
+          <note type="introduction" xml:lang="mul">Argumentum fuisse Phaethontis temeritatem luctumque sororum coni. G. Hermann (Opusc. vol. 3 p. 130-141) , quae sententia confirmatur fr. 71 . mater Phaethontis apud Aeschylum fuit, id quod ex titulo fabulae apparet, Ῥόδη vel Ῥόδος Schol. Od. p. 208 : Ἥλιος Ῥόδῃ μιχθεὶς τῇ Ἀσωποῦ παῖδας ἴσχει (G. Knaack Quaest. Phaeth. p. 18 ἔσχε) Φαέθοντα καὶ Λαμπετίην καὶ Αἴγλην καὶ Φαέθουσαν. : quae fuerit oeconomia fabulae Aeschyleae et qualis Phaethontei mythi forma, explorari vix poterit, cf. G. Knaack Quaest. Phaeth. p. 17-19 .</note>
+          <div type="textpart" subtype="fragment" n="68" corresp="urn:cite2:perseus:fragmentaryplays.v1:heliades" xml:id="aesch-fr68">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-68-1">Ῥῖπαι μὲν δὴ πατρός</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. Soph. Oed. C. 1248 : τὰ ἀπὸ τῶν. ὀρῶν φησὶ τῶν προσαγορευομένων Ῥιπῶν — μέμνηται δὲ καὶ Ἀλκμὰν — καὶ ἐν Ἡλιάσιν Αἰσχύλος Ῥιπαὶ μὲν δὴ πατρός .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="69" corresp="urn:cite2:perseus:fragmentaryplays.v1:heliades" xml:id="aesch-fr69">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-69-1">. . . ἔνθ’ ἐπὶ δυσμαῖς ἴσου</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-69-2">πατρὸς Ἡφαιστοτυκὲς</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-69-3">δέπας, ἐν τῷ διαβάλλει</l>
+              <l n="4" xml:id="nauck-tfg-1-aesch-69-4">πολὺν οἰδματόεντα φέρει δρόμου πόρον οὐθεὶς</l>
+              <l n="5" xml:id="nauck-tfg-1-aesch-69-5">μελανίππου προφυγὼν</l>
+              <l n="6" xml:id="nauck-tfg-1-aesch-69-6">ἱερᾶς νυκτὸς ἀμολγόν</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. XI p. 469 F : ὅτι δὲ καὶ ὁ ἥλιος ἐπὶ ποτηρίου διεκομίζετο ἐπὶ τὴν δύσιν Στησίχορος μὲν οὕτως φησὶν — καὶ Αἰσχύλος ἐν Ἡλιάσιν ἔνθ — ἀμολγόν . v. 1 δυσμαῖσι τεοῦ . v. 2 Ἡφαιστοτυκὲς Ἡφαιστοτευχὲς libri . v. 4 πολὺν οἰδματόεντ’ ἀμφίδρομον πόρον εἰς lusit Hermann. φορᾷ pro φέρει et συθεὶς pro οὐθεὶς (Zeitschr f. d. Alt. 1856 p. 363).</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="70" corresp="urn:cite2:perseus:fragmentaryplays.v1:heliades" xml:id="aesch-fr70">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-70-1">Ζεύς ἐστιν αἰθήρ, Ζεὺς δὲ γῆ , Ζεὺς δ’ οὐρανός,</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-70-2">Ζεύς τοι τὰ πάντα χὥτι τῶνδ’ ὑπέρτερον.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Clem. Alex. Strom. V p. 718 (Euseb. P. E. XIII p. 681 B) : ὅ τε Εὐφορίωνος (sic Eus. , ὅ τε Εὐφορίων ὅ τε Clem.) Αἰσχύλος ἐπὶ τοῦ θεοῦ σεμνῶς σφόδρα φησίν Ζεύς ἐστιν — ὑπέρτερον . re vera Aeschyli hos esse versus, non Euripidis aut Euphorionis, de quibus olim cogitaram, docet Philodemus de pietate p. 22 ed. Gomp. : Αἰσχύλος δ’ ἐν Ἡλιάσιν τὸν Δία καὶ αἰθέρα λέγει καὶ γῆν καὶ οὐρανὸν καὶ τὰ πάντα καὶ ὑπὲρ τὰ πάντα . cf. quae disputavimus Mel. Gréco-Rom. II p. 607-609 .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="71" corresp="urn:cite2:perseus:fragmentaryplays.v1:heliades" xml:id="aesch-fr71">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-71-1">Ἀδριαναί τε γυναῖκες τρόπον ἕξουσι γόων</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Anecd. Bekk. p. 346, 10 : Ἀδριαναὶ γυναῖκες. Αἰσχύλος Ἡλιάσιν (ἰλιάσιν cod.) Ἀδριαναί — γόων . Ἀδριηναί . v. 1 κόρον ἕξουσι γόων (Exercit. crit. p. 5) τορὸν ἥσουσι γόον temptabam.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="72" corresp="urn:cite2:perseus:fragmentaryplays.v1:heliades" xml:id="aesch-fr72">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-72-1">ἀφθονέστερον λίβα</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. X p. 424 D : τούτῳ (formae ἀκρατέστερος) ὅμοιόν ἐστι τὸ ἀνιηρέστερον καὶ τὸ ἐν Ἡλιάσιν Αἰσχύλου ἀφθονέστερον λίβα . cf. Eust. Il. p. 746, 45 : καὶ παρ’ Αἰσχύλῳ ἀφθονέστερον. de electro haec verba dicta esse coni. Welcker Aeschyl. Trilogie p. 570 .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="73" corresp="urn:cite2:perseus:fragmentaryplays.v1:heliades" xml:id="aesch-fr73">
+            <note type="sourceContext" xml:lang="mul">Plinius N. H. 37, 31 : Phaethontis fulmine icti sorores luctu mutatas in arbores populos lacrimis electrum omnibus annis fundere iuxta Eridanum amnem quem Padum vocavimus, electrum appellatum, quoniam sol vocitatus sit ἠλέκτωρ, plurimi poetae dixere primique, ut arbitror, Aeschylus Philoxenus Euripides Nicander Satyrus. 37, 32 : quod Aeschylus in Hiberia, hoc est in Hispania, Eridanum esse dixit eundemque appellari Rhodanum, Euripides rursus et Apollonius in Hadriatico litore confluere Rhodanum et Padum, faciliorem veniam facit ignorati sucini in tanta ignorantia orbis. Schol. Bern. in Verg. Georg. 1, 482 : ubi enim Eridanus sit, multi errant (an certant ?) . Eusebius (l. Aeschylus cum Hageno) ipsum esse Rhodanum propter magnitudinem et cursum rapidissimum.</note>
+          </div>
+        </div></body></text>
+</TEI>

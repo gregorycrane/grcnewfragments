@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-palamedes-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΠΑΛΑΜΗΔΗΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.palamedes; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.palamedes.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.palamedes.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes"><head>ΠΑΛΑΜΗΔΗΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-palamedes-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes" sameAs="urn:cts:greekLit:tlg0006.palamedes.nauck1889grc1:586">
+            <note type="source">1. Strabo X, p. 720 C. Alm. Τὴν κοινωνίαν τῶν περὶ τὸν Διόνυσον ἀποδειχθέντων ἱερῶν νομίμων παρὰ τοῖς Ἕλλησι καὶ τῶν παρὰ τοῖς Φρυξὶ περὶ τὴν μητέρα τῶν θεῶν συνοικειῶν ἀλλήλοις Εὐριπίδης τε ἐν ταῖς Βάκχαις τὰ παραπλήσια ποιεῖ (vs. 124 sq.) - – καὶ ἐν Παλαμήδει φησὶν ὁ χορός·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">οὐ σὺν Διονύσῳ κωμῶν, ὃς ἀν᾿ Ἴδαν τέρπεται σὺν ματρὶ</l>
+              <l n="2" xml:lang="grc">φίλα τυμπάνων ἰάκχοις.</l>
+            </lg>
+            <note type="commentary">Quæ Musgr. et post</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-palamedes-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes">
+            <note type="source">2. Stobæus LXXXI, 7.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὰ τῆς γε λήθης φάρμακ᾽ ὀρθώσας μόνος</l>
+              <l n="2" xml:lang="grc">ἄφωνα καὶ φωνοῦντα, συλλαβάς τε θεὶς</l>
+              <l n="3" xml:lang="grc">ἐξεῦρον ἀνθρώποισι γράμματ᾽ εἰδέναι,</l>
+              <l n="4" xml:lang="grc">ὥστ᾽ οὐ παρόντα ποντίας ὑπὲρ πλακὸς</l>
+              <l n="5" xml:lang="grc">τἀκεῖ κατ᾽ οἴκους πάντ᾽ ἐπίστασθαι καλῶς,</l>
+              <l n="6" xml:lang="grc">παισίν τ᾽ ἀποθνήσκοντα χρημάτων μέτρον</l>
+              <l n="7" xml:lang="grc">γράψαντας εἰπεῖν, τὸν λαβόντα δ᾽ εἰδέναι.</l>
+              <l n="8" xml:lang="grc">ἃ δ᾽ εἰς ἔριν πίπτουσιν ἀνθρώποις κακὰ,</l>
+              <l n="9" xml:lang="grc">δέλτος διαιρεῖ, κοὐκ ἐᾷ ψευδῆ λέγειν.</l>
+            </lg>
+            <note type="commentary">Cum hoc loco conjungit God. Hermannus versus quosdam, qui apud Stobæum, Ecl. Phys. I, 2, p. 4 ed. Heer. Æschyleis versibus e Prometheo (454.) citatis sine auctoris et fabulæ nomine subjecti leguntur, quique in neminem, nisi in Palamedem, quadrant :</note>
+            <lg type="fragment">
+              <l n="10" xml:lang="grc">Ἔπειτα πάσης Ἑλλάδος καὶ ξυμμάχων</l>
+              <l n="11" xml:lang="grc">βίον διῴκησ᾽ ὄντα πρὶν πεφυρμένον</l>
+              <l n="12" xml:lang="grc">θηρσίν θ᾽ ὅμοιον· πρῶτα μὲν τὸν πάνσοφον</l>
+              <l n="13" xml:lang="grc">ἀριθμὸν εὕρηκ᾽ ἔξοχον σοφισμάτων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-palamedes-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes">
+            <note type="source">3. Harpocrat. v. Διεκωδώνισε. Δημοσθένης ἐν τῇ περὶ παραπρεσβείας ἀντὶ τοῦ διεσπείρασε καὶ ἐξήτασεν. ἡ δὲ μεταφορὰ ἤτοι ἀπὸ τῶν περιπολούντων σὺν κώδωσι νυκτὸς τὰς φυλακὰς, Εὐριπίδης Παλαμήδει, ἢ ἀπὸ τῶν δοκιμαζόντων τὰς μαχίμους ὄρτυγας τῷ ἤχῳ τοῦ κώδωνος, ὡς Ἀρίσταρχος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-palamedes-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes" sameAs="urn:cts:greekLit:tlg0006.palamedes.nauck1889grc1:583">
+            <note type="source">4. Joan. Damasc. in Stobæi Append. Flor. ed. Gaisf. vol. IV, p. 11. Orion. Anthologn. I, 6. p. 41, ed. Schneidew.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὅστις λέγει μὲν εὖ, τὰ δ᾽ ἔργ᾽, ἐφ᾽ οἷς λέγει,</l>
+              <l n="2" xml:lang="grc">αἴσχρ᾽ ἐστὶν αὐτοῦ, τοῦτον οὐκ αἰνῶ ποτέ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-palamedes-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes" sameAs="urn:cts:greekLit:tlg0006.palamedes.nauck1889grc1:579">
+            <note type="source">5. Schol. ad Il. 3, 353 (e cod. Leidensi primum editus a Valck. ad Phœn. 292 editus):</note>
+            <note type="commentary">ἀστράπτων· ὅτι ἀκαταλλήλως εἴρηται (ἔδει γὰρ ἀστράπτοντα καὶ φαίνοντα) ὡς καὶ Εὐριπίδης ἐν Παλαμήδει·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Λάϊε, πάλαι δή σ᾽ ἐξερωτῆσαι θέλων</l>
+              <l n="2" xml:lang="grc">σχολή μ᾽ ἀπεῖργε.</l>
+            </lg>
+            <note type="commentary">cf. et Eustath. ad Il. 3, p. 179 (p. 236, 29.)</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-palamedes-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes">
+            <note type="source">6. Stobæus XCI, 24.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀγάμεμνον, ἀνθρώποισι πᾶσι χρήματα</l>
+              <l n="2" xml:lang="grc">μορφὴν ἔχουσι· συντρέχει δ᾽ εἰς ἐν τόδε.</l>
+              <l n="3" xml:lang="grc">τούτων δὲ πάντες, οἵ τε μουσικῆς φίλοι,</l>
+              <l n="4" xml:lang="grc">ὅσοι τε χωρὶς ζῶσι, χρημάτων ὕπερ</l>
+              <l n="5" xml:lang="grc">μοχθοῦσιν· ὃς δ᾽ ἂν πλεῖστ᾽ ἔχῃ, σοφώτατος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-palamedes-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes" sameAs="urn:cts:greekLit:tlg0006.palamedes.nauck1889grc1:581">
+            <note type="source">7. Stobæus LIV, 8.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Στρατηλάται τἂν μύριοι γενοίμεθα,</l>
+              <l n="2" xml:lang="grc">σοφὸς δ᾽ ἂν εἶς τις ἢ δύ᾽ ἐν μακρῷ χρόνῳ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-palamedes-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes" sameAs="urn:cts:greekLit:tlg0006.palamedes.nauck1889grc1:587">
+            <note type="source">8. Poll. Onom. X, 145. Καὶ Εὐριπίδης μὲν ἐν Παλαμήδει λέγει κώπην χρυσόκολλον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-palamedes-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes" sameAs="urn:cts:greekLit:tlg0006.palamedes.nauck1889grc1:584">
+            <note type="source">9. Stobæus IX, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἷς τοι δίκαιος μυρίων οὐκ ἐνδίκων</l>
+              <l n="2" xml:lang="grc">κρατεῖ, τὸ θεῖον τὴν δίκην τε συλλαβών.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-palamedes-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes" sameAs="urn:cts:greekLit:tlg0006.palamedes.nauck1889grc1:588">
+            <note type="source">10. Philostrat. Heroic. X, 12, p. 718, Olear. (p. 168 ed. Boiss.) Ὅθεν καὶ τὸν θρῆνον τὸν παρ᾽ Εὐριπίδῃ ἐπαινεῖ, ὁπότε Εὐριπίδης ἐν Παλαμήδους μέλεσιν,</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐκάνετ᾽ ἐκάνετε, τὰν πάνσοφον, ὦ Δαναοί,</l>
+              <l n="2" xml:lang="grc">τὰν οὐδὲν ἀλγύνουσαν ἀηδόνα Μουσᾶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-palamedes-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_palamedes" sameAs="urn:cts:greekLit:tlg0006.palamedes.nauck1889grc1:590">
+            <note type="source">11. Hesych. v. Ἔμβολα· Εὐριπίδης Παλαμήδῃ (sic) καὶ Σκίρωνι.</note>
+            <note type="commentary">Valck. ad Phoen. 1331 ad Palamedem sine causa rettulit etiam versus, quos ut Euripideos (post Archel. fgm. XXXII, et inc. fab. fgm. LX.) citat Plut. de aud. poet. 5, (p. 20 D.)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τί δῆτα οὖσι δεῖ σε κατθανεῖν</l>
+              <l n="2" xml:lang="grc">ἄμεινον· οὐδεὶς κάματος εὐσεβεῖν θεούς.</l>
+            </lg>
+            <note type="commentary">Sed haud dubie e libris MSS. ed. Duebnerus pro eo, quod vulgo legebatur, edidit: τί δῆτα δει σε κάμνειν; κατθανεῖν ἄμεινον· κ.τ.λ. Versus sic correctos dedit Grotius in edit. libri Plutarchei Stobæo præfixa p. 20 sq. et in Exc. p. 429 et 467.</note>
+            <lg type="fragment">
+              <l n="3" xml:lang="grc">Α. Τί δεῖ θεοὺς σέβειν σε κατθανούμενον ;</l>
+              <l n="4" xml:lang="grc">Β. Ἄμεινον· οὐδεὶς κάματος εὐσεβεῖν θεούς.</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

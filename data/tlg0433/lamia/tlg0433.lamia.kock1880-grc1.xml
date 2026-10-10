@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATES, ΛΑΜΙΑ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Crates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0433.lamia.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0433.lamia.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0433.lamia.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_lamia"><head>ΛΑΜΙΑ</head><div type="textpart" subtype="fragment" n="21" xml:id="kock-0433-lamia-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_lamia">
+              <head>21</head>
+              <p>ὁ μῦθος ἀπώλετο</p>
+              <note type="source">Κράτης Λαμίᾳ. Schol. Plat. 382 Bekk. Greg. Cypr. Leid. 2, 90 ὁ μῦθος ἀπώλετο· ἐπὶ τῶν τὴν διήγησιν μὴ ἐπὶ πέρας ἀγόντων. contra 91 τούτῳ τῷ λόγῳ χρῶνται οἱ λέγοντές τι πρὸς τοὺς μὴ προσέχοντας. de altera interpretatione cf. Schol. Plat. Theaet. 164 d, de altera Schol. Plat. Phileb. 14e. Reip. 10, 621 b.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="kock-0433-lamia-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_lamia">
+              <note type="source">Schol. Aristoph. Eccl. 77</note>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0433-lamia-18-l1" xml:lang="grc">τὸ τοῦ Λαμίου· ἀρσενικῶς δὲ Λαμίαν</l>
+                  <l n="2" xml:id="kock-0433-lamia-18-l2" xml:lang="grc">[εἶπεν. ἔστι δὲ καὶ θηλυκῶς ἡ Λάμια] ὑπὲρ ἧς ὁ Κράτης λέγει ἐν</l>
+                  <l n="3" xml:id="kock-0433-lamia-18-l3" xml:lang="grc">τῷ ὁμωνύμῳ δράματι, ὅτι σκυτάλην ἔχουσ’ ἐπέρδετο.</l>
+                </lg>
+              </quote>
+              <note type="apparatus">verba uncis inclusa addidit et Κράτης scripsit pro Φερεκράτης Meinekius. O. Schneid. Philol. XXXIIII 423 [ἐν τἀγορᾷ] σκυτάλην ἔχουσ’ ἐπέρδετο. risisse videtur Cratetem Aristophanes non solum Eccl. 77, sed etiam Vesp. 1175, ubi quod commemoratur ὡς ὁ Καρδοπίων τὴν μητέρα, id ipsum quoque ex Cratete petitum esse arbitratur Meinekius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="19" xml:id="kock-0433-lamia-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_lamia">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0433-lamia-19-l1" xml:lang="grc">ἐπεὶ τριπήχη Θετταλικῶς τετμημένα</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus 10, 418c</note>
+              <note type="apparatus">ὅτι δὲ καὶ πάντες Θετταλοὶ ὡς πολυφάγοι διεβάλλοντο, Κράτης φησὶν ἐν Λαμίᾳ κτλ. ἐπεὶ] ἔπη Casaub. ‘dicta haec in hominem sesquipedalibus verbis utentem’. Meinek. at quis praestet nomen ad quod pertineret τριπήχη non in eis fuisse positum quae perierunt?</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="20" xml:id="kock-0433-lamia-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_lamia">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0433-lamia-20-l1" xml:lang="grc">ἡμίεκτόν ἐστι χρυσοῦ, μανθάνεις, ὀκτὼ β̓ολοί.</l>
+                </lg>
+              </quote>
+              <note type="source">Pollux 9, 62</note>
+              <note type="apparatus">οἱ μέντοι ὀκτὼ ὀβολοὶ ἡμίεκτον ὠνομάζοντο, ὥς φησιν ἐν Λαμίᾳ Κράτης. Hesych. β̓ολοί· ὀβολοί. de sententia versus cf. Hultsch Metrol. 164 not. 9 ‘ich sehe in dem ἡμίεκτον bei Krates, welches nach dem Wortlaut der Stelle als eine wenig bekannte Münze erscheint, das Zwölftel eines kleinasiatischen Staters, welches wegen seiner starken Legirung den sehr niedrigen aber nichts desto weniger wahrscheinlichen Curs von nur 8 Obolen in Athen hatte’. itaque non opus eo quod Herwerdenus Obs. crit. 6 proposuit ἐστι, Χρυσέ, μανθ. κτλ.</note>
+            </div>
+          </div></body></text></TEI>

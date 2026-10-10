@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΥΨΙΠΥΛΗ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.hypsipyle; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.hypsipyle.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.hypsipyle.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:hypsipyle"><head xml:lang="grc">ΥΨΙΠΥΛΗ</head>
+          <note type="introduction" xml:lang="mul">Schol. Apoll. Rhod. 1, 769 : ὅτι δὲ ἐμίγησαν οἱ Ἀργοναῦται ταῖς Λημνίαις, Ἡρόδωρος ἱστορεῖ ἐν τοῖς Ἀργοναυτικοῖς. Αἰσχύλος δὲ ἐν Ὑψιπύλῃ ἐν ὅπλοις φησὶν αὐτὰς ἐπελθούσας χειμαζομένοις ἀπείργειν, μέχρι λαβεῖν ὅρκον παρ’ αὐτῶν ἀποβάντας (ἀποβᾶσιν L) μιγήσεσθαι αὐταῖς. fabula eiusdem trilogiae fuisse videtur ac Νεμέα.</note>
+          <div type="textpart" subtype="fragment" n="247" corresp="urn:cite2:perseus:fragmentaryplays.v1:hypsipyle" xml:id="aesch-fr247">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-247-1">Ὑψώ</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Vide fr. 212 .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="248" corresp="urn:cite2:perseus:fragmentaryplays.v1:hypsipyle" xml:id="aesch-fr248">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-248-1">ἀποκορσωσαμέναις</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 248 : ἀποκορσωσαμέναις. ἀποκειραμέναις· κόρσας γὰρ τρίχας. Αἰσχύλος Ὑψιπύλῃ (ὑψηπούλη codex) .</note>
+          </div>
+        </div></body></text>
+</TEI>

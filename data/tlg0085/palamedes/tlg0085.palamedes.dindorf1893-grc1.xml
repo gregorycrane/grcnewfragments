@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΠΑΛΑΜΗΔΗΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.palamedes; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.palamedes.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.palamedes.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:palamedes"><head>ΠΑΛΑΜΗΔΗΣ</head>
+          <pb n="603" facs="urn:hathi:iau.31858007086675:scan:611"/>
+          <div type="textpart" subtype="fragment" n="167" xml:id="frag_3b358e1236" corresp="urn:cite2:perseus:fragmentaryplays.v1:palamedes" sameAs="urn:cts:greekLit:tlg0085.palamedes.nauck1889-grc1:181">
+            <note type="source">Ad Æschyli Palamedem a Platone de Republ. VII. p. 522 d. respici putabat Butlerus. De Platonis loco dixit Aristides vol. II. p. 260. Schol. Homeri Iliad. δ, 319. ubi de aoristo ἔκταν agit, Αἰσχύλος Παλαμήδῃ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_3b358e1236-l1" xml:lang="grc">Τίνος κατέκτας ἕνεκα παῖδ' ἐμὸν βλάβης;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="168" xml:id="frag_7e988e7594" corresp="urn:cite2:perseus:fragmentaryplays.v1:palamedes" sameAs="urn:cts:greekLit:tlg0085.palamedes.nauck1889-grc1:182">
+            <note type="source">Athenæus I. p. 11 e. Ἔστι δ' ἡ τάξις καὶ παρ' Αἰσχύλῳ τῶν ὀνομάτων, ἐν οἷς ὁ Παλαμήδης πεποίηται λέγων</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_7e988e7594-l1" xml:lang="grc">Καὶ ταξιάρχας καὶ στρατάρχας καὶ ἑκατοντάρχας</l>
+              <l n="2" xml:id="frag_7e988e7594-l2" xml:lang="grc">ἔταξα, σῖτον δ' εἰδέναι διώρισα,</l>
+              <l n="3" xml:id="frag_7e988e7594-l3" xml:lang="grc">ἄριστα, δεῖπνα, δόρπα θ' αἱρεῖσθαι τρίτα.</l>
+            </lg>
+            <note type="apparatus">unde sua duxit Eustathius p. 242, 22. 1358, 4.</note>
+          </div>
+        </div></body></text>
+</TEI>

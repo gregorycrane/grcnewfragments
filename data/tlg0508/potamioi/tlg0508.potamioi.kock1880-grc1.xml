@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>STRATTIS, ΠΟΤΑΜΙΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Strattis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0508.potamioi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0508.potamioi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0508.potamioi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_potamioi"><head>ΠΟΤΑΜΙΟΙ</head><div type="textpart" subtype="fragment" n="37" xml:id="kock-0508-potamioi-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_potamioi">
+              <lg>
+                <l n="1" xml:id="kock-0508-potamioi-37-l1" xml:lang="grc">ὑμεῖς τε πάντες ἔξιτ' ἐπὶ τὸ Πύθιον</l>
+                <l n="2" xml:id="kock-0508-potamioi-37-l2" xml:lang="grc">ὅσοι πάρεστε, μὴ λαβόντες λαμπάδας</l>
+                <l n="3" xml:id="kock-0508-potamioi-37-l3" xml:lang="grc">μηδ' ἄλλο μηδὲν ἐχόμενον Φιλυλλίου.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Plut. 1194</note>
+              <note type="apparatus">Λυκόφρων ᾠήθη πρῶτον τοῦτον (Ἀριστοφάνην) δᾷδας ᾐτηκέναι· πεποίηκε δὲ καὶ ἐν Ἐκκλησιαζούσαις αὐτό. ἀλλὰ γὰρ Στράττις πρὸ ἀμφοτέρων τούτων τοὺς Ποταμίους διδάσκων εἰς Φιλύλλιον ἀναφέρει τὸ πρᾶγμα κτλ. πάρεστε V] περ ἐστὲ Θ Ald. 3. Φιλυλλίου Hemsterhus.] Φυλλίου. φύλλον Θ. Pythia tria erant in Attica, unum in urbe, alterum Oenoae, tertium ubi nunc Daphni monasterium situm est Athenis Eleusinem proficiscenti. id quod in urbe erat significari recte iudicavit Hemsterhusius. cf. Bursian. Geogr. gr. I 302.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="38" xml:id="kock-0508-potamioi-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_potamioi">
+              <lg>
+                <l n="1" xml:id="kock-0508-potamioi-38-l1" xml:lang="grc">οὐ λίνον λίνῳ συνάπτεις.</l>
+              </lg>
+              <note type="source">ἐπὶ τῶν τὰ αὐτὰ διὰ τῶν αὐτῶν δρώντων· Στράττις Ποταμίοις. Photius. Suidas</note>
+              <note type="apparatus">λίνον λίνῳ συνάπτεις· ἐπὶ τῶν τὰ ὅμοια ἐπιμιγνύντων, ἢ παρακρουομένων καὶ ἀπατώντων. Στράττις Ποταμοῖς. idem οὐ λίνον λίνῳ συνάπτεις· ἐπὶ τῶν τὰ αὐτὰ μὴ διὰ τῶν αὐτῶν πραττόντων. οὕτω Στράττις ἐν Ποταμίοις. Schol. Plat. 369 Bekker. λίνον λίνῳ συνάπτεις· ἐπὶ τῶν τὰ αὐτὰ διὰ τῶν αὐτῶν ἢ λεγόντων ἢ δρώντων ἢ τὰ ὅμοια εἰς φιλίαν συναγόντων. μέμνηται δὲ αὐτῆς Ἀριστοτέλης ἐν τῷ ἢ τῆς φυσικῆς ἀκροάσεως· οὐ γὰρ λίνον λίνῳ συνάπτειν ἐστί, καὶ Στράττις Ποταμοῖς. cf. Heindorf. Plat. Euthyd. p. 390. Hesych. λίνον λίνῳ. Zenob. 4, 96. Diogenian. 6, 16 (ἐπὶ τῶν τὰ ἀσθενῆ ἀσθενέσι συναπτόντων). Schol. Lucian. p. 197 et 224 extr. Iacobitz.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="39" xml:id="kock-0508-potamioi-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_potamioi">
+              <lg>
+                <l n="1" xml:id="kock-0508-potamioi-39-l1" xml:lang="grc">ἐγχέλεων ἀνεψιός</l>
+              </lg>
+              <note type="source">Στράττις ἐν Ποταμίοις ἔφη. Athenaeus 7, 299 b. Plat. Euthyd. 298 d</note>
+              <note type="apparatus">καὶ σὺ ἄρα ἀδελφὸς εἶ τῶν κωβιῶν καὶ κυναρίων καὶ χοιριδίων.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="40" xml:id="kock-0508-potamioi-40" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_potamioi">
+              <lg>
+                <l n="1" xml:id="kock-0508-potamioi-40-l1" xml:lang="grc">ἐγῷδα τοὐπίνικος ὀργισθεὶς ἔφη,</l>
+                <l n="2" xml:id="kock-0508-potamioi-40-l2" xml:lang="grc">τῷ στόματι δράσω τοῦθ᾽ ὅπερ . . .</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Vesp. 1346 τὸ λεσβιεῖν ἐπὶ τοῦ αἰσχροῦ τάττεται, ἐπειδὴ οἱ Λέσβιοι αἰσχρουργοῦσι τῷ στόματι μολυνόμενοι . . . Στράττις . . . ἐν Πυτίσῳ· ἐγῷδα — τοῦθ᾽ ὅπερ [τοῦ αἰσχροῦ τάττεται].</note>
+              <note type="apparatus">extrema delevit Dindorfius. in fine τοὶ Λέσβιοι add. Florens Christianus, χοὶ <hi rend="italic">A.</hi> Dobraeus <hi rend="italic">Advers.</hi> II 204. ἐγῷδα (ἐγῶδα) τουπίνικος V] ἐγὼ δ᾽ ἄτ᾽ ἐπίνικος Ald. ἐγὼ δ᾽ ἄτ᾽ ἐλπίνικος Bentleius. ἐγὼ δὲ τοὐπίνικος (i. e. δέ τοι Ἐπίν.) Meinekius. ἐγὼ δέ γ᾽ οὔπ. Ahrens. <hi rend="italic">De crasi</hi> 21. sed omnia densissima caligine premuntur. χοὶ Λέσβιοι non recte additur. aut enim omittendum erat τῷ στόματι aut dicendum τοῦτο τῷ στόματι δράσω, ὥσπερ χοί Λ. excidit potius βούλει ποιεῖν vel aliquid eiusmodi.</note>
+            </div>
+          </div></body></text></TEI>

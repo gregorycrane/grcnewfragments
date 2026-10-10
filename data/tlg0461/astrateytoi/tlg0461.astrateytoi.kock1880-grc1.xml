@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUPOLIS, ΑΣΤΡΑΤΕΥΤΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Eupolis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0461.astrateytoi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0461.astrateytoi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0461.astrateytoi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_astrateytoi"><head>ΑΣΤΡΑΤΕΥΤΟΙ</head><div type="textpart" subtype="fragment" n="32" xml:id="kock-0461-astrateytoi-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_astrateytoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-astrateytoi-32-l1" xml:lang="grc">ἐν εὐσκίοις δρόμοισιν Ἀκαδήμου θεοῦ.</l>
+              </lg>
+              <note type="source">Diogenes Laert. 3, 7 τὸ δ᾽ ἐστὶ γυμνάσιον προάστειον ἀλσῶδες, ἀπό τινος ἥρωος ὀνομασθὲν Ἑκαδήμου, καθὰ καὶ Εὔπολις ἐν Ἀστρατεύτοις φησίν κτλ. cf. interpr. Aristoph. Nub. 1005.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="33" xml:id="kock-0461-astrateytoi-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_astrateytoi">
+              <note type="source">Bekker. Anecd. 475, 12 ἀχράδας τὰς ἀχέρδους λέγουσιν. Εὔπολις Ἀστρατεύτοισιν οἱ πεπείρους ἀχράδας πρὸς τῇ συκιδι προσετως καὶ ἀχράδων . . . Φερεκράτης. ἴσως δ᾽ ὁ μὲν καρπὸς ἀχράς, τὸ δὲ δένδρον ἄχερδος. Φερεκράτης ‘ἢ τῆς ἀχέρδου τῆς ἀκραχολωτάτης’. Meinekius in ed. min. Εὔπολις Ἀστρατεύτοις· ‘ἵν᾽ ἂν πέπειρον ἀχράδα πρὸς τῇ συκίδι προσέχωσι’. non intellego. cf. Cratet. 53. bene ad hoc fragmentum Ungerus Parad. Theb. 457 rettulisse videtur Dioscorid. I 168 p. 151 φασὶ δέ τινες ὅτι ἐὰν συνεψήσῃ τις ἀχράδας μύκησιν, ἀβλαβεῖς αὐτοὺς γίνεσθαι. et auct. libr. περὶ δηλητ. φαρμ. 23 p. 33 συνεψόμεναι δὲ αἱ ἀχράδες ἢ τὰ φύλλα τοῖς μύκησιν ἀφαιροῦνται τὸ πνιγῶδες αὐτῶν. itaque Eupolis scripsisse videtur μύκητι vel μύκησι pro συκίδι. fort. ἀεὶ | ἀχράδας πεπείρους τοῖς μύκησι προσφέρων.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="34" xml:id="kock-0461-astrateytoi-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_astrateytoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-astrateytoi-34-l1" xml:lang="grc">δοκῶ μοι νῦν ὁρᾶν ἀφαδίαν.</l>
+              </lg>
+              <note type="source">Etymol. m. 174, 50 ἀφαδός· ἐχθρός· παρὰ τὸ ἀφανδάνειν. καὶ ἀφαδία ἡ ἀπαρέσκουσα ἔχθρα. Εὔπολις ἐν Δραπέταις κτλ. codex Dorvillii pro Δραπέταις habet av superscripto δ, i. e. Ἀνδρογύνοις : Gaisfordius Hesiod. Theog. 709. Hesych. ἀφαδίαν· τὴν πολεμικὴν ναῦν, διὰ τὸ ἀφανδάνειν. ubi Pearso (Advers. I 132) τὸν πολεμικὸν νοῦν. Salmasius contra et Kusterus (in Etym.) apud Eupolin scribebant ναῦν ὁρᾶν. non recte, quamquam restat dubitatio. Bekker. Anecd. 468, 28 ἀφαδία· ἡ ἔχθρα. Herodian. II 480, 15 ἀφάδειος ὁ ἐχθρός, ἀπὸ τοῦ ἀφανδάνειν. λέγεται δὲ καὶ ἀφάδιος (ᾶ).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="39" xml:id="kock-0461-astrateytoi-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_astrateytoi">
+              <note type="source">
+                <p>Schol. Lucian. Alex. 4 ὡσαύτως (ut Eurybatus) καὶ ὁ Φρυνώνδας ἐπὶ πονηρίᾳ (δια)βοᾶται Εὐπόλιδι ἐν Ἀστρατεύτοις.</p>
+              </note>
+              <note type="apparatus">
+                <p>cf. fr. 127. Aristoph. fr. 26. 468. cum Eurybato coniungitur etiam Plat. Protag. 327 d. cf. Lobeck. Aglaoph. 1306.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="40" xml:id="kock-0461-astrateytoi-40" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_astrateytoi">
+              <note type="source">
+                <p>Schol. Aristoph. Pac. 347 μέμνηται (Φορμίωνος) ὁ κωμικὸς ἐν Ἱππεῦσι καὶ Νεφέλαις καὶ Βαβυλωνίοις, Εὔπολις Ἀστρατεύτοις.</p>
+              </note>
+              <note type="apparatus">
+                <p>cf. Aristoph. Eq. 562 cum interpr.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="41" xml:id="kock-0461-astrateytoi-41" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_astrateytoi">
+              <note type="source">
+                <p>Schol. Aristoph. Pac. 808 ὅτι γὰρ ὁ Μελάνθιος ὀψοφάγος προείρηται. καὶ παρ' Εὐπόλιδι ἐν Ἀστρατεύτοις. i. e. etiam apud Eupolin commemoratur in Ἀστρ.' incidendum esse post προείρηται Meinekius animadvertit.</p>
+              </note>
+              <note type="apparatus">
+                <p>cf. Pherecr. 139.</p>
+                <p>Praeterea fragmentum adespoton apud Schol. Ven. Hom. Il. 13, 291 sine idonea causa ad Ἀστρατεύτους referebat Runkelius.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="35" xml:id="kock-0461-astrateytoi-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_astrateytoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-astrateytoi-35-l1" xml:lang="grc">Ἀθηναίων εἰ βούλεταί τις ἐγγράφειν —</l>
+              </lg>
+              <note type="source">Schol. Hephaest. cod. Saibant. Gaisf.² I 156 τὸ αὐτὸ δ᾽ ἐστὶ καὶ ἐπὶ τῆς αι διφθόγγου, ὡς Εὔπολις ἐν Ἀστρατεύτοις φησίν κτλ. ἐν δευτέρῳ ποδὶ τὴν αι συνέστειλε.</note>
+              <note type="apparatus">cf. quae adnotavimus ad Aristoph. Eq. 139. Pherecr. 34.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="36" xml:id="kock-0461-astrateytoi-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_astrateytoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-astrateytoi-36-l1" xml:lang="grc">μήποτε θρέψω</l>
+                <l n="2" xml:id="kock-0461-astrateytoi-36-l2" xml:lang="grc">παρὰ Περσεφόνῃ τοιόνδε ταὧν, ὃς τοὺς εὕδοντας ἐγείρει.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 397 c Εὔπολις δ᾽ ἐν Ἀστρατεύτοις. ταὧν Dindf.] ταῶν.</note>
+              <note type="apparatus">cf. quae adnotavimus ad Aristoph. Av. 102. Aristoph. Plut. 541 στιβάδα σχοίνων κόρεων μεστήν, ἢ τοὺς εὕδοντας ἐγείρει, ubi scholiasta Σοφοκλέους (fr. 804 N.) τὸ ἡμιστίχιον· ἐπεγειρομένων (sic Bergk. pro ἐπειγομένων) κερκίδος ὕμνοις, ἢ τοὺς εὕδοντας ἐγείρει. cf. Aristoph. fr. 415. non placet tamen repetitio verborum ἐπεγειρομένων — ἐγείρει. fort. ἐπαναιρομένων conl. Aristoph. Eq. 784. loqui haec videtur Demi pater Pyrilampes, qui unus Atheniensium rarissimas illas aves alebat. Athen. 9, 397 cd. Plut. Pericl. 13 (Περικλῆς) διεβάλλετο . . εἰς τὰς Πυριλάμπους ὀρνιθοτροφίας, ὃς ἑταῖρος τοῦ Περικλέους αἰτίαν εἶχε ταῶνας ὑφιέναι ταῖς γυναιξὶν αἷς Περικλῆς ἐπλησίαζεν. ‘en habes pavones, qui dormientes suscitant.’ Wilamowitz. Obs. crit. 52, qui Pyrilampen apud Delium vulneratum (Plut. Mor. 581 e) haec queri et potissimum quod aves sibi multum dilectas mox amissurus sit plorare opinatur, fabulam ea de causa anno Ol. 89, 1 vel 2 adiudicans. at ea omnia coniectura admodum incerta nituntur, cum potissimum verbis τοιόνδε ταὧν non avis, sed aliquis quasi quidam pavo significari videatur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="37_38" xml:id="kock-0461-astrateytoi-37_38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_astrateytoi">
+              <lg>
+                <l n="1" xml:id="kock-0461-astrateytoi-37_38-l1" xml:lang="grc">ἄνδρες ἑταῖροι, δεῦρο δὴ τὴν γνώμην προσίσχετε,</l>
+                <l n="2" xml:id="kock-0461-astrateytoi-37_38-l2" xml:lang="grc">εἰ δυνατὸν καὶ μή τι μεῖζον πράττουσα τυγχάνει.</l>
+              </lg>
+              <lg>
+                <l n="3" xml:id="kock-0461-astrateytoi-37_38-l3" xml:lang="grc">*</l>
+                <l n="4" xml:id="kock-0461-astrateytoi-37_38-l4" xml:lang="grc">*</l>
+                <l n="5" xml:id="kock-0461-astrateytoi-37_38-l5" xml:lang="grc">*</l>
+                <l n="6" xml:id="kock-0461-astrateytoi-37_38-l6" xml:lang="grc">*</l>
+                <l n="7" xml:id="kock-0461-astrateytoi-37_38-l7" xml:lang="grc">καὶ ξυνεγιγνόμην ἀεὶ τοῖς ἀγαθοῖς φάγροισιν.</l>
+              </lg>
+              <note type="source">Hephaestio 15, 25 Εὔπολις δ᾽ ἐν τοῖς Ἀστρατεύτοις καὶ ἀτακτοτάτως συνέθηκε τὸ (Κρατίνειον) εἶδος· πῆ μὲν γὰρ τοιαῦτα ποιεῖ· ἄνδρες κτλ. πῆ δὲ τοιαῦτα· καὶ ξυνεγιγνόμην κτλ. ὥσθ᾽ ὅλον αὐτὸ χοριαμβικὸν ἐπίμικτον γενέσθαι, ὅμοιον Ἀνακρεοντείῳ τῷδε, Σίμαλον εἶδον ἐν χορῷ πηκτίδ᾽ ἔχοντα καλήν. πῆ δὲ καὶ ἄλλοις ἐχρήσατο λίαν ἀτάκτοις σχήμασιν. et 16, 7 καὶ τὸ Κρατίνειον δὲ τὸ ἀσυνάρτητον ἐκ χοριαμβικοῦ καὶ τροχαϊκοῦ πολυσχημάτιστόν ἐστιν· ἀρκέσει ταῦτα δεῖξαι ἡ παράβασις ἡ ἐν τοῖς Ἀστρατεύτοις Εὐπόλιδος πᾶσα.</note>
+              <note type="apparatus">1. δεῦρο δὴ Hermannus Doctr. metr. 582] δεῦρ᾽ ἤδη.</note>
+            </div>
+          </div></body></text></TEI>

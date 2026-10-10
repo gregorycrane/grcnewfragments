@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PLATO COMICUS, ΥΠΕΡΒΟΛΟΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.yperbolos.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.yperbolos.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.yperbolos.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_yperbolos"><head>ΥΠΕΡΒΟΛΟΣ</head><div type="textpart" subtype="fragment" n="169" xml:id="kock-0497-yperbolos-169" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_yperbolos">
+              <lg>
+                <l n="1" xml:id="kock-0497-yperbolos-169-l1" xml:lang="grc">καὶ τοσοῦτον εὐερίας ἀπολέλαυχ᾽ Ὑπέρβολος,</l>
+                <l n="2" xml:id="kock-0497-yperbolos-169-l2" xml:lang="grc">ὥστε ἀθλιώτατός ἐστι.</l>
+              </lg>
+              <note type="apparatus">
+                <p>Schol. Aristoph. Av. 121 et Suidas <foreign xml:lang="grc">εὔερον· οἷον μαλακήν, ὥσπερ σισύραν εὔερον. Πλάτων Ὑπερβόλῳ κτλ. εὐερίας] τῆς εὐερίας Suid. ἀπολέλαυχ᾽ Dobraeus] ἀπολέλαυκεν ὁ. Ὑπέρβολος om. V et Suid. ὥστε ἀθλιώτατος V] ὥστε ἀλθλιωτάτη Suid. ὥστε αὐχμώτατός Ald. ὥστ᾽ αὐχμότατός Dobr. ὥστε γ᾽ ἀθλιώτατός Meinek.</foreign> metrum esse Eupolideum Dobraeus docuit Addend. Aristoph. Nub. 518. cui metro <foreign xml:lang="grc">αὐχμότατος</foreign> convenire negat Fritzschius Fragm. Eup. v. p. 8 propter tribrachum in sede secunda. (cf. quae adnotavimus ad Cratin. 98, 8.) itaque glyconeos fingit hosce <foreign xml:lang="grc">καὶ — εὐερίας | ἀπολ. — ὥστ᾽ | ἀθλ. ἐστιν.</foreign> satius videbatur cum Cobeto (Obs. crit. 139) manum abstinere. 'hunc fructum ex vita omnibus bonis adfluente Hyperbolum percepisse dicit, ut iam sit miserrimus'. Meinek.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="170" xml:id="kock-0497-yperbolos-170" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_yperbolos">
+              <note type="source">
+                <p>Schol. Lucian. 47 Iacobitz. <foreign xml:lang="grc">Πλάτων δὲ ὁ κωμικὸς ἐν Ὑπερβόλῳ Λυδὸν αὐτόν φησιν εἶναι (Ὑπέρβολον).</foreign> cf. Aristoph. Eq. 2. Av. 764. 1244.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="171" xml:id="kock-0497-yperbolos-171" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_yperbolos">
+              <lg>
+                <l n="1" xml:id="kock-0497-yperbolos-171-l1" xml:lang="grc">φύλλιον ἢ ῥαφανίδιον</l>
+              </lg>
+              <note type="apparatus">
+                <p>
+                  <foreign xml:lang="grc">ὑποκοριστικῶς εἴρηκε Πλάτων ἐν Ὑπερβόλῳ.</foreign> Athenaeus 2, 56 f. Dobraeus Adv. II 298 <foreign xml:lang="grc">φυλλεῖον ἢ ῥαφανιδίου</foreign> conl. Aristoph. Plut. 544 <foreign xml:lang="grc">ἀντὶ δὲ μάζης φυλλεῖ᾽ ἰσχνῶν ῥαφανίδων.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="172" xml:id="kock-0497-yperbolos-172" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_yperbolos">
+              <lg>
+                <l n="1" xml:id="kock-0497-yperbolos-172-l1" xml:lang="grc">ἀρτοσιτεῖν</l>
+              </lg>
+              <note type="apparatus">
+                <p>
+                  <foreign xml:lang="grc">τὸ ἐναντίον τῷ ὀψοφαγεῖν. Πλάτων ἐν Ὑπερβόλῳ κέχρηται τῷ ὀνόματι.</foreign> Bekker. Anecd. 447, 27.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="166_167" xml:id="kock-0497-yperbolos-166_167" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_yperbolos">
+              <lg>
+                <l n="1" xml:id="kock-0497-yperbolos-166_167-l1" xml:lang="grc">εὐτυχεῖς, ὦ δέσποτα.</l>
+                <l n="2" xml:id="kock-0497-yperbolos-166_167-l2" xml:lang="grc">Β. τί δ’ ἔστι; Α. βουλεύειν ὀλίγου ’λαχες πάνυ.</l>
+                <l n="3" xml:id="kock-0497-yperbolos-166_167-l3" xml:lang="grc">ἀτὰρ οὐ λαχὼν ὅμως ἔλαχες, ἢν νοῦν ἔχῃς.</l>
+                <l n="4" xml:id="kock-0497-yperbolos-166_167-l4" xml:lang="grc">Β. πῶς ἢν ἔχω νοῦν; Α. ὅτι πονηρῷ καὶ ξένῳ</l>
+                <l n="5" xml:id="kock-0497-yperbolos-166_167-l5" xml:lang="grc">ἐπέλαχες ἀνδρί, οὐδέπω γὰρ ἐλευθέρῳ.</l>
+                <l n="6" xml:id="kock-0497-yperbolos-166_167-l6" xml:lang="grc">* * * *</l>
+                <l n="7" xml:id="kock-0497-yperbolos-166_167-l7" xml:lang="grc">Β. ἄπερρ’· ἐγὼ δ’ ὑμῖν τὸ πρᾶγμα δὴ φράσω·</l>
+                <l n="8" xml:id="kock-0497-yperbolos-166_167-l8" xml:lang="grc">Ὑπερβόλῳ βουλῆς γάρ, ἄνδρες, ἐπέλαχον.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Thesmoph. 808 οὐκ ἔστι σαφές. ἀλλ’ οὐδὲ παρὰ Πλάτωνι ἐν Ὑπερβόλῳ· λέγει γάρ τι περὶ τοῦ ἐπιλαγχάνειν τοῖς βουλευταῖς· εὐτυχεῖς — ἐλευθέρῳ. καὶ ἐν ταὐτῷ· ἄπερρε κτλ.</note>
+              <note type="apparatus">3. ἀτὰρ οὐ Hanov. Exercit. crit. 93] ἄγαρου ‘habere videtur’ R. Duebn. Β. ἀτὰρ οὐκ ἔλαχον. Α. ὅμως κτλ. Bergk. R. c. Att. 312. 4. πῶς Bekker.] πῶς οὖν R. 6. δὴ Bekker.] μὴ R. Harpocrat.</note>
+            </div>
+          </div></body></text></TEI>

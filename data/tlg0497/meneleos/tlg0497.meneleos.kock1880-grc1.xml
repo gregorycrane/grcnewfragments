@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PLATO COMICUS, ΜΕΝΕΛΕΩΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.meneleos.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.meneleos.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.meneleos.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_meneleos"><head>ΜΕΝΕΛΕΩΣ</head><div type="textpart" subtype="fragment" n="74" xml:id="kock-0497-meneleos-74" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_meneleos">
+              <lg>
+                <l n="1" xml:id="kock-0497-meneleos-74-l1" xml:lang="grc">εἰπέ μοι,</l>
+                <l n="2" xml:id="kock-0497-meneleos-74-l2" xml:lang="grc">ὡς ὀλίγα λοιπὰ τῶν ἐπιτραπεζωμάτων.</l>
+                <l n="3" xml:id="kock-0497-meneleos-74-l3" xml:lang="grc">Β. ὁ γὰρ θεοῖσιν ἐχθρὸς αὐτὰ κατέφαγεν.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 641 b Πλάτων δ’ ἐν Μενέλεῳ ἐπιτραπεζώματα αὐτὰ (τὰ ἐπιφορήματα) καλεῖ, οἷον τὰ ἐπιτιθέμενα ταῖς τραπέζαις βρώματα, λέγων οὕτως κτλ. et 4, 170f ἔλεγον δὲ καὶ ἐπιτραπεζώματα τὰ ἐπιτιθέμενα τῇ τραπέζῃ βρώματα. Πλάτων Μενελάῳ· ὡς κτλ. (v. 2). Eustathius 1141, 5. Hesych. ἐπιτραπεζώματα· τὰ ἐπιτιθέμενα ταῖς τραπέζαις βρώματα.</note>
+              <note type="apparatus">scribendum videtur πῶς ὀλίγα κτλ. qui fit ut tam paucae sint reliquiae? et v. 3 fortasse Β. οὐ γὰρ ὁ θ. — κατέφαγεν;</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="75" xml:id="kock-0497-meneleos-75" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_meneleos">
+              <note type="source">Zenobius 6, 17 τί οὐκ ἀπήγξω, ἵνα Θήβησιν ἥρως γένῃ; ταύτης Πλάτων ἐν Μενέλεῳ μέμνηται. φασὶ δὲ ὅτι ἐν Θήβαις οἱ ἑαυτοὺς ἀναιροῦντες οὐδεμιᾶς τιμῆς μετεῖχον. καὶ Ἀριστοτέλης δέ φησι περὶ Θηβαίων τὸ αὐτὸ τοῦτο ὅτι τοὺς αὐτόχειρας ἑαυτῶν γενομένους οὐκ ἐτίμων. τὸ οὖν ἵνα ἥρως γένῃ κατ’ εὐφημισμὸν εἴρηται. similiter Photius et Suidas τί οὐκ ἀπήγξω et omisso auctoris nomine Plutarch. Proverb. 1, 47.</note>
+              <note type="apparatus">Platonis versus qui fuerit prorsus incertum est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="76" xml:id="kock-0497-meneleos-76" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_meneleos">
+              <lg>
+                <l n="1" xml:id="kock-0497-meneleos-76-l1" xml:lang="grc">ἀγελαίους ἄρτους</l>
+              </lg>
+              <note type="source">Athenaeus 3, 110 d Πλάτων δ’ ὁ κωμῳδιοποιὸς . . . ἐν τῷ Μενέλεῳ ἐπιγραφομένῳ ἀγελαίους τινὰς ἄρτους καλεῖ. Eustathius 265, 32. Bekker. Anecd. 326, 4 ἀγελαῖον ἄρτον τὸν χυδαῖον. cf. Eupol. 374.</note>
+            </div>
+          </div></body></text></TEI>

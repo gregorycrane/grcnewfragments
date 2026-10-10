@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-chrysippos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΧΡΥΣΙΠΠΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.chrysippos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.chrysippos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.chrysippos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_chrysippos"><head>ΧΡΥΣΙΠΠΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-chrysippos-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_chrysippos" sameAs="urn:cts:greekLit:tlg0006.chrysippos.nauck1889grc1:840">
+            <note type="source">1. Clem. Alex. Strom. II, 15 § 63 (p. 462 P.)</note>
+            <quote>ὁ μὲν γὰρ Λάϊος ἐκεῖνος κατὰ τὴν τραγῳδίαν φησίν·</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">λέληθε δ᾽ οὐδὲν τῶνδέ μ᾽ ὧν σὺ νουθετεῖς,</l>
+              <l n="2" xml:lang="grc">γνώμην δ᾽ ἔχοντά μ᾿ ἡ φύσις βιάζεται.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-chrysippos-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_chrysippos">
+            <note type="source">2. Plut. de virt. mor. 6, (p. 446 A,)</note>
+            <quote>αἱ δὲ τῆς ἀκρασίας (φωναὶ) ἔτεραι καὶ διαφέρουσαι·</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γνώμην ἔχοντά μ᾿ ἡ φύσις βιάζεται.</l>
+            </lg>
+            <quote>καὶ</quote>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Αἰαῖ, τόδ᾽ ἤδη θεῖον ἀνθρώποις κακὸν,</l>
+              <l n="3" xml:lang="grc">ὅταν τις εἰδῇ τἀγαθὸν, χρῆται δὲ μή.</l>
+            </lg>
+            <note type="commentary">Alterum fgm. est etiam apud Stobæum V, 6 sed sine lemmate.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-chrysippos-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_chrysippos" sameAs="urn:cts:greekLit:tlg0006.chrysippos.nauck1889grc1:842">
+            <note type="source">3. Stobæus LXVI, 2.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γνώμῃ σοφός μοι, καὶ χέρ᾽ ἀνδρείαν ἔχοι·</l>
+              <l n="2" xml:lang="grc">δύσμορφος εἴην μᾶλλον ἤ καλὸς κακός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4_5" xml:id="fragment-chrysippos-dindorf1893_grc1-4_5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_chrysippos">
+            <note type="source">4, 5. Plut. Erotic. 3, (p. 750 Α,)</note>
+            <quote>ὁ δὲ Δαφναῖος, ὦ Ἡράκλεις, ἔφη, τί οὐκ ἄν τις προσδοκήσειεν, εἰ καὶ Πρωτογένης ἔρωτι πολεμήσων πάρεστιν; ᾧ καὶ παιδιὰ πᾶσα καὶ σπουδὴ περὶ ῎Ερωτα καὶ δι' ῎Ἔρωτος</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Λήθῃ δὲ λόγων, λήθῃ δὲ πάτρας,</l>
+            </lg>
+            <quote>οὐχ ὡς τῷ Λαΐῳ πέντε μόνον ἡμερῶν ἀπέχοντι τῆς πατρίδος. βραδὺς γὰρ ὁ ἐκείνου καὶ χερσαῖος "Έρως. ὁ δὲ σὸς ἐκ Κιλικίας Ἀθήναζε</quote>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">λαιψηρὰ κυκλώσας πτερὰ</l>
+              <l n="3" xml:lang="grc">διαπόντιος πέταται,</l>
+              <l n="4" xml:lang="grc">τοὺς καλοὺς ἐφορῶν καὶ συμπλανώμενος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-chrysippos-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_chrysippos">
+            <note type="source">6. Sext. Emp. adv. Mathem. VI, 17, p. 360, (p. 751 ed. Bekk.)</note>
+            <quote>Ωσαύτως δὲ καὶ τὰ παρὰ τοῖς τραγικοῖς μέλη τὰ στάσιμα, φυσικόν τινα ἐπέχοντα λόγον, ὁποῖά ἐστι τὰ οὕτω λεγόμενα</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γαῖα μεγίστη καὶ Διὸς αἰθὴρ,</l>
+              <l n="2" xml:lang="grc">ὁ μὲν ἀνθρώπων καὶ θεῶν γενέτωρ,</l>
+              <l n="3" xml:lang="grc">ἡ δ᾽ ὑγροβόλους στάγονας νοτίους</l>
+              <l n="4" xml:lang="grc">παραδεξαμένη τίκτει θνατοὺς,</l>
+              <l n="5" xml:lang="grc">τίκτει δὲ βορὰν, φυλά τε θηρῶν,</l>
+              <l n="6" xml:lang="grc">ὅθεν οὐκ ἀδίκως</l>
+              <l n="7" xml:lang="grc">μήτηρ πάντων νενόμισται.</l>
+            </lg>
+            <note type="commentary">His Grot. (Exc. p. 417.) probabiliter subjunxit versus et si sententiam et si metrum respicis prorsus cum illis convenientes, qui leguntur apud Phil. Jud. περὶ ἀφθαρσ. κόσμ. § 11, p. 498 ed. Mang. (p. 948 ed. Pfeiff.) et de Mundo. § 11, p. 612 ed. M. (p. 1161 ed. Pf.)</note>
+            <lg type="fragment">
+              <l n="8" xml:lang="grc">Χωρεῖ δ᾽ ὀπίσω, τὰ μὲν ἐκ γαιας</l>
+              <l n="9" xml:lang="grc">φύντ᾽ εἰς γαῖαν, τὰ δ᾽ ἀπ᾿ αἰθεριου</l>
+              <l n="10" xml:lang="grc">βλαστόντα γονῆς εἰς οὐράνιον</l>
+              <l n="11" xml:lang="grc">πόλον ἦλθε πάλιν· θνήσκει δ᾽ οὐδὲν</l>
+              <l n="12" xml:lang="grc">τῶν γιγνομένων, διακρινόμενον δ᾽</l>
+              <l n="13" xml:lang="grc">ἄλλο πρὸς ἄλλου</l>
+              <l n="14" xml:lang="grc">μορφὴν ἰδίαν ἀπέδειξε.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-chrysippos-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_chrysippos" sameAs="urn:cts:greekLit:tlg0006.chrysippos.nauck1889grc1:843">
+            <note type="source">7. Stobæus CV, 13. Arsen. Viol. p. 486 ed. Walz.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">*Ὦ δέσποτ᾽, οὐδεὶς οἶδεν ἄνθρωπος γεγὼς</l>
+              <l n="2" xml:lang="grc">οὔτ᾽ εὐτυχοῦς ἀριθμὸν οὔτε δυστυχούς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-chrysippos-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_chrysippos" sameAs="urn:cts:greekLit:tlg0006.chrysippos.nauck1889grc1:844">
+            <note type="source">8. Hesych. Εἰάζων, εἶα ἐπικελεύων. Εὐριπίδης Χρυσίππῳ. cf. Valck. Diatr. p. 21.</note>
+          </div>
+        </div></body></text></TEI>

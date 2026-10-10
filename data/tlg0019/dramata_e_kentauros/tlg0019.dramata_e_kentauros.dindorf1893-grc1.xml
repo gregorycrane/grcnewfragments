@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0019-dramata_e_kentauros-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aristophanes, ΔΡΑΜΑΤΑ Η ΚΕΝΤΑΥΡΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aristophanes</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="716" to="745"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 716–745. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aristophanes-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-09">Folded page-local headings into stable Aristophanic work identities, restored Dindorf's per-work numbering, and removed demonstrable duplicate page-724 records; transcribed content otherwise unchanged. Geras is absent from the source extraction.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0019.dramata_e_kentauros; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0019.dramata_e_kentauros.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0019.dramata_e_kentauros.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros"><head>ΔΡΑΜΑΤΑ Η ΚΕΝΤΑΥΡΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-dramata_e_kentauros-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+            <note type="source">(1.) Photius p. 451, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐγὼ γάρ, εἴ τι σ' ἠδίκηκ', ἐθέλω δίκην</l>
+              <l n="2" xml:lang="grc">δοῦναι πρόδικον ἐν τῶν φίλων τῶν σῶν ἑνί.</l>
+            </lg>
+            <note type="commentary">Conf. Suidas in πρόδικον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-dramata_e_kentauros-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+            <note type="source">(2.) Pollux III, 74.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀνοιγέτω τις δώματ'· αὐτὸς ἔρχεται.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-dramata_e_kentauros-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+            <note type="source">(3.) Pollux X, 185.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀλλ' εἰς κάδον λαβών τιν' οὔρει πίττινον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-dramata_e_kentauros-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+            <note type="source">(4.) Pollux X, 79.</note>
+            <quote>Ἀριστοφάνης γοῦν ἐν Δράμασιν ἢ Κενταύρῳ “Ἐκκρουσαμένους τοὺς πύνδακας” εἴρηκε.</quote>
+            <note type="apparatus">ἐκκρουσάμενος Casaubonus.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-dramata_e_kentauros-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+            <note type="source">(5.) Pollux IX, 53.</note>
+            <quote>Ἀριστοφάνης ἐν Δράμασιν * Κενταύρῳ “Λίθος δεκατάλαντος.”</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-dramata_e_kentauros-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+            <note type="source">(6.) Pollux IX, 36.</note>
+            <quote>Κωμήτας τοὺς γείτονας καὶ κωμήτιδας ὠνόμαζον. Ἀριστοφάνης γοῦν ἐν μὲν Δράμασιν ἢ Κενταύρῳ ἔφη “Ἐν κωμήτισι (κωμήτισιν?) καπήλοις (τ' addit Salmasius) ἐπίχαρτον.”</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-dramata_e_kentauros-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+            <note type="source">(7.) Hesychius, Οὐ γὰρ ἄκανθαι: παροιμία.</note>
+            <quote>Ἀριστοφάνης Σκηνὰς καταλαμβανούσαις “Οὐδ' ἴσως ἀντέλεγες τούτῳ τῷ δειπνίῳ· οὐ γὰρ ἄκανθαι.”</quote>
+            <note type="commentary">καὶ ἐν Δράμασιν ἢ Κενταύρῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Χωρεῖ δ' ἄκλητος ἀεὶ δειπνήσων· οὐ γὰρ ἄκανθαι.</l>
+            </lg>
+            <note type="apparatus">Post χωρεῖ δ' aliquid omissum. In fine versus οὐ γὰρ ἄκανθαι, quibus verbis caret codex, addiderunt critici.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-dramata_e_kentauros-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+            <note type="source">(8.) Pollux VII, 24.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πτίττω, βράττω, μάττω, δεύω, πέττω, καταλῶ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-dramata_e_kentauros-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+            <note type="source">(9.) Hesychius, Κύλλου πήρα: ζητοῦσι διὰ τί τὸ πορνεῖον Κύλλου πήραν Ἀριστοφάνης εἴρηκεν ἐν Δράμασιν ἢ Κενταύρῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὸ δὲ πορνεῖον Κύλλου πήρα.</l>
+            </lg>
+            <note type="commentary">ἔστι γὰρ χωρίον Ἀθήνησιν ἐπηρεφὲς καὶ κρήνη. ἀντὶ δὲ τοῦ πέραν πήραν ἔφη. Conf. Suidas, Photius p. 185, 21. Herodianus περὶ μονήρους λέξεως p. 11, 16.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-dramata_e_kentauros-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+            <note type="source">(10.) Athenaeus XIV, p. 629 c.</note>
+            <quote>Τὴν ἀπόκινον καλουμένην ὄρχησιν, ἧς μνημονεύει Ἀριστοφάνης ἐν Κενταύρῳ.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-dramata_e_kentauros-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_kentauros">
+            <note type="source">(11.) Pollux X, 171.</note>
+            <quote>Κλιμακτῆρες, ὡς ἐν Ἀριστοφάνους Δράμασιν ἢ Κενταύρῳ.</quote>
+          </div>
+        </div></body></text></TEI>

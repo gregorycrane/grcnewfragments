@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PLATO COMICUS, ΑΙ ΑΦ ΙΕΡΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.ai_aph_ieron.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.ai_aph_ieron.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.ai_aph_ieron.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ai_aph_ieron"><head>ΑΙ ΑΦ ΙΕΡΩΝ</head><div type="textpart" subtype="fragment" n="9" xml:id="kock-0497-ai_aph_ieron-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ai_aph_ieron">
+              <lg>
+                <l n="1" xml:id="kock-0497-ai_aph_ieron-9-l1" xml:lang="grc">οὐδ’ ὅστις αὐτῆς ἐκπίεται τὰ χρήματα.</l>
+              </lg>
+              <note type="apparatus">Athenaeus 10, 446 e ἐνίοτε δὲ καὶ συστέλλουσι τὸ ι (πίομαι), ὡς Πλάτων ἐν Ταῖς ἀφ’ ἱερῶν κτλ. apud antiquiores comicos semper πίομαι. Aristoph. Eq. 1289. 1401. Theopomp. 32, 9. cf. etiam Sophocl. OC. 622. correptae vocalis exempla sunt Plat. 163. Amips. 22 (dubium utrumque). Epicr. 3, 21 (ubi scrib. που μόνη pro πιομένη). Cobetus tetrametros iambicos restituens N. 1. 31 οὐδ’ ἔστιν ὅστις αὐτῆς | ἐκπίεται κτλ. fortasse scripsit οὐδ’ ὅστις αὐτῆς – ⏑ – τὰ χρήματα | ἐκπίεται. rempublicam significari surreptis pecuniis fraudatam existimat Bergkius R. c. Att. 381.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="10" xml:id="kock-0497-ai_aph_ieron-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ai_aph_ieron">
+              <lg>
+                <l n="1" xml:id="kock-0497-ai_aph_ieron-10-l1" xml:lang="grc">δότω τὴν κιθάραν τις ἔνδοθεν</l>
+                <l n="2" xml:id="kock-0497-ai_aph_ieron-10-l2" xml:lang="grc">καὶ τοὐπιπόρπαμα.</l>
+              </lg>
+              <note type="apparatus">Pollux 10, 190 ἐπιπόρπαμα κιθαρῳδοῦ σκευή, ὡς Πλάτων ἐν Ταῖς ἀφ’ ἱερῶν κτλ. δότω δὲ Bentleius Epist. ad Hemsterh. p. 73. δότω μοι Porsonus Adv. 297. τοὐπιπόρπημα Meinek. V 42. citharoedus aliquis ornatum sibi efferri iubet, sine quo non facile in publicum prodibant. Nub. 332 comparavit Bergkius R. c. Att. 383 et de genere dicendi Aristoph. fr. 348.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0497-ai_aph_ieron-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ai_aph_ieron">
+              <lg>
+                <l n="1" xml:id="kock-0497-ai_aph_ieron-11-l1" xml:lang="grc">πόθεν ὁρμιὰ καὶ κάλαμος;</l>
+              </lg>
+              <note type="apparatus">Hesychius ἀσπαλιεύς· ἁλιεύς. ἄσπαλος γὰρ ὁ ἰχθύς. ἔνιοι δὲ ἀπὸ τοῦ σπᾶν τὸ λίνον· λίνον δὲ ἡ ὁρμιά. ὡς Πλάτων ἐν Ταῖς ἀφ’ ἱερῶν κτλ. πόθεν λίνον καὶ κάλαμος; Casaub. Athen. 10, 446 e. πόθεν λίνον μοι καὶ κάλαμος γενήσεται; Cobet. Mnem. V 202. at cum ὁρμιὰ non minus bonae sit notae quam λίνον (Antiphan. 28. Eurip. Helen. 1615), aliquanto sane rarius, Hesychii verba potius videntur emendanda sic λίνον δὲ ἢ (pro ἡ) ὁρμιά, ὡς Πλάτων κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0497-ai_aph_ieron-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ai_aph_ieron">
+              <lg>
+                <l n="1" xml:id="kock-0497-ai_aph_ieron-12-l1" xml:lang="grc">λέπει τραχεῖαν ἔχων</l>
+                <l n="2" xml:id="kock-0497-ai_aph_ieron-12-l2" xml:lang="grc">τύπτε.</l>
+              </lg>
+              <note type="apparatus">Bekker. Anecd. 106, 28 λέπει· ἀντὶ τοῦ τύπτει. Πλάτων Ἀφιεροῦντι κτλ. ταῖς ἀφ’ ἱερῶν Meinekius. in Andronici indice (Bekker. Anecd. 1461) Ἀφιέρων. λέπει — τύπτει Meinek.] λέπτε — τύπτε. idem μάστιγα excidisse censet ante λέπει, ut sit versus anapaesticus. de verbo λέπειν Ruhnken. Epist. crit. 208.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="13" xml:id="kock-0497-ai_aph_ieron-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ai_aph_ieron">
+              <lg>
+                <l n="1" xml:id="kock-0497-ai_aph_ieron-13-l1" xml:lang="grc">μαλλωτὰς χλαμύδας</l>
+              </lg>
+              <note type="apparatus">Πλάτων ἐν Ταῖς ἀφ’ ἱερῶν . . εἴρηκεν. Pollux 7, 57.</note>
+            </div>
+          </div></body></text></TEI>

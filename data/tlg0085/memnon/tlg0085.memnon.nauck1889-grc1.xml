@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΜΕΜΝΩΝ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.memnon; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.memnon.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.memnon.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:memnon"><head xml:lang="grc">ΜΕΜΝΩΝ</head>
+          <note type="introduction" xml:lang="mul">Pollux 4, 110 : ὁπότε μὴν ἀντὶ τετάρτου ὑποκριτοῦ δέοι τινὰ τῶν χορευτῶν εἰπεῖν ἐν ᾠδῇ , παρασκήνιον καλεῖται τὸ πρᾶγμα [ὡς ἐν Ἀγαμέμνονι Αἰσχύλου]· εἰ δὲ τέταρτος ὑποκριτής τι παραφθέγξαιτο, τοῦτο παραχορήγημα ὀνομάζεται, καὶ πεπρᾶχθαι φασὶν αὐτὸ ἐν Μέμνονι (al. ἐν Ἀγαμέμνονι) Αἰσχύλου. verba ὡς ἐν Ἀγαμέμνονι Αἰσχύλου, quae omittit ed. Wetsteniana, delenda esse iudicat G. Dindorf. respicit hanc fabulam Ar. Ran. 963 , ubi Euripidem haec dicentem facit : οὐδ’ ἐξέπληττον αὐτούς, Κύκνους ποιῶν καὶ Μέμνονας κωδωνοφαλαροπώλους. de argumento cf. Procli Chrestom. p. 458 : Μέμνων δὲ ὁ Ἠοῦς υἱὸς ἔχων ἡφαιστότευκτον πανοπλίαν παραγίνεται τοῖς Τρωσὶ βοηθήσων... ἔπειτα Ἀχιλλεὺς Μέμνονα κτείνει. de morte Memnonis egisse Ψυχοστασίαν Aeschyli coni. Hermann, qui huc referenda suspicatur fr. 300 329 405 .</note>
+          <div type="textpart" subtype="fragment" n="127" corresp="urn:cite2:perseus:fragmentaryplays.v1:memnon" xml:id="aesch-fr127">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-127-1">καὶ μὴν πελάζει καὶ καταψύχει πνοὴ</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-127-2">ἄρκειος ὣς ναύταισιν ἀσκεύοις μολών</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Eust. Il. p. 1156, 18 : τὴν ἐκεῖθεν πνοὴν ἄρκιον, εἰς ὃ φέρει ἐκεῖνος χρῆσιν ταύτην καὶ μὴν — μολών . Anecd. Bekk. p. 445, 18 : καὶ τὴν πνοὴν ἄρκιον καὶ μὴν — πνοὴ ἄρκιος . Aeschylo locum vindicavit Bergk coll. Hesych. 1 p. 299 : ἀσκεύοις· ψιλοῖς, ἀπαρασκεύοις. Αἰσχύλος Ἀγαμέμνονι, ubi Αἰσχύλος Μέμνονι correxit. Bergkium secuti sunt Naber in Phot. Lex. 1 p. 146 et M. Schmidt, dissentit Wecklein Studien zu Aeschylus p. 143. v. 2 ἄρκιος ἄρκειος (Paral. p. 35) . v. 2 ναύτῃσιν ναύταισιν .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="128" corresp="urn:cite2:perseus:fragmentaryplays.v1:memnon" xml:id="aesch-fr128">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-128-1">χαλκὸν ἀθἐριτον ἀσπίδος ὑπερτενῆ</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Anecd. Bekk. p. 353, 11 : ἀθήρης· ἴσως μὲν ὁ ἀτειρὴς (ἀτηρὴς cod.) ἢ ὁ ἀντερειστικός. Αἰσχύλος Ἀγαμέμνονι (Wellauer Μέμνονι) χαλκὸν — ὑπερτενῆ . ἢ ὁ λαμπρός, ὁ διὰ λαμπρότητα ἀθρούμενος· ἢ ὁ ἀθερίζων καὶ οὐδενὸς ἔχων λόγον διὰ σκληρότητα· ἢ ὁ ὀξύς, παρὰ τοὺς ἀθέρας. cf. Hesych. 1 p. 63 : ἀθερής· ὁ σίδηρος, ἀτειρής (ἀτηρής cod.) , ὅταν θερίζῃ... p. 62 : ἀθειρής· ἤτοι ἀτειρὴς ἢ ὁ ἄγαν θεριστικὸς ἢ ὑπέροπτος (l. ὑπερόπτης) ἢ θαυμαστός. Aeschylea verba certam medelam non admittunt : ἀθέριστον ἀσπίδων coni. Blomfield in Aesch. Agam. p. X, ἀθερῆ τόνδ’ ἀσπίδος θ’ M. Schmidt Zeitschr. f. d. Alt. 1856 p. 363.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="129" corresp="urn:cite2:perseus:fragmentaryplays.v1:memnon" xml:id="aesch-fr129">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-129-1">σὺν δόρει στρατόν</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Anecd. Oxon. vol. 1 p. 122, 17 : δουρί· πέντε ἔχει δοτικάς. — ἡ δόρει παρ’ Αἰσχύλῳ ἐν Ἀγαμέμνονι (Lehrs in Herod. p. 118 Μέμνονι) σὺν δόρει στρατόν .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="130" corresp="urn:cite2:perseus:fragmentaryplays.v1:memnon" xml:id="aesch-fr130">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-130-1">γονίας</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 442 : γόνιας· εὐχερής. Αἰσχύλος Ἀγαμέμνονι (Wagner Μέμνονι) .</note>
+          </div>
+        </div></body></text>
+</TEI>

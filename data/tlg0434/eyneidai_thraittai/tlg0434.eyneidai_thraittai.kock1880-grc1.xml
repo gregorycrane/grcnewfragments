@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΕΥΝΕΙΔΑΙ ΘΡΑΙΤΤΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.eyneidai_thraittai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.eyneidai_thraittai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.eyneidai_thraittai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_eyneidai_thraittai"><head>ΕΥΝΕΙΔΑΙ ΘΡΑΙΤΤΑΙ</head><div type="textpart" subtype="fragment" n="71" xml:id="kock-0434-eyneidai_thraittai-71" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_eyneidai_thraittai">
+              <head>71</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-eyneidai_thraittai-71-l1" xml:lang="grc">ὁ σχινοκέφαλος Ζεὺς ὅδε προσέρχεται</l>
+                <l n="2" xml:id="kock-0434-eyneidai_thraittai-71-l2" xml:lang="grc">Περικλέης, τᾠδεῖον ἐπὶ τοῦ κρανίου</l>
+                <l n="3" xml:id="kock-0434-eyneidai_thraittai-71-l3" xml:lang="grc">ἔχων, ἐπειδὴ τοὔστρακον παροίχεται.</l>
+              </lg>
+              <note type="source">Plutarch. Pericl. 13 Κρατῖνος ἐν Θρᾴτταις. Pollux 2, 43 σχινοκέφαλον δὲ Κρατῖνος τὸν Περικλέα εἶπε.</note>
+              <note type="apparatus">ὅδε] ὦ δὲ C. ὁδὶ Meinekius. Περικλέης] ὁ Περικλέης Meinekius. recte sine dubio, si Plutarchi codices verba poetae incorrupta tradiderunt. cum autem 'iocoso nomini' (ὁ σχ. Ζεύς) 'verum addere' (Περικλέης) insulsum sit, iure Cobetus (Var. lect. 371. 2) Περικλέης eiecisse videtur; quo facto scribendum est ὁ σχ. Ζ. ὅδε | προσέρχεται, τᾠδ. ἐπὶ τοῦ κρ. | ἔχων. — Plut. Per. 3 (Ἀγαρίστη) ἔτεκε Περικλέα τὰ μὲν ἄλλα τὴν ἰδέαν τοῦ σώματος ἄμεμπτον, προμήκη δὲ τὴν κεφαλὴν καὶ ἀσύμμετρον. ὅθεν αἱ μὲν εἰκόνες αὐτοῦ σχεδὸν ἅπασαι κράνεσι περιέχονται . . . οἱ δὲ Ἀττικοὶ ποιηταὶ σχινοκέφαλον αὐτὸν ἐκάλουν· τὴν γὰρ σκίλλαν ἔστιν ὅτε καὶ σχῖνον ὀνομάζουσιν. 11 τὸ ᾠδεῖον, . . . τῇ δ' ἐρέψει περικλινὲς καὶ κάταντες ἐκ μιᾶς κορυφῆς πεποιημένον, εἰκόνα λέγουσι γενέσθαι καὶ μίμημα τῆς βασιλέως σκηνῆς, ἐπιστατοῦντος καὶ τούτῳ Περικλέους. odeum in capite Pericles gestat tamquam galeam. ea enim, capitis formae adcommodata et propterea praegrandis, facile cum tholo odei comparabatur, tum Atheniensibus novo et admirabili, dedicatum esse odeum Wachsmuthius (Athen. I 554 adn. 2) censet a. a. Chr. 446. cf. Saupp. Act. soc. Gott. 1867, 31. τοὔστρακον παροίχεται plerique ita interpretantur, tamquam Pericles testarum suffragium effugisse dicatur. at cum ita παροίχεσθαι nusquam usurpetur, sed semper absolute, veri similius est poetam queri, quod una illa ultimi ostracismi occasio, qua Periclem Athenienses in exsilium mittere potuerint, frustra praeterierit. paullo aliter Cobet. Obs. crit. Plat. 7.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="72" xml:id="kock-0434-eyneidai_thraittai-72" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_eyneidai_thraittai">
+              <head>72</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-eyneidai_thraittai-72-l1" xml:lang="grc">ἐς τὸν καλιόν, ἢν τύχῃ, καθείργνυται.</l>
+              </lg>
+              <note type="source">Pollux 10, 160 οἰκίσκος ὀρνίθειος παρὰ Ἡροδότῳ καὶ Ἀρχιλόχῳ. καὶ καλιὰ δὲ καὶ καλιὸς ὁ τοιοῦτος οἰκίσκος, ὡς Κρατῖνος Θρᾴτταις. Hesychius καθείργνυται· συγκλείεται.</note>
+              <note type="apparatus">Fritzschii interpretationem (Qu. Arist. 78) nemo opinor sequetur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="73" xml:id="kock-0434-eyneidai_thraittai-73" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_eyneidai_thraittai">
+              <head>73</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-eyneidai_thraittai-73-l1" xml:lang="grc">ὅτι τοὺς κόρακας τἀξ Αἰγύπτου χρυσία κλέπτοντας ἔπαυσαν.</l>
+              </lg>
+              <note type="source">Pollux 9, 91 οὕτως ἂν καὶ ὁ Κρατῖνος ἐν Θρᾴτταις εἰρηκὼς εἴη τὸν χρυσὸν χρυσία.</note>
+              <note type="apparatus">ἔπαυσαν] ἔπαυσεν Meinekius, ut chorus de poeta loquatur, cf. Arist. Eq. 541 sq. Pac. 739 sq. potest tamen Cratinus etiam de aliis hominibus haec praedicare, etiamsi ex para-</note>
+            </div>
+          </div></body></text></TEI>

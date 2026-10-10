@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΚΑΒΕΙΡΟΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.kabeiroi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.kabeiroi.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.kabeiroi.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:kabeiroi"><head xml:lang="grc">ΚΑΒΕΙΡΟΙ</head>
+          <note type="introduction" xml:lang="mul">Schol. Pind. Pyth. 4, 303 : πάντας Σοφοκλῆς ἐν ταῖς Λημνιάσι τῷ δράματι καταλέγει τοὺς εἰς τὸ Ἀργῷον εἰσελθόντας σκάφος καὶ Αἰσχύλος Καβείροις (κιβήραις libri, correxit Meursius) . Ath. X p. 428 F : τὸν Αἰσχύλον ἐγὼ φαίην ἂν τοῦτο διαμαρτάνειν· πρῶτος γὰρ ἐκεῖνος, καὶ οὐχ ὡς ἔνιοι φασὶν Εὐριπίδης, παρήγαγε τὴν τῶν μεθυόντων ὄψιν εἰς τραγῳδίαν. ἐν γὰρ τοῖς Καβείροις (καβίροις A) εἰσάγει τοὺς περὶ τὸν Ἰάσονα μεθύοντας. hinc probabile est quod Welcker coniecit, Cabiros eiusdem fuisse trilogiae atque Ὑψιπύλην et Ἀργώ . fortasse huic fabulae tribuendum est Achaei fr. 39.</note>
+          <div type="textpart" subtype="fragment" n="95" corresp="urn:cite2:perseus:fragmentaryplays.v1:kabeiroi" xml:id="aesch-fr95">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-95-1">ὄρνιθα δ’ οὐ ποιῶ σε τῆς ἐμῆς ὁδοῦ .</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. IX p. 373 D : ἐπὶ δὲ τοῦ ἀρσενικοῦ οὐ μόνον ὄρνιν ἀλλὰ καὶ ὄρνιθα. — Αἰσχύλος Καβείροις (καβιροις A) ὄρνιθα — ὁδοῦ .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="96" corresp="urn:cite2:perseus:fragmentaryplays.v1:kabeiroi" xml:id="aesch-fr96">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-96-1">μήτε κρωσσοὺς</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-96-2">μήτ’ οἰνηροὺς μήθ’ ὑδρηλοὺς</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-96-3">λιπεῖν ἀφνεοῖσι δόμοισιν</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Pollux 6, 23 : οἰνηρὸς θεράπων παρὰ Ἀνακρέοντι — καὶ Αἰσχύλος μήτε — δόμοισιν . Antiatt. p. 115, 3 : ὑδρηροὺς πίθους καὶ οἰνηρούς. Αἰσχύλος Καβείροις (καιείροις codex) .</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 μήτ’ αὖ κρωσσοὺς (vel μηδ’ αὖ) . v. 2 ὑδρηλοὺς ὑδατηροὺς . v. 3 λιπεῖν] λείπειν λείψειν (Aglaoph. p. 1207) λείβειν λήγειν (Philol. 18 p. 229) .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="97" corresp="urn:cite2:perseus:fragmentaryplays.v1:kabeiroi" xml:id="aesch-fr97">
+            <note type="sourceContext" xml:lang="mul">Plut. Quaest. conv. 2, 1, 7 p. 632 F : ποιεῖ δ’ εὔχαρι σκῶμμα καὶ μέμψις ἐμφαίνουσα χάριν — εἴ τις ἀντιστρέψας αἰτιῷτο τοὺς Αἰσχύλου Καβείρους ὄξους σπανίζειν δῶμα ποιήσαντας, ὥσπερ αὐτοὶ παίζοντες ἠπείλησαν. Aeschylus Cabiros cum Argonautis comiter conversantes largumque vini proventum gratiose minitantes induxit. Lobeck Aglaoph. p. 1207. verba ὄξους σπανίζειν δῶμα probabile est ex Aeschylo esse repetita.</note>
+          </div>
+        </div></body></text>
+</TEI>

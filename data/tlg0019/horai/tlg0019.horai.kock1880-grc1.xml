@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΩΡΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.horai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.horai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.horai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai"><head>ΩΡΑΙ</head><div type="textpart" subtype="fragment" n="576" xml:id="kock-0019-horai-576" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <p>ζεῦγος τρίδουλον</p>
+              <note type="source">Ἀριστοφάνης Ὥραις καταχρηστικῶς ἐπὶ τῶν τριῶν τὸ ζεῦγος ἔθηκε ζ. τρ. Hesych. ζεῦγος τριπάρθενον. — τρίδουλον Salmas.] τριδούλων.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="577" xml:id="kock-0019-horai-577" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <p>ἀσκοπήρα</p>
+              <note type="source">ὡς ἐν ταῖς Ὥραις Ἀριστοφάνους. Pollux 10, 160.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="578" xml:id="kock-0019-horai-578" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <p>χοιροπῶλαι</p>
+              <note type="source">ὡς Ἀριστοφάνης ἐν Ὥραις. Pollux 7, 187.</note>
+              <note type="apparatus">Glossam Hesychii Ἀρίστυλλος· Ἀρίστωνος. ἀρίστου ὥρα sic refingit M. Schmidtius Ἀρίστυλλος· Ἀρίστωνος (filius, i. e. Plato). Ἀριστοφάνης Ὥραις. cf. fr. 538.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="564_565" xml:id="kock-0019-horai-564_565" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <note type="source">
+                <p>Bekker. Anecd. 425, 3 <foreign xml:lang="grc">ἀπίχθυς· τοὺς μὴ ἐσθιομένους ἰχθῦς. Ἀριστοφάνης Ὥραις.</foreign> Pollux 6, 41 <foreign xml:lang="grc">ἄπιχθυς παρὰ Ἀριστοφάνει ὁ ἰχθύων ἄγευστος.</foreign> Eustathius 1720, 24 <foreign xml:lang="grc">ἰστέον δὲ ὅτι ὁ παντελῶς ὀλίγος ἰχθὺς ἄπιχθυς ἐλέγετο παρὰ τοῖς παλαιοῖς καὶ ἐδήλου τὸν μὴ ἐσθιόμενον. καὶ φέρουσιν ἐκεῖνοι χρῆσιν εἰς τοῦτο ἐκ τοῦ κωμικοῦ. ἐν μέντοι τῷ περὶ ὀνομασίας ἡλικιῶν τοῦ γραμματικοῦ Ἀριστοφάνους φέρεται ὅτι ἀπίχθυες κατά τινας οἱ μὴ ἐσθίοντες ἰχθῦς, καὶ φέρει ἐκεῖνος καὶ Ἀριστοφάνους χρῆσιν ἐξ Ἐρεχθέως ταύτην,</foreign>
+                </p>
+              </note>
+              <lg>
+                <l n="1" xml:id="kock-0019-horai-564_565-l1" xml:lang="grc">τοὐνθένδ᾽ ἀπίχθυς βαρβάρους οἰκεῖν δοκῶ.</l>
+              </lg>
+              <note type="apparatus">
+                <p>falluntur qui aut Eustathium aut Bekkeri grammaticum in nomine auctoris fabulaeve erravisse opinantur Bergkius et Dindorfius. dubitari non potest quin utrumque fragmentum — sunt enim duo — ad Horas Aristophanis pertineant. sed discimus ex Eustathio alterum Horarum titulum fuisse Erechtheum. eiusdem nominis comoedia, sed non Aristophanis, acta Ol. 102, 4 vel 106, 2, commemoratur C. I. I 230, ubi Boeckhius etiam Aristophanis fuisse Erechtheum dicit: quamquam quo indicio fretus id dixerit nescio.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="566" xml:id="kock-0019-horai-566" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <lg>
+                <l n="1" xml:id="kock-0019-horai-566-l1" xml:lang="grc">τὸν Φρύγα, τὸν αὐλητῆρα, τὸν Σαβάζιον.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="567" xml:id="kock-0019-horai-567" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <lg>
+                <l n="1" xml:id="kock-0019-horai-567-l1" xml:lang="grc">ἐμοὶ</l>
+                <l n="2" xml:id="kock-0019-horai-567-l2" xml:lang="grc">κράτιστόν ἐστιν εἰς τὸ Θησεῖον δραμεῖν,</l>
+                <l n="3" xml:id="kock-0019-horai-567-l3" xml:lang="grc">ἐκεῖ δ’ ἕως ἂν πρᾶσιν εὕρωμεν μένειν.</l>
+              </lg>
+              <note type="source">Pollux 7, 13 ὃ δὲ οἱ νῦν φασι τοὺς οἰκέτας πρᾶσιν αἰτεῖν ἔστιν εὑρεῖν ἐν ταῖς Ἀριστοφάνους Ὥραις κτλ. ἐμοὶ Toup. Emend. IIII 370] εἴ μοι. Bekkerus nihil varietatis adnotavit. κράτιστον ἡμῖν εἰς κτλ. Cobet. Mnem. V 195. facilius etiam ἡμῖν κράτιστον Porson. Hecub. 1238. cf. Eq. 20 sq. 1312. fr. 458. 459.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="568" xml:id="kock-0019-horai-568" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <lg>
+                <l n="1" xml:id="kock-0019-horai-568-l1" xml:lang="grc">διέφθορας τὸν ὅρκον ἡμῶν.</l>
+              </lg>
+              <note type="source">Ammonius 41 Ἀριστοφάνης Ὥραις. Ὥραις Coddaeus] Κόραις. cf. Eustath. 191, 28.</note>
+              <note type="apparatus">admodum dubia est horum verborum interpretatio apud Fritzsch. Daetal. 83 adn. 50.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="569" xml:id="kock-0019-horai-569" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <lg>
+                <l n="1" xml:id="kock-0019-horai-569-l1" xml:lang="grc">Α. ὄψει δὲ χειμῶνος μέσου σικυούς, βότρυς, ὀπώραν,</l>
+                <l n="2" xml:id="kock-0019-horai-569-l2" xml:lang="grc">στεφάνους ἴων . . . κονιορτὸν ἐκτυφλοῦντα.</l>
+                <l n="3" xml:id="kock-0019-horai-569-l3" xml:lang="grc">αὑτὸς δ’ ἀνὴρ πωλεῖ κίχλας, ἀπίους, σχαδόνας, ἐλάας,</l>
+                <l n="4" xml:id="kock-0019-horai-569-l4" xml:lang="grc">πυόν, χόρια, χελιδόνια, τέττιγας, ἐμβρύεια.</l>
+                <l n="5" xml:id="kock-0019-horai-569-l5" xml:lang="grc">ὑρίχους δ’ ἴδοις ἂν νιφόμενους σύκων ὁμοῦ τε μύρτων·</l>
+                <l n="6" xml:id="kock-0019-horai-569-l6" xml:lang="grc">ἔπειτα κολοκύντας ὁμοῦ ταῖς γογγυλίσιν ἀμῶσιν.</l>
+                <l n="7" xml:id="kock-0019-horai-569-l7" xml:lang="grc">ὥστ’ οὐκ ἔτ’ οὐδεὶς οἶδ’ ὁπηνίκ’ ἐστὶ τοὐνιαυτοῦ.</l>
+                <l n="8" xml:id="kock-0019-horai-569-l8" xml:lang="grc">. . . μέγιστον ἀγαθόν, εἴπερ ἔστι δι’ ἐνιαυτοῦ</l>
+                <l n="9" xml:id="kock-0019-horai-569-l9" xml:lang="grc">ὅτου τις ἐπιθυμεῖ λαβεῖν. Β. κακὸν μὲν οὖν μέγιστον.</l>
+                <l n="10" xml:id="kock-0019-horai-569-l10" xml:lang="grc">εἰ μὴ γὰρ ἦν, οὐκ ἂν ἐπεθύμουν οὐδ’ ἂν ἐδαπανῶντο.</l>
+                <l n="11" xml:id="kock-0019-horai-569-l11" xml:lang="grc">ἐγὼ δὲ ταῦτ’ ὀλίγον χρόνον χρήσας ἀφειλόμην ἄν.</l>
+                <l n="12" xml:id="kock-0019-horai-569-l12" xml:lang="grc">Α. κἄγωγε ταῖς ἄλλαις πόλεσι δρῶ ταῦτα πλὴν Ἀθηνῶν·</l>
+                <l n="13" xml:id="kock-0019-horai-569-l13" xml:lang="grc">ταύταις δ’ ὑπάρχει ταῦτ’, ἐπειδὴ τοὺς θεοὺς σέβουσιν.</l>
+                <l n="14" xml:id="kock-0019-horai-569-l14" xml:lang="grc">Β. ἀπέλαυσαν ἄρα σέβοντες ὑμᾶς, ὡς σὺ φής. Α. τί δὴ σύ;</l>
+                <l n="15" xml:id="kock-0019-horai-569-l15" xml:lang="grc">Β. Αἴγυπτον αὐτῶν τὴν πόλιν πεποίηκας ἀντ’ Ἀθηνῶν.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 372 b ἐν Ὥραις ὁ χαρίεις Ἀριστοφάνης εἶπεν ἐπαινῶν τὰς καλὰς Ἀθήνας ἐν τούτοις κτλ. idem 14, 653 f ὅτι δὲ ἐν ταῖς Ἀθήναις διηνεκεῖς ἦσαν αἱ ὀπῶραι πᾶσαι μαρτυρεῖ Ἀριστοφάνης ἐν Ὥραις (ἐν Εἰρήνῃ epitome). v. 1. 2. 7. 8. 9. 10 sine</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="569_2" xml:id="kock-0019-horai-569_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <note type="apparatus">
+                <p>2. ῥόδων, κρίνων ante Cobetum Mnem. IIII 100 et Herwerdenum Obs. crit. 41 supplevit Porsonus Miscell. 195. 3. αὑτὸς Dindorf.] ωυετος A, αὐτὸς CPVL. 4. πυόν] πύον. cf. Cratin. 142. χελιδόνια Porson. Advers. 109] χελιδόνα. χελιδόνας Schweighaeus. et Porson. Miscell. 195. 5. ὑρίχους (ὑριχοὺς) Porson.] ὑρισσοὺς A altero σ eraso. νιφόμενα σύκα ὁμοῦ τε μύρτα omisso ὑρισσοὺς C. 6. ἔπειτα] ἀεί τε? ἀμῶσι K.] ἀροῦσι. 7. οὐδεὶς οἶδ᾽] οἶδ᾽ οὐδεὶς? 8. εἶπες post ἀγαθὸν add. Porsonus, εἶπας Cobetus, uterque falso. scribendum καίτοι μέγ. ἀγ. κτλ. cf. Nub. 1428. 11. ταῦτ᾽ K.] τοῦτον. τοῦτ᾽ Brunck. χρήσας Porsonus] φήσας. φθάσας Elmsl. Edinb. Rev. XIX 89. φύσας Fritzschius. φήνας Cobetus Mnem. IIII 99 ridicule de sycophanta hic cogitans conl. Ach. 819. 911. 520sq. 541. 12. δρῶ Casaub.] δρῶν. Ἀθηνῶν Brunck.] Ἀθηναίων. 13. ταύταις K.] τούτοις. δ᾽ add. cod. Laurent. 14. τί δὴ σύ; K.] τί ἢ τί. τιὴ τί Dindorf. cf. Hermann. Nub. 754. Lehrs. Q. ep. 65 (H. Iacobi). personarum notatio mea est.</p>
+              </note>
+              <note type="apparatus">
+                <p>optime hoc fragmentum inlustratur Xen. Vectig. 1, 3 τὰς ὥρας ἐνθάδε πραοτάτας εἶναι καὶ αὐτὰ τὰ γιγνόμενα μαρτυρεῖ. ἃ γοῦν πολλαχοῦ οὐδὲ βλαστάνειν δύναιτ᾽ ἄν, ἐνθάδε καρποφορεῖ . . . καὶ μὴν ὅσαπερ οἱ θεοὶ ἐν ταῖς ὥραις ἀγαθὰ παρέχουσι, καὶ ταῦτα πάντα ἐνταῦθα πρωιαίτατα μὲν ἄρχεται, ὀψιαίτατα δὲ λήγει. 2. cf. Cratin. 98, 2. 4. chelidonium, quod ἅμα τῇ χελιδόνι ἀνθεῖ Athen. 15, 684e, γλαυκόν, cum lilio, hyacintho, rosa coniungitur a Pancrate Ath. 15, 677f. cf. Plin. N. h. 25, 89. 90. itaque flos est amoenissimus sertisque aptus, ut myrtus v. 5. cicadis vel potius larvis cicadarum Athenienses vesci solitos esse testes sunt Athen. 133 b. Aristot. H. an. 5, 24. cf. Schneider. p. 386 et Plin. N. h. 11, 92. 5. Photius ὑρισοί· σπυρίδες. Bekker. Anecd. 67, 15 ὕρισχος· ἔστι δὲ πρόκανόν τι, ἐν ᾧ σῦκα καὶ τὴν ἄλλην ὀπώραν ἐκ τῶν ἀγρῶν εἰς ἄστυ φέρουσι, κοφίνῳ ἐμφερές. ὕρισχος nihil aliud est quam ὑρισός supra scripto z. nihil tam fluxum et instabile quam nomen corbis cophinique ἄρριχος, quod non solum ἀρίσκος dicitur, sed etiam ὕριχος et ὑρίσκος, additoque sigma σύριχος et σύρισκος. Meinek. III 463.᾽ Lobeck. Pathol. prol. 337. at quomodo corbes vel ficus nive tectae (νιφ.) hic ferri potuerint miror. tanta enim caeli clementia Attici esse dicitur, ut hic quidem nihil ineptius cogitari possit nivium mentione, quibus poma floresque corrumpi necesse erat. accedit pravus in quarta sede anapaestus. scribendum est τιθεμένους. proponuntur in foro venales ficus simul et myrta, ὕριχοι σύκων ut ὔρχαι οἴνου. neque minus inepte rapae dicebantur arari (ἀροῦσι): quapropter ἀμῶσι scribendum erat. originem vitii monstrat Hesychius ἀμοῦσι· θερίζουσι. — certant syntagmate iambico Minerva vel alius aliquis veterum deorum cum novicio nescio quo, atque ita certant, ut olim Minerva et Neptunus de terrae possessione litigaverant, utrius in Atticam beneficia maiora</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="570" xml:id="kock-0019-horai-570" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <note type="source">
+                <p>Schol. Vesp. 1187 <foreign xml:lang="grc">Ἀνδροκλέα δὲ Κρατῖνος Σερίφοις φησὶ δοῦλον καὶ πτωχόν, ἐν δὲ Ὥραις ἡταιρηκότα ἆρα τὸν αὐτόν. ἆρα V] Ἀριστοφάνης Bergkius.</foreign>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>de Cratini Horis ante Bergkium cogitaverant. de <hi rend="italic">Androcle</hi> cf. Cratin. 208. 263.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="571" xml:id="kock-0019-horai-571" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <note type="source">
+                <p>Schol. Vesp. 1183 <foreign xml:lang="grc">ὁ Θεογένης οὗτός ἐστιν ὁ Ἀχαρνεύς, ὃν καὶ ἐπὶ τῷ μεγάλα ἀποπατεῖν κωμῳδοῦσιν. δῆλον δὲ ἐν ταῖς Ὥραις. ἀποπατεῖν Ald.] ἀποδάτειν V.</foreign>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>cf. Av. 822. 1127. 1295.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="572" xml:id="kock-0019-horai-572" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <note type="source">
+                <p>Schol. Luciani p. 186 Iacob. <foreign xml:lang="grc">ὁ μὲν Καλλίας οὗτος, ὡς Κρατῖνος Ἀρχιλόχοις, Ἱππονίκου υἱὸς ἦν, τὸν δῆμον Μελιτεύς, ὡς Ἀριστοφάνης Ὥραις.</foreign>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>tria verba extrema accesserunt ex cod. C.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="573" xml:id="kock-0019-horai-573" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <note type="source">
+                <p>Schol. Plat. 331 Bekk. (<foreign xml:lang="grc">Χαιρεφῶντα Ἀριστοφάνης</foreign>) <foreign xml:lang="grc">ἐν Ὥραις νυκτὸς παῖδα καλεῖ.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="574" xml:id="kock-0019-horai-574" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <note type="source">
+                <p>Hesychius <foreign xml:lang="grc">δικαστικόν· Ἀριστοφάνης ἐν Ὥραις τριώβολόν φησιν εἶναι. οὐ μέντοι ἕστηκεν, ἀλλ’ ἄλλοτε ἄλλως ἐδίδοτο.</foreign>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>cf. Aristot. Polit. 6, 5.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="575" xml:id="kock-0019-horai-575" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_horai">
+              <p>
+                <foreign xml:lang="grc">Ἀρᾶς ἱερόν</foreign>
+              </p>
+              <note type="source">
+                <p>
+                  <foreign xml:lang="grc">ἱερὸν Ἀρᾶς Ἀθήνησιν. Ἀριστοφάνης Ὥραις. [ἔνιοι δὲ τὴν βλάβην λέγειν αὐτὸν ἐνόμισαν.]</foreign> Hesychius.</p>
+              </note>
+              <note type="apparatus">
+                <p>cf. Diogenian. 2, 92. Apostol. 3, 99. Macar. 2, 33. quamquam quae illi narrant maximam partem aliena sunt.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

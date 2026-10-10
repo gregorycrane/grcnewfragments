@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΛΥΚΟΥΡΓΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.lykourgos; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.lykourgos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.lykourgos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:lykourgos"><head>ΛΥΚΟΥΡΓΟΣ</head>
+          <pb n="599" facs="urn:hathi:iau.31858007086675:scan:607"/>
+          <div type="textpart" subtype="fragment" n="115" xml:id="frag_32fbeceb67" corresp="urn:cite2:perseus:fragmentaryplays.v1:lykourgos">
+            <note type="source">Aristophanes Thesmophor. v. 135.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_32fbeceb67-l1" xml:lang="grc">Καί σ', ὦ νεανίσχ', ὅστις εἶ κατ' Αἰσχύλον</l>
+              <l n="2" xml:id="frag_32fbeceb67-l2" xml:lang="grc">ἐκ τῆς Λυκουργείας ἐρέσθαι βούλομαι.</l>
+            </lg>
+            <note type="commentary">ubi scholiasta Ravennas, τὴν τετραλογίαν λέγει Λυκουργίαν, Ἠδωνούς, Βασσαρίδας, Νεανίσκους, Λυκούργον τὸν σατυρικόν. λέγει δὲ ἐν τοῖς Ἠδωνοῖς πρὸς τὸν συλληφθέντα Διόνυσον “Ποδαπὸς ὁ γύννις;” Ex his apparet nullam ab Æschylo editam esse tragœdiam Lycurgi nomine inscriptam, sed Λυκούργειαν veteres dixisse tres illas, quas scholiasta nominat, tragœdias, ut Agamemno Choephoræ et Eumenides Ὀρέστεια appellantur. V. Herm. Opusc. vol. V. p. 3.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="116" xml:id="frag_424f6508af" corresp="urn:cite2:perseus:fragmentaryplays.v1:lykourgos" sameAs="urn:cts:greekLit:tlg0085.lykourgos.nauck1889-grc1:124">
+            <note type="source">Athenæus X. p. 447 c. Τὸν δὲ κρίθινον οἶνον καὶ βρῦτον τινὲς καλοῦσιν. — μνημονεύει τοῦ πόματος Αἰσχύλος ἐν Λυκούργῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_424f6508af-l1" xml:lang="grc">Κἀκ τῶνδ' ἔπινε βρῦτον ἰσχναίνων χρόνῳ,</l>
+              <l n="2" xml:id="frag_424f6508af-l2" xml:lang="grc">κἀσεμνοκόμπει τοῦτ' ἐν ἀνδρείᾳ στέγῃ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="117" xml:id="frag_4000dbb987" corresp="urn:cite2:perseus:fragmentaryplays.v1:lykourgos" sameAs="urn:cts:greekLit:tlg0085.lykourgos.nauck1889-grc1:125">
+            <note type="source">Schol. Aristoph. Equitum v. 1147. Αἰσχύλος ἐν Λυκούργῳ ἀλληγορικῶς τοὺς δεσμοὺς κημοὺς εἴρηκε διὰ τούτων</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_4000dbb987-l1" xml:lang="grc">Καὶ τούσδε κημοὺς στόματος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="118" xml:id="frag_1690c2a638" corresp="urn:cite2:perseus:fragmentaryplays.v1:lykourgos" sameAs="urn:cts:greekLit:tlg0085.lykourgos.nauck1889-grc1:126">
+            <note type="source">Schol. Sophoclis Ed. Colon. v. 674. Ἀνέχουσα: ἄνω ἔχουσα. ὡς ἐν Λυκούργῳ Αἰσχύλος</note>
+            <quote>Ἄκουε δ' ἀν' οὖς ἔχων.</quote>
+            <note type="source">Suidas, Ἀν' οὖς ἔχων: ἀντὶ τοῦ ἄνω τὸ οὖς ἔχων.</note>
+            <note type="commentary">Aut in fine versus positum fuit Ἄκουε δὲ, aut cum Butlero Ἄκου' ἀν' οὖς ἔχων scribendum.</note>
+          </div>
+        </div></body></text>
+</TEI>

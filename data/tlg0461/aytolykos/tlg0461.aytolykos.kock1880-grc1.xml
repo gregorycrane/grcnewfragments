@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUPOLIS, ΑΥΤΟΛΥΚΟΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Eupolis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0461.aytolykos.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0461.aytolykos.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0461.aytolykos.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos"><head>ΑΥΤΟΛΥΚΟΣ</head><div type="textpart" subtype="fragment" n="42" xml:id="kock-0461-aytolykos-42" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-42-l1" xml:lang="grc">οἰκοῦσι δ’ ἐνθάδ’ ἐν τρισὶν καλιδίοις,</l>
+                <l n="2" xml:id="kock-0461-aytolykos-42-l2" xml:lang="grc">οἴκημ’ ἔχων ἕκαστος.</l>
+              </lg>
+              <note type="source">Pollux 10, 161 ἤδη δὲ καὶ τὸν πρὸς οἰκήσεις ἐπιτήδειον οὕτω (καλιόν) λέγουσιν, ὡς . . . ἐν Εὐπόλιδος Αὐτολύκῳ κτλ. ‘tria tuguria nescio quis monstrat, ubi Lyco, Rhodia, Autolycus vivunt, suum quisque habens lupanar.’ Wilamow. 50. Herm. VII 145 adn. 6. Athen. 5, 220d Ἀρχεστράτου . . . τοῦ παραπλήσια ταῖς ἐπὶ τῶν μικρῶν οἰκημάτων ἐργαζομένου. contra Xen. Symp. 1, 8 βασιλικόν τι τὸ κάλλος. ἄλλως τε καὶ ἣν μετ’ αἰδοῦς καὶ σωφροσύνης, καθάπερ Αὐτόλυκος τότε, κεκτῆταί τις αὐτό.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="43" xml:id="kock-0461-aytolykos-43" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-43-l1" xml:lang="grc">ἤδη γὰρ Ἀρίσταρχον στρατηγοῦντ’ ἄχθομαι.</l>
+              </lg>
+              <note type="source">Schol. Vict. Hom. Il. 13, 353 Τρωσίν δαμναμένους· λείπει τὸ ὁρῶν. ἔστι δὲ τὸ τῆς φράσεως ἀρχαῖον. Εὔπολις ἐν Αὐτολύκοις κτλ. cf. Cratin. 158. Xen. Reip. Ath. 2, 18 οὐδὲ τοὺς τοιούτους ἄχθονται κωμῳδουμένους.</note>
+              <note type="apparatus">Aristarchus unus ex quadringentis Ol. 92, 2, populi imperio inimicissimus (Thuc. 8, 90. 92), in Eetionea munienda ad excipiendos Lacedaemonios acerrimus (Xen. Hell. 2, 3, 46), eversa quadringentorum dominatione Oenoën Boeotis prodidit (Thuc. 8, 98. Aristoph. fr. 550. 1). tamen postea in civitatem restitutus est, si recte Bergkius R. c. Att. 344 interpretatur Xen. Hell. 1, 7, 29 conl. cum Memor. 2, 7, 2. ad alteram fabulae recensionem refert Meinek.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="44" xml:id="kock-0461-aytolykos-44" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-44-l1" xml:lang="grc">ὅτι τὰ πατρῷα πρὸς σὲ καταδιέφθορα.</l>
+              </lg>
+              <note type="source">Zonaras διέφθορεν· οὐ τὸ διέφθαρται δηλοῖ παρὰ Ἀττικοῖς, ἀλλὰ τὸ διέφθαρκεν. Εὔπολις ἐν Αὐτολύκῳ κτλ. Schol. Aristoph. Nub. 109 et Suidas Λεωγόρας, τρυφερός τις, ὁ Ἀνδοκίδου πατήρ· . . . Εὔπολις ἐν Αὐτολύκῳ β΄ (β΄ om. Suid.) ὡς καὶ διὰ Μυρρίναν ἑταίραν τὰ χρήματα ἀποβέβληκέ φησιν. si recte haec ut vide-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="49" xml:id="kock-0461-aytolykos-49" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-49-l1" xml:lang="grc">ἀτὰρ ἤγαγες καινόν τι φῖτυ τῶν βοῶν.</l>
+              </lg>
+              <note type="source">Schol. Plat. 445 et Aristoph. Pac. 1164, Photius 650, 12 λέγεται δὲ τὸ γέννημα φῖτυ. Εὔπολις Αὐτολύκῳ κτλ. corrupte Suidas φιτῦσαι. Etymol. M. 795, 32 τὸ γέννημα φῖτυ. Εὔπολις Αὐτολύκῳ ‘ἤγαγε καινὸν φῖτυ’. at ἤγαγες καινὸν φῖτυ. τῶν βοῶν cod. Par. 1807 apud Cramer. Anecd. Par. I 400.</note>
+              <note type="apparatus">καινόν τι Elmsl. apud Blomfield. Gloss. Aesch. Prom. 241] καινόν. καινόν γε Bergk. R. c. Att. 345. καινὸν τὸ Porsonus in Phot. φῖτυ τῶν] φίτυμα Schol. Arist. — Leogoram, qui ut phasianos (Aristoph. Nub. 109) etiam boves aluerit, adpellari putat Meinekius. non adsentitur Fritzschius Ind. Rost. aest. 1848 p. 9. certe singulare nescio quod boum genus significatur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="50" xml:id="kock-0461-aytolykos-50" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-50-l1" xml:lang="grc">ἀνεκάς τ’ ἐπαίρω καὶ βδελυρὸς σὺ τὸ σκέλος.</l>
+              </lg>
+              <note type="source">Suidas ἀνεκάς· ψιλῶς τὸ ἄνω λέγουσι. καὶ ἀνέκαθεν τὸ ἄνωθεν. Εὔπολις Αὐτολύκῳ κτλ. Bekker. Anecd. 395, 25 Εὔπολις Αὐτολύκῳ ἕκαστ’ ἐπαίρω.</note>
+              <note type="apparatus">τ’] σ’ Bernhardy. ἐπαίρω] ἐπήρω Portus. βδελυρός] βδελυρῶς Porson. apud Gaisf. in Addend. βδελυρᾶς Bernhard. conl. Aristoph. Av. 1254. Eccl. 265. Meinekius ἀνεκάς τ’ ἐπήρω κἀβδελυρεύσω τὸ σκέλος, figura usus διὰ μέσου, ut Eurip. Cycl. 121. fort. ἀνεκάς γ’ ἐπαίρω καὶ βδελυρῶς σοι τὸ σκέλος. de accentu cf. Cratet. 10.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="51" xml:id="kock-0461-aytolykos-51" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-51-l1" xml:lang="grc">καπνοὺς ἀποφαίνει καὶ σκιάς.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Nub. 253 τὰ μηδενὸς ἄξια καπνοὺς καὶ σκιὰς καὶ νεφέλας ὠνόμαζον. Εὔπολις ἐν Αὐτολύκῳ κτλ.</note>
+              <note type="apparatus">ἀποφαίνει καὶ σκιάς om. V. cf. Aristoph. Nub. 330.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="52" xml:id="kock-0461-aytolykos-52" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-52-l1" xml:lang="grc">ἐπὶ καινοτέρας ἰδέας ἀσεβῶν βίον, ὦ μοχθηρός, ἔτριβες.</l>
+                <l n="2" xml:id="kock-0461-aytolykos-52-l2" xml:lang="grc">Β. πῶς ὦ πολλῶν ἤδη λοπάδων τοὺς ἄμβωνας περιλείξας;</l>
+              </lg>
+              <note type="source">Erotianus 53, 9 Klein. Ἐπίθερσις δ’ ἐν β’ τῶν λέξεων ἄμβωνά φησι χείλος εἶναι σκεύους καὶ τῆς ἀσπίδος τὸ πρὸς αὐτῇ τῇ ἴτυι. Ἀριστοφάνης δὲ ὁ κωμικὸς ἐν Αὐτολύκῳ φησίν κτλ. Aristophanem pro Eupolide nominatum esse vidit Coddaeus. eodem modo erravit Apollonius ad Hippocr. I 10. partem fr. attulit Galen. ad Hippocr. XII 301 Charter. omissis duobus primis verbis Eustath. 1636, 50 (ex Aelio Dionysio). Etym. m. 81, 10. Gud. 43, 33.</note>
+              <note type="apparatus">ἀσεβῶν βίον Meinek.] ἀσέβιον. ἀσεβή βίον G. Hermann. Diar. Lips. 1829 p. 1620. ὦ Bergk R. c. Att. 347] ὁ. ὦ μοχθηρός] ὡς μο-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="53" xml:id="kock-0461-aytolykos-53" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <note type="source">Schol. Platonis Bekk. 332</note>
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-53-l1" xml:lang="grc">Εὔπολις δ’ ἐν Φίλοις καὶ ἐπὶ τῇ</l>
+                <l n="2" xml:id="kock-0461-aytolykos-53-l2" xml:lang="grc">γυναικὶ Ῥοδίᾳ κωμῳδεῖ (Λύκωνα), ἐν δὲ τῷ πρώτῳ Αὐτολύκῳ εἰς</l>
+                <l n="3" xml:id="kock-0461-aytolykos-53-l3" xml:lang="grc">ξένον.</l>
+              </lg>
+              <note type="apparatus">cf. 215. 273.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="54" xml:id="kock-0461-aytolykos-54" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <note type="source">Schol. Plat. 331 Bekk.</note>
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-54-l1" xml:lang="grc">κωμῳδεῖται δὲ (Ἀριστοφάνης) ὅτι καὶ</l>
+                <l n="2" xml:id="kock-0461-aytolykos-54-l2" xml:lang="grc">τὸ τῆς Εἰρήνης κολοσσικὸν ἐξῆρεν ἄγαλμα· Εὔπολις Αυτολύκῳ.</l>
+              </lg>
+              <note type="apparatus">spectant haec ad statuam Pacis in cognomine fabula e terra effossam. cum autem Pax acta sit Ol. 89, 3, ad priorem Autolycum rettulit Bergk. R. c. Att. 342.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="55" xml:id="kock-0461-aytolykos-55" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <note type="source">Athenaeus 5, 216 d</note>
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-55-l1" xml:lang="grc">ἐπὶ τούτου (Ἀριστίωνος ἄρχοντος) Εὔπολις</l>
+                <l n="2" xml:id="kock-0461-aytolykos-55-l2" xml:lang="grc">τὸν Αὐτόλυκον διδάξας διὰ Δημοστράτου χλευάζει τὴν νίκην</l>
+                <l n="3" xml:id="kock-0461-aytolykos-55-l3" xml:lang="grc">τοῦ Αὐτολύκου.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="56" xml:id="kock-0461-aytolykos-56" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <note type="source">Etymol. m. 399, 17</note>
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-56-l1" xml:lang="grc">Εὐτρήσιος παρὰ τὸ τετρῆσθαι. τὸν</l>
+                <l n="2" xml:id="kock-0461-aytolykos-56-l2" xml:lang="grc">Αὐτόλυκον ὁ Εὔπολις σκώπτει. Εὔτρησις δὲ πόλις Ἀρκαδική.</l>
+              </lg>
+              <note type="apparatus">cf. Teleclid. 57. ‘muliebria passum’ interpretatur Meinekius I 117.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="57" xml:id="kock-0461-aytolykos-57" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <note type="source">Aristoph. Vesp. 1025</note>
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-57-l1" xml:lang="grc">οὐδὲ παλαίστρας περικωμάζων πειρῶν·</l>
+                <l n="2" xml:id="kock-0461-aytolykos-57-l2" xml:lang="grc">οὐδ’ εἴ τις ἐραστὴς κωμῳδεῖσθαι παιδίχ’ ἑαυτοῦ μισῶν ἔσπευδε πρὸς</l>
+                <l n="3" xml:id="kock-0461-aytolykos-57-l3" xml:lang="grc">αὐτόν, οὐδενὶ πώποτέ φησι πιθέσθαι.</l>
+              </lg>
+              <note type="apparatus">ubi schol. δι’ Εὔπολιν. ἐν Αὐτολύκῳ δὲ τοιαῦτά φησι. [τοῦτο δὲ καὶ ἐν Εἰρήνῃ οὕτω]. Autolycum (Ol. 89, 4) Aristophanes neque in Pace (Ol. 89, 3) neque in Vespis respicere potuit. itaque alteram fabulam ab Eupolide ante Vespas doctam significari statuit Wilamowitz Obs. crit. 41—49. at fieri potuit ut contra Aristophanis crimina Eupolis in Autolyco se defenderet.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="58" xml:id="kock-0461-aytolykos-58" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <p>δίφρος Θετταλικὸς τετράπους</p>
+              <note type="source">ὡς ἐν Αὐτολύκῳ Εὐπόλιδος. Pollux 10, 47. idem 7, 112 κάλλιστοι δὲ οἱ Θετταλικοὶ δίφροι, διὸ καὶ ἡ Πυθία ἔφη ‘Θετταλὲ ποικιλόδιφρε’. addit Meinekius V 35 Erotian. 70, 4 Klein. πᾶς δίφρος ἀνακλισμὸν ἔχων Θεσσαλικὸς παρὰ τοῖς παλαιοῖς λέγεται.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="59" xml:id="kock-0461-aytolykos-59" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <note type="source">Schol. Aristoph. Thesm. 941 ‘Αττικὴ δὲ ἡ σύνταξις, ὅτι τὸ ἑστιᾶν καὶ δοτικῇ συντάσσουσιν, ὡς καὶ παρ’ Εὐπόλιδί ἐστιν ἐν Αὐτολύκῳ θατέρῳ, ὥστε οὔτε ἐκεῖ οὔτε ἐνθάδε δεῖ ξενίζεσθαι.</note>
+              <note type="apparatus">perperam Duebnerus extrema pro Eupolideis habuit, quae sunt scholiastae. ξενίζεσθαι est mirari tamquam aliquid peregrini vel insoliti. L. Dindorf. in Thes. ἑστιᾶν. exempla congessit H. Iacobi Schol. Aesch. Sept. 363 p. 341 Dind. Schol. Soph. Ai. 235 p. 204. Antig. 1184 p. 325 Dind. Schol. Il. 21, 550 (ξενισθέντες πρὸς τὸ ἐπίθετον). Walz. Rhet. VII 175. Athen. 14, 658e. (Mein. V 35). ceterum ut apud Aristophanem τοῖς κόραξιν non pendet ab ἑστιῶν, sed a παρέχω, sic aut in Eupolidis verbis explicandis grammaticus erravit aut ea syntaxi usus erat poeta, quae Atticis non est inusitata, ἑστιᾶν τινά τινι. Plat. Reip. 3, 404bc.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="60" xml:id="kock-0461-aytolykos-60" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <p>ἀκαλήφας</p>
+              <note type="source">Athenaeus 3, 89f τὰς κνίδας ὁ Εὔπολις ἐν Αὐτολύκῳ ἀκαλήφας ὀνομάζει.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="61" xml:id="kock-0461-aytolykos-61" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <p>ἀναφλασμόν</p>
+              <note type="source">τὰ ἀφροδίσια. Εὔπολις Αὐτολύκῳ. Suidas. ἀναφλασμόν Α] ἀναφλασμοί. Zonaras ἀναφλασμός· τὰ ἀφροδίσια.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="62" xml:id="kock-0461-aytolykos-62" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <p>ἀπρασία</p>
+              <note type="source">Εὔπολις Αὐτολύκῳ. Bekker. Anecd. 83, 14.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="63" xml:id="kock-0461-aytolykos-63" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <p>ἀρρωστήμων</p>
+              <note type="source">Εὔπολις Αὐτολύκῳ. Bekker. Anecd. 447, 1.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="64" xml:id="kock-0461-aytolykos-64" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <p>βιασμός</p>
+              <note type="source">Εὔπολις Αὐτολύκῳ. Bekker. Anecd. 84, 21. Lobeck. Phryn. 511.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="65" xml:id="kock-0461-aytolykos-65" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <note type="source">ἐπίπεμπτον</note>
+              <note type="apparatus">εἰώθασι λέγειν τὸ πέμπτον, ὡς καὶ Εὔπολις Αὐτολύκῳ. Harpocratio 78, 13. ut ἐπιδέκατον. Aristoph. fr. 201. Xen. Vect. 3, 9 (ἐπίτριτον).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="66" xml:id="kock-0461-aytolykos-66" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <note type="source">νουθέτησιν</note>
+              <note type="apparatus">Εὔπολις Αὐτολύκῳ. Bekker. Anecd. 109, 12. Lobeck. Phryn. 512. 3.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="67" xml:id="kock-0461-aytolykos-67" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <note type="source">πορνεύεσθαι</note>
+              <note type="apparatus">ἐν τῷ πρώτῳ Εὐπόλιδος Αὐτολύκῳ. Pollux 7, 202.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="45" xml:id="kock-0461-aytolykos-45" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-45-l1" xml:lang="grc">ἆρα σφόδρ’ ἐνεούρησεν ἐξώλης γέρων;</l>
+              </lg>
+              <note type="apparatus">
+                <p>Cramer. An. Oxon. I 446, 17 <hi rend="italic">ἐνούρησεν Ἀττικῶς.</hi> — Εὔπολις Αὐτολύκῳ κτλ. ἐνεούρησεν Meinek.] ἀνεούρησεν. ἐξώλης Meinek.] ἐξούλης. οὐξώλης γέρων Cobet. Mnem. V 109. Herwerd. Obs. crit. 22. ἠξώλης, γέρον Wilamowitz. Herm. VII 145. Lyconem Autolyci patrem significari Meinekius conicit, Rhodiam Wilamowitzius.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="46" xml:id="kock-0461-aytolykos-46" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-46-l1" xml:lang="grc">τί δῆτ’ ἄν, εἰ μὴ τὸ σκάφιον αὐτῇ παρῆν;</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 45 <hi rend="italic">δίφρον δ’ ἂν εἴποις τὰ λάσανα εὐφημότερον, καὶ διφρίσκον. τῇ δὲ γυναικὶ σκάφιον, ὡς ἐν Αὐτολύκῳ Εὔπολις.</hi> Aristoph. Thesm. 633 <hi rend="italic">σκάφιον Ξένυλλ’ ᾔτησεν· οὐ γὰρ ἦν ἁμίς.</hi>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>— τί δῆτ’ ἄν, ἐγένετο δηλονότι ‘quid factum esset nisi —’. Rhodiam intellegendam esse censet Meinekius. ceterum σκάφιον nequaquam matula dicitur; sed cum ea non praesto esset, sicuti in Thesmophoriazusis, σκαφίῳ pro illa mulier usa est. non recte Fritzschius haec (Thesm. p. 231) Aristophanis Polyido adiudicavit.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="47" xml:id="kock-0461-aytolykos-47" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-47-l1" xml:lang="grc">σκέλη δὲ καὶ κωλῆνες εὐθὺ τοὐρόφου.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 9, 368 d <hi rend="italic">καὶ κωλῆνα δὲ λέγουσι καὶ κωλῆν. Εὔπολις Αὐτολύκῳ κτλ.</hi>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>τοὐρόφου, i. e. τοῦ ὀρόφου. εὐθὺ τοῦ ’ρόφου C. F. Hermannus Dissert. de tempore Xen. Conv. I 7 conl. Arist. Lys. 229] εὐθὺ τοῦ ῥόφου A. εὐθύτου ’ρίφου (i. e. ἐρίφου) Iacobs. at εὔθυτος ἔριφος quid est? Arist. Lys. 229 <hi rend="italic">οὐ πρὸς τὸν ὀροφὸν ἀνατενῶ τὰ Περσικά.</hi> sic hic verbis εὐθὺ τοῦ ὀρόφου (ἐχώρουν) notatur mulier libidinosa, quolibet tempore ad venerem parata, fortasse Rhodia.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="48" xml:id="kock-0461-aytolykos-48" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_aytolykos">
+              <lg>
+                <l n="1" xml:id="kock-0461-aytolykos-48-l1" xml:lang="grc">ἐλλιμένιον δοῦναι πρὶν εἰσβῆναί σε δεῖ.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 9, 30 <hi rend="italic">τὸ τέλος ἐλλιμένιον, ὡς Εὔπολις Αὐτολύκῳ.</hi>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>δοῦναι Seberus] ὃ δοῦναι. dici haec videntur nescio cui in lupanar introeunti. ἐλλιμένιον figurate, tamquam <hi rend="italic">portorium</hi> dicas a porta, non a portu. de portorio Atheniensium Boeckh. Oec.² I 431. 2.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΒΑΣΣΑΡΑΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.bassarai; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.bassarai.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.bassarai.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:bassarai"><head xml:lang="grc">ΒΑΣΣΑΡΑΙ</head>
+          <note type="introduction" xml:lang="mul">Βασσάραι titulus a plerisque testibus perhibetur, Βασσαρίδες in Schol. Ar. Thesm. 135 et Schol. Nic. Th. 288. fuit tetralogiae Lycurgeae fabula secunda, cf. Schol. Ar. Thesm. 135 in fr. 61 allatum. Eratosth. Catast. 24 p. 140 de Orpheo : τὸν μὲν Διόνυσον οὐκ ἐτίμα, τὸν δὲ Ἥλιον μέγιστον τῶν θεῶν ἐνόμιζεν εἶναι, ὃν καὶ Ἀπόλλωνα προσηγόρευσεν, ἐπεγειρόμενός τε τῆς νυκτὸς κατὰ τὴν ἑωθινὴν ἐπὶ τὸ ὄρος τὸ καλούμενον Πάγγαιον ἀνιὼν προσέμενε τὰς ἀνατολάς, ἵνα ἴδῃ τὸν Ἥλιον πρῶτον. ὅθεν ὁ Διόνυσος ὀργισθεὶς αὐτῷ ἔπεμψε τὰς Βασσαρίδας, ὡς φησὶν Αἰσχύλος ὁ ποιητής, αἵτινες αὐτὸν διέσπασαν καὶ τὰ μέλη διέρριψαν χωρὶς ἕκαστον· αἱ δὲ μοῦσαι συναγαγοῦσαι ἔθαψαν ἐπὶ τοῖς λεγομένοις Λειβήθροις. Schol. German. p. 84, 11 (cf. p. 152, 1) : (Orpheus) neglegentius Liberum colere coepit solemque Apollinem dixit esse eis (?) adsidue nocte in Pangaeo monte ascendens, ut orientem solem videret unde surgeret. Liber indignatus misit bacchas, ut Aeschylus scribit, quae eum membratim discerpsere. recollectis membris musae eum sepelierunt in Libethriis montibus. fortasse huc spectat Schol. Clem. Alex. p. 414, 31 : Ὀρφεὺς διασπαραχθεὶς ὑπὸ τῶν Ὀδρυσῶν ἄλλη ὑπόθεσις τραγῳδίας γεγενηται.</note>
+          <div type="textpart" subtype="fragment" n="23" corresp="urn:cite2:perseus:fragmentaryplays.v1:bassarai" xml:id="aesch-fr23">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-23-1">ὁ ταῦρος δ’ ἔοικεν κυρίξειν τιν’ ἀρχάν,</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-23-2">φθάσαντος δ’ ἐπ’ ἔργοις προπηδήσεταί νιν.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hephaest. Enchir. c. 13 p. 82: τὸ δὲ βακχειακὸν σπάνιόν ἐστιν, ὥστε εἰ καί πού ποτε ἐμπέσοι, ἐπὶ βραχὺ εὑρίσκεσθαι, οἷον ὁ ταῦρος — νιν . Choerob. Exeg. in Hephaest. Enchir. p. 84, 3: ὁ ταῦρος δ’ ἔοικε κερίζειν Βασσαρῶν (βασάρων vel πασσάλων libri) Αἰσχύλου ἡ χρῆσις. v. 1 κυρίξειν κηρύξειν meliores Hephaestionis libri . fortasse huc spectat Hesych. 2 p. 558: κυρίξειν ἢ κυρίζειν (κυρίξει ἢ κυρίζη cod.)· κέρασι μάχεσθαι. locum obscurissimum non expedio : τὸν ἀρχόν pro τιν’ ἀρχάν temptavit Herwerden Emend. Aeschyl. (Lips. 1878) p. 160, σὺν ὀργᾷ F. G. Schmidt Krit. Stud. 1 p. 108. bacchiacus tetrameter qui extat in fr. 341, fortasse huius est fabulae.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="24" corresp="urn:cite2:perseus:fragmentaryplays.v1:bassarai" xml:id="aesch-fr24">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-24-1">σκάρφει παλαιῷ κἀπιβωμίῳ ψόλῳ</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. Nic. Ther. 288: ψολόεις· τρία σημαίνει ἡ λέξις· ἔστι γὰρ ψολόεν τὸ μέλαν, τὸ σποδοειδές, τὸ λαμπρόν. — καὶ Αἰσχύλος ἐν Βασσαρίσιν σκάρφει — ψόλῳ . σκάρφει σκάρφει KPR κάρφει V .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="25" corresp="urn:cite2:perseus:fragmentaryplays.v1:bassarai" xml:id="aesch-fr25">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-25-1">εἰλλόμενον</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 2 p. 29: εἰλλόμενον· εἰργόμενον. Αἰσχύλος Βασσάραις (βάσσαρες codex). Simplicius in Aristot. de caelo p. 231 b 22 (p. 505 b 19 ed. Brandis.) : τὸ δὲ ἰλλομένην εἴτε διὰ τοῦ Ι γράφοιτο τὸ δεδεμένην δηλοῖ — εἴτε διὰ τῆς ΕΙ διφθόγγου γράφοιτο, καὶ οὕτως εἰργομένην δηλοῖ , ὡς καὶ Αἰσχύλος ἐν Βασσάραις.</note>
+          </div>
+        </div></body></text>
+</TEI>

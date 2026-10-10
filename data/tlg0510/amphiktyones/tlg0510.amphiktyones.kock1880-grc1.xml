@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>TELECLIDES, ΑΜΦΙΚΤΥΟΝΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Teleclides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0510.amphiktyones.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0510.amphiktyones.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0510.amphiktyones.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_amphiktyones"><head>ΑΜΦΙΚΤΥΟΝΕΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0510-amphiktyones-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_amphiktyones">
+              <lg>
+                <l n="13" xml:id="kock-0510-amphiktyones-1-l13" xml:lang="grc">τῶν δὲ πλακούντων ὠστιζομένων περὶ τὴν γνάθον ἦν ἀλαλητός.</l>
+                <l n="14" xml:id="kock-0510-amphiktyones-1-l14" xml:lang="grc">μήτρας δὲ τόμοις καὶ χναυματίοις οἱ παῖδες ἂν ἠστραγάλιζον.</l>
+                <l n="15" xml:id="kock-0510-amphiktyones-1-l15" xml:lang="grc">οἱ δ’ ἄνθρωποι πίονες ἦσαν τότε καὶ μέγα χρῆμα γιγάντων.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 268b Τηλεκλείδης Ἀμφικτύοσι.</note>
+              <note type="apparatus">versum 1 a Sexto Empirico 6, 15 p. 359 confundi cum versu Aristoph. Nub. 961 monuit Porsonus Phoen. 567. v. 2 Photius et Suidas κατὰ χειρός· τὸ ῥᾷστον πάντων καὶ εὐχερέστατον κατὰ χειρὸς ὕδωρ καλοῦσιν. οὕτως Τηλεκλείδης ἐν Ἀμφικτύοσιν· εἰρήνη κτλ. v. 12 Athen. 2, 64 f. cf. 14, 644 f. 1. ἐξ’ ἀρχῆς ὃν] ὃν ἐξ ἀρχῆς Sext. Emp. 2. κατὰ χειρός] κατὰ χειρῶν Photius sibi ipse contradicens: nam paullo ante κατὰ χειρὸς ὕδωρ λέγουσιν, οὐ κατὰ χειρῶν. cf. Pherecr. 146, 5. 10. ἦν ἄρδονθ’ BC epit. Hoesch.] ἢ νάρδον PVL. 11. λεκανίσκαισιν δ’ Porson] λαικανίσι καὶ σίδ’ Α. ἀνάπαιστα] ἁλίπαστα Casaub. ἀνάβραστα Dindorf. ἂν ψαιστὰ Meinek. ἂν ἁλιστὰ idem Anal. crit. Ath. 117. ἂν παισὰ anon. Ephem. Monac. 1842 p. 150 conl. Athen. 14, 646 f. 12. ὀπταὶ] αὐτόμαται Ath. 14, 644 f. τὸν] τὴν Casaub. cf. Mein. Anal. crit. 117 et contra disputantem Lobeck. Phryn. 65. 6. φάρυγ’ Schweigh.] φάρυγγ’. 14. ἂν ἠστρ. Schweigh.] ἀνεστρ. PVL. ἂν ἐστρ. epitome. 3. δέος, i. e. nulla terriculamenta (monstra, dracones) terra gignebat. 6. οἴκαδ’, i. e. in hominum domos sua sponte ibant pisces. 9. τούτων, i. e. τοῖς βουλομένοις (φαγεῖν vel ῥοφεῖν) τούτων. 10. ordo verborum est ἀφθονία ἦν καταπίνειν τὴν ἔνθεσιν ἄρδοντα αὐτὴν ὑποτριμματίοις, ὥστε γίγνεσθαι ἁπαλήν. 11. nondum emendatus: nam παισά quidem sunt πλακούντια παρὰ Κῴοις, ψαιστά autem liba deis a pauperibus oblata. Aristoph. Plut. 138. 1115. Antiphan. 206, 3. Porphyr. De abstin. anim. 2, 58. Hesych. ψαιστά· ἄλφιτα ἐλαίῳ δεδευμένα. duplicem corrigendi viam aperiunt Phot. παστά· ἔτνος ἀλφίτοις μεμιγμένον, et Hesych. ἀναπαυστόν (ἀνάπ.)· τὸ μηκώνιον. nisi id potionis genus est. praeterea scribo ἐν λεκανίσκαις. 12. Athen. 2, 64 f καὶ τούτων (κιχλῶν) ἦσαν καὶ ἄλλων ὀρνίθων ἀγέλαι ἐν τοῖς προπόμασι. 14. cf. Cratin. 165. 15. χρῆμα. cf. Aristoph. Nub. 2 cum interpr. — dicit haec fortasse Amphictyon, Deucalionis et Pyrrhae filius (Paus. 10, 8, 1), secundum alios etiam primus rex Atticae. Paus. 1, 2, 5. 6. certe ex syntagmate anapaestico excerpta sunt, quo priscorum temporum felicitas cum noviciae vitae miseriis comparabatur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0510-amphiktyones-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_amphiktyones">
+              <lg>
+                <l n="1" xml:id="kock-0510-amphiktyones-2-l1" xml:lang="grc">ἀλλ’ ὦ πάντων ἀστῶν λῷστοι σεῖσαι καὶ προσκαλέσασθαι,</l>
+                <l n="2" xml:id="kock-0510-amphiktyones-2-l2" xml:lang="grc">παύσασθε δικῶν ἀλληλοφάγων.</l>
+              </lg>
+              <note type="source">Photius et Suidas σεῖσαι· τὸ συκοφαντῆσαι, ἀπὸ τῶν τὰ ἀκρόδρυα</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0510-amphiktyones-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_amphiktyones">
+              <lg>
+                <l n="1" xml:id="kock-0510-amphiktyones-3-l1" xml:lang="grc">δουλοπόνηρον ῥυπαρὸν κόλυθρον</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 164 Τηλεκλείδου ἐν Ἀμφικτύοσιν εἰπόντος ‘δουλοπόνηρον ῥυπαρὸν κόλυθρον’ κάτοπτρον ἔνιοι ἀκούουσι. κάτοπτρον] κάναστρον vel κάνυστρον (Poll. 10, 86) Meinekius. pro κόλυθρον idem σκόλυθρον. Athen. 3, 76f κόλυθρα καλεῖται τὰ πέπονα σύκα. etiam δουλοπόνηρον suspectum est. δουλοπονήρων Bergk. apud Meinek. V p. LIX.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0510-amphiktyones-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_amphiktyones">
+              <lg>
+                <l n="1" xml:id="kock-0510-amphiktyones-4-l1" xml:lang="grc">ὦ τὰ μὲν κομψοί, τὰ δὲ φαυλότεροι</l>
+                <l n="2" xml:id="kock-0510-amphiktyones-4-l2" xml:lang="grc">φαυλίων μήλων.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 3, 82b φαυλίων δὲ μήλων μνημονεύει Τηλεκλείδης ἐν Ἀμφικτύοσιν κτλ. Hesych. φαύλια μῆλα· τὰ μεγάλα. Plin. N. h. 15, 15 phauliae (olivae) grandissimae, alioqui minimo suco. Theophr. C. pl. 6, 8, 5 ὧν ἡ σάρξ πολλή, ὁ δὲ πυρὴν μικρός, ὀλιγοέλαιοι, καθάπερ ἡ φαυλία (ἐλαία). non pravitatem spectatorum, sed pinguem quasi simplicitatem reprehendit, quia nimirum praemio alium poetam ornaverant, itaque ex parte tantum simile quod Schweighaeuserus confert Euripidis fragmentum (476 N.) φαῦλον, ἄκομψον, τὰ μέγιστ’ ἀγαθόν, πᾶσαν ἐν ἔργῳ περιτεμνόμενον σοφίαν, λέσχης ἀτρίβωνα. Iulian. Or. 2, 54a φαῦλος καὶ ἄκομψος θεατής (Meinek.). — ex commatio parabasis haec sunt desumpta. cf. Aristoph. Vesp. 1010 sq. Pac. 733.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0510-amphiktyones-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_amphiktyones">
+              <lg>
+                <l n="1" xml:id="kock-0510-amphiktyones-5-l1" xml:lang="grc">ὡς καλοὶ καὶ φιβάλεῳ</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 3, 75c τῶν δὲ καλουμένων φιβάλεων σύκων πολλοὶ μὲν μέμνηνται . . . Τηλεκλείδης ἐν Ἀμφικτύοσιν κτλ. ὡς] ὦ Meinek.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="kock-0510-amphiktyones-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_amphiktyones">
+              <note type="source">Schol. Aristoph. Av. 988</note>
+              <note type="apparatus">Σύμμαχος ὅτι Διοπείθης ὁ ῥήτωρ ὑπομανιώδης ἦν, ὡς Τηλεκλείδης ἐν Ἀμφικτύοσι δῆλον ποιεῖ. cf. Aristoph. Eq. 1085. Av. 988. Phryn. 9. Amips. 10. Lobeck. Aglaoph. 980.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0510-amphiktyones-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_amphiktyones">
+              <note type="source">Athen. 14, 619 a</note>
+              <note type="apparatus">καὶ τῶν μισθωτῶν δέ τις ἦν ᾠδὴ τῶν ἐς τοὺς ἀγροὺς φοιτώντων, ὡς Τηλεκλείδης φησὶν ἐν Ἀμφικτύοσι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0510-amphiktyones-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_amphiktyones">
+              <note type="source">Athenaeus 8, 335 a</note>
+              <note type="apparatus">Ἰχθύων, ὄνομα κύριον, οὗ μνημονεύει Τηλεκλείδης ἐν Ἀμφικτύοσι. nomen a poeta fictum, fortasse ut tempus fabulae significaret paullo post diluviem Deucalioneam cogitandum esse.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="9" xml:id="kock-0510-amphiktyones-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_amphiktyones">
+              <note type="source">Bekker. Anecd. 464, 30 et Suidas</note>
+              <note type="apparatus">αὐτίτην· τὸν αὐθιγενῆ οἶνον. Ἀμφικτύοσι Τηλεκλείδης. αὐθιγενῆ] αὐτογενῆ Suid.</note>
+            </div>
+          </div></body></text></TEI>

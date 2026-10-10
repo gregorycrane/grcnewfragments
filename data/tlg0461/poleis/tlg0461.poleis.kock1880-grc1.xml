@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUPOLIS, ΠΟΛΕΙΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Eupolis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0461.poleis.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0461.poleis.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0461.poleis.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis"><head>ΠΟΛΕΙΣ</head><div type="textpart" subtype="fragment" n="205" xml:id="kock-0461-poleis-205" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-205-l1" xml:lang="grc">οὓς δ’ οὐκ ἂν εἴλεσθ’ οὐδ’ ἂν οἰνόπτας πρὸ τοῦ,</l>
+                <l n="2" xml:id="kock-0461-poleis-205-l2" xml:lang="grc">νυνὶ στρατηγοὺς ἔχομεν. ὦ πόλις, πόλις,</l>
+                <l n="3" xml:id="kock-0461-poleis-205-l3" xml:lang="grc">ὡς εὐτυχὴς εἶ μᾶλλον ἢ καλῶς φρονεῖς.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 10, 425a ἀρχὴ γοῦν ἐστιν οἱ οἰνόπται παρὰ Ἀθηναίοις, ἧς μνημονεύει ἐν ταῖς Πόλεσιν Εὔπολις ἐν τούτοις κτλ. καὶ ἦν ἡ ἀρχὴ εὐτελής . . . τρεῖς ἦσαν οἱ οἰνόπται, οἵτινες καὶ παρεῖχον τοῖς δειπνοῦσι λύχνους καὶ θρυαλλίδας. v. 2. 3 ὦ — φρονεῖς non addito fabulae nomine Schol. Aristoph. Nub. 587 et Suidas δυσβουλία Ἀθηναίων.</p>
+              </note>
+              <note type="apparatus">
+                <p>2. ἔχομεν add. Hermannus Opusc. V 297. στρατηγοῖς χρώμεθ’ Dobraeus. 3. εὐτυχὴς εἶ Athen.] εὐτυχήσει Schol. Av. V. εὐτυχεῖς Ald. εὐτυχεῖν Suid. ed. Med., quae etiam φρονεῖν pro φρονεῖς. Phot. οἰνόπται· εὐτελὴς ἀρχὴ Ἀθήνησιν, παρέχουσα λύχνους καὶ θρυαλλίδας ἐν ἑορταῖς τισιν. Hesych. οἰνόπται· ἀρχὴ εὐτελής, καθ’ ἣν θρυαλλίδας καὶ λύχνους καὶ τὰ τοιαῦτα δεῖ τὸν αἱρεθέντα ἄρχοντα παρέχειν. ubi cf. M. Schmidt.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="206" xml:id="kock-0461-poleis-206" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-206-l1" xml:lang="grc">ὁ Φιλῖνος οὗτος, τί ἄρα πρὸς ταύτην βλέπεις;</l>
+                <l n="2" xml:id="kock-0461-poleis-206-l2" xml:lang="grc">οὐκ ἀπολιβάξεις εἰς ἀποικίαν τινά;</l>
+              </lg>
+              <note type="source">
+                <p>Bekker. Anecd. 431, 8 ἀπολιβάξαι· τὸ ἐκρυῆναι, ἀπὸ τῆς λιβάδος. ἄλλοι δὲ πόρρω ἀπελθεῖν . . . Εὔπολις Πόλεσιν κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>1. Φιλῖνος Runkelius] φίλιννος. 2. ἀπολιβάξεις Fritzschius Daet. 75 not. 39 conl. Aristoph. Av. 1467] ἀπολιβάζεις. cf. etiam Pherecr. 42. — Plat. Symp. init. ὁ Φαληρεὺς οὗτος Ἀπολλόδωρος. Philinus aliquis est ex spectatorum numero. cf. Aristoph. Vesp. 74. 78. 81. Pac. 883, quem versum adposui, ne quis ex prologo fabulae ne-</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="207" xml:id="kock-0461-poleis-207" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-207-l1" xml:lang="grc">Συρακόσιος δ’ ἔοικεν, ἡνίκ’ ἂν λέγῃ,</l>
+                <l n="2" xml:id="kock-0461-poleis-207-l2" xml:lang="grc">τοῖς κυνιδίοισι τοῖσιν ἐπὶ τῶν τειχίων·</l>
+                <l n="3" xml:id="kock-0461-poleis-207-l3" xml:lang="grc">ἀναβὰς γὰρ ἐπὶ τὸ βῆμ’ ὑλακτεῖ περιτρέχων.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Av. 1297 οὗτος γὰρ τῶν περὶ τὸ βῆμα. καὶ Εὔπολις ὡς λάλον ἐν Πόλεσι διασύρει· Συρακόσιος κτλ. κυνιδίοισι τοῖσιν Grotius Exc. 502] κυνιδίοις τοῖς. τειχίων Dobr.] τειχέων. Hesych. τειχίον· οἱ Ἀττικοὶ τὸν περίβολον τοῖς χωρίοις. Aristoph. Vesp. 1109. Eccl. 497. Raspius comparat Cic. Brut. 15, 58 latrant enim iam quidam oratores, non loquuntur, et De orat. 3, 138.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="208" xml:id="kock-0461-poleis-208" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-208-l1" xml:lang="grc">κακὸς μὲν οὐκ ἦν, φιλοπότης δὲ κἀμελής·</l>
+                <l n="2" xml:id="kock-0461-poleis-208-l2" xml:lang="grc">κἀνίοτ’ ἂν ἀπεκοιμᾶτ’ ἂν ἐν Λακεδαίμονι,</l>
+                <l n="3" xml:id="kock-0461-poleis-208-l3" xml:lang="grc">κἂν Ἐλπινίκην τήνδε καταλιπὼν μόνην.</l>
+              </lg>
+              <note type="source">Plutarchus Cim. 15 τὸν δῆμον ἐξηρέθιζον ἐκεῖνά τε τὰ πρὸς τὴν ἀδελφὴν ἀνανεούμενοι καὶ Λακωνισμὸν ἐπικαλοῦντες· εἰς ἃ καὶ τὰ Εὐπόλιδος διατεθρύληται περὶ Κίμωνος ὅτι κακός κτλ. Schol. Aristidis 515 Dind. πεντήκοντα δὲ τάλαντα ἐπράξαντο (Κίμωνα). Δίδυμος δέ φησιν οὐχ ὅτι ἐλακώνιζεν, ἀλλ’ ὅτι Ἐλπινίκῃ τῇ ἀδελφῇ συνὴν. αἴτιοι δὲ τῆς διαβολῆς οἱ κωμικοί, καὶ μάλιστα Εὔπολις ἐν Πόλεσιν. Tzetzes Hist. I 590. κἀνίοτ’ ἂν Porsonus Eurip. Orest. 581] κἀνίοτ’. τήνδε] τῇδε Sintenisius, Meinekius, H. Iacobi. recte. quis enim credat Elpinicen in scaena adparuisse? Muelleri Strubingensis somnia qui volet conferat p. 286. 7 adn. Elpinicen numquam nuptam fuisse edixit Wilamowitzius Herm. XII 339. 40: scilicet cum fratre matrimonium finxisse comicos.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="209" xml:id="kock-0461-poleis-209" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-209-l1" xml:lang="grc">χἀμυνίας ἐκεῖνος ἀμέλει κλαύσεται,</l>
+                <l n="2" xml:id="kock-0461-poleis-209-l2" xml:lang="grc">ὅτι ὢν ἄγροικος ἵσταται πρὸς τῷ μύρῳ,</l>
+                <l n="3" xml:id="kock-0461-poleis-209-l3" xml:lang="grc">ὅτι θεῶν ἕνεκ’ ἔπλευσε κακὸς ἂν εἴσεται.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Vesp. 1271 καὶ Εὔπολις ἐμφαίνει τὴν πρεσβείαν ἐν ταῖς Πόλεσιν· χάμυνίας κτλ. Schol. Nub. 691 Εὔπολις δὲ ὡς παραπρεσβευτήν (Ἀμυνίαν σκώπτει), ὅπερ καὶ ἐν τοῖς Σφηξὶ φαίνεται. χἀμυνίας (καὶ ὁ Ἀμ.) Dindorf.] χώμυνίας. 2. ὢν add. Dobr. Arist. Eccl. 289. ὅτι τ’ ὢν Herm. Opusc. V 297. μύρῳ. Dobr.] μορίῳ. cf. Pherecr. 2. 3. ἕνεκ’] εἵνεκεν V. Hermannus ὅτι θ’ ὧν ἕνεκεν ἔπλευσεν. Porsonus θεῶν</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="210" xml:id="kock-0461-poleis-210" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-210-l1" xml:lang="grc">οὐκ ἀργαλέα δῆτ᾽ ἐστὶ πάσχειν ταῦτ᾽ ἐμέ,</l>
+                <l n="2" xml:id="kock-0461-poleis-210-l2" xml:lang="grc">τὸν Λευκολοφίδου παῖδα τοῦ Πορθάονος;</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Ran. 1513 Εὔπολις μέμνηται ἐν Πόλεσιν οὕτως περὶ τοῦ Ἀδειμάντου κτλ. ἀργαλέα R] ἀργαλέον. Λευκολοφίδου Meinek.] Λευκολόφου. τοῦ Πορθάονος add. R. loquitur ipse <hi rend="italic">Adimantus</hi>. cf. Aristoph. Ran. 1513. <hi rend="italic">Leucolophides</hi> pater vocatur etiam apud Plat. Protag. 315 e. Xenoph. Hell. 1, 4, 21. Aristophanes <hi rend="italic">Leucolophum</hi> dixit metri necessitate coactus. cf. quae adnotavi ad Aristoph. Nub. 65. <hi rend="italic">Porthaonis</hi> cognomine Adimantum militem gloriosum esse indicat. prisci Porthaonis filius est Oeneus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="211" xml:id="kock-0461-poleis-211" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-211-l1" xml:lang="grc">ὡς οὖν τίν᾽ ἔλθω δῆτά σοι τῶν μάντεων;</l>
+                <l n="2" xml:id="kock-0461-poleis-211-l2" xml:lang="grc">πότερος ἀμείνων ἀμφοτέρων; ἢ Στιλβίδης;</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Pac. 1031 ὁ Στιλβίδης εὐδόκιμος καὶ περιβόητος μάντις . . . μέμνηται δὲ αὐτοῦ καὶ Εὔπολις Πόλεσιν κτλ. 1. οὖν] αὖ Ald. ἀμφοτέρων] ἀμφότερος V. ἢ] ἦ Florens Christianus; quo nihil proficitur. Herwerd. Obs. crit. 26 Ἀμφοτερός, ‘plures enim duobus Athenis erant haruspices’. ac novit id nomen Herodían. II 4, 5 Lentz. vatem tamen Amphoterum fuisse nusquam legi. de <hi rend="italic">Stilbide</hi> cf. Aristoph. Av. 139. Ol. 91, 3 mortuum esse Meinekius I 141 conclusit ex Plut. Nic. 23.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="212" xml:id="kock-0461-poleis-212" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-212-l1" xml:lang="grc">Ἱερόκλεες βέλτιστε χρησμῳδῶν ἄναξ</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Pac. 1046 μάντις ἦν καὶ χρησμολόγος . . . καὶ Εὔπολις Πόλεσιν κτλ. admonet Dindorfius poetam imitari Aesch. Sept. 39 Ἐτεόκλεες, φέριστε Καδμείων ἄναξ. de forma vocativi cf. quae adnotavimus ad Aristoph. Eq. 283. fortasse Hierocles is vates est, de quo advocando fr. 211 agitur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="213" xml:id="kock-0461-poleis-213" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-213-l1" xml:lang="grc">καὶ τῷ Πυριλάμπους ἆρα Δήμῳ κυψέλη</l>
+                <l n="2" xml:id="kock-0461-poleis-213-l2" xml:lang="grc">ἔνεστιν;</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Vesp. 98 τὸν Πυριλάμπους· μέμνηται τούτου καὶ Εὔπολις ἐν Πόλεσιν . . . ἦν δὲ καὶ εὔμορφος ὁ Δῆμος.</note>
+              <note type="apparatus">ἆρα Δήμῳ Meinek.] Δήμῳ ἆρα. de Demo Pyrilampis f. cf. Plat. Gorg. 481 e. 513 b. Lys. 19, 25. 6. et plura apud Boeckh. Opusc. IIII 468 adn. 3. κυψέλην ἐν τοῖς ὠσὶν ἔχειν proverbium erat de hominibus stupidis. Lucian. Lexiph. 1 κυψελόβυστα ἔοικας ἔχειν τὰ ὦτα . . . ἔμοιγε οὔτε Κύψελός τις οὔτε Περίανδρος ἐν τοῖς ὠσὶ κάθηται. Pollux 2, 82 (cf. 4, 185) κυψέλη καὶ κυψελὶς ὁ ἐμφράττων τὴν ἀκοὴν ῥύπος, quod figurate intellegendum est. cf. etiam Lobeck. Phryn. 767. itaque v. 2 addendum videtur ἔνεστιν ἐν τοῖς ὠσίν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="214" xml:id="kock-0461-poleis-214" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-214-l1" xml:lang="grc">ὄρτυγας ἔθρεψας σύ τινας ἤδη πώποτε;</l>
+                <l n="2" xml:id="kock-0461-poleis-214-l2" xml:lang="grc">Β. ἔγωγε μικρά γ᾽ ὀρτύγια· κἄπειτα τί;</l>
+              </lg>
+              <note type="source">Athenaeus 9, 392 e ὑποκοριστικῶς δὲ Εὔπολις ἐν Πόλεσιν αὐτοὺς (ὄρτυγας) κέκληκεν ὀρτύγια κτλ.</note>
+              <note type="apparatus">ἔθρεψας Schweigh.] θρέψας PVL. μικρά γ᾽] μίκρ᾽ ἄττ᾽ Porson. Miscell. 240. haec quoque videntur ad Demum spectare, quem patris exemplo avium altorem fuisse constat. cf. 36. 213.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="215" xml:id="kock-0461-poleis-215" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-215-l1" xml:lang="grc">ὥσπερ ἐπὶ τὴν Λύκωνος ἔρρει πᾶς ἀνήρ.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Lys. 270 τὴν Ῥοδίαν λέγει οὕτω καλουμένην, τὴν Αὐτολύκου μὲν μητέρα, γυναῖκα δὲ Λύκωνος, ἐπ᾽ αἰσχροῖς κωμῳδουμένην. Εὔπολις Πόλεσιν κτλ.</note>
+              <note type="apparatus">τὴν om. Barocc. ἔρρει Barocc.] συνέρρει. cf. 53. 273. Cratin. 202.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="216" xml:id="kock-0461-poleis-216" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-216-l1" xml:lang="grc">ὃς τὴν Μαραθῶνι κατέλιφ᾽ ἡμῖν οὐσίαν.</l>
+              </lg>
+              <note type="source">Photius οὐσίαν· τὰ χρήματα, ὡς ἡμεῖς. Εὔπολις Πόλεσιν κτλ.</note>
+              <note type="apparatus">τὴν — κατέλιφ᾽ Porson.] τὴν ἐν — κατέλιπεν. Miltiadem dicit Atheniensibus victoriam Marathoniam pro magna hereditate reliquisse. οὐσίαν accusativus est praedicativus qui dicitur. cf. Nep. Epamin. 10.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="217" xml:id="kock-0461-poleis-217" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-217-l1" xml:lang="grc">τί δ᾽ ἔστ᾽ Ἀθηναίοισι πρᾶγμ᾽ ἀπώμοτον;</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 441, 14 et Suidas ἀπώμοτον· ἀπηγορευμένον,</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="218" xml:id="kock-0461-poleis-218" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-218-l1" xml:lang="grc">ἐξ Ἡρακλείας ἀργύριον ὑφείλετο.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Nub. 351 καὶ Εὔπολις ἐν Πόλεσι διαβάλλων αὐτὸν (Σίμωνα) ἐπὶ τοῖς αὐτοῖς ἐγκλήμασιν οὕτως κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>de Simone nihil praeterea notum. neque quam Heracleam dicat constat.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="219" xml:id="kock-0461-poleis-219" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-219-l1" xml:lang="grc">ὡς ὑμῖν ἐγὼ</l>
+                <l n="2" xml:id="kock-0461-poleis-219-l2" xml:lang="grc">πάντως ἀποκρινοῦμαι πρὸς τὰ κατηγορούμενα.</l>
+              </lg>
+              <note type="source">
+                <p>Harpocratio ἀπόκρισις ἡ ἀπολογία. . . . Εὔπολις Πόλεσιν κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>πάντως] πάντ' Meinek. quod non intellego. Dobraeus Adv. 416 πρὸς πάντ' ἀποκρινοῦμαι τὰ κ. Fritzschius Fragm. Eup. vers. 20 ὡς ὑμῖν ἐγώ (ἀπεκρινάμην), πάντως ἀπόκριναι πρὸς τὰ κ., ubi nescio an καὶ σύ deesse non potuerit.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="220" xml:id="kock-0461-poleis-220" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-220-l1" xml:lang="grc">ἣν οὐκ ἀνέῳξα πώποτ' ἀνθρώποις ἐγώ.</l>
+              </lg>
+              <note type="source">
+                <p>Bekker. Anecd. 399, 30 et Suidas ἀνέῳγεισαν. . . . Εὔπολις Πόλεσιν κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>ἣν Porson. Advers. 285] ἓν Bekk. An. ἥδ' Suid. οἱ A. οἶδ' BC. unde Bernhardy ἣν δ'. intelleg. θύραν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="221" xml:id="kock-0461-poleis-221" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-221-l1" xml:lang="grc">ὡς μόλις ἀνήρρησ'· οὐδέν ἐσμεν οἱ σαπροί.</l>
+              </lg>
+              <note type="source">
+                <p>Bekker. Anecd. 402, 29 et Suidas ἀνήρρησεν· ἀνεφθάρη. ὡς μόλις — σαπροί. Εὔπολις Πόλεσιν.</p>
+              </note>
+              <note type="apparatus">
+                <p>ἀνήρρησ' (i. e. ἀνήρρησα) Porson. Advers. 285] ἀνήρρησαν Bekk. An. et Suidae AC. ἀνήρρησεν Suidae reliqui. inridet Euripidem, qui saepissime senes in scaenam prodeuntes de senectutis molestiis querentes fecit. οὐδὲν ἐσμεν Herc. fur. 314, quod addito οἱ σαπροί Eupolis in ridiculum deflexit. etiam ἀνήρρησα parodiae inservit. cf. Aristoph. Nub. 789 cum adn.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="222" xml:id="kock-0461-poleis-222" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-222-l1" xml:lang="grc">οὐ γὰρ πολυπράγμων ἐστίν, ἀλλ' ἁπλήγιος.</l>
+              </lg>
+              <note type="source">
+                <p>Bekker. Anecd. 425, 18 et Suidas ἁπλήγιος· δασέως, ἁπλοῦς. καὶ Εὔπολις Πόλεσιν κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>οὐ γὰρ Bekk. An.] οὔτ' ἂρ Suid.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="223" xml:id="kock-0461-poleis-223" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-223-l1" xml:lang="grc">ἄνδρες λογισταὶ τῶν ὑπευθύνων χορῶν</l>
+              </lg>
+              <note type="source">Harpocratio 121, 15 <foreign xml:lang="grc">Εὔπολις Πόλεσιν κτλ. ὑπευθύνων</foreign>] <foreign xml:lang="grc">ὑπευθυνῶν</foreign> A. <foreign xml:lang="grc">ἐπευθυνῶν</foreign> BG. <foreign xml:lang="grc">χορῶν</foreign>] <foreign xml:lang="grc">χωρῶν</foreign> G. <foreign xml:lang="grc">χειρῶν</foreign> O.</note>
+              <note type="apparatus">
+                <foreign xml:lang="grc">λογισταί</foreign> hic non sunt qui proprie dicebantur (cf. Schoem. Antiq. gr.<hi rend="superscript">2</hi> I 422), sed quinque illi poetarum iudices, quibus chori quasi rationem reddere debebant. cf. Pherecr. 96. Fritzsch. Daetal. 120. Saupp. Ber. d. sächs. Ges. d. Wiss. 1855 p. 11.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="224" xml:id="kock-0461-poleis-224" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-224-l1" xml:lang="grc">ἐμοὶ γὰρ οὐκ ἔστ’ οὐδὲ λάσαν’ ὅπου χέσω.</l>
+              </lg>
+              <note type="source">Moeris 202, 30 <foreign xml:lang="grc">λάσανον καὶ τοὺς χυτρόποδας καὶ τοὺς δίφρους, ὡς Εὔπολις Πόλεσιν κτλ. λάσαν’</foreign> Raspius] <foreign xml:lang="grc">λάσανον</foreign>.</note>
+              <note type="apparatus">Civitatem aliquam ita se Atheniensium aviditate exhaustam esse queri, ut ne lasana quidem habeat ad ventrem levandum, Raspius (89) arbitratur. cf. fr. 225. at singuli choreutae talia non solent proferre.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="225" xml:id="kock-0461-poleis-225" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-225-l1" xml:lang="grc">κακὰ τοιάδε</l>
+                <l n="2" xml:id="kock-0461-poleis-225-l2" xml:lang="grc">πάσχουσα, μηδὲ πρᾶσιν αἰτῶ;</l>
+              </lg>
+              <note type="source">Pollux 7, 13 <foreign xml:lang="grc">ὃ δὲ οἱ νῦν φασι τοὺς οἰκέτας πρᾶσιν αἰτεῖν, ἔστιν εὑρεῖν . . . ἐν ταῖς Εὐπόλιδος Πόλεσιν κτλ. μηδὲ</foreign> Bekkerus] <foreign xml:lang="grc">οὐδὲ</foreign>.</note>
+              <note type="apparatus">talia perpessa ne alteri quidem domino ut tradar poscam? cf. Schoemann. Antiq. gr.<hi rend="superscript">2</hi> I 362 et De com. Athen. 403sq. Aristoph. Eq. 1312 cum interpr. haec quoque Civitatem aliquam dicere abitratur Raspius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="226" xml:id="kock-0461-poleis-226" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-226-l1" xml:lang="grc">καὶ Χαόνων καὶ Παιόνων καὶ Μαρδόνων</l>
+              </lg>
+              <note type="source">Stephanus Byz. <foreign xml:lang="grc">Μαρδόνες. ἠπειρωτικὸν ἔθνος. Εὔπολις Πόλεσι κτλ.</foreign> Herodian. I 25, 5 Lentz.</note>
+              <note type="apparatus">de trimetri forma Raspius conferri iubet Aristoph. Ach. 31. Pac. 291. Mardones praeterea non commemorari monuit Meinekius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="227" xml:id="kock-0461-poleis-227" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-227-l1" xml:lang="grc">ἄνευ καλαθίσκων καὶ πόρων καὶ πηνίων</l>
+              </lg>
+              <note type="source">Pollux 7, 29 <foreign xml:lang="grc">τάλαρος, καὶ ἄλλος καλαθίσκος, Εὐπόλιδος εἰπόντος ἐν Πόλεσιν κτλ. πόρων</foreign>] <foreign xml:lang="grc">πόκων</foreign> Meinekius.</note>
+              <note type="apparatus">praeferendum videtur <foreign xml:lang="grc">ταλάρων</foreign>.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="228" xml:id="kock-0461-poleis-228" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-228-l1" xml:lang="grc">καρδόπους,</l>
+                <l n="2" xml:id="kock-0461-poleis-228-l2" xml:lang="grc">κρατῆρας ὀκτώ, δέκα χύτρας, δύο τρυβλίω,</l>
+                <l n="3" xml:id="kock-0461-poleis-228-l3" xml:lang="grc">κνέφαλλα δέκα, θέρμαυστριν, ἓξ θρόνους, χύτραν,</l>
+                <l n="4" xml:id="kock-0461-poleis-228-l4" xml:lang="grc">κάννας ἑκατόν, κόρημα, κιβωτόν, λύχνον.</l>
+              </lg>
+              <note type="source">Pollux 10, 192 σκευῶν ἐν Εὐπόλιδος Πόλεσι κατάλογος κτλ.</note>
+              <note type="apparatus">3. κνέφαλλα Meinek.] κνέφαλα. δέκα Bekkerus] τε καὶ B, om. rel. χύτραν] λύραν Bentl. at quid lyrae cum tali supellectile? fortasse δίφρον. Hesych. θερμα(υ)στρίς· σκεῦος παραπλήσιον καρκίνῳ, ᾧ χρῶνται οἱ χρυσοχόοι, i. e. forceps. at Pollux 10, 66 ἵνα τὸ ὕδωρ θερμαίνεται, . . . θέρμαυστρις, θερμαστρίς. ceterum facile quispiam pro Πόλεσι apud Pollucem Κόλαξι scribendum esse coniciat et haec ad supellectilis indicem referat conl. fr. 151. 170. 171.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="229" xml:id="kock-0461-poleis-229" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-229-l1" xml:lang="grc">ἔχω γὰρ ἐπιτήδειον ἄνδρ’ αὐτῇ πάνυ.</l>
+              </lg>
+              <note type="source">Etym. m. Milleri (Mélanges 123) ἐπιτήδειον· Εὔπολις Πόλεσιν· ἔχω κτλ. Etym. m. 366, 16 cod. Voss. Εὔπολις· ἔχω κτλ. αὐτῇ cod. Mill.] ἐν αὐτῇ Voss.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="230" xml:id="kock-0461-poleis-230" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-230-l1" xml:lang="grc">πεφυτευμένη δ’ αὕτη ’στὶν ἢ ψιλὴ μόνον;</l>
+              </lg>
+              <note type="source">Photius ψιλὴ γῆ· ἡ μὴ πεφυτευμένη. πεφυτευμένη — μόνον. Πόλεσιν. αὕτη ’στὶν ἢ Porson.] δὲ αὐτὴ ἐστὶν ἡ cod., qui πεφυτευμένη semel habet, sed repetitum in margine manu antiqua. ad Eupolidis Πόλεις pertinere intellexit Porsonus. versum σκληράν, ἄκαρπον καὶ φυτεύεσθαι κακήν Plut. Mor. 602d cum hoc fr. quodammodo coniungendum esse putat Meinekius, Seriphum intellegens. μόνον suspectum. ἢ ψιλωμένη Meinek. cf. Demosth. 20, 115 Λυσιμάχῳ . . . ἑκατὸν μὲν . . . πλέθρα γῆς πεφυτευμένης ἔδοσαν, ἑκατὸν δὲ ψιλῆς.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="231" xml:id="kock-0461-poleis-231" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-231-l1" xml:lang="grc">Τῆνος αὕτη,</l>
+                <l n="2" xml:id="kock-0461-poleis-231-l2" xml:lang="grc">πολλοὺς ἔχουσα σκορπίους ἔχεις τε συκοφάντας.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Plut. 718 ὅτι ἡ Τῆνος θηριώδης δοκεῖ εἶναι, δηλοῖ καὶ Εὔπολις Πόλεσι κτλ. Τῆνος αὕτη R] Τῆνος δ’ (δὲ Θ) αὐτὴ reliqui. ἔχεις τε συκοφάντας accesserunt ex V. cf. Cobet N. 1. 153. comparat H. Iacobi Demosth. 25, 52 πορεύεται διὰ τῆς ἀγορᾶς ὥσπερ ἔχις ἢ σκορπίος ἠρκὼς τὸ κέντρον. scilicet orator poetam imitatus est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="232" xml:id="kock-0461-poleis-232" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-232-l1" xml:lang="grc">αὕτη Χίος, καλὴ πόλις . . .</l>
+                <l n="2" xml:id="kock-0461-poleis-232-l2" xml:lang="grc">πέμπει γὰρ ὑμῖν ναῦς μακρὰς ἄνδρας θ’ ὅταν δεήσῃ,</l>
+                <l n="3" xml:id="kock-0461-poleis-232-l3" xml:lang="grc">καὶ τἄλλα πειθαρχεῖ καλῶς, ἄπληκτος ὥσπερ ἵππος.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Av. 880 λέγει δὲ περὶ τῆς Χίου καὶ Εὔπολις ἐν Πόλεσιν· αὕτη κτλ.</note>
+              <note type="apparatus">1. πάρεστι supplebat Hermannus Opusc. V 295. cf. Cobet. Mnem. nov. I 235. quidni Πόσειδον vel φίλε Ζεῦ? ut Herwerd. Obs. crit. 25. 2. ὑμῖν] ἡμῖν Meinek., qui versum 3 alteri personae tribuit. πόλις, ut Cratin. 228. Plat. Phaedr. 253 d ἄπληκτος ἵππος κελεύματι μόνον καὶ λόγῳ ἡνιοχεῖται. Homer. Il. 23, 387 et Pind. Ol. 1, 20 comparat Raspius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="233" xml:id="kock-0461-poleis-233" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-233-l1" xml:lang="grc">ἡ δ’ ὑστάτη ποῦ ’σθ’; Β. ἥδε Κύζικος πλέα στατήρων.</l>
+                <l n="2" xml:id="kock-0461-poleis-233-l2" xml:lang="grc">Α. ἐν τῇδε τοίνυν τῇ πόλει φρουρῶν ποτ’ αὐτὸς</l>
+                <l n="3" xml:id="kock-0461-poleis-233-l3" xml:lang="grc">γυναῖκ’ ἐκίνουν κολλύβου καὶ παῖδα καὶ γέροντα,</l>
+                <l n="4" xml:id="kock-0461-poleis-233-l4" xml:lang="grc">κἀξῆν ὅλην τὴν ἡμέραν τὸν κύσθον ἐκκορίζειν.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Pac. 1176 εἰς κιναιδίαν διαβάλλεται (Κύζικος) ὥστε μηδὲ τῶν ἀναγκαίων διὰ τὴν εὐρύτητα κρατεῖν δύνασθαι, ὡς καὶ Εὔπολις ἐν Πόλεσιν· ἡ δ’ ὑστάτη κτλ.</note>
+              <note type="apparatus">1. ἡ δ’ ὑστάτη τίς ἥδε; Β. κτλ. Cobet. Obs. crit. 189. ac profecto mirum est interrogari ubi haec ultima sit civitas. fortasse ἡ δ’ ὕστατη τοὔσθ’ ἥδε Κύζικος κτλ., i. e. τοί ἐστι. 2. ἐγώ post φρουρῶν add. Hermann. non accedo. 3. γυναῖκ’ ἐκίνουν (scrib. cum Dind. ἐβίνουν) κολλύβου Herm.] ἐκίνουν δὲ γυναῖκα κολύβου V. 4. κἀξὴν ὅλην Herm. καξηνό V. κύσθον Herm.] σκύθον. gloriatur Euelpides nescio quis (cf. Aristoph. Av. 137sq.), quod in urbe opulenta, ubi noctes stateribus emerentur, ipse venustate effecerit et elegantia, ut paene gratis scortaretur. pro ποτ’ αὐτός, quod pronomen ineptum esse etiam Cobetus censet (Obs. crit. 189 adn. 1), scribendum videtur μετ’ Αὐτοκλείδου, Autoclide imperatore. Autoclides idem qui Autocles Thuc. 4, 53. 119. cf. quae supra ad fr. 210 adnotavimus. is Autocles idemne sit cum eo quem Lys. 3, 12 commemorat nescio. ceterum stateres Cyziceni aurei sunt et propterea Graecis, qui argenteis fere nummis utebantur, admodum grati. cf. Lys. 32, 6. Demosth. 34, 23. Phot. Hesych. Suid. Κυζικηνοί στατῆρες. Hultsch Metrol. 268.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="234" xml:id="kock-0461-poleis-234" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-234-l1" xml:lang="grc">ἄσπουδος δ’ ἀνὴρ σπουδαρχίδου κακίων.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 453, 21 ἄσπουδος· ὁ μὴ σπουδαῖος. οὕτως</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="235" xml:id="kock-0461-poleis-235" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-235-l1" xml:lang="grc">ἔστι δέ τις θήλεια Φιλόξενος ἐκ Διομείων.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Vesp. 82</p>
+              </note>
+              <note type="apparatus">
+                <p>καὶ γὰρ ὁ Φιλόξενος ἐκωμῳδεῖτο ὡς πόρνος. Εὔπολις Πόλεσιν κτλ. de Philoxeno cf. Aristoph. Nub. 686. Ran. 934 et plura apud Bergkium R. c. Att. 218 sq. Hieroclem loqui oraculum fundentem arbitratur Raspius 105.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="236" xml:id="kock-0461-poleis-236" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <lg>
+                <l n="1" xml:id="kock-0461-poleis-236-l1" xml:lang="grc">ὦ δέσποτα, καὶ τάδε νῦν ἄκουσον, ἂν λέγω σοι.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Hephaest. 15, 3 extr.</p>
+              </note>
+              <note type="apparatus">
+                <p>ἔσθ’ ὅτε καὶ τὰς ἰαμβικὰς ἐπιμιγνύουσι ταῖς κατειλεγμέναις συζυγίαις, τῇ τε ἰωνικῇ καὶ τῇ χοριαμβικῇ, πάλιν προσοδιακὸν καλοῦντες, ὥσπερ Εὔπολις ἐν ταῖς Πόλεσιν· ὦ δέσποτα κτλ. ἂν Dobr. apud Gaisf.] &amp; Turn. E. versus est Archilochius. cf. G. Herm. El. doctr. metr. 593. Opusc. V 208.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="237" xml:id="kock-0461-poleis-237" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <note type="source">
+                <p>Schol. Aristoph. Ran. 970 (Θηραμένης)</p>
+              </note>
+              <note type="apparatus">
+                <p>δοκεῖ προσγεγράφθαι τῇ πολιτείᾳ Ἅγνωνος αὐτὸν ποιησαμένου, ὡς Εὔπολις Πόλεσιν. cf. Xen. Hell. 2, 3, 30. Schol. Aristoph. Ran. 541 Ἅγνωνος παῖς, Στειριεὺς τῶν δήμων.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="238" xml:id="kock-0461-poleis-238" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <note type="source">
+                <p>Schol. Lucian. Tim. 30 (Ὑπερβόλου)</p>
+              </note>
+              <note type="apparatus">
+                <p>ὡς παρελθόντος νέου τῷ βήματι μέμνηται . . . Εὔπολις Πόλεσι. προσελθόντος Hemsterhusius.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="239" xml:id="kock-0461-poleis-239" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <note type="source">
+                <p>Schol. Platon. 331 Bekk.</p>
+              </note>
+              <note type="apparatus">
+                <p>Εὔπολις ἐν Πόλεσι διὰ τὴν χροιὰν πύξινον (Χαιρεφῶντα) καλεῖ. Schol. Aristoph. Vesp. 1408. interpr. Nub. 104.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="240" xml:id="kock-0461-poleis-240" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <note type="source">
+                <p>Schol. Aristoph. Acharn. 504</p>
+              </note>
+              <note type="apparatus">
+                <p>εἰς τὰ Διονύσια ἐτέτακτο Ἀθήναζε κομίζειν τὰς πόλεις τοὺς φόρους, ὡς Εὔπολίς φησιν ἐν Πόλεσιν. cf. schol. 378.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="241" xml:id="kock-0461-poleis-241" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <note type="source">
+                <p>Harpocratio 14, 22</p>
+              </note>
+              <note type="apparatus">
+                <p>μνημονεύουσι δὲ οἱ κωμικοὶ πολλάκις τῶν</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="242" xml:id="kock-0461-poleis-242" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_poleis">
+              <head>242</head>
+              <p>γράσος</p>
+              <p>εἴρηται ἀλλαχοῦ καὶ ἐν Πόλεσιν Εὐπόλιδος (ἢ ἐν τοῖς τράγοις δυσωδία). Pollux 2, 77. Hesych. γράσος· δυσοσμία.</p>
+              <note type="apparatus">
+                <p>Ad Civitates referunt Meinekius fr. 392, fr. 312 M. Schmidtius Hesych. ἄπλυτοι ῥαφανίδες (I 242). cf. etiam fr. 457 et Philyll. 17.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

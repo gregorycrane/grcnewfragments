@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CALLIAS, ΚΥΚΛΩΠΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Callias</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0426.kyklopes.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0426.kyklopes.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0426.kyklopes.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_kyklopes"><head>ΚΥΚΛΩΠΕΣ</head><div type="textpart" subtype="fragment" n="2" xml:id="kock-0426-kyklopes-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_kyklopes">
+              <note type="source">
+                <p>Suidas ἀράχνη· εἴρηται δὲ ἀράχνης καὶ παρ’ Ἡσιόδῳ καὶ παρὰ Πινδάρῳ καὶ παρὰ Καλλίᾳ (παρ’ ἄλλοις Nauck. Philol. VI 415). λέγουσι δὲ καὶ ἀραχνικὰ (Bernh. ἀραχνικὸς) ἀπὸ τῆς ἀράχνης ὀρθῆς. Καλλίας Κύκλωψιν· ὥσπερ ἀραχνικὸς τὴν ὁδὸν προφορουόμενα (προφορουμένω C). Bekker. Anecd. 442, 1 ἀράχνης· καὶ παρ’ Ἡσιόδῳ καὶ παρὰ Πινδάρῳ καὶ παρὰ καλλίοις (παρ’ ἄλλοις Nauck). λέγουσι δὲ καὶ ἀραχνικὰ ἀπὸ τῆς ἀράχνης ὀρθῆς. Καλλίας Κύκλωψι.</p>
+              </note>
+              <note type="apparatus">
+                <p>Meinekius ἀλλ’ ὥσπερ ἀράχναι τὴν ὁδὸν προφορουμένω. Fritzsch. De com. gr. fr. 7 ὥσπερ ἀράχνηκες τὴν ὁδὸν προφορουμένω conl. Hesych. ἀράχνηκες· ἀράχναι. cf. etiam Aristoph. Av. 4 et quae ibi adnotavimus.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0426-kyklopes-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_kyklopes">
+              <lg>
+                <l n="1" xml:id="kock-0426-kyklopes-3-l1" xml:lang="grc">κίθαρος ὀπτὸς καὶ βατὶς θύννου τε κεφάλαιον τοδί,</l>
+                <l n="2" xml:id="kock-0426-kyklopes-3-l2" xml:lang="grc">ἐγχέλεια, κάραβοι, λινεύς, ἀχαρνὼς οὑτοσί.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 7, 286 b Καλλίας Κύκλωψι κτλ. et 306 a Καλλίας δὲ ἢ Διοκλῆς Κύκλωψι κίθαρος — τοδί. v. 2 Bekker. Anecd. 474, 1 ἀχαρνὼς καὶ ὀρφὼς ὁ αὐτός. Καλλίας Κύκλωψιν· ἐγχέλεια κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>1. κίθαρος] κίθαρις 286 b. ὀπτὸς καὶ A] ὀπτός τε P. θύννου τε] θύννου τὸ 306. 2. ἐγχέλεια Schweigh.] ἐγχέλια A. λινεύς Erfurdt. Observ. 461] αἰνεεύς. ἀχαρνὼς Bekk. An.] ἄχαρνος. de citharo cf. Pherecr. 39. Hesych. λινεύς· ὁ κεστρεὺς ἰχθύς. Photius λινεύς· κεστρεύς. Hesych. ἀχάρνα· εἶδος ἰχθύος.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0426-kyklopes-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_kyklopes">
+              <lg>
+                <l n="1" xml:id="kock-0426-kyklopes-4-l1" xml:lang="grc">φυλλὰς ἡ δείπνων κατάλυσις ἥδε καθάπερ σχημάτων.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 4, 140 e ὅτι δὲ ἔθος ἦν τοῖς πάλαι καὶ φύλλα δάφνης τραγηματίζεσθαι Καλλίας ἢ Διοκλῆς ἐν τοῖς Κύκλωψί φησιν οὕτως</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0426-kyklopes-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_kyklopes">
+              <lg>
+                <l n="1" xml:id="kock-0426-kyklopes-5-l1" xml:lang="grc">τί γὰρ ἡ τρυφερὰ καὶ καλλιτράπεζος Ἰωνία εἴφ᾽ ὅ τι πράσσει.</l>
+              </lg>
+              <note type="source">Athenaeus 12, 524f τοὺς δὲ σύμπαντας Ἴωνας ἐπισκώπτων Καλλίας ἢ Διοκλῆς ἐν Κύκλωψί φησι κτλ. εἴφ᾽ Dindf.] εἶφ᾽. Bekker. Anecd. 49, 15 καλλιτράπεζος· ὁ καλὴν καὶ λαμπρὰν τράπεζαν παρατιθέμενος.</note>
+              <note type="apparatus">cum incisio inusitata sit post quartum trochaeum in tetrametro anapaestico (cf. tamen Aristoph. Av. 600 et quae ad Nub. 987 adnotavimus), Meinekius cum Dobraeo (Advers. II 339) trimetros iambicos constituit: τί γὰρ — Ἰωνία | εἶπον (nam εἰπόν in ed. Athen. quid sibi velit nescio) ὅτι πράσσει: ubi non minus insolens est incisio anapaesti in pede quinto. praeterea vero tum scribendum erit τί γὰρ — Ἰωνία; | ἀλλ᾽ εἴφ᾽ ὅ τι πράττει. nam εἶπον imperativus (Xen. Mem. 3, 6, 3, cf. quae Kuehner. ad 2, 2, 8 adnot.) aliquanto post in Atticorum consuetudinem pervenit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" xml:id="kock-0426-kyklopes-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_kyklopes">
+              <lg>
+                <l n="1" xml:id="kock-0426-kyklopes-6-l1" xml:lang="grc">καὶ δέξαι τηνδὶ μετανιπτρίδα τῆς Ὑγιείας.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 486f. 487 a μετάνιπτρον (= μετανιπτρίς) ἡ μετὰ τὸ δεῖπνον, ἐπὴν ἀπονίψωνται, διδομένη κύλιξ . . . ἔνιοι δὲ τὴν μετὰ τὸ νίψασθαι πόσιν, ὡς Σέλευκος ἐν Γλώσσαις. Καλλίας δ᾽ ἐν Κύκλωψι κτλ. cf. Philetaer. 1.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0426-kyklopes-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_kyklopes">
+              <lg>
+                <l n="1" xml:id="kock-0426-kyklopes-7-l1" xml:lang="grc">πρὸς τῆς ἀφύης τῆς ἡδίστης</l>
+              </lg>
+              <note type="source">Athenaeus 7, 285e Καλλίας Κύκλωψι. πρὸς Porson.] πρὸ. ex nominis ambiguitate, quo piscis et meretrix significatur, iocum quaesivit iudice Meinekio. cf. Archipp. 16.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0426-kyklopes-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0426_kyklopes">
+              <lg>
+                <l n="1" xml:id="kock-0426-kyklopes-8-l1" xml:lang="grc">κεχαλκεῦσθαι τοίνυν ἑσπέρας</l>
+              </lg>
+              <note type="source">Pollux 7, 105 Καλλίας ἐν Κύκλωψι. verba sine dubio corrupta. quod Meinekius proposuit κ. τανῦν ἐφ᾽ ἑσπέρας quomodo facilius intellegatur non perspicio.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHILYLLIUS, ΑΙΓΕΥΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Philyllius</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0494.aigeys.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0494.aigeys.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0494.aigeys.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_aigeys"><head>ΑΙΓΕΥΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0494-aigeys-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_aigeys">
+              <lg>
+                <l n="1" xml:id="kock-0494-aigeys-1-l1" xml:lang="grc">ὁ πάππος ἦν μοι γαλεὸς ἀστερίας ἴσως.</l>
+              </lg>
+              <note type="apparatus">Stephanus Byz. Γαλεῶται. γαλεὸς δὲ καὶ ὁ ἀσκαλαβώτης. Φιλύλλιος Αἰγεῖ· ὁ πάππος — ἀστερίας. ἴσως διὰ τὸ πεποικίλθαι παίζων. Herodian. I 113, 7. recte H. Iacobi V 56 ἴσως ad Philyllii verba rettulit. Φιλύλλιος Salmas.] Φύλλιος.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="kock-0494-aigeys-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_aigeys">
+              <note type="source">Athenaeus 3, 110f γίνονται δ' οἱ ἄρτοι οὗτοι (κόλλαβοι) ἐκ νέου πυροῦ ὡς Φιλύλλιος ἐν Αὔγῃ παρίστησιν κτλ. φέρων] ἔχων C. ἐκγόνους] ἐγγόνους B. τριμήνων] τριμήνους P. Αὔγῃ Schweigh. (Αὐγῇ Casaub.)] αὐτῇ. cf. Strattid. 2.</note>
+              <lg>
+                <l n="1" xml:id="kock-0494-aigeys-5-l1" xml:lang="grc">πάντα γὰρ ἦν</l>
+                <l n="2" xml:id="kock-0494-aigeys-5-l2" xml:lang="grc">μέστ' ἀνδρῶν καὶ μειρακίων</l>
+                <l n="3" xml:id="kock-0494-aigeys-5-l3" xml:lang="grc">πινόντων, ὁμοῦ δ' ὁμάδῳ</l>
+                <l n="4" xml:id="kock-0494-aigeys-5-l4" xml:lang="grc">γράδι' ἦν μεγάλαισιν οἴ-</l>
+                <l n="5" xml:id="kock-0494-aigeys-5-l5" xml:lang="grc">νου χαίροντα λεπασταῖς.</l>
+              </lg>
+              <note type="apparatus">Athenaeus 11, 485b Φιλύλλιος Αὔγῃ κτλ. 2. μέστ' Iacobs. Addit. Athen. 262 sq. cf. Dobr. Adv. II 334] μετ'. καὶ add. Iacobs. 3. δ' ὁμάδῳ K.] δ' ἄλλων. δὲ λάλων Iacobs. 4. γράδι' ἦν Dobraeus] γραϊδίων. sine necessitate Meinekius lacunam statuit (γραδίων πλήθη ου- | -- μεγάλαισιν κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" xml:id="kock-0494-aigeys-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0494_aigeys">
+              <lg>
+                <l n="1" xml:id="kock-0494-aigeys-6-l1" xml:lang="grc">σὺν τῷ βαθείας καὶ πυκνὰς</l>
+                <l n="2" xml:id="kock-0494-aigeys-6-l2" xml:lang="grc">ἕλκουσι τὰς ἀμύστιδας.</l>
+              </lg>
+              <note type="source">Schol. Eurip. Rhes. 419 ἄμυστιν· οἱ μὲν ποτηρίου εἶδος ὡς ἐν Αὔγῃ (sic Hermannus Opusc. V 189 pro αὐτῇ) σὺν τῷ κτλ., ἄλλοι δὲ ἐπὶ τῆς ἀπνευστὶ σπάσεως τάττουσι τὸ ὄνομα.</note>
+              <note type="apparatus">sine dubio posterior interpretatio etiam his versibus adhibenda. ad Euripidis Augen referebat Dindorfius, sed abhorrent a tragicorum consuetudine dimetri iambici; recte Nauckius Trag. fr. p. 347 'comici poetae' esse adnotavit. id unum dubium est sintne verba Philyllii an Eubuli, ceterum σὺν ᾧ Dindf., Σκυθῶν Fritzschius. Praeterea cf. fr. 22. Bergk. R. c. Att. 428.</note>
+            </div>
+          </div></body></text></TEI>

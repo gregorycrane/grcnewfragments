@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-alope-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΑΛΟΠΗ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.alope; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.alope.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.alope.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alope"><head>ΑΛΟΠΗ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-alope-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alope" sameAs="urn:cts:greekLit:tlg0006.alope.nauck1889grc1:110">
+            <note type="source">r. Stobæus LXXIX, 29.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐγὼ δ᾽, ὁ μὲν μέγιστον, ἄρξομαι λέγειν</l>
+              <l n="2" xml:lang="grc">ἐκ τοῦδε πρῶτον· πατρὶ πείθεσθαι χρεὼν</l>
+              <l n="3" xml:lang="grc">παῖδας νομίζειν τ᾿ αὐτὸ τοῦτ᾽ εἶναι δίκην.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-alope-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alope" sameAs="urn:cts:greekLit:tlg0006.alope.nauck1889grc1:109">
+            <note type="source">2. Etym. Μ. ν. ἠδέσθην. ρ. 420, 16.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐ μὴν σύ γ᾽ ἡμᾶς τοὺς τεκόντας ᾐδέσω.</l>
+            </lg>
+            <note type="commentary">Legebatur οὐ μὴ, quod correxit Porson. ad Phœn. 1638. et Advers. p. 34.—A Cercyone filiam increpitante dicta videntur.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-alope-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alope">
+            <note type="source">3. Stobæus LXXIV, 17.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τί δῆτα μοχθεῖν δεῖ γυναῖκειον γάμον</l>
+            </lg>
+          </div>
+        <div type="textpart" subtype="fragment" n="4" xml:id="fragment-alope-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alope" sameAs="urn:cts:greekLit:tlg0006.alope.nauck1889grc1:106">
+            <note type="source">4. Eustath. ad Il. ζ'. p. 656, 58. ad Od. 1. p. 1640, 60. Od. λ'. p. 1681, 41.</note>
+            <note type="commentary">Εὕρηταί που κῦμα καὶ κύημα, ὡς δηλοῖ καὶ Εὐριπίδης ἐν Κρεσφόντῃ, οὗ τὴν θυγατέρα γέμειν ἔφη κύματος θεοσπόρου· τοῦ ἐκ Ποσειδῶνος δηλαδή. Loco primo et tertio scriptum est γέμουσαν. Hinc fortasse elicias Euripidea:</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">-γέμουσαν κύματος θεοσπόρου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-alope-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alope" sameAs="urn:cts:greekLit:tlg0006.alope.nauck1889grc1:107">
+            <note type="source">5. Eustath. ad Od. $'. p. 1902, init.</note>
+            <note type="commentary">Σημείωσαι δὲ ὅτι Ὁμήρου εἰπόντος τὸ ‘μεμνήσεσθαι ὀΐομαι ἔν περ ὀνείρῳ,’ λαβὼν ἐκεῖθεν Εὐριπίδης ἀνάπαλιν ἔφη ἐν Κρεσφόντῃ ἐπὶ φίλου ἀμελοῦς (Ποσειδῶν δὲ ἦν ἐκεῖνος) τὸ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πλήσας δὲ νηδὺν οὐδ᾽ ὄναρ κατ᾽ εὐφρόνην</l>
+              <l n="2" xml:lang="grc">φίλοις ἔδειξεν αὑτόν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-alope-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alope" sameAs="urn:cts:greekLit:tlg0006.alope.nauck1889grc1:108">
+            <note type="source">6. Stobæus LXXIII, 12.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γυνὴ γυναικὶ σύμμαχος πέφυκέ πως.</l>
+            </lg>
+          </div>
+        <div type="textpart" subtype="fragment" n="7" xml:id="fragment-alope-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alope" sameAs="urn:cts:greekLit:tlg0006.alope.nauck1889grc1:105">
+            <note type="source">7. Ammon. de diff. voc. p. 137 (ν. τροχοί) ed. Valck.</note>
+            <note type="commentary">τρόχους βαρυτόνως λέγουσι τοὺς δρόμους. ἀναγινώσκομεν γὰρ ἐν ᾽Αλόπῃ Εὐριπίδου·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁρῶ μὲν ἀνδρῶν τόνδε γυμνάδα στόλον</l>
+              <l n="2" xml:lang="grc">στείχοντα θεωρὸν ἐκ τρόχων πεπαυμένον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-alope-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alope" sameAs="urn:cts:greekLit:tlg0006.alope.nauck1889grc1:113">
+            <note type="source">8. Phot. Ὁδῆσαι· τὸ ὠνήσασθαι. Εὐριπίδης ᾽Αλόπῃ καὶ Κύκλωπι (vs. 12. 98. 133.)</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-alope-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alope">
+            <note type="source">9. Hesych. ᾽Απρόσειλος· ὁ (scribe φ) οὐδεὶς προσειλεῖται, ἀλλ᾽ εὐθέως πίπτει· ἢ ἀκαυμάτιστος ἀπὸ τῆς εἶλης (corrige εἵλης). Εὐριπίδης ἀληπ. (sic.) Scribe ᾽Αλόπη. Cf. Bekk. An. Gr. p. 440, 32. Bachm. An. Gr. I, p. 139, 5. ἀπρόσειλος· ᾧ οὐδεὶς προσειλεῖται. Εὐριπίδης. Unde patet, de correctione ᾽Αλήτῃ, quæ quibusdam in mentem venit, non cogitandum esse. -Ποοσειλεῖν habet Eurip. Hel. 464, πρόσειλος Æsch. Prom. 460.</note>
+          </div>
+        </div></body></text></TEI>

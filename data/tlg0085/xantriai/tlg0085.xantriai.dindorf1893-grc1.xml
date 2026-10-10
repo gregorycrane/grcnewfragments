@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΞΑΝΤΡΙΑΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.xantriai; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.xantriai.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.xantriai.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai"><head>ΞΑΝΤΡΙΑΙ</head>
+          <pb n="602" facs="urn:hathi:iau.31858007086675:scan:610"/>
+          <div type="textpart" subtype="fragment" n="155" xml:id="frag_218fc99c74" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai" sameAs="urn:cts:greekLit:tlg0085.xantriai.nauck1889-grc1:169">
+            <note type="source">Photius p. 326, 19. et Suidas, Ὀκτώπουν: Κρατῖνος Θράτταις “Ὀκτώπουν ἀνεγείρεις” ἀντὶ τοῦ σκορπίον. παροιμία γάρ, Σκορπίον ὀκτώπουν ἀνεγείρεις. ἐν δὲ ταῖς Αἰσχύλου Ξαντρίαις ἡ Λύσσα ἐπιθειάζουσα ταῖς Βάκχαις φησὶν</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_218fc99c74-l1" xml:lang="grc">Ἐκ ποδῶν δ᾽ ἄνω</l>
+              <l n="2" xml:id="frag_218fc99c74-l2" xml:lang="grc">ὑπέρχεται σπαραγμὸς εἰς ἄκρον κάρα</l>
+              <l n="3" xml:id="frag_218fc99c74-l3" xml:lang="grc">κέντημα γλώσσης, σκορπίου βέλος λέγω.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="156" xml:id="frag_ff67ec385f" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai" sameAs="urn:cts:greekLit:tlg0085.xantriai.nauck1889-grc1:171">
+            <note type="source">Pollux X, 117. Τὰς μέντοι λαμπάδας καὶ κάμακας εἴρηκεν ἐν Ξαντρίαις Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_ff67ec385f-l1" xml:lang="grc">Κάμακες πεύκης οἱ πυρίφλεκτοι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="157" xml:id="frag_b8c0ddad0c" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai">
+            <note type="source">Æschylus Eumenid. v. 24.</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_b8c0ddad0c-l1" xml:lang="grc">Βρόμιος δ᾽ ἔχει τὸν χῶρον, οὐδ᾽ ἀμνημονῶ,</l>
+              <l n="2" xml:id="frag_b8c0ddad0c-l2" xml:lang="grc">ἐξ οὗτε Βάκχαις ἐστρατήγησεν θεὸς,</l>
+              <l n="3" xml:id="frag_b8c0ddad0c-l3" xml:lang="grc">λαγὼ δίκην Πενθεῖ καταρράψας μόρον.</l>
+            </lg>
+            <note type="commentary">ubi scholiasta, Νῦν φησιν ἐν Παρνασῷ εἶναι τὰ κατὰ Πενθέα· ἐν δὲ ταῖς Ξαντρίαις ἐν Κιθαιρῶνι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="158" xml:id="frag_09152bfe8f" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai" sameAs="urn:cts:greekLit:tlg0085.xantriai.nauck1889-grc1:170">
+            <note type="source">Galenus ad Hippocr. Epidem. vol. V. p. 455. ed. Bas. vol. IX. p. 385. Chart. Ἐπὶ δὲ τῶν ἀκτίνων αὐτῶν δοκεῖ χρῆσθαι τῷ τῆς πέμφιγος ὀνόματι Σοφοκλῆς· οὕτω καὶ Αἰσχύλος ἐν Ξαντρίαις</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_09152bfe8f-l1" xml:lang="grc">* Ἅς οὔτε πέμφιξ ἡλίου προσδέρκεται</l>
+              <l n="2" xml:id="frag_09152bfe8f-l2" xml:lang="grc">οὔτ᾽ ἀστερωπὸν ὄμμα Λητῴας κόρης.</l>
+            </lg>
+            <note type="source">Photius p. 409, 10. Πέμφιξ: πνοή. Αἰσχύλος ἐν Ξαντρίαις ἐπὶ τῶν ἀκτίνων.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="159" xml:id="frag_99f42b6621" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai" sameAs="urn:cts:greekLit:tlg0085.xantriai.nauck1889-grc1:168">
+            <note type="source">Apud Aristophanem in Ranis Æschylus inter Euripidis monodiarum particulas recitat v. 1385. (1357. ed. meae) Νύμφαι ὀρεσσίγονοι. ubi scholiasta, Ἐκ τῶν Ξαντριῶν Εὐριπίδου, φησὶν Ἀσκληπιάδης. εὖρε δὲ Ἀθήνησιν ἔν τινι τῶν διαθέντων. Νύμφαι ὀρεσιγόνιαι θεαῖσιν ἀγείρω Ἰνάχου Ἀργείου ὑπὸ ποταμοῦ παισὶ βιοδώροις. ἔοικε δὲ τὸ ὅλον ἐπιτηδεύειν ἀνυπότακτα. ἄλλως οὐδὲ παρ᾽ Αἰσχύλου ταῦτα ἥρμοζε λαμβάνεσθαι. Quibus Valckenarius in Diatribe p. 11. admovit Platonis locum de Republ. II. p. 381 d. Μηδὲ Πρωτέως καὶ Θέτιδος καταψευδέσθω μηδεὶς μηδ᾽ ἐν τραγῳδίαις μηδ᾽ ἐν τοῖς ἄλλοις ποιήμασιν εἰσαγέτω Ἥραν ἠλλοιωμένην ὡς ἱέρειαν ἀγείρουσαν Ἰνάχου Ἀργείου ποταμοῦ παισὶν βιοδώροις. cui nunc accessit Diogenes epistola quinta in Notices et Extraits des MSS. vol. V, 2. p. 241. Οἵτινες (tragici) Ἥραν τε τὴν Διὸς παράκοιτιν ἔφασαν τὴν ἱέρειαν μεταμορφωθεῖσαν τοιοῦτον βίου σχῆμα ἀναλαβεῖν, νύμφαις κρήναισιν (κρηναίαισιν Boissonadius) κυδραῖς θεαῖς ἀγείρουσαν Ἰνάχου Ἀργείαις ποταμοῦ παισὶν βιοδώροις. Valde diversae sunt criticorum de hoc fragmento opiniones, quas sciens praetereo. Solus partem veri vidit Valckenarius, qui quum Xantrias Euripidem scripsisse recte negasset, ex Æschyli fabul: hos versus sumptos esse suspicatus est, hoc etiam usus argumento, quod Plato in vicinia illius loci similia Æschyli peccata plura notaverit, nullum. Euripidis. Bene haec Valckenarius, nisi quod neque ostendit quomodo Aristophanes Æschylum sua ipsius verba deridentem potuerit introducere, et ex optimis hexametris malos fecit versus, fortasse non facturus, si Diogenis loco uti potuisset, et gravissimum sententiae suae testem, ad quem alii non magis attenderunt, neglexit, Pausaniam, qui non dubium est quin ad hunc ipsum Æschyli locum spectaverit VIII. 6, 6. Ὁ δὲ Ἴναχος ἐφ᾽ ὅσον μὲν πρόεισι κατὰ τὴν ὁδὸν τὴν διὰ τοῦ ὄρους, τοῦτό ἐστιν Ἀργείοις καὶ Μαντινεῦσιν ὅρος τῆς χώρας· ἀποστρέψας δὲ ἐκ τῆς ὁδοῦ τὸ ὕδωρ διὰ τῆς Ἀργείας ἤδη τὸ ἀπὸ τούτου κάτεισι, καὶ ἐπὶ τούτῳ τὸν Ἴναχον ἄλλοι τε καὶ Αἰσχύλος ποταμὸν καλοῦσιν Ἀργεῖον. Æschyli igitur versus fuerunt</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_99f42b6621-l1" xml:lang="grc">Νύμφαις κρηναίαις κυδραῖσι θεαῖσιν ἀγείρω,</l>
+              <l n="2" xml:id="frag_99f42b6621-l2" xml:lang="grc">Ἰνάχου Ἀργείου ποταμοῦ παισὶν βιοδώροις.</l>
+            </lg>
+            <note type="commentary">Euripidis autem est Νύμφαι ὀρεσσίγονοι, cujus verba integra, fortasse ex Æschyleis expressa, ab antiquo grammatico apposita nunc cum illis coaluerunt in scholio et corrupto et defecto. Ita etiam intelligitur quam originem mirum illud Νύμφαι ὀρεσιγόνιαι habeat, in quo syllabae Νύμφαι ὀρεσιγον ad Euripidis, proxima και θεαῖσιν ad Æschyli locum pertinent. Junonis quae partes in Æschyli fabula fuerint nescitur. Haec olim ab me scripta postmodum confirmata sunt cognita codicum Rav. et Ven. scriptura ἐκ τῶν Ξαντριῶν Αἰσχύλου.</note>
+          </div>
+        </div></body></text>
+</TEI>

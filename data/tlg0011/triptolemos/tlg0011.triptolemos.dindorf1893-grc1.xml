@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-triptolemos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΤΡΙΠΤΟΛΕΜΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.triptolemos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.triptolemos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.triptolemos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos"><head>ΤΡΙΠΤΟΛΕΜΟΣ</head><div type="textpart" subtype="fragment" n="527" xml:id="fragment-triptolemos-dindorf1893_grc1-527" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:541">
+            <note type="source">Dionysius Halic. Antiq. Ι, 12. Μαρτυρεῖ δε μου τῷ λόγῳ Σοφοκλῆς μὲν ὁ τραγῳδοποιὸς ἐν Τριπτολέμῳ δράματι. πεποίηται γὰρ αὐτῷ Δημήτηρ διδάσκουσα Τριπτόλεμον ὅσην χώραν ἀναγκασθήσεται σπείρων τοῖς δοθεῖσιν ὑπ᾽ αὐτῆς καρποῖς διεξελθεῖν. μνησθεῖσα δὲ τῆς ἑῴου πρῶτον Ἰταλίας, ἢ ἐστιν ἀπὸ ἄκρας Ἰαπυγίας, μέχρι πορθμοῦ Σικελικοῦ, καὶ μετὰ τοῦτο τῆς ἀντικρὺ ἁψαμένη Σικελίας, ἐπὶ τὴν ἑσπέριον Ἰταλίαν αὖθις ἀναστρέφει, καὶ τὰ μέγιστα τῶν οἰκούντων τὴν παράλιον ταύτην ἐθνῶν διεξέρχεται, τὴν ἀρχὴν ἀπὸ τῆς Οἰνώτρων οἰκήσεως ποιησαμένη. ἀπόχρη δὲ ταῦτα μόνα λεχθέντα τῶν ἰαμβείων, ἐν οἷς φησι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὰ δ᾽ ἐξόπισθε, χειρὸς εἰς τὰ δεξιὰ</l>
+              <l n="2" xml:lang="grc">Οἰνωτρία τε πᾶσα, καὶ Τυρσηνικὸς</l>
+              <l n="3" xml:lang="grc">κόλπος, Λιγυστική τε γῆ σε δέξεται.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="528" xml:id="fragment-triptolemos-dindorf1893_grc1-528" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:547">
+            <note type="source">Herodianus περὶ μονήρους λέξεως ρ. 9, 29. Χαρναβῶν Σοφοκλῆς Τριπτολέμῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καὶ Χαρναβῶντος, ὃς Γετῶν ἄρχει τανῦν.</l>
+            </lg>
+            <note type="commentary">De hoc versu dixit Lobeckius Aglaoph. p. 215. 1351.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="529" xml:id="fragment-triptolemos-dindorf1893_grc1-529" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:543">
+            <note type="source">Plinius libro XVIII, 12, 1. p. 107. edit. Hard. Sophocles poeta in fabula Triptolemo frumentum Italicum ante cuncta laudavit, ad verbum translata sententia</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Et fortunatam Italiam frumento canere candido.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="530" xml:id="fragment-triptolemos-dindorf1893_grc1-530" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos">
+            <note type="source">Sophoclis Triptolemi meminit Strabo I.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="531" xml:id="fragment-triptolemos-dindorf1893_grc1-531" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:549">
+            <note type="source">Athenæus II, p. 67 c. Μνημονεύει Σοφοκλῆς Τριπτολέμῳ τοῦ ταριχηροῦ γάρου. Versus integer apud Pollucem VI, 65.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐδ᾽ ἡ τάλαινα δοῦσα ταριχηροῦ γάρου.</l>
+            </lg>
+            <note type="commentary">Herodianus Piersoni p. 437. Ὁ γάρος ἀρσενικῶς· Σοφοκλῆς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="532" xml:id="fragment-triptolemos-dindorf1893_grc1-532" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos">
+            <note type="source">Athenæus III, p. 110 e. Ὀρίνδου δ᾽ ἄρτου μέμνηται Σοφοκλῆς ἐν Τριπτολέμῳ, ἤτοι τοῦ ἐξ ὀρύζης γινομένου, ἢ ἀπὸ τοῦ ἐν Αἰθιοπίᾳ γιγνομένου σπέρματος, ὅ ἐστιν ὅμοιον σησάμῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="533" xml:id="fragment-triptolemos-dindorf1893_grc1-533" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:553">
+            <note type="source">Athenæus X, p. 447 b. Τὸν δὲ κρίθινον οἶνον καὶ βρῦτον τινὲς καλοῦσιν, ὡς Σοφοκλῆς ἐν Τριπτολέμῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Βρῦτον δὲ τὸν χερσαῖον οὐ δυεῖν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="534" xml:id="fragment-triptolemos-dindorf1893_grc1-534" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:551">
+            <note type="source">Harpocratio, Μελίνη· ὀσπρίου ἐστὶ σπέρμα, καὶ ἀρσενικῶς λέγουσι· θηλυκῶς δὲ Σοφ. Τριπτολέμῳ</note>
+            <quote>Κνήμη μελίνης.</quote>
+            <note type="commentary">Conf. fr. 909.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="535" xml:id="fragment-triptolemos-dindorf1893_grc1-535" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:540">
+            <note type="source">Scholiasta Pindari Olymp. XI, 1. Σοφοκλῆς ἐν Τριπτολέμῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Θὲς δ᾽ ἐν φρενὸς δέλτοισι τοὺς ἐμοὺς λόγους.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="536" xml:id="fragment-triptolemos-dindorf1893_grc1-536" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:545">
+            <note type="source">Schol. Euripidis Troad. v. 218. Σοφοκλῆς δὲ ἐπὶ τῶν καιρῶν Τριπτολέμου οἰκισθῆναι (φησὶ) τὴν Καρχηδόνα, ἐν οἷς φησι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καρχηδόνος δὲ κρασπα τιν ἀσπάζομαι.</l>
+            </lg>
+            <note type="commentary">Ita codex.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="537" xml:id="fragment-triptolemos-dindorf1893_grc1-537" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.pearson1917-grc1:599">
+            <note type="source">Scholiasta Sophoclis Edip. Col. 504. Χρῆσται· χρείη ἔσται, κατὰ συναλιφὴν, χρήσται, ἀντὶ τοῦ χρείη ἔσται. δηλοῦται δὲ ταυτὸν τὸ δεήσει. καὶ ἐν Τριπτολέμῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Χρὴ ᾽σται δέ σ᾽ ἐνθένδ᾽ αὖτις.</l>
+            </lg>
+            <note type="commentary">V. annot. ad Edip. Col. 504.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="538" xml:id="fragment-triptolemos-dindorf1893_grc1-538" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:539">
+            <note type="source">Etymolog. M. p. 395, 11. Πλίσσεσθαι τὸ βάδην διαβαίνειν, καὶ πλίγμα τὸ διάστημα τῶν ποδῶν. Σ. Τριπτολέμῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δράκοντα θαιρὸν ἀμφιπλὶξ εἰληφότες.</l>
+            </lg>
+            <note type="commentary">περιβάδην. Vulgo δ᾽ αἶρον. ἀμφιπλὶξ ex Triptolemo memorant schol. Aristoph. Acharn. v. 217. Suidas in περιβάδην et πλίξ, Gregor. Corinth. p. 548. ubi Kœnius "Apud Etymolog. MS. Leidens. σοφοκλῆς, οἷον. δράκοντα δ᾽ αἶρον ἀμφιπλὶξ εἰληφότε, pro edito εἰληφότες. Illud propius abest a Pollucis lectione II, 172. θαιρὸν ἀμφιπλὶξ εἰληφότα. — Verior Sophoclis lectio est apud Ruf. Ephes. de partib. homin. p. 32. δράκοντε θαιρὸν ἀ. εἰληφότε. Hesychius, Θαιρός· ὁ διήκων ἀπὸ τοῦ ἄνω μέρους ἕως κάτω στροφεὺς τῆς θύρας, ἢ ἄξων. Σ. Τριπτολέμῳ. Eustathius p. 914, 33. Ἐν δὲ ῥητορικῷ λεξικῷ εὕρηται καὶ ὅτι θαιρὸς ὁ ἄξων παρὰ Σοφοκλεῖ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="539" xml:id="fragment-triptolemos-dindorf1893_grc1-539" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:548">
+            <note type="source">Hesychius, Δαίς· Σοφοκλῆς</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἦλθεν δὲ δαὶς θάλεια πρεσβίστη θεῶν.</l>
+            </lg>
+            <note type="commentary">ἡ δι᾽ ἐράνων εὐωχία· ἔνιοι δὲ τὰς Μούσας. Τριπτολέμῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="540" xml:id="fragment-triptolemos-dindorf1893_grc1-540" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:550">
+            <note type="source">Hesychius, Ἄμαλλα· δράγματα, δέσμη τῶν ἀσταχύων. Σ. Τριπτολέμῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="541" xml:id="fragment-triptolemos-dindorf1893_grc1-541" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:554">
+            <note type="source">Pollux X, 79. Τὴν δὲ ἀπύθμενον κύλικα ἐν Τριπτολέμῳ Σ. ἀπυνδάκωτον ὠνόμασεν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀπυνδάκωτος οὐ τραπεζοῦται κύλιξ.</l>
+            </lg>
+            <note type="commentary">Sine poetæ nomine attulit Demetrius περὶ ἑρμηνείας cap. 114. et spectant ad hunc versum Hesychius in ἀπυνδάκωτος et Suidas in πύνδαξ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="542" xml:id="fragment-triptolemos-dindorf1893_grc1-542" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:556">
+            <note type="source">Hesychius, Ἀφράδμων· ἀσύνετος, ἀμαθής. Σ. Τριπτολέμῳ. Grammaticus Bekkeri p. 472, 13. Ἀφράσμων· ἀσύνετος. Σοφοκλῆς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="543" xml:id="fragment-triptolemos-dindorf1893_grc1-543" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:555">
+            <note type="source">Antiatticista p. 92, 1. Εἰς ὀρθὸν φρονεῖν· ἀντὶ τοῦ καλῶς φρονεῖν. Σ. Τριπτολέμῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="544" xml:id="fragment-triptolemos-dindorf1893_grc1-544" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos">
+            <note type="source">Hesychius, Ἕλκη· λῦπαι. Σ. Τριπτολέμῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="545" xml:id="fragment-triptolemos-dindorf1893_grc1-545" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:559">
+            <note type="source">Antiatticista p. 97, 33. Ζευγηλάτης· Σ. Τριπτολέμῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="546" xml:id="fragment-triptolemos-dindorf1893_grc1-546" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos">
+            <note type="source">Javva: vide fragm. 54.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="547" xml:id="fragment-triptolemos-dindorf1893_grc1-547" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_triptolemos" sameAs="urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1:544">
+            <note type="source">Hesychius, Ἰλλυρὶς γονή· ἀντὶ τοῦ Ἰλλυρὶς γενεά. γράφεται δὲ καὶ γυνή. ὁ δὲ Καλλίστρατος γύη ἀντὶ τοῦ γῆ. χρῶνται γὰρ οὕτως. Σ. Τριπτολέμῳ.</note>
+          </div>
+        </div></body></text></TEI>

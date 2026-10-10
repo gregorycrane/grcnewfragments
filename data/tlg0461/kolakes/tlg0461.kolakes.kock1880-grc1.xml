@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUPOLIS, ΚΟΛΑΚΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Eupolis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0461.kolakes.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0461.kolakes.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0461.kolakes.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes"><head>ΚΟΛΑΚΕΣ</head><div type="textpart" subtype="fragment" n="146_a_b" xml:id="kock-0461-kolakes-146_a_b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-146_a_b-l1" xml:lang="grc">ἔνδον μέν ἐστι Πρωταγόρας ὁ Τήιος</l>
+                <l n="2" xml:id="kock-0461-kolakes-146_a_b-l2" xml:lang="grc">*</l>
+                <l n="3" xml:id="kock-0461-kolakes-146_a_b-l3" xml:lang="grc">*</l>
+                <l n="4" xml:id="kock-0461-kolakes-146_a_b-l4" xml:lang="grc">*</l>
+                <l n="5" xml:id="kock-0461-kolakes-146_a_b-l5" xml:lang="grc">ὃς ἀλαζονεύεται μὲν ἁλιτήριος</l>
+                <l n="6" xml:id="kock-0461-kolakes-146_a_b-l6" xml:lang="grc">περὶ τῶν μετεώρων, τὰ δὲ χαμᾶθεν ἐσθίει.</l>
+              </lg>
+              <note type="apparatus">
+                <p>v. 1 Diogenes Laert. 9, 50 Πρωταγόρας, Ἀβδηρίτης, καθά φησιν Ἡρακλείδης . . . ὡς δ' Εὔπολις ἐν Κόλαξι, Τήιος· φησὶ γάρ ἔνδοθι — Τήιος. κτλ. v. 2. 3 Eustathius 1547, 53 sine fabulae nomine. cf. Athenaeus 5, 218 c. Achilles Tat. Isag. p. 121 (ex Aristophane) ὃς τἀφανῆ μεριμνᾷ τὰ δὲ χαμᾶθεν ἐσθίει. cf. Meinek. I 118. 1. ἔνδον Cobet] ἔνδοθι, quod comicis ignotum. ἁλιτήριος — χαμᾶθεν Porsonus Adv. 75] ἀλιτήριος — χθαμᾶθεν. coniunxit versum 1 cum reliquis Porsonus, dissentiente Toeppelio p. 39. cf. Fritzsch. ibid. p. 70. ordine perpetuo non videntur compositi fuisse, at ex eadem fabula, fortasse ex eadem fabulae parte excerptos esse adparet. nam pronomen ὅς ad Protagoram pertinere Eustathii testimonio constat: ἐμφαίνειν Εὔπολις λέγεται τὸν φυσικὸν Πρωταγόραν διακωμῳδῶν ἐν τῷ ὃς — ἐσθίει. voce ἀλιτήριος Eupolis nefariam Protagorae de deis doctrinam reprehendere videtur. Diog. L. 9, 51 περὶ μὲν θεῶν οὐκ ἔχω εἰδέναι, οὔθ' ὡς εἰσὶν οὔθ' ὡς οὐκ εἰσίν. Meinekius haec aliquem loqui statuit, qui dum Callias cum adulatoribus et scortis intus epulentur foras prodeat et quid Callias cum sociis agat narret. Teius dicitur Protagoras, quia Abdera colonia est Teiorum. cf. Aristoph. Nub. 333. 360. fr. 672, ex Achille Tatio excerptum.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="147" xml:id="kock-0461-kolakes-147" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-147-l1" xml:lang="grc">πίνειν γὰρ αὐτὸν Πρωταγόρας ἐκέλευ', ἵνα</l>
+                <l n="2" xml:id="kock-0461-kolakes-147-l2" xml:lang="grc">πρὸ τοῦ κυνὸς τὸν πνεύμον' ἔκκλυστον φορῇ.</l>
+              </lg>
+              <note type="apparatus">
+                <p>Plutarchus Mor. 699 a Εὔπολιν μὲν γάρ, εἰ βούλει, πάρες ἐν Κόλαξιν εἰπόντα· πίνειν κτλ. Athenaeus 1, 22 f Εὔπολίς τε τὸν Καλλίαν φησὶν ἀναγκάζεσθαι ὑπὸ Πρωταγόρου πίνειν, ἵνα κτλ. cf. Macrobius Saturn. 7, 15. Plutarchus Mor. 1047 d τῶν ποιητῶν Εὐριπίδην, Ἀλκαῖον, Εὔπολιν, Ἐρατοσθένην, λέγοντας ὅτι τὸ ποτὸν διὰ τοῦ πνεύμονος διέξεισιν. 1. αὐτὸν Grotius Exc. 501] ὁ Plut. 2. ἔκκλυστον Reiskius] ἔκλυρον Plut. ἔκλυτον Athen. ἔκπλυτον Fritzschius apud Toeppel. p. 72. cf. Alcaei lyr. fr. 39 Bergk. ad eandem scaenam videtur pertinere cum fr. 146. 148. scilicet Protagoras in convivio Calliae symposiarchus erat. πνεύμων an πλεύμων Atticorum consuetudini conveniat dissentiunt grammatici. cf. Etym. m. 677,</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="151" xml:id="kock-0461-kolakes-151" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-151-l1" xml:lang="grc">ἄκουε δὴ σκεύη τὰ κατὰ τὴν οἰκίαν.</l>
+                <l n="2" xml:id="kock-0461-kolakes-151-l2" xml:lang="grc">παραπλήσι᾽ ὄντα σοι γέγραπται τἄπιπλα.</l>
+              </lg>
+              <note type="source">Pollux 10, 10 αὐτὰ δὲ τὰ σκεύη καλοῖτ᾽ ἂν ἔπιπλα, ἤγουν ἡ κούφη κτῆσις, τὰ ἐπιπολῆς ὄντα τῶν κτημάτων. ὁ γοῦν Εὔπολις ἐν τοῖς Κόλαξι προειπών, ἄκουε δὴ σκεύη τὰ κατ᾽ οἰκίαν, ἐπήγαγε παραπλήσι᾽ ὄντα σοι γέγραπται τἄπιπλα. Phrynich. Epit. 334 ἐνδυμενία· ἀμαθῶς· δέον διττῶς λέγειν, ὡς Εὔπολις Κόλαξι, σκεύη τὰ κατὰ τὴν οἰκίαν καὶ ἔπιπλα.</note>
+              <note type="apparatus">1. κατὰ τὴν Hanovius Exerc. crit. 141] κατ᾽. 2. ita Fritzschius] παραπλήσιον τεσσυγέγραπται τοῖς τὰ ἔπιπλα F. perperam Hanovius παραπλήσιον Pollucis esse iudicavit. apud Toeppelium p. 69 Fritzschius ὄντως pro ὄντα. recensetur scriptoque consignatur Calliae supellex domestica, quam nuper demum post patris mortem acceperat. priorem versum scribae, alterum Calliae adsignat Fritzschius. mihi non necessario videntur cohaerere. παραπλήσια totidem numero interpretatur Toeppelius, cuius significationis exemplum ex Atticis scriptoribus petitum mihi quidem non praesto est. ceterum cf. Fritzsch. Q. Arist. 55. Ran. p. 217.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="152_153" xml:id="kock-0461-kolakes-152_153" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-152_153-l1" xml:lang="grc">ἵππον κέλητ᾽ ἀσκοῦντα θές.</l>
+                <l n="2" xml:id="kock-0461-kolakes-152_153-l2" xml:lang="grc">θὲς νῦν ἀγροὺς καὶ πρόβατα καὶ βοῦς.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 17, 29 ἀσκεῖν καὶ ἀσκηταί, ἀσκητικῶς· τὸ ἀγωνιστικῆς (ἀγωνιστικῶς cod.) ἐπιμελείας τυγχάνειν ἀσκεῖν ἐστίν. Εὔπολις· ἵππον — θές. Bekker. Anecd. 1196 σπανία ἐστὶν ἡ χρήσις τῆς βοὺς εὐθείας τῶν πληθυντικῶν, μᾶλλον δὲ οἱ βόες εὕρηται. ἐπὶ δὲ τῆς ὁμοφωνούσης αὐτῇ αἰτιατικῆς, λέγω δὲ τῆς τὰς βοῦς, πλατεῖά ἐστιν ἡ χρῆσις, ὡς ἐν Κόλαξιν Εὐπόλιδος· θὲς — βοῦς. cf. Herodian. II 336, 6. 706, 29 Lentz. Aristoph. Nub. 28.</note>
+              <note type="apparatus">ad eandem eiusdem fabulae scaenam haec pertinere intellexit Runkelius, eum quem supra secuti sumus versuum ordinem esse debere, si continuo haec fuerint coniuncta, Fritzschius Q. Arist. 202 adn. 31, conl. Eq. 21. 22. 24. Ran. 286. 7. Eupol. 279. post βοῦς Meinekius supplet Β. ἣν ἰδού, vel λέγ᾽ ἕτερον, ut sint eius qui quae alter dictat scripto consignat. cf. fr. 149. pertinent haec quoque ad eam scaenam, in qua Callias relictam sibi ab Hipponico hereditatem adit. de ἄθλων θέσει in adulationis certamine cogitat Fritzschius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="154" xml:id="kock-0461-kolakes-154" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-154-l1" xml:lang="grc">ἐκεῖνος ἦν φειδωλός, ὃς ἐπὶ τοῦ βίου</l>
+                <l n="2" xml:id="kock-0461-kolakes-154-l2" xml:lang="grc">πρὸ τοῦ πολέμου μὲν τριχίδας ὠψώνησ᾽ ἅπαξ,</l>
+                <l n="3" xml:id="kock-0461-kolakes-154-l3" xml:lang="grc">ὅτε τὰν Σάμῳ δ᾽ ἦν, ἡμιωβολίου κρέα.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="155" xml:id="kock-0461-kolakes-155" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-155-l1" xml:lang="grc">φοροῦσιν ἁρπάζουσιν ἐκ τῆς οἰκίας</l>
+                <l n="2" xml:id="kock-0461-kolakes-155-l2" xml:lang="grc">τὸ χρυσίον, τἀργύρια πορθεῖται.</l>
+              </lg>
+              <note type="source">Pollux 9, 90 τἀργύρια γὰρ ἐπὶ τοῦ ἀργυρίου σπανίως ἄν τις εὕροι παρ᾽ αὐτοῖς (τοῖς Ἀττικοῖς). ἐγὼ δ᾽ εὗρον ἐν ταῖς Νήσοις Ἀριστοφάνους, εἰ μὴ ὑποπτεύεται τὸ δρᾶμα ὡς Ἀριστοφάνους οὐ γνήσιον. ἀλλ᾽ οὔτι γε καὶ οἱ Κόλακες Εὐπόλιδος, ἐν οἷς εἶπε κτλ.</note>
+              <note type="apparatus">ἀργύρια sunt vasa argentea (vulgo ἀργυρώματα), quibus parasiti Calliam spoliant. perperam Herwerdenus Obs. crit. 24 ἁρπάζουσιν pro interpretamento habet.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="156" xml:id="kock-0461-kolakes-156" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-156-l1" xml:lang="grc">καὶ τὸν Κέκροπα τἄνωθεν ἀνδρός φασ᾽ ἔχειν</l>
+                <l n="2" xml:id="kock-0461-kolakes-156-l2" xml:lang="grc">μέχρι τῶν κοχωνῶν, τὰ δὲ κάτωθεν θυννίδος.</l>
+              </lg>
+              <note type="apparatus">Daremberg. Notices p. 215, ubi falso a grammatico Baptis tribuitur. cf. quae adnotavimus ad fr. 77. Erotian. 20, 4 Klein. τἄνωθεν ἀνδρός φασ᾽ Nauckius apud Meinek. V p. LXXIX et Fritzschius De com. gr. fr. 6] φασιν ἄνωθεν ἀνδρὸς ἔχειν. θυννίδος Daremb.] θυμνίδος. Goettling. Ind. Ien. hib. 1853 p. 5 καὶ Κέκροπά φασ᾽ ἄνωθεν ἀνδρὸς σῶμ᾽ ἔχειν — τὰ δὲ κάτωθεν θυννιδοῦ vel θυννιδῶν. ‘nam Athenis etiamnum superstes est statua Cecropis desinentis in duos pisces’. cf. Archaeol. Zeit. N. F. V (1873) 55.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="157" xml:id="kock-0461-kolakes-157" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-157-l1" xml:lang="grc">τουτὶ λαβὼν τὸ κόρημα τὴν αὐλὴν κόρει.</l>
+              </lg>
+              <note type="source">Pollux 10, 28 καὶ τὸ μὲν σκεῦος (κόρημα) καὶ ῥῆμα (κορεῖν) ὑπὸ Εὐπόλιδος εἴρηται ἐν τοῖς Κόλαξιν κτλ. cf. Aristoph. Pac. 59. Eupol. 228, 4.</note>
+              <note type="apparatus">ducta videntur ex ea fabulae parte, in qua aedes Calliae excipiendis hospitibus adparabantur (Mein.).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="158" xml:id="kock-0461-kolakes-158" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-158-l1" xml:lang="grc">Ἀλκιβιάδης ἐκ τῶν γυναικῶν ἐξίτω. Β. τί ληρεῖς;</l>
+                <l n="2" xml:id="kock-0461-kolakes-158-l2" xml:lang="grc">οὐκ οἴκαδ᾽ ἐλθὼν τὴν σεαυτοῦ γυμνάσεις δάμαρτα;</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="159" xml:id="kock-0461-kolakes-159" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg type="verse">
+                <l n="1" xml:id="kock-0461-kolakes-159-l1" xml:lang="grc">ἀλλὰ δίαιταν ἣν ἔχουσ᾽ οἱ κόλακες πρὸς ὑμᾶς</l>
+                <l n="2" xml:id="kock-0461-kolakes-159-l2" xml:lang="grc">λέξομεν· ἀλλ᾽ ἀκούσαθ᾽ ὡς ἐσμὲν ἅπαντα κομψοὶ</l>
+                <l n="3" xml:id="kock-0461-kolakes-159-l3" xml:lang="grc">ἄνδρες· ὅτοισι πρῶτα μὲν παῖς ἀκόλουθός ἐστιν</l>
+                <l n="4" xml:id="kock-0461-kolakes-159-l4" xml:lang="grc">ἀλλότριος τὰ πολλά, μικρὸν δέ τι κἀμὸν αὐτοῦ.</l>
+                <l n="5" xml:id="kock-0461-kolakes-159-l5" xml:lang="grc">ἱματίω δέ μοι δύ᾽ ἐστὸν χαρίεντε τούτω,</l>
+                <l n="6" xml:id="kock-0461-kolakes-159-l6" xml:lang="grc">οἷν μεταλαμβάνων ἀεὶ θάτερον ἐξελαύνω</l>
+                <l n="7" xml:id="kock-0461-kolakes-159-l7" xml:lang="grc">εἰς ἀγοράν. ἐκεῖ δ᾽ ἐπειδὰν κατίδω τιν᾽ ἄνδρα</l>
+                <l n="8" xml:id="kock-0461-kolakes-159-l8" xml:lang="grc">ἠλίθιον, πλουτοῦντα δ᾽, εὐθὺς περὶ τοῦτον εἰμί.</l>
+                <l n="9" xml:id="kock-0461-kolakes-159-l9" xml:lang="grc">κἄν τι τύχῃ λέγων ὁ πλούταξ, πάνυ τοῦτ᾽ ἐπαινῶ,</l>
+                <l n="10" xml:id="kock-0461-kolakes-159-l10" xml:lang="grc">καὶ καταπλήττομαι δοκῶν τοῖσι λόγοισι χαίρειν.</l>
+                <l n="11" xml:id="kock-0461-kolakes-159-l11" xml:lang="grc">εἶτ᾽ ἐπὶ δεῖπνον ἐρχόμεσθ᾽ ἄλλυδις ἄλλος ἡμῶν</l>
+                <l n="12" xml:id="kock-0461-kolakes-159-l12" xml:lang="grc">μᾶζαν ἐπ᾽ ἀλλόφυλον, οὗ δεῖ χαρίεντα πολλὰ</l>
+                <l n="13" xml:id="kock-0461-kolakes-159-l13" xml:lang="grc">τὸν κόλακ᾽ εὐθέως λέγειν, ἢ ᾽κφέρεται θύραζε.</l>
+                <l n="14" xml:id="kock-0461-kolakes-159-l14" xml:lang="grc">οἶδα δ᾽ Ἀκέστορ᾽ αὐτὸ τὸν στιγματίαν παθόντα·</l>
+                <l n="15" xml:id="kock-0461-kolakes-159-l15" xml:lang="grc">σκῶμμα γὰρ εἰπ᾽ ἀσελγές, εἶτ᾽ αὐτὸν ὁ παῖς θύραζε</l>
+                <l n="16" xml:id="kock-0461-kolakes-159-l16" xml:lang="grc">ἐξαγαγὼν ἔχοντα κλοιὸν παρέδωκεν Οἰνεῖ.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 6, 236 e οἱ δ᾽ ἀρχαῖοι ποιηταὶ τοὺς παρασίτους κόλακας ἐκάλουν, ἀφ᾽ ὧν καὶ Εὔπολις τῷ δράματι τὴν ἐπιγραφὴν ἐποιήσατο, τὸν χορὸν τῶν Κολάκων ποιήσας τάδε λέγοντα κτλ. 9. Pollux 3, 109 ὁ δ᾽ Εὐπόλιδος πλούταξ πέπαικται. cf. Eustath. 1091, 57.</p>
+              </note>
+              <note type="apparatus">
+                <p>2. ἅπαντα Hermannus] ἅπαντες. 3. ὅτοισι Porsonus apud Gaisford. Heph.] τοῖσι. 4. κἀμὸν Hermannus] κάμον. Bergkius καμός. τὸ κάμνον Porsonus et Cobet. 5. τούτω, οἷν Porsonus] τούτοιν. 7. τιν᾽ Dindorf.] τι οὖν Α. 8. εἰμί Grotius] εἶμι. 9. πλούταξ] πλοῦταξ Α. 13. εὐθέως Grotius Excerpt. 501] εὐθύς. ᾽κφέρεται Bergkius] φέρεται. 15. εἶπ᾽ ἀσελγές Porsonus] εἴπας ἔλεγες Α. θύραζε Grotius] θύραζ᾽. 16. κλοιόν] κλῳὸν Meinek. cf. Eur. Cycl. 235. Aristoph. Vesp. 897. Bekker. Anecd. 49, 5. Οἰνεῖ] κοινῷ Bergk. Comment. crit. I 28.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="160" xml:id="kock-0461-kolakes-160" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-160-l1" xml:lang="grc">φημὶ δὲ βροτοῖσι πολὺ πλεῖστα παρέχειν ἐγὼ</l>
+                <l n="2" xml:id="kock-0461-kolakes-160-l2" xml:lang="grc">καὶ πολὺ μέγιστ᾽ ἀγαθά. ταῦτα δ᾽ ἀποδείξομεν.</l>
+              </lg>
+              <note type="source">Hephaestio 13, 4 κέχρηται δὲ αὐτῷ (τετραμέτρῳ παιωνικῷ) . . . καὶ Εὔπολις ἐν Κόλαξι κτλ.</note>
+              <note type="apparatus">de se haec Eupolin dicere monet Berg-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="161" xml:id="kock-0461-kolakes-161" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-161-l1" xml:lang="grc">παρὰ τῷδε Καλλίᾳ πολλὴ θυμηδία,</l>
+                <l n="2" xml:id="kock-0461-kolakes-161-l2" xml:lang="grc">ἵνα πάρα μὲν κάραβοι καὶ βατίδες καὶ λαγῴ,</l>
+                <l n="3" xml:id="kock-0461-kolakes-161-l3" xml:lang="grc">καὶ γυναῖκες εἱλίποδες.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 7, 286 b Εὔπολις δ’ ἐν Κόλαξι παρὰ κτλ. 9, 400 a λαγῲ παρ’ Εὐπόλιδι ἐν Κόλαξιν· ἵνα κτλ. Gramm. August. Hermann. De emend. r. gr. gr. p. 320 καὶ τὸν λαγὸν λαγὼν φασίν. καὶ Εὔπολις· βατίδες κτλ. Eustathius 1534, 15 οἱ λαγῴ κατὰ Εὔπολιν, οἷον βατίδες κτλ. Pausan. apud Eustathium 1394, 40 γυναῖκας εἰλίποδας διὰ τὴν ἔνδεσιν (εἴλησιν) τῶν μηρῶν. Suidas μυσάχνη· Εὔπολις εἰλίποδα, ἐκ τῆς εἰλήσεως τῶν ποδῶν κατὰ τὴν μῖξιν. Hesych. γυναῖκες εἰλίποδες· διὰ τὴν δέσιν τῶν σκελῶν καὶ πλοκὴν τὴν κατὰ τὴν συνουσίαν. Cramer. Anecd. Par. IIII 245, 26 Εὔπολις· βλιτίδες καὶ λαγὼ καὶ γυναῖκες εἰλίποδες.</p>
+              </note>
+              <note type="apparatus">
+                <p>2. ἵνα] κινὰ Β κίνα Ρ πάρα Casaub.] παρά. — versus sunt Eupolidei. Hermann. Doctr. metr. 582 παρὰ τῷδε, Καλλίᾳ, πολλὴ δὴ θυμηδία. Dindorfius vocem Καλλίᾳ ut glossema eiciens * * παρὰ τῷδε πολλὴ θυμηδία. Dobraeus Addend. Aristoph. 121 ἵνα πάρα μὲν καὶ βατίδες καὶ λαγὼ καὶ κάραβοι. Fritzschius apud Toeppelium p. 67 παρὰ δὲ τῷ γε Καλλιάδου πολλὴ δὴ θυμηδία, | ἵναπερ (ἵνα παρ Meinek. ed. min. IX et Fritzsch. Fragm. Eup. 10) ἡμῖν καὶ βατίδες καὶ λαγὼ καὶ κάραβοι | κτλ. παρὰ τῷ Καλλιάδου nihil aliud esse interpretatur quam παρὰ τῷ Καλλίᾳ: Eupolin enim Calliae patrem finxisse Calliadem. non credo. Calliades verum nomen est Plat. Alcib. I 119 a. Phot. θυμηδία· τέρψις, τρυφή, εὐφρασία. εἱλίποδες, quo de bubus usus est Homerus epitheto, ad mulieres obscaene detorsit Eupolis. loquuntur, in parabasi ut videntur quae proprie dicitur, parasiti quasi quidam ὀψοφάγοι, βατιδοσκόποι, ἰχθυολῦμαι (Aristoph. Pac. 810).</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="162" xml:id="kock-0461-kolakes-162" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-162-l1" xml:lang="grc">οὐ πῦρ οὐδὲ σίδηρος</l>
+                <l n="2" xml:id="kock-0461-kolakes-162-l2" xml:lang="grc">οὐδὲ χαλκὸς ἀπείργει</l>
+                <l n="3" xml:id="kock-0461-kolakes-162-l3" xml:lang="grc">μὴ φοιτᾶν ἐπὶ δεῖπνον.</l>
+              </lg>
+              <note type="source">
+                <p>Plutarchus Mor. 778 e ὥσπερ οὖν τοὺς Καλλίου κωμῳδουμένους κόλακας λέγουσιν οὐ πῦρ, οὐ σίδηρος, οὐδὲ χαλκὸς εἴργει μὴ φοιτᾶν ἐπὶ δεῖπνον, κατὰ τὸν Εὔπολιν. idem 50 d οὐδὲ τοὺς ἀμφὶ πλουσίαν τράπεζαν ἐγκυκλουμένους, οὓς οὐ πῦρ, οὐ σίδαρος, οὐδὲ χαλκὸς εἴργει μὴ φοιτᾶν ἐπὶ δεῖπνον. correxit Meinekius. ἂν εἴργοι Toeppelius. versus sunt Pherecratei. cf. Cratet. 33. Pherecr. 79. de proverbiali dicendi genere Meinekius confert Hor. Serm. 1, 1, 39. Propert.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="163" xml:id="kock-0461-kolakes-163" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-163-l1" xml:lang="grc">ὃς χαρίτων μὲν ὄζει,</l>
+                <l n="2" xml:id="kock-0461-kolakes-163-l2" xml:lang="grc">καλλαβίδας δὲ βαίνει,</l>
+                <l n="3" xml:id="kock-0461-kolakes-163-l3" xml:lang="grc">σησαμίδας δὲ χέζει,</l>
+                <l n="4" xml:id="kock-0461-kolakes-163-l4" xml:lang="grc">μῆλα δὲ χρέμπτεται.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 14, 646f σησαμίδες ἐκ μέλιτος καὶ σησάμων πεφρυγμένων καὶ ἐλαίου σφαιροειδῆ πέμματα· Εὔπολις Κόλαξιν κτλ. idem 14, 630a καλλαβίδων δ' Εὔπολις ἐν Κόλαξι· καλλαβίδας — χέζει (κολλαβίδας L).</p>
+              </note>
+              <note type="apparatus">
+                <p>1. μὲν ὄζει Erfurdtus Observ. 470] με νομίζει A. μὲν ὀμιχεῖ Bas. L., quod retinet Hermannus. cf. Pherecr. 131. Phot. καλλαβίδες (in cod. sine accentu). τὸ διαβαίνειν ἀσχημόνως καὶ διέλκειν τὰ ἰσχία ταῖς χερσίν. Athen. 14, 629f σχήματα δ' ἐστὶν ὀρχήσεως . . . καλαθισμός, καλλαβίδες. Hesych. καλαβίς· τὸ περισπᾶν τὰ ἰσχία. fuit igitur effeminata saltatio. — significari videtur Callias ipse. dimetri sunt choriamb. catal. (Hermann. Doctr. metr. 424 sq. 481. 576), ex carmine antistrophico excerpti. offendit catalexis in ultimo, quocirca Fritzschius (Toeppel. p. 26) χρέμπτεται δέ γε μῆλα. facilius certe μῆλα δὲ χρέμπτετ' ἀεί.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="164" xml:id="kock-0461-kolakes-164" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <note type="source">
+                <p>Schol. Aristoph. Pac. 803 καὶ πολὺ μᾶλλον ἐν τοῖς Κόλαξιν Εὔπολις ὡς κίναιδον (τὸν Μελάνθιον) διαβάλλει καὶ κόλακα. cf. interpr. Aristoph. Av. 151. Meinek. I 206. Bergk. R. c. Att. 108. 340 sq. Fritzsch. Arist. Ran. 151. Cobet. Obs. crit. 184.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="165" xml:id="kock-0461-kolakes-165" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <note type="source">
+                <p>Schol. Platonis 331 Bekk. Εὔπολις δ' ἐν Κόλαξι Καλλίου κόλακα (τὸν Χαιρεφῶντα) λέγει. Chaerephon Socraticus indicatur. Aristoph. Nub. 104.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="166" xml:id="kock-0461-kolakes-166" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <note type="source">
+                <p>Suidas (ex scriptore non nominato) βομβοῦσι· Ὀρέστης, Μαρψίας, Καλλίου τοῦ Ἀθηναίου κόλακες σὺν ἑτέροις. de Oreste cf. Aristoph. Av. 712, de Marpsia Ach. 701 cum scholiis quamvis exiguis. ad Adulatores fr. 165. 166 referenda esse monuit Meinekius I 137.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="167" xml:id="kock-0461-kolakes-167" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <note type="source">Schol. Aristoph. Av. 877</note>
+              <quote>καὶ ἴσως (Κλεόκριτος) ἕτερος ἂν εἴη τοῦ παρ’ Εὐπόλιδι ἐν Δήμοις καὶ Κόλαξι.</quote> cf. fr. 124 et Aristoph. Ran. 1437.</div>
+            <div type="textpart" subtype="fragment" n="168" xml:id="kock-0461-kolakes-168" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <note type="source">Poll. 10, 90</note> ῥητέον δ’ αὐτὸ (χερνίβιον, λέβητα) καὶ χειρόνιπτρον, Εὔπολις εἰπόντος ἐν Κόλαξι φρ. κτλ. cf. Athen. 9, 409 f. fortasse huc pertinet versus quem Etymologicum Milleri (Mélanges 309) cum fr. 118 perperam conglutinavit ἐξιὼν δ’ ἔτι κνέφους κτλ. sic enim videtur scribendum<lg>
+                <l n="1" xml:id="kock-0461-kolakes-168-l1" xml:lang="grc">εἶτ’ ἐξιόντι τοῦ κνέφους φροῦδον τὸ χειρόνιπτρον,</l>
+              </lg>cuius interpretatio qualiscumque est quod in Et. Mill. exstat τὸ χ. εἴλετό μοι. cf. Aristoph. Eccl. 290 et de re Av. 496 sq. Meinekio (Herm. III 455) adsentiri non possum.</div>
+            <div type="textpart" subtype="fragment" n="169" xml:id="kock-0461-kolakes-169" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-169-l1" xml:lang="grc">πεζὰς μόσχους</l>
+              </lg>ἀντὶ τοῦ ἑταίρας· ἐλέγοντο γάρ τινες οὕτως, ὡς Ἀριστοτέλης ἐν τῇ Πολιτείᾳ, τὰς χωρὶς ὀργάνων. Κάνθαρος Συμμαχίᾳ ‘αὐλητρίδα πεζήν’ καὶ Εὔπολις Κόλαξιν. Photius. ἐλέγοντο] ἔλεγον Meinekius ed. min. IX, non ad nomen μόσχους, quo Aristotelem usum esse non credit, sed ad πεζάς haec referens. aliter Fritzschius apud Toeppelium p. 86, qui αὐλητρίδα πεζήν Eupolidi adiudicat. de πεζαῖς ἑταίραις Porson. Advers. 298.</div>
+            <div type="textpart" subtype="fragment" n="170" xml:id="kock-0461-kolakes-170" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-170-l1" xml:lang="grc">κεκρύφαλοί τε καὶ τύλη</l>
+              </lg>Εὔπολις δὲ Κόλαξι. Pollux 7, 192. idem 10, 39 καὶ τύλη δὲ παρ’ Εὐπόλιδί ἐστιν ἰάζοντι ἐν τοῖς Κόλαξι. vox τύλη Atticis ab Atticistis abiudicatur. Phrynich. Ecl. 173. quapropter Meinekius Protagoram ut Ionem ea usum esse suspicatur. id si verum est, non possunt haec ex indice supellectilis Calliae excerpta esse.</div>
+            <div type="textpart" subtype="fragment" n="171" xml:id="kock-0461-kolakes-171" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <lg>
+                <l n="1" xml:id="kock-0461-kolakes-171-l1" xml:lang="grc">μολυβδίνους κρατευτάς</l>
+              </lg>Εὔπολις ἐν τοῖς Κόλαξιν ἔφη. Pollux 10, 97. κρατευταί cum semper igni exponantur quomodo μολύβδινοι esse potuerint non video. an scribendum est ἔφη (που) λιθίνους κρατευτάς?</div>
+            <div type="textpart" subtype="fragment" n="178" xml:id="kock-0461-kolakes-178" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_kolakes">
+              <note type="apparatus">
+                <p>Schol. Aristoph. Ran. 407 ὅτι σύνηθες ἦν τὸ ἐπιλέγειν, ὁπότε ἐπαινοῖέν τι ἢ συνομολογοῖεν. καὶ Εὔπολις Κόλαξιν. καὶ ἐν τοῖς πρόσθεν κεῖται. ‘referenda haec sunt ad v. 508 κάλλιστ’, ἐπαινῶ’. Dindorf. incertum autem est, Eupolis κάλλιστ’, ἐπαινῶ dixerit an κάλλιστα, an καλῶς. non adsentior Fritzschio Ran p. 196.</p>
+                <p>Praeterea ad hanc fabulam Meinekius fr. 330. 346. 347. 354. 384. 415. 448, Bergkius R. c. Att. 353 (aliquanto probabilius) fr. 352. 361 rettulerunt. cf. etiam 228.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

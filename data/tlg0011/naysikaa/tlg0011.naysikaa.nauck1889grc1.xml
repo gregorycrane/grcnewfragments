@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-naysikaa-nauck1889grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΝΑΥΣΙΚΑΑ Η ΠΛΥΝΤΡΙΑΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0011">Sophocles</author>
+        <editor>August Nauck</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability>
+          <p>Derived scholarly transcription; verify against page images before quotation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>August Nauck, Tragicorum Graecorum Fragmenta, second edition (Leipzig: Teubner, 1889).</bibl>
+        <ptr target="../../../nauck1889/source/nauck1889.tragicorum-graecorum-fragmenta.xml"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Extracted deterministically from nauck.tragfrag-2.xml; repaired the malformed TEI namespace URI.</change>
+    <change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.naysikaa; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.naysikaa.nauck1889grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.naysikaa.nauck1889grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_naysikaa"><head>ΝΑΥΣΙΚΑΑ Η ΠΛΥΝΤΡΙΑΙ</head><div type="textpart" subtype="fragment" n="406" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_naysikaa" xml:id="fragment-naysikaa-nauck1889grc1-406">
+            <head>406</head>
+            <lg>
+              <l n="1" xml:lang="grc">πέπλους τε νῆσαι λινογενεῖς τ’ ἐπενδύτας</l>
+            </lg>
+            <p>Pollux 7 , 45 : ἐπενδύτης — ληπτέον αὐτὸ ἐκ τῶν Σοφοκλέους
+Πλυντριῶν ‘πέπλους — ἐπενδύτας’ .</p>
+          </div>
+          <div type="textpart" subtype="fragment" n="407" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_naysikaa" xml:id="fragment-naysikaa-nauck1889grc1-407">
+            <head>407</head>
+            <lg>
+              <l n="1" xml:lang="grc">ἀναρροιβδεῖ</l>
+            </lg>
+            <p>Hesych. 1 p. 181 , v. Aeschyli fr. 217 .</p>
+          </div>
+          <div type="textpart" subtype="fragment" n="408" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_naysikaa" xml:id="fragment-naysikaa-nauck1889grc1-408">
+            <head>408</head>
+            <lg>
+              <l n="1" xml:lang="grc">λαμπήνη</l>
+            </lg>
+            <p>Pollux 10 , 52 : ἔστι δὲ τοὔνομα ἡ λαμπήνη ἐν τῇ Σοφοκλέους
+Ναυσικᾷ . cf. Hesych. 3 p. 11 : λαμπήνη· εἶδος ἁμάξης ἐφ’ ἧς ὀχοῦνται.
+ἔνιοι ἀπήνη (λαπήνη coni. M. Schmidt) . ἢ ἅρμα ἁμάξης (ἢ
+εἶδος ἁρμαμάξης Salmasius) περιφανοῦς βασιλκῆς.</p>
+          </div>
+        </div></body></text></TEI>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PLATO COMICUS, ΠΟΙΗΤΗΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.poietes.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.poietes.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.poietes.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_poietes"><head>ΠΟΙΗΤΗΣ</head><div type="textpart" subtype="fragment" n="110" xml:id="kock-0497-poietes-110" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_poietes">
+              <lg>
+                <l n="1" xml:id="kock-0497-poietes-110-l1" xml:lang="grc">τὸν δέλφακα</l>
+                <l n="2" xml:id="kock-0497-poietes-110-l2" xml:lang="grc">ἀπῆγε σιγῇ.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 375b <foreign xml:lang="grc">Πλάτων δ’ ὁ κωμῳδιοποιὸς ἐν Ποιητῇ ἀρσενικῶς ἔφη τὸν δέλφακα κτλ.</foreign>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="111" xml:id="kock-0497-poietes-111" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_poietes">
+              <note type="source">Athenaeus 14, 657a <foreign xml:lang="grc">δέλφακα δὲ ἀρσενικῶς εἴρηκε Πλάτων ἐν Ποιητῇ δέλφακα δὲ ῥαιότατον.</foreign>
+              </note>
+              <note type="apparatus">sic A. <foreign xml:lang="grc">δ’ ὡραιότατον</foreign> Casub. <foreign xml:lang="grc">δ’ ἀραιότατον</foreign> Toup. Emend. III 39 ‘macilentum porcum’. numeros paeonicos esse statuit Meinekius Anal. crit. 318. dubito ego quidem. ad eundem porcum videntur fr. 110 et 111 pertinere.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="112" xml:id="kock-0497-poietes-112" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_poietes">
+              <lg>
+                <l n="1" xml:id="kock-0497-poietes-112-l1" xml:lang="grc">ὁρᾶτε τὸ διῆρες ὑπερῷον.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Ran. 1159 <foreign xml:lang="grc">Πλάτων Ποιητῇ κτλ.</foreign> Hesych. <foreign xml:lang="grc">διῆρες· ὑπερῷον. ἢ κλίμαξ.</foreign> Meinekius <foreign xml:lang="grc">ὁρᾶτέ τοι τὸ</foreign> vel <foreign xml:lang="grc">ὁρᾶτε τόδε</foreign> et V 46 <foreign xml:lang="grc">ὁρᾶτέ τοι τὸ διῆρες ὑπερῷον τόδε.</foreign> Pollux 1, 81 <foreign xml:lang="grc">ὑπερῷα οἰκήματα, τὰ δ’ αὐτὰ καὶ διήρη.</foreign> cf. Becker. Charikl.<hi rend="superscript">2</hi> II 103.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="113" xml:id="kock-0497-poietes-113" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_poietes">
+              <lg>
+                <l n="1" xml:id="kock-0497-poietes-113-l1" xml:lang="grc">μόνος δ’ ἄγευστος,</l>
+                <l n="2" xml:id="kock-0497-poietes-113-l2" xml:lang="grc">ἄσπλαγχνος ἐνιαυτίζομἀπλάκουντος, ἀλιβάνωτος.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 644a <foreign xml:lang="grc">ὁ κωμικὸς Πλάτων εἴρηκεν ἐν τῷ Ποιητῇ οὕτως κτλ.</foreign> cf. Eustathius 1345, 30 <foreign xml:lang="grc">ἀστείως Πλάτων ἄγευστος, ἄσπλαγχνος, ἀπλάκουντος, ἀλιβάνωτος.</foreign>
+              </note>
+              <note type="apparatus">
+                <foreign xml:lang="grc">ἐνιαυτίζομαι πλάκουντος</foreign> Ahrens De crasi 21. 27. <foreign xml:lang="grc">ἐνιαυτίζυμἀπλάκουντος</foreign> Dindorfius, ut Aristoph. Ran. 509 <foreign xml:lang="grc">περιόψομἀπελθόντα.</foreign> cf. Ach. 325. convivam se neglegi queri opinatur Iacobsius Addit. Athen. 341. at scire velim quid sit conviva <foreign xml:lang="grc">ἀλιβάνωτος.</foreign> deus potius nescio quis loqui videtur, solus</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATES, ΘΗΡΙΑ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Crates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0433.theria.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0433.theria.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0433.theria.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_theria"><head>ΘΗΡΙΑ</head><div type="textpart" subtype="fragment" n="16" xml:id="kock-0433-theria-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_theria">
+              <lg>
+                <l n="1" xml:id="kock-0433-theria-16-l1" xml:lang="grc">ἔχοντες εὐπαθῆ βίον</l>
+                <l n="2" xml:id="kock-0433-theria-16-l2" xml:lang="grc">παρουσίαν τε χρημάτων.</l>
+              </lg>
+              <note type="source">Harpocrat. παρουσία ἀντὶ τοῦ περιουσία ἢ αἰτία πλούτου οὐσία . . . Κράτης Θηρίοις κτλ. omisso fabulae titulo Photius (399, 11) et Suidas παρουσία. Crameri Anecd. Oxon. II 498. βίου Harpocr. C. παρουσία BC. περὶ οὐσίαν D, qui τε omittit. ἀπαθῆ et pr. περιουσίαν Phot. cf. Cratin. 325.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="17" xml:id="kock-0433-theria-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_theria">
+              <lg>
+                <l n="1" xml:id="kock-0433-theria-17-l1" xml:lang="grc">καὶ τῶν ῥαφάνων ἕψειν χρὴ * * *</l>
+                <l n="2" xml:id="kock-0433-theria-17-l2" xml:lang="grc">ἰχθῦς τ' ὀπτᾶν τούς τε ταρίχους, ἡμῶν δ' ἄπο χεῖρας ἔχεσθαι.</l>
+                <l n="3" xml:id="kock-0433-theria-17-l3" xml:lang="grc">Β. οὐκ ἄρ' ἔτ' οὐδὲν κρέας, ὡς ὑμεῖς λέγετ', οὐδ' ὁτιοῦν ἐδόμεσθα,</l>
+                <l n="4" xml:id="kock-0433-theria-17-l4" xml:lang="grc">οὐδ' ἐξ ἀγορᾶς οὐδὲ τάκωνας ποιησόμεθ' οὐδ' ἀλλᾶντας;</l>
+              </lg>
+              <note type="source">v. 1. 2 Athenaeus 3, 119 c Κράτης Θηρίοις. 3. 4 Pollux 6, 53 ἔστι δὲ καὶ γαστρίδιον ἡδυσμένον, ὃ καὶ τάκωνας ἔνιοι κεκλῆσθαι οἴονται παρὰ Κράτητι τῷ κωμικῷ μόνῳ καὶ ἅπαξ εἰρηκότι ἐν Θηρίοις. οὐκ — ἀλλᾶντας· οἱ δὲ οἴονται τοὺς τάκωνας ἐκ ταγήνου κρέας ἢ στέατος τροχοὺς σὺν ἁλσὶ καὶ ξηροῖς ἡδύσμασι κοπέντας. Hesych. τακῶνες· τροχίσκοι στέατος κεκομμένου μεθ' ἁλῶν καὶ ξηρῶν ἀρτυμάτων. utrumque fragmentum coniunxit Bergkius R. c. Att. 279.</note>
+              <note type="apparatus">3. ἔτ' — ὁτιοῦν Bergkius] ἔστιν — ὅτι. v. 1 lacunam statuit Meinekius quod non sit consentaneum bis in quattuor tetrametris clausula spondiaca usum esse poetam. quamquam sunt qui haec in timetros digerant, atque ita a se ipse desciscens Meinekius in Athenaeo. cum neque ἐσθίειν neque ποιεῖσθαι ἐξ ἀγορᾶς Atticis sit usitatum, Cobetus Obs. crit. Plat. 191 τάκωνας ἔτ' ὠνησόμεθ'. cf. Hermipp. 28. Plat. 190. εἰς ἀγορὰν ὑφαίνειν Menand. apud Suid. εἰς ἀγ. — perperam: nam arsis soluta in quarto tetrametri anapaestici pede, ut omnino rara est, ita numquam in monosyllabum exit. accedit quod forum neutiquam apte commemoratur: multo enim fortius quisquis loquitur mirabundus cur ut ferarum defensor iusserat animalium carne abstinendum sit ita pergat 'nihil igitur carnis edere et ne domi quidem τάκωνας aut ἀλλᾶντας conficere licebit?' sed neque fori neque domus mentionem fecit: scribendum est οὐδ' ἔτι χορδὰς οὐδὲ τάκωνας κτλ. de particula οὐδέ repetita cf. Aristoph. Nub. 425. 629. 981. Soph. OR. 1377.</note>
+              <note type="apparatus">Praeterea cf. fr. 48.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="kock-0433-theria-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_theria">
+              <lg>
+                <l n="1" xml:id="kock-0433-theria-14-l1" xml:lang="grc">Α. ἔπειτα δοῦλον οὐδὲ εἷς κεκτήσετ᾽ οὐδὲ δούλην,</l>
+                <l n="2" xml:id="kock-0433-theria-14-l2" xml:lang="grc">ἀλλ᾽ αὐτὸς αὐτῷ δῆτ᾽ ἀνὴρ γέρων διακονήσει;</l>
+                <l n="3" xml:id="kock-0433-theria-14-l3" xml:lang="grc">Β. οὐ δῆθ᾽· ὁδοιποροῦντα γὰρ τὰ πάντ᾽ ἐγὼ ποιήσω.</l>
+                <l n="4" xml:id="kock-0433-theria-14-l4" xml:lang="grc">Α. τί δῆτα τοῦτ᾽ αὐτοῖς πλέον; Β. πρόσεισιν αὔθ᾽ ἕκαστον</l>
+                <l n="5" xml:id="kock-0433-theria-14-l5" xml:lang="grc">τῶν σκευαρίων, ὅταν καλῇ τι. παρατίθου, τράπεζα.</l>
+                <l n="6" xml:id="kock-0433-theria-14-l6" xml:lang="grc">αὕτη, παρασκεύαζε σαυτόν. μάττε, θυλακίσκε.</l>
+                <l n="7" xml:id="kock-0433-theria-14-l7" xml:lang="grc">ἔγχει, κύαθε. ποὖσθ᾽ ἡ κύλιξ; διάνιζ᾽ ἰοῦσα σαυτήν.</l>
+                <l n="8" xml:id="kock-0433-theria-14-l8" xml:lang="grc">ἀνάβαινε, μᾶζα. τὴν χύτραν χρῆν ἐξερᾶν τὰ τεῦτλα.</l>
+                <l n="9" xml:id="kock-0433-theria-14-l9" xml:lang="grc">ἰχθύ, βάδιζ᾽. ἀλλ᾽ οὐδέπω ᾽πὶ θάτερ᾽ ὀπτός εἰμι.</l>
+                <l n="10" xml:id="kock-0433-theria-14-l10" xml:lang="grc">οὔκουν μεταστρέψας σεαυτὸν ἁλὶ πάσεις ἀλείφων;</l>
+              </lg>
+              <note type="source">Athenaeus 6, 267e οἱ δὲ τῆς ἀρχαίας κωμῳδίας ποιηταὶ περὶ τοῦ ἀρχαίου βίου διαλεγόμενοι, ὅτι οὐκ ἦν τότε δούλων χρεία, τοιάδ᾽</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="15" xml:id="kock-0433-theria-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_theria">
+              <lg>
+                <l n="1" xml:id="kock-0433-theria-15-l1" xml:lang="grc">ἀλλ’ ἀντίθες τοι· ἐγὼ γὰρ αὐτὰ πάμπαλιν</l>
+                <l n="2" xml:id="kock-0433-theria-15-l2" xml:lang="grc">τὰ θερμὰ λουτρὰ πρῶτον ἄξω τοῖς ἐμοῖς</l>
+                <l n="3" xml:id="kock-0433-theria-15-l3" xml:lang="grc">ἐπὶ κιόνων ὥσπερ διὰ τοῦ παιωνίου</l>
+                <l n="4" xml:id="kock-0433-theria-15-l4" xml:lang="grc">ἐπὶ τῆς θαλάττης, ὥσθ’ ἑκάστῳ ῥεύσεται</l>
+                <l n="5" xml:id="kock-0433-theria-15-l5" xml:lang="grc">εἰς τὴν πύελον. ἐρεῖ δὲ θὔδωρ ‘ἀνέχετε’.</l>
+                <l n="6" xml:id="kock-0433-theria-15-l6" xml:lang="grc">ἔπειτ’ ἀλάβαστος εὐθέως ἥξει μύρου</l>
+                <l n="7" xml:id="kock-0433-theria-15-l7" xml:lang="grc">αὐτόματος, ὁ σπόγγος τε καὶ τὰ σάνδαλα.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 268 a ἑξῆς δὲ μετὰ ταῦτα ὁ τὸν ἐναντίον τούτῳ παραλαμβάνων λόγον φησίν· ἀλλ’ ἀντίθες τοι κτλ. — sic A, nisi quod v. 4 ῥεύσετ’ et v. 5 ἀνεχετει (sine accentu), pro quo ἀνέχετε Dindorfius. nam δέ θ’ ὕδωρ nihil aliud est quam δὲ θύδωρ.</note>
+              <note type="apparatus">1. πάμπαλιν] τἄμπαλιν Casaub. 4. ἐπὶ] ἀπὸ Bergk. R. c. Att. 282. 6. ἔπειτ’ ἀλάβαστος] εἶθ’ ἁλάβαστος Bergk. — sine necessitate Herwerdenus Obs. crit. 14 v. 4 ὥστε καὶ ῥυήσεται. cf. Pherecr. 130, 5. Eurip. fr. 388 N. et quae adnotavimus ad Aristoph. Eq. 526. pro αὐτὰ τἄμπαλιν fortasse scribendum αὐτὸ τούμπαλιν. Bekk. Anecd. 4, 16 αὐτὸ τούμπαλιν λέγεις. οἷον αὐτὸ τουναντίον λέγεις . . . τὸ μέντοι αὐτὸ πρόσκειται νῦν σημαῖνον τὸ ἀκριβῶς καὶ ἀληθῶς. — manifestum est vitae delicatae defensorem loqui. τοῖς ἐμοῖς i. e. qui a me stant. balnea calida defendit ut λόγος ἄδικος Aristoph. Nub. 1044—1051 (991). cf. Hermipp. 76. pollicetur autem se suis lavacra calida a mari ipso (ἀπὸ Bergk.) in balnea ducturum,</note>
+            </div>
+          </div></body></text></TEI>

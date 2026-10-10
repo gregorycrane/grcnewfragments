@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-eyrystheys_satyrikos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΕΥΡΥΣΘΕΥΣ ΣΑΤΥΡΙΚΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.eyrystheys_satyrikos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_eyrystheys_satyrikos"><head>ΕΥΡΥΣΘΕΥΣ ΣΑΤΥΡΙΚΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-eyrystheys_satyrikos-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_eyrystheys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.nauck1889grc1:374">
+            <note type="source">1. Poll. Onom. Χ, 108. σκεύος δὲ μαγειρικὸν καὶ ἠθμὸς, Εὐριπίδου ἐν Εὐρυσθεῖ Σατυρικῷ εἰπόντος·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ἢ κύαθον, ἢ χαλκήλατον</l>
+              <l n="2" xml:lang="grc">ἠθμὸν προσίσχων τοῖσδε τοῖς ὑπωπίοις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-eyrystheys_satyrikos-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_eyrystheys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.nauck1889grc1:373">
+            <note type="source">2. Poll. Onom. Χ, 145. ὅτι δὲ καὶ τὴν σπάθην ἐπὶ τοῦ ξίφους εἰρήκασι, εὕροις ἂν ἐν Εὐριπίδου Εὐρυσθεῖ Σατυρικῷ· Πᾶς δὲ φασγάνῳ ἐξηθέριζεν ὥστε πύρινον σπάθῃ κολούων φασγάνου μελανδέτου. Hinc scripserunt:</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">πᾶς δὲ φασγάνῳ</l>
+              <l n="2" xml:lang="grc">ἐξηθέριζεν, ὥστε πύρινον σπάθῃ</l>
+              <l n="3" xml:lang="grc">κολούων φασγάνου μελανδέτου.</l>
+            </lg>
+          </div>
+        <div type="textpart" subtype="fragment" n="3" xml:id="fragment-eyrystheys_satyrikos-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_eyrystheys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.nauck1889grc1:371">
+            <note type="source">3. Erotian. v. τέρθρον. (p. 366.) Τέρθρον ἔλεγον οἱ παλαιοὶ τὸ ἔσχατον καὶ ἐπὶ τέλει᾽ ὡς καὶ Εὐριπίδης ἐν Εὐρυσθεῖ ποιεῖ τὸν Ἡρακλέα λέγοντα οὕτως·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πέμψεις δ᾽ ἐς ᾅδου ζῶντα κοὐ τεθνηκότα,</l>
+              <l n="2" xml:lang="grc">καί μοι τὸ τέρθρον δῆλον εἰσπορεύομαι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-eyrystheys_satyrikos-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_eyrystheys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.nauck1889grc1:375">
+            <note type="source">4. Stobaeus LXII, 23.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πιστὸν μὲν οὖν εἶναι χρὴ τὸν διάκονον</l>
+              <l n="2" xml:lang="grc">τοιοῦτον εἶναι, καὶ στέγειν τὰ δεσποτῶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-eyrystheys_satyrikos-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_eyrystheys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.nauck1889grc1:377">
+            <note type="source">5. Stobus LXXVII, 11.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μάτην δὲ θνητοὶ τοὺς νόθους φεύγουσ᾽ ἄρα</l>
+              <l n="2" xml:lang="grc">παῖδας φυτεύειν· ὃς γὰρ ἂν χρηστὸς φυῇ,</l>
+              <l n="3" xml:lang="grc">οὐ τοὔνομ᾽ αὐτοῦ τὴν φύσιν διαφθερεῖ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-eyrystheys_satyrikos-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_eyrystheys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.nauck1889grc1:378">
+            <note type="source">6. Stobaeus CXII, 7.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Νῦν δ᾽ ἤν τις οἴκων πλουσίαν ἔχῃ φάτνην,</l>
+              <l n="2" xml:lang="grc">πρῶτος γέγραπται τῶν κακιόνων κράτει·</l>
+              <l n="3" xml:lang="grc">τὰ δ᾽ ἔργ᾽ ἐλάσσω χρημάτων νομίζομεν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-eyrystheys_satyrikos-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_eyrystheys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.nauck1889grc1:376">
+            <note type="source">7. Stobaeus XCVIII, 40.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ οἶδ᾽ ὅτῳ χρὴ κανόνι τὰς βροτῶν τύχας</l>
+              <l n="2" xml:lang="grc">ὀρθῶς ἀθρήσαντ᾽ εἰδέναι τὸ δραστέον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-eyrystheys_satyrikos-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_eyrystheys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.nauck1889grc1:372">
+            <note type="source">8. Schol. Eurip. Hecub. 821. (837.)</note>
+            <note type="commentary">Τὸν Δαίδαλον φασὶ ποιεῖν εἴδωλα, καὶ μετὰ τὸ πληροῦν (ἀποπληροῦν) αὐτὰ ποιεῖν ταῦτα κινεῖσθαι καὶ φθέγγεσθαι. ὅτι δὲ ἐκινεῖτο καὶ προΐει φωνὴν, αὐτός τε Εὐριπίδης ἐν Εὐρυσθεῖ λέγει·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ ἔστιν, ὦ γεραιέ, μὴ δείσῃς τάδε·</l>
+              <l n="2" xml:lang="grc">τὰ Δαιδάλεια πάντα κινεῖσθαι δοκεῖ</l>
+              <l n="3" xml:lang="grc">βλέπει τ᾿ ἀγάλμαθ᾽· ὧδ᾽ ἀνὴρ κεῖνος σοφός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-eyrystheys_satyrikos-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_eyrystheys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.nauck1889grc1:379">
+            <note type="source">9. Athen. XI, p. 498 D. Εὐριπίδης δ' Εὐρυσθεῖ ἀρσενικῶς ἔφη</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σκύφος τε μακρός</l>
+            </lg>
+            <note type="commentary">καὶ Ἀχαιὸς ἐν Ὀμφάλῃ· “Ὁ δὲ σκύφος με τοῦ θεοῦ καλεῖ.”</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-eyrystheys_satyrikos-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_eyrystheys_satyrikos" sameAs="urn:cts:greekLit:tlg0006.eyrystheys_satyrikos.nauck1889grc1:380">
+            <note type="source">10. Steph. Βyz. ν. Τάρταρος. — οἰκήτωρ Ταρτάριος, καὶ διὰ τῆς ει διφθόγγου (i. e. Ταρτάρειος) Εὐριπίδης ἐν Εὐρυσθεῖ Σατυρικῷ.</note>
+          </div>
+          </div></body></text></TEI>

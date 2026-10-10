@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-bellerophontes-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΒΕΛΛΕΡΟΦΟΝΤΗΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.bellerophontes; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.bellerophontes.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.bellerophontes.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes"><head>ΒΕΛΛΕΡΟΦΟΝΤΗΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-bellerophontes-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:305">
+            <note type="source">1. Schol. Eurip. Orest. 872. Χῶμα, οὗ συμβαίνει τοὺς Ἀργείους δικάζειν τάχα δ᾽ ἂν τούτου καὶ ἐν Βελλεροφόντῃ μνημονεύοι εἰπών·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">καὶ ξεστὸν ὄχθον Δαναϊδῶν ἑδρασμάτων</l>
+              <l n="2" xml:lang="grc">στὰς ἐν μέσοισιν εἶπε κηρύκων ὕπο.</l>
+            </lg>
+            <note type="commentary">Versum alterum ex codicibus Vaticano et Veneto nuper addidit Cobetus, suppleto ex conjectura ὅπο. In versu priore ἑδράσματα correxit Hermannus Opusc. vol. II. p. 322.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="2" xml:id="fragment-bellerophontes-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes">
+            <note type="source">2. Stobæus XCVII, 16. cum lem. Εὐριπίδου·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ χρυσέ, δεξίωμα κάλλιστον βροτοῖς,</l>
+              <l n="2" xml:lang="grc">ὡς οὔτε μήτηρ ἡδονὰς τοιάσδ᾽ ἔχει,</l>
+              <l n="3" xml:lang="grc">οὐ παῖδες ἀνθρώποισιν, οὐ φίλος πατήρ,</l>
+              <l n="4" xml:lang="grc">οἷας σὺ χοὶ σὲ δώμασιν κεκτημένοι.</l>
+              <l n="5" xml:lang="grc">εἰ δ᾽ ἡ Κύπρις τοιοῦτον ὀφθαλμοῖς ὁρᾷ,</l>
+              <l n="6" xml:lang="grc">οὐ θαῦμ᾽, ἔρωτας μυρίους αὐτὴν τρέφειν.</l>
+            </lg>
+            <note type="commentary">præterquam quod Stobæi cod. Paris. A. et Maximus 1. c. e Danaë eos citant.</note>
+            <note type="source">Excerpt. Vatic. Diod. Sic. Exc. lib. XXXVII-XL. c. 11. (in Ang. Maii Vet. Script. nov. collect. T. II, p. 122.) ed. Dindf. p. 135:</note>
+            <lg type="fragment">
+              <l n="7" xml:lang="grc">Ἐγὼ τὸ μὲν δὴ πανταχοῦ θρυλλούμενον</l>
+              <l n="8" xml:lang="grc">κράτιστον εἶναί φημι, μὴ φῦναι βροτῷ·</l>
+              <l n="9" xml:lang="grc">τρισσῶν δὲ μοιρῶν ἐγκρινῶ νικᾶν μίαν,</l>
+              <l n="10" xml:lang="grc">πλούτου τε, χὤτῳ σπέρμα γενναῖον προσῇ,</l>
+              <l n="11" xml:lang="grc">πενίας τ᾽· ἀριθμὸν γὰρ τοσόνδε προὐθέμην.</l>
+              <l n="12" xml:lang="grc">ὁ μὲν ζάπλουτος, εἰς γένος δ᾽ οὐκ εὐτυχὴς,</l>
+              <l n="13" xml:lang="grc">ἀλγεῖ μὲν, ἀλγεῖ, παγκάλως δ᾽ ἀλγύνεται,</l>
+              <l n="14" xml:lang="grc">ὄλβου διοίγων θάλαμον ἥδιστον χερί.</l>
+              <l n="15" xml:lang="grc">ἔξω δὲ βαίνων τοῦδε, τὸν πάρος χρόνον</l>
+              <l n="16" xml:lang="grc">πλουτῶν, ὑπ᾽ ἄτης ζεῦγμ᾽ ἂν ἀσχάλλοι πεσών.</l>
+              <l n="17" xml:lang="grc">ὅστις δὲ γαῦρον σπέρμα γενναῖόν τ᾽ ἔχων</l>
+              <l n="18" xml:lang="grc">βίου σπανίζει, τῷ γένει μὲν εὐτυχεῖ,</l>
+              <l n="19" xml:lang="grc">πενίᾳ δ᾽ ἐλάσσων ἐστὶν, ἐν δ᾽ ἀλγύνεται,</l>
+              <l n="20" xml:lang="grc">φρενῶν δ᾽ ὑπ᾽ αἰδοῦς ἔργ᾽ ἀπωθεῖται χεροῖν.</l>
+              <l n="21" xml:lang="grc">ὁ δ᾽ οὐδὲν οὐδεὶς, διὰ τέλους δὲ δυστυχῶν,</l>
+              <l n="22" xml:lang="grc">τοσῷδε νικᾷ· τοῦ γὰρ εὖ τητώμενος</l>
+              <l n="23" xml:lang="grc">οὐκ οἶδεν, αἰεὶ δυστυχῶν κακῶς τ᾽ ἔχων.</l>
+              <l n="24" xml:lang="grc">οὕτως ἄριστον μὴ πεπειρᾶσθαι καλῶν.</l>
+              <l n="25" xml:lang="grc">ἐκεῖνο γὰρ μεμνήμεθ᾽· οἷος ἦν ποτέ</l>
+              <l n="26" xml:lang="grc">κἀγὼ, μετ᾽ ἀνδρῶν ἡνίκ᾽ εὐτύχουν ποτέ.</l>
+            </lg>
+            <note type="commentary">τοσαύτην ὁ χρυσὸς ἔχει δύναμιν ἐπὶ κακῷ προτιμώμενος ἀφρόνως παρὰ ἀνθρώποις, οἵτινες διὰ τὴν ὑπερβολὴν τῆς πρὸς τοῦτον ἐπιθυμίας παρ᾽ ἕκαστα προφέρονται τούτους τοὺς στίχους τῶν ποιητῶν, Ὦ χρυσέ, δεξίωμα κ.τ.λ. καὶ πάλιν Ἔα με κερδαίνοντα κεκλῆσθαι κακόν. Hic habes primum duodecim illorum vs., quos Seneca Latine expressit, neque Euripidi eum assignandum esse negabis. Eundem jam Grotius in Carminibus Gregorii Nazianz. (T. II, p. 210 B.) cum duobus aliis conjunctum inter veterum dicta τὰ μὴ καλὰ, invenerat:</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-bellerophontes-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:288">
+            <note type="source">3. Stobæus VIII, 1.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δόλοι δὲ καὶ σκοτεινὰ μηχανήματα</l>
+              <l n="2" xml:lang="grc">χρείας ἀνάνδρου φάρμαχ᾽ εὕρηται βροτοῖς.</l>
+            </lg>
+            <note type="commentary">Cf. fgm. II sub fin.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-bellerophontes-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:297">
+            <note type="source">4. Stobæus X, 7.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὡς ἔμφυτος μὲν πᾶσιν ἀνθρώποις κάκη</l>
+              <l n="2" xml:lang="grc">ὅστις δὲ πλεῖστον μισθὸν εἰς χεῖρας λαβὼν</l>
+              <l n="3" xml:lang="grc">κακὸς γένηται, τῷδε συγγνώμη μὲν οὐ,</l>
+              <l n="4" xml:lang="grc">πλείω δὲ μισθὸν μείζονος τόλμης ἔχων</l>
+              <l n="5" xml:lang="grc">τὸν τῶν λεγόντων ῥᾷον ἂν φέροι ψόγον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-bellerophontes-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes">
+            <note type="source">5. Senec. Epist. 115. Nec apud tragicos desunt, qui lucro innocentiam, salutem, opinionem bonam mutant.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Sine me vocari pessimum, ut dives vocer.</l>
+              <l n="2" xml:lang="grc">An dives, omnes quærimus, nemo, an bonus.</l>
+              <l n="3" xml:lang="grc">Non quare et unde, quid habeas, tantum rogant.</l>
+              <l n="4" xml:lang="grc">Ubique tanti quisque, quantum habuit, fuit.</l>
+              <l n="5" xml:lang="grc">Quid habere nobis turpe sit, quæris? nihil.</l>
+              <l n="6" xml:lang="grc">Aut dives opto vivere, aut pauper mori.</l>
+              <l n="7" xml:lang="grc">Bene moritur, qui, dum moritur, lucrum facit.</l>
+              <l n="8" xml:lang="grc">Pecunia ingens generis humani bonum,</l>
+              <l n="9" xml:lang="grc">Cui non voluptas matris aut blanda potest</l>
+              <l n="10" xml:lang="grc">Par esse prolis, non sacer meritis parens.</l>
+              <l n="11" xml:lang="grc">Tam dulce si quid Veneris in vultu micat,</l>
+              <l n="12" xml:lang="grc">Merito illa amores cælitum atque hominum movet.</l>
+            </lg>
+            <note type="commentary">Quum hi novissimi versus in tragædia Euripidis pronuntiati essent, totus populus ad ejiciendum et actorem et carmen consurrexit uno impetu, donec Euripides in medium ipse prosiluit, petens, ut exspectarent viderentque quem admirator auri exitum faceret. Dabat in illa fabula pænas Bellerophontes, quas in sua quisque dat : nulla enim avaritia sine pœna est, quamvis satis sit ipsa pœnarum :- Extremi versus passim tacito fabulæ nomine etiam Græce, velut ap. Athen. IV, p. 159 B, Stobæus XCI, 4, Maxim. Monach. in Gesn. Ed. Stobæi a. 1609, p. 221, 20, sic circumferuntur :</note>
+            <lg type="fragment">
+              <l n="13" xml:lang="grc">Κρεῖσσον γὰρ, ἢ σέβοντα τοὺς θεῶν νόμους</l>
+              <l n="14" xml:lang="grc">πένητα ναίειν, δόξαν ἠμποληκότα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-bellerophontes-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:294">
+            <note type="source">6. Stobæus XXXVIII, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φθονοῦσιν αὐτοὶ χείρονες πεφυκότες·</l>
+              <l n="2" xml:lang="grc">εἰς τἀπίσημα δ᾽ ὁ φθόνος πηδᾶν φιλεῖ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-bellerophontes-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:295">
+            <note type="source">7. Stobæus XXXVIII, 19.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἤδη γὰρ εἶδον καὶ δίκης παραστάτας</l>
+              <l n="2" xml:lang="grc">ἐσθλοὺς πονηρῷ τῷ φθόνῳ νικωμένους</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-bellerophontes-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:289">
+            <note type="source">8. Stobæus LIV, 19.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Νείκη γὰρ ἀνδρῶν φόνια καὶ μάχας χερῶν</l>
+              <l n="2" xml:lang="grc">δόλοισι κλέπτειν· τῆς δ᾽ ἀληθείας ὁδὸς</l>
+              <l n="3" xml:lang="grc">φαύλη τίς ἐστι, ψεύδεσιν δ᾽ Ἄρης φίλος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-bellerophontes-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:290">
+            <note type="source">9. Stobæus LIV, 7.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀεὶ γὰρ ἄνδρα σκαιὸν ἰσχυρὸν φύσει</l>
+              <l n="2" xml:lang="grc">ἦσσον δέδοικα τἀσθενοῦς τε καὶ σοφοῦ</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-bellerophontes-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:286">
+            <note type="source">10. Justin. Martyr. de monarch. p. 108 C. (ed. Colon. 1686). p. 41 B. (ed. Hag. Comit. 1742.)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φησίν τις εἶναι δῆτ᾽ ἐν οὐρανῷ θεούς;</l>
+              <l n="2" xml:lang="grc">οὐκ εἰσὶν, οὐκ εἴσ᾽. εἴ τις ἀνθρώπων λέγει,</l>
+              <l n="3" xml:lang="grc">μὴ τῷ παλαιῷ μωρὸς ὢν χρήσθω λόγῳ.</l>
+              <l n="4" xml:lang="grc">σκέψασθε δ᾽ αὐτὰ, μὴ ἐπι τοῖς ἐμοῖς λόγοις</l>
+              <l n="5" xml:lang="grc">γνώμην ἔχοντες· φήμ᾽ ἐγὼ τυραννίδα</l>
+              <l n="6" xml:lang="grc">κτείνειν τε πλείστους κτημάτων τ᾽ ἀποστερεῖν,</l>
+              <l n="7" xml:lang="grc">ὅρκους τε παραβαίνοντας ἐκπορθεῖν πόλεις.</l>
+              <l n="8" xml:lang="grc">καὶ ταῦτα δρῶντες μᾶλλόν εἰσ᾽ εὐδαίμονες</l>
+              <l n="9" xml:lang="grc">τῶν εὐσεβούντων ἡσυχῆ καθ' ἡμέραν</l>
+              <l n="10" xml:lang="grc">πόλεις τε μικρὰς οἶδα τιμώσας θεοὺς,</l>
+              <l n="11" xml:lang="grc">αἱ μειζόνων κλύουσι δυσσεβεστέρων,</l>
+              <l n="12" xml:lang="grc">λόγχης ἀριθμῷ πλείονος κρατούμεναι.</l>
+              <l n="13" xml:lang="grc">οἶμαι δ᾽ ἂν ὑμᾶς, εἴ τις ἀργὸς ὢν θεοῖς</l>
+              <l n="14" xml:lang="grc">εὔχοιτο καὶ μὴ χειρὶ συλλέγοι βίον,</l>
+              <l n="15" xml:lang="grc">τὰ θεῖα πυργοῦσ᾽, αἱ κακαί τε συμφοραί.</l>
+            </lg>
+          </div>
+        <div type="textpart" subtype="fragment" n="11" xml:id="fragment-bellerophontes-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:293">
+            <note type="source">11. Stobæus CVI, 1.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Α. Τιμή σ᾽ ἐπαίρει τῶν πέλας μᾶλλον φρονεῖν.</l>
+              <l n="2" xml:lang="grc">Β. Θνήσκοιμ᾽ ἄν· οὐ γὰρ ἄξιον λεύσσειν φάος</l>
+              <l n="3" xml:lang="grc">κακοὺς ὁρῶντας ἐκδίκως τιμωμένους.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-bellerophontes-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:302">
+            <note type="source">12. Stobæus VII, 1.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Θάρσος δὲ πρὸς τὰς συμφορὰς μέγα σθένει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-bellerophontes-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:299">
+            <note type="source">13. Stobæus Ecl. Phys. I, 5, 2, p. 154 ed. Heeren.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πρὸς τὴν Ἀνάγκην πάντα τἄλλ᾽ ἐστ᾽ ἀσθενῆ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-bellerophontes-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:301">
+            <note type="source">14. Stobæus Floril. CXI, 9.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁρᾷς δ᾽ ἀέλπτων μυρίων ἀναστροφάς·</l>
+              <l n="2" xml:lang="grc">πολλοὶ μὲν οἶδμα διέφυγον θαλάσσιον,</l>
+              <l n="3" xml:lang="grc">πολλοὶ δὲ λόγχαις πολεμίων ἀμείνονες</l>
+              <l n="4" xml:lang="grc">ἤσσους γεγῶτες κρείσσον᾽ ἦλθον εἰς τύχην.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-bellerophontes-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:287">
+            <note type="source">15. Stobæus CVIII, 20. LIV, 14, sine nom. fab. Plut. de Tranq. Anim. 4. (p. 467 A,) et de vit. Hom. p. 1194 Wyttenb. sine auctoris et fabulæ nomine. Arrian. diss. Epict. II, 5.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τοῖς πράγμασιν γὰρ οὐχὶ θυμοῦσθαι χρεών·</l>
+              <l n="2" xml:lang="grc">μέλει γὰρ αὐτοῖς οὐδέν· ἀλλ᾽ οὑντυγχάνων</l>
+              <l n="3" xml:lang="grc">τὰ πράγματ᾽ ὀρθῶς ἣν τιθῇ, πράσσει καλῶς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-bellerophontes-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes">
+            <note type="source">16. Stobæus C, 3.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πρὸς τὴν νόσον τοι καὶ τὸν ἰατρὸν χρεὼν</l>
+              <l n="2" xml:lang="grc">ἰδόντ᾿ ἰᾶσθαι, μὴ π̓ιτακτὰ φαρμακὰ</l>
+              <l n="3" xml:lang="grc">διδόντ᾽, ἐὰν μὴ ταῦτα τῇ νόσῳ πρέπῃ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-bellerophontes-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes">
+            <note type="source">17. Stobæus C, 4.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Νόσοι δὲ θνητῶν αἱ μέν εἰσ᾽ αὐθαίρετοι,</l>
+              <l n="2" xml:lang="grc">αἱ δ᾽ ἐκ θεῶν πάρεισιν, ἀλλὰ τῷ νόμῳ</l>
+              <l n="3" xml:lang="grc">ἰώμεθ᾽ αὐτάς. ἀλλά σοι λέξαι θέλω,</l>
+              <l n="4" xml:lang="grc">εἰ θεοί τι δρῶσιν αἰσχρὸν, οὐκ εἰσὶν θεοί.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-bellerophontes-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes">
+            <note type="source">18. Ad Aristophanis (Pac. 76, sq.) verba:</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">&amp; Πηγάσιόν μοί φησι, γενναῖον πτερὸν,</l>
+              <l n="2" xml:lang="grc">ὅπως πετήσει μ᾿ εὐθὺ τοῦ Διὸς λαβών.</l>
+            </lg>
+            <note type="commentary">adnotat scholiastes: παρὰ τὰ ἐκ Βελλεροφόντου Εὐριπίδου. ἐκεῖνος γὰρ διὰ Πηγάσου τοῦ πτερωτοῦ ἐπεθύμει εἰς τὸν οὐρανὸν ἀνελθεῖν.</note>
+            <lg type="fragment">
+              <l n="3" xml:lang="grc">ἄγ᾽ ὦ φίλον μοι Πηγάσου πτερόν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="19" xml:id="fragment-bellerophontes-dindorf1893_grc1-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes">
+            <note type="source">19. Aristophanis (Pac. 154, sq.) versibus</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ἀλλ᾽ ἄγε, Πήγασε, χώρει χαίρων</l>
+              <l n="2" xml:lang="grc">χρυσοχάλινον πάταγον ψαλίων</l>
+              <l n="3" xml:lang="grc">διακινήσας φαιδροῖς ὠσίν.</l>
+            </lg>
+            <note type="commentary">adscribit schol. : καὶ τάδε ἐκ Βελλεροφόντου</note>
+            <lg type="fragment">
+              <l n="4" xml:lang="grc">ἴθι χρυσοχάλιν, αἴρων πτέρυγας</l>
+            </lg>
+            <note type="commentary">τὸν κάνθαρον τῷ Πηγάσῳ ἐπεικάζων.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="20" xml:id="fragment-bellerophontes-dindorf1893_grc1-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:308">
+            <note type="source">20. Schol. Aristoph. Vesp. 754. Πάρες σκιερὰ παρὰ τὰ ἐκ Βελλεροφόντου παίζει ταῦτα·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πάρες, ὦ σκιερὰ φυλλὰς, ὑπερβῶ</l>
+              <l n="2" xml:lang="grc">κρηναῖα νάπη˙ τὸν ὑπὲρ κεφαλῆς</l>
+              <l n="3" xml:lang="grc">αἰθέρ᾿ ἰδέσθαι σπεύδω, τίν᾿ ἔχει</l>
+              <l n="4" xml:lang="grc">στάσιν Εἰνοδία.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="21" xml:id="fragment-bellerophontes-dindorf1893_grc1-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:310">
+            <note type="source">21. Ad Aristophanis (Equ. 1246) verba:</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">κυλίνδετ᾽ εἴσω τόνδε τὸν δυσδαίμονα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="fragment-bellerophontes-dindorf1893_grc1-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes">
+            <note type="source">22. Plut. de Tranqu. An. 17, (p. 475 C.)</note>
+            <note type="commentary">Πρὸς δὲ τὰ φύσει δοκοῦντα λυπεῖν, οἷα νόσοι καὶ πόνοι, καὶ θάνατοι φίλων καὶ τέκνων, ἐκεῖνο τὸ Εὐριπίδειον</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">γορευόμενον, μήδ᾽ ὥσπερ ὁ Εὐριπίδου Πήγασος</l>
+              <l n="2" xml:lang="grc">Ἔπτησσ᾽ ὑπείκων μᾶλλον ἢ θέλοι</l>
+            </lg>
+            <note type="commentary">τῷ Βελλεροφόντῃ, τοῖς δεομένοις ἑαυτὸν ἐκδιδόναι καὶ συνεκταπεινοῦν φοβούμενον ἀκοῦσαι τὸ σκληρός γε καὶ ἀπηνής. Idem in Polit. Præc. 11. (p. 807 Ε.) Ἀγησίλαος δὲ περὶ τὰς τῶν φίλων σπουδὰς αὐτὸς αὑτοῦ γιγνόμενος ἀσθενέστατος καὶ ταπεινότατος, ὥσπερ ὁ Εὐριπίδου Πήγασος</note>
+            <lg type="fragment">
+              <l n="3" xml:lang="grc">Ἔπτηξ᾽ ὑπείκων μᾶλλον ἢ μᾶλλον θέλοι,</l>
+            </lg>
+            <note type="commentary">καὶ ταῖς ἀτυχίαις προθυμότερον βοηθῶν τοῦ δέοντος ἐδόκει συνεξομοιοῦσθαι ταῖς ἀδικίαις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="23" xml:id="fragment-bellerophontes-dindorf1893_grc1-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:303">
+            <note type="source">23. Stobæus II, 15. Theoph. ad Autolyc. II, p. 115 ed. Paris. (p. 378 ed. Hag. Com. 1742.)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐδέποτ᾽ εὐτυχίαν κακοῦ ἀνδρὸς ὑπέρφρονά τ᾽ ὄλβον</l>
+              <l n="2" xml:lang="grc">βέβαιον εἰκάσαι χρεών,</l>
+              <l n="3" xml:lang="grc">οὐδ᾽ ἀδίκων γενεάν· ὁ γὰρ οὐδενὸς ἐκφὺς</l>
+              <l n="4" xml:lang="grc">χρόνος δικαίους ἐπάγων κανόνας</l>
+              <l n="5" xml:lang="grc">δείκνυσιν ἀνθρώπων κακότητας (ἐμοί).</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="24" xml:id="fragment-bellerophontes-dindorf1893_grc1-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:304">
+            <note type="source">24. Stobæus CV, 12.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ποῦ δὴ τὸ σαφὲς θνατοῖσι βιοτᾶς ;</l>
+              <l n="2" xml:lang="grc">θοαῖσι μὲν ναυσὶ πόρον πνοαὶ κατὰ</l>
+              <l n="3" xml:lang="grc">βένθος ἅλιον ἰθύνουσι· τύχας δὲ θνητῶν</l>
+              <l n="4" xml:lang="grc">τὸ μὲν μέγ᾽ εἰς οὐδὲν ὁ πολὺς χρόνος</l>
+              <l n="5" xml:lang="grc">μεθίστησι, τὸ δὲ μεῖον αὔξων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="25" xml:id="fragment-bellerophontes-dindorf1893_grc1-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes">
+            <note type="source">25. Stobæus LXXIII, 20.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ παγκακίστη καὶ γυνή· τί γὰρ λέγειν</l>
+              <l n="2" xml:lang="grc">μεῖζόν σε τοῦδ᾽ ὄνειδος ἐξείποι τις ἄν ;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="26" xml:id="fragment-bellerophontes-dindorf1893_grc1-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:298">
+            <note type="source">26. Stobæus XC, 10.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ ἂν γένοιτο τραύματ', εἴ τις ἐγξέσῃ</l>
+              <l n="2" xml:lang="grc">θάμνοις ἑλείοις, οὐδ᾽ ἂν ἐκ μητρὸς κακῆς</l>
+              <l n="3" xml:lang="grc">ἐσθλοὶ γένοιντο παῖδες εἰς ἀλκὴν δορός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="27" xml:id="fragment-bellerophontes-dindorf1893_grc1-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:296">
+            <note type="source">27. Stobæus Append. Flor. p. 20. T. IV, p. 389 ed. Gaisf.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀνὴρ δὲ χρηστὸς χρηστὸν οὐ μισεῖ ποτε,</l>
+              <l n="2" xml:lang="grc">κακῷ κακός τε συντέτηκεν ἡδοναῖς·</l>
+              <l n="3" xml:lang="grc">φιλεῖ δὲ θοὐμόφυλον ἀνθρώπους ἄγειν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="28" xml:id="fragment-bellerophontes-dindorf1893_grc1-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes">
+            <note type="source">28. Stobæus CXV, 2.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ παῖ, νέων τι δρᾶν μὲν ἔντονοι χέρες,</l>
+              <l n="2" xml:lang="grc">γνῶμαι δ᾽ ἀμείνους εἰσὶ τῶν γεραιτέρων</l>
+              <l n="3" xml:lang="grc">ὁ γὰρ χρόνος δίδαγμα ποικιλώτερον.</l>
+            </lg>
+            <note type="commentary">Ad hos vss, respexit Cornut. s. Phurnut. de Nat. Deor. p. 222 (in Galei Opusc. Myth.) ὡς γὰρ νέων τι δρᾶν εὐτονώτεραι αἱ χεῖρες, οὕτω ψυχαὶ ἀμείνους τῶν γεραιτέρων πολύ, unde Valck. ad Phen. 531, et ad Hipp. 119 hosce vss. effinxit:</note>
+            <lg type="fragment">
+              <l n="4" xml:lang="grc">ὦ παῖ, νέων δρᾶν εὐτονώτεραι χέρες,</l>
+              <l n="5" xml:lang="grc">γνῶμαι δ᾽ ἀμείνους τῶν γεραιτέρων πολύ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="29" xml:id="fragment-bellerophontes-dindorf1893_grc1-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:311">
+            <note type="source">29. Æl. Hist. An. V, 34. Τοιοῦτόν τινα καὶ τὸν Βελλεροφόντην ἡρωικῶς καὶ μεγαλοψύχως εἰς θάνατον παρασκευασμένον ὑμνεῖ ὁ Εὐριπίδης· πεποίηκε γοῦν πρὸς τὴν ἑαυτοῦ ψυχὴν λέγοντα αὐτόν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἦσθ᾽ εἰς θεοὺς μὲν εὐσεβὴς, ὅτ᾽ ἦσθ᾽ ἀεὶ</l>
+              <l n="2" xml:lang="grc">ξένοις τ᾽ ἐπήρκεις, οὐδ᾽ ἔκαμνες εἰς φίλους.</l>
+            </lg>
+            <note type="commentary">καὶ τὰ ἐπὶ τούτοις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="30" xml:id="fragment-bellerophontes-dindorf1893_grc1-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes">
+            <note type="source">30. Plut. de vitios. pud. 3. (p. 529 E.)</note>
+            <note type="commentary">οὐδὲ δεῖ τοῖς ἐπαίνοις κηλούμενον ἥδεσθαι, κομψὸν καὶ γορευόμενον, μήδ᾽ ὥσπερ ὁ Εὐριπίδου Πήγασος</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἔπτησσ᾽ ὑπείκων μᾶλλον ἢ θέλοι</l>
+            </lg>
+            <note type="commentary">τῷ Βελλεροφόντῃ, τοῖς δεομένοις ἑαυτὸν ἐκδιδόναι καὶ συνεκταπεινοῦν φοβούμενον ἀκοῦσαι τὸ σκληρός γε καὶ ἀπηνής. Idem in Polit. Præc. 11. (p. 807 Ε.) Ἀγησίλαος δὲ περὶ τὰς τῶν φίλων σπουδὰς αὐτὸς αὑτοῦ γιγνόμενος ἀσθενέστατος καὶ ταπεινότατος, ὥσπερ ὁ Εὐριπίδου Πήγασος</note>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Ἔπτηξ᾽ ὑπείκων μᾶλλον ἢ μᾶλλον θέλοι,</l>
+            </lg>
+            <note type="commentary">καὶ ταῖς ἀτυχίαις προθυμότερον βοηθῶν τοῦ δέοντος ἐδόκει συνεξομοιοῦσθαι ταῖς ἀδικίαις.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="31" xml:id="fragment-bellerophontes-dindorf1893_grc1-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_bellerophontes" sameAs="urn:cts:greekLit:tlg0006.bellerophontes.nauck1889grc1:312">
+            <note type="source">31. Aristoph. Pac. 721.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὑφ᾽ ἅρματ᾽ ἐλθὼν Ζηνὸς ἀστραπηφορεῖ.</l>
+            </lg>
+            <note type="commentary">ubi Schol. ὁ στίχος ἐκ Βελλεροφόντου Εὐριπίδου.</note>
+          </div>
+          </div></body></text></TEI>

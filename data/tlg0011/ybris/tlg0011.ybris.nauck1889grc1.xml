@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-ybris-nauck1889grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΥΒΡΙΣ ΣΑΤΥΡΙΚΗ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0011">Sophocles</author>
+        <editor>August Nauck</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability>
+          <p>Derived scholarly transcription; verify against page images before quotation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>August Nauck, Tragicorum Graecorum Fragmenta, second edition (Leipzig: Teubner, 1889).</bibl>
+        <ptr target="../../../nauck1889/source/nauck1889.tragicorum-graecorum-fragmenta.xml"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Extracted deterministically from nauck.tragfrag-2.xml; repaired the malformed TEI namespace URI.</change>
+    <change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.ybris; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.ybris.nauck1889grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.ybris.nauck1889grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_ybris"><head>ΥΒΡΙΣ ΣΑΤΥΡΙΚΗ</head><div type="textpart" subtype="fragment" n="609" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_ybris" xml:id="fragment-ybris-nauck1889grc1-609">
+            <head>609</head>
+            <lg>
+              <l n="1" xml:lang="grc">λήθην τε τὴν πάντ’ ἀπεστερημένην</l>
+              <l n="2" xml:lang="grc">κωφὴν ἄναυδον</l>
+            </lg>
+            <p>Stob. Flor. 26 , 3 : Σοφοκλέους Ὕβρεως σατύρου (sic MA, σατύρου
+om. S) . ‘λήθην — ἄναυδον’ . v. 1 τὴν πάντ’ SMA, <add>καὶ</add> τὴν
+πάντ’ Gesner, τὴν ἅπαντ’ Wagner, τὴν <add>τὰ</add> πάντ’ Gomperz.</p>
+          </div>
+          <div type="textpart" subtype="fragment" n="610" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_ybris" xml:id="fragment-ybris-nauck1889grc1-610">
+            <head>610</head>
+            <lg>
+              <l n="1" xml:lang="grc">ἐσθίειν ἐθέλων τὸν δέλφακα</l>
+            </lg>
+            <p>Ath. XIV p. 657 A : δέλφακα δὲ ἀρσενικῶς εἴρηκε — Σοφοκλῆς
+Ὕβρει ‘ἐσθίειν — δέλφακα’ . θέλων probabiliter coni. Dindorf.</p>
+          </div>
+        </div></body></text></TEI>

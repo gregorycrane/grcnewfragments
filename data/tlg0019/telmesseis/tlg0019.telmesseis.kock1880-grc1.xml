@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΤΕΛΜΗΣΣΕΙΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.telmesseis.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.telmesseis.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.telmesseis.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmesseis"><head>ΤΕΛΜΗΣΣΕΙΣ</head><div type="textpart" subtype="fragment" n="533" xml:id="kock-0019-telmesseis-533" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmesseis">
+              <p>ἀλφιτόχρωτος κεφαλῆς</p>
+              <note type="source">τῆς πολιᾶς. Ἀριστοφάνης Ταλμισσεῦσιν. Bekker. Anecd. 386, 6. Hesychius ἀλφιτόχρως· λευκή, πολιά. Eustathius 868, 37. 976, 53. cf. Lobeck. Rhemat. 325. sunt duo choriambi: sed ex trimetro excerpta existimaverim inserta inter utrumque nomen voce monosyllaba.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="534_535" xml:id="kock-0019-telmesseis-534_535" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmesseis">
+              <lg>
+                <l n="1" xml:id="kock-0019-telmesseis-534_535-l1" xml:lang="grc">ὡς ἄν τις ἂν οὖν ἢ τί ποιήσας, ὦ Τελεμησσῆς;</l>
+                <l n="2" xml:id="kock-0019-telmesseis-534_535-l2" xml:lang="grc">* * * *</l>
+                <l n="3" xml:id="kock-0019-telmesseis-534_535-l3" xml:lang="grc">φέρε δὴ τοίνυν ταῦθ' ὅταν ἔλθῃ, τί ποιεῖν χρή μ', ὦ Τελε-</l>
+                <l n="4" xml:id="kock-0019-telmesseis-534_535-l4" xml:lang="grc">μησσῆς;</l>
+              </lg>
+              <note type="source">Stephanus Byzant. Τελμησσός· πόλις Καρίας . . . ὁ πολίτης Τελμησσεύς, καὶ δρᾶμα Ἀριστοφάνους Τελμησσεῖς. λέγεται καὶ τετρασυλλάβως, ὡς αὐτὸς ἐν αὐτῷ· ὡς — Τελεμησσεῖς, καὶ πάλιν· φέρε — Τελεμησσεῖς. ἔστι δὲ τὸ μέτρον ἀναπαιστικὸν τετράμετρον καταληκτικόν, οὗ πρὸ τῆς τελευταίας συλλαβῆς ἀνάπαιστος τάττεται, σπανιαίτατα δὲ σπονδεῖος. Herodian. II 227, 28. 589, 8. 895, 24.</note>
+              <note type="apparatus">— 1. ἢ τί Meinek.] ἤτι V. ἦτι R. ὅτι Α. ὦ Τελεμησσεῖς Bergk. (Τελεμησσῆς Meinek.)] ὡς Τελεμισσεῖς RV, ὡς Τελμισσεῖς Α. Meinekius aut πῶς ἄν τις ἂν οὖν, ἢ τι ποιήσας πείσειεν ἄν, ὦ Τ. aut πῶς ἄν τις ἂν οὖν ταῦτ' εἰδείη; τί π. κτλ. 2. Τελμισσεῖς Α, Τελμισσεῖς RV. in Kirchhoffii inscriptionibus semper Τελεμήσσιοι, veluti 37 p. 19 et 22. 234 p. 118. postea semper Τελμησσεύς. cf. Roehl. Ind. inser. gr. in primo versu πῶς ἢ τί ποιήσας molestissimum, πῶς ἄν τις ἄν Atticis inauditum, siquidem iteratae particulae semper vox gravior interponitur. fortasse poeta scripsit πῶς μάντις δ' ἂν τούτων εἴην; τί π. ὦ Τ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="536" xml:id="kock-0019-telmesseis-536" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmesseis">
+              <lg>
+                <l n="1" xml:id="kock-0019-telmesseis-536-l1" xml:lang="grc">μεταπέμπου νῦν ταῦτα σπουδῇ καὶ μύρον, εὕρημα Μεγάλλου.</l>
+              </lg>
+              <note type="source">Hesychius Μετάλλειον μύρον· Ἀριστοφάνης κτλ. Athen. 15, 690f τὸ Μεγάλλειον . . . μνημονεύει δ' αὐτοῦ Ἀριστοφάνης ἐν Τελμισσεῦσι. Etym. m. 587, 7 διὰ τοῦ η γράφει (Μεγάλλου) Ἀριστοφάνης Τελμισεῦσιν. Ὧρος. Μεγάλλου Athen. et Etym.] Μετάλλου Hesych. cf. Pherecr. 140.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="537" xml:id="kock-0019-telmesseis-537" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_telmesseis">
+              <p>μελανοπτερύγων κορακίνων</p>
+              <note type="source">Athenaeus 7, 308f Ἀριστοφάνης ἐν Τελμισσεῦσιν. aut paroe-</note>
+            </div>
+          </div></body></text></TEI>

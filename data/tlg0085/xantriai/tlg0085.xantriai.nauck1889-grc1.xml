@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΞΑΝΤΡΙΑΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.xantriai; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.xantriai.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.xantriai.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai"><head xml:lang="grc">ΞΑΝΤΡΙΑΙ</head>
+          <note type="introduction" xml:lang="mul">Schol. Aesch. Eum. 26 : νῦν φησὶν ἐν Παρνασῷ εἶναι τὰ κατὰ Πενθέα, ἐν δὲ ταῖς Ξαντρίαις ἐν Κιθαιρῶνι. Elmsley in Argum. Eur. Bacch. huc respexisse suspicatur Philostratum Imag. 1, 18 : καὶ ἥδε σοι ἡ ἐλάτη χαμαὶ γυναικῶν ἔργον ἐκ Διονύσου μέγα, πέπτωκε δὲ τὸν Πενθέα ἀποσεισαμένη ταῖς βάκχαις ἐν εἴδει λέοντος... aliter statuit Fritzsche in Ar. Ran. p. 413-417.</note>
+          <div type="textpart" subtype="fragment" n="168" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai" xml:id="aesch-fr168">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-168-1">ὀρεσσιγόνοισι</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-168-2">νύμφαις κρηνιάσιν κυδραῖσι θεαῖσιν ἀγείρω</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-168-3">Ἰνάχου Ἀργείου ποταμοῦ παισὶν βιοδώροις</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ar. Ran. 1344 : Νύμφαι ὀρεσσίγονοι , ubi Schol. : ἐκ τῶν Ξαντριῶν Αἰσχύλου (ita RV, Eὐριπίδου ceteri) , φησὶν Ἀσκληπιάδης· εὗρε δὲ Ἀθήνησιν ἔν τινι τῶν διαθέντων (διασωθέντων αὐτογράφων Dobree, διασωθέντων Dindorf) νύμφαι ὀρεσιγόνιαι (ὀρεσιγόνιοι V) θεαῖσιν ἀγείρω, Ἰνάχου Ἀργείου ὑπὸ ποταμοῦ παισὶ βιοδώροις . Plat. Rei publ. II p. 381 D (quem locum repetit Eusebius P. E. XIII p. 645 C) : μηδὲ Πρωτέως καὶ Θέτιδος καταψευδέσθω μηδεὶς... εἰσαγέτω Ἥραν ἠλλοιωμένην ὡς ἱέρειαν ἀγείρουσαν Ἰνάχου Ἀργείου ποταμοῦ παισὶ βιοδώροις . Diogenes Epist. 34, 2 p. 248 : ...νύμφαις κρήναισιν κυδραῖς θεαῖς ἀγείρουσαν Ἰνάχου Ἀργείαις ποταμοῦ παισὶν βιοδώροις . Paus. 8, 6, 6 : ...ἐπὶ τούτῳ τὸν Ἴναχον ἄλλοι τε καὶ Αἰσχύλος ποταμὸν καλοῦσιν Ἀργεῖον.</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 et 2 ὀρεσσιγόνοισι νύμφαις κρηνιάσιν Meineke restituit. v. 2 κυδραῖσι .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="169" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai" xml:id="aesch-fr169">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-169-1">ἐκ ποδῶν δ’ ἄνω</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-169-2">ὑπέρχεται σπαραγμὸς εἰς ἄκρον κάρα,</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-169-3">κέκτημα γλώσσης, σκορπίου βέλος λέγω.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Phot. Lex. p. 326, 22 et Suid. v. ὀκτώπουν : — παροιμία γὰρ ’σκορπίον ὀκτώπουν ἀνεγείρεις’ . ἐν δὲ ταῖς Αἰσχύλου Ξαντρίαις ἡ Λύσσα ἐπιθειάζουσα ταῖς βάκχαις φησίν’ .ἐκ — λέγω’ . v. 3 λύσσης (in Soph. Ai. 60 p. 103 ed. sec.) .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="170" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai" xml:id="aesch-fr170">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-170-1">ἃς οὔτε πέμφιξ ἡλίου προσδέρκεται</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-170-2">οὔτ’ ἀστερωπὸν ὄμμα Λητῴας κόρης.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Galenus vol. 17, 1 p. 880 : ἐπὶ δὲ τῶν ἀκτίνων δοκεῖ χρῆσθαι τῷ τῆς πέμφιγος ὀνόματι Σοφοκλῆς ἐν Κόλχοις — . οὕτω καὶ Αἰσχύλος ἐν Ξαντρίαις ἃς — κόρης . v. 1 ἐξ ἀντιαίαις ἐν Ξαντρίαις ἃς (Epist. ad Millium p. 50) . Photius Lex. p. 409, 10 : πέμφιξ (πέμψιξ cod.)· πνοή . Αἰσχύλος Ξαντρίαις ἐπὶ τῶν ἀκτίνων. v. 2 ἀστέρων στόμα ἀστερωπὸν ὄμμα . ceterum huic loco similia sunt quae in Prom. 796 dixit Aeschylus, μονόδοντες, ἃς οὔθ’ ἥλιος προσδέρκεται ἀκτῖσιν οὔτε νύκτερος μήνη ποτέ .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="171" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai" xml:id="aesch-fr171">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-171-1">κάμακες πεύκης οἱ πυρίφλεκτοι</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Pollux 10, 117 : τὰς μέντοι λαμπάδας καὶ κάμακας εἴρηκεν ἐν Ξαντρίαις Αἰσχύλος ’κάμακες — πυρίφλεκτοι’ .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="172" corresp="urn:cite2:perseus:fragmentaryplays.v1:xantriai" xml:id="aesch-fr172">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-172-1">τῶνδε βούλευτις πόνων</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Etym. M. p. 595, 40 : ...βουλευτής βούλευτις, οἷον ’τῶνδε βούλευτις πόνων’ ἐν ταῖς Ξαντρίαις. dubitatur utrum Aeschylea fabula indicetur an comoedia Platonis, cf. Meineke Com. 2 p. 646.</note>
+          </div>
+        </div></body></text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>HERMIPPUS, ΑΘΗΝΑΣ ΓΟΝΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Hermippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0252.athenas_gonai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0252.athenas_gonai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0252.athenas_gonai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_athenas_gonai"><head>ΑΘΗΝΑΣ ΓΟΝΑΙ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0252-athenas_gonai-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_athenas_gonai">
+              <lg>
+                <l n="1" xml:id="kock-0252-athenas_gonai-1-l1" xml:lang="grc">ὁ Ζεὺς ‘δίδωμι Παλλάς’ ἠσί ‘τοὔνομα’.</l>
+              </lg>
+              <note type="source">
+                <p>Photius 61, 26 Suid. ἦ δ’ ὅς· καὶ ἦν δ’ ἐγὼ ἀντὶ τοῦ ἔφην δ’ ἐγώ. παρ’ ὃ δὴ καὶ Ἕρμιππος ἐν Ἀθηνᾶς γοναῖς ἠσὶν ἀντὶ τοῦ φησίν· ὁ Ζεὺς κτλ. δίδωμι Παλλάς ἠσί Porson.] διδωνω πολλὰς φησι cod. Phot. διδώνα πολλὰς φησι Suid. V. διδωνα πολύ . . . . σι E. om. A in lacuna. Etym. m. 416, 34 ἦν δ’ ἐγὼ ἀντὶ τοῦ ἔφην ἐγώ. παρ’ ὃ δὴ Ἕρμιππος· . . . (plura exciderunt). cf. Schol. Arist. Vesp. 795, ubi pro ἐπὶ μέλλοντος scribendum est ἐπὶ παρελθόντος. ἠμί Aristoph. Ran. 37. Sapph. 97 δώσομεν, ἦσι πατήρ. Alcman ἠτί. narrat nescio quis, quo modo Iuppiter deae modo natae nomen inposuerit. ceterum pater fere ὄνομα τίθεται, non δίδωσιν. Aristoph. Nub. 65. Av. 923.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0252-athenas_gonai-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_athenas_gonai">
+              <lg>
+                <l n="1" xml:id="kock-0252-athenas_gonai-2-l1" xml:lang="grc">ἀπὸ τῆς τραπέζης τουτονὶ τὸν στήμονα</l>
+                <l n="2" xml:id="kock-0252-athenas_gonai-2-l2" xml:lang="grc">ἄττεσθ’ ἐπινοῶ.</l>
+              </lg>
+              <note type="source">
+                <p>Bekker. Anecd. 461, 26 ἄττεσθαι ὃ ἡμεῖς διάζεσθαι. Ἕρμιππος Ἀθηνᾶς γοναῖς κτλ. ἐπινοώ Valck. Theocr. Adon. p. 206 c] ἐπινοῶν. Hesych. ἄττεσθαι· διάζεσθαι στήμονα. ‘licia telae adnectere’ Schneider Ind. Script. r. r. p. 375. supplendum fere καταλαβοῦσα (ἀπὸ τ. τρ.). dea ipsa loqui videtur Bergk. R. c. Att. 307.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0252-athenas_gonai-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_athenas_gonai">
+              <lg>
+                <l n="1" xml:id="kock-0252-athenas_gonai-3-l1" xml:lang="grc">τὴν μὲν διάλεκτον καὶ τὸ πρόσωπον ἀμνίου</l>
+                <l n="2" xml:id="kock-0252-athenas_gonai-3-l2" xml:lang="grc">ἔχειν δοκεῖς, τὰ δ’ ἔνδον οὐδὲν διαφέρεις</l>
+                <l n="3" xml:id="kock-0252-athenas_gonai-3-l3" xml:lang="grc">δράκοντος.</l>
+              </lg>
+              <note type="source">
+                <p>Etymol. m. 146, 25 ἄμνιος σημαίνει τὸν ἀμνὸν καὶ διὰ τοῦ ι γράφεται καὶ προπαροξύνεται· ὡς παρὰ Ἑρμίππῳ ἐν Ἀθηνᾶς γοναῖς τὴν μὲν κτλ. nominativus potius est ἀμνίον.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0252-athenas_gonai-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_athenas_gonai">
+              <lg>
+                <l n="1" xml:id="kock-0252-athenas_gonai-4-l1" xml:lang="grc">ἐκεῖνός ἐστι στρογγύλος τὴν ὄψιν, ὦ πονηρέ,</l>
+                <l n="2" xml:id="kock-0252-athenas_gonai-4-l2" xml:lang="grc">ἐντὸς δ’ ἔχων περιέρχεται κύκλῳ τὰ πάντ’ ἐν αὑτῷ,</l>
+                <l n="3" xml:id="kock-0252-athenas_gonai-4-l3" xml:lang="grc">ἡμᾶς δὲ τίκτει περιτρέχων τὴν γῆν ἁπαξάπασαν·</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="4_2" org="uniform" xml:id="kock-0252-athenas_gonai-4_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_athenas_gonai">
+              <lg type="verse">
+                <l n="4" xml:id="kock-0252-athenas_gonai-4_2-l4" xml:lang="grc">ὀνομάζεται δ᾽ ἐνιαυτός, ὢν δὲ περιφερὴς τελευτὴν</l>
+                <l n="5" xml:id="kock-0252-athenas_gonai-4_2-l5" xml:lang="grc">οὐδεμίαν οὐδ᾽ ἀρχὴν ἔχει, κυκλῶν δ᾽ ἀεὶ τὸ σῶμα</l>
+                <l n="6" xml:id="kock-0252-athenas_gonai-4_2-l6" xml:lang="grc">οὐ παύσεται δι᾽ ἡμέρας ὁσημέραι τροχάζων.</l>
+              </lg>
+              <note type="source">Stobaeus Eclog. phys. 1, 8, 36. ‘falsum est quod ait Heerenius cod. A in marg. habere ἀναγενέως Ἑρμίππου, in quo hoc fragmentum praecedenti iungitur. quod si ita legatur in V, non male eum coniecisse arbitror Ἀθηνᾶς γοναῖς pro ἀναγενέως’. Gaisf.</note>
+              <note type="apparatus">1. ἐστι στρογγύλος τὴν ὄψιν Meinek.] ἐστὶν τὴν ὄψιν στρογγύλος. 2. τὰ πάντ᾽ ἐν αὑτῷ Meinek.] τὰ παρ᾽ ἑαυτῷ V. τὰ παρ᾽ ἐν αὐτῶ A. 3. ἁπαξάπασαν Grotius] ἅπαξ πᾶσαν. 5. ἔχει add. Grotius. 6. παύσεται] παύεται Bergkius R. c. Att. 308. τροχάζων] τροχάζω V. Scythinus apud Stob. Ecl. phys. 1, 8, 43 χρόνος ἐστὶν ὕστατον καὶ πρῶτον πάντων καὶ ἔχει ἐν ἑαυτῷ πάντα, καὶ ἔστιν εἰς ἀεί. et quod omnia in se contineret, ἐνιαυτόν eum (annum) adpellatum esse credebant. traducit autem poeta philosophos maxime Heracliteos, de vi et natura temporis quaerentes. Bergk. R. c. Att. 308. γῆν pendet a περιτρέχων.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5_6" org="uniform" xml:id="kock-0252-athenas_gonai-5_6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_athenas_gonai">
+              <lg type="verse">
+                <l n="1" xml:id="kock-0252-athenas_gonai-5_6-l1" xml:lang="grc">καιροσπάθητον ἀνθέων ὕφασμα καινὸν Ὡρῶν.</l>
+                <l n="2" xml:id="kock-0252-athenas_gonai-5_6-l2" xml:lang="grc">λεπτοὺς διαψαίρουσα πέπλους ἀνθέων γέμοντας.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 404, 28 et Suidas ἀνθέων· τὴν γενικὴν ὁμοίως τοῖς Ἴωσιν οἱ Ἀττικοί. Ἔρμιππος Ἀθηνᾶς γοναῖς κηροσπάθητον . . . Ὡρῶν. καὶ ἐν τοῖς ἑξῆς λεπτοὺς κτλ.</note>
+              <note type="apparatus">καιροσπάθητον Toup. Emend. II 482] κηροσπάθητον. ὡρῶν A Suid.] ὁρῶν. Ἀθηνᾶς γοναῖς] ἀθήναις cod. Bekk. πέπλους et λεπτούς transponi iubet Meinekius. recte: quamquam παρατραγῳδεῖν poetam censet Cobetus Mnem. IIII 125. ‘καῖρος a quibusdam idem putatur qui μίτος. Phot. καῖρος· σειρά τις ἐν ἱστῷ, δι᾽ ἧς οἱ στήμονες διείργονται, i. e. funis stamina discriminans’. Schneider. Ind. Script. r. r. 373. poeta tragicus ap. Plut. Mor. 691d λεπτοσπαθήτων χλανιδίων, et Hom. Od. 7, 107 καιροσέων ὀθονέων. ἀνθέων ὕφασμα et πέπλοι ἀνθέων γέμοντες sunt vestes floribus intextis. optime Bergkius R. c. Att. 307 confert poetam apud Athen. 15, 682 ef εἵματα μὲν χροῒ ἕστο, τά οἱ Χάριτές τε καὶ Ὧραι ποίησαν καὶ ἔβαψαν ἐν ἄνθεσιν εἰαρινοῖσιν, . . . ἔν τε κρόκῳ ἔν θ᾽ ὑακίνθῳ, ἔν τε ἴῳ θαλέθοντι κτλ. cf. etiam Plat. Reip. 8, 557c ἱμάτιον πᾶσιν ἄνθεσιν πεποικιλμένον. v. 2 quodammodo similis est Aristoph. Av. 1717, unde recte Meinekius ad διαψαίρουσα supplet αὔρα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" org="uniform" xml:id="kock-0252-athenas_gonai-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_athenas_gonai">
+              <note type="source">Schol. Plat. 353 Bekk. τὸ ἀκκίζεσθαι ἐκ γυναικὸς εἰρῆσθαί φασιν Ἀκκοῦς . . , ἣν οὕτως εὐήθη λέγουσιν ὡς ἀπὸ τοῦ ἱστοῦ</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-phoinix-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΦΟΙΝΙΞ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.phoinix; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.phoinix.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.phoinix.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phoinix"><head>ΦΟΙΝΙΞ</head><div type="textpart" subtype="fragment" n="641" xml:id="fragment-phoinix-dindorf1893_grc1-641" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phoinix">
+            <note type="source">Hesychius, Καταρράκτης: ὀχετὸς, ῥύαξ. καὶ ὁ ἀετός. Σ. Λαοκόωντι. καὶ τὰς Ἁρπυίας ἐν Φινεῖ. Codex καὶ ταρπυίας ἐν φίνη.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="642" xml:id="fragment-phoinix-dindorf1893_grc1-642" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phoinix">
+            <note type="source">Eustathius p. 1496, 53. Ἐν δὲ ῥητορικῷ λεξικῷ εὕρηνται καὶ μάστακες αἱ ἀκρίδες. καὶ λέγεται κεῖσθαι τοῦτο παρὰ Σοφοκλεῖ ἐν Φινεῖ. Photius p. 248, 18. Μάστακας : τὰς ἀκρίδας. Σοφοκλῆς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="643" xml:id="fragment-phoinix-dindorf1893_grc1-643" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phoinix" sameAs="urn:cts:greekLit:tlg0011.phoinix.nauck1889grc1:651">
+            <note type="source">Athenæus II, p. 70 a. Κινάρα. ταύτην Σοφοκλῆς ἐν Κολχίσι κυνάραν καλεῖ, ἐν δὲ Φοίνικι κύναρον</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κύναρος ἄκανθα πάντα πληθύει γύην.</l>
+            </lg>
+            <note type="source">Excerpsit Eustathius p. 1822, 17.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="644" xml:id="fragment-phoinix-dindorf1893_grc1-644" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phoinix" sameAs="urn:cts:greekLit:tlg0011.phoinix.nauck1889grc1:652">
+            <note type="source">Irenæus apud Socratem hist. eccles. III, 7. Παρὰ Σοφοκλεῖ ἐν τῷ Φοίνικι ἐνέδραν σημαίνειν τὴν ὑπόστασιν. Idem omisso nomine fabulæ tradit Julius Pollux Hist. phys. p. 376.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="645" xml:id="fragment-phoinix-dindorf1893_grc1-645" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phoinix" sameAs="urn:cts:greekLit:tlg0011.phoinix.pearson1917-grc1:720">
+            <note type="source">Eustathius p. 1088, 36. Φορβάς γυνὴ παρὰ Σοφοκλεί, φασὶν, ἐν Φοίνικι ἡ πολλοῖς προσομιλοῦσα τροφῆς χάριν.</note>
+          </div>
+        </div></body></text></TEI>

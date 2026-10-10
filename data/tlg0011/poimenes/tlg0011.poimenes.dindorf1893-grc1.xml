@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-poimenes-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΠΟΙΜΕΝΕΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.poimenes; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.poimenes.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.poimenes.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes"><head>ΠΟΙΜΕΝΕΣ</head><div type="textpart" subtype="fragment" n="443" xml:id="fragment-poimenes-dindorf1893_grc1-443" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes">
+            <note type="source">Tzetzes ad Lycophronem 529.</note>
+            <quote>Ἱστορεῖ ὁ Σοφοκλῆς ἐν Ποιμέσιν ὑπὸ τοῦ Ἕκτορος ἀναιρεθῆναι τὸν Πρωτεσίλαον.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="444" xml:id="fragment-poimenes-dindorf1893_grc1-444" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:472">
+            <note type="source">Sextus Empiricus adversus Grammaticos p. 286.</note>
+            <quote>Οὔτε γὰρ ἐκ τέχνης τινὸς μεμαθήκασιν ὅτι οἱ παρὰ τῷ Σοφοκλεῖ ποιμένες, ἰὼ βαλλὴν λέγοντες, ἰὼ βασιλεῦ λέγουσι Φρυγιστί· ἀλλὰ παρ᾽ ἄλλων ἀκούσαντες.</quote>
+            <note type="source">Hesychius, Βαλλήν: βασιλεὺς Φρυγιστί.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="445" xml:id="fragment-poimenes-dindorf1893_grc1-445" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:461">
+            <note type="source">Harpocratio in Νάννιον.</note>
+            <quote>Ὅτι γὰρ θαλλῷ χαίρουσιν αἱ αἶγες καὶ Σοφοκλῆς Ποιμέσιν</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐωθινὸς γὰρ πρίν τιν᾽ αὐλιτῶν ὁρᾶν,</l>
+              <l n="2" xml:lang="grc">θαλλὸν χιμαίρᾳ προσφέρων νεοσπάδα,</l>
+              <l n="3" xml:lang="grc">εἶδον στρατὸν στείχοντα παραλίαν πέτραν.</l>
+            </lg>
+            <note type="commentary">"Leguntur hi versus etiam apud Athenæum XIII, p. 587 a. Ad primum pertinet Hesychii glossa : Αὐλητήν: τὸν τοῦ κόπρου ἐπιμελούμενον τῶν προβάτων." BRUNCK.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="446" xml:id="fragment-poimenes-dindorf1893_grc1-446" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:462">
+            <note type="source">Athenæus VII, p. 319 b.</note>
+            <quote>Τῶν πηλαμύδων μνημονεύει καὶ Σοφοκλῆς ἐν Ποιμέσιν</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἔνθ' ἡ πάροικος πηλαμὺς χειμάζεται,</l>
+              <l n="2" xml:lang="grc">πάραυλος Ἑλλησποντὶς, ὡραία θέρους</l>
+              <l n="3" xml:lang="grc">τῷ Βοσπορίτῃ, τῷδε γὰρ θαμίζεται.</l>
+            </lg>
+            <note type="source">Hesychius, Θαμίζεται: ὁμιλεῖ.</note>
+            <note type="commentary">Ex eodem (s. v. πάραυλος) correctum quod ap. Athen. v. 2. legitur πάροικος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="447" xml:id="fragment-poimenes-dindorf1893_grc1-447" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:464">
+            <note type="source">Plutarchus Vit. p. 795 b.</note>
+            <quote>Οἱ Σοφοκλέους βοτῆρες ἐπὶ τῶν ποιμνίων λέγουσιν</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τούτοις γὰρ ὄντες δεσπόται δουλεύομεν,</l>
+              <l n="2" xml:lang="grc">καὶ τῶνδ᾽ ἀνάγκη καὶ σιωπώντων κλύειν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="448" xml:id="fragment-poimenes-dindorf1893_grc1-448" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:466">
+            <note type="source">Suidas, Ἀμφήμερον: τὸν ἀμφημερινὸν πυρετόν</note>
+            <note type="source">Σ. Π.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κρυμὸν φέρων γνάθοισιν ἐξ ἀμφημέρου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="449" xml:id="fragment-poimenes-dindorf1893_grc1-449" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes">
+            <note type="source">Suidas in θρηνεῖν, Σ. Π.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Λόγῳ γὰρ οὐδὲν ἕλκος οἶδά πω χανόν.</l>
+            </lg>
+            <note type="commentary">Vulgo που.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="450" xml:id="fragment-poimenes-dindorf1893_grc1-450" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:458">
+            <note type="source">Photius p. 307, 17. et Suidas, Ξανῶ: κοπιάσω. Σ. Ποιμέσιν·</note>
+            <quote>Ἕκτωρ τοῖς Ἀχαιοῖς βουλόμενος μάχεσθαί φησιν</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἠδὺ ξανῆσαι καὶ προγυμνάσαι χέρα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="451" xml:id="fragment-poimenes-dindorf1893_grc1-451" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:465">
+            <note type="source">Herodianus περὶ μονήρους λέξεως p. 11, 3.</note>
+            <note type="source">Ποσίδειος—Σοφοκλῆς Ποιμέσι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τειχέων καὶ δὴ τοὺς Ποσιδείους</l>
+              <l n="2" xml:lang="grc">θριγκοὺς ἀποσεισαμένη.</l>
+            </lg>
+            <note type="apparatus">V. 1. codex τυχῶν, i. e. τειχῶν. V. 2. aut cæsuram neglexit poeta aut aliquid omisit grammaticus.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="452" xml:id="fragment-poimenes-dindorf1893_grc1-452" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:473">
+            <note type="source">Hesychius, Ἀναλῶσαι: ἀφανίσαι. Ποιμέσιν (codex ποιμένεσιν).</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="453" xml:id="fragment-poimenes-dindorf1893_grc1-453" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:474">
+            <note type="source">Antiatticista p. 84, 10.</note>
+            <quote>Βάρις: κατ' οἰκίας καὶ πλοίου. Σ. ἐν Ποιμέσι βαρίβαν λέγει τὸν ναύτην ἢ τὸν τῆς βάρεως ἐπιβεβηκότα.</quote>
+            <note type="commentary">De hoc vocabulo dixit Lobeckius ad Phrynichum p. 609.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="454" xml:id="fragment-poimenes-dindorf1893_grc1-454" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:470">
+            <note type="source">Hesychius, Βερέκυντα βρόμον: Φρύγιον αὐλόν. Σ. π.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="455" xml:id="fragment-poimenes-dindorf1893_grc1-455" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:475">
+            <note type="source">Stephanus, Γραικός:—</note>
+            <quote>Γραῖκες δὲ παρὰ Ἀλκμᾶνι αἱ τῶν Ἑλλήνων μητέρες, καὶ παρὰ Σοφοκλεῖ ἐν Ποιμέσιν.</quote>
+            <note type="commentary">Conf. fragm. 933.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="456" xml:id="fragment-poimenes-dindorf1893_grc1-456" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes">
+            <note type="source">"Iavva: vide fragm. 54.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="457" xml:id="fragment-poimenes-dindorf1893_grc1-457" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:459">
+            <note type="source">Βοὴν Κυκνῖτιν: vide fragm. 440.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="458" xml:id="fragment-poimenes-dindorf1893_grc1-458" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes">
+            <note type="source">Πελλός: vide fragm. 122.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="459" xml:id="fragment-poimenes-dindorf1893_grc1-459" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:477">
+            <note type="source">Παρασάγγας: vide fragm. 127.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="460" xml:id="fragment-poimenes-dindorf1893_grc1-460" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes" sameAs="urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1:471">
+            <note type="source">Hesychius, Φοινικίοις γράμμασιν: Σ. Ποιμέσιν.</note>
+            <quote>ἐπεὶ δοκεῖ Κάδμος αὐτὰ ἐκ Φοινίκης κεκομικέναι.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="461" xml:id="fragment-poimenes-dindorf1893_grc1-461" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_poimenes">
+            <note type="source">Etymolog. Μ. p. 405, 32.</note>
+            <quote>Τὸ ψὸ ἐν Ποιμέσι Σοφοκλέους ἐπίφθεγμα.</quote>
+            <note type="source">Memorat etiam Herodianus περὶ μονήρους λέξεως p. 46, 18.</note>
+          </div>
+        </div></body></text></TEI>

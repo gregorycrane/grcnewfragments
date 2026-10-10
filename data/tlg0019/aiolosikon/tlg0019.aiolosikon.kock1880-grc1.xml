@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΑΙΟΛΟΣΙΚΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.aiolosikon.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.aiolosikon.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.aiolosikon.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon"><head>ΑΙΟΛΟΣΙΚΩΝ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0019-aiolosikon-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <lg>
+                <l n="1" xml:id="kock-0019-aiolosikon-1-l1" xml:lang="grc">ἥκω Θεαρίωνος ἀρτοπώλιον</l>
+                <l n="2" xml:id="kock-0019-aiolosikon-1-l2" xml:lang="grc">λιπών, ἵν' ἐστὶ κριβάνων ἑδώλια.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 3, 112e οὗτός ἐστι Θεαρίων ὁ ἀρτοποιός, οὗ μνημονεύει ... Ἀριστοφάνης ἐν Γηρυτάδῃ καὶ Αἰολοσίκωνι διὰ τούτων κτλ.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0019-aiolosikon-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <lg>
+                <l n="1" xml:id="kock-0019-aiolosikon-2-l1" xml:lang="grc">ἀλλ᾽ ἄνυσον· οὐ μέλλειν ἐχρῆν, ὡς ἀγοράσω</l>
+                <l n="2" xml:id="kock-0019-aiolosikon-2-l2" xml:lang="grc">ἁπαξάπανθ᾽, ὅσ᾽ ἂν κελεύῃς, ὦ γύναι.</l>
+              </lg>
+              <note type="source">Bekk. Anecd. 331, 24 et Suidas <quote>ἀγοράσαι· ἀγοράσαι λέγουσι, τὸ δ᾽ ἀγορᾶν βάρβαρον, παραδειγμάτων δὲ μεστὰ πάντα, εἰλήφθω δ᾽ ὅμως Ἀριστοφάνους ἐξ Αἰολοσίκωνος</quote> (nomen fab. om. Anecd. Bekk.) κτλ.</note>
+              <note type="apparatus">ὅσ᾽ ἂν κελεύῃς Bekker.] ὅσα κελεύεις. Bekker. Anecd. 20, 6 (cf. 78, 8) ἀγοράζειν· καὶ τὸ ὠνεῖσθαι καὶ τὸ ἐν ἀγορᾷ διατρίβειν (Aristoph. Eq. 1373). videtur ipse Aelosicon loqui ad cenam adparandam discedens.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0019-aiolosikon-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <lg>
+                <l n="1" xml:id="kock-0019-aiolosikon-3-l1" xml:lang="grc">ὅπερ δὲ λοιπὸν μόνον ἔτ᾽ ἦν ἐν τῇ γνάθῳ</l>
+                <l n="2" xml:id="kock-0019-aiolosikon-3-l2" xml:lang="grc">διώβολον, γεγένητ᾽ ἐμοὶ δικόλλυβον.</l>
+              </lg>
+              <note type="source">Pollux 9, 63 <quote>ἔστι δὲ καὶ τὸ διώβολον ἐν Αἰολοσίκωνι Ἀριστοφάνους</quote> κτλ.</note>
+              <note type="apparatus">1. δὲ et ἔτ᾽ add. Bergk. 2. γεγένητ᾽ ἐμοὶ δικόλλυβον Bergk.] γένηταί μοι, quibus F addit ἰδικολλοικόν. de duobus obolis duo asses sibi superesse Sicon ut videtur queritur. Pollux 9, 72 <quote>ἔλεγον δέ τι καὶ τρικόλλυβον οἱ ποιηταὶ σμικρὸν νόμισμα.</quote> Hesych. <quote>τρικόλλυβον· νομισμάτιόν τι.</quote> Eupol. 233, 3. Aristoph. Vesp. 789 sq.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0019-aiolosikon-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <lg>
+                <l n="1" xml:id="kock-0019-aiolosikon-4-l1" xml:lang="grc">καὶ μὴν τὸ δεῖν᾽, ἀκροκώλια δή σοι τέτταρα</l>
+                <l n="2" xml:id="kock-0019-aiolosikon-4-l2" xml:lang="grc">ἥψησα τακερά.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 950 <quote>ἀκροκωλίων δὲ μέμνηται Ἀριστοφάνης Αἰολοσίκωνι</quote> κτλ.</note>
+              <note type="apparatus">δή Bergk.] δέ. γέ Brunck. ἀκροκώλι᾽ ἅ γε Porsonus, non probante Elmsl. Quarterly rev. VII 462. fort. ἀκροκώλι᾽ ἰδού σοι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0019-aiolosikon-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <lg>
+                <l n="1" xml:id="kock-0019-aiolosikon-5-l1" xml:lang="grc">τῶν δὲ γηθύων</l>
+                <l n="2" xml:id="kock-0019-aiolosikon-5-l2" xml:lang="grc">ῥίζας, ἐχούσας σκοροδομίμητον φύσιν</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="kock-0019-aiolosikon-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <lg>
+                <l n="1" xml:id="kock-0019-aiolosikon-6-l1" xml:lang="grc">κοιτὼν ἁπάσαις εἷς, πύελος δὲ μί᾽ ἀρκέσει.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 1, 79 κοιτών, εἰ γὰρ καὶ Μένανδρος αὐτὸ βαρβαρικὸν οἴεται, ἀλλ᾽ Ἀριστοφάνης τὰ τοιαῦτα πιστότερος αὐτοῦ, εἰπὼν ἐν Αἰολοσίκωνι κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>omnibus filiabus unam domum, unum balneum Aeolus adsignavisse dicitur. quae de domestica Aeoli vita narravit Homerus (Od. 10, 8. 9), in sordidam parsimoniam detorquet Aristophanes. eiciendum videtur δέ.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0019-aiolosikon-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <lg>
+                <l n="1" xml:id="kock-0019-aiolosikon-7-l1" xml:lang="grc">δοῖδυξ, θυΐα, τυροκνῆστις, ἐσχάρα.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 104 τυροκνῆστις ἔστιν . . . ἐν Ἀριστοφάνους Αἰολοσίκωνι κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>coqui vasa enumerantur ut Aristoph. Vesp. 938. θυΐα semper Bekkerus et Meinekius (cf. ed. min. X), apud Aristophanem plerumque θυεία. cf. Lobeck. Phryn. 165. Pathol. el. II 27. Bekker. Anecd. 40, 15 ἐσχάρα· τὸ σκεῦος, ἐφ᾽ ᾧ ὀπτᾶται κρέας ἢ ἰχθύς. cogitanda est ambulatoria, ut Ach. 888. Strattid. 55. Diphil. Polluc. 10, 18.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0019-aiolosikon-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <lg>
+                <l n="1" xml:id="kock-0019-aiolosikon-8-l1" xml:lang="grc">καὶ διαστίλβονθ᾽ ὁρῶμεν</l>
+                <l n="2" xml:id="kock-0019-aiolosikon-8-l2" xml:lang="grc">ὥσπερ ἐν καινῷ λυχνούχῳ</l>
+                <l n="3" xml:id="kock-0019-aiolosikon-8-l3" xml:lang="grc">πάντα τῆς ἐξωμίδος.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 116 ἐν δὲ τῷ Ἀριστοφάνους Αἰολοσίκωνι κτλ. Athenaeus 15, 699 f, ubi cf. quae Dindorfius adnotavit p. 1561 ed. suae.</p>
+              </note>
+              <note type="apparatus">
+                <p>καινῷ Salmasius] κενῷ. versus digessit Dindorfius. Bekker. Anecd. 50, 23 λυχνοῦχος . . . σκεῦός τι ἐν κύκλῳ ἔχων κέρατα, ἔνδον δὲ λύχνον ἡμμένον, διὰ τῶν κεράτων τὸ φῶς πέμποντα (Bergk.).</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="9" xml:id="kock-0019-aiolosikon-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <lg>
+                <l n="1" xml:id="kock-0019-aiolosikon-9-l1" xml:lang="grc">καί κ’ ἐπιθυμήσειε νέος νῆς ἀμφιπόλοιο.</l>
+              </lg>
+              <note type="source">Herodianus I 405, 10. II 912, 4 ἡ νέα νῆ εἰρημένον ... παρὰ Ἀριστοφάνει ἐν Αἰολοσίκωνι κτλ. καί κ’ Dindf.] καὶ. Αἰολοσίκωνι Dindf.] δινσίλλωνι.</note>
+              <note type="apparatus">ex oraculo de incesto illo fratris sororisque amore Bergkio versus videtur excerptus esse.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="10" xml:id="kock-0019-aiolosikon-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <lg>
+                <l n="1" xml:id="kock-0019-aiolosikon-10-l1" xml:lang="grc">οὐκ ἐτός, ὦ γυναῖκες,</l>
+                <l n="2" xml:id="kock-0019-aiolosikon-10-l2" xml:lang="grc">πᾶσι κακοῖσιν ἡμᾶς</l>
+                <l n="3" xml:id="kock-0019-aiolosikon-10-l3" xml:lang="grc">φλῶσιν ἑκάστοθ’ ἄνδρες·</l>
+                <l n="4" xml:id="kock-0019-aiolosikon-10-l4" xml:lang="grc">δεινὰ γὰρ ἔργα δρῶσαι</l>
+                <l n="5" xml:id="kock-0019-aiolosikon-10-l5" xml:lang="grc">λαμβανόμεσθ’ ὑπ’ αὐτῶν.</l>
+              </lg>
+              <note type="source">Hephaestio 9, 3 τὰ δὲ εἰς τὸν ἀμφίβραχυν ἢ βακχεῖον, δίμετρα μὲν, τὰ ἐξ Αἰολοσίκωνος Ἀριστοφάνους κτλ. ἑκάστοθ’ ἄνδρες Dindf.] ἑκάστοτ’ ἄνδρες.</note>
+              <note type="apparatus">versus est Aristophaneus, ut Lydia, dic, per omnes. de sententia cf. Thesm. 476 sq. delevi Bergkii personarum notationes et interrogationem post ἄνδρες. loquitur enim unus chorus. οὐκ ἐτός sic Ach. 411. 413. Av. 915. Thesm. 921. Eccl. 245. Plut. 404. 1166. Plat. Reip. 3, 414e. 8, 568a. neque usquam aliter.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0019-aiolosikon-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <lg>
+                <l n="1" xml:id="kock-0019-aiolosikon-11-l1" xml:lang="grc">καὶ δι’ ὀπῆς κἀπὶ τέγους</l>
+              </lg>
+              <note type="source">Pollux 10, 25 ἡ δὲ ὀπὴ εἴρηται ἐν Αἰολοσίκωνι Ἀριστοφάνους κτλ.</note>
+              <note type="apparatus">metrum videtur choriambicum. de sententia Grauertus confert Xenarch. 4, 11. 12.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0019-aiolosikon-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <note type="source">Schol. Pac. 741 Ἀριστοφάνης ὡς γαστρίμαργον τὸν Ἡρακλέα κωμῳδεῖ καὶ ἐν Ὄρνισι καὶ ἐν Αἰολοσίκωνι.</note>
+              <note type="apparatus">Hercules ipse, ut in Avibus, sic etiam in Aeolosicone in scaenam inductus esse videtur, in nuptiis opinor Macarei et Canaces.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="13" xml:id="kock-0019-aiolosikon-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <note type="source">Athenaeus 7, 276c τῶν δὲ παρόντων γραμματικῶν τις ἀποβλέψας εἰς τὴν τοῦ δείπνου παρασκευὴν ἔφη, εἶτα πῶς δειπνήσομεν τοσαῦτα δεῖπνα; ἴσως διὰ νυκτός, ὡς ὁ χαρίεις Ἀριστοφάνης ἐν</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="14" xml:id="kock-0019-aiolosikon-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <p>δυοῖν λυχνιδίοιν</p>
+              <note type="source">
+                <p>Pollux 10, 118 ὅταν εἴπῃ ἐν τῷ Αἰολοσίκωνι Ἀριστοφάνης . . . δῆλον ὅτι λυχνία εἴρηκεν, ἀλλ᾽ οὐ λύχνους μικρούς. itaque ι producitur ut in οἰκίδιον al. cf. fr. 281. Pollux 10, 15 λύχνιον, ἐφ᾽ οὗ ἐντίθεται ὁ λύχνος.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="15" xml:id="kock-0019-aiolosikon-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <p>ἀκερματίαν</p>
+              <note type="source">
+                <p>Pollux 9, 89 ἐν . . . τῷ Αἰολοσίκωνι τὸ μὴ ἔχειν κέρματα ὠνόμασεν (ἡ ἀκερματία) non opus est Fritzschii emendatione ἀκερματιᾶν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="16" xml:id="kock-0019-aiolosikon-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <p>κλειδίον</p>
+              <note type="source">
+                <p>παρὰ Ἀριστοφάνει ἐν Αἰολοσίκωνι. Pollux 10, 24. κληδίον Dindf.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="17" xml:id="kock-0019-aiolosikon-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_aiolosikon">
+              <p>σμηματοφορεῖον</p>
+              <note type="source">
+                <p>ἐν Ἀριστοφάνους Αἰολοσίκωνι. Pollux 10, 127.</p>
+              </note>
+            </div>
+            </div></body></text></TEI>

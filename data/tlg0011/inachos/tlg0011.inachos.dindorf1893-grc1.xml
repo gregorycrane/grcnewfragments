@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-inachos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΙΝΑΧΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.inachos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.inachos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.inachos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos"><head>ΙΝΑΧΟΣ</head><div type="textpart" subtype="fragment" n="255" xml:id="fragment-inachos-dindorf1893_grc1-255" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:260">
+            <note type="source">Stobæus XLVI, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐπήνεσ᾽· ἴσθι δ᾽, ὥσπερ ἡ παροιμία,</l>
+              <l n="2" xml:lang="grc">ἐκ κάρτα βαιῶν γνωτὸς ἂν γένοιτ᾽ ἀνήρ.</l>
+            </lg>
+            <note type="commentary">Versum alterum corrupte exhibet Apostolius VII, 95.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="256" xml:id="fragment-inachos-dindorf1893_grc1-256" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:248">
+            <note type="source">Dionysius Halic. Antiq. I, 25.</note>
+            <note type="commentary">Σοφοκλεῖ δ᾽ ἐν Ἰνάχῳ δράματι ἀνάπαιστον ὑπὸ τοῦ χοροῦ λεγόμενον πεποίηται ὧδε</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἴναχε γεννᾶτορ, παῖ κρηνῶν</l>
+              <l n="2" xml:lang="grc">πατρὸς Ὠκεανοῦ, μέγα πρεσβεύων</l>
+              <l n="3" xml:lang="grc">Ἄργους τε γύαις, Ἥρας τε πάγοις</l>
+              <l n="4" xml:lang="grc">καὶ Τυρσηνοῖσι Πελασγοῖς.</l>
+            </lg>
+            <note type="commentary">Scholiasta Apollonii Rh. I, 580. Ὅτι δὲ οἱ αὐτοὶ Πελασγοὶ καὶ Ἀργεῖοι καὶ Σ. ἐν Ἰνάχῳ μαρτυρεῖ. καὶ οἱ Τυρρηνοὶ δὲ Πελασγοί.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="257" xml:id="fragment-inachos-dindorf1893_grc1-257" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:255">
+            <note type="source">Athenæus XV. p. 668 b.</note>
+            <note type="commentary">Σοφοκλῆς ἐν Ἰνάχῳ ἀφροδισίαν εἴρηκε τὴν λάταγα</note>
+            <quote>Ξανθὴ δ᾽ ἀφροδισία λάταξ παισὶν ἐπεισκύπτει δόμοις.</quote>
+            <note type="commentary">Quæ Toupius II. p. 471. in trimetros redegit</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ξένη δὲ κἀφροδισία</l>
+              <l n="2" xml:lang="grc">λάταξ ἅπασι νῦν ἐπεισκύπτει δόμοις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="258" xml:id="fragment-inachos-dindorf1893_grc1-258" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:252">
+            <note type="source">Pollux IX, 50. Μέρη δὲ πόλεως, καὶ πανδοκεῖον, καὶ ξενὼν, καὶ, ὡς ἐν Ἰνάχῳ Σοφοκλῆς</note>
+            <quote>Πανδόκος ξενόστασις.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="259" xml:id="fragment-inachos-dindorf1893_grc1-259" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:261">
+            <note type="source">Schol. Aristoph. Pluti 727.</note>
+            <note type="commentary">Τὸν Πλοῦτον Πλούτωνα εἶπε παίζων· ἢ ὅτι καὶ Πλούτωνα αὐτὸν ὑποκοριστικῶς ἐκάλεσεν, ὡς Σοφοκλῆς Ἰνάχῳ</note>
+            <quote>Πλούτωνος δ᾽ ἐπείσοδος.</quote>
+            <note type="commentary">καὶ πάλιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τοιόνδ᾽ ἐμὸν Πλούτων᾽ ἀμεμφίας χάριν.</l>
+            </lg>
+            <note type="commentary">Idem ad v. 807. Σιπύη δὲ, ἡ ἀρτοθήκη. ταῦτα δὲ ἐξ Ἰνάχου Σοφοκλέους, ὅτε τοῦ Διὸς εἰσελθόντος πάντα μεστὰ ἀγαθῶν ἐγένετο.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="260" xml:id="fragment-inachos-dindorf1893_grc1-260" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:273">
+            <note type="source">Scholiasta Equitum 1147. Κημός--ἦν παρόμοιος χώνῃ, ὡς καὶ Σοφοκλῆς ἐν Ἰνάχῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="261_262" xml:id="fragment-inachos-dindorf1893_grc1-261_262" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:250">
+            <note type="source">Scholiasta Avium 1203. Κυνῆ δὲ, ὅτι ἔχει περικεφαλαίαν τὸν πέτασον· ὡς Ἑρμῆς ἄγγελος ὢν παρὰ Σοφοκλεῖ ἐν Ἰνάχῳ ἐπὶ τῆς Ἰριδος</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γυνὴ τίς ἥδε; κυκλὰς Ἀρκάδος κυνῆς.</l>
+            </lg>
+            <note type="source">Hesychius, Ἀρκάς κυνῆ: Ἀρκαδικός πίλος. Σ. Ἰ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="263" xml:id="fragment-inachos-dindorf1893_grc1-263" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos">
+            <note type="source">Scholiasta Aristoph. Ecclesiaz. 80. Τοῦ Πανόπτου τοῦ τὴν Ἰὼ φυλάττοντος. αἰνίττεται δὲ ὡν ὄντος αὐτοῦ δεσμοφύλακος. ἀναφέρει δὲ τοῦτον ἐπὶ τὸς παρὰ Σοφοκλεῖ ἐν Ἰνάχῳ Ἄργον.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="264" xml:id="fragment-inachos-dindorf1893_grc1-264" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos">
+            <note type="source">Scholiasta Æschyli Prom. 576.</note>
+            <quote>Σοφοκλῆς χνώδη ἀγγεῖα λέγεται τὰ τραχείας ἀνωμαλίας ἔχοντα, ὡς ἐν Ἰνάχῳ καὶ ἄδοντα τὸν ῎Αργον εἰσάγει.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="265" xml:id="fragment-inachos-dindorf1893_grc1-265" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:249">
+            <note type="source">Strabo VI. p. 271.</note>
+            <quote>Εἰ δὲ τοῦτο δυνατὸν, τά γε προειρημένα ἀδύνατα καὶ τὰ περὶ τοῦ Ἰνάχου μύθῳ παραπλήσια,</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ῥεῖ γὰρ ἀπ᾽ ἄκρας</l>
+              <l n="2" xml:lang="grc">Πίνδου (φησὶν ὁ Σ.) Λάκμου τ᾽ ἀπὸ Περραιβῶν</l>
+              <l n="3" xml:lang="grc">εἰς Ἀμφιλόχους καὶ Ἀκαρνάνας,</l>
+              <l n="4" xml:lang="grc">μίσγει δ᾽ ὕδασιν τοῖς Ἀχελώου.</l>
+            </lg>
+            <note type="commentary">καὶ ὑποβὰς</note>
+            <lg type="fragment">
+              <l n="5" xml:lang="grc">Ἔνθεν ἐς ῎Αργος διὰ κῦμα τεμὼν</l>
+              <l n="6" xml:lang="grc">ἥκει δῆμον τὸν Λυρκείου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="266" xml:id="fragment-inachos-dindorf1893_grc1-266" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos">
+            <note type="source">Herodianus περὶ μονήρους λέξεως p. 35, 10.</note>
+            <quote>Λαρὸς, ἔνθεν θηλυκὸν παρὰ Σοφοκλεῖ ἐν Ἰνάχῳ καὶ σασχυτρίνων λαρὸς εὔτατ᾽ ἐπὶ κῦμα ἐκροὰς ἐπώμοσα λαρὸς ἀνήρ.</quote>
+            <note type="commentary">Ita codex.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="267" xml:id="fragment-inachos-dindorf1893_grc1-267" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos">
+            <note type="source">Scholiasta Aristophanis Pacis 530.</note>
+            <quote>Σοφοκλέους μελῶν: ὅτι ἡδέα τὰ μέλη Σοφοκλέους. περιέργως δέ τινες εἰς τὰ ἐν τῷ Ἰνάχῳ περὶ τοῦ ἀρχαίου βίου καὶ τῆς εὐδαιμονίας “Εὐδαίμονες οἱ τότε γενεᾶς ἀφθίτου λαχόντες θείου.”</quote>
+            <note type="commentary">Bergkius conjecit γέννας ἀφθίτου θείας λαχόντες.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="268" xml:id="fragment-inachos-dindorf1893_grc1-268" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:262">
+            <note type="source">Hesychius, Ἀντίπλαστον: Σ. Ἰνάχῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πατὴρ δὲ ποταμὸς Ίναχος</l>
+              <l n="2" xml:lang="grc">τὸν ἀντίπλαστον νόμον ἔχει κεκμηκότων.</l>
+            </lg>
+            <note type="commentary">ἀντὶ τοῦ ἰσόπλαστον, ὅμοιον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="269" xml:id="fragment-inachos-dindorf1893_grc1-269" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.pearson1917-grc1:286">
+            <note type="source">Suidas et grammaticus Bekkeri p. 442, 3. Ἀράχνης :—θηλυκῶς δὲ Σ. Ι.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πάντα δ᾽ ἐρίθων ἀραχνᾶν βρίθει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="270" xml:id="fragment-inachos-dindorf1893_grc1-270" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:265">
+            <note type="source">Hesychius, Ἐπίκρουμα: ἐπίπληγμα, ἢ ἐπιχάραγμα. διὰ τὸ παρωνομάσθαι τῷ ἔργῳ (῎Αργῳ Τουpius)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐπίκρουμα χθονὸς Ἀργείας.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="271" xml:id="fragment-inachos-dindorf1893_grc1-271" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:266">
+            <note type="source">Hesychius, Κυάμῳ πατρίῳ: Σοφοκλῆς Μελεάγρῳ, ὡς καὶ τῶν Αἰτωλῶν τὰς ἀρχὰς κυαμευόντων. διεκλήρουν δὲ αὐτὰς κυάμῳ, καὶ ὁ τὸν λευκὸν λαβὼν ἐλάγχανεν. ἀνάγει δὲ τοὺς χρόνους, ὡς καὶ ἐν Ἰνάχῳ</note>
+            <quote>“Κυαμοβόλον δικαστήν.”</quote>
+            <note type="commentary">Codex κυαμοβόλως δικαστήν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="272" xml:id="fragment-inachos-dindorf1893_grc1-272" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:267">
+            <note type="source">Harpocratio, Παλίνσκιον: ζοφερόν. Σ. Ινάχῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Χειμῶνι σὺν παλινσκίῳ.</l>
+            </lg>
+            <note type="commentary">Glossam παλινσκίῳ habent Photius p. 373, 25. et Suidas.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="273" xml:id="fragment-inachos-dindorf1893_grc1-273" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:270">
+            <note type="source">Hesychius, Ἀελλόθριξ: ποικιλόθριξ. ἢ παρεώρους καὶ συνεχεῖς ἔχουσα τὰς τρίχας. παρὰ τὴν ἄελλαν. Σ. Ι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="274" xml:id="fragment-inachos-dindorf1893_grc1-274" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:269">
+            <note type="source">Hesychius, Ἀναιδείας φάρος. χιτών. Σ. Ι. παρὰ τὸ</note>
+            <quote>“Χλαῖνάν τ᾽ ἠδὲ χιτῶνα, τὰ τ᾿ αἰδῶ ἀμφικαλύπτει.”</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="275" xml:id="fragment-inachos-dindorf1893_grc1-275" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:272">
+            <note type="source">Hesychius, ῎Αναντα :-Σ. δὲ Ἰνάχῳ τὰ μὴ κεκολλημένα. παρὰ τὸ αἴνειν (vulgo αἰνεῖν), ὁ ἐστι κατακόπτοντα πτίσσειν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="276" xml:id="fragment-inachos-dindorf1893_grc1-276" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos" sameAs="urn:cts:greekLit:tlg0011.inachos.nauck1889grc1:271">
+            <note type="source">Ἀλωπός: vide fragm. 242.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="277" xml:id="fragment-inachos-dindorf1893_grc1-277" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos">
+            <note type="source">Antiatticista p. 84, 18. Βοῦ: ἀντὶ τοῦ βούς. Σ. Ινάχῳ. Similiter Chœæroboscus p. 237, 8. Gaisf.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="278" xml:id="fragment-inachos-dindorf1893_grc1-278" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_inachos">
+            <note type="source">Erotianus p. 200. Παρὰ τοῖς Ἀττικοῖς κερ-</note>
+          </div>
+        </div></body></text></TEI>

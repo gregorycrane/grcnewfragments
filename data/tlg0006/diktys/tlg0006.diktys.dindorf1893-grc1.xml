@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-diktys-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΔΙΚΤΥΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.diktys; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.diktys.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.diktys.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys"><head>ΔΙΚΤΥΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-diktys-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:344">
+            <note type="source">1. Stobaeus LII, 5.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Νέος, πόνοις δέ γ᾽ οὐκ ἀγύμναστος φρένας.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-diktys-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:342">
+            <note type="source">2. Schol. Soph. Aj. 787. Τί μ᾽ αὖ τάλαιναν· πρὸς τὸ Εὐριπίδου ἐν Δίκτυϊ·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">τί μ᾿ ἄρτι πημάτων λελησμένην</l>
+              <l n="2" xml:lang="grc">ὀρθοῖς ;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-diktys-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:332">
+            <note type="source">3. Plutarch. Consol. ad Apoll. 8. (p. 106 Α.) Ὁ δὲ παραμυθούμενος τὴν Δανάην δυσπενθοῦσαν Δίκτυς φησί</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δοκεῖς τὸν Ἅιδην σῶν τι φροντίζειν γύων</l>
+              <l n="2" xml:lang="grc">καὶ παῖδ᾽ ἀνήσειν τὸν σὸν, εἰ θέλοις στένειν;</l>
+              <l n="3" xml:lang="grc">παῦσαι· βλέπουσα δ᾽ εἰς τὰ τῶν πέλας κακὰ.</l>
+              <l n="4" xml:lang="grc">ῥᾴων γένοι᾽ ἂν, εἰ λογίζεσθαι θέλοις,</l>
+              <l n="5" xml:lang="grc">ὅσοι τε δεσμοῖς ἐκμεμόχθηνται βροτῶν,</l>
+              <l n="6" xml:lang="grc">ὅσοι τε γηράσκουσιν ὀρφανοὶ τέκνων,</l>
+              <l n="7" xml:lang="grc">τούς τ᾽ ἐκ μεγίστης ὀλβίας τυραννίδος</l>
+              <l n="8" xml:lang="grc">τὸ μηδὲν ὄντας· ταῦτά σε σκοπεῖν χρεών·</l>
+            </lg>
+            <note type="commentary">κελεύει γὰρ αὐτὴν ἐνθυμεῖσθαι τὰ τῶν ἴσα καὶ μείζω δυστυχούντων, ὡς ἐσομένην ἐλαφροτέραν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-diktys-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:346">
+            <note type="source">4. Stobaeus LXXXIII, 17.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἷς γάρ τις ἐστὶ κοινὸς ἀνθρώποις νόμος,</l>
+              <l n="2" xml:lang="grc">καὶ θεοῖσι τοῦτο δόξαν, ὡς σαφῶς λέγω,</l>
+              <l n="3" xml:lang="grc">θηρσίν τε πᾶσι, τέκνα τίκτουσιν φιλεῖν·</l>
+              <l n="4" xml:lang="grc">τὰ δ᾽ ἄλλα χωρὶς χρώμεθ᾽ ἀλλήλων νόμοις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-diktys-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:345">
+            <note type="source">5. Stobaeus LXXXIII, 18.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐγὼ νομίζω πατρὶ φίλτατον τέκνον,</l>
+              <l n="2" xml:lang="grc">παισίν τε τοὺς τεκόντας, οὐδὲ συμμάχους</l>
+              <l n="3" xml:lang="grc">ἄλλους γενέσθαι φήμ᾽ ἂν ἐνδικωτέρους.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-diktys-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:340">
+            <note type="source">6. Stobaeus LXIV, 8.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κύπρις γὰρ οὐδὲ νουθετουμένη χαλᾷ,</l>
+              <l n="2" xml:lang="grc">ἦν τ᾽ αὖ βιάζῃ, μᾶλλον ἐντείνειν φιλεῖ,</l>
+              <l n="3" xml:lang="grc">κἄπειτα τίκτει πόλεμον· εἰς δ᾽ ἀνάστασιν</l>
+              <l n="4" xml:lang="grc">δόμων περαίνει πολλάκις τὰ τοιάδε.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-diktys-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys">
+            <note type="source">7. Stobaeus Ecl. phys. I, 10, 4, p. 272 ed. Heer.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φίλος γὰρ ἦν μοι· καί μ᾽ ἔρως ἔλοι ποτὲ</l>
+              <l n="2" xml:lang="grc">οὐκ εἰς τὸ μῶρον, οὐδέ μ᾽ εἰς Κύπριν τρέπων.</l>
+              <l n="3" xml:lang="grc">ἀλλ᾽ ἔστι δή τις ἄλλος ἐν βροτοῖς ἔρως,</l>
+              <l n="4" xml:lang="grc">ψυχῆς δικαίας σώφρονός τε κἀγαθῆς.</l>
+              <l n="5" xml:lang="grc">καὶ χρῆν δὲ τοῖς βροτοῖσι τόνδ᾽ εἶναι νόμον,</l>
+              <l n="6" xml:lang="grc">τῶν εὐσεβούντων οἵτινές γε σώφρονες</l>
+              <l n="7" xml:lang="grc">ἐρᾶν, Κύπριν δὲ τὴν Διὸς χαίρειν ἐᾶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-diktys-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:338">
+            <note type="source">8. Stobaeus Floril. LXXXIII, 21.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὄντων δὲ παίδων καὶ πεφυκότος γένους</l>
+              <l n="2" xml:lang="grc">καινοὺς φυτεῦσαι παῖδας ἐν δόμοις θέλεις,</l>
+              <l n="3" xml:lang="grc">ἔχθραν μεγίστην σοῖσι συμβάλλων τέκνοις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-diktys-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys">
+            <note type="source">9. Stobaeus LXXXIII, 16.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πατέρα τε παισὶν ἡδέως συνεκφέρειν</l>
+              <l n="2" xml:lang="grc">φίλους ἔρωτας ἐκβαλόντ᾽ αὐθαδίαν,</l>
+              <l n="3" xml:lang="grc">παῖδάς τε πατρί· καὶ γὰρ οὐκ αὐθαίρετοι</l>
+              <l n="4" xml:lang="grc">βροτοῖς ἔρωτες. οὐδ᾽ ἑκουσία νόσος.</l>
+            </lg>
+          </div>
+        <div type="textpart" subtype="fragment" n="10" xml:id="fragment-diktys-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys">
+            <note type="source">10. Stobaeus LXXXVI, 1.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">σκαιόν τι δὴ τὸ χρῆμα γίγνεσθαι φιλεῖ,</l>
+              <l n="2" xml:lang="grc">θεῶν ἀνάγκας ὅστις ἰᾶσθαι θέλει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-diktys-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys">
+            <note type="source">11. Stobaeus XC, 5. Arsen. Viol. p. 462 ed. Walz. sine nom. auct. et fab.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰς δ᾽ εὐγένειαν ὀλίγ᾽ ἔχω φράσαι καλά·</l>
+              <l n="2" xml:lang="grc">ὁ μὲν γὰρ ἐσθλὸς εὐγενὴς ἔμοιγ᾽ ἀνήρ,</l>
+              <l n="3" xml:lang="grc">ὁ δ᾽ οὐ δίκαιος, κἂν ἀμείνονος πατρὸς</l>
+              <l n="4" xml:lang="grc">Ζηνὸς πεφύκῃ, δυσγενὴς εἶναι δοκεῖ.</l>
+            </lg>
+            <lg type="fragment">
+              <l n="5" xml:lang="grc">Φεῦ φεῦ, παλαιὸς αἶνος ὡς καλῶς ἔχει,</l>
+              <l n="6" xml:lang="grc">οὐκ ἂν γένοιτο χρηστὸς ἐκ κακοῦ πατρός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-diktys-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:341">
+            <note type="source">12. Stobaeus XCII, 6.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μή μοί ποτ᾽ εἴη χρημάτων νικωμένῳ</l>
+              <l n="2" xml:lang="grc">κακῷ γενέσθαι, μηδ᾽ ὁμιλοίην κακοῖς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-diktys-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:335">
+            <note type="source">13. Stobaeus XXXVI, 15.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τυραννικόν τι πόλλ᾽ ἐπίστασθαι λέγειν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-diktys-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:337">
+            <note type="source">14. Stobaeus XLIV, 2.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μὴ νεῖκος, ὦ γεραιέ, κοιράνοις τίθου,</l>
+              <l n="2" xml:lang="grc">σέβειν δὲ τοὺς κρατοῦντας ἀρχαῖος νόμος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-diktys-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:334">
+            <note type="source">15. Stobaeus CVI, 2.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πολλοῖς παρέστην κἀφθόνησα δὴ βροτῶν</l>
+              <l n="2" xml:lang="grc">ὅστις κακοῖσιν ἐσθλὸς ὢν ὅμοιος ᾖ,</l>
+              <l n="3" xml:lang="grc">λόγων ματαίων εἰς ἅμιλλαν ἐξιών.</l>
+              <l n="4" xml:lang="grc">τὸ δ᾽ ἦν ἄρ᾽ οὐκ ἀκουστὸν οὐδ᾽ ἀνασχετὸν,</l>
+              <l n="5" xml:lang="grc">σιγᾶν κλύοντα δεινὰ πρὸς κακιόνων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-diktys-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys" sameAs="urn:cts:greekLit:tlg0006.diktys.nauck1889grc1:343">
+            <note type="source">16. Stobaeus XIII, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Θάρσει· τό τοι δίκαιον ἰσχύει μέγα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-diktys-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys">
+            <note type="source">17. Stobaeus XXXIX, 7.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰ δ᾽ ἦσθα μὴ κάκιστος, οὔποτ᾽ ἂν πόλιν</l>
+              <l n="2" xml:lang="grc">τὴν σὴν ἀτίζων τήνδ᾽ ἂν εὐλόγεις πάτραν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-diktys-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_diktys">
+            <note type="source">18. Stobaeus XXXIX, 8.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὡς ἔν γ᾽ ἐμοὶ κρίνοιτ᾽ ἂν οὐ καλῶς φρονεῖν,</l>
+              <l n="2" xml:lang="grc">ὅστις πατῴας γῆς ἀτιμάζων ὅρους</l>
+              <l n="3" xml:lang="grc">ἄλλην ἐπαινεῖ καὶ τρόποισιν ἥδεται.</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

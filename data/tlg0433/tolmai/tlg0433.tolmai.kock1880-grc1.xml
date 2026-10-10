@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATES, ΤΟΛΜΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Crates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0433.tolmai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0433.tolmai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0433.tolmai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_tolmai"><head>ΤΟΛΜΑΙ</head><div type="textpart" subtype="fragment" n="34" xml:id="kock-0433-tolmai-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_tolmai">
+              <lg>
+                <l n="1" xml:id="kock-0433-tolmai-34-l1" xml:lang="grc">καὶ δὴ ποδεῖα τριμίτινα</l>
+              </lg>
+              <note type="source">Pollux 7, 92 τὰ δὲ πέλλυτρα καὶ εἶδος ὑποδήματος, ὥσπερ αὖ τὰ ποδεῖα ταὐτὸν ἦν ταῖς ἀναξυρίσιν, ἃς σκελέας τινὲς ὀνομάζουσιν. Κράτης ἐν Ἑορταῖς. Meinek. Τόλμαις. Hesych. ποδεῖα· ἐνειλήματα ποδῶν. scr. ἐνειλήματα. ac sic Photius πόδεια.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="35" xml:id="kock-0433-tolmai-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_tolmai">
+              <lg>
+                <l n="1" xml:id="kock-0433-tolmai-35-l1" xml:lang="grc">ἀστραγαλωτή (τις) μάστιξ</l>
+              </lg>
+              <note type="source">παρὰ Κράτητι ἐν ταῖς Τόλμαις ὠνόμασται. Poll. 10, 54.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="36" xml:id="kock-0433-tolmai-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_tolmai">
+              <lg>
+                <l n="1" xml:id="kock-0433-tolmai-36-l1" xml:lang="grc">ὄνος ἐν μελίτταις</l>
+              </lg>
+              <note type="source">Κράτης Τόλμαις· καὶ ὄνος ἐν μύρῳ· παροιμία. Photius et Suidas. Diogenian. 7, 32. Gregor. Cypr. Mosq. 4, 65. Apostol. 12, 80. ὄνος ἐν μελίσσαις· ἐπὶ τῶν [ἐν] κακοῖς περιπεσόντων.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="37" xml:id="kock-0433-tolmai-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_tolmai">
+              <lg>
+                <l n="1" xml:id="kock-0433-tolmai-37-l1" xml:lang="grc">ἐξ ὅτου ἦλθον</l>
+              </lg>
+              <note type="source">ἀντὶ τοῦ ἐξ οὗ. Κράτης Τόλμαις. Bekk. Anecd. 93, 16.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="38" xml:id="kock-0433-tolmai-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_tolmai">
+              <note type="source">Athen. 14, 619a καὶ βαλανέων ἄλλαι (ἦσαν ᾠδαί), ὡς Κράτης ἐν Τόλμαις.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="32" xml:id="kock-0433-tolmai-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_tolmai">
+              <lg>
+                <l n="1" xml:id="kock-0433-tolmai-32-l1" xml:lang="grc">πρῶτα μὲν ταλαντιαῖος ὅστις ἔστ᾽ αὐτῶν λέγε.</l>
+              </lg>
+              <note type="source">Pollux 9, 53 τὸ δὲ ἐν ταῖς Κράτητος Τόλμαις· πρῶτα μὲν κτλ. ἄδηλον εἴτε τιμὴν εἴτε ῥοπὴν λέγει.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="33" xml:id="kock-0433-tolmai-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_tolmai">
+              <lg>
+                <l n="1" xml:id="kock-0433-tolmai-33-l1" xml:lang="grc">ποιμαίνει δ᾽ ἐπισίτιον,</l>
+                <l n="2" xml:id="kock-0433-tolmai-33-l2" xml:lang="grc">ῥιγῶν δ᾽ ἐν μετὰ βύξου,</l>
+                <l n="3" xml:id="kock-0433-tolmai-33-l3" xml:lang="grc">δέξετ᾽ ἐπὶ μισθῷ</l>
+                <l n="4" xml:id="kock-0433-tolmai-33-l4" xml:lang="grc">σῖτος.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 247 e μνημονεύει δὲ τοῦ μὲν ἐπισίτου Κράτης Τόλμαις. sic libri. ἐπισίτιον] ἐπίσιτον Porsonus, recte sine dubio. ῥιγῶν δ᾽]</note>
+            </div>
+          </div></body></text></TEI>

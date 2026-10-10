@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΙΞΙΩΝ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.ixion; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.ixion.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.ixion.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:ixion"><head xml:lang="grc">ΙΞΙΩΝ</head>
+          <note type="introduction" xml:lang="mul">Περραιβίδας et Ἰξίονα eiusdem trilogiae fuisse coni. Od. Mueller. Diod. Sic. 4, 69, 3 : Ἀντίων — ἐγέννησεν Ἰξίονα. οὗτος δ’ , ὡς φασίν, ὑποσχόμενος ἕδνα πολλὰ δώσειν ΔηιονεῖἨιονεῖ vulgo, Δηιονεῖ correxit Cobet Mnem. nov. 2 p. 183 sive Misc. crit. p. 245 . eadem est corruptela in verbis quae sequuntur sicut in Schol. Apoll. Rhod. 3 , 62 . ἔγημε τὴν Δηιονέως θυγατέρα Δίαν... τελευτήσαντα τὴν τιμωρίαν ἔχειν αἰώνιον. Welcker Aeschylo vindicandum suspicatur Sophoclis fr. 274.</note>
+          <div type="textpart" subtype="fragment" n="89" corresp="urn:cite2:perseus:fragmentaryplays.v1:ixion" xml:id="aesch-fr89">
+            <note type="sourceContext" xml:lang="mul">Schol. Pind. Pyth. 2, 39 : τὸν δὲ Ἰξίονα οἳ μὲν Ἀντίονος (Ἀντίωνος al.) γενεαλογεῖσιν, ὡς Αἰσχύλος, Φερεκύδης δὲ Πεισίωνος... cf. Schol. Apoll. Rhod. 3, 62 : ubi Φερεκύδης δὲ Πείσωνος, Αἰσχύλος Ἀντίωνος scribendum esse coni. Wesseling.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="90" corresp="urn:cite2:perseus:fragmentaryplays.v1:ixion" xml:id="aesch-fr90">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-90-1">βίου πονηροῦ θάνατος εὐκλεέστερος.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Stob. Flor. 121, 16 : Αἰσχύλου Ἰξίωνος (sic A, αἰσχύλου om. fabulae titulo S, eclogam om. M) . ’βίου — εὐκλεέστερος’ . idem versus legitur in Flor. Monac. 134 . ceterum cf. fr. 401, 1 .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="91" corresp="urn:cite2:perseus:fragmentaryplays.v1:ixion" xml:id="aesch-fr91">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-91-1">τὸν δ’ ἡμίοπον [καὶ τὸν ἐλάσσονα]</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-91-2">ταχέως ὁ μέγας καταπίνει.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. IV p. 182 C : εἰσὶ δ’ οἱ αὐλοὶ οὗτοι (sc. οἱ ἡμίοποι) ἐλάσσονες τῶν τελείων. Αἰσχύλος γοῦν κατὰ μεταφορὰν ἐν Ἰξίονι (ἰξίωνι A) φησί ’τὸν δ’ — καταπίνει’ . Pollux 6, 161 : ἡμίοπον αὐλὸν Αἰσχύλος. Hesych. 2 p. 279 : ἡμίοπος αὐλός· ὁ ὑποτεταγμένος τῷ τελείῳ . μεταφορικῶς δὲ ἡμίοπος θράσος (ὁ ἐλάσσων L. Dindorf, ὁ ῥάρος S. Mekler) . v. 1 καὶ τὸν ἐλάσσονα verba del. Bothe καὶ τὸν ἐλάσσω (Adv. p. 74) .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="92" corresp="urn:cite2:perseus:fragmentaryplays.v1:ixion" xml:id="aesch-fr92">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-92-1">πρευμενὴς ἀλάστορος</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Anecd. Oxon. vol. 1 p. 62, 13 : παρὰ δὲ τὸ ἀλαστῶ ῥῆμα ἀλάστωρ — παρῆκται δὲ ἡ εὐθεῖα παρὰ τὴν ἀλάστορος γενικήν· Αἰσχύλος Ἰξίονι ’πρευμενὴς ἀλάστορος’, καὶ Φερεκύδης ’ὁ Ζεὺς δὲ ἱκέσιος καὶ ἀλάστορος καλεῖται’ . subpicabar Αἰσχύλος Ἰξίονι ’μέγαν ἀλάστορον’ καὶ ἀλλαχοῦ ’πρευμενῶς ἀλάστορον’ . cf. Aesch. Eum. 296 : δέχου δὲ πρευμενῶς ἀλάστορα, et fr. 294 .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="93" corresp="urn:cite2:perseus:fragmentaryplays.v1:ixion" xml:id="aesch-fr93">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-93-1">ἱερεῖτιν</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 2 p. 346 : ἱερείτην· καθαρμοῦ δεομένην, ἱκέτιν. Αἰσχύλος Ἰξίονι. ubi ἱερεῖτιν correxit Musurus, cf. C. Keilii Sched. epigr. (Numburgi 1855) p. 19 .</note>
+          </div>
+        </div></body></text>
+</TEI>

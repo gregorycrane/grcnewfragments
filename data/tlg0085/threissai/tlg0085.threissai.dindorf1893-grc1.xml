@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΘΡΗΙΣΣΑΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.threissai; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.threissai.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.threissai.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:threissai"><head>ΘΡΗΙΣΣΑΙ</head>
+          <pb n="597" facs="urn:hathi:iau.31858007086675:scan:605"/>
+          <div type="textpart" subtype="fragment" n="75" xml:id="frag_3d5af90250" corresp="urn:cite2:perseus:fragmentaryplays.v1:threissai" sameAs="urn:cts:greekLit:tlg0085.threissai.nauck1889-grc1:85">
+<note type="source">Hesychius, Ἄγαις: ζηλώσεσιν. Α. Θ.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="76" xml:id="frag_c62847c0d9" corresp="urn:cite2:perseus:fragmentaryplays.v1:threissai">
+<note type="source">Scholiasta Sophoclis Ajac. v. 134.</note>
+<note type="commentary">Τὸ δὲ τῶν αἰχμαλώτων κηδεμονικὸν μὲν, ὡς Αἰσχύλος ἐν Θρῄσσαις, οὐ μὴν εὐπρόσωπον.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="77" xml:id="frag_4f3fec2427" corresp="urn:cite2:perseus:fragmentaryplays.v1:threissai">
+<note type="source">Aristophanes Ranar. v. 1329.</note>
+<note type="commentary">Τὸ συγκλινὲς ἐπ᾿ Αἴαντι. ubi scholiasta, Τιμαχίδας φησὶ τοῦτο ἐν ἐνίοις μὴ γράφεσθαι. Ἀπολλώνιος δέ φησιν ἐκ Θρῃσσῶν αὐτὸ εἶναι.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="78" xml:id="frag_851a7c72bf" corresp="urn:cite2:perseus:fragmentaryplays.v1:threissai" sameAs="urn:cts:greekLit:tlg0085.threissai.nauck1889-grc1:83">
+<note type="source">Scholiasta Sophoclis Ajac. v. 815.</note>
+<note type="commentary">Μετάκειται ἡ σκηνὴ ἐπὶ ἐρήμου τινὸς χωρίου, ἔνθα ὁ Αἴας εὐτρεπίσας τὸ ξίφος ῥῆσίν τινα πρὸ τοῦ θανάτου προφέρεται, ἐπεὶ γελοῖον ἦν κωφὸν εἰσελθόντα περιπεσεῖν τῷ ξίφει. ἔστι δὲ τὰ τοιαῦτα παρὰ τοῖς παλαιοῖς σπάνια· εἰώθασι γὰρ τὰ πεπραγμένα δι᾽ ἀγγέλων ἀπαγγέλλειν. τί οὖν τὸ αἴτιον; φθάνει Αἰσχύλος ἐν Θρῄσσαις τὴν ἀναίρεσιν Αἴαντος δι᾽ ἀγγέλου ἀπαγγείλας. ἴσως οὖν καινοτομεῖν βουλόμενος (ὁ Σοφοκλῆς) καὶ μὴ κατακολουθεῖν τοῖς ἑτέρου τινὸς ὑπ᾽ ὄψιν ἔθηκε τὸ δρώμενον· ἢ μᾶλλον ἐκπλῆξαι βουλόμενος· εἰκῆ γὰρ κατηγορεῖν ἀνδρὸς παλαιοῦ οὐχ ὅσιον. Idem ad v. 833. Παραδεδομένου δὲ καθ' ἱστορίαν ὅτι κατὰ τὸ ἄλλο σῶμα ἄτρωτος ἦν ὁ Αἴας, κατὰ δὲ τὴν μασχάλην τρωτὸς, διὰ τὸ τὸν Ἡρακλέα τῇ λεοντῇ αὐτὸν σκεπάσαντα κατὰ τοῦτο τὸ μέρος ἀσκέπαστον ἐᾶσαι διὰ τὸν γωρυτὸν ὃν περιέκειτο. φησὶ δὲ περὶ αὐτοῦ Αἰσχύλος ὅτι καὶ τὸ ξίφος ἐκάμπτετο οὐδαμῆ ἐνδιδόντος τοῦ χρωτὸς τῇ σφαγῇ· τόξον ὡς τις ἐντείνων, πρὶν δή τις, φησὶ, παροῦσα δαίμων ἔδειξεν αὐτῷ κατὰ παῖον μέρος δεῖ χρήσασθαι τῇ σφαγῇ.</note>
+</div>
+        </div></body></text>
+</TEI>

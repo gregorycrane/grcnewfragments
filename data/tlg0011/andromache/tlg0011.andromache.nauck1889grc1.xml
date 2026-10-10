@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-andromache-nauck1889grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΑΝΔΡΟΜΑΧΗ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0011">Sophocles</author>
+        <editor>August Nauck</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability>
+          <p>Derived scholarly transcription; verify against page images before quotation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>August Nauck, Tragicorum Graecorum Fragmenta, second edition (Leipzig: Teubner, 1889).</bibl>
+        <ptr target="../../../nauck1889/source/nauck1889.tragicorum-graecorum-fragmenta.xml"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Extracted deterministically from nauck.tragfrag-2.xml; repaired the malformed TEI namespace URI.</change>
+    <change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.andromache; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.andromache.nauck1889grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.andromache.nauck1889grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromache"><head>ΑΝΔΡΟΜΑΧΗ</head><div type="textpart" subtype="fragment" n="121" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromache" xml:id="fragment-andromache-nauck1889grc1-121">
+            <head>121</head>
+            <lg>
+              <l n="1" xml:lang="grc">παρασάγγης</l>
+            </lg>
+            <p>Etym. M. p. 652 , 13 : παρασάγγαι· τὰ τριάκοντα στάδια παρὰ
+Πέρσαις· παρ’ Αἰγυπτίοις δ’ ἑξήκοντα. παρὰ δὲ Σοφοκλεῖ ἐν Ἀνδρομάχῃ
+ἐπὶ τοῦ ἀγγέλου εἴρηται (ubi παρ’ Αἰγυπτίοις ξ. Σοφοκλῆς
+ἐπὶ τοῦ ἀγγέλου λέγει nec plura praebet F) . eadem fere Etym. Gud.
+p. 452 , 31 . bui ἐν Ἀνδρομάχῳ legitur. in priore editione ἐν Ἀνδρομέδᾳ
+scribendum conieci : rectius fortasse Welcker Tragod.
+p. 113 sq. locum refert ad Ποιμένας, qua in fabula Andromachae
+partes fuisse probabile est.</p>
+          </div>
+        </div></body></text></TEI>

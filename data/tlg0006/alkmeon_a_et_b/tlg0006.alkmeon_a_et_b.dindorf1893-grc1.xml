@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-alkmeon_a_et_b-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΑΛΚΜΑΙΩΝ Α ΚΑΙ Β: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.alkmeon_a_et_b; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b"><head>ΑΛΚΜΑΙΩΝ Α ΚΑΙ Β</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:65">
+            <note type="source">1. Jam initio fabulæ Alcmæo, sive re vera a Furiiis agitatus sive furorem simulans in scenam prodiisse videtur. Huc pertinent, quæ tradit Tatian. cont. Græc. 24. (p. 264 ed. Hag. Com. 1742) ubi de spectaculis publicis rejiciendis agit: Τί μοι συμβάλλεται πρὸς ὠφελειαν ὁ κατὰ τὸν Εὐριπίδην μαινόμενος καὶ τὴν Ἀλκμαίωνος μητροκτονίαν ἀπαγγέλλων; (haud dubie Alcmæo ipse.) ᾧ μηδὲ τὸ οἰκεῖον πρόσεστι σχῆμα, κέχηνέ τε μέγα καὶ ξίφος περιφέρει, καὶ κεκραγὼς πίμπραται καὶ φορέει στολὴν ἀπάνθρωπον. —Alcmæo loquitur (Hesych. v. Ἀτενὴς):</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἥκω δ᾽ ἀτενὴς ἀπ᾽ οἴκων—</l>
+            </lg>
+            <note type="commentary">Ad Alcmeonis narrationem et conditionis suæ descriptionem pertinere videtur fgm. II Ennii (ap. Cic. de Fin. IV, 23, 62.)</note>
+            <quote>Multimodis sum circumventus, morbo, exsilio atque inopia, Tum pavor sapientiam mihi omnem exanimato expectorat; Alter terribilem minitatur vitæ cruciatum et necem, Quæ nemo est tam firmo ingenio et tanta confidentia, Quin refugiat timido sanguen atque exalbescat metu.</quote>
+            <note type="commentary">in quibus Welckerus haud male Ennium verbo exalbescere (vs. 5) Euripideum ἀργαίνειν (fgm. VIII.) expressisse suspicatur.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:69">
+            <note type="source">2. Aristot. Ethic. III, 1, 8. Ἔνια δ᾽ ἴσως οὐκ ἔστιν ἀναγκασθῆναι, ἀλλὰ μᾶλλον ἀποθνητέον παθόντα τὰ δεινότατα· καὶ γὰρ τὸν Εὐριπίδου Ἀλκμαίωνα γελοῖα φαίνεται τὰ ἀναγκάσαντα μητροκτονῆσαι. Ad quem locum schol. adnotat: τὸν Ἀμφιαράου παῖδα τοῦτον, ᾧ ὁ πατὴρ ἀνελεῖν τὴν μητέρα ἐπέσκηψεν· εἰ δὲ μὴ, ἔσται τὸν πατέρα λυπῶν, ὃς οὐ δι᾽ ἀξίας αἰτίας ποιῶν τοῦτο ἱστορεῖται.—Ἄλλως· παρατίθεται τὸν παρ᾽ Εὐριπίδην Ἀλκμαίωνα, ὡς δι᾽ εὐτελῆ τινὰ ὑπομείναντα μητροκτονῆσαι· λέγει γὰρ παρ᾽ αὐτῷ ὁ Ἀλκμαίων·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">μάλιστα μέν μ᾽ ἐπῆρ᾽ ἐπισκήψας πατήρ,</l>
+              <l n="2" xml:lang="grc">ὅθ᾽ ἅρματ᾽ εἰσέβαινεν εἰς Θήβας ἰών.</l>
+            </lg>
+            <note type="commentary">διὰ γὰρ τούτων ἐντολὰς πατρὸς διηγεῖται, ὡς ἐντειλαμένου αὐτοῦ κτεῖναι τὴν μητέρα καὶ καταρασομένου αὐτοῦ, εἰ μὴ ἀποκτείνῃ, ἀκαρπίαν τε γῆς καὶ ἀτεκνίαν, ὧν οὐδὲν ἦν ἄξιον τοιοῦτον κακὸν ἀναγκάσαι ποιῆσαι τινά.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:68">
+            <note type="source">3. Aristot. Ethic. Nicom. V, 9. Eudem. IV, 7. Ἀπορήσειε δ᾽ ἄν τις, εἰ ἱκανῶς διώρισται περὶ τοῦ ἀδικεῖσθαι καὶ τοῦ ἀδικεῖν· πρῶτον μὲν εἰ ἔστιν, ὥσπερ Εὐριπίδης εἴρηκε, λέγων ἀτόπως·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Α. Μητέρα κατέκταν τὴν ἐμήν· βραχὺς λόγος.</l>
+              <l n="2" xml:lang="grc">Β. ἑκὼν ἑκοῦσαν ἢ οὐ θέλουσαν οὐχ ἑκών;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b">
+            <note type="source">4. Schol. Pind. Nem. IV, 32. Ἀμφιτρύωνος ἀντὶ πατρωνυμικοῦ τοῦ Ἀμφιτρυωνίδου—ὡς</note>
+          <note type="source">Ὅμηρος λέγει Ὑπερίονος Ἠελίοιο ἀντὶ τοῦ Ὑπεριονίδου, καὶ Εὐριπίδης·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">*Ὃς Οἰδίπουν ἀπώλεσ᾽, Οἰδίπους δ᾽ ἐμὲ,</l>
+              <l n="2" xml:lang="grc">χρυσοῦν ἐνεγκὼν ὅρμον εἰς Ἄργους πόλιν.</l>
+            </lg>
+            <note type="commentary">οὐ γὰρ ὁ Οἰδίπους ἔνεγκε χρυσοῦν ὅρμον εἰς Ἄργος, ἀλλ᾽ ὁ Πολυνείκης, καὶ ἔδωκεν τῇ Ἐριφύλῃ. ἔστιν οὖν (ἀντὶ τοῦ) Οἰδιπόδης. Ex vs. 2 apparet, de Polynice sermonem esse: in vs. 1 autem nulla est Polynicis mentio facta, sed tantummodo Edipi; deinde offensioni est, quod Alcmeo-nam Alcmaeonis referentis, qua ratione Edipi filius ipsum monili aureo Argos illato profligaverit, haec verba esse vix erit, qui neget-dicit, se Edipum perdidisse, ipsum vero ab Edipo profligatum esse, quum Alcmao puer esset tempore, quo Edipus supremum diem obibat. Quare non modo Polynicis commemoratio requiritur, sed Edipi nomen etiam prorsus otiosum est; ideoque Welckero non possum assentiri (p. 1590.) dicenti excidisse inter versum primum et secundum versum quendam qui Polynicis nomen continuerit. Non possum enim perspicere, quo modo is, quem excidisse censet, versus cum antecedentibus conjunctus fuerit. Sed quid multa? Quum ex regula quam schol. Pindari praescripsit, tum ex scriptura vitiosa, (alterius enim versus pars in priorem irrepserat,) apparet, scholiastam depravato codice usum esse. Vera autem scriptura haec esse videtur:</note>
+            <lg type="fragment">
+              <l n="3" xml:lang="grc">Ὁ δ᾽ Οἰδίπου μ᾽ ἀπώλεσ᾽ εἰς Ἄργους πόλιν</l>
+              <l n="4" xml:lang="grc">χρυσοῦν ἐνεγκὼν ὅρμον ...</l>
+            </lg>
+            <note type="commentary">vel</note>
+            <lg type="fragment">
+              <l n="5" xml:lang="grc">Ὁ δ᾽ Οἰδίπου μ᾿ ἀπώλεσ᾽</l>
+              <l n="6" xml:lang="grc">χρυσοῦν ἐνεγκὼν ὅρμον εἰς Ἄργους πόλιν.</l>
+            </lg>
+            <note type="commentary">schol. Pind. autem legit: Οἰδίπους pro Οἰδίπου, et hinc regulam suam mirificam finxit.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="5" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:71">
+            <note type="source">5. Cram. An. Gr. Ox. III, p. 194, 1. Δηλοῖ καὶ τὸ αἷμα πολλάκις καὶ τὸν φόνον αὐτόν. τοιοῦτον δέ τι δοκεῖ τῷ (scribe τὸς παρ' Εὐριπίδῃ ἐν τῷ διὰ Ψωφίδος Ἀλκμαίωνι·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Αἷμα γὰρ [φησὶ] σὸν μήτηρ ἀπενίψατο.</l>
+            </lg>
+            <note type="commentary">τουτέστι· καθάρσει τινὶ τὸν τῆς μητροκτονίας ἀπενίψατο μολυσμόν. Δηλοῖ μὲν οὖν τὸ αἷμα τὸν φόνον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:72">
+            <note type="source">6. Suid. v. Πενθερά. Phot. p. 300. Herm. p. 410. Pors. Πενθερά· τῷ νυμφίῳ ἡ τῆς κόρης μήτηρ. καὶ πενθερός, ὁ πατήρ. Εὐριπίδης δὲ γαμβρὸν αὐτὸν παρὰ τάξιν λέγει. ὁ γοῦν Ἀλκμαίων τῷ Φηγεῖ φησι·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καί σ', ὦ γεραιὲ, την τε παῖδα μὴ δοὺς ἐμοὶ</l>
+              <l n="2" xml:lang="grc">γαμβρὸς νομίζῃ καὶ πατὴρ σωτήρ τ᾿ ἐμός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:66">
+            <note type="source">7. Aristoph. Equ. 1299.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐδὲ πυνθάνεσθε ταῦτ᾽, ὦ παρθένοι, τὰν τῇ πόλει;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:73">
+            <note type="source">8. Hesych. Ἀργαίνειν· λευκαίνειν. Εὐριπίδης Ἀλκμαίωνι διὰ Ψωφίδος. Eustath. ad Od. β. p. 1430, 62. Ἐκεῖθεν καὶ ἀργᾶντες ταῦροι παρὰ Πινδάρῳ, καὶ ἀργαίνειν τὸ λευκαίνειν παρ᾽ Εὐριπίδῃ ἐν Ἀλκμαίωνι. Cf. fgm. 1. Eandem vocem habet Opp. Cyn. III, 299. Ad hanc fabulam fortasse pertinet inc. fab. fgm. CLXXVIII.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="9" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b">
+            <note type="source">9. Cram. Anecd. Græc. Paris. Vol. I. p. 20, 1. Schol. Hesiod. Scut. Herc. in Cod. Schellersheim. p. 61. in Creuz. Meletem. p. 66. ὥσπερ ἐν Ὀρέστῃ· σίγα σίγα, λευκὸν ἴχνος ἀρβύλης· καὶ ἐν Ἀλκμαίωνι τῷ διὰ Κορίνθου· φίλε, φίλε, πρόβατε, μόλε τὶς ὁ δὲ σποδαπὸς ὁ ξένος Κορινθίος ἔμολε ἀγχίαλος. Quæ verba God. Hermannus sic restituit :</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">φιλαι, φίλαι,</l>
+              <l n="2" xml:lang="grc">πρόβατε, μόλετε· τίς ὅδε, ποδαπὸς ὁ ξένος</l>
+              <l n="3" xml:lang="grc">Κορινθίοις ἔμολεν ἀγχίαλος ;</l>
+            </lg>
+            <note type="commentary">aliter Od. Muellerus (in Mus. Rhenan. V, p. 361.):</note>
+            <lg type="fragment">
+              <l n="4" xml:lang="grc">φίλαι, φίλαι, πρόβατε, μόλετε·</l>
+              <l n="5" xml:lang="grc">τις ὅδε, ποδαπὸς ὁ ξένος Κορίνθιος</l>
+              <l n="6" xml:lang="grc">ἔμολεν ἀγχιάλοις ;</l>
+            </lg>
+            <note type="commentary">in quibus ἀγχιάλοις retinendum videtur. Chori verba esse, metrum prodit, ea quidem de Alcmeone Corinthum perveniente dicta.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:75">
+            <note type="source">10. Stobæus XC, 2.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ παῖ Κρέοντος, ὡς ἀληθὲς ἦν ἄρα,</l>
+              <l n="2" xml:lang="grc">ἐσθλῶν ἀπ᾿ ἀνδρῶν ἐσθλὰ γίγνεσθαι τέκνα,</l>
+              <l n="3" xml:lang="grc">κακῶν δ᾽ ὅμοια τῇ φύσει τῇ τοῦ πατρός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:76">
+            <note type="source">11. Stobæus XXII, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁρᾶτε τὸν τύραννον, ὡς ἄπαις γέρων</l>
+              <l n="2" xml:lang="grc">φεύγει· φρονεῖν δὲ θνητὸν ὄντ᾽ οὐ χρὴ μέγα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:77">
+            <note type="source">12. Hesych. Ἀπαιώνιστον· δύσφημον. Εὐριπίδης ἀλλαχοῦ καὶ ἐν Μηδείᾳ Κόρινθον ἀπαιώσιον, δύσφημον. Sic edit., at cod. Venet. ap. Schow. ἀπ. δυσφ. Εὐριπίδης ἀλλὰ καὶ διὰ ἀκορίν. ἀπαιώσιον, δύσφημον, unde Elmsl. ad Med. p. 74 legendum suspicatur : Εὐριπίδης· ἀλλὰ καὶ Διὸς κόρῃ ἀπαιώνιστον sc. ἀντηχήσατε. cf. Alc. 425. Iph. A. 1468. Matthiæus vero (p. 428) genuinam scripturam elicuisse videtur: Εὐριπίδης Ἀλκμαίωνι τῷ διὰ Κορίνθου.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="13" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:81">
+            <note type="source">13. Stobæus XXII, 24.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ταπεινὰ γὰρ χρὴ τοὺς κακῶς πεπραγότας</l>
+              <l n="2" xml:lang="grc">λέγειν, ἐς ὄγκον δ᾽ οὐκ ἄνω βλέπειν τύχης.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:80">
+            <note type="source">14. Stobæus XLIX, 6.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φεῦ, φεῦ, τὰ μεγάλα, μεγάλα καὶ πάσχει κακά.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:79">
+            <note type="source">15. Stobæus XXII, 8.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Βροτοῖς τὰ μείζω τῶν μέσων τίκτει νόσους·</l>
+              <l n="2" xml:lang="grc">θεῶν δὲ θνητοὺς κόσμον οὐ πρέπει φέρειν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:85">
+            <note type="source">16. Stobæus LXII, 20.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μέτεστι τοῖς δούλοισι δεσποτῶν νόσου</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:86">
+            <note type="source">17. LXII, 22.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὅστις δὲ δούλῳ φωτὶ πιστεύει βροτῶν</l>
+              <l n="2" xml:lang="grc">πολλὴν παρ᾿ ἡμῖν μωρίαν ὀφλισκάνει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:78">
+            <note type="source">18. Stobæus LXIX, 7.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γυναῖκα καὶ ὠφέλειαν καὶ νόσον ἀνδρὶ φέρει με</l>
+              <l n="2" xml:lang="grc">γίσταν ἐδίδαξα τοὐμῷ λόγῳ.</l>
+            </lg>
+            <note type="apparatus">Vulgo. φέρῃ μεγίστων, quod Gaisf. e codd. correxit. Paris Α. τῷ ἐμῷ. - Gesn. scripsit γυνὴ pro γυναῖκα,</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="19" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:82">
+            <note type="source">19. Stobæus LXXIX, 15.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὰ τῶν τεκόντων ὡς μετέρχεται θεὸς</l>
+              <l n="2" xml:lang="grc">μιάσματα</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="20" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:87">
+            <note type="source">20. Erotian. ν. σκεθροτέραν p. 342.</note>
+            <note type="commentary">Βακχεῖος ἐν ἁ φησὶν ἀληθεστέραν, ἀλλ᾽ οὐκ ὀρθῶς. Κεῖναι καὶ ὅτε μὲν ἀντὶ τοῦ ἀληθοῦς, ὅτε δὲ ἀντὶ τοῦ ἀκριβοῦς λογισμοῦ τὸ σκεθρόν. ὡς καὶ Εὐριπίδης ἐν Ἀλκμαίωνι φησί</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γυναῖκες, ὁρμήθητε, μήδ᾽ ἀθυμίαν</l>
+              <l n="2" xml:lang="grc">σχέθῃ τις ὑμῶν· ταῦτα γὰρ σκεθρως ὁρᾶν</l>
+              <l n="3" xml:lang="grc">ἡμᾶς ἀνάγκη τοὺς νομίζοντας τέχνην.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="21" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:84">
+            <note type="source">21. Stobæus LXXIX, 23.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">*Η τί πλέον εἶναι παῖδας ἀνθρώποις, πάτερ,</l>
+              <l n="2" xml:lang="grc">εἰ μὴ ἐπι τοῖς δεινοῖσιν ὠφελήσομεν ;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b" sameAs="urn:cts:greekLit:tlg0006.alkmeon_a_et_b.nauck1889grc1:83">
+            <note type="source">22. Priscian. XVIII, 25. Vol. II, p. 205. ed. Krehl.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἡ τοῦ τεκόντος οὐδὲν ἐντρέπει πατρός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="23" xml:id="fragment-alkmeon_a_et_b-dindorf1893_grc1-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_alkmeon_a_et_b">
+            <note type="source">23. Cram. Anecd. Gr. Oxon. II, p. 334.</note>
+            <note type="commentary">4. Ἀλκμέωνος· τὸ με ψιλὸν, ὡς παρ᾽ Εὐριπίδῃ ἔχει ἡ χρῆσις. συστείλας τὸ ε, φυλάττει τὸ ω, ὡς κύριον ἐν τῇ γενικῇ. Eadem habent Anecd. Barocc. in Diario, cui inscriptio est Philological Museum, vol. II, p. 112. not. Cum his cf. Cram. An. Ox. III, p. 386. τὰ διὰ τοῦ εων ὑπὲρ δύο συλλαβὰς βαρύτονα πεφύκασι φυλάττειν τὸ ω ἐν τῇ γενικῇ, οἷον Γελέων Γελέωνος, Ἀλκμέων Ἀλκμέωνος.</note>
+          </div>
+        </div></body></text></TEI>

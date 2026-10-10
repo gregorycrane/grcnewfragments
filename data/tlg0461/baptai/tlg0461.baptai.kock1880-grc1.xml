@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUPOLIS, ΒΑΠΤΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Eupolis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0461.baptai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0461.baptai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0461.baptai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai"><head>ΒΑΠΤΑΙ</head><div type="textpart" subtype="fragment" n="68" xml:id="kock-0461-baptai-68" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <note type="source">ἀναρίστητος ὢν</note>
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-68-l1" xml:lang="grc">κοὐδὲν βεβρωκώς, ἀλλὰ γὰρ στέφανον ἔχων</l>
+              </lg>
+              <note type="apparatus">Bekker. Anecd. 377, 8 ἀλλὰ γάρ· ἀντὶ τοῦ δέ. Εὔπολις Βάπταις. Athen. 2, 47e ἀναρίστητον εἶπεν Εὔπολις. Suidas ἀλλὰ</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="69" xml:id="kock-0461-baptai-69" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-69-l1" xml:lang="grc">ὅτι οὐκ ἀτρύφερος οὐδ’ ἄωρός ἐστ’ ἀνήρ.</l>
+              </lg>
+              <note type="source">
+                <p>Bekker. Anecd. 460, 25 et Suidas ἀτρύφερος· ἔστιν ἡ λέξις ἐν Βάπταις Εὐπόλιδος κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>Alcibiadem notari sine idonea causa conicit Fritzschius Q. Arist. 237.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="70" xml:id="kock-0461-baptai-70" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-70-l1" xml:lang="grc">ἀλλ’ ἐξολεῖς με ναὶ μὰ τὴν ἀμυγδαλῆν.</l>
+              </lg>
+              <note type="source">
+                <p>Herodianus II 911, 15 Lentz. παγῆ, γαλῆ, μυγαλῆ, ἀμυγδαλῆ. Εὔπολις Βάπταις κτλ. Athen. 2, 53a Εὔπολις· ἀπολεῖς με κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>ἐξολεῖς Blochius] ἐξομέλεις cod. Herod. ἀπολεῖς Athen. ἐξαπολεῖς Dindorf. ἀπολεῖς, ἀπολεῖς Meinek. Anal. Ath. 28. ἀμυγδαλῆν] ἀμυγδαλῆ cod. Herod. ἀμυγδάλην C Athen. contra Herodiani regulam ἀμυγδαλῆ scribi iubentis. cum fr. 74 coniungit Fritzschius ἀμυγδάλλην scribens, alterum conloquentium Socratem esse ratus. de iureiurando cf. fr. 74. Telecl. 27.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="71" xml:id="kock-0461-baptai-71" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-71-l1" xml:lang="grc">ἐπιχώριος δ’ ἔστ’ ἢ ξένης ἀπὸ χθονός;</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Ran. 418 οὗτος (Ἀρχέδημος) ὡς ξένος κωμῳδεῖται. καὶ Εὔπολις Βάπταις κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>ἔστ’ ἢ Dindf.] ἐστὶ ἢ R (δέ) ἐστιν ἢ V. δὲ ἢ Θ. δέ ἐστι καὶ Ald. interrogationis signum addidit Herwerdenus Obs. crit. 22. de Archedemo cf. Aristophanes ipse cum interpr.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="72" xml:id="kock-0461-baptai-72" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-72-l1" xml:lang="grc">ὦ ῥύμβε μαστίξας ἐμέ</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Apollonii Rh. 4, 143 Keil. τὸ κινούμενον τροχίσκιον ὑπὸ τῶν φαρμακίδων ῥυμβίον καλεῖται. οὕτω δὲ λέγουσι τὰς περιφερεῖς κινήσεις. καὶ παρ’ Εὐπόλιδι· ὦ κτλ. idem 1, 1139 ῥύμβος· τροχίσκος, ὃν στρέφουσιν ἱμᾶσι τύπτοντες καὶ οὕτως κτύπον ἀποτελοῦσι. τινὲς δὲ ῥύμβον αὐτὸν καλοῦσιν, ὧν καὶ Εὔπολις ἐν Βάπταις. Etym. m. 706, 28 ῥύμβος δὲ καὶ ῥόμβος διχῶς λέγεται ῥύμβον δὲ αὐτὸν Εὔπολις εἶπεν. Eustath. 1387, 47 Εὔπολις δέ, φασί, ῥύμβον αὐτὸν εἶπε διὰ τοῦ υ ψιλοῦ. Photius ῥόμβος (ῥύμβος)· ὁ ἔχουσιν οἱ ἐπιθειάζοντες, ὡς τύμπανον. οὕτως Εὔπολις. Schol. Theocr. 2,</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="73" xml:id="kock-0461-baptai-73" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-73-l1" xml:lang="grc">ἀλλ᾽ οὐχὶ δυνατόν ἐστιν· οὐ γὰρ ἀλλὰ προ-</l>
+                <l n="2" xml:id="kock-0461-baptai-73-l2" xml:lang="grc">βούλευμα βαστάζουσι τῆς πόλεως μέγα.</l>
+              </lg>
+              <note type="source">Hephaestio 4, 7 extr. ἔνια δὲ καὶ παίζουσιν οἱ κωμικοί (vocabulis inter duos versus diremtis), ὡς Εὔπολις Βάπταις· ἀλλ᾽ οὐχὶ κτλ.</note>
+              <note type="apparatus">ἀλλὰ Bentl. Callim. fr. XCII] ἄλλο. cf. Aristoph. Eq. 1205 ἅπιθ᾽· οὐ γὰρ ἀλλὰ τοῦ παραθέντος ἡ χάρις. Meinekius Hephaestionem vitioso codice deceptum esse existimat, admodum probabiliter, siquidem quid comici insit in illa vocabuli divisione non intellegitur. admonet praeterea Bergkius R. c. Att. 296 in tali divisione syllabae ancipiti locum non esse. itaque ipse πρω — βούλευμα, melius Meinekius πρὼ | βούλευμα. prorsus incredibile est quod Wilamowitzius Herm. XI 297 poetam in verbis πρῳ β. et προβ. lusisse fingit: Alcibiadis enim sodales dici rei alicui non vacare, quod — in senatu magna de causa deliberandum sit, quae nihil aliud sit quam magna compotatio novo more (cf. fr. 351, 3) mane instituta. at tale quid si indicabatur, vocabulo utendum erat, non quod et ante et mane, sed quod et deliberationem et compotationem significaret. adsentior igitur Meinekio. βούλευμα ut Aristoph. Lys. 517. Eccl. 17. 137. βαστάζουσι, i. e. adferunt. Fritzschius Q. Arist. 238.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="74" xml:id="kock-0461-baptai-74" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-74-l1" xml:lang="grc">ἀνόσια πάσχω ταῦτα ναὶ μὰ τὰς Νύμφας.</l>
+                <l n="2" xml:id="kock-0461-baptai-74-l2" xml:lang="grc">Β. πολλοῦ μὲν οὖν δίκαια ναὶ μὰ τὰς κράμβας.</l>
+              </lg>
+              <note type="source">Priscianus De metris Terent. 23 Eupolis Βάπταις cum in aliis iambis eiusdem fabulae recta est observatione metrorum usus, hos tamen posuit in fine habentes spondeos ἀνόσια κτλ. Athenaeus 9, 370b Εὔπολις Βάπταις· ναὶ μὰ τὴν κράμβην. 2. πολλού V Par. 7504] ΠΩΛΛΟΙ Α.</note>
+              <note type="apparatus">de reliqua codicum varietate cf. adnot. Keilii et de iureiurando Telecl. 27. Hermannus Doctr. metr. 48 consulto Eupolin praeter exspectationem versibus Hipponacteis usum esse statuit, conl. Hipponacte vel Ananio apud Athen. καὶ σὲ πολλὸν ἀνθρώπων | ἐγὼ φιλέω μάλιστα, ναὶ μὰ τὴν κράμβην. ac sic τὴν κράμβην Athenaeus. barbaros conloqui censet Schneidewin. Philol. III 258. cf. quae disputavit Leutschius Philol. X 707. 8.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="75" xml:id="kock-0461-baptai-75" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-75-l1" xml:lang="grc">ἐκεῖ γὰρ ἕξεις ἀγαθὰ πολλὰ δὴ πρῳ.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Av. 129 πρῳ· οὕτω μονοσυλλάβως λέγουσιν. Εὔπολις Βάπταις κτλ. ἕξεις Dind.] ἑξῆς. ‘iamb. tetram. initio duobus pedibus truncatus.’ Meinek.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="76" xml:id="kock-0461-baptai-76" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-76-l1" xml:lang="grc">ἀλλὰ τὰς κίστας γ’ ἔχουσι πλουσίως σεσαγμένας.</l>
+              </lg>
+              <note type="source">Pollux 10, 91 κοίτην, ὡς ἔν τε τοῖς Βάπταις Εὐπόλιδος κτλ.</note>
+              <note type="apparatus">ἀλλὰ] καὶ A. κᾆτα Fritzschius Q. Arist. 216. κίστας K. Mus. Rh. XXX 414. 5] κοίτας. cf. Pherecr. 122. γ’] οὐκ A.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="77" xml:id="kock-0461-baptai-77" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-77-l1" xml:lang="grc">ὃς καλῶς μὲν τυμπανίζεις</l>
+                <l n="2" xml:id="kock-0461-baptai-77-l2" xml:lang="grc">καὶ διαψάλλει τριγώνοις</l>
+                <l n="3" xml:id="kock-0461-baptai-77-l3" xml:lang="grc">κἀπικινεῖς ταῖς κοχώναις</l>
+                <l n="4" xml:id="kock-0461-baptai-77-l4" xml:lang="grc">καὶ πείθεις ἄνω σκέλη.</l>
+              </lg>
+              <note type="source">Daremberg Notices et extraits p. 215 Εὔπολις ἐν Κόλαξιν· οἷς καλῶς μὲν τυμπανίζεις καὶ ἐπικινεῖς κτλ. καὶ ἐμβάπτεις· ‘καὶ τὸν Κέκροπα’ κτλ. (fr. 156). Athenaeus 4, 183f Εὔπολις δ’ ἐν Βάπταις φησίν· ὃς — τριγώνοις. recte igitur Duebnerus grammaticum nomina fabularum permutasse arbitratur.</note>
+              <note type="apparatus">1. ὃς Athen.] οἷς Daremb. τυμπανίζεις Dar.] τυμπανίζει Athen. 2. διαψάλλει] διαψάλλεις Duebner. 3. κἀπικινεῖ Cobet. V. 1.2 221. 4. πείθεις] ποεῖς Duebner. τίθεις Schneidewin. Goett. g. A. 1852, 426. τιθεῖς Goettling. Ind. Ien. hib. 1853/4. κἀνατείνεις τὼ σκέλη Fritzschius De com. gr. fr. 5. exoletum aliquem symphoniacum, quem sub Batali nomine (fr. 82) induxerit poeta, significari statuit Meinekius I 335, eundem saltatorem fuisse Fritzschius, ἀνατείνειν τὼ σκέλη monens et saltatori et mulieri et pathico convenire. Aristoph. Pac. 854. Av. 1254. Lys. 799. Eccl. 265. ‘o tu qui pulchre tympana pulsas et quem circumsonant trigona et qui ceves clunibus ac tollis crura’ (Fritzsch. 6). de trigono musico cf. Pherecr. 42. διαψάλλει et ἐπικινεῖ pers. sec.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="78" xml:id="kock-0461-baptai-78" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-78-l1" xml:lang="grc">κἀκείνους τοὺς Ἱππέας</l>
+                <l n="2" xml:id="kock-0461-baptai-78-l2" xml:lang="grc">συνεποίησα τῷ φαλακρῷ τούτῳ κἀδωρησάμην.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Nub. 554 Εὔπολις δὲ ἐν τοῖς Βάπταις τοὐναντίον φησὶν ὅτι συνεποίησεν Ἀριστοφάνει τοὺς Ἱππεῖς. λέγει δὲ τὴν τελευταίαν παράβασιν. φησὶ δέ· κἀκείνους κτλ. Schol. Equit. 1291</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="79" xml:id="kock-0461-baptai-79" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <lg>
+                <l n="1" xml:id="kock-0461-baptai-79-l1" xml:lang="grc">σὺ δ’ ὕπαγ’ εἰς τοὔμπροσθεν.</l>
+              </lg>
+              <note type="source">
+                <p>Ammonius ὑπάγειν λέγομεν ἀντὶ τοῦ προάγειν, τοῦτ’ ἔστιν εἰς τοὔμπροσθεν πορεύεσθαι. κέχρηται τῇ λέξει Εὔπολις ἐν Βάπταις κτλ. Herodian. Boisson. Anecd. IIII 265. Etymol. Gud. 541, 13. Thom. Mag. 369, 6. Bachmanni Anecd. II 375. ὕπαγ’ εἰς] ὕπαγε εἰς Ammon. ὑπάγεις εἰς Etym. Gud. ἐν Βάπταις] ἐν Βάκχαις Herodian. ἐμβαπτοὺς Etym. Gud. cf. Aristoph. Ran. 174. Antiphan. 181, 4.</p>
+              </note>
+              <note type="apparatus">
+                <p>versus videtur esse aut iambicus aut trochaicus.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="80" xml:id="kock-0461-baptai-80" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <note type="source">
+                <p>Schol. Aristoph. Vesp. 687 τὸν γὰρ Χαιρέαν Εὔπολις ἐν Βάπταις ὡς ξένον κωμῳδεῖ.</p>
+              </note>
+              <note type="apparatus">
+                <p>Chaereas aliunde non notus. nam Alexid. 21 qui commemoratur alius est, neque minus qui Φιλοκτήμονος κηδεστής fuit Isae. 6, 6. 7 cet.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="81" xml:id="kock-0461-baptai-81" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <note type="source">
+                <p>Hesychius Βάστας ὁ Χῖος· Δημοκρίτου ἐπώνυμον, καθὰ καὶ Εὔπολις ἐν Βάπταις. ἔστι δὲ ἱστοριογράφος (?). Βάστας ὁ Χίος Musurus] Βαστα όχειος cod. i. e. Βαστας Χίος. Diog. L. 9, 49 γεγόνασι δὲ Δημόκριτοι ἕξ· πρῶτος αὐτὸς οὗτος (ὁ φιλόσοφος), δεύτερος Χῖος ὁ μουσικὸς κατὰ τὸν αὐτὸν χρόνον. Lucian. Pseudol. 3 δόξαν οὐ μικρὰν ἔχεις . . ὑπὲρ τὸν Ἀριφράδην (Aristoph. Eq. 1281), ὑπὲρ τὸν . . . Χῖον ἐκεῖνον Βάσταν, τὸν ἐπὶ τοῖς ὁμοίοις σοφόν. Pollux 4, 66 τὸ μέντοι σιφνιάζειν καὶ χιάζειν (Aristoph. fr. 911) τὸ περιέργοις μέλεσι χρῆσθαι, ἀπὸ Δημοκρίτου τοῦ Χίου καὶ Φιλοξένου τοῦ Σιφνίου.</p>
+              </note>
+              <note type="apparatus">
+                <p>Fritzsch. Q. Arist. 232sq.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="82" xml:id="kock-0461-baptai-82" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <note type="source">
+                <p>Schol. Par. Aeschin. 1, 126 δοκεῖ δέ μοι λελέχθαι Βάταλος παρὰ τὸ Εὐπόλιδος σκῶμμα. ἐκεῖνος γὰρ ὑπὸ τῶν βαπτῶν ὀνόματα κεῖσθαι τοῖς αἰσχρῶς, καὶ Τιγράνην (Sauppius τὸν πρωκτὸν) Βάταλον ὑπ’ αὐτῶν καλεῖσθαι. Harpocratio 44, 9 Εὔπολις τὸν πρωκτὸν βάταλον λέγει. μήποτε οὖν ἔνθεν τοὺς κιναίδους βατάλους καλοῦσι. scholion Aeschineum Meinekius ita emendat: ἐκεῖνος γὰρ τὸ τῶν βατάλων ὄνομα κεῖσθαι τοῖς αἰσχροῖς, καὶ τὸν πρωκτὸν βάταλον ὑπ’</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="83" xml:id="kock-0461-baptai-83" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <note type="source">Hesychius</note>
+              <note type="apparatus">
+                <p>Κοτυττώ· ὁ μὲν Εὔπολις κατ’ ἔχθος τὸ πρὸς τοὺς Κορινθίους φορτικόν τινα δαίμονα διατίθεται. cod. Κοτυτώ. διατίθεται, i. e. in scaenam inducit. Meinek. I 121. odium quod dicit in Corinthios non privatum est Eupolidis, sed commune Atheniensium. de Cotytto et Cotyttiis cf. Lobeck. Aglaoph. 1007. Preller. Myth. gr.<hi rend="superscript">2</hi> I 548 sq.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="84" xml:id="kock-0461-baptai-84" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <note type="source">Ioannes Alex. De acc. 36, 16 Herodian. I 502, 20 Lentz.</note>
+              <note type="apparatus">
+                <p>τὸ σαβαῖ (περισπᾶται) παρ’ Εὐπόλιδι ἐν Βάπταις· τὸ δὲ εὐαὶ παρὰ τῷ αὐτῷ ὀξύνεται, εὐαὶ σαβαῖ. cum in Bacchi cultu εὐοῖ σαβοὶ usitata sit dei salutatio, Fritzschius Q. Arist. 211 sq. genus femininum ab Eupolide substitutum esse censet, ut <hi rend="italic">deam</hi> Cotytto ea acclamatione a Baptis salutari significaret.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="85" xml:id="kock-0461-baptai-85" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <note type="source">Athenaeus 15, 667 d</note>
+              <note type="apparatus">
+                <p>ὅτι δὲ ἆθλον προὔκειτο τῷ εὖ προεμένῳ τὸν κότταβον προείρηκε μὲν καὶ ὁ Ἀντιφάνης· ᾠὰ γάρ ἐστι καὶ πεμμάτια καὶ τραγήματα. ὁμοίως δὲ διεξέρχονται . . . καὶ Εὔπολις Ἑρμιππός τε ἐν τοῖς Ἰάμβοις. ad eandem cum fr. 86 Baptarum scaenam haec referenda esse probabilis est Runkelii sententia.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="86" xml:id="kock-0461-baptai-86" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <head>χαλκῷ περὶ κοττάβῳ</head>
+              <note type="source">Schol. Aristoph. Pac. 1244</note>
+              <note type="apparatus">
+                <p>κότταβος δὲ ἐκαλεῖτο καὶ τὸ τιθέμενον ἆθλον τοῖς νικῶσιν ἐν τῷ πότῳ, καὶ τὸ ἄγγος, εἰς ὃ ἐνέβαλον τοὺς λάταγας, ὡς Κρατῖνος ἐν Νεμέσει δείκνυσιν. ὅτι δὲ καὶ χαλκοῦν ἦν, Εὔπολις ἐν Βάπταις λέγει χ. π. κ. Fritzsch. Q. Arist. 216 χαλκῶ περὶ κοττάβω (gen. dor.), Meinekius χαλκῷ παρὰ κοττάβῳ.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="87" xml:id="kock-0461-baptai-87" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <note type="source">Schol. Aristoph. Plut. 883</note>
+              <note type="apparatus">
+                <p>λέγει οὖν, οὐ φοβοῦμαί σε ἔχων φυσικὸν δακτύλιον. δακτύλιον δέ, τὸν λεγόμενον φαρμακίτην. Εὔπολις Βάπταις μέμνηται. Hesychius δακτύλιος φαρμακίτης, ὃν οἱ φαρμακοπῶλαι εἰώθασι πιπράσκειν ἀντὶ φαρμάκου. i. e. anulus magicus, quo contra serpentium morsus et alia eiusmodi utebantur. tales anulos tunc potissimum Eudemus vendebat. Cratin. 299. Aristoph. fr. 250.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="88" xml:id="kock-0461-baptai-88" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <note type="source">Pollux 7, 123</note>
+              <note type="apparatus">κάπνην δὲ καὶ καπνοδόκην Εὔπολις τὸ μὲν εἴρηκεν ἐν Βάπταις, τὸ δὲ ἐν Δήμοις. Fritzschius Q. Arist. 237 cum Raspio Alcibiadem illa voce eiusque in promittendo vanitatem significari putat (ἡ κάπνη ψοφεῖ).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="89" xml:id="kock-0461-baptai-89" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_baptai">
+              <note type="source">Harpocratio 142, 26</note>
+              <note type="apparatus">ὅτι τοὺς τοιούτους ἐκάλουν παλιναιρέτους, καὶ τοὺς ἀποχειροτονηθέντας τὴν ἀρχὴν καὶ πάλιν χειροτονηθέντας, Εὔπολις ἐν Βάπταις δηλοῖ. de Hyperbolo cogitari posse, hieromnemonis munere se abdicare coacto, mox tamen in senatum lecto admonet Fritzsch. Q. Arist. 238. Ad hanc fabulam fr. 333 rettulit Fritzschius Q. Arist. 201, fr. 351 Wilamowitzius Herm. XI 297.</note>
+            </div>
+          </div></body></text></TEI>

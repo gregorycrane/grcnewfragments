@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΔΡΑΠΕΤΙΔΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.drapetides.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.drapetides.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.drapetides.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides"><head>ΔΡΑΠΕΤΙΔΕΣ</head><div type="textpart" subtype="fragment" n="54" xml:id="kock-0434-drapetides-54" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <lg>
+                <l n="1" xml:id="kock-0434-drapetides-54-l1" xml:lang="grc">τοὺς ὧδε μόνον στασιάζοντας καὶ βουλομένους τινὰς εἶναι.</l>
+              </lg>
+              <note type="source">
+                <p>Photius <quote>ὧδε· οὐ μόνον τὸ οὕτως, ἀλλὰ καὶ τὸ ἐνθάδε ὡς ἡμεῖς.</quote> Κρατῖνος Δραπέτισι.</p>
+              </note>
+              <note type="apparatus">
+                <p>fallitur Photius. nusquam apud Atticos ὧδε pro ἐνθάδε, interdum pro δεῦρο ponitur. cf. Arist. Av. 229 cum eis quae adnotavi. ‘sic incassum, sine causa et ratione.’</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="55" xml:id="kock-0434-drapetides-55" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <lg>
+                <l n="1" xml:id="kock-0434-drapetides-55-l1" xml:lang="grc">ποδαπὰς ὑμᾶς εἶναι φάσκων, ὦ μείρακες, οὐκ ἂν ἁμάρτοιν;</l>
+              </lg>
+              <note type="source">
+                <p>Suidas <quote>ἁμάρτοιν εἴρηκε τὸ ἁμάρτοιμι</quote> Κρατῖνος Δραπέτισι . . .</p>
+              </note>
+              <note type="apparatus">
+                <p>καὶ ὅλως σύνηθες τὸ τοιοῦτο. Draco Straton. 18, 20 <quote>τὸ μεῖραξ ἐπὶ θηλυκοῦ τιθέμενον εὖ ἂν ἔχοι.</quote> ὡς ἀγνοοῦντες δὲ τοῦτο ἔσθ᾽ ὅτε οἱ κωμικοὶ καὶ ἀρσενικῷ γένει τὴν σύνταξιν ποιοῦνται. ἀλλ᾽ εἰκὸς αὐτοὺς θηλυκῇ προσηγορίᾳ σκώπτειν τοὺς πασχητιῶντας. etiam ignavos opinor et inbelles. Lob. Phryn. 212. sic Thersites (Hom. Il. 2, 235) <quote>Ἀχαιίδες, οὐκέτ᾽ Ἀχαιοί,</quote> et Verg. Aen. 9, 614 <quote>o vere Phrygiae, neque enim Phryges.</quote> de terminatione οιν pro οιμι cf. Curtius Verb. graec. I 44. G. Herm. Eur. Hel. 271 (263) λάβοιν. Lycurg. Leocr. 100, 6. Etym. m. τρέφοιν. Eur. Troad. 226 Dindorfius (adn. Oxon.) <quote>Ἰονίῳ ναίοιν πόντῳ.</quote>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="56" xml:id="kock-0434-drapetides-56" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <lg>
+                <l n="1" xml:id="kock-0434-drapetides-56-l1" xml:lang="grc">Πανδιονίδα πόλεως βασιλεῦ</l>
+                <l n="2" xml:id="kock-0434-drapetides-56-l2" xml:lang="grc">τῆς ἐριβώλακος, οἶσθ᾽ ἣν λέγομεν,</l>
+                <l n="3" xml:id="kock-0434-drapetides-56-l3" xml:lang="grc">καὶ κύνα καὶ πόλιν ἣν παίζουσιν.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 9, 98 <quote>ἡ δὲ διὰ πολλῶν ψήφων παιδιὰ πλινθίον ἐστὶ χώρας ἐν γραμμαῖς ἔχον διακειμένας. καὶ τὸ μὲν πλινθίον καλεῖται πόλις, τῶν δὲ ψήφων ἑκάστη κύων· διηρημένων δὲ εἰς δύο τῶν ψήφων κατὰ τὰς χρόας, ἡ τέχνη τῆς παιδιᾶς ἐστι περιλήψει τῶν δύο ψήφων ὁμοχρόων τὴν ἑτερόχρουν ἀναιρεῖν, ὅθεν καὶ Κρατίνῳ πέπαικται· Πανδιονίδα κτλ.</quote> Zenob. 5, 67 <quote>πόλεις παίζειν.</quote> μέμνηται ταύτης Κρατῖνος ἐν Δραπέτισιν. <quote>ἡ δὲ πόλις εἶδός ἐστι παιδιᾶς πεττευτικῆς. καὶ δοκεῖ μετενηνέχθαι ἀπὸ τῶν ταῖς ψήφοις παιζόντων, ταῖς λεγομέναις νῦν χώραις, τότε δὲ πόλεσιν.</quote> cf. Hesych. <quote>πόλεις παί-</quote>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="57" xml:id="kock-0434-drapetides-57" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <lg>
+                <l n="1" xml:id="kock-0434-drapetides-57-l1" xml:lang="grc">Λάμπωνα, τὸν οὐ βροτῶν</l>
+                <l n="2" xml:id="kock-0434-drapetides-57-l2" xml:lang="grc">ψῆφος δύναται φλεγυρὰ δείπνου φίλων ἀπείργειν.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="58" xml:id="kock-0434-drapetides-58" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <lg>
+                <l n="1" xml:id="kock-0434-drapetides-58-l1" xml:lang="grc">νῦν δ’ αὖθις ἐρυγγάνει·</l>
+                <l n="2" xml:id="kock-0434-drapetides-58-l2" xml:lang="grc">βρύκει γὰρ ἅπαν τὸ παρόν, τρίγλῃ δὲ κἂν μάχοιτο.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 344 e Κρατῖνος δ’ ἐν Δραπέτισιν εἰπὼν περὶ αὐτοῦ Λάμπωνα — ἀπείργειν, ἐπάγει· νῦν δ’ αὖθις κτλ. 3. αὖθις Dindorf.] αὖτις. metrum est</note>
+              <note type="apparatus">alterius versus idem quod in Vesparum exodo et Cratin. 323. cum Athenaeus eandem partem et strophae et antistrophae servaverit, integro carmine chorico Lamponem a Cratino traductum esse adparet. Hesych. φλεγυρά· ὑβριστική. ‘itaque ne ludibriis quidem et contumeliis Lamponem a conviviis prohiberi dicit.’ Meinek. ego neque quid ψῆφος φλεγυρά (pro φῆμις φλεγυρά) neque quid τρίγλῃ δὲ κἂν μάχοιτο significent intellego. nam haec quidem nequaquam inlustrantur neque fr. 163 περὶ σιαγόνος βοείας μαχόμενος (nam prorsus diversa sunt μάχεσθαί τινι et μάχεσθαι περί τινος) neque eo exemplo quod Meinekius V 16 adfert Plut. Mor. 995 d Διογένης . . . ὠμῷ πολύποδι διαμαχόμενος. nam crudum polypum edere periculosum est, mullum non item.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="59" xml:id="kock-0434-drapetides-59" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <note type="source">Schol. Platonis Bekk. 382 ὁ μῦθος ἀπώλετο· τούτῳ χρῶνται τῷ λόγῳ οἱ λέγοντές τι πρὸς τοὺς μὴ προσέχοντας. μέμνηται δὲ αὐτῆς</note>
+              <pb n="31" facs="urn:hathi:hvd.hxijva:scan:63"/>
+              <note type="apparatus">
+                <p>καὶ Κρατῖνος ἐν Δραπέτισι. Greg. Cypr. Leid. 2, 90 ὁ μῦθος ἀπώλετο· ἐπὶ τῶν τὴν διήγησιν μὴ ἐπὶ πέρας ἀγόντων (ohne Pointe) 2, 91 τούτῳ τῷ λόγῳ χρῶνται οἱ λέγοντές τι πρὸς τοὺς μὴ προσέχοντας. de utrisque commode usurpatur. cf. Plat. Reip. 10, 621 b.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="60" xml:id="kock-0434-drapetides-60" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <note type="source">
+                <p>Zenob. 6, 24 ὕδωρ παραρρέει· αὕτη τάττεται ἐπὶ τῶν ἐκ παντὸς ἔργου ἐπαγγελλομένων καταπράξασθαι τὸ προκείμενον. μετενήνεκται δὲ ἀπὸ τῶν ὑπὸ σπουδῆς εἰς ῥέοντα πλοῖα εἰσβαινόντων, καὶ παραβαλλομένων τῷ κινδύνῳ. μέμνηται αὐτῆς Κρατῖνος ἐν Δραπέτισιν. Phot. ὕδωρ παραρέῃ· ἐπὶ τῶν ἐπαγγελλόντων παντὶ σθένει σπουδάσειν, ὡς κἂν εἰς ῥέοντα πλοῖα ἐμβῆναι οὐκ ὀκνησάντων.</p>
+              </note>
+              <note type="apparatus">
+                <p>similiter Plutarch. Proverb. 1, 28. ex Photio Meinekius (ed. min. p. VI) concludit 'Cratinum tale quid scripsisse <quote xml:lang="grc">πράξω δὲ ταῦτα, κἂν ὕδωρ παραρρέῃ</quote>'. sententia quam Zenobius exposuit vehementer dubito an proverbio subesse non possit. neque enim Athenienses tam timidi erant ut navigia mari fluviove agitata (ῥέοντα?) conscendere vererentur. semper in mentem venit Horatii Epist. 1, 2, 42 <quote xml:lang="lat">exspectat dum defluat amnis: at ille labitur et labetur in omne volubilis aevum.</quote> nam dictum videtur proverbium de eis qui aliquid omni studio se perfecturos esse pollicentur, occasionem autem rei gerendae praetermittunt.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="61" xml:id="kock-0434-drapetides-61" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <note type="source">
+                <p>Harpocrat. ἱερὰ ὁδός ἐστιν ἣν οἱ μύσται πορεύονται ἀπὸ τοῦ ἄστεος ἐπ' Ἐλευσῖνα . . . μνημονεύει δ' αὐτῆς Κρατῖνος ἐν Δραπέτισιν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="62" xml:id="kock-0434-drapetides-62" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <note type="source">
+                <p>Hesychius ἀγερσικύβηλις· Κρατῖνος ἐν Δραπέτισιν ἐπὶ Λάμπωνος. τὸν αὐτὸν ἀγύρτην καὶ κυβηλιστὴν εἶπεν, οἱονεὶ θύτην καὶ μάντιν. κύβηλιν γὰρ ἔλεγον τὸν πέλεκυν. Bekk. Anecd. 336, 15 ἀγερσικύβηλιν Κρατῖνος Λάμπωνα τὸν μάντιν ὡς ἀγύρτην καὶ θύτην. κύβηλις γὰρ ὁ πέλεκυς. οἱ δὲ ἐγερσικύβηλιν ἐν τῷ δράματι γράφουσι, τὸν ἐφ' ἑαυτὸν ἐγείροντα τὸν πέλεκυν. cf. Suid. κυβηλίσαι et Etym. m. 8, 11.</p>
+              </note>
+              <note type="apparatus">
+                <p>'sacrificulum stipem conligentem, avarum hominem et alieni adpetentem' interpretatur Bergkius R. c. Att. 47. nam ἀγείρειν, unde ἀγύρτης, est mendicando conligere. Ruhnken. Tim. 10.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="63" xml:id="kock-0434-drapetides-63" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <note type="source">
+                <p>ἀνεικάσασθε, ἀνασκώψατε. Δραπέτισι Κρατῖνος. Bekk. Anecd. 396, 24 et Suidas. Hesych. ἀνεικάσασθε· ἀνασκώψατε (cod. ἀνακάσασθαι).</p>
+              </note>
+              <note type="apparatus">
+                <p>neque ἀνεικάζειν neque ἀνασκώπτειν Atticis usitatum fuisse credo. ubique scribendum videtur ἀντεικάσασθε· ἀντισκώψατε. cf. Arist. Vesp. 1308—1311. media forma Arist. Av. 807. εἰκά-</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="64" xml:id="kock-0434-drapetides-64" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <note type="source">
+                <p>Basilius apud Schaeferum Gregor. Cor. praef. LIII στιβάς, χαμαικοίτιον ἐν στρατείαις, ὡς . . . καὶ Ἀριστοφάνης (Pac. 347) καὶ ἐν Δραπέτισι Κρατῖνος. verba ἐν στρατείαις ante Lucam (Observ. spec. II 8) post vocem Ἀριστοφάνης legebantur.</p>
+              </note>
+              <note type="apparatus">
+                <p>Ad Fugitivas praeterea Bergkius (R. c. Att. 48) refert fr. 308, quo Lamponem perstringi arbitratur.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="49" xml:id="kock-0434-drapetides-49" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <lg>
+                <l n="1" xml:id="kock-0434-drapetides-49-l1" xml:lang="grc">τὸν Κερκυόνα θ’ ἕωθεν ἀποπατοῦντ’ ἐπὶ</l>
+                <l n="2" xml:id="kock-0434-drapetides-49-l2" xml:lang="grc">τοῖς λαχάνοις εὑρὼν ἀπέπνιξα.</l>
+              </lg>
+              <note type="source">
+                <p>Bekk. Anecd. 433, 10 <foreign xml:lang="grc">ἀποπάτημα· αὐτὸ τὸ σκύβαλον</foreign> . . . <foreign xml:lang="grc">Κρατίνος Δραπέτισιν</foreign>. Suid. <foreign xml:lang="grc">ἀποπάτημα</foreign>. Etym. m. 132, 9, ubi <foreign xml:lang="grc">τὸν Κερκύωνα ἕωθεν ἀποπατῶν</foreign> (<foreign xml:lang="grc">Κερκύονα — ἀποπατοῦντ’</foreign> D). <foreign xml:lang="grc">λαχάνοις</foreign>] <foreign xml:lang="grc">λασάνοις</foreign> Meinekius.</p>
+              </note>
+              <note type="apparatus">
+                <p>de versuum discriptione dubitatur. Bekkerus et Meinekius trimetros constituunt, ille <foreign xml:lang="grc">τὸν Κ. τε | ἕωθεν ἀπ. ἐπὶ τ. λ. . . . | εὑρ. ἀπ.</foreign>, Meinekius <foreign xml:lang="grc">τὸν Κ. — ἀποπατοῦντ’ ἐγώ | ἐπὶ τ. λ. κτλ.</foreign> at <foreign xml:lang="grc">ἐπὶ τοῖς λ. εὑρ. ἀπ.</foreign> dactylicus cum anacrusi esse potest. — Cercyon Thesei aequalis notissimus. Diodor. 4, 59. Paus. 1, 39, 3. Ovid. Met. 7, 439. Ib. 410. sed quis hic commemoretur Cercyon non constat.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="50" xml:id="kock-0434-drapetides-50" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <lg>
+                <l n="1" xml:id="kock-0434-drapetides-50-l1" xml:lang="grc">δέχεσθε φιάλας τάσδε βαλανειομφάλους.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 11, 501 d <foreign xml:lang="grc">Κρατίνου εἰπόντος ἐν Δραπέτισι·</foreign> . . . <foreign xml:lang="grc">τῶν γὰρ φιαλῶν οἱ ὀμφαλοὶ καὶ τῶν βαλανείων οἱ θόλοι παρόμοιοι· εἰς δὲ τὸ εἶδος οὐκ ἀρρύθμως παίζονται.</foreign> Hesych. (ex emend. Kusteri et Meinek.) <foreign xml:lang="grc">βαλανειομφάλους· οὕτω Κρατίνος ὠνόμασε τὰς ἐχούσας ὀμφαλοὺς ἄνευ προσώπων</foreign> (‘leonum luporum aliorumve animalium, quibus aliarum phialarum orae ornabantur, Poll. 2, 48’ Mein.), <foreign xml:lang="grc">ὁποῖοι οἱ θόλοι ἐν τοῖς βαλανείοις· οἱ δὲ ἀπὸ τῶν ὀμφαλῶν τῶν ἐν τοῖς πυέλοις.</foreign> cf. Suid. Bekker. Anecd. 225, 6. Poll. 6, 98 <foreign xml:lang="grc">μεσόμφαλοι δὲ φιάλαι καὶ βαλανειόμφαλοι τὸ σχῆμα προσηγορίαν ἔχουσι.</foreign>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>erant autem ‘balnea in alvearium formam orbiculata et superne’ habebant ‘in media parte emissaria aeneo umbilico aut claudenda aut aperienda. eorum igitur tholorum speciem referebant phialae, eo tamen discrimine, ut tholorum umbilicus in superiore, phialarum autem in inferiore parte promineret’. Meinek.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="51" xml:id="kock-0434-drapetides-51" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_drapetides">
+              <lg>
+                <l n="1" xml:id="kock-0434-drapetides-51-l1" xml:lang="grc">οὗτος, καθεύδεις; Β. οὐκ ἀναστήσεις βοῶν.</l>
+              </lg>
+              <note type="source">
+                <p>Apollonius p. 21 ed. Schneid. <foreign xml:lang="grc">Κρατῖνος ἐν Δραπέτισιν. οὗτος</foreign> b] <foreign xml:lang="grc">ουτως</foreign> Α. Β. <foreign xml:lang="grc">οὐκ ἀναστήσεις βοῶν</foreign> Koenius Gregor. Cor. 117]</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

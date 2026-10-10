@@ -1,0 +1,1250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="13" xml:id="kock-0434-adelon_dramaton-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Photius <quote>Σαμιακὸν τρόπον· Κρατῖνος Ἀρχιλόχοις, εἰσυαμιαν ἐπισκώπτων μιννύωνα. ὑσὶ γὰρ ἐμφερεῖς εἶχε τὰς πρώρας τὰ τῶν Σαμίων πλοῖα.</quote> Schol. Arist. Pac. 143 <quote>καὶ Σαμιακὸν τρόπον φησὶ Κρατῖνος.</quote> Hesych. <quote>Σαμιακὸς τρόπος· . . . Δίδυμος τὰς σαμαίνας (i. e. τὰς Σαμίας ναῦς) ἰδιαιτέραν παρὰ τὰς ἄλλας ναῦς τὴν κατασκευὴν ἔχειν· εὐρύτεραι μὲν γάρ εἰσι τὰς γαστέρας, τοὺς δὲ ἐμβόλους σεσίμωνται (sic Schneiderus in Lex. ὑόπρωρος pro σεσήμανται), ὡς δοκεῖν ῥύγχεσιν ὑῶν ὁμοίως κατεσκευάσθαι, οἷον ὑοπρώρους εἶναι. διὸ καὶ ἐπὶ τοιαύτης λέγεται· ναῦς δέ τις ὠκυπόρος Σαμίη, ὑὸς εἶδος ἔχουσα.</quote>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>in Photii verbis Naekius Choeril. 156 nihil inesse Cratinei existimat praeter Σαμιακὸν τρόπον: poetam enim de re aliqua obtusa loquentem eam dixisse obtusam Σαμιακὸν τρόπον. Bergkius (R. c. Att. 29) scribendum censet εἰς συανίαν (ὑηνίαν) ἐπισκώπτων Μένωνα vel Μένιππον, Dobraeus Advers. I 608 Μέμνονα (quod Nauckius Philol. VI 413 unice verum existimat conl. Phot. σῦς· ὗς τοὺς Ἱπποκράτους υἱοὺς ἔλεγον καὶ τοὺς Παναιτίου καὶ Μέμνονος, εἰς ὑηνίαν κωμῳδοῦντες) vel Ἀμυνίαν, Meinekius Σίμωνα. rarius aliquod nomen latere videtur, fortasse Σμικυθίωνα. cf. Arist. Eq. 969. Vesp. 401. Eccl. 46. 294. Pherecr. 32.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="14" xml:id="kock-0434-adelon_dramaton-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Harpocrat. <quote>ἰθύφαλλοι· κυρίως ἰθύφαλλος τὸ ἐντεταμένον αἰδοῖον, ὡς Κρατῖνος Ἀρχιλόχοις.</quote>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>Praeterea ad Archilochos referunt fr. 323 Raspius De Eupol. Dem. 108, tres versus apud Plut. Mor. 811 f (de Metiocho vel Meticho Bergkius R. c. Att. 9—13, fr. 323 cum fr. 10 propter metri similitudinem artissime coniungens, fr. 324 et 332 Meinekius, fr. 324 etiam Bergkius, denique fr. 310 Fritzschius Quaest. Arist. 241).</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="274" xml:id="kock-0434-adelon_dramaton-274" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-274-l1" xml:lang="grc">πρὸς τοῦ Σόλωνος καὶ Δράκοντος οἶσι νῦν</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-274-l2" xml:lang="grc">φρύγουσιν ἤδη τὰς κάχρυς τοῖς κύρβεσιν.</l>
+              </lg>
+              <note type="source">Plutarch. Sol. 25 προσηγορεύθησαν (οἱ Σόλωνος νόμοι) ὡς ᾽Αριστοτέλης φησί, κύρβεις· καὶ Κρατῖνος ὁ κωμικὸς εἴρηκέ που πρὸς τοῦ Σόλωνος κτλ.</note>
+              <note type="apparatus">κάχρυς Steph. et A] κάγχους BC. τοῖς κύρβεσιν Porson. Adv. 284 Lips.] ταῖς codd. Plut., qui sine dubio etiam αἶσι. de genere dissentiunt Porsonus et Valckenarius Diatr. Eurip. 221 c. Aristoph. Αν. 1354 ἐν ταῖς τῶν πελαργῶν κύρβεσιν cod. Ven. τοῖς. cf. quae adnotavimus ad Aristoph. Nub. 448. sententiam sic explicat Meinekius πρὸς τῶν κύρβεων, οἷς νῦν φρύγουσι, τ̔οῖς κύρβεσι nota attractione dictum pro τῶν κύρβεων᾽. sed praeterquam quod hoc quidem adsimilationis genus nequaquam notum est in multis variisque eius generibus, cur πρός hic non significet prope legum tabulas᾽ nullam video causam. cf. Aristoph. Lys. 633 ἀγοράσω ἑξῆς ᾽Αριστογείτονι. eas tabulas iam ita contemni dicit, ut in cibis adparandis eis utantur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="275" xml:id="kock-0434-adelon_dramaton-275" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-275-l1" xml:lang="grc">τῇ μάστιγι κνάψειν εὖ μάλα</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-275-l2" xml:lang="grc">ἢ συμπατῆσαι.</l>
+              </lg>
+              <note type="source">Pollux 7, 38 τοῦ δὲ κνάπτειν ἡγεῖται τὸ πατῆσαι, ὡς Κρατῖνος ὑποδηλοῖ παίζων.</note>
+              <note type="apparatus">translatio petita est ab opere fullonio. Hippocr. De victu san. 1, 8 οἱ γναφεῖς λακτίζουσι, παίουσι, κόπτουσιν, ἕλκουσι. cf. Schneid. Script. R. r. IIII 385 b. temporum quibus Pollux usus est ratio simul et verba ipsius paene cogunt scribere πρὶν συμπατῆσαι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="282" xml:id="kock-0434-adelon_dramaton-282" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-282-l1" xml:lang="grc">τοῦτον μὲν οὖν καλῶς διεπηνίκισας λόγον.</l>
+              </lg>
+              <note type="source">Etymol. m. 269, 31 διαπηνικίζω· ἀπατῶ. Κρατῖνος . . . εἴρηται ἀπὸ τῆς πηνίκης, ἤ ἐστι περιθετὴ κόμη, ὡς ἡ φενάκη ἤ τοὺς ὁρῶντας ἀπατᾷ ὡς φύσει οὖσα. τινὲς δὲ τὸ ποικίλλω ἐξηγοῦνται. ἀπὸ τῶν πηνῶν ἤ πηνίων ὄντων ποικίλων, ἴν' ᾗ πηνίζω καὶ (μὴ add. Fritzschius) πηνικίζω. οὖν add. Meinek. recte Fritzschius (Aristoph. Ran. p. 243) verbo διαπηνίζειν usum esse Cratinum statuit. sed cum Etym. Milleri (Mélanges 87) διεπηνήκισε praebeat pro διεπηνίκισας, scribendum censeo διεπήνισε τὸν λόγον. Aristoph. Ran. 578 ἐκπηνιεῖται.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="283" xml:id="kock-0434-adelon_dramaton-283" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-283-l1" xml:lang="grc">ἔχων τὸ πρόσωπον καρίδος μασθλητίνης.</l>
+              </lg>
+              <note type="source">Etymol. m. 491, 40 καρίς· ὡς παρὰ Κρατίνῳ ἔχων — μασθλητίνης. ἀντὶ τοῦ δερματίνης. Eupolidis Δήμοις tribuit Athen. 3, 106 b. τὸ deest in Etymologico. cum Athenaeus etiam fabulam nominet, veri similius est Eupolidis versum esse, nisi forte uterque poeta casu eundem versum finxit. cf. Telecl. 43. Luc. Dial. mer. 14, 4 τὴν χρόαν οἷος κάραβος.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="284" xml:id="kock-0434-adelon_dramaton-284" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-284-l1" xml:lang="grc">ἄκουε, σίγα, πρόσεχε τὸν νοῦν, δεῦρ' ὅρα.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 372, 10 ἄκουε σίγα. Κρατίνος. 369, 15 ἄκουε· ἀντὶ τοῦ σίγα. Κρατίνος. οἷον τόπον δίδου διὰ τῆς σιγῆς τῇ ἀκοῇ. contulit Meinekius Aristoph. Thesm. 382 σίγα, σιώπα, πρόσεχε τὸν νοῦν. tamen nescio an inter duas personas haec distribuenda sint: Α. ἄκουε. Β. σίγα. Α. πρόσεχε τὸν νοῦν. Β. δεῦρ' ὅρα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="285" xml:id="kock-0434-adelon_dramaton-285" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-285-l1" xml:lang="grc">ἄκουέ νυν καὶ τήνδε τὴν ἐπιστολήν.</l>
+              </lg>
+              <note type="source">Zonaras 804 ἐπιστολή· ἐπίσκηψις, ἐντολή. Κρατῖνος. ἄκουέ νυν K.] ἄκουε νῦν. cf. fr. 224.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="286" xml:id="kock-0434-adelon_dramaton-286" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-286-l1" xml:lang="grc">καὶ μὴ πρόσισχε βαρβάροισι βουκόλοις.</l>
+              </lg>
+              <note type="source">Photius πρόσισχε· τὸ πρόσεχε. Κρατίνος. ad Bubulcos referebat Bergkius R. c. Att. 34. ad Dionysalexandrum potius pertinere videtur: fortasse Iuno Iovi Ganymedis amorem exprobrat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="287" xml:id="kock-0434-adelon_dramaton-287" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-287-l1" xml:lang="grc">ἡ παῖς γὰρ ἔμπαις ἐστὶν ὡς ἠνδρωμένη.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="322" xml:id="kock-0434-adelon_dramaton-322" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-322-l1" xml:lang="grc">τῶν αἰσχρῶν φίλοισι χαριζόμενον πονηρὸν αὐτὸν εἶναι.</l>
+              </lg>
+              <note type="source">
+                <p>Aristid. 50 p. 565 Dind. <foreign xml:lang="grc">φησὶ Κρατῖνος τῶν αἰσχρῶν εἶναι φίλοισι — εἶναι</foreign>.</p>
+              </note>
+              <note type="apparatus">
+                <p>
+                  <foreign xml:lang="grc">τῶν αἰσχρῶν</foreign>] <foreign xml:lang="grc">αἰσχρὸν δὲ</foreign> Meinekius (‘turpe est amicis ita gratificari, ut ipse pravus fias’) metro eodem quod est fr. 238. 9, ‘nisi quod anacrusi in illis usus est disyllaba’.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="323" xml:id="kock-0434-adelon_dramaton-323" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-323-l1" xml:lang="grc">χαῖρ’, ὦ μέγ’ ἀχρειόγελως ὅμιλε ταῖς ἐπίβδαις,</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-323-l2" xml:lang="grc">τῆς ἡμετέρας σοφίας κριτὴς ἄριστε πάντων,</l>
+                <l n="3" xml:id="kock-0434-adelon_dramaton-323-l3" xml:lang="grc">εὐδαίμον’ ἔτικτέ σε μήτηρ ἰκρίων ψόφησις.</l>
+              </lg>
+              <note type="source">
+                <p>Hephaestio 15, 2 <foreign xml:lang="grc">οἱ δὲ μετ’ αὐτὸν (Ἀρχίλοχον) τῇ μὲν τομῇ</foreign> (versus Archilochii asynarteti) <foreign xml:lang="grc">ἀδιαφόρως ἐχρήσαντο, ὥσπερ Κρατῖνος χαῖρ’ ὦ κτλ. ἐνταῦθα γὰρ ὁμοίως τὸ τρίτον τέτμηται τοῖς Ἀρχιλοχείοις, τὰ δὲ πρὸ αὐτοῦ δύο, πρὸ συλλαβῆς. Κρατῖνος ἐν τοῖς τοιούτοις</foreign> E. Turn., unde <foreign xml:lang="grc">ἐν τοῖς Πλούτοις</foreign> Meinek. ad Archilochos rettulit Raspius Eup. <foreign xml:lang="grc">Δήμ</foreign>. 108. 9, nulla necessitate. <foreign xml:lang="grc">μέγα χρειογέλως ὁμιλετὴς ἐπίβδαις</foreign> Turn. <foreign xml:lang="grc">ἀχραιόγελος ὃ μϊταῖς</foreign> Fl. <foreign xml:lang="grc">ὁμιλετεῖν</foreign> C. <foreign xml:lang="grc">ὁμϊλεταῖς</foreign> P. 3. <foreign xml:lang="grc">ἔκτισε τε — ψόφησιν</foreign> Fl.</p>
+              </note>
+              <note type="apparatus">
+                <p>
+                  <foreign xml:lang="grc">ἀχρειόγελως</foreign> sumpsit ex Hom. Od. 18, 163 <foreign xml:lang="grc">ἀχρεῖον δ’ ἐγέλασσε</foreign>. Bekker. Anecd. 475, 7 et Suid. <foreign xml:lang="grc">ἀχρειόγελως ἄνθρωπος· (ὁ) ἐπὶ τοῖς ἀχρήστοις καὶ μὴ σπουδαίοις γελῶν</foreign>. <foreign xml:lang="grc">ὅμιλος</foreign> est spectatorum in theatro consessus. Herod. 1, 88 <foreign xml:lang="grc">ὁ πολλὸς ὅμιλος</foreign> (populi multitudo). <foreign xml:lang="grc">ἐπίβδαις</foreign> Schol. Pind. Pyth. 4, 249 <foreign xml:lang="grc">ἐπίβδαι κυρίως καλοῦνται αἱ ἐπόμεναι (ἐχόμεναι?) τῶν ἑορτῶν ἡμέραι, αἱ μεθέορτοι, οἷον ἐπαγόμεναι τῇ ἑορτῇ</foreign>. Phot. <foreign xml:lang="grc">μεθέορτοι ἡμέραι· ἃς τινες ἐπίβδας· αἱ ταῖς ἑορταῖς ἐπαγόμεναι</foreign> (repotia). proprie quartum Apaturiorum diem <foreign xml:lang="grc">ἐπίβδαν</foreign> dici Hesychius tradit (<foreign xml:lang="grc">Ἀπατούρια</foreign>). cf. Ruhnken. Tim. 119. <foreign xml:lang="grc">ἴκρια</foreign> (cf. Bergk. R. c. Att. 11) non sunt tabulata illa quae olim ludorum diebus in foro subito exstruebantur, cf. Phot. <foreign xml:lang="grc">ἴκρια</foreign> — is enim mos Cratini aetate obsoleverat — sed sedes ipsius theatri, ut Aristoph. Thesm. 395. totius fragmenti sententia obscurissima est. ac Raspius quidem (114) Cratinum putat finxisse fabulam agi repotiis, Meinekius autem Cratini fabulam in comoediarum commissione tertium locum sortitam esse. at id Cratinus fabulam scribens scire nullo modo poterat. videtur <foreign xml:lang="grc">τῆς ἐπίβδας</foreign> scribendum</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="348" xml:id="kock-0434-adelon_dramaton-348" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Phot. et Suidas Ὄνου πόκαι· ἐπὶ τῶν ἀνηνύτων καὶ μὴ ὄντων λέγεται ἡ παροιμία ὑπὸ τῶν Ἀττικῶν, ὥσπερ αἱ τοιαῦται, πλίνθον πλύνειν, ἀσκὸν τίλλειν, χύτραν ποικίλλειν, εἰς κοπρῶνα θυμιᾶν. Ἀρίσταρχος δὲ διὰ τὸ Κρατῖνον ὑποθέσθαι ἐν Ἅιδου σχοινίον πλέκοντα, ὄνον δὲ τὸ πλεκόμενον ἀπεσθίοντα.</note>
+              <note type="apparatus">Photii ipsius verba extrema docent a Cratino potius Ὄκνου πλοκάς fuisse commemoratas. cf. Aristoph. Ran. 186 cum interpr.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="349" xml:id="kock-0434-adelon_dramaton-349" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Suidas Ναύσων Ναυκράτη· ἐπὶ τῶν ὁμοίως ἀποδιδόντων ἀλλήλοις. ὀνοματοποίησις δὲ τὸ Ναύσων, ὡς τὸ ἀγαθῶν ἀγαθίδες καὶ λευκότερος Λεύκωνος. Cratini esse docet Hesych. Ναύσων· Κρατῖνος ὄνομα ἐποίησε τὸ Ναύσων παρὰ τὴν ναῦν καὶ τὸ κρατεῖν. πολλὰ δέ ἐστι τοιαῦτα, καὶ ἀγαθῶν (adde ἀγαθίδες) καὶ λευκότερος Λεύκωνος.</note>
+              <note type="apparatus">cf. Leutsch. Append. Prov. 4, 1. cf. Ναυφάντης τῆς Ναύσωνος Aristoph. Eq. 1309.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="350" xml:id="kock-0434-adelon_dramaton-350" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Photius σπιθαμή· τὸ ἀπὸ τοῦ μεγάλου δακτύλου ἐπὶ τὸν μικρόν· τὸ δ᾽ ἀπὸ τοῦ λιχανοῦ λιχάς· τὴν δὲ σπιθαμὴν τινὲς καὶ δόχμην καλοῦσιν. οὕτως Κρατίνος.</note>
+              <note type="apparatus">Bergkius R. c. Att. 264 confert Eustath. 1291, 45 περὶ ἧς δόχμης Αἴλιος Διονύσιός φησιν οὕτως· δόχμη τὸ τετραδάκτυλον. Ἀρίσταρχος δὲ ὀξύνει, ὡς δηλοῖ ὁ κωμικὸς ἐν τῷ <quote>
+                  <l n="1" xml:id="kock-0434-adelon_dramaton-350-l1" xml:lang="grc">οὗτοι δ᾽ ἀφεστήκασι πλεῖν ἢ δύο δοχμά.</l>
+                </quote> ἐν μέντοι φησὶ τοῖς ἀκριβεστέροις ἀντιγράφοις ὀξεῖα ἐπίκειται τῇ πρώτῃ συλλαβῇ κατὰ τὸ λόχμη. atque hunc ipsum versum Cratini esse arbitratur. cf. Aristoph. Eq. 318.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="351" xml:id="kock-0434-adelon_dramaton-351" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Phot. et Suidas ὕπουλα γόνατα· καὶ ὕπουλον πόδα· καὶ ὕπουλον χεῖρα· καὶ σῶμα τὸ φλεγμαῖνον διά τινας πληγὰς καὶ ἐγγὺς τοῦ ἀφίστασθαι ὄν. Κρατίνος (κρτ. Phot.).</note>
+              <note type="apparatus">dixit igitur Cratinus ὕπουλον σῶμα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="352" xml:id="kock-0434-adelon_dramaton-352" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-352-l1" xml:lang="grc">Ψύρα τὸν Διόνυσον ἄγοντες</l>
+              </lg>
+              <note type="source">Phot. ἡ παροιμία παρὰ Κρατίνῳ· τὰ δὲ Ψύρα νησίδιον ἔρημον</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="385" xml:id="kock-0434-adelon_dramaton-385" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <lg>
+                  <l n="1" xml:id="kock-0434-adelon_dramaton-385-l1" xml:lang="grc">ἄνοργοι</l>
+                </lg>
+                <p>ἀντὶ τοῦ ἄνευ ὀργῆς. Κρατῖνος. Bekker. Anecd. 406, 11. Suid.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="386" xml:id="kock-0434-adelon_dramaton-386" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <lg>
+                  <l n="1" xml:id="kock-0434-adelon_dramaton-386-l1" xml:lang="grc">ἀνταναγνῶναι</l>
+                </lg>
+                <p>οὐκ ἀντιβάλλειν. οὕτω Κρατῖνος. Bekker. Anecd. 410, 31. ‘exemplaria scripta recognoscere atque inter se conferre’ Lob. Phryn. 217 sq. quod recentiores scriptores ἀντιβαλεῖν dicebant. Hesych. ἀνταναγνῶναι· ἀντιβάλλειν βιβλίον.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="387" xml:id="kock-0434-adelon_dramaton-387" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <lg>
+                  <l n="1" xml:id="kock-0434-adelon_dramaton-387-l1" xml:lang="grc">ἀπαλλάξας</l>
+                </lg>
+                <p>ἀντὶ τοῦ πείσας ἀποστῆναι. Κρατῖνος. Bekker. Anecd. 415, 1. Suid. Zonar.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="388" xml:id="kock-0434-adelon_dramaton-388" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <lg>
+                  <l n="1" xml:id="kock-0434-adelon_dramaton-388-l1" xml:lang="grc">ἀποκριπάμενος</l>
+                </lg>
+                <p>ἀποσπεισάμενος. οὕτω Κρατῖνος. Bekker. Anecd. 430, 3. Bergkius R. c. Att. 258 ἀποκρινάμενος· ἀποσεισάμενος (secernens a se, removens) conl. Plat. Leg. 12, 966 d (δίκαιον) τὸν περὶ τὰ τοιαῦτα ἀργὸν . . . ἀποκρίνεσθαι πόρρω τῶν καλῶν. addo Phot. κρινάμενος· ἐπιλεξάμενος. et κριτός· ἐπίλεκτος.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="389" xml:id="kock-0434-adelon_dramaton-389" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <lg>
+                  <l n="1" xml:id="kock-0434-adelon_dramaton-389-l1" xml:lang="grc">ἀρρενώπας</l>
+                </lg>
+                <p>Eustath. 1571, 46 ὁ παρὰ τῷ Κρατίνῳ ἀρρενώπας τὰ μὲν ἄλλα γύννις ὢν ἔχων δέ τι ἀνδρόμορφον. Hesych. ἀρρενωπάδες· ἀνδρόγυνοι.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="390" xml:id="kock-0434-adelon_dramaton-390" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <lg>
+                  <l n="1" xml:id="kock-0434-adelon_dramaton-390-l1" xml:lang="grc">ἅψω</l>
+                </lg>
+                <p>προσεγγίσω, δήσω. Κρατίνος Hesych. ἅψω Kusterus] ἀψῶ. cf. Zonar. ἅψαι τὸ προσεγγίσαι. Lob. Soph. Ai. 700.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="391" xml:id="kock-0434-adelon_dramaton-391" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <lg>
+                  <l n="1" xml:id="kock-0434-adelon_dramaton-391-l1" xml:lang="grc">βαδίζου</l>
+                </lg>
+                <p>ἀντὶ τοῦ βάδιζε. Κρατῖνος. Suid. Datin aliquem (Aristoph. Pac. 291) poeta loquentem videtur induxisse.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="392" xml:id="kock-0434-adelon_dramaton-392" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <lg>
+                  <l n="1" xml:id="kock-0434-adelon_dramaton-392-l1" xml:lang="grc">βαδισματίας</l>
+                </lg>
+                <p>Poll. 3, 92 βαδιστικὸς παρὰ Ἀριστοφάνει (Ran. 128), παρὰ δὲ Κρατίνῳ βαδισματίας.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="393" xml:id="kock-0434-adelon_dramaton-393" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>Βασιλεία</head>
+              <note type="source">ἔστι δὲ καὶ παρὰ Κρατίνῳ ἡ Βασιλεία. Schol. Aristoph. Av. 1536.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="394" xml:id="kock-0434-adelon_dramaton-394" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>Βολβός</head>
+              <note type="source">Athen. 1, 22 c ὀρχησταὶ δὲ ἔνδοξοι Βολβὸς μὲν παρὰ Κρατίνῳ κτλ. cf. Callias 25.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="395" xml:id="kock-0434-adelon_dramaton-395" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>Βρέα</head>
+              <note type="source">Hesych. Κρατῖνος μέμνηται τῆς εἰς Βρέαν ἀποικίας. ἔστι δὲ πόλις Θρᾴκης. εἰς ἣν Ἀθηναῖοι ἀποικίαν ἐξέπεμπον. cf. Steph. Byz. Βρέα. Herodian. I 283, 20 Lentz. Boeckh. Opusc. VI 167 sq. H. Sauppe Monatsber. d. sächs. Ges. 1853 Febr. 33—48. H. Iacobi ap. Mein. V p. XLIV. 'coloniam Bream deductam esse circa Ol. 84 vere videtur suspicatus esse Sauppius'. Kirchhoff I. A. 31 p. 14.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="396" xml:id="kock-0434-adelon_dramaton-396" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>βῶσον</head>
+              <note type="source">βοήθησον. Κρατίνος. Suidas. Zonaras βώοσον (sic)· βοήθησον. Κρατίνος. recte Kusterus βόησον pro βοήθησον. Hesych. βῶσον· κάλεσον, βόησον. Aristoph. Pac. 1155 Χαρινάδην τις βωσάτω.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="397" xml:id="kock-0434-adelon_dramaton-397" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>γαστροχάρυβδις</head>
+              <note type="source">ἐπὶ τῶν κατεσθιόντων Κρατῖνος εἶπεν. Bekker. Anecd. 33, 18. cf. Pherecr. 95. Aristoph. Eq. 248 cum interpr.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="398" xml:id="kock-0434-adelon_dramaton-398" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>γλύφειν</head>
+              <note type="source">Κρατῖνος (ἐπὶ δακτυλιογλύφου). Pollux 7, 179.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="399" xml:id="kock-0434-adelon_dramaton-399" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>γονατίζειν</head>
+              <note type="source">Poll. 2, 188 γόνυ ἡ μετὰ τοὺς μηροὺς συγκαμπή, ἀφ' οὗ καὶ τὸ γονατίζειν παρὰ Κρατίνῳ τῷ κωμωδιοποιῷ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="400" xml:id="kock-0434-adelon_dramaton-400" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>δασύποδα</head>
+              <note type="source">Pollux 5, 68 διὰ τοῦτό μοι δοκεῖ (δοκοῦσιν) δασύποδα τὸν λαγὼν ἄλλοι τε καὶ Κρατῖνος καλεῖν, ὄνομα ποιούμενοι τῷ ζώῳ τὴν</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="401" xml:id="kock-0434-adelon_dramaton-401" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>Δεξώ</head>
+              <note type="source">
+                <p>ὁ Κρατῖνος ὠνοματοποίησεν ἀπὸ τοῦ δέχεσθαι δῶρα. Hesych.</p>
+              </note>
+              <note type="apparatus">
+                <p>cf. fr. 69. 70.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="402" xml:id="kock-0434-adelon_dramaton-402" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>διάλαος</head>
+              <note type="source">
+                <p>οἱ μὲν ἐπιμύλιον δαίμονα· ἄλλοι δὲ παιδιᾶς εἶδος, ἐν ᾗ διαλέγουσι τὰς ψήφους. βούλεται δὲ λέγειν ὁ Κρατῖνος τὸν ἔσχατον τῶν πόρνων. Hesych.</p>
+              </note>
+              <note type="apparatus">
+                <p>pro διαλαός (sic cod.) Hemsterhusius διάλυτος, Albertus μαχλός, Is. Vossius Διαλῶος. Bergkius R. c. Att. 260 διάλαος defendens a voce λαι (λαικάζειν cet.) deducit. cui recte Meinekius opponit eam vocem non inveniri nisi initio verborum. M. Schmidtii coniecturam reticere satius est. si ulla in tantis tenebris lux est, potuit certe ea vox, quae et daemonem molarem et scortatorem significaret, διαλοίας esse. cf. ἅλως, ἀλεῖν, ἀλοᾶν, πατραλοίας. διαλοᾶν exstat Aelian H. a. 1, 9 extr.; aliquanto frequentius est καταλοᾶν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="403" xml:id="kock-0434-adelon_dramaton-403" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>δουλοπρεπέστατα</head>
+              <note type="source">
+                <p>Κρατίνος. Pollux 3, 75.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="404" xml:id="kock-0434-adelon_dramaton-404" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>δυσβράκανον</head>
+              <note type="source">
+                <p>δυσχερές. βράκανα γὰρ τὰ ἄγρια λάχανα· ἔστι δὲ δύσπλυτα (cod. δύσπλητα). λέγει οὖν ὁ Κρατῖνος δυσκατανόητον οἱονεὶ δυσνόητον. cf. tamen Hesych. βρακεῖν· συνιέναι. βρακείς· συνιείς.</p>
+              </note>
+              <note type="apparatus">
+                <p>unde efficitur non a nomine βράκανον, sed a verbo βρακεῖν deductum esse adiectivum. ‘βρακεῖν (animo comprehendere), βρακείς (ut δρακείς) et cum hyperbato . . . δυσβράκανον et δυσβάρκανον δυσκατανόητον, quibus omnibus communis est notio comprehendendi, sive id manu fit, sive ore sive animo’. Lob. Rhem. 48. cf. Pathol. prol. 184.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="405" xml:id="kock-0434-adelon_dramaton-405" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>δυσθαλής</head>
+              <note type="source">
+                <p>δυσαυξής. Κρατῖνος. Hesych.</p>
+              </note>
+              <note type="apparatus">
+                <p>hoc fragmentum cum fr. 246 coniungendum esse censet Schweighaeuserus; qua de re dubitari potest.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="406" xml:id="kock-0434-adelon_dramaton-406" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>δωδεκέται</head>
+              <note type="source">
+                <p>Schol. Hom. Il. 16, 428 ἀγκυλοχεῖλαι· παρασύνθετον ἐκ</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="420" xml:id="kock-0434-adelon_dramaton-420" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>καλαμώμενον</head>
+              <note type="source">Κρατίνος εἴρηκε. Pollux 7, 142. antea καλαμητρίδες καὶ ποάστριαι. Hesych. καλαμώμενον· καλαμᾶσθαι λέγουσιν, ὅταν ἐκ τῶν τετρυγημένων ἀπολείμματα συνάγωσιν ἢ στάχυας.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="421" xml:id="kock-0434-adelon_dramaton-421" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>κύαθος</head>
+              <note type="source">Athen. 10, 424 b μνημονεύει τοῦ κυάθου καὶ . . . Κρατίνος.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="422" xml:id="kock-0434-adelon_dramaton-422" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>λαυροστάται</head>
+              <note type="source">μέσοι τοῦ χοροῦ· οἱονεὶ γὰρ ἐν στενωπῷ εἰσι. φαυλότεροι δὲ οὗτοι. οὕτω Κρατίνος. Phot. minus bene Hesych.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="423" xml:id="kock-0434-adelon_dramaton-423" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>λεπάσται</head>
+              <note type="source">κύλικές τινες οὕτως ἐκαλοῦντο. Κρατῖνος. Phot. cf. Herodian. I 345, 3 Lentz τὸ μέντοι ἑορτὴ ὀξύνεται καὶ . . . λεπαστὴ ἡ κύλιξ. atqui iam antiquitus fuerunt qui dubitarent. Athen. 11, 484 f οἱ μὲν ὀξύνουσιν . . . οἱ δὲ παροξύνουσιν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="424" xml:id="kock-0434-adelon_dramaton-424" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>μάσμα</head>
+              <note type="source">μάστευμα, ζήτημα. οὕτω Κρατῖνος. Phot. cf. Plat. Cratyl. 421 a et ibi Heindorf.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="425" xml:id="kock-0434-adelon_dramaton-425" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>μελαγχρής</head>
+              <note type="source">Phot. μελάγχρως καὶ μελαγχρής. ἀμφότερα Ἀττικά. μᾶλλον δὲ διὰ τοῦ η. Κρατῖνος. cf. Eupol. 430. Meinek. Menandr. 281. Herodian. II 159, 23. 255, 24 Lentz.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="426" xml:id="kock-0434-adelon_dramaton-426" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>μεσόκοπον</head>
+              <note type="source">ἀρρενικῶς, τὸν ἐπὶ μέσου ἡλικίας. Κρατῖνος. Bekker. Anecd. 108, 24. ἐπὶ μέσου Lucas Observ. 9] ἐπιμέσου. de muliere Xenarch. 4, 9.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="427" xml:id="kock-0434-adelon_dramaton-427" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>μετεκβολή</head>
+              <note type="source">μεταβολὴ καὶ ἐξάλλαξις. Κρατῖνος. Phot.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="273" xml:id="kock-0434-adelon_dramaton-273" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-273-l1" xml:lang="grc">πιεῖν δὲ θάνατος οἶνον ἢν ὕδωρ ἐπῇ.</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-273-l2" xml:lang="grc">ἀλλ’ ἴσον ἴσῳ μάλιστ’ ἀκράτου δύο χόας</l>
+                <l n="3" xml:id="kock-0434-adelon_dramaton-273-l3" xml:lang="grc">πίνουσ’ ἀπ’ ἀγκύλης ἐπονομάζουσ’ ἅμα</l>
+                <l n="4" xml:id="kock-0434-adelon_dramaton-273-l4" xml:lang="grc">ἵησι λάταγας τῷ Κορινθίῳ πέει.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 11, 782d p. 1038 Dindf. ἀγκύλη· Κρατῖνος κτλ. Eustathius 344, 28.</p>
+              </note>
+              <note type="apparatus">
+                <p>1. ἂν Meinek.] ἂν. ἐπῇ] scribendum ἐνῇ. 3. ἐπονομάζουσ’ ἅμα Meinek. Anal. Ath. 214] ἐπονομάζουσα. ἐπονο-</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="303" xml:id="kock-0434-adelon_dramaton-303" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>303</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-303-l1" xml:lang="grc">γλαῦκον οὐ πρὸς παντὸς ἀνδρός ἐστιν ἀρτῦσαι καλῶς.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 68a Κρατῖνος. ἀνδρός addiderunt Casaubonus et Grotius Excerpt. 489.</note>
+              <note type="apparatus">de glauco cf. Athen. 7, 295 b — 296 a. quanti sit aestimatus docet etiam Amphis fr. 22. notum est proverbium οὐ παντὸς ἀνδρὸς ἐς Κόρινθόν ἐσθ᾽ ὁ πλοῦς.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="304" xml:id="kock-0434-adelon_dramaton-304" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>304</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-304-l1" xml:lang="grc">εὐπρόσωπος ἦσθ᾽ ὀνόματος οὐδὲν ἐπὶ χεῖρας φέρων.</l>
+              </lg>
+              <note type="source">Eustathius 1430, 24 ὅτε δὲ μέγα φᾶρος εἴπῃ, παροιμίαν ποιεῖ τὴν λέγουσαν ἐπὶ χεῖρας φέρειν ἤγουν ἔνδοξον εἶναι, ὡς ἀπὸ τῶν μεγάλα φασὶν ἱμάτια ἐχόντων ὡς μείζονα εἶναι τὴν ἐπιβολήν. Κρατῖνος· εὐπρόσωπος — φέρων, ἤγουν οὐ μέγα ἔχων ὄνομα, οὐδὲ φαινόμενος κατὰ τοὺς οὕτω μεγαλοείμονας ὡς καὶ ἐπὶ χειρῶν φέρειν τὰς ᾤας.</note>
+              <note type="apparatus">Grotius Excerpt. 495 genetivum ut videtur ab εὐπρόσωπος suspendens interpretatur ‘nomine es speciosus, atqui nihil est quod manibus feras’. perperam: nam neque εὐπρόσωπος cum genetivo coniungitur neque ἐπὶ χεῖρας φέρειν idem est atque ἐν χερσὶν ἔχειν. proprie significat tam amplis uti vestibus, ut orae etiam super manus defluant; figurata oratione abundantiam alicuius rei non sine adrogantia ostentare. itaque Cratinus aliquem laudat, qui nominis splendore non ad inanem iactationem abutatur. εὐπρόσωπος in εὐπρόσοιστος (cf. quae dixi Veri sim. 181) mutandum et fragmentum ad Cimonem vel similem eius virum referendum censeo. adfabilis eras, inquit, et famae nominisque dissimulator.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="305" xml:id="kock-0434-adelon_dramaton-305" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>305</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-305-l1" xml:lang="grc">καὶ Πολυμνήστει᾽ ἀείδει μουσικήν τε μανθάνει.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Eq. 1287 μέλη Πολυμνήστου Κολοφωνίου. κιθαρωδὸς ἦν οὗτος. Κρατῖνος. versum commemorat etiam Suidas Πολύμνηστος. Photius Πολύμνηστει᾿ ἀείδειν· γένος τι μελοποιίας. Κολοφώνιος δὲ ὁ Πολύμνηστος.</note>
+              <note type="apparatus">Polymnestus iste lascivorum carminum auctor, longe diversus a clarissimo illo Colophonio, quocum saepe confunditur, quis fuerit ignoramus. cum autem qui lascivis canticis gau-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="342" xml:id="kock-0434-adelon_dramaton-342" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-342-l1" xml:lang="grc">ἀπορεῖν καὶ σφακελίζειν τῷ δεινῷ</l>
+              </lg>
+              <note type="apparatus">
+                <p>τὸ μὲν σφακελίζειν φλεγμαίνειν ἐστὶ καὶ διὰ τοῦτο σπᾶσθαι. Κρατῖνος Bekk. Anecd. 433, 21 et Suidas. δεινῷ] δίνῳ Bergkius R. c. Att. 258. ‘ut Cratinus de vertigine locutus sit.’</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="343" xml:id="kock-0434-adelon_dramaton-343" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-343-l1" xml:lang="grc">ἄνθρωπος λυπησίλογος</l>
+              </lg>
+              <note type="apparatus">
+                <p>σημαίνει δὲ ὁ λυπῶν διὰ τοῦ λέγειν τοὺς πέλας. Κρατῖνος. Bekker. Anecd. 404, 12 et Suidas.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="344" xml:id="kock-0434-adelon_dramaton-344" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Athenaeus 15, 676 f</p>
+              </note>
+              <note type="apparatus">
+                <p>δεῖξαι οὐκ ἔχεις ὅτι διαλελυμένως τις εἴρηκε ῥόδων στέφανον καὶ ἴων στέφανον· τὸ γὰρ παρὰ Κρατίνῳ κατὰ παιδιὰν εἴρηται ναρκισσίνους ὀλίσκους. Casaubonus ναρκίσσου στεφανίσκους, Schweighaeuserus ὀλίσβους, Meinekius Ναρκίσσου ὀλίσβους, ‘ut non de flore, sed de nescio quo Narcisso, fortasse de mythico illo Thespiensi loqui putandus sit’. Analect. Athen. 327. at quid viro cum ὀλίσβῳ? mihi neque de Cratino neque de Athenaei verbis constat.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="345" xml:id="kock-0434-adelon_dramaton-345" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Athen. 1, 23 b</p>
+              </note>
+              <note type="apparatus">
+                <p>ὅτι τὸ ἀναπίπτειν κυρίως ἐπὶ ψυχῆς ἐστιν, οἷον ἀθυμεῖν ὀλιγωρεῖν . . . Κρατῖνος δ’ ἐπὶ ἐρετῶν χρᾶται τῇ λέξει ῥοθίαζε κἀνάπιπτε. Eustath. 1641, 8 ῥοθιάζει καὶ ἀναπίπτει. Suidas ἀναπίπτειν· Κρατῖνος ἐπὶ τῶν ἐρετῶν κέχρηται τῇ λέξει ἐρεσσόντων καὶ ἀνακλινομένων. Xen. Oec. 8, 8 (οἱ ἐρέται) ἐν τάξει μὲν κάθηνται, ἐν τάξει δὲ προνεύουσιν, ἐν τάξει δ’ ἀναπίπτουσιν. figurate intellegit Meinekius, ut Aristoph. Eq. 761. ‘admonetur cuicumque illa dicuntur ut fortiter adversarium adoriatur.’ quod non omnino necessarium videtur.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="346" xml:id="kock-0434-adelon_dramaton-346" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-346-l1" xml:lang="grc">εὐιπποτάτη Μαραθών</l>
+              </lg>
+              <note type="source">
+                <p>Porphyr. Hom. quaest. 8</p>
+              </note>
+              <note type="apparatus">
+                <p>πολλά (οἱ Ἴωνες) τῶν ὀνομάτων χαίρουσι θηλυκῶς ἐκφέροντες, οἷον τήν τε λίθον καὶ . . . τὴν μαραθῶνα. Κρατῖνος. indicavit Nauckius A. L. Z. 1847, 475.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="347" xml:id="kock-0434-adelon_dramaton-347" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-347-l1" xml:lang="grc">Λέρνη θεατῶν</l>
+              </lg>
+              <note type="apparatus">
+                <p>ἀντὶ τοῦ κακῶν θέατρον. Κρατῖνος. Phot. — Suid. Α. θ.· θέατρον.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="428" xml:id="kock-0434-adelon_dramaton-428" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>
+                <hi rend="lemma">μηνυτήν</hi>
+              </p>
+              <p>τὴν γυναῖκα. Κρατῖνος. Phot. 'fort. comice ludens, ut ἡ γραμματεύς Aristoph. Thesm. 431'. Lob. Paralip. 271. μηνυτίν Cobetus N. 1. 148, quod non crederem, nisi meis oculis legissem.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="429" xml:id="kock-0434-adelon_dramaton-429" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>
+                <hi rend="lemma">μικρολογήσομαι</hi>
+              </p>
+              <p>Κρατῖνος. Pollux 2, 124.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="430" xml:id="kock-0434-adelon_dramaton-430" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>
+                <hi rend="lemma">μίξοφρυν</hi>
+              </p>
+              <p>Poll. 2, 49 τὸν δὲ τοιοῦτον (σύνοφρυν) καὶ μίξοφρυν καλεῖ ὁ Κρατῖνος.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="431" xml:id="kock-0434-adelon_dramaton-431" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>
+                <hi rend="lemma">μναρόν</hi>
+              </p>
+              <p>μαλακόν, ἡδύ, ῥάδιον. οὕτως Κρατῖνος. Phot. Hesych. μναρόν· μαλακόν, ἡδύ, θυμῆρες.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="432" xml:id="kock-0434-adelon_dramaton-432" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>
+                <hi rend="lemma">οἰνωμένοι</hi>
+              </p>
+              <p>ὡς Κρατῖνος. Pollux 6, 21. 'fors. ᾠνωμένοι'. Meinek.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="433" xml:id="kock-0434-adelon_dramaton-433" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>
+                <hi rend="lemma">ὅμαιμος</hi>
+              </p>
+              <p>Cramer. Anecd. Ox. III 195 Πλάτων δέ, οὐχ ὁ φιλόσοφος ἀλλ' ὁ κωμικώτατος, ᾧ καὶ Κρατῖνον οἶδα συνάδοντα, ἀορίστως ἐπὶ συγγενείας λαμβάνει τὴν ὅμαιμος λέξιν. i. e. non solum de fratre aut sorore.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="434" xml:id="kock-0434-adelon_dramaton-434" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>
+                <hi rend="lemma">παναγάθη</hi>
+              </p>
+              <p>ὡς Κρατῖνος. Pollux 6, 163. cf. Lob. Soph. Ai. 1415.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="435" xml:id="kock-0434-adelon_dramaton-435" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>
+                <hi rend="lemma">πανεύφρονα</hi>
+              </p>
+              <p>Poll. 6, 163 πανήμερος, πάννυχος. τοῦτον δὲ καὶ πανεύφρονα Κρατῖνος καλεῖ. dubitat de hac significatione Meinekius.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="436" xml:id="kock-0434-adelon_dramaton-436" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>
+                <hi rend="lemma">πολύμιτος</hi>
+              </p>
+              <p>ὡς Κρατῖνος ἔφη. Poll. 7, 31.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="459" xml:id="kock-0434-adelon_dramaton-459" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-459-l1" xml:lang="grc">τίς δέ σ᾽ ἐτύφλωσεν; τίς ἀφείλετο λαμπάδος αὐγάς;</l>
+              </lg>
+              <note type="source">Diog. L. 7, 163 non addito auctoris nomine. ad Ulixes Cratini referebat Welckerus Mus. Rhen. I 588.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="460" xml:id="kock-0434-adelon_dramaton-460" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>Ἐπειοῦ δειλότερος</p>
+              <note type="source">Apostol. 7, 69 οὕτως ἔλεγε Κρατῖνος ὁ κωμικός. ἴσως διὰ τὸ ταξιαρχῆσαι τῆς Οἰνηίδος φυλῆς καὶ δειλότερος φανῆναι. καὶ γὰρ ὁ Ἐπειὸς δειλὸς ἦν.</note>
+              <note type="apparatus">si ulla Apostolio fides esset, fragmentum Cratini eum servasse censerem. sed quicumque praeter illum de hoc proverbio egerunt, Cratinum ipsum ita inrisum esse narrant. Zenob. 3, 81. Hesych. Suid. itaque apud Apostolium ut apud Suidam ἐλέγετο pro ἔλεγε scribendum videtur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="461" xml:id="kock-0434-adelon_dramaton-461" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>κεράμιον οἰνηρόν</p>
+              <note type="source">Κρατῖνος. Pollux 7, 161.</note>
+              <note type="apparatus">pertinere haec possunt ad fr. 187, 6.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="462" xml:id="kock-0434-adelon_dramaton-462" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>κυρηβάσασθαι</p>
+              <note type="source">(cod. κυριβ.) διαμαχέσασθαι· οὕτως Κρατῖνος. Phot. idem κυρηβάσασθαι· διαμαχέσασθαι (cod. κυρειβ.). κυρηβάζεσθαι· λοιδορεῖσθαι. κυρριβάζεσθαι· λοιδορεῖσθαι, διασύρεσθαι. Hesych. κυριβάσασθαι· διαμαχέσασθαι. ἀπὸ τῶν κριῶν καὶ τῶν τράγων.</note>
+              <note type="apparatus">Photius Cratinum nominavisse videtur pro Aristoph. Eq. 272. Praeterea cf. Cratetis fr. 45. 46. 50.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="52" xml:id="kock-0434-adelon_dramaton-52" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-52-l1" xml:lang="grc">οἱ δὲ πυππάζουσι περιτρέχοντες, ὁ δ᾽ ὄνος ὕεται.</l>
+              </lg>
+              <note type="apparatus">
+                <p>Photius et Suidas ὄνος ὕεται· ἐπὶ τῶν μὴ ἐπιστρεφομένων . . . Κρατίνος Δραπέτισιν. Hesychius πυππάζουσι· φωνῇ ποιᾷ χρῶνται. πυππάζειν (cf. quae adnotavi ad Arist. Av. 266) est mirantem exclamare πυππάξ, quod exstat Plat. Euthyd. 303 a πυππάξ, ὦ Ἡράκλεις, καλοῦ λόγου. ὑπερπυππάζειν Arist. Eq. 680. ὁ δ᾽ ὄνος ὕεται proverbium est de eis qui quidquid alter facit non commoventur. ‘quemadmodum asinus ob cutis duritiem pluvia nihil offenditur.’ Erasm. 3, 2, 59. significant autem verba ὁ δ᾽ ὄνος ὕεται idem atque ὁ δ᾽ ὅμοιός ἐστιν ὄνῳ ὑομένῳ (cf. Hom. Od. 6, 131), i. e. τῶν πυππαζόντων οὐδὲν μᾶλλον φροντίζει ἢ ὄνος ὑόμενος τοῦ ὑετοῦ. id quod aptissime dici poterat de homine potenti vel de Demo Atheniensium ipso adulatorum et demagogorum turbam despiciente. cf. Cephisodor. 1 σκώπτεις μ᾽, ἐγὼ δὲ τοῖς λόγοις ὄνος ὕομαι, i. e. maledictis tuis non tangor. alia eius breviloquentiae exempla congessit Cobetus Mnem. nov. III 247 (cf. etiam Dobr. Aristoph. Plut. 314) Arist. Lys. 927. Liban. 1, 14, 1 Ἀριστόδημος (potius Ἀριστομένης) . . . ἐτηρούμην ὁ Σύρος ἐγώ. quibus addo ex Romanis Cic. D. orat. 2, 57, 33 docebo sus, ut aiunt, oratorem (sus Minervam). Horat. Epist. 1, 2, 42 qui recte vivendi prorogat horam, rusticus exspectat, dum defluat amnis, et ex comicis graecis Cratin. 128 ἕκαστος ἀλώπηξ δωροδοκεῖται. 229. 245. Eupol. 261. Arist. fr. 337. Plat. 191. Theopomp. 4. 40. Diocl. 5. cf. Theognid. 1361 ναὺς πέτρῃ προσέκυρσας.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="53" xml:id="kock-0434-adelon_dramaton-53" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-53-l1" xml:lang="grc">φέρε νῦν σοι</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-53-l2" xml:lang="grc">ἐξ αἰθρίας καταπυγοσύνην μυὸς ἀστράψω Ξενοφῶντος.</l>
+              </lg>
+              <note type="apparatus">
+                <p>Aelianus H. a. 12, 10 λέγουσι δὲ τοὺς μύας λαγνιστάτους εἶναι, καὶ μάρτυρά γε Κρατῖνον ἐπάγονται ἐν ταῖς Δραπέτισι. Apostol. 9, 28 λέγουσι δὲ αὐτοὺς καὶ λαγνιστάτους εἶναι· καὶ ματρυρεῖ Κρατῖνος ἐν Δραπέτεσι· φέρε Ξενοφῶντος. Zenob. Milleri (Mélanges p. 355) μῦς λευκός· ἐπὶ τῶν ἀκράτων περὶ τὰ ἀφροδίσια ἡ παροιμία εἴρηται. ἐπειδὴ οἱ κατοικίδιοι μύες καὶ μάλιστα οἱ λευκοὶ περὶ τὰς ὀχείας κεκίνηνται. ταύτης μέμνηται . . . Κρατῖνος ἐν Δραπέτησιν (Δραπέτισιν Miller). hinc facile conligas ante φέρε addendum esse λευκοῦ vel καὶ τοῦ λευκοῦ. ‘Xenophontem fortasse dicit Melitensem, Euripidis filium, quem in decem Atheniensium ducibus</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="69_70" xml:id="kock-0434-adelon_dramaton-69_70" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Δωροῖ συκοπέδιλε. τέκτονες εὐπαλάμων ὕμνων.</note>
+              <note type="apparatus">Aristophanes Eq. 529. 30 <quote>ᾆσαι δ’ οὐκ ἦν ἐν ξυμποσίῳ πλὴν ‘Δωροῖ συκοπέδιλε’ καὶ ‘τέκτονες εὐπαλάμων ὕμνων’</quote>. οὕτως ἤνθησεν ἐκεῖνος. Schol. <quote>Κρατίνου μέλους ἀρχή</quote>. σκώπτων δέ τινα ἐκεῖνος δωροδόκον καὶ συκοφάντην τοῦτο εἶπεν. deinde ad <quote>τέκτονες εὐπαλάμων ὕμνων· καὶ τοῦτο δὲ ἐκ τῶν Εὐνειδῶν Κρατίνου</quote>. unde adparet utrumque carmen Eunidarum fuisse. Hesych. <quote>Δωροῖ συκοπέδιλε· παρῳδεῖται τοῦτο ἐκ τῶν ἀρχαίων ποιημάτων</quote>. apud Hesiodum Theog. 454 est <quote>Ἥρη χρυσοπέδιλος</quote>, quae ex Hesiodo inlata est in Hom. Od. 11, 604. nomen Δωρώ finxit ad analogiam eorum quae usurpabantur ab Atticis Θαλλώ, Καρπώ, Αὐξώ. eodem modo dicitur avarorum hominum deam finxisse Δεξώ. Hesych. <quote>Ἐμβλώ· πέπλασται παρὰ τὸ ἐμβλέπειν· ὡς ἡ Δωρώ καὶ Δεξώ</quote>, ubi Lobeckius Pathol. prol. 36 adn. 36 <quote>παρὰ τὸ ἐμβλῆναι</quote> potius fictum esse id nomen arbitratur, quia τῶν δωροδοκούντων vox sit <quote>ἔμβαλε κυλλῇ</quote> (Arist. Eq. 1083). cf. etiam Bergk. R. c. Att. 69. — <quote>τέκτονες ὕμνων</quote> poetas dicit ad similitudinem Pindari Pyth. 3, 113 (200) <quote>Σαρπηδόνα . . . ἐξ ἐπέων κελαδεννῶν, τέκτονες οἷα σοφοὶ ἅρμοσαν, γιγνώσκομεν</quote>. Nem. 3, 4 (7) <quote>μελιγαρύων τέκτονες κώμων</quote>. Praeterea huic fabulae Bergkius (R. c. Att. 71) tribuit fr. 310, quod Fritzschius (Qu. Arist. 241) ad Archilochos refert.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="293" xml:id="kock-0434-adelon_dramaton-293" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-293-l1" xml:lang="grc">ὦ μεγίστη γλῶττα τῶν Ἑλληνίδων.</l>
+              </lg>
+              <note type="source">
+                <p>Aristides 45, 19 ὦ μεγίστη σὺ γλῶττα τῶν Ἑλληνίδων, ἔφη Κρατῖνος. et 46, 129 οὐκοῦν τῶν μαρτύρων ἡμῖν τῶν εἰς τοὺς λόγους κεκλημένων τῷ Περικλεῖ καὶ οἷς οὐκ ἐλάχιστον μετεῖναι φαίημεν ἂν τῆς περὶ ταῦτα ἐμπειρίας, ὁ μὲν τῶν Ἑλληνίδων μεγίστην τὴν ἐκείνου γλῶτταν εἴρηκε. ἴθ' ὦ Meinekius. at quidni ἀλλ' ὦ vel quidvis aliud?</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="294" xml:id="kock-0434-adelon_dramaton-294" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-294-l1" xml:lang="grc">ἄρχων εἰμὶ νῦν Ἀθηναίοις ἐγώ.</l>
+              </lg>
+              <note type="source">
+                <p>Herodianus Philet. p. 441 Piers. ἄρχει Ἀθηναίοις. καὶ ὁ Κρατῖνος ἄρχων — ἐγώ. ὅτι καὶ κατὰ τοὺς νόμους ἡ ἀρχή. Piersonus ἄρχων γάρ εἰμι. fortasse ad Bubulcos referendum et is archon intellegendus, qui Cratino chorum negavit eiusque rei rationem sibi esse reddendam utpote archon negat.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="295" xml:id="kock-0434-adelon_dramaton-295" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-295-l1" xml:lang="grc">δασὺν ἔχων</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-295-l2" xml:lang="grc">τὸν πρωκτὸν ἅτε κυρήβι' ἐσθίων.</l>
+              </lg>
+              <note type="source">
+                <p>Etymol. m. 512, 8 κυρηβίων· καθαρματωδές ἐστι τὸ ὄνομα. κυρήβια γὰρ κυρίως τὰ ἀποβράσματα τῶν κυάμων Κρατίνος. κυρηβίων — κυρήβι' Kulenkampius] κηρυβίων — κηρύβι'. Cobetus N. l. 147 non trimetros, sed unum tetrametrum trochaicum esse statuit, supplens in fine ἀεί (in Etym. post ἐσθίων legitur εἰ μή). Eucratem Melitensem traduci Meinekii est sententia. cf. Aristoph. Eq. 129 et 254 cum interpr. Epicratem aequalem Demosthenes (19, 287) Κυρηβίωνα adpellavit.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="296" xml:id="kock-0434-adelon_dramaton-296" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-296-l1" xml:lang="grc">ὃς τὴν πίτυν</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-296-l2" xml:lang="grc">ἔκαμπτεν ἑστὼς χαμάθεν ἄκρας τῆς κόμης</l>
+                <l n="3" xml:id="kock-0434-adelon_dramaton-296-l3" xml:lang="grc">καθέλκων.</l>
+              </lg>
+              <note type="source">
+                <p>Priscian. 18, 306 χαμάθεν quod est 'a loco' Cratinus pro 'in loco' posuit, ὃς — καθέλκων. melius tamen distinguendum ἑστώς, et iam bene a loco accipitur χαμάθεν 'ab humo'. codicum Prisciani varietas nihil ad rem facit. pro ὃς τὴν πίτυν Scaliger ὅστ' ἐν Πυτίνῃ, Meinekius ed. min. VII ὅστις ἐν Πυτίνῃ. neutrum con-</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="306" xml:id="kock-0434-adelon_dramaton-306" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-306-l1" xml:lang="grc">ἀφυπνίζεσθαι χρὴ πάντα θεατήν,</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-306-l2" xml:lang="grc">ἀπὸ μὲν βλεφάρων αὐθημερινῶν ποιητῶν λῆρον ἀφέντα.</l>
+              </lg>
+              <note type="source">Aristides 49, 386 extr.</note>
+              <note type="apparatus">ἐν ἀρχῇ τοῦ δράματος μεγαλαυχούμενος ὡς προφήτης προαγορεύει τοιάδε· ἀφυπνίζεσθαι ... ἀφέντα. ὥσπερ ἐν ἐκείνῃ τῇ ἡμέρᾳ μέλλων ἅπαντας σοφούς τε καὶ σπουδαίους ποιήσειν. διδάξας δὲ τοὺς Χείρωνας προσπαραγράφει πάλιν αὖ μάλα ὑπερηφάνως ἐπὶ τελευτῆς (sequitur fr. 237). χρή] νῦν δὴ χρὴ Dindorf. καὶ δὴ χρὴ Hanovius Exerc. crit. 65. et quidni δ' ἤδη vel alia? αὐθημερινῶν] ἀπό θ' ἡμερινῶν Γ. αὐθημερινὸν Bergk. R. c. Att. 223. cf. Pherecr. 191. αὐθημερινούς, i. e. 'eodem die et nascentes subito et rursus pereuntes, τοὺς ἐφημερινούς'. Reisk. Cobetum hos versus ad Chirones referentem redarguit Meinek. V 22. 3.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="307" xml:id="kock-0434-adelon_dramaton-307" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-307-l1" xml:lang="grc">τίς δὲ σύ; κομψός τις ἔροιτο θεατής.</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-307-l2" xml:lang="grc">ὑπολεπτολόγος, γνωμοδιώκτης, εὐριπιδαριστοφανίζων.</l>
+              </lg>
+              <note type="source">Schol. Platon. Bekk. 330</note>
+              <note type="apparatus">Ἀριστοφάνης ... ἐκωμῳδεῖτο ἐπὶ τῷ σκώπτειν μὲν Εὐριπίδην, μιμεῖσθαι δ' αὐτόν. Κρατίνος κτλ. Porsonus Miscell. 268 τίς δὲ σὺ κομψός; πᾶς ἄν τις ἔροιτο θεατής. γνωμοδιώκτης Schneiderus in Lexico gr.] γνωμιδιώκτης. prioris versus emendandi multae possunt excogitari rationes, nulla tamen satis certa. cum voce γνωμοδιώκτης Fritzschius Quaest. Arist. 292 comparavit κολλοποδιώκτας (Schol. Aristoph. Nub. 348 et κνισοδιώκτην Batrach. 234. ad Pytinen propter Schol. Aristoph. Eq. 531 (cf. fr. 198) referunt praeter Fritzschium Runkelius et Bergk. R. c. Att. 205.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="308" xml:id="kock-0434-adelon_dramaton-308" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Schol. Aristoph. Pac. 741</note>
+              <note type="apparatus">ἐπεπόλαζε γὰρ τότε ταῦτα, Ἡρακλῆς πεινῶν, καὶ Διόνυσος δειλός, καὶ μοιχὸς Ζεύς, ὥστε καὶ αὐτοὺς δοκεῖν ἄχθεσθαι. Κρατῖνος· ὑπὸ δὲ Ἡρακλέους πεινῶντος ἄγει καὶ σκώπτοντος ταῦτα οὐ βοιωτόν ἐστι. sic cod. R. ἄγε ταυτ' καὶ σκώπτοντος V. ἄγειν ταῦτα καὶ σκώπτοντος Ald. βιωτόν V pro βοιωτόν. pro οὐ βοιωτόν Porsonus συοβοιωτῶν Eurip.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="312" xml:id="kock-0434-adelon_dramaton-312" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-312-l1" xml:lang="grc">λόγος τις ὑπῆλθ’ ἡμᾶς ἀμαθὴς συοβαύβαλος.</l>
+              </lg>
+              <note type="source">Eustathius 1761, 28 ex Aristophane Byzantio: καὶ βαυβᾶν τὸ κοιμᾶσθαι . . . ὅθεν καὶ παρὰ Κρατίνῳ τὸ λόγος κτλ. συοβαύβαλος Meinek.] συβαύβαλος. Hesych. συοβαύβαλοι· συῶν αὐλιστήρια. Phot. συοβαύβαλοι· ἐν οἷς οἱ σύες εὐνάζονται. cf. Lob. Rhem. 11.</note>
+              <note type="apparatus">cum βαυβᾶν sit dormire, συοβαύβαλον dici nihil potest, quod non aliquo modo ad sues dormientes vel ad cubilia eorum pertineat. quocirca λόγος non potest esse συοβαύβαλος (ut Meinekius subulcorum carmina interpretabatur). scribendum puto φθόγγος τις ὑπῆλθ’ ἡμᾶς ἀμαθὴς (vel potius ἀσαφής) συοβαύβαλος – ∪ – ∪. ambiguus quidam sonus tamquum a suili necopinato ad aures nostras perlatus est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="313" xml:id="kock-0434-adelon_dramaton-313" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-313-l1" xml:lang="grc">ταῖς ῥαφανῖσι δοκεῖ, τοῖς δ’ ἄλλοις οὐ λαχάνοισιν.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 56 e ῥαφανίδες καὶ ἐκτεταμένως (ι) δὲ καὶ κατὰ συστολὴν (ι) λέγεται παρὰ Ἀττικοῖς. Κρατῖνος ταῖς ῥαφανῖσι κτλ. Draco Straton. p. 80, 5 ῥαφανίς· διφορεῖται τὸ ι, Ἀττικῶς δὲ ἐκτείνει, ὡς παρὰ Κρατίνῳ ῥαφανῖσι δοκεῖ τοῖς ἄλλοις οὐ λαχάνοις. Eustathius 1220, 55.</note>
+              <note type="apparatus">λαχάνοισιν Meinekius] λαχάνοις. dativum adparet non pendere a δοκεῖ, sed a verbo quod aut in superioribus aut in proximis erat, veluti χαίρειν vel ἥδεσθαι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="314" xml:id="kock-0434-adelon_dramaton-314" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-314-l1" xml:lang="grc">ταυτὶ καὶ τολμᾶς σὺ λέγειν ῥοδοδάκτυλος οὖσα;</l>
+              </lg>
+              <note type="source">Athenaeus 13, 566 f ταυτὶ καὶ τολμᾶς σὺ λέγειν, οὐ ῥοδοδάκτυλος οὖσα, κατὰ τὸν Κρατῖνον, ἀλλὰ κτλ.</note>
+              <note type="apparatus">ταυτί Dobr. Aristoph. Plut. 555] ταύτῃ. Auroram nescio quis adloquitur eodem opinor modo quo apud Aristoph. Av. 1243 sq. Irin Pithetaerus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="315" xml:id="kock-0434-adelon_dramaton-315" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-315-l1" xml:lang="grc">χαλκίδα κικλήσκουσι θεοί, ἄνδρες δὲ κύβηλιν.</l>
+              </lg>
+              <note type="source">Hesych. κύβηλις· τινὲς τὴν τυροκνῆστιν φασίν. ἔπαιξεν δὲ ὁ Κρατῖνος παρὰ τὸ ‘χαλκίδα κικλήσκουσι θεοί, ἄνδρες δὲ κύμινδιν’ (Hom. Il. 14, 291).</note>
+              <note type="apparatus">θεοί Musur.] θεόν. κύβηλιν Lob. Aglaoph. 863] κύβινδιν. κύβηλις, non κυβηλίς scribendum esse Lobeckius docet Pathol. prol. 110. idem Aglaoph. 863 ‘κύβηλιν substituit cetera retinens, quia χαλκίς’ (apud Homerum avis) ‘pro etymi ratione ut ἀργυρίς, χρυσίς vas vel instrumentum aeneum significare potest’. Lamponem significari propter fr. 62 censet Bergkius R. c. Att. 47. 8, qui quae praeterea de hoc fragmento disputat, ea consulto praetereo.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="316" xml:id="kock-0434-adelon_dramaton-316" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-316-l1" xml:lang="grc">μισηταὶ δὲ γυναῖκες ὀλίσβοισιν χρήσονται.</l>
+              </lg>
+              <note type="source">Photius Suidas et Apostolius 13, 95. Etym. m. 588, 54. μισητή· τὴν καταφερῆ μισητὴν ἔλεγον . . . καὶ ὁ Κρατῖνός που· μισηταὶ κτλ. omisso auctoris nomine Hesychius μισήτην. Eustathius 1651 init. ἄλλοι δὲ μισήτην, βαρυτόνως, πρὸς διαστολὴν τῆς ὀξυτονουμένης, τὴν κοινὴν καὶ ῥᾳδίαν, λέγοντες καὶ χρῆσιν αὐτῆς εἶναι παρὰ Κρατίνῳ. Ammon. 94 μισητή καὶ μισήτη διαφέρει . . , ὥς φησι Τρύφων . . . ἐὰν μὲν ὀξυτονήσωμεν, σημαίνει τὴν ἀξίαν μίσους . . . ἐὰν δὲ βαρυτονήσωμεν, τὴν καταφερῆ πρὸς συνουσίαν. sed ea 'differentia ab Herodiano non accepta videtur'. Lentz. I 342, 27 adn. versus est oraculi comice ficti.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="317" xml:id="kock-0434-adelon_dramaton-317" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-317-l1" xml:lang="grc">ἔσθιε καὶ σῇ γαστρὶ δίδου χάριν, ὄφρα σε λιμὸς</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-317-l2" xml:lang="grc">ἐχθαίρῃ, Κοννᾶς δὲ πολυστέφανος νικήσει.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Eq. 534 et Suid. Κοννᾶς Ὀλυμπιονίκης γενόμενος καὶ πολλάκις στεφανωθεὶς πενιχρὸς ἦν μηδὲν ἔχων ἀλλ’ ἢ τὸν κότινον, ἐφ’ οὗ Κρατῖνος εἶπεν ἔσθιε κτλ. πολυστέφανος] φιλοστέφανος Suid. νικήσει] σε φιλήση Suid. non scholia ex Suida, sed Suidam ex scholiis emendandum esse constat. quamquam neuter mea sententia quod poeta scripsit servavit. scribendum πολυστέφανός et quod unice huic epitheto convenit et facile in σε νικήσῃ mutari poterat σ’ ἀναδήσῃ. Connus, de quo cf. Aristoph. Eq. 534 cum interpr. et cognomines Phrynichi et Amipsiae fabulae, semper esuriens edenti, ut ipse quoque cenae partem accipiat, de multis suis coronis unam offert. de verbo ἀναδεῖν cf. quod exemplum omnium instar est Plat. Symp. 212 e 213ade. Cratini versus parodia sunt Hesiodeorum Op. 299 ἐργάζευ, Πέρση, δῖον γένος, ὄφρα σε λιμὸς ἐχθαίρῃ, φιλέῃ δέ σ’ ἐυστέφανος Δημήτηρ. ad Eunidas Bergkius R. c. Att. 71. 2, ad Archilochos Fritzschius Quaest. Arist. I 241 haec referebant, non magua cum probabilitate.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="318" xml:id="kock-0434-adelon_dramaton-318" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-318-l1" xml:lang="grc">φαίνεσθαι χρυσῆν, κατ’ ἀγροὺς δ’ αὖθις αὖ μολυβδίνην.</l>
+              </lg>
+              <note type="source">Zonaras 1366 οἱ Ἀττικοὶ μόλυβδον καὶ μολύβδινον. τὸ δὲ μολυβοῦν ἐσχάτως βάρβαρον . . . Κρατῖνος φαίνεσθαι κτλ. versus est Eupolideus. verba κατ’ ἀγρούς demonstrant antecessisse ἐν μὲν τῇ πόλει vel tale quid. Hyperboli lucernas, extrinsecus aureas, re vera plumbeas intellegebat Bergkius R. c. Att. 249. 50 conl. Schol. Aristoph. Nub. 1065. nec probabilior opinio Wilamowitzii Obs. crit. 32 sq. adn. 18. quod cum hoc fr. Meinekius coniunxit 453 ed. min., non Cratini, sed ἀδέσποτον est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="319" xml:id="kock-0434-adelon_dramaton-319" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-319-l1" xml:lang="grc">πονηροὺς ἀνθρώπους * * *</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-319-l2" xml:lang="grc">πηνικίζων ἐξαπατᾷ.</l>
+              </lg>
+              <note type="apparatus">Grammaticus ms. Hermann. Opusc. III 40 οἱ παλαιότεροι κωμικοὶ πηνήκην καὶ πηνικίζειν ἔλεγον. Κρατῖνος πονηροὺς ἐξαπατᾷ. λέγεται δὲ πηνίκη ἡ ἐπίθετος κόμη. Suidas ἐπηνίκιζεν· ἐξηπάτα. οὕτως Κρατῖνος. Zonar. 834. Fritzschius Fragm. v. Eupol. 21. 2 versus Eupolideos esse negat, sed quae ipse profert non sunt probabiliora. pro πονηροὺς scribendum videtur πονηρῶς, ἐξαπατᾷ expungendum utpote interpretationis causa additum. ceterum Suidae verba ad hoc fragmentum pertinere non necesse est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="320" xml:id="kock-0434-adelon_dramaton-320" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-320-l1" xml:lang="grc">τρίγλην δ’ εἰ μὲν ἐδηδοκοίη τένθου τινὸς ἀνδρός.</l>
+              </lg>
+              <note type="apparatus">Athen. 7, 305 b Κρατῖνος. τρίγλην ante Cobetum V. 1.2 249. N. 1. 147 Schweighaeuserus] τρίγλη. ἐδηδοκοίη Porson. Advers. 98] ἐδηδόκοι ἢ. τένθου] ’ν τένθου Cobetus. at poterat sequi ἐν δείπνῳ. cf. tamen Eupol. 7. metrum idem est ac fragmenti 221, sed propterea hoc non continuo cum Bergkio R. c. Att. 217 ad Trophonium referendum.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="321" xml:id="kock-0434-adelon_dramaton-321" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-321-l1" xml:lang="grc">χαῖρ’ ὦ χρυσόκερως βαβάκτα κήλων,</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-321-l2" xml:lang="grc">Πάν, Πελασγικὸν Ἄργος ἐμβατεύων.</l>
+              </lg>
+              <note type="apparatus">Etymol. m. 183, 45 βαβάκτης· ὀρχηστής, λάλος, μανιώδης, βακχευτής. λέγεται δὲ ὁ Πάν. Κρατῖνος χαῖρε Πάν. Hephaestio 10, 6 τῶν δὲ τριμέτρων τὸ μὲν καταληκτικὸν τὸ μόνην τὴν πρώτην ἀντισπαστικὴν ἔχον, τὰς δὲ ἑξῆς ἄλλας ἰαμβικάς, Φαλαίκειον καλεῖται· οἷον χαῖρ’ ὦ χρυσόκερως . . . ἐμβατεύων. ubi schol. τὸ δὲ χαῖρ’ — κήλων Κρατίνου ἐστί. χαῖρ’ ὦ χρυσόκερως Hephaest.] χαῖρε χρυσόκερω Etym. βαβάκτα] βαβάκτρα Hephaestionis THDE marg. Hesych. βαβάκτης· ὀρχηστής. ὑμνωδός. μανιώδης. κραύγασος. ὅθεν καὶ Βάκχος. similiter Bekker. Anecd. 223, 31. Etym. m. 510, 51 κήλων λέγεται ὁ θερμὸς εἰς συνουσίαν. Eustath. 1597, 28 κήλων πεποίηται ἀπὸ τῶν ὀχευτῶν ὄνων. Archil. 95 ἡ δέ οἱ σάθη ὡσεί τ’ ὄνου Πριηνέως κήλωνος ἐπλήμμυρεν. ἐμβατεύων] Aesch. Pers. 449 (νῆσος) ἣν ὁ φιλόχορος Πὰν ἐμβατεύει. Eurip. fr. 697 N. ὅς τε πέτρον Ἀρκάδων δυσχείμερον Πὰν ἐμβατεύεις. cf. Soph. OC. 679. Pelasgicum Argos cum Dorvillio Vann. crit. 51 Bergkius R. c. Att. 97 clivum arcis Atheniensium dici censet conl. Paus. 1, 28, 3. 4. Herod. 6, 105. Eurip. Ion 938. Luc. Bis accus, 9. at praefractis illa rupibus horrida regio, in qua est Panos antrum, Pelasgicum quidem adpellabatur, Argos adpellari non poterat, ne per iocum quidem. scribendum est Πελασγικὸν ἄγκος, i. e. convallem Areo-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="324_a_b_c" xml:id="kock-0434-adelon_dramaton-324_a_b_c" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-324_a_b_c-l1" xml:lang="grc">εὔιε κισσοχαῖτ’ ἄναξ χαῖρ’, ἔφασκ’ Ἐκφαντίδης.</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-324_a_b_c-l2" xml:lang="grc">*</l>
+                <l n="3" xml:id="kock-0434-adelon_dramaton-324_a_b_c-l3" xml:lang="grc">*</l>
+                <l n="4" xml:id="kock-0434-adelon_dramaton-324_a_b_c-l4" xml:lang="grc">*</l>
+                <l n="5" xml:id="kock-0434-adelon_dramaton-324_a_b_c-l5" xml:lang="grc">πάντα φορητά, πάντα τολμητὰ τῷδε τῷ χορῷ.</l>
+                <l n="6" xml:id="kock-0434-adelon_dramaton-324_a_b_c-l6" xml:lang="grc">*</l>
+                <l n="7" xml:id="kock-0434-adelon_dramaton-324_a_b_c-l7" xml:lang="grc">*</l>
+                <l n="8" xml:id="kock-0434-adelon_dramaton-324_a_b_c-l8" xml:lang="grc">*</l>
+                <l n="9" xml:id="kock-0434-adelon_dramaton-324_a_b_c-l9" xml:lang="grc">πλὴν Ξενίου νόμοισι καὶ Σχοινίωνος, ὦ Χάρων.</l>
+              </lg>
+              <note type="source">Hephaestio 15, 24</note>
+              <note type="apparatus">ἔστι γὰρ (τὸ καλούμενον Κρατίνειον) ἐκ χοριαμβικοῦ ἐπιμίκτου, τοῦ τὴν δευτέραν ἰαμβικὴν ἔχοντος, καὶ τροχαϊκοῦ ἑφθημιμεροῦς· εὔιε — Χάρων. a. ἔφασκ’ Ἐκφαντίδης Pauw] ἔφασκε Φαντίδης. c. Σχοινίωνος] χοινίωνος Fl. Χάρων E] Χάρον. quamquam Hephaestio horum versuum poetam non nominat, tamen cum de metro Cratineo et propria eius forma disputet, de Cratino auctore dubitari non potest. cf. Soping. Hesych. II 1334. Ecphantidis versus est fr. 3. manifestum est hos versus non cohaerere; attamen ex eadem parabasi videntur excerpti esse, exiguo intervallo secundum inter et tertium interposito. de Xenio vel Xenia non constat: Aristophanem propter peregrinam originem sic adpellari coniecit Bergkius R. c. Att. 116. Schoenion cognomen erat Calliae comico inditum, Cratini Aristophanisque aequali. Meinek. I 213. Suid. Καλλίας Ἀθηναῖος κωμικός, υἱὸς Μνησιμάχου, ὃς ἐπεκλήθη Σχοινίων διὰ τὸ σχοινοπλόκου εἶναι πατρός. de Charone Aristot. Rhet. 3, 17 ἐπειδὴ (ἐπίφθονον) περὶ ἄλλου (λέγειν) ἢ λοιδορίαν (ἔχει) ἢ ἀγροικίαν, ἕτερον χρὴ λέγοντα ποιεῖν . . . ὡς Ἀρχίλοχος ψέγει. ποιεῖ γὰρ τὸν πατέρα λέγοντα περὶ τῆς θυγατρὸς . . . καὶ τὸν Χάρωνα τὸν τέκτονα ἐν τῷ ἰάμβῳ, οὗ ἡ ἀρχή· οὔ μοι τὰ Γύγεω. itaque probabiliter Bergkius 27 ad Archilochos hos versus rettulit. dicit autem Cratinus omnia subeunda, omnia audenda esse choro, ut victoriam reportet, ea tamen exceptione, ut neque Xeniae neque Schoenionis modis utatur. ad quam sententiam Charonis adsensum expetit ut ipse Archilochus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="325" xml:id="kock-0434-adelon_dramaton-325" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-325-l1" xml:lang="grc">αὐτομάτη δὲ φέρει τιθύμαλλον καὶ σφάκον πρὸς αὐτῷ</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-325-l2" xml:lang="grc">ἀσφάραγον κύτισόν τε· νάπαισι δ’ ἀνθέρικος ἐνηβᾶ·</l>
+                <l n="3" xml:id="kock-0434-adelon_dramaton-325-l3" xml:lang="grc">καὶ φλόμον ἄφθονον ὥστε παρεῖναι πᾶσι τοῖς ἀγροῖσιν.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="326" xml:id="kock-0434-adelon_dramaton-326" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Schol. Theocr. 9, 19 εἰώθασι γὰρ ἔγκατα πλήσαντες καὶ ξηραίνοντες (ξηράναντες) ὀπτᾶν, εἶτα ἐσθίουσι ταῦτα, ἃ καὶ χόρια προσαγορεύουσι</note>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-326-l1" xml:lang="grc">Κρατὶ νεοτρόφοιο γένας χόριά τ᾽ ἐμβρύων</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-326-l2" xml:lang="grc">τε πλήθη</l>
+              </lg>
+              <note type="source">χόρια δὲ καλοῦσι τοὺς ὑμένας, οὓς πληροῦσι τοῦ ἀμελχθέντος γάλακτος. νεοστέφοι (ει 3) γέννας Vat. 3. 4.</note>
+              <note type="apparatus">κρατὶ νεοτρόφοιο γένας] Κρατῖνος Τροφωνίῳ Hemsterhusius. Κρατῖνος· ἀρνὸς εὐτρόφου κρέας Toupius. Κρατίνος· νεοτρόφοιο γέννας Meinekius. fortasse scribendum Κρατίνος· εὐτρεφεῖς ἀγέλας, eaque verba ad Cyclopem, i. e. ad Ulixes fabulam referenda.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="327" xml:id="kock-0434-adelon_dramaton-327" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-327-l1" xml:lang="grc">ἀλλὰ τάδ᾽ ἔστ᾽ ἀνεκτέον· καὶ γὰρ ἡνίκ᾽ εὐθένει</l>
+              </lg>
+              <note type="source">Zonaras 919 εὐθενεῖν οἱ Ἀττικοί· οἱ δὲ Ἴωνες εὐθηνεῖν. Κρατῖνος κτλ.</note>
+              <note type="apparatus">ἀνεκτέον — εὐθένει Lob. Phryn. 466 Bergk. 27] ἀνακτέον — εὐθενεῖ. metrum est Cratineum. τάδε accus. est suspensus ab ἀνεκτέον.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="328" xml:id="kock-0434-adelon_dramaton-328" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Athenaeus 1, 7 f περὶ Περικλέους φησὶν Ἀρχίλοχος ὁ Πάριος ποιητὴς ὡς ἀκλήτου ἐπεισπαίοντος εἰς τὰ συμπόσια, Μυκονίων δίκην (cf. de his verbis Bergk. Archiloch. 103). δοκοῦσι δ᾽ οἱ Μυκόνιοι διὰ τὸ πένεσθαι καὶ λυπρὰν νῆσον οἰκεῖν ἐπὶ γλισχρότητι καὶ πλεονεξίᾳ διαβάλλεσθαι. τὸν γοῦν Ἰσχόμαχον Κρατῖνος Μυκόνιον καλεῖ·</note>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-328-l1" xml:lang="grc">πῶς ἂν Ἰσχομάχου γεγονώς Μυκονίου</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-328-l2" xml:lang="grc">φιλόδωρος ἂν εἴης;</l>
+              </lg>
+              <note type="source">Eustath. 1828, 8. Phot. Μυκώ(ό)νιος γείτων· αὕτη τάττεται κατὰ τῶν διαβεβλημένων ἐπὶ γλισχρότητι καὶ σμικροπρεπεία. παρὰ τὴν σμικρότητα τῆς νήσου καὶ εὐτέλειαν. et Μυκόνιον· τὸν γλίσχρον· πλεονέκται γὰρ ἐν μικροῖς οἱ Μυκόνιοι. ἢ διὰ τὸ λυπρὰν εἶναι τὴν Μύκονον. similia paroemiographi. cf. etiam Bursian. Geogr. gr. II 148. 9. Ischomachus, qui septuaginta ta-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="329" xml:id="kock-0434-adelon_dramaton-329" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Aelianus V. h. 2, 13 εὐδοκίμει δ’ οὖν αὐτῷ (Ἀριστοφάνει) τὸ δρᾶμα, καὶ γάρ τοι τὸ τοῦ Κρατίνου τοῦτο συνέβη εἴποτε ἄλλοτε καὶ τότε, τῷ θεάτρῳ νοσήσαι τὰς φρένας. Bekker. Anecd. p. 52, 28 νοσεῖν τὰς φρένας· νοσεῖν τὸν νοῦν.</p>
+              </note>
+              <note type="apparatus">
+                <p>verba poetae non uno metro modoque restitui possunt; sed simplicissime opinor trim. iambico (συνέβη) καὶ τῷ θεάτρῳ τότε νοσῆσαι τὰς φρένας.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="330" xml:id="kock-0434-adelon_dramaton-330" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Athenaeus 2, 69 d Κρατῖνος δέ φησι Φάωνος ἐρασθεῖσαν τὴν Ἀφροδίτην ἐν καλαῖς θριδακίναις αὐτὸν ἀποκρύψαι.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="331" xml:id="kock-0434-adelon_dramaton-331" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Athenaeus 13, 596 b Ἡρόδοτος δ’ αὐτὴν (Δωρίχην) Ῥοδῶπιν καλεῖ, ἀγνοῶν ὅτι ἑτέρα τῆς Δωρίχης ἐστὶν αὕτη, ἡ καὶ τοὺς περιβοήτους ὀβελίσκους ἀναθεῖσα ἐν Δελφοῖς, ὧν μέμνηται Κρατῖνος διὰ τούτων.</p>
+              </note>
+              <note type="apparatus">
+                <p>cf. Herod. 2, 134. Plut. Mor. 400 f. διὰ Πλούτων pro διὰ τούτων Meinek. ed. min. VII conl. Athen. 13, 594 d. cf. etiam V 23.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="332" xml:id="kock-0434-adelon_dramaton-332" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Eustratius Aristot. Eth. Nicom. 65 b ἀλλὰ καὶ Ἀρχίλοχος (Ἀριστοφάνης Ruhnk. Vell. Paterc. 1, 5 p. 20 conl. Aristoph. Av. 910 cum schol.) καὶ Κρατῖνος (καὶ Ἀρχιλόχοις Κρατῖνος Bergk. Archiloch. 152) καὶ Καλλίμαχος ἐν τοῖς ἐπιγράμμασιν μαρτυροῦσι (Μαργίτην) εἶναι Ὁμήρου τὸ ποίημα.</p>
+              </note>
+              <note type="apparatus">
+                <p>‘Cratinus Homeri Margitem fortasse in Archilochis commemoraverat’. Meinek.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="333" xml:id="kock-0434-adelon_dramaton-333" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Schol. Luciani p. 186 Iacob. ὁ μὲν Καλλίας οὗτος, ὡς Κρατῖνος Ἀρχιλόχοις φησίν, Ἱππονίκου υἱὸς ἦν, τὸν δῆμον Μελιτεύς,</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="378" xml:id="kock-0434-adelon_dramaton-378" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>αἰγυπτιάζειν</head>
+              <note type="apparatus">τὸ πανουργεῖν καὶ κακοτροπεύεσθαι, ὡς ὁ κωμικός, φασί, Κρατῖνος δηλοῖ. Eustath. 1484, 28. fort. φησὶ Κρατῖνος Δηλιάσιν. cf. Aristoph. Thesm. 922 cum interpr.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="379_a_b" xml:id="kock-0434-adelon_dramaton-379_a_b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>αἱμυλοπλόκος et αἱμυλόφρων</head>
+              <note type="apparatus">Bekker. Anecd. 363, 3 Κρατῖνος δὲ αἱμυλόφρων εἶπε καὶ αἱμυλοπλόκος ὁ αὐτός.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="380" xml:id="kock-0434-adelon_dramaton-380" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ἀλαζών</head>
+              <note type="apparatus">ὑπερήφανος, ψεύστης καὶ κομπαστής. οὕτω Κρατῖνος. Bekker. Anecd. 374, 19.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="381" xml:id="kock-0434-adelon_dramaton-381" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ἀμφίκαυστις</head>
+              <note type="apparatus">Eustathius 1446, 29 ἡ ὡρίμη κριθή, ἡ καὶ ἀμφίκαυστις παρὰ Αἰλίῳ Διονυσίῳ, κωμικοὶ δὲ καὶ ἐπὶ γυναικείου μορίου φασί, Κρατῖνος δὲ τὴν ὀσφὺν οὕτως ἔφη. Hesych. καῦστις· ἡ ἔκφυσις τῶν σταχύων. πυροὶ ἁδρυνόμενοι, καὶ χόρτος. τὸ δὲ αὐτὸ καὶ ἀμφίκαυστις. καὶ ἐπώνυμον Δήμητρος. Κρατῖνος δὲ ἐπὶ τοῦ μορίου ἔταξεν αὐτό. Etymol. m. 90, 33 οἱ δὲ κωμικοὶ τὸ αἰδοῖον ἀμφίκαυτις (sic) ἀπὸ τοῦ περικεκαῦσθαι. Meinekius contulit Aristoph. Pac. 965.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="382" xml:id="kock-0434-adelon_dramaton-382" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ἄναλτον</head>
+              <note type="apparatus">Ὅμηρος καὶ Κρατῖνος ἀντὶ τοῦ ἀπλήρωτον. Suid. Zonar. cf. Hom. Od. 17, 228. 18, 114. 364. Hesych. ἄναλτον· ἀναυξές . . . ἢ ἀπλήρωτον.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="383" xml:id="kock-0434-adelon_dramaton-383" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ἀνεξικώμη</head>
+              <note type="apparatus">ἧς οὐκ ἂν ἀνάσχοιτο ὅλη κώμη. παρὰ Κρατίνῳ. Hesych. itaque aut dixit οὐκ ἀνεξικώμη aut contra Hesychium probanda est Bergkii (R. c. Att. 255) interpretatio quae vel totius pagi impetum sustineat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="384" xml:id="kock-0434-adelon_dramaton-384" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ἀνεπτερῶσθαι</head>
+              <note type="apparatus">τὴν ψυχήν· οἷον ἀνασεσοβῆσθαι Κρατῖνος. Suidas. cf. Bekker. Anecd. 398, 6. Aristoph. Av. 433. 1439—1449.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="437" xml:id="kock-0434-adelon_dramaton-437" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>πρίονες</head>
+              <note type="source">Photius πριών· ὀξυτόνως, τὸ ἅρμενον· πρίων δὲ, ὡς παίων, ὁ τέμνων τῷ ἁρμένῳ τούτῳ· τὸ δὲ πληθυντικὸν πρίονες διὰ τοῦ δ.</note>
+              <note type="apparatus">Κρατίνος. de accentu Herodian. II 434, 7. 573, 12. 723, 20. ceterum cf. Lobeck. Soph. Ai. 222 p. 162 sq. Meinek. II 205.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="438" xml:id="kock-0434-adelon_dramaton-438" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>πρότηθυς</head>
+              <note type="source">ἡ οὕτω γραῦς ὡς πρὸ Τηθύος τῆς Ὠκεανοῦ γεγονέναι γυναικός.</note>
+              <note type="apparatus">Κρατῖνος τὴν ὑπεργήρων οὕτω λέγει παίζων. Bekker. Anecd. 59, 23. ita senes exoletos comici Cronos Iapetosve adpellant.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="439" xml:id="kock-0434-adelon_dramaton-439" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>πωγωνίας</head>
+              <note type="source">(i. e. πώγωνος ὑποπιμπλάμενος), ὡς Κρατῖνος. Pollux 2, 10.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="440" xml:id="kock-0434-adelon_dramaton-440" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ῥύγχος</head>
+              <note type="source">τὸ πρόσωπον. Κρατῖνος καὶ ἕτεροι. Phot. Suid. cf. Archipp. 1.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="441" xml:id="kock-0434-adelon_dramaton-441" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ῥύδην</head>
+              <note type="source">σφοδρῶς καὶ ἀθρόως. οὕτως Κρατῖνος. Phot. Suid.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="442" xml:id="kock-0434-adelon_dramaton-442" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>Σάγρα</head>
+              <note type="source">αἱ τοῦ . . . ἀλήθεια. οὕτως Κρατῖνος. Phot., apud quem totius versus lacuna est. pertinent haec sine dubio ad proverbium illud ἀληθέστερα τῶν ἐπὶ Σάγρᾳ, ἐπὶ τῶν ἀληθῶν μέν, οὐ πιστευομένων δέ, ut ait Suidas. cf. Zenob. 2, 17 cum adn. Leutschii. Macar. 1, 84. ad Sagram fluvium decem milia Locrensium centum triginta milia Crotoniatarum fugaverant, anno a. Chr. circiter 580. Strab. 6, 261. Cic. N. d. 2, 2, 6. Iustin. 20, 3.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="443" xml:id="kock-0434-adelon_dramaton-443" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>σαυνίον</head>
+              <note type="source">Poll. 10, 143 καὶ παλτὰ καὶ σαρίσσας καὶ σαυνία. τὸ μὲν ὄνομα ἐπ’ ἀνδρείου αἰδοίου ἐστὶ παρὰ Κρατίνῳ. σαυνίον σαθρόν penem languidum a Cratino dici putat Meinekius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="444" xml:id="kock-0434-adelon_dramaton-444" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>σκῖρον</p>
+              <note type="source">Etym. m. 718 init. σκιρωθῆναι· φαμὲν ἐπὶ τοῦ ῥύπου τοῦ σφόδρα ἐμμένοντος καὶ δυσεκπλύτου. σκίρον δὲ τὸν ἀηδῆ ῥύπον καὶ Κρατῖνος λέγει. cf. Aristoph. Vesp. 925. Eupol. 277.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="445" xml:id="kock-0434-adelon_dramaton-445" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>στρωματίτης</p>
+              <note type="source">ἐν ᾧ ἑαυτοῖς στρώματα παρεῖχον. οὕτως Κρατῖνος. Phot. (cod. στρωματητης ἐνῶ ἐναυτοῖς — κθ|). Hesych. στρωματίτην· ἔρανόν τινα, ἐν ᾧ ἑαυτοῖς παρεῖχον τὰ στρώματα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="446" xml:id="kock-0434-adelon_dramaton-446" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>σφίγκτας</p>
+              <note type="source">Κρατῖνος τοὺς κιναιδώδεις καὶ μαλθακούς. Phot. Hesych. σφίγκται· οἱ κίναιδοι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="447" xml:id="kock-0434-adelon_dramaton-447" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>σχιζίας</p>
+              <note type="source">ὁ τετανὸς καὶ ἰσχνός. οὕτως Κρατῖνος. Phot. Herculem Dicaearchus (Clement. Alex. Protr. 2, 30 extr.) describit σχιζίαν, νευρώδη . . . τετανότριχα (Meinek.).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="448" xml:id="kock-0434-adelon_dramaton-448" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>ταμιεῖον</p>
+              <note type="source">οἶκος ἐν ᾧ τὰ ἀναγκαῖα ἀπετίθεσαν, ὡς Ἀριστοφάνης καὶ Κρατῖνος. Herodian. I 375, 26. Lentz.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="449" xml:id="kock-0434-adelon_dramaton-449" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>τοκῶσα</p>
+              <note type="source">εἶπε Κρατῖνος. Pollux 2, 7. i. e. parturiens.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="450" xml:id="kock-0434-adelon_dramaton-450" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>τροπαῖον</p>
+              <note type="source">ἡ παλαιὰ Ἀτθίς, ἧς ἔστιν Εὔπολις, Κρατῖνος, Ἀριστοφάνης, Θουκυδίδης· τρόπαιον ἡ νέα Ἀτθίς, ἧς ἔστι Μένανδρος καὶ οἱ ἄλλοι. Schol. Thucyd. 1, 30. cf. Suid.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="451" xml:id="kock-0434-adelon_dramaton-451" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>φαγᾶς</p>
+              <note type="source">Phrynich. Epit. 433 ἐχρῆν οὖν Κρατίνῳ πειθόμενον φαγᾶς εἰπεῖν, non καταφαγᾶς (cf. Lobeck). Herodian. I 51, 8 ἐπὶ σκώμ-</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="276" xml:id="kock-0434-adelon_dramaton-276" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>276</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-276-l1" xml:lang="grc">τοὺς ἐξοδίους ὑμῖν ἵν’ αὐλῶ τοὺς νόμους.</l>
+              </lg>
+              <note type="source">Suidas ἐξόδιοι νόμοι· αὐλήματα δι’ ὧν ἐξήεσαν οἱ χοροὶ καὶ οἱ αὐληταί. οὕτω Κνατῖνος.</note>
+              <note type="apparatus">eiusmodi cantica exodia Aelius Dionysius Eustath. 239, 20 quaedam commemorat, rhapsodicum hoc: <quote>
+                  <lg>
+                    <l n="1_2" xml:id="kock-0434-adelon_dramaton-276-l1_2" xml:lang="grc">νῦν δὲ θεοὶ μάκαρες τῶν ἐσθλῶν ἄφθονοι ἔστε,</l>
+                  </lg>
+                </quote> tragicum <quote>
+                  <lg>
+                    <l n="1_3" xml:id="kock-0434-adelon_dramaton-276-l1_3" xml:lang="grc">πολλαὶ μορφαὶ τῶν δαιμονίων</l>
+                  </lg>
+                </quote> (Mein.). sic extremum Ranarum canticum exodium est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="277" xml:id="kock-0434-adelon_dramaton-277" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>277</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-277-l1" xml:lang="grc">τὴν χεῖρα μὴ ’πίβαλλε, μὴ κλάων κάθῃ.</l>
+              </lg>
+              <note type="source">Zonaras 1168 Κρατίνος τὴν χεῖρα . . . κάθῃ. λέγει γὰρ τὸ ὑποτακτικὸν ἀπὸ τοῦ κάθημι (κάθημαι).</note>
+              <note type="apparatus">καθῇς K. Mus. Rhen. XXX 415] κάθῃ. cf. Aristoph. Av. 364. Euphron. 1, 24. Plat. Phaed. 61 c et quae disputavi in Mus. Rh.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="278" xml:id="kock-0434-adelon_dramaton-278" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>278</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-278-l1" xml:lang="grc">εἰ πρῶτος ἔλθοις κἂν καθίζεσθαι λάβοις.</l>
+              </lg>
+              <note type="source">Zonar. 1169 λέγουσι δὲ καὶ καθίζανε . . . Κρατῖνος εἰ πρῶτος κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="279" xml:id="kock-0434-adelon_dramaton-279" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>279</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-279-l1" xml:lang="grc">ἐφ’ ᾧ τ’ ἔμ’ αὐτὴν συγκαθεύδειν τῷ πατρί.</l>
+              </lg>
+              <note type="source">Zonaras 929 ἐφ’ ᾧ τε . . . καὶ ὁριστικῷ συντάσσεται καὶ ἀπαρεμφάτῳ . . . Κρατῖνος ἐφ’ ᾧ κτλ.</note>
+              <note type="apparatus">— ἔμ’ αὐτὴν K.] ἐμαυτὴν. Tittmanni dubitatio de auctore versus inrita est. unam memini quae haec loqui possit. Dio Chrysost. 66, 6 τῇ δὲ Πελοπίᾳ ὁ πατὴρ ἐμίχθη καὶ τὸν Αἴγισθον ἔσπειρεν. Hygin. Fab. 87. 88.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="280" xml:id="kock-0434-adelon_dramaton-280" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>280</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-280-l1" xml:lang="grc">ὁ τάλαρος ὑμῖν διάπλεως ἔσται γάρου.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 67 c γάρος· Κρατίνος. Pollux 6, 65 Κρατῖνος ὁ τάλαρος κτλ.</note>
+              <note type="apparatus">ὑμῖν Poll.] ὑμῶν Athen. BCD, ἡμῶν VL. ἔσται om. Poll. — at τάλαρος, qualus vimineus (Poll. 10, 125) quo modo plenus esse possit γάρου, vix intellegitur. fort. ὁ κάδος ἄρ’ vel ὁ γὰρ κάδος. ad Νόμους referri potest. cf. fr. 121. 125.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="281" xml:id="kock-0434-adelon_dramaton-281" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>281</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-281-l1" xml:lang="grc">ποιμὴν καθέστηκ’ αἰπόλος καὶ βουκόλος.</l>
+              </lg>
+              <note type="source">Dio Chrysost. Orat. 56 init. ἢ οὐκ ἀνέγνωκας τοῦτο τὸ ἔπος Κρατίνου· ποιμὴν κτλ.</note>
+              <note type="apparatus">καθέστηκ’ Bergk. R. c. Att. 34] καθέστη. ad Bubulcos rettulit Bergkius; fortasse ad Dionysalexandrum pertinet.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="288" xml:id="kock-0434-adelon_dramaton-288" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>288</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-288-l1" xml:lang="grc">οὐδ’ ὑδατοπωτῶν οὐδὲ κοιλοφθαλμιῶν.</l>
+              </lg>
+              <note type="source">Pollux 4, 184 τάχα δὲ καὶ τὸ κοιλοφθαλμιᾶν, οὐκ ἴδιον μὲν γινόμενον ἐν ὀφθαλμοῖς νόσημα, συμβαῖνον δὲ κοιλαίνεσθαι τοὺς ὀφθαλμοὺς ἐξ ἄλλου νοσήματος. οὐδ’ — κοιλοφθαλμιῶν, φησὶν ὁ Κρατίνος.</note>
+              <note type="apparatus">ὑδατοπωτῶν Pors. Adv. 284] ὑδατοποτῶν. cf. Lob. Phryn. 456. si de se poeta loquitur, versus fortasse ad Pytinen referendus est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="289" xml:id="kock-0434-adelon_dramaton-289" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>289</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-289-l1" xml:lang="grc">τούτου δ’ ἁπάσας ἀποτεμῶ τὰς μηχανάς.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 28, 29 ἀποτεμεῖν μηχανάς· Κρατῖνος.</note>
+              <note type="apparatus">ὑποτεμῶ Cobet. N. 1. 148.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="290" xml:id="kock-0434-adelon_dramaton-290" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>290</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-290-l1" xml:lang="grc">ἀνδρῶν ἀρίστων πᾶσα γαργαίρει πόλις.</l>
+              </lg>
+              <note type="source">Schol. Arist. Acharn. 3 Suidas ψαμμακοσιογάργαρα· καὶ Κρατῖνος ἀνδρῶν κτλ.</note>
+              <note type="apparatus">ἀνδρῶν ἀρίστων Kusterus] ἀρίστων ἀνδρῶν Ald. ἀνδρῶν ἀρίστων μάρμαιρε (suprascr. κάρκαιρε) Laur. καρκαίρει C. Suid. at cum nulla urbs optimis civibus abundet et γαργαίρειν de malis fere praedicetur, scribendum videtur, μάλιστ’ ἀνάνδρων vel ἀνδρῶν ἀνάνδρων.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="291" xml:id="kock-0434-adelon_dramaton-291" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>291</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-291-l1" xml:lang="grc">ἀλλ’ οὖν θεῷ σπείσαντ’ ἄμυστιν δεῖ πιεῖν.</l>
+              </lg>
+              <note type="source">Schol. Euripid. Rhes. 419 ἄλλοι δὲ ἐπὶ τῆς ἀπνευστὶ πόσεως τάττουσι τὸ ὄνομα (ἄμυστις), ὡς Κρατῖνος.</note>
+              <note type="apparatus">θεῷ σπείσαντ’ ἄμυστιν — πιεῖν L. Dindf.] θεὸν πείσαντες μῦστιν ποιεῖν Α (πιεῖν sec. Cobet.). ‘locus fort. ex Pytine petitus’. Meinek.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="292" xml:id="kock-0434-adelon_dramaton-292" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>292</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-292-l1" xml:lang="grc">ὅνπερ Φιλοκλέης τὸν λόγον διέφθορεν.</l>
+              </lg>
+              <note type="source">Schol. Sophoclis Antig. 404 ὃν σὺ τὸν νεκρὸν ἀπεῖπας] τὸ ἑξῆς· τὸν νεκρὸν ὃν σὺ ἀπεῖπας θάπτειν. οὕτω δὲ χρῶνται οἱ πα-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="297" xml:id="kock-0434-adelon_dramaton-297" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-297-l1" xml:lang="grc">ἀλλ’ εἴσιθ’· εἴσω καὶ πιοῦ-</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-297-l2" xml:lang="grc">σα χυλὸν ἀναπαύου κακῶν.</l>
+              </lg>
+              <note type="source">Pollux 6, 61 Κρατῖνος δὲ καὶ χυλὸν πιεῖν εἴρηκεν.</note>
+              <note type="apparatus">excerptum est ex systemate iambico. χυλός est ptisanae sucus, quo pro medicamento utebantur. cf. Aristoph. Pac. 997. Ran. 943 cum interpr.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="298" xml:id="kock-0434-adelon_dramaton-298" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-298-l1" xml:lang="grc">ὡς ἄνω τὴν μασχάλην αἴρωμεν ἐμπεπωκότες.</l>
+              </lg>
+              <note type="source">Hesych. μασχάλην αἴρειν· κωθωνίζεσθαι καὶ πίνειν. ὡς ἄνω κτλ. ἐν τῷ μεθύειν αἴρειν ἄνω τὴν μασχάλην. εἰώθεισαν γὰρ λέγειν μασχάλην αἴρεις ἀντὶ τοῦ κωθωνίζειν, καὶ καταμωκᾶσθαι ταῖς χερσίν. Cratini versum esse docet Zenobius 5, 7 μασχάλην αἴρειν· ἀντὶ τοῦ κωθωνίζεσθαι καὶ πίνειν. Κρατῖνος ὡς ἄνω τὴν μασχάλην αἴρειν, καταμωκωμένους ταῖς χερσίν. Proverb. Bodlei. 625 Κρατῖνος ἄνω τὴν μασχάλην αἴρεις, ἀντὶ τοῦ κωθωνίζῃ. Bekker. Anecd. 356, 30 αἶρε τὴν μασχάλην· ἐπὶ τοῦ ὀρχήσασθαι. Phot. μασχάλην αἴρεις ἀντὶ τοῦ καθωμισθήσῃ (?)· οἱ γὰρ μεθύοντες ᾖρον τὰς μασχάλας καταμωκώμενοι. καὶ οἱ μνηστῆρες ‘χεῖρας ἀνίσχοντες γέλῳ ἔκθανον’. Gregor. Cypr. Mosq. 1, 12 αἴρειν μασχάλην· ἀντὶ τοῦ εὐωχιάζειν (εὐωχεῖσθαι PL). εἴρηται δὲ ἀπὸ τῶν ἀγροικικῶς ὀρχουμένων. Poll. 6, 26 ἐπὶ δὲ τῶν μεθυόντων ἔλεγον τὸ μασχάλην αἴρειν, ὡς τοῦτο ἔθος ὂν τοῖς ἐν μέθῃ, διὸ καὶ Ὅμηρον προειπεῖν (sequitur Od. 18, 100).</note>
+              <note type="apparatus">omissis eis quae nullius pretii essent ea congessi quae momentum facere viderentur: quibus comparatis constare videtur μασχάλην αἴρειν dici solitos esse eos qui post compotationem saltationi et omne genus lasciviae indulgerent. versum Meinekius fecit tetram. troch., possunt etiam trimetri esse ὡς ἄνω | κτλ. de Hesychii verbis cf. Meinek. V 23.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="299" xml:id="kock-0434-adelon_dramaton-299" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-299-l1" xml:lang="grc">ὁ δὲ μετ’ Εὐδήμου τρέχων</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-299-l2" xml:lang="grc">κώμυθα τὴν λοιπὴν ἔχει τῶν πρωίων.</l>
+              </lg>
+              <note type="source">Schol. Theocr. 4, 18 κώμυς, ἡ δέσμη ἤτοι τὸ δεσμάτιον. Κρατῖνος ὁ δὲ κτλ. Phot. κώμυθα· δέσμη χόρτου. in schol. Theocr.</note>
+              <pb n="100" facs="urn:hathi:hvd.hxijva:scan:132"/>
+              <note type="apparatus">editur εὐδήμου τρέχων κώμυθος τὴν λοιπὴν ἔχει τῷ στεφάνῳ. sed pro ultimis ἔχων τῶν πρώων Vat. 4. 5. nihil nisi λοιπὴν πρώων Vat. 3. πρώων i. e. πατρώων. restituo igitur tetram. troch.</note>
+              <lg>
+                <l n="3" xml:id="kock-0434-adelon_dramaton-299-l3" xml:lang="grc">ὁ δὲ μετ’ Εὐδήμου τρέχων κώμυθ’ ὅσην λοιπὴν ἔχει</l>
+                <l n="4" xml:id="kock-0434-adelon_dramaton-299-l4" xml:lang="grc">τῶν πατρώων.</l>
+              </lg>
+              <note type="apparatus">Eudemum autem existimo esse illum φαρμακοπώλην, a quo anulum magicum se emisse simulat homo iustus Aristoph. Plut. 884. cf. Theophr. H. plant. 9, 17, 2 Εὔδημος ὁ φαρμακοπώλης εὐδοκιμῶν σφόδρα κατὰ τὴν τέχνην. narrat igitur Cratinus nescio quem Eudemi per urbes Graeciae pedisequum rem familiarem totam perdidisse. κώμυθ’ ὅσην i. e. τοσοῦτον ὅσον κώμυς ἐστίν. non plus igitur de patrimonio quam fasciculum reliquum habet.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="300" xml:id="kock-0434-adelon_dramaton-300" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-300-l1" xml:lang="grc">πάλαι γὰρ αὐτὸ</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-300-l2" xml:lang="grc">λόγοισι προάγει Περικλέης, ἔργοισι δ’ οὐδὲ κινεῖ.</l>
+              </lg>
+              <note type="source">Plutarchus Pericl. 13 τὸ δὲ μακρὸν τεῖχος, περὶ οὗ Σωκράτης ἀκοῦσαί φησιν αὐτὸς εἰσηγουμένου γνώμην Περικλέους, ἠργολάβησε Καλλικράτης· κωμῳδεῖ δὲ τὸ ἔργον Κρατῖνος ὡς βραδέως περαινόμενον κτλ. Mor. 351 a καί τοι καὶ τοῦτον (Periclem) ὡς βραδέως ἀνύοντα τοῖς ἔργοις ἐπισκώπτων Κρατῖνος, οὕτω πως λέγει περὶ τοῦ διὰ μέσου τείχους λόγοισι γὰρ αὐτὸ προάγει Περικλέης, ἔργοισι δ’ οὐδὲ κινεῖ.</note>
+              <note type="apparatus">λόγοισι Stephanus] λόγοις. προάγει Reiskius] προσάγει. cf. Plat. Gorg. 455 e cum schol. 342 Bekker. Krueg. Stud. hist. phil. 167 sq. Wachsmuth. Athen. I 328—336.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="301" xml:id="kock-0434-adelon_dramaton-301" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-301-l1" xml:lang="grc">γαυριῶσαι δ’ ἀναμένουσιν ὧδ’ ἐπηγλαϊσμέναι</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-301-l2" xml:lang="grc">μείρακες φαιδραὶ τράπεζαι τρισκελεῖς σφενδάμνιναι.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 49 a τράπεζαι ἐλεφαντόποδες, τῶν ἐπιθημάτων ἐκ τῆς καλουμένης σφενδάμνου πεποιημένων. Κρατῖνος κτλ.</note>
+              <note type="apparatus">μείρακες Valck. Diatr. Eurip. 163] μείραξ C. Eustath. 1398, 20 Κρατῖνος . . . τράπεζαι τρισκελεῖς σφενδάμνιναι. ἀναμένουσιν i. e. exspectant convivas. τράπεζαι τρισκελεῖς quasi quoddam ὀξύμωρον, cum τράπεζα sit quattuor pedum. cf. Aristoph. fr. 530, 3. mensas adparatas pulchre cum puellis comparat. Plin. N. h. 16, 66 acer . . . operum elegantia ac subtilitate citro secundum. Hor. Sat. 2, 8, 10. ad Leges hoc fragmentum non magna cum probabilitate Bergkius referebat R. c. Att. 140. 1.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="302" xml:id="kock-0434-adelon_dramaton-302" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-302-l1" xml:lang="grc">ὡς δὲ μαλακὸν καὶ τέρεν τὸ χρωτίδιον ἦν, ὦ θεοί·</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-302-l2" xml:lang="grc">καὶ γὰρ ἐβλίμαζον αὐτήν, ἡ δ’ ἐφρόντιζ’ οὐδὲ ἕν.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="308_2" xml:id="kock-0434-adelon_dramaton-308_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="apparatus">Hec. praef. LVIII (cf. fr. 310). Bergkius R. c. Att. 287 ὑπὸ δ’ Ἡρ. π. ἀεὶ | ταὐτὰ καὶ σκώπτοντος οὐ βιωτόν ἐστι. at talis sententia non melico carmini sed unice parabasi quae proprie dicitur convenit. cf. Aristoph. Pac. 739 sq. eadem de causa neque ea sola reicienda est Wilamowitzii coniectura (Obs. crit. 38). Hercules non σκώπτει, sed σκώπτεται: itaque verba καὶ σκώπτοντος ex Aristoph. Pac. 740 inlata videntur pro rariore λαιμάττειν (Eccl. 1176), quod posteriores λαιμώττειν scribere solebant (Nicand. Ther. 470. Alex. 352). scribendum igitur censeo</note>
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-308_2-l1" xml:lang="grc">ὑπὸ δ’ Ἡρακλέους πεινῶντος ἀεὶ λαιμάττοντός τε [βόεια]</l>
+                <l n="2" xml:id="kock-0434-adelon_dramaton-308_2-l2" xml:lang="grc">οὐκ ἔστι βιωτὸν ἔτ’ [ἀνθρώποις]·</l>
+              </lg>
+              <note type="apparatus">ceterum ex hoc fragmento constat talia argumenta non mediae comoediae propria fuisse.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="309" xml:id="kock-0434-adelon_dramaton-309" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-309-l1" xml:lang="grc">κἀνθένδ’ ἐπὶ τέρματα γῆς ἥξεις καὶ Κισθήνης ὄρος ὄψει.</l>
+              </lg>
+              <note type="source">Harpocr. Κισθήνη· ... ὄρος τῆς Θράκης. Κρατίνος κτλ. ἐπὶ τὰ τ. B. κισθήνην Α. Phot. Κισθήνη· ὄρος τῆς Θράκης.</note>
+              <note type="apparatus">a monte Cisthene discernendum est oppidum Mysiae (Isocr. 4, 153). cf. G. Herm. Aesch. II 124 sq. ceterum non Thraciae, sed Libyae vel Aethiopiae mons videtur fuisse. Cisthenen πόλιν Λιβύης ἢ Αἰθιοπίας dicunt schol. Aesch. Prom. 793. ad Seriphios satis probabiliter propter fr. 207. 8 Meinekius, ad Deliades Bergk. R. c. Att. 44 referebat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="310" xml:id="kock-0434-adelon_dramaton-310" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-310-l1" xml:lang="grc">οὗτοι δ’ εἰσὶν συοβοιωτοί, κρουπεζοφόρον γένος ἀνδρῶν.</l>
+              </lg>
+              <note type="source">Schol. Pindari Olymp. 6, 152 ὅτι διὰ τὴν ἀγροικίαν καὶ τὴν ἀναγωγίαν τὸ παλαιὸν οἱ Βοιωτοὶ ὗες ἐκαλοῦντο, καθάπερ . . . Κρατῖνος κτλ. συοβοιωτοί, κρουπεζοφόρον Porsonus Eurip. Hec. praef. LVII] συοβοιωτικὸν πεζοφόρον. Pollux 7, 87 κρουπεζοφόρους δ’ εἶπε τοὺς Βοιωτοὺς Κρατῖνος. Phot. συοβοιωτοί· σύες γὰρ ἐκαλοῦντο οἱ παλαιοὶ Βοιωτοί.</note>
+              <note type="apparatus">cf. quae adnotavimus ad Cephisodori Ὗν. Phot. κρουπέζαι· ξύλινα ὑποδήματα, ἐν οἷς τὰς ἐλαίας ἐπάτουν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="311" xml:id="kock-0434-adelon_dramaton-311" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-311-l1" xml:lang="grc">κοκκύζειν τὸν ἀλεκτρυόν’ οὐκ ἀνέχονται.</l>
+              </lg>
+              <note type="source">Eustathius 1479, 43 παρὰ Κρατίνῳ. Bekker. Anecd. 21, 24 τὸ δὲ κοκκύζειν κωμικοὶ λέγουσιν.</note>
+              <note type="apparatus">ex versu anapaestico excerptum videtur. cum ἀνέχεσθαι cum infinitivo coniunctum rarissimum sit (Eurip. Phoen. 547, ubi tamen ἀπονεμεῖς pro ἀπονέμειν Porsonus 557 ed. suae), forsitan scribendum sit κοκκύζοντα δ’ ἀλ. de Sybaritis loqui videtur. Athen. 12, 518 c d. de cognatione verbi κοκκύζειν cum nomine galli apud multas gentes disputat Hehn. Kulturpfl. 523.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="333_2" xml:id="kock-0434-adelon_dramaton-333_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="apparatus">
+                <p>ὡς Ἀριστοφάνης Ὥραις, πλούσιος καὶ πασχητιῶν καὶ ὑπὸ πορνιδίων διαφορούμενος καὶ κόλακας τρέφων. εἰς δὲ στιγματίαν αὐτὸν Κρατῖνος κωμῳδεῖ ὡς ἕνα τῶν κατάχρεων . . . κωμῳδεῖ δὲ αὐτὸν Κρατῖνος καὶ ὡς Φώκου γυναῖκα μοιχεύσαντα καὶ τρία τάλαντα δόντα εἰς τὸ μὴ κριθῆναι. Calliam Cimonis aequalem cum Callia eius nepote auctor scholii confundit. nam in Archilochis quidem, quae fabula acta est paullo post Ol. 82, 3, minor iste Callias, de cuius luxuria cf. quae dixi in praef. Aristoph. Ran. § 31. Av. 283. 5, mortuus post Ol. 102, 2, reprehendi non poterat. itaque quae de eo hic adferuntur ad alias Cratini fabulas pertinent. de Phoco nihil aliunde cognitum. nec de nomine constat, nam paullo post idem scholiasta ὁ Φωκίων οὗτος μοιχαλίδ᾽ ἔσχε γυναῖκα, (ἐφ᾽) ᾗ καὶ ἑάλω Καλλίας. cf. Meinek.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="334" xml:id="kock-0434-adelon_dramaton-334" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Schol. Aristoph. Vesp. 151</p>
+              </note>
+              <note type="apparatus">
+                <p>τὸν ὑπεκλυόμενον οἶνόν φασί τινες καπνίαν λέγεσθαι· ἐν δὲ τοῖς περὶ Κρατίνου διώρισται, ὅτι τὸν ἀπόθετον ἢ παλαιόν. διὸ καὶ Ἐκφαντίδην Καπνίαν καλοῦσι. Ecphantidem ludibrii causa Cratinus Καπνίαν adpellaverat. cf. Phot. Hesych. Suid. καπνίας. Diogenian. Vindob. 2, 99 et Append. prov. 3, 43 καπνίας ποιητής· ὁ μηδὲν λαμπρὸν γράφων. vel argumentum fabularum eius tenue vel dicendi genus obscurum et paullo molestius causam cognominis fuisse censet Naekius Choeril. 52. contra Lehrsio (Quaest. ep. 23) a vino καπνίᾳ, cui sive colore sive sapore sive temperamento Ecphantides similis esset, illud ductum videtur. cf. etiam Meinek. I 36.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="335" xml:id="kock-0434-adelon_dramaton-335" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Hesych.</p>
+              </note>
+              <note type="apparatus">
+                <p>Χορίλα Ἐκφαντίδες· Κρατῖνος τὸν Ἐκφάντιδος οὕτως εἶπεν, αὐτὸν τὸν Χορίλλον. Meinekius: Χοιριλεκφαντίδης· Κρατίνος τὸν Ἐκφαντίδην οὕτως εἶπεν, διὰ τὸν Χοιρίλον. recte sine dubio, nisi quod Cobetus Mnem. nov. III 294 extrema ita potius emendavit: διὰ τὸ τὸν Χοιρίλον (συμποιεῖν αὐτῷ τὰς κωμωδίας). Hesych. ἐκκεχοιριλωμένη· οὐ Χοιρίλου οὖσα· Ἐκφαντίδῃ γὰρ τῷ κωμικῷ (ut Euripidi Mnesilochus) Χοιρίλος θεράπων ἦν, ὃς συνεποιεῖτο (Cob. συνεποίει αὐτῷ τὰς) κωμῳδίας. id. ἐγκεχοιριλωμένην· λεπράν. videtur polliceri poeta in sua comoedia nihil fore commune cum Choerilo et Ecphantide. cf. Naekius et Bergk. R. c. Att. 256.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="336" xml:id="kock-0434-adelon_dramaton-336" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">
+                <p>Hesych.</p>
+              </note>
+              <note type="apparatus">
+                <p>Σκυθικός· Κρατίνος σκυθικὸν ἔφη τὸν Ἱππόνικον διὰ τὸ πυρρὸν εἶναι. καὶ ᾧ ξανθίζονται αἱ γυναῖκες καὶ βάπτουσι τὰ ἔρια. Schol. Theocr. 2, 88 θάψος γάρ ἐστι ξύλον τι, ὃ καλεῖται</p>
+              </note>
+              <pb n="112" facs="urn:hathi:hvd.hxijva:scan:144"/>
+              <note type="apparatus">Σκυθικὸν ξύλον . . . τούτῳ δὲ . . . τὰς τρίχας ξανθίζουσι. cf. Eupol. 19. a Scythis deos capillis rubris fingi dicebat Xenophanes.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="337" xml:id="kock-0434-adelon_dramaton-337" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Eustathius 1669, 46</note>
+              <note type="apparatus">τὸν μωρὸν οἴδαμεν σάνναν καλεῖσθαι ὡς ἀπό τινος κυρίου ὀνόματος. καὶ παράγεται Κρατῖνος κωμῳδῶν τοιοῦτον τὸν Θεοδοτίδην σάνναν. cf. etiam 777, 61. 1761, 21. Phot. σάνναν· τὸν μωρόν· οὕτως Κρατῖνος. Cramer. Anecd. Par. III 242, 32 σάννας ὁ μωρὸς παρὰ Κρατίνῳ. Theodotidem Nicostrati patrem (Plat. Apol. 33 e, ubi codices variant) Meinekius indicari censet.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="338" xml:id="kock-0434-adelon_dramaton-338" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Hesych.</note>
+              <note type="apparatus">Κορσάτης τράγος, παρὰ Κρατίνῳ. Δίδυμος ἤκουεν ἀπὸ τῆς κόρσης (i. e. a barba). Κόρσαι γὰρ τῆς Κιλικίας. Κορσάτης Salmasius] κόρσακις. post κόρσης Meinekio excidisse videtur, ἄλλοι δὲ Κιλίκιος. Lobeck. Pathol. prol. 314 ‘Xenophon memorat Ciliciae flumen Κέρσος vel Κάρσος. ab hoc Corso (sic enim scribendum videtur) denominatam arbitror urbem Corsam et hircos Κορσατεῖς vel Κορσάτας, ut a Πίσα Πισάτης, similes Cinyphiis ab amne Ciny phe adpellatis. nam Κιλίκιοι τράγοι praecipue dicuntur οἱ δασεῖς. Suid. hinc dubitatio nata, utrum nomen illud barbatum significet ab appellativo (κόρση) derivatum an Cilicium.’ cf. Phot. Κιλίκιοι τράγοι. Gregor. Cypr. 2, 80. Diogen. 5, 54. Columella praef. 1, 20.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="339" xml:id="kock-0434-adelon_dramaton-339" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Bekker. Anecd. 354, 25</note>
+              <note type="apparatus">αἰγείρου θέα καὶ ἡ παρ’ αἴγειρον θέα· Ἀθήνησιν αἴγειρος ἦν, ἧς πλησίον τὰ ἴκρια ἐπήγνυντο εἰς τὴν θέαν πρὸ τοῦ θέατρον γενέσθαι. οὕτω Κρατῖνος. cf. Phot. θέαν παρ’ αἴγειρον. Hesych. παρ’ αἰγείρου θέα. prope tabulata illa quae sive in foro sive in Lenaeo ad ludos spectandos exstructa erant priusquam theatrum magnum aedificatum esset, populi erant consitae, a quibus qui non haberent unde sedem emerent videntur spectavisse. Bergk. R. c. Att. 262 sq. Wachsmuth Athen. I 510 sq.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="340" xml:id="kock-0434-adelon_dramaton-340" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Schol. Aristoph. Eq. 407</note>
+              <note type="apparatus">τοῦτον δὲ (τὸν Ἰουλίου) ὁ Κρατῖνος πυροπίπην λέγει, τουτέστι τὸν φύλακα τοῦ σίτου, ὡς εἰς τὸ Πρυτανεῖον παρέχοντα ἄρτους. πυροπίπην cod. Taur. Peyron. Etym. m. 999] πυρροπίπην. πυρροπ. etiam Eustathius 380, 12. 679, 39. 851, 56. nomen Ἰουλίου admodum dubium, Cratini fragmentum obscurum. cf. Aristoph. Eq. 407 cum interpr.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="341" xml:id="kock-0434-adelon_dramaton-341" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Schol. Aristoph. Thesm. 940</note>
+              <note type="apparatus">πρὸς σανίσιν ἐδεσμεύοντο πολ-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="353" xml:id="kock-0434-adelon_dramaton-353" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-353-l1" xml:lang="grc">στημονίας κικίννους</l>
+              </lg>
+              <note type="apparatus">
+                <p>Κρατῖνος εἶπε τοὺς στήμονι ὁμοίους ὑπ’ ἰσχνότητος. Pollux 2, 28. Hesych. στημονίας κικίννους· τοῖς στήμοσιν ὁμοίους.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="354" xml:id="kock-0434-adelon_dramaton-354" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="apparatus">
+                <p>Pollux 2, 78 τὸ ταύτην (κόρυζαν) ἀφαιρεῖν, ἀπομύττειν. τὸ δὲ ἀπεμύττετο ὕλιζε τὰς ῥίνας ἔφη Κρατῖνος. vulgo ὑλίζεσθαι. cod. Iung. ὕλιζε. alius apud Cram. An. Ox. II Praef. IV ἔλυζε i. e. ἔκλυζε, ut recte Cramerus. ὕλιζε ab ὕλη, quae est faex.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="355" xml:id="kock-0434-adelon_dramaton-355" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-355-l1" xml:lang="grc">ἀνελκταῖς ὀφρύσι σεμνόν</l>
+              </lg>
+              <note type="apparatus">
+                <p>Ἀττικῶς αὐτὸ καὶ σεμνῶς Κρατῖνος εἶπεν. Bekker. Anecd. 3, 25. Periclis ἀγελασίαν risisse videtur Meinekio. fort. ex tetr. anap.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="356" xml:id="kock-0434-adelon_dramaton-356" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-356-l1" xml:lang="grc">ἀναπηδᾶν ἐν δήμῳ</l>
+              </lg>
+              <note type="apparatus">
+                <p>Κρατῖνος ἐπί τινος ἀκόσμως ἐν ταῖς ἐκκλησίαις ἀναπηδῶντος. Bekker. Anecd. 7, 10. ἀναπηδᾶν ut ἀναστῆναι, sed violentius.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="357" xml:id="kock-0434-adelon_dramaton-357" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-357-l1" xml:lang="grc">ἁπαλὸς εἴσπλους λιμένος</l>
+              </lg>
+              <note type="apparatus">
+                <p>ὥσπερ Ὅμηρος τοὺς δυσόρμους λιμένας τραχεῖς λέγει, οὕτω Κρατῖνος ἐπὶ τῶν εὐόρμων τὸ ἁπαλὸν ἐκ τοῦ ἐναντίου εἶπεν. Bekker. Anecd. 13, 5.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="358" xml:id="kock-0434-adelon_dramaton-358" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-358-l1" xml:lang="grc">ἐφιππάσασθαι λόγοις</l>
+              </lg>
+              <note type="apparatus">
+                <p>οἷον καταδραμεῖν. Κρατῖνος. Bekker. Anecd. 39, 10.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="359" xml:id="kock-0434-adelon_dramaton-359" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-359-l1" xml:lang="grc">μηδὲν ὑπέρφευ</l>
+              </lg>
+              <note type="source">Κρατῖνος ἐπὶ τοῦ μηδὲν ἄγαν. Bekker. Anecd. 51, 26.</note>
+              <note type="apparatus">exitus versus anapaestici videtur esse Meinekio. ὑπέρφευ Aesch. Pers. 820. Ag. 377. Eurip. Herc. fur. 1321. Phoeniss. 550.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="360" xml:id="kock-0434-adelon_dramaton-360" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-360-l1" xml:lang="grc">ἆρά γε, ὦ τ̓άν, ἐθελήσετε;</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Plut. 66 et Suid. ὦ τ̓άν· ὅτι οὐ πρὸς ἕνα μόνον τὸ ὦ τ̓άν, ἀλλὰ καὶ πρὸς δύο. καὶ Κρατῖνος κτλ. Suid. ἐθελήσετον.</note>
+              <note type="apparatus">cum duali coniungitur ὦ τ̓άν Aristoph. Plut. 66, cum plurali Timocl. 18. cf. Nicophont. 29. Ruhnken. Tim. 281. apud Platonem Gorg. 447 b ab Heindorfio stare malo quam ab Ruhnkenio. cf. Lob. Soph. Ai. 191.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="361" xml:id="kock-0434-adelon_dramaton-361" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-361-l1" xml:lang="grc">σφάττε δαῖρε κόπτε.</l>
+              </lg>
+              <note type="source">Κρατίνος. Schol. Aristoph. Av. 365. δαῖρε Lob. Buttm. II 148] δεῖρε.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="362" xml:id="kock-0434-adelon_dramaton-362" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Schol. Aristoph. Vesp. 352 Κρατῖνος μύρμηκά φησι τὸν σέρφον. οἱ δὲ ζωύφιον κωνωπῶδες.</note>
+              <note type="apparatus">Dobraeus Κράτης (grammaticus) pro Κρατῖνος. sed nescio cur non apud Cratinum σέρφος ea significatione inveniri potuerit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="363" xml:id="kock-0434-adelon_dramaton-363" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Schol. Hom. Iliad. 2, 56 ἐνύπνιον ὀνοματικὸν ἐπίρρημα . . . ἔστι δὲ καὶ ὄνομα. δεῖ Κρατῖνος θράττει με τὸ ἐνύπνιον. sic Par. Amst. δεῖ κρατεῖν ὡς δραπετεύοντα τὸ ἐνύπνιον BL. κράτιλος θράττει μὲν ἐνύπνιον V. κρατῖνος, θράττει μὲν τὸ ἐνύπνιον Cram. Anecd. Par. III 148, 6.</note>
+              <note type="apparatus">Cratinus sine dubio dixerat θράττει με τοὐνύπνιον. cf. Pherecr. 39.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="364" xml:id="kock-0434-adelon_dramaton-364" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="source">Schol. Hom. Iliad. 18, 521 πισσοκονίας Ἄρην Κρατῖνος. Hesychius κωνῆσαι· καὶ πισσοκώνητον μόρον λέγουσιν ὅταν πίσσῃ καταχρισθέντες τινὲς ὑπὸ πυρὸς ἀποθάνωσιν. Αἰσχύλος Κρήσσαις καὶ Κρατῖνος. πισσοκωνία γὰρ ἡ νῦν πίσσα ᾗ χρίουσι τὰ παρίσθμια τῶν προβάτων. et πισσοκωνήτῳ πυρί· πίσσῃ χρίουσιν, ἵνα τάχιον κατακαίηται. κωνῆσαι δέ ἐστι τὸ περιενεγκεῖν. Phot. πισσοκωνήτῳ πυρί· τῷ εὐκαύτῳ· ἐπεὶ τὰ καιόμενα πίσσῃ χρίεται. Αἰσχύλος Κρήσσαις (113 Nauck.). cf. Herod. II 109, 21 Lentz.</note>
+              <note type="apparatus">recte igitur Bergkius R. c. Att. 255 πισσοκωνίαν, quo Martis cognomine usus est significans 'supplicium eorum qui pice obliti comburuntur'. si πισσο-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="365" xml:id="kock-0434-adelon_dramaton-365" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-365-l1" xml:lang="grc">ἄξιος λαβεῖν ὁ μισθός</l>
+              </lg>
+              <note type="apparatus">
+                <p>τοῦτο τῶν εἰς κάλλος ἠσκημένων σημαῖνον τοιοῦτό τι, ἄξιός ἐστιν ὁ μισθὸς ὥστε λαβεῖν αὐτόν. ἔστι δὲ παρὰ Κρατίνῳ. Suidas et similiter Bekker. Anecd. 412, 9. talis artificiosior orationis forma frequentissima apud Sophoclem. cf. Wunder. Antig. 437, ubi quae adferuntur exempla facillime augeri possunt.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="366" xml:id="kock-0434-adelon_dramaton-366" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-366-l1" xml:lang="grc">ὥρκωσε καὶ ὁρκώτης δ’ ἐγώ.</l>
+              </lg>
+              <note type="apparatus">
+                <p>Phrynichus Epit. 360 οὕτως Κρατίνός φησι· μᾶλλον διὰ τοῦ ὦ λέγε ἢ διὰ τοῦ ι, ὥρκισεν. non intellego quod Meinekius ed. min. VII proposuit ὁρκωτὴς λέγω. recte dicitur ὁρκωτὸς λέγω, non minus recte ὁρκωτὴς δ’ ἐγώ i. e. <hi rend="italic">iusiurandum autem praeibo ego</hi>.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="367" xml:id="kock-0434-adelon_dramaton-367" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-367-l1" xml:lang="grc">ἀποκεῖσθαι πόρρω</l>
+              </lg>
+              <note type="apparatus">
+                <p>ἀτιμάζεσθαι. οὕτω Κρατῖνος. Bekker. Anecd. 428, 17. Zonar.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="368" xml:id="kock-0434-adelon_dramaton-368" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="apparatus">
+                <p>Photius <foreign xml:lang="grc">Λακεδαίμονα·</foreign> οἱ Ἀττικοὶ τὴν πόλιν αὐτὴν οὐ μόνον Σπάρτην ἀλλὰ καὶ Λακεδαίμονα καλοῦσιν· οὕτως Κρατῖνος. Aelius Dionys. Eustath. 294, 41 Κρατῖνος δὲ καὶ τὴν χώραν Σπάρτην οἶδεν, οὐ μόνον Λακεδαίμονα.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="369" xml:id="kock-0434-adelon_dramaton-369" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-369-l1" xml:lang="grc">ἀφήλικα γέροντα</l>
+              </lg>
+              <note type="apparatus">
+                <p>Poll. 2, 17 Φρύνιχος τὰς νέας μὲν ἀφήλικας λέγει. Φερεκράτης δὲ τὴν γεραιτέραν ἀφηλικεστάτην, ὡς καὶ Κρατῖνος ἀφ. γ. Pherecr. 206. Phryn. 67. Bekker. Anecd. 3, 1 ἀφηλικέστεροι· οἱ πρεσβύτεροι, ὡς ἄπο τῆς ἡλικίας ὄντες· ἡλικίαν γὰρ ἔλεγον καὶ τὴν νεότητα οἱ ἀρχαῖοι. οἱ μέντοι νέοι καὶ ἐπὶ τῶν νεωτέρων τάττουσι. cf. Hesych. ἀφηλικεστέραν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="370" xml:id="kock-0434-adelon_dramaton-370" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0434-adelon_dramaton-370-l1" xml:lang="grc">οἰναγωγὸν πλοῖον</l>
+              </lg>
+              <note type="apparatus">
+                <p>παρὰ Κρατίνῳ. Poll. 6, 23. ὁλκάδας οἰναγωγούς Pherecr. 143, 4.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="371" xml:id="kock-0434-adelon_dramaton-371" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>ἰσχάδα κοπτήν</p>
+              <note type="source">Poll. 6, 81 παλάσια, ἃ καὶ Κρατῖνος ἰσχάδα κοπτὴν καλεῖ. 1, 242 οἱ δὲ κωμῳδοὶ καὶ ἰσχάδα κοπτὴν λέγουσιν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="372" xml:id="kock-0434-adelon_dramaton-372" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>ἐρίων πιναρῶν πόκον</p>
+              <note type="source">Κρατῖνος. Poll. 7, 28.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="373" xml:id="kock-0434-adelon_dramaton-373" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>ἅγιος</p>
+              <note type="source">ὁ μιαρός, ἀπὸ τοῦ ἄγους, ὡς Κρατῖνος. Bekk. Anecd. 337, 16, Ruhnk. Tim. 13 Κράτης pro Κρατῖνος. Plaut. Mostell. 4, 2, 68 servus sacerrimus (Runkel).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="374" xml:id="kock-0434-adelon_dramaton-374" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>ἀγροβόας ἀνήρ</p>
+              <note type="source">ὁ ἀγροίκως φθεγγόμενος . . . οὕτω Κρατῖνος. Bekker. Anecd. 339, 30 et sine poetae nomine 17, 1. videtur dochmius esse, ut Aristoph. Ach. 570 τειχομάχας ἀνήρ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="375" xml:id="kock-0434-adelon_dramaton-375" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>ἀγυιεῖς</p>
+              <note type="source">Harpocrat. εἶεν δ’ ἂν οἱ παρὰ τοῖς Ἀττικοῖς λεγόμενοι ἀγυιεῖς οἱ πρὸ τῶν οἰκιῶν βωμοί, ὥς φασι Κρατῖνος καὶ Μένανδρος.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="376" xml:id="kock-0434-adelon_dramaton-376" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>Ἀδώνιον</p>
+              <note type="source">Bekker. Anecd. 346, 1 Ἀδώνιος· Φερεκράτης . . . λέγει τὴν αἰτιατικὴν Ἀδώνιον. οὕτω δὲ καὶ . . . Κρατῖνος. Cobet. Mnem. V 202 Ἀδῶνος (Ἄδωνος) Φερεκρ. . . . τὴν αἰτιατικὴν τὸν Ἀδῶνα (Ἄδωνα). ac similiter iam Meinekius II 694. Hesych. Ἄδωνα· Ἄδωνιν. Adoneum Plaut. Menaechm. 1, 2, 35 (147); sed id nihil momenti esse ad Cratinum iam Meinekius animadvertit. cf. Pherecr. 198. Aristoph. fr. 737. Plat. 4.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="377" xml:id="kock-0434-adelon_dramaton-377" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>αἴγλη</p>
+              <note type="source">βόλος κυβευτικός. λαμπηδών. αὐγή. Κρατῖνος. Suidas. qua significatione Cratinus usus sit non liquet.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="406_2" xml:id="kock-0434-adelon_dramaton-406_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <note type="apparatus">τοῦ ἀγκυλόχειλος, ἢ ὡς τὸ δωδεκέται παρὰ Κρατίνῳ. δωδεκέται Meinek. Bergk. R. c. Att. 257. Lob. Paralip. 244] δεδόκεται. cf. Cram. Anecd. Ox. III 245, 15. quid sit δωδεκέτει(ς) scio; quid sit δωδεκέται nescio. nam exemplo ab ἀγκυλοχείλαι petito nihil efficitur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="407" xml:id="kock-0434-adelon_dramaton-407" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ἐθέλεχθρον</head>
+              <note type="source">Κρατῖνος λέγει. Pollux 3, 64.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="408" xml:id="kock-0434-adelon_dramaton-408" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ἐλλοπίδας</head>
+              <note type="apparatus">ἡ λέξις παρὰ Κρατίνῳ. γέγονε δὲ παρὰ τοὺς ἑλλούς, καὶ λέγει κοινῶς τοὺς νεβροὺς καὶ τοὺς στρουθοὺς ἢ νεοττοὺς ὄφεως. Hesych. ἐλλόποδας ex Etym. m. 331, 53 Lucas progr. Bonn. 1833 p. 6, quam vocem Bergkius R. c. Att. 257 interpretatur ‘qui habent cervorum pedes, cervos celeritate aequiparant’, Hesychii autem glossam ab ἔλλοψ repetendam et pisciculos vel parvos serpentes ea significari censet, M. Schmidtius denique scribendum putat ἐλλοπιδέας (ab ἐλλοπιδεύς).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="409" xml:id="kock-0434-adelon_dramaton-409" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ἐναύεσθαι</head>
+              <note type="source">Bekker. Anecd. 13, 20 αὔεσθαι πῦρ καὶ ἐναύεσθαι ∷ Κρατῖνος ἐναύεσθαι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="410" xml:id="kock-0434-adelon_dramaton-410" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ἐπιλησμονή</head>
+              <note type="apparatus">Schol. Aristoph. Nub. 790 Ἄλεξις δὲ ἐπιλήσμη φησί. Κρατῖνος δὲ ἐπιλησμονή. sic Abresch. Act. Traiect. I 229, ἐπιλήσμονι RAld. ἐπιλησμοσύνη Suid. ἐπιλησμότατον. Dindorfius ἐπιλησμόνη, ‘ut δυσφρόνη et εὐφρόνη’. at Herodian. I 335, 7 Lentz περόνη, εὐφρόνη καὶ Εὐφρόνη. ὀξύνεται δὲ ἡδονή, φλεγμονή, πλησμονή . . . χαρμονή. ac sic sine dubio ἐπιλησμονή.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="411" xml:id="kock-0434-adelon_dramaton-411" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>ἐρρῶσθαι</head>
+              <note type="source">Bekker. Anecd. 8, 3 οἱ μέντοι Ἀττικοὶ τὴν ἀρρωστίαν ἐπὶ τοῦ μὴ προθυμεῖσθαι μηδὲ ὁρμᾶν πράξαι τιθέασι· τὸ γὰρ ἀντικείμενον τῇ τοιαύτῃ ἀρρωστίᾳ Κρατῖνος εἶπεν ἐρρῶσθαι, οἷον προθυμεῖσθαι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="412" xml:id="kock-0434-adelon_dramaton-412" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <head>εὐζωρότερον (εὔζωρον)</head>
+              <note type="source">Phrynich. Ecl. 145 ζωρότερον ὁ ποιητής· σὺ δὲ λέγε εὔζωρον κέρασον, καὶ εὐζωρότερον, ὡς Ἀριστοφάνης καὶ Κρατῖνος καὶ Εὔπολις. Arist. Eccl. 137. Eupol. 382.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="413" xml:id="kock-0434-adelon_dramaton-413" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>εὐθανάτως</p>
+              <note type="source">Κρατῖνος λέγει. Pollux 3, 106.</note>
+              <note type="apparatus">Cratinus sine dubio εὐθανάτως ἔχειν dixerat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="414" xml:id="kock-0434-adelon_dramaton-414" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>εὐπινής</p>
+              <note type="source">Poll. 7, 43 ὁ παρὰ Κρατίνῳ εὐπινής.</note>
+              <note type="apparatus">‘πίνος et εὐπινής non raro munditiem atque elegantiam et proprie et figurate significant’. Meinek.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="415" xml:id="kock-0434-adelon_dramaton-415" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>ἐφετίνδα</p>
+              <note type="source">Etymol. m. 402, 39 ἐφετίνδα· ὄνομα παιδιᾶς. ὡς γὰρ Ἀριστοφάνης (Eq. 852) φησὶ τὸ ὀστρακίνδα, παρὰ τὸ ὄστρακον ἀναπλάσας, αἰνιττόμενος τὸν ἐξοστρακισμόν, οὕτω Κρατῖνος ἀνέπλασε τὸ ἐφετίνδα παρὰ τὰς ἐν τοῖς δικαστηρίοις γενομένας ἐφέσεις. Hesych. ἐφετίνδα· εἶδος παιδιᾶς, ὅταν σφαῖραν ἄλλῃ προτείναντες ἀλλαχῆ βάλλωσι. Poll. 9, 117 ἡ δὲ ἐφεντίνδα (sic enim Bekkerus etiam 110) ὄστρακον ἐφέντα ἐς κύκλον ἐχρῆν συμμετρήσασθαι, ὡς ἐντὸς τοῦ κύκλου στῇ.</note>
+              <note type="apparatus">ad Cratetis Παιδιάς referebat Hemsterhusius, tamquam non quivis alius ludum Atticum commemorare posset.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="416" xml:id="kock-0434-adelon_dramaton-416" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>ἡμίλουτοι</p>
+              <note type="source">Κρατῖνος εἴρηκε. Pollux 6, 161.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="417" xml:id="kock-0434-adelon_dramaton-417" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>θεόθυτα</p>
+              <note type="source">ἃ οἱ πολλοὶ ἱερόθυτα καλοῦσιν, Κρατῖνος τὰ τοῖς θεοῖς θυόμενα ἱερεῖα. Bekker. Anecd. 42, 21.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="418" xml:id="kock-0434-adelon_dramaton-418" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>θηλάστριαν</p>
+              <note type="source">ἣν θηλάζεταί (θηλάσεταί ed. Pors.) τις· ἰδίως. οὕτως Κρατῖνος. Phot.</note>
+              <note type="apparatus">ἰδίως, i. e. singulari quodam modo. ‘de pupilla infante, quam mater lactat; vulgari usu postulante, ut ipsa nutrix θηλάστρια dicatur’. Meinek.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="419" xml:id="kock-0434-adelon_dramaton-419" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+              <p>ἰωνόκυσος</p>
+              <note type="source">κατεαγώς. οὕτως Κρατῖνος Phot.</note>
+              <note type="apparatus">ut Alcibiades a comicis κυσολάκων adpellabatur. cf. Phot. κυσολάκων.</note>
+            </div>
+          </div></body></text></TEI>

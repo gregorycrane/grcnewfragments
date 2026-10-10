@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHRYNICHUS, ΣΑΤΥΡΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Phrynichus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0496.satyroi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0496.satyroi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0496.satyroi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_satyroi"><head>ΣΑΤΥΡΟΙ</head><div type="textpart" subtype="fragment" n="44" xml:id="kock-0496-satyroi-44" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_satyroi">
+              <note type="source">Phrynichus Epit. 266 εὐαγγελίζομαι — εὑρίσκω κατὰ δοτικὴν</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="44_2" xml:id="kock-0496-satyroi-44_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_satyroi">
+              <lg>
+                <l n="1" xml:id="kock-0496-satyroi-44_2-l1" xml:lang="grc">⏑-⏑ ἐλθεῖν αὐτὸν εἰς βουλὴν ἔδει</l>
+                <l n="2" xml:id="kock-0496-satyroi-44_2-l2" xml:lang="grc">καὶ ταῦτ᾽ ἀπαγγείλαντα πάλιν πρὸς τὸν θεὸν</l>
+                <l n="3" xml:id="kock-0496-satyroi-44_2-l3" xml:lang="grc">ἥκειν, ἐγὼ δ᾽ ἀπέδραν ἐκεῖνον δεῦρ᾽, ἵνα</l>
+                <l n="4" xml:id="kock-0496-satyroi-44_2-l4" xml:lang="grc">εὐαγγελίσωμαι πρῶτος ὑμῖν τἀγαθά.</l>
+              </lg>
+              <note type="apparatus">
+                <p>cui de tribus primis versibus adsentior, nisi quod in v. 2 ad pravam caesuram vitandam scribendum censeo πάλιν ὡς τὸν θεόν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="45" xml:id="kock-0496-satyroi-45" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_satyroi">
+              <lg>
+                <l n="1" xml:id="kock-0496-satyroi-45-l1" xml:lang="grc">Κορκυραῖαι δ᾽ οὐδὲν . . .</l>
+                <l n="2" xml:id="kock-0496-satyroi-45-l2" xml:lang="grc">ἐπιβάλλουσιν μάστιγες.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Av. 1463 λέγεταί τις Κορκυραία μάστιξ. Φρύνιχος Σατύροις κτλ. ὥστε καὶ εἰς παροιμίαν ἤδη ἐλθεῖν.</p>
+              </note>
+              <note type="apparatus">
+                <p>versus digessit Hermannus Opusc. I 49. post οὐδὲν suppleverim μετρίως. Κόρκυρα exstat in Kirchhoff. I. A. 179, Κέρκυρα ante Euclidem non videtur reperiri.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="46" xml:id="kock-0496-satyroi-46" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_satyroi">
+              <lg>
+                <l n="1" xml:id="kock-0496-satyroi-46-l1" xml:lang="grc">βοάσομαί τἄρα τὰν ὑπέρτονον</l>
+                <l n="2" xml:id="kock-0496-satyroi-46-l2" xml:lang="grc">βοάν.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Nub. 1154 παρὰ τὰ ἐκ Πηλέως Εὐριπίδου . . . καὶ Φρύνιχος Σατύροις κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>τἄρα G. Hermann.] γὰρ ἄρα.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="47" xml:id="kock-0496-satyroi-47" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_satyroi">
+              <note type="source">
+                <p>Schol. Vesp. 82 καὶ γὰρ ὁ Φιλόξενος ἐκωμῳδεῖτο ὡς πόρνος . . . Φρύνιχος Σατύροις.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="48" xml:id="kock-0496-satyroi-48" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_satyroi">
+              <p>κεκτημένον</p>
+              <note type="source">
+                <p>Φρύνιχος ἐν Σατύροις τὸν δεσπότην ὠνόμασεν. Pollux 3, 73. Bekker. Anecd. 102, 20 κυρίαν οὐ φασι δεῖν λέγειν, ἀλλὰ κεκτημένην, τὸν δὲ κεκτημένον μὴ λέγεσθαι ἀντὶ τοῦ δεσπότου. Σατυρικοῖς κεκτημένον λέγει, Φιλήμων κυρίαν.</p>
+              </note>
+              <note type="apparatus">
+                <p>Meinekius Φρύνιχος δὲ Σατύροις κεκτημένον λέγει. cf. Bergk. R. c. Att. 300.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="49" xml:id="kock-0496-satyroi-49" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_satyroi">
+              <note type="source">Athenaeus 3, 87 b. Ἀριστώνυμος Θησεῖ (fr. 1)</note>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0496-satyroi-49-l1" xml:lang="grc">‘κόγχος ἦν βαπ-</l>
+                  <l n="2" xml:id="kock-0496-satyroi-49-l2" xml:lang="grc">τῶν ἁλῶν’.</l>
+                </lg>
+              </quote>
+              <note type="apparatus">ὁμοίως καὶ παραπλησίως δ’ εἴρηκε καὶ Φρύνιχος Σατύροις. βαπτῶν. ἁλῶν Porson] βάπτων ἄλλων.</note>
+            </div>
+          </div></body></text></TEI>

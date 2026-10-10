@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOMENES, ΒΟΗΘΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristomenes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0419.boethoi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0419.boethoi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0419.boethoi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0419_boethoi"><head>ΒΟΗΘΟΙ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0419-boethoi-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0419_boethoi">
+              <lg>
+                <l n="1" xml:id="kock-0419-boethoi-1-l1" xml:lang="grc">ἔνδον γὰρ ἡμῖν ἐστιν ἀνδρῶν γάργαρα.</l>
+              </lg>
+              <note type="source">Macrobius Sat. 5, 20, 12 gargara, ut videtis, manifeste posuit pro multitudine. nec aliter Aristomenes ἐν Μύθοις (Ald. Βοηθοῖς) κτλ. Schol. Aristoph. Acharn. 3 et Suid. ψαμμακοσιογάργαρα· καὶ τὰ γάργαρα δὲ ἐπὶ πλήθους ἐτίθετο . . . παρὰ Ἀριστομένει ἐν Βοηθοῖς· ἔνδον γὰρ ἡμῖν γάργαρα. cf. Cratin. 290. Aristoph. fr. 359.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0419-boethoi-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0419_boethoi">
+              <lg>
+                <l n="1" xml:id="kock-0419-boethoi-2-l1" xml:lang="grc">εὖ γάρ, εὖ</l>
+                <l n="2" xml:id="kock-0419-boethoi-2-l2" xml:lang="grc">πράττειν σε βούλομαί τι. Β. πῶς λέγεις; Α. ὅπως;</l>
+                <l n="3" xml:id="kock-0419-boethoi-2-l3" xml:lang="grc">μετ’ ἐμοῦ ξυνέσει.</l>
+              </lg>
+              <note type="source">Priscianus 17, 169 Ἀριστοφάνης Βοηθοῖς κτλ. Aristophanem perperam nominavit pro Aristomene.</note>
+              <note type="apparatus">1. γάρ] TAP RM. 2. τι add. Hermannus apud Krehlium. πῶς λέγεις Putschius] ΠΟCΛΕΓΕΙΣ R. ΠΟCΑΕΤΕΤC M. 3. ξυνέσῃ Putschius] ΞΕΝΕΞΕ M. ΕΧΕΝΕΧ(Ν) R.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0419-boethoi-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0419_boethoi">
+              <lg>
+                <l n="1" xml:id="kock-0419-boethoi-3-l1" xml:lang="grc">μισῶ σ’· ὅτιὴ λέγεις με τἀσχρά.</l>
+              </lg>
+              <note type="source">Priscianus 18, 254 Aristomenes Βοηθοῖς κτλ.</note>
+              <note type="apparatus">σ’ — τἀσχρά Brunck.] σε — τὰ αἰσχρά. τὰ αἰσχρά τινα λέγειν graecum esse negans Cobetus N. 1. 141 λέγεις με τἄσχατα, conl. Xen. Mem. 2, 2, 9. mihi scribendum videtur τἀσχρῶν ἔσχατα, ut ὁ Μυσῶν ἔσχατος, τὰ ἔσχατα τοῦ βίου (Plat. Leg. 11, 932 a), ἃ νομίζεται ἔσχατα κακῶν εἶναι (Apol. 40 a).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0419-boethoi-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0419_boethoi">
+              <lg>
+                <l n="1" xml:id="kock-0419-boethoi-4-l1" xml:lang="grc">ἐπειδὴ τοὺς πρυτάνεις προσήλθομεν</l>
+              </lg>
+              <note type="source">Priscianus 18, 277 Aristomenes Βοηθοῖς κτλ. Aristomenes]</note>
+            </div>
+            </div></body></text></TEI>

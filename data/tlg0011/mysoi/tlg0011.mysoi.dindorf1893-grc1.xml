@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-mysoi-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΜΥΣΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.mysoi; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.mysoi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.mysoi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi"><head>ΜΥΣΟΙ</head><div type="textpart" subtype="fragment" n="358" xml:id="fragment-mysoi-dindorf1893_grc1-358" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi" sameAs="urn:cts:greekLit:tlg0011.mysoi.pearson1917-grc1:409">
+            <note type="source">Stobæus XXVI, 4.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὡς τοῖς κακῶς πράσσουσιν ἡδὺ καὶ βραχὺν</l>
+              <l n="2" xml:lang="grc">χρόνον λαθέσθαι τῶν παρεστώτων κακῶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="359" xml:id="fragment-mysoi-dindorf1893_grc1-359" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi" sameAs="urn:cts:greekLit:tlg0011.mysoi.nauck1889grc1:376">
+            <note type="source">Stobæus XCVIII, 23.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἄμοχθος γὰρ οὐδείς· ὁ δ᾽ ἥκιστ᾽</l>
+              <l n="2" xml:lang="grc">ἔχων μακάρτατος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="360" xml:id="fragment-mysoi-dindorf1893_grc1-360" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi" sameAs="urn:cts:greekLit:tlg0011.mysoi.nauck1889grc1:377">
+            <note type="source">Strabo VIII, p. 356.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀσία μὲν ἡ σύμπασα κλήζεται, ξένε,</l>
+              <l n="2" xml:lang="grc">πόλις δὲ Μυσῶν Μυσίᾳ προσήγορος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="361" xml:id="fragment-mysoi-dindorf1893_grc1-361" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi" sameAs="urn:cts:greekLit:tlg0011.mysoi.pearson1917-grc1:412">
+            <note type="source">Athenæus IV, p. 183 e. Μνημονεύει δὲ τοῦ τριγώνου τούτου καὶ Σοφοκλῆς ἐν μὲν Μυσοῖς οὕτως</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πολὺς δὲ Φρὺξ τρίγωνος ἀντίσπαστά τε</l>
+              <l n="2" xml:lang="grc">Λυδῆς ἐφυμνεῖ πηκτίδος συγχορδία.</l>
+            </lg>
+            <note type="commentary">καὶ ἐν Θαμύρᾳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="362" xml:id="fragment-mysoi-dindorf1893_grc1-362" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi" sameAs="urn:cts:greekLit:tlg0011.mysoi.nauck1889grc1:379">
+            <note type="source">Pollux X, 186. Φαίης δ᾽ ἂν καὶ σισύρναν, παραβαλεῖν; Σοφοκλέους ἐν Μυσοῖς λέγοντος</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ψαλίδας, τιάρας καὶ σισυρνώδη στολήν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="363" xml:id="fragment-mysoi-dindorf1893_grc1-363" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi" sameAs="urn:cts:greekLit:tlg0011.mysoi.nauck1889grc1:380">
+            <note type="source">Antiatticista p. 83, 22. Ἄβολον ἵππον: Σ. Μυσοῖς (codex μούσαις).</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="364" xml:id="fragment-mysoi-dindorf1893_grc1-364" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi" sameAs="urn:cts:greekLit:tlg0011.mysoi.pearson1917-grc1:415">
+            <note type="source">Hesychius, Ἀποβάθρα: ἀποβατηρία. ἢ κλίμαξ νεώς. Σ. Μ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="365" xml:id="fragment-mysoi-dindorf1893_grc1-365" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi" sameAs="urn:cts:greekLit:tlg0011.mysoi.nauck1889grc1:383">
+            <note type="source">Hesychius, Ἀποσύρει: ἀποσπᾷ. Σ. Μ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="366" xml:id="fragment-mysoi-dindorf1893_grc1-366" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi" sameAs="urn:cts:greekLit:tlg0011.mysoi.nauck1889grc1:384">
+            <note type="source">Hesychius, Ἀπύρου: ἀθύτου. Σ. Μ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="367" xml:id="fragment-mysoi-dindorf1893_grc1-367" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi" sameAs="urn:cts:greekLit:tlg0011.mysoi.nauck1889grc1:385">
+            <note type="source">Hesychius, Ἀσραφής: σκληρός. Σ. Μ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="368" xml:id="fragment-mysoi-dindorf1893_grc1-368" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_mysoi" sameAs="urn:cts:greekLit:tlg0011.mysoi.nauck1889grc1:381">
+            <note type="source">Hesychius, Αφθίτους γνώμας: ἀμετατρέπτους. Σ. Μ.</note>
+          </div>
+        </div></body></text></TEI>

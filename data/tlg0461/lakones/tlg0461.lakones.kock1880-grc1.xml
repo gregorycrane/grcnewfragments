@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUPOLIS, ΛΑΚΩΝΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Eupolis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0461.lakones.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0461.lakones.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0461.lakones.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_lakones"><head>ΛΑΚΩΝΕΣ</head><div type="textpart" subtype="fragment" n="179" xml:id="kock-0461-lakones-179" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_lakones">
+              <lg>
+                <l n="1" xml:id="kock-0461-lakones-179-l1" xml:lang="grc">τὰ συκάρι’ ἐποίησε μυττωτὸν πολύν.</l>
+              </lg>
+              <note type="source">
+                <p>Erotianus 94, 10 Klein μυττωτόν· οἱ μὲν Ἀττικοὶ ὑπότριμμά τι μετὰ σκορόδου γινόμενον λέγουσι. Εὔπολις δὲ ἐν Λάκωσι τὸν ἄμυλον λέγων φησί· τὰ συκάρια κτλ. Kleinius utrubique μυτωτόν· συκάρι] σκευάρια φ.</p>
+              </note>
+              <note type="apparatus">
+                <p>‘cum ficus neque amylo conveniant neque memorentur in confectione moreti (Schneider. Theophr. III 576), scribi malim τὰ φυτάρι’ ἐξεποίησε μυττωτὸν πολύν, sicut vinitores βότρυς ἐκποιεῖσθαι dicuntur’. Lobeck. Pathol. prol. 391 adn. 19.</p>
+                <p>Hesych. μυττωτόν· ὑπότριμμά τι διὰ σκορόδων, ac paullo ante κυρίως δὲ λέγεται τὸ διὰ σκορόδων τριμμά τι ἐξ ἀρωμάτων πολλῶν συντιθέμενον. cum tamen haec vox etiam translatam habeat significationem (cf. Aristoph. Vesp. 63 cum Terent. Phorm. 2, 2, 4), fortasse sententia haec est ‘ficus (corruptae vel comesae) magna nobis convicia tulere’.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

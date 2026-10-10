@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΦΙΛΟΚΤΗΤΗΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.philoktetes; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.philoktetes.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.philoktetes.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes"><head>ΦΙΛΟΚΤΗΤΗΣ</head>
+          <pb n="607" facs="urn:hathi:iau.31858007086675:scan:615"/>
+          <div type="textpart" subtype="fragment" n="229" xml:id="frag_8e6ad420fd" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" sameAs="urn:cts:greekLit:tlg0085.philoktetes.nauck1889-grc1:255">
+<note type="source">Stobæus CXX, 12.</note>
+<lg type="fragment">
+<l n="1" xml:id="frag_8e6ad420fd-l1" xml:lang="grc">Ὦ Θάνατε Παιάν, μή μ' ἀτιμάσῃς μολεῖν·</l>
+<l n="2" xml:id="frag_8e6ad420fd-l2" xml:lang="grc">μόνος γὰρ εἰ σὺ τῶν ἀνηκέστων κακῶν</l>
+<l n="3" xml:id="frag_8e6ad420fd-l3" xml:lang="grc">ἰατρὸς, ἄλγος δ' οὐδὲν ἅπτεται νεκροῦ.</l>
+</lg>
+<note type="commentary">Maximus Tyrius XIII. p. 241. Reisk. Ω ποὺς, ἀφήσω σε; ὁ Φιλοκτήτης λέγει· ἄνθρωπε ἄφες καὶ μὴ βόα μηδὲ λοιδοροῦ τοῖς φιλτάτοις μηδὲ ἐνόχλει τὴν Λημνίων γῆν· ὦ Θάνατε Παιάν. Versu tertio utitur Plutarchus Moral. p. 109 f.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="230" xml:id="frag_c8e4c4070a" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" sameAs="urn:cts:greekLit:tlg0085.philoktetes.nauck1889-grc1:250">
+<note type="source">Suidas</note>
+<lg type="fragment">
+<l n="1" xml:id="frag_c8e4c4070a-l1" xml:lang="grc">Ἔνθ' οὔτε μίμνειν ἄνεμος οὔτ' ἐκπλεῖν ἐᾷ.</l>
+</lg>
+<note type="commentary">ἐπὶ τῶν δυσχρήστοις παραπεσόντων τοῦτο λέγεται φησὶ δὲ αὐτὸ παρ' Αἰσχύλῳ ὁ Φιλοκτήτης. Versus proverbialis apud Plutarchum Moral. p. 476 b. apud Diogenian. IV, 88. Apostolium VIII, 30. p. 94.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="231" xml:id="frag_de9423397c" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" sameAs="urn:cts:greekLit:tlg0085.philoktetes.nauck1889-grc1:253">
+<note type="source">Aristotelis Poet. c. 37. (22, 13.) Οἷον τὸ αὐτὸ ποιήσαντος ἰαμβεῖον Αἰσχύλου καὶ Εὐριπίδου, ἓν δὲ μόνον ὄνομα μεταθέντος ἀντὶ κυρίου εἰωθότος γλώτταν, τὸ μὲν φαίνεται καλὸν, τὸ δὲ εὐτελές. Αἰσχύλος μὲν γὰρ ἐν τῷ Φιλοκτήτῃ ἐποίησε</note>
+<lg type="fragment">
+<l n="1" xml:id="frag_de9423397c-l1" xml:lang="grc">Φαγέδαιναν, ἤ μου σάρκας ἐσθίει ποδός.</l>
+</lg>
+<note type="commentary">ὁ δὲ ἀντὶ τοῦ ἐσθίει τὸ θοινᾶται μετέθηκε.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="232" xml:id="frag_16f87eab3a" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" sameAs="urn:cts:greekLit:tlg0085.philoktetes.nauck1889-grc1:257">
+<note type="source">Athenæus IX. p. 394 a. Κὰν Φιλοκτήτῃ δὲ κατὰ γενικὴν κλίσιν φαβῶν εἴρηκεν (Αἰσχύλος).</note>
+</div>
+          <div type="textpart" subtype="fragment" n="233" xml:id="frag_5fa25e5280" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" sameAs="urn:cts:greekLit:tlg0085.philoktetes.nauck1889-grc1:249">
+<note type="source">Aristophanes Ranar. v. 1430.</note>
+<lg type="fragment">
+<l n="1" xml:id="frag_5fa25e5280-l1" xml:lang="grc">Σπερχειὲ ποταμὲ βούνομοί τ' ἐπιστροφαί.</l>
+</lg>
+<note type="commentary">ubi scholiasta, Ἔστι δὲ ἐκ Φιλοκτήτου Αἰσχύλου.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="234" xml:id="frag_1f109198a8" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" sameAs="urn:cts:greekLit:tlg0085.philoktetes.nauck1889-grc1:252">
+<note type="source">Plutarchus Moral. p. 1087 f. Ἐκ δὲ τοῦ πόνου μάρτυς ὁ Αἰσχύλου Φιλοκτήτης ἱκανός.</note>
+<lg type="fragment">
+<l n="1" xml:id="frag_1f109198a8-l1" xml:lang="grc">Οὐ γὰρ ὁ δράκων (φησὶν) ἐνῆκεν, ἀλλ' ἐνῴκισε</l>
+<l n="2" xml:id="frag_1f109198a8-l2" xml:lang="grc">δεινὴν στομωτὸν ἔκφυσιν ποδὸς λαβών.</l>
+</lg>
+</div>
+          <div type="textpart" subtype="fragment" n="235" xml:id="frag_0547dd4638" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" sameAs="urn:cts:greekLit:tlg0085.philoktetes.nauck1889-grc1:251">
+<note type="source">Scholiasta Homeri Odyss. ξ, 12. Ὁ δὲ Κράτης τὴν τῶν δασυτάτων φυτῶν μελάνδρυόν φησιν, ὡς καὶ Αἰσχύλος φησὶ Φιλοκτήτῃ</note>
+<lg type="fragment">
+<l n="1" xml:id="frag_0547dd4638-l1" xml:lang="grc">Κρεμάσασα τόξον πίτυος ἐκ μελανδρύου.</l>
+</lg>
+<note type="commentary">Apud Eustathium p. 1748, 57. est κρεμάσας. Hermannus p. 121. κρεμαστὰ τόξα.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="236" xml:id="frag_522b33aae5" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" sameAs="urn:cts:greekLit:tlg0085.philoktetes.nauck1889-grc1:256">
+<note type="source">Photius p. 326, 9. Ὀκόρνους : τοὺς πάρνοπας. Αἰσχύλος Φιλοκτήτῃ.</note>
+</div>
+        </div></body></text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>AMIPSIAS, ΣΦΕΝΔΟΝΗ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Amipsias</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0403.sphendone.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0403.sphendone.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0403.sphendone.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_sphendone"><head>ΣΦΕΝΔΟΝΗ</head><div type="textpart" subtype="fragment" n="18" xml:id="kock-0403-sphendone-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_sphendone">
+              <lg>
+                <l n="1" xml:id="kock-0403-sphendone-18-l1" xml:lang="grc">λαγὸν ταράξας πῖθι τὸν θαλάσσιον.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 446 d Ἀμειψίας Σφενδόνῃ κτλ. 9, 400 c τὸ μὲν Ἰακὸν λαγός· λαγὸν κτλ. τὸ δὲ λαγὼς Ἀττικόν. λέγουσι δὲ καὶ Ἀττικοὶ λαγός. Schol. Aristoph. Vesp. 1489 τὸ μὲν πῖθι ἐπὶ φαρμάκου λέγουσι. καὶ λαγὼν (sic ille) κτλ. τὸ δὲ πίε ἐπὶ τοῦ ποτοῦ.</note>
+              <note type="apparatus">πῖθι] πείθει 400 c. λαγὸν utrubique A] λαγών schol. Arist. ne θαλάσσιον quidem in θαλάττιον mutandum est. videtur enim medicus Ionicus loqui. nam de medicamento quoque ταράξας. Lucian. Lexiph. 4 ταράξας καὶ ἐγχέας μοι φάρμακον. cf. Fritzsch. Daetal. 104. addit Meinekius Nicandr. Theriac. 665. 936. Erasistr. Athen. 7, 324 a. de lepore marino Plut. Mor. 983 f τὸν θαλάττιον λαγωόν, ὃς ἐστιν ἀνθρώπῳ θανάσιμος, κτείνουσιν αἱ τρίγλαι. Philostr. Vit. Apollon. 6, 32 ὑπὸ τοῦ θαλαττίου λαγὼ ἀποθανεῖν, τὸν δὲ ἰχθὺν τοῦτον παρέχεσθαι χυμοὺς ἀπορρήτους ὑπὲρ πάντα τὰ . . . ἀνδροφόνα. Plin. N. h. 9, 155. 32, 8. 9.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="19" xml:id="kock-0403-sphendone-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_sphendone">
+              <lg>
+                <l n="1" xml:id="kock-0403-sphendone-19-l1" xml:lang="grc">κοὐδείς σοὐστὶν τῶν πλουτούντων, μὰ τὸν Ἥφαιστον, προσόμοιος,</l>
+                <l n="2" xml:id="kock-0403-sphendone-19-l2" xml:lang="grc">καλλιτράπεζος καὶ βουλόμενος λιπαρὸν ψωμὸν καταπίνειν.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 270 f κατὰ Ἀμειψίαν, ὃς ἐν Σφενδόνῃ ἔφη κτλ.</note>
+              <note type="apparatus">σοὐστὶν (i. e. σοι ἐστὶν) Dindorf.] σοῦ σ̓τι A. ψωμὸν A] ζωμὸν P. καταπίνειν de cibis non minus quam de potione dicitur: quapropter non opus est quod Bergkius R. c. Att. 421 unice probat ζωμόν. καλλιτράπεζος etiam Call. 5.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="20" xml:id="kock-0403-sphendone-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_sphendone">
+              <note type="source">Pollux 9, 96 ἐν δὲ τῇ τοῦ Ἀμειψίου Σφενδόνῃ ὅ τε τρόπος δεδήλωται τῆς κυβείας καὶ προσείρηται ὅτι εἴη τὸ τρῆμα μνααῖον, ὡς μνᾶν αὐτῶν ἐπιδιατεθειμένων ἑκάστῳ κύβῳ.</note>
+              <note type="apparatus">‘τρῆμα hic idem quod antea (9, 95) τρύπημα, punctus in tessera, τὸ δηλοῦν τὸν ἀριθμὸν τῶν βληθέντων. id μνααῖον vocat, quia mina erat proposita in singulas tesseras vincenti praemium’. Iungermann. nos ‘das Point galt eine Mine’.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="kock-0403-sphendone-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_sphendone">
+              <lg>
+                <l n="1" xml:id="kock-0403-sphendone-17-l1" xml:lang="grc">τὸ μὲν δόρυ</l>
+                <l n="2" xml:id="kock-0403-sphendone-17-l2" xml:lang="grc">μετὰ τῆς ἐπιχάλκου πρὸς Πλαταιαῖς ἀπέβαλεν.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 144 Ἀμειψίας ἐν Σφενδόνῃ κτλ. sic nulla codicum varietate enotata Bekkerus. Hesych. ἐπίχαλκος· ἀσπίς. ἔχει γὰρ χαλκῆν τὴν ἐπιβολήν. ἔνιαι δὲ βόειαί εἰσιν. Eustath. 905, 59. cf.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

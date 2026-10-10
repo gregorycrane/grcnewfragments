@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΝΗΡΕΙΔΕΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.nereides; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.nereides.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.nereides.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:nereides"><head xml:lang="grc">ΝΗΡΕΙΔΕΣ</head>
+          <note type="introduction" xml:lang="mul">Vide quae de Myrmidonibus diximus p. 42.</note>
+          <div type="textpart" subtype="fragment" n="150" corresp="urn:cite2:perseus:fragmentaryplays.v1:nereides" xml:id="aesch-fr150">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-150-1">δελφινοφόρον πεδίον πόντου</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-150-2">διαμειψάμεναι</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. Eur. Phoen. 209 : ἀκάρπιστα δὲ πεδία τὴν θάλασσαν φησίν — καὶ Αἰσχύλος Νηρεΐσι δελφίνορον — διαμειψάμεναι . v. 1 δελφίνορον δελφίνηρον δελφινοφόρον δελφινόνομον malim. v. 1 πόντου πεδίον .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="151" corresp="urn:cite2:perseus:fragmentaryplays.v1:nereides" xml:id="aesch-fr151">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-151-1">ἐναροκτάντας δὲ φθογγ. . . κότος ὑψοῦ</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-151-2">τέλος ἀθανάτων ἀπολείψει</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 2 p. 86 sq. : ἐναραφόρος· σκυλοφόρος. ἐναροκτάντας — ἀπολέψει . Αἰσχύλος ἐν Νηρεΐσιν. οἱ ὑπομνηματισταὶ παρὰ τὸ οὐχ ὁσίη φθιμένοισιν ἐπ’ ἀνδράσιν εὐχετάασθαι (Od. χ 412) , ἵνα ᾖ ὁ νοῦς, ὁ δὲ ἐναροκτάντας θάνατός μοι (θάνατον μὴ cod.) ἐπικαυχώμενος τὸ ἐκ τῶν θεῶν τέλος ὑψοῦ ἀπολείψει, τὰ τῶν ἀθανάτων ὕψη, καὶ ἐπὶ τοὺς ἐχθροὺς ἥξει. Eust. Il. p. 437, 20 : ἐκ τοῦ ἐναίρειν καὶ κτείνειν ἐναροκτάντας ὁ θάνατος.</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 ἐναροκτάντας δὲ φθόνος αὐχαῖς ἔγκοτος ὑψοῦ . v. 2 ἀπολέψει ἀπολείψει . Aeschylum addidisse ἥξει τ’ ἐχθρούς ex Hesychii interpretatione καὶ ἐπὶ τοὺς ἐχθροὺς ἥξει collegit Hermann.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="152" corresp="urn:cite2:perseus:fragmentaryplays.v1:nereides" xml:id="aesch-fr152">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-152-1">κάμακος εἶσι κάμακος γλώσσημα διπλάσιον</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. Pind. Nem. 6, 85 : δίκρουν γὰρ ὥστε δύο ἀκμὰς (αἰχμὰς Hermann) ἔχειν καὶ μιᾷ βολῇ [ὥστε] δισσὰ τὰ τραύματα ἀπεργάζεσθαι. καὶ Αἰσχύλος ἐν Νηρεΐσι κάμακος — διπλάσιον . v. 1 κάμακος δ’ εἶσιν γλώσσημα διπλοῦν (vel δικροῦν) εἶσιν κάμακος γλώσσημα διπλοῦν ἱεὶς pro εἶσι .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="153" corresp="urn:cite2:perseus:fragmentaryplays.v1:nereides" xml:id="aesch-fr153">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-153-1">λεπτὸς δὲ σινδὼν ἀμφιβαλλέσθω χροΐ</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Excerpta ex libris Herodiani technici ed. A. Hilgard p. 22, 31 : σινδὼν σινδόνος· λέγεται γὰρ καὶ ἀρσενικῶς ἐν Νηρηίσι (ἐν νηρήισι cod.) παρ’ Αἰσχύλῳ λεπτὸς — χροΐ . Achillis haec esse verba coni. Ed. Hiller coll. Il. Σ 343 et 352.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="154" corresp="urn:cite2:perseus:fragmentaryplays.v1:nereides" xml:id="aesch-fr154">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-154-1">ἀθήρ</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 80 : ἀθὴρ· ἐπιδορατίς, μεταφορικῶς. Αἰσχύλος Νηρεΐσι (νηρεῖ codex) . Eust. Il. p. 1206, 10 : ὅτι δὲ ἀθὴρ καὶ ἐπιδορατὶς λέγεται ἀπὸ μεταφορᾶς τῶν ἀσταχύων, δηλοῦσιν οἱ παλαιοί. Anecd. Bekk. p. 353, 17 : λέγεται δὲ καὶ ἡ ἐπιδορατὶς ἀθήρ.</note>
+          </div>
+        </div></body></text>
+</TEI>

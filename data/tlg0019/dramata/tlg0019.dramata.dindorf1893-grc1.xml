@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0019-dramata-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aristophanes, ΔΡΑΜΑΤΑ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aristophanes</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="716" to="745"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 716–745. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aristophanes-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-09">Folded page-local headings into stable Aristophanic work identities, restored Dindorf's per-work numbering, and removed demonstrable duplicate page-724 records; transcribed content otherwise unchanged. Geras is absent from the source extraction.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0019.dramata; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0019.dramata.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0019.dramata.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata"><head>ΔΡΑΜΑΤΑ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-dramata-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+            <note type="source">(1.) Scholiasta Ranarum v. 810. Μειαγωγήσουσι τὴν τραγῳδίαν : μεῖον λέγουσι τοὺς ὑπὲρ τῶν υἱων εἰς τὰ Ἀπατούρια ὅῖς ὑπὸ τῶν πατέρων εἰσφερομένους διὰ τὸ ἐπιφωνεῖν τοὺς φράτορας ἐπὶ τοῦ σταθμοῦ τοῦ ἱερείου μεῖον μεῖον. ὅτι δὲ ἵσταντο Ἀριστοφάνης ἐν Δράμασι (vulgo δράματι, cujus correctionem Kusterus monstravit) δεδήλωκε. τοῦτα δὲ κέκληται κουρεῖον ἀπὸ τῶν κούρων ὑπὲρ ὧν ἐθύετο, μεῖον δὲ διὰ τὴν προειρημένην αἰτίαν. καὶ ἐπιζήμιόν τι τοῖς ἧττον εἰσάγουσιν ἀπεδέδοτο (vulgo ἀπεδέδοκτο), καθάπερ αὐτός φησιν Ἀριστοφάνης</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀλλ' εὔχομαι "γωγ' ελκύσαι σε τὸν σταθμὸν,</l>
+              <l n="2" xml:lang="grc">ἵνα μή με προσπράττωσι γραῦν οἱ φράτορες.</l>
+            </lg>
+            <note type="commentary">τὸν σταθμὸν Brunckius. Vulgo τὸν σφυγμόν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-dramata-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+            <note type="source">(2.) Photius p. 534, 11.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Αὐτοῖς σταθμοῖς ἐξέβαλε τὰς σιαγόνας.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-dramata-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+            <note type="source">(3.) Athenæus XI, p. 496 a.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πάντες δ᾽ ἔνδον πεταχνοῦνται.</l>
+            </lg>
+            <note type="commentary">Vulgo πεταχνεῦται. Epitome πεταχνευταί. Recte Casaubonus πεταχνοῦνται. Photius p. 426, 10, Hesychii glossas vol. II, p. 897. 904. Πεταχνοῦνται: ἐξυπτιοῦνται, τρυφῶσιν. Confer Hesychii glossas vol. II, p. 897. 904.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-dramata-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+            <note type="source">(4.) Hesychius, Βύρσαν: τὴν πόλιν Ἀθηνῶν Ἀριστοφάνης ἐν Δράμασι παίζων ἔφη.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-dramata-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+            <note type="source">(5.) Antiatticista Bekkeri p. 105, 21. Κιχορία: τὸ ἄγριον λάχανον. Ἀριστοφάνης Δράμασιν. Eadem, omisso Δράμασιν, Photius p. 166, 22, ubi codex a pr. manu κιχορία, ab correctore κιχόρεια, quæ vera scriptura. Vide Schneider. ad Theophrast. vol. V, p. 414.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-dramata-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+            <note type="source">(6.) Scholiasta Platonis p. 331 Bekker. Χαιρεφώντα – Ἀριστοφάνης ἐν Δράμασι κλέπτην (λέγει.)</note>
+          </div>
+        </div></body></text></TEI>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΦΙΛΟΚΤΗΤΗΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.philoktetes; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.philoktetes.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.philoktetes.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes"><head xml:lang="grc">ΦΙΛΟΚΤΗΤΗΣ</head>
+          <note type="introduction" xml:lang="mul">Argum. Soph. Phil. : κεῖται καὶ παρ’ Αἰσχύλῳ ἡ μυθοποιία. Aspasius in Aristot. Eth. Nic. (VII, 8 p. 1150 b 6) cuius verba edidit Val. Rose in Herm. 5 p. 105 : ὁ παρὰ τῷ Θεοδέκτῃ Φιλοκτήτης... τὸν αὐτὸν δὲ τρόπον εἰσήγαγεν αὐτὸν καὶ Σοφοκλῆς καὶ Αἰσχύλος. trium principum tragicorum Philoktetas inter se comparavit Dio Chrys. Orat. LII, unde haec apponimus. § 4 : ἥ τε γὰρ τοῦ Αἰσχύλου μεγαλοφροσύνη... οὐδὲν ἔχοντα ἐπιβεβουλευμένον οὐδὲ στωμύλον οὐδὲ ταπεινόν. § 5 : ἐπεί τοι καὶ τὸν Ὀδυσσέα εἰσήγαγε δριμὺν καὶ δόλιον... καὶ οὐδέν γε ἀλλαττούσης τῆς Ἀθηνᾶς προσεδεήθη πρὸς τὸ μὴ γνωσθῆναι ὅστις ἐστὶν ὑπὸ τοῦ Φιλοκτήτου... § 6 : καὶ μὴν ὁ χορὸς αὐτῷ παραιτήσεως, ὥσπερ ὁ τοῦ Εὐριπίδου, οὐδὲν ἐδεήθη. § 7 : ἄμφω γὰρ ἐκ τῶν Λημνίων ἐποίησαν τὸν χορόν· ...ὁ δ’ Αἰσχύλος ἁπλῶς εἰσήγαγε τὸν χορόν, ὃ τῷ παντὶ τραγικώτερον καὶ ἁπλούστερον. § 9 : οὐ τοίνυν οὐδὲ ἐκεῖνο δοκεῖ μοι δικαίως ἄν τις αἰτιάσασθαι... καὶ μὴν ἡ ἀπάτη ἡ τοῦ Ὀδυσσέως... οὐ μόνον εὐσχημονέστεροι καὶ ἥρωι πρέποντες... ἀλλ’ ὡς ἐμοὶ δοκοῦσι καὶ πιθανώτεροι. § 10 : τί γὰρ ἔδει ποικίλης τέχνης καὶ ἐπιβουλῆς πρὸς ἄνδρα νοσοῦντα καὶ ταῦτα τοξότην... καὶ τὸ ἀπαγγέλλειν δὲ τὰς τῶν Ἀχαιῶν συμφορὰς... οὐ μόνον χρήσιμον... ἀλλ’ οὐδ’ ἀπίθανα... § 14 : οὐ μόνον δὲ (Euripides) πεποίηκε τὸν Ὀδυσσέα παραγιγνόμενον, ἀλλὰ μετὰ τοῦ Διομήδους, Ὁμηρικῶς καὶ τοῦτο. Accius in Philocteta quem maxime poetam secutus sit nescimus.</note>
+          <div type="textpart" subtype="fragment" n="249" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" xml:id="aesch-fr249">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-249-1">Σπερχειὲ ποταμὲ βούνομοί τ’ ἐπιστροφαί</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ar. Ran. 1383 : ΕΥΡ. εἴθ’ ὤφελ’ Ἀργοῦς μὴ διαπτάσθαι σκάφος. ΑΙΣΧ. Σπερχειὲ — ἐπιστροφαί . ubi Schol. : βούνομοι] ὑπὸ βοῶν καταστρεφόμεναι ἤγουν κατανεμόμεναι. ἔστι δὲ ἐκ Φιλοκτήτου Aἰσχύλου.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="250" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" xml:id="aesch-fr250">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-250-1">ἔνθ’ οὔτε μίμνειν ἄνεμος οὔτε πλεῖν ἐᾷ .</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Suidas : ’ἔνθ’ οὔτε — ἐᾷ’ . ἐπὶ τῶν δυσχρήστοις περιπεσόντων τοῦτο λέγεται. φησὶ δὲ αὐτὸ παρ’ Αἰσχύλῳ ὁ Φιλοκτήτης. versu proverbiali utitur Plut. de tranq. animi c. 18 p. 476 B, item Aristaenetus 1, 27 : ἔνθα, φασίν, ἄνεμος οὔτε μένειν οὔτε πλεῖν ἐᾷ . interpretantur paroemiographi (Diogenianus 4, 88 Greg. Cypr. 2, 47 Greg. Cypr. Leid. 2, 13 Greg. Cypr. Mosq. 3, 20) . v. 1 οὔτ’ ἐκπλεῖν .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="251" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" xml:id="aesch-fr251">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-251-1">κρεμάσασα τόξον πίτυος ἐκ μελανδρύου</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. Od. ξ 12 : ὁ δὲ Κράτης τὴν δασύτητα τῶν φύλλων (ita ex Eust. correxit Thiersch pro τὴν τῶν δασυτάτων φυτῶν) μελάνδρυον φησίν, ὡς καὶ Αἰσχύλος φησὶ Φιλοκτήτῃ ’κρεμάσασα — μελανδρύου’ . Eust. Od. p. 1748, 57 : φέρεται δὲ καὶ Αἰσχύλου χρῆσις ἐν Φιλοκτήτῃ ’κρεμάσας — μελανδρύου’ . v. 1 κρεμάσασα τόξον κρεμάσας τόξον κρεμαστὰ τόξα κρεμάσας τὸ τόξον κρεμάσας δὲ τόξον .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="252" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" xml:id="aesch-fr252">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-252-1">οὐ γὰρ δράκων ἀνῆκεν, ἀλλ’ ἐνῴκισεν</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-252-2">δεινὴν στομάτων ἔκφυσιν ποδὸς βλάβην.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Plut. non posse suaviter vivi sec. Epicurum c. 3 p. 1087 F : μάρτυς ὁ Αἰσχύλου Φιλοκτήτης ἱκανός· ’οὐ γὰρ ὁ δράκων’ φησίν ’ἀνῆκεν — λαβεῖν’ . v. 1 ὁ δράκων δράκων δακὼν . v. 1 ἀνῆκεν ἐνῆκεν . que ante ἐνῴκισε leguntur verba non Aeschyli, sed Plutarchi esse existimat Madvig Adv. crit. 1 p. 672 . v. 2 στομωτὸν ὀδόντων exspectes, ἔκφυσιν (vel quod Harl. praebet ἔμφυσιν) ἔκπτυσιν . v. 2 λαβεῖν (vel λάβεν) λαβών βλάβην (Philol. 4 p. 658) .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="253" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" xml:id="aesch-fr253">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-253-1">φαγέδαιν’ ἀεί μου σάρκας ἐσθίει ποδός</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Aristot. Poet. c. 22 p. 1458 b 23 : τὸ αὐτὸ ποιήσαντος ἰαμβεῖον Αἰσχύλου καὶ Εὐριπίδου... Αἰσχύλος μὲν γὰρ ἐν τῷ Φιλοκτήτῃ ἐποίησε ’φαγέδαινα — ἐσθίει ποδός’, ὃ δὲ ἀντὶ τοῦ ἐσθίει τὸ θοινᾶται μετέθηκεν. v. 1 φαγέδαινα ἥ μου (vel φαγάδενα) φαγέδαινα δή μου φαγέδαιναν ἥ μου φαγέδαν’ ἀεί μου . Euripides ubi θοινᾶται pro ἐσθίει substituit, simul σάρκας in σάρκα mutavit.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="254" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" xml:id="aesch-fr254">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-254-1">ὦ πούς, ἀφήσω σε</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Maximus Tyrius XIII p. 241 : ’ὦ πούς, ἀφήσω σέ’ ὁ Φιλοκτήτης λέγει. ἄνθρωπε, ἄφες καὶ μὴ βόα μηδὲ λοιδοροῦ τοῖς φιλτάτοις... ’ὦ θάνατε παιάν’ (fr, 255, 1) . Aeschylea esse verba ὦ πούς, ἀφήσω σε, probabile est ex iis quae subiciuntur, ὦ θάνατε παιάν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="255" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" xml:id="aesch-fr255">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-255-1">ὦ θάνατε παιάν, μή μ’ ἀτιμάσῃς μολεῖν·</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-255-2">μόνος γὰρ εἶ σὺ τῶν ἀνηκέστων κακῶν</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-255-3">ἰατρός, ἄλγος δ’ οὐδὲν ἅπτεται νεκροῦ .</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Stob. Flor. 120, 12 : Αἰσχύλου (sic SA, eclogam om. M) . ‘ὦ θάνατε — νεκροῦ’ . v. 1 fortasse praeferendum πῶς ἂν ἰατρὸς μόλοις secundum Plut. Consol. ad Apollonium c. 10 p. 106 D : τοῦτον γὰρ ἀπεμιμήσατο καὶ ὁ εἰπών ‘ὦ θάνατε παιάν, πῶς ἂν ἰατρὸς μόλοις’ , ubi πῶς ἂν supplevit Cobet N. L. p. 134 . cum Plutarchi loco fere concinit Theodorus Metoch. p. 347 : τὸ τοῦ Αἰσχύλου φθέγγεσθαι, ὦ θάνατε παιάν, ἰατρὸς μόλε. cf. Eur. Hipp. 1373 : καί μοι θάνατος παιὰν ἔλθοι. v. 2 γὰρ om. SA. v. 3 respicit Plut. Consol. ad Apollonium c. 15 p. 109 F, qui sine poetae nomine haec habet : ἄλγος γὰρ ὄντως οὐδὲν ἅπτεται νεκροῦ . Soph. Oed. C. 955 : θανόντων δ’ οὐδὲν ἄλγος ἅπτεται. Eur. Alc. 937 : τῆς μὲν γὰρ οὐδὲν ἄλγος ἅψεταί ποτε.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="256" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" xml:id="aesch-fr256">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-256-1">ὀκορνούς</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Phot. Lex. p. 326, 9 : ὀκορνους· τοὺς πάρνοπας. Αἰσχύλος Φιλοκτήτη. οἱ δὲ Ἴωνες ἀττελέβους. Hesych. 3 p. 193 : ὀκορνούς· τοὺς ἀττελέβους. καὶ τὰ ἀκριώδη (ἀκριδώδη coni. Guyetus, ἀκρίδια Pierson in Moer. p. 316) οὕτω λέγουσιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="257" corresp="urn:cite2:perseus:fragmentaryplays.v1:philoktetes" xml:id="aesch-fr257">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-257-1">φαβῶν</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. IX p. 394 A : κἀν Φιλοκτήτῃ δὲ κατὰ γενικὴν κλίσιν φαβῶν εἴρηκεν (Aeschylus) .</note>
+          </div>
+        </div></body></text>
+</TEI>

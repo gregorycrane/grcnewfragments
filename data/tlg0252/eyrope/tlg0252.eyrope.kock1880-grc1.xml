@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>HERMIPPUS, ΕΥΡΩΠΗ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Hermippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0252.eyrope.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0252.eyrope.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0252.eyrope.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_eyrope"><head>ΕΥΡΩΠΗ</head><div type="textpart" subtype="fragment" n="24" xml:id="kock-0252-eyrope-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_eyrope">
+              <lg>
+                <l n="1" xml:id="kock-0252-eyrope-24-l1" xml:lang="grc">ῥύζων ἅπαντας ἀπέδομαι τοὺς δακτύλους.</l>
+              </lg>
+              <note type="source">Photius et Suidas ῥάζειν καὶ ῥύζειν, τὸ ὑλακτεῖν. Ἔρμιππος Εὐρώπῃ κτλ. ἀπὸ δὲ τούτου ἐπὶ τοὺς πικραινομένους καὶ σκαιολογοῦντας μετηνέχθη. ῥαζεῖν, ῥυζεῖν, ῥυζῶν Suid. ῥύζων] ῥυζὸν cod. Phot., ῥυζῶν Porson. cf. Cratin. 25. 26. Aristophont. 11, 9. Pollux 5, 86 φωναὶ ζῴων . κυνῶν μὲν ὑλακή . . . εἴποις δ’ ἂν . . . καὶ ῥύζειν (sic. Bekk.) καὶ ῥύζοντας. latrandi significationem hic habere non potest. Hesych. ῥάζειν· τρώγειν· κυρίως ἐπὶ τῶν κυνῶν. Plaut. Pseud. 3, 2, 91 ut quisque quidque conditum gustaverit, ipsus sibi faciam ut digitos praerodat suos. hoc igitur dicit: cum aviditate fremens digitos mihi praerodam. non adsentior Toeppelio Progr. Neobrand. 1851, 6.</note>
+            </div>
+          </div></body></text></TEI>

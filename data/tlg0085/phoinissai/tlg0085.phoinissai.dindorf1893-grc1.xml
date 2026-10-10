@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΦΟΙΝΙΣΣΑΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.phoinissai; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.phoinissai.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.phoinissai.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:phoinissai"><head>ΦΟΙΝΙΣΣΑΙ</head>
+          <pb n="607" facs="urn:hathi:iau.31858007086675:scan:615"/>
+          <div type="textpart" subtype="fragment" n="238" xml:id="frag_7deb92da17" corresp="urn:cite2:perseus:fragmentaryplays.v1:phoinissai">
+<note type="source">Pollux VII, 91. Ἃ δὲ πόδεια Κριτίας καλεῖ, εἴτε πίλους αὐτὰ οἰητέον εἴτε περιειλήματα ποδῶν, ταῦτα πέλλυτρα καλεῖ ἐν Φοινίσσαις Αἰσχύλος</note>
+<lg type="fragment">
+<l n="1" xml:id="frag_7deb92da17-l1" xml:lang="grc">Πέλλυτρ' ἔχουσιν εὐθέτοις ἐν ἀρβύλαις.</l>
+</lg>
+<note type="commentary">Πέλλυτρα memorat X, 50. et ex Æschylo II, 196.</note>
+</div>
+          <div type="textpart" subtype="fragment" n="239" xml:id="frag_0f41b7de3a" corresp="urn:cite2:perseus:fragmentaryplays.v1:phoinissai">
+<note type="source">Scholiasta Euripidis Phœniss. v. 942. οἱ περιλειφθέντες τῶν σπαρτῶν (ἐν τῇ πρὸς Κάδμον μάχη), ὡς Αἰσχύλος φησὶν, ἦσαν Χθόνιος, Οὐδαῖος, Πέλωρος, Ὑπερήνωρ καὶ Ἐχίων.</note>
+<note type="commentary">Apud Poll. VII, 91. recte cod. Paris. ἐν Φρυξί. Alterum autem fragm. Schuetzii conjecturæ debetur. Nullæ igitur fuerunt Æschyli Φοίνισσαι. V. Herm. Opusc. vol. VII. p. 191.</note>
+</div>
+        </div></body></text>
+</TEI>

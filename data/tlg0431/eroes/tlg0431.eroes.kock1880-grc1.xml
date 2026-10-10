@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CHIONIDES, ΗΡΩΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Chionides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0431.eroes.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0431.eroes.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0431.eroes.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0431_eroes"><head>ΗΡΩΕΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0431-eroes-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0431_eroes">
+              <lg>
+                <l n="1" xml:id="kock-0431-eroes-1-l1" xml:lang="grc">πολλοὺς ἐγᾧδα κοὐ κατὰ σὲ νεανίας</l>
+                <l n="2" xml:id="kock-0431-eroes-1-l2" xml:lang="grc">φρουροῦντας ἀτεχνῶς κἂν σάμακι κοιμωμένους.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 43 <foreign xml:lang="grc">ἔστι δὲ ὁ σάμαξ ῥὶψ καλάμου τοῦ καλουμένου σάκτου. μάλιστα δὲ ἐπὶ στρατείας τούτῳ ἐχρῶντο, ὡς Χιωνίδης ἐν Ἥρωσι.</foreign>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>1. <foreign xml:lang="grc">ἐγᾧδα κοὐ</foreign> Bentl. Epist. II ad Hemsterh. p. 53 (ac sic nunc Bekkerus)] <foreign xml:lang="grc">ἐγὼ δ’ ἀκούω. ἐγὼ δακοὺ</foreign> Falck. 2. <foreign xml:lang="grc">οὐ κατὰ σὲ</foreign>] cf. quae Heindorfius attulit ad Plat. Gorg. 512 b quem miror non meminisse Plat. Apol. 17 b <foreign xml:lang="grc">ὁμολογοίην ἂν οὐ κατὰ τούτους εἶναι ῥήτωρ.</foreign> — <foreign xml:lang="grc">ἀτεχνῶς</foreign> hic aptam interpretationem non habet. Bentl. <foreign xml:lang="grc">ἀλύχνους.</foreign> scribendum est <foreign xml:lang="grc">ἀτενές.</foreign> cf. Aristoph. Vesp. 730. Diphil. Athen. 6, 236 b, 4. Plat. De rep. 7, 547 e et Ruhnk. Tim. 53. — <foreign xml:lang="grc">ἐν σάμακι κοιμᾶσθαι,</foreign> i. e. <foreign xml:lang="grc">φορμοκοιτεῖν, ὃ τάττεται ἐπὶ λυπρῶς καὶ κακῶς κοιμωμένων, οὐκ ἐχόντων κνάφαλλον.</foreign> Bekk. Anecd. 70, 4 (Mein.). cf. Lysipp. 10. Hesych. <foreign xml:lang="grc">σάμαξ· ὕλη τις δρυώδης, οἷον βούτομον . . . ἀφ’ οὗ τὰ λεπτὰ συνάγοντες στιβάδια ποιοῦσιν.</foreign> — sunt verba admonentis adulescentem, ne mollitiae et luxuriae se dedat.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0431-eroes-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0431_eroes">
+              <lg>
+                <l n="1" xml:id="kock-0431-eroes-2-l1" xml:lang="grc">καὶ μὴν μὰ τὸν Δί’ οὐδὲν ἔτι γέ μοι δοκῶ</l>
+                <l n="2" xml:id="kock-0431-eroes-2-l2" xml:lang="grc">ἄγνου διαφέρειν ἐν χαράδρᾳ πεφυκότος.</l>
+              </lg>
+              <note type="source">
+                <p>Suidas <foreign xml:lang="grc">ἄγνος· φυτόν, ὃν καὶ λύγον καλοῦσιν . . . ἀρσενικῶς Χιωνίδης ἐν Ἥρωσι.</foreign>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>
+                  <foreign xml:lang="grc">γέ</foreign> Porson. Advers. 38 et Phoeniss. 1638] <foreign xml:lang="grc">τέ.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0431-eroes-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0431_eroes">
+              <p>
+                <foreign xml:lang="grc">ἑπτέτης</foreign>
+              </p>
+              <note type="source">
+                <p>
+                  <foreign xml:lang="grc">χωρὶς τοῦ ᾶ. Χιωνίδης Ἥρωσιν.</foreign> Bekk. Anecd. 97, 8.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

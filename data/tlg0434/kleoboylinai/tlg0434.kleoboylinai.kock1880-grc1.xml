@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΚΛΕΟΒΟΥΛΙΝΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.kleoboylinai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.kleoboylinai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.kleoboylinai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_kleoboylinai"><head>ΚΛΕΟΒΟΥΛΙΝΑΙ</head><div type="textpart" subtype="fragment" n="91" xml:id="kock-0434-kleoboylinai-91" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_kleoboylinai">
+              <p>ἰποῦμεν</p>
+              <note type="source">Pollux 7, 41 ‘ἰπούμενος ταῖς συμφοραῖς’ Ἀριστοφάνης πού φησι (Eq. 924). καὶ Κρατῖνος ἰποῦμεν ἐν Κλεοβουλίνῃ. Κρατῖνος ἰποῦμεν Meinek.] ἶπον μὲν. Hesych. ἰπ[π]οῦμεν. πιέζομεν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="92" xml:id="kock-0434-kleoboylinai-92" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_kleoboylinai">
+              <p>παροψωνεῖν</p>
+              <note type="source">ἔφη Κρατῖνος ἐν Κλεοβουλίναις Athenaeus 4, 171 b.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="93" xml:id="kock-0434-kleoboylinai-93" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_kleoboylinai">
+              <p>σκάλωψ</p>
+              <note type="source">ὁ σπάλαξ. ἐν Κλεοβουλίναις Κρατῖνος. Photius. Boeotus apud Arist. Ach. 879 σκάλοπας. idem Atticis tribuit Etym. m. 715, 27. Hesych. σκάλοψ· ἀσπάλαξ, ζῷον γεωρύχον τυφλόν. Lob. Rhemat. 115 ‘σκάλλω scabo, sculpo, parique utriusque consonae (κ, π) vicissitudine σπάλευθρον et σκάλευθρον, σπάλαξ talpa et σκάλοψ’.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="94" xml:id="kock-0434-kleoboylinai-94" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_kleoboylinai">
+              <p>φέροικος</p>
+              <note type="source">ἐν Κλεοβουλίναις. ζῶον ὅμοιον γαλῇ, λευκόν, φωλεῦον ἐν ταῖς ῥίζαις τῶν δρυῶν, βαλανηφάγον, οὕτω καλούμενον. Phot.</note>
+              <note type="apparatus">— ὅμοιον γαλῇ quamquam non solum Photius, sed etiam Hesychius et Etymologicum magnum praebent, tamen non dubito emendare γαλεώτῃ. nomen in aenigmate positum fuisse pro κοχλίᾳ suspicatur Bergkius R. c. Att. 121, comparans aenigmata apud Athen. 2, 63 b et 10, 455 e. Hesiod. Op. 569 ἀλλ’ ὁπόταν φερέοικος ἀπὸ χθονὸς ἂμ φυτὰ βαίνῃ. est domiporta Ciceronis De divin. 2, 64, 133.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="85" xml:id="kock-0434-kleoboylinai-85" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_kleoboylinai">
+              <head>85</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-kleoboylinai-85-l1" xml:lang="grc">Ἀκέστορα γὰρ ὅμως εἰκὸς λαβεῖν</l>
+                <l n="2" xml:id="kock-0434-kleoboylinai-85-l2" xml:lang="grc">πληγάς, ἐὰν μὴ συστρέψῃ τὰ πράγματα.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Venet. Aristoph. Av. 31 <quote xml:lang="grc">εἰς δὲ τὴν ποίησιν (Ἀκέστορα) κεχλευάκασι Καλλίας μὲν . . . Κρατῖνος δὲ ἐν Κλεοβουλίναις.</quote>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>συστρέψη] συστρέφη Bentleius, συστραφῇ Dobraeus Advers. II 214. Κλεοβουλίναις pro Κλεοβούλοις Kusterus, versum 1 Cratinus ita non scripsisse videtur vel propter ictum in ultima syllaba nominis Ἀκέστορα. συστρέφειν Meinekius ex Ernestii Lexico rhetor. 335 interpretatur ‘actionem et argumentum fabulae rotundare et suis finibus circumscribere, ne temere diffluat et extra terminos vagetur’. Bergkius R. c. Att. 124 tortuosam et obscuram Acestoris poesin intellegit. neutrum ex Atticis poetis comprobari posse puto: nam post Aristotelem illam priorem significationem haud raro inveniri constat. nescio an σὺ ex στ perperam repetitum, μή autem ex δια ortum et scribendum sit ἐὰν διαστρέφῃ τ. πρ. Arist. Ran. 1122 <quote xml:lang="grc">ἀσαφὴς γὰρ ἦν ἐν τῇ φράσει τῶν πραγμάτων.</quote> τὴν φύσιν διαστρέφειν Menand. monost. 203. Cic. De fat. 8, 16 <hi rend="italic">multa sunt genera enuntiandi, nec ullum distortius quam hoc.</hi> de Acestore Saca cf. Arist. Av. 31 (cum interpr.). Eupol. 159, 14. Bergk. R. c. Att. 123. 4.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="86" xml:id="kock-0434-kleoboylinai-86" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_kleoboylinai">
+              <head>86</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-kleoboylinai-86-l1" xml:lang="grc">ἐπέδωκε βαλάνων ἄβακα τῶν ἐκ Φιττέως.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 105 <quote xml:lang="grc">ἄβακα δ’ εἰ βούλοιό τι τῶν τοῦ μαγείρου σκευῶν καλεῖν, προσχρηστέον σοι Κρατίνῳ ἐν Κλεοβουλίναις.</quote> et 6, 86 <quote xml:lang="grc">καὶ παρὰ Κρατίνῳ βαλάνων ἄβακα.</quote>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>pro Φιττέως Bentleius, quem secutus est Bekkerus, φελλέως. sed neque φελλεύς umquam nomen proprium fuit (Saupp. Epist. crit. 59 sq.), neque eae regiones quae illo nomine significantur (φελλεῖς τὰ πετρώδη καὶ αἰγίβοτα χωρία Harpocr., cf. fr. 271) quercubus alendis aptae erant. itaque Meinekius ἐκ Φηγέως. at pagus non erat Φηγεύς, sed Φηγαία, cuius</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="87" xml:id="kock-0434-kleoboylinai-87" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_kleoboylinai">
+              <lg>
+                <l n="1" xml:id="kock-0434-kleoboylinai-87-l1" xml:lang="grc">ἔστιν ἄκμων καὶ σφῦρα νεανίᾳ εὔτριχι πώλῳ.</l>
+              </lg>
+              <note type="source">Hephaestio 1, 18 παρὰ Κρατίνῳ . . . ἐν Κλεοβουλίναις.</note>
+              <note type="apparatus">est aenigma ambiguae interpretationis. Hom. Od. 3, 434 ἄκμονά τε σφῦράν τ’ εὐποίητόν τε πυράγρην.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="88" xml:id="kock-0434-kleoboylinai-88" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_kleoboylinai">
+              <note type="source">Hesychius αἰθὴς πέπλος· Κρατῖνος Κλεοβουλίναις ἐκβάλλοντες τῆς αἴθης πέπλους. Zenob. 1, 33 αἰθὴς πέπλος· ἐπὶ τῶν ὑπεκκαιόντων καὶ φθειρόντων (στάσεις ἐγειρόντων Diogen. 1, 31) καὶ διαβολὰς ποιούντων. εἴρηται δὲ παρόσον ἡ Δηιάνειρα πέπλον ἔπεμψεν Ἡρακλεῖ, ὑφ’ οὗ καυθεὶς ἐφθάρη. Apostol. 1, 81 αἴθεις ἐν πέπλῳ καὶ αἴθης πέπλος.</note>
+              <note type="apparatus">Bergkius Pindar. p. 41 ἐκβάλλοντες αἰθῆντας πέπλους. Meinekius in ed. min. Deianiram vetusto nomine Αἴθην et vestem ab ea missam Αἴθης πέπλον adpellatam esse Cratinumque dixisse suspicatur Δήμῳ τὸν ἐπιβάλλοντα τοὺς Αἴθης (αἰθεῖς in ed. mai.) πέπλους. Herwerdenus denique Mnem. nov. VI 56 quia αἰθής nimis recedat a vulgari sermone, dochmios restituit scribendo ἐπιβαλόντες αἰθεῖς πέπλους. mihi non magis liquet quam Lobeckio Paralip. 544, nisi quod homines discordiam civium excitantes poeta videtur notare. cf. Arist. Lys. 567—586.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="89" xml:id="kock-0434-kleoboylinai-89" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_kleoboylinai">
+              <note type="source">Zenob. 5, 14 Μύλλος πάντ’ ἀκούων· αὕτη τέτακται ἐπὶ τῶν κωφότητα προσποιουμένων καὶ πάντα ἀκουόντων, μέμνηται αὐτῆς Κρατῖνος ἐν Κλεοβουλίναις. ἔστι δὲ καὶ κωμῳδιῶν ποιητὴς Μύλος.</note>
+              <note type="apparatus">Μύλλος Leutsch ex B, Hesych., aliis. Myllus nomen fictum est hominis surdum se esse simulantis et propterea res vel sapientissimis ignotas audientis. Usener Mus. Rh. XXVIII 427. poetam Myllum nullum umquam fuisse docuit Wilamowitzius Herm. VIIII 338. 9.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="90" xml:id="kock-0434-kleoboylinai-90" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_kleoboylinai">
+              <p>ἐπισμῇ</p>
+              <note type="source">Schol. Aristoph. Thesm. 389 καὶ παρὰ Κρατίνῳ ἐστὶν ἐν Κλεοβουλίναις· ἔστι δὲ λοιδορία, ἀπὸ τοῦ καθάπτεσθαι τῶν σμωμένων. Hesychius ἐπισμή· ἐπιτρίβει . . . λοιδορεῖ, πλήττει. Arist. Thesm. 389 τί γὰρ οὗτος ἡμᾶς οὐκ ἐπισμῇ τῶν κακῶν;</note>
+              <note type="apparatus">eadem significatione sine dubio Cratinus.</note>
+            </div>
+          </div></body></text></TEI>

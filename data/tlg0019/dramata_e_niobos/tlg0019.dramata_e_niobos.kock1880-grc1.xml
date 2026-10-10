@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΔΡΑΜΑΤΑ Η ΝΙΟΒΟΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.dramata_e_niobos.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.dramata_e_niobos.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.dramata_e_niobos.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_niobos"><head>ΔΡΑΜΑΤΑ Η ΝΙΟΒΟΣ</head><div type="textpart" subtype="fragment" n="278" xml:id="kock-0019-dramata_e_niobos-278" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_niobos">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_niobos-278-l1" xml:lang="grc">ἔστιν γὰρ ἡμῖν τοῖς κάτω πρὸς τοὺς ἄνω</l>
+                <l n="2" xml:id="kock-0019-dramata_e_niobos-278-l2" xml:lang="grc">ἀπὸ συμβόλων, καὶ μὴν ὁ μαιμακτηριών,</l>
+                <l n="3" xml:id="kock-0019-dramata_e_niobos-278-l3" xml:lang="grc">ἐν ᾧ ποιοῦμεν τὰς δίκας καὶ τὰς γραφάς.</l>
+              </lg>
+              <note type="source">Ἀριστοφάνης Νιόβῳ· κτλ. Etym. m. Milleri (Mélanges 210) μαιμακτηριών. ἔστιν Miller] ἔστι. Νιόβῳ Miller] Νιόβη. Harpocration μαιμακτηριὼν ὁ ε΄ μὴν παρ’ Ἀθηναίοις . . . ὠνόμασται δὲ ἀπὸ Διὸς μαιμάκτου, μαιμάκτης δ’ ἐστὶν ὁ ἐνθουσιώδης καὶ ταρακτικός . . . ἀρχὴν δὲ λαμβάνοντος τοῦ χειμῶνος ἐν τούτῳ τῷ μηνὶ ὁ ἀὴρ ταράττεται καὶ μεταβολὴν ἴσχει.</note>
+              <note type="apparatus">itaque aptissimus erat mensis ficto a poeta commercio mortuos inter vivosque. faciatne huc etiam Philetaer. 11 τίς ἐστι μαιμακτηριών; Β. μὴν δικάσιμος nescio: nam eum versum qui interpretaretur adhuc inventus est nemo, quamquam certarum causarum certos fuisse menses constat. pro ἔστιν scribendum videtur κρίσεις. de locutione ἀπὸ συμβόλων cf. Meier et Schoem. Att. Proc. 773. Antiphon 5, 78 δίκας ἀπὸ ξυμβόλων ὑμῖν δικαζομένους. [Andocid.] 4, 18 πρὸς τὰς ἄλλας πόλεις ἐν τοῖς συμβόλοις συντιθέμεθα μὴ ἐξεῖναι μήθ’ εἶρξαι κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="279" xml:id="kock-0019-dramata_e_niobos-279" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_niobos">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_niobos-279-l1" xml:lang="grc">οἴμοι κακοδαίμων· ὁ λύχνος ἡμῖν οἴχεται.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 1561 Dind. ex cod. A ὅτι δὲ λυχνοῦχοι οἱ νῦν καλούμενοι φανοὶ ὠνομάζοντο Ἀριστοφάνης ἐν Αἰολοσίκωνι παρίστησι . . . ἐν δὲ τῷ δευτέρῳ νιουω (Νιόβῳ Schweighaeus.) προειπὼν λυχνοῦχον (λύχνον Bergk.) οιμοι κακοδαίμων φησὶν λυχνουχος (ὁ λύχνος Bergk.) ἡμῖν οἴχεται. εἶτ’ ἐπιφέρει καὶ πως επιρρασας</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="280" xml:id="kock-0019-dramata_e_niobos-280" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_niobos">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_niobos-280-l1" xml:lang="grc">καὶ πῶς ὑπερβὰς τὸν λυχνοῦχον κἄλαθε;</l>
+              </lg>
+              <note type="source">Athenaeus 15, 1561 Dindf. cf. fr. 279.</note>
+              <note type="apparatus">haec Cobetus (Mnem. V 191. 2) in cod. A sic legit εἶτ’ ἐπιφέρει· καὶ πῶς ὑπερβὰς τὸν λυχνοῦχον οἴχεται εἶτ’ ἐπιφέρει καὶ ἔλαθε. ‘expunctis quae librarius temere repetiit ex superioribus οἴχεται εἶτ’ ἐπιφέρει καὶ, quae noluit ipse expungere, ne codicis elegantia minueretur’, Cobetus scribit Β. καὶ πῶς ὑπερβὰς τὸν λυχνοῦχον ἔλαθέ σε; servo de exstincto lumine querenti (279) dominus interrogatione respondet qui factum sit ut lucerna candelabrum superscenderet.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="281" xml:id="kock-0019-dramata_e_niobos-281" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_niobos">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_niobos-281-l1" xml:lang="grc">ἀλλ’ ὥσπερ λύχνος</l>
+                <l n="2" xml:id="kock-0019-dramata_e_niobos-281-l2" xml:lang="grc">ὁμοιότατα καθεῦδ’ ἐπὶ τοῦ λυχνιδίου.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 1561 Dindf. cf. fr. 279. Pollux 10, 119 ἐν τοῖς Ἀριστοφάνους Δράμασιν ἢ Νιόβῳ· ἀλλ’ ὥσπερ λύχνος ὁμοιότατα κάθευδ’ ἐπὶ τοῦ λυχνιδίου.</note>
+              <note type="apparatus">λύχνος Pollux] ὁ λύχνος A Athen. in λυχνιδίου aatepaenultima producitur, ut in οἰκίδιον, ἀργυρίδιον, δακτυλίδιον aliis. de sententia cf. Pherecr. 40. Nunnes. Phryn. Ecl. 60 Lob. λυχνίδιον hic dici pro λυχνούχῳ Athenaeus ipse testatur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="282" xml:id="kock-0019-dramata_e_niobos-282" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_niobos">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_niobos-282-l1" xml:lang="grc">οὐδὲν μὰ Δί’ ἐρῶ λοπάδος ἑψητῶν.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 301b πληθυντικῶς δὲ λέγουσιν ἑψητοὺς κατὰ τὸ πλεῖστον. Ἀριστοφάνης Δράμασιν ἢ Νιόβῳ κτλ.</note>
+              <note type="apparatus">πλέον in exitu addit Herwerden. Mnem. nov. VI 60. at si significare volebat ‘nihil magis amo quam cet.’, dicendum erat οὐδενὸς πλέον ἐρῶ κτλ. excidit fortasse τανῦν ‘nihil desidero in praesenti patellam ἑψητῶν’. cf. Eupol. 5. 6.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="283" xml:id="kock-0019-dramata_e_niobos-283" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_niobos">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata_e_niobos-283-l1" xml:lang="grc">ὁ δ’ εἰς τὸ πλινθεῖον γενόμενος ἐξέτρεψε</l>
+              </lg>
+              <note type="source">Pollux 10, 185 οὗ μέντοι οἱ κεραμεῖς τὰς πλίνθους ἔπλαττον, πλινθεῖον καλεῖ τόπον ἐν Δράμασιν ἢ Νιόβῳ Ἀριστοφάνης, περὶ τοῦ Κυκλοβόρου τοῦ ποταμοῦ λέγων.</note>
+              <note type="apparatus">tetrameter iambicus, in</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="284" xml:id="kock-0019-dramata_e_niobos-284" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_niobos">
+              <note type="source">Schol. Eurip. Phoen. 159</note>
+              <p>περὶ δὲ τοῦ πλήθους τῶν Νιοβιδῶν αὐτός φησιν Εὐριπίδης ἐν Κρεσφόντῃ· καὶ δὶς ἕπτ’ αὐτῆς τέκνα Νιόβης θανόντα Λοξίου τοξεύμασιν. ὁμοίως καὶ Αἰσχύλος ἐν Νιόβῃ καὶ Ἀριστοφάνης δὲ ἐν Δράμασιν ἢ Νιόβῳ ὁμοίως ζ’ αὐτὰς λέγουσιν, εἶναι δὲ ἑπτὰ καὶ τοὺς ἄρρενας. ἐν Δράμασιν ἢ Νιόβῳ Dindf.] ἐν δράματι Νιόβης.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="285" xml:id="kock-0019-dramata_e_niobos-285" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata_e_niobos">
+              <p>καττύς</p>
+              <p>δερμάτιον ἐντιθέμενον τῇ σμινύῃ, ὅταν ὁ στέλεχος ἀραιὸς ᾖ. καὶ ἔστι τοὔνομα ἐν τοῖς Ἀριστοφάνους Δράμασιν ἢ Νιόβῳ. Pollux 10, 166. τῇ σμινύῃ] ‘σμινύης? an ἐν σμινύῃ?’ Bekker. Hesych. καττύν· ἀπότριμμα δερματίου. Photius καττυν (sic)· ἀπότριμμα δερματίου βαλλόμενον εἰς τὴν στειλειάν, ὅταν μὴ σφίγγῃ. cf. καττύειν, κάττυμα.</p>
+              <p>Cf. praeterea fr. 939.</p>
+            </div>
+          </div></body></text></TEI>

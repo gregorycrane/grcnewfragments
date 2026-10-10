@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0019-daidalos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aristophanes, ΔΑΙΔΑΛΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aristophanes</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="716" to="745"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 716–745. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aristophanes-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-09">Folded page-local headings into stable Aristophanic work identities, restored Dindorf's per-work numbering, and removed demonstrable duplicate page-724 records; transcribed content otherwise unchanged. Geras is absent from the source extraction.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0019.daidalos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0019.daidalos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0019.daidalos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos"><head>ΔΑΙΔΑΛΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-daidalos-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+            <note type="source">(1.) Hesychius, Δαιδάλεια:</note>
+            <quote>Ἀριστοφάνης τὸν ἀπὸ Δαιδάλου κατασκευασθέντα ἀνδριάντα, ὡς διὰ τὸ ἀποδιδράσκειν δεδεμένον.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-daidalos-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+            <note type="source">(2.) Suidas, Εὐρύβατος:</note>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:lang="grc">Εἰ δή τις ὑμῶν εἶδεν Εὐρύβατον Δία.</l>
+              </lg>
+            </quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-daidalos-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+            <note type="source">(3.) Erotianus p. 50.</note>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:lang="grc">Ὁ μηχανοποιὸς, ὁπότε βούλει τὸν τροχὸν</l>
+                <l n="2" xml:lang="grc">ἐᾶν ἀνεκὰς, λέγε, χαῖρε φέγγος ἡλίου.</l>
+              </lg>
+            </quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-daidalos-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+            <note type="source">(4.) Athenæus VII, p. 316 b.</note>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:lang="grc">Καὶ ταῦτ' ἔχοντα πουλύπους καὶ σηπίας.</l>
+              </lg>
+            </quote>
+            <note type="commentary">καὶ πάλιν “ Τὸν πουλύπουν μοι ἔθηκε” καὶ πάλιν Πληγαὶ λέγονται πουλύπου πιλουμένου.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="5" xml:id="fragment-daidalos-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+            <note type="source">(5.) Athenæus IX, p. 367 d. et p. 368 c.</note>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:lang="grc">Πάσαις γυναιξὶν ἐξ ἑνός γέ του τρόπου</l>
+                <l n="2" xml:lang="grc">ὥσπερ παροψὶς μοιχὺς ἐσκευασμένος.</l>
+              </lg>
+            </quote>
+            <note type="commentary">τρόπου utrobique omittunt libri scripti, ut Musurus de conjectura addidisse videatur.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="6" xml:id="fragment-daidalos-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+            <note type="source">(6.) Athenæus IX, p. 374 e.</note>
+            <quote>Καὶ Θεόπομπος δ' — ἐπὶ τῆς θηλείας ἔταξε τὸν ἀλεκτρυόνα — καὶ Ἀριστοφάνης Δαιδάλῳ</quote>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:lang="grc">Ὠιὸν μέγιστον τέτοκεν, ὡς ἀλεκτρυών.</l>
+              </lg>
+            </quote>
+            <note type="commentary">καὶ πάλιν</note>
+            <quote>
+              <lg type="fragment">
+                <l n="2" xml:lang="grc">Πολλαὶ τῶν ἀλεκτρυόνων βίᾳ</l>
+                <l n="3" xml:lang="grc">ὑπηνέμια τίκτουσιν ᾠὰ πολλάκις.</l>
+              </lg>
+            </quote>
+            <note type="commentary">ἐν δὲ Νεφέλαις (ν. 665.) — φησὶ “ Νῦν ἀλέκτορα.” V. 2. Πολλαὶ] Hoc fragmentum ex Platonis Dædalo attulit scholiasta Aristophanis Nub. v. 663, ubi ἐνίοτε πολλαὶ scriptum. Unde iisdem utrumque poetam verbis usum esse conjecit Ernesti in annotatione ad scholia, Clementis Alexandrini loco confisus, quem supra apposui. Sed scholiastæ fidem elevant Photius et Suidas in ὑπηνέμια, qui Aristophanis nomen posuerunt et Platonis philosophi locum quendam adjunxerunt. Et apud Suidam quidem ἐνίοτε πολλοὶ scriptum, apud Photium ἐνιότε (sic) πολλαὶ, ubi Porsonus correxit Ἐν ἴστε· πολλαὶ -. Sine auctoris nomine Eustathius p. 1479, 28. attulit πολλαὶ τῶν ἀλεκτρυόνων ὑπηνέμια τίκτουσι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-daidalos-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+            <note type="source">(7.) Photius p. 338, 15, et Suidas in ὄνου σκιά</note>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:lang="grc">α. Περὶ τοῦ γὰρ ὑμῖν ὁ πόλεμος</l>
+                <l n="2" xml:lang="grc">νῦν ἐστι; β. περὶ ὄνου σκιᾶς.</l>
+              </lg>
+            </quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-daidalos-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+            <note type="source">(8.) Hesychius, Δορυφόνον:</note>
+            <quote>τὸν δολοφονοῦντα. Ἀριστοφάνης Δαιδάλῳ.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-daidalos-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+            <note type="source">(9.) Pollux VII, 100.</note>
+            <quote>Κογχυλίας λίθος ἐν Ἀριστοφάνους Δαιδάλῳ.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-daidalos-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+            <note type="source">(10.) Pollux VII, 117.</note>
+            <quote>Ἀρχιτέκτων εἴρηται παρὰ Πλάτωνι. βιαία γὰρ ἡ ἐν τῷ Σοφοκλέους Δαιδάλῳ τεκτόναρχος Μοῦσα. τὸ δὲ ἀρχιτεκτονεῖν Ἀριστοφάνης εἴρηκεν ἐν Δαιδάλῳ.</quote>
+            <note type="commentary">Verbo ἀρχιτεκτονεῖν utitur in Pace v. 305. Quamobrem videndum ne Pollux Δαιδάλῳ pro Εἰρήνῃ scripserit, quum Sophoclis locus ante oculos versaretur.</note>
+          </div>
+        </div></body></text></TEI>

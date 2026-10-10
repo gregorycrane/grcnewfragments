@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>HERMIPPUS, ΘΕΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Hermippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0252.theoi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0252.theoi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0252.theoi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_theoi"><head>ΘΕΟΙ</head><div type="textpart" subtype="fragment" n="28" xml:id="kock-0252-theoi-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_theoi">
+              <lg>
+                <l n="1" xml:id="kock-0252-theoi-28-l1" xml:lang="grc">ἐξ ἀγορᾶς δ’ ἐγὼ</l>
+                <l n="2" xml:id="kock-0252-theoi-28-l2" xml:lang="grc">ὠνήσομαι λύχνον τιν’ ἢ στίλβην.</l>
+              </lg>
+              <note type="source">Photius στίλβη· λύχνῳ τι ἐοικός. Ἕρμιππος Θεοῖς κτλ.</note>
+              <note type="apparatus">ὠνήσομαι] ‘ὀν. primo.’ Porson. cf. Plat. com. 190.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0252-theoi-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_theoi">
+              <lg>
+                <l n="1" xml:id="kock-0252-theoi-29-l1" xml:lang="grc">τόν τε κότυλον πρῶτον ἤνεγκ’ ἐνέχυρον τῶν γειτόνων.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 478c τὰ μόνωτα ποτήρια κότυλοι . . . Ἕρμιππος δ’ ἐν Θεοῖς κτλ.</note>
+              <note type="apparatus">πρῶτον] πρῶτος ? Dindorf. ἤνεγκ’ ἐνέχυρον Iacobs. Addit. Athen. 259. Pors. ap. Dobr. Arist. Plut. 451 p. 53] ἤνεγκεν ἐχυρόν. propter fragmenti brevitatem non satis intellego quid dicat poeta.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30" xml:id="kock-0252-theoi-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_theoi">
+              <lg>
+                <l n="1" xml:id="kock-0252-theoi-30-l1" xml:lang="grc">φήμης ἱερᾶς ἐξοιγνυμένης ὥσπερ πέπονος δοθιῆνος.</l>
+              </lg>
+              <note type="source">Herodianus II 923, 16 Lentz. Ἔρμιππος ἐν Θεοῖς.</note>
+              <note type="apparatus">πέπονος δοθιῆνος L. Dindorfius] πέπονθε δοθειῆνος. nescio quo modo φήμη cum ulcere maturo possit comparari. fortasse scribendum φωνῆς, ut Periclis vox significetur (Teleclid. 43) et πέπονος δοθιῆνος pendeat a praepositione verbi ἐξοιγνυμένης.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="31" xml:id="kock-0252-theoi-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_theoi">
+              <lg>
+                <l n="1" xml:id="kock-0252-theoi-31-l1" xml:lang="grc">λεπάδας δὲ πετρῶν ἀποκόπτοντες κρεμβαλιάζουσι.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 636cd ἦν γὰρ δή τινα καὶ . . . ἕτερα ψόφου μόνον παρασκευαστικά (instrumenta musica), καθάπερ τὰ κρέμβαλα . . . Ἕρμιππος δ’ ἐν Θεοῖς τὸ τούτοις (κρεμβάλοις) κρούειν κρεμβαλίζειν εἴρηκεν ἐν τούτοις κτλ.</note>
+              <note type="apparatus">κρεμβαλιάζουσι Dindorfius] κρεμβαλίζουσι. cf. Aristoph. Ran. 1305 cum schol. et interpr. Hesych. κρεμβαλιάζειν· κογχύλια καὶ ὀστράκια συγκροτοῦντες ἐρισμόν (Meinek. ἔρρυθμόν) τινα ἦχον ἀποτελεῖν τοῖς ὀρχουμένοις. sonum reddere puerilium crepitaculorum Quintil. 9, 4, 66. videntur tetrametri anap. reliquiae esse. Cobetus Mnem. XI 295 dimetros fingit hosce: λεπάδας τε π. ἀπ. | κρούοντες κρεμβαλιάζουσιν. atque is quidem gigantomachiam aliquam, Wilamowitzius Herm. VII 140 conl. Aristoph. Av. 825 gigantomachiae parodiam intellegendam esse</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="25" xml:id="kock-0252-theoi-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_theoi">
+              <lg>
+                <l n="1" xml:id="kock-0252-theoi-25-l1" xml:lang="grc">ἔπειθ’ ὅταν πινώμεθ’ ἢ διψώμεθα,</l>
+                <l n="2" xml:id="kock-0252-theoi-25-l2" xml:lang="grc">εὐχόμεθα πρὸς τοῦθ’ ὁ οἶνος, ὠκερασγενου.</l>
+                <l n="3" xml:id="kock-0252-theoi-25-l3" xml:lang="grc">οὐκαστοῦ καὶ πηλοῦ ’γὼ φέρω παίζων ἅμα,</l>
+                <l n="4" xml:id="kock-0252-theoi-25-l4" xml:lang="grc">καυθεὶς γεγένηται τοῦτο πέντε καὶ δύο.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 426ef οἱ δ’ ἐπιτεταμένως χρώμενοι τῷ ποτῷ δύο οἴνου ἔπινον πρὸς πέντε ὕδατος . . . Ἕρμιππος Θεοῖς κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="26" xml:id="kock-0252-theoi-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_theoi">
+              <lg>
+                <l n="1" xml:id="kock-0252-theoi-26-l1" xml:lang="grc">ὥσπερ αἱ κανηφόροι</l>
+                <l n="2" xml:id="kock-0252-theoi-26-l2" xml:lang="grc">λευκοῖσιν ἀλφίτοισιν ἐντετριμμένος.</l>
+                <l n="3" xml:id="kock-0252-theoi-26-l3" xml:lang="grc">Β. ἐγὼ δ᾽ ἐνέκαψα λανθάνων τὴν διφροφόρον.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Av. 1551 ταῖς κανηφόροις σκιάδειον καὶ δίφρον ἀκολουθεῖ τις ἔχουσα. Ἑρμίππου Θεῶν κτλ.</note>
+              <note type="apparatus">2. ἐντετριμμένος Meinek.] ἐντετριμμένοις. 3. ἐνέκαψα Valcken. Herod. 2, 93, λανθάνων Porsonus App. Toupii Emend. p. 445] ἕνεκα ψαλάθων. cf. Aristoph. Eccl. 732. Av. 1551 cum interpr. quamquam de sellis a diphrophoris in canephorarum usum portatis hodie dubitari video. scilicet dicunt sellas non minus quam urceos et urnas (τῶν ὑδριαφόρων) ad adparatum deae sacrum pertinere. Michaelis Parthenon. 213. utraque sententia mutilata est, altera initio, altera in fine. nam neque quid is qui λευκοῖσιν ἀλφίτοισιν ἐντετριμμένος dicitur fecerit, neque quid alter ille devoraverit (τὴν διφροφόρον enim manifesto pendet a λανθάνων) satis constat. conloqui videntur duo qui in Panathenaeorum pompa communi omnium gaudio et securitate abusi iocoso furto nescio quid surripuerant, sed neque Meinekio credo pecuniam surreptam esse opinanti, neque Wilamowitzio Herm. VII 141, qui Mercurium et Sosiam aliquem hominum turbae se inmiscuisse ut canephoram (Hersen) et diphrophoram adgrederentur coniecit. quid enim tum ἐνέκαψα?</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="27" xml:id="kock-0252-theoi-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_theoi">
+              <lg>
+                <l n="1" xml:id="kock-0252-theoi-27-l1" xml:lang="grc">καὶ πρὸς κύβους ἕστηκ᾽ ἔχων τὸ κήθιον.</l>
+              </lg>
+              <note type="source">Schol. Arist. Vesp. 674 κηθάρια καὶ ὀξύβαφα, ἐξ ὧν τους</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="32" xml:id="kock-0252-theoi-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_theoi">
+              <lg>
+                <l n="1" xml:id="kock-0252-theoi-32-l1" xml:lang="grc">καί σέ τι χρὴ παραταιναρίζειν.</l>
+              </lg>
+              <note type="source">Stephanus Byz. <title>Ταίναρος</title>· λέγεται καὶ ταιναρίζειν, ὡς Ἕρμιππος <title>Θεοῖς</title> κτλ.</note>
+              <note type="apparatus">omittit haec V. ταιναρίζειν recte Meinekius interpretatur <hi rend="italic">Taenaria celebrare</hi> et (V 33) παραταιναρίζειν comparat cum verbo παρασαβάζειν. ac sic παραπαίειν, παραφρονεῖν. <hi rend="italic">te quoque decet brevem consiliis stultitiam miscere et desipere in loco.</hi>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="33" xml:id="kock-0252-theoi-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_theoi">
+              <note type="source">Hesychius <title>μίλαξ</title>· ἡλικία. ἔνιοι δὲ μέλλαξ. καὶ παρ' Ἑρμίππῳ ἐν <title>Θεοῖς</title>, ἀγνοήσας Ἀρτεμίδωρος. ἐκεῖ γὰρ μῖλαξ ἐστίν. δηλοῖ δὲ τὸν δημοτικόν. ‘μίλαξ δημοτικός, <hi rend="italic">sicut popularis dicitur pro sodalis</hi> ἧλιξ’. Lob. Paralip. 128 adn. 15.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="34" xml:id="kock-0252-theoi-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_theoi">
+              <note type="source">Pollux 9, 126 τὸ δὲ ῥῆμα τὸ πενταλιθίζειν ἐστὶν ἐν τοῖς Ἑρμίππου <title>Θεοῖς</title>. scribendum est πεντελιθίζειν. Photius πεντελιθίζειν διὰ τοῦ ε λέγουσι. idem πεντέπηχυ καὶ πεντέκλινον καὶ πεντέχαλκον καὶ πεντέμηνον καὶ πάντα τὰ ὅμοια λέγουσι διὰ τοῦ ε. Lob. Phryn. 413. Pollux 9, 126 τὰ δὲ πεντάλιθα· λιθίδιοι ἢ ψῆφοι ἢ ἀστράγαλοι πέντε ἀνερριπτοῦντο, ὥστ' ἐπιστρέψαντα τὴν χεῖρα δέξασθαι τὰ ἀναρριφθέντα κατὰ τὸ ὀπισθέναρ . . . γυναικῶν δὲ μᾶλλον ἡ παιδιά.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHRYNICHUS, ΜΟΝΟΤΡΟΠΟΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Phrynichus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0496.monotropos.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0496.monotropos.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0496.monotropos.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos"><head>ΜΟΝΟΤΡΟΠΟΣ</head><div type="textpart" subtype="fragment" n="18" xml:id="kock-0496-monotropos-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <lg>
+                <l n="1" xml:id="kock-0496-monotropos-18-l1" xml:lang="grc">ὄνομα δέ μοὔστι Μονότροπος ....</l>
+                <l n="2" xml:id="kock-0496-monotropos-18-l2" xml:lang="grc">. . . . . . . . ζῶ δὲ Τίμωνος βίον,</l>
+                <l n="3" xml:id="kock-0496-monotropos-18-l3" xml:lang="grc">ἄγαμον, ἄδουλον, ὀξύθυμον, ἀπρόσοδον,</l>
+                <l n="4" xml:id="kock-0496-monotropos-18-l4" xml:lang="grc">ἀγέλαστον, ἀδιάλεκτον, ἰδιογνώμονα.</l>
+              </lg>
+              <note type="apparatus">Bekker. Anecd. 344, 29 ἄδουλος βίος ἐρεῖς, τουτέστιν ὁ μὴ δοῦλον ἔχων. ἐρεῖς δὲ καὶ ἀδιάλεκτος βίος, καὶ ἀγέλαστος βίος καὶ ἄγαμος βίος. Φρύνιχος ἐν Μονοτρόπῳ κτλ. ut supra scripsimus, Bekkerus. Τίμωνος Ruhnk. Hymn. Cer. p. 35] τίμωνον. Meinekius in ed. min. ὄνομα δέ μοι | Μονότροπός ἐστι, ζῶ δὲ κτλ. sine lacuna. Fritzsch. Ind. Rost. 5 0 0. ὄνομα δέ μοὔστι Μονότροπος | ἄζυγος ἔρημος. 3. cod. ἄγαμον, ἄζυγον. ἄδουλον pro ἄζυγον aliquanto ante Bergkium ap. Fritzsch. Q. Arist. 321 et Cobet. Mnem. nov. V 320 Hermannus Eurip. Androm. 580. ἄγαμον potius glossema videtur ad ἄζυγον adpositum. ceterum huc pertinent Bekker. Anecd. 25, 14 ἄδουλος βίος· ὁ μὴ δουλεύοντα ἔχων. 25, 10 ἀπρόσοδος βίος· ᾧ οὐδεὶς πρόσεισιν, ἀλλ' ἔρημος, Liban. IIII 148 (indicatus a Meinekio) διαβάλλονταί μου τὴν ἡσυχίαν, ἀπρόσοδον καλοῦντες, ἀγέλαστον ὀνομάζοντες, ἰδιογνώμονά μου τὸν βίον προσαγορεύοντες, et ut videtur Bekker. Anecd. 9, 14 ἀνεπίτροπος· σημαίνει τὸν μηδένα ἐπίτροπον ἢ κηδεμόνα ἔχοντα. itaque scripserim ὄνομα δέ μοι | ἐστὶν Μονότροπος· ζὼ δὲ Τ. βίον, | ἄζυγον, ἄδουλον, ὀξ., ἀπρ., | ἀγ., ἀδ., ἰδ. | ἀνεπίτροπον τε ex prologo fabulae haec excerpta esse Bergkius monuit 371.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="19" xml:id="kock-0496-monotropos-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <lg>
+                <l n="1" xml:id="kock-0496-monotropos-19-l1" xml:lang="grc">τηλικουτοσί γέρων</l>
+                <l n="2" xml:id="kock-0496-monotropos-19-l2" xml:lang="grc">ἄπαις ἀγύναικος.</l>
+              </lg>
+              <note type="source">Pollux 3, 48 Ἀριστοφάνης δὲ ἄγυνον τὸν ἀγύνην, Φρύνιχος δὲ τηλικουτοσί κτλ.</note>
+              <note type="apparatus">τηλικουτοσί Bergk. R. c. Att. 372] τηλικοῦτος. Cobetus Obs. crit. 43 sine ulla causa ὤν pro γέρων. cf. Aristoph. Eq. 881. Nub. 819. Thesm. 174. Eccl. 1039. Pherecr. 146. Plat. Crit. 49a τηλικοίδε, γέροντες ἄνδρες. ad Monotropum probabiliter rettulit Bergkius, ad prologum fabulae Cobetus. ceterum cf. (indic. a Meinekio) Bekker. Anecd. 51, 20 μονογέρων· τὸν μονότροπον καὶ δύσκολον γέροντα σημαίνει, quae fortasse ad hoc fr. pertinent: τηλικοῦτος, μονογέρων, ἄπαις, ἀγύναικος. haud procul afuisse videntur a fr. 18.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="20" xml:id="kock-0496-monotropos-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <lg>
+                <l n="1" xml:id="kock-0496-monotropos-20-l1" xml:lang="grc">μεγάλους πιθήκους οἶδ’ ἑτέρους τινὰς λέγειν,</l>
+                <l n="2" xml:id="kock-0496-monotropos-20-l2" xml:lang="grc">Λυκέαν, Τελέαν, Πείσανδρον, Ἐξηκεστίδην.</l>
+                <l n="3" xml:id="kock-0496-monotropos-20-l3" xml:lang="grc">Β. ἀνωμάλους εἶπας πιθήκους . . .</l>
+                <l n="4" xml:id="kock-0496-monotropos-20-l4" xml:lang="grc">ὁ μέν γε δειλός, ὁ δὲ κόλαξ, ὁ δὲ νόθος . . .</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Av. 11 ὁ Ἐξηκεστίδης ὡς ξένος κωμῳδεῖται. καὶ Φρύνιχος Μονοτρόπῳ κτλ.</note>
+              <note type="apparatus">1. ἀνωμάλους Dind. Schol. Arist. praef. XIV] ἀνομάλους. οἶδ’ Meinek.] οἱ δὲ. 3. νὴ Δία vel simile quid add. Meinek. 4. δειλός Meinek.] δεινός. Dobraeus ὁ δὲ κόλαξ, ὁ δὲ ξένος, | ὁ δὲ νόθος. Meinekius ὁ δὲ κόλαξ ἔσθ’, ὁ δὲ νόθος, | ξένος δ’ ὁ τέταρτος. audacius Bergkius R. c. Att. 373. Lyceas aliunde non cognitus. de Telea cf. Aristoph. Av. 168. 1025. Pac. 1008. Plat. 161, de Pisandro Meinek. I 178 et Aristoph. Av. 1556, denique de Execestide interpr. Aristoph. Av. 11.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="21" xml:id="kock-0496-monotropos-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <lg>
+                <l n="1" xml:id="kock-0496-monotropos-21-l1" xml:lang="grc">Α. τίς δ’ ἔστιν ὁ μετὰ ταῦτα φροντίζων; Β. Μέτων,</l>
+                <l n="2" xml:id="kock-0496-monotropos-21-l2" xml:lang="grc">ὁ Λευκονοιεύς. Α. οἶδ’, ὁ τὰς κρήνας ἄγων.</l>
+              </lg>
+              <note type="source">Schol. Aristophan. Av. 997 et Suid. Μέτων· ἴσως δὲ ἐν Κολωνῷ κρήνην τινὰ κατεσκευάσατο· φησὶν ὁ Φρύνιχος Μονοτρόπῳ κτλ.</note>
+              <note type="apparatus">1. ταῦτα] ταῦτα ταύτης Schol. 2. Λευκονοιεύς Schol. Ven. et Suid. AB] Λωκονοιεύς Suid. V. Λευκονοιεύς firmatur Kirchhoffii Inscr. Att. 176. 238. οἶδ’ Suid.] οἶδα. Leuconoea erat pagus Leontidis tribus, unde oriundus Meton (Aristoph. Av. 992 cum interpr. Aelian. V. h. 10, 7, ubi Λευκονοιεύς ex Salmasii coniectura pro Λάκων). ὁ μετὰ ταῦτα vix sana. ἔσθ’ ὁ μετ’ αὐτοῦ ταῦτα Fritzschius apud Toeppel. Progr. Neobr. 1851, 9, Phainum vel Euctemona significari ratus, qui ambo Metonem</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="22" xml:id="kock-0496-monotropos-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <lg>
+                <l n="1" xml:id="kock-0496-monotropos-22-l1" xml:lang="grc">. . ἀλλ᾽ ὑπερβέβληκε πολὺ τὸν Νικίαν</l>
+                <l n="2" xml:id="kock-0496-monotropos-22-l2" xml:lang="grc">στρατηγίας πλήθει τε κἀξευρήμασιν.</l>
+              </lg>
+              <note type="source">Suidas ὑπερακοντίζεις . . . Φρύνιχος Μονοτρόπῳ· ἀλλὰ — κἀξευρήμασιν, ἢ ὅτι φρονιμώτατα Μηλίους λιμῷ ἀνεῖλεν.</note>
+              <note type="apparatus">petita haec sunt ex locupletioribus scholiis Aristoph. Av. 363. initio deest thesis, quae variis modis suppleri potest. στρατηγίας] στρατηγιῶν Toupius Emend. II 302. κἀξευρήμασιν idem] καὶ εὑρήμασιν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="23" xml:id="kock-0496-monotropos-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <lg>
+                <l n="1" xml:id="kock-0496-monotropos-23-l1" xml:lang="grc">ὁ δ᾽ ὀλιγόσιτος Ἡρακλῆς ἐκεῖ τί δρᾷ;</l>
+              </lg>
+              <note type="source">Athenaeus 6, 248c ὀλιγοσίτου δὲ μέμνηται Φρύνιχος ἐν Μονοτρόπῳ κτλ.</note>
+              <note type="apparatus">fortasse aliquis princeps Atheniensium Hercules adpellatur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="24" xml:id="kock-0496-monotropos-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <lg>
+                <l n="1" xml:id="kock-0496-monotropos-24-l1" xml:lang="grc">ἔπειτ᾽ ἐπειδὰν τὸν λύχνον κατακοιμίσῃ —</l>
+              </lg>
+              <note type="source">Pollux 7, 178 Φρύνιχος δ᾽ εἴρηκεν ἐν Μονοτρόπῳ κτλ. Athenaeus 15, 700f κοιμίσαι λύχνον Φρύνιχός φησι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="25" xml:id="kock-0496-monotropos-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <lg>
+                <l n="1" xml:id="kock-0496-monotropos-25-l1" xml:lang="grc">κἀντραγεῖν σικύδιον</l>
+              </lg>
+              <note type="source">Athenaeus 3, 74a σικύδιον ὑποκοριστικῶς εἴρηκε Φρύνιχος ἐν Μονοτρόπῳ καντρ. σ. ἐν Μονοτρόπῳ add. A, ‘in quo litteris paene evanidis exarata sunt’. Dindorf.</note>
+              <note type="apparatus">σικύδιον deminutivum est nominis σικυός.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="26" xml:id="kock-0496-monotropos-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <note type="source">Schol. Aristoph. Av. 1297 δοκεῖ δὲ (Συρακόσιος) καὶ ψήφισμα τεθεικέναι μὴ κωμῳδεῖσθαι ὀνομαστί τινα, ὡς Φρύνιχος ἐν Μονοτρόπῳ φησί·</note>
+              <lg>
+                <l n="1" xml:id="kock-0496-monotropos-26-l1" xml:lang="grc">ψῶρ᾽ ἔχε Συρακόσιον, ἐπιφανὴς γὰρ αὐτῷ καὶ</l>
+                <l n="2" xml:id="kock-0496-monotropos-26-l2" xml:lang="grc">μέγα τύχοι.</l>
+              </lg>
+              <note type="source">ἀφείλετο γὰρ κωμῳδεῖν οὓς ἐπεθύμουν. διὸ πικρότερον αὐτῷ προσφέρονται. αὐτῷ om. Ven.</note>
+              <note type="apparatus">audacissimis coniecturis haec verba emendare conati sunt G. Hermannus apud Fritzsch. Q. Arist. 307. Cobet. Obs. crit. 39, numeros anapaesticos esse arbitrati. paeonicos restituit Usenerus apud Leonem Q. Arist. 23 adn. ψᾶρ᾽ ἔχε Συρακόσιον. | εἴθ᾽ ἐπιφανὲς γὰρ αὐτῷ | καὶ μέγα τύχοι κακόν. ‘tene tibi sturnum loquacem Syracosium, ut idem</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="27" xml:id="kock-0496-monotropos-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <head>ἀρτοποπεῖν</head>
+              <note type="source">
+                <p>Bekker. Anecd. 447, 25 ἀρτοπόπον καὶ Ἀττικοὶ καὶ Ἴωνες τὸν ἀρτοποιόν. ἔστι δὲ τὸ ἀρτοποπεῖν ἐν Μονοτρόπῳ Φρυνίχου. cod. ἀρτόποτον et ἀρτοποτεῖν. ibid. 22, 23 ἀρτοποπήν (ἀρτοποπεῖν Meinek.)· οὕτως Ἀττικοὶ διὰ τοῦ π. Pollux 7, 21 τὸ δὲ ῥῆμα τὸ ἀρτοκοπεῖν (Meinek. ἀρτοποπεῖν) ἐν Φρυνίχου Μονοτρόπῳ. Phrynich. Ecl. 222 ἀρτοκόπος ἀδόκιμον. χρὴ δὲ ἀρτοπόπος ἢ ἀρτοποιός λέγειν, ubi cf. Lobeck.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="28" xml:id="kock-0496-monotropos-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <head>γναθοῖ</head>
+              <note type="source">
+                <p>ἀντὶ τοῦ τὴν γνάθον τύπτει. Φρύνιχος Μονοτρόπῳ. Bekker. Anecd. 87, 8. Hesych. γναθοῦν· τὸ εἰς γνάθους τύπτειν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0496-monotropos-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <head>θηλάζει</head>
+              <note type="source">
+                <p>ἀντὶ τοῦ δίδωσι θηλήν. Φρύνιχος Μονοτρόπῳ. Bekker. Anecd. 99, 14.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30" xml:id="kock-0496-monotropos-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_monotropos">
+              <note type="source">
+                <p>Photius et Suidas παρθένοι· τὰς Ἐρεχθέως θυγατέρας οὕτως ἔλεγον καὶ ἐτίμων. ἦσαν δὲ τὸν ἀριθμὸν ἕξ. πρεσβυτάτη μὲν Πρωτογένεια, δευτέρα δὲ Πανδώρα, τρίτη Πρόκρις, τετάρτη Κρέουσα, πέμπτη Ὠρείθυια, ἕκτη Χθονία· τούτων λέγεται Πρωτογένεια καὶ Πανδώρα δοῦναι ἑαυτὰς σφαγῆναι ὑπὲρ τῆς χώρας, στρατιᾶς ἐλθούσης ἐκ Βοιωτίας· ἐσφαγιάσθησαν δὲ ἐν τῷ Ὑακίνθῳ καλουμένῳ πάγῳ ὑπὲρ τῶν Σφενδονίων. διὸ καὶ οὕτως καλοῦνται παρθένοι Ὑακινθίδες, καθάπερ μαρτυρεῖ Φανόδημος ἐν τῇ ε΄ Ἀτθίδι, μεμνημένος τῆς τιμῆς αὐτῶν, καὶ Φρύνιχος Μονοτρόπῳ. pro Σφενδονίων Meinekius Σφενδονῶν. Bekker. Anecd. 202, 22 ἀφιδρύματα ἐν ταῖς σφενδόναις· ἀφιδρύματα μὲν τὰ ἀγάλματα, σφενδόναι δὲ τόπος Ἀθήνησιν. Hesych. Ὑακινθίδες· ἐπώνυμοι [Ἀπόλλωνος] ἀπὸ Ὑακίνθου 'sc. πάγου' M. Schmidt.</p>
+              </note>
+              <note type="apparatus">
+                <p>Ad Monotropum Bergkius R. c. Att. 372 refert fr. 59. cf. fr. 58.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

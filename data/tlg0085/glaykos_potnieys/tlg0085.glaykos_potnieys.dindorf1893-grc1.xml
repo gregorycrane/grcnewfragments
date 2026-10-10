@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΓΛΑΥΚΟΣ ΠΟΤΝΙΕΥΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.glaykos_potnieys; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.glaykos_potnieys.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.glaykos_potnieys.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_potnieys"><head>ΓΛΑΥΚΟΣ ΠΟΤΝΙΕΥΣ</head>
+          <pb n="594" facs="urn:hathi:iau.31858007086675:scan:602"/>
+          <div type="textpart" subtype="fragment" n="29" xml:id="frag_e2d6a7d954" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_potnieys" sameAs="urn:cts:greekLit:tlg0085.glaykos_potnieys.nauck1889-grc1:38">
+            <note type="source">Schol. Euripidis Phœniss. 1194. Matth. ῎Αξονές τ᾽ ἐπ᾿ ἄξοσι: καὶ παρὰ τῷ Αἰσχύλῳ ἐν Γλαύκῳ Ποτνιεῖ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_e2d6a7d954-l1" xml:lang="grc">Ἐφ᾽ ἅρματος γὰρ ἅρμα καὶ νεκρῷ νεκρὸς,</l>
+              <l n="2" xml:id="frag_e2d6a7d954-l2" xml:lang="grc">ἵπποι δ᾽ ἐφ᾽ ἵπποις ἦσαν ἐμπεφυρμένοι.</l>
+            </lg>
+            <note type="commentary">Priorem versum affert Aristophanes in Ranis v. 1403. (1447.) ubi scholiasta, τὸ δὲ, ἐφ᾽ ἅρματος γὰρ ἅρμα, ἐκ Γλαύκου Ποτνιέως τοῦ Αἰσχύλου.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="30" xml:id="frag_1eba37e498" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_potnieys" sameAs="urn:cts:greekLit:tlg0085.glaykos_potnieys.nauck1889-grc1:39">
+            <note type="source">Scholiasta Homeri Iliad. v, 198. (Eustathius p. 927, 39.) Αἰσχύλος περὶ Γλαύκου</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_1eba37e498-l1" xml:lang="grc">Εἶλκον δ᾽ ἄνω λυκηδὸν, ὥστε διπλόοι</l>
+              <l n="2" xml:id="frag_1eba37e498-l2" xml:lang="grc">λύκοι νεβρὸν φέρουσιν ἀμφὶ μασχάλαις.</l>
+            </lg>
+            <note type="commentary">δ' addidit Hermannus p. 63.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="31" xml:id="frag_c8b328ea2f" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_potnieys" sameAs="urn:cts:greekLit:tlg0085.glaykos_potnieys.nauck1889-grc1:36">
+            <note type="source">Scholiasta Aristoph. Ran. v. 1576. Εὐοδίαν : εὐκολίαν περὶ τὴν ὁδόν. ταῦτα δὲ παρὰ τὰ ἐν Γλαύκῳ Ποτνιεῖ Αἰσχύλου</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_c8b328ea2f-l1" xml:lang="grc">“Εὐοδίαν μὲν πρῶτα (πρῶτον Butlerus) ἀπὸ στόματος χέομεν.”</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="32" xml:id="frag_081284bbdb" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_potnieys" sameAs="urn:cts:greekLit:tlg0085.glaykos_potnieys.nauck1889-grc1:41">
+            <note type="source">Hesychius, Ἀμφίσωπον: περίωπον, πάντοθεν ἀναπεπταμένον. Αἰσχύλος Γλαύκῳ Ποτνιεῖ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="33" xml:id="frag_6def4d33dc" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_potnieys" sameAs="urn:cts:greekLit:tlg0085.glaykos_potnieys.nauck1889-grc1:40">
+            <note type="source">Hesychius, Εὐφήμοις γόοις: δυσφήμοις, κατὰ ἀντίφρασιν. Αἰσχύλος Γλαύκῳ Ποτνιεῖ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="34" xml:id="frag_bdce82ee62" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_potnieys" sameAs="urn:cts:greekLit:tlg0085.glaykos_potnieys.nauck1889-grc1:42">
+            <note type="source">Hesychius, Ἴτηλον: τὸ ἔμμονον καὶ οὐκ ἐξίτηλον. Αἰσχύλος Γλαύκῳ Ποτνιεῖ. Photius p. 118, 3. Ἴτηλον: τὸν οὐκ ἐξίτηλον, ἀλλ᾽ ἀνεξάλειπτον. οὕτως Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="35" xml:id="frag_c57448b2ab" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_potnieys">
+            <note type="source">Hesychius, Ξιφίρου λιμήν: Αἰσχύλος Γλαύκῳ Ποτνιεῖ (Ποντίῳ Hermannus p. 69). ὁ πορθμός. ταῦτα γὰρ πάντα τὰ περὶ Ῥήγιον ὡρείων. τῶν περὶ Ῥήγιον ὁρίων Valesius. τῶν νεωρίων Alberti. Ξιφωνίου Bernhardyus. V. Thes. Steph. vol. V. p. 1671. ed. Par.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="36" xml:id="frag_c4d8455ea7" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_potnieys" sameAs="urn:cts:greekLit:tlg0085.glaykos_potnieys.nauck1889-grc1:37">
+            <note type="source">Schol. Platonis p. 16. (370 Bekk.) Ἀγὼν πρόφασιν οὐκ ἀναμένει. — Α. δέ φησι Γλαύκῳ Ποτνιεῖ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_c4d8455ea7-l1" xml:lang="grc">Ἀγὼν γὰρ ἄνδρας οὐ μένει λελειμμένους.</l>
+            </lg>
+          </div>
+        </div></body></text>
+</TEI>

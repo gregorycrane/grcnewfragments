@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-nayplios_katapleon-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΝΑΥΠΛΙΟΣ ΚΑΤΑΠΛΕΩΝ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.nayplios_katapleon; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.nayplios_katapleon.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.nayplios_katapleon.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_katapleon"><head>ΝΑΥΠΛΙΟΣ ΚΑΤΑΠΛΕΩΝ</head><div type="textpart" subtype="fragment" n="375" xml:id="fragment-nayplios_katapleon-dindorf1893_grc1-375" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_katapleon">
+            <note type="source">Schol. Pindari Isthm. V, 10. Τὸν δὲ τρίτον κρατῆρα Διὸς Σωτῆρος ἔλεγον, καθὰ καὶ Σοφοκλῆς ἐν Ναυπλίῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ζεῦ παυσίλυπε καὶ Διὸς σωτηρίου</l>
+              <l n="2" xml:lang="grc">σπονδὴ τρίτου κρατῆρος</l>
+            </lg>
+            <note type="source">Hesychius, Τρίτες κρατήρ: Σ. Ναυπλίῳ καταπλέοντι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="376" xml:id="fragment-nayplios_katapleon-dindorf1893_grc1-376" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_katapleon">
+            <note type="source">Stephanus in Ασπὶς-Σοφοκλῆς ἐν Ναυπλίῳ καταπλέοντι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀλλ᾽ ἀσπιδίτην ὄντα καὶ πεφραγμένον,</l>
+              <l n="2" xml:lang="grc">ὡς ἀσπιδοῦχος, ἢ Σκύθης τοξεύμασι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="377" xml:id="fragment-nayplios_katapleon-dindorf1893_grc1-377" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_katapleon">
+            <note type="source">Stobæus CIV, 3. Σ. Ν.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τῷ γὰρ κακῶς πράσσοντι μυρία μία</l>
+              <l n="2" xml:lang="grc">νύξ ἐστιν· εὖ παθόντα εἶθ᾽ ἑτέρα θανεῖν.</l>
+            </lg>
+            <note type="apparatus">εἶθ᾽ ἑτέρα] θητέρα Brunckius.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="378" xml:id="fragment-nayplios_katapleon-dindorf1893_grc1-378" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_katapleon">
+            <note type="source">Aristides I, p. 259. Ποίας Ναυπλίου παγας ὑποπύρους, ὡς ἔφη Σοφοκλῆς, ἄξιον τῇ πυρκαϊᾷ ταύτῃ παραβαλεῖν;</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="379" xml:id="fragment-nayplios_katapleon-dindorf1893_grc1-379" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_katapleon">
+            <note type="source">Achilles Tatius Isag. ad Arati Phænom. cap. Ι. Σοφοκλῆς δὲ Παλαμήδει ἀνατίθησιν. λέγοντα γὰρ Ναύπλιον εἰσάγει</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὗτος δ᾽ ἐφεῦρε τεῖχος Ἀργείων στρατῷ,</l>
+              <l n="2" xml:lang="grc">σταθμῶν, ἀριθμῶν καὶ μέτρων εὑρήματα.</l>
+              <l n="3" xml:lang="grc">κἀκεῖν᾽ ἔτευξε πρῶτος ἐξ ἑνὸς δέκα,</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0019-nesoi-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aristophanes, ΝΗΣΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aristophanes</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="716" to="745"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 716–745. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aristophanes-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-09">Folded page-local headings into stable Aristophanic work identities, restored Dindorf's per-work numbering, and removed demonstrable duplicate page-724 records; transcribed content otherwise unchanged. Geras is absent from the source extraction.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0019.nesoi; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0019.nesoi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0019.nesoi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi"><head>ΝΗΣΟΙ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-nesoi-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi">
+            <note type="source">(1.) Scholiasta Avium v. 297. Εἴσοδος δὲ λέγεται ἡ ὁ χορὸς εἶσεισιν ἐν τῇ σκηνῇ. καὶ ἐν ταῖς Νήσοις</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰσὶν δέ που</l>
+              <l n="2" xml:lang="grc">αἱδὶ κατ᾽ αὐτὴν ἣν βλέπεις τὴν εἴσοδον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-nesoi-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi">
+            <note type="source">2.) Stobæus LV, 7. Ἀριστοφάνους Νήσων</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ μῶρε μῶρε, ταῦτα πάντ᾽ ἐν τῇδ᾽ ἔνι,</l>
+              <l n="2" xml:lang="grc">οἰκεῖν μὲν ἐν ἀγρῷ τοῦτον ἐν τῷ γηδίῳ</l>
+              <l n="3" xml:lang="grc">ἀπαλλαγέντα τῶν κατ᾽ ἀγορὰν πραγμάτων,</l>
+              <l n="4" xml:lang="grc">κεκτημένον ζευγάριον οἰκεῖον βοοῖν,</l>
+              <l n="5" xml:lang="grc">ἔπειτ᾽ ἀκούειν προβατίων βληχωμένων,</l>
+              <l n="6" xml:lang="grc">τρυγός τε φωνὴν εἰς λεκάνην ὠθουμένης,</l>
+              <l n="7" xml:lang="grc">ὄψῳ δὲ χρῆσθαι σπινιδίοις τε καὶ κίχλαις,</l>
+              <l n="8" xml:lang="grc">καὶ μὴ περιμένειν ἐξ ἀγορᾶς ἰχθύδια</l>
+              <l n="9" xml:lang="grc">τριταῖα πολυτίμητα βεβασανισμένα</l>
+              <l n="10" xml:lang="grc">ἐπ᾽ ἰχθυοπώλου χειρὶ παρανομωτάτῃ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-nesoi-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi">
+            <note type="source">(3.) Pollux VI, 45. Καὶ θλαστὰς δὲ ἐλαίας ἐν Νήσοις ἂν εὕροις Ἀριστοφάνους. Athenæi epitome II, p. 56 b. Μνημονεύει τῶν θλαστῶν ἐλαῶν Ἀριστοφάνης</note>
+            <quote>Θλαστὰς ποιεῖν ἐλάας.</quote>
+            <note type="commentary">πάλιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐ ταυτόν ἐστιν ἁλμάδες καὶ στέμφυλα.</l>
+            </lg>
+            <note type="commentary">καὶ μετ᾽ ὀλίγα</note>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Θλαστὰς γὰρ εἶναι κρεῖττόν ἐστιν ἁλμάδος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-nesoi-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi">
+            <note type="source">(4.) Suidas, Ἔξεχ᾽ ὦ φίλ᾽ ἥλιε: Ἀριστοφάνης Νήσοις</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Λέξεις ἄρα</l>
+              <l n="2" xml:lang="grc">ὥσπερ τὰ παιδί᾽ ἔξεχ᾽ ὦ φιλ᾽ ἤλιε.</l>
+            </lg>
+            <note type="commentary">Conf. Eustathius p. 881, 42.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-nesoi-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi">
+            <note type="source">(5.) Scholiasta Avium v. 439. Ἔοικε δὲ Παναίτιον κωμῳδεῖν, ὃν καὶ ἐν Νήσοις</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καταλιπών Παναίτιον</l>
+              <l n="2" xml:lang="grc">πίθηκον.</l>
+            </lg>
+            <note type="commentary">Suidas in διαθήκην διαθώμεθα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-nesoi-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi">
+            <note type="source">(6.) Etymolog. M. p. 338, 52. Ἔνδημος: ὁ μὴ ἀποδημῶν, ἐπίδημος δὲ ὁ ἐπιδημῶν ξένος. καὶ παρὰ Ἀριστοφάνει ἐν Νήσοις</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀλλ᾽ οὐ τυγχάνει</l>
+              <l n="2" xml:lang="grc">ἐπίδημος ὤν.</l>
+            </lg>
+            <note type="commentary">λέγεται δὲ περὶ τοῦ Ποσειδῶνος ὅτι οὐκ ἐπιδημεῖ Ἰσθμοῖ, κυρίως εἰρημένον. οὐχ οὕτω γὰρ Ἴσθμιος ὁ θεὸς ὡς διὰ παντὸς ἐκεῖ διατρίβειν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-nesoi-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi">
+            <note type="source">(7.) Photius p. 311, 16. et Suidas in ξυννένοψε</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὡς ἐς τὴν γῆν κύψασα κάτω καὶ ξυννενοφυῖα βαδίζει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-nesoi-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi">
+            <note type="source">(8.) Pollux IX, 89.</note>
+            <quote>Τἀργύρια ἐπὶ τοῦ ἀργυρίου – εὗρον ἐν ταῖς Νήσοις Ἀριστοφάνους, εἰ μὴ ὑποπτεύεται τὸ δρᾶμα ὡς Ἀριστοφάνους οὐ γνήσιον.</quote>
+            <note type="source">Idem VII, 104.</note>
+            <quote>Εἴρηται δὲ καὶ ἀργύρια ἐν Ἀριστοφάνους Νήσοις.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-nesoi-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi">
+            <note type="source">(9.) Etymolog. M. p. 333, 33.</note>
+            <quote>Ἔλυμος· σπέρμα τι ὁ ἔψοντες οἱ Λάκωνες ἤσθιον. Ἀριστοφάνης Νήσοις.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-nesoi-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi">
+            <note type="source">(10.) Pollux X, 47.</note>
+            <quote>Θρᾶνοι, θρανία, θρανίδια ἐν Νήσοις Ἀριστοφάνους.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-nesoi-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_nesoi">
+            <note type="source">(11.) Hesychius.</note>
+            <quote>Θύρσος· αὐλητὴς ἦν, γυναῖκα ἔχων ἑταίραν. Θύρσου κυνῆ· Ἀριστοφάνης ἐν Νήσοις, οὐ τοῦ αὐλητοῦ μνημονεύων, ἀλλ' ἀντὶ τοῦ φύλλα εἰπεῖν καὶ κλάδους. Θύρσοι· κλάδοι, λαμπάδες, λύχνα.</quote>
+          </div>
+        </div></body></text></TEI>

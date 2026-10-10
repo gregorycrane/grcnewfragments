@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΚΡΗΣΣΑΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.kressai; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.kressai.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.kressai.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:kressai"><head xml:lang="grc">ΚΡΗΣΣΑΙ</head>
+          <note type="introduction" xml:lang="mul">Fabulae argumentum fuisse idem quod Sophoclis Μάντεων Od. Mueller et alii e fr. 116 coniecerunt.</note>
+          <div type="textpart" subtype="fragment" n="116" corresp="urn:cite2:perseus:fragmentaryplays.v1:kressai" xml:id="aesch-fr116">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-116-1">λευκοῖς τε γὰρ μόροισι καὶ μελαγχίμοις</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-116-2">καὶ μιλτοπρέπτοις βρίθεται ταὐτοῦ χρόνου.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. II p. 51 D : μόρα δὲ τὰ συκάμινα καὶ παρ’ Αἰσχύλῳ ἐν Φρυξίν — ἐν δὲ Κρήσσαις [καὶ τὰ τῆς βάτου] λευκοῖς — χρόνου . Eust. Il. p. 1254, 25 : Αἰσχύλος (immo Eur. Phoen. 372) πέπλους μελαγχίμους φησίν· ἕτερος δέ τις μελάγχιμα συκάμινα ἐν τῷ λευκοῖς — μελαγχίμοις, ὅ πέρ ἐστι μέλασι, καὶ μιλτοπρέπτοις ἤγουν ἐρυθροῖς βρίθεται ταὐτοῦ χροιᾶ . Pollux 6, 46 : συκάμινα· ταῦτα δὲ καὶ μόρα Αἰσχύλος ὠνόμακεν, τὰ ἄγρια οὕτως ὀνομάσας τὰ ἐκ τῆς βάτου.</note>
+            <note type="sourceContext" xml:lang="mul">v. 2 μιλτοπρέπτοις μιλτοπρέποις . v. 2 βρίθεται fortasse spectat Hesych. 1 p. 399 : βρίθεται· βαρύνεται καρπῷ . v. 2 χρόνου χροιά .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="117" corresp="urn:cite2:perseus:fragmentaryplays.v1:kressai" xml:id="aesch-fr117">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-117-1">. . . . . αὐτορέγμονος πότμου</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 328 : αὐτορέγμονος πότμου· ὅσον ἑαυτὸν ἔρεξε καὶ κατευθὺς ἑαυτορέγμονος, παρὰ τὸ ὀρέγειν τὴν χεῖρα. Αἰσχύλος Κρήσσαις (κρή/τ codex) . Hermann scribendum coni. οἷον ἑαυτοῦ ὀρέξεται κατευθὺς αὐτορέγμονος | πότμου . probabilius videtur quod L. Dindorf proposuit, ὅσον ἑαυτὸν ἔρεξε καὶ κατέθυσε. αὐτορέγμονος, παρὰ τὸ ὀρέγειν τὴν χεῖρα. nam duas grammaticus profert etymologias, alteram qua αὐτορέγμονος ducatur ab verbo ῥέζειν , alteram qua ab ὀρέγειν . hinc vero apparet requiri ἢ αὐτορέγμονος παρὰ τὸ ὀρέγειν τὴν χεῖρα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="118" corresp="urn:cite2:perseus:fragmentaryplays.v1:kressai" xml:id="aesch-fr118">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-118-1">. . . . . πισσοκωνήτῳ πυρί</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Phot. Lex. p. 430, 24 : πισσοκωνήτῳ πυρί· τῷ εὐκαύτῳ , ἐπεὶ τὰ καιόμενα πυρὶ χρίεται. Αἰσχύλος Κρήσσαις. Hesych. 3 p. 337 : πισσοκωνήτῳ (πισσοκονήτω cod.) πυρί· πίσσῃ χρίουσιν, ἵνα τάχιον κατακαίηται. κωνῆσαι δέ ἐστι τὸ περιενεγκεῖν. Hesych. 2 p. 564 : κωνῆσαι (κωνεῖσαι cod.) πισσοκοπῆσαι (Salmasius πισσοκωνῆσαι scribendum coniecit, πίσσῃ καταχρῖσαι malim) καὶ κύκλῳ περιενεγκεῖν. καὶ πισσοκώνητον (πισσοκόνιτον cod.) μόρον λέγουσιν, ὅταν πίσσῃ καταχρισθέντες τινὲς ὑπὸ πυρὸς ἀποθάνωσιν. Αἰσχύλος Κρήσσαις καὶ Κρατῖνος (αἰσχύλος καὶ κρατῖνος κρήσαις codex, corr. Alberti) .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="119" corresp="urn:cite2:perseus:fragmentaryplays.v1:kressai" xml:id="aesch-fr119">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-119-1">ἀτόπαστον</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 315 : ἀτόπαστονἀτόπλαστον cod.· ἀνείκαστον. τοπάζειν γὰρ τὸ εἰκάζειν, καὶ τὸ ὑποτοπῆσαι (ὑπὸ τὸ πονῆσαι cod.) δὲ ἐνθένδε λέγεται. Αἰσχύλος Κρήσσαις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="120" corresp="urn:cite2:perseus:fragmentaryplays.v1:kressai" xml:id="aesch-fr120">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-120-1">ἐπιξενοῦσθαί</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 2 p. 162 : ἐπιξενοῦσθαί· μαρτύρεσθαι, πορεύεσθαι. Σοφοκλῆς Ἀχαιῶν συλλόγῳ καὶ Αἰσχύλος Κρήσσαις (κρήσαις cod.) .</note>
+          </div>
+        </div></body></text>
+</TEI>

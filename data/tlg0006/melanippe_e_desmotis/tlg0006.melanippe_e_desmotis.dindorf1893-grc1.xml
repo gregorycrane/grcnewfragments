@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-melanippe_e_desmotis-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΜΕΛΑΝΙΠΠΗ Η ΔΕΣΜΩΤΙΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.melanippe_e_desmotis; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis"><head>ΜΕΛΑΝΙΠΠΗ Η ΔΕΣΜΩΤΙΣ</head><div type="textpart" subtype="fragment" n="12" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis">
+            <note type="source">12. Athen. XII, p. 523 E.</note>
+            <quote>Ὠνομάσθη δ' ἡ Σίρις, ὡς μὲν Τίμαιός φησι καὶ Εὐριπίδης ἐν δεσμώτιδι (ἢ) Μελανίππῃ ἀπὸ γυναικός τινος Σίριδος, ὡς δ' Ἀρχίλοχος, ἀπὸ ποταμοῦ.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:491">
+            <note type="source">13. Stobæus LXXVI, 10.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἴστω δ' ἄφρων ὢν, ὅστις ἄτεκνος ὢν τὸ πρὶν</l>
+              <l n="2" xml:lang="grc">παῖδας θυραίους εἰς δόμους ἐκτήσατο,</l>
+              <l n="3" xml:lang="grc">τὴν μοῖραν εἰς τὸ μὴ χρεὼν παραστρέφων.</l>
+              <l n="4" xml:lang="grc">ᾧ γὰρ θεὸς δίδωσι μὴ φῦναι τέκνα,</l>
+              <l n="5" xml:lang="grc">οὐ χρὴ 'γκαλεῖσθαι πρὸς τὸ θεῖον, ἀλλ' ἐᾶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis">
+            <note type="source">14. Stobæus LXXXVI, 9.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐγὼ μὲν οὖν οὐκ οἶδ' ὅπως σκοπεῖν χρεὼν</l>
+              <l n="2" xml:lang="grc">τὴν εὐγένειαν· τοὺς γὰρ ἀνδρείους φύσιν</l>
+              <l n="3" xml:lang="grc">καὶ τοὺς δικαίους τῶν κενῶν δοξασμάτων,</l>
+              <l n="4" xml:lang="grc">κἂν ὦσι δούλων, εὐγενεστέρους λέγω.</l>
+              <l n="5" xml:lang="grc">Δοῦλον γὰρ ἐσθλὸν τοὔνομ' οὐ διαφθερεῖ,</l>
+              <l n="6" xml:lang="grc">πολλοὶ δ' ἀμείνους εἰσὶ τῶν ἐλευθέρων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:508">
+            <note type="source">15. Stobæus CXV, 5, c. lem. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Παλαιὸς αἶνος· ἔργα μὲν νεωτέρων,</l>
+              <l n="2" xml:lang="grc">βουλαὶ δ' ἔχουσι τῶν γεραιτέρων κράτος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:512">
+            <note type="source">16. Stobæus XXX, 11, auct. Gesn. ex Melanippa.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀργὸς πολίτης κεῖνος ὡς κακός γ' ἀνήρ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:500">
+            <note type="source">17. Stobæus LXXXIII, 3, c. lem. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὅστις δ' ἄμικτον πατέρ' ἔχει νεανίας</l>
+              <l n="2" xml:lang="grc">στυγνόν τ' ἐν οἴκοις, μεγάλα κέκτηται κακά.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:509">
+            <note type="source">18. Stobæus CXVI, 7, c. lem. Εὐρ. Μελανίππη.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τί δ' ἄλλο, φωνὴ καὶ σκιὰ γέρων ἀνήρ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="19" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:510">
+            <note type="source">19. Stobæus LII, 3, c. lem. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Παπαῖ, νέος καὶ σκαιὸς οἷός ἐστ' ἀνήρ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="20" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis">
+            <note type="source">20. Stobæus Ecl. Phys. I, 9, 19, p. 232 ed. Heer. c. lem. Εὐρ. Πηνελόπῃ (sic).</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ ἔστι πράττοντάς τι μοχθηρὸν λαθεῖν.</l>
+              <l n="2" xml:lang="grc">ὀξὺ βλέπει γὰρ ὁ χρόνος, ὃς τὰ πάνθ' ὁρᾷ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="21" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:503">
+            <note type="source">21. Stobæus LXXII, 13, c. lem. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μετρίων λέκτρων, μετρίων δὲ γάμων</l>
+              <l n="2" xml:lang="grc">μετὰ σωφροσύνης</l>
+              <l n="3" xml:lang="grc">κῦρσαι θνητοῖσιν ἄριστον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis">
+            <note type="source">22. Schol. Platon. p. 68 Ruhnk.</note>
+            <quote>Ἀδώνιδος κήπους· Ἀδώνιδος κῆποι ἐπὶ τῶν ἀώρων καὶ ὀλιγοχρονίων καὶ μὴ ἐρριζωμένων. Ἐμνήσθη δὲ αὐτῶν καὶ Εὐριπίδης Μελανίππῃ καὶ ἐνταῦθα Πλάτων.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="23" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:507">
+            <note type="source">23. Stobæus CXXIV, 16, c. lem. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τί τοὺς θανόντας οὐκ ἐᾷς τεθνηκέναι</l>
+              <l n="2" xml:lang="grc">καὶ τἀκχυθέντα συλλέγεις ἀλγήματα;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="24" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:511">
+            <note type="source">24. Stobæus LXII, 38, c. 1. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δοῦλον γὰρ ἐσθλὸν τοὔνομ' οὐ διαφθερεῖ,</l>
+              <l n="2" xml:lang="grc">πολλοὶ δ' ἀμείνους εἰσὶ τῶν ἐλευθέρων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="25" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:498">
+            <note type="source">25. Stobæus LXXIII, 10, c. lem. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πλὴν τῆς τεκούσης θῆλυ πᾶν μισῶ γένος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="26" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:493">
+            <note type="source">26. Stobæus LXIX, 19, c. lem. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἄλγιστόν ἐστι θῆλυ μισηθὲν γένος.</l>
+              <l n="2" xml:lang="grc">αἱ γὰρ σφαλεῖσαι ταῖσιν οὐκ ἐσφαλμέναις</l>
+              <l n="3" xml:lang="grc">αἶσχος γυναιξί, καὶ κεκοίνωνται ψόγον</l>
+              <l n="4" xml:lang="grc">ταῖς οὐ κακαῖσιν αἱ κακαί· τὰ δ' εἰς γάμους</l>
+              <l n="5" xml:lang="grc">οὐδὲν δοκοῦσιν ὑγιὲς ἀνδράσιν φρονεῖν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="27" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis">
+            <note type="source">27. Athen. XIV, p. 613 D. καὶ Εὐριπίδης δ' ἐν τῇ δεσμώτιδι Μελανίππῃ ἔφη.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀνδρῶν δὲ πολλοὶ τοῦ γέλωτος οὖνεκα</l>
+              <l n="2" xml:lang="grc">ἀσκοῦσι χάριτας κερτόμους. ἐγὼ δέ πως</l>
+              <l n="3" xml:lang="grc">μισῶ γελοίους, οἵτινες μὲν ἐπὶ σοφῶν</l>
+              <l n="4" xml:lang="grc">ἀχάλιν' ἔχουσι στόματα· κεἰς ἀνδρῶν μὲν οὐ</l>
+              <l n="5" xml:lang="grc">τελοῦσιν ἀριθμὸν, ἐν γέλωτι δ' εὐπρεπεῖς.</l>
+              <l n="6" xml:lang="grc">οἰκοῦσι δ' οἴκους καὶ τὰ ναυστολούμενα</l>
+              <l n="7" xml:lang="grc">ἔσω δόμων σώζουσι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="28" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:490">
+            <note type="source">28. Orion. Anthologn. V, 3, p. 47 ed. Schneidewin. c. lem. ἐκ Μελανίππης Δεσμώτιδος.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σὺν τῷ θεῷ χρὴ τοὺς σοφοὺς ἀναστρέφειν</l>
+              <l n="2" xml:lang="grc">βουλεύματ' αἰεὶ πρὸς τὸ χρησιμώτερον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="29" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:494">
+            <note type="source">29. Stobæus LXIX, 11, c. lem. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τῆς μὲν κακῆς κάκιον οὐδὲν γίγνεται</l>
+              <l n="2" xml:lang="grc">γυναικὸς, ἐσθλῆς δ' οὐδὲν εἰς ὑπερβολὴν</l>
+              <l n="3" xml:lang="grc">πέφυκ' ἄμεινον, διαφέρουσι δ' αἱ φύσεις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="30" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:499">
+            <note type="source">30. Script. vit. Eurip., quam Rossignolus in Diariis Erudit. Gall. (m. Aprili a. 1832) e codice quodam Euripidis edidit, hæc verba exhibet, quæ nuper iterarunt God. Hermannus in Opusc. V, p. 202 sq. et Welckerus in Nov. Mus. Rhenan. (1834) I, 2, p. 297 sq.</note>
+            <quote>Λέγουσι δὲ καὶ ὅτι γυναῖκες τοῖς Θεσμοφορίοις ἐπέστησαν αὐτῷ, βουλόμεναι ἀνελεῖν, ἐφείσαντο δὲ αὐτοῦ, πρῶτον μὲν δι' αὐτὰς (αὐτὰς τὰς διὰ τοὺς ψόγους, οὓς ἐποίει εἰς αὐτὰς διὰ τῶν ποιημάτων, Attice Herm.) Μούσας, ἔπειτα δὲ βεβαιωσαμένου μηκέτι αὐταῖς (leg. αὐτὰς) κακῶς ἐρεῖν. ἐν γοῦν τῇ Μελανίππῃ περὶ αὐτῶν τάδε φησίν·</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μάτην ἄρ' εἰς γυναῖκας ἐξ ἀνδρῶν ψόγος</l>
+              <l n="2" xml:lang="grc">ψάλλει κενὸν τόξευμα καὶ κακῶς λέγει·</l>
+              <l n="3" xml:lang="grc">αἱ δ' εἴσ' ἀμείνους ἀρσένων, ἐγὼ λέγω.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="31" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:502">
+            <note type="source">31. Stobæus LXX, 4, c. lem. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὅσοι γαμοῦσι δ' ἢ γένει κρείσσους γάμους,</l>
+              <l n="2" xml:lang="grc">ἢ πολλὰ χρήματ', οὐκ ἐπίστανται γαμεῖν.</l>
+              <l n="3" xml:lang="grc">τὰ τῆς γυναικὸς γὰρ κρατοῦντ' ἐν δώμασιν</l>
+              <l n="4" xml:lang="grc">δουλοῖ τὸν ἄνδρα, κοὐκέτ' ἐστ' ἐλεύθερος.</l>
+              <l n="5" xml:lang="grc">πλοῦτος δ' ἐπακτὸς ἐκ γυναικείων γάμων</l>
+              <l n="6" xml:lang="grc">ἀνόνητος· αἱ γὰρ διαλύσεις οὐ ῥᾳδίαι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="32" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:501">
+            <note type="source">32. Stobæus LXX, 1, c. lem. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γάμους δ' ὅσοι σπεύδουσι μὴ πεπρωμένους,</l>
+              <l n="2" xml:lang="grc">μάτην νοσοῦσιν· ἡ δὲ τῷ χρεὼν πόσει</l>
+              <l n="3" xml:lang="grc">μένουσα κἀσπούδαστος ἦλθεν εἰς δόμους.</l>
+            </lg>
+          </div>
+        <div type="textpart" subtype="fragment" n="33" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:504">
+            <note type="source">33. Stobaeus XCIV, 1, c. lemm. Εὐρ. Μελανίππῃ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ τέκνον, ἀνθρώποισιν ἔστιν οἷς βίος</l>
+              <l n="2" xml:lang="grc">ὁ μικρὸς εὐκρὰς ἐγένεθ᾽, οἷς δ᾽ ὄγκος κακόν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="34" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:513">
+            <note type="source">34. Erotian. v. Ἀλάστορες. p. 62. Βακχεῖος μὲν ἐν πρώτῳ φονεῖς φησὶν ἐκ τῆς Εὐριπίδου Μελανίππης</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἴσως ἀλάστορας οὐκ ἐτόλμησε κτανεῖν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="35" xml:id="fragment-melanippe_e_desmotis-dindorf1893_grc1-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_melanippe_e_desmotis" sameAs="urn:cts:greekLit:tlg0006.melanippe_e_desmotis.nauck1889grc1:505">
+            <note type="source">35. Stobaeus CVIII, 24, c. lem. Εὐρ. Μελανίππῃ. Plut. consol. ad Apollon. 29, (p. 116 F,) c. solo nomine Euripidis.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὰ προσπεσόντα δ᾽ ὅστις εὖ φέρει βροτῶν,</l>
+              <l n="2" xml:lang="grc">ἄριστος εἶναι σωφρονεῖν τέ μοι δοκεῖ.</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

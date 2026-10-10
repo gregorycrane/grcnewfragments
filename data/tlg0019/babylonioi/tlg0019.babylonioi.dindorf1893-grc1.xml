@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0019-babylonioi-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aristophanes, ΒΑΒΥΛΩΝΙΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aristophanes</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="716" to="745"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 716–745. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aristophanes-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-09">Folded page-local headings into stable Aristophanic work identities, restored Dindorf's per-work numbering, and removed demonstrable duplicate page-724 records; transcribed content otherwise unchanged. Geras is absent from the source extraction.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0019.babylonioi; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0019.babylonioi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0019.babylonioi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi"><head>ΒΑΒΥΛΩΝΙΟΙ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-babylonioi-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">1. Plutarchus in vita Periclis cap. 26. p. 166 d.</note>
+            <note type="commentary">exposito quam varia fortuna bellum Samium gestum esset ita pergit,</note>
+            <quote>οἱ δὲ Σάμιοι τοὺς αἰχμαλώτους τῶν Ἀθηναίων ἀνθυβρίζοντες ἔστιζον εἰς τὸ μέτωπον γλαῦκας· καὶ γὰρ ἐκείνους οἱ Ἀθηναῖοι σάμαιναν. —πρὸς ταῦτα τὰ στίγματα λέγουσι καὶ τὸ Ἀριστοφάνειον ἠνίχθαι</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σαμίων ὁ δῆμός ἐστιν· ὡς πολυγράμματος.</l>
+            </lg>
+            <note type="commentary">Hesychius, Σαμίων ὁ δῆμος· φησί τι περὶ τῶν Ἀριστοφάνους (φησί τις παρὰ τῷ Ἀριστοφάνει Salmasius), τοὺς ἐκ τοῦ μύλωνος (scr. μυλῶνος) ἰδὼν Βαβυλωνίους “Σαμίων ὁ δῆμός ἐστιν ὡς πολυγράμματος.” καταπληττόμενος τὴν ὄψιν αὐτῶν καὶ ἐπαπορῶν. Photius p. 498, 15, et Suidas in v. Σαμίων, Σαμίων ὁ δῆμος ὡς πολυγράμματος· (ἤτοι μαστιγίας ἐπὶ τῶν περιδείλων, addit Michael Apostolius 1. 1.) Ἀριστοφάνης Βαβυλωνίοις, ἐπισκώπτων τοὺς ἐστιγμένους. οἱ γὰρ Σάμιοι καταπονηθέντες ὑπὸ τῶν τυράννων, σπάνει τῶν πολιτευομένων ἐπέγραψαν τοῖς δούλοις ἐκ πέντε στατήρων τὴν ἰσοπολιτείαν, ὡς Ἀριστοτέλης ἐν τῇ Σαμίων πολιτεία. Addunt grammatici aliam versus interpretationem ab litterarum Ionicarum inventione petitam, sed satis ab ipsis refutatam.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-babylonioi-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">2. Hesychius, Ἰστριανά.</note>
+            <quote>Ἀριστοφάνης ἐν Βαβυλωνίοις τὰ μέτωπα τῶν οἰκετῶν Ἰστριανά φησιν, ἐπεὶ ἐστιγμένοι εἰσίν. οἱ γὰρ παρὰ τῷ Ἴστρῳ οἰκοῦντες στίζονται καὶ ποικίλαις ἐσθήσεσι χρώνται. Διονύσιος δέ φησιν, ἐπεὶ πρότερός τις Ἰστριανὸς λέγεται, ὁ λευκός, κατὰ ἀντίφρασιν εἰρῆσθαι ὡς καθαρὰ καὶ λευκὰ τὰ μέτωπα, τουναντίον δὲ νοεῖσθαι ἐστιγμένα.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-babylonioi-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">3. Photius p. 546, 5.</note>
+            <quote>Στοίχος· στίχος. — Ἀριστοφάνης Βαβυλωνίοις</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἡ που κατὰ στοίχους κεκράξονταί τι βαρβαριστί.</l>
+            </lg>
+            <note type="commentary">Ad hunc locum pertinere videtur Hesychii glossa, κατὰ στίχους· κατὰ τάξεις. Frustra corrigunt κατὰ στίχας ex Homero. Scribe κατὰ στοίχους.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-babylonioi-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">4. Photius p. 538, 20.</note>
+            <quote>Στιγών· ὁ στιγματίας. Βαβυλωνίοις.</quote>
+            <note type="commentary">Hesychius Στιγών· μαστιγίας. Vera scriptura στίγων est. Photii codex accentum ab corrrectore habet. Eustathius p. 1542, 48. οὕτω δὲ καὶ ὁ γράψας ὅτι στίγων καὶ πέδων δοῦλος ὁ στιγματίας καὶ πεδήτης παρὰ Ἀριστοφάνει. eodem p. 725, 32, memoratur στίγων εἴτουν στιγματίας.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-babylonioi-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">5. Scholiasta ad Lysistr. v. 282.</note>
+            <quote>Ἀσπίδας· ὅτι τὰς τάξεις ἀσπίδας ἔλεγον. καὶ αὐτὸς πάλιν Ἀριστοφάνης ἐν Βαβυλωνίοις</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἵστασθ᾽ ἐφεξῆς πάντες ἐπὶ τρεῖς ἀσπίδας.</l>
+            </lg>
+            <note type="commentary">Versum attulit Suidas in v. ἀσπιδηφόροι, sed nomen fabulæ omisit.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-babylonioi-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">6. Athenaeus XI, p. 494 d.</note>
+            <note type="commentary">Præcipuas quasdam Dionysi in hac fabula partes fuisse ex Athenæi loco colligimus</note>
+            <quote>Καν τοῖς Βαβυλωνίοις οὖν τοῖς Ἀριστοφάνους ἀκουσόμεθα ποτήριον τὸ ὀξύβαφον, ὅταν ὁ Διόνυσος λέγῃ περὶ τῶν Ἀθήνησι δημαγωγῶν ὡς αὐτὸν ᾔτουν ἐπὶ τὴν δίκην ἀπελθόντα ὀξυβάφω δύο. οὐ γὰρ ἄλλο τι ἡγητέον εἶναι ἢ ὅτι ἐκπώματα ᾔτουν.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-babylonioi-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">7. Athenaeus III, p. 86 f.</note>
+            <note type="commentary">Dionysi fortasse ex concione redeuntis verba sunt quæ Athenæus servavit,</note>
+            <quote>Τὰς δὲ κόγχας ἔστιν εὑρεῖν λεγομένας καὶ θηλυκῶς καὶ ἀρσενικῶς. Ἀριστοφάνης Βαβυλωνίοις</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀνέχασκον εἰς ἕκαστος ἐμφερέστατα</l>
+              <l n="2" xml:lang="grc">ὀπτωμέναις κόγχαισιν ἐπὶ τῶν ἀνθράκων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-babylonioi-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">8. Scholiasta Avium v. 1555.</note>
+            <quote>Πείσανδρος· καὶ δωροδοκῆσαί φησιν αὐτὸν Ἀριστοφάνης Βαβυλωνίοις διὰ τούτων</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἦ δῶρ᾽ αὐτοῦντες ἀρχὴν πολέμου πορίσειεν μετὰ Πεισάνδρου.</l>
+            </lg>
+            <note type="commentary">Ἦ Portus et Kusterus in οἱ mutarunt, πορίσειεν autem Berglerus ad Lysistratæ v. 490. in πορίσειαν. Quorum neutrum verum: vitii enim sedes in αὐτοῦντες est, quod αἰτῶν scribendum. Videntur hæc ex ejusmodi esse loco excerpta qualis est Ranarum v. 361. Ceterum huc spectat scholiasta Lysistr. v. 491. Πείσανδρος· —κωμῳδοῦσι δὲ αὐτὸν καὶ ὡς δωροδόκον, ὡς ἐν Βαβυλωνίοις Ἀριστοφάνης. De Pisandro comicorum locos collegit Meinekius Quæstion. scen. II, p. 21.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-babylonioi-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">9. Harpocratio, Ἐπιβάτης.</note>
+            <quote>οὕτως ἐκάλουν τῶν ἐν ταῖς τριήρεσι στρατευομένων τοὺς μὴ κωπηλατοῦντας, ἀλλὰ μόνον πρὸς τὸ μάχεσθαι ἐπιτηδείους. Ἀριστοφάνης Βαβυλωνίοις</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εὖ γ᾽ ἐξεκολύμβησ᾽ οὐπιβάτης, ὡς ἐξοίσων ἐπίγειον</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-babylonioi-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(10.) Ammonius p. 149.</note>
+            <note type="commentary">Χόλικες αἱ τῶν βοῶν κοιλίαι. Ἀριστοφάνης Βαβυλωνίοις</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἥ βοιδαρίων τις ἀπέκτεινε ζεύγος χολίκων ἐπιθυμῶν.</l>
+            </lg>
+            <note type="apparatus">ζεύγος omittere Moschopulum (in Bachmanni Anecd. vol. II, p. 381, 10.) ab Valckenario annotatum est. Omittit etiam grammaticus in appendice ad Etymolog. Gudian. p. 640, 44, ubi codex βοϊδαρ΄. Fortasse βοιδαρίοιν scripsit.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-babylonioi-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(11.) Pollux X, 85.</note>
+            <note type="commentary">Οἱ κότυλοι ὅτι καὶ ἀργυροῖ ἐγίγνοντο ἱκανὸς μηνῦσαι Ἀριστοφάνης ἐν Βαβυλωνίοις εἰπὼν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">α. Δεῖ διακοσίων δραχμῶν.</l>
+              <l n="2" xml:lang="grc">β. πόθεν οὖν γένοιντ᾽ ἄν; α. τὸν κότυλον τοῦτον φέρε.</l>
+            </lg>
+            <note type="source">Athenæus XI, p. 478 c.</note>
+            <note type="commentary">καὶ Πλάτων ἐν Διὶ κακουμένῳ “Τὸν κότυλον φέρει” φησὶ καὶ Ἀριστοφάνης ἐν Βαβυλωνίοις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-babylonioi-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(12.) Pollux X, 173.</note>
+            <note type="commentary">Ἀλλὰ μὴν τῷ στεγαστῆρι ὀρόφῳ προσήκοιεν ἂν καὶ οἱ στρωτῆρες καὶ τὰ καλυμμάτια. ἄμφω δὲ ἐν Ἀριστοφάνους Βαβυλωνίοις</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πόσους ἔχει στρωτῆρας ἁνδρὼν (vulgo ἀνδρών) οὑτοσί;</l>
+            </lg>
+            <note type="commentary">καὶ αὖ πάλιν</note>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Ὡς οὐ καλυμματίοις τὸν οἶκον ἤρεφε.</l>
+            </lg>
+            <note type="source">Harpocratio, Στρωτήρ: - τὰ ἐπάνω τῶν δουροδόκων (δοκῶν Suidas) τιθεμενα στρωτῆρας ἔλεγον, ὥς φησι Δίδυμος. ἔστι τοὔνομα καὶ ἐν Βαβυλωνίοις Ἀριστοφάνους. Plura de hoc vocabulo collegit Boeckhius in Inscript. vol. I, p. 281.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-babylonioi-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(13.) Scholiasta ad Lysistrat. v. 288, et Suidas in v. σιμὸς, τὸ σιμὸν: ἀντὶ τοῦ πρόσαντες. καὶ ἐν Βαβυλωνίοις</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μέσην ἔρειδε πρὸς τὸ σιμόν.</l>
+            </lg>
+            <note type="commentary">De hoc loco dictum supra p. 9, 10. Grammaticus in Bachmanni Anecdotis p. 364, 22. Σιμόν: ἄναντες. οὕτως Ἀριστοφάνης.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-babylonioi-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(14.) Etymolog. M, p. 311, 1.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀνήρ τις ἡμῖν ἐστιν ἐγκινούμενος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-babylonioi-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(15.) Photius p. 295, 8.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ Ζεῦ, τὸ χρῆμα τῆς νεολαίας ὡς καλόν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-babylonioi-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(16.) Priscianus XVIII, p. 1181. Putsch. (vol. II, p. 202 ed. Krehl.) "Aristophanes in Babyloniis</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εννεύει με φεύγειν οἴκαδε.</l>
+            </lg>
+            <note type="commentary">Nos quoque similiter, annuit me fugere domum."</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-babylonioi-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(17.) Pollux X, 38. “ Εἰς ἄχυρα καὶ χνοῦν.” Grammaticus in Bachmanni Anecdotis I, p. 418, 24. Χνοῦν: τὸ λεπτὸν τοῦ ἀχύρου. Ἀριστοφάνης.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-babylonioi-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(18.) Photius p. 490, 19. Ῥόθιον: -'Α. Β</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κατάγου ῥοθιάζων” φησὶ, καὶ πάλιν</l>
+              <l n="2" xml:lang="grc">Ναῦς ὅτ᾽ ἂν ἐκ πιτύλων ῥοθιάζῃ σώφρονι κόσμῳ.</l>
+            </lg>
+            <note type="source">Conf. Suidas in v. ῥοθιάζουσιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="19" xml:id="fragment-babylonioi-dindorf1893_grc1-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(19.) Hesychius, Ἐς τὸν λιμένα: εἰς τὸν λιμένα. Ἀριστοφάνης ἐν Βαβυλωνίοις. παρὰ τὴν παροιμίαν, Ἀττικὸς ἐς λιμένα, οἱ γὰρ Ἀθηναίοι συντόνως ήλαυνον</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="20" xml:id="fragment-babylonioi-dindorf1893_grc1-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(20.) Scholiasta Platonis p. 381 ed. Bekker.</note>
+            <quote>Τὴν αὑτοῦ σκιὰν δέδοικεν· ἐπὶ τῶν σφόδρα δειλοτάτων. μέμνηται ταύτης Ἀριστοφάνης Βαβυλωνίοις.</quote>
+            <note type="commentary">Memorat Apostolius XVIII, 53.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="21" xml:id="fragment-babylonioi-dindorf1893_grc1-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(21.) Zenobius Proverb. III, 22.</note>
+            <quote>Ἀνθ' Ἑρμιόνος· εἴρηται ἡ παροιμία ἐπὶ τῶν σωζόντων τοὺς ἱκέτας, ἐπειδὴ ἐν Ἑρμιόνῃ τῆς Πελοποννήσου ἱερὸν ἦν Κόρης καὶ Δήμητρος ἀσφάλειαν παρέχον τοῖς καταφεύγουσι. μέμνηται ταύτης Ἀριστοφάνης ἐν Βαβυλωνίοις.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="fragment-babylonioi-dindorf1893_grc1-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(22.) Aristoteles Rhetoric. III, 2, 15.</note>
+            <quote>Ἔστι δὲ ὁ ὑποκορισμὸς, ὃς ἔλαττον ποιεῖ καὶ τὸ κακὸν καὶ τὸ ἀγαθὸν, ὥσπερ καὶ Ἀριστοφάνης σκώπτει ἐν τοῖς Βαβυλωνίοις ἀντὶ μὲν χρυσίου χρυσιδάριον, ἀντὶ δὲ ἱματίου ἱματιδάριον, ἀντὶ δὲ λοιδορίας λοιδορημάτιον, καὶ νοσημάτιον. εὐλαβεῖσθαι δὲ δεῖ καὶ παρατηρεῖν ἐν ἀμφοῖν τὸ μέτριον.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="23" xml:id="fragment-babylonioi-dindorf1893_grc1-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(23.) Antiatticista Bekkeri p. 80, 14.</note>
+            <quote>Ἁλυκόν· ἀντὶ τοῦ ἁλμυρόν. Ἀ. Β.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="24" xml:id="fragment-babylonioi-dindorf1893_grc1-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(24.) Pollux IV. 186.</note>
+            <quote>Τοὺς δὲ ἀεὶ ῥιγοῦντας οἱ παλαιοὶ ῥιγεσιβίους ἔλεγον, οὓς οἱ νῦν δυσρίγους. Ἀ. δὲ ἐν Β. δύσριγος εἴρηκε.</quote>
+            <note type="commentary">δύσριγος in Menandro reprehendit Phrynichus p. 418.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="25" xml:id="fragment-babylonioi-dindorf1893_grc1-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(25.) Etymolog. M, p. 414, 14.</note>
+            <quote>Ζώντειον· προπαροξυτόνως ὁ μύλων. — Ἀ. Βαβυλωνίοις ζώστειον, ὡς Ὧρος ὁ Μιλήσιος εἴρηκεν.</quote>
+            <note type="commentary">Aliorum grammaticorum locos de hoc vocabulo et cognato ζήτρειον collectos vide in Thesauro Stephani p. CCCXL. ed. Lond.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="26" xml:id="fragment-babylonioi-dindorf1893_grc1-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(26.) Mæris p. 190.</note>
+            <quote>Θωμὸν Ἀττικῶς, ὡς Ἀ. Β.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="27" xml:id="fragment-babylonioi-dindorf1893_grc1-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(27.) Stephanus Byzant. in Λακεδαίμων.</note>
+            <quote>καὶ λακωνίζω καὶ λακωνιστής. λέγεται καὶ λακεδαιμονιάζω, ὡς Ἀ. Β.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="28" xml:id="fragment-babylonioi-dindorf1893_grc1-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(28.) Photius p. 288, 24.</note>
+            <quote>Ναυλόχιον· ἐν τῷ μέσῳ.</quote>
+            <note type="source">Pollux IX, 28.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="29" xml:id="fragment-babylonioi-dindorf1893_grc1-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(29.) Photius p. 347, 27.</note>
+            <quote>Ὁρκωμοτεῖν· τὸ ὀμνύναι. Α. Β.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="30" xml:id="fragment-babylonioi-dindorf1893_grc1-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(30.) Pollux X, 152.</note>
+            <quote>Καὶ πόδα δὲ βαλλαντίου ὁ αὐτὸς εἴρηκεν ἐν Βαβυλωνίοις.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="31" xml:id="fragment-babylonioi-dindorf1893_grc1-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(31.) Antiatticista Bekkeri p. 116, 32.</note>
+            <quote>Ὠτοκάταξιν: τὸν συντετριμμένον τὸ οὖς. Ἀ. Β.</quote>
+            <note type="commentary">Vide Hesychii interpretes.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="32" xml:id="fragment-babylonioi-dindorf1893_grc1-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_babylonioi">
+            <note type="source">(32.)</note>
+            <note type="commentary">Ex Babyloniis aliquid attulit Crates apud scriptorem argumenti Pacis. Quod quale fuerit nescimus. Phormionem, Asopii filium, ex hac fabula memorat scholiasta Pacis v. 347.</note>
+          </div>
+        </div></body></text></TEI>

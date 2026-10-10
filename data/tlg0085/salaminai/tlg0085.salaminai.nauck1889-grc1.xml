@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΣΑΛΑΜΙΝΑΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.salaminai; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.salaminai.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.salaminai.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:salaminai"><head xml:lang="grc">ΣΑΛΑΜΙΝΑΙ</head>
+          <note type="introduction" xml:lang="mul">Σαλαμινίᾳ scriptum in fabularum indice. coniciunt Ὅπλων κρίσιν, Θρῄσσας, Σαλαμινίας trilogiam effecisse, et Salaminiarum argumentum fuisse Teucri infortunitum, quem sine Aiace reversum Telamon Salamine expulerit. fortasse huc respicit Ar. Ran. 1041 qui Aeschylum haec facit dcentem : ὅθεν ἡμὴ φρὴν ἀπομαξαμένη πολλὰς ἀρετὰς ἐπόησεν, Πατρόκλων, Τεύκρων θυμολεόντων, ἵν’ ἐπαίροιμ’ ἄνδρα πολίτην ἀντεκτείνειν αὑτὸν τούτοις, ὁπόταν σάλπιγγος ἀκούσῃ .</note>
+          <div type="textpart" subtype="fragment" n="216" corresp="urn:cite2:perseus:fragmentaryplays.v1:salaminai" xml:id="aesch-fr216">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-216-1">εἴ μοι γένοιτο φᾶρος ἴσον ἐν οὐρανῷ</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Herod. π. μον. λέξ. p. 36, 22 de v. φάρος disputans : οἱ μέντοι τραγικοὶ ἐπίσης ἐκτείνουσι — τὸ Α καὶ συστέλλουσι, ὡς παρ’ Αἰσχύλῳ ἐν Σαλαμινίαις (σαλαμίναις cod.) ’εἴ μοι — οὐρανῷ’ . simiiter Herod. περὶ διχρόνων in Anecd. Oxon. vol. 3 p. 295, 15 et Gramm. Herm. p. 444 . ἶσον ἐν οὐρανῷ ἶσον οὐρανῷ . versus obscurus et fortasse corruptus : quod Cobet V. L. p. 395 credit ἶσον οὐρανῷ scripsisse Aeschylum, ab omni probabilitate abhorret. ἴσον ὂν οὐρανῷ coni. E. A. I. Ahrens.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="217" corresp="urn:cite2:perseus:fragmentaryplays.v1:salaminai" xml:id="aesch-fr217">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-217-1">ἀναρροιβδεῖ</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 181 : ἀναροιδοῖ· ἀναροφεῖ (ἀναρροιβδεῖ ἀναροφεῖ recte Favor.) . Αἰσχύλος Σαλαμινίαις (σαλαμῖνες cod.) , ἀντὶ τοῦ διαπνεῖν (ἀναπνεῖ Meineke Philol. 13 p. 515) . Ὅμηρος δὲ ἀναπίνει καὶ ἀναροφήματα ποιοῦν (ποιὸν M. Schmidt) ἦχον. καὶ Σοφοκλῆς ἐν Ναυσικάᾳ (ἐν ναυσὶ καὶ cod.) ἀντὶ τοῦ ἀναρρίπτει.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="218" corresp="urn:cite2:perseus:fragmentaryplays.v1:salaminai" xml:id="aesch-fr218">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-218-1">ἀνήρης</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 200 : ἀνήρης· ἀνδρώδης. Αἰσχύλος Σαλαμινίαις (σαλαμι codex) . Etym. M. p. 108, 5 : ἀνήρης· ἄνανδρος, οἳ δὲ ἀνάρμοστος. non arbitror extitisse unquam ἀνήρης nomen, sed sicut in Soph. Trach. 460 fuerunt qui pro ἀνὴρ εἷς legerent ἀνήρεις istaque forma ἀνάνδρους παρθένους significari vellent, ita ex ἀνὴρ εἷς corruptum esse suspicor quod Aeschylo tribuitur ἀνήρης, cuius formae monstrosae interpretationem excogitarunt grammatici veteres eadem libertate qua ex Il. Α 6 effecerunt διὰ στήτην esse idem quod διὰ γυναῖκα. cf. quae dixit Dindorf Schol. Soph. p. 71 .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="219" corresp="urn:cite2:perseus:fragmentaryplays.v1:salaminai" xml:id="aesch-fr219">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-219-1">ἔκλογον</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 2 p. 47 : ἔκλογον· διήγησιν. Αἰσχύλος Σαλαμινίαις (ἀσαλαμηνίαις codex) .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="220" corresp="urn:cite2:perseus:fragmentaryplays.v1:salaminai" xml:id="aesch-fr220">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-220-1">κανθύλας</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 2 p. 406 : κανθύλας· τὰς ἀνοιδήσεις. Αἰσχύλος Σαλαμινίαις. ibid. p. 512 : κονθηλαί· αἱ ἀνοιδήσεις. genuinam nominis formam ignoramus.</note>
+          </div>
+        </div></body></text>
+</TEI>

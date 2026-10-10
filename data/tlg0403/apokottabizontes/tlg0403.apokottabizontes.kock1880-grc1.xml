@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>AMIPSIAS, ΑΠΟΚΟΤΤΑΒΙΖΟΝΤΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Amipsias</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0403.apokottabizontes.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0403.apokottabizontes.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0403.apokottabizontes.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_apokottabizontes"><head>ΑΠΟΚΟΤΤΑΒΙΖΟΝΤΕΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0403-apokottabizontes-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_apokottabizontes">
+              <lg>
+                <l n="1" xml:id="kock-0403-apokottabizontes-1-l1" xml:lang="grc">ἐγὼ δ’ ἰὼν πειράσομαι</l>
+                <l n="2" xml:id="kock-0403-apokottabizontes-1-l2" xml:lang="grc">εἰς τὴν ἀγορὰν ἔργον λαβεῖν. Β. ἧττόν γ’ ἂν οὖν</l>
+                <l n="3" xml:id="kock-0403-apokottabizontes-1-l3" xml:lang="grc">νῆστις καθάπερ κεστρεὺς ἀκολουθήσεις ἐμοί.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 307 e ὅτι δὲ εἶδος κεστρέων οἱ νήστεις . . . Ἀμειψίας Ἀποκοτταβίζουσιν κτλ.</note>
+              <note type="apparatus">1. ἰὼν Abreschius] ἰδών. 2. ἧττον γὰρ οὖν Meinek. I 201 et Dobraeus Adv. II 316. 3. νῆστις ἀκολουθήσεις ἐμοὶ κεστρεύς Meinek. Analect. Ath. 137. cf. Cratin. 52 et Aristoph. fr. 156. Photius ἔργον· ὁ μισθός. καὶ λαβεῖν ἔργον τὸ μισθῶσαι ἑαυτόν. de particulis γὰρ οὖν Meinekius relegat ad Hermann. Viger. p. 449, Elmsl. Eurip. Med. 804, 9. videtur conloqui parasitus cum eo quem frustra secutus erat sperans fore ut ab eo invitaretur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0403-apokottabizontes-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_apokottabizontes">
+              <lg>
+                <l n="1" xml:id="kock-0403-apokottabizontes-2-l1" xml:lang="grc">ἡ Μανία, φέρ’ ὀξύβαφα καὶ κανθάρους</l>
+                <l n="2" xml:id="kock-0403-apokottabizontes-2-l2" xml:lang="grc">καὶ τὸν ποδανιπτῆρ’ ἐγχέασα θύδατος.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 667f αὕτη δ’ (ἡ λεκάνη) ὕδατος πληροῦται, ἐπινεῖ τε ἐπ’ αὐτῆς ὀξύβαφα κενά, ἐφ’ ἃ βάλλοντες τὰς λάταγας ἐκ καρχησίων ἐπειρῶντο καταδύειν . . . Ἀμειψίας Ἀποκοτταβίζουσιν κτλ. et 11, 473d ὅτι δὲ καὶ ποτήριόν τι οὕτω (κάνθαρος) καλεῖται, Ἀμειψίας ἐν Ἀποκοτταβίζουσί φησιν· ἡ Μ. — κανθάρους. ἡ 473d] ἡ 667f.</note>
+              <note type="apparatus">2. ποδανιπτῆρ’] ποδανιπτῆρα A. θύδατος Dindorf.] θ’ ὕδατος. Μανία servae nomen est. non recte ut videtur μαμία 473d (μαμμία, cf. Meinek. Anal. Ath. 218).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0403-apokottabizontes-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_apokottabizontes">
+              <lg>
+                <l n="1" xml:id="kock-0403-apokottabizontes-3-l1" xml:lang="grc">δυοῖν ὀβολοῖν ἔγχουσα καὶ ψιμύθιον</l>
+              </lg>
+              <note type="source">Etymol. m. 313, 30 διὰ τοῦ ᾱ λέγεται ἄγχουσα, Ἀττικοὶ δὲ</note>
+              <pb n="671" facs="urn:hathi:hvd.hxijva:scan:703"/>
+              <note type="apparatus">διὰ τοῦ ε. Ἀμειψίας Ἀποκοτταβίζουσι κτλ. ἔγχουσα D] ἔγχουσαν. ψιμύθιον D] ψιμμύθιον.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0403-apokottabizontes-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_apokottabizontes">
+              <lg>
+                <l n="1" xml:id="kock-0403-apokottabizontes-4-l1" xml:lang="grc">ἐγὼ δὲ Διόνυσος πᾶσιν ὑμῖν εἰμι πέντε καὶ δύο.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 426f οἱ δ' ἐπιτεταμένως χρώμενοι τῷ ποτῷ δύο οἴνου ἔπινον πρὸς πέντε ὕδατος . . . Ἀμειψίας ἐν Ἀποκοτταβίζουσιν κτλ.</note>
+              <note type="apparatus">Διόνυσος et ὑμῖν eicit Schweighaeus. Meinek. ἐγὼ δὲ Διόνυσος · | ἅπασιν ὑμῖν εἰμι κτλ. cf. Eupol. 8. Nicochar. 1. ipse Bacchus loquitur, non homo dei nomine praeditus; quod Meinekius monuit propter Fritzschium Q. Arist. 236.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0403-apokottabizontes-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0403_apokottabizontes">
+              <p>κλιβανίτης ἄρτος</p>
+              <note type="source">Ἀμειψίας Ἀποκοτταβίζουσιν. Bekker. Anecd. 103, 3. cf. Lexic. Herm. 326. Lobeck. Phryn. 179.</note>
+              <note type="apparatus">Ad Apocottabizontas fr. 22 refert Bergk. R. c. Att. 368.</note>
+            </div>
+          </div></body></text></TEI>

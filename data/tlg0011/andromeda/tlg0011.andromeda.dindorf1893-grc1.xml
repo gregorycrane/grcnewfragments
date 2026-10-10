@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-andromeda-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΑΝΔΡΟΜΕΔΑ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.andromeda; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.andromeda.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.andromeda.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda"><head>ΑΝΔΡΟΜΕΔΑ</head><div type="textpart" subtype="fragment" n="128" xml:id="fragment-andromeda-dindorf1893_grc1-128" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda">
+            <note type="source">Eratosthenes Catasterism. 16.</note>
+            <quote>Τὴν Κασσιέπειαν ἱστορεῖ Σοφοκλῆς ὁ τῆς τραγωδίας ποιητὴς ἐν Ἀνδρομέδᾳ, ἐρίσασαν περὶ κάλλους ταῖς Νηρηίσιν εἰσελθεῖν εἰς τὸ συμπτωμα καὶ Ποσειδῶνα διαφθεῖραι τὴν χώραν, κῆτος ἐπιπέμψαντα. — Idem 36. Τοῦτο τὸ κῆτός ἐστιν ὁ Ποσειδῶν ἔπεμψε Κηφεῖ, διὰ τὸ Κασσιέπειαν ἐρίσαι περὶ κάλλους ταῖς Νηρηίσι· Περσεὺς δ᾽ αὐτὸ</quote>
+          </div>
+        <div type="textpart" subtype="fragment" n="129" xml:id="fragment-andromeda-dindorf1893_grc1-129" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda" sameAs="urn:cts:greekLit:tlg0011.andromeda.nauck1889grc1:123">
+            <note type="source">Athenæus XI. p. 482 d.</note>
+            <quote>Ὅτι δὲ καὶ πλοῖον ἡ κύμβη Σοφοκλῆς ἐν Ἀνδρομέδᾳ φησὶν</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἵπποισιν, ἢ κύμβαισι ναυστολοῖς χθόνα ;</l>
+            </lg>
+            <note type="source">Attulit Eustathius p. 1205, 56. Photius p. 187, 3. Κύνβη: πλοίου εἶδος. Σοφοκλῆς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="130" xml:id="fragment-andromeda-dindorf1893_grc1-130" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda" sameAs="urn:cts:greekLit:tlg0011.andromeda.nauck1889grc1:124">
+            <note type="source">Phrynichus p. 374. Lobeck.</note>
+            <quote>Πολλὴν διατριβὴν ἐποιησάμην ἐπισκοπούμενος, εἰ μόνον λέγεται πρόσφατος νεκρὸς καὶ μὴ πρόσφατον πρᾶγμα. εὑρίσκετο δὲ Σοφοκλῆς ἐν τῇ Ἀνδρομέδᾳ τιθεὶς οὕτω</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μηδὲν φοβεῖσθαι προσφάτους ἐπιστολάς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="131" xml:id="fragment-andromeda-dindorf1893_grc1-131" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda">
+            <note type="source">Schol. Theocriti IV, 62.</note>
+            <quote>Τοὺς σατύρους ἀκρατεῖς οἱ πλείονές φασιν, ὡς καὶ τοὺς Σειληνοὺς καὶ Πᾶνας, ὡς Αἰσχύλος μὲν ἐν Γλαύκῳ, Συφοκλῆς δὲ ἐν Ανδρομέδα.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="132" xml:id="fragment-andromeda-dindorf1893_grc1-132" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda">
+            <note type="source">Hesychius, Κουρίον: Σοφ. Ἀνδρομέδα</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ἡμιουτὸν κόριον ᾑρέθη πόλει.</l>
+              <l n="2" xml:lang="grc">νόμος γάρ ἐστι τοῖς βαρβάροις</l>
+              <l n="3" xml:lang="grc">θυηπολεῖν βρότειον ἀρχῆθεν γέρος τῷ Κρόνῳ.</l>
+            </lg>
+            <note type="commentary">Quæ Scaliger sic correxit</note>
+            <lg type="fragment">
+              <l n="4" xml:lang="grc">Αἱμόρρυτον κούρειον ᾑρέθη πόλει·</l>
+              <l n="5" xml:lang="grc">νόμος γάρ ἐστι τοῖσι βαρβάροις Κρόνῳ</l>
+              <l n="6" xml:lang="grc">θυηπολεῖν βρότειον ἀρχῆθεν γένος.</l>
+            </lg>
+            <note type="apparatus">V. 3. γέρας Buttmannus in Actis Acad. Boruss. a. 1814. p. 174.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="133" xml:id="fragment-andromeda-dindorf1893_grc1-133" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda">
+            <note type="source">Pollux X, 120.</note>
+            <quote>Σοφοκλῆς δ᾽ ἐν Ἀνδρομέδᾳ αὐτοχειλέσι (αὐτολίθοισι Hemsterhusius) ληκύθοις ἔφη, δηλῶν ἀλαβάστους μονολίθους.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="134" xml:id="fragment-andromeda-dindorf1893_grc1-134" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda" sameAs="urn:cts:greekLit:tlg0011.andromeda.nauck1889grc1:128">
+            <note type="source">Hesychius, Ἀμβλύσκει: ἐξαπλοῖ. κυρίως δὲ ἐπὶ ἀμπέλου. καὶ ἐκτιτρώσκει. Σ. Ἀνδρομέδα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="135" xml:id="fragment-andromeda-dindorf1893_grc1-135" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda" sameAs="urn:cts:greekLit:tlg0011.andromeda.nauck1889grc1:127">
+            <note type="source">Hesychius, Ἀμφίπρυμνον: πλοῖον ἑκατέρωθεν πρύμνας ἔχον. Σ. Ἀνδρομέδα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="136" xml:id="fragment-andromeda-dindorf1893_grc1-136" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda" sameAs="urn:cts:greekLit:tlg0011.andromeda.nauck1889grc1:129">
+            <note type="source">Hesychius, Ζευξίλεως: ζευκτὸς λαός. ἢ ᾧ ὑπεζευγμένοι εἰσὶ λαοί. Σ. Ἀνδρομέδᾳ. Conf. Photium p. 53, 8.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μὰ τὴν ἐκείνου δειλίαν, ᾗ βόσκεται,</l>
+              <l n="2" xml:lang="grc">θῆλυς μὲν αὐτὸς, ἄρσενας δ᾽ ἐχθροὺς ἔχων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="137" xml:id="fragment-andromeda-dindorf1893_grc1-137" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda" sameAs="urn:cts:greekLit:tlg0011.andromeda.nauck1889grc1:125">
+            <note type="source">Etymolog. Μ. p. 272,3.</note>
+            <quote>Δίγονος μάσθλης: διπλοῦς ἱμάς. ἢ ὅτι οὐ μόνον κατὰ τὴν βαφὴν ἦν τοιοῦτος, ἀλλὰ καὶ ἀπὸ τοῦ αἵματος ἐκέχρωστο. Σοφοκλῆς Ἀνδρομέδα</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἰδοὺ δὲ φοίνιον | μάσθλητα δίγονον.</l>
+            </lg>
+            <note type="apparatus">φοίνιον Brunckius pro φοινόν. Hesychius, Μάσθλη: Σοφοκλῆς Ἀνδρομέδᾳ καὶ Συνδείπνοις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="138" xml:id="fragment-andromeda-dindorf1893_grc1-138" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda" sameAs="urn:cts:greekLit:tlg0011.andromeda.nauck1889grc1:130">
+            <note type="source">Photius p. 317, 7.</note>
+            <quote>Οἰήτας : τοὺς κωμήτας. Σοφοκλῆς Ἀνδρομέδα. Conf. Hesychii interpretes vol. II. p. 721.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="139" xml:id="fragment-andromeda-dindorf1893_grc1-139" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_andromeda" sameAs="urn:cts:greekLit:tlg0011.andromeda.nauck1889grc1:131">
+            <note type="source">Hesychius, Σαλητόν: Σοφοκλῆς Ἀνδρομέδα. ἀντὶ πατρὸς (corrigunt σαράπιδος). ἢ βαρβαρικὸν χιτῶνα. οἱ δὲ καὶ μεσόλευκον αὐτὸν εἶναί φασι. Idem Σάρητον: ὁ σάραπις. καὶ εἶδος χιτῶνος.</note>
+          </div>
+        </div></body></text></TEI>

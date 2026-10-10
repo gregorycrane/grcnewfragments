@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΜΥΡΜΙΔΟΝΕΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.myrmidones; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.myrmidones.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.myrmidones.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones"><head xml:lang="grc">ΜΥΡΜΙΔΟΝΕΣ</head>
+          <note type="introduction" xml:lang="mul">Myrmidones, Nereides, Phryges eiusdem trilogiae fuisse probabiliter statuunt Welcker et alii. in Myrmidonibus, quantum colligi potest, Achilles, cum precibus et necessitate victus tandem Patroclum in proelium ire passus esset, isque esset ab Hectore occisus, mortuum deflebat. Nereides pugnam Achillis, qui nova a matre arma accepisset, necemque Hectoris videntur continuisse. in Phrygibus Priamus corpus filii ab Achille redemit. Hermann Opusc. V p. 136 . Aeschylum secutus est Accius in Myrmidonibus (Ribbeckii Trag. Lat. p. 137 sq.) . Achillem sicut in Phrygibus ita in Myrmidonibus taciturnum fuisse tradit vel potius conicit Schol. Ar. Ran. 911 . quem Strabo ex huius fabulae prologo versum affert, ἰὼ Κάικε κτἑ . , auctore Pauwio ad Μυσούς rettulimus. Euripideum illud βέβληκ’ Ἀχιλλεὺς δύο κύβω καὶ τέσσαρα (fr. 888) Myrmidonibus adscribitur in Scholio recenti Ar. Ran. 1400 , cui loco ne hoc quidem tribuendum, ut talorum ludum in Myrmidonibus memoratum credamus.</note>
+          <div type="textpart" subtype="fragment" n="131" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr131">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-131-1">Τάδε μὲν λεύσσεις, φαίδιμ’ Ἀχιλλεῦ ,</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-131-2">δοριλυμάντους Δαναῶν μόχθους,</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-131-3">οὓς προπεπωκὼς εἴσω κλισίας</l>
+              <l n="4" xml:id="nauck-tfg-1-aesch-131-4">θάσσεις</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Harpocr. p. 159, 8 : προπεπωκότες, ἀντὶ τοῦ προδεδωκότες — ἐν ἀρχῇ δὲ τῶν Μυρμιδόνων Αἰσχύλος (αἰσχύλου ΑΒ) τάδε — κλισίας. Ar. Ran. 992 : ’τάδε — Ἀχιλλεῦ’ ubi Schol. : ἔστι δὲ ἀρχὴ αὕτη Μυρμιδόνων Αἰσχύλου. Eust. Od. p. 1941, 46 : τὸ δὲ ταῦτά γε λεῦσσε, πάτερ φίλε μεταλαβὼν Αἰσχύλος ἔφη τὸ τάδε — Ἀχιλλεῦ, ὃ κεῖται παρὰ τῷ κωμικῷ .</note>
+            <note type="sourceContext" xml:lang="mul">v. 3 οὓς εἴσω κλισίας οὓς σὺ προπίνεις εἴσω κλισίας οὓς προπεπωκὼς εἴσω κλισίας . v. 4 θάσσεις addidit Dindorf.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="132" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr132">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-132-1">Φθιῶτ’ Ἀχιλλεῦ , τί ποτ’ , ἀνδροδάικτον ἀκούων</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-132-2">ἰὴ κόπον, οὐ πλάθεις ἐπ’ ἀρωγάν ;</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ar. Ran. 1264 : ’Φθιῶτ’ — ἀρωγάν ;’ ubi Schol. : ἔστι δὲ ἐκ Μυρμιδόνων Αἰσχύλου.</note>
+            <note type="sourceContext" xml:lang="mul">Scholion recens :</note>
+            <note type="sourceContext" xml:lang="mul">τοῦτο ἀπὸ τῶν πρέσβεων πρὸς Ἀχιλλέα Αἰσχύλος πεποίηκεν· ἔστι δὲ ἐκ Μυρμιδόνων.</note>
+            <note type="sourceContext" xml:lang="mul">versum alterum repetit Aristophanes Ran. 1267 1271 1275 1277 . cf. Schol. (cod. Barocc.) v. 1267 : ἰστέον ὅτι τὸ ἰήκοπον οὐ πελάθεις ἐπ’ ἀρωγάν παίζων πανταχοῦ ἐπιφέρει, κυρίως ἐκείνων τῶν ἰαμβείων ὄν, τοῦ Φθιῶτ’ Ἀχιλλεῦ . Schol. v. 1275 (similiter Suidas v. ἰή) : ὡς ἐφυμνίῳ δὲ κέχρηται τῷ ἰήκοπον οὐ πελάθεις (ἐπ’ ἀρωγάν addit Suidas) . verba Φθιῶτ’ Ἀχιλλεῦ ad Cinesiam irridendum detorsit Strattis (Com. 2 p. 769) teste Athenaeo XII p. 551 D, qui causam addit parum probabilem, διὰ τὸ ἐν τῇ αὑτοῦ ποιήσει συνεχῶς τὸ Φθιῶτα λέγειν.</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 Ἀχιλλεῦ Ἀχιλεῦ Aristophanis libri deteriores. v. 2 ἰὴ κόπον ἰήκοπον libri . v. 2 πλάθεις πελάθεις scripsi Mélanges Gréco-Rom. III p. 51 .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="133" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr133">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-133-1">δεκέμβολος</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. Ar. Av. 1256 : τριέμβολον — μήποτε δὲ καὶ πλοίου τις ἦν κατασκευή . καὶ γὰρ δεκέμβολον Αἰσχύλος εἶπε τὴν τοῦ Νέστορος ναῦν ἐν Μυρμιδόσιν. similiter Suidas v. τριέμβολον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="134" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr134">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-134-1">ἐπ’ αἰετὸς δὲ ξουθὸς ἱππαλεκτρυὼν</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-134-2">στάζει. . θέντων φαρμάκων πολὺς πόνος</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ar. Pac. 1177 : κᾆτα φεύγει πρῶτος ὥσπερ ξουθὸς ἱππαλεκτρυὼν τοὺς λόφους σείων. ubi Schol. cod. Ven. : τοῦ παρ’ Αἰσχύλῳ πολλάκις (l. ἐν Μυρμιδόσι) κληθέντος ἱππαλεκτρυόνος, ὃν ἀεὶ κωμωδοῦσι λεχθέντα ἐν Μυρμιδόσι (l. πολλάκις) μέμνηται. ἄλλως. ὁ Αἰσχύλος ἀπὸ δ’ αὖτε — πόνος . Ar. Av. 800 : εἶτ’ ἐξ οὐδενὸς μεγάλα πράττει, νυνὶ ξουθὸς ἱππαλεκτρυών. ubi Schol. v. 799 : παρὰ τὰ γραφέντα ἐκ Μυρμιδόνων Αἰσχύλου. Ar. Ran. 932 : ΔΙΟΝ. ἐγὼ γοῦν ἤδη ποτ’ ἐν μακρῷ χρόνῳ νυκτὸς διηγρύπνησα τὸν ξουθὸν ἱππαλεκτρυόνα ζητῶν, τίς ἐστιν ὄρνις. ΑΙΣΧ. σημεῖον ἐν ταῖς ναυσίν, ὦμαθέστατ’ ἐνεγέγραπτο. ubi Schol. : προείρηται ὅτι ἐκ τῶν Μυρμιδόνων ἐστὶν ἐπὶ νεώς ’ἐπὶ — ἱππαλεκτρυών’ (v. 1) .</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 ἀπὸ δ’ αὖτε ἐπὶ δ’ αἰετὸς ἐπ’ αἰετὸς δὲ . ἱππαλεκτρυόνας Aeschyleos commemorat etiam Ar. Ran. 937 (cf. fr. 444) . v. 2 στάζει κηρόθεν τῶν secundum Dindorfium στάζει κηρ.θέντων secundum Bekkerum στάζει κριθέντων .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="135" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr135">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-135-1">σέβας δὲ μηρῶν ἁγνὸν οὐκ ἐπῃδέσω,</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-135-2">ὦ δυσχάριστε τῶν πυκνῶν φιλημάτων.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. XIII p. 602 E de puerorum amore disserens : Αἰσχύλος τε καὶ Σοφοκλῆς ἀναφανδὸν ἔφασαν, ὃ μὲν ἐν Μυρμιδόσι σέβας — φιλημάτων, ὃ δ’ ἐν Κολχίσι κτἑ . Plut. Amator. c. 5 p. 751 C : πρόσλαβε δὲ τῷ Σόλωνι καὶ τὸν Αἰσχύλον λέγοντα σέβας — φιλημάτων . v. 2 sine poetae et fab. nom. habet Plutarchus de adul. et amico c. 19 p. 61 A . locum respicit Athenaeus XIII p. 601 A : καὶ Αἰσχύλος μέγας ὢν ποιητὴς καὶ Σοφοκλῆς ἦγον εἰς τὰ θέατρα διὰ τῶν τραγῳδιῶν τοὺς ἔρωτας, ὃ μὲν τὸν Ἀχιλλέως πρὸς Πάτροκλον, ὃ δ’ ἐν τῇ Νιόβῃ τὸν τῶν παίδων. item Plat. Sympos. p. 180 A : Αἰσχύλος δὲ φλυαρεῖ φάσκων Ἀχιλλέα Πατρόκλου ἐρᾶν, ὃς ἦν καλλίων οὐ μόνον Πατρόκλου, ἀλλὰ καὶ τῶν ἡρώων ἁπάντων καὶ ἔτι ἀγένειος, ἔπειτα νεώτερος πολύ , ὡς φησὶν Ὅμηρος.</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 ἅγιον om. Plut. ἁγνὸν . v. 1 οὐκ ἐπῃδέσω οὐ κατῃδέσω . v. 2 πυκνῶν πικρῶν Plut. p. 751.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="136" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr136">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-136-1">μηρῶν τε τῶν σῶν εὐσεβὴς ὁμιλία</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Lucianus Amor. c. 54 vol. 2 p. 457 : οὐδὲ γὰρ ὁ Πάτροκλος ὑπ’ Ἀχιλλέως ἠγαπᾶτο μέχρι τοῦ καταντικρὺ καθέζεσθαι — ἀλλ’ ἦν καὶ τῆς ἐκείνων φιλίας μεσῖτις ἡδονή· στένων γοῦν Ἀχιλλεὺς τὸν Πατρόκλου θάνατον ἀταμιεύτῳ πάθει πρὸς τὴν ἀλήθειαν ἀπερράγη, μηρῶν — ὁμιλία κλαίων (καλλίω vel καλλίων libri, correxit Dobree) . Aeschyleum esse versum iudicavit Porson in Eur. Med. 750 , Sophocleum M. Schmidt Zeitschr. f. d. Alt. 1856 p. 356.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="137" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr137">
+            <note type="sourceContext" xml:lang="mul">καὶ μήν, φιλῶ γάρ, ἀβδέλυκτ’ ἐμοὶ τάδε</note>
+            <note type="sourceContext" xml:lang="mul">Anecd. Bekk. p. 321, 22 et Suidas : ἀβδέλυκτα — ἃ οὐκ ἄν τις βδελυχθείη καὶ δυσχεράνειε. τραγικώτερα δὲ ἡ λέξις. Αἰσχύλος Μυρμιδόσιν (Μυρμ. om. Anecd. Bekk.) καὶ — τάδε . similiter Zon. Lex. p. 9, ubi poetae et fabulae nomen om. , sicut in Anecd. Paris. vol. 4 p. 85, 23 . locum spectat Hesych. 1 p. 6 : ἀβδέλυκτα· ἀμίαντα. φιλῶ γε κἀβδέλυκτ’ Bekker. ἀβδέλυκτά μοι Anecd. Paris.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="138" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr138">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-138-1">Ἀντίλοχ’ , ἀποίμωξόν με τοῦ τεθνηκότος</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-138-2">ὸν ζῶντα μᾶλλον· τἀμὰ γὰρ διοίχεται.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ar. Eccl. 392 : Ἀντίλοχ’ — διοίχεται. ubi Schol. (cf. Suid. v. ἀποίμωξόν με) : παρὰ τὸ ἐξ Αἰσχύλου Μυρμιδόνων Ἀντίλοχ’ — μᾶλλον . etiam verba τἀμὰ γὰρ διοίχεται ex Aeschylo repetita esse vidit Gataker. v. 1 τοῦ τριωβόλου iocans sufficit Aristophanes. verba sunt Achillis, cui Patrocli interfecti nuntium attulit Antilochus.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="139" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr139">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-139-1">ὧδ’ ἐστὶ μύθων τῶν Λιβυστικῶν κλέος,</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-139-2">πληγέντ’ ἀτράκτῳ τοξικῷ τὸν αἰετὸν</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-139-3">εἰπεῖν ἰδόντα μηχανὴν πτερώματος·</l>
+              <l n="4" xml:id="nauck-tfg-1-aesch-139-4">τάδ’ οὐχ ὑπ’ ἄλλων, ἀλλὰ τοῖς αὑτῶν πτεροῖς</l>
+              <l n="5" xml:id="nauck-tfg-1-aesch-139-5">ἁλισκόμεσθα.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ar. Av. 808 : ταυτὶ μὲν ᾐκάσμεσθα κατὰ τὸν Αἰσχύλον· τάδ’ — πτεροῖς (v. 4) . ubi Schol. v. 807 : κατὰ τὸν Αἰσχύλον] ἐκεῖνος γὰρ Λιβυστικὴν αὐτὴν καλεῖ παροιμίαν ὡς — ἁλισκόμεθα . πεποίηκε γὰρ ὁ Αἰσχύλος αἰεὸν τετρωμένον λέγοντα ταῦτα, ἐπειδὴ εἶδε τὸ βέλος ἐπτερωμένον καὶ ἐμπεπαρμένον αὐτῷ . Schol. v. 808 : ὅλον τοῦτο ἐκ Μυρμιδόνων Αἰσχύλου. ex Scholiis haec repetit Suidas v. ταυτὶ μέν et (quo loco v. 1 om.) v. οὐχ ὑπ’ ἄλλων. Diogenianus praef. p. 180 : Λιβυκὸς δὲ αἶνος ἀπὸ τοῦ ἔθνους εἰρῆσθαι λέγεται ἀπὸ Λίβυός τινος· οἳ δὲ Κύβισσον εὑρετὴν γενέσθαι τοῦ εἴδους τούτου, ὡς Αἰσχύλος διασαφεῖ ὧδ’ — κλέος (v. 1) . v. 1 ὧδ’ ὡς δὲ ὅδ’ . v. 1 Λιβυκῶν τὸ . v. 1 κλέος λόγος . v. 3 τὴν μηχανὴν τοῦ . v. 4 multi respiciunt. Ath. XI p. 494 B, Aristides vol. 2 p. 17, Dionysius Hal. de admir. vi Demosth. c. 7 vol. 6 p. 971, Galenus vol. 5 p. 395, Philo Iud. vol. 2 p. 501, Eust. Il. p. 632, 35. cf. Suid. v. πάγας (Schol. Aesch. Ag. 822 p. 509 ed. Dind.) : καὶ τοῦτο δήπου τὸ Αἰσχύλου, τοῖς ἑαυτοῦ πτεροῖς περιπεσὼν καὶ ἐνσχεθεὶς ταῖς πάγαις, ἃς ἄλλοις ὑφῆκε. v. 5 ἁλισκόμεσθα ἁλισκόμεθα plerique .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="140" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr140">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-140-1">ὅπλων ὅπλων δεῖ</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ar. Av. 1420 : πτερῶν πτερῶν δεῖ· μὴ πύθῃ τὸ δεύτερον. ubi Schol : παρὰ τὸ Αἰσχύλου ἐκ Μυρμιδόνων ὅπλων ὅπλων δεῖ .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="141" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr141">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-141-1">ἀγρέμονα</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 31 : ἄγρεμον (ἀγρέμονα Alberti)· τὸν κάμακα, ἀπὸ τοῦ αἱρεῖν (l. ἀγρεῖν) καὶ λαμβάνειν, ἤγουν ἀγρεύειν· ἢ λαμπάδα, ἢ δόρυ. Αἰσχύλος δὲ Μυρμιδόσιν (μυρμή codex) ἀγρέμονα τὸν ἐπιμήνιον. Hermann : rectius fortasse scriptum est apud Favorinum Αἰσχύλος ἐν Μυρμιδόσιν. tum nova glossa est ἀγρέμονα τὸν ἐπιμήνιον.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="142" corresp="urn:cite2:perseus:fragmentaryplays.v1:myrmidones" xml:id="aesch-fr142">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-142-1">ἐγκουράδι</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 2 p. 9 : ἐγκουράδες· τὰ ἐν τῷ προσώπῳ στίγματα, καὶ οἱ ἐν ταῖς ὀροφαῖς γραφικοὶ [προσώπων] πίνακες. ἔστι γὰρ κουρὰς ἡ κορυφὴ (ὀροφὴ Struve) καὶ ὁ γραπτὸς πίναξ. ἐγκούρας δὲ ὁ γεγραμμένος Αἰσχύλος Μυρμιδόσιν. εἰ μὴ ἄρα ἰσοδυναμεῖ , ὡς κότῳ (κοτῶ coni. M. Schmidt) καὶ ἐνεκότουν παρὰ Σοφοκλεῖ . Hesych. 2 p. 525 : κουράς· ἡ ἐν τοῖς ὀροφώμασι (ὀροφήμασι cod.) γραφή , ὀροφικὸς πίναξ. παρὰ δὲ Αἰσχύλῳ ἐν Μυρμιδόσιν ἀμφιβάλλεται (ἀμφιβάλλει cod. , em. Hermann) ἐνκουράδι. ἔστι δὲ ἐγκουρὰς ὀροφικὸς πίναξ. Hermann : apparet dubitasse grammaticos, utrum ἐγκουράδι an ἐν κουράδι scripsisset Aeschylus.</note>
+          </div>
+        </div></body></text>
+</TEI>

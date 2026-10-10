@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΤΡΟΦΩΝΙΟΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.trophonios.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.trophonios.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.trophonios.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_trophonios"><head>ΤΡΟΦΩΝΙΟΣ</head><div type="textpart" subtype="fragment" n="218" xml:id="kock-0434-trophonios-218" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_trophonios">
+              <head>218</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-trophonios-218-l1" xml:lang="grc">οὐ σῖτον ἄρασθ', οὐχ ὕπνου λαχεῖν μέρος.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 358, 2 et Suidas ἄρασθαι· προσενέγκασθαι. Κρατίνος Τροφωνίῳ. eadem Zonaras 93 (omisso tamen auctoris nomine). apud Suidam αἴρασθαι (i. e. ἄρασθαι) A.</note>
+              <note type="apparatus">Bergkius postquam R. c. Att. 216 hominem aliquem superstitiosum, morbo graviter confectum, ut cibo abstineret nec somnum capere posset, significari dixit, p. 217 eisdem verbis hominem dici interpretatur, qui de rebus suis deum sciscitaturus in antrum descenderit, et nec cibum nec somnum capere ibi potuerit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="219" xml:id="kock-0434-trophonios-219" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_trophonios">
+              <head>219</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-trophonios-219-l1" xml:lang="grc">ξίφιζε καὶ σπόδιζε καὶ διαρρικνοῦ.</l>
+              </lg>
+              <note type="source">Etymol. m. 270, 5 διαρρικνοῦσθαι· τὸ τὴν ὀσφὺν φορτικῶς περιάγειν. Κράτης Τροφωνίῳ διαρρίκνου. Zonaras 529 διαρρικνούσθαι· τὸ τὴν ὀσφὺν φορτικῶς περιάγειν. Κράτης.</note>
+              <note type="apparatus">σπόδιζε] σπάθιζε cod. Par. Etym. et Zonar. K. utrumque falsum. scribendum videtur σπύρθιζε. Aristoph. fr. 858. Hesych. σπυρθίζειν· σπᾶσθαι. καὶ ἀγανακτεῖν. πυδαρίζειν. καὶ σφύζειν. Hesych. ξιφίζειν· ἀνατείνειν τὴν χεῖρα καὶ ὀρχεῖσθαι. ξιφισμός· σχῆμα ὀρχηστικόν. idem διαρικνοῦσθαι (sic)· ἐπὶ σχήματος ὀρχηστικοῦ τίθεται. ὁτὲ δὲ ἐπὶ τοῦ συνεστράφθαι. et διερικνοῦντο· ... ἐκίνουν τὰς ὀσφῦς ἀσχημόνως.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="220" xml:id="kock-0434-trophonios-220" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_trophonios">
+              <lg>
+                <l n="1" xml:id="kock-0434-trophonios-220-l1" xml:lang="grc">χαίρετε δαίμονες, οἳ Λεβάδειαν Βοιώτιον οὖθαρ ἀρούρης —</l>
+              </lg>
+              <note type="source">Hephaestio 8, 2 κέκληται δὲ Ἀριστοφάνειον, οὐκ Ἀριστοφάνους αὐτὸ εὑρόντος πρώτου, ἐπεὶ καὶ παρὰ Κρατίνῳ ἐστί· tetrametrum anapaesticum dicit. Trophonio recte tribuit Runkelius. deos qui ibi colebantur recenset Paus. 9, 39, 4 (5).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="221" xml:id="kock-0434-trophonios-221" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_trophonios">
+              <lg>
+                <l n="1" xml:id="kock-0434-trophonios-221-l1" xml:lang="grc">οὐδ’ Αἰξωνίδ’ ἐρυθρόχρων ἐσθίειν ἔτι τρίγλην,</l>
+                <l n="2" xml:id="kock-0434-trophonios-221-l2" xml:lang="grc">οὐδὲ τρυγόνος, οὐδὲ δεινοῦ φυὴν μελανούρου —</l>
+              </lg>
+              <note type="source">Athenaeus 7, 325 e Κρατῖνος ἐν Τροφωνίῳ.</note>
+              <note type="apparatus">1. ἔτι Meursius Reliq. Att. I 7] εἴτι. Hesych. Αἰξωνίδα τρίγλην· δοκοῦσι κάλλισται εἶναι αἱ Αἰξωνικαὶ τρίγλαι. 2. οὐδὲ δεινοῦ φυὴν Casaub.] οὐ δεινούφην. fortasse post μελανούρου Cratinus verbum γεύσασθαι initio versus proximi posuerat: nam non est veri simile eum utraque verbi ἐσθίειν syntaxi in eadem re usum esse. de triglis Aexonensibus cf. etiam Nausicr. Athen. 7, 325 e, de pago Burs. Geogr. gr. I 360. 1. videtur nescio quis admoneri ei qui in Hecates regnum sit descensurus, piscibus deae sacris non esse vescendum. triglae enim Hecatae sacrae credebantur. Athen. 325 a. cd. cf. Preller Mythol. gr.² I 248. melanurus copiose describitur Athen. 313 cd. Aelian. H. an. 1, 41. epitheton eius (δεινὸς φυήν) Schweighaeuserus recte videtur ad corporis habitum et magnitudinem rettulisse: quamquam ex Aeliano, qui eum δειλότατον ἰχθύων dicit, conicere possis scribendum esse δειλός. metrum est Priapeum: nominis ἐρυθρόχρων syllaba secunda producitur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="222" xml:id="kock-0434-trophonios-222" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_trophonios">
+              <lg>
+                <l n="1" xml:id="kock-0434-trophonios-222-l1" xml:lang="grc">ἔγειρε δὴ νῦν, Μοῦσα, Κρητικὸν μέλος.</l>
+                <l n="2" xml:id="kock-0434-trophonios-222-l2" xml:lang="grc">χαῖρε δή, Μοῦσα· χρονία μὲν ἥκεις, ὅμως δ’</l>
+                <l n="3" xml:id="kock-0434-trophonios-222-l3" xml:lang="grc">ἦλθες οὐ πρίν γε δεῖν, ἴσθι σαφές, ἀλλ’ ὅπως —</l>
+              </lg>
+              <note type="source">Hephaestio 13, 2 καλεῖται δὲ (τὸ μέτρον) καὶ ὑπ’ αὐτῶν τῶν ποιητῶν Κρητικόν, ὥσπερ ὑπὸ Κρατίνου ἐν Τροφωνίῳ· ἔγειρε — μέλος. εἶτα ἐπιφέρει χαῖρε κτλ. Photius De metr. p. 296 Gaisf. unde Cratinus dicens ἔγειρε Μοῦσα Κρητικὸν μέλος, intulit metrum paeonicum, χαῖρε δὴ Μοῦσα κτλ.</note>
+              <note type="apparatus">πρίν γε δεῖν Porson. (ap. Gaisf.)] πρὶν ἐλθεῖν. idem ludens sententiam ita supplevit ἀλλ’ ὅπως εὔτονον τοῖς θεαταῖσιν ἄσει μέλος. simile carmen Aristoph. Ach. 665 mediae fabulae inseruit: quamobrem miror Bergkium R. c. Att. 218 Cratini canticum extremae comoediae adscribere. nam quod Musam dicit sero venire, attamen non priusquam oportuerit, id ad universam Cratini artem, qui aetate iam provectus ad poesin accessit, referendum videtur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="223" xml:id="kock-0434-trophonios-223" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_trophonios">
+              <note type="source">Schol. Aristoph. Pac. 348 τέταρτος (Φορμίων) Κροτωνιάτης ἀρχαῖος. Κρατῖνος Τροφωνίῳ. Suid. Φορμίων. περὶ τούτου καὶ Θεόπομπος ἐν Φιλιππικοῖς. ἦν δὲ Κροτωνιάτης, καὶ ἐν τῇ ἐπὶ Σάγρᾳ μάχῃ ἐτρώθη. cf. fr. 442. Hesych. Φορμίων· οὗτος στρατηγὸς ἐγένετο Κροτωνιατῶν.</note>
+              <note type="apparatus">quo modo sanatus sit narratur apud Suidam. fortasse etiam pugnae apud Sagram mentio ad Trophonium pertinet.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="224" xml:id="kock-0434-trophonios-224" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_trophonios">
+              <lg>
+                <l n="1" xml:id="kock-0434-trophonios-224-l1" xml:lang="grc">ἐπέθηκεν ἐπιστολήν</l>
+              </lg>
+              <note type="source">Harpocrat. 80, 5 ἀντὶ τοῦ παρέδωκεν . . . Κρατῖνος ἐν Τροφωνίῳ.</note>
+              <note type="apparatus">i. e. mandatum inposuit. cf. fr. 285. Aesch. Prom. 3. Bergk. R. c. Att. 218.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="225" xml:id="kock-0434-trophonios-225" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_trophonios">
+              <lg>
+                <l n="1" xml:id="kock-0434-trophonios-225-l1" xml:lang="grc">παρεῖαι ὄφεις</l>
+              </lg>
+              <note type="source">Δημοσθένης ὑπὲρ Κτησιφῶντος· παρεῖαι ὀνομάζονταί τινες ὄφεις παρὰ τὸ παρειὰς μείζους ἔχειν, ὡς καὶ Κρατῖνος ἐν τῷ Τροφωνίῳ ὑποσημαίνει. Harpocrat. apte Bergkius R. c. Att. 218 contulit Paus. 9, 39, 3 εἰσὶ δ᾽ ἐν τῷ σπηλαίῳ ἀγάλματα ὀρθά, περιειλιγμένοι δέ εἰσιν αὐτῶν τοῖς σκήπτροις δράκοντες, . . . ἐπεὶ τοὺς δράκοντας . . . καὶ Τροφωνίου νομίζουσιν ἱεροὺς εἶναι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="226" xml:id="kock-0434-trophonios-226" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_trophonios">
+              <note type="source">Pollux 7, 103 ἀπὸ δ᾽ ἀργύρου ἀργυροκόπος, ὡς Φρύνιχος ἐν Ἐφιάλτῃ· . . . ἀργυροκοπιστῆρας δὲ λόγων ἐν Τροφωνίῳ παίζει Κρατῖνος. Hesychius ἀργυροκοπιστήρ· τραπεζίτης. ἄργυρον κόπτειν est argentum percutere, ferire. Aristoph. Ran. 723. 726.</note>
+              <note type="apparatus">ἀργυροκοπιστὴρ λόγων dici videtur sophista, qui orationibus scriptis argentum percussum, i. e. nummos argenteos sibi parat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="227" xml:id="kock-0434-trophonios-227" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_trophonios">
+              <lg>
+                <l n="1" xml:id="kock-0434-trophonios-227-l1" xml:lang="grc">λυχνοκαΐαν</l>
+              </lg>
+              <note type="source">εἴρηκεν Κρατῖνος ἐν τῷ Τροφωνίῳ Pollux 10, 115. Hesych. κριθῶν ὄχλος· ἐν Τροφωνίῳ· παρέθηκε δὲ παίζων τὸ ἀργύριον.</note>
+              <note type="apparatus">haec ad Cratini fabulam sint an non sint referenda, dubitat Meinekius. cf. M. Schmidt. in Hes. ed. praeterea propter fr. 223 ad Trophonium fr. 318 et 456 refert Meinekius.</note>
+            </div>
+          </div></body></text></TEI>

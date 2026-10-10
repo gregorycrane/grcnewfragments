@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΣΙΣΥΦΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.sisyphos; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.sisyphos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.sisyphos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:sisyphos"><head>ΣΙΣΥΦΟΣ</head>
+          <pb n="606" facs="urn:hathi:iau.31858007086675:scan:614"/>
+          <div type="textpart" subtype="fragment" n="210" xml:id="frag_ffbb198f85" corresp="urn:cite2:perseus:fragmentaryplays.v1:sisyphos" sameAs="urn:cts:greekLit:tlg0085.sisyphos.nauck1889-grc1:225">
+            <note type="source">Pollux X, 77. Ἔξεστι δὲ καὶ σκάφην ὀνομάσαι κατ᾽ Αἰσχύλον που σκάφην εἰπόντα ἐν Σισύφῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_ffbb198f85-l1" xml:lang="grc">Καὶ νίπτρα δὴ χρὴ θεοφόρων ποδῶν φέρειν.</l>
+              <l n="2" xml:id="frag_ffbb198f85-l2" xml:lang="grc">λεοντοβάμων ποῦ σκάφη χαλκήλατος;</l>
+            </lg>
+            <note type="apparatus">νίπτρα ex Æschylo memorat Pollux VII, 40.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="211" xml:id="frag_f8be93b398" corresp="urn:cite2:perseus:fragmentaryplays.v1:sisyphos" sameAs="urn:cts:greekLit:tlg0085.sisyphos.nauck1889-grc1:226">
+            <note type="source">Pollux X, 20. Σταθμοῦχος εἴρηται ἐν Αἰσχύλου Σισύφῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_f8be93b398-l1" xml:lang="grc">Σὺ δ᾽ ὁ σταθμοῦχος ἐγκατιλλώψας ἄθρει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="212" xml:id="frag_9106888218" corresp="urn:cite2:perseus:fragmentaryplays.v1:sisyphos">
+            <note type="source">Ælianus N. A. XII, 5. Ἔτι γὰρ καὶ τοὺς Αἰολέας καὶ τοὺς Τρῶας τὸν μῦν προσαγορεύειν σμίνθον, ὡσπεροῦν Αἰσχύλος ἐν τῷ Σισύφῳ</note>
+            <quote>Ἀλλ᾽ ἀρουραῖός (τις addit Gronovius) ἐστι σμίνθος ὡς ὑπερφυής.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="213" xml:id="frag_1634d706da" corresp="urn:cite2:perseus:fragmentaryplays.v1:sisyphos">
+            <note type="source">Erotianus p. 118. Διόπῳ: τῷ τῆς νηὸς ἐπιμελητῇ, παρὰ τὸ διοπτεύειν. Ἀττικὴ δὲ ἡ λέξις, κείμενη παρ᾽ Αἰσχύλῳ ἐν Σισύφῳ. Conf. fragm. 245.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="214" xml:id="frag_e1bf99346b" corresp="urn:cite2:perseus:fragmentaryplays.v1:sisyphos" sameAs="urn:cts:greekLit:tlg0085.sisyphos.nauck1889-grc1:231">
+            <note type="source">Ἄμβωνες: vide fragm. 93.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="215" xml:id="frag_204b1beea4" corresp="urn:cite2:perseus:fragmentaryplays.v1:sisyphos">
+            <note type="source">Etymologicon Gudianum p. 227. Ζαγρεύς: τινὲς δὲ τὸν Ζαγρέα υἱὸν Ἄιδου φασὶν, ὡς Αἰσχύλος ἐν Σισύφῳ</note>
+            <quote>Ζαγρεῖ τε νῦν με καὶ πολυξένῳ (πατρὶ addit Hermannus) χαίρειν.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="216" xml:id="frag_e6b278dd33" corresp="urn:cite2:perseus:fragmentaryplays.v1:sisyphos" sameAs="urn:cts:greekLit:tlg0085.sisyphos.nauck1889-grc1:230">
+            <note type="source">Etymologicon Gudianum p. 321. Κίκυς, ἡ δύναμις. Ἀπολλόδωρος ἰκμάς· καὶ Αἰσχύλος ἐν Σισύφῳ, καὶ θανόντων εἰσὶν οὐκ ἐνεστιγμάσει τὰ (hoc est οἶσιν οὐκ ἔνεστ᾽ ἰκμάς. εἶτα) σοὶ δ᾽ οὐκ ἔνεστι κίκυς οὐδ᾽ αἱμόρρυτοι φλέβες θανόντων φησὶν ἀψύχοις. Valde hæc perturbata, sed ut agnoscas tamen Æschyli verba</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_e6b278dd33-l1" xml:lang="grc">Σοὶ δ᾽ οὐκ ἔνεστι κίκυς οὐδ᾽ αἱμόρρυτοι</l>
+              <l n="2" xml:id="frag_e6b278dd33-l2" xml:lang="grc">φλέβες.</l>
+            </lg>
+          </div>
+        <pb n="606" facs="urn:hathi:iau.31858007086675:scan:614"/>
+          <div type="textpart" subtype="fragment" n="217" xml:id="frag_80742b367d" corresp="urn:cite2:perseus:fragmentaryplays.v1:sisyphos" sameAs="urn:cts:greekLit:tlg0085.sisyphos.nauck1889-grc1:234">
+            <note type="source">Hesychius, Θώψεις: θωπεύσεις. Αἰσχύλος Σισύφῳ πετροκυλιστῇ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="218" xml:id="frag_2d52752ea1" corresp="urn:cite2:perseus:fragmentaryplays.v1:sisyphos" sameAs="urn:cts:greekLit:tlg0085.sisyphos.nauck1889-grc1:233">
+            <note type="source">Schol. Aristoph. Pacis v. 73. Αἰσχύλος ἐν Σισύφῳ πετροκυλιστῇ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_2d52752ea1-l1" xml:lang="grc">Αἰτναῖός ἐστι κάνθαρος βίᾳ πόνων πονῶν ?).</l>
+            </lg>
+          </div>
+        </div></body></text>
+</TEI>

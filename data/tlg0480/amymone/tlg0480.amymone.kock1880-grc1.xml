@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>NICOCHARES, ΑΜΥΜΩΝΗ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Nicochares</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0480.amymone.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0480.amymone.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0480.amymone.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_amymone"><head>ΑΜΥΜΩΝΗ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0480-amymone-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_amymone">
+              <lg>
+                <l n="1" xml:id="kock-0480-amymone-1-l1" xml:lang="grc">Οἰνόμαος οὗτος χαῖρε, πέντε καὶ δύο,</l>
+                <l n="2" xml:id="kock-0480-amymone-1-l2" xml:lang="grc">κἀγώ τε καὶ σὺ συμπόται γενοίμεθα.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 426 e οἱ ἐπιτεταμένως χρώμενοι τῷ ποτῷ δύο οἴνου ἔπινον πρὸς πέντε ὕδατος. Νικοχάρης γοῦν ἐν Ἀμυμώνῃ πρὸς τοὔνομα παίζων ἔφη κτλ. σὺ add. Schweighaeus. non recte Meinekius in Athenaeo γενοίμεθ' ἄν. cupit enim quisquis loquitur compotor alterius esse. πέντε καὶ δύο Eupol. 8. Amips. 4 Bacchus adpellatur, hic Oenomaum dici Athenaeus narrat, quem Oenomaum non fabulosum illum, sed nescio quem hominem esse vinolentum arbitror. fortasse tamen hic quoque Bacchus intellegendus et versus prior ita distinguendus est ΔΙΟΝ. Οἰνόμαος οὗτος. ΟΙΝΟΜ. χαῖρε πέντε καὶ δύο.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0480-amymone-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0480_amymone">
+              <lg>
+                <l n="1" xml:id="kock-0480-amymone-3-l1" xml:lang="grc">τί δῆτ᾽; ἀπαιδευτότερος εἶ Φιλωνίδου</l>
+                <l n="2" xml:id="kock-0480-amymone-3-l2" xml:lang="grc">τοῦ Μελιτέως;</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Plut. 179 κωμῳδεῖται δὲ (Φιλωνίδης) ὡς εὔπορος, καὶ ὡς μέγας τῷ σώματι καὶ ἠλίθιος. Νικοχάρης Γαλατείᾳ κτλ. et 303 εἰς Φιλωνίδην τὸν Μελιτέα, ὡς οὐ μόνον μέγαν ἀλλὰ καὶ ἀμαθῆ καὶ ὑώδη. καὶ Νικοχάρης Γαλατείᾳ κτλ. cf. Apostol. 3, 30.</note>
+              <note type="apparatus">τί δῆτ᾽ 303] ἠδέ τ᾽ 179 Ald. ἡ δήτ᾽ Bentleius adsentiente Cobeto Observ. crit. Plat. 125. ἀπαιδευτότερος] ἀπαίδευτός τε 303 G. de Philonide cf. Plat. 64. Theopomp. 4. 5. Galateam Cyclopi stultitiam exprobrare monet Meinekius.</note>
+            </div>
+          </div></body></text></TEI>

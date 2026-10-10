@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΠΡΟΜΗΘΕΥΣ ΠΥΡΦΟΡΟΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.prometheys_pyrphoros; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.prometheys_pyrphoros.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.prometheys_pyrphoros.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_pyrphoros"><head xml:lang="grc">ΠΡΟΜΗΘΕΥΣ ΠΥΡΦΟΡΟΣ</head>
+          <note type="introduction" xml:lang="mul">Schol. Aesch. Prom. 94 : τὸν μυριετῆ] πολυετῆ· ἐν γὰρ τῷ πυρφόρῳ τρεῖς μυριάδας φησὶ δεδέσθαι (δεδήσεσθαι coni. Kvičala, δεθήσεσθαι Cobet Mnem. nov. 14 p. 122) αὐτόν.</note>
+          <note type="introduction" xml:lang="mul">potius ἐν τῷ λυομένῳ dicendum fuisse existimat Welcker, cui favet Philodemus de pietate ed. Gomp. p. 39 : Αἰσχύλος ἐν τῷ λυομένῳ Προμηθεῖ . . . . . ὑπὸ Διὸς δεδέσθαι . Hyginus Poet. astr. 2, 15 p. 456 : Prometheum autem in monte Scythiae nomine Caucaso ferrea catena vinxit : quem adligatum ad triginta milia annorum Aeschylus tragoediarum scriptor ait. haud paucos locos ex hac fabula sumpsisse et in risum vertisse Aristophanem Av. 1470 sqq. 1553 sqq. al. suspicatur van de Sande Bakhuyzen de parodia in com. Ar. p. 96-101 .</note>
+          <div type="textpart" subtype="fragment" n="208" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_pyrphoros" xml:id="aesch-fr208">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-208-1">σιγῶν θ’ ὅπου δεῖ καὶ λέγων τὰ καίρια</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Gellius 13, 19, 4 : id quoque animadvertimus, aput Aeschylum ἐν τῷ πυρφόρῳ Προμηθεῖ et apud Euripidem in tragoedia quae inscripta est Ἰνὼ eundem esse versum absque paucis syllabis. Aeschylus sic ’σιγῶν — καίρια’, Euripides ita ’σιγᾶν θ’ ὅπου δεῖ καὶ λέγειν ἵν’ ἀσφαλές’ . Aeschyleus versus cum levi discrepantia recurrit in Choeph. 582 : ὑμῖν δ’ ἐπαινῶ γλῶσσαν εὔφημον φέρειν, σιγᾶν θ’ ὅπου δεῖ καὶ λέγειν τὰ καίρια, qui locus dubito num integer sit ; fortasse legendum τοῖς καιρίοις γὰρ δεῖ λέγειν τὰ καίρια (adesp. in Tzetz. Exeg. Il. p. 146, 22) . Aeschylus Sept. 619 : φιλεῖ δὲ σιγᾶν ἢ λέγειν τὰ καίρια. Sept. 1 : Κάδμου πολῖται, χρὴ λέγειν τὰ καίρια. Men. mon. 221 cod. Vind. : ἢ δεῖ σιωπᾶν ἢ λέγειν ἀμείνονα (malim ἢ λέγειν τὰ καίρια) .</note>
+          </div>
+        </div></body></text>
+</TEI>

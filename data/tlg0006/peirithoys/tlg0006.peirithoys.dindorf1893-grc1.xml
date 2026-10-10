@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-peirithoys-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΠΕΙΡΙΘΟΥΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.peirithoys; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.peirithoys.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.peirithoys.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peirithoys"><head>ΠΕΙΡΙΘΟΥΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-peirithoys-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peirithoys" sameAs="urn:cts:greekLit:tlg0006.peirithoys.nauck1889grc1:595">
+            <note type="source">1. Plut. de amic. multit. c. 7, (p. 96 C.)</note>
+            <quote>Ὡς γὰρ τὸν Κρέοντα τῆς θυ ατρὸς οὐδὲν ὁ χρυσός οὐδὲ ὁ πλοῦτος ὠφελεῖ, τὸ δὲ πῦρ ἀναφθὲν αἰφνιδίως προσδραμόντα καὶ περιπτύξαντα κατέκαυσε καὶ συναπώλεσεν· οὕτως ἔνιοι τῶν φίλων οὐδὲν ἀπολαυσαντες εὐτυχούντων συναπόλλυνται δυστυχούσι' καὶ τοῦτο μάλιστα πάσχουσιν οἱ φιλόσοφοι καὶ χαρίεντες, ὡς Θησεὺς τῷ Πειρίθῳ κολαζομένῳ καὶ δεδεμένῳ</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πέδαις ἀχαλκεύτοισιν ἔζευκται πόδας.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-peirithoys-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peirithoys" sameAs="urn:cts:greekLit:tlg0006.peirithoys.nauck1889grc1:596">
+            <note type="source">2. Stobæus CXXI, 24, c. lemm. Εὐριπίδου Πειρίθου·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκοῦν τὸ μὴ ζῆν κρεῖσσόν ἐστ᾽, ἢ ζῆν κακῶς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-peirithoys-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peirithoys" sameAs="urn:cts:greekLit:tlg0006.peirithoys.nauck1889grc1:593">
+            <note type="source">3. Clem. Alex. Strom. V, 14, § 115, (p. 717 Ρ.) ἐν δὲ τῷ Πειρίθῳ δράματι ὁ αὐτὸς (sc. Εὐριπίδης) καὶ τάδε τραγῳδεῖ·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">σὲ τὸν αὐτοφυῆ, τὸν ἐν αἰθερίῳ</l>
+              <l n="2" xml:lang="grc">ῥύμβῳ πάντων φύσιν ἐμπλέξανθ᾽,</l>
+              <l n="3" xml:lang="grc">ὃν περὶ μὲν φῶς, περὶ δ᾽ ὀρφναία</l>
+              <l n="4" xml:lang="grc">νὺξ, αἰολόχρως ἄκριτός τ᾽ ἄστρων</l>
+              <l n="5" xml:lang="grc">ὄχλος ἐνδελεχῶς ἀμφιχορεύει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-peirithoys-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peirithoys" sameAs="urn:cts:greekLit:tlg0006.peirithoys.nauck1889grc1:594">
+            <note type="source">4. Clem. Alex. Strom. V, 6, § 37, (p. 667 Ρ.) Περὶ τούτων (sc. τοῦ ζωδιακοῦ κύκλου καὶ τοῦ κατ᾽ αὐτὸν φερομένου χρόνου) οἶμαι καὶ ἡ τραγῳδία φυσιολογοῦσά φησιν·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ἀκάμας τε χρόνος περί γ᾽ ἀενάῳ</l>
+              <l n="2" xml:lang="grc">ῥεύματι πλήρης φοιτᾷ τίκτων</l>
+              <l n="3" xml:lang="grc">αὐτὸς ἑαυτὸν, δίδυμοί τ᾽ ἄρκτοι</l>
+              <l n="4" xml:lang="grc">ταῖς ὠκυπλάνοις πτερύγων ῥιπαῖς</l>
+              <l n="5" xml:lang="grc">τὸν Ἀτλάντειον τηροῦσι πόλον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-peirithoys-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peirithoys">
+            <note type="source">5. Greg. Corinth. Comm. ad Hermog. in Reisk. Orat. Gr. T. VIII, p. 948, (in Walz. Rhet. Gr. T. VII, p. 1312.) Ἐν μὲν τῷ Πειρίθῳ παρεισάγεται Ἡρακλῆς ἐν ᾅδου κατελθὼν κατὰ κέλευσιν Εὐρυσθέως, καὶ ὑπὸ τοῦ Αἰακοῦ ἐρωτώμενος, ὅστις ἐστὶ, καὶ ἀποκρινόμενος·</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-peirithoys-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peirithoys" sameAs="urn:cts:greekLit:tlg0006.peirithoys.nauck1889grc1:592">
+            <note type="source">6. Athen. XI, p. 496 Β. Πλημοχόη σκεῦος κεραμεοῦν βεμβικῶδες ἑδραῖον ἡσυχῆ, ὁ κοτυλίσκον ἔνιοι προσαγορεύουσιν, ὡς φησι Πάμφιλος. χρῶνται δὲ αὐτῷ ἐν Ἐλευσῖνι τῇ τελευταίᾳ τῶν μυστηρίων ἡμέρᾳ, ἣν καὶ ἀπ᾽ αὐτοῦ προσαγορεύουσι πλημοχόας· ἐν ᾗ δύο πλημοχόας πληρώσαντες, τὴν μὲν πρὸς ἀντολὰς, τὴν δὲ πρὸς δύσιν ἀνιστάμενοι, ἀνατρέπουσιν ἐπιλέγοντες ῥῆσιν μυστικήν· μνημονεύει δὲ αὐτῶν καὶ ὁ τὸν Πειρίθουν γράψας, εἴτε Κριτίας ἐστὶν ὁ τύραννος ἢ Εὐριπίδης, λέγων οὕτως·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἵνα πλημοχόας τάσδ᾽ εἰς χθόνιον</l>
+              <l n="2" xml:lang="grc">χάσμ᾽ εὐφήμως προχέωμεν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-peirithoys-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peirithoys" sameAs="urn:cts:greekLit:tlg0006.peirithoys.nauck1889grc1:598">
+            <note type="source">7. Stobæus Ecl. Eth. II, 7. Vol. II, p. 336 ed. Heer. c. lemm. Εὐριπίδου Πειρίθου</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁ πρῶτος εἰπὼν οὐκ ἀγυμνάστῳ φρενὶ</l>
+              <l n="2" xml:lang="grc">ἔρριψεν, ὅστις τόνδ᾽ ἐκαίνισεν λόγον,</l>
+              <l n="3" xml:lang="grc">ὡς τοῖσιν εὖ φρονοῦσι συμμαχεῖ τύχη.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-peirithoys-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_peirithoys" sameAs="urn:cts:greekLit:tlg0006.peirithoys.nauck1889grc1:597">
+            <note type="source">8. Stobæus Floril. XXXVII, 15. c. lemm. Πειρίθου, (sine auctoris nomine.):</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τρόπος ἐστὶ χρηστὸς ἀσφαλέστερος νόμου.</l>
+              <l n="2" xml:lang="grc">τὸν μὲν γὰρ οὐδεὶς ἂν διαστρέψαι ποτὲ</l>
+              <l n="3" xml:lang="grc">ῥήτωρ δύναιτο, τὸν δ᾽ ἄνω τε καὶ κάτω</l>
+              <l n="4" xml:lang="grc">λόγοις ταράσσων πολλάκις λυμαίνεται.</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΟΣΤΟΛΟΓΟΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.ostologoi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.ostologoi.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.ostologoi.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:ostologoi"><head xml:lang="grc">ΟΣΤΟΛΟΓΟΙ</head>
+          <note type="introduction" xml:lang="mul">Photius Lex. p. 353, 15 : ὀστολόγος· παρ’ Ἐπιλύχῳ , καὶ δρᾶμα Αἰσχύλου Ὀστολόγοι. drama fuit satyricum, trilogiae, ut videtur, eius in qua fuit Πηνελόπη.</note>
+          <div type="textpart" subtype="fragment" n="179" corresp="urn:cite2:perseus:fragmentaryplays.v1:ostologoi" xml:id="aesch-fr179">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-179-1">Εὐρύμαχος οὐκ ἄλλος οὐδὲν ἡσσόνως</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-179-2">ὕβριζ’ ὑβρισμοὺς οὐκ ἐναισίους ἐμοί·</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-179-3">ἦν μὲν γὰρ αὐτῷ σκοπὸς ἀεὶ τοὐμὸν κάρα</l>
+              <l n="4" xml:id="nauck-tfg-1-aesch-179-4">τοῦ δ’ ἀγκυλητοῦ κοσσάβιός ἐστι σκοπὸς</l>
+              <l n="5" xml:id="nauck-tfg-1-aesch-179-5">ἐκτεμὼν ἡβῶσα χεὶρ ἐφίετο</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. XV p. 667 C : καὶ Αἰσχύλος δ’ ἐν Ὀστολόγοις ἀγκυλητοὺς λέγει κοττάβους διὰ τούτων’ .Εὐρύμαχος — ἐφίετο’ . cf. Ath. XI p. 782 E : ἐντεῦθεν νοοῦμεν τοὺς παρ’ Αἰσχύλῳ ἀγκυλητοὺς κοττάβους. Eust. Il. p. 344, 24 : οὓς δὴ κοττάβους ἀγκυλητοὺς Αἰσχύλος ἔφη. Schol. Ar. Pac. 1244 : καὶ ἀγκυλητοὺς (ἀγκυληγοὺς libri) ἔλεγον κοττάβους.</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 οὗτος ἄλλος οὐ γὰρ ἄλλος (Ath. 4 p. 322) . ἡσσόνως ἧσσον ἧσσονας . v. 2 ἐναισίους αἰνεσίους ἀνασχετοὺς (Paral. p. 506) . v. 3 κότταβος ἀεὶ σκοπὸς ἀεὶ τοὐμὸν τοῦ μὲν . v. 4 a poeta abiudicat M. Schmidt Zeitschr. f. d. Alterth. 1856 p. 364 . v. 5 ἐκτενῶς (pro ἐκτεμὼν) . Dobree Adv. 2 p. 352 extremos duo versus hunc in modum refingere conatus est, τοῖς δ’ ἀγκυλητοῖς κοσσάβοις ἐπίσκοπα ὄσσων ἐμῶν ἡβῶσα χεὶρ ἐφίετο.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="180" corresp="urn:cite2:perseus:fragmentaryplays.v1:ostologoi" xml:id="aesch-fr180">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-180-1">ὅδ’ ἐστὶν ὅς ποτ’ ἀμφ’ ἐμοὶ βέλος</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-180-2">γελωτοποιόν, τὴν κάκοσμον οὐράνην,</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-180-3">ἔρριψεν οὐδ’ ἥμαρτε· περὶ δ’ ἐμῷ κάρᾳ</l>
+              <l n="4" xml:id="nauck-tfg-1-aesch-180-4">πληγεῖσ’ ἐναυάγησεν ὀστρακουμένη</l>
+              <l n="5" xml:id="nauck-tfg-1-aesch-180-5">χωρὶς μυρηρῶν τευχέων πνέουσ’ ἐμοί.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. I p. 17 C (cf. Eust. Od. p. 1828, 28) : Αἰσχύλος γοῦν ἀπρεπῶς που παράγει μεθύοντας τοὺς Ἕλληνας, ὡς καὶ τὰς ἀμίδας ἀλλήλοις περικαταγνύναι. λέγει γοῦν ’ὅδ’ ἐστὶν — πνέουσ’ ἐμοί’ . Schol. et Tzetz. in Lycophr. 778 : παρ’ Αἰσχύλῳ φαίνεταί τις τὸν Ὀδυσσέα τύψας ὀστράκῳ . ad Ὀστολόγους hos versus rettulit Welcker.</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 ὅδ’ ἔστ’ ἐκεῖνος ὅδ’ ἐστὶν ὅς ποτ’ ἀμφὶ θυμῷ μοι βέλος . v. 2 οὐράνην οὐράνην ἤτοι ἀμίδα Pollux 10, 44 (cf. Anecd. Paris. 4 p. 12, 14 et Schol. Hermog. in Rhet. vol. 7 p. 735) : ἁμίς, ἣν Σοφοκλῆς ἐν Πανδώρᾳ καλεῖ ἐνουρήθραν καλεῖ καὶ Αἰσχύλος οὐράνην. Pollux 2, 223 : ἡ δὲ τραγῳδία τὴν ἀμίδα οὐράνην ἐκάλεσεν. Eust. Opusc. p. 296, 51 : ὅσα καὶ οὐράναις, εἴποι ἂν ἡ τραγῳδία. verba τὴν κάκοσμον — κάρᾳ (v. 2 et 3) recurrunt in Soph. fr. 140 . v. 3 οὐδ’ ἥμαρτεν· οὐκ ἀπέτυχεν. Anonymus περὶ ποιημάτων in Hercul. vol. coll. alt. IV fol. 192 : τοῦ δὲ τὴν κάκοσμον οὐράνην ἔρριψεν τὸ περὶ τὴν κεφαλὴν τοῦ Ὀδυσσέως ἀμίδα συντετρῖφθαι. v. 4 ῥαγεῖσ’ (in Aesch. Agam. 1271) . v. 5 μυραρῶν .</note>
+          </div>
+        </div></body></text>
+</TEI>

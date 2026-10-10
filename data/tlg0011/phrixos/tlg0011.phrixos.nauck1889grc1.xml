@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-phrixos-nauck1889grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΦΡΙΞΟΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0011">Sophocles</author>
+        <editor>August Nauck</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability>
+          <p>Derived scholarly transcription; verify against page images before quotation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>August Nauck, Tragicorum Graecorum Fragmenta, second edition (Leipzig: Teubner, 1889).</bibl>
+        <ptr target="../../../nauck1889/source/nauck1889.tragicorum-graecorum-fragmenta.xml"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Extracted deterministically from nauck.tragfrag-2.xml; repaired the malformed TEI namespace URI.</change>
+    <change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.phrixos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.phrixos.nauck1889grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.phrixos.nauck1889grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phrixos"><head>ΦΡΙΞΟΣ</head><div type="textpart" subtype="fragment" n="654" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phrixos" xml:id="fragment-phrixos-nauck1889grc1-654">
+            <head>654</head>
+            <lg>
+              <l n="1" xml:lang="grc">ὅρια κελεύθου τῆσδε γῆς προαστίας</l>
+            </lg>
+            <p>Stephanus Byz. p. 140 , 1 : ἄστυ — προαστία γῆ ἐν Φρίξῳ Σοφοκλέους
+‘ὅρια — προαστίας’ .</p>
+            <pb n="287"/>
+          </div>
+          <div type="textpart" subtype="fragment" n="655" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phrixos" xml:id="fragment-phrixos-nauck1889grc1-655">
+            <head>655</head>
+            <lg>
+              <l n="1" xml:lang="grc">κυνηδὸν ἐξέπραξαν κνυζούμενον</l>
+            </lg>
+            <p>Etym. Gud. p. 330 , 43 : κνυζῶ — ἐξ οὗ καὶ τὸ κνυζηθμός —
+καὶ πάλιν Σοφοκλῆς Φρίξῳ (ita cod. Paris. 2636 in Anecd. Paris.
+vol. 4 p. 73 , 32 , φρίζω cod. Gud.) ‘κυνηδὸν ἐξέπραξαν κνυζόμενον
+(κνιζούμενον cod. Paris.)’ . κυνηδὸν ἐσπάραξαν coni. Dobree, κυνηδὸν
+ἐξέκραξαν ὡς κνυζώμενοι Blomfield. Phot. Lex. p. 187 , 3 et 4 :
+κύνβη· πλοίου εἶδος. Σοφοκλῆς. κυνηδὸν· ὡς κύων. ubi κύμβη·
+πλοίου εἶδος. κυνηδόν· ὡς κύων. Σοφοκλῆς, suasit Blomfield.</p>
+          </div>
+          <div type="textpart" subtype="fragment" n="656" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_phrixos" xml:id="fragment-phrixos-nauck1889grc1-656">
+            <head>656</head>
+            <lg>
+              <l n="1" xml:lang="grc">ἀφελής</l>
+            </lg>
+            <p>Antiatt. p. 83 , 23 : ἀφελής. Σοφοκλῆς Φρίξῳ .</p>
+          </div>
+        </div></body></text></TEI>

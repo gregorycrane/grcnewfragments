@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>THEOPOMPUS, ΟΔΥΣΣΕΥΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Theopompus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0513.odysseys.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0513.odysseys.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0513.odysseys.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_odysseys"><head>ΟΔΥΣΣΕΥΣ</head><div type="textpart" subtype="fragment" n="33" xml:id="kock-0513-odysseys-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_odysseys">
+              <lg>
+                <l n="1" xml:id="kock-0513-odysseys-33-l1" xml:lang="grc">χιτῶνά μοι</l>
+                <l n="2" xml:id="kock-0513-odysseys-33-l2" xml:lang="grc">φέρων δέδωκας δαιδάλεον, ὃν ἤκασεν</l>
+                <l n="3" xml:id="kock-0513-odysseys-33-l3" xml:lang="grc">ἄρισθ' Ὅμηρος κρομμύου λεπυχάνῳ.</l>
+              </lg>
+              <note type="source">Eustathius 1863, 49 ἰστέον δὲ ὅτι τὸ ῥηθὲν λέπυρον καὶ λεπύχανον φασιν εἰρῆσθαι παρὰ Θεοπόμπῳ τῷ κωμικῷ, εἰπόντι ὡς ἐκ προσώπου τοῦ Ὀδυσσέως τό κτλ.</note>
+              <note type="apparatus">quamquam Eustathius fabulam non nominavit, tamen Meinekium recte haec ad Ulixem rettulisse adparet. δαιδάλεον — κρομμύου Meinek.] δαίδαλον — κρομύου. Homeri versus sunt Od. 19, 232. 3. quocum Ulixes conloquatur difficile est dicere: nisi forte scripsit φέρουσ' ἔδωκας.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="34" xml:id="kock-0513-odysseys-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_odysseys">
+              <lg>
+                <l n="1" xml:id="kock-0513-odysseys-34-l1" xml:lang="grc">Εὐριπίδου τἄρ' ἐστὶν οὐ κακῶς ἔχον,</l>
+                <l n="2" xml:id="kock-0513-odysseys-34-l2" xml:lang="grc">τἀλλότρια δειπνεῖν τὸν καλῶς εὐδαίμονα.</l>
+              </lg>
+              <note type="source">Athenaeus 5, 165b Θεόπομπος δ' ἐν Ὀδυσσεῖ ἔφη κτλ.</note>
+              <note type="apparatus">τἄρ' ἐστὶν Meinek.] τἄριστον. τἀρχαῖον Porson. τἄρ' ἴστον Herwerd. Nov. add. crit. 11 et Mnem. nov. IIII 302. στ' ἄριστον 'est ientaculum non contemnendum'. Bergk. R. c. Att. 412. non credo. τὸν καλῶς εὐδαίμονα Aesch. fr. 310 N.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="35" xml:id="kock-0513-odysseys-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_odysseys">
+              <lg>
+                <l n="1" xml:id="kock-0513-odysseys-35-l1" xml:lang="grc">ἵνα μὴ τὸ παλαιὸν τοῦτο καὶ θρυλούμενον</l>
+                <l n="2" xml:id="kock-0513-odysseys-35-l2" xml:lang="grc">δι' ἡμετέρων στομάτων</l>
+                <l n="3" xml:id="kock-0513-odysseys-35-l3" xml:lang="grc">εἴπω σόφισμ', ὅ φασι παῖδας Λεσβίων</l>
+                <l n="4" xml:id="kock-0513-odysseys-35-l4" xml:lang="grc">εὑρεῖν.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Vesp. 1346 τὸ λεσβιεῖν ἐπὶ τοῦ αἰσχροῦ τάττεται, ἐπειδὴ οἱ Λέσβιοι αἰσχρουργοῦσι τῷ στόματι μολυνόμενοι. παρὰ τὸ ἱστορούμενον, ὅτι παρὰ τοῖς Λεσβίοις τοῦτο πρῶτον γυνὴ ἔπαθε. καὶ παρὰ Θεοπόμπῳ ἐν Ὀδυσσεῖ κτλ.</note>
+              <note type="apparatus">εὑρεῖν initium esse versus eodem metro compositi quo v. 2 fuit Meinekius monuit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="36" xml:id="kock-0513-odysseys-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_odysseys">
+              <p>λάσιον ἐπιβεβλημένος</p>
+              <note type="source">Θεόπομπος δ' ἐν Ὀδυσσεῦσιν (Ὀδυσσεῖ) ἐπὶ διακόνου ἔφη Pollux 7, 74. Erotianus 93, 4 Klein. λάσιον· ὀθόνιον, ὡς Θεόπομπος ἐν Ὀδυσσεῖ. καὶ Ἀρτεμίδωρος ὁ γραμματικὸς ἐν ταῖς λέξεσί φησι λινοῦν ὕφος δασὺ εἶναι. (Ὀδυσσεῖ Meinek., ὀδυσσεία AC, ὀδυσεία B.)</note>
+              <note type="apparatus">Ad Ulixem fr. 73 refert Meinekius.</note>
+            </div>
+          </div></body></text></TEI>

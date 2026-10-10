@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-aias_lokros-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΑΙΑΣ ΛΟΚΡΟΣ.: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.aias_lokros; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.aias_lokros.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.aias_lokros.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aias_lokros"><head>ΑΙΑΣ ΛΟΚΡΟΣ.</head><div type="textpart" subtype="fragment" n="11" xml:id="fragment-aias_lokros-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aias_lokros" sameAs="urn:cts:greekLit:tlg0011.aias_lokros.nauck1889grc1:11">
+            <note type="source">Stobæus Ecl. phys. I, 4. vol. I. p. 130. Heeren. Σοφοκλέους (αἴαντι margo Canteri)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰ δείν᾽ ἔδρασας, δεινὰ καὶ παθεῖν σε δεῖ.</l>
+              <l n="2" xml:lang="grc">Δίκας δ᾽ ἐξέλαμψεν ὅσιον φάος.</l>
+            </lg>
+            <note type="commentary">Priorem versum ex Sophocle affert Theophilus ad Autolyc. II, 54. p. 258. Alter si est Sophoclis, ex alio loco petitus est. Similis sententia Σοφοκλέους Αἴαντι tribuitur apud Stobæum 1. 1. p. 124.</note>
+            <quote>Τὸ χρύσεον δὲ τᾶς Δίκας δέδορκεν ὄμμα, τὸν δ᾽ ἄδικον ἀμείβεται.</quote>
+            <note type="source">Athenæus XII. p. 546 b. Καί πού τις καὶ ποιητὴς ἐφθέγξατο “Τὸ χρύσεον ὄμμα τὸ τᾶς Δίκας.”</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-aias_lokros-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aias_lokros" sameAs="urn:cts:greekLit:tlg0011.aias_lokros.nauck1889grc1:13">
+            <note type="source">Stobæus Floril. XLVIII, 5. Εὐριπίδου</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σοφοὶ τύραννοι τῶν σοφῶν ξυνουσία.</l>
+            </lg>
+            <note type="commentary">"Senarium hunc Sophoclis esse ex Ajace Locro testantur Aristides tom. II. p. 288. Libanius Epist. XXXIII. Zenobius Prov. V. 98. Agellius XIII. 18. Platonis errorem, aliis jam antea notatum, ostendit Gatakerus, qui de hoc senario copiose agit tom. I. p. 173." BRUNCK. Alia dedi ad Aristophanis fragm. 289.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-aias_lokros-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aias_lokros" sameAs="urn:cts:greekLit:tlg0011.aias_lokros.nauck1889grc1:12">
+            <note type="source">Stobæus XCVIII, 14. Σοφοκλῆς Αἴαντι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἄνθρωπός ἐστι πνεῦμα καὶ σκιὰ μόνον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-aias_lokros-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aias_lokros">
+            <note type="source">Stobæus CXIV, 6. Σοφοκλέους Οἰδίποδι</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τοὺς δ᾽ αὖ μεγίστους καὶ σοφωτάτους φρενὶ</l>
+              <l n="2" xml:lang="grc">τοιούσδ᾽ ἴδοις ἂν, οἷός ἐστι νῦν ὅδε,</l>
+              <l n="3" xml:lang="grc">καλῶς κακῶς πράσσοντι συμπαραινέσαι·</l>
+              <l n="4" xml:lang="grc">ὅταν δὲ δαίμων ἀνδρὸς εὐτυχοῦς τὸ πρὶν</l>
+              <l n="5" xml:lang="grc">πλάστιγγ᾽ ἐρείσῃ τοῦ βίου παλίντροπον,</l>
+              <l n="6" xml:lang="grc">τὰ πολλὰ φροῦδα καὶ καλῶς εἰρημένα.</l>
+            </lg>
+            <note type="commentary">Ex Ajace Locro esse ostendit Cicero Tuscul. III. 29. "Itaque Oileus ille apud Sophoclem, qui Telamonem antea de Ajacis morte consolatus esset, is quum audisset de sui, fractus est. De cujus commutata mente sic dicitur</note>
+            <quote>Nec vero tanta præditus sapientia quisquam est, qui aliorum ærumnam dictis allevans, non idem, quum fortuna mutata impetum convertat, clade subita frangatur sua; ut illa ad alios dicta et præcepta excidant."</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-aias_lokros-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aias_lokros" sameAs="urn:cts:greekLit:tlg0011.aias_lokros.nauck1889grc1:15">
+            <note type="source">Schol. Euripidis ad Alcestin 453. Καὶ παρὰ Σοφοκλεῖ ἐν Αἴαντι Λοκρῷ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καὶ πεζὰ καὶ φορμικτά.</l>
+            </lg>
+            <note type="commentary">καὶ πεζαὶ δέ τινες ἐταῖραι λέγονται, αἱ χωρὶς ὀργάνου εἰς τὰ συμπόσια φοιτώσι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-aias_lokros-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aias_lokros" sameAs="urn:cts:greekLit:tlg0011.aias_lokros.nauck1889grc1:10">
+            <note type="source">Schol. Aristophanis ad Aves 934, Σπολὰς, διφθέρα ὁποιαοῦν. Σοφοκλῆς Αἴαντι Λοκρῷ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καταστίκτου κυνὸς</l>
+              <l n="2" xml:lang="grc">σπολὰς Λίβυσσα, παρδαληφόρον δέρος.</l>
+            </lg>
+            <note type="commentary">τὸ δὲ Σοφόκλειον ἐπὶ τοῦ δέρματος εἴρηται, τοῦ κρεμαμένου πρὸς τῇ τοῦ Ἀντήνορος οἰκίᾳ. Pollux VII, 70. σπολὰς — Σοφοκλῆς δ᾽ αὐτὴν Λίβυσσαν ὀνομάζει “Σπολὰς Λίβυσσα, παρδαληφόρον δέρος.”</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-aias_lokros-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aias_lokros" sameAs="urn:cts:greekLit:tlg0011.aias_lokros.nauck1889grc1:16">
+            <note type="source">Antiatticista p. 97, 4. Ἑλλάς: ὁ ἀνήρ. Σοφοκλῆς Αἴαντι Λοκρῷ.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="18" xml:id="fragment-aias_lokros-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aias_lokros" sameAs="urn:cts:greekLit:tlg0011.aias_lokros.nauck1889grc1:14">
+            <note type="source">Zenobius VI, 14.</note>
+            <quote>Τί σοι ὁ Ἀπόλλων κεκιθά-ρικεν; τὸ κεκιθάρικεν οἷον ἐμαντεύσατο, ὡς φησιν Αἰ-σχύλος (Σοφοκλῆς?) ἐν Αἴαντι Λοκρῷ.</quote>
+          </div>
+        </div></body></text></TEI>

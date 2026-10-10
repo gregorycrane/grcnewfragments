@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΕΙΡΗΝΗ ΔΕΥΤΕΡΑ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.eirene_deytera.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.eirene_deytera.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.eirene_deytera.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_eirene_deytera"><head>ΕΙΡΗΝΗ ΔΕΥΤΕΡΑ</head><div type="textpart" subtype="fragment" n="294" xml:id="kock-0019-eirene_deytera-294" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_eirene_deytera">
+              <lg>
+                <l n="1" xml:id="kock-0019-eirene_deytera-294-l1" xml:lang="grc">Α. τοῖς πᾶσιν ἀνθρώποισιν Εἰρήνης φίλης</l>
+                <l n="2" xml:id="kock-0019-eirene_deytera-294-l2" xml:lang="grc">πιστὴ τροφός, ταμία, συνεργός, ἐπίτροπος,</l>
+                <l n="3" xml:id="kock-0019-eirene_deytera-294-l3" xml:lang="grc">θυγάτηρ, ἀδελφή, πάντα ταῦτ’ ἐχρῆτό μοι.</l>
+                <l n="4" xml:id="kock-0019-eirene_deytera-294-l4" xml:lang="grc">Β. σοὶ δ’ ὄνομα δή τί ἐστιν; Α. ὅ τι; Γεωργία.</l>
+              </lg>
+              <lg>
+                <l n="5" xml:id="kock-0019-eirene_deytera-294-l5" xml:lang="grc">Β. ὦ ποθεινὴ τοῖς δικαίοις καὶ γεωργοῖς ἡμέρα,</l>
+                <l n="6" xml:id="kock-0019-eirene_deytera-294-l6" xml:lang="grc">ἄσμενός σ’ ἰδὼν προσειπεῖν βούλομαι τὰς ἀμπέλους.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 56, 1. Ἀριστοφάνους Εἰρήνης.</note>
+              <note type="apparatus">1. τοῖς ΑΒ] τῆς. 4. δὴ om. Α. 5. γεωργοῖς Gesn. marg.] γεωργός. 5. 6 ‘cohaerent cum praecedentibus in A et Tr.’ Gaisford. sunt fabulae superstitis 556. 7. itaque spatio aliquo a reliquis secernendi erant, cum praesertim etiamsi alterius quoque Pacis sunt non continuo superiores secuti esse videantur. conloquitur autem Agricultura, quam ut in priore fabula Oporam in scaenam induxit cum Trygaeo aliquo, qui repertam non agnoscit, et priscis Atheniensibus se bene cognitam et exoptatam fuisse dicit. ad Menandri Γεωργόν haec pertinere Dindorfius censuit, perperam: colorem enim antiquae comoediae certissime referunt. ἐχρῆτό μοι corrupta sunt: nam χρῆσθαί τινί τι est aliquo ad aliquid uti (τοῖς πολεμίοις παρέδοσαν σφᾶς αὐτοὺς χρῆσθαι ἑαυτοῖς ὅτι βούλοιντο). poterat dici πᾶσι τούτοις (τοῖς ὀνόμασιν) ἐπ’ ἐμοῦ ἐχρῆτο. videtur scribendum esse πάντα ταῦτ’ εὔχοντό μοι, i. e. εὐχόμενοί μοι πάντα ταῦτά με ἔλεγον, quod si cui audacius videatur, multo audacius Sophocles dixit νῦν δὲ τοῦτ’ εὔχεσθέ μοι OR. 1512, quod perperam a quibusdam sollicitatur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="295" xml:id="kock-0019-eirene_deytera-295" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_eirene_deytera">
+              <lg>
+                <l n="1" xml:id="kock-0019-eirene_deytera-295-l1" xml:lang="grc">τὴν δ’ ἀσπίδα</l>
+                <l n="2" xml:id="kock-0019-eirene_deytera-295-l2" xml:lang="grc">ἐπίθημα τῷ φρέατι παράθες εὐθέως.</l>
+              </lg>
+              <note type="source">Pollux 10, 188 φαίης δ’ ἂν ἐπὶ τοῦ αὐτοῦ καὶ πῶμα καὶ ἐπίθημα, οἷον πίθου ἢ λέβητος ἢ φαρέτρας. ἐν γοῦν τῇ Ἀριστοφάνους Εἰρήνῃ γέγραπται κτλ. cf. Pac. 1210—1264.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="296" xml:id="kock-0019-eirene_deytera-296" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_eirene_deytera">
+              <lg>
+                <l n="1" xml:id="kock-0019-eirene_deytera-296-l1" xml:lang="grc">ἰὼ Λακεδαίμων, τί ἄρα πείσει τήμερα;</l>
+              </lg>
+              <note type="source">Suidas τήμερος· ὁ σημερινός. καὶ ἔστι τεταγμένον ἐπὶ σώματος· τὸ δὲ τήμερον ἐπὶ χρόνου λέγεται καὶ ἐν Εἰρήνῃ κτλ. eadem Schol. Ald. Nub. 699 (cf. Schol. Hom. Il. 3, 182) ex Holcadibus affert (Λακεδαίμον), ubi tamen Rav. et Ven. ἐν τῇ Εἰρήνῃ. πείσει Schol. Nub.] ποιήσει Suid. cf. fr. 401. potuit eodem versu poeta in utraque comoedia uti. mira narrat Photius 202, 18 Λακεδαιμῶν· τὴν</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="297" xml:id="kock-0019-eirene_deytera-297" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_eirene_deytera">
+              <lg>
+                <l n="1" xml:id="kock-0019-eirene_deytera-297-l1" xml:lang="grc">πόθεν τὸ φῖτυ, τί τὸ γένος, τίς ἡ σπορά;</l>
+              </lg>
+              <note type="source">Eustathius 1291, 26 <hi rend="italic">φῖτυ δηλοῖ φυτὸν ἢ φύτευμα, ὡς Ἀριστοφάνης Εἰρήνῃ</hi> (Dobr. Adv. II 253f <hi rend="italic">εἴρηκε·</hi>) <hi rend="italic">πόθεν τὸ φῖτυ κτλ.</hi>
+              </note>
+              <note type="apparatus">Trygaeum haec mirifico Agriculturae ornatu obstupefactum dicere, respondere autem illam ea quae fr. 294 continentur coniectura est Bergkii, incerta sane.</note>
+            </div>
+          </div></body></text></TEI>

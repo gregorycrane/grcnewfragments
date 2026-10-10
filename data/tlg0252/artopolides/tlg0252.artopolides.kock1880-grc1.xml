@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>HERMIPPUS, ΑΡΤΟΠΩΛΙΔΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Hermippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0252.artopolides.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0252.artopolides.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0252.artopolides.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_artopolides"><head>ΑΡΤΟΠΩΛΙΔΕΣ</head><div type="textpart" subtype="fragment" n="8" xml:id="kock-0252-artopolides-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_artopolides">
+              <lg>
+                <l n="1" xml:id="kock-0252-artopolides-8-l1" xml:lang="grc">φέρε νῦν ἀγήλω τοὺς θεοὺς ἰοῦσ' ἐγώ,</l>
+                <l n="2" xml:id="kock-0252-artopolides-8-l2" xml:lang="grc">καὶ θυμιάσω τοῦ τέκνου σεσωσμένου.</l>
+              </lg>
+              <note type="source">
+                <p>Bekk. Anecd. 328, 25 et Suidas ἀγῆλαι· τιμῆσαι θεόν, ἀγλαΐσαι . . . Ἕρμιππος Ἀρτοπώλισι· φέρε κτλ. v. 1 Schol. Eurip. Med. 1016 (995). Hesych. ἀγήλω· κοσμήσω. Ἀρτοπώλοισι cod. Bekker. ἰοῦσ' Schol. Eurip.] οἴους cod. Bekk. οἴους ed. Suid. — ἐγώ] ἔσω Schol. Eur. (Vat. Cobeti εἴσω ἰοῦσ'). cf. Aristoph. Pac. 396. 7.</p>
+              </note>
+              <note type="apparatus">
+                <p>ἔσω pro εἴσω comici non dicunt: atque ei qui deis gratias agere volebant, in templa ibant, non in domum suam. loquitur haec mater Hyperboli, absoluto ab iudicibus filio. Bergk. R. c. Att. 315. Fritzsch. Act. soc. gr. I 138. cf. Eupol. 183.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="9" xml:id="kock-0252-artopolides-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_artopolides">
+              <note type="source">
+                <p>Schol. Aristoph. Av. 1556 ἦν δὲ καὶ τὸ σῶμα εὐεκτής (Πείσανδρος), ὡς Ἕρμιππος ἐν Ἀρτοπώλισιν· ἐνέβαινε σιγῇ Πείσανδρος μέγας αὐτὸς ὥσπερ Διονυσίοισιν οὑπὶ τῶν ξύλων, ἐλαίας ἔρεισιν ὄνον κανθήλιον.</p>
+              </note>
+              <note type="apparatus">
+                <p>emendare haec conati sunt G. Hermannus (Meinek. V 32), Meinekius I 179. cf. II 385, Fritzschius Aristoph. Thesm. 315, denique Cobetus Obs. crit. 128, qui aliqua certe cum probabilitate sic scribit</p>
+                <lg>
+                  <l n="1" xml:id="kock-0252-artopolides-9-l1" xml:lang="grc">Α. — ἀναβαίνει σῖγα Πείσανδρος μέγας</l>
+                  <l n="2" xml:id="kock-0252-artopolides-9-l2" xml:lang="grc">ὥσπερ Διονυσίοισιν οὑπὶ τῶν ξύλων.</l>
+                  <l n="3" xml:id="kock-0252-artopolides-9-l3" xml:lang="grc">Β. ἐγέλασ'. Α. ἐρεῖς τιν' ὄνον ὁρᾶν κανθήλιον.</l>
+                </lg>
+                <p>‘ὁ ἐπὶ τῶν ξύλων est phallus ingens, quales in Dionysiorum pompa longis perticis suspensi gestabantur. Aristoph. Ach. 259 sq.’ ὄνος dicebatur Pisander a vasta corporis deformitate. cf. Aristoph. Av. 1556. fr. 81. Eupol. 31. 182. Meinek. I 179.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="10" xml:id="kock-0252-artopolides-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_artopolides">
+              <lg>
+                <l n="1" xml:id="kock-0252-artopolides-10-l1" xml:lang="grc">ὦ σαπρὰ καὶ πᾶσι πόρνη καὶ κάπραινα.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 7, 202 Ἔρμιππος . . . ἐν Ἀρτοπώλισι. ὦ] ὡς Α. καὶ</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="kock-0252-artopolides-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_artopolides">
+              <lg>
+                <l n="1" xml:id="kock-0252-artopolides-11-l1" xml:lang="grc">καὶ τάριχος πίονα</l>
+              </lg>
+              <note type="source">Athenaeus 3, 119c ἰδίως δ’ ἐσχημάτισται (τὸ τάριχος) παρ’ Ἑρμίππῳ ἐν Ἀρτοπώλισιν· καὶ τ. π. scilicet barbare haec loquentem Hyperboli matrem poeta induxerat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0252-artopolides-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_artopolides">
+              <lg>
+                <l n="1" xml:id="kock-0252-artopolides-12-l1" xml:lang="grc">δοκικῶ</l>
+              </lg>
+              <note type="source">ἀντὶ τοῦ δοκῶ. ἔπαιξε δὲ Ἕρμιππος ἐν Ἀρτοπώλισιν. Hesych. hoc quoque barbare dicit mater Hyperboli. cod. Hes. δοκηκῶ et Ἀρτοπώλησι. cf. de hoc poetae commento Lobeck. Pathol. prol. 148.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="13" xml:id="kock-0252-artopolides-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_artopolides">
+              <lg>
+                <l n="1" xml:id="kock-0252-artopolides-13-l1" xml:lang="grc">γελγοπωλεῖν</l>
+              </lg>
+              <note type="source">Pollux 7, 198 ἡ γελγόπωλις ἐν Διονυσαλεξάνδρῳ Κρατίνου, ὥσπερ ἐν Ἀρτοπώλισιν Ἑρμίππου τὸ γελγοπωλεῖν. cf. Cratin. 48. Eupol. 304. Hesych. γελγοπωλεῖν· ῥωποπωλεῖν, παντοπωλεῖν.</note>
+            </div>
+          </div></body></text></TEI>

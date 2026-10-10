@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PLATO COMICUS, ΠΑΙΔΑΡΙΟΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.paidarion.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.paidarion.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.paidarion.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_paidarion"><head>ΠΑΙΔΑΡΙΟΝ</head><div type="textpart" subtype="fragment" n="91" xml:id="kock-0497-paidarion-91" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_paidarion">
+              <head>91</head>
+              <lg>
+                <l n="1" xml:id="kock-0497-paidarion-91-l1" xml:lang="grc">φέρε τοῦτ’ ἐμοὶ</l>
+                <l n="2" xml:id="kock-0497-paidarion-91-l2" xml:lang="grc">δεῖξον τὸ κανοῦν μοι δεῦρο μὴ μάχαιρ’ ἔνι.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Pac. 948 ἐκέκρυπτο ἐν τῷ κανῷ ἡ μάχαιρα ταῖς ὀλαῖς καὶ τοῖς στέμμασι . . . Πλάτων ἐν Παιδαρίῳ κτλ. τοῦτ’ ἐμοὶ] τοῦτο δὴ Dobraeus. 2. μοι om. V. μὴ Dobr.] πῆ. in altera Hephaestionis editione II 206 haec metro Eupolideo Gaisfordus accommodavit φέρε | τοῦτ’ ἐμοὶ δεῖξον τὸ κανοῦν δεῦρο μὴ μάχαιρ’ ἔνι, sententia ei metro minime apta.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="92" xml:id="kock-0497-paidarion-92" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_paidarion">
+              <head>92</head>
+              <lg>
+                <l n="1" xml:id="kock-0497-paidarion-92-l1" xml:lang="grc">εἰ μὲν μὴ λίαν . . . ὦνδρες, ἠναγκαζόμην</l>
+                <l n="2" xml:id="kock-0497-paidarion-92-l2" xml:lang="grc">στρέψαι δεῦρ’, οὐκ ἂν παρέβην εἰς λέξιν τοιάνδ’ ἐπῶν.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Pac. 733 et Suidas παράβασις· δῆλον δὲ ποιοῦσιν αὐτοὶ οἱ ποιηταί, τὸ στρέφεσθαι σημαίνοντες καὶ τὸ παραβαίνειν. Πλάτων ἐν τῷ Παιδαρίῳ κτλ. μὲν om. V. — lacunam quam indicavit Bentleius, Meinekius et Bergkius (II 1015) explent inserto ὑπὸ τοῦδ’, Aristophanem dici rati. cf. quae adnotavimus ad Aristoph. fr. 612. κρατερῶς Cobet. Obs. crit. 110, quod initio parabasis — id ipsum enim esse arbitratur — nondum quisquam nominari potuerit. Fritzschius Fr. Eup. v. conser. 13 εἰ μὴ λίαν, ἄνδρες, ὑφ’ ὑμῶν ἐπηναγκαζόμην, poetam cum spectatoribus expostulasse censens. cf. fr. 94.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="93" xml:id="kock-0497-paidarion-93" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_paidarion">
+              <head>93</head>
+              <lg>
+                <l n="1" xml:id="kock-0497-paidarion-93-l1" xml:lang="grc">ὥσπερ τοὺς πουλύποδας πρώτιστά σε</l>
+              </lg>
+              <note type="source">Athenaeus 7, 316 c Πλάτων Παιδί. Παιδίῳ Casaubonus. neque de sententia neque de metro constat. Bergkius versu Eupolideo ὡσπερεὶ τοὺς πουλύποδας περιτρώγειν πρώτιστά σε, quem versum propter anapaestum in alterius partis initio non recte vituperat Fritzschius Fr. Eup. v. conser. 14.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="94" xml:id="kock-0497-paidarion-94" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_paidarion">
+              <head>94</head>
+              <note type="source">Schol. Aristoph. Ran. 308 ἐν ἔθει γὰρ εἶναι διασκώπτειν τοὺς ἀκροωμένους, ὡς καὶ Πλάτων ἐν Παιδαρίῳ ποιεῖ. Παιδαρίοις Flor. Platonem non minus quam Aristophanem saepe etiam eos qui spectarent iocis lacessivisse dicit.</note>
+            </div>
+          </div></body></text></TEI>

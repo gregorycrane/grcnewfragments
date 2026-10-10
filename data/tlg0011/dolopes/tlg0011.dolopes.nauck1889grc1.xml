@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-dolopes-nauck1889grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΔΟΛΟΠΕΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0011">Sophocles</author>
+        <editor>August Nauck</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability>
+          <p>Derived scholarly transcription; verify against page images before quotation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>August Nauck, Tragicorum Graecorum Fragmenta, second edition (Leipzig: Teubner, 1889).</bibl>
+        <ptr target="../../../nauck1889/source/nauck1889.tragicorum-graecorum-fragmenta.xml"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Extracted deterministically from nauck.tragfrag-2.xml; repaired the malformed TEI namespace URI.</change>
+    <change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.dolopes; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.dolopes.nauck1889grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.dolopes.nauck1889grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_dolopes"><head>ΔΟΛΟΠΕΣ</head><div type="textpart" subtype="fragment" n="176" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_dolopes" xml:id="fragment-dolopes-nauck1889grc1-176">
+            <head>176</head>
+            <lg>
+              <l n="1" xml:lang="grc">εὐναῖος εἴη δραπέτιν στέγην ἔχων</l>
+            </lg>
+            <p>Phot. Lex. p. 36 , 12 : εὐναῖος· ἐγκεκρυμμένος. Σοφοκλῆς Δόλοψιν
+‘εὐναῖος — ἔχων’ . eadem Etym. M. p. 393 , 44 , ubi δραπέτιν
+D, δραπέτην al. cf. Hesych. 2 p. 227 : εὔναιος· λαγώς. Σοφοκλῆς
+Δόλοψι. καπτηχής (l. κατεπτηχώς) . ante εὐναῖος ex Hesychio λαγὼς
+suppleri voluit Valckenaer in Eur. Hipp. 1126 . εἴην pro εἴη scripsit
+Naber.</p>
+          </div>
+          <div type="textpart" subtype="fragment" n="177" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_dolopes" xml:id="fragment-dolopes-nauck1889grc1-177">
+            <head>177</head>
+            <lg>
+              <l n="1" xml:lang="grc">χαμεύνη</l>
+            </lg>
+            <p>Cyrilli Lex. ap. Schow. in Hesych. p. 781 : χαμευνά· ἡ ἐπὶ γῆς
+κατάκλισις. καὶ τὸ ταπεινὸν κλινίδιον χαμεύνη. Σοφοκλῆς Δόλοψι.</p>
+            <pb n="171"/>
+          </div>
+        </div></body></text></TEI>

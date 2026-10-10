@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΠΡΟΜΗΘΕΥΣ ΛΥΟΜΕΝΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.prometheys_lyomenos; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.prometheys_lyomenos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.prometheys_lyomenos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos"><head>ΠΡΟΜΗΘΕΥΣ ΛΥΟΜΕΝΟΣ</head>
+          <pb n="604" facs="urn:hathi:iau.31858007086675:scan:612"/>
+          <div type="textpart" subtype="fragment" n="177" xml:id="frag_9ac3c70f49" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos">
+            <note type="source">Arrianus in Periplo Ponti Euxini p. 19. Αἰσχύλος ἐν Προμηθεῖ λυομένῳ τὸν Φᾶσιν ὅρον τῆς Εὐρώπης καὶ τὴς Ἀσίας ποιεῖ. λέγουσι γοῦν αὐτῷ οἱ Τιτάνες πρὸς τὸν Προμηθέα ὅτι</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_9ac3c70f49-l1" xml:lang="grc">Ἥκομεν</l>
+              <l n="2" xml:id="frag_9ac3c70f49-l2" xml:lang="grc">τοὺς σοὺς ἄθλους τούσδε, Προμηθεῦ,</l>
+              <l n="3" xml:id="frag_9ac3c70f49-l3" xml:lang="grc">δεσμοῦ τε πάθος τόδ᾽ ἐποψόμενοι.</l>
+            </lg>
+            <note type="source">ἔπειτα καταλέγουσιν ὅσην χώραν ἐπῆλθον</note>
+            <lg type="fragment">
+              <l n="4" xml:id="frag_9ac3c70f49-l4" xml:lang="grc">τῇ μὲν δίδυμον χθονὸς Εὐρώπης</l>
+              <l n="5" xml:id="frag_9ac3c70f49-l5" xml:lang="grc">μέγαν ἠδ᾽ Ἀσίας τέρμονα Φᾶσιν.</l>
+            </lg>
+            <note type="commentary">Minus integra hæc afferuntur in Periplo Ponti Euxini et Mæotidis paludis p. 1. Spectat ad hunc locum Procopius Histor. Goth. IV, 6. p. 336, 11.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="178" xml:id="frag_3bee417f09" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos" sameAs="urn:cts:greekLit:tlg0085.prometheys_lyomenos.nauck1889-grc1:192">
+            <note type="source">Strabo I. p. 33. Οὕτω τὰ μεσημβρινὰ πάντα Αἰθιοπίαν καλεῖσθαι τὰ πρὸς Ὠκεανῷ. μαρτυρεῖ δὲ τὰ τοιαῦτα. ὅ τε γὰρ Αἰσχύλος ἐν Προμηθεῖ τῷ λυομένῳ φησὶν οὕτω</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_3bee417f09-l1" xml:lang="grc">Φοινικόπεδόν τ᾽ ἐρυθρᾶς ἱερὸν</l>
+              <l n="2" xml:id="frag_3bee417f09-l2" xml:lang="grc">χεῦμα θαλάσσης,</l>
+              <l n="3" xml:id="frag_3bee417f09-l3" xml:lang="grc">χαλκοκέραυνόν τε παρ' Ωκεανῷ</l>
+              <l n="4" xml:id="frag_3bee417f09-l4" xml:lang="grc">λίμναν παντοτρόφον Αἰθιόπων,</l>
+              <l n="5" xml:id="frag_3bee417f09-l5" xml:lang="grc">ἵν᾿ ὁ παντόπτας Ἥλιος ἀεὶ</l>
+              <l n="6" xml:id="frag_3bee417f09-l6" xml:lang="grc">χρῶτ᾽ ἀθάνατον κάματόν θ' ἵππων</l>
+              <l n="7" xml:id="frag_3bee417f09-l7" xml:lang="grc">θερμαῖς ὕδατος</l>
+              <l n="8" xml:id="frag_3bee417f09-l8" xml:lang="grc">μαλακοῦ προχοαῖς ἀναπαύει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="179" xml:id="frag_6a5dca6bcd" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos">
+            <note type="source">Cicero Quæst. Tusc. II, 10. Veniat Æschylus non poeta solum, sed etiam Pythagoreus: sic enim accepimus. Quomodo fert apud eum Prometheus dolorem, quem excipit ob furtum Lemnium, unde ignis cluet mortalibus clam divisus: eum dictus Prometheus clepsisse dolo, pænasque Jovi fato expendisse supremo. Has igitur pænas pendens affixus ad Caucasum hæc dicit</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_6a5dca6bcd-l1" xml:lang="grc">Titanum suboles, socia nostri sanguinis,</l>
+              <l n="2" xml:id="frag_6a5dca6bcd-l2" xml:lang="grc">generata cælo, aspicite religatum asperis</l>
+              <l n="3" xml:id="frag_6a5dca6bcd-l3" xml:lang="grc">vinctumque saxis: navem ut horrisono freto</l>
+              <l n="4" xml:id="frag_6a5dca6bcd-l4" xml:lang="grc">noctem paventes timidi adnectunt navitæ;</l>
+              <l n="5" xml:id="frag_6a5dca6bcd-l5" xml:lang="grc">Saturnius me sic infixit Jupiter,</l>
+              <l n="6" xml:id="frag_6a5dca6bcd-l6" xml:lang="grc">Jovisque numen Mulcibri arcivit manus,</l>
+              <l n="7" xml:id="frag_6a5dca6bcd-l7" xml:lang="grc">hos ille cuneos fabrica crudeli inserens</l>
+              <l n="8" xml:id="frag_6a5dca6bcd-l8" xml:lang="grc">perrupit artus: qua miser sollertia</l>
+              <l n="9" xml:id="frag_6a5dca6bcd-l9" xml:lang="grc">transverberatus castrum hoc Furiarum incolo.</l>
+              <l n="10" xml:id="frag_6a5dca6bcd-l10" xml:lang="grc">jam tertio me quoque funesto die</l>
+              <l n="11" xml:id="frag_6a5dca6bcd-l11" xml:lang="grc">tristi advolatu aduncis lacerans unguibus,</l>
+              <l n="12" xml:id="frag_6a5dca6bcd-l12" xml:lang="grc">Jovis satelles pastu dilaniat fero.</l>
+              <l n="13" xml:id="frag_6a5dca6bcd-l13" xml:lang="grc">tum jecore opimo farta et satiata affatim</l>
+              <l n="14" xml:id="frag_6a5dca6bcd-l14" xml:lang="grc">clangorem fundit vastum, et sublime avolans</l>
+              <l n="15" xml:id="frag_6a5dca6bcd-l15" xml:lang="grc">pinnata cauda nostrum adulat sanguinem.</l>
+              <l n="16" xml:id="frag_6a5dca6bcd-l16" xml:lang="grc">quum vero adesum inflatu renovatum est jecur,</l>
+              <l n="17" xml:id="frag_6a5dca6bcd-l17" xml:lang="grc">tum rursus tetros avida se ad pastus refert.</l>
+              <l n="18" xml:id="frag_6a5dca6bcd-l18" xml:lang="grc">sic hunc custodem mæsti cruciatus alo,</l>
+              <l n="19" xml:id="frag_6a5dca6bcd-l19" xml:lang="grc">qui me perenni vivum fædat miseria.</l>
+              <l n="20" xml:id="frag_6a5dca6bcd-l20" xml:lang="grc">namque, ut videtis, vinclis constrictus Jovis</l>
+              <l n="21" xml:id="frag_6a5dca6bcd-l21" xml:lang="grc">arcere nequeo diram volucrem a pectore.</l>
+              <l n="22" xml:id="frag_6a5dca6bcd-l22" xml:lang="grc">sic me ipse viduus pestes excipio anxias,</l>
+              <l n="23" xml:id="frag_6a5dca6bcd-l23" xml:lang="grc">amore mortis terminum anquirens mali:</l>
+              <l n="24" xml:id="frag_6a5dca6bcd-l24" xml:lang="grc">sed longe a leto numine aspellor Jovis.</l>
+              <l n="25" xml:id="frag_6a5dca6bcd-l25" xml:lang="grc">atque hæc vetusta sæclis glomerata horridis</l>
+              <l n="26" xml:id="frag_6a5dca6bcd-l26" xml:lang="grc">luctifica clades nostro infixa est corpori,</l>
+              <l n="27" xml:id="frag_6a5dca6bcd-l27" xml:lang="grc">ex quo liquatæ solis ardore excidunt</l>
+              <l n="28" xml:id="frag_6a5dca6bcd-l28" xml:lang="grc">guttæ, quæ saxa assidue instillant Caucasi.</l>
+            </lg>
+            <note type="commentary">Hæc ex Prometheo soluto Cicero vertit: quatuor quos præmisit versus anapæsticos ex Attii Philocteta sumpsit. Ad versum 11. Schuetzius probabiliter refert Hesychii locum fragm. 185.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="180" xml:id="frag_ce4adb8ff3" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos" sameAs="urn:cts:greekLit:tlg0085.prometheys_lyomenos.nauck1889-grc1:194">
+            <note type="source">Plutarchus Moral. p. 98 c. Νῦν δὲ οὐκ ἀπὸ τύχης οὐδὲ αὐτομάτως περίεσμεν αὐτῶν καὶ κρατοῦμεν. ἀλλ᾽ ὁ Προμηθεὺς, τουτέστιν ὁ λογισμὸς, αἴτιος,</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_ce4adb8ff3-l1" xml:lang="grc">Ἵππων ὄνων τ᾽ ὀχεῖα καὶ ταύρων γονὰς</l>
+              <l n="2" xml:id="frag_ce4adb8ff3-l2" xml:lang="grc">δοὺς ἀντίδουλα καὶ πόνων ἐκδέκτορα.</l>
+            </lg>
+            <note type="source">κατ᾿ Αἰσχύλον. Libri ἀντίδωρα. Idem p. 964 f. οὐ γὰρ ἀδικοῦσιν οἱ τὰ μὲν ἄμικτα καὶ βλαβερὰ κομιδή κολάζοντες καὶ ἀποκτιννύοντες, τὰ δὲ ἥμερα καὶ φιλάνθρωπα ποιούμενοι τιθασὰ καὶ συνεργὰ χρείας πρὸς ἦν ἕκαστον εὖ πέφυκεν, “Ἵππων ὄνων τ᾽ ὀχεῖα καὶ ταύρων γονὰς,” ὧν ὁ Αἰσχύλου Προμηθεὺς δοῦναι ἡμῖν φησιν “Ἀντίδουλα καὶ πόνων ἀνδέκτορα.” Attulit etiam Porphyrius de Abstin. III, 18. p. 257. ubi ἐκδέκτορα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="181" xml:id="frag_23e2b42a05" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos">
+            <note type="source">Galenus vol. V. p. 454. ed. Basil. vol. IX. p. 385. Charter. Δοκεῖ μὲν γὰρ αὐτὴν (τὴν πέμφιγα) ἐπὶ τῆς πνοῆς Σοφοκλῆς – λέγειν – Αἰσχύλος δὲ ἐν</note>
+          </div>
+        <pb n="605" facs="urn:hathi:iau.31858007086675:scan:613"/>
+          <div type="textpart" subtype="fragment" n="182" xml:id="frag_ba832bd568" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos" sameAs="urn:cts:greekLit:tlg0085.prometheys_lyomenos.nauck1889-grc1:199">
+            <note type="source">Strabo IV. p. 182.</note>
+            <note type="source">Μεταξὺ τῆς Μασσαλίας καὶ τῶν ἐκβολῶν τοῦ Ῥοδανοῦ πεδίον ἐστὶ τῆς θαλάττης διέχον εἰς ἑκατὸν σταδίους, τοσοῦτον δὲ τὸν διάμετρον, κυκλοτερὲς τὸ σχῆμα· καλεῖται δὲ λιθῶδες ἀπὸ τοῦ συμβεβηκότος. μεστὸν γάρ ἐστι λίθων χειροπληθῶν, ὑποπεφυκυῖαν ἐχόντων αὐτοῖς ἄγρωστιν· ἀφ' ἧς ἄφθονοι νομαὶ βοσκήμασίν εἰσιν, ἐν μέσῳ δ' ὕδατα καὶ ἁλυκίδες ἐνίστανται καὶ ἅλες. (Sequuntur Aristotelis et Posidonii sententiae.) — τὸ μέντοι δυσαπολόγητον Αἰσχύλος καταμαθὼν ἢ παρ' ἄλλου παραλαβὼν εἰς μῦθον ἐξετόπισε. φησὶ γοῦν Προμηθεὺς παρ' αὐτῷ καθηγούμενος Ἡρακλεῖ τῶν ὁδῶν τῶν ἀπὸ τοῦ Καυκάσου πρὸς τὰς Ἑσπερίδας</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_ba832bd568-l1" xml:lang="grc">Ἥξεις δὲ Λιγύων εἰς ἀτάρβητον στρατόν,</l>
+              <l n="2" xml:id="frag_ba832bd568-l2" xml:lang="grc">ἔνθ' οὐ μάχης, σάφ' οἶδα, καὶ θοῦρός περ ὢν,</l>
+              <l n="3" xml:id="frag_ba832bd568-l3" xml:lang="grc">μέμψει· πέπρωται γάρ σε καὶ βέλη λιπεῖν</l>
+              <l n="4" xml:id="frag_ba832bd568-l4" xml:lang="grc">ἐνταῦθ'· ἑλέσθαι δ' οὔτιν' ἐκ γαίας λίθον</l>
+              <l n="5" xml:id="frag_ba832bd568-l5" xml:lang="grc">ἕξεις, ἐπεὶ πᾶς χῶρός ἐστι μαλθακός.</l>
+              <l n="6" xml:id="frag_ba832bd568-l6" xml:lang="grc">ἰδὼν δ' ἀμηχανοῦντά σ' ὁ Ζεὺς οἰκτερεῖ,</l>
+              <l n="7" xml:id="frag_ba832bd568-l7" xml:lang="grc">νεφέλην δ' ὑποσχὼν νιφάδι γογγύλων πέτρων</l>
+              <l n="8" xml:id="frag_ba832bd568-l8" xml:lang="grc">ὑπόσκιον θήσει χθόν', οἷς ἔπειτα σὺ</l>
+              <l n="9" xml:id="frag_ba832bd568-l9" xml:lang="grc">βαλὼν διώσεις ῥᾳδίως Λίγυν στρατόν.</l>
+            </lg>
+            <note type="apparatus">Versus 1—3. attulit Dionysius Hal. Antiq. I, 41. ubi c odd scriptum. V. 7. Libri στρογγύλων. Correxit Porsonus in Miscellaneis p. 212. Ad hunc locum spectat Hyginus Poet. Astron. II, 6. p. 437. et non nominato auctore Theo ad Arati Phaen. v. 75.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="183" xml:id="frag_db6fdef067" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos">
+            <note type="source">Scholiasta Apollonii IV, 284.</note>
+            <note type="source">Τὸν Ἴστρον φησὶν ἐκ τῶν Ὑπερβορέων καταφέρεσθαι καὶ τῶν Ῥιπαίων ὀρῶν. οὕτω δὲ εἶπεν ἀκολουθῶν Αἰσχύλῳ ἐν λυομένῳ Προμηθεῖ λέγοντι τοῦτο.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="184" xml:id="frag_d4cf1f3fb0" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos" sameAs="urn:cts:greekLit:tlg0085.prometheys_lyomenos.nauck1889-grc1:196">
+            <note type="source">Stephanus Byzant. in Ἄβιοι.</note>
+            <note type="source">Αἰσχύλος τε Γαβίους διὰ τοῦ γ ἐν λυομένῳ Προμηθεῖ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_d4cf1f3fb0-l1" xml:lang="grc">Ἔπειτα δ' ἤξει δῆμον ἐνδικώτατον</l>
+              <l n="2" xml:id="frag_d4cf1f3fb0-l2" xml:lang="grc">* * ἁπάντων καὶ φιλοξενώτατον,</l>
+              <l n="3" xml:id="frag_d4cf1f3fb0-l3" xml:lang="grc">Γαβίους, ἵν' οὔτ' ἄροτρον οὔτε γατόμος</l>
+              <l n="4" xml:id="frag_d4cf1f3fb0-l4" xml:lang="grc">τέμνει δίκελλ' ἄρουραν, ἀλλ' αὐτόσποροι</l>
+              <l n="5" xml:id="frag_d4cf1f3fb0-l5" xml:lang="grc">γύαι φέρουσι βίοτον ἄφθονον βροτοῖς.</l>
+            </lg>
+            <note type="apparatus">V. 1. ἥξεις Stanleius. V. 2. βροτῶν addit Hermannus p. 21. Γαβίους ex Æschylo memorant scholiasta Homeri Iliad. v, 6. et Eustathius p. 916, 24.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="185" xml:id="frag_c354185c40" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos">
+            <note type="source">Hesychius, Εἰσαφάσματα: εἰσπτήματα, ἀπὸ τοῦ εἰσαφιέναι. ἢ σπαράγματα. Αἰσχύλος Προμηθεῖ λυομένῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="186" xml:id="frag_505f37eb15" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos">
+            <note type="source">Eustathius p. 600, 43.</note>
+            <note type="source">Σχίσματα γάρ τινα καὶ θύσανοι, ὅθεν ἀρειθύσανοι κατὰ Παυσανίαν Ἄρεος θύσανοι, οἱονεὶ ἀποσχίσματα, παρ' Αἰσχύλῳ ἐν Προμηθεί λυομένῳ. Hesychius, Ἀρθύσανοι: ἀποσχήματα καὶ ἀποβλαστήματα. Ἀριθύσανοι: ἡνίοχοι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="187" xml:id="frag_7f8021c86e" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos" sameAs="urn:cts:greekLit:tlg0085.prometheys_lyomenos.nauck1889-grc1:201">
+            <note type="source">Plutarchus in vita Pompeii p. 619 b.</note>
+            <note type="source">Πρὸς δὲ Πομπήιον ἔοικε τοῦτο παθεῖν ὁ Ῥωμαίων δῆμος εὐθὺς ἐξ ἀρχῆς, ὅπερ ὁ Αἰσχύλου Προμηθεὺς πρὸς τὸν Ἡρακλέα, σωθεὶς ὑπ' αὐτοῦ λέγων</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_7f8021c86e-l1" xml:lang="grc">Ἐχθροῦ πατρός μοι τοῦτο φίλτατον τέκνον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="188" xml:id="frag_6147ac9d9b" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos">
+            <note type="source">Strabo I. p. 43.</note>
+            <note type="source">Ἡσιόδου δ' οὐκ ἄν τις αἰτιάσαιτο ἄγνοιαν οὐδ' Αἰσχύλου κυνοκεφάλους καὶ στερνοφθάλμους καὶ μονομμάτους (ἱστοροῦντος). Eadem VII. p. 299. ubi additum ἐν τῷ Προμηθεῖ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="189" xml:id="frag_0f29583d45" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos" sameAs="urn:cts:greekLit:tlg0085.prometheys_lyomenos.nauck1889-grc1:198">
+            <note type="source">Strabo VII. p. 390.</note>
+            <note type="source">Καὶ Αἰσχύλος δ' ἐμφαίνει συνηγορῶν τῷ ποιητῇ, φήσας περὶ τῶν Σκυθῶν</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_0f29583d45-l1" xml:lang="grc">Ἀλλ' ἱππάκης βρωτῆρες εὔνομοι Σκύθαι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="190" xml:id="frag_15cdfa7b9f" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos">
+            <note type="source">Athenaeus XV. p. 674 d.</note>
+            <note type="source">Αἰσχύλος δ' ἐν τῷ λυομένῳ Προμηθεῖ σαφῶς φησιν ὅτι ἐπὶ τιμῇ τοῦ Προμηθέως τὸν στέφανον περιτίθεμεν τῇ κεφαλῇ, ἀντίποινα τοῦ ἐκείνου δεσμοῦ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="191" xml:id="frag_bfce58c6ee" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos" sameAs="urn:cts:greekLit:tlg0085.prometheys_lyomenos.nauck1889-grc1:200">
+            <note type="source">Plutarchus Moral. p. 757 d.</note>
+            <note type="source">Ὁ δὲ Ἡρακλῆς ἕτερον θεὸν παρακαλεῖ μέλλων ἐπὶ τὸν ὄρνιν αἴρεσθαι τὸ τόξον, ὡς Αἰσχύλος φησὶν</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_bfce58c6ee-l1" xml:lang="grc">Ἀγρεὺς δ' Ἀπόλλων ὀρθὸν ἰθύνοι βέλος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="192" xml:id="frag_523af7dbfe" corresp="urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos">
+            <note type="source">Antiatticista Bekkeri I. p. 116, 7.</note>
+            <note type="source">Χερσά: τὰ μὴ γεωργούμενα. Αἰσχύλος Προμηθεῖ. Dubium quam fabulam dicat.</note>
+          </div>
+        </div></body></text>
+</TEI>

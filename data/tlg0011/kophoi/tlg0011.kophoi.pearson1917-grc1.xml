@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-kophoi-pearson1917-grc1"><teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title>Sophocles, ΚΩΦΟΙ: fragments</title>
+ <editor>A.C. PEARSON, M.A.</editor>
+ <sponsor>University of Leipzig</sponsor>
+ <funder>European Social Fund Saxony</funder>
+ <principal>Gregory Crane</principal>
+ <principal>Monica Berti</principal>
+ <meeting/>
+ <respStmt>
+ <persName xml:id="DDD">Digital Divide Data</persName>
+ <resp>Corrected and encoded the text</resp>
+ </respStmt>
+ <respStmt>
+ <persName>Greta Franzini</persName>
+ <resp>Project Manager (University of Leipzig)</resp>
+ </respStmt>
+ <respStmt>
+ <persName>Simona Stoyanova</persName>
+ <resp>Project Assistant (University of Leipzig)</resp>
+ </respStmt>
+ <respStmt>
+ <persName>Bruce Robertson</persName>
+ <resp>Technical Advisor</resp>
+ </respStmt>
+ </titleStmt>
+ <publicationStmt>
+ <authority>University of Leipzig</authority>
+ <idno type="filename">TO BE ADDED BY LEIPZIG</idno>
+ <availability>
+ <p>Available under a Creative Commons Attribution-ShareAlike 4.0 International
+ License</p>
+ </availability>
+ <date>2014</date>
+ <publisher>University of Leipzig</publisher>
+ <pubPlace>Germany</pubPlace>
+ </publicationStmt>
+ <sourceDesc>
+ <listBibl xml:lang="la">
+ <biblStruct>
+ <monogr>
+ <title>THE FRAGMENTS OF SOPHOCLES</title>
+ <editor>
+ <persName>
+ <name xml:lang="la">A.C. PEARSON, M.A.</name>
+ </persName>
+ </editor>
+ <author ref="urn:tmp">A.C. PEARSON, M.A.</author>
+ <imprint>
+ <publisher>at the University Press</publisher>
+ <pubPlace>Cambridge</pubPlace>
+ <date>1917</date>
+ </imprint>
+ <biblScope unit="volume">vol. ii</biblScope>
+ </monogr>
+ </biblStruct>
+ </listBibl>
+ </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+ <p>Text encoded in accordance with the latest EpiDoc standards (January 2014)</p>
+ <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+ <profileDesc>
+ <langUsage>
+ <language ident="el">Greek</language>
+<language ident="la">Latin</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change/>
+<change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.kophoi; wording was not changed.</change></revisionDesc>
+</teiHeader>
+
+<text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.kophoi.pearson1917-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.kophoi.pearson1917-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kophoi"><head>ΚΩΦΟΙ</head><div type="textpart" subtype="fragment" n="362" xml:id="fragment-kophoi-pearson1917_grc1-362" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kophoi">
+<p>362</p>
+<quote type="fragtext">
+<lg>
+<l n="1">[μῦθος περὶ ὄνου διψῶντος.]</l>
+</lg>
+</quote>
+<p>362 Schol. Nic. Ther. 343 Προμηθέα τὸ πῦρ κλέψαντα καὶ τοῖς ἀνθρώποις δωρησάμενον οἱ λαβόντες ἐμήνυσαν, οὐ καλὴν τῆς χάριτος τίνοντες ἀμοιβήν· ἐφ' οἷς τὸν Δία φασιν ἐπαινέσαντα φάρμακον αὐτοῖς ἀγηρασίας δοῦναι· τοὺς δὲ λαβόντας ἀποφέρειν τὸ δωρηθὲν ἐπὶ ὄνου· τὸν δὲ δίψει τειρόμενον ἐλθεῖν εἰς κρήνην, ἣν ἐφύλασσεν ὄφις, καὶ τοῦ ποτοῦ ὀρεγόμενος ἀπέδοτο τοῦ γήρως τὸ φάρμακον. διὸ πάντας μὲν τοὺς ὄφεις καθ' ἕκαστον νεάζειν ἐνιαυτὸν ἀποδυομένους τὸ γῆρας, τὸν δ' ὄφιν τὸν τῆς κρήνης φύλακα καταλαβεῖν τὸ δίψος, ὅθεν τοῖς δηχθεῖσιν ἐμποιεῖ δίψαν. ἔστι δὲ ὁ μῦθος παρὰ Σοφοκλεῖ ἐν Κωφοῖς.</p>
+<p>Aelian nat. an. 6. 51, who tells the same story in somewhat different language, adds: τί οὖν; ἐγὼ τοῦ μύθου ποιητής; ἀλλ' οὐκ ἂν εἴποιμι, ἐπεὶ καὶ πρὸ ἐμοῦ Σοφοκλῆς ὁ τῆς τραγῳδίας ποιητὴς καὶ Δεινόλοχος ὁ ἀνταγωνιστὴς Ἐπιχάρμου (CGF I p. 149 Kaibel), καὶ Ἴβυκος ὁ Ῥηγῖνος (fr. 25) καὶ Ἀριστίας (an early tragedian, whose satyr-plays were especi-
+<pb n="32"/>
+ally celebrated, is meant: see Pauly-Wissowa II 899) καὶ Ἀπολλοφάνης (fr. 9, I 799 K.) ποιηταὶ κωμῳδίας ᾄδουσιν αὐτόν.</p>
+<p>The myth therefore was an old one: Nicander prefaces his version in Ther. 343-358 with ὠγύγιος δ' ἄρα μῦθος ἐν αἰζηοῖσι φορεῖται.</p>
+<p>'We have here one of those beast fables, which are still told among the Arabs, to account for the peculiarities of various animals. Prometheus gave the stolen fire to Man, but (according to one version) they were dissatisfied because he had not endowed them with perpetual youth; at any rate, they foolishly informed against their benefactor; and Zeus rewarded them with an antidote against old age. They put the precious burden on an Ass's back to carry. It was hot weather, and the Ass, coming to a spring, besought the Snake who guarded it to let him drink. The Snake—a διψάς—said, "I will do so on condition that you give me what you are carrying on your back." So they exchanged; and hence the διψάς every year renews his youth by casting his slough (ἀποδύεται τὸ γῆρας is the regular phrase),—but he also got the Ass's thirst, which his bite inflicts upon his victims' (H.).</p>
+<p>For the popular belief that the water of a spring is guarded by a snake cf. Eur. Phoen. 657 ἔνθα φόνιος ἦν δράκων | Ἄρεος ὠμόφρων φύλαξ | νάματ' ἔνυδρα καὶ ῥέεθρα | χλοερὰ δεργμάτων κόραισι | πολυπλάνοις ἐπισκοπῶν, supr. fr. 226. The Styx river in Arcadia was locally known as the Dragon Water: see Frazer's Pausanias IV p. 252. Examples from all parts of the world are collected by the same writer in vol. V p. 44 f. The precious burden entrusted to the donkey, and consequently imperilled, recalls the proverb ὄνος ἄγων μυστήρια, at least according to one of its interpretations ἐπὶ τῶν ἀναξίως τι βασταζόντων (Diogen. 6. 98, Greg. Cypr. 3. 19 [Paroem. I 286, 369]).</p>
+</div>
+<div type="textpart" subtype="fragment" n="363" xml:id="fragment-kophoi-pearson1917_grc1-363" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kophoi">
+<p>363</p>
+<quote type="fragtext"><lg>
+<l n="1">κυλισθεὶς ὥς τις ὄνος ἰσόσπριος</l></lg></quote>
+<p>363 Schol. Apoll. Rhod. 1. 972
+λέγεται δὲ ἴουλος καὶ ζῳόν τι, θηρίδιον
+πολύπουν· ἑκατέρωθεν γὰρ ἔχει πολλοὺς
+πόδας, ὥσπερ ἡ σκολοπένδρα. Θεόφραστος
+δὲ ἐν τῇ πρὸς Φανίαν ἐπιστολῇ (fr. 185
+Wimmer) καὶ ὄνον φησὶν αὐτὸν καλεῖσθαι,
+ὡς παρὰ Σοφοκλεῖ ἐν Κωφοῖς σατύροις
+‘ κυλισθεὶς...ἰσόσπριος.' Phot. lex. p. 337,
+17 ὄνος ἰσόσπριος (ὄνοσις ὄσπριος cod.),
+ζῷον πολύπουν σκωληκῶδες, ὃ συνειληθὲν
+ὅμοιον κυάμῳ φαίνεται. Hesych. III p. 209
+ὄνος ἰσόσπριος (ὄνοσις ὄσπριον cod.: em.
+Salmasius)· ἔστι δὲ ζῷον πολύπουν, ὀσπρίῳ
+ὅμοιον, ὃ καὶ ἴουλόν τινές φασιν.</p>
+<p>ἴουλος was evidently the woodlouse;
+see Hesych. II p. 62 ἐλειούς, p. 30 εἰλύϊος,
+p. 356 ἴληοι, and Stephanus in Thes. s.v.
+ὄνος p. 2037 B. From its resemblance to
+a bean it came to be called κύαμος: Galen
+de simpl. med. fac. XII p. 366 Kuehn
+τοῖς καλουμένοις ὀνίσκοις. ἔστι δὲ ζῷα
+σφαιρούμενα κατὰ τὴν εἰς ἑαυτὸν σύνοδον,
+ἅπερ ὀνομάζουσί τινες τῶν παρ' ἡμῖν κυάμους,
+ἐπειδὴ παραπλήσιοι τοῖς ἐδωδίμοις
+κυάμοις εἰσίν, ὅταν ἑαυτοὺς σφαιρώσωσι,
+φαιοὶ κατὰ τὴν χρόαν ὄντες. ἐπὶ δὲ τῆς
+ἀγροικίας ἔστιν ἰδεῖν πλείστους τούτους
+γεννωμένους ὑπὸ ταῖς ὑδρίαις. It was
+also called the κεράμβυξ or ξυλοφάγος
+βοῦς, Anton. Lib. 22.</p>
+<p>Were it not that this is a satyric fragment,
+one might feel sure that the correct
+order of the words was ὄνος | ἰσόσπριός
+τις ὥς. (H.)</p>
+</div>
+
+<div type="textpart" subtype="fragment" n="364" xml:id="fragment-kophoi-pearson1917_grc1-364" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kophoi">
+<p>364</p>
+<quote type="fragtext"><lg>
+<l n="1">[Φρύγες οἱ Ἰδαῖοι Δάκτυλοι.]</l></lg></quote>
+<p>364 Schol. Ap. Rhod. 1. 1126
+Σοφοκλῆς δὲ αὐτοὺς (sc. the Idaean Dactyls)
+Φρύγας καλεῖ ἐν Κωφοῖς σατύροις.
+It is not possible within the limits of
+a note to discuss adequately the difficulties
+arising from the various notices
+relating to the Idaean Dactyls: the fullest
+storehouse of information is Lobeck's
+Aglaophamus II 1156—1181. They are
+often localized in Crete, but there is also
+<pb n="33"/>
+strong evidence placing their home on
+Mt Ida in the Troad. The oldest is
+that of the epic Phoronis (fr. 2 K.) ἔνθα
+γόητες | Ἰδαῖοι Φρύγες ἄνδρες ὀρέστεροι
+οἰκί᾿ ἔναιον, | Κέλμις Δαμναμενεύς τε μέγας
+καὶ ὑπέρβιος Ἄκμων, | εὐπάλαμοι θεράποντες
+ὀρείης Ἀδρηστείης, | οἳ πρῶτον
+τέχνην πολυμήτιος ‘Ηφαίστοιο | εὗρον ἐν
+οὐρείῃσι νάπαις, ἰόεντα σίδηρον, | ἐς πῦρ τ'
+ἤνεγκαν καὶ ἀριπρεπὲς ἔργον ἔδειξαν. That
+appears to be one of the authorities which
+Sophocles followed in this and the following
+fragments. Ephorus also testified to
+the Phrygian origin of the Dactyls: Diod.
+5. 64 ἔνιοι δ’ ἱστοροῦσιν ὧν ἐστι καὶ Ἔφορος
+(FHG I 253) τοὺς Ἰδαίους Δακτύλους
+γενέσθαι μὲν κατὰ τὴν Ἴδην τὴν ἐν Φρυγίᾳ,
+διαβῆναι δὲ μετὰ Μίνωος εἰς τὴν Εὐρώπην.
+<bibl n="Diod. 17. 7">id. 17. 7</bibl> γενέσθαι δ’ ἐν τούτῳ (cave on
+Trojan Ida) λέγεται καὶ τοὺς Ἰδαίους
+Δακτύλους οὓς σίδηρον ἐργάσασθαι πρώτους,
+μαθόντας τὴν ἐργασίαν παρὰ τῆς τῶν θεῶν
+μητρός.</p>
+</div>
+
+<div type="textpart" subtype="fragment" n="365" xml:id="fragment-kophoi-pearson1917_grc1-365" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kophoi">
+<p>365</p>
+<quote type="fragtext"><lg>
+<l n="1">[Κέλμις.]</l></lg></quote>
+<p>365 Zenob. 4. 80 (Paroem. I 106)
+Κέλμις ἐν σιδήρῳ· αὕτη τάττεται ἐπὶ τῶν
+σφόδρα ἑαυτοῖς πιστευσάντων, ὅτι ἰσχυροὶ
+καὶ δυσχείρωτοι πεφύκασι. Κέλμις γάρ,
+εἷς τῶν Ἰδαίων Δακτύλων, τὴν μητέρα
+Ῥέαν ὑβρίσας καὶ μὴ ὑποδεξάμενος &lt;ὅτε&gt;
+ὑπὸ τῶν ἀδελφῶν εὐμενῶς &lt;ἐξενίζετο&gt; ἐν τῇ
+Ἴδῃ...ἀφ' οὗ ὁ στερεώτατος ἐγένετο σίδηρος.
+μέμνηται τῆς ἱστορίας Σοφοκλῆς ἐν Κωφοῖς
+(so cod. Ath. according to Miller, Mél. de
+litt. Gr. p. 370: om. Zenob.) σατύροις.
+Unfortunately this passage is mutilated:
+I have added the words ὅτε and ἐξενίζετο
+which seem to be demanded by the sense,
+but we also require the finite verb to
+which Κέλμις was the subject, describing
+the punishment awarded to him for his
+arrogance and impiety. Celmis is the
+first name among the Dactyls according
+to the Phoronis (l.c.), and is mentioned
+with Damnameneus as chief of the
+Idaean Dactyls who discovered iron in
+Cyprus by Clem. Alex. strom. I p. 362
+(EGF p. 150). In Nonnus 14. 39 he
+appears as one of the Telchins: Gruppe
+identifies him with Σκέλμις, one of Poseidon's
+attendants in Nonn. 37. 164 etc.,
+and connects the name with σκάλμη·
+μάχαιρα Hesych. IV. p. 37 (Gr. Myth.
+p. 8842). But in Ov. Met. 4. 281 we
+have a trace of the story here alluded to:
+te quoque, nunc adamas, quondam fidissime
+parvo | Celmi, Iovi, where it will be
+observed that adamas answers to ὁ στερεώτατος
+σίδηρος, but Juppiter has taken
+the place of Rhea as the offended deity.
+It seems to follow that Celmis was turned
+into iron as a punishment for insulting
+Rhea. Rhea is here spoken of as the
+mother of the Dactyls; but Nonn. 14. 26
+identifies them with the Corybantes, and
+calls them γηγενέες, explaining that Rhea
+ἐκ χθονὸς αὐτοτέλεστον ἀνεβλάστησε γενέθλην.
+Usually, however, they are described
+as attendants or assistants of Rhea,
+who, as mistress of the heights of Ida,
+made use of their labours to work the
+metallic ore buried beneath the mountain:
+Pollux 2. 156, Diod. 17. 7, Strabo 473.
+The welcome given by the Dactyls to
+the goddess on the occasion of one of
+her visits to them was related by Hellanicus
+in schol. Ap. Rhod. 1. 1129
+Ἰδαῖοι Δάκτυλοι ἐκλήθησαν ὅτι ἐντὸς Ἴδης
+συντυχόντες τῇ ‘Ρέᾳ ἐδεξιώσαντο τὴν
+θεὸν καὶ τῶν δακτύλων αὐτῆς ἥψαντο. We
+seem to discern the vestiges of a story of
+the Philemon and Baucis type, which was
+prevalent in various parts of Asia Minor.
+Something of the same kind was related
+of the daughters of Damon, the chief of
+the Telchins; schol. Ov. Ibis 475 (p. 83
+Ellis). One of these was Dexithea, who is
+mentioned by Bacchylides (Jebb, p. 188).</p>
+</div>
+
+<div type="textpart" subtype="fragment" n="366" xml:id="fragment-kophoi-pearson1917_grc1-366" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kophoi">
+<p>366</p>
+<quote type="fragtext"><lg>
+<l n="1">[πέντε τοὺς πρώτους (sc. Ἰδαίους Δακτύλους) ἄρσενας</l>
+<l n="2">γενέσθαι, πέντε δὲ καὶ ἀδελφὰς τούτων.]</l></lg></quote>
+<p>366 Strabo 473 Δακτύλους δ’ Ἰδαίους
+φασί τινες κεκλῆσθαι τοὺς πρώτους οἰκήτορας
+τῆς κατὰ τὴν Ἴδην ὑπωρείας...Σοφοκλῆς δὲ
+οἴεται πέντε τοὺς πρώτους ἄρσενας γενέσθαι,
+οἳ σίδηρόν τε ἐξεῦρον καὶ εἰργάσαντο πρῶτοι
+καὶ ἄλλα πολλὰ τῶν πρὸς τὸν βίον χρησίμων,
+πέντε δὲ καὶ ἀδελφὰς τούτων, ἀπὸ δὲ
+τοῦ ἀριθμοῦ δακτύλους κληθῆναι. ἄλλοι δ᾿
+<pb n="34"/>
+ἄλλως μυθεύουσιν...πάντες δὲ σίδηρον εἰργάσθαι
+ὑπὸ τούτων ἐν Ἴδῃ πρῶτόν φασι,
+πάντες δὲ καὶ γόητας ὑπειλήφασι καὶ περὶ
+τὴν μητέρα τῶν θεῶν καὶ ἐν Φρυγίᾳ ᾠκηκότας
+περὶ τὴν Ἴδην, Φρυγίαν τὴν Τρῳάδα καλοῦντες
+διὰ τὸ τοὺς Φρύγας ἐπικρατῆσαι
+πλησιοχώρους ὄντας τῆς Τροίας ἐκπεπορθημένης.</p>
+<p>Various explanations were given of the
+name Dactyls, such as that it was given
+in virtue of their dexterity in handicrafts,
+or because they grasped the hand of the
+goddess in welcome (fr. 365). Sophocles
+is the earliest authority quoted for the
+numerical explanation, but it is unlikely
+that he invented it: the Phoronis, as we
+have seen, only recognized three Dactyls.
+Cf. Pollux 2. 156 καὶ τοὺς Ἰδαίους Δακτύλους
+κεκλῆσθαι λέγουσιν οἱ μὲν κατὰ τὸν
+ἀριθμόν, ὅτι κἀκεῖνοι πέντε ἦσαν. Diod.
+5. 64 τούτοις δ’ οἱ μὲν ἑκατὸν τὸν ἀριθμὸν
+γεγονέναι παραδεδώκασιν, οἱ δὲ δέκα φασὶν
+ὑπάρχοντας τυχεῖν ταύτης τῆς προσηγορίας,
+τοῖς ἐν ταῖς χερσὶ δακτύλοις ὄντας ἰσαρίθμους.
+The most attractive explanation
+of recent times is that of Wilamowitz,
+who finds in them an analogue of the
+dwarfs in Teutonic folk-lore: they were
+Tom Thumbs who were called ἰδαῖοι
+because they lived in the woods (GGN
+1895, 241). Kaibel, however, in a posthumous
+paper (GGN 1901, 488 ff.), preferred
+to interpret the Idaean Dactyls as
+phallic deities, supporting the explanation
+of Δακτύλου μνῆμα in Pausan. 8. 34. 2
+previously given by Belger.</p>
+<p>ΛΑΚΑΙΝΑΙ</p>
+<p>The story of the play was taken from the Little Iliad of
+Lesches, and is summarized in the epitome of Proclus (EGF
+p. 27): καὶ μετὰ ταῦτα (i.e. after the visit of Odysseus to Troy
+disguised as a beggar, when he was recognized by Helen and
+made arrangements with her for the capture of the city) σὺν
+Διομήδει τὸ Παλλάδιον ἐκκομίζει ἐκ τῆς Ἰλίου. The order of
+events agrees with the evidence of Arist. poet. 23. 1459 b 6, where
+in a list of tragedies taken from the Little Iliad the πτωχεία — an
+otherwise unknown title — immediately precedes the Λάκαιναι.
+The occasion is identified beyond question by fr. 367, as explained
+by the authorities which are quoted in the note 1.</p>
+<p>The epitome of Proclus suggests that the information which
+induced Odysseus and Diomedes to undertake their dangerous
+adventure was derived from Helen by Odysseus on his previous
+visit. This was to the effect that the possession of the Palladium
+by the Greeks was essential to their success. According to
+Apollod. epit. 5. 10 Helenus was captured on Mt Ida by Odysseus,
+and, when brought into the Greek camp, was forced to
+reveal this secret, together with other information concerning
+the conditions necessary to the capture of the city. The same
+tradition is followed by Conon 34 and Qu. Smyrn. 10. 350. On
+the other hand, there are several passages recording that the
+theft of the image was promoted by the treachery of Antenor,
+who not only informed the Greeks of its importance, but also
+with the assistance of his wife Theano actually surrendered it to
+<note type="footnote"> 1 The two visits of Odysseus to Troy are confused by Apollod. epit. 5. 13; and
+the same mistake appears even in texts of the classical era. See n. on fr. 367.</note>
+<pb n="35"/>
+them (Dict. 5. 5. 8, schol. B Hom. Z 311, Suid. s.v. Παλλάδιον).
+There is nothing to show how Sophocles arranged these incidents,
+and it is doubtful whether the complicity of Antenor, which is
+inconsistent with his character as portrayed in Homer, was first
+introduced in one of the Cyclic epics, by the Attic tragedians, or
+some later writer 1. Nevertheless, fr. 368 is particularly appropriate
+if addressed to Theano, as the custodian of the image 2,
+in order to induce her to hand it over. It is highly improbable
+that Odysseus and Diomede removed the statue by violent entry
+into the temple in the crude fashion suggested by Conon's narrative 3;
+but, on the other hand, their success does not necessarily
+imply that Theano and Antenor, or either of them, were actuated
+by dishonourable motives.</p>
+<p>The Spartan women, of whom the chorus consisted, must be
+taken to be the attendants of Helen; for no others can be thought
+of as likely to be present in Troy. Their sympathies would
+naturally be enlisted in favour of the enterprise, and the home
+of Helen was a rendezvous to which the two adventurers would
+be likely to resort, especially if the theft had previously been
+arranged with her 4. Fr. 957, which is attributed to the play by
+Welcker and others, is suitable to Helen; but the source of
+fr. 768 N. is now known to have been the Eurypylus, and the supposition
+that fr. 745 is addressed to Antenor is a mere guess.</p>
+<p>A much more important question arises in reference to
+Welcker's suggestion that fr. 799 belongs to the Lacaenae. The
+extract is taken from a speech of Odysseus attacking Diomedes;
+and there is no record of a quarrel between these heroes except
+on the occasion of their return to the Greek camp after the theft
+of the Palladium 5. Diomedes was carrying the image, which he
+had managed to secure, but Odysseus wished to enjoy the sole
+credit of the achievement and treacherously attempted to murder
+his comrade. Diomedes, however, saw the flash of his sword in
+time to ward off the blow, and, in order to prevent a repetition
+of the trick, made Odysseus walk in front of him with his arms
+bound, driving him into the camp by blows with the flat of his
+<note type="footnote"> 1 See the different opinions expressed by R. Wagner in Pauly-Wissowa I 2352
+and Holzinger on Lycophron 340.</note>
+<note type="footnote"> 2 Hom. Z 299.</note>
+<note type="footnote"> 3 Vergil also (Aen. 2. 164 ff.) describes a forcible seizure and the slaying of the
+guards.</note>
+<note type="footnote"> 4 Engelmann in Roscher III 1943 reproduces a vase-painting of Helen assisting in
+the robbery of the Palladium. For the archaeological evidence see also Ο. Jahn,
+Der Raub des Palladion, Stolberg, 1845.</note>
+<note type="footnote"> 5 The authorities for what follows are cited in the n. to fr. 799. As against
+Brunck's view, it should be observed that a quarrel between Odysseus and Diomedes
+has no particular relevance to the plot of the Σύνδειπνοι, so far as we are acquainted
+with it.</note>
+<pb n="36"/>
+sword. Hence, it was said, arose the proverb Διομήδειος ἀνάγκη,
+as applied to those who were forced to act against their will 1.
+The strength of Welcker's case is materially increased by a gloss
+of Hesychius (I p. 517), which, though unfortunately incomplete,
+proves that something of the kind was related in the Little Iliad
+(fr. 9 K.). It is obvious that this story was ill-suited to dramatic
+representation, and it may be conjectured that the two heroes
+contended with words rather than with blows for the possession
+of the prize. Somehow or other their strife must have been
+composed before they left the scene, possibly by the intervention
+of the goddess herself.</p>
+<p>Fr. 799 has not been included under this title, since its
+ascription to the Lacaenae is, after all, hardly more than a
+plausible conjecture.</p>
+</div>
+
+</div></body></text></TEI>

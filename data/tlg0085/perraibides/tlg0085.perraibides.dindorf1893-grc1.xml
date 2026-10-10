@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΠΕΡΡΑΙΒΙΔΕΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.perraibides; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.perraibides.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.perraibides.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:perraibides"><head>ΠΕΡΡΑΙΒΙΔΕΣ</head>
+          <pb n="603" facs="urn:hathi:iau.31858007086675:scan:611"/>
+          <div type="textpart" subtype="fragment" n="170" xml:id="frag_1e5a5d7da2" corresp="urn:cite2:perseus:fragmentaryplays.v1:perraibides" sameAs="urn:cts:greekLit:tlg0085.perraibides.nauck1889-grc1:185">
+            <note type="source">Περραιβίδες hanc fabulam inscriptam fuisse, non Περραιβοί, ostendi præfatione ad Athenæum I. p. IV. Athenæus XI. p. 476 c. Αἰσχύλος δ' ἐν Περραιβοῖς τοὺς Περραιβούς παρίστησιν ἀντὶ ποτηρίων τοῖς κέρασι χρωμένους διὰ τούτων</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_1e5a5d7da2-l1" xml:lang="grc">Ἀργυρηλάτοις</l>
+              <l n="2" xml:id="frag_1e5a5d7da2-l2" xml:lang="grc">κέρασι χρυσᾶ στόμια προσβεβλημένοις.</l>
+            </lg>
+            <note type="apparatus">προβεβλημένοις epitome et Eustathius p. 917, 63.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="171" xml:id="frag_2e62f7d100" corresp="urn:cite2:perseus:fragmentaryplays.v1:perraibides" sameAs="urn:cts:greekLit:tlg0085.perraibides.nauck1889-grc1:184">
+            <note type="source">Athenæus XI. p. 499 a. Αἰσχύλος ἐν Περραιβίσι</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_2e62f7d100-l1" xml:lang="grc">Ποῦ μοι τὰ πολλὰ δῶρα κἀκροθίνια;</l>
+              <l n="2" xml:id="frag_2e62f7d100-l2" xml:lang="grc">ποῦ χρυσότευκτα κἀργυρᾶ σκυφώματα;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="172" xml:id="frag_f254b7f866" corresp="urn:cite2:perseus:fragmentaryplays.v1:perraibides" sameAs="urn:cts:greekLit:tlg0085.perraibides.nauck1889-grc1:186">
+            <note type="source">Hesychius, Ἀπαιόλη: ἀπάτη, ἀποστέρησις. Αἰσχύλος Περραιβίσιν (codex περρέβην). Eustathius p. 352, 33. ἰστέον δὲ ὅτι ἀπὸ τοῦ ῥηθέντος αἰόλλω καὶ ἀπαιόλη γίνεται ἡ ἀπάτη καὶ ἀποστέρησις. Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_f254b7f866-l1" xml:lang="grc">Τέθνηκεν αἰσχρὸς χρημάτων ἀπαιόλῃ.</l>
+            </lg>
+            <note type="apparatus">αἰσχρῶς Butlerus.</note>
+          </div>
+        </div></body></text>
+</TEI>

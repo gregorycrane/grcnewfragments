@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-nayplios_pyrkaeys-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΝΑΥΠΛΙΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.nayplios_pyrkaeys; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.nayplios_pyrkaeys.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.nayplios_pyrkaeys.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_pyrkaeys"><head>ΝΑΥΠΛΙΟΣ</head><div type="textpart" subtype="fragment" n="380" xml:id="fragment-nayplios_pyrkaeys-dindorf1893_grc1-380" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_pyrkaeys">
+            <note type="source">Eustathius p. 228. Παλαμήδους ἐπινοησαμένου κυβείαν καὶ πεττείαν ἐν Ἰλίῳ εἰς παραμύθιον λιμοῦ κατασχόντος τὴν στρατιὰν, λίθος ἐκεῖ ἐδείκνυτο, ἐφ᾽ οὗ ἐπέσσευον. τῆς δὲ τοιαύτης ἐπινοίας τοῦ Παλαμήδους, καὶ τῆς εὑρέσεως δὲ τοῦ χρόνου, ἦν καὶ αὐτὴν ἐκεῖνος ἐσοφίσατο, μάρτυρα παράγουσι Σοφοκλῆν, ὃς ἐν δράματι ὁμωνύμῳ τῷ εὑρετῇ Παλαμήδει φησὶν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐ λιμὸν οὗτος τῶνδ᾽ ἄπωσε, ξὺν θεῷ</l>
+              <l n="2" xml:lang="grc">εἰπεῖν, χρόνου τε διατριβάς σοφωτάτας</l>
+              <l n="3" xml:lang="grc">ἐφεῦρε, φλοίσβου μετὰ κοπὴν καθημένοις,</l>
+              <l n="4" xml:lang="grc">πεσσοὺς, κύβους τε, τερπνὸν ἀργίας ἄκος;</l>
+            </lg>
+            <note type="commentary">"Nihil tam apertum est quam hos versus ad eandem Nauplii ῥῆσιν pertinere, cujus partem ab Achille Tatio servatam supra protulimus. Proinde sunt itidem ex Nauplio: aut si Eustathii fidem sequimur, licet dramatum quibus nunc caremus nullum ipse viderit, ad Palamedem priores alteri etiam referendi sunt." BRUNCK. Versum ultimum ex Palamede rursus affert Eustathius p. 1397, 8.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="381" xml:id="fragment-nayplios_pyrkaeys-dindorf1893_grc1-381" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_pyrkaeys" sameAs="urn:cts:greekLit:tlg0011.nayplios_pyrkaeys.pearson1917-grc1:429">
+            <note type="source">Hesychius, Πεσσὰ πεντέγραμμα καὶ κύβων βολάς: Σ. Ναυπλίῳ πυρκαεῖ, παρόσον πέντε γραμμαῖς ἔπαιζον. Versum integrum Καὶ πεσσὰ πεντέγραμμα καὶ κύβων βολαί ex Sophocle attulit Pollux IX, 97. Conf. Etymol. M. p. 666, 18. Orionem p. 127, 1. Eustathium p. 1396, 60. Ad eandem, ut videtur, fabulam spectat Pollux VII, 203. πεττεία, ἢ πεσσεία, ὡς Σοφοκλῆς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="382" xml:id="fragment-nayplios_pyrkaeys-dindorf1893_grc1-382" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_pyrkaeys" sameAs="urn:cts:greekLit:tlg0011.nayplios_pyrkaeys.pearson1917-grc1:431">
+            <note type="source">Herodianus, περὶ μονήρους λέξεως p. 31, 21. Σπίζα· ἔστι δὲ εἶδος ὀρνέου. Σ. ἐν Ναυπλίῳ πυρκαεῖ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κάτω κρέμανται σπίζ᾽ ὅπως ἐν ἔρκεσι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="383" xml:id="fragment-nayplios_pyrkaeys-dindorf1893_grc1-383" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_pyrkaeys" sameAs="urn:cts:greekLit:tlg0011.nayplios_pyrkaeys.pearson1917-grc1:433">
+            <note type="source">Photius p. 150, 9. Κατουλάδα: Σ. Ναυπλίῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐπεύχομαι δὲ νυκτὶ τῇ κατουλάδι.</l>
+            </lg>
+            <note type="commentary">τὴν κατίλλουσαν καὶ κατείργουσαν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="384" xml:id="fragment-nayplios_pyrkaeys-dindorf1893_grc1-384" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_pyrkaeys" sameAs="urn:cts:greekLit:tlg0011.nayplios_pyrkaeys.pearson1917-grc1:436">
+            <note type="source">Hesychius, Ἀνόρεος πόλεμος: ἀνδρεῖος, ὁ πρὸς τοὺς ἄνδρας. Σ. Ν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="385" xml:id="fragment-nayplios_pyrkaeys-dindorf1893_grc1-385" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_pyrkaeys">
+            <note type="source">Schol. Aristoph. Pacis 1126. Ἐλύμνιον: —μέμνηται καὶ Σοφοκλῆς “Πρὸς πέτραις Ἐλυμνίαις, καὶ ἐν Ναυπλίῳ “Νυαφικὸν Ἐλύμνιον.”</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="386" xml:id="fragment-nayplios_pyrkaeys-dindorf1893_grc1-386" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_pyrkaeys" sameAs="urn:cts:greekLit:tlg0011.nayplios_pyrkaeys.pearson1917-grc1:428">
+            <note type="source">Hesychius, Ἐπίκοτα: ἐπίμομφα, ἃ πᾶς ἄν τις μέμψαιτο. Σ. Ν. καταπλέοντι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="387" xml:id="fragment-nayplios_pyrkaeys-dindorf1893_grc1-387" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_pyrkaeys" sameAs="urn:cts:greekLit:tlg0011.nayplios_pyrkaeys.pearson1917-grc1:430">
+            <note type="source">Hesychius, Ναύκληρον πλάτην: ναυτικήν. Σ. Ν. πυρκαεί.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="388" xml:id="fragment-nayplios_pyrkaeys-dindorf1893_grc1-388" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_nayplios_pyrkaeys" sameAs="urn:cts:greekLit:tlg0011.nayplios_pyrkaeys.pearson1917-grc1:438">
+            <note type="source">Pollux X, 134. Ὁλκία τὰ πηδάλια Σ. ἐν Ναυπλίῳ ὠνόμασε.</note>
+          </div>
+        </div></body></text></TEI>

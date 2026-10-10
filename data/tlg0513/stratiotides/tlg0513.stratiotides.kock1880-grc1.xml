@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>THEOPOMPUS, ΣΤΡΑΤΙΩΤΙΔΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Theopompus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0513.stratiotides.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0513.stratiotides.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0513.stratiotides.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_stratiotides"><head>ΣΤΡΑΤΙΩΤΙΔΕΣ</head><div type="textpart" subtype="fragment" n="54" xml:id="kock-0513-stratiotides-54" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_stratiotides">
+              <lg>
+                <l n="1" xml:id="kock-0513-stratiotides-54-l1" xml:lang="grc">ἐγὼ γὰρ ἂν κώθωνος ἐκ στρεψαύχενος</l>
+                <l n="2" xml:id="kock-0513-stratiotides-54-l2" xml:lang="grc">πίοιμι τὸν τράχηλον ἀνακεκλασμένη;</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 11, 483 e μνημονεύει (τοῦ κώθωνος) . . . Θεόπομπος Στρατιώτισιν κτλ. γὰρ ἂν Liebelius Archil. 143] γὰρ. πίοιμι τὸν Schweighaeus.] ποιμαντὸν (i. e. πίοιμ' ἂν τὸν) Α. ἀνακεκλασμένη C] ἀνακεκλασμένης P. collum erat reflectendum propter</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="55" xml:id="kock-0513-stratiotides-55" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_stratiotides">
+              <lg>
+                <l n="1" xml:id="kock-0513-stratiotides-55-l1" xml:lang="grc">καίτοι τίς οὐκ ἂν οἶκος εὖ πράττοι τετρωβολίζων,</l>
+                <l n="2" xml:id="kock-0513-stratiotides-55-l2" xml:lang="grc">εἰ νῦν γε διώβολον φέρων ἀνὴρ τρέφει γυναῖκα;</l>
+              </lg>
+              <note type="source">Pollux 9, 64 παρὰ Θεοπόμπῳ ἐν Στρατιώτισι τὸ τετρώβολον λαμβάνειν τετρωβολίζειν ὠνόμασται κτλ.</note>
+              <note type="apparatus">οἶκος Fritzschius De merc. iud. 19] εἰκός. νῦν γε] νῦν Dindorf. νῦν γ' ἀνὴρ διώβ. Pors. Hec. praef. XLV. φέρων — τρέφει Kuehnius] φέρει — τρέφειν, quod non recte retinet Porsonus. neque enim ideo vir mercedem accipit ut alat mulierem: nam accipit etiam qui uxorem non habet. — excerpta haec sunt ex syntagmate iambico, in quo de mulieribus in militum numerum recipiendis certabatur; commendat rem quisquis loquitur, reditus familiae duplicari dicens, si cum viro femina quoque mercedem militarem accipiat. ea enim significatur, non iudicum, ut falso etiam Wachsmuthius in Mus. Rhen. XXXIIII 161 sq. cf. quae contra eum in vol. XXXV disputavi. erat autem non semper eadem: plerumque tamen duorum obolorum videtur fuisse. Boeckh. Oecon. Athen.² I 168. 378. ceterum cf. Aristoph. Eq. 798.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="56" xml:id="kock-0513-stratiotides-56" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_stratiotides">
+              <lg>
+                <l n="1" xml:id="kock-0513-stratiotides-56-l1" xml:lang="grc">ἡ Θρασυμάχου δ' ὑμῶν γυνὴ καλῶς ἐπιστατήσει.</l>
+              </lg>
+              <note type="source">Priscianus 18, 213 Attici ἐπιστατήσει ὑμῶν καὶ ὑμῖν. Θεόπομπος Στρατιώτισιν κτλ.</note>
+              <note type="apparatus">δ' inseruit Meinek. reliquas varietates quae nihil ad rem faciunt, recenset Hertzius. Thrasymachum Meinekius dici putat Chalcedonium. mihi nomen tantummodo boni ominis causa delectum videtur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="57" xml:id="kock-0513-stratiotides-57" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_stratiotides">
+              <note type="source">Schol. Platon. 330 Bekk. Θεόπομπος δὲ Στρατιώτισιν Ἐμβαδᾶν (Ἄνυτον) εἶπε παρὰ τὰς ἐμβάδας, ἐπεὶ καὶ Ἄρχιππος Ἰχθύσιν εἰς σκυτέα αὐτὸν σκώπτει.</note>
+              <note type="apparatus">Ἐμβαδᾶν Meinek. ed. min XIV] Ἐμβάδαν. Anytus est Socratis accusator.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="58" xml:id="kock-0513-stratiotides-58" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_stratiotides">
+              <p>σκληφρός</p>
+              <lg>
+                <l n="1" xml:id="kock-0513-stratiotides-58-l1" xml:lang="grc">ὃν καὶ νεοειδῆ ἂν εἴποις.</l>
+              </lg>
+              <note type="source">Θεόπομπος δὲ ὁ κωμικὸς ἐπὶ γυναικὸς εἴρηκεν αὐτὸ ἐν Στρατιώτισιν. Pollux 2, 10.</note>
+              <note type="apparatus">σκληφρός est gracilis.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="59" xml:id="kock-0513-stratiotides-59" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_stratiotides">
+              <lg>
+                <l n="1" xml:id="kock-0513-stratiotides-59-l1" xml:lang="grc">ἀλλ᾽ ἡ μὲν Εἰλείθυια συγγνώμην ἔχει</l>
+                <l n="2" xml:id="kock-0513-stratiotides-59-l2" xml:lang="grc">ὑπὸ τῶν γυναικῶν οὖσα καταπλήξ τὴν τέχνην.</l>
+              </lg>
+              <note type="source">Harpocratio 107. 8 καταπλήξ· ὁ συνεχῶς πεπληγμένος . . . Θεύπομπος Τισαμενῷ κτλ. eadem Photius et Suidas καταπλήξ, omisso fabulae nomine.</note>
+              <note type="apparatus">quid sit καταπλήξ τὴν τέχνην nemo facile dixerit, praeter Bernhardyum scilicet, qui Aristophanis versu Eccl. 385 (δεινός ἐστι τὴν τέχνην) satis id defendi opinatur. mihi Theopompus hoc fere videtur dixisse: Lucina, si non potest omnibus parturientibus adesse, facile veniam inveniet, cum tot mulieres eodem tempore opem eius inplorantes aures ei obtundant. συγγνώμην ἔχειν enim non solum est veniam dare, sed etiam accipere. Sophocl. Trach. 328. Eurip. Phoen. 995. itaque scribendum ὑπὸ τ. γ. τώτα καταπλήξ γενομένη. de crasi cf. Aristoph. Av. 105. Nub. 92. non recte Toupius I 318 τῶν λεχῶν pro τὴν τέχνην (α λεχώ), putans Dianam orari ut ignoscat ὅτι διεκορήθησαν. at tum Diana orari poterat, non item Ilithyia.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="60" xml:id="kock-0513-stratiotides-60" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_stratiotides">
+              <lg>
+                <l n="1" xml:id="kock-0513-stratiotides-60-l1" xml:lang="grc">τὸν δὲ Μύσιον</l>
+                <l n="2" xml:id="kock-0513-stratiotides-60-l2" xml:lang="grc">Ἀκέστορ᾽ ἀναπέπεικεν ἀκολουθεῖν ἅμα.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Vesp. 1221 τὸν Ἀκέστορα ξένον κωμῳδοῦσι τὸν τραγικόν, ὃς ἐκαλεῖτο Σάκας. Θεόπομπος Τισαμενῷ οὐ κοινῶς ξένον ἀλλὰ Μυσόν κτλ. Schol. Av. 31 ἐκαλεῖτο δὲ Σάκας . . . Θεόπομπος δὲ καὶ τὸν πατέρα αὐτοῦ Σάκαν προσηγόρευσεν Τισαμενῷ. ὁ δὲ αὐτὸς καὶ Μυσὸν ἐκάλεσεν. cf. interpret. Aristoph. Av. 31.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="61" xml:id="kock-0513-stratiotides-61" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_stratiotides">
+              <p>ὀλόλους</p>
+              <note type="source">τοὺς δεισιδαίμονας ἐκάλουν οἰωνιζόμενοι. Θεόπομπος Τισαμενῷ. Photius.</note>
+            </div>
+          </div></body></text></TEI>

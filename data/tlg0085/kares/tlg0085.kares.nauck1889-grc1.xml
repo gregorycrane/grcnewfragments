@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΚΑΡΕΣ Η ΕΥΡΩΠΗ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.kares; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.kares.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.kares.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:kares"><head xml:lang="grc">ΚΑΡΕΣ Η ΕΥΡΩΠΗ</head>
+          <note type="introduction" xml:lang="mul">De argumento fabulae paucos abhinc annos edocti sumus frustulo pretiosissimo quod edidit H. Weil, Un papyrus inédit de la bibliothèque de M. Ambroise Firmin-Didot. Nouveaux fragments d’ Euripide et d’autres poètes grecs publiés par M. Henri Weil. 2 planches photoglyptiques. Paris librairie de Firmin-Didot et Cic 1879 . ubi qui p. 18 sqq. leguntur trimetri iambici, quamvis nec fabulae nec poetae nomen sit appositum, tamen dubitari non potest quin ex Aeschylea hac fabula deprompti sint. vitia illius papyri tot ac tanta sunt quae emendationem multis locis respuant : at argumentum fabulae satis probabiliter eruit Fr. Blass Mus. Rhen. 35 p. 86. spectat fabula ad mortem et funus Sarpedonis, qui ab Aeschylo sicut Hesiodo, Bacchylide, Rhesi auctore Iovis et Europae filius, frater Minois et Rhadamanthi perhibetur. scena videtur esse in Lycia : non obstat quod chori partes mandatae sunt Caribus, cum sciamus etiam alibi apud tragicos poetas confundi Asiae gentes, neque improbabile arbitror quod Buecheler Mus. Rhen. 35 p. 94 conicit, Aeschyli Cares spectari a Strab. XIV p. 665 : οἱ ποιηταὶ δὲ μάλιστα οἱ τραγικοὶ συγχέοντες τὰ ἔθνη, καθάπερ τοὺς Τρῶας καὶ τοὺς Μυσοὺς καὶ τοὺς Λυδοὺς Φρύγας προσαγορεύουσιν, οὕτω καὶ τοὺς Λυκίους Κᾶρας. in prologo vel in primo post parodum episodio conqueritur Europa, cuius verba habemus fr. 99, ademptos sibi duos esse filios, Minoem et Rhadamanthum, ac maxime sollicitam se dicit esse de sorte tertii filii Sarpedonis, qui ad Troiae moenia dimicans in vitae discrimine versetur. chorus virtute Sarpedonis commemorata consolari matrem studet : respondet Europa (fr. 100) fortissimum quemque facillime bello absumi. non vanum fuisse metum matris fortasse somnio territae, confirmat rerum eventus : Ὕπνος et Θάνατος gemelli afferunt cadaver Sarpedonis (cf. Il. Π 681-683) , cui debitae praestantur exequiae. restat unum quod addamus : quaecunque sciri nunc possunt de fabulae argumento, ea omnia felicissimo acumine divinarat I. A. Hartung in Aesch. fragm. p. 95 sq.</note>
+          <div type="textpart" subtype="fragment" n="99" corresp="urn:cite2:perseus:fragmentaryplays.v1:kares" xml:id="aesch-fr99">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-99-recon-1">ταύρῳ τε λειμὼν ξένια πάμβοτος παρῆν.</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-99-recon-2">τοιόνδε μὲν Ζεὺς κλέμμα πρεσβύτου πατρὸς</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-99-recon-3">αὐτοῦ μένων ἄμοχθον ἤνυσεν λαβεῖν.</l>
+              <l n="4" xml:id="nauck-tfg-1-aesch-99-recon-4">ἵν’ οὖν τὰ πολλὰ κεῖνα διὰ παύρων λέγω,</l>
+              <l n="5" xml:id="nauck-tfg-1-aesch-99-recon-5">γυνὴ θεῷ μειχθεῖσα παρθένου σέβας</l>
+              <l n="6" xml:id="nauck-tfg-1-aesch-99-recon-6">ἤμειψα, παίδων δ’ ἐζύγην ξυνάονι.</l>
+              <l n="7" xml:id="nauck-tfg-1-aesch-99-recon-7">καὶ τρισὶ γοναῖσι τοὺς γυναικείους πόνους</l>
+              <l n="8" xml:id="nauck-tfg-1-aesch-99-recon-8">ἐκαρτέρησ’· ἄρουραν οὐκ ἐμέμψατο</l>
+              <l n="9" xml:id="nauck-tfg-1-aesch-99-recon-9">τοῦ μὴ ἐξενεγκεῖν σπέρμα γενναίου πατρός.</l>
+              <l n="10" xml:id="nauck-tfg-1-aesch-99-recon-10">ἐκ τῶν μεγίστων δ’ ἠρξάμην φυτευμάτων,</l>
+              <l n="11" xml:id="nauck-tfg-1-aesch-99-recon-11">Μίνω τεκοῦσα</l>
+              <l n="12" xml:id="nauck-tfg-1-aesch-99-recon-12">Ῥαδάμανθυν, ὅς περ ἄφθιτος παίδων ἐμῶν·</l>
+              <l n="13" xml:id="nauck-tfg-1-aesch-99-recon-13">ἀλλ’ οὐκ ἐν αὐγαῖς ταῖς ἐμαῖς ζόας ἔχει,</l>
+              <l n="14" xml:id="nauck-tfg-1-aesch-99-recon-14">τὸ μὴ παρόν τε τέρψιν οὐκ ἔχει φίλοις·</l>
+              <l n="15" xml:id="nauck-tfg-1-aesch-99-recon-15">τρίτον δὲ τοῦ νῦν φροντίσιν χειμάζομαι</l>
+              <l n="16" xml:id="nauck-tfg-1-aesch-99-recon-16">Σαρπηδόν’ , αἰχμὴ δ’ ἐξ Ἄρεως καθίκετο·</l>
+              <l n="17" xml:id="nauck-tfg-1-aesch-99-recon-17">Καρῶν γὰρ ἥκει γαῖαν Ἀγαμέμνων ἄναξ</l>
+              <l n="18" xml:id="nauck-tfg-1-aesch-99-recon-18">ἄγων ὅσοι περ Ἑλλάδος λωτίσματα</l>
+              <l n="19" xml:id="nauck-tfg-1-aesch-99-recon-19">πάσης, ὑπερφέροντες ἀλκίμῳ σθένει·</l>
+              <l n="20" xml:id="nauck-tfg-1-aesch-99-recon-20">αὐχεῖ δὲ Τρώων ἄστυ πορθήσειν βίᾳ·</l>
+              <l n="21" xml:id="nauck-tfg-1-aesch-99-recon-21">πρὸς οὗ δέδοικα, μὴ τι μαργαίνων δόρει</l>
+              <l n="22" xml:id="nauck-tfg-1-aesch-99-recon-22">ὑπέρτατον δράσῃ τε καὶ πάθῃ κακόν.</l>
+              <l n="23" xml:id="nauck-tfg-1-aesch-99-recon-23">λεπτὴ γὰρ ἐλπὶς ἥδ’ ἐπὶ ξυροῦ τ’ ἔβην</l>
+              <l n="24" xml:id="nauck-tfg-1-aesch-99-recon-24">μὴ πάντα παιδὸς ἐκχέω πρὸς αἵματι.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">ταυρωτελιμωξενιαπαμποδοσπαρην τοιοντεμενζευσκλεμμαπροσβυτουπατρος αυτουμενωναμοχθονηνοσονλαβειν τειουνταπολλακειναδιαπαυρωλεγω γυνηθεουμειχθεισαπαρθενουσεβας εμιψεπαιδωνδεσυγηξυναγωνει καιτριαγωνειστουσγυναικειουσπονους εκαρτερησααρουρασκαιουκεμεμψατο τουμενξεναικεινσπερμαγεναιπατρος εκτωνμεγιστωνδερξαμηνφυδεγματων μινωτεκουσαραδαμανθονωσπεραφθιδοσπαιδωνε μων αλλακεμαγαισταισεμαισζοασεχειν τομηπαρωντετερψινουκεχειφιλους τριτονδετουνουνφορντιζεινχειμαζεται σαλφηδοναιαχμησδεξαρεοσκαθικετο κλεογαρηκειενλοτισλοτισματος πασησυπερπερωντεσαλχιμουστενης αυχειδετρωαναστυπαρθησηβιον προσουδεδωκαμητειμαργαιαδορει αστυπερβαρτονδαψητεκαιπαθηκακον λεπτηγαρελπισιηδηεπιξυρημενηι μηπανταπαισασεκχεωπροσαιματει</note>
+            <note type="sourceContext" xml:lang="mul">Reddidi quae in papyro Didotiano legit Weil (p. 18 sq. et 23)... sed v. 17 primae literae, id quod Buecheler docuit, ΚΑΡ potius quam ΚΛΕ legendae videntur... coniunctis tot criticorum studiis haec fere debetur Aeschylei loci facies :</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 ΠΑΡΗΝ (non ΠΑΡΑΝ) in papyro legi testatur Blass . v. 3 ἤνυσεν . v. 7 τρισὶν ἀγῶσι τρὶς πονοῦσα τρισὶ γοναῖσι . v. 8 ἐκαρτέρησ’ ἄρουρα κοὐκ ἐμέμψατο praetuli Schenkelii et Gomperzii coniecturam . v. 22 ἥδ’ ἐπὶ ξυροῦ τ’ ἔβην .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="100" corresp="urn:cite2:perseus:fragmentaryplays.v1:kares" xml:id="aesch-fr100">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-100-1">ἀλλ’ Ἄρης φιλεῖ</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-100-2">ἀεὶ τὰ λῷστα πάντα τἀνθρώπων στρατοῦ .</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Stob. Flor. 51, 26 : Αἰσχύλου Καρῶν. ’ἀλλ’ — στρατοῦ’ . v. 2 λωτίσματ’ ἀεὶ (Philol. vol. 39 p. 418) πάντ’ ἀπανθίζειν στρατοῦ (Dawesii Misc. crit. p. 298) πάντα λωτίζειν στρατοῦ (Revue de philol. Nouv. sér. IV p. 152) πάντα τἀνθρώπων τρυγᾶν (Zeitschr. f. d. Alterth. 1856 p. 363) παντὸς ἐξαμῶν (ἐξαμᾶν Wecklein) στρατοῦ .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="101" corresp="urn:cite2:perseus:fragmentaryplays.v1:kares" xml:id="aesch-fr101">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-101-1">Μύλασος</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Stephanus Byz. p. 461, 16 : Μύλασα, πόλις Καρίας, ἀπὸ Μυλάσου τοῦ Χρυσάορος τοῦ Γλαύκου τοῦ Σισύφου τοῦ Αἰόλου. λέγεται καὶ Μύλασος (sic R, Μύλας V) , ὡς Αἰσχύλος ἐν Καρσὶν ἢ Εὐρώπῃ .</note>
+          </div>
+        </div></body></text>
+</TEI>

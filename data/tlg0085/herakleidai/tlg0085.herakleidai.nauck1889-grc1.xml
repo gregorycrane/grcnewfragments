@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΗΡΑΚΛΕΙΔΑΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.herakleidai; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.herakleidai.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.herakleidai.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:herakleidai"><head xml:lang="grc">ΗΡΑΚΛΕΙΔΑΙ</head>
+          <div type="textpart" subtype="fragment" n="74" corresp="urn:cite2:perseus:fragmentaryplays.v1:herakleidai" xml:id="aesch-fr74">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-74-1">ἐκεῖθεν</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-74-2">ὄρμενος ὀρθόκερως βοῦς ἤλασ’ ἀπ’ ἐσχάτων</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-74-3">γαίας, ὠκεανὸν περάσας ἐν δέπᾳ χρυσηλάτῳ ,</l>
+              <l n="4" xml:id="nauck-tfg-1-aesch-74-4">βοτῆράς τ’ ἀδίκους κατέκτα δεσπότην τε τρίπτυχον</l>
+              <l n="5" xml:id="nauck-tfg-1-aesch-74-5">τρία δόρη πάλλοντα χερσίν·</l>
+              <l n="6" xml:id="nauck-tfg-1-aesch-74-6">τρία διὰ τῆς σάκη προτείνων τρεῖς τ’ ἐπισσείων λόφους</l>
+              <l n="7" xml:id="nauck-tfg-1-aesch-74-7">στεῖχεν ἴσος Ἄρει βίαν.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. Aristid., quod subicitur iis quae in Dindorfi editione p. 547, 9-15 leguntur, ex codice Marciano 423 prolatum ab Vd. Wilamowitz-Moellendorff de Rhesi scholiis (Ind. schol. hibern. Gryphisw. 3 , . 1877) p. 13 : ὅτι οἱ τρεῖς ἦσαν ἀδελφοὶ μαρτυρεῖ καὶ Αἰσχύλος ἐν Ἡρακλείδαις αἰνιττόμενος πως καὶ λέγων οὕτως ’ἐκεῖθεν — βιαν’ καὶ τὰ ἑξῆς. partem habemus carminis quo Herculis victoriae celebrabantur (sicut in Eur. Herc. 352 sqq.) : agitur de occiso Geryone. plerosque librariorum errores optime correxit editor.</note>
+            <note type="sourceContext" xml:lang="mul">v. 2 ἤλασεν ἐσχατιᾶν (Revue de philol. III [a. 1879] p. 32) . v. 3 γαίης et ἐν διπλῆ χρυσηλάτω cod. . v. 4 κτεῖναι ἔκτεινε κατέκτα . v. 4 τριύτατον τρίπτυχον τρίζυγα τὸν . v. 5 χεροῖν χερσίν . v. 6 τρία διὰ τῆς verba nondum sanata τρία δὲ λαιαῖς τρία δ’ ἕεις σακου προτείνων τρεῖς δέ τις ειπλοφουσ cod. . v. 7 εστειχισοσαρη βιαν ἔστειχ’ ἶσος Ἄρει βίαν ἔστειχεν ἴσος στεῖχεν ἴσος .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="75" corresp="urn:cite2:perseus:fragmentaryplays.v1:herakleidai" xml:id="aesch-fr75">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-75-1">οὐ γάρ τι μεῖζον ἄλλο τοῦδε πείσομαι.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Stob. Flor. 122, 2 : Αἰσχύλου Ἡρακλειδῶν. οὐ — πείσομαι . πήσομαι MA.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="76" corresp="urn:cite2:perseus:fragmentaryplays.v1:herakleidai" xml:id="aesch-fr76">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-76-1">ἀμφιμήτορες</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 163 : ἀμφιμήτορες οἱ ἐκ πολλῶν (ἐξ ἄλλων Buresch Consolat. hist. crit. p. 132) μητέρων γεγονότες ἀδελφοί. Αἰσχύλος Ἡρακλείδαις (ἡρακλίδ. . codex) . Suidas : ἀμφιμήτωρ· ὁ Αἰσχύλος. Phryn. Bekk. p. 6, 24 : ἀμφιμήτωρ· ὁ ἐξ ἑτέρας μητρὸς ἀδελφός.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="77" corresp="urn:cite2:perseus:fragmentaryplays.v1:herakleidai" xml:id="aesch-fr77">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-77-1">ἐπιγλωσσῶ</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 2 p. 150 : ἐπιγλωσσῶ (ἐπιγλώσσω codex)· ἐποιωνίζου διὰ γλώττης. Αἰσχύλος Ἡρακλείδαις (ἡρακλίδες codex) . eadem forma usus est Choeph. 1045 .</note>
+          </div>
+        </div></body></text>
+</TEI>

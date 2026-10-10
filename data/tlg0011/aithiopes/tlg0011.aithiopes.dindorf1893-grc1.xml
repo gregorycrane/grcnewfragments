@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-aithiopes-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΑΙΘΙΟΠΕΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.aithiopes; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.aithiopes.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.aithiopes.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aithiopes"><head>ΑΙΘΙΟΠΕΣ</head><div type="textpart" subtype="fragment" n="26" xml:id="fragment-aithiopes-dindorf1893_grc1-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aithiopes" sameAs="urn:cts:greekLit:tlg0011.aithiopes.nauck1889grc1:25">
+            <note type="source">Athenæus III. p. 122 c. et ex eo partim Eustathius p. 752.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τοιαῦτά τοί σοι πρὸς χάριν τε κοὐ βίᾳ</l>
+              <l n="2" xml:lang="grc">λέγω, σύ δ' αὐτὸς ὥσπερ οἱ σοφοὶ τὰ μὲν</l>
+              <l n="3" xml:lang="grc">δίκαι' ἐπαίνει, τοῦ δὲ κερδαίνειν ἔχου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="27" xml:id="fragment-aithiopes-dindorf1893_grc1-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aithiopes">
+            <note type="source">Photius p. 22, 15.</note>
+            <quote>Ἐσφηκωμένον· ἐσφιγμένον. ἀπὸ τῶν σφηκῶν, οἱ κατὰ μέσον εἰσὶν ἐσφιγμένοι· ἔνθεν καὶ ὁ σφήν. Σοφοκλῆς Αἰθίοψι τοὺς ἐσφιγμένους μύρμηκας τῆ σαρκώσει</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="28" xml:id="fragment-aithiopes-dindorf1893_grc1-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aithiopes" sameAs="urn:cts:greekLit:tlg0011.aithiopes.nauck1889grc1:27">
+            <note type="source">Hesychius, Ἄναρκτον· ἀνυπότακτον, οὐ οὐδεὶς ἦρξε. Σοφοκλῆς Αἰθίοψι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="29" xml:id="fragment-aithiopes-dindorf1893_grc1-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aithiopes" sameAs="urn:cts:greekLit:tlg0011.aithiopes.nauck1889grc1:28">
+            <note type="source">Hesychius, Ἀνθοβοσκόν· ἀνθοτρόφον. Σοφοκλῆς Αἰθίοψι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="30" xml:id="fragment-aithiopes-dindorf1893_grc1-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aithiopes">
+            <note type="source">Hesychius, Ἀπιστεῖ· ἀπειθεῖ. Σοφοκλῆς Αἰθίοψι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="31" xml:id="fragment-aithiopes-dindorf1893_grc1-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_aithiopes" sameAs="urn:cts:greekLit:tlg0011.aithiopes.nauck1889grc1:30">
+            <note type="source">Photius p. 346. 19.</note>
+            <quote>Ὀρθόπτερον· Σοφοκλῆς Αἰθίοψιν. ὀρθοὺς ἔχοντα κολωνούς. τὰ γὰρ εἰς ὕψος ἀνέχοντα πτερὰ ἔλεγον.</quote>
+            <note>Conf. Hesych.</note>
+          </div>
+        </div></body></text></TEI>

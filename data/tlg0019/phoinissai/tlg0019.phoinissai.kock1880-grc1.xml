@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΦΟΙΝΙΣΣΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.phoinissai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.phoinissai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.phoinissai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_phoinissai"><head>ΦΟΙΝΙΣΣΑΙ</head><div type="textpart" subtype="fragment" n="558" xml:id="kock-0019-phoinissai-558" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_phoinissai">
+              <lg>
+                <l n="1" xml:id="kock-0019-phoinissai-558-l1" xml:lang="grc">ἐς Οἰδίπου δὲ παῖδε, διπτύχω κόρω,</l>
+                <l n="2" xml:id="kock-0019-phoinissai-558-l2" xml:lang="grc">Ἄρης κατέσκηψ', ἔς τε μονομάχου πάλης</l>
+                <l n="3" xml:id="kock-0019-phoinissai-558-l3" xml:lang="grc">ἀγῶνα νῦν ἑστᾶσιν.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 4, 154e ὅτι δὲ ἀρχαῖον ἦν τὸ περὶ τοὺς μονομάχους Ἀριστοφάνης εἴρηκεν ἐν Φοινίσσαις οὕτως κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>δὲ παῖδε Heringa ap. Valcken. Phoeniss. p. 461] δέτται δὲ VL. δέτται P. κατέσκηψ' ἔς τε Porson. Phoen. 1381] κατέσκηψέ τε. in exitu v. 3 Geelius (Phoen. p. 207) ex Athenaeo addit ἀρχαῖον τρόπον. εὐριπιδίζει hic Aristophanes. cf. Eurip. Phoen. 1359—1362.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="559" xml:id="kock-0019-phoinissai-559" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_phoinissai">
+              <lg>
+                <l n="1" xml:id="kock-0019-phoinissai-559-l1" xml:lang="grc">καὶ τὸν ἱμάντα μου</l>
+                <l n="2" xml:id="kock-0019-phoinissai-559-l2" xml:lang="grc">ἔχουσι καὶ τἀνάφορον.</l>
+              </lg>
+              <note type="source">Pollux 10, 17 ἀνάφορον κατὰ τὴν τῶν πολλῶν χρῆσιν εἴη ἂν ταὐτὸν τοῦτο (τὸ σκευοφόριον) εἰρημένον ἐν Ἀριστοφάνους Φοινίσσαις κτλ. cf. Ran. 8. Bekker. Anecd. 10, 23 ἀνάφορον· τὸ ξύλον, ᾧ χρῶνται οἱ ἀχθοφόροι πρὸς τὴν κομιδὴν τῶν ἀχθῶν. loquitur Xanthias aliquis.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="560" xml:id="kock-0019-phoinissai-560" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_phoinissai">
+              <lg>
+                <l n="1" xml:id="kock-0019-phoinissai-560-l1" xml:lang="grc">εἰκὸς δή που πρῶτον ἁπάντων</l>
+                <l n="2" xml:id="kock-0019-phoinissai-560-l2" xml:lang="grc">ἴφυα φῦναι</l>
+                <l n="3" xml:id="kock-0019-phoinissai-560-l3" xml:lang="grc">καὶ τὰς κραναὰς ἀκαλήφας.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 90a Ἀριστοφάνης ἐν Φοινίσσαις οὕτως κτλ. 2, 62 d Ἀριστοφάνης Φοινίσσαις· πρῶτον κτλ. Bekker. Anecd. 370, 20 et Suidas ἀκαλήφη . . . Ἀριστοφάνης Φοινίσσαις· εἰκὸς κτλ. Schol. Vesp. 884 τὴν ἀκαλήφην μεταφορικῶς τὸ τραχὺ καὶ δηκτικόν, ἣν καὶ (κραναὴν add. H. Iacobi) ἀκαλήφην λέγεσθαί φησι Κράτης Φοινίσσαις. v. 3 etiam Cram. An. Paris. IIII 104. εἰκὸς δή που Bekk. An. Suid.] ἔχε τὸν Athen. 3, 90. πρῶτον ἁπάντων Suid.] πρῶτον πάντων Athen. utrubique. πρώτον Bekk. Anecd. ἴφυα Athen.] φύα cod. Bekk. Suid. ἀφύας Bekkerus immemor Athenaei. καὶ Bekk. An. Suid.] εἶθ' ἑξῆς Athenaeus utrubique. ἴφυα commemorat etiam Thesm. 910. cf. Theophr. H. pl. 6, 6, 11. 6, 8, 3. 7, 13, 7. et quae Schneiderus disputavit III 520.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="561" xml:id="kock-0019-phoinissai-561" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_phoinissai">
+              <lg>
+                <l n="1" xml:id="kock-0019-phoinissai-561-l1" xml:lang="grc">στίλβη θ' ἢ κατὰ νύκτα μοι</l>
+                <l n="2" xml:id="kock-0019-phoinissai-561-l2" xml:lang="grc">φλόγ' ἀνασειράζεις ἐπὶ τῷ</l>
+                <l n="3" xml:id="kock-0019-phoinissai-561-l3" xml:lang="grc">λυχνείῳ.</l>
+              </lg>
+              <note type="source">Pollux 10, 119 Ἀριστοφάνους δ' ἐν ταῖς Φοινίσσαις εἰπόντος στίλβη κτλ., οὐκ ἀφανὲς ὅτι καὶ ἡ στίλβη λύχνου τι εἶδος. 'φλογάνας ἠράζεις vel φλόγα ἥξει codices: correctum in Vossiano'. Bekker. λυχνείῳ Dindorf.] λυχνίῳ. quam similitudinem Dindorfius Bergkiusque inveniunt huius fragmenti cum Eurip. Phoen. 229 sq. οἴνα θ', ἃ καθαμέριον στάζεις τὸν πολύκαρπον οἰνάνθας ἱεῖσα βότρυν, eam ego quidem non magis perspicio quam quae Geelius p. 104 ad eos versus adnotavit. excerpta haec sunt ex cantico ad monodias Euripidis inridendas ex variis centonibus composito. cf. Ran. 1331 sq.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="562" xml:id="kock-0019-phoinissai-562" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_phoinissai">
+              <p>θεατροπώλης</p>
+              <note type="source">ἐν ταῖς Ἀριστοφάνους Φοινίσσαις .. ὁ θέαν ἀπομισθών. Pollux 7, 199.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="563" xml:id="kock-0019-phoinissai-563" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_phoinissai">
+              <p>μυάγρα</p>
+              <note type="source">Ἀριστοφάνης δὲ ἐν Φοινίσσαις κέχρηται τῷ ὀνόματι. Pollux 10, 155.</note>
+              <note type="apparatus">Praeterea cf. 935. Strattid. fr. 50.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΧΕΙΡΩΝΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.cheirones.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.cheirones.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.cheirones.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones"><head>ΧΕΙΡΩΝΕΣ</head><div type="textpart" subtype="fragment" n="230" xml:id="kock-0434-cheirones-230" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <note type="source">Schol. Thucyd. 8, 83 τὸ ἐπιφέρειν ὀργὴν ἐπὶ τοῦ χαρίζεσθαι καὶ συγχωρεῖν ἔταττον οἱ ἀρχαῖοι. μάρτυς Κρατῖνος ἐν Χείρωσι λέγων τὴν μουσικὴν ἀκορέστους ἐπιφέρειν ὀργὰς βροτοῖς σώφροσιν. verba Thucydidis sunt Ἀστύοχον εἶναι αἴτιον, ἐπιφέροντα ὀργὰς Τισσαφέρνει διὰ ἴδια κέρδη.</note>
+              <note type="apparatus">de usu nominis ὀργή Blomfield. Gloss. Aesch. Prom. 386. recte Cobetus Obs. crit. Plat. 25. 6. μουσικήν dicit esse artem comicam, quae cum malis hominibus sit acerba, bonis civibus incredibilem in modum faveat. fortasse Cratinus <quote>ἡ γὰρ μουσικὴ βροτοῖς ἀεὶ | ὀργὰς ἀκορέστους ἐπιφέρει τοῖς σώφροσιν.</quote>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="231" xml:id="kock-0434-cheirones-231" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-231-l1" xml:lang="grc">οἷς ἦν μέγιστος ὅρκος</l>
+                <l n="2" xml:id="kock-0434-cheirones-231-l2" xml:lang="grc">ἅπαντι λόγῳ κύων, ἔπειτα χήν, θεοὺς δ’ ἐσίγων.</l>
+              </lg>
+              <note type="source">Schol. Platonis Bekk. 331 Ῥαδαμάνθυος ὅρκος· οὗτος ὁ κατὰ κυνὸς ἢ πλατάνου ἢ κριοῦ ἤ τινος ἄλλου τοιούτου . . . Κρατῖνος Χείρωσιν. κατὰ τούτων δὲ νόμος ὀμνύναι, ἵνα μὴ κατὰ θεῶν οἱ ὅρκοι γίνωνται (i. e. ne deorum nominibus iurantes abuterentur). Schol. Luciani 90 Iac. Photius et Suidas Ῥαδαμάνθυος ὅρκος. Zenob. 5, 81. cf. etiam interpr. Aristoph. Av. 521.</note>
+              <note type="apparatus">— δ’ ἐσίγων] δὲ σιγῶν Phot. Suid. AV, δὲ σιγᾶν ceteri Suid. talia in cantico chori narrari vix poterant: quocirca recte Meinekius tetrametros iambicos constituit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="232" xml:id="kock-0434-cheirones-232" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-232-l1" xml:lang="grc">ἄγε δὴ πρὸς ἕω πρῶτον ἁπάντων ἵστω καὶ λάμβανε χερσὶν</l>
+                <l n="2" xml:id="kock-0434-cheirones-232-l2" xml:lang="grc">σχῖνον μεγάλην.</l>
+              </lg>
+              <note type="source">Schol. Sophocl. Oed. Col. 477 καὶ οἱ τοὺς καθαρμοὺς δὲ ἐπιτελοῦντες πρὸς τὴν ἕω ἵστανται. Κρατῖνος ἐν Χείρωνι. et paullo ante καὶ γὰρ δὴ καὶ τὰς ἐκθύσεις πρὸς ἥλιον ἐποιοῦντο. cf. Aristoph. fr. 255. Plin. N. h. 20, 101 Pythagoras scillam in limine ianuae suspensam malorum medicamentorum introitum pellere tradit. Chironem praecipere de evocando ab inferis Solone arbitratur Bergkius R. c. Att. 239.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="233" xml:id="kock-0434-cheirones-233" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-233-l1" xml:lang="grc">καὶ πρῶτον μὲν παρὰ ναυτοδικῶν ἀπάγω τρία κνώδαλ’ ἀναιδῆ</l>
+                <l n="2" xml:id="kock-0434-cheirones-233-l2" xml:lang="grc">[Πεισίαν, Ὀσφύωνα, Διειτρέφη.]</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Av. 766 οὐδὲν σαφὲς ἔχομεν τίς ὁ Πεισίου . . . ὅτι δὲ τῶν λίαν πονηρῶν ἐστι, δηλοῖ Κρατῖνος ἐν Χείρωσι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="239" xml:id="kock-0434-cheirones-239" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-239-l1" xml:lang="grc">ἁπαλὸν δὲ σισύμβριον ἢ ῥόδον ἢ κρίνον παρ’ οὖς ἐθάκει·</l>
+                <l n="2" xml:id="kock-0434-cheirones-239-l2" xml:lang="grc">μετὰ χερσὶ δὲ μῆλον ἔχων σκίπωνά τ’ ἠγόραζον.</l>
+              </lg>
+              <note type="source">Athenaeus 12, 553 e καὶ τὸν ἐπὶ Θεμιστοκλέους δὲ βίον Τηλεκλείδης . . . ἁβρὸν ὄντα παραδίδωσι. Κρατῖνος δὲ ἐν Χείρωσι τὴν τρυφὴν ἐμφανίζων τὴν τῶν παλαιτέρων φησίν ἁπαλὸν κτλ.</note>
+              <note type="apparatus">ἢ ῥόδον G. Herm. Elem. d. m. 593] ῥόδον. Porsonus (Aristoph. Vesp. 1522) ῥόδον delet. 2. μετὰ Meinek.] παρὰ. ἕκαστος post μῆλον add. Meinek. ἠγόραζον] ἠγόραζεν G. Herm. memorabilis locus est Etym. m. Milleri (Mélanges 266) σισύμβριον· ἔχω παρὰ τὸ οὖς, qui quamquam Meinekius dubitavit (Herm. III 455) manifesto ad hoc fr. pertinet. ex eodem cantico haec excerpta videntur atque fr. 238. de sententia cf. Aristoph. Nub. 1006 sq., de rosa cum liliis coniuncta ibid. 910. 11 et quem Meinekius attulit Herod. 2, 95. fuisse qui σισύμβριον ab ἔχων suspenderent Milleri Etym. docet. mihi (cum Bergkio R. c. Att. 235) σισύμβριον subiectum videtur esse v. ἐθάκει. quamquam exemplum prorsus simile adferre non possum: nam neque Hom. Il. 8, 14, neque Herod. 9, 57, neque vero Eurip. fr. 1068, 14 N. (ubi καλεῖται pro κάθηται Nauckius Philol. IIII 547) sufficiunt. de verbo ἀγοράζειν cf. Aristoph. Eq. 1373 cum interpr.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="240" xml:id="kock-0434-cheirones-240" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-240-l1" xml:lang="grc">Στάσις δὲ καὶ πρεσβυγενὴς Κρόνος ἀλλήλοισι μιγέντε</l>
+                <l n="2" xml:id="kock-0434-cheirones-240-l2" xml:lang="grc">μέγιστον τίκτετον τύραννον,</l>
+                <l n="3" xml:id="kock-0434-cheirones-240-l3" xml:lang="grc">ὃν δὴ κεφαληγερέταν θεοὶ καλέουσιν.</l>
+              </lg>
+              <note type="source">Plutarchus Pericl. 3 ὅθεν αἱ μὲν εἰκόνες αὐτοῦ σχεδὸν ἅπασαι κράνεσι περιέχονται. τῶν δὲ κωμικῶν ὁ μὲν Κρατῖνος ἐν Χείρωσι Στάσις κτλ.</note>
+              <note type="apparatus">Κρόνος χ] Χρόνος. τύραννον] τιτᾶνα x. ex eodem atque fr. 241 cantico vel nullo vel exiguo intervallo excerptum. cf. Sintenis. Plut. Per. excurs. II 298. recte τύραννον: perpetuo enim Pericli inimici exprobrabant τυραννεῖσθαι περιφανῶς (cf. etiam Plut. 16). ut Iuppiter Saturni ex Rhea filius esse credebatur, sic Periclem Saturno ex Discordia natum dicit propter gravissimas cum Cimone, Thucydide, Myronide, Leocrate inimicitias (cf. Bergk R. c. Att. 236). κεφαληγερέταν ridicule forma praesertim dorica Homeri νεφεληγερέτῃ substituit. καλέουσιν, ut Hom. Il. 1, 403. Od. 12, 61. Hesiod. Theog. 187 (Sinten. 301).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="241" xml:id="kock-0434-cheirones-241" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-241-l1" xml:lang="grc">Ἥραν τέ οἱ Ἀσπασίαν τίκτει Καταπυγοσύνη</l>
+                <l n="2" xml:id="kock-0434-cheirones-241-l2" xml:lang="grc">παλλακὴν κυνώπιδα.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="242" xml:id="kock-0434-cheirones-242" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <note type="source">Schol. Aristoph. Nub. 924 et Suidas Πανδελετείους· μέμνηται τοῦ Πανδελέτου καὶ Κρατῖνος Χείρωσιν.</note>
+              <note type="apparatus">Pandeletus non commemoratur nisi his duobus locis.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="243" xml:id="kock-0434-cheirones-243" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <note type="source">Zenobius 5, 9 μετὰ Λέσβιον ᾠδόν· παροιμία ταττομένη ἐπὶ τοῖς τὰ δεύτερα φερομένοις . . . μέμνηται . . . Κρατῖνος ἐν Χείρωσι. Photius μετὰ Λέσβιον ᾠδόν· παρὰ Κρατίνῳ παροιμία λεγομένη ἐπὶ τῶν τὰ δεύτερα φερομένων.</note>
+              <note type="apparatus">Λέσβιον ᾠδόν Terpandrum interpretantur, qui in arte canendi tantum ceteris praestare credebatur, ut vel optimi post eum numerandi essent.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="244" xml:id="kock-0434-cheirones-244" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-244-l1" xml:lang="grc">δωροδοκούντων αἶξ οὐρανία</l>
+              </lg>
+              <note type="source">Zenobius 1, 26 αἶξ οὐρανία. Κρατῖνός φησι καθάπερ Διὸς αἶγα Ἀμαλθείαν, οὕτω καὶ τῶν δωροδοκούντων αἶγα οὐρανίαν. similiter Suidas αἶξ οὐρανία. ad Chirones haec pertinere docent Photius (et Suidas) οὐρανία αἴξ· ᾗ οἱ εὐχόμενοι πάντως (πάντων) ἐπετύγχανον· ἴσως διὰ τὸ τὴν Σελήνην αὐτῇ ἐποχεῖσθαι. Κρατῖνος Χείρωσιν.</note>
+              <note type="apparatus">cum hoc fr. Bergkius R. c. Att. 248 adespoton coniungebat Plut. Mor. 27 εὐδαίμων Πολίαγρος, οὐράνιον αἶγα πλουτοφόρον τρέφων, quo Poliager nescio quis ridetur uxoris adulteriis ingentem quaestum faciens. at neque metro, quod apud Cratinum est anapaesticum, neque sententia haec cohaerent. Cratinus enim hoc dicit: ‘ei qui se corrumpi patiuntur, hodie tamquam Amaltheae vel Copiae cornu locupletantur’.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="228" xml:id="kock-0434-cheirones-228" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-228-l1" xml:lang="grc">οἰκῶ δὲ νῆσον, ὡς μὲν ἀνθρώπων λόγος,</l>
+                <l n="2" xml:id="kock-0434-cheirones-228-l2" xml:lang="grc">ἐσπαρμένος κατὰ πᾶσαν Αἴαντος πόλιν.</l>
+              </lg>
+              <note type="source">
+                <p>Diogenes Laert. 1, 62 ἀποκομίσαι αὐτοῦ (Σόλωνος) τὰ ὀστᾶ εἰς Σαλαμῖνα καὶ τεφρώσαντας εἰς τὴν χώραν σπεῖραι· ὅθεν καὶ Κρατῖνος ἐν τοῖς Χείρωσί φησιν αὐτὸν ποιῶν λέγοντα οἰκῶ δὲ κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>Solon igitur loquitur. cf. Plut. Sol. 32. Αἴαντος πόλιν, i. e. Salaminem insulam. ita Hom. Il. 14, 230 Λῆμνον, πόλιν θείοιο Θόαντος. Strab. 8, 356. exempla congessit Bergkius R. c. Att. 241 Eur. Ion 294. fr. 659 Nauck. Soph. fr. 374 N. Pind. Nem. 7, 9 (13). Isthm. 4, 43 (60) Arist. Pac. 251, quo pertinet Hesych. πόλις· τὴν Σικελίαν· ἀντὶ τοῦ νῆσον. addo Eupol. 232. Eurip. fr. 730 ἅπασα Πελοπόννησος εὐτυχεῖ πόλις. Lys. ap. Harpocr. Κεῖοι οἱ Κεῖοι μὲν πόλις τοσαύτη, et psephisma apud Schol. Vict. II. 14, 230 (Mein. Steph. Byz. 718) ἐς τὴν Αἴγυπτον καὶ Λιβύην τὼ πόλεε. cf. Schoemann. comment. Ion. I 13 et quae adnotavimus ad Aristoph. Av. 181.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="229" xml:id="kock-0434-cheirones-229" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-229-l1" xml:lang="grc">ὄνοι δ’ ἀπωτέρω κάθηνται τῆς λύρας.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Platon. 358 Bekk. τῶν οὖν παιζόντων ταῦτα τοὺς μὲν νικῶντας βασιλεῖς ἐκάλουν, καὶ ὅ τι ἂν (ὁτιοῦν) προσέτασσον τοῖς ἄλλοις ὑπήκουον, τοὺς δ’ ἡττωμένους ὄνους. Κρατῖνος δὲ Χείρωσι χαριέντως ὁμοῦ ἐγκαταμίξας καὶ τὴν ὄνος λύραν παροιμίαν ἔπλεξε τὸν λόγον οὕτως· ὡς ὄνος ἀπωτέρω κτλ. Eustathius 1601, 47 τὴν</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="234" xml:id="kock-0434-cheirones-234" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-234-l1" xml:lang="grc">ἐξ ἀσαμίνθου κύλικος λείβων.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 6, 97. 98 καὶ ἀσάμινθος δὲ ποτήριον ἂν εἴη, ὡς Ὅμηρός τε μηνύει Τηλεμάχου διδόντος Μενέλεῳ δύ᾽ ἀσαμίνθους, καὶ Κρατῖνος ἐν Χείρωσιν κτλ. idem 10, 64 καί τοι ἔν γε τοῖς Κρατίνου Χείρωσιν (sic Meinek. pro Ἥρωσιν) τὴν ἀσάμινθον κιβωτὸν νοοῦσιν, ἔνιοι δὲ ἔκπωμα.</p>
+              </note>
+              <note type="apparatus">
+                <p>sententia est: ex poculo tanto, ut ἀσάμινθος esse videretur. cf. Cratet. 11. Pherecr. 108, 19.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="235" xml:id="kock-0434-cheirones-235" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-235-l1" xml:lang="grc">σκῆψιν μὲν Χείρωνες ἐλήλυμεν, ὡς ὑποθήκας —</l>
+              </lg>
+              <note type="source">
+                <p>Hephaestio 1, 18 Κρατῖνος ἐν τοῖς Χείρωσι (ἐλήλυμεν) ἀντὶ τοῦ ἐληλύθαμεν, ὅπερ ἐξηλέγξαμεν ψεῦδος ὄν. Χείρωνες Turneb.] Χείρωνας FHB. Χείρωνι Ν. ὦ Χείρωνες CP. ἐλήλυμεν] ἐλήλυθμεν Flor.</p>
+              </note>
+              <note type="apparatus">
+                <p>Chirones personati huc advenimus, ut praecepta — reliqua desunt. voce ὑποθήκας Hesiodei illius quod dicebatur (Χείρωνος ὑποθῆκαι) carminis memoriam revocat. sequebantur sine dubio versus ex ipso illo opere vel excerpti vel inmutati. cf. Aristoph. fr. 227. si non prima, at certe ex primis haec verba videntur esse chori in orchestram ingredientis. Bergk. R. c. Att. 225. σκῆψιν Χείρωνες ἐληλύθαμεν idem est ac σκηπτόμενοι Χείρωνες εἶναι, i. e. adsumpta Chironum specie et habitu. similiter dicebant πρόφασιν, τὸ δ᾽ ἀληθές, γνώμην ἐμήν, τὸ λεγόμενον, alia.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="236" xml:id="kock-0434-cheirones-236" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-236-l1" xml:lang="grc">Κλειταγόρας ᾄδειν, ὅταν Ἀδμήτου μέλος αὐλῇ.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Arist. Vesp. 1239 Ἡρόδικος δ᾽ ἐν τοῖς κωμῳδουμένοις καὶ τὸν Ἄδμητον ἀναγέγραφεν παραθεὶς Κρατίνου ἐκ Χειρώνων</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="237" xml:id="kock-0434-cheirones-237" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-237-l1" xml:lang="grc">ταῦτα δυοῖν ἐτέοιν ἡμῖν μόλις ἐξεπονήθη.</l>
+              </lg>
+              <note type="source">
+                <p>Aristides 49, 387</p>
+              </note>
+              <note type="apparatus">
+                <p>διδάξας δὲ τοὺς Χείρωνας προσπαραγράφει πάλιν αὖ μάλα ὑπερηφάνως ἐπὶ τελευτῆς ‘ταῦτα δυοῖν ἐν ἐτοῖν ἡμῖν μόλις ἐξεπονήθη’, τοῖς δ’ ἄλλοις ἐν ἅπαντι βίῳ προτιθέναι φησὶ ποιηταῖς μιμεῖσθαι, δηλονότι ὡς οὐδένα ἐφιξόμενον. ἐτέοιν Meinek.] ἐτοῖν. ἐν ἐτοῖν Dind. — p. 523 addit ὥσπερ εἰς ἀγῶνα καὶ ἅμιλλαν ἅπαντας προκαλούμενος, ὡς οὐδένα ἂν οὐδ’ ἐγγὺς ἐλθόντα. duos annos se huic comoediae componendae inpendisse gloriatur. Bergk. R. c. Att. 224. sunt haec ex fabulae exodo excerpta, sicuti Aristophanes Ranas versibus heroicis finivit. duos annos illos esse quibus non licuerit ὀνομαστὶ κωμῳδεῖν opinio est Cobeti Obs. crit. Plat. 24sq., qui praeterea cum hoc fragmento coniungit fr. 306 (ubi cf. adn.) et (V. 1.2 399 sq.) ex Aristidis verbis addit τοῖς δ’ ἄλλοις ἐν ἅπαντι βίῳ προτίθημι ποιηταῖς | μιμεῖσθαι. ac similiter iam Bothius.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="238" xml:id="kock-0434-cheirones-238" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <lg>
+                <l n="1" xml:id="kock-0434-cheirones-238-l1" xml:lang="grc">μακάριος ἦν ὁ πρὸ τοῦ βίος</l>
+                <l n="2" xml:id="kock-0434-cheirones-238-l2" xml:lang="grc">βροτοῖσι πρὸς τὰ νῦν, ὃν εἶχον· ἄνδρες</l>
+                <l n="3" xml:id="kock-0434-cheirones-238-l3" xml:lang="grc">ἀγανόφρονες ἡδυλόγῳ σοφίᾳ βροτῶν περισσοκαλλεῖς.</l>
+              </lg>
+              <note type="source">
+                <p>Bekker. Anecd. 335, 12</p>
+              </note>
+              <note type="apparatus">
+                <p>ἀγανόν· καλόν, ἡδύ. Κρατῖνος Χείρωσι κτλ. 1. βίος Bekkerus] βροτός. 3. περισσοκαλλεῖς Bekkerus] περισσοκαλεῖς. duplex o in melico carmine non offendit. postrema verba codex p. 329, 5 loco alieno hic exhibet: ἀγαννόφρονες ἡδυλόγῳ σοφίᾳ βρωτων παρὰ (vel περὶ) σὲ καλεῖς. cum βροτοῖσι — ἄνδρες — βροτῶν tolerari non possint, Herwerdenus Mnem. nov. VI 56 τρόπων περισσοκαλλεῖς admodum mediocriter. scribendum videtur ἀγανόφρονες, ἡδυλόγου σοφίας πόθῳ περ. mitis et dulce loquentis sapientiae amore supra modum pulchri. βροτῶν natum est librarii dictantem audientis et eorum quae praecesserant perperam recordantis errore.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="245" xml:id="kock-0434-cheirones-245" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <head>Βοῦθος περιφοιτᾷ</head>
+              <note type="source">Herodianus II 947, 25 Lentz. Βοῦθος Πύθια νικήσας· παροιμία Β. π., Κρατῖνος Χείρωσι. Zenobius 2, 66 Βοῦθος περιφοιτᾷ· ταύτης μέμνηται Κρατῖνος ἐν Χείρωσι. Plut. Prov. 1, 33 Βοῦθος περιφοιτᾷ· ἐπὶ τῶν ἀσυνέτων καὶ παχυφρόνων, ἀπό τινος Πυθιονίκου Βούθου καλουμένου. Hesych. (et Suid.) B. π.· παροιμία ἐπὶ τῶν εὐήθων καὶ παχυφρόνων, ἀπὸ Βούθου τινὸς μετενεχθεῖσα τοῦ Πύθια νικήσαντος, ὃν ἀναγράφει καὶ Ἀριστοτέλης νενικηκότα.</note>
+              <note type="apparatus">de genere dicendi cf. fr. 52.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="246" xml:id="kock-0434-cheirones-246" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <head>Ἰθακησία ὀρτυγομήτρα</head>
+              <note type="source">ἧς μνημονεύει Κρατῖνος ἐν Χείρωσι Athenaeus 9, 392 f. Κρατῖνος Schweigh.] Κράτης.</note>
+              <note type="apparatus">de ortygometra, quae duce coturnices volant, cf. Plin. N. h. 10, 66 et quae adnotavimus ad Aristoph. Av. 870. sine dubio Ulixes significatur, Achivorum prudentia consilioque princeps.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="247" xml:id="kock-0434-cheirones-247" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <note type="source">Pollux 10, 186 καὶ στόμωμα μὲν σιδηροῦν ὅστις ἐν τοῖς ἀποθέτοις σκεύεσιν ἀριθμοῖ, Κρατῖνος ἂν αὐτῷ συναινοῖ λέγων ἐν Χείρωσι Χαλυβδικὸν στόμωμα. et 7, 107 Κρατῖνος ἔφη Χαλυβδικὸν στόμωμα. cf. Steph. Byz. Χάλυβες. Εὔδοξος ἐν πρώτῳ ‘ἐκ δὲ τῆς Χαλύβων χώρας ὁ σίδηρος ὁ περὶ τὰ στομώματα ἐπαινούμενος ἐξάγεται . . . λέγεται καὶ μετὰ τοῦ δ Χαλυβδικός τὸ κτητικόν’.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="248" xml:id="kock-0434-cheirones-248" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <note type="source">Hesych. αὐτόφορτοι· αὐτοδιάκονοι. κυρίως δὲ οἱ ἐν τοῖς ἰδίοις πλοίοις . . . ὁ δὲ Κρατῖνος ἐν Χείρωνι τοὺς τὰ κοινὰ φορτιζομένους ἔφη.</note>
+              <note type="apparatus">αὐτόφορτος cum significet aut una cum merce (αὐτῷ φόρτῳ) aut eum qui suam mercem sua nave vehit, Cratinus eos qui pecunias publicas in suum usum avertebant voce a φόρτος derivata non αὐτοφόρτους, sed κοινοφόρτους dicere debebat, atque id ipsum apud Hesychium inserendum censeo: τοὺς τὰ κοινὰ φορτιζομένους κοινοφόρτους ἔφη.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="249" xml:id="kock-0434-cheirones-249" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_cheirones">
+              <head>βιβλιαγράφον</head>
+              <note type="source">(εὑρήσεις) παρὰ Κρατίνῳ ἐν Χείρωσι. Poll. 7, 211. βιβλιαγράφον Lob. Phryn. 655] βιβλιογράφον.</note>
+              <note type="apparatus">iudicialium libellorum auctorem Cratinus dicere videtur. Ad Chirones fr. 305 incerta admodum coniectura referebat Bergk. R. c. Att. 230.</note>
+            </div>
+          </div></body></text></TEI>

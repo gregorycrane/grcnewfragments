@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΕΛΕΥΣΙΝΙΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.eleysinioi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.eleysinioi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.eleysinioi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:eleysinioi"><head>ΕΛΕΥΣΙΝΙΟΙ</head>
+          <pb n="595" facs="urn:hathi:iau.31858007086675:scan:603"/>
+          <div type="textpart" subtype="fragment" n="47" xml:id="frag_7371648d07" corresp="urn:cite2:perseus:fragmentaryplays.v1:eleysinioi" sameAs="urn:cts:greekLit:tlg0085.eleysinioi.nauck1889-grc1:54">
+            <note type="source">Hesychius, Ἀοζήσω (codex ἀοξήσω): διακονήσω, ὑπουργήσω. Αἰσχύλος Ελευσινίαις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="48" xml:id="frag_1c33de1bd2" corresp="urn:cite2:perseus:fragmentaryplays.v1:eleysinioi">
+            <note type="source">Plutarchus in Theseo c. 29. p. 14 a. Συνέπραξε δὲ (Θησεὺς) καὶ Ἀδράστῳ τὴν ἀναίρεσιν τῶν ὑπὸ τῇ Καδμείᾳ πεσόντων, οὐχ, ὡς Εὐριπίδης ἐποίησεν ἐν τραγῳδίᾳ, μάχῃ τῶν Θηβαίων κρατήσας, ἀλλὰ πείσας καὶ σπεισάμενος· οὕτω γὰρ οἱ πλεῖστοι λέγουσι· Φιλόχορος δὲ καὶ σπονδὰς περὶ νεκρῶν ἀναιρέσεως γενέσθαι πρώτας ἐκείνας. ὅτι δὲ Ἡρακλῆς πρῶτος ἀπέδωκε νεκροὺς τοῖς πολεμίοις ἐν τοῖς περὶ Ἡρακλέους γέγραπται. ταφαὶ δὲ τῶν μὲν πολλῶν ἐν Ἐλευθεραῖς δείκνυνται, τῶν δὲ ἡγεμόνων περὶ Ἐλευσῖνα, καὶ τοῦτο Θησέως Ἀδράστῳ χαρισαμένου. καταμαρτυροῦσι δὲ τῶν Εὐριπίδου Ικετίδων οἱ Αἰσχύλου Ἐλευσίνιοι, ἐν οἷς καὶ ταῦτα λέγων ὁ Θησεὺς πεποίηται.</note>
+          </div>
+        </div></body></text>
+</TEI>

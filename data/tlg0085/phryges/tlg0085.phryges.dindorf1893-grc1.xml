@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΦΡΥΓΕΣ Η ΕΚΤΟΡΟΣ ΛΥΤΡΑ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.phryges; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.phryges.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.phryges.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges"><head>ΦΡΥΓΕΣ Η ΕΚΤΟΡΟΣ ΛΥΤΡΑ</head>
+          <pb n="608" facs="urn:hathi:iau.31858007086675:scan:616"/>
+          <div type="textpart" subtype="fragment" n="241" xml:id="frag_bfe096ae11" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges">
+            <note type="source">Eratosthenes in Catasterismis c. 22.</note>
+            <quote>Περσεύς.—δοκεῖ δὲ καὶ ἅρπην παρ᾽ Ἡφαίστου λαβεῖν ἐξ ἀδάμαντος, ὡς Αἰσχύλος ἐν Φορκίσι φησὶν ὁ τῶν τραγῳδιῶν ποιητής.</quote>
+            <note type="source">Eadem Hyginus Poet. Astron. II, 12.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="242" xml:id="frag_9ef9aa6c14" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" sameAs="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1:263">
+            <note type="source">Pollux VII, 131.</note>
+            <quote>Τῷ φορτηγῷ ἐπὶ τῶν τὰ φορτία ἀγόντων ἐμπόρων κέχρηται Αἰσχύλος ἐν Φρυξὶν ἢ Λύτροις</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_9ef9aa6c14-l1" xml:lang="grc">Ἀλλὰ ναυβάτην</l>
+              <l n="2" xml:id="frag_9ef9aa6c14-l2" xml:lang="grc">φορτηγόν, ὅστις ῥῶπον ἐξάγει χθονός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="243" xml:id="frag_711bc75c03" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" sameAs="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1:266">
+            <note type="source">Stobæus CXXV, 7. Αἰσχύλου Ἕκτορος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_711bc75c03-l1" xml:lang="grc">Καὶ τοὺς θανόντας εἰ θέλεις εὐεργετεῖν,</l>
+              <l n="2" xml:id="frag_711bc75c03-l2" xml:lang="grc">τὸ γοῦν κακουργεῖν ἀμφιδεξίως ἔχει</l>
+              <l n="3" xml:id="frag_711bc75c03-l3" xml:lang="grc">καὶ μήτε χαίρειν μήτε λυπεῖσθαι πάρα.</l>
+              <l n="4" xml:id="frag_711bc75c03-l4" xml:lang="grc">ἡμῶν γε μέντοι Νέμεσίς ἐσθ᾽ ὑπερτέρα</l>
+              <l n="5" xml:id="frag_711bc75c03-l5" xml:lang="grc">καὶ τοῦ θανόντος ἡ δίκη πράσσει κότον.</l>
+            </lg>
+            <note>V. 2. Codices ὁ γοῦν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="244" xml:id="frag_ef6aa6d8d9" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" sameAs="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1:264">
+            <note type="source">Athenæus II. p. 51 c.</note>
+            <quote>Μόρα δὲ τὰ συκάμινα καὶ παρ᾽ Αἰσχύλῳ ἐν Φρυξὶν ἐπὶ τοῦ Ἕκτορος</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_ef6aa6d8d9-l1" xml:lang="grc">Ἀνὴρ δ᾽ ἐκεῖνος ἦν πεπαίτερος μόρων.</l>
+            </lg>
+            <note type="source">Ad hunc versum respiciunt Pollux VI, 46. Photius p. 275, 19. Eustathius p. 211, 17.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="245" xml:id="frag_78b1e8ea42" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" sameAs="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1:269">
+            <note type="source">Hesychius, Ἀδίοπον: ἄναρχον, ἀφύλακτον. Αἰσχύλος Φρυξί. δίοποι οἱ τῆς νεὼς φύλακες. Conf. fragm. 213.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="246" xml:id="frag_4aa0499b97" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" sameAs="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1:270">
+            <note type="source">Hesychius, Ἄροτον: τὸν ὁλκὸν τοῦ Ἕκτορος, ἢ τὸ ἀντίσταθμον. Αἰσχύλος Φρυξί.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="247" xml:id="frag_0feffe9047" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" sameAs="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1:265">
+            <note type="source">Hesychius, Διαπεφρούρηται βίος: Αἰσχύλος Φρυξίν. οἷον ἡ διὰ τοῦ βίου φρουρά (codex φθορά) συντετέλεσται· ἢ διελήλυθεν ὁ χρόνος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="248" xml:id="frag_1218761f00" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" sameAs="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1:271">
+            <note type="source">Hesychius, Ἐπιστροφαί: διατριβαὶ, δίαιται. Αἰσχύλος Φρυξί.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="249" xml:id="frag_e86eb84244" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" sameAs="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1:268">
+            <note type="source">Hesychius, Ἀγαστά: ὁ ἄν τις ἀγάσαιτο, οἷον ἀρεστά. Αἰσχύλος Φρυξί. Codex φρά.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="250" xml:id="frag_4b2abb2f9a" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" sameAs="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1:267">
+            <note type="source">Schol. Euripidis Androm. v. 1.</note>
+            <quote>Ἔνιοι δὲ καὶ τὴν Χρύσην καὶ τὴν Λυρνησὸν ἐν τῷ τῆς Θήβης πεδίῳ τάσσουσιν, ὡς ὁ Αἰσχύλος Λυρνησίδα προσαγορεύσας τὴν Ἀνδρομάχην ἐν τοῖς Φρυξίν· ὅθεν καὶ ξένως ἱστορεῖ Ἀνδραίμονος αὐτὴν λέγων</quote>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_4b2abb2f9a-l1" xml:lang="grc">Ἀνδραίμονος γένεθλον * * Λυρνησίου,</l>
+              <l n="2" xml:id="frag_4b2abb2f9a-l2" xml:lang="grc">ὅθενπερ Ἕκτωρ ἄλοχον ἤγαγεν φίλην.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="251" xml:id="frag_a048c95a2a" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges">
+            <note type="source">Schol. Homeri Iliad. x, 351.</note>
+            <quote>Ὁ δὲ Αἰσχύλος ἐπ᾽ ἀληθείας ἀνθιστάμενον χρυσὸν πεποίηκε πρὸς τὸ Ἕκτορος σῶμα ἐν Φρυξίν.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="252" xml:id="frag_f38dd2a510" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges" sameAs="urn:cts:greekLit:tlg0085.phryges.nauck1889-grc1:272">
+            <note type="source">Τιτῆναι: βασιλίδες (Αἰσχύλος ἐν Φρυξὶν addit Sopingius) ἢ Ἕκτορος Λύτροις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="253" xml:id="frag_747e686fef" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges">
+            <note type="source">Athenæus I. p. 21 f.</note>
+            <quote>Ἀριστοφάνης ποιεῖ αὐτὸν τὸν Αἰσχύλον λέγοντα “Τοῖσι χοροῖς αὐτὸς τὰ σχήματ᾽ ἐποίουν.” καὶ πάλιν “Τοὺς Φρύγας οἶδα θεωρῶν, | ὅτε τῷ Πριάμῳ συλλυσόμενοι τὸν παῖδ᾽ ἦλθον τεθνεώτα | πολλὰ τοιαυτὶ καὶ τοιαυτὶ καὶ δεῦρο σχηματίσαντες.”</quote>
+            <note>De his dixi ad Aristophanis fragmenta p. 514.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="254" xml:id="frag_eb1198ab6a" corresp="urn:cite2:perseus:fragmentaryplays.v1:phryges">
+            <note type="source">Schol. Homeri Iliad. β, 862.</note>
+            <quote>Οἱ νεώτεροι τὴν Τροίαν καὶ τὴν Φρυγίαν τὴν αὐτὴν λέγουσιν, ὁ δὲ Ὅμηρος οὐχ οὕτως. Αἰσχύλος δὲ συνέχεεν.</quote>
+            <note type="source">Eadem Eustathius p. 364, 42.</note>
+          </div>
+        </div></body></text>
+</TEI>

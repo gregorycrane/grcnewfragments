@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-manteis-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΠΟΛΥΙΔΟΣ Η ΜΑΝΤΕΙΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.manteis; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.manteis.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.manteis.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_manteis"><head>ΠΟΛΥΙΔΟΣ Η ΜΑΝΤΕΙΣ</head><div type="textpart" subtype="fragment" n="462a" xml:id="fragment-manteis-dindorf1893_grc1-462a" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_manteis">
+            <note type="source">Etymologicon MS. apud Valckenar. Diatr. Eurip. p. 200.</note>
+            <quote>Πολύϊδος: οὕτω καὶ Ἀπολλώνιος ὁ τοῦ Ἀρχιβίου. καὶ ἔστι, φησὶ, πολυΐδμων μάντις ὤν. οὕτω καὶ τὸ δρᾶμα ἐπιγράφεται παρὰ Ἀριστοφάνει. μαρτυρεῖ δὲ Φιλόξενος. καὶ Σοφοκλῆς δὲ Μάντεσι συνέστειλεν</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁρῶ πρὸ χειρῶν Πολυΐδου τοῦ μάντεως.</l>
+            </lg>
+            <quote>καὶ πάλιν</quote>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Οὐκ ἔστιν εἰ μὴ Πολυΐδῳ τῷ Κοιράνου.</l>
+            </lg>
+            <note type="commentary">Valde corrupta hæc in Etymolog. Gud. p. 474. In Etymolog. Μ. p. 681, 24. παρὰ Σοφοκλεῖ "Ὁρῶ πρὸ χειρῶν Πολύϊδος τοῦ μάντεως." καὶ πάλιν "Οὐκ ἔστιν εἰ μὴ Πολυείδῳ."</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="462b" xml:id="fragment-manteis-dindorf1893_grc1-462b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_manteis" sameAs="urn:cts:greekLit:tlg0011.manteis.nauck1889grc1:362">
+            <note type="source">Euripidis schol. ad Phœnissas 1256.</note>
+            <quote>Τῆς κύστεως τὸ στόμα ἐρίῳ δεσμοῦντες ἐπετίθεσαν τῷ πυρὶ, καὶ παρετήρουν πῶς ῥαγήσεται καὶ ποῦ τὸ οὖρον ἀκοντίσει. Σοφοκλῆς ἐν Μάντεσι</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὰς μαλλοδετεῖς κύστεις.</l>
+            </lg>
+            <note type="commentary">μαλλοδέτους Valckenarius. Recte.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="463" xml:id="fragment-manteis-dindorf1893_grc1-463" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_manteis" sameAs="urn:cts:greekLit:tlg0011.manteis.nauck1889grc1:365">
+            <note type="source">Stobæus XXIX, 25. Σ. Μάντεων</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὔτοι ποθ᾽ ἤξει τῶν ἄκρων ἄνευ πόνου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="464" xml:id="fragment-manteis-dindorf1893_grc1-464" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_manteis" sameAs="urn:cts:greekLit:tlg0011.manteis.pearson1917-grc1:398">
+            <note type="source">Porphyrius de Abstinentia II, p. 134, edit. Ultrajectinæ. Clemens Al. Stromat. IV, p. 565.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἦν μὲν γὰρ οἰὸς μαλλὸς, ἦν δὲ κἀμπέλου</l>
+              <l n="2" xml:lang="grc">σπονδή τε, καὶ ῥὰξ εὖ τεθησαυρισμένη</l>
+              <l n="3" xml:lang="grc">ἐνῆν δὲ συμμιγὴς ὀλαῖς παγκαρπία,</l>
+              <l n="4" xml:lang="grc">λιπός τ᾽ ἐλαίας, καὶ τὸ ποικιλώτατον</l>
+              <l n="5" xml:lang="grc">ξουθῆς μελίσσης κηρόπλαστον ὄργανον.</l>
+            </lg>
+            <note type="commentary">V. 5. citat schol. Euripidis ad Phœnissas 115. Ἡδὺ ξανῆσαι καὶ προγυμνάσαι χέρα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="465" xml:id="fragment-manteis-dindorf1893_grc1-465" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_manteis" sameAs="urn:cts:greekLit:tlg0011.manteis.nauck1889grc1:364">
+            <note type="source">Schol. Aristoph. ad Ranas 596. exscriptus ab Suida in γλάμων, Σοφοκλῆς ἐν Μάντεσιν ἐπί τινων ὀρνέων</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τοὺς γλαμυροὺς κατὰ φορβάν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="466" xml:id="fragment-manteis-dindorf1893_grc1-466" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_manteis" sameAs="urn:cts:greekLit:tlg0011.manteis.nauck1889grc1:368">
+            <note type="source">Hesychius, Ἀνταίας: πολεμίας, ἐχθρᾶς. Σ. Πολυείδῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="467" xml:id="fragment-manteis-dindorf1893_grc1-467" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_manteis" sameAs="urn:cts:greekLit:tlg0011.manteis.nauck1889grc1:367">
+            <note type="source">Hesychius, Ἀραῖον: κατάρατον, ὡς τὸ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁ πρόσθεν ἐλθὼν ἦν ἀραῖός μοι νέκυς.</l>
+            </lg>
+            <quote>οἷον ἀρὰν προσετρίβετο. καὶ κατ᾽ εὐχῆς. Σ. Πολυείδῳ.</quote>
+          </div>
+        </div></body></text></TEI>

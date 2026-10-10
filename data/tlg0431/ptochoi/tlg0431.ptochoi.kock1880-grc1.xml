@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CHIONIDES, ΠΤΩΧΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Chionides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0431.ptochoi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0431.ptochoi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0431.ptochoi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0431_ptochoi"><head>ΠΤΩΧΟΙ</head><div type="textpart" subtype="fragment" n="4" xml:id="kock-0431-ptochoi-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0431_ptochoi">
+              <lg>
+                <l n="1" xml:id="kock-0431-ptochoi-4-l1" xml:lang="grc">ταῦτ’ οὐ μὰ Δία Γνήσιππος οὐδὲ Κλεομένης</l>
+                <l n="2" xml:id="kock-0431-ptochoi-4-l2" xml:lang="grc">ἐν ἐννέ’ ἂν χορδαῖς κατεγλυκήνατο.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 638 d ὁ δὲ τοὺς εἰς Χιωνίδην ἀναφερομένους ποιήσας Πτωχοὺς Γνησίππου τινὸς μνημονεύει παιγνιαγράφου τῆς ἱλαρᾶς μούσης.</note>
+              <note type="apparatus">1. οὐδὲ Meinek.] οὐδ’ ὁ. 2. ἐννέ’ ἂν Porsonus] ἐννέα. χορδαῖς Porson.] χορδαῖσι L. om. PV. Meinekius ἐννέα χορδαῖσιν, quamquam Porsonum sequitur. κατεγλυκήνατο Porson.] κατεγλυκάνατο. de Gnesippo cf. Cratin. 16. cum Eupolidis fuerit aequalis, a Philonide potius quam a Chionide eum commemorari consentaneum erat. Cleomenem Rheginum, dithyramborum poetam, Athenaeus commemorat 9, 402 a. cf. Epicrat. 4. nam eundem utrubique significari sententia est Meinekii et Bergkii De rel. com. Attic. 32.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5_6" xml:id="kock-0431-ptochoi-5_6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0431_ptochoi">
+              <lg>
+                <l n="1" xml:id="kock-0431-ptochoi-5_6-l1" xml:lang="grc">ἆρ’ ἂν φάγοιτ’ ἂν καὶ ταρίχους, ὦ θεοί.</l>
+                <l n="2" xml:id="kock-0431-ptochoi-5_6-l2" xml:lang="grc">ἐπὶ τῷ ταρίχει τῷδε τοίνυν κόπτετον.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 119 e Ἀττικοὶ δὲ οὐδετέρως λέγουσι (τὸ τάριχος), καὶ γίνεται ἡ γενικὴ τοῦ ταρίχους. Χιωνίδης Πτωχοῖς . . . ἡ δὲ δοτικὴ ταρίχει, ὡς ξίφει. fragm. 5 etiam Nicephor. Gregor. sect. 39. Grammat. Herm. 324 in Matthaei Glossogr. min. I. Cramer. Anecd. Par. IIII 250, 6 (omisso καί).</note>
+              <note type="apparatus">ὦ θεοί exclamatio est: per deos inmortales. fragmentum 6 Menandro potius, cuius versus ex Ἐπιτρέπουσιν excerptus apud Athenaeum Chionidis verba excipit, Bergkius tribuit (Meinek. II 1193) probante Meinekio V 14, Aristophani Fritzschius Daetal. 109. κόπτετον i. e. malis absumite Verg. Aen. 3, 257. Fritzschius tamen Plinium secutus N. h. 9, 68 (qui piscis nusquam percoqui possit, nisi ferula verberatus) pisces propter duritiem plagis contundi solitos commemorari arbitratur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0431-ptochoi-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0431_ptochoi">
+              <note type="source">Athenaeus 4, 137 e ὁ δὲ τοὺς εἰς Χιωνίδην ἀναφερομένους Πτωχοὺς ποιήσας τοὺς Ἀθηναίους φησίν, ὅταν Διοσκούροις ἐν Πρυτανείῳ ἄριστον προτιθῶνται, ἐπὶ τῶν τραπεζῶν τιθέναι τυρὸν καὶ φυστὴν δρυπεπεῖς τ’ ἐλάας καὶ πράσα, ὑπόμνησιν ποιουμένους τῆς ἀρχαίας ἀγωγῆς.</note>
+              <note type="apparatus">Meinekius suspicatur poetam scripsisse ἐπὶ τῶν τραπεζῶν δὲ τιθέασι τυρίον | φύστην τε καὶ δρυπεπεῖς ἐλάας καὶ</note>
+            </div>
+          </div></body></text></TEI>

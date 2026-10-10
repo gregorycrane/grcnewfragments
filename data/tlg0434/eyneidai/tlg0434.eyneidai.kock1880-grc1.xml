@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΕΥΝΕΙΔΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.eyneidai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.eyneidai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.eyneidai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_eyneidai"><head>ΕΥΝΕΙΔΑΙ</head><div type="textpart" subtype="fragment" n="65" xml:id="kock-0434-eyneidai-65" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_eyneidai">
+              <lg>
+                <l n="1" xml:id="kock-0434-eyneidai-65-l1" xml:lang="grc">ἥβης ἐκείνης, νοῦ δὲ τοῦδε καὶ φρενῶν.</l>
+              </lg>
+              <note type="source">
+                <p>Stobaeus Floril. 52, 11 Κρατῖνος ἐν Εὐνίδαις· ἥβης ἐκείνης, νοῦ δὲ τοῦδε καὶ φρενῶν [κατάλληλος]. Iulianus Misop. 339 d ὅπερ ὑμεῖς ὁρῶντες ὀλίγῳ πρότερον ἀναμιμνήσκεσθε νῦν ἥβης ἐκείνης νοῦ τε ἐκείνου καὶ φρενῶν. Synesius Epist. 130 p. 265 b (717 Hercher) στένομεν μεμνημένοι ἥβης τε ἐκείνης νοῦ τ’ ἐκείνου καὶ φρενῶν.</p>
+              </note>
+              <note type="apparatus">
+                <p>cum Iulianus et Synesius consentiant in verbo (ἀναμιμνήσκεσθαι), Cratinum scripsisse existimo quod legitur apud Synesium</p>
+                <lg>
+                  <l n="1_2" xml:id="kock-0434-eyneidai-65-l1_2" xml:lang="grc">στένομεν μεμνημένοι</l>
+                  <l n="2" xml:id="kock-0434-eyneidai-65-l2" xml:lang="grc">ἥβης ἐκείνης, νοῦ δὲ τοῦδε καὶ φρενῶν.</l>
+                </lg>
+                <p>dolent senes quicumque loquuntur quod adulescentiae robur non possit coniungi cum sapientia senectutis (τοῦδε). κατάλληλος eiectum a Grotio. fortasse accedebat versus alter: ὅτι οὐ φιλοῦσί πως μετ’ ἀλλήλων μένειν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="66" xml:id="kock-0434-eyneidai-66" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_eyneidai">
+              <lg>
+                <l n="1" xml:id="kock-0434-eyneidai-66-l1" xml:lang="grc">ἐπίσχες αὐτοῦ, μὴ πέρα προβῇς λόγου.</l>
+              </lg>
+              <note type="source">
+                <p>Io. Alexandrinus De acc. 29, 25 ἔστι τινὰ (adverbia) καὶ παρὰ αἰτιατικῆς γεγονότα, οἷον τὸ πέραν καὶ πέρην . . . καὶ ἀπὸ δοτικῆς· ἐπίσχες αὐτοῦ, μὴ πέρα προβῇς λόγου. Κρατῖνος Εὐμένισιν. Meinek. Εὐνείδαις.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="67" xml:id="kock-0434-eyneidai-67" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_eyneidai">
+              <note type="source">
+                <p>Suidas ἀμφιανακτίζειν· ᾄδειν τὸν Τερπάνδρου νόμον, τὸν καλούμενον ὄρθιον, οὗ τὸ προοίμιον ταύτην τὴν ἀρχὴν εἶχεν</p>
+              </note>
+              <lg>
+                <l n="1" xml:id="kock-0434-eyneidai-67-l1" xml:lang="grc">ἀμφί μοι αὐτὸν ἄναχθ’ ἑκατηβόλον ἀδέτω ὁ φρήν.</l>
+              </lg>
+              <note type="apparatus">
+                <p>ἔστι δὲ καὶ ἐν Εὐναίᾳ καὶ ἐν Ἀναγύρῳ (Aristophanis). pro Εὐναίᾳ Dindorfius Fr. Arist. 95 et Bergkius (R. c. Att. 71) Εὐνείδαις. ceterum cf. Arist. Nub. 595 cum interpr.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="68" xml:id="kock-0434-eyneidai-68" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_eyneidai">
+              <note type="source">
+                <p>Porphyr. Euseb. Praep. ev. 10, 3 τὸ γὰρ ‘τὸν δ’ ἀπαμειβόμενος προσέφη κρείων Διομήδης’ σιγῶ, Ὁμήρου κωμῳδηθέντος ὑπὸ Κνατίνου διὰ τὸ πλεονάσαι ἐν τῷ ‘τὸν δ’ ἀπαμειβόμενος’. ad Eunidas rettulit Meinekius propter Athen. 15, 698 d κέχρηται δὲ (παρῳδίαις) καὶ Κρατῖνος . . . ἐν Εὐνείδαις. suspicor etiam apud Porphyrium pro κωμῳδηθέντος scribendum esse παρωδηθέντος.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

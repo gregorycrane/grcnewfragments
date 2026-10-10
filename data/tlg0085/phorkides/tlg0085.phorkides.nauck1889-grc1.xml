@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΦΟΡΚΙΔΕΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.phorkides; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.phorkides.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.phorkides.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:phorkides"><head xml:lang="grc">ΦΟΡΚΙΔΕΣ</head>
+          <note type="introduction" xml:lang="mul">Aristoteles Poet. 18 p. 1456 a 2 : τὸ δὲ τερατῶδες (sic pro τέταρτον ὁησ scripsit Schrader) , οἷον αἵ τε Φορκίδες καὶ (καὶ οἱ Προμηθεῖς Bergk Philol. 30 p. 679) καὶ ὅσα ἐν Ἅιδου. Phorcides fuisse satyricam fabulam docet titulus Corp. Inscr Att. II 973, 31. de mytho cf Schol. Apoll. Rhod. 4, 1515 .</note>
+          <div type="textpart" subtype="fragment" n="261" corresp="urn:cite2:perseus:fragmentaryplays.v1:phorkides" xml:id="aesch-fr261">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-261-1">ἔδυ δ’ ἐς ἄντρον ἀσχέδωρος ὥς</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. IX p. 402 B : οἱ περὶ τὴν Σικελίαν κατοικοῦντες ἀσχέδωρον καλοῦσι τὸν σύαγρον. Αἰσχύλος γοῦν ἐν Φορκίσι παρεικάζων τὸν Περσέα τῷ ἀγρίῳ τούτῳ συὶ φησίν ’ἔδυ — ὥς’ . similiter Eust. Od. p. 1872, 5 , qui fabulae nomen om. , cf. Anecd. Bekk. p. 457, 21 : ἀσχέσωρος παρ’ Αἰσχύλῳ . Hesych. 1 p. 310 : ἀσχέδωρος· ὁ σύαγρος παρὰ Ἰταλοῖς (l. παρ’ Αἰσχύλῳ) .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="262" corresp="urn:cite2:perseus:fragmentaryplays.v1:phorkides" xml:id="aesch-fr262">
+            <note type="sourceContext" xml:lang="mul">Eratosth. Catast. c. 22 : Περσεύς. — δοκεῖ δὲ καὶ ἅρπην παρ’ Ἡφαίστου λαβεῖν ἐξ ἀδάμαντος, ὡς Αἰσχύλος φησὶν ὁ τῶν τραγῳδιῶν ποιητὴς ἐν Φορκίσιν. ἃς (Γραίας coni. Gale, τρεῖς δ’ Wilamowitz-Moellendorff) εἶχον προφύλακας αἱ γοργόνες. Hyginus Poet. astr. 2, 12 p. 445 : sed ut ait Aeschylus tragoediarum scriptor in Phorcisi, graeae fuerunt gorgonum custodes. Schol. Germ. Caes. Arat. p. 82, 15 : Aeschylus harpen adamantinam a Volcano dicit eum (Perseum) accepisse.</note>
+          </div>
+        </div></body></text>
+</TEI>

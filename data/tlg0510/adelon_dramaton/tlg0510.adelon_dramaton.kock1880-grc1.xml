@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>TELECLIDES, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Teleclides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0510.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0510.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0510.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="38" xml:id="kock-0510-adelon_dramaton-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0510-adelon_dramaton-38-l1" xml:lang="grc">ξυγγενέσθαι διὰ χρόνου λιπαρείτω μου</l>
+                <l n="2" xml:id="kock-0510-adelon_dramaton-38-l2" xml:lang="grc">δρυπεπέσι μάζαις καὶ διασκανδικίσαι.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 2, 56 d καὶ χωρὶς δὲ τοῦ φάσκειν ἐλάας αὐτὸ καθ’ ἑαυτὸ ἔλεγον μόνον δρυπεπεῖς. Τηλεκλείδης κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>dubitatur trimetri iambici fuerint an tetrametri trochaici. λιπαρείτω μου V] λιπαρείτό με L. μ’ ἐλιπάρει Porson. Append. Toup. Emend. 491. με λιπαρεῖ | ζωμίοις, δρυπεπέσι, μάζαις Mein. ed. min., καὶ μάζαις (μάζας?) διασκανδικίσαι (sine ζωμίοις) ed. mai. certe δρυπεπέσι non cum μάζαις coniungendum ut Cratin. 165: nam apud Teleclidem olivas significari testis est ipse Athenaeus. cf. Call. 21. ξυγγενέσθαι ut Aristoph. Eq. 806. Eupol. 38. 108. quae sequuntur manifesto corrupta sunt. λιπαρεῖν verbum comicis poetis est inusitatum: exstat Aristoph. Ach. 452 in versu tragici coloris; adiectivum λιπαρής Lys. 672. deinde διασκανδικίζειν tam singulare est et ab Aristophane (Eq. 19) in Euripidis contumeliam fictum, ut id non credam ab ullo alio aut antea inventum aut postea repetitum esse. Teleclidem scripsisse arbitror ξυγγενέσθαι διὰ χρόνου λιπαραῖς ὁμοῦ | δρυπεπέσι μάζαις, κοιλίᾳ (vel κοιλίαις), σκάνδικι καὶ τυρῷ (vel quidquid magis placet): ut δρυπεπέσι coniungatur cum ὁμοῦ, reliqui dativi cum ξυγγενέσθαι. verbum a quo pendebat ξυγγενέσθαι excidit. ὁμοῦ in talibus sententiis frequentissimum. Aristoph. Eccl. 404. fr. 569, 6. 682. Eubul. Ath. 2, 65 c (5. 6). ibid. 66 d. de κοιλίαις denique cf. Eq. 160. 2. 302. 356. 488. Plut. 1169. particulae καί in fine versus positae exempla enumerantur in H. Iacobi indice p. 496. 7. describitur cena priscorum Atheniensium consuetudine simplicissima. tandem aliquando rursus epulari cupio cum olivis pinguibus panem, omasum, scandicem, caseum.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="39_40" xml:id="kock-0510-adelon_dramaton-39_40" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0510-adelon_dramaton-39_40-l1" xml:lang="grc">Φρύγες ἐστὶ καινὸν δρᾶμα τοῦτ’ Εὐριπίδου,</l>
+                <l n="2" xml:id="kock-0510-adelon_dramaton-39_40-l2" xml:lang="grc">* * * * * ᾧ καὶ Σωκράτης</l>
+                <l n="3" xml:id="kock-0510-adelon_dramaton-39_40-l3" xml:lang="grc">τὰ φρύγαν’ ὑποτίθησι.</l>
+              </lg>
+              <note type="source">
+                <p>Diog. Laert. 2, 18 ἐδόκει δὲ (Σωκράτης) συμποιεῖν Εὐριπίδῃ. ὅθεν Μνησίλοχος (Μνησίμαχος Menagius) οὕτω φησί· Φρύγες ἐστὶ καινὸν δρᾶμα τοῦτ’ Εὐριπίδου, ᾧ καὶ Σωκράτης τὰ φρύγαν’ ὑποτίθησιν. καὶ πάλιν· ‘Εὐριπίδας σωκρατογόμφους’ . . . Ἀριστοφάνης Νεφέλαις·</p>
+                <lg>
+                  <l n="1_2" xml:id="kock-0510-adelon_dramaton-39_40-l1_2" xml:lang="grc">Εὐριπίδῃ δ’ ὁ τὰς τραγῳδίας ποιῶν</l>
+                  <l n="2_2" xml:id="kock-0510-adelon_dramaton-39_40-l2_2" xml:lang="grc">τὰς περιλαλούσας οὗτός ἐστι, τὰς σοφάς.</l>
+                </lg>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="41" xml:id="kock-0510-adelon_dramaton-41" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0510-adelon_dramaton-41-l1" xml:lang="grc">Χαρικλέης μὲν οὖν ἔδωκε μνᾶν, ἵν’ αὐτὸν μὴ λέγῃ</l>
+                <l n="2" xml:id="kock-0510-adelon_dramaton-41-l2" xml:lang="grc">ὡς ἔφυ τῇ μητρὶ παίδων πρῶτος ἐκ βαλλαντίου.</l>
+                <l n="3" xml:id="kock-0510-adelon_dramaton-41-l3" xml:lang="grc">τέτταρας δὲ μνᾶς ἔδωκε Νικίας Νικηράτου·</l>
+                <l n="4" xml:id="kock-0510-adelon_dramaton-41-l4" xml:lang="grc">ὧν δ’ ἕκατι τοῦτ’ ἔδωκε, καίπερ εὖ εἰδὼς ἐγὼ</l>
+                <l n="5" xml:id="kock-0510-adelon_dramaton-41-l5" xml:lang="grc">οὐκ ἐρῶ· φίλος γὰρ ἁνήρ, σωφρονεῖν δέ μοι δοκεῖ.</l>
+              </lg>
+              <note type="source">
+                <p>Plutarchus Nic. 4 ἐδίδου γὰρ (Νικίας) οὐχ ἧττον τοῖς κακῶς ποιεῖν δυναμένοις ἢ τοῖς εὖ πάσχειν ἀξίοις. . . Τηλεκλείδης μὲν γὰρ εἴς τινα τῶν συκοφαντῶν ταυτὶ πεποίηκε· Χαρικλέης κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>Χαρικλέης Reisig. Coniect. 63] Χαρικλῆς. cf. quae adnotavi ad Aristoph. Eq.² 283. οὖν χ] οὐκ. 2. βαλλαντίου Α] βαλαντίου. 4. ἔδωκε] ἔδρασε Cobetus N. 1. 151. ac videtur ἔδωκε ex versibus superioribus perperam repetitum esse. ἐγὼ om. C.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="42" xml:id="kock-0510-adelon_dramaton-42" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0510-adelon_dramaton-42-l1" xml:lang="grc">πόλεών τε φόρους αὐτὰς τε πόλεις τὰς μὲν δεῖν τὰς τ’ ἀναλύειν,</l>
+                <l n="2" xml:id="kock-0510-adelon_dramaton-42-l2" xml:lang="grc">λάινα τείχη τὰ μὲν οἰκοδομεῖν τὰ δὲ αὐτὰ πάλιν καταβάλλειν,</l>
+                <l n="3" xml:id="kock-0510-adelon_dramaton-42-l3" xml:lang="grc">σπονδάς, δύναμιν, κράτος, εἰρήνην, πλοῦτόν τ’ εὐδαιμονίαν τε.</l>
+              </lg>
+              <note type="source">Plutarchus Pericl. 16</note>
+              <note type="apparatus">
+                <p>κακοήθως (Περικλέους τὴν δύναμιν) παρεμφαίνουσιν οἱ κωμικοί, Πεισιστρατίδας μὲν νέους τοὺς περὶ αὐτὸν ἑταίρους καλοῦντες, αὐτὸν δ’ ἀπομόσαι μὴ τυραννήσειν κελεύοντες, ὡς ἀσυμμέτρου πρὸς δημοκρατίαν καὶ βαρυτέρας περὶ αὐτὸν οὔσης ὑπεροχῆς. ὁ δὲ Τηλεκλείδης παραδεδωκέναι φησὶν αὐτῷ τοὺς Ἀθηναίους πόλεών τε φόρους κτλ. fortasse etiam (τῷ δὲ) Ἀθηναῖοι παρέδωκαν Teleclidis verba sunt. πόλεις AC] τὰς πόλεις. τὰ δὲ αὐτὰ] τὰ δὲ ταὐτὰ Erfurdt., εἶτ’ αὐτὰ Sintenis, τότε δ’ αὐτὰ Hermannus, τάχα δ’ αὐτὰ Meinekius (ed. min.), καὶ ταὐτὰ conl. Iphig. A. 37 Cobetus N. 1. 604. nihil horum verum est. Stob. Flor. 105, 61 (Mein. V 31) Αἴσωπος ἐρωτηθεὶς ὑπό τινος τῶν ἐν ἐξουσίᾳ ὄντων τί οἱ θεοὶ πράττουσιν, τὰ μὲν οἰκοδομεῖν ἔφη, τὰ δὲ πάλιν καταβάλλειν. recte τὰ μὲν . . τὰ δέ, quae etiam apud Teleclidem omnino retinenda sunt. nam permiserant Athenienses Pericli, ut moenia alia exstrueret alia everteret, non eadem quae modo exstruxerat, quod hominis est insanientis, non potentis. scribendum igitur est τὰ δὲ τἄμπαλιν αὖ καταβ., quod αὖ ante τἄμπαλιν posito corruptum est. τὰ ἔμπαλιν notum ex Herodoto. cf. Cratet 15, 1. — scripta haec Meinekius (I 86) esse censet eo tempore, quo expulso Thucydide, Melesiae f., Periclis summa erat potestas (post Ol. 83, 4); Bergkius (R. c. Att. 331) Ol. 87, 2 subacta Aegina (Thuc. 2, 27. Plut. Per. 34. Diod. 12, 44), circa initium belli Peloponnesiaci Wilamowitzius Obs. crit. 26.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="43" xml:id="kock-0510-adelon_dramaton-43" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0510-adelon_dramaton-43-l1" xml:lang="grc">ὅδ’ ἀπ’ Αἰγίνης νήσου χωρεῖ δοθιῆνος ἔχων τὸ πρόσωπον.</l>
+              </lg>
+              <note type="source">Herodianus II 923, 15 Lentz.</note>
+              <note type="apparatus">
+                <p>Τηλεκλείδης κτλ. Αἰγίνης νήσου L. Dindorf.] αἰγιύνης οὐ. miror Herwerdeni (Mnem. nov. VI 58) Αἰγίνης οἴκαδε. de Pericle haec dicta esse intellexit Bergkius R. c. Att. 331. cf. Aristoph. Vesp. 1172. Hermipp. 30.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="44" xml:id="kock-0510-adelon_dramaton-44" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0510-adelon_dramaton-44-l1" xml:lang="grc">μόνος ἐκ κεφαλῆς ἑνδεκακλίνου θόρυβον πολὺν ἐξανατέλλει.</l>
+              </lg>
+              <note type="source">Plutarchus Pericl. 3</note>
+              <note type="apparatus">
+                <p>Τηλεκλείδης δὲ ποτὲ μὲν ὑπὸ τῶν πραγ-</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="48" xml:id="kock-0510-adelon_dramaton-48" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <note type="source">
+                <hi rend="italic">Τηλεκλείδης.</hi> Bekker. Anecd. 371, 32. <hi rend="italic">ἀκροκώλια</hi> Bekker] <hi rend="italic">ἀκροκώλεια. ἀκροκ. δίεφθα</hi> Meinekius] <hi rend="italic">ἀκροκώλια· δίεφθα.</hi> cf. Pherecr. 108, 14.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="49" xml:id="kock-0510-adelon_dramaton-49" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <note type="source">Pollux 3, 70 <hi rend="italic">παιδοφίλης, ὡς Τηλεκλείδης . . . ὁ μέντοι παιδέρως Ζεὺς παρὰ τῷ Τηλεκλείδῃ πέπαικται.</hi> nimirum <hi rend="italic">παιδέρωτα</hi> dixerat pro <hi rend="italic">παιδεραστήν</hi> (H. Stephanus).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="50" xml:id="kock-0510-adelon_dramaton-50" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <note type="source">
+                <hi rend="italic">Τηλεκλείδης . . εἶπεν.</hi> Schol. Aristoph. Ach. 860. Suid. <hi rend="italic">τύλα.</hi> editio Suidae Mediol. <hi rend="italic">ἔκαμον</hi> ante <hi rend="italic">τραχήλου.</hi> sed id natum videtur ex versu Ach. 860 paullo ante commemorato. fortasse ex eodem fonte forma dorica (<hi rend="italic">τύλαν</hi>) fluxit. sed cf. fr. 57. 60.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="51" xml:id="kock-0510-adelon_dramaton-51" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <note type="source">
+                <hi rend="italic">Τηλεκλείδης.</hi> Pollux 3, 127.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="52" xml:id="kock-0510-adelon_dramaton-52" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <note type="source">
+                <hi rend="italic">ἀντὶ τοῦ ἀνηρώτα. Τηλεκλείδης.</hi> Bekker. Anecd. 403, 4. Suidas. Zonaras.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="53" xml:id="kock-0510-adelon_dramaton-53" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <note type="source">
+                <hi rend="italic">ἀντὶ τοῦ παραλογιεῖται. Τηλεκλείδης.</hi> Bekker. Anecd. 415, 26. Suidas.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="54" xml:id="kock-0510-adelon_dramaton-54" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <note type="source">
+                <hi rend="italic">ἐπὶ τοῦ ὕειν ἔν τινι κωμῳδίᾳ ἀρχαίᾳ παρατιθεμένῃ Τελεκλείδῃ τῷ κωμῳδῷ.</hi> Phryn. Epit. 291, ubi vid. Lobeck. cf. quae ad <hi rend="italic">Ἀψευδεῖς</hi> adnotavimus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="55" xml:id="kock-0510-adelon_dramaton-55" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <note type="source">
+                <hi rend="italic">παρὰ Τηλεκλείδῃ ὁ Σάτυρος ἢ ὁ Διόνυσος</hi> Hesych. 'prius falsum'. Meinek.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="56" xml:id="kock-0510-adelon_dramaton-56" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <head>ἐργολήπτας</head>
+              <note type="source">τοὺς ἐργολάβους Τηλεκλείδης ὁ κωμικός. Pollux 7, 182.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="57" xml:id="kock-0510-adelon_dramaton-57" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <head>Εὐτρηΐους</head>
+              <note type="source">τοὺς ἀπὸ Εὐτρήσεως, τῆς πόλεως τῆς Ἀρκαδίας. δωρικῶς δὲ εἶπε Τηλεκλείδης. θέλει γὰρ εἰπεῖν Εὐτρησίους Hesychius.</note>
+              <note type="apparatus">Εὐτρηΐους Ahrens Dial. I 232. II 75] Εὐτρηίους. Εὐτρήσεως L. Dindorf.] εὔτρης. cf. Meinek. V 31. Εὐτρησίους Musurus] εὐστρίστους. itaque δωρίζοντα aliquem fecerat. cf. 50. 60. Eupol. 56. Bursian. Geogr. gr. II 225. 230sq.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="58" xml:id="kock-0510-adelon_dramaton-58" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <head>ἰβύ</head>
+              <note type="source">μέγα. ἀντὶ τοῦ ἀναφθεγξάμενοι μέγα. οὕτως Τηλεκλῆς (corr. Τηλεκλείδης). Photius, qui ἰβὺ μέγα continuat. Hesych. ἰβυκινήσαντες· . . . ἀπὸ γὰρ τοῦ ἰβῦ παρῆκται ἡ λέξις. καὶ ἔστιν Ἰωνικὸν ἐπίρρημα καὶ δηλοῖ τὸ πολὺ καὶ μέγα. idem ἰβύ· τινὲς τὸ βοᾶν· οἱ δὲ τὸ πολύ. ἶβυξ· ὀρνέου εἶδος. cf. Schneidewin. Ibyc. p. 3. Etym. m. 464, 45 ἰβυκηνίσαι. Etym. Gud. 268, 47 ἰβυκινίσαι. Etym. Gud. ἴβυκος· ἔστιν ὄνομα κύριον . . . παρὰ τὸ ἴβυξ, ἴβυκος, ὅπερ ἐστὶν εἶδος ὀρνέου κρακτικοῦ . . . ἔνθεν ἐγένετο τὸ ἰβυκινίσαι, ὅπερ κατὰ φθορὰν λέγεται βουκινίσαι. cf. Herodian. I 44, 13. II 742, 4. 15.</note>
+              <note type="apparatus">confuderunt grammatici verbum antiquum cum recentiore βυκανίζειν, βυκινίζειν, 'latinum bucinare reddentes et βυκάνη pro bucina, quod a buca ductum est.' Lob. Pathol. el. I 72. sicut μῦ, γρῦ, ita ἰβῦ erat imitatio vocis, fortasse avis. ab ἰβῦ derivari poterat ἰβύζειν, ab avis nomine ἰβυκίζειν. itaque apud Hesychium fortasse scribendum ἰβυκίσαντες.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="59" xml:id="kock-0510-adelon_dramaton-59" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <head>καθεδοῦμαι</head>
+              <note type="source">Τελεκλείδης. Zonar. 1170.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="60" xml:id="kock-0510-adelon_dramaton-60" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <head>λυχνοκῶσα</head>
+              <note type="source">λυχνοκαυτοῦσα. οὕτως Τηλεκλείδης. Hesychius λυχνοκῶσαν· λυχνοκαυστοῦσαν.</note>
+              <note type="apparatus">aut dorice loquentem fecit Teleclides (cf. 50. 57), aut scribendum λυχνοκοοῦσα cum Lobeckio Phryn. 523.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="61" xml:id="kock-0510-adelon_dramaton-61" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <head>μανόν</head>
+              <note type="source">ἀραιόν. βραχέως λέγουσι. Τηλεκλείδης ἀντὶ τοῦ ἀκριβὲς ἢ ὀρθὸν ἢ ἀσφαλὲς ἢ πυκνόν. Zonaras 1334.</note>
+              <note type="apparatus">quod priorem syllabam corripi</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="35" xml:id="kock-0510-adelon_dramaton-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0510-adelon_dramaton-35-l1" xml:lang="grc">τίς ἥδε κραυγὴ καὶ δόμων περίστασις;</l>
+              </lg>
+              <note type="source">Phrynichus Epit. 376 et Thomas Mag. 291 οἱ δ’ ἀρχαῖοι περίστασιν λέγουσι τὴν διά τινα τάραχον παρουσίαν πλήθους . . . μάθοις δ’ ἂν Τηλεκλείδου λέγοντος ὧδε· τίς ἥδε κτλ. cf. Theopomp. 41, 3.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="36" xml:id="kock-0510-adelon_dramaton-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0510-adelon_dramaton-36-l1" xml:lang="grc">πάντες δὲ τευτάζουσιν οἱ διάκονοι.</l>
+              </lg>
+              <note type="source">Etymol. m. 755, 46 Photius et Suid. τευτάζειν· Τηλεκλείδης . . ἀντὶ τοῦ πραγματεύονται καὶ σκευωροῦνται. cf. Pherecr. 184.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="37" xml:id="kock-0510-adelon_dramaton-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0510-adelon_dramaton-37-l1" xml:lang="grc">σὺ δὲ φρόνιμος αὐτὸς ὢν</l>
+                <l n="2" xml:id="kock-0510-adelon_dramaton-37-l2" xml:lang="grc">ἀπαρτὶ ταύτης τῆς τέχνης.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 418, 15 ἀπαρτὶ παρ’ Ἡροδότῳ σημαίνει τὸ ἀπηρτισμένως καὶ ἀκριβῶς . . . τάχα δὲ ὁ Τηλεκλείδης ὁμοίως τῷ</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="45" xml:id="kock-0510-adelon_dramaton-45" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0510-adelon_dramaton-45-l1" xml:lang="grc">τῶν δυνατῶν τι κέλευ’· οὐ γὰρ παρὰ Κενταύροισιν.</l>
+              </lg>
+              <note type="apparatus">
+                <p>Photius et Suidas τάδ’ οὐ παρὰ Κενταύροισι. λεγόμενόν τι ἦν. Τηλεκλείδης τισί (Ἡσιόδοις Meinek.)· τῶν δυνατῶν τι — Κενταύροισιν. Apostol. 16, 2 τάδ’ οὐ παρὰ Κενταύροισι· λεγόμενόν τι ἦν. Τηλεκλείδῃ τισὶ τῶν δυναστῶν (sic). sine auctoris nomine Phot. 613, 1 τῶν — Κενταύροισι. idem νοῦς οὐκ ἔνι Κενταύροις· παροιμία ἐπὶ τῶν ἀδυνάτων ταττομένη. Hesych. νοῦς οὐ παρὰ (πάρα) Κενταύροισι. παροιμιῶδες· ἔστι δὲ Πεισάνδρου κομμάτιον, ἐπὶ τῶν ἀδυνάτων ταττόμενον. ‘quae ex Heraclea Pisandri Camirensis derivata existimo’. Meinek. I 162 adn. 91. Porsonus Adv. 266 τί σύ; τῶν δυνατῶν τι κέλευ’. οὐ γὰρ παρὰ Κενταύροισι τάδ’ ἔστιν. melius Cobetus V. 1.2 359 τῶν δυνατῶν τι κέλευε· τάδ’ οὐ παρὰ Κ. (ac sic iam Leutschius p. 656, in ceteris infelicissimus): namque ita et lemma et facile comparantur τάδ’ ἐστὶ Πελοπόννησος, οὐκ Ἰωνία multaque alia id genus. altera proverbii forma νοῦς οὐ π. Κ. ad Teleclidem certe non pertinet.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="46" xml:id="kock-0510-adelon_dramaton-46" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <note type="apparatus">
+                <p>Schol. Aristoph. Av. 17 τὸν μὲν Θαρρελείδου] Σύμμαχος Ἀσωπόδωρον. καὶ γὰρ οὗτος ἐπὶ σμικρότητι ὑπὸ Τηλεκλείδου κεκωμῴδηται, καὶ ὁ κολοιὸς μικρὸς ὢν ἐκ τῶν πτερῶν τὴν σύστασιν ἔχει. in quibus Herwerdenus Obs. crit. 19 haec Teleclidis verba latere suspicatur καὶ κολοιὸς μικρὸς ὢν | ἐκ τῶν πτερῶν (μόνων) ἔχει τὴν σύστασιν. mihi nec versus nec sententia decere Teleclidem videtur.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="47" xml:id="kock-0510-adelon_dramaton-47" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0510-adelon_dramaton-47-l1" xml:lang="grc">καρηβαρικὸν τὸ πάθος</l>
+              </lg>
+              <note type="apparatus">
+                <p>Τηλεκλείδης. Pollux 2, 41. namque etiam τὸ πάθος Teleclidis esse existimo. ad fr. 44 refert Bergkius R. c. Att. 330 coniectura incerta.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="62" xml:id="kock-0510-adelon_dramaton-62" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <p>
+                <foreign xml:lang="grc">μέμφειραν</foreign>
+              </p>
+              <note type="source">
+                <p>
+                  <foreign xml:lang="grc">τὴν μέμψιν. Τηλεκλείδης. Photius. 'fort. μέμπτειραν τὴν μεμφομένην'. Meinek.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="63" xml:id="kock-0510-adelon_dramaton-63" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <p>
+                <foreign xml:lang="grc">μόμφιν</foreign>
+              </p>
+              <note type="source">
+                <p>
+                  <foreign xml:lang="grc">ἀντὶ τοῦ μέμψιν. Τηλεκλείδης. Bekker. Anecd. 107, 18. proxime praemissa est glossa μομφή· ἀντὶ τοῦ μέμψις. 'lege (μόμφον vel) μομφήν'. Meinek.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="64" xml:id="kock-0510-adelon_dramaton-64" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <p>
+                <foreign xml:lang="grc">σαβαρίχιν</foreign>
+              </p>
+              <note type="source">
+                <p>
+                  <foreign xml:lang="grc">τὸ γυναικεῖον αἰδοῖον. Τηλεκλείδης. Photius. Meinekius σαβαρίχην, conferens Photii σάραβον et σαβαρίχη. Theognost. ap. Cramer. Anecd. II 118 σαμαρίχη. cf. Herodian. I 346, 30 Lentz et Lobeck. Pathol. prol. 338.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="65" xml:id="kock-0510-adelon_dramaton-65" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <p>
+                <foreign xml:lang="grc">σάθων</foreign>
+              </p>
+              <note type="source">
+                <p>
+                  <foreign xml:lang="grc">ὑποκόρισμα παιδίων ἀρρένων. οὕτως Τηλεκλείδης. Photius. sine dubio a σάθη. Aristoph. Lys. 1119. cf. πόσθων Aristoph. Pac. 1300. Menandr. ap. Bachmann. Anecd. I 357. Bekker. Anecd. 394, 5 ἀνδροσάνθων (scr. ἀνδροσάθων)· μεγάλα ἔχων αἰδοῖα. ibid. 27 ἀνδροσάθης· ἀνδρὸς αἰδοῖα ἔχων.</foreign>
+                </p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="66" xml:id="kock-0510-adelon_dramaton-66" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_adelon_dramaton">
+              <p>
+                <foreign xml:lang="grc">τερπότραμις</foreign>
+              </p>
+              <note type="source">
+                <p>
+                  <foreign xml:lang="grc">ἡ τῶν ἀφροδισίων τέρψις. οὕτως Τηλεκλείδης. Photius. 'rectius interpreteris ὁ τοῖς ἀφροδισίοις τερπόμενος'. Meinek. fictum videtur ad similitudinem Homerici τερπικέραυνος et fortasse ad Iovem ipsum referendum. cf. fr. 49.</foreign>
+                </p>
+              </note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>STRATTIS, ΜΥΡΜΙΔΟΝΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Strattis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0508.myrmidones.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0508.myrmidones.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0508.myrmidones.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_myrmidones"><head>ΜΥΡΜΙΔΟΝΕΣ</head><div type="textpart" subtype="fragment" n="36" xml:id="kock-0508-myrmidones-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_myrmidones">
+              <head>36</head>
+              <lg>
+                <l n="1" xml:id="kock-0508-myrmidones-36-l1" xml:lang="grc">ἐν τοῖς βαλανείοις προκέλευθος ἡμέρα</l>
+                <l n="2" xml:id="kock-0508-myrmidones-36-l2" xml:lang="grc">ἁπαξάπασα γῆς στρατιαὶ σιδαρέων.</l>
+              </lg>
+              <note type="source">Pollux 9, 78 Βυζαντίων σιδήρῳ νομιζόντων ἦν οὕτω καλούμενος σιδάρεος νόμισμά τι λεπτόν, ὥστε ἀντὶ τοῦ ‘πρίω μοι τριῶν χαλκῶν’ λέγειν ‘πρίω μοι τριῶν σιδαρέων.’ ὅθεν καὶ ἐν τοῖς Στράττιδος Μυρμιδόσιν εἴρηται κτλ.</note>
+              <note type="apparatus">Hemsterhusii horum versuum interpretatio tanto viro indigna est. neque quae Herwerdenus Stud. crit. 80. 1 disputavit probari possunt, nisi quod προκατελοῦθ’ ἡμέρα scribens exiguam veri partem divinando adsecutus est. Pollux cum τριῶν σιδαρέων Byzantios, τριῶν χαλκῶν Athenienses dixisse Strattidis exemplo demonstrare velit, scribendum est mutatione paene nulla ἐν τοῖς βαλανείοις προῖκ’ ἐλοῦθ’ ὁσημέραι | ἁπαξάπασ’ ἂν ἡ στρατιά, σιδαρέων | (τριῶν τ’ ἐδείπνουν). ad ἐλοῦτο enim τριῶν σιδαρέων pertinere non potest, quia in balneis publicis uno fere chalco lavabantur. Athen. 8, 351f. 352a. Becker. Charikl. III 74. de particula ἄν adiectivo ἁπαξάπασα addita cf. Aristoph. Nub. 855. Ran. 1022. adparet aliquem narrare, quam vili pretio exercitus (Atheniensium sine dubio) omnia ad victum necessaria Byzantii sibi comparaverit. significatur autem illud opinor tempus (409 a. Chr.), quo Alcibiades ab exercitu Samio receptus magnas illas ex Lacedaemoniis victorias reportavit et Byzantio Selymbriaque potitus est. Xen. Hell. 1, 4, 14—22. Diodor. 13, 67. Plut. Alcib. 30. 1. idem Plutarchus c. 29 narrat post victoriam potissimum Cyzicenam Alcibiadis milites tam elatos fuisse animis, ut a reliquo exercitu se retinerent saepe victo ipsi numquam victi et ad commilitones neque in castris neque in gymnasiis facile accederent. unde titulum comoediae melius quam adhuc factum est explicari posse existimo. scilicet Alcibiadis milites ioco castrensi Μυρμιδόνες videntur adpellati esse, quo cognomine Strattis usus est choro ex militibus illis composito.</note>
+            </div>
+          </div></body></text></TEI>

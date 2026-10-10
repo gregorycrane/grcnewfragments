@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUPOLIS, ΧΡΥΣΟΥΝ ΓΕΝΟΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Eupolis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0461.chrysoyn_genos.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0461.chrysoyn_genos.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0461.chrysoyn_genos.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos"><head>ΧΡΥΣΟΥΝ ΓΕΝΟΣ</head><div type="textpart" subtype="fragment" n="277" xml:id="kock-0461-chrysoyn_genos-277" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-277-l1" xml:lang="grc">λοιπὸς γὰρ οὐδείς· ἡ τροφαλὶς ἐκεινηὶ</l>
+                <l n="2" xml:id="kock-0461-chrysoyn_genos-277-l2" xml:lang="grc">ἐφ’ ὕδωρ βαδίζει σκῖρον ἠμφιεσμένη.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Vesp. 925 σκῖρον τὸ ῥυπῶδες τὸ ἐπὶ τῶν τυρῶν, ὡς Εὔπολις Χρυσῷ γένει κτλ. Photius τροφαλίς· τυρός. οὕτως Εὔπολις. Etymol. m. 718, 4 σκίρον ... Εὔπολις ἐπὶ τοῦ ἐν τῷ τυρῷ ῥύπου.</p>
+              </note>
+              <note type="apparatus">
+                <p>ἡ τρ. ἐκεινηί Meinek.] τρ. ἐκείνη. σκῖρον V] σκίρρον. Dindorfius ad οὐδείς supplens τυρός, πλὴν τρ. ἐκεινηί. Fritzschius Q. Arist. 146 adn. λοιπὸς γὰρ οὐδείς; τροφαλίς, ἔξει· νὴ Δία κτλ. quae quamquam Vesp. 838sq. inlustrari dicit quovis oraculo obscuriora sunt. caseus recens ipse ad aquam ut abluatur accedere dicitur.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="278" xml:id="kock-0461-chrysoyn_genos-278" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-278-l1" xml:lang="grc">ἔπειθ’ ὁ κουρεὺς τὰς μαχαιρίδας λαβὼν</l>
+                <l n="2" xml:id="kock-0461-chrysoyn_genos-278-l2" xml:lang="grc">ὑπὸ τῆς ὑπήνης κατακερεῖ τὴν εἰσφοράν.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 140 τὰ δὲ κουρέως σκεύη κτένες, κουρίδες μάχαιραι, μαχαιρίδες· ... ἐν δὲ Χρυσῷ γένει Εὐπόλιδος· ἔπειθ’ κτλ. Photius μαχαιρίδες· αἱ κουρικαὶ μάχαιραι. οὕτως Εὔπολις.</p>
+              </note>
+              <note type="apparatus">
+                <p>‘hoc dicere videtur: virum civilem, qui tonsoriam artem factitabat, publicos civitatis reditus detonsurum, i. e. in suos usus conversurum; tonsorem dicit fortasse Dionysium (Cratin. 208)’. Meinek. Cleonem significari putat Muellerus Strubingensis 165: at ubi Cleon tonsor dicatur, quamquam id in Equitibus 908 fieri Muellerus adfirmat, ego quidem nescio, neque ita dici potuisse manifestum est. τὴν εἰσφοράν infert παρ’ ὑπόνοιαν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="279" xml:id="kock-0461-chrysoyn_genos-279" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-279-l1" xml:lang="grc">ὁρῶ. Β. θεῶ νῦν τήνδε Μαριανδυνίαν.</l>
+              </lg>
+              <note type="source">
+                <p>Stephanus Byz. Μαριανδυνία· χώρα. Εὔπολις Χρυσῷ γένει κτλ. Herodian. I 297, 20 Lentz.</p>
+              </note>
+              <note type="apparatus">
+                <p>Β. θεῶ — τήνδε Fritzschius Q. Arist. 146 adn.] θέω — τὴν. Aristoph. Eq. 163—175 idem attulit Fritzschius.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="280" xml:id="kock-0461-chrysoyn_genos-280" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-280-l1" xml:lang="grc">ὧλκαῖε Σικελιῶτα Πελοποννήσιε</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Thesm. 162 Ἀλκαίου τοῦ κιθαρωδοῦ, οὗ καὶ Εὔπολις ἐν Χρυσῷ γένει μέμνηται κτλ. Alcaeum citharoedum dicit,</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="299" xml:id="kock-0461-chrysoyn_genos-299" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <head>299</head>
+              <p>ἀχυρός</p>
+              <note type="source">Schol. Aristoph. Vesp. 1310 παρὰ τὴν παροιμίαν ‘ὄνος εἰς ἀχυρῶνα ἀπέδρα’. ὁ δὲ ἀχυρὸς παρ’ Εὐπόλιδι ἐν Χρυσῷ γένει, ὅπου καὶ τὸ Πλάτωνος παράκειται ἐξ Ἀδώνιδος. ἄχυρος V Ald. ἀχυρμός Meinekius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="300" xml:id="kock-0461-chrysoyn_genos-300" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <head>300</head>
+              <p>νεοκάτοικος</p>
+              <note type="source">κατ’ Εὔπολιν λέγοντα ἐν Χρυσῷ γένει. Pollux 9, 26.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="301" xml:id="kock-0461-chrysoyn_genos-301" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <head>301</head>
+              <p>πισοῦ</p>
+              <note type="source">τοῦ ὀσπρίου μνημονεύει καὶ Εὔπολις ἐν Χρυσῷ γένει. Athenaeus 9, 406 c.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="302" xml:id="kock-0461-chrysoyn_genos-302" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <head>302</head>
+              <p>σιπύα</p>
+              <note type="source">Harpocratio σιτηρὸν ἀγγεῖόν ἐστιν ἡ σιπύα, ἔστι δὲ πολλάκις παρὰ τοῖς ἀρχαίοις κωμικοῖς. Εὔπολις Χρυσῷ γένει. Photius σιπύα· σιτηρὸν ἀγγεῖον. Λυσίας τε καὶ Εὔπολις καὶ Ἀριστοφάνης. scribendum σιπύη. cf. Aristoph. Eq. 1296. Plut. 806. fr. 541. Pherecr. 142. Lobeck. Phrynich. 301.</note>
+              <note type="apparatus">Praeterea ad Auream aetatem Meinekius pertinere censet fr. 308. 331 (?).</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="276" xml:id="kock-0461-chrysoyn_genos-276" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-276-l1" xml:lang="grc">δωδέκατος ὁ τυφλός, τρίτος ὁ τὴν κάλην ἔχων,</l>
+                <l n="2" xml:id="kock-0461-chrysoyn_genos-276-l2" xml:lang="grc">ὁ στιγματίας τέταρτός ἐστιν ἐπὶ δέκα,</l>
+                <l n="3" xml:id="kock-0461-chrysoyn_genos-276-l3" xml:lang="grc">πέμπτος δ’ ὁ πυρρός, ἕκτος ὁ διεστραμμένος·</l>
+                <l n="4" xml:id="kock-0461-chrysoyn_genos-276-l4" xml:lang="grc">χοὗτοι μέν εἰσ’ ἑκκαίδεκ’ εἰς Ἀρχέστρατον.</l>
+                <l n="5" xml:id="kock-0461-chrysoyn_genos-276-l5" xml:lang="grc">ἐς τὸν δὲ φαλακρὸν ἑπτακαίδεκ’. Β. ἴσχε δή.</l>
+                <l n="6" xml:id="kock-0461-chrysoyn_genos-276-l6" xml:lang="grc">Α. ὄγδοος ὁ τὸ τριβώνιον ἔχων.</l>
+              </lg>
+              <note type="source">Porphyrius Schol. Ven. Hom. Il. 10, 252 Εὔπολίς τε Χρυσῷ γένει· δωδέκατος κτλ.</note>
+              <note type="apparatus">1. δωδέκατος Runkelius] δέκατος. κάλην multo ante Cobetum V. 1.² 399 O. Schneiderus apud Meinek. V p. LXXXIV] καλήν. 3. πυρρός Runkel.] πύργος. πηρός Cobet. 4. χοὗτοι μὲν εἰσ’ — εἰς Runkel.] καὶ οὗτοι μὲν εἰς — ἐς. 5. ἐς τὸν δὲ Runkel.] ἐς δὲ τόν. personarum notationem adiecit Meinekius. quorum hominum index proponatur ignoramus. de comicis poetis certe non videtur cogitandum esse. neque de Archestrato constat, qui complures Athenis fuerunt, eis quos Meinekius enumeravit in ed. mai., addi possunt is Archestratus, qui praetor fuit ad</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="281" xml:id="kock-0461-chrysoyn_genos-281" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-281-l1" xml:lang="grc">οὐκ ἀλλ’ ἔθυον δέλφακ’ ἔνδον θἠστίᾳ</l>
+                <l n="2" xml:id="kock-0461-chrysoyn_genos-281-l2" xml:lang="grc">καὶ μάλα καλήν.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 657 a δέλφακα . . . θηλυκῶς . . . Εὔπολις Χρυσῷ γένει· οὐκ κτλ. cf. 9, 375 a. 1. cod. A οὐκ ἀλλεύθιον δέλφακα ωδονθ’ ηστια. δέλφακ’ ἔνδον K., cetera correxit Meinekius, cuius neque δέλφακα νωδὸν (νωδοί enim sunt senes) neque δέλφακ’ ᾠδὸν (verniliter grunnientem) cuiquam probabuntur. infelicius etiam Herwerd. Stud. crit. 79 δέλφακ’ ἄτοκον. Vestae semper intus in aedibus sacra fiebant. Zenob. 4, 44. Diogenian. 4, 68. Hesych. Ἑστίᾳ θύομεν. ἦσάν τινες θυσίαι, ἀφ’ ὧν οὐχ οἷόν τε ἦν μεταδοῦναι ἢ ἐξενεγκεῖν. cf. etiam Phot. 21, 24.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="282" xml:id="kock-0461-chrysoyn_genos-282" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-282-l1" xml:lang="grc">ἀτεχνῶς μὲν οὖν τὸ λεγόμενον σκύτη βλέπει.</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Vesp. 643 μέμνηται τῆς παροιμίας Εὔπολις ἐν Χρυσῷ γένει· φησὶ γὰρ κτλ. cf. Zenob. 6, 2. Athen. 13, 568 e. Aristoph. Pac. 669. attulit Meinekius, qui multo ante Muellerum Strub. 165 ad Cleonem haec pertinere monuit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="283" xml:id="kock-0461-chrysoyn_genos-283" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-283-l1" xml:lang="grc">ἀλλ’ ὦ φίλε Ζεῦ κατάχυτλον τὴν ῥῖν’ ἔχεις.</l>
+              </lg>
+              <note type="source">Pollux 10, 63 Εὐπόλιδος ἐν Χρυσῷ γένει κτλ. ὦ φίλε Ζεῦ non esse adloquentis, sed mirantis recte monuit Fritzschius De com. gr. fr. 6, cui tamen in reliquis non adsentior. ‘o bone Iuppiter, nasus tuus quasi quaedam trulla est.’ quem adloquatur nescimus. ‘trullae adsimulat nasum, quia pituita laborabat cuicumque haec dicuntur.’ Meinek.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="284" xml:id="kock-0461-chrysoyn_genos-284" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-284-l1" xml:lang="grc">τί γάρ ἐστ’ ἐκεῖνος; Β. ἀποπάτημ’ ἀλώπεκος.</l>
+              </lg>
+              <note type="source">Etymol. m. 132, 12. Bekker. Anecd. 433, 10. Suidas ἀποπάτημα· αὐτὸ τὸ σκύβαλον. Εὔπολις Χρυσῷ γένει κτλ. contra Athenaeus 14, 658 d τὸ λείψανον τῶν τραγημάτων καὶ τρωξίμων ἀποτράγημα εἴρηκεν Εὔπολις. σκώπτων γὰρ Διδυμίαν τινὰ ἀποτράγημα αὐτὸν εἴρηκεν ἀλώπεκος, ἤ τοι ὡς μικρὸν τὸ σῶμα ἢ ὡς κακοήθη καὶ πανοῦργον, ὥς φησιν ὁ Ἀσκαλωνίτης Δωρόθεος. ἐκεῖνος Suid.] ἐκεῖνο. Χρυσογένει cod. Bekk. Χρυσογενείᾳ Etym. m.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="285" xml:id="kock-0461-chrysoyn_genos-285" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-285-l1" xml:lang="grc">καὶ σκεῦος οὐδὲν εὗρον ἐν τῷκήματι.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Hephaest. 2, 2 (p. 19 Gaisf. ed. sec.) <foreign xml:lang="grc">ἔκθλιψιν κρᾶσιν καὶ συναίρεσιν, ὡς παρ’ Εὐπόλιδι ἐν Χρυσῷ γένει· καὶ σκεῦος κτλ.</foreign> 'sic in plerisque ES.' Gaisf.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="286" xml:id="kock-0461-chrysoyn_genos-286" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-286-l1" xml:lang="grc">ἀριθμεῖν θεατὰς ψαμμακοσίους</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Acharn. 3 et Suidas <foreign xml:lang="grc">ψαμμακοσιογάργαρα. τὸ ψαμμακόσια καθ’ ἑαυτὸ ἐπὶ πλήθους ἐτίθετο. παρὰ μὲν Εὐπόλιδι ἐν Χρυσῷ γένει κτλ. ψαμμακοσίους Suid. A] ψαμμοκοσίους.</foreign> in exitu <foreign xml:lang="grc">νὴ Δία</foreign> supplet Hanovius Exerc. crit. 43. quidni <foreign xml:lang="grc">τὸν ἀριθμόν</foreign>? 'quantus labor est spectatores numerare innumeros numero.'</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="287" xml:id="kock-0461-chrysoyn_genos-287" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-287-l1" xml:lang="grc">εἰ μή τις αὐτὴν κατακλιεῖ</l>
+              </lg>
+              <note type="source">
+                <p>Bekker. Anecd. 1290 med. Cramer. Anecd. Ox. IIII 420, 29. Herodian. II 809, 10 Lentz. <foreign xml:lang="grc">σημειοῦται τὸ ἐκχεῶ δευτέρου μέλλοντος, οἷον καὶ τὸ κατακλιεῖς παρ’ Εὐπόλιδι ἐν Χρυσῷ γένει, οἷον κτλ.</foreign> Cramer. An. Ox. IIII 195, 28 <foreign xml:lang="grc">εἰ μή τις αὐτὴν κατακλιεῖ, παρ’ Εὐπόλιδι ἀντὶ τοῦ ἀσφαλιεῖ.</foreign> barbarum loqui arbitratur Meinekius. dubium utrum <foreign xml:lang="grc">κατακλινεῖ</foreign> an <foreign xml:lang="grc">κατακλήσει</foreign> dicere voluerit.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="288" xml:id="kock-0461-chrysoyn_genos-288" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-288-l1" xml:lang="grc">ἔπειτ’ εἴσειμ’, ἐνθάδε μείνας</l>
+                <l n="2" xml:id="kock-0461-chrysoyn_genos-288-l2" xml:lang="grc">εἰς ὤμιλλαν, κἂν μὴ μετίῃ.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Platon. 320 Bekk. <foreign xml:lang="grc">ἡ δὲ ὤμιλλά ἐστιν ὅταν περιγράψαντες κύκλον ἐπιρρίπτωσιν ἀστραγάλους ἢ ἄλλο τι, ὡς τῇ μὲν ἐντὸς βολῇ νικώντων τῇ δὲ ἐκτὸς ἡττωμένων. Εὔπολις Χρυσῷ γένει μεταφέρων ἐπὶ τὴν ἐκ Κυκλώπων (Meinek. τὴν ἐν κύκλῳ) κατάκλισιν τοὔνομα οὕτως φησίν· ἔπειτ’ κτλ.</foreign> Suidas <foreign xml:lang="grc">ὤμιλλα· Εὔπολις Χρυσῷ γένει· ἐπεισείμεθα δὲ μείνας εἰς ὤμιλλαν.</foreign> cf. fr. 250. Meinekius aut <foreign xml:lang="grc">κάπειτ’</foreign> scribendum censet aut <foreign xml:lang="grc">εἶτ’</foreign> ut sint tetrametrorum reliquiae. prius verum videtur. 'postquam hic permansi tamquam <foreign xml:lang="grc">εἰς ὤμιλλαν</foreign> luderem, iam intrabo, etiamsi me non arcessat.'</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="289" xml:id="kock-0461-chrysoyn_genos-289" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <head>289</head>
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-289-l1" xml:lang="grc">αὐτόματοι δ’ ἀγαθοὶ δειλῶν ἐπὶ δαῖτας ἴασιν.</l>
+              </lg>
+              <note type="source">Zenobius 2, 19 αὐτόματοι δ’ ἀγαθοὶ ἀγαθῶν ἐπὶ δαῖτας ἵενται· οὕτως Ἡσίοδος ἐχρήσατο τῇ παροιμίᾳ . . . Εὔπολις δὲ ἐν Χρυσῷ γένει ἑτέρως φησὶν ἔχειν τὴν παροιμίαν· αὐτόματοι κτλ. cf. Schol. Platonis 373 Bekk. αὐτόματοι δ’ ἀγαθοὶ δειλῶν ἐπὶ δαῖτας ἴασι. ταύτην δὲ λέγουσιν εἰρῆσθαι ἐπὶ Ἡρακλεῖ, ὃς ὅτε εἱστιῶντο τῷ Κήυκι ξένοι ἐπέστη. Cratin. 169. Aristoph. fr. 272. Plat. Symp. 174 b.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="290_291_292" xml:id="kock-0461-chrysoyn_genos-290_291_292" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <head>290. 291. 292</head>
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-290_291_292-l1" xml:lang="grc">ὦ καλλίστη πόλι πασῶν, ὅσας Κλέων ἐφορᾷ,</l>
+                <l n="2" xml:id="kock-0461-chrysoyn_genos-290_291_292-l2" xml:lang="grc">ὡς εὐδαίμων πρότερόν τ’ ἦσθα νῦν τε μᾶλλον ἔσει</l>
+                <l n="3" xml:id="kock-0461-chrysoyn_genos-290_291_292-l3" xml:lang="grc">* * * *</l>
+                <l n="4" xml:id="kock-0461-chrysoyn_genos-290_291_292-l4" xml:lang="grc">ἔδει πρῶτον μὲν ὑπάρχειν πάντων ἰσηγορίαν</l>
+                <l n="5" xml:id="kock-0461-chrysoyn_genos-290_291_292-l5" xml:lang="grc">* * * *</l>
+                <l n="6" xml:id="kock-0461-chrysoyn_genos-290_291_292-l6" xml:lang="grc">πῶς οὖν οὐκ ἄν τις ὁμιλῶν χαίροι τοιᾶδε πόλει,</l>
+                <l n="7" xml:id="kock-0461-chrysoyn_genos-290_291_292-l7" xml:lang="grc">ἵν’ ἔξεστιν πάνυ λεπτῷ κακῷ τε τὴν ἰδέαν —</l>
+              </lg>
+              <note type="source">Priscianus De metris Terent. 26 Hephaestion quoque metricus ostendit comicum epionicum spondeos paribus locis habens iambicarum συζυγιῶν id est coniugationum, ut est apud Eupolin in fabula quae dicitur Χρυσοῦν γένος· ὦ καλλίστη — ἔσει. idem: ἔδει κτλ. v. 1. 2 Hephaestion. 16, 5 μάλιστα δ’ ἐν αὐτῷ (τῷ καλουμένῳ ἐπιωνικῷ) ἀταξία πολλή, ἡ τοὺς σπονδείους ἐπὶ ἀρτίους χώρας ἔχουσα τῶν ἰαμβικῶν συζυγιῶν, οἷον παρ’ Εὐπόλιδι ἐν Χρυσῷ γένει· ὦ — ἔσει. v. 1 sine auctoris nomine Schol. Pind. Ol. 13 p. 266 Boeckh.</note>
+              <note type="apparatus">— universam lectionis varietatem, quae ad Eupolidis verba constituenda non multum facit, excerpsit Keilius in Prisciani ed. 3. ἔδει] οὗ δεῖ Fritzschius De v. Eupol. 6, εἰ δεῖ Bergk. R. c. Att. 361. Aristoph. Av. 157 οὗ πρῶτα μὲν δεῖ ζῆν ἄνευ βαλλαντίου. 4. ὁμιλῶν χαίροι Ios. Scaliger] ΟΜΙΛΟΝ XAIPI VA. de metro cf. praeterea Fritzsch. sed quod idem inter duas personas haec distribuit non videtur probari posse, siquidem id genus metri dialogo parum aptum est. a choro recitata arbitror, parabasin vel epirrhema quoddam. Cleonem cum inrisione Soli comparavit ὃς πάντ’ ἐφορᾷ καὶ πάντ’ ἐπακούει. apte etiam Porsonus contulit fragmentum adespoton τὴν λαμπροτάτην πόλεων πασῶν, ὁπόσας ὁ Ζεὺς ἀναφαίνει. v. 3 coniungenda sunt πρῶτον πάντων. alia addidit sine dubio chorus ad Athenarum praestantiam demonstrandam. extrema sententia abrupta est. hoc dixerat poeta: quidni igitur quivis libenter in tali urbe degat, ubi etiam exiguo et minus pulchro homini liceat ad rempublicam administrandam accedere? quod sine dubio exemplis quibusdam ludicris inlustraverat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="293" xml:id="kock-0461-chrysoyn_genos-293" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-293-l1" xml:lang="grc">ὦ κατάλαβρ’, ὦ κιθαραοιδότατε</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Vesp. 1278 τῇ λέξει (κιθαραοιδότατος) κέχρηται καὶ Εὔπολις ἐν Χρυσῷ γένει κτλ.</note>
+              <note type="apparatus">κατάλαβρ’ ὦ Meinek.] καλαβρὲ V Ald. καταλαβρὲ Portus. κιθαραοιδότατε] κιθαραοιδοταν V. κιθαραοιδότα G. numeros paeonicos esse monuit Meinekius. cf. fr. 280.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="294" xml:id="kock-0461-chrysoyn_genos-294" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <note type="source">Schol. Aristoph. Av. 42 (οὐκ) εἴρηται μὲν ὁ βάδος· ὅμως γε μὴν οἱ κωμικοὶ παίζειν εἰώθασι τὰ τοιαῦτα. ὡς Εὔπολις Χρυσῷ γένει τισοφῶν ὦ ῥαψῳδέ. Ven. τί σοφῶνος ὦ ὁ. Lobeck. Progr. acad. 1844, 4 τίς ὁ σύβος ὦ ῥαψωδέ; et Rhem. 287 ‘σόβος pro σόβησις’. τίς ὁ φῶνος Nauck. Philol. II 151. Aristoph. Byz. 207. conl. Theognost. Cram. II 66, 17 φῶνος ὁ μεγαλόφωνος. idem teste Toeppelio Progr. Neobr. 1851 p. 7 extr. Fritzschius invenerat, vocem barbaram esse ratus pro τίς ἡ φωνή; conl. Arist. Thesm. 1086 πῶτε τὸ πωνή; nam eius quidem emendationis quam proposuit Q. Arist. 146 hodie eum paenitere arbitror.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="295" xml:id="kock-0461-chrysoyn_genos-295" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-295-l1" xml:lang="grc">τοῦ Διὸς τὸ σάνδαλον</l>
+              </lg>
+              <note type="source">ἐπὶ τῶν ὡς μέγα δή τι. Εὔπολις Χρυσῷ γένει. Photius et Suidas. Pollux 7, 86 τὸ σάνδαλον Εὔπολις ἐν Χρυσῷ γένει.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="296" xml:id="kock-0461-chrysoyn_genos-296" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-296-l1" xml:lang="grc">Παντακλῆς σκαιός</l>
+              </lg>
+              <note type="source">Schol. Aristoph. Ran. 1036 διαβάλλει τὸν Παντακλέα ὡς ἀμαθῆ ἐν τῷ ὁπλίζεσθαι. μέμνηται δὲ τούτου καὶ Εὔπολις ἐν Χρυσῷ γένει κτλ.</note>
+              <note type="apparatus">cod. Θ χρυσογένει Παντακλέης σκοπῶν. fortasse dixerat Παντακλῆς ὁ σκαιός. cur non Παντακλέης scripserim intellegitur ex eis quae adnotavi ad Aristoph. Eq. 283.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="297" xml:id="kock-0461-chrysoyn_genos-297" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-297-l1" xml:lang="grc">Λάμπων οὐξηγητής</l>
+              </lg>
+              <note type="source">Εὔπολις Χρυσῷ γένει. μάντις γὰρ ἦν καὶ χρησμοὺς ἐξηγεῖτο. Bekker. Anecd. 96, 18.</note>
+              <note type="apparatus">desunt quaedam et post Χρυσῷ γένει et post μάντις γάρ. οὐξηγητής Ruhnken. Tim. 110b] οὐζητητής. verba μάντις γὰρ ἦν κτλ. grammatici esse, non Eupolidis monuit Reisigius Coniect. 175. Schol. Aristoph. Nub. 332 Λάμπων ὁ μάντις, ὃν ἐξηγητὴν ἐκάλουν. cf. Aristoph. Av. 521. Nub. 332 cum interpr.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="298" xml:id="kock-0461-chrysoyn_genos-298" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_chrysoyn_genos">
+              <lg>
+                <l n="1" xml:id="kock-0461-chrysoyn_genos-298-l1" xml:lang="grc">κατὰ χειρὸς ὕδωρ</l>
+              </lg>
+              <note type="source">ὡς Εὔπολις ἐν Χρυσῷ γένει. Athen. 9, 408e. cf. Telecl. 1.</note>
+            </div>
+          </div></body></text></TEI>

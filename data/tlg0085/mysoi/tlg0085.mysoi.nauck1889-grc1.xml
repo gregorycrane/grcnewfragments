@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΜΥΣΟΙ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.mysoi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.mysoi.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.mysoi.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:mysoi"><head xml:lang="grc">ΜΥΣΟΙ</head>
+          <note type="introduction" xml:lang="mul">De Aeschylea fabula intellegunt locum Aristotelis Poet. c. 24 p. 1460 a 32 : τούς τε λόγους μὴ συνίστασθαι (sc. δεῖ) ἐκ μερῶν ἀλόγων, ἀλλὰ μάλιστα μὲν μηδὲν ἔχειν ἄλογον, εἰ δὲ μή , ἔξω τοῦ μυθεύματος, ὥσπερ Οἰδίπους τὸ μὴ εἰδέναι πῶς ὁ Λάιος ἀπέθανεν, ἀλλὰ μὴ ἐν τῷ δράματι, ὥσπερ ἐν Ηλέκτρᾳ οἱ τὰ Πύθια ἀπαγγέλλοντες ἢ ἐν Μυσοῖς ὁ ἄφωνος ἐκ Τεγέας εἰς τὴν Μυσίαν ἥκων. ubi ὁ ἄφωνος dicitur Telephus, cf. Amphis Com. 3 p. 313 : ἔκυψεν ὥσπερ Τήλεφος πρῶτον σιωπῇ . καὶ δικαίως τοῦτό γε· ἅπαντες ἀνδροφόνοι γάρ εἰσιν ἐνὶ λόγῳ . Alexis Com. 3 p. 467 : δειπνεῖ δ’ ἄφωνος Τήλεφος νεύων μόνον πρὸς τοὺς ἐπερωτῶντάς τι.</note>
+          <div type="textpart" subtype="fragment" n="143" corresp="urn:cite2:perseus:fragmentaryplays.v1:mysoi" xml:id="aesch-fr143">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-143-1">Ἰὼ Κάικε Μύσιαί τ’ ἐπιρροαί</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Strab. XIII p. 616 : ῥεῖ δ’ ἐκ τοῦ Τήμνου ποταμὸς Μύσιος ἐμβάλλων εἰς τὸν Κάικον ὑπὸ ταῖς πηγαῖς αὐτοῦ , ἀφ’ οὗ δέχονταί τινες εἰπεῖν Αἰσχύλον κατὰ τὴν εἰσβολὴν τοῦ ἐν Μυρμιδόσι προλόγου ἰὼ — ἐπιρροαί : Macrobius Sat. 5, 20, 16 : uliginosa — universae Mysiae arva, adhiberi potest testis Aeschylus, ἱὼ — ἐπιρροαί . poetae et fab. n. om. Schol. Hephaest. p. 176 et qui versum graviter corruptum exhibet Marius Plotius in Keilii Gramm. Lat. VI p. 518, 7 . Strabonem aut scripsisse aut debuisse scribere ἐν Μυσοῖς vidit Pauw.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="144" corresp="urn:cite2:perseus:fragmentaryplays.v1:mysoi" xml:id="aesch-fr144">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-144-1">ποταμοῦ Καΐκου χαῖρε πρῶτος ὀργεών,</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-144-2">εὐχαῖς δὲ σῴζοις δεσπότας παιωνίαις.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Phot. Lex. p. 344, 19 et Suid. v. ὀργεῶνες : — ἤδη δὲ μεταφέροντες καὶ τοὺς ἱερέας οὕτως καλοῦσιν — ὁ Αἰσχύλος ἐν Μυσοῖς τὸν ἱερέα τοῦ Καΐκου προσαγορεύων ποταμοῦ — παιωνίαις . Harpocr. v. ὀργεῶνας p. 139, 4 : οἱ μέντοι ποιηταὶ ἔταττον τοὔνομα ἁπλῶς ἐπὶ τῶν ἱερέων, ὡς Ἀντίμαχός τέ που καὶ Αἰσχύλος ἐν Μυσοῖς (μύσταις BC) . v. 2 σῴζοις σώσεις (vel δώσεις et δώσοις) .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="145" corresp="urn:cite2:perseus:fragmentaryplays.v1:mysoi" xml:id="aesch-fr145">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-145-1">οἶος</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Stephanus Byz. p. 487, 5 : Οἶος, πολίχνιον Τεγέας. Αἰσχύλος Μυσοῖς.</note>
+          </div>
+        </div></body></text>
+</TEI>

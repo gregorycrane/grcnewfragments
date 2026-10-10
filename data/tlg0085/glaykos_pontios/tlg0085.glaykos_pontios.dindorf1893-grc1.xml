@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΓΛΑΥΚΟΣ ΠΟΝΤΙΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.glaykos_pontios; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.glaykos_pontios.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.glaykos_pontios.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_pontios"><head>ΓΛΑΥΚΟΣ ΠΟΝΤΙΟΣ</head>
+          <pb n="594" facs="urn:hathi:iau.31858007086675:scan:602"/>
+          <div type="textpart" subtype="fragment" n="20" xml:id="frag_6edd725284" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_pontios">
+            <note type="source">Pausanias IX. 22, 6. Τούτων τε δή ἐστι τῇ Ἀνθηδόνι μνήματα, καὶ ἐπὶ τῇ θαλάσσῃ καλούμενον Γλαύκου πήδημα. εἶναι δὲ αὐτὸν ἁλιέα, καὶ ἐπεὶ τῆς πόας ἔφαγε, δαίμονα ἐν θαλάσσῃ γενέσθαι καὶ ἀνθρώποις τὰ ἐσόμενα ἐς τόδε προλέγειν οἵ τε ἄλλοι πιστὰ ἤγηνται καὶ οἱ τὴν θάλασσαν πλέοντες πλεῖστα ἀνθρώπων ἐς τὴν Γλαύκου μαντικὴν κατὰ ἔτος ἕκαστον λέγουσι. Πινδάρῳ δὲ καὶ Αἰσχύλῳ πυνθανομένοις παρὰ Ἀνθηδονίων τῷ μὲν οὐκ ἐπὶ πολὺ ἐπῆλθεν ἶσαι τὰ ἐς Γλαῦκον, Αἰσχύλῳ δὲ καὶ ἐς ποίησιν δράματος ἐξήρκεσε.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="21" xml:id="frag_15a481e8fa" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_pontios" sameAs="urn:cts:greekLit:tlg0085.glaykos_pontios.nauck1889-grc1:26">
+            <note type="source">Phrynichus Bekkeri I. p. 5, 21. Ἀνθρωποειδὲς θηρίον ὕδατι συζῶν: ἐπὶ τοῦ Γλαύκου ἀναφανέντος ἐκ τῆς θαλάσσης. Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="frag_5db9d187f7" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_pontios" sameAs="urn:cts:greekLit:tlg0085.glaykos_pontios.nauck1889-grc1:34">
+            <note type="source">Athenæus III. p. 87 a. Ἀρσενικῶς (κόγχοι) δ᾽ Αἰσχύλος ἐν Ποντίῳ Γλαύκῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_5db9d187f7-l1" xml:lang="grc">Κόγχοι, μύες κώστρεια.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="23" xml:id="frag_9e1cf25b51" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_pontios" sameAs="urn:cts:greekLit:tlg0085.glaykos_pontios.nauck1889-grc1:31">
+            <note type="source">Vita Arati in Petavii Uranologio p. 269 a. (apud Buhlium vol. II. p. 430.) Εἰσὶ δὲ καὶ τῆς Εὐβοίας Ἀθῆναι Διάδες, ὧν μέμνηται ἐν Γλαύκῳ Ποντίῳ Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_9e1cf25b51-l1" xml:lang="grc">Κἄπειτ᾽ Ἀθήνας Διάδας παρεκπερῶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="24" xml:id="frag_9e3816e133" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_pontios" sameAs="urn:cts:greekLit:tlg0085.glaykos_pontios.nauck1889-grc1:30">
+            <note type="source">Strabo X. p. 447. Ὑπὸ τοιοῦδε πάθους (σεισμοῦ) καὶ ἡ ὁμώνυμος τῇ νήσῳ (Εὐβοίᾳ) πόλις καταποθῆναι λέγεται, ἧς μεμνηται καὶ Αἰσχύλος ἐν τῷ Ποντίῳ Γλαύκῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_9e3816e133-l1" xml:lang="grc">Εὐβοῖδα καμπὴν ἀμφὶ Κηναίου Διὸς</l>
+              <l n="2" xml:id="frag_9e3816e133-l2" xml:lang="grc">ἀκτὴν, κατ᾽ αὐτὸν τύμβον ἀθλίου Λίχα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="25" xml:id="frag_f720d56421" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_pontios" sameAs="urn:cts:greekLit:tlg0085.glaykos_pontios.nauck1889-grc1:32">
+            <note type="source">Scholiasta Pindari Pyth. I, 152. Ιμέρας ποταμὸς Σικελίας, περὶ οὗ καὶ Αἰσχύλος φησὶν ἐν Γλαύκῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_f720d56421-l1" xml:lang="grc">Καλοῖσι λουτροῖς ἐκλέλουμαι δέμας</l>
+              <l n="2" xml:id="frag_f720d56421-l2" xml:lang="grc">εἰς ὑψίκρημνον Ἱμέραν δ᾽ ἀφικόμην.</l>
+            </lg>
+            <note type="commentary">Heynius ἐκλελουμένος, deleto δ'.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="26" xml:id="frag_935870594d" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_pontios">
+            <note type="source">Schol. Theocr. IV, 62. Τοὺς Σατύρους (ἀκρατεῖς ex scholio inferiore addidit Casaubonus de satyr. poesi I, 5.) οἱ πλείονές φασιν, ὡς καὶ τοὺς Σειληνοὺς καὶ Πᾶνας, ὡς Αἰσχύλος μὲν ἐν Γλαύκῳ, Σοφοκλῆς δὲ Ἀνδρομέδα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="27" xml:id="frag_075ae89b70" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_pontios">
+            <note type="source">Etymol. M. p. 250, 1. Δαυλίς: πόλις ἐν τῷ Παρνασῷ κειμένη. μῦθος δὲ ἐκεῖ γέγονε τὰ κατὰ τὸν Τηρέα καὶ τὰς ἀδελφὰς Πρόκνην καὶ Φιλομήλαν. εἴρηται</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="28" xml:id="frag_0bcd7e83db" corresp="urn:cite2:perseus:fragmentaryplays.v1:glaykos_pontios">
+            <note type="source">Grammaticus Bekkeri I. p. 347, 22. — Καὶ κατὰ σύνθεσιν ἀείζων, ὡς Αἰσχύλος Γλαύκῳ Ποντίῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_0bcd7e83db-l1" xml:lang="grc">῾Ὁ τὴν ἀείζων ἄφθιτον πόαν φαγών.</l>
+            </lg>
+            <note type="commentary">ζωὸς — ἧς ἡ γενικὴ ζωοῦ, ἣν Αἰσχύλος κατὰ σύνθεσιν προάγει εἰπὼν</note>
+            <lg type="fragment">
+              <l n="2" xml:id="frag_0bcd7e83db-l2" xml:lang="grc">Καὶ γεύομαί πως τῆς ἀειζώου πόας.</l>
+            </lg>
+            <note type="source">De herba illa Iacobsius Athenæi locos memorat XV. p. 679 a. VII. p. 296 f.</note>
+          </div>
+        </div></body></text>
+</TEI>

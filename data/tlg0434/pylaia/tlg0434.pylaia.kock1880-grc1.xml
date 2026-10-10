@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΠΥΛΑΙΑ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.pylaia.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.pylaia.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.pylaia.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia"><head>ΠΥΛΑΙΑ</head><div type="textpart" subtype="fragment" n="176" xml:id="kock-0434-pylaia-176" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <note type="source">
+                <p>Photius <quote>Ζωπύρου τάλαντα· Κρατῖνος ἐν Πυλαίᾳ . . . ἐκ μεταφορᾶς οὖν εἶπε τάλαντα καὶ ζυγά, οἱονεὶ ἔργα καὶ πράξεις.</quote> Hesych. <quote>Ζωπύρου τάλαντα. Κρατῖνος ἐν Πυλαίᾳ.</quote> de Zopyro Persa Herod. 3, 153. cuius narrationem in brevius redegerunt Hesychius et Zenobius 4, 9, qui extrema verba Photii addit. vim proverbii bene explicat Macarius apud Leutschium <quote>ἐπὶ τῶν φορτικά τινα διὰ πλοῦτον ὑπομεινάντων.</quote> significantur igitur ei qui ut Zopyrus divites sunt facti, sed cum damno corporis vel valetudinis. ceterum cf. τὰ Κινύρου τάλαντα, τὰ Ταντάλου τάλαντα, Κροίσοιο τάλαντα (Theocr. 8, 53), τὰ Αἰσχίνου τάλαντα (Haupt. ind. Berol. 1865. 6 p. 11) Arist. Av. 823.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="177" xml:id="kock-0434-pylaia-177" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <lg>
+                <l n="1" xml:id="kock-0434-pylaia-177-l1" xml:lang="grc">αὐτὸ δείξει</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Platonis 393 Bekk. <quote>παροιμία ἐπὶ τῶν ἀπιστούντων τι μὴ γίνεσθαι. μέμνηται δ’ αὐτῆς Κρατῖνος ἐν Πυλαίᾳ.</quote> cf. Heindorf. Plat. Hipp. mai. 288 b § 18.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="178" xml:id="kock-0434-pylaia-178" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <head>Γοργῶπις</head>
+              <note type="source">
+                <p>Hesychius <quote>Κρατῖνος ἐν Πυλαίᾳ. λίμνην φασὶν εἶναι ἐν Κορίνθῳ, εἰληφέναι δὲ τοὔνομα διὰ τὸ Γόργην ἐμπεσεῖν εἰς αὐτήν.</quote> Gorge erat Megarei filia, Corinthi uxor. ‘Etym. m. 384, 38. Aesch. Ag. 302’. Mein.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="179" xml:id="kock-0434-pylaia-179" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <head>κορωνιδεύς</head>
+              <note type="source">
+                <p>
+                  <quote>ὁ τῆς κορώνης νεοσσός. Κρατῖνος Πυλαίᾳ.</quote> Bekk. Anecd. 105, 23. ut λαγιδεύς, ἀετιδεύς alia id genus.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="180" xml:id="kock-0434-pylaia-180" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <note type="source">
+                <p>Maximus Dionys. Areop. Epist. 8 (II 318) <quote>ἔλεγον δὲ προτελίζεσθαι καὶ τὸ προμυεῖσθαι καὶ οἱονεὶ προκαθαίρεσθαι εἰς ἑτοιμασίαν μυστηρίων, ὡς Κρατῖνος δηλαδὴ (Mein. δηλοῖ) ἐν Πυλαίᾳ δράματι.</quote> mihi pro δηλαδή scribendum videtur Δηλιάσι καὶ κτλ.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="169" xml:id="kock-0434-pylaia-169" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <lg>
+                <l n="1" xml:id="kock-0434-pylaia-169-l1" xml:lang="grc">οἱ δ᾽ αὖθ᾽ ἡμεῖς, ὡς ὁ παλαιὸς</l>
+                <l n="2" xml:id="kock-0434-pylaia-169-l2" xml:lang="grc">λόγος, αὐτομάτους ἀγαθοὺς ἰέναι</l>
+                <l n="3" xml:id="kock-0434-pylaia-169-l3" xml:lang="grc">κομψῶν ἐπὶ δαῖτα θεατῶν.</l>
+              </lg>
+              <note type="source">Schol. Platonis 373 Bekk. αὐτόματοι δ᾽ ἀγαθοὶ δειλῶν ἐπὶ δαῖτας ἴασιν. ταύτην δὲ λέγουσιν εἰρῆσθαι ἐπὶ Ἡρακλεῖ, ὃς ὅτε εἰστιῶντο τῷ Κήυκι ξένοι ἐπέστη. Κρατῖνος δὲ ἐν Πυλαίᾳ μεταλλάξας αὐτὴν γράφει οὕτως οἱ δ᾽ κτλ.</note>
+              <note type="apparatus">cf. Zenob. 2, 19. de syntaxi (οἱ ἡμεῖς) conferendus Heind. Plat. Phaedr. 258 a § 87. Soph. 239 a § 51. duae praeterea constructiones confusae, ut Theocr. 12, 14 (Meinek.) et Aesch. Pers. 188. 9. tamen magnopere dubito an non sic scripserit Cratinus, sed δεῖ δ᾽ αὖθ᾽ ὑμᾶς κτλ. antea sine dubio quid poetam deceret Cratinus dixerat; deinde ‘vos autem’ inquit ‘Athenienses, libenter ire debetis ad epulas scitis spectatoribus a poetis adpositas’. desumpta autem haec sunt ex parabasi, clausula τοῦ μακροῦ ut videtur. κομψῶν, ut Arist. Nub. 649. Av. 195.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="170" xml:id="kock-0434-pylaia-170" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <lg>
+                <l n="1" xml:id="kock-0434-pylaia-170-l1" xml:lang="grc">ᾗ Διονυσίοις ἀκύλοις παίζουσ᾽ ἀνέμενοι τρόπα.</l>
+              </lg>
+              <note type="source">Schol. Platonis 320 Bekk. τρόπα δ᾽ ἐστὶν ἡ εἰς βόθυνον ἐκ διαστήματος βολή. Κρατῖνος ἐν Πυλαίᾳ.</note>
+              <note type="apparatus">οἳ pro ᾗ probabiliter Meinekius. cetera melius intemptata relinquuntur. Poll. 9, 103 ἡ δὲ τρόπα καλουμένη παιδιὰ γίνεται μὲν ὡς τὸ πολὺ δι᾽ ἀστραγάλων, οὓς ἀφιέντες στοχάζονται βόθρου τινὸς εἰς ὑποδοχὴν τῆς τοιαύτης ῥίψεως πεποιημένου· πολλάκις δὲ καὶ ἀκύλοις καὶ βαλάνοις ἀντὶ τῶν ἀστραγάλων... ἐχρῶντο. cui Meinekius addit Martial. 4, 14, 9 ludit tropa nequiore talo.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="171" xml:id="kock-0434-pylaia-171" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <note type="source">Suidas ἀμύναιντο, ἀμύναιεν. Κρατῖνος Πυλαίᾳ·</note>
+              <lg>
+                <l n="1" xml:id="kock-0434-pylaia-171-l1" xml:lang="grc">αὐτοὺς ἐπαίδευσεν ἔθρεψέ τε δημοσίοις χρήμασιν εἰς ἥβην ἵνα οἱ</l>
+                <l n="2" xml:id="kock-0434-pylaia-171-l2" xml:lang="grc">ποτε λοιγὸν ἀμύναιτο.</l>
+              </lg>
+              <note type="apparatus">Πυλαίᾳ Bernhardy et Meinek.] Πυλαίοις. ἀμύναιτο A] ἀμύναιο BEpr. (marg. ἀμύναιντο.) perperam Bernhardyus Cratino haec abiudicabat. egregie sententiam Cobetus inlustravit N. 1. 113 conl. Aesch. 3, 154 προελθὼν ὁ κῆρυξ καὶ παραστησάμενος τοὺς ὀρφανούς, ὧν οἱ πατέρες ἦσαν ἐν τῷ πολέμῳ τετελευτηκότες, νεανίσκους πανοπλίᾳ κεκοσμημένους, ἐκήρυττε τὸ κάλλιστον κήρυγμα ... ὅτε τούσδε τοὺς νεανίσκους</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="171_2" xml:id="kock-0434-pylaia-171_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <note type="apparatus">
+                <p>[ὁ Δῆμος]</p>
+              </note>
+              <lg>
+                <l n="1" xml:id="kock-0434-pylaia-171_2-l1" xml:lang="grc">αὐτὸς ἐπαίδευσέν σ’ ἀνέθρεψέ τε δημοσίοισι</l>
+                <l n="2" xml:id="kock-0434-pylaia-171_2-l2" xml:lang="grc">χρήμασιν εἰς ἥβην, ἵνα οἱ ποτε λοιγὸν ἀμύναις)</l>
+              </lg>
+              <note type="apparatus">
+                <p>id nequaquam probabile est: nam singulos ex spectatoribus comici non fere adloquuntur nisi risus movendi causa. scribendum videtur ἐπαίδευσέν τ’ ἔθρεψέ τε — λοιγὸν ἀμῦναι | το[λμήσωσι], unde simul codicis A lectio grammaticorumque commentorum origo explicatur.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="172" xml:id="kock-0434-pylaia-172" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <lg>
+                <l n="1" xml:id="kock-0434-pylaia-172-l1" xml:lang="grc">ἄνδρας σοφοὺς χρὴ τὸ παρὸν πρᾶγμα καλῶς εἰς δύναμιν</l>
+                <l n="2" xml:id="kock-0434-pylaia-172-l2" xml:lang="grc">τίθεσθαι.</l>
+              </lg>
+              <note type="source">
+                <p>Photius et Suidas τὸ παρὸν εὖ ποιεῖν· παροιμία . . . Κρατίνος Πυλαίᾳ. apud Photium desunt verba Πυλαίᾳ· ἄνδρας. cf. Soph. fr. 862 Nauck. στέργειν δὲ τἀκπεσόντα καὶ (recte Cobet Mnem. VIIII 144 κεὖ) θέσθαι πρέπει | σοφὸν κυβευτήν. non recte Cobetus ἄνδρα σοφόν: nam saepissime choriambis dimeter iambicus praemittitur. cf. Arist. Lys. 329. 342.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="173" xml:id="kock-0434-pylaia-173" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <note type="source">
+                <p>Schol. Arist. Pac. 733 Κρατίνος δὲ ἐν τῇ Πυλαίᾳ δηλοῖ ὅτι ἕξ ἐστι ζυγὰ τοῦ χοροῦ. chorum dicit comicum. conferri iubet Meinekius Poll. 4, 109.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="174" xml:id="kock-0434-pylaia-174" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <note type="source">
+                <p>Schol. Arist. Av. 766 ὅτι δὲ τῶν λίαν πονηρῶν ἐστιν (ὁ Πεισίου) δηλοῖ Κρατῖνος ἐν Χείρωσι, Πυλαίᾳ, Ὥραις. cf. fr. 233. 261. Pherecr. 6.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="175" xml:id="kock-0434-pylaia-175" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pylaia">
+              <lg>
+                <l n="1" xml:id="kock-0434-pylaia-175-l1" xml:lang="grc">γλῶσσαν εὐέρων βοτῶν.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Arist. Av. 121 et Suid. εὔερον· οἷον μαλακὴν ὥσπερ σισύραν εὐέριον. Κρατῖνος Πυλαίᾳ. λέγει δὲ περὶ τῶν προβάτων. Πυλαιαν (sic) cod. A Suid. πυλαιαρχωγλώσσαν V Arist. κατάρξω γλῶσσαν Bernhardy. quod vix graecum est. εὐέραν βροτῶν Suid.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

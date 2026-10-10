@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-epigonoi-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΕΠΙΓΟΝΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.epigonoi; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.epigonoi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.epigonoi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_epigonoi"><head>ΕΠΙΓΟΝΟΙ</head><div type="textpart" subtype="fragment" n="194" xml:id="fragment-epigonoi-dindorf1893_grc1-194" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_epigonoi" sameAs="urn:cts:greekLit:tlg0011.epigonoi.nauck1889grc1:186">
+            <note type="source">Stobæus XXXVIII, 27.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φιλεῖ γὰρ ἡ δύσκλεια τοῖς φθονουμένοις</l>
+              <l n="2" xml:lang="grc">νικᾶν ἐπ᾿ αἰσχροῖς, ἢ ἐπὶ τοῖς καλοῖς πλέον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="195" xml:id="fragment-epigonoi-dindorf1893_grc1-195" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_epigonoi" sameAs="urn:cts:greekLit:tlg0011.epigonoi.nauck1889grc1:187">
+            <note type="source">Stobæus LXXIII, 51.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ πᾶν σὺ τολμήσασα καὶ πέρα, γύναι</l>
+              <l n="2" xml:lang="grc">κάκιον ἄλλ᾽ οὐκ ἔστιν οὐδ᾽ ἔσται ποτὲ</l>
+              <l n="3" xml:lang="grc">γυναικὸς, εἴ τι πῆμα γίγνεται βροτοῖς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="196" xml:id="fragment-epigonoi-dindorf1893_grc1-196" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_epigonoi">
+            <note type="source">"Sophoclis Epigonos Latine expresserat Attius, cujus versum laudat Cicero Tuscul. II. 24. Tum Cleanthem, quum pede terram percussisset, versum ex Epigonis ferunt dixisse:</note>
+            <quote>Audisne hæc, Amphiare sub terram abdite?</quote>
+            <note type="commentary">Sophoclis Epigonorum ab Attio conversorum meminit Cicero in libro de oratorum optimo genere cap. VI. Nec Andromacham igitur aut Antiopam, aut Epigonos Latinos recipiant. Sed tamen Ennium, et Pacuvium, et Attium potius quam Euripidem et Sophoclem legunt. Euripidis Andromacham apud Romanos docuit Ennius: Antiopam Pacuvius: Sophoclis Epigonos Attius. Hinc erroris arguitur Davisius, qui ad Tusc. II. ex Æschyli dramate conversos fuisse ait Attii Epigonos." BRUNCK.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="197" xml:id="fragment-epigonoi-dindorf1893_grc1-197" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_epigonoi" sameAs="urn:cts:greekLit:tlg0011.epigonoi.nauck1889grc1:188">
+            <note type="source">Scholiasta Sophoclis Edip. Col. v. 378.</note>
+            <note type="commentary">Πολλαχοῦ τὸ Ἄργος κοϊλόν φασι, καθάπερ καὶ ἐν Ἐπιγόνοις</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὸ κοῖλον Ἄργος οὐ κατοικήσαντ᾽ ἔτι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="198" xml:id="fragment-epigonoi-dindorf1893_grc1-198" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_epigonoi">
+            <note type="source">De loco Athenæi XIII. p. 584 d. vide ad Æschyli fragm. 51.</note>
+          </div>
+        </div></body></text></TEI>

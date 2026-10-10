@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-kolchides-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΚΟΛΧΙΔΕΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.kolchides; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.kolchides.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.kolchides.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides"><head>ΚΟΛΧΙΔΕΣ</head><div type="textpart" subtype="fragment" n="300" xml:id="fragment-kolchides-dindorf1893_grc1-300" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides">
+            <note type="source">Auctor argumenti Promethei Æschylei: Keῖται δὲ ἡ μυθοποιία ἐν παρεκβάσει παρὰ Σοφοκλεῖ ἐν Κόλχοις.</note>
+          </div>
+        <div type="textpart" subtype="fragment" n="311" xml:id="fragment-kolchides-dindorf1893_grc1-311" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides" sameAs="urn:cts:greekLit:tlg0011.kolchides.nauck1889grc1:321">
+            <note type="source">Stobaeus XXII, 23.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καλὸν φρονεῖν τὸν θνητὸν ἀνθρώποις ἴσα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="312" xml:id="fragment-kolchides-dindorf1893_grc1-312" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides" sameAs="urn:cts:greekLit:tlg0011.kolchides.nauck1889grc1:320">
+            <note type="source">Athenaeus XIII. p. 602 e. Σοφοκλῆς ἐν Κολχίσι περὶ Γανυμήδους τινὰ λόγον ποιούμενος</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μηροῖς ὑπαίθων τὴν Διὸς τυραννίδα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="313" xml:id="fragment-kolchides-dindorf1893_grc1-313" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides" sameAs="urn:cts:greekLit:tlg0011.kolchides.nauck1889grc1:315">
+            <note type="source">Grammaticus Bekkeri p. 404, 19. et Suidas, Ἀνθυπουργῆσαι χάριν : τὸ ἀνταποδοῦναι. Σ. Κολχίσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἦ φὴς ὑπομνὺς ἀνθυπουργῆσαι χάριν;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="314" xml:id="fragment-kolchides-dindorf1893_grc1-314" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides" sameAs="urn:cts:greekLit:tlg0011.kolchides.nauck1889grc1:317">
+            <note type="source">Schol. Apollonii Rhodii ΙΙΙ, 1371. Σοφοκλῆς ἐν Κολχίσι πεποίηκε τοῦ ἀγγέλου τὸν Αἰήτην πυθόμενον περὶ τῶν προειρημένων οὕτως</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἦ βλαστὸς οὐκ ἔβλαστεν οὑπιχώριος,</l>
+              <l n="2" xml:lang="grc">καὶ κάρτα φρίξας εὐλόφῳ σφηκώματι,</l>
+              <l n="3" xml:lang="grc">χαλκηλάτοις ὅπλοισι μητρὸς ἐξέδυ;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="314b" xml:id="fragment-kolchides-dindorf1893_grc1-314b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides">
+            <note type="source">Vide fragm. 216.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="315" xml:id="fragment-kolchides-dindorf1893_grc1-315" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides">
+            <note type="source">De morte Apsyrti: vide fragm. 491.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="316" xml:id="fragment-kolchides-dindorf1893_grc1-316" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides" sameAs="urn:cts:greekLit:tlg0011.kolchides.nauck1889grc1:322">
+            <note type="source">Hesychius, Ἐπαλλαχθεῖσα: ἐπαλλάξασα. Σ. Κολχίσιν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="317" xml:id="fragment-kolchides-dindorf1893_grc1-317" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides" sameAs="urn:cts:greekLit:tlg0011.kolchides.pearson1917-grc1:340">
+            <note type="source">Etymolog. M. p. 439, 1. Σ. Κόλχοις.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὑμεῖς μὲν οὐκ ἄρ᾽ ἦστε τὸν Προμηθέα.</l>
+            </lg>
+            <note type="commentary">ἀντὶ τοῦ ᾔδειτε.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="318" xml:id="fragment-kolchides-dindorf1893_grc1-318" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides" sameAs="urn:cts:greekLit:tlg0011.kolchides.nauck1889grc1:323">
+            <note type="source">Athenaeus II. p. 70 a. Κινάρα: ταύτην Σοφοκλῆς ἐν Κολχίσι κυνάραν καλεῖ. Ex epitome Eustathius p. 1822, 17.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="319" xml:id="fragment-kolchides-dindorf1893_grc1-319" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides">
+            <note type="source">Galenus vol. IX. p. 385. Charter. (V. p. 454. Basil.) Δοκεῖ μὲν γὰρ αὐτὴν (τὴν πέμφιγα) ἐπὶ τῆς πνοῆς Σοφοκλῆς ἐν Κόλχοις λέγειν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀπῇξε πέμφιξιν οὐ πέλας φόρου.</l>
+            </lg>
+            <note type="commentary">—ἐπὶ δὲ τῶν ἀκτίνων αὐτῶν δοκεῖ χρῆσθαι τῷ ὀνόματι Σ. ἐν Κόλχοις κατὰ τάδε τὰ ἔπη</note>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Κἂν ἐθαύμασας</l>
+              <l n="3" xml:lang="grc">τηλέσκοπον πέμφιγα χρυσέαν ἰδών.</l>
+            </lg>
+            <note type="apparatus">Versum primum Hermannus in dissertatione de Æschyli Prometheo soluto p. 24. ita corrigit, Ἀπῇξε πέμφιξ ὡς ἰπνοῦ σελασφόρου. Idem in altero loco emendavit vulgatum ἐθαύμασα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="320" xml:id="fragment-kolchides-dindorf1893_grc1-320" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides" sameAs="urn:cts:greekLit:tlg0011.kolchides.nauck1889grc1:312">
+            <note type="source">Scholiasta Pindari Pyth. IV, 398. Τοὺς πυρίπνους ταύρους Ἀντίμαχος ἐν Λύδῃ Ἡφαιστοτεύκτους λέγει. καὶ Σοφοκλῆς δὲ χαλκοῦς βοῦς ἀδερμάτους φησὶν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Χαλκοσκελεῖς γὰρ</l>
+              <l n="2" xml:lang="grc">ἐκπνέουσι πνευμάτων ἄπο·</l>
+              <l n="3" xml:lang="grc">φλέγει δὲ μυκτὴρ, ὡς</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

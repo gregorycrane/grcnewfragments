@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-temenidai-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΤΗΜΕΝΙΔΑΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.temenidai; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.temenidai.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.temenidai.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai"><head>ΤΗΜΕΝΙΔΑΙ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-temenidai-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai" sameAs="urn:cts:greekLit:tlg0006.temenidai.nauck1889grc1:731">
+            <note type="source">1. Stobaeus LI, 2, cum lemm. Εἰρ Τημενίδων·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ ἔστι κρεῖσσον ἄλλο πλὴν κρατεῖν δορί.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-temenidai-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">2. Stobaeus L, 1, c. 1. Εὐρ. Τημενίδων.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">φιλεῖ τοι πόλεμος οὐ πάντ᾽ εὐτυχεῖν.</l>
+              <l n="2" xml:lang="grc">ἐσθλῶν δὲ χαίρει πτώμασιν νεανιῶν,</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-temenidai-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">3. Stobæus I, 4, c. 1. Εὐρ. Τημενίδων·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">κακοὺς δὲ μισεῖ τῇ πόλει μὲν οὖν νόσος</l>
+              <l n="2" xml:lang="grc">τόδ᾽ ἐστὶ, τοῖς δὲ κατθανοῦσιν εὐκλεές.</l>
+              <l n="3" xml:lang="grc">Ἀρετὴ δὲ, κἂν θάνῃ τις, οὐκ ἀπόλλυται,</l>
+              <l n="4" xml:lang="grc">ζῇ δ᾽ οὐκέτ᾽ ὄντος σώματος· κακοῖσι δὲ</l>
+              <l n="5" xml:lang="grc">ἅπαντα φροῦδα συνθανόνθ᾽ ὑπὸ χθονός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-temenidai-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">4. Stobæus LIV, 15, c. 1. Εὐρ. Τημένῳ·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὸ δὲ στρατηγεῖν τοῦτ᾽ ἐγὼ κρίνω, καλῶς</l>
+              <l n="2" xml:lang="grc">γνῶναι τὸν ἐχθρὸν, ᾗ μάλισθ᾽ ἁλώσιμος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-temenidai-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">5. Stobæus LIV, 16, c. 1. ἐν τῷ αὐτῷ·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἄρξεις ἄρ᾽ οὕτω· χρὴ δὲ τὸν στρατηλάτην</l>
+              <l n="2" xml:lang="grc">ὁμῶς δίκαιον ὄντα ποιμαίνειν στρατόν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-temenidai-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai" sameAs="urn:cts:greekLit:tlg0006.temenidai.nauck1889grc1:737">
+            <note type="source">6. Stobæus XIII, 8, c. 1. Εὐρ. Τημενίσιν·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Καλόν γ᾽ ἀληθὴς κἀτενὴς παρρησία.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-temenidai-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">7. Stobæus XXXI, 1, c. 1. Euripidis in Timco (sic) ap. Gesn., Euripides ap. Grot., qui in adnot. Ms. Temenisin scribendum dicit.</note>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:lang="grc">Τημενίδαις τὸν Ἡράκλειον ἆθλον ἔλαφον κέρατα ἔχειν</l>
+                <l n="2" xml:lang="grc">ὁ αὐτὸς Εὐριπίδης φησὶ τὸν τρόπον τόνδε ἄδων· Ἦλθε</l>
+                <l n="3" xml:lang="grc">δ᾽ ἐπὶ χρυσοκέρων ἔλαφον μεγάλων ἄθλων ἕνα</l>
+                <l n="4" xml:lang="grc">δεινὸν ὑποστὰς κατ᾽ ἐναύλων ὀρέων ἀβάτους,</l>
+                <l n="5" xml:lang="grc">ἐπί τελειμῶνας ποίμνιά τ᾽ ἄλση.</l>
+              </lg>
+            </quote>
+            <note type="commentary">Jacobs. ad Æl. versus sic restitui jussit:</note>
+            <quote>
+              <lg type="fragment">
+                <l n="6" xml:lang="grc">Ἦλθεν δ᾽ ἐπὶ χρυσοκέρων ἔλαφον</l>
+                <l n="7" xml:lang="grc">μεγάλων ἄθλον ἕνα δεινὸν ὑποστὰς</l>
+                <l n="8" xml:lang="grc">(τὰς) κατ᾽ ἐναύλων (κορυφὰς) ὀρέων ἀβάτους</l>
+                <l n="9" xml:lang="grc">ἐπί τ᾽ αὖ λειμῶνας ποίμνιά τ᾽ ἄλση.</l>
+              </lg>
+            </quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-temenidai-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai" sameAs="urn:cts:greekLit:tlg0006.temenidai.nauck1889grc1:729">
+            <note type="source">8. Stobæus XXXIX, 1, c. 1. Εὐρ. Τημενίσι.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰκὸς δὲ παντὶ καὶ λόγῳ καὶ μηχανῇ</l>
+              <l n="2" xml:lang="grc">πατρίδος ἐρῶντας ἐκπονεῖν σωτηρίαν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-temenidai-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai" sameAs="urn:cts:greekLit:tlg0006.temenidai.nauck1889grc1:738">
+            <note type="source">9. Stobæus CVI, 7, c. 1. Εὐρ. Τημενίσι·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πολλοὶ γεγῶτες ἄνδρες οὐκ ἔχουσ᾽ ὅπως</l>
+              <l n="2" xml:lang="grc">δείξωσιν αὑτοὺς, τῶν κακῶν ἐξουσία.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-temenidai-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">10. Stobæus LI, 3, c. 1. Εὐρ. Τημένῳ·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τολμᾶν δὲ χρεών· ὁ γὰρ ἐν καιρῷ</l>
+              <l n="2" xml:lang="grc">μόχθος πολλὴν εὐδαιμονίαν</l>
+              <l n="3" xml:lang="grc">τίκτει θνητοῖσι τελευτῶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-temenidai-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">11. Clem. Alex. Strom. VI, 2, § 10, (p. 741 P.) Πάλιν Εὐριπίδης μὲν ἐν Κτιμένῳ (leg. Τημένῳ)·</note>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:lang="grc">Τῷ γὰρ πονοῦντι καὶ θεὸς συλλαμβάνει.</l>
+              </lg>
+            </quote>
+            <note type="commentary">Eundem versum cum alio conjunctum affert Schol. Ven. ad Il. 8, 249:</note>
+            <quote>
+              <lg type="fragment">
+                <l n="2" xml:lang="grc">Αὐτός τι νῦν δρᾶ, χοὕτω δαίμονας κάλει·</l>
+                <l n="3" xml:lang="grc">τῷ γὰρ πονοῦντι χὼ θεὸς συλλαμβάνει.</l>
+              </lg>
+            </quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-temenidai-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai" sameAs="urn:cts:greekLit:tlg0006.temenidai.nauck1889grc1:730">
+            <note type="source">12. Polluc. On. IX, 27. τοῖς γὰρ ποιηταῖς καὶ τὰς κώμας λέγουσι πόλεις οὐ προσεκτέον, ὡς παρ᾽ Εὐριπίδῃ ἐν Τημενίδαις·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἅπασα Πελοπόννησος εὐτυχεῖ πόλις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-temenidai-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">13. Stobæus LVI, 14, c. 1. Εὐρ. Βουτημένῳ· (sic.)</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-temenidai-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai" sameAs="urn:cts:greekLit:tlg0006.temenidai.nauck1889grc1:735">
+            <note type="source">14. Stobæus IV, 10, c. 1. Εὐρ. Τημενίσιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀσύνετος, ὅστις ἐν φόβῳ μὲν ἀσθενὴς,</l>
+              <l n="2" xml:lang="grc">λαβὼν δὲ μικρὸν τῆς τύχης φρονεῖ μέγα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-temenidai-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai" sameAs="urn:cts:greekLit:tlg0006.temenidai.nauck1889grc1:739">
+            <note type="source">15. Stobæus LXXXVIII, 2, c. 1. Εὐρ. Τημενίσι·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φεῦ φεῦ, τὸ φῦναι πατρὸς εὐγενοῦς ἄπο</l>
+              <l n="2" xml:lang="grc">ὅσην ἔχει φρόνησιν ἀξίωμά τε.</l>
+              <l n="3" xml:lang="grc">κἂν γὰρ πένης ὢν τυγχάνῃ χρηστὸς γεγώς,</l>
+              <l n="4" xml:lang="grc">τιμὴν ἔχει τιν᾽, ἀναμετρούμενος δέ πως</l>
+              <l n="5" xml:lang="grc">τὸ τοῦ πατρὸς γενναῖον ὠφελεῖ τρόπῳ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-temenidai-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai" sameAs="urn:cts:greekLit:tlg0006.temenidai.nauck1889grc1:732">
+            <note type="source">16. Stobæus LIV, 17, c. 1. Εὐρ. Τημενίσι·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ῥώμη δέ γ᾽ ἀμαθὴς πολλάκις τίκτει βλάβην.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-temenidai-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai" sameAs="urn:cts:greekLit:tlg0006.temenidai.nauck1889grc1:733">
+            <note type="source">17. Stobæus CXXIV, 29, c. 1. Εὐρ. Τημενίσι·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τοῖς πᾶσιν ἀνθρώποισι κατθανεῖν μένει.</l>
+              <l n="2" xml:lang="grc">κοινὸν δ᾽ ἔχοντες αὐτὸ κοινὰ πάσχομεν</l>
+              <l n="3" xml:lang="grc">πάντες· τὸ γὰρ χρεὼν μεῖζον ἢ τὸ μὴ χρεών.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-temenidai-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">18. Æl. H. An. VII, 39. ἐν δὲ τοῖς</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="19" xml:id="fragment-temenidai-dindorf1893_grc1-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">19. Aristoph. Ran. 1376. (1338.)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ἀλλά μοι ἀμφίπολοι λύχνον ἅψατε κ.τ.λ.</l>
+            </lg>
+            <note type="commentary">ubi schol. Ἀπολλώνιος παρὰ τὰ ἐκ τῶν Τημενιδῶν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="20" xml:id="fragment-temenidai-dindorf1893_grc1-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">20. Hesych. Αἰσίως, καλῶς, δεξιῶς· Εὐριπίδης Τημένῳ. cf. Eur. Ion. 410.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="21" xml:id="fragment-temenidai-dindorf1893_grc1-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">21. Hesych. Ἀνανομὴν, ἀναδασμόν. ἀνανέμειν γὰρ τὸ μερίζειν. Εὐριπίδης Τημένῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="fragment-temenidai-dindorf1893_grc1-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">22. Hesych. Ἄπυργος, ἀτείχιστος. Εὐριπίδης Τημένῳ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Αἰδὼς γὰρ ὀργῆς πλεῖον ὠφελεῖ βροτούς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="23" xml:id="fragment-temenidai-dindorf1893_grc1-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_temenidai">
+            <note type="source">23. Cf. Peliad. fgm. XV.</note>
+          </div>
+        </div></body></text></TEI>

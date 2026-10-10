@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΔΑΙΔΑΛΟΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.daidalos.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.daidalos.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.daidalos.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos"><head>ΔΑΙΔΑΛΟΣ</head><div type="textpart" subtype="fragment" n="187" xml:id="kock-0019-daidalos-187" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+              <lg>
+                <l n="1" xml:id="kock-0019-daidalos-187-l1" xml:lang="grc">πάσαις γυναιξὶν ἐξ ἑνός γέ του τρόπου</l>
+                <l n="2" xml:id="kock-0019-daidalos-187-l2" xml:lang="grc">ὥσπερ παροψὶς μοιχὸς ἐσκευασμένος.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 367 d 368 b c Ἀριστοφάνης Δαιδάλῳ.</note>
+              <note type="apparatus">τρόπου utrubique omissum ab ABP add. VL. Fritzschius De parops. 7 π. γυναιξίν ἐστιν ἐξ ἑνός γέ του, quod comicis quidem et Platoni philosopho et oratoribus quod sciam ignotum est. contra cf. Thuc. 6, 34. Isocr. 5, 3. Ledam significari arbitratur Bergkius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="188" xml:id="kock-0019-daidalos-188" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+              <lg>
+                <l n="1" xml:id="kock-0019-daidalos-188-l1" xml:lang="grc">ὁ μηχανοποιός, ὁπότε βούλει τὸν τροχὸν</l>
+                <l n="2" xml:id="kock-0019-daidalos-188-l2" xml:lang="grc">ἱμᾶν ἀνεκάς, λέγε, χαῖρε φέγγος ἡλίου.</l>
+              </lg>
+              <note type="source">Erotianus 42, 5 Klein. ἀνεκάς· ἀντὶ τοῦ ἀνωτάτω . . . ὡς καὶ Ἀριστοφάνης ἐν Δαιδάλῳ φησίν κτλ.</note>
+              <note type="apparatus">ἱμᾶν K.] ἐᾶν. ἐλᾶν Bergkius, ἕλκειν Cobet. Mnem. V 197. ἀνεκάς Brunck.] κἀνεκάς B κἀνεκάς AC, κἂν ἑκὰς z. de accentu cf. Cratet. 10. ἱμᾶν verbum est in tali re proprium. cf. Vesp. 379. 396. fr. 349. Schol. Lys. 722 τροχιλία δέ ἐστιν ὁ τροχὸς τοῦ ξύλου τοῦ φρέατος, δι' οὗ ἱμῶσιν. Phot. ἱμᾶν· τὸ ἀνασπᾶν. τὸ γὰρ παλαιὸν ἱμάντας ἐνδησάμενοι (ἐκδησάμενοι Bekker. An.) ἀνίμων ἢ καθίμων. ac similiter Bekker. Anecd. 266, 22. videtur Iuppiter post furtum amatorium in caelum rediens haec dicere metuens ne de machina delapsus moriatur. cf. Pac. 174 sq.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="189_190_191" xml:id="kock-0019-daidalos-189_190_191" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+              <lg>
+                <l n="1" xml:id="kock-0019-daidalos-189_190_191-l1" xml:lang="grc">καὶ ταῦτ' ἔχοντα πουλύπους καὶ σηπίας.</l>
+              </lg>
+              <lg>
+                <l n="1_2" xml:id="kock-0019-daidalos-189_190_191-l1_2" xml:lang="grc">τὸν πουλύπουν μοὔθηκε.</l>
+              </lg>
+              <lg>
+                <l n="1_3" xml:id="kock-0019-daidalos-189_190_191-l1_3" xml:lang="grc">πληγαὶ λέγονται πουλύπου πιλουμένου.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 316 b Ἀττικοὶ πουλύπουν λέγουσιν. Ἀριστοφάνης Δαιδάλῳ· καὶ — σηπίας. καὶ πάλιν· τὸν πουλύπουν μοι ἔθηκε, καὶ πάλιν· πληγαὶ κτλ. idem 7, 323 c σηπία· Ἀριστοφάνης Δαναΐσι· καὶ ταῦτ' — πουλύπους.</note>
+              <note type="apparatus">Danaidibus perperam tribui videtur. quamquam potuit idem versus utriusque comoediae esse. καὶ ταῦτ' ἔχοντα 323 c]</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="192" xml:id="kock-0019-daidalos-192" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+              <lg>
+                <l n="1" xml:id="kock-0019-daidalos-192-l1" xml:lang="grc">περὶ τοῦ γὰρ ὑμῖν ὁ πόλεμος</l>
+                <l n="2" xml:id="kock-0019-daidalos-192-l2" xml:lang="grc">νῦν ἐστι; περὶ ὄνου σκιᾶς.</l>
+              </lg>
+              <note type="source">Photius et Suidas ὄνου σκιά· Ἀριστοφάνης Δαιδάλῳ κτλ. ὑμῖν post νῦν in omnibus cod. Suidae praeter A. verba sunt hominis alios ne rixentur monentis, ex systemate iambico excerpta.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="193" xml:id="kock-0019-daidalos-193" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+              <lg>
+                <l n="1" xml:id="kock-0019-daidalos-193-l1" xml:lang="grc">κογχυλίας λίθος</l>
+                <l n="2" xml:id="kock-0019-daidalos-193-l2" xml:lang="grc">ἐν Ἀριστοφάνους Δαιδάλῳ. Pollux 7, 100.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="194" xml:id="kock-0019-daidalos-194" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+              <p>Δαιδάλεια</p>
+              <note type="source">Ἀριστοφάνης τὸν ἀπὸ Δαιδάλου κατασκευασθέντα ἀνδριάντα. ὡς διὰ τὸ ἀποδιδράσκειν δεδεμένον. Hesych. Zenob. 3, 7 τῶν παλαιῶν δημιουργῶν πλαττόντων τὰ ζῶα τυφλὰ ὁ Δαίδαλος καὶ τοὺς ὀφθαλμοὺς αὐτοῖς ἀνεπέτασεν, ὡς καὶ δόξαν κατασχεῖν ὅτι καὶ ἔμψυχά ἐστι καὶ κινοῦνται καὶ φθέγγονται. φασὶ γοῦν τινὰ τῶν δαιδαλουργῶν ἀνδριάντων δεδέσθαι τοῦ ποδός, ὡς μὴ ἀποδράμοι, ubi cf. quae editor adnotavit. Cratin. 74.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="195" xml:id="kock-0019-daidalos-195" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+              <lg>
+                <l n="1" xml:id="kock-0019-daidalos-195-l1" xml:lang="grc">ἀρχιτεκτονεῖν</l>
+                <l n="2" xml:id="kock-0019-daidalos-195-l2" xml:lang="grc">Ἀριστοφάνης εἴρηκεν ἐν Δαιδάλῳ. Pollux 7, 117. cf. Pac. 305.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="196" xml:id="kock-0019-daidalos-196" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+              <p>
+                <hi rend="bold">196</hi>
+              </p>
+              <p>
+                <hi rend="bold">δορυφόνον</hi>
+              </p>
+              <lg>
+                <l n="1" xml:id="kock-0019-daidalos-196-l1" xml:lang="grc">τὸν δολοφονοῦντα. Ἀριστοφάνης Δαιδάλῳ. Hesych. cf. Tele-</l>
+              </lg>
+              <note type="source">clid. 29.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="197" xml:id="kock-0019-daidalos-197" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+              <p>
+                <hi rend="bold">197</hi>
+              </p>
+              <p>
+                <hi rend="bold">κακκάβη</hi>
+              </p>
+              <p>Phrynich. Ecl. 427 κάκκαβον· διὰ τοῦ ῆ κακκάβην λέγε. τὸ γὰρ διὰ τοῦ ῶ ἀμαθές· καὶ γὰρ Ἀριστοφάνης ἐν Δαιδάλῳ χρῆται διὰ τοῦ ῆ. cf. Lobeck. — ad Daetalenses (fr. 215) refert Dindorfius.</p>
+            </div>
+          <div type="textpart" subtype="fragment" n="184" xml:id="kock-0019-daidalos-184" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+              <head>184</head>
+              <lg>
+                <l n="1" xml:id="kock-0019-daidalos-184-l1" xml:lang="grc">ἤδη τις ὑμῶν εἶδεν Εὐρύβατον Δία;</l>
+              </lg>
+              <note type="source">Suidas Εὐρύβατος· εἰ δή κτλ. Ἀριστοφάνης ἐν Δαιδάλῳ ὑποθέμενος τὸν Δία εἰς πολλὰ ἑαυτὸν μεταβάλλοντα καὶ πλουτοῦντα (πολυπραγμονοῦντα?) καὶ πανουργοῦντα. Eustath. 1864, 31 indicavit Nauckius.</note>
+              <note type="apparatus">ἤδη Eustath.] εἰ δὴ Suid. εἶδεν Suid.] οἶδεν Eustath. Schol. Lucian. Alex. 4 Vindob. ὁ δὲ Εὐρύβατος ὡς πονηρὸς καὶ πανοῦργος, ἔτι δὲ καὶ προδότης εἰσάγεται Ἀριστοφάνει τῷ κωμικῷ. coniungitur fere cum Phrynonda. cf. fr. 26.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="185_186" xml:id="kock-0019-daidalos-185_186" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_daidalos">
+              <head>185. 186</head>
+              <lg>
+                <l n="1" xml:id="kock-0019-daidalos-185_186-l1" xml:lang="grc">ᾠὸν μέγιστον τέτοκεν, ὡς ἀλεκτρυών.</l>
+              </lg>
+              <lg>
+                <l n="1_2" xml:id="kock-0019-daidalos-185_186-l1_2" xml:lang="grc">εὖ ἴστε· πολλαὶ τῶν ἀλεκτρυόνων βίᾳ</l>
+                <l n="2" xml:id="kock-0019-daidalos-185_186-l2" xml:lang="grc">ὑπηνέμια τίκτουσιν ᾠὰ πολλάκις.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 374c Ἀριστοφάνης Δαιδάλῳ· ᾠὸν — ἀλεκτρυών. καὶ πάλιν· πολλαὶ κτλ. Photius et Suidas ὑπηνέμια λέγουσιν ὡς ἡμεῖς· Ἀριστοφάνης Δαιδάλῳ· ἐνίοτε πολλαὶ κτλ. Eustathius 1479, 28 omisso poetae nomine πολλαὶ τῶν ἀλεκτρυόνων ὑπηνέμια τίκτουσιν.</note>
+              <note type="apparatus">εὖ ἴστε Meinek. V 42] ἐνίοτε Suid. et Photius (ἐνιότε). ἓν ἴστε Porsonus, qui primus intellexit ἐνίοτε cum πολλαὶ πολλάκις coniungi non posse. πολλαί] πολλοί Suid. — fr. 186 Platoni tribuitur (fr. 19) a Schol. Nub. 663. sed Platonis nomen ex eis quae apud grammaticos saepissime alteri tertiove exemplo praemittuntur καὶ πάλιν ortum esse mihi quidem persuasit Dobraeus Schol. Aristoph. p. 206 ed. Dind. cf. Cobet Obs. crit. 81, qui contra plagiariorum in-</note>
+            </div>
+          </div></body></text></TEI>

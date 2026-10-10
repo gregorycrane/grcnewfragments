@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0019-lemniai-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aristophanes, ΛΗΜΝΙΑΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aristophanes</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="716" to="745"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 716–745. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aristophanes-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-09">Folded page-local headings into stable Aristophanic work identities, restored Dindorf's per-work numbering, and removed demonstrable duplicate page-724 records; transcribed content otherwise unchanged. Geras is absent from the source extraction.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0019.lemniai; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0019.lemniai.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0019.lemniai.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai"><head>ΛΗΜΝΙΑΙ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-lemniai-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(1.) Ammonius p. 138. Valcken.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐνταῦθ᾽ ἐτυράννευέν ποθ᾽ Ὑψιπύλης πατὴρ</l>
+              <l n="2" xml:lang="grc">Θόας, βράδιστος τῶν ἐν ἀνθρώποις δραμεῖν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-lemniai-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(2.) Athenæus VIII, p. 366 c.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Λήμνος κυάμους τρέφουσα (φέρουσα?) τακεροὺς</l>
+              <l n="2" xml:lang="grc">καὶ καλούς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-lemniai-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(3.) Pollux VII, 166.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-lemniai-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(4.) Scholiasta Aristophanis Acharn. v. 3. et Suidas in ψαμμοκοσιογάργαρα.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀλλ᾽ ἀρτίως κατέλιπον αὐτὴν σμωμένην</l>
+              <l n="2" xml:lang="grc">ἐν τῇ πυέλῳ.</l>
+            </lg>
+            <quote>Ἀνδρῶν ἐπακτῶν πᾶσ᾽ ἐγάργαιρ᾽ ἑστία.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-lemniai-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(5.) Suidas et grammaticus Bekkeri p. 423, 32. Ἀπεχρήσαντο:</note>
+            <quote>Τοὺς ἄνδρας ἀπεχρήσαντο τοὺς παιδοσπόρους.</quote>
+            <note type="commentary">Omisso nomine fabulæ versum attulit Etymolog. M. p. 124, 27, et verba τοὺς ἄνδρας ἀπεχρήσαντο Pollux IX, 153.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-lemniai-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(6.) Suidas in v. χρή, Λέγουσι δέ ποτε καὶ χρῆ ᾽σται ἀντὶ τοῦ δεῖ. — Α. Λ.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἡ καρδιώττεις; ἀλλὰ πῶς χρὴ ᾽σται ποιεῖν;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-lemniai-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(7.) Photius p. 290, 16. Νεαλής: ἐκτείνεται τὸ α. Ἀριστοφάνης Λημνίαις</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἕως νεαλής ἐστιν αὐτὴν τὴν ἀκμήν.</l>
+            </lg>
+            <note type="commentary">Μένανδρος. unde suppleri potest Phrynichus Bekkeri p. 52, 19.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-lemniai-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(8.) Pollux X, 25. Ἀπὸ τῶν μοχλῶν τὸ</note>
+            <quote>Μόχλωσον τὴν θύραν</quote>
+            <note type="commentary">ἐν Λημνίαις Ἀριστοφάνους.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-lemniai-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(9.) Suidas, 2 (4 Junius Adag. IV, 13.) νῦν θερμοὶ βωμοί: ἐπὶ τῶν διὰ χρόνου σπουδῆς τυγχανόντων. Ἀριστοφάνης δὲ ἐν Λημνίαις</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὴν κρατίστην δαίμον᾽, ἧς νῦν θερμός ἐσθ᾽ ὁ βωμός.</l>
+            </lg>
+            <note type="commentary">δηλοῖ δὲ ὅτι ἀεί τινες παρὰ τοῖς Ἀθηναίοις ξένοι θεοὶ ἐτιμῶντο. Δαίμονα autem dicit Bendin, hoc est Dianam: de qua Photius p. 251, 7. emendandus ex Hesychio in Μεγάλη θεός.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-lemniai-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(10.) Athenæus VII, p. 302 d.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ ἔγχελυν Βοιωτίαν, οὐ γλαῦκον, οὐχὶ θύννου</l>
+              <l n="2" xml:lang="grc">ὑπογάστριον.</l>
+            </lg>
+            <note type="commentary">Verba ἔγχελυν Βοιωτίαν attulit p. 299 b.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-lemniai-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(11.) Athenæus VII, p. 311 d.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐ κρανίον λάβρακος, οὐχὶ κάραβον πρίασθαι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-lemniai-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(12.) Pollux IX, 126.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πεντελίθοισί θ᾽ ὁμοῦ λεκάνης παραθραύμασι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-lemniai-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(13.) Etymolog. M. p. 283, 45. (Gudian. p. 159, 49.)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Αἱ (Αἱ δὲ Bentleius) γυναῖκες τὸν δορίαλλον φράγνυνται.</l>
+            </lg>
+            <note type="commentary">Conf. Hesychius in Δορυαλλός, Suidas in Δόριλλος et scholiasta Ranar. v. 519.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-lemniai-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(14.) Harpocratio, Ἀρκτεῦσαι:—ὅτι δὲ αἱ ἀρκτευόμεναι παρθένοι ἄρκτοι καλοῦνται Εὐριπίδης ἐν Ὑψιπύλῃ, Ἀριστοφάνης Λημνίαις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-lemniai-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(15.) Harpocratio, Μέταυλος: ἔστιν ἡ ῥυπαρὰ λεγομένη αὐλὴ, οὗ ὄρνιθες ἦσαν. Ἀριστοφάνης Λημνίαις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-lemniai-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(16.) Pollux VII, 139. Ἀριστοφάνης δὲ ἐν Λημνίαις εἴρηκε καὶ ναυφύλαξ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-lemniai-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(17.) Pollux VII, 152. Καὶ ὁ μὲν πρὸ ὥρας πεπαινόμενος καρπὸς πρῷμος ἐν Λημνίαις Ἀριστοφάνους. — τὰ δὲ φυτευτήρια τῶν σύκων συκίδας Ἀριστοφάνης ἐν ταῖς Λημνίαις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-lemniai-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_lemniai">
+            <note type="source">(18.) Scholiasta Lysistratæ v. 308. Τὸν φανόν: φανὸν μὲν πᾶν τὸ φαῖνον ἐκάλουν, ἐκ δὲ τῶν ἀμπελίνων τὰς λαμπάδας κατεσκεύαζον εἰς ἔξαψιν, ὡς καὶ ἐν Λημνίαις φησί.</note>
+          </div>
+        </div></body></text></TEI>

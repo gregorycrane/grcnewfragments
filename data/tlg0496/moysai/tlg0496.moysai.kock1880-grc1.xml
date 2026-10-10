@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHRYNICHUS, ΜΟΥΣΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Phrynichus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0496.moysai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0496.moysai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0496.moysai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_moysai"><head>ΜΟΥΣΑΙ</head><div type="textpart" subtype="fragment" n="31" xml:id="kock-0496-moysai-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_moysai">
+              <lg>
+                <l n="1" xml:id="kock-0496-moysai-31-l1" xml:lang="grc">μάκαρ Σοφοκλέης, ὃς πολὺν χρόνον βιοὺς</l>
+                <l n="2" xml:id="kock-0496-moysai-31-l2" xml:lang="grc">ἀπέθανεν, εὐδαίμων ἀνὴρ καὶ δεξιός,</l>
+                <l n="3" xml:id="kock-0496-moysai-31-l3" xml:lang="grc">πολλὰς ποιήσας καὶ καλὰς τραγῳδίας·</l>
+                <l n="4" xml:id="kock-0496-moysai-31-l4" xml:lang="grc">καλῶς δ’ ἐτελεύτησ’ οὐδὲν ὑπομείνας κακόν.</l>
+              </lg>
+              <note type="source">Argum. III Sophocl. Oed. Col. ὁ δὲ Φρύνιχος ἐν Μούσαις, ἃς συγκαθῆκε τοῖς Βατράχοις, φησὶν οὕτως κτλ.</note>
+              <note type="apparatus">Σοφοκλέης Elmsl.] Σοφοκλῆς. 4. δ’ add. Hermannus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="32" xml:id="kock-0496-moysai-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_moysai">
+              <lg>
+                <l n="1" xml:id="kock-0496-moysai-32-l1" xml:lang="grc">ἰδού, δέχου τὴν ψῆφον· ὁ καδίσκος δέ σοι</l>
+                <l n="2" xml:id="kock-0496-moysai-32-l2" xml:lang="grc">ὁ μὲν ἀπολύων οὗτος, ὁ δ’ ἀπολλὺς ὁδί.</l>
+              </lg>
+              <note type="source">Harpocratio, Photius, Suidas καδίσκος . . . ἀγγεῖόν τι, εἰς ὃ ἐψηφοφόρουν οἱ δικασταί, οὕτως ἔλεγον. Φρύνιχος Μούσαις κτλ.</note>
+              <note type="apparatus">2. ὁ δ’] ‘ὁ om. BC.’ Bekk. ἀπολλὺς δ’ pr. B. ad musicum poetarum certamen refert Meinekius. cf. Xen. Hell. 1, 7, 9.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="33" xml:id="kock-0496-moysai-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_moysai">
+              <lg>
+                <l n="1" xml:id="kock-0496-moysai-33-l1" xml:lang="grc">ὦ κάπραινα καὶ περίπολις καὶ δρομάς</l>
+              </lg>
+              <note type="source">Pollux 7, 203 ἐν δὲ Φρυνίχου Μούσαις κτλ.</note>
+              <note type="apparatus">ὦ καὶ Meinekius, ἀλλ’ ὦ Bergkius R. c. Att. 315. περίπολις] περιβολὰς A, περίπολε C. post Phrynichi verba καὶ φορβὰς τὴν πόρνην λέγει ὥσπερ καὶ μαινὰς καὶ μαχλάς add. A. Euripidis Musam compellari suspicatur Meinekius. cf. Aristoph. Ran. 1305. 8. Hermipp. 10. Cephisodor. 7. Phot. μύραινα (indic. Meinek.).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="34" xml:id="kock-0496-moysai-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_moysai">
+              <lg>
+                <l n="1" xml:id="kock-0496-moysai-34-l1" xml:lang="grc">κὰν ὀξυβάφῳ χρῆσται τρεῖς χοίνικας ἢ δύ’ ἀλεύρων.</l>
+              </lg>
+              <note type="source">Pollux 10, 86 οὐ γὰρ μόνον ἐπὶ τῶν κοτταβικῶν εἴρηται τὰ ὀξύβαφα, ἀλλὰ καὶ ἐπὶ τῶν εἰς τὴν ἐδώδιμον χρείαν . . . κὰν ταῖς Φρυνίχου Μούσαις κτλ.</note>
+              <note type="apparatus">χρῆσται Meinek.] χρῆσθαι. χρεῖσθαι C. cf. Pherecr. 103. μάττειν post χρῆσται add. Meinek.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="35" xml:id="kock-0496-moysai-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0496_moysai">
+              <p>πηλαμύς</p>
+              <note type="source">Φρύνιχος ἐν Μούσαις μνημονεύει. Athenaeus 7, 319 a. piscis est.</note>
+              <note type="apparatus">Praeterea ad Musas cum Bergkio R. c. Att. 376. 7 Meinekius fr. 65. 69 refert, ita tamen ut etiam ad Tragoedos pertinere potuisse concedat.</note>
+            </div>
+          </div></body></text></TEI>

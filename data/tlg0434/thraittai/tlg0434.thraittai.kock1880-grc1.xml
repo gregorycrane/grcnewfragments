@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΘΡΑΙΤΤΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.thraittai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.thraittai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.thraittai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai"><head>ΘΡΑΙΤΤΑΙ</head><div type="textpart" subtype="fragment" n="74" xml:id="kock-0434-thraittai-74" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai">
+              <lg>
+                <l n="1" xml:id="kock-0434-thraittai-74-l1" xml:lang="grc">Πανὶ κακὸν δεῦρο μαστάω τινά</l>
+                <l n="2" xml:id="kock-0434-thraittai-74-l2" xml:lang="grc">ποτὲ χαλκοῦν ἢ ξύλινον καὶ χρύσεον προσῆν.</l>
+                <l n="3" xml:id="kock-0434-thraittai-74-l3" xml:lang="grc">οὐδαμᾶς ξύλινος ἐκεῖνος * * * * * * * *</l>
+                <l n="4" xml:id="kock-0434-thraittai-74-l4" xml:lang="grc">ἀλλὰ χαλκοῦς ὢν ἀπέδρα. πότερα Δαιδάλειος ἦν;</l>
+                <l n="5" xml:id="kock-0434-thraittai-74-l5" xml:lang="grc">ἤ τις ἔκλεψεν αὐτόν;</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Eurip. Hec. 821 a Cobeto descriptum ex cod. Marc. 471, apud Geelium Eurip. Phoeniss. p. 256. 7 Κρατῖνος ἐν Θρᾴταις· πανὶ κακὸν δεῦρο μαστεύων. τίνα ποτὲ χαλκοῦν ἢ ξύλινον καὶ χρύσεον. πρὸς ἣν οὐδαμῶς ξύλινος ἐκεῖνος ἀλλὰ χαλκοῦς ὢν ἀπέδρα πότερον δαιδάλειος ἦν ἤ τις ἔκλεψεν αὐτόν. apud Dindorfium in ed. schol. v. 838 μαστεύων τινά — χρύσεον προσῆν — ἀπέδρα· — ἤ τίς.</p>
+              </note>
+              <note type="apparatus">
+                <p>quae supra leguntur Meinekii sunt. fragmentum plus quam desperatum. metro Eupolideo scriptum esse omnes consentiunt, quamquam sine dubio dialogus est, in quo id metri genus nusquam alibi inveniri Meinekius indicavit. Dobraeus Arist. Nub. 518 G. Hermanni apud Matthiaeum (ed. Eur.) emendationibus usus</p>
+                <lg>
+                  <l n="1_2" xml:id="kock-0434-thraittai-74-l1_2" xml:lang="grc">⏑ ⏑ ⏑ Πανὶ κάδον δεῦρο βάστασόν τινα.</l>
+                  <l n="2_2" xml:id="kock-0434-thraittai-74-l2_2" xml:lang="grc">Β. πότερα χαλκοῦν ἢ ξύλινον; Α. καὶ χρυσοῦν, ἐὰν προσῇ.</l>
+                  <l n="3_2" xml:id="kock-0434-thraittai-74-l3_2" xml:lang="grc">Β. οὐδαμῶς, ξύλινος δ᾽ ἐκεῖνός [σοι. χαλκοῦς μοί ποτ᾽ ἦν,]</l>
+                  <l n="4_2" xml:id="kock-0434-thraittai-74-l4_2" xml:lang="grc">ἀλλὰ χαλκοῦς ὢν ἀπέδρα κτλ.</l>
+                </lg>
+                <p>varias coniecturas Fritzschius Fragm. Eup. versu conscr. 6. 18. 19. proposuit. adiuvabit fortasse emendationem quem Meinekius attulit Dio Chrysost. Or. 37 p. 105 Reisk. ὁ δὲ ἀνδριὰς τῶν Δαιδάλου ποιημάτων ἔτυχεν ὢν καὶ λαθὼν ὑμᾶς ἀπέδρα. cf. Cratet. 15. Arist. fr. 194. Diodor. 4, 76. Bekk. Anecd. 240, 16. quaerere videtur nescio quis cadum furto ablatum, alter interrogare aeneus an ligneus fuerit.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="75" xml:id="kock-0434-thraittai-75" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai">
+              <note type="source">
+                <p>Schol. Aristoph. Vesp. 590 Εὔαθλος ῥήτωρ συκοφάντης, μνημονεύει δὲ αὐτοῦ καὶ Πλάτων ἐν Πεισάνδρῳ καὶ Κρατῖνος ἐν Θρᾴταις.</p>
+              </note>
+              <note type="apparatus">
+                <p>Euathlus, cui peregrinam originem comici exprobrant, discipulus fuit Protagorae. a quo cum τὸν κρείττονα καὶ τὸν ἥττονα λόγον didicisset, praeceptorem pacta mercede callidissime fraudavit. Gell. 5, 10. Bergk. R. c. Att. 97—101. cf. Arist. Ach. 710. Vesp. 592. fr. 411. Plat. 102.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="76" xml:id="kock-0434-thraittai-76" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai">
+              <lg>
+                <l n="1" xml:id="kock-0434-thraittai-76-l1" xml:lang="grc">τὴν πέρυσι βουλὴν ἐφεστώς.</l>
+              </lg>
+              <note type="source">Priscianus 18, 213 Κρατῖνος Θρᾴτταις.</note>
+              <note type="apparatus">mirum est quod Priscianus, ut Atticos ἐπιστατήσει ὑμῶν καὶ ὑμῖν dixisse probet, nullum dativi exemplum sed duo genetivi, unum accusativi adfert. Meinekius τῆς βουλῆς. at fortasse hoc dicit ‘per totum id tempus quod ἡ π. βουλὴ ἐβούλευε, praefectus erat’.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="77" xml:id="kock-0434-thraittai-77" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai">
+              <lg>
+                <l n="1" xml:id="kock-0434-thraittai-77-l1" xml:lang="grc">ὀκτώπουν ἀνεγείρεις.</l>
+              </lg>
+              <note type="source">Photius et Suidas ὀκτώπουν· Κρατῖνος Θρᾴτταις ἀντὶ τοῦ σκορπίον.</note>
+              <note type="apparatus">παροιμία γὰρ ‘σκορπίον [ὀκτώπουν] ἀνεγείρεις’. ὀκτώπους ex proverbio eiecit Meinekius. rectissime: nam proverbium erat σκορπίον ἀνεγείρεις, Cratinus autem scorpio figurate ὀκτώπουν substituerat. talibus ‘vocabulis significativis dialectos undique refertas fuisse multis exemplis intellegere possumus. Hesych. ἀσπάλους τοὺς ἰχθύας a palpitando. βάβακοι ὑπὸ Ἠλείων τέττιγες, ὑπὸ Ποντικῶν δὲ βάτραχοι. βωλώρυχα· τὴν σῦν Λάκωνες’. Lob. Aglaoph. II 847.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="78" xml:id="kock-0434-thraittai-78" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai">
+              <lg>
+                <l n="1" xml:id="kock-0434-thraittai-78-l1" xml:lang="grc">ἀπέφρησαν</l>
+              </lg>
+              <note type="source">ἀφῆκαν. Κρατῖνος Θρᾴσσαις. Hesych. ex emend. Meinek., cod. -ες Κρατίνοι θρασυ.</note>
+              <note type="apparatus">apud alios scriptores tantummodo ἐκφρεῖν et εἰσφρεῖν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="79" xml:id="kock-0434-thraittai-79" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai">
+              <lg>
+                <l n="1" xml:id="kock-0434-thraittai-79-l1" xml:lang="grc">ἀρκυωρός</l>
+              </lg>
+              <note type="source">ὁ τὰς ἄρκυς, τουτέστι τὰ λίνα, φυλάττων. ἄρκυς δὲ λέγονται πάντα τὰ κυνηγετικὰ λίνα . . Κρατῖνος Θρᾴτταις. Harpocrat.</note>
+              <note type="apparatus">— cum ἄρκυς vocabulum sit usitatius, ἀρκυωρός (vel potius ἁρκ.) multo rarius, hoc alterum ab Harpocratione significari videtur. cf. Xen. Cyneg. 6, 5. de spiritu F. G. Kiessling Lycurgi fr. p. 61 et Eupol. 313.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="80" xml:id="kock-0434-thraittai-80" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai">
+              <lg>
+                <l n="1" xml:id="kock-0434-thraittai-80-l1" xml:lang="grc">δίλογχον</l>
+              </lg>
+              <note type="source">τὴν Βένδιν οὕτω Κρατῖνος ἐν Θρᾴτταις ἐκάλεσεν, ἤτοι ὅτι δύο τιμὰς ἐκληρώσατο, οὐρανίαν τε καὶ χθονίαν· λόγχας γὰρ ἐκάλουν τοὺς κλήρους· οἱ δὲ ὅτι δύο φῶτα ἔχει, τὸ ἴδιον καὶ τὸ τοῦ ἡλίου. τὴν γὰρ σελήνην Βένδιν καὶ Ἄρτεμιν νομίζουσιν. Hesych.</note>
+              <note type="apparatus">— sic Hecaten tres sortes tresque formas accepisse veteres crediderunt. δίλογχος ex ipso verbo λαγχάνειν formatum ex dialecto nescio qua ad Atticos videtur pervenisse. ceterum rectius Βενδῖς Βενδῖν scribi ex grammaticorum testimoniis docuit Goettling. De accent. 275.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="81" xml:id="kock-0434-thraittai-81" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai">
+              <head>κακόδουλος</head>
+              <note type="source">Κρατῖνος Θρᾳκί Bekker. Anecd. 104, 18. Pollux 3, 80 παρὰ Κρατίνῳ δὲ ὁ κακόδουλος εἴρηται, i. e. homo qui nescit servis bene uti.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="82" xml:id="kock-0434-thraittai-82" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai">
+              <head>κύβηβον</head>
+              <note type="source">Κρατῖνος Θρᾴτταις. τὸν θεοφόρητον. Phot. — ita Ruhnkenius Tim. 11 pro θεόφραστον. idem Photius κύβηβος· ὁ κατεχόμενος τῇ μητρὶ τῶν θεῶν· θεοφόρητος. in primis Bendidis cultores ita adpellabantur, sicuti Bendis ipsa Κυβήβη. cf. Hesych. Κυβήβη. Bergk. R. c. Att. 92.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="83" xml:id="kock-0434-thraittai-83" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai">
+              <note type="source">Pollux 10, 67 προσθετέον δὲ τὰς ἐν Θρᾴτταις Κρατίνου πέλιχας ἢ κύλικας ἢ προχοίδια εἶναι δοκούσας. Athenaeus 11, 495a πελίκαι· Καλλίστρατος ἐν ὑπομνήματι Θρᾳττῶν Κρατίνου ἀποδίδωσι (i. e. interpretatur) κύλικα. Hesych. πελίκαν· εἶδος ποτηρίου ξυλίνου. διὰ τὸ πεπελεκῆσθαι. ἄλλοι ξυλίνη λεκάνη. Phot. πέλικαν· Βοιωτοὶ τὴν ξυλίνην λεκάνην, διὰ τὸ ἐκπεπελεκῆσθαι. Ἀπολλόδωρος δὲ ποτηρίου εἶδος. ac Pollux ipse 10, 73 ἔνιοι τὸν χοῦν καὶ πελίκην κεκλῆσθαι νομίζουσι καὶ εἶναι τοὔνομα Βοιωτικόν. 78 τὴν λεκάνην . . . Αἰολεῖς πέλικα (καλοῦοιν).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="84" xml:id="kock-0434-thraittai-84" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_thraittai">
+              <note type="source">Hesych. συρβηνεύς· Κρατῖνος ἐν Θρᾴτταις. ἤτοι αὐλητής. σύρβη γὰρ ἡ αὐλοθήκη. ἢ ταραχώδης. Zenob. 6, 1 συρβηνὸς (-εὺς?) χορός· αὕτη τέτακται κατὰ τῶν ἀτάκτων χορῶν, ἀπὸ τοῦ τινὰς τοῖς ὑσὶν ἐπιφωνεῖν σύρβας. σύρβην δὲ τὸν τάραχον ἔλεγον. (lat. turba.) Phot. συρβηνεύς· ὁ ταραχώδης· ἀπὸ τῶν αὐλούντων μετὰ θορύβου· ἢ πένης· διὰ τὸ τὰς αὐλοθήκας καὶ φαρέτρας κενὰς (εἶναι)· καὶ συρβηνέων χορός· ὁ τεταραγμένος καὶ συώδης· ἀπὸ τοῦ τοῖς συσὶν ἐπιφωνουμένου. Athen. 15, 669b ἐπεὶ θόρυβος κατεῖχε τὸ συμπόσιον, ἔφη· τίς οὗτος ὁ τῶν συρβηνέων χορός; Clearch. apud eundem 15, 697f ὁ συρβηνέων χορός, ὧν ἕκαστον τὸ δοκοῦν ἑαυτῷ κατᾶσαι δεῖ, προσέχων οὐδὲν τῷ προκαθημένῳ καὶ διδάσκοντι τὸν χορόν (nos Katzenmusik). addit Meinekius in ed. min. scriptorem in Mai Spicil. Rom. II 314 τυρβηνέων τι καινὸν ἐργαστήριον, qui est trimeter comicus, fortasse ipsius Cratini, quo Thraessarum chorus significabatur.</note>
+              <note type="apparatus">Ad hanc fabulam Bergkius R. c. Att. 92 etiam fr. 321 refert, sed non sine dubitatione.</note>
+            </div>
+          </div></body></text></TEI>

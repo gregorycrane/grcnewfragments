@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΑΘΑΜΑΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.athamas; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.athamas.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.athamas.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:athamas"><head xml:lang="grc">ΑΘΑΜΑΣ</head>
+          <note type="introduction" xml:lang="mul">Huic fabulae probabiliter adesp. fr. 1 adscribitur.</note>
+          <div type="textpart" subtype="fragment" n="1" corresp="urn:cite2:perseus:fragmentaryplays.v1:athamas" xml:id="aesch-fr1">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="aesch-fr1-l1">τὸν μὲν τρίπους ἐδέξατ’ οἰκεῖος λέβης</l>
+              <l n="2" xml:id="aesch-fr1-l2">αἰεὶ φυλάσσων τὴν ὑπὲρ πυρὸς στάσιν</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. II p. 37 F ( Eust. Il. p. 740 10 ) : ἦν γὰρ τὸ ἀρχαῖον δύο γένη τριπόδων, οὓς καλεῖσθαι λέβητας συνέβαινεν ἀμφοτέρους, ἐμπυριβήτης ὁ καὶ λοετροχόος· Αἰσχύλος τὸν μὲν — στάσιν · ὁ δ’ ἕτερος κρατὴρ καλούμενος. cf. Ath. VII p. 316 B: καὶ τρίπουν δὲ λέβητα Αἰσχύλον εἰρηκέναι ἐν Ἀθάμαντι. Eust. Od. p. 1541 29: καὶ τὸν τρίπουν λέβητα παρ’ Αἰσχύλῳ . Hesych. 3 p. 19: λέβης· χάλκειος ποδονιπτήρ, τρίπους.</note>
+            <note type="sourceContext" xml:lang="mul">v. 1 τρίπουν ἐδέξατ’ οἶκον C. Emperius Opusc. philol. p. 345 coll. Agam. 444 coni. εὔθετος λέβης.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" corresp="urn:cite2:perseus:fragmentaryplays.v1:athamas" xml:id="aesch-fr2">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="aesch-fr2-l1">χαλκοῖσιν ἐξαυστῆρες χειρούμενοι</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Etym. M. p. 346 56 : ἐξαυστήρ· σημαίνει σκεῦός τι. παρὰ τὸ αὔω αὔσω, αὐστήρ καὶ ἐξαυστήρ. Αἰσχύλος. ubi Αἰσχύλος om. V, Etym. Flor. p. 116 praebet: Αἰσχύλος Ἀθάμαντι χαλκέοισιν ἐξαυστῆρες χειρούμενοι. cf. Hesych. 2 p. 117: ἐξαυστήρ· κρεάγρα.</note>
+            <note type="sourceContext" xml:lang="mul">χαλκοῖσιν χαλκέοισιν cod. Flor. scripsi. Dindorf coni. ἐξαυστῆρσιν ἐξαιρούμενοι. Lehrs de Arist. Stud. Hom. ed. alt. p. 291 formam ἐξαυτήρ probat.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" corresp="urn:cite2:perseus:fragmentaryplays.v1:athamas" xml:id="aesch-fr3">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="aesch-fr3-l1">ἀήτους</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 61: ἀήτους· μεγάλας. Αἰσχύλος Ἀθάμαντι (ἀθάμαντας cod.).</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" corresp="urn:cite2:perseus:fragmentaryplays.v1:athamas" xml:id="aesch-fr4">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="aesch-fr4-l1">ἀπαρτί</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 1 p. 228: ἀπαρτὶ· ἀπηρτισμένως (ἀπαρτιᾶ ἀπαρτισμένος cod.), ἀκριβῶς. Αἰσχύλος Ἀθάμαντι. cf. Anecd. Bekk. p. 210 23. ἀπαρτί· ἀπηρτισμένως. item Anecd. Bekk. p. 418 12: ἀπηρτισμένως· ἀκριβῶς. ubi leg. : ἀπαρτί· ἀπηρτισμένως, ἀκριβῶς.</note>
+          </div>
+        </div></body></text>
+</TEI>

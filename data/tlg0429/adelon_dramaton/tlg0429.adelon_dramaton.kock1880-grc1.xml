@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CEPHISODORUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cephisodorus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0429.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0429.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0429.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0429_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="8" xml:id="kock-0429-adelon_dramaton-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0429_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0429-adelon_dramaton-8-l1" xml:lang="grc">κρεάδιόν τι φαῦλον ἢ ταρίχιον</l>
+              </lg>
+              <note type="source">Athenaeus 3, 119d Κηφισόδωρος ἐν Ὑί κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="9" xml:id="kock-0429-adelon_dramaton-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0429_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0429-adelon_dramaton-9-l1" xml:lang="grc">οὐδ’ ὀψοφάγος οὐδ’ ἀδολέσχης</l>
+              </lg>
+              <note type="source">Athenaeus 8, 345f Κηφισόδωρος Ὑί κτλ. Ὑί· οὐδ’ ὀψοφάγος Casaub.] νἱοῦ δ’ ὀψοφάγος οὐδ’ ὀψοφάγος A.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="10" xml:id="kock-0429-adelon_dramaton-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0429_adelon_dramaton">
+              <note type="source">Pollux 10, 109. 110, ubi instrumenta culinaria enumerantur: τὸν δὲ φρυγέα καὶ αὐτὸν ὡς σκεῦος μαγειρικόν, εἴτε τὸ ἀγγεῖον ἐν ᾧ ἔφρυγον, εἴτε τὸ φρύγετρον . . . καὶ μὴν καὶ Κηφισοδώρου ἐν Τι εἰπόντος σπονδὴ δὲ παρὰ τῶν ὁλκάδων καὶ καταφαντισγός.</note>
+              <note type="apparatus">nemo adhuc intellexit, cum praesertim non adpareat quomodo in his inesse possit nomen φρυγέως vel alius σκεύους μαγειρικοῦ. pro ὁλκάδων fortasse scribendum λοπάδων, pro καταφαντισγός ἀφανισμός. ceterum emendatio eo difficilior videtur, quod ipsius Pollucis verba manca sunt et inperfecta. infeliciter rem gessit Naberus Mnem. nov. VIII 42.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0429-adelon_dramaton-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0429_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0429-adelon_dramaton-11-l1" xml:lang="grc">λυχναψίαν</l>
+              </lg>
+              <note type="source">Κηφισόδωρος ἐν Ὑί, (ἣν οἱ πολλοὶ λυχνοκαυτίαν λέγουσι). Athenaeus 15, 701a. pervertit rem Eustathius 1571, 22 λέγει δὲ ὁ Ναυκρατίτης ῥήτωρ καὶ ὅτι λυχνοκαυτίαν ἔφη Κηφισόδωρος, ἣν οἱ πολλοὶ λυχναψίαν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0429-adelon_dramaton-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0429_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0429-adelon_dramaton-12-l1" xml:lang="grc">ἄγε δή τις ἀρχὴ τῶν λόγων γενήσεται;</l>
+              </lg>
+              <note type="source">κατὰ τὸν κωμωδιοποιὸν Κηφισόδωρον. Athenaeus 11, 459d.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="13" xml:id="kock-0429-adelon_dramaton-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0429_adelon_dramaton">
+              <note type="source">Pollux 4, 173 (de trutina) τὰ δὲ ὀνομαζόμενα στάθμια σταθμά στάσιμα καὶ ἐπίσταθμα ὠνόμασε Κηφισόδωρος ὁ κωμικός. cod. A σταθμία ἐστὶ στάθμα στάσιμα ἔνια κηφισόδωρος ὠνόμασε. Pollux 10, 126 στάσιμα δὲ τὰ στάθμια Κηφισόδωρος κέκληκε.</note>
+              <note type="apparatus">vix potest dubitari quin utrubique idem doceat, quae ab aliis dicantur σταθμία, σταθμά, ἐπίσταθμα a Cephisodoro etiam (καί) στάσιμα vocari.</note>
+            </div>
+          </div></body></text></TEI>

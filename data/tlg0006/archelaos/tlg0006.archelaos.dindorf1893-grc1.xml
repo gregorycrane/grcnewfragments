@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-archelaos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΑΡΧΕΛΑΟΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.archelaos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.archelaos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.archelaos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos"><head>ΑΡΧΕΛΑΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-archelaos-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos">
+            <note type="source">1. Aristoph. Ran. 1237.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Αἴγυπτος, ὡς ὁ πλεῖστος ἔσπαρται λόγος,</l>
+              <l n="2" xml:lang="grc">σὺν παισὶ πεντήκοντα ναυτίλῳ πλάτῃ</l>
+              <l n="3" xml:lang="grc">Ἄργος κατασχὼν</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-archelaos-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:228">
+            <note type="source">2. Tiber. περὶ σχημ. in Walz. Rhet. Gr. Vol. VIII, p. 577, 10; Anonymi de Nili increment. post Herodot. Wesseling. p. 788 et post Athenæi librum II, ed. Dindorf. vol. I, p. 164; Strabo V, p. 339 A. VIII, p. 570 C.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δαναὸς, ὁ πεντήκοντα θυγατέρων πατήρ,</l>
+              <l n="2" xml:lang="grc">Νείλου λιπὼν κάλλιστον ἐκ γαίας ὕδωρ,</l>
+              <l n="3" xml:lang="grc">ὃς ἐκ μελαμβρότοιο πληροῦται ῥοὰς</l>
+              <l n="4" xml:lang="grc">Αἰθιοπίδος γῆς, ἡνίκ᾽ ἂν τακῇ χιὼν,</l>
+              <l n="5" xml:lang="grc">τεθριππεύοντος ἡλίου κατ᾽ αἰθέρα,</l>
+              <l n="6" xml:lang="grc">ἐλθὼν ἐς Ἄργος ᾤκισ᾽ Ἰνάχου πόλιν,</l>
+              <l n="7" xml:lang="grc">Πελασγιώτας δ᾽ ὠνομασμένους τὸ πρὶν</l>
+              <l n="8" xml:lang="grc">Δαναοὺς καλεῖσθαι νόμον ἔθηκ᾽ ἀν᾽ Ἑλλάδα.</l>
+            </lg>
+            <note type="commentary">Ad eundem prologum referre non dubito versus quosdam, quos schol. Pind. Pyth. VIII, 73. ed. Boeckh. servavit hæc scribens: ὅτι δὲ Λυγκέως Ἄβας ἐξ ἐκείνου δῆλον</note>
+            <quote>
+              <lg type="fragment">
+                <l n="9" xml:lang="grc">Σφαγὰς δὲ Δαναοῦ παρθένων Λυγκεὺς φυγὼν</l>
+                <l n="10" xml:lang="grc">Ἄβαντα φύει διάδοχον τυραννίδος.</l>
+              </lg>
+            </quote>
+            <note type="commentary">quosque Boeckhius optime ex Euripideæ fabulæ prologo petitos esse intellexit, licet minus recte ad Danaen vel Sthenebœam referri eos voluerit.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-archelaos-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:229">
+            <note type="source">3. Dion. Halic. de comp. verb. 25, p. 394 ed. Schaef. Τὸ δὲ ἐπὶ τούτῳ λαμβανόμενον κῶλον ἐξ ἀναπαίστων συγκεῖται ῥυθμῶν, καὶ προάγει μέχρι ποδῶν ὀκτὼ, τὸ αὐτὸ σχῆμα διασώζον – – ὅμοιον τῷ παο᾿ Εὐριπίδῃ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Βασιλεῦ χώρας τῆς πολυβώλου,</l>
+              <l n="2" xml:lang="grc">Κισσεῦ, πεδίον πυρὶ μαρμαίρει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-archelaos-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:230">
+            <note type="source">4. Stobæus XCVI, 3.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐ γὰρ ὑπερθεῖν κύματος ἄκραν</l>
+              <l n="2" xml:lang="grc">δυνάμεσθ᾽. ἔτι γὰρ θάλλει πενία,</l>
+              <l n="3" xml:lang="grc">κακὸν ἔχθιστον, φεύγει δ᾽ ὄλβος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-archelaos-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:242">
+            <note type="source">5. Stobæus LIV, 11, LXXXVIII, 4.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἔχει δὲ καὶ τοῦτ᾽ οὐχὶ μικρὸν εὐγενὴς</l>
+              <l n="2" xml:lang="grc">ἀνὴρ στρατηγῶν εὐκλεᾶ τ᾽ ἔχων φάτιν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-archelaos-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos">
+            <note type="source">6. Stobæus LXXXVIII, 5.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐν τοῖς τέκνοις γὰρ ἁρετὴ τῶν εὐγενῶν</l>
+              <l n="2" xml:lang="grc">ἂν ἔλαβε κρείσσων τ᾽ ἐστὶ πλουσίου γάμου.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-archelaos-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:231">
+            <note type="source">7. Stobæus LXXXVIII, 3. Plut. de nobil. T. V, p. 965 ed. Wyttenb.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">κάλλιστον ἕξεις στέφανον εὐκλείας ἀεί.</l>
+              <l n="2" xml:lang="grc">Ἡμῶν τί δῆτα τυγχάνεις χρείαν ἔχων;</l>
+              <l n="3" xml:lang="grc">πατέρων γὰρ ἐσθλῶν ἐλπίδας δίδως γεγώς.</l>
+              <l n="4" xml:lang="grc">– πένης γὰρ οὐκ ἐκεῖν᾽ ἀπώλεσεν</l>
+              <l n="5" xml:lang="grc">τὸ τοῦ πατρὸς γενναῖον–</l>
+            </lg>
+            <note type="commentary">Hoc et antecedente fragmento in hunc modum conjuncto ita scripsit Pflugkius:</note>
+            <quote>
+              <lg type="fragment">
+                <l n="6" xml:lang="grc">Ἡμῶν τί δῆτα τυγχάνεις χρείαν ἔχων;</l>
+                <l n="7" xml:lang="grc">πατέρων γὰρ ἐσθλῶν ἐλπίδας δίδως γεγώς.</l>
+                <l n="8" xml:lang="grc">ἐν τοῖς τέκνοις γὰρ ἁρέτη τῶν εὐγενῶν</l>
+                <l n="9" xml:lang="grc">ἐνέλαμψε, κρείσσων τ᾽ ἐστὶ πλουσίου γάμου</l>
+                <l n="10" xml:lang="grc">[πένης] πένης γὰρ οὐκ ἐκεῖν᾽ ἀπώλεσεν,</l>
+                <l n="11" xml:lang="grc">τὸ τοῦ πατρὸς γενναῖον.</l>
+              </lg>
+            </quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-archelaos-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:237">
+            <note type="source">8. Stobæus LI, 4.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Νεανίαν γὰρ ἄνδρα χρὴ τολμᾶν ἀεί·</l>
+              <l n="2" xml:lang="grc">οὐδεὶς γὰρ ὢν ῥάθυμος εὐκλεὴς ἀνὴρ,</l>
+              <l n="3" xml:lang="grc">ἀλλ᾽ οἱ πόνοι τίκτουσι τὴν εὐδοξίαν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-archelaos-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:238">
+            <note type="source">9. Stobæus XXIX, 14.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ ἔστιν, ὅστις ἡδέως ζητῶν βιοῦν</l>
+              <l n="2" xml:lang="grc">εὔκλειαν εἰσεκτήσατ᾽, ἀλλὰ χρὴ πονεῖν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-archelaos-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:239">
+            <note type="source">10. Stobæus VIII, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὁ δ᾽ ἡδὺς αἰών ἡ κακή τ᾽ ἀνανδρία</l>
+              <l n="2" xml:lang="grc">οὔτ᾽ οἶκον οὔτε γαῖαν ὀρθώσειεν ἄν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-archelaos-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:236">
+            <note type="source">11. Stobæus XXIX, 44.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σὺν μυρίοισι τὰ καλὰ γίγνεται πόνοις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-archelaos-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:233">
+            <note type="source">12. Stobæus XXIX, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σοὶ δ᾽ εἶπον, ὦ παῖ, τὰς τύχας ἐκ τῶν πόνων</l>
+              <l n="2" xml:lang="grc">θηρᾶν· ὁρᾷς γὰρ σὸν πατέρα τιμώμενον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-archelaos-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:240">
+            <note type="source">13. Stobæus LI, 7.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐμὲ δ᾽ ἄρ᾽ οὐ</l>
+              <l n="2" xml:lang="grc">μοχθεῖν δίκαιον; τίς δ᾽ ἀμόχθητος εὐκλεής;</l>
+              <l n="3" xml:lang="grc">τίς τῶν μεγίστων δειλὸς ὢν ὠρέξατο;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-archelaos-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:243">
+            <note type="source">14. Stobæus LIV, 10.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὀλίγον ἄλκιμον δόρυ</l>
+              <l n="2" xml:lang="grc">κρεῖσσον στρατηγοῦ μυρίου στρατεύματος.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-archelaos-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:244">
+            <note type="source">15. Stobæus LI, 9. Orion. Antholognom. VII, 3, p. 51 ed. Schneidew.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὀλίγοι γὰρ ἐσθλοὶ κρείσσονες πολλῶν κακῶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-archelaos-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:241">
+            <note type="source">16. Schol. Eur. Phœn. 1159.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐγὼ δὲ σὸν κρᾶτ᾽ ἀναστέψαι θέλω.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="17" xml:id="fragment-archelaos-dindorf1893_grc1-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:234">
+            <note type="source">17. Stobæus LXXIX, 19.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πατρὸς δ᾽ ἀνάγκη παισὶ πείθεσθαι λόγῳ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="fragment-archelaos-dindorf1893_grc1-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:245">
+            <note type="source">18. Stobæus VII, 5.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἕν δέ σοι μόνον προφωνῶ, μὴ ἐπὶ δουλείαν ποτὲ</l>
+              <l n="2" xml:lang="grc">ζῶν ἑκὼν ἔλθῃς παρόν σοι κατθανεῖν ἐλευθέρως.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="19" xml:id="fragment-archelaos-dindorf1893_grc1-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:246">
+            <note type="source">19. Stobæus LII, 4.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Νεανίας τε καὶ πένης σοφός θ᾽ ἅμα,</l>
+              <l n="2" xml:lang="grc">ταῦτ᾽ εἰς ἓν ἐλθόντ᾽, ἄξι᾽ ἐνθυμήσεως.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="20" xml:id="fragment-archelaos-dindorf1893_grc1-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:250">
+            <note type="source">20. Stobæus XLVII, 5.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τυραννὶς εἶναι θεῶν βίος νομίζεται</l>
+              <l n="2" xml:lang="grc">τὸ μὴ θανεῖν γὰρ οὐκ ἔχει, τὰ δ᾽ ἄλλ᾽ ἔχει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="21" xml:id="fragment-archelaos-dindorf1893_grc1-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:247">
+            <note type="source">21. Stobæus XCI, 16.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τί δ᾽ οὐκ ἂν εἴη χρηστὸς ὄλβιος γεγώς;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="fragment-archelaos-dindorf1893_grc1-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:248">
+            <note type="source">22. Stobæus XCVI, 4.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐκ ἔστι πενίας ἱρὸν, αἰσχίστης θεοῦ.</l>
+              <l n="2" xml:lang="grc">μισῶ γὰρ ὄντως, οἵτινες φρονοῦσι μὲν,</l>
+              <l n="3" xml:lang="grc">φρονοῦσι δ᾽ οὐδενός γε χρημάτων ὕπερ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="23" xml:id="fragment-archelaos-dindorf1893_grc1-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos">
+            <note type="source">23. Stobæus XCI, 18.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="24" xml:id="fragment-archelaos-dindorf1893_grc1-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:249">
+            <note type="source">24. Stobæus LXII, 11.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μὴ πλούσιον θῇς· ἐνδεέστερος γὰρ ἂν</l>
+              <l n="2" xml:lang="grc">ταπεινὸς ἔσται· κεῖνο δ᾽ ἰσχύει μέγα,</l>
+              <l n="3" xml:lang="grc">πλοῦτος, λαβών τε τοῦτον εὐγενὴς ἀνήρ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="25" xml:id="fragment-archelaos-dindorf1893_grc1-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:251">
+            <note type="source">25. Stobæus XX, 11.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κρείσσω γὰρ οὔτε δοῦλον οὔτ᾽ ἐλεύθερον</l>
+              <l n="2" xml:lang="grc">τρέφειν ἐν οἴκοις ἀσφαλὲς τοῖς σώφροσι.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="26" xml:id="fragment-archelaos-dindorf1893_grc1-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:257">
+            <note type="source">26. Stobæus CXXII, 7.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πολλοὺς δ᾽ ὁ θυμὸς ὁ μέγας ὤλεσεν βροτῶν</l>
+              <l n="2" xml:lang="grc">ἥ τ᾽ ἀξυνεσία, δύο κακὼ τῷ χρωμένῳ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="27" xml:id="fragment-archelaos-dindorf1893_grc1-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:263">
+            <note type="source">27. Stobæus XXIX, 12.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἔστιν καὶ παρὰ δάκρυσι κείμενον</l>
+              <l n="2" xml:lang="grc">ἡδὺ βροτοῖς, ὅταν</l>
+              <l n="3" xml:lang="grc">ἄνδρα φίλον στενάχῃ τις ἐν οἴκτῳ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="28" xml:id="fragment-archelaos-dindorf1893_grc1-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:260">
+            <note type="source">28. Schol. Pind. Pyth. II, 54.</note>
+            <note type="commentary">Πειρατὰς τοὺς κατὰ πέλαγος λῃστὰς λέγομεν, κυρίως δὲ τοὺς ἐν ὁδῷ κακουργοῦντας, παρ᾽ ὁ δὴ καὶ ὁδουροὺς αὐτοὺς λέγουσιν. Εὐριπίδης ἐν Ἀρχελάῳ·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἔπαυσ᾽ ὁδουροὺς λυμεῶνας.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="29" xml:id="fragment-archelaos-dindorf1893_grc1-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:261">
+            <note type="source">29. Stobæus LXII, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἔσωσα δούλην οὖσαν· οἱ γὰρ ἥσσονες</l>
+              <l n="2" xml:lang="grc">τοῖς κρείσσοσιν φιλοῦσι δουλεύειν βροτῶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="30_31" xml:id="fragment-archelaos-dindorf1893_grc1-30_31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos">
+            <note type="source">30, 31. Stobæus XCIII, 12.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πλουτεῖς ; ὁ πλοῦτος δ᾽ ἀμαθία δειλόν θ᾽ ἅμα.</l>
+            </lg>
+            <note type="commentary">Huc etiam procul dubio referenda et Archelao tribuenda sunt verba, quæ Plut. de EI Delph. init. (p. 384 D.) servavit quæque locum habere in nulla fabula nisi in Archelao potuisse ad finem argumenti ostendimus:</note>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">Οὐ βούλομαι πλουτοῦντι δωρεῖσθαι πένης,</l>
+              <l n="3" xml:lang="grc">μή μ᾿ ἄφρονα κρίνῃς ἢ διδοὺς αἰτεῖν δοκῶ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="32" xml:id="fragment-archelaos-dindorf1893_grc1-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos">
+            <note type="source">32. Orion. Anthologn. III, 1, p. 44 ed. Schneidewin.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Εἰ (sic) τῶν δικαίων γὰρ νόμοι τ᾿ αὐξήματα</l>
+              <l n="2" xml:lang="grc">μεγάλα φέρουσι, πάντα δ᾽ ἀνθρώποις</l>
+              <l n="3" xml:lang="grc">τάδ᾽ ἐστι χρήματα, ἤν τις εὐσεβῇ θεόν.</l>
+            </lg>
+            <note type="commentary">Schneidewinus scribi voluit:</note>
+            <lg type="fragment">
+              <l n="4" xml:lang="grc">Τῶν γὰρ δικαίων οἱ νόμοι ταὐξήματα</l>
+              <l n="5" xml:lang="grc">μεγάλα φέρουσι· πάντα δ᾽ ἀνθρώποις τάδε</l>
+              <l n="6" xml:lang="grc">πάρεστι χρήματ', ἤν τις εὐσεβῇ θεόν.</l>
+            </lg>
+            <note type="commentary">Rankius locum sic constituit:</note>
+            <lg type="fragment">
+              <l n="7" xml:lang="grc">Οἱ τῶν δικαίων γὰρ νόμοι ταὐξήματα</l>
+              <l n="8" xml:lang="grc">μεγάλα φέρουσι, πάντα δ᾽ ἀνθρώποισί τοι</l>
+              <l n="9" xml:lang="grc">τάδ᾽ ἐστι χρήματ᾽, ἤν τις εὐσεβῇ θεόν.</l>
+            </lg>
+            <note type="commentary">A. Meinekius denique correxit:</note>
+            <lg type="fragment">
+              <l n="10" xml:lang="grc">Ἐκ τῶν δικαίων οἱ νόμοι ταὐξήματα</l>
+              <l n="11" xml:lang="grc">μεγάλα φέρουσι, πάντα δ᾽ ἀνθρώπει᾽ ἀεί·</l>
+              <l n="12" xml:lang="grc">τάδ᾽ ἐστι χρήματ', ἤν τις εὐσεβῇ θεόν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="33" xml:id="fragment-archelaos-dindorf1893_grc1-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:254">
+            <note type="source">33. Plut. de audiend. poet. II, (p. 20 D.)</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κ. Πόλλ', ὦ τέκνον, σφάλλουσιν ἀνθρώπους θεοί.</l>
+              <l n="2" xml:lang="grc">Α. Τὸ ῥᾷστον εἶπας, αἰτιάσασθαι θεούς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="34" xml:id="fragment-archelaos-dindorf1893_grc1-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:253">
+            <note type="source">34. Stobæus XXXIV, 2.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἁπλοῦς ὁ μῦθος, μὴ λέγ᾽ εὐ· τὸ γὰρ λέγειν</l>
+              <l n="2" xml:lang="grc">εὐ δεινόν ἐστιν, εἰ φέροι τινὰ βλάβην.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="35" xml:id="fragment-archelaos-dindorf1893_grc1-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos">
+            <note type="source">35. Stobæus XX, 12.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">᾿Ὀργῇ δὲ φαύλῃ πόλλ᾽ ἔνεστ᾽ ἀσχήμονα.</l>
+            </lg>
+            <note type="commentary">Hic versus apud Stobæum cum duobus aliis conjunctus est:</note>
+            <lg type="fragment">
+              <l n="2" xml:lang="grc">ἔξω γὰρ ὀργῆς πᾶς ἀνηρ σοφώτερος.</l>
+              <l n="3" xml:lang="grc">πόλλ᾽ ἐστιν ὀργῆς ἐξ ἀπαιδεύτου κακά</l>
+            </lg>
+            <note type="commentary">quorum priorem Stobæus paullo post (XX, 31.) ex Hypsipile Eurip. citat. Recte igitur Grotius hoc fgtm., quippe cujus singuli versus inter se non cohæreant, in tria fragmenta distinxit; nos autem versum 2 inter Hypsipiles (fgm. VIII.), versum 3. inter incert. fab. fgm. (XX.) recepimus. cf. Belleroph. fgm. XV.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="36" xml:id="fragment-archelaos-dindorf1893_grc1-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:258">
+            <note type="source">36. Stobæus XX, 25.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τῷ γὰρ βιαίῳ κἀγρίῳ τὸ μαλθακὸν</l>
+              <l n="2" xml:lang="grc">εἰς ταὐτὸν ἐλθὸν τοῦ λίαν παρείλετο.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="37" xml:id="fragment-archelaos-dindorf1893_grc1-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos">
+            <note type="source">37. Stobæus Ecl. Phys. I, 4, 47, p. 130 ed. Heer. omisso auctoris et fabulæ nomine.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Δοκεῖς τὰ τῶν θεῶν ξυνετὰ νικήσειν ποτέ,</l>
+              <l n="2" xml:lang="grc">καὶ τὴν Δίκην μακρὰν ἀπῳκίσθαι βροτῶν,</l>
+              <l n="3" xml:lang="grc">ἥδ᾽ ἐγγὺς ἐστιν· οὐχ ὁρωμένη δ᾽ ὁρᾷ,</l>
+              <l n="4" xml:lang="grc">ὃν χρὴ κολάζειν τ᾿ οἶδεν· ἀλλ᾽ οὐκ οἶσθα σὺ,</l>
+              <l n="5" xml:lang="grc">ὁπόταν ἄφνω μολοῦσα διολέσῃ κακούς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="38" xml:id="fragment-archelaos-dindorf1893_grc1-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:256">
+            <note type="source">38. Orion. Anthologn. III, 2, p. 45 ed. Schneidewin.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Μακάριος, ὅστις νοῦν ἔχων τιμᾷ θεὸν,</l>
+              <l n="2" xml:lang="grc">καὶ κέρδος αὐτῷ τοῦτο ποιεῖται μέγα.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="39" xml:id="fragment-archelaos-dindorf1893_grc1-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:262">
+            <note type="source">39. Orion. Anthologn. VIII, 2, p. 52 ed. Schneidewin. Stobæus CV, 31.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πάλαι σκοποῦμαι τὰς τύχας τὰς τῶν βροτῶν,</l>
+              <l n="2" xml:lang="grc">ὡς εὐ μεταλλάσσουσιν· ὃς γὰρ ἂν σφαλῇ,</l>
+              <l n="3" xml:lang="grc">εἰς ὀρθὸν ἔστη, χὼ πρὶν εὐτυχῶν πιτνεῖ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="40" xml:id="fragment-archelaos-dindorf1893_grc1-40" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_archelaos" sameAs="urn:cts:greekLit:tlg0006.archelaos.nauck1889grc1:264">
+            <note type="source">40. Stobæus Ecl. Phys. I, 4, 35, p. 124 ed. Heeren.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὰ γὰρ οὐκ ὀρθῶς πρασσόμεν᾽ ὀρθῶς</l>
+              <l n="2" xml:lang="grc">τοῖς πράσσουσιν κακὸν ἦλθεν.</l>
+            </lg>
+          </div>
+          </div></body></text></TEI>

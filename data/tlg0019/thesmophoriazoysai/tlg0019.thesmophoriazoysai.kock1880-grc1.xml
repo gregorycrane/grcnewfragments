@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΘΕΣΜΟΦΟΡΙΑΖΟΥΣΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.thesmophoriazoysai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.thesmophoriazoysai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.thesmophoriazoysai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_thesmophoriazoysai"><head>ΘΕΣΜΟΦΟΡΙΑΖΟΥΣΑΙ</head><div type="textpart" subtype="fragment" n="319" xml:id="kock-0019-thesmophoriazoysai-319" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_thesmophoriazoysai">
+              <lg>
+                <l n="1" xml:id="kock-0019-thesmophoriazoysai-319-l1" xml:lang="grc">ὦ Ζεῦ πολυτίμηθ', οἷον ἐνέπνευσ' ὁ μιαρὸς</l>
+                <l n="2" xml:id="kock-0019-thesmophoriazoysai-319-l2" xml:lang="grc">φάσκωλος εὐθὺς λυόμενός μοι τοῦ μύρου</l>
+                <l n="3" xml:id="kock-0019-thesmophoriazoysai-319-l3" xml:lang="grc">καὶ βακκάριδος.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 15, 690d παρὰ πολλοῖς τῶν κωμῳδιοποιῶν ὀνομάζεταί τι μύρον βάκκαρις . . . Ἀριστοφάνης ἐν Θεσμοφοριαζούσαις κτλ. Pollux 10, 137 ἵνα δὲ ἀποτίθενται αἱ ἐσθῆτες . . . φάσκωλοι, ὡς ἐν Θεσμοφοριαζούσαις. Harpocratio φάσκωλον (φάσκωλος δὲ Fritzsch.) πήρα τις οὕτως ἐκαλεῖτο παρ' αὐτοῖς . . . Ἀριστοφάνης Θεσμοφοριαζούσαις. Erotianus 59, 8 Klein. βάκχαρις· εἶδος βοτάνης καὶ μύρου, οὗ καὶ Ἀριστοφάνης μέμνηται. Photius φασκώλιον· ἱματιοφορεῖον (sic Porsonus)· φάσκωλον δέ ἐστι μαρσίππιον. Pollux 7, 79 καὶ φασκώλους δὲ ἔλεγον οἱ παλαιοὶ τὰ τῶν ἱματίων ἀγγεῖα καὶ θυλάκους.</p>
+              </note>
+              <note type="apparatus">
+                <p>ἐνέπνευσ' Dobr. Addend. Arist. 105 (multo ante Cobetum N. 1. 57)] ἔπνευσ'. ἔπνευσεν Brunckius, caesura pessima. 2. λυόμενος Dalecampius] λουόμενος. Hesych. βάκκαρις· μύρον ποιὸν ἀπὸ βοτάνης ὁμωνύμως. ἔνιοι δὲ ἀπὸ μυρσίνης. ἄλλοι δὲ μύρον Λύδιον. ἔστι δὲ καὶ ξηρὸν διάπασμα τὸ ἀπὸ τῆς ῥίζης. ὁ μιαρός per iocum dicit.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="320" xml:id="kock-0019-thesmophoriazoysai-320" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_thesmophoriazoysai">
+              <lg>
+                <l n="1" xml:id="kock-0019-thesmophoriazoysai-320-l1" xml:lang="grc">Α. ξυρόν, κάτοπτρον, ψαλίδα, κηρωτήν, λίτρον,</l>
+                <l n="2" xml:id="kock-0019-thesmophoriazoysai-320-l2" xml:lang="grc">προκόμιον, ὀχθοίβους, μίτρας, ἀναδήματα,</l>
+                <l n="3" xml:id="kock-0019-thesmophoriazoysai-320-l3" xml:lang="grc">ἔγχουσαν, ὄλεθρον τὸν βαθύν, ψιμύθιον,</l>
+                <l n="4" xml:id="kock-0019-thesmophoriazoysai-320-l4" xml:lang="grc">μύρον, κίσηριν, στρόφι', ὀπισθοσφενδόνην,</l>
+                <l n="5" xml:id="kock-0019-thesmophoriazoysai-320-l5" xml:lang="grc">κάλυμμα, φῦκος, περιδέραι', ὑπογράμματα,</l>
+                <l n="6" xml:id="kock-0019-thesmophoriazoysai-320-l6" xml:lang="grc">τρυφοκαλάσιριν, ἐλλέβορον, κεκρύφαλον,</l>
+                <l n="7" xml:id="kock-0019-thesmophoriazoysai-320-l7" xml:lang="grc">ζῶμ', ἀμπέχονον, τρύφημα, παρυφές, ξυστίδα,</l>
+                <l n="8" xml:id="kock-0019-thesmophoriazoysai-320-l8" xml:lang="grc">χιτῶνα, βάραθρον, ἔγκυκλον, κομμώτριον.</l>
+                <l n="9" xml:id="kock-0019-thesmophoriazoysai-320-l9" xml:lang="grc">Β. τὰ μέγιστα δ' αὐτῶν οὐ λέγεις ταυτί; Α. τί δαί;</l>
+                <l n="10" xml:id="kock-0019-thesmophoriazoysai-320-l10" xml:lang="grc">Β. διόπας, διάλιθον, πλάστρα, μαλάκιον, βότρυς,</l>
+                <l n="11" xml:id="kock-0019-thesmophoriazoysai-320-l11" xml:lang="grc">χλίδωνα, περόνας, ἀμφιδέας, ὅρμους, πέδας,</l>
+                <l n="12" xml:id="kock-0019-thesmophoriazoysai-320-l12" xml:lang="grc">σφραγῖδας, ἁλύσεις, δακτυλίους, καταπλάσματα,</l>
+                <l n="13" xml:id="kock-0019-thesmophoriazoysai-320-l13" xml:lang="grc">πομφόλυγας, ἀποδέσμους, ὀλίσβους, σάρδια,</l>
+                <l n="14" xml:id="kock-0019-thesmophoriazoysai-320-l14" xml:lang="grc">ὑποδερίδας, ἑλικτῆρας, ἄλλα πολλά θ' ὧν</l>
+                <l n="15" xml:id="kock-0019-thesmophoriazoysai-320-l15" xml:lang="grc">οὐδ' ἂν λέγων λήξαι τις.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 7, 95 οὐδ' ἂν εἴη φαῦλον τούτοις ὑποθεῖναι λέξιν ἐκ Θεσμοφοριαζουσῶν Ἀριστοφάνους, ἐπεὶ πολλὰ εἴδη ἐν αὐτῇ περι-</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="332" xml:id="kock-0019-thesmophoriazoysai-332" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_thesmophoriazoysai">
+              <lg>
+                <l n="1" xml:id="kock-0019-thesmophoriazoysai-332-l1" xml:lang="grc">ἅμα δ’ ἠπίαλος πυρετοῦ πρόδρομος</l>
+              </lg>
+              <note type="source">Schol. Vesp. 1038 ἠπίαλος τὸ πρὸ τοῦ πυρετοῦ κρύος. Ἀριστοφάνης . . . Θεσμοφοριαζούσαις κτλ. aut dimeter anap. aut initium tetrametri.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="333" xml:id="kock-0019-thesmophoriazoysai-333" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_thesmophoriazoysai">
+              <lg>
+                <l n="1" xml:id="kock-0019-thesmophoriazoysai-333-l1" xml:lang="grc">ἦν μέγα τι βρῶμ’ ἔτι τρυγῳδοποιομουσική,</l>
+                <l n="2" xml:id="kock-0019-thesmophoriazoysai-333-l2" xml:lang="grc">ἡνίκα Κράτητί τε τάριχος ἐλεφάντινον</l>
+                <l n="3" xml:id="kock-0019-thesmophoriazoysai-333-l3" xml:lang="grc">λαμπρὸν ἐκόμιζεν ἀπόνως παραβεβλημένον,</l>
+                <l n="4" xml:id="kock-0019-thesmophoriazoysai-333-l4" xml:lang="grc">ἄλλα τε τοιαῦθ’ ἕτερα μυρί’ ἐκιχλίζετο.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 117 c ὅτι δὲ διαβόητον ἦν τὸ τοῦ Κράτητος ἐλεφάντινον τάριχος, μαρτυρεῖ Ἀριστοφάνης ἐν Θεσμοφοριαζούσαις διὰ τούτων κτλ.</note>
+              <note type="apparatus">1. ἦν Elmsl. Ach. 499] ἦ. βρῶμ’] χρῆμ’ Bergk. ῥῶμ’ Nauck. Philol. VI 414 ex Photio 493, 22, non feliciter. ἔτι Elmsl.] ἐστὶν ἡ. 2. ἡνίκα Porson. Miscell. 236] ἠνὶ A. 3. ἐκόμιζεν Casaub.] ἐνόμιζεν. ἐνομίζετ’ Bergk. παραβεβλημένον] παρακεκλημένον BP, quod Meinekius Anal. crit. Ath. 55 praefert, quia παραβεβλημένον ‘tertia correpta ab Aristophane dici’ non potuerit. fort. παρατετμημένον. cf. Lys. 116. 132. Alexid. 167, 12. verum latet alia corruptela. nam salsamentum elephantinum non erat Crateti pro praemio oblatum sed ab ipso inventum et quasi ferculum magnificum spectatoribus adpositum (Cratet. fr. 29). saepissime enim comici artem suam cum lauto convivio comparant, quo populum excipiant. itaque hoc dicit poeta: ‘erat sane fructuosa Atheniensibus comoedia eo tempore, quo Crates tam magnificas epulas quam fuit salsamentum elephantinum spectatoribus offerebat et multae aliae id genus deliciae praesto erant’. quae non sine ironia dicta esse adparet. scribendum igitur est ἡνίκα Κράτης ποτὲ τ. ἐλ. λ. ἐκόμιζεν. cf. Ach. 13. per totum fragmentum numeros paeonicos retinendos esse constat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="334" xml:id="kock-0019-thesmophoriazoysai-334" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_thesmophoriazoysai">
+              <lg>
+                <l n="1" xml:id="kock-0019-thesmophoriazoysai-334-l1" xml:lang="grc">μήτε Μούσας ἀνακαλεῖν ἑλικοβοστρύχους</l>
+                <l n="2" xml:id="kock-0019-thesmophoriazoysai-334-l2" xml:lang="grc">μήτε Χάριτας βοᾶν εἰς χορὸν Ὀλυμπίας·</l>
+                <l n="3" xml:id="kock-0019-thesmophoriazoysai-334-l3" xml:lang="grc">ἐνθάδε γάρ εἰσιν, ὥς φησιν ὁ διδάσκαλος.</l>
+              </lg>
+              <note type="source">Hephaestio 13, 5 ἐν δὲ ταῖς δευτέραις (libri προτέραις) Θεσμοφοριαζούσαις καὶ κρητικοὺς πολλάκις ἐν μέσοις τοῖς τετραμέτροις παρέλαβε κτλ. ex eodem ut videtur ac fr. 333 sive cantico sive epirrhemate excerptum. probabiliter huc Fritzschius rettulit fr. 699. invocatione Musarum non opus esse poeta gloriatur: semper enim secum esse.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="341" xml:id="kock-0019-thesmophoriazoysai-341" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_thesmophoriazoysai">
+              <head>βαρβός</head>
+              <note type="source">μύστρον. ἐν Θεσμοφοριαζούσαις. Hesychius.</note>
+              <note type="apparatus">neque de vocabulo ipso constat neque quo pertineat. nam verba ἐν Θεσμοφοριαζούσαις ad glossam proxime antecedentem βάρβιτος (Thesm. 137) refert Pearso.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="342" xml:id="kock-0019-thesmophoriazoysai-342" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_thesmophoriazoysai">
+              <head>(ἀπὸ τῶν) βαυκίδων</head>
+              <note type="source">ὅ ἐστιν εἶδος ὑποδημάτων Ἰωνικῶν, οἷς αἱ Ἰάδες χρῶνται, οὗ καὶ Ἀριστοφάνης ἐν Θεσμοφοριαζούσαις μέμνηται. Aspasius Aristot. Eth. 58 a. cf. Alexid. Athen. 13, 568 a (7).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="343" xml:id="kock-0019-thesmophoriazoysai-343" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_thesmophoriazoysai">
+              <head>διαλέξασθαι</head>
+              <note type="source">Ἀριστοφάνης Θεσμοφοριαζούσαις. Bekker. Anecd. 88, 28. Pollux 2, 125 Ὑπερείδης διειλεγμένος ἐπὶ ἀφροδισίων, Ἀριστοφάνης δὲ διαλέξασθαι ἔφη. Bekker. Anecd. 37, 4 διαλέξασθαι, οὐ μόνον διαλεχθῆναι. Hesych. διαλέγεσθαι· ἐπὶ τοῦ συνουσιάζειν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="344" xml:id="kock-0019-thesmophoriazoysai-344" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_thesmophoriazoysai">
+              <head>ἐπανορθώσασθαι</head>
+              <note type="source">Ἀριστοφάνης Θεσμοφοριαζούσαις. Bekker. Anecd. 96, 25.</note>
+              <note type="apparatus">Praeterea ad Thesmophoriazusas fr. 666 refert Dindorfius.</note>
+            </div>
+          </div></body></text></TEI>

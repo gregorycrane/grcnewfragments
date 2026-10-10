@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΤΟΞΟΤΙΔΕΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.toxotides; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.toxotides.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.toxotides.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:toxotides"><head xml:lang="grc">ΤΟΞΟΤΙΔΕΣ</head>
+          <note type="introduction" xml:lang="mul">Mysteria hac fabula profanata esse prodit Schol. Aristot. loco supra allato p. 28 . argumentum fuisse Actaeonis mortem probabiliter statuit Hermann, qui Τοξότιδας intellexit nymphas Dianae comites. de persona Actaeonis cf. Pollux 4, 141 : τὰ δ’ ἔκσκευα πρόσωπα Ἀκταίων ἐστὶ κερασφόρος, ἢ Φινεὺς τυφλὸς κτἑ .</note>
+          <div type="textpart" subtype="fragment" n="241" corresp="urn:cite2:perseus:fragmentaryplays.v1:toxotides" xml:id="aesch-fr241">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-241-1">οὔπω τις Ἀκταίων’ ἄθηρος ἡμέρα</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-241-2">κενὸν πόνον πονοῦντ’ ἔπεμψεν ἐς δόμους.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Anecd. Bekk. p. 351, 9 : ἄθηρος ἡμέρα. — ὁ χρησάμενος τῇ φωνῇ καὶ τῇ φράσει Αἰσχύλος ἐστὶν ἐν Τοξότισι (τοξότῃσι cod.) . πρόσεστι δὲ τὸ σεμνὸν τῆς λέξεως καὶ τὸ πολιτικόν. λέγεται δὲ ἐπὶ Ἀκταίωνος ’οὔ πώ τις — δόμους’ . ἐγγράφων χρῶ , φησὶν ὁ Φρύνιχος. v. 2 πόνου πλουτοῦντ’ πόνον πονοῦντ’ (Beitr. 1 p. 236) .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="242" corresp="urn:cite2:perseus:fragmentaryplays.v1:toxotides" xml:id="aesch-fr242">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-242-1">ἄδων ταῖς ἁγναῖς παρθένοις γαμηλίων</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-242-2">λέκτρων ἄστει μη βλεμμάτων ῥέπει βολή .</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Antigonus Hist. mir. c. 115 : τῶν δὲ θηλέων ζῴων ῥοπικώτερον φησὶν εἶναι πρὸς τὴν συνουσίαν ἵππον — . φαίνεται δὲ καὶ Αἰσχύλος ἱστορικῶς τὸ τοιοῦτον οὕτως πως εἰρηκέναι πρὸς τὰς παρθένους ἐν ταῖς Τοξότισιν ’ἄδων ταῖς — ρεπιβουλη.’ καὶ διαλιπὼν προσέθηκεν ’οὔ με — ἱππογνώμονα’ (fr. 243) . v. 1 μῶν ταῖσιν temptabam, αἰδοῖ γὰρ κάτω γὰρ (in Soph. Trach. p. 286 sq.) . v. 2 ἀπείροις (pro ἄστει μη) . ρεπιβουλη ῥέπει βολή .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="243" corresp="urn:cite2:perseus:fragmentaryplays.v1:toxotides" xml:id="aesch-fr243">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-243-1">νέας γυναικὸς οὔ με μὴ λάθῃ φλέγων</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-243-2">ὀφθαλμός, ἥτις ἀνδρὸς ᾖ γεγευμένη·</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-243-3">ἔχων δὲ τούτων θυμὸν ἱππογνώμονα</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Antigonus Hist. mir. c. 115 in fr. 242 allatus. Plut. Amator. c. 21, 5 p. 767 B : καὶ γὰρ ὀρθῶς Αἰσχύλος ἐποίησε ’νέας — γεγευμένη’ (v. 1 et 2) . idem de prof. in virtute c. 10 p. 81 D (Anecd. Paris. vol. 1 p. 399, 24) : νέας μὲν γὰρ γυναικός, ὡς Αἰσχύλος φησίν, οὔ τι λανθάνει φλέγων ’ὀφθαλμὸς — γεγευμένη’ (v. 2) .</note>
+            <note type="sourceContext" xml:lang="mul">v. 3 ἔχω (Plin. exerc. p. 471 D) ἔγνων (Fortuit. p. 128) . verba θυμὸν ἱππογνώμονα sine poetae et fabulae nomine afferuntur in Etym. M. p. 209, 48 et 474, 45 . cf. Schol. Soph. Ai. 143 : ἱππογνώμονα τὸν μεγαλογνώμονα.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="244" corresp="urn:cite2:perseus:fragmentaryplays.v1:toxotides" xml:id="aesch-fr244">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-244-1">κύνες διημάθυνον ἄνδρα δεσπότην</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. A Il. Ι 593 de verbo ἀμαθύνειν : ὁ δὲ Αἰσχύλος ἐπὶ τοῦ διαφθείρειν ψιλῶς τέταχε, περὶ τοῦ Ἀκταίωνος λέγων ’κύνες — δεσπότην’ .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="245" corresp="urn:cite2:perseus:fragmentaryplays.v1:toxotides" xml:id="aesch-fr245">
+            <note type="sourceContext" xml:lang="mul">Pollux 5, 47 : τὰ μὲν δὴ τῶν Ἀκταίονος κυνῶν ὀνόματα κατὰ τὴν Αἰσχύλου δόξαν Κόραξ Ἅρπυια (ἀραία A) Χάρων Λυκόττας (Λυκιτᾶς olim edebatur) .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="246" corresp="urn:cite2:perseus:fragmentaryplays.v1:toxotides" xml:id="aesch-fr246">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-246-1">πεζοφόροις ζώμασιν</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Hesych. 3 p. 296 : πεζοφόροις ζώμασιν· Αἰσχύλος τοξότισιν, ὥσπερ πέζαν ἐχόντων τῶν χιτώνων· τινὲς δὲ ποδήρεσι. ζῶμα δὲ τὸ ἔνδυμα. Phot. Lex. p. 405, 15 : πεζοφοροῦσιν· ἤτοι πέζαν ἐχόντων τῶν χιτώνων, ἢ τοῖς ποδήρεσιν. Pollux 7, 51 : τὸ δὲ ζῶμα ἔστι μὲν ἐπιτήδειον ἐνδῦναι, πέζας δὲ ἔχει, ὡς Αἰσχύλος δηλοῖ πεζοφόρα τὰ ζώματα ἀποκαλῶν. 7, 63 : οἱ δὲ πεζοφόροι χιτῶνες ἢ οἱ ποδήρεις ἢ οἱ πέζας ἔχοντες.</note>
+          </div>
+        </div></body></text>
+</TEI>

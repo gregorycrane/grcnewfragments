@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΟΠΛΩΝ ΚΡΙΣΙΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.oplon_krisis; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.oplon_krisis.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.oplon_krisis.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:oplon_krisis"><head xml:lang="grc">ΟΠΛΩΝ ΚΡΙΣΙΣ</head>
+          <note type="introduction" xml:lang="mul">Proposuit poeta Aiacem et Vlixem de Achillis armis certantes, quod argumentum ex parva Iliade repetitum esse testatur Aristoteles Poet. c. 23 p. 1459 b 5 . eandem rem tractarunt Latini poetae qui Armorum iudicium scripserunt, Pacuvius et Accius. Aeschyleas fabulas Ὅπλων κρίσιν, Θρῄσσας, Σαλαμινίας eiusdem trilogiae fuisse coni. Welcker. fortasse huc referendum est fr. 350 .</note>
+          <div type="textpart" subtype="fragment" n="174" corresp="urn:cite2:perseus:fragmentaryplays.v1:oplon_krisis" xml:id="aesch-fr174">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-174-1">δέσποινα πεντήκοντα Νηρῄδων κορᾶν</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ar. Ach. 883 : πρέσβειρα πεντήκοντα Κωπᾴδων κορᾶν. ubi Schol. : ὁ στίχος ἀπὸ δράματος Αἰσχύλου Ὅπλων κρίσεως οὕτως ἐπιγεγραμμένου, ἐν ᾧ ἐπικαλεῖται τὰς Νηρεΐδας τις ἐξελθούσας κρῖναι πρὸς τὴν Θέτιν λέγων ’δέσποινα — κορᾶν’ . πρέσβειρα verum videtur. κορᾶν κορᾶν R χορόν Ald. κορῶν Bentley . quod subicit Aristophanes ἔκβαθι et ipsum ex Aeschylo repetitum esse arbitratur W. H. van de Sande Bakhuyzen de parodia in Aristoph. com. p. 24.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="175" corresp="urn:cite2:perseus:fragmentaryplays.v1:oplon_krisis" xml:id="aesch-fr175">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-175-1">ἀλλ’ Ἀντικλείας ἆσσον ἦλθε Σίσυφος,</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-175-2">τῆς σῆς λέγω τοι μητρός, ἣ σ’ ἐγείνατο.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. Soph. Ai. 190 : τὸν δὲ Ὀδυσσέα Σισύφου συνήθως φησὶ Σοφοκλῆς καὶ ἐν Συνδείπνῳ — καὶ Αἰσχύλος ἐν Ὅπλων κρίσει ’ἀλλ’ — ἐγείνατο’ . v. 2 λέγω’ .ὼ λέγω σοι (Κριτ. καὶ ἑρμ. p. 8) .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="176" corresp="urn:cite2:perseus:fragmentaryplays.v1:oplon_krisis" xml:id="aesch-fr176">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-176-1">ἁπλᾶ γάρ ἐστι τῆς ἀληθείας ἔπη.</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Stob. Flor. 11, 8 : Αἰσχύλου Ὅπλων (ὅπλα M) κρίσεως (fabulae nomen om. L) . ’ἁπλᾶ — ἔπη’ . cf. Euripideum illud ἁπλοῦς ὁ μῦθος τῆς ἀληθείας ἔφυ Phoen. 469 .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="177" corresp="urn:cite2:perseus:fragmentaryplays.v1:oplon_krisis" xml:id="aesch-fr177">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-177-1">τί γὰρ καλὸν ζῆν βίον ὃς λύπας φέρει ;</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Stob. Flor. 121, 23 : Αἰσχύλος ἐν Ὅπλων κρίσει (sic A, αἰσχύλου nec plura S, ecl. om. M) . ’τί — φέρει ;’ . βίον ὃς βίοτον ὃς ᾧ βίος leg. , cf. Men. mon. 291 : καλὸν τὸ θνῄσκειν οἷς ὕβριν τὸ ζῆν (οἷς τὸ ζῆν ὕβριν C. I. 3902 r) φέρει.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="178" corresp="urn:cite2:perseus:fragmentaryplays.v1:oplon_krisis" xml:id="aesch-fr178">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-178-1">χλήδοντα</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Etym. Gud. p. 567, 35 : χλίδοντα, χλίδην, σωρηδόν, δηλοῖ πλήθους ἔμφασιν. Αἰσχύλος Ὅπλων κρίσει (ὁ πλουκρίσει cod.) καὶ χεριδόντα ἀντὶ τοῦ πληθύνοντα. p. 567, 42 : καὶ χλίδοντα ἀντὶ τοῦ πληθύνοντα. Hesych. 4 p. 288 : χλευδόν· χύδην, σωρηδόν, πληθύοντα. non κεχληδότα, quae erat Hermanni sententia, sed χλήδοντα ex Aeschylo afferri coni. H. L. Ahrens Beitr. zur Griech. und Lat. Etymol. 1 p. 184 sq.</note>
+          </div>
+        </div></body></text>
+</TEI>

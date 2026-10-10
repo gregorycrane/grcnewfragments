@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATES, ΓΕΙΤΟΝΕΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Crates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0433.geitones.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0433.geitones.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0433.geitones.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_geitones"><head>ΓΕΙΤΟΝΕΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0433-geitones-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_geitones">
+              <lg>
+                <l n="1" xml:id="kock-0433-geitones-1-l1" xml:lang="grc">νῦν μὲν γὰρ ἡμῖν παιδικῶν ἅλις</l>
+                <l n="2" xml:id="kock-0433-geitones-1-l2" xml:lang="grc">ὅκως περ ἀρνῶν ἐστι γαλαθηνῶν τε καὶ</l>
+                <l n="3" xml:id="kock-0433-geitones-1-l3" xml:lang="grc">χοίρων.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0433-geitones-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_geitones">
+              <lg>
+                <l n="1" xml:id="kock-0433-geitones-2-l1" xml:lang="grc">γλυκύτατον δ’, ὦ Ζεῦ, βασιλείου μύρου.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 690 d βασιλείου δὲ μύρου μνημονεύει Κράτης ἐν Γείτοσι λέγων οὕτως. ὦ Ζεῦ] ὦζε Porson. Hom. Od. 5, 455. ὦ Ζεῦ δ’ ὦζε Bergk. R. c. Att. 277. Hesych. βασίλειον· εἶδος μύρου. Sappho ap. Athen. ibid. βρενθείῳ βασιληίῳ. sine dubio id genus unguenti significatur, quo rex Persarum utebatur. Plin. N. h. 13, 2 unguentum Persarum genti se debet.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0433-geitones-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_geitones">
+              <lg>
+                <l n="1" xml:id="kock-0433-geitones-3-l1" xml:lang="grc">οὐκ ἔστι μοι λυχνίδιον.</l>
+              </lg>
+              <note type="source">Κράτης ἐν Γείτοσιν. Poll. 10, 118 δῆλον ὅτι λυχνία εἴρηκεν, ἀλλ’ οὐ λύχνους μικρούς.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0433-geitones-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_geitones">
+              <lg>
+                <l n="1" xml:id="kock-0433-geitones-4-l1" xml:lang="grc">ὗς διὰ ῥόδων</l>
+              </lg>
+              <note type="source">ἐπὶ τῶν σκαιῶν καὶ ἀναγώγων. Phot. Suid. cf. Apostol. 17, 71.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0433-geitones-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_geitones">
+              <lg>
+                <l n="1" xml:id="kock-0433-geitones-5-l1" xml:lang="grc">εἰ σοφὸς ᾖ</l>
+              </lg>
+              <note type="source">Κρατίνος Γείτοσιν. Bekker. Anecd. 144, 27. Κράτης Meinek. I 64. eiusdem syntaxis exempla et Bekkeri grammaticus ipse addit et in vetustiore Atthide haud pauca exstant. cf. Cratin. 28.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" xml:id="kock-0433-geitones-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_geitones">
+              <lg>
+                <l n="1" xml:id="kock-0433-geitones-6-l1" xml:lang="grc">καρδοπογλύφος</l>
+              </lg>
+              <note type="source">ὡς Κράτης εἴρηκεν ἐν Γείτοσιν. Pollux 7, 179.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0433-geitones-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0433_geitones">
+              <lg>
+                <l n="1" xml:id="kock-0433-geitones-7-l1" xml:lang="grc">πεσσονομεῖν</l>
+              </lg>
+              <note type="source">τὸ πεσσοῖς παίζειν Κράτης εἶπεν ἐν Γείτοσιν. Pollux 7, 204.</note>
+            </div>
+          </div></body></text></TEI>

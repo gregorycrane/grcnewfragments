@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PLATO COMICUS, ΕΛΛΑΣ Η ΝΗΣΟΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.ellas_e_nesoi.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.ellas_e_nesoi.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.ellas_e_nesoi.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ellas_e_nesoi"><head>ΕΛΛΑΣ Η ΝΗΣΟΙ</head><div type="textpart" subtype="fragment" n="21" xml:id="kock-0497-ellas_e_nesoi-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ellas_e_nesoi">
+              <p>21</p>
+              <lg>
+                <l n="1" xml:id="kock-0497-ellas_e_nesoi-21-l1" xml:lang="grc">βούλει τήνδε σοι πλεκτὴν καθῶ</l>
+                <l n="2" xml:id="kock-0497-ellas_e_nesoi-21-l2" xml:lang="grc">κἄπειτ' ἀνελκύσω σε δεῦρο;</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 142 <hi rend="italic">πλεκτὴν γὰρ οἱ Ἀττικοὶ τὴν σειρὰν ὠνόμαζον, ὡς Πλάτων ἐν Ἑλλάδι κτλ.</hi> cf. Lysipp. 1.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="22" xml:id="kock-0497-ellas_e_nesoi-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ellas_e_nesoi">
+              <p>22</p>
+              <lg>
+                <l n="1" xml:id="kock-0497-ellas_e_nesoi-22-l1" xml:lang="grc">εἴξασιν ἡμῖν οἱ νόμοι</l>
+                <l n="2" xml:id="kock-0497-ellas_e_nesoi-22-l2" xml:lang="grc">τούτοισι τοῖς λεπτοῖσιν ἀραχνίοισιν, ἃ</l>
+                <l n="3" xml:id="kock-0497-ellas_e_nesoi-22-l3" xml:lang="grc">ἐν τοῖσι τοίχοις ἡ φάλαγξ ὑφαίνεται.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="23" xml:id="kock-0497-ellas_e_nesoi-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ellas_e_nesoi">
+              <lg>
+                <l n="1" xml:id="kock-0497-ellas_e_nesoi-23-l1" xml:lang="grc">λαβὼν οὖν</l>
+                <l n="2" xml:id="kock-0497-ellas_e_nesoi-23-l2" xml:lang="grc">τὸν σκύλακα τὸν τοῦ προξένου κἄπειτα δῆσον αὐτόν.</l>
+              </lg>
+              <note type="source">Pollux 10, 167 δεσμὸς μέντοι σιδηροῦς καὶ σκύλαξ, οὗ μέμνηται Πλάτων ἐν Ἑλλάδι κτλ.</note>
+              <note type="apparatus">τοῦ Προξένου Meinek. κἄπειτα cum participio, ut Aristoph. Nub. 409.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="24" xml:id="kock-0497-ellas_e_nesoi-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ellas_e_nesoi">
+              <lg>
+                <l n="1" xml:id="kock-0497-ellas_e_nesoi-24-l1" xml:lang="grc">εἰ μὲν οὖν ταύτην σὺ τὴν θάλατταν ἀποδώσεις ἑκών,</l>
+                <l n="2" xml:id="kock-0497-ellas_e_nesoi-24-l2" xml:lang="grc">εἰ δὲ μή γε, ταῦτα πάντα συντριαινῶν ἀπολέσω.</l>
+              </lg>
+              <note type="source">Schol. Hom. Il. 1, 135 apud Koenium Greg. Corinth. p. 48 Πλάτων ἐν Ἑλλάδι κτλ. Eustathius 66, 34 Πλάτων ὁ κωμικός κτλ.</note>
+              <note type="apparatus">tetrametros trochaicos perperam arbitror restitutos esse. nam cod. εἰ μὲν σὺ τὴν θάλασσαν ἀποδώσεις ταύτην ἑκών· εἰ δὲ μή, ταῦτα πάντα συντριαίνω ἀπώλεσα. Eustath. σοι pro σύ et ἀποδώσει, omissis ταύτην et συντριαινῶν ἀπολέσω. γε in v. 2 add. Bernhardy Dionys. Perieg. (Eustath. comm.) p. 936. Bastius εἰ μὲν σὺ τὴν | θάλασσαν ἑκὼν ταύτην ἀποδώσεις· εἰ δὲ μή, | ἅπαντα ταῦτα συντριαινῶν ἀπολέσω. atque articulus quidem in exitu versus ponitur etiam Antiphan. 85, 4. Nicostr. 17, 2. Amphid. 30, 5. Ephipp. 7, 1. Alexid. 20, 4. 24, 2. 250, 3. Philem. Aelian. H. an. 12, 10, Menand. Athen. 8, 364 d. Athen. 6, 243a. sed anapaestus v. 2 vitiose incisus Platonem ita non scripsisse testatur. fortasse εἰ μὲν σὺ δώσεις τὴν θάλατταν· εἰ δὲ μή, | ἅπαντα ταῦτα κτλ. ἀπολέσω autem mutandum in ἀποκλύσω. neque enim necessarium κατακλύσω. aliter Hanovius Exercit. crit. 117. 8. Cobetus Obs. crit. 193. H. Iacobi in Mein. ed. min. XIII. — Neptuni verba esse indicavit Meinekius, sed cur Neptunum Lacedaemoniis faventem faciat Bergkius R. c. Att. 384, non perspicio. imperare</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="25" xml:id="kock-0497-ellas_e_nesoi-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ellas_e_nesoi">
+              <p>σκώληκα</p>
+              <p>τὸ παυόμενον θαλάσσιον κῦμα καὶ ἀρχόμενον. Πλάτων Ἑλλάδι.</p>
+              <note type="source">Bekker. Anecd. 114, 9. Photius σκώληξ· τὸ πρὸς τῇ γῇ οἴδημα τῆς θαλάσσης· οἷον τὸ προσαράσσον κῦμα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="26" xml:id="kock-0497-ellas_e_nesoi-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ellas_e_nesoi">
+              <p>τάξαι</p>
+              <p>τὸ τιμῆσαι. ἐν Νήσοις Πλάτων. Photius. Aristidis memoriam in hoc verbo deprehendit Cobetus Obs. crit. 194. eum enim ab Atheniensibus delectum esse ut constitueret (τάξαι), quantum quaeque civitas pecuniae daret ad bellum cum Persis gerendum, conl. Demosth. 23, 209. Aeschin. 2, 23. 3, 258. quibus addere poterat [Andocid.] 4, 11. quamquam hoc perincertum esse ipse fatetur Cobetus.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="27" xml:id="kock-0497-ellas_e_nesoi-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_ellas_e_nesoi">
+              <p>χρηστήρια</p>
+              <p>τὰ πρὸς θεωρίαν ἢ θυσίας σκεύη ὠνόμαζον, ὡς καὶ Πλάτων ἐν τῇ Ἑλλάδι εἴρηκεν ὁ κωμικός. Pollux 10, 11.</p>
+              <note type="apparatus">Ad Helladem fr. 183 refert Sintenisius, fr. 220 Fabricius. Hesychii glossam Μαιῶτιν λίμνην· ἐν Ἑλλάδι ad Platonis fabulam coniectura dubia refert Meinek. cf. M. Schmidt.</note>
+            </div>
+          </div></body></text></TEI>

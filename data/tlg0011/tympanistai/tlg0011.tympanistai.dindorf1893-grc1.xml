@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-tympanistai-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΤΥΜΠΑΝΙΣΤΑΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.tympanistai; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.tympanistai.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.tympanistai.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tympanistai"><head>ΤΥΜΠΑΝΙΣΤΑΙ</head><div type="textpart" subtype="fragment" n="563" xml:id="fragment-tympanistai-dindorf1893_grc1-563" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tympanistai" sameAs="urn:cts:greekLit:tlg0011.tympanistai.nauck1889grc1:579">
+            <note type="source">Stobæus LIX, 12.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Φεῦ φεῦ, τί τούτου χάρμα μεῖζον ἂν λάβοις</l>
+              <l n="2" xml:lang="grc">τοῦ γῆς ἐπιψαύσαντα κἆθ᾽ ὑπὸ στέγῃ</l>
+              <l n="3" xml:lang="grc">πυκνῆς ἀκοῦσαι ψακάδος εὑδούσῃ φρενί;</l>
+            </lg>
+            <note type="commentary">V. 1. affert Plutarchus Vitar. p. 255 c. V. 2. Cicero ad Atticum II, 7. <quote>Cupio istorum naufragia ex terra intueri: cupio, ut ait tuus amicus Sophocles, κἂν ὑπὸ στέγῃ πυκνῆς ἀκούειν ψεκάδος εὑδούσῃ φρενί.</quote></note>
+          </div>
+          <div type="textpart" subtype="fragment" n="564" xml:id="fragment-tympanistai-dindorf1893_grc1-564" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tympanistai" sameAs="urn:cts:greekLit:tlg0011.tympanistai.nauck1889grc1:581">
+            <note type="source">Stephanus in Χαλδαίοι.</note>
+            <note type="commentary">—Εἰσὶ δὲ Χαλδαῖοι ἔθνος πλησίον τῆς Κολχίδος. Σ. Τυμπανισταῖς</note>
+            <quote>Κόλχος τε Χαλδαῖός τε καὶ Σύρων ἔθνος.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="565" xml:id="fragment-tympanistai-dindorf1893_grc1-565" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tympanistai">
+            <note type="source">Scholiasta Sophoclis Antig. v. 980.</note>
+            <note type="commentary">Φινεὺς –μετὰ τὸν Κλεοπάτρας θάνατον ἐπέγημεν Ἰδαίαν τὴν Δαρδάνου, κατὰ δέ τινας Εἰδοθέαν τὴν Κάδμου ἀδελφὴν, ἧς καὶ αὐτὸς Σοφοκλῆς μνημονεύει ἐν Τυμπανισταῖς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="566" xml:id="fragment-tympanistai-dindorf1893_grc1-566" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tympanistai" sameAs="urn:cts:greekLit:tlg0011.tympanistai.nauck1889grc1:582">
+            <note type="source">Hesychius, ἄδημον: οὐκ ἔνδημον ὄντα. Σ. Τυμπανισταῖς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="567" xml:id="fragment-tympanistai-dindorf1893_grc1-567" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tympanistai" sameAs="urn:cts:greekLit:tlg0011.tympanistai.nauck1889grc1:583">
+            <note type="source">Hesychius, Ἀνετῶς: ἀνατεταμένως. Σ. Τυμπανισταῖς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="568" xml:id="fragment-tympanistai-dindorf1893_grc1-568" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tympanistai" sameAs="urn:cts:greekLit:tlg0011.tympanistai.nauck1889grc1:584">
+            <note type="source">Hesychius, Ἀντιστρέφω: ἀνταξιῶ. Σ. Τυμπανισταῖς.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="569" xml:id="fragment-tympanistai-dindorf1893_grc1-569" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tympanistai" sameAs="urn:cts:greekLit:tlg0011.tympanistai.nauck1889grc1:585">
+            <note type="source">Etymolog. Μ. p. 287, 14.</note>
+            <note type="commentary">Δράκαυλος: Σ. Τυμπανισταῖς. ἐπεὶ ἡ Ἀθηνᾶ δοκεῖ παρ᾿ αὐταῖς αὐλίσαι τὸν δράκοντα ταῖς Κέκροπος θυγατράσιν. ἢ ὅτι συναυλίζονται κατὰ τὸ εἰκὸς Κέκροπι ὄντι διφυεῖ. ἢ ὅτι συναυλίζεται μία τῷ ἐν τῇ ἀκροπόλει δράκοντι, προσημερεύουσα τῇ θεῷ. Conf. Hesychium et Suidam.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="570" xml:id="fragment-tympanistai-dindorf1893_grc1-570" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tympanistai" sameAs="urn:cts:greekLit:tlg0011.tympanistai.nauck1889grc1:586">
+            <note type="source">Ἔλυμοι αὐλοί: vide fragm. 398.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="571" xml:id="fragment-tympanistai-dindorf1893_grc1-571" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tympanistai" sameAs="urn:cts:greekLit:tlg0011.tympanistai.nauck1889grc1:580">
+            <note type="source">Herodianus περὶ μονήρους λέξεως p. 9, 9.</note>
+            <note type="commentary">Σαρπηδὼν πέτρα παρὰ Σοφοκλεῖ ἐν Τυμπανισταῖς</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">῾Ἡμεῖς δ᾽ ἐν ἄντροις, ἔνθα Σαρπηδὼν πέτρα.</l>
+            </lg>
+          </div>
+        </div></body></text></TEI>

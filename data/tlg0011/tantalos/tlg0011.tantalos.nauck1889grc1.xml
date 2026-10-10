@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-tantalos-nauck1889grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΤΑΝΤΑΛΟΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0011">Sophocles</author>
+        <editor>August Nauck</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability>
+          <p>Derived scholarly transcription; verify against page images before quotation.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>August Nauck, Tragicorum Graecorum Fragmenta, second edition (Leipzig: Teubner, 1889).</bibl>
+        <ptr target="../../../nauck1889/source/nauck1889.tragicorum-graecorum-fragmenta.xml"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Extracted deterministically from nauck.tragfrag-2.xml; repaired the malformed TEI namespace URI.</change>
+    <change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.tantalos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.tantalos.nauck1889grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.tantalos.nauck1889grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tantalos"><head>ΤΑΝΤΑΛΟΣ</head><div type="textpart" subtype="fragment" n="518" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_tantalos" xml:id="fragment-tantalos-nauck1889grc1-518">
+            <head>518</head>
+            <lg>
+              <l n="1" xml:lang="grc">βιοτῆς μὲν γὰρ χρόνος ἐστὶ βραχύς,</l>
+              <l n="2" xml:lang="grc">κρυφθεὶς δ’ ὑπὸ γῆς κεῖται τεθνεὼς</l>
+              <l n="3" xml:lang="grc">τὸν ἅπαντα χρόνον.</l>
+            </lg>
+            <p>Stob. Flor. 121 , 3 : ΣοφοABBREV ταντᾶ (ita S, eclogam om. MA) .
+'βιοτὴς — χρόνον’ . chori notam apponit S. v. 2 κρυφθεῖσα ὑπὸ
+S, κρυφθεὶς δὲ ὑπὸ Gesner, κρυφθεὶς δ’ ὑπὸ Grotius. τεθνεὼς Cobet
+Mnem. 9 p. 147 et Coll. crit. p. 192 , θνητὸς vulgo.</p>
+          </div>
+        </div></body></text></TEI>

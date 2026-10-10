@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΚΑΒΕΙΡΟΙ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.kabeiroi; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.kabeiroi.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.kabeiroi.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:kabeiroi"><head>ΚΑΒΕΙΡΟΙ</head>
+          <pb n="598" facs="urn:hathi:iau.31858007086675:scan:606"/>
+          <div type="textpart" subtype="fragment" n="88" xml:id="frag_6c6019e755" corresp="urn:cite2:perseus:fragmentaryplays.v1:kabeiroi" sameAs="urn:cts:greekLit:tlg0085.kabeiroi.nauck1889-grc1:95">
+            <note type="source">Athenæus IX. p. 373 d. Ὄρνιθα ἐπὶ τοῦ ἀρσενικοῦ Αἰσχύλος Καβείροις</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_6c6019e755-l1" xml:lang="grc">Ὄρνιθα δ᾽ οὐ ποιῶ σε τῆς ἐμῆς ὁδοῦ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="89" xml:id="frag_8d5b42dca6" corresp="urn:cite2:perseus:fragmentaryplays.v1:kabeiroi">
+            <note type="source">Scholiasta Pindari Pyth. IV, 303. Πάντας Σοφοκλῆς ἐν ταῖς Λημνιάσι τῷ δράματι καταλέγει τοὺς εἰς τὸ Ἀργῶον εἰσελθόντας σκάφος, καὶ Αἰσχύλος Καβείροις.</note>
+            <note type="apparatus">Libri κιβήραις.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="90" xml:id="frag_d4ec7f9c35" corresp="urn:cite2:perseus:fragmentaryplays.v1:kabeiroi">
+            <note type="source">Athenæus X. p. 428 f. Καὶ τὸν Αἰσχύλον ἐγὼ φαίην ἂν τοῦτο διαμαρτάνειν· πρῶτος γὰρ ἐκεῖνος καὶ οὐχ, ὡς ἔνιοί φασιν, Εὐριπίδης παρήγαγε τὴν τῶν μεθυόντων ὄψιν εἰς τραγῳδίαν. ἐν γὰρ τοῖς Καβείροις εἰσάγει τοὺς περὶ τὸν Ἰάσονα μεθύοντας.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="91" xml:id="frag_53ce5c055e" corresp="urn:cite2:perseus:fragmentaryplays.v1:kabeiroi" sameAs="urn:cts:greekLit:tlg0085.kabeiroi.nauck1889-grc1:96">
+            <note type="source">Pollux VI, 23. Οἰνηρὸς καὶ Αἰσχύλος</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_53ce5c055e-l1" xml:lang="grc">Μηδὲ κρωσσοὺς</l>
+              <l n="2" xml:id="frag_53ce5c055e-l2" xml:lang="grc">μήτ᾽ οἰνηροὺς μήθ᾽ ὑδατηροὺς</l>
+              <l n="3" xml:id="frag_53ce5c055e-l3" xml:lang="grc">λείπειν ἀφνεοῖσι δόμοισι.</l>
+            </lg>
+            <note type="source">Phrynichus Bekkeri I. p. 115, 3. Ὑδρηρους πιθους καὶ οἰνηρούς : Αἰσχύλος καιείροις. Plutarchus Moral. p. 632 f. Εἴ τις ἀντιστρέψας αἰτιῷτο τοὺς Αἰσχύλου Καβείρους όξους σπανίζειν δῶμα ποιήσαντας, ὥσπερ αὐτοὶ παίζοντες ἠπείλησαν.</note>
+            <note type="commentary">Vide Lobeck. Aglaoph. p. 1207.</note>
+          </div>
+        </div></body></text>
+</TEI>

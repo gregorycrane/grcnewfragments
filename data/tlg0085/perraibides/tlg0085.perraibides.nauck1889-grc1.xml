@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΠΕΡΡΑΙΒΙΔΕΣ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.perraibides; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.perraibides.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.perraibides.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:perraibides"><head xml:lang="grc">ΠΕΡΡΑΙΒΙΔΕΣ</head>
+          <note type="introduction" xml:lang="mul">Περραιβίδας et Ἰξίονα eiusdem trilogiae fuisse coni. Od. Mueller. Hecker huc referri iussit fr. 285, Hermann fr. 327. fortasse huius fabulae mentio revocanda est in Hesych. 1 p. 134 : ἀλφινία· ἡ λεύκη (λευκὴ cod.) , Περρεβοί. ubi Αἰσχύλος Περραιβίσιν scribi vult M. Schmidt 1 p. 224.</note>
+          <div type="textpart" subtype="fragment" n="184" corresp="urn:cite2:perseus:fragmentaryplays.v1:perraibides" xml:id="aesch-fr184">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-184-1">ποῦ μοι τὰ πολλὰ δῶρα κἀκροθίνια,</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-184-2">ποῦ χρυσότευκτα κἀργυρᾶ σκυφώματα ;</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. XI p. 499 A : Αἰσχύλος δ’ ἐν Περραιβίσι φησί ’ποῦ μοι — σκυφώματα ;’ Eust. Od. p. 1775, 22 : Αἰσχύλος μὲν σεμνύνει τὸ σκεῦος ἐν τῷ ’ποῦ χρυσότευκτα — σκυφώματα’ . Deionei, ut videtur, verba exigentis dona ab Ixione promissa.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="185" corresp="urn:cite2:perseus:fragmentaryplays.v1:perraibides" xml:id="aesch-fr185">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-185-1">ἀργυρηλάτοις</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-185-2">κέρασι χρυσᾶ στόμια προσβεβλημένοις</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Ath. XI p. 476 C : Αἰσχύλος δ’ ἐν Περραιβίσι (Περραιβοῖς libri) τοὺς Περραιβοὺς παρίστησιν ἀντὶ ποτηρίων τοῖς κέρασι χρωμένους διὰ τούτων ’ἀργυρηλάτοις — προσβεβλημένοις’ . eundem locum Eust. Il. p. 917, 63 affert, qui fabulae nomen omittit. v. 1 χρῶνται δ’ ὑποξύλοισιν ἀργυρηλάτοις Blomfield in Aesch. Pers. p. XXVIII, qui v. 1... scribendum proposuit coll. fr. 286. v. 2 προβεβλημένοις περιβεβλημένοις .</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="186" corresp="urn:cite2:perseus:fragmentaryplays.v1:perraibides" xml:id="aesch-fr186">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-186-1">τέθνηκεν αἰσχρὸς χρημάτων ἀπαιόλῃ</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Eust. Il. p. 352, 34 : ἀπὸ τοῦ ῥηθέντος αἰόλλω καὶ ἀπαιόλη γίνεται ἡ ἀπάτη καὶ ἀποστέρησις. Αἰσχύλος ’τέθνηκεν — ἀπαιόλῃ.’ Hesych. 1 p. 224 : ἀπαιόλη· ἀπάτη, ἀποστέρησις. Αἰσχύλος Περραιβίσιν (περρέβην codex) . Anecd. Bekk. p. 419, 12 : ἀπαιόλη· ἀπάτη ἢ ἀποστέρησις. v. 1 οἰκτρῶς vel οἰκτρὸς pro αἰσχρὸς iure requirit F. G. Schmidt Krit. Stud. 1 p. 109 sq.</note>
+          </div>
+        </div></body></text>
+</TEI>

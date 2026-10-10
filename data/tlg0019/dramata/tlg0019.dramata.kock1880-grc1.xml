@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHANES, ΔΡΑΜΑΤΑ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Aristophanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0019.dramata.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0019.dramata.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0019.dramata.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata"><head>ΔΡΑΜΑΤΑ</head><div type="textpart" subtype="fragment" n="286" xml:id="kock-0019-dramata-286" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata-286-l1" xml:lang="grc">ἀλλ’ εὔχομαι ’γωγ’ ἑλκύσαι σε τὸν ζυγόν,</l>
+                <l n="2" xml:id="kock-0019-dramata-286-l2" xml:lang="grc">ἵνα μή με προσπράττωσι γραῦν οἱ φράτερες.</l>
+              </lg>
+              <note type="source">Schol. Ran. 798</note>
+              <p>μεῖον λέγουσι τοὺς ὑπὲρ τῶν υἱῶν εἰς τὰ Ἀπατούρια δὶς ὑπὸ τῶν πατέρων εἰσφερομένους, διὰ τὸ ἐπιφωνεῖν τοὺς φράτορας ἐπὶ τοῦ σταθμοῦ τοῦ ἱερείου, μεῖον μεῖον. ὅτι δὲ ἵστατο, Ἀριστοφάνης ἐν Δράμασι δεδήλωκε. τοῦτο δὲ κέκληται κουρεῖον ἀπὸ τῶν κούρων ὑπὲρ ὧν ἐθύετο, μεῖον δὲ διὰ τὴν πορειρημένην αἰτίαν. καὶ ἐπιζήμιόν τι τοῖς ἧττον εἰσάγουσιν ἀπεδέδοτο (sic cod. Θ. ceteri ἀπεδέδοκτο), καθάπερ αὐτός φησιν Ἀριστοφάνης ἀλλ’ εὔχομαι κτλ. ’γωγ’ Dindorf.] ἔγωγε. ἑλκύσαι] ἀγκύσαι Θ. σε] σου ν. ζυγόν Raspius Eupol. Δήμ. 75. cf. Ran. 1365. 1381] σφυγμόν. σταθμόν Brunckius. 2. προσπράττωσι] προστάττωσι V. φράτερες Dindorf.] φράτορες. cf. Eq. 255. Av. 1669. Ran. 418. Philemo 112 Burn. Bekker. Anecd. 992. Herodian. I 47, 24. 49, 6. 410, 29. II 747, 9. de sacro quod μεῖον dicebatur cf. praeter Ran. 798 Schoemann. Antiq. gr.<hi rend="superscript">2</hi> II 522. quid sit γραῦν nescio. nisi id ex eis quae exciderunt intellegebatur, scribendum arbitror προσπράττωσ’ ἕτερον (ἱερεῖον). ad Niobum haec et litem Sophoclis cum filio apud phrateres videntur pertinere.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="287" xml:id="kock-0019-dramata-287" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata-287-l1" xml:lang="grc">αὐτοῖς σταθμοῖς ἐξέβαλε τὰς σιαγόνας.</l>
+              </lg>
+              <note type="source">Photius σταθμούς· Ἀριστοφάνης Δράμασιν κτλ. οἷον τοῖς φλειοῖς. codex σταθμοῖς: ἐξέβαλε τὰς σιαγόνας οἷον τοῖς φλειοῖς· — σταθμούς· ἀριστοφάνης δράμασιν αὐτοῖς. correxit Porsonus. praeterea ταῖς φλιαῖς Dindorfius.</note>
+              <note type="apparatus">confert Bergkius Epicharmum Athen. 10, 411 b in Busiride de Hercule haec dicentem: <quote>
+                  <lg>
+                    <l n="1_2" xml:id="kock-0019-dramata-287-l1_2" xml:lang="grc">πρῶτον μὲν αἴ κ᾿ ἔσθοντ᾿ ἴδοις νιν, ἀποθάνοις. βρέμει μὲν ὁ φάρυξ ἔνδοθ᾿, ἀραβεῖ</l>
+                    <l n="2" xml:id="kock-0019-dramata-287-l2" xml:lang="grc">δ᾿ ὁ γνάθος, ψοφεῖ δ᾿ ὁ γόμφιος, τέτριγε δ᾿ ὁ κυνόδων, σίζει</l>
+                    <l n="3" xml:id="kock-0019-dramata-287-l3" xml:lang="grc">δὲ ταῖς ῥίνεσσι, κινεῖ δ᾿ οὔατα.</l>
+                  </lg>
+                </quote> verum quid in tali sententia verba ἐξέβαλε τὰς σιαγόνας sibi velint nescio: nam suas quidem maxillas qui edit non excutit. itaque aut de leonis aprive caede cogitandum esse censeo, cui Hercules malas excusserit, aut si de ipsius edacitate sicuti apud Epicharmum haec dicuntur, scribendum existimo ἐπέβαλε. ‘malas etiam postibus iniecit’, i. e. ne postibus quidem domus pepercit: quemadmodum Ion in Omphale dixerat (Athen. 10, 411 b) <quote>ὑπὸ δὲ τῆς βουλιμίας κατέπινε καὶ τὰ κᾶλα καὶ τοὺς ἄνθρακας.</quote> itaque pertinere haec videntur ad Centaurum. cf. Schol. Vesp. 60 (fr. 289).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="288" xml:id="kock-0019-dramata-288" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata-288-l1" xml:lang="grc">πάντες δ᾿ ἔνδον πεταχνοῦνται.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 496 a πέταχνον. ποτήριον ἐκπέταλον . . . μνημονεύει αὐτοῦ καὶ Ἀριστοφάνης ἐν Δράμασι λέγων κτλ. πεταχνοῦνται Casaub.] πεταχνεῦται VL. πετεχνεῦται P. πεντάχνευται B. Photius πεταχνοῦνται· ἐξυπτιοῦνται, τρυφῶσιν. Hesych. πεταλοῦνται· ἐξυπτίωνται (sic scribendum), τρυφῶσιν. et πέτακνον· ποτήριον ἐκπέταλον· (τὸ) δὲ αὐτὸ καὶ πέταχνον. πέδαχνα· τὰ ἐκπέταλα καὶ φιαλοειδῆ ποτήρια. πεδαχνοῦται· ἐξυπτίωται, τρυφᾷ.</note>
+              <note type="apparatus">versus videtur esse paroemiacus. miror tamen cur Athenaeus pro nominis πέταχνον exemplo attulerit versum quo verbum potius ab eo derivatum contineatur. accedit singularis codicum variatio. quocirca fortasse scribendum πέταχν᾿ αἴρονται. videtur Centauri esse fragmentum.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="289" xml:id="kock-0019-dramata-289" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+              <note type="source">Schol. Vesp. 60 ἐν τοῖς πρὸ τούτου δεδιδαγμένοις Δράμασιν εἰς τὴν Ἡρακλέους ἀπληστίαν πολλὰ προείρηται. Δράμασιν Wilamowitz] δράμασιν.</note>
+              <note type="apparatus">discernuntur, si recte Wilamowitzius (Obs. crit. 13) coniecit, Dramata ante Vespas et post Vespas acta: in illa igitur (i. e. in Centauro) Herculis inexpleta edacitas traducebatur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="290" xml:id="kock-0019-dramata-290" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+              <note type="source">Schol. Vesp. 61 Ven. οὐ μόνον ἐν τοῖς Δράμασιν εἰσῆκται οὕτως Εὐριπίδης, ἀλλὰ καὶ ἐν τῷ Προάγωνι καὶ ἐν τοῖς Ἀχαρνεῦσιν. Ald.: οὐ μόνον δὲ ἐν τούτῳ τῷ δράματι (Vespis).</note>
+              <note type="apparatus">quod cum mani-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="291" xml:id="kock-0019-dramata-291" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+              <note type="source">Schol. Platonis 331 Bekker.</note>
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata-291-l1" xml:lang="grc">Χαιρεφῶντα . . . Ἀριστοφάνης</l>
+                <l n="2" xml:id="kock-0019-dramata-291-l2" xml:lang="grc">ἐν Δράμασι κλέπτην (λέγει).</l>
+              </lg>
+              <note type="apparatus">quod quoniam vivo Chaerephonte factum videatur, ad Centaurum refert Wilamowitz. Obs. crit. 19 adn.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="292" xml:id="kock-0019-dramata-292" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+              <head>βύρσαν</head>
+              <note type="source">Hesychius.</note>
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata-292-l1" xml:lang="grc">τὴν πόλιν Ἀθηνῶν Ἀριστοφάνης ἐν Δράμασι παίζων ἔφη.</l>
+              </lg>
+              <note type="apparatus">τὴν πόλιν Ἀθηνῶν Musurus] <unclear>ᾱ</unclear> θ cod., i. e. πόλιν θεῶν. videtur poeta Byrsam, i. e. Athenas, deorum urbem adpellavisse. quod cum fieri non potuerit nisi Cleone superstite, ad Centaurum haec pertinent. cf. Meinekius IIII 632.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="293" xml:id="kock-0019-dramata-293" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0019_dramata">
+              <head>κιχόρεια</head>
+              <note type="source">Bekker. Anecd. 105, 21. cf. Photius.</note>
+              <lg>
+                <l n="1" xml:id="kock-0019-dramata-293-l1" xml:lang="grc">(κιχορία)· τὸ ἄγριον λάχανον. Ἀριστοφάνης Δράμασιν.</l>
+                <l n="2" xml:id="kock-0019-dramata-293-l2" xml:lang="grc">κιχόρεια (κιχορία pr.)· τὸ ἄγριον λάχα-</l>
+                <l n="3" xml:id="kock-0019-dramata-293-l3" xml:lang="grc">νον. Ἀριστοφάνης.</l>
+              </lg>
+              <note type="apparatus">cf. Horat. Carm. 1, 31, 16. Schneider in indice Theophr. (V 414).</note>
+            </div>
+          </div></body></text></TEI>

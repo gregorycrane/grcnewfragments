@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>HERMIPPUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Hermippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0252.adelon_dramaton.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0252.adelon_dramaton.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0252.adelon_dramaton.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="36" xml:id="kock-0252-adelon_dramaton-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0252-adelon_dramaton-36-l1" xml:lang="grc">ἤδη τεθέασαι κόκκον ἐν χιόνι ῥόας;</l>
+              </lg>
+              <note type="source">Athenaeus 14, 650 e Ἔρμιππος ἐν Κέρκωψι.</note>
+              <note type="apparatus">sententia prorsus nulla est. scripsit Hermippus κόκκον ἔγχυλον (vel εὔχυλον) ῥόας. sunt enim τῶν σκληροκόκκων. cf. Antiphan. Athen. 14, 650 e. i. e. vidistine umquam quicquam naturae legibus contrarium? de accentu nominis ῥόα dubitabatur. cf. Herodian. I 301, 28 cum adn. Lentzii. II 271, 25.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="37" xml:id="kock-0252-adelon_dramaton-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0252-adelon_dramaton-37-l1" xml:lang="grc">χρυσίδ᾽ οἴνου πανσέληνον ἐκπιὼν ὑφείλετο.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 502 b Ἔρμιππος ἐν Κέρκωψι.</note>
+              <note type="apparatus">πανσέληνον ‘plenae lunae instar rotundam’ interpretantur. quod probari non potest. itaque Meinekius (ed. min. VIII) πανσελήνοις, sacris plenilunii tempore celebratis, conl. Soph. OR. 1090. at cur in tali re lunae plenitudo commemoretur non intellego. locus in talibus commentis fidei faciendae causa adicitur (Aristoph. Nub. 179. Eq. 321). quapropter propono Πεντελῆσιν scribendum. cf. Burs. Geogr. gr. I 344. 5.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="38" xml:id="kock-0252-adelon_dramaton-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_adelon_dramaton">
+              <head>Κολακοφωροκλείδης</head>
+              <p>Ἱεροκλείδης, ὃν ἐπὶ πονηρίᾳ κωμῳδοῦσιν Ἕρμιππος μὲν ἐν Κέρκωψι, Φρύνιχος δὲ ἐν Κωμασταῖς. ὁ δὲ Ἀσκληπιάδης Κλεώνυμον εἶναι ὑπέλαβεν, οὐδὲ τὸ τέλειον τοῦ ὀνόματος ἐπιστήσας. Hesychius. idem Κορακοφοροκλείδης· ἔστι γὰρ Ἱεροκλείδης. Κολακοφωροκλ. Meinekius] Κολακοφοροκλ. si quod probabiliter suspicatur Dobraeus Adv. II 153, Hieroclides idem est atque Hierocles (Aristoph. Pac. 1043 sq.), praeferendum est Κορακοφωροκλείδης. is enim ut corvus omnibus sacrificiis inhians quidquid poterat rapere solebat. quid ei cum φόροις fuerit (‘τοὺς φόρους κόρακος δίκην depeculatus’ Dobr.), non video.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="39" xml:id="kock-0252-adelon_dramaton-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_adelon_dramaton">
+              <head>φρεατιαῖον ὕδωρ</head>
+              <note type="source">Athenaeus 3, 123 f ὀνομάζει δὲ καὶ Ἔρμιππος ἐν Κέρκωψι φρεατιαῖον ὕδωρ οὕτως.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="68" xml:id="kock-0252-adelon_dramaton-68" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0252-adelon_dramaton-68-l1" xml:lang="grc">τὰς λευκερίνεως δὲ χωρὶς ἰσχάδας.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 76 c λευκερινεός δέ τι εἶδός ἐστι συκῆς καὶ ἴσως αὕτη ἐστὶν ἡ τὰ λευκὰ σῦκα φέρουσα, μνημονεύει δ' αὐτῆς Ἕρμιππος ἐν Ἰάμβοις οὕτως κτλ. cf. Eustath. 1205, 5. de accentu cf. fr. 51.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="69" xml:id="kock-0252-adelon_dramaton-69" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_adelon_dramaton">
+              <note type="source">Suidas ὑπαγωγεύς. ἐργαλεῖόν τι τεκτονικόν, ὥς τινες σιδηροῦν, οἷον πτυΐδιον, ᾧ χρῶνται οἱ κονιαταί. οἱ δὲ ἐργαλεῖον οἰκοδομικόν, ᾧ ἀπευθύνουσι τὰς πλίνθους πρὸς ἀλλήλας, ὅ τινες παράξυστον καλοῦσιν. οἱ δὲ πηλόν τινα, καθὼς καὶ Ἕρμιππος· ξύνεστι γὰρ δεσμῷ μὲν οὐδενί· τοῖσι δ' ὑπαγωγεῦσι τοῖς ἑαυτοῦ τρόποις. similia Schol. Aristoph. Av. 1150, ubi in fine additur τοιοῦτο γάρ τι καὶ Ἕρμιππος ἐν τοῖς Τριμέτροις ἐμφανίζει.</note>
+              <note type="apparatus">manifestum est Suidam sua ex integrioribus scholiis hausisse. G. Hermannus apud Bernhardyum ξύνεστι γὰρ δὴ δεσμίῳ μὲν οὐδενί, | ὑπό τισι δ' ὑπ. κτλ. Meinekius ξύνεστι γὰρ δεσμῷ μὲν οὗτος οὐδενί, | τούτοισι δ' ὑπ. κτλ. addens ὑπαγ. de luto quo utuntur caementarii ad lateres coagmentandos interpretatur etiam Hesychius ὑπαγωγεύς· πρὸς πλίνθων οἰκοδομὴν πηλός. videtur id autem figurate dixisse Hermippus.' neutrum intellexit Bernhardyus, neque ego intellego. ille ξύνεστι γὰρ δὴ ν̓αισίμῳ μὲν οὐδενί, | τοῖσι δ' ὑπαγωγεῦσίν γε τοῖς ταὐτοῦ τρόπου, hominem significari dicens moribus dissolutis, qui spreta legum sanctitate et bonorum consuetudine cum sordibus suique similibus versetur. Dindorfius denique in ed. Schol. Arist. haec Hermippi esse negat, non tamen addens, cuius esse possint. cf. quae adnotavimus ad Aristoph. Av. 1149. de verbis Hermippi restituendis despero.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="70" xml:id="kock-0252-adelon_dramaton-70" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0252-adelon_dramaton-70-l1" xml:lang="grc">εἰς τὸ Κυλικράνων βαδίζων σπληνόπεδον ἀφικόμην·</l>
+                <l n="2" xml:id="kock-0252-adelon_dramaton-70-l2" xml:lang="grc">εἶδον οὖν τὴν Ἡράκλειαν καὶ μάλ' ὡραίαν πόλιν.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 461e οὐ τῶν Κυλικράνων εἷς ὑπάρχων, οὓς χλευάζων Ἕρμιππος ὁ κωμῳδιοποιὸς ἐν τοῖς Ἰάμβοις φησίν κτλ. Ἡρακλεῶται δ' εἰσὶν οὗτοι οἱ ὑπὸ τῇ Οἴτῃ κατοικοῦντες, ὥς φησι Νίκανδρος ὁ Θυατειρηνός, ὀνομασθῆναι φάσκων αὐτοὺς ἀπό τινος Κύλικος, γένος Λυδοῦ, ἑνὸς τῶν Ἡρακλεῖ συστρατευσαμένων. deinde e Scythini Teii historia Κυλικρῆνας ἐξεπόρθησε ληιζομένους καὶ αὐτόθι πόλιν ἐδείματο Ἡράκλειαν τὴν Τρηχινίην καλεομένην. atque ex Polemone τῆς δ' Ἡρακλείας . . τῶν οἰκητόρων μεθ' Ἡρακλέους τινὲς ἀφικόμενοι ἐκ Λυδίας Κυλικρᾶνες . . . , ἀφ' ὧν οἱ τόποι διαμένουσιν. οἷς οὐδὲ τῆς πολιτείας μετέδοσαν οἱ Ἡρακλειῶται, συνοίκους ἀλλοφύλους ὑπολαβόντες. itaque Hermippus eo nomine ad inridendos Heracleotas usus est. pro σπληνόπεδον Schweighaeuserus σκληρό-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="82" xml:id="kock-0252-adelon_dramaton-82" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_adelon_dramaton">
+              <lg>
+                <l n="7" xml:id="kock-0252-adelon_dramaton-82-l7" xml:lang="grc">οὗ καὶ ἀπὸ στόματος στάμνων ὑπανοιγομενάων</l>
+                <l n="8" xml:id="kock-0252-adelon_dramaton-82-l8" xml:lang="grc">ὄζει ἴων, ὄζει δὲ ῥόδων, ὄζει δ’ ὑακίνθου.</l>
+                <l n="9" xml:id="kock-0252-adelon_dramaton-82-l9" xml:lang="grc">ὀσμὴ θεσπεσίη κατὰ πᾶν δ’ ἔχει ὑψερεφὲς δῶ.</l>
+                <l n="10" xml:id="kock-0252-adelon_dramaton-82-l10" xml:lang="grc">ἀμβροσία καὶ νέκταρ ὁμοῦ τοῦτ’ ἐστὶ τὸ νέκταρ.</l>
+                <l n="11" xml:id="kock-0252-adelon_dramaton-82-l11" xml:lang="grc">τούτου χρὴ παρέχειν πίνειν ἐν δαιτὶ θαλείῃ</l>
+                <l n="12" xml:id="kock-0252-adelon_dramaton-82-l12" xml:lang="grc">τοῖσιν ἐμοῖσι φίλοις, τοῖς δ’ ἐχθροῖς ἐκ Πεπαρήθου.</l>
+              </lg>
+              <note type="source">Athenaeus 1 29 e Ἕρμιππος δέ που ποιεῖ τὸν Διόνυσον πλειόνων (οἴνων) μεμνημένον· Μενδαίῳ μὲν κτλ. v. 3 a τῷ δὴ Eustath. 1633, 56. v. 6 — 10 Eustathius 1449, 10.</note>
+              <note type="apparatus">1. Μενδαῖον, τοῦ μὲν καὶ ἐνουροῦσιν G. Hermann. (Mein. V 33)] Μενδαίῳ μὲν ἐνουροῦσι καὶ. ἐνουροῦσιν καὶ τοὶ Casaub. Μενδαῖον μέν, ἐφ’ ᾧ καὶ ἐνουροῦσιν Bergk. R. c. Att. 325, ut Μενδαῖον, Μάγνητα, Θάσιον pendeant ab eis quae supra dixerat. Μενδαῖον μὲν ἐνουροῦσιν μάκαρες θεοὶ Herwerd. Obs. crit. 20. 3. ὀδμή] ὀδμήν B. 4. τοῦτον — ἄριστον] τούτω — ἀρίστω Herwerdenus. 6. τὸν Dindf.] ὃν. 7. οὗ] τοῦ Bergk. ὑπανοιγομενάων Casaub.] ἀνοιγομενάων VL. ἀνοιγομένων B Eustath. ἐξοιγνυμενάων Bergk. 8. ἴων L] ὄων V. 9. ὀσμή] ὀδμή 3. θεσπεσίη Dobr.] θεσπεσία. cf. quae adnotavi ad fr. 63, 6. ὑψερεφὲς B Eustath.] ὑψιρεφές. 11. τούτου] τουτί Bergkius (τοῦτ’ ἐστί. τὸ νέκταρ τουτί χρὴ κτλ.). πίνειν VL] ἀεὶ πίνειν BC. τοῦ παρέχειν ἀεὶ πίνειν ἐν δ. θ. Dindf. δαιτὶ θαλείῃ Dindf. Homerum secutus] τῇ θαλείᾳ BC. τησι θαλείης VL. 1.‘tam diu bibunt Mendaeum dei, donec illud meiere coguntur.’ Casaub. 2. μειλιχόδωρον quid esse possit nescio. μειλιχόπωρον recte dicere poterat ab ὀπώρᾳ. 6. σαπρίαν idem quod ἀνθοσμίαν esse interpretatur Eustathius 1449. vetustum certe vinum significatur. 7. στόματος oris dolii. 10. videtur corruptus esse. cf. Meinek. Anal. Ath. 14. fortasse scripserat ἀμβρόσιον καὶ νεκτάρεον τοῦτ’ ἐστὶν ὄνειαρ. cf. Od. 9, 359. vel simpliciter τὸ νᾶμα pro τὸ νέκταρ restituendum. cf. Aristoph. Eccl. 14. 12. vinum Peparethium, Homero ignotum, commemoratur in Hymn. Apoll. 32. apud Aristophanem fr. 317 inter bona vina numeratur. ac sic Soph. Philoct. 548. Plin. N. h. 4, 72. 14, 76. Demosth. 35, 35. itaque ut fit de ea re non constabat. ad Phormophoros (fr. 63) referebant Bergkius 325. 6 et Meinekius propter argumenti orationisque similitudinem. at argumenti similitudo nulla est, siquidem fr. 63 de Dionyso nescio quis narrat, fr. 82 Dionysus ipse loquitur. cf. Athenaei verba. metro autem heroico in quavis comoedia poeta uti poterat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="83" xml:id="kock-0252-adelon_dramaton-83" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0252_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0252-adelon_dramaton-83-l1" xml:lang="grc">προδόσει πίνειν</l>
+              </lg>
+              <note type="source">Pollux 7, 194 Ἔρμιππος δὲ ἐπὶ τοῦ προπιστευθέντος ἄνευ ἀργυρίου πίνειν ἐκ καπηλείου προδόσει πίνειν εἴρηκε. Cobet.</note>
+            </div>
+          </div></body></text></TEI>

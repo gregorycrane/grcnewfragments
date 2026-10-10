@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΩΡΕΙΘΥΙΑ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.oreithyia; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.oreithyia.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.oreithyia.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:oreithyia"><head xml:lang="grc">ΩΡΕΙΘΥΙΑ</head>
+          <note type="introduction" xml:lang="mul">Non memoratur in fabularum catalogo.</note>
+          <div type="textpart" subtype="fragment" n="281" corresp="urn:cite2:perseus:fragmentaryplays.v1:oreithyia" xml:id="aesch-fr281">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-281-1">. . καὶ καμίνου σχῶσι μάκιστον σέλας.</l>
+              <l n="2" xml:id="nauck-tfg-1-aesch-281-2">εἰ γάρ τιν’ ἑστιοῦχον ὄψομαι μόνον,</l>
+              <l n="3" xml:id="nauck-tfg-1-aesch-281-3">μίαν παρείρας πλεκτάνην χειμάρροον</l>
+              <l n="4" xml:id="nauck-tfg-1-aesch-281-4">στέγην πυρώσω καὶ κατανθρακώσομαι.</l>
+              <l n="5" xml:id="nauck-tfg-1-aesch-281-5">νῦν δ’ οὐ κέκραγα πω τὸ γενναῖον μέλος</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Longinus de subl. c. 3, 1 post lacunam duorum foliorum : ’καὶ καμίνου — γενναῖον μέλος’ . οὐ τραγικὰ ἔτι ταῦτα, ἀλλὰ παρατράγῳδα, αἱ πλεκτάναι καὶ τὸ πρὸς οὐρανὸν ἐξεμεῖν καὶ τὸ τὸν Βορέαν αὐλητὴν ποιεῖν καὶ τὰ ἄλλα ἑξῆς· τεθόλωται γὰρ τῇ φράσει καὶ τεθορύβηται ταῖς φαντασίαις μᾶλλον ἢ δεδείνωται. v. 1 καὶ μὴ εἰ καὶ . v. 2 γάρ τιν’ γὰρ τὸν . μόνον ψόλον δόμων (Adv. 2 p. 31) δόμον . v. 3 μίαν βίᾳ . auctorem versuum prodit Iohannes Sicel. in Rhet. vol. 6 p. 225 : φαίνεται δὲ ἡ ἀτοπία τοῦ ποιητοῦ (Aeschyli) μᾶλλον ἐν τῷ τῆς Ὠρειθυίας δράματι, ὅπου ταῖς δυσὶ σιαγόσι φυσῶν ὁ Βορέας κυκᾷ τὴν θάλασσαν· οὐ γὰρ φέρω ἐπὶ μνήμης τὰ ἰαμβεῖα ἐπιλαθόμενος· — λέγει δὲ περὶ τούτων Λογγῖνος ἀκριβέστερον ἐν τῷ κα’ τῶν Φιλολόγων.</note>
+          </div>
+        </div></body></text>
+</TEI>

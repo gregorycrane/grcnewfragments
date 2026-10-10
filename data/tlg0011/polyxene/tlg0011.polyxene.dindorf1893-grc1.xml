@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-polyxene-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, ΠΟΛΥΞΕΝΗ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.polyxene; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.polyxene.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.polyxene.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_polyxene"><head>ΠΟΛΥΞΕΝΗ</head><div type="textpart" subtype="fragment" n="468" xml:id="fragment-polyxene-dindorf1893_grc1-468" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_polyxene" sameAs="urn:cts:greekLit:tlg0011.polyxene.pearson1917-grc1:522">
+            <note type="source">Strabo X, p. 470.</note>
+            <quote>Ὁ δ' οὖν Σοφοκλῆς ποιήσας τὸν Μενέλαον ἐκ τῆς Τροίας ἀπαίρειν σπεύδοντα ἐν τῇ Πολυξένῃ, τὸν δ' Ἀγαμέμνονα μικρὸν ὑπολειφθῆναι βουλόμενον, τοῦ ἐξιλάσασθαι τὴν Ἀθηνῶν χάριν, εἰσάγει λέγοντα τὸν Μενέλαον</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σὺ δ᾽ αὖθι μίμνων που κατ᾽ Ἰδαίαν χθόνα</l>
+              <l n="2" xml:lang="grc">ποίμνας Ὀλύμπου συναγαγὼν θυηπόλει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="469" xml:id="fragment-polyxene-dindorf1893_grc1-469" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_polyxene">
+            <note type="source">Porphyrius apud Stobæum Ecl. phys. I, 52, p. 1008.</note>
+            <quote>Ἀχέρων δὲ καὶ Ἀχερουσία λίμνη ταυτὸν, ὡς καὶ Σοφοκλῆς ἐν Πολυξένῃ τὴν τοῦ Ἀχιλλέως ψυχὴν εἰσάγει λέγουσαν</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀκτὰς ἀπαίωνάς τε καὶ μελαμβαθεῖς</l>
+              <l n="2" xml:lang="grc">λιποῦσα λίμνης ἦλθον ἠχούσης γόους,</l>
+              <l n="3" xml:lang="grc">Ἀχέροντος ὀξυπλῆγος ἄρσενας χοάς.</l>
+            </lg>
+            <note>τὰς τῶν νεκρῶν λέγων παιῶνα οὐκ ἐχούσας, ἄρσενας δὲ χοὰς τὰς οὐδὲν ἐκτρεφούσας.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="470" xml:id="fragment-polyxene-dindorf1893_grc1-470" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_polyxene" sameAs="urn:cts:greekLit:tlg0011.polyxene.nauck1889grc1:481">
+            <note type="source">Stobæus XLIX, 13.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐ γάρ τις ἂν δύναιτο πρῳρατὴς στρατοῦ</l>
+              <l n="2" xml:lang="grc">τοῖς πᾶσι δεῖξαι καὶ προσαρκέσαι χάριν·</l>
+              <l n="3" xml:lang="grc">ἐπεὶ οὐδ᾽ ὁ κρείσσων Ζεὺς ἐμοῦ τυραννίδι</l>
+              <l n="4" xml:lang="grc">οὔτ᾽ ἐξεπομβρῶν οὔτ᾽ ἐπαυχμήσας φίλος</l>
+              <l n="5" xml:lang="grc">βροτοῖς ἂν ἐλθὼν ἐς λόγον δίκην ὄφλοι·</l>
+              <l n="6" xml:lang="grc">πῶς δῆτ᾽ ἐγὼ θνητός τ᾽ ἂν ἐκ θνητῆς τε φὺς</l>
+              <l n="7" xml:lang="grc">Διὸς γενοίμην εὖ φρονεῖν σοφώτερος;</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="471" xml:id="fragment-polyxene-dindorf1893_grc1-471" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_polyxene" sameAs="urn:cts:greekLit:tlg0011.polyxene.nauck1889grc1:482">
+            <note type="source">Schol. Apollonii Rhodii ad II, 1121.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἀπ᾽ αἰθέρος δὲ κἀπὸ λυγαίου νέφους.</l>
+            </lg>
+            <note>Codex Paris. λυγαίου σκότους.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="472" xml:id="fragment-polyxene-dindorf1893_grc1-472" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_polyxene">
+            <note type="source">“Ad Polyxenam respexisse videtur Longinus XV, 7. [Ruhnkenio judice]</note>
+            <quote>Ἄκρως δὲ καὶ ὁ Σοφοκλῆς ἐπὶ τοῦ θνήσκοντος Οἰδίπου καὶ ἑαυτὸν μετὰ διοσημείας τινὸς θάπτοντος πεφάντασται, καὶ κατὰ τὸν ἀπόπλουν τῶν Ἑλλήνων, ἐπὶ τοῦ Ἀχιλλέως προφαινομένου τοῖς ἀναγομένοις ὑπὲρ τοῦ τάφου. Scilicet in Σ. Ῥιζοτόμοις “Κόρον ἀϊστώσας (codex ἱστώσας) πῦρ.” hoc dramate inducebatur Achillis umbra, quodque apud Euripidem narratur initio Hecubæ, id Sophocles spectatorum subjecerat oculis.”</quote>
+            <note>BRUNCK.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="473" xml:id="fragment-polyxene-dindorf1893_grc1-473" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_polyxene" sameAs="urn:cts:greekLit:tlg0011.polyxene.nauck1889grc1:483">
+            <note type="source">Etymolog. M. p. 120, 48.</note>
+            <quote>Ἄπειρος: λέγει δὲ Ὧρος ὅτι σημαίνει χιτῶνα διέξοδον μὴ ἔχοντα, ὡς παρὰ Σοφοκλεῖ ἐν Πολυξένῃ</quote>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Χιτών σ᾽ ἄπειρος ἐνδυτήριος κακῶν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="474" xml:id="fragment-polyxene-dindorf1893_grc1-474" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_polyxene">
+            <note type="source">Harpocratio,</note>
+            <quote>Ἠκρωτηριασμένοι τὰς ἑαυτῶν ἔκαστοι πατρίδας: ἀντὶ τοῦ λελυμασμένοι. οἱ γὰρ λυμαινόμενοί τινας εἰώθασι περικόπτειν αὐτῶν τὰ ἄκρα, ὡς καὶ Σ. Πολυξένῃ.</quote>
+          </div>
+          <div type="textpart" subtype="fragment" n="475" xml:id="fragment-polyxene-dindorf1893_grc1-475" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_polyxene" sameAs="urn:cts:greekLit:tlg0011.polyxene.nauck1889grc1:484">
+            <note type="source">Hesychius,</note>
+            <quote>Παράρυμα: Σ. Πολυξένῃ παράρυμα ποδὸς, ὡς κρεμαμένων τινῶν ὑφασμάτων ἐκ τοῦ εἵματος πρὸς κάλλος. τινὲς δὲ σχοινίον ἐν ταῖς ναυσίν. οἱ δὲ ὑπόδημα.</quote>
+          </div>
+        </div></body></text></TEI>

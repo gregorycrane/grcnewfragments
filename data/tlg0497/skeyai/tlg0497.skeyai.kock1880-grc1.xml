@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PLATO COMICUS, ΣΚΕΥΑΙ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.skeyai.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.skeyai.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.skeyai.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_skeyai"><head>ΣΚΕΥΑΙ</head><div type="textpart" subtype="fragment" n="128" xml:id="kock-0497-skeyai-128" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_skeyai">
+              <lg>
+                <l n="1" xml:id="kock-0497-skeyai-128-l1" xml:lang="grc">ἅψαι μόνον σὺ κἂν ἄκρῳ τοῦ Μορσίμου,</l>
+                <l n="2" xml:id="kock-0497-skeyai-128-l2" xml:lang="grc">ἵνα σου πατήσω τὸν Σθένελον μάλ᾽ αὐτίκα.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Aristoph. Vesp. 1312 <quote>Σθένελος δὲ τραγικός, ὃς διὰ πενίαν τὴν τραγικὴν ἀπέδοτο σκευὴν κακῶς πράττων ἐν τῇ τέχνῃ . . . Πλάτων Σκευαῖς κτλ.</quote>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>σὺ κἂν Meinek.] οὐκ ἂν. τοῦ Μορσίμου Meinek.] τῇ Μορσίμῳ. Dindorf. ἅψαι μόνον ἄκρῳ δακτύλῳ τοῦ Μορσίμου, metro pravo, sive ictum posueris in altera syllaba vocis μόνον, sive priorem vocis ἄκρῳ produxeris. Herwerd. Obs. crit. 125 τῷ δακτύλῳ | ἅψαι μ. σὺ κἂν ἄκρ. τ. Μ. Cobetus Obs. crit. 184 ἅψ. μ. τῷ δακτύλῳ τοῦ M., numeris pessimis. recte libri: ad vocem ἄκρῳ subaudiendum τῷ δακτύλῳ, ut saepius omittitur χείρ. in v. 2 scribendum καὶ ξυμπατήσω (συμπατήσω etiam Bergkius). saepissime enim particula καί imperativum vel optativum qui proprie dicitur modum sequitur. cf. Cratin. 144. Menandr. Stob. Ecl. phys. 1, 6, 1 (v. 6). Flor. 73, 40 (v. 3). monost. 317. 527. 618. Philippid. 18, 2. Athenion. 8. Andocid. 1, 70 ὑπομνησάτω, καὶ ἀπολογήσομαι. denique scribendum αὐτίκα μάλα pro μάλ᾽ αὐτίκα, quod nusquam videtur exstare nisi Aristoph. Thesm. 750 (fort. ἀποσφαγήσεταί γ᾽ αὐτίκα μάλα). cf. Eq. 284. 475. 746. Pac. 237. 367. Αν. 202. Lys. 739. 744. Ran. 785. Eccl. 21. Plut. 432. 942 (αὐτίκα δὴ μάλα). <quote>in iurgio cum alter Morsimum, Sthenelum alter tueri vellet, ait unus: si tu Morsimum meum vel digito attigeris, ego tibi tuum Sthenelum protinus conculcabo pedibus.</quote> Cobet. Obs. crit. 184.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="129" xml:id="kock-0497-skeyai-129" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_skeyai">
+              <lg>
+                <l n="1" xml:id="kock-0497-skeyai-129-l1" xml:lang="grc">καὶ τοῖς τρόποις ἁρμόττον ὥσπερ περὶ πόδα</l>
+              </lg>
+              <note type="source">
+                <p>Photius et Suidas <quote>περὶ πόδα· οἷον ἁρμόττον σφόδρα, ὡς τὰ ὑποδήματα τοῖς ποσίν.</quote> Πλάτων ἐν Σκευαῖς κτλ. ὥσπερ Piers. Moer. 22] ὡς. Cramer. Anecd. Par. IIII 173, 23 <quote>καὶ εν σκευαις και τοις τροποις αρμόττον ως περι ποδα.</quote> Hesych. <quote>περὶ πόδα· οὕτως ἐκάλουν τὸ ἁρμόζον, μεταφέροντες ἀπὸ τῶν συμμέτρων τοῖς ποσὶν ὑποδημάτων.</quote> Pollux 7, 84 <quote>περὶ πόδα δὲ ὑποδήματα τὰ ἁρμόζοντα.</quote>
+                </p>
+              </note>
+              <note type="apparatus">
+                <p>cf. fr. 197. Athenion. 39.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="130" xml:id="kock-0497-skeyai-130" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_skeyai">
+              <lg>
+                <l n="1" xml:id="kock-0497-skeyai-130-l1" xml:lang="grc">ὥστ’ εἴ τις ὀρχοῖτ’ εὖ, θέαμ’ ἦν· νῦν δὲ δρῶσιν οὐδέν,</l>
+                <l n="2" xml:id="kock-0497-skeyai-130-l2" xml:lang="grc">ἀλλ’ ὥσπερ ἀπόπληκτοι στάδην ἑστῶτες ὠρύονται.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 628 e</note>
+              <note type="apparatus">εἰ δέ τις ἀμέτρως διαθείη τὴν σχηματοποιίαν καὶ ταῖς ᾠδαῖς ἐπιτυγχάνων μηδὲν λέγοι κατὰ τὴν ὄρχησιν, οὗτος δ’ ἦν ἀδόκιμος. διὸ καὶ Ἀριστοφάνης ἢ Πλάτων ἐν ταῖς Σκευαῖς, ὡς Χαμαιλέων φησίν, εἴρηκεν οὕτως κτλ. ἦν γὰρ τὸ τῆς ὀρχήσεως γένος τῆς ἐν τοῖς χοροῖς εὔσχημον τότε καὶ μεγαλοπρεπὲς καὶ ὡσανεὶ τὰς ἐν τοῖς ὅπλοις κινήσεις ἀπομιμουμένων (sic enim A). ὀρχοῖτ’] ὀρχοῖθ’ A. optativus est iterativus qui dicitur, quod moneo propter Bergkium et Cobetum Obs. crit. 51.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="131" xml:id="kock-0497-skeyai-131" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_skeyai">
+              <lg>
+                <l n="1" xml:id="kock-0497-skeyai-131-l1" xml:lang="grc">ἀναβιῶν’ ἐκ τῆς νόσου</l>
+              </lg>
+              <note type="source">Moeris</note>
+              <note type="apparatus">ἀναβιῶναι· Ἀττικοί, ὡς Πλάτων Σκευαῖς ἀναβιῶν ἐκ τῆς νόσου. ἀναβιώσαι κοινόν. ita Meinekius. grammaticus Marcianus apud Bekker. Harpocr. p. 35 ἀναβιὼν ἀντὶ τοῦ ἀναβιώσας. Πλάτων Σκευαῖς ἀναβιὼν ἐκ τῆς νόσου, καὶ Ἀριστοφάνης. cf. Aristoph. fr. 742.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="132" xml:id="kock-0497-skeyai-132" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_skeyai">
+              <note type="source">Schol. Aristoph. Av. 151</note>
+              <note type="apparatus">Πλάτων δὲ αὐτὸν (Μελάνθιον) ἐν Σκευαῖς ὡς λάλον σκώπτει. Σκευαῖς Pierson. Moer. 122] Σκύθαις.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="133" xml:id="kock-0497-skeyai-133" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_skeyai">
+              <note type="source">Schol. Aristoph. Ran. 367</note>
+              <note type="apparatus">τοῦτο εἰς Ἀρχῖνον. μήποτε δὲ καὶ εἰς Ἀγύρριον. μέμνηται δὲ τούτων καὶ Πλάτων ἐν Σκευαῖς καὶ Σαννυρίων ἐν Δανάῃ. οὗτοι γὰρ προϊστάμενοι τῆς δημοσίας τραπέζης τὸν μισθὸν τῶν κωμῳδῶν ἐμείωσαν κωμῳδηθέντες. verbis τῆς δημοσίας τραπέζης aerarium publicum significari docuit Fritzschius Ran. p. 194. de mercede comicorum ab Agyrrhio inminuta cf. Ran. 367 et Cobet. Obs. crit. 48. 9.</note>
+            </div>
+          </div></body></text></TEI>

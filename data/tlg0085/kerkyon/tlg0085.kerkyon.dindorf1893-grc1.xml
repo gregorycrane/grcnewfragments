@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΚΕΡΚΥΩΝ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Aeschylus</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          <biblScope unit="page" from="593" to="615"/>
+          </monogr>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 593–615. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-aeschylus-fragments-hathi-tei-v2-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 193 conservative Dindorf–Nauck fragment correspondences from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.kerkyon; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.kerkyon.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.kerkyon.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerkyon"><head>ΚΕΡΚΥΩΝ</head>
+          <pb n="598" facs="urn:hathi:iau.31858007086675:scan:606"/>
+          <div type="textpart" subtype="fragment" n="93" xml:id="frag_b3156f1ed3" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerkyon" sameAs="urn:cts:greekLit:tlg0085.kerkyon.nauck1889-grc1:103">
+            <note type="source">Hesychius, Ἄμβωνες: αἱ προσαναβάσεις τῶν ὀρῶν. Αἰσχύλος Κερκύονι (codex κερκύνι) καὶ Σισύφῳ. Erotianus p. 86. καὶ γὰρ οἱ Ῥόδιοι ἄμβωνας καλοῦσι τὰς ὀφρυώδεις τῶν ὀρῶν ἀναβάσεις. μέμνηται τῆς λέξεως καὶ Αἰσχύλος.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="94" xml:id="frag_da519d1eef" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerkyon" sameAs="urn:cts:greekLit:tlg0085.kerkyon.nauck1889-grc1:102">
+            <note type="source">Pollux X, 175. Εἶεν δ᾽ ἂν καὶ ἀμφωτίδες ἐκ τῶν σκευῶν εἰπόντος ἐν Κερκύονι Αἰσχύλου</note>
+            <lg type="fragment">
+              <l n="1" xml:id="frag_da519d1eef-l1" xml:lang="grc">Ἀμφωτίδες τοι τοῖς ἐνωτίοις πελας.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="95" xml:id="frag_6c81457d82" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerkyon" sameAs="urn:cts:greekLit:tlg0085.kerkyon.nauck1889-grc1:104">
+            <note type="source">Hesychius, Ἀπεψύχη: ἀπεπνευματίσθη. Αἰσχύλος Κερκύονι σατυρικῷ. Codex κερκυόνη σατυρικῷ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="96" xml:id="frag_a9c32fa86b" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerkyon">
+            <note type="source">Hesychius, Ἀτίσεις: ἀτιμάσεις. Αἰσχύλος Κερκύονι.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="97" xml:id="frag_2d1798f2d3" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerkyon" sameAs="urn:cts:greekLit:tlg0085.kerkyon.nauck1889-grc1:106">
+            <note type="source">Hesychius, Εὐληματεῖ: λήματος καὶ ἀνδρείας εὖ ἔχει. Αἰσχύλος Κερκύονι (codex κερκυόνῃ) σατυρικῷ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="98" xml:id="frag_d89d8e89ad" corresp="urn:cite2:perseus:fragmentaryplays.v1:kerkyon">
+            <note type="source">Harpocratio, Ὅρον: σκεθός τι γεωργικόν — μήποτε μέντοι τὸ ὅρον παρά τε Αἰσχύλῳ ἐν Κερκύονι (codices κεραυνῶνι) καὶ παρὰ Μενάνδρῳ σημαίνει ξύλον τι, ᾧ τὴν πεπατημένην σταφυλὴν πιέζουσιν. Fabulæ nomen omiserunt Suidas, apud quem ὅρον scriptum, et Photius p. 349, 18.</note>
+          </div>
+        </div></body></text>
+</TEI>

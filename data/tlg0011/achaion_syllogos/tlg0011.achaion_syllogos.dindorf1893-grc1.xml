@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0011-achaion_syllogos-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Sophocles, Ἀχαιῶν Σύλλογος: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Sophocles</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="616" to="653"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 616–653. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-sophocles-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Recorded 701 conservative Dindorf correspondences to Nauck or Pearson from normalized quoted-Greek similarity; unmatched fragments remain unlinked.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0011.achaion_syllogos; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0011.achaion_syllogos.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0011.achaion_syllogos.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos"><head>Ἀχαιῶν Σύλλογος</head><div type="textpart" subtype="fragment" n="151" xml:id="fragment-achaion_syllogos-dindorf1893_grc1-151" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos" sameAs="urn:cts:greekLit:tlg0011.achaion_syllogos.pearson1917-grc1:143">
+            <note type="source">Pollux X, 133. Τὰ δὲ ναυτικὰ σκεύη—πλῆκτρα, ὡς Σοφοκλῆς ἐν Ἀχαιῶν συλλόγῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὡς ναοφύλακες νυκτέρου ναυκληρίας</l>
+              <l n="2" xml:lang="grc">πλήκτροις ἀπευθύνουσιν οὐρίαν τρόπιν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="152" xml:id="fragment-achaion_syllogos-dindorf1893_grc1-152" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos">
+            <note type="source">Plutarchus Moral. p. 74 a. Ὁ παρὰ Σοφοκλεῖ τὸν Ἀχιλλέα παροξύνων Ὀδυσσεὺς οὔ φησιν ὀργίζεσθαι διὰ τὸ δεῖπνον, ἀλλά φησιν</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἤδη τὰ Τροίας εἰσορῶν ἑδώλια</l>
+              <l n="2" xml:lang="grc">δέδοικας.</l>
+            </lg>
+            <note type="commentary">καὶ πρὸς ταῦτα πάλιν τοῦ Ἀχιλλέως διαγανακτοῦντος καὶ ἀποπλεῖν λέγοντος</note>
+            <lg type="fragment">
+              <l n="3" xml:lang="grc">Ἐγὼ δ᾽ ὁ φεύγεις, οὐ τὸ μὴ κλύειν κακῶς</l>
+              <l n="4" xml:lang="grc">ἀλλ᾽ ἐγγὺς Ἕκτωρ ἐστίν· οὐ μένειν καλόν.</l>
+            </lg>
+            <note type="apparatus">V. ultimo alii libri θυμαίνειν καλόν.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="153" xml:id="fragment-achaion_syllogos-dindorf1893_grc1-153" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos">
+            <note type="source">Herodianus περὶ σχημάτων p. 57, 58. Ἀστεϊσμὸς δέ ἐστι προσποίησις πιθανὴ τοῦ μὴ λέγειν ἢ μνημονεύειν ἡμᾶς ἃ λέγομεν, ὡς παρὰ Σοφοκλεῖ εἰσῆκται λέγων Ὀδυσσεὺς τῷ Διομήδει</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐγὼ δ᾽ ἐρῶ σοι δεινὸν οὐδὲν, οὔθ᾽ ὅπως</l>
+              <l n="2" xml:lang="grc">φυγὰς πατρώας ἐξελήλασαι χθονὸς</l>
+              <l n="3" xml:lang="grc">οὔθ᾽ ὡς ὁ Τυδεὺς ἀνδρὸς αἷμα συγγενοῦς</l>
+              <l n="4" xml:lang="grc">κτείνας ἐν Ἄργει ξεῖνος ὢν οἰκίζεται,</l>
+              <l n="5" xml:lang="grc">οὔθ᾽ ὡς πρὸ Θηβῶν ὠμοβρὼς ἐδαίσατο</l>
+              <l n="6" xml:lang="grc">τὸν Ἀστάκειον παῖδα διὰ κάρα τεμών.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="154" xml:id="fragment-achaion_syllogos-dindorf1893_grc1-154" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos">
+            <note type="source">Schol. Sophoclis Edip. Col. v. 9. et Etymolog. M. p. 194, 5. Σοφοκλῆς ἐν Συνδείπνῳ βέβηλον τὸν ἰδιώτην φησί.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="155" xml:id="fragment-achaion_syllogos-dindorf1893_grc1-155" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos">
+            <note type="source">Schol. Sophoclis Ajac. v. 190. Τὸν Ὀδυσσέα Σισύφου συνήθως φησὶ Σοφοκλῆς καὶ ἐν Συνδείπνῳ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ πάντα πράσσων, ὡς ὁ Σίσυφος πολὺς</l>
+              <l n="2" xml:lang="grc">ἔνδηλος ἐν σοὶ πανταχοῦ, μητρὸς πατήρ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="156" xml:id="fragment-achaion_syllogos-dindorf1893_grc1-156" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos">
+            <note type="source">Hesychius, Ἀζειῶται: ἔθνος τῆς Τρωαδος. Σ. Συνδείπνῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="157" xml:id="fragment-achaion_syllogos-dindorf1893_grc1-157" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos" sameAs="urn:cts:greekLit:tlg0011.achaion_syllogos.pearson1917-grc1:145">
+            <note type="source">Hesychius, Ἐκκεκώπηται (codex ἐκκεκό-): ἐξήρτυται. Σ. Συλλόγῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="158" xml:id="fragment-achaion_syllogos-dindorf1893_grc1-158" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos" sameAs="urn:cts:greekLit:tlg0011.achaion_syllogos.pearson1917-grc1:146">
+            <note type="source">Hesychius, Ἐπιξενοῦσθαι: πορεύεσθαι. Σ. Ἀχαιῶν Συλλόγῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="159" xml:id="fragment-achaion_syllogos-dindorf1893_grc1-159" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos" sameAs="urn:cts:greekLit:tlg0011.achaion_syllogos.pearson1917-grc1:147">
+            <note type="source">Hesychius, Ἐπισειούσης: ἐπικελευομένης. ἀπὸ τῶν τὰς ἡνίας ἐπιχαλώντων. Σ. Ἀχαιῶν Συλλόγῳ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="160" xml:id="fragment-achaion_syllogos-dindorf1893_grc1-160" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos">
+            <note type="source">Μάσθλη: vide fragm. 137.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="161" xml:id="fragment-achaion_syllogos-dindorf1893_grc1-161" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0011_achaion_syllogos" sameAs="urn:cts:greekLit:tlg0011.achaion_syllogos.pearson1917-grc1:148">
+            <note type="source">Hesychius, Ξυμβόλους: τὰς διὰ τῆς φήμης γινομένας μαντείας, ἃς Φιλόχορός φησι Δήμητρα εὑρεῖν. Σ. Ἀχαιῶν Συλλόγῳ.</note>
+          </div>
+        </div></body></text></TEI>

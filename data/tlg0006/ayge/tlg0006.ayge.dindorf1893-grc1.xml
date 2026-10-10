@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-ayge-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΑΥΓΗ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.ayge; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.ayge.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.ayge.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge"><head>ΑΥΓΗ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-ayge-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge">
+            <note type="source">1. Schol. (Eurip.) Rhes. vs. 419.</note>
+            <note type="commentary">"Αμυστιν. οἱ μὲν ποτηρίου εἶδος ἐπιτηδειότητα ἔχον πρὸς τὰς ἀμυστὶ πόσεις· ὡς ἐν αὐτῇ σὺν τῷ βαθείας καὶ πυκνὰς ἕλκουσι τὰς ἀμυστίδας. κ.τ.λ. Emendavit God. Hermannus (de fgm. poet. in Schol. Vat. p. 9. Opusc. V, p. 189) sic: οἱ μὲν ποτηρίου εἶδος ἐπιτηδειότητα ἔχον πρὸς τὰς ἀμυστὶ πόσεις, ὡς ἐν Αὔγῃ·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ἔλκουσι</l>
+              <l n="2" xml:lang="grc">σὺν τῷ βαθείας καὶ πυκνὰς</l>
+              <l n="3" xml:lang="grc">τὰς ἀμυστίδας.</l>
+            </lg>
+          </div>
+        <div type="textpart" subtype="fragment" n="2" xml:id="fragment-ayge-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:265">
+            <note type="source">2. Stobaeus XVIII, 20.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Νῦν δ᾽ οἶνος ἐξέστησε μ᾽ ὁμολογῶ δέ σε</l>
+              <l n="2" xml:lang="grc">ἀδικεῖν· τὸ δ᾽ ἀδίκημ᾽ ἐγένετ᾽ οὐχ ἑκούσιον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-ayge-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:266">
+            <note type="source">3. Clem. Alex. Strom. VII, 4, § 23. p. 841 fin. P. Εὖ δὲ καὶ ἡ αὐτὴ (ἡ Αὔγη egregie correxit Valck. Diatr. p. 164.) δικαιολογουμένη πρὸς τὴν Ἀθηνᾶν ἐπὶ τῷ χαλεπαίνειν αὐτῇ τετοκυίᾳ ἐν τῷ ἱερῷ λέγει·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">σκῦλα μὲν βροτοφθόρα</l>
+              <l n="2" xml:lang="grc">χαίρεις ὁρῶσ᾽ ἀπὸ νεκρῶν ἐρείπια</l>
+              <l n="3" xml:lang="grc">κού μιαρά σοι ταῦτ᾽ ἔστιν᾽ εἰ δ᾽ ἐγὼ ᾽τεκον</l>
+              <l n="4" xml:lang="grc">δεινὸν τόδ᾽ ἡγῇ·</l>
+            </lg>
+            <note type="commentary">Καί τοι καὶ τὰ ἄλλα ζῶα ἐν τοῖς ἱεροῖς τίκτοντα οὐδὲν ἀδικεῖ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-ayge-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:277">
+            <note type="source">4. Stobaeus XXII, 7.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ποῖ; πῶς δὲ λήσει; τίς δὲ νῷν πιστὸς φίλος;</l>
+              <l n="2" xml:lang="grc">ζητῶμεν· ἡ δόκησις ἀνθρώποις κακὸν,</l>
+              <l n="3" xml:lang="grc">καὶ τοὐπιχειρεῖν ἐξαμαρτάνειν φιλεῖ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-ayge-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:269">
+            <note type="source">5. Stobaeus LXIII, 11.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἔρωτα δ᾽ ὅστις μὴ θεὸν κρίνει μέγαν,</l>
+              <l n="2" xml:lang="grc">καὶ τῶν ἁπάντων δαιμόνων ὑπέρτατον,</l>
+              <l n="3" xml:lang="grc">ἢ σκαιός ἐστιν, ἢ καλῶν ἄπειρος ὢν</l>
+              <l n="4" xml:lang="grc">οὐκ οἶδε τὸν μέγιστον ἀνθρώποις θεόν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-ayge-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:273">
+            <note type="source">6. Stobaeus CV, 15.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πᾶσιν γὰρ ἀνθρώποισιν, οὐχ ἡμῖν μόνον,</l>
+              <l n="2" xml:lang="grc">ἢ καὶ παραυτίκ᾽ ἢ χρόνῳ δαίμων βίον</l>
+              <l n="3" xml:lang="grc">ἔσφηλε, κοὐδεὶς διὰ τέλους εὐδαιμονεῖ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-ayge-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:274">
+            <note type="source">7. Stobaeus XXXVII, 20.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τὸ γὰρ ἐπιεικὲς ὠφελεῖ τὰς συμφοράς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-ayge-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:272">
+            <note type="source">8. Stobaeus LXXVIII, 4.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Τίς δ᾽ οὐχὶ χαίρει νηπίοις ἀθύρμασιν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-ayge-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:276">
+            <note type="source">9. Stobaeus LXXIII, 41.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Γυναῖκές ἐσμεν· τὰ μὲν ὄκνῳ νικώμεθα,</l>
+              <l n="2" xml:lang="grc">τὰ δ᾽ οὐκ ἂν ἡμῶν θράσος ὑπερβάλοιτό τις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-ayge-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:270">
+            <note type="source">10. Stobaeus XLVI, 9.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Οὐ τῶν κακούργων οἶκτος, ἀλλὰ τῆς δίκης.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-ayge-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:268">
+            <note type="source">11. Apollon. Dysc. in Bekk. An. Gr. p. 514, 10. Καὶ ἐν Αὔγῃ</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">καὶ βουθυτεῖν γὰρ ἠξίους ἐμὴν χάριν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-ayge-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:275">
+            <note type="source">12. Stobaeus XLIX, 3.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Κακῶς δ᾽ ὅλοιντο πάντες, οἱ τυραννίδι</l>
+              <l n="2" xml:lang="grc">χαίρουσιν ὀλίγῃ τ᾽ ἐν πόλει μοναρχίᾳ.</l>
+              <l n="3" xml:lang="grc">τοὐλεύθερον γὰρ ὄνομα παντὸς ἄξιον,</l>
+              <l n="4" xml:lang="grc">κἂν σμίκρ᾽ ἔχῃ τις, μεγάλ᾽ ἔχειν νομίζεται.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="13" xml:id="fragment-ayge-dindorf1893_grc1-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:279">
+            <note type="source">13. Hesych. Ἀπενήσω· ἀπέβαλες. Εὐριπίδης Αὔγῃ.</note>
+            <note type="commentary">Valck. 1. c. a choro verbum ἀπονήσασθαι de deposito Auges onere adhibitum esse conjecit.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="fragment-ayge-dindorf1893_grc1-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:280">
+            <note type="source">14. Hesych. Διέφθειρε· διῆγεν. Εὐριπίδης Αὔγῃ.</note>
+            <note type="commentary">Legendum esse διέφερε monuit Kusterus. cf. Pflugk. ad Herc. f. 75.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="15" xml:id="fragment-ayge-dindorf1893_grc1-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:278">
+            <note type="source">15. Hesych. Κέρας ὄρθιον· ἢ νευρά. Εὐριπίδης ἐν Αὔγῃ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="16" xml:id="fragment-ayge-dindorf1893_grc1-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ayge" sameAs="urn:cts:greekLit:tlg0006.ayge.nauck1889grc1:281">
+            <note type="source">16. Gramm. Sangerm. in Bekk. An. Gr. p. 116, 2. Φιλοτραφὴς, ὃν ἡ συνήθεια φιλοτρόφον λέγει. Εὐριπίδης Αὔγῃ.</note>
+            <note type="commentary">Ad Augen haud male Welckerus p. 765 locum rettulit Plut. Sympos. IX, 1. (p. 736 Ε.) Καὶ ὁ παρὰ Δημητρίῳ τῷ βασιλεῖ πρόθυμος ἦν ᾄδειν μετὰ τὸ δεῖπνον, ὥστε προσέπεμψεν αὐτῷ τὸν υἱὸν ἔτι παιδάριον ὄντα τὸν Φίλιππον, ἐπιβαλὼν εὐθύς·</note>
+            <quote>
+              <lg type="fragment">
+                <l n="1" xml:lang="grc">Τὸν παῖδά μοι τόνδ᾽ ἀξίως Ἡρακλέους</l>
+                <l n="2" xml:lang="grc">ἡμῶν τε θρέψαι.</l>
+              </lg>
+            </quote>
+          </div>
+        </div></body></text></TEI>

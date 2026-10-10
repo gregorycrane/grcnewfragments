@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>TELECLIDES, ΑΨΕΥΔΕΙΣ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Teleclides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0510.apseydeis.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0510.apseydeis.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0510.apseydeis.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_apseydeis"><head>ΑΨΕΥΔΕΙΣ</head><div type="textpart" subtype="fragment" n="10" xml:id="kock-0510-apseydeis-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_apseydeis">
+              <lg>
+                <l n="1" xml:id="kock-0510-apseydeis-10-l1" xml:lang="grc">τὰ δὲ τήγανα</l>
+                <l n="2" xml:id="kock-0510-apseydeis-10-l2" xml:lang="grc">σίζοντά σοι μολύνεται.</l>
+              </lg>
+              <note type="source">Pollux 10, 98</note>
+              <note type="apparatus">ἀλλὰ μὴν καὶ τήγανον ἔχοις ἂν εὑρεῖν . . . ἐν Τηλεκλείδου Ἀψευδέσιν. Meinekius (V 30) τηγάνια scribens uno versu omnia continuat et μωλύεται pro μολύνεται conl. Lobeck. Pathol. prol. 345. τήγανα σίζοντα ut Alexid. 182, 6 (Herwerd. Nov. add. crit. 5). Clem. Alex. Paed. 2, 1 p. 240 b ταγήνοις σίζουσι περιηχούμενοι. at sententia paene ridicula; quapropter Bent-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0510-apseydeis-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_apseydeis">
+              <note type="source">Schol. Arist. Vesp. 506</note>
+              <lg>
+                <l n="1" xml:id="kock-0510-apseydeis-11-l1" xml:lang="grc">ζῆν βίον γενναῖον ὥσπερ Μόρυχος]</l>
+              </lg>
+              <note type="apparatus">πρὸς τὸν τοὺς Ἀψευδεῖς ποιήσαντα, ὅτι τὸν Μόρυχον τῶν πολιτικῶν πεποίηκε μετέχοντα πραγμάτων, ἀγνοήσας ὅτι τρυφερὸς καὶ ἡδύβιος κωμῳδεῖται. τὸν τοὺς — ποιήσαντα, ὅτι — μετέχοντα πεποίηκε — ἀγνοήσας Meinek.] τοὺς (τὸ τοὺς V) ποιήσαντάς τι — πεποίηκε — ἀγνοήσαντας. ac μετέχοντα Dindorfius quoque addit, qui pro Ἀψευδεῖς coniecit scribendum esse Μεταλλεῖς. de usu praepositionis πρός (‘i. e. hinc refellitur’) cf. Dobr. Adv. II 268. praeterea cf. quae supra ad titulum adnotavimus et de Morycho Aristoph. Ach. 887. Vesp. 506. 1142. Pac. 1008. Plat. com. 106. Wilamowitz. Obs. crit. 55 adn. 49.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0510-apseydeis-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_apseydeis">
+              <note type="source">Pollux 10, 68</note>
+              <p>τὸ δὲ σύστομον ὄνομα φιλήματός ἐστιν ἐν τοῖς Τηλεκλείδου Ἀψευδέσι μετ’ ἄλλων πολλῶν εἰρημένον.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="13" xml:id="kock-0510-apseydeis-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0510_apseydeis">
+              <p>δρεπτόν (μανδαλωτόν, γιγγλιμωτόν)</p>
+              <note type="source">Hesych.</note>
+              <note type="apparatus">δρεπτόν· εἶδος φιλήματος, ὡς Τηλεκλείδης, fabulae nomine non addito. probabiliter tamen propter Poll. 10, 68 (fr. 12) Meinekius ad Ἀψευδεῖς rettulit. quae in Etym. m. 287, 28 adduntur καὶ τὸ δρεπτὸν (ἐ)σκευώρηται παρὰ σοῦ φίλημα non recte Teleclidis esse statuerunt Hemsterhusius et Sturzius (cf. G. g. A. 1848, 1789. H. Iacobi V p. LIX). Phot. μανδαλωτόν· εἶδος φιλήματος, ὡς γιγγλιμωτὸν καὶ δραπετον (scr. δρεπτόν), quae sine dubio ad Ἀψευδεῖς pertinent.</note>
+            </div>
+          </div></body></text></TEI>

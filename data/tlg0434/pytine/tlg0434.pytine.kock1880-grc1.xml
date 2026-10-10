@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS, ΠΥΤΙΝΗ: fragments</title><title type="sub">Kock 1880: OCR-derived diplomatic TEI transcription</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1880</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor01kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijva">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.pytine.kock1880-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.pytine.kock1880-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.pytine.kock1880-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine"><head>ΠΥΤΙΝΗ</head><div type="textpart" subtype="fragment" n="183" xml:id="kock-0434-pytine-183" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-183-l1" xml:lang="grc">νῦν δ' ἣν ἴδῃ Μενδαῖον ἡβῶντ' ἀρτίως</l>
+                <l n="2" xml:id="kock-0434-pytine-183-l2" xml:lang="grc">οἰνίσκον, ἕπεται κἀκολουθεῖ καὶ λέγει,</l>
+                <l n="3" xml:id="kock-0434-pytine-183-l3" xml:lang="grc">οἴμ' ὡς ἁπαλὸς καὶ λευκός. ἆρ' οἴσει τρία;</l>
+              </lg>
+              <note type="source">Athenaeus 1, 29 d Μενδαίου δὲ (μνημονεύει) Κρατίνος.</note>
+              <note type="apparatus">ἦν Dind.] ἂν. Pytinae recte tribuit Runkelius. narrat haec de Cratino Comoedia. Hesych. apud Casaub. (ego glossam non repperi) ἆρ' οἴσει τρία; ἐπὶ οἴνου ἐλέγετο, ἐπεὶ τὸ πάλαι ἐκιρνᾶτο τρία ὕδατος λαμβάνων, τὸ δὲ τέταρτον οἴνου. cf. quae adnotavimus ad Arist. Eq. 1188 et Pherecr. 70. οἰνίσκος ut νεανίσκος. Arist. Av. 667 ὡς καλὸν τοὐρνίθιον, ὡς ἁπαλόν, ὡς δὲ λευκόν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="184" xml:id="kock-0434-pytine-184" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-184-l1" xml:lang="grc">τὸν δ' ἴσον ἴσῳ φέροντ'· ἐγὼ δ' ἐκτήκομαι.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 426 b Κρατῖνος ἐν Πυτίνῃ.</note>
+              <note type="apparatus">Dobraeus Adv. II 326 et Meinekius τὸν ἴσον ἴσῳ φέροντ' ἔγωγ' ἐκτήκομαι, ut sint Cratini verba. perperam, si quid video. loquitur Comoedia [ποθεῖ γὰρ οὐδὲν ἢ] τὸν ἴσον ἴσῳ φέροντ'· ἐγὼ δ' ἐκτήκομαι. dum Cratinus nihil nisi vinum cogitet, se dicit inrito poetae amore tabescere.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="185" xml:id="kock-0434-pytine-185" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-185-l1" xml:lang="grc">τὴν μὲν παρασκευὴν ἴσως γιγνώσκετε.</l>
+              </lg>
+              <note type="source">Clemens Alex. Strom. 6, 2, 20 Κρατίνου ἐν Πυτίνῃ εἰπόντος.</note>
+              <note type="apparatus">sunt verba Cratini defensionem exordientis. cf. Fritzsch. Quaest. Arist. I 267. sic de adversariorum in litibus machinationibus saepissime oratores, quorum exempla quaedam Clemens Alexandrinus adfert.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="186" xml:id="kock-0434-pytine-186" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-186-l1" xml:lang="grc">ἄναξ Ἄπολλον, τῶν ἐπῶν τῶν ῥευμάτων.</l>
+                <l n="2" xml:id="kock-0434-pytine-186-l2" xml:lang="grc">καναχοῦσι πηγαί, δωδεκάκρουνον τὸ στόμα,</l>
+                <l n="3" xml:id="kock-0434-pytine-186-l3" xml:lang="grc">Ἰλισὸς ἐν τῇ φάρυγι· τί ἂν εἴποιμ' ἔτι;</l>
+                <l n="4" xml:id="kock-0434-pytine-186-l4" xml:lang="grc">εἰ μὴ γὰρ ἐπιβύσει τις αὐτοῦ τὸ στόμα,</l>
+                <l n="5" xml:id="kock-0434-pytine-186-l5" xml:lang="grc">ἅπαντα ταῦτα κατακλύσει ποιήμασιν.</l>
+              </lg>
+              <note type="source">Schol. Arist. Eq. 526 ὁ γὰρ Κρατῖνος οὕτω πως ἑαυτὸν ἐπῄνεσεν ἐν τῇ Πυτίνῃ.</note>
+              <note type="apparatus">ex scholiasta Suidas ἀφέλεια et δωδεκάκρουνον. v. 1. 2. 3 Tzetzes Chil. 8, 184. Exeg. Iliad. 12, 11. Tzetz.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="187" xml:id="kock-0434-pytine-187" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-187-l1" xml:lang="grc">πῶς τις αὐτόν, πῶς τις ἂν</l>
+                <l n="2" xml:id="kock-0434-pytine-187-l2" xml:lang="grc">ἀπὸ τοῦ πότου παύσειε, τοῦ λίαν πότου;</l>
+                <l n="3" xml:id="kock-0434-pytine-187-l3" xml:lang="grc">ἐγᾦδα. συντρίψω γὰρ αὐτοῦ τοὺς χόας,</l>
+                <l n="4" xml:id="kock-0434-pytine-187-l4" xml:lang="grc">καὶ τοὺς καδίσκους συγκεραυνώσω σποδῶν,</l>
+                <l n="5" xml:id="kock-0434-pytine-187-l5" xml:lang="grc">καὶ τἄλλα πάντ' ἀγγεῖα τὰ περὶ τὸν πότον,</l>
+                <l n="6" xml:id="kock-0434-pytine-187-l6" xml:lang="grc">κοὐδ' ὀξύβαφον οἰνηρὸν ἔτι κεκτήσεται.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 494 c ἔστι δὲ (ὀξύβαφον) καὶ ὄνομα ποτηρίου, οὗ μνημονεύει Κρατῖνος μὲν ἐν Πυτίνῃ. ν. 6 Pollux 6, 23 οἰνηρὸν ὀξύβαφον παρὰ Κρατίνῳ οὐδ' — κεκτήσεται. et 10, 67 τὸ παρὰ τῷ Κρατίνῳ ἐν Πυτίνῃ οἰνηρὸν ὀξύβαφον. 7, 161 κεράμιον οἰνηρὸν . . . Κρατῖνος (fr. 460). Zonaras 1456 ὀξύγαρον οἰνηρὸν ἔτι κεκτήσεται.</note>
+              <note type="apparatus">πότου Casaub.] ποτοῦ. loquitur unus ex amicis Cratini sibique ipse interroganti respondet, ante pacem inter poetam et Comoediam, ut videtur, restitutam, ἀπὸ τοῦ πότου, ut Xenoph. Rep. Laced. 3, 1 παύουσι μὲν ἀπὸ παιδαγωγῶν, παύουσι δὲ ἀπὸ διδασκάλων. συγκεραυνώσω] fulminis vi confringam et diffindam. cf. G. Hermann. Eurip. Bacch. 1103 δρυΐνους συγκεραυνοῦσαι κλάδους ῥίζας ἀνεσπάρασσον.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="188" xml:id="kock-0434-pytine-188" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-188-l1" xml:lang="grc">ἀτὰρ ἐννοοῦμαι δῆτα τῆς μοχθηρίας</l>
+                <l n="2" xml:id="kock-0434-pytine-188-l2" xml:lang="grc">τῆς ἠλιθιότητος τῆς ἐμῆς.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="189" xml:id="kock-0434-pytine-189" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-189-l1" xml:lang="grc">ὄψει γὰρ αὐτὴν ἐντὸς οὐ πολλοῦ χρόνου</l>
+                <l n="2" xml:id="kock-0434-pytine-189-l2" xml:lang="grc">παρὰ τοῖσι δεσμώταισι καταπιττουμένην.</l>
+              </lg>
+              <note type="source">Schol. Sophocl. Ai. 105 et Suidas δεσμώτης· καὶ αὐτὸς ὁ δέσμιος, ὡς ὁ δεσμώτης Προμηθεύς· καὶ ὁ δεσμῶν, ὡς Κρατῖνος ἐν Πυτίνῃ ἐπὶ τῶν δεσμοφυλάκων. ἐντὸς Meinek.] ἐκτὸς. πολλοῦ χρόνου Suid.] πολλῷ χρόνῳ Schol. παρὰ Schol.] πρὸς Suid. δεσμώταισι Suid.] δεσμώτησι Schol. καταπιττουμένην] καταπιπτουμένην Suid. V et Schol. L. — Hesych. πυτίνη· ἔπλεκον δὲ ταύτας ὡς ἐπὶ τὸ πολὺ οἱ δεσμῶται, καὶ σπυρίδας καὶ τὰ τοιαῦτα.</note>
+              <note type="apparatus">καταπιττουμένην perperam de stupratione interpretabatur Hemsterhusius Aristoph. Plut. p. 413 Lips. recte Meinekius: ‘brevi lagenam apud publici carceris custodes pice oblini videbis.’ videtur uxor Cratino lagenam furtim abstulisse quaerentemque maritum consolari refici eam dicens apud carceris custodes.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="190" xml:id="kock-0434-pytine-190" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-190-l1" xml:lang="grc">ἆρ’ ἀραχνίων μεστὴν ἔχεις τὴν γαστέρα.</l>
+              </lg>
+              <note type="source">Suidas ἀράχνη· Κρατῖνος Πυτίνῃ. ἆρ’ addidit Meinekius. Catull. 13, 8 tui Catulli plenus sacculus est aranearum. venter lagenae est apud Iuven. 12, 60 (Mein.).</note>
+              <note type="apparatus">Cratini verba sunt lagenam, quam occultam ablatamve ab uxore tandem reppererat, vacuam conspicientis. ἆρα ut Aesch. Prom. 735. Xen. Mem. 3, 6, 4. 3, 10, 1 et saepissime. moneo hoc propter Herwerd. Obs. crit. 6.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="191" xml:id="kock-0434-pytine-191" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-191-l1" xml:lang="grc">ἀλλ’ οὐδὲ λάχανον οὐδὲν οὐδ’ ὀστοῦν ἔτι</l>
+                <l n="2" xml:id="kock-0434-pytine-191-l2" xml:lang="grc">ὁρῶ.</l>
+              </lg>
+              <note type="source">Herodian. II 943, 20 Lentz. οὐκ ἀγνοῶ δὲ ὡς καὶ ὀστοῦν λέγεται, ὡς καὶ παρὰ Κρατίνῳ ἐν Πυτίνῃ. οὐδὲν Dind.] οὐδὲ. ἔτι Dind.] ἔστι.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="199" xml:id="kock-0434-pytine-199" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-199-l1" xml:lang="grc">οἶνός τοι χαρίεντι πέλει ταχὺς ἵππος ἀοιδῷ,</l>
+                <l n="2" xml:id="kock-0434-pytine-199-l2" xml:lang="grc">ὕδωρ δὲ πίνων οὐδὲν ἂν τέκοι σοφόν.</l>
+              </lg>
+              <note type="source">Epigramma apud Athen. 2, 39 c et alios</note>
+              <note type="apparatus">
+                <quote>
+                  <lg>
+                    <l n="1_2" xml:id="kock-0434-pytine-199-l1_2" xml:lang="grc">οἶνός τοι χαρίεντι πέλει ταχὺς ἵππος ἀοιδῷ,</l>
+                    <l n="2_2" xml:id="kock-0434-pytine-199-l2_2" xml:lang="grc">ὕδωρ δὲ πίνων οὐδὲν ἂν τέκοι σοφόν.</l>
+                    <l n="3" xml:id="kock-0434-pytine-199-l3" xml:lang="grc">ταῦτ᾽ ἔλεγεν, Διόνυσε, καὶ ἔπνεεν οὐχ ἑνὸς ἀσκοῦ</l>
+                    <l n="4" xml:id="kock-0434-pytine-199-l4" xml:lang="grc">Κρατῖνος, ἀλλὰ παντὸς ὠδωδὼς πίθου.</l>
+                  </lg>
+                </quote> sine dubio Pytinae tribuendum. ταχὺς Anthol. (Brunck. Anal. I 417)] μέγας Athen. οὐδὲν ἂν τέκοι σοφόν] χρηστὸν οὐδὲν ἂν τέκοις Anthol. καλὸν pro χρηστὸν Suid. ὕδωρ. cf. Hor. Epist. 1, 19, 1 et quae ad v. 10 adnotavit Bentl. — solum senarium Cratini esse sobrie iudicat Cobet. N. 1. 146. 7.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="200" xml:id="kock-0434-pytine-200" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <note type="source">Schol. Arist. Eq. 531</note>
+              <note type="apparatus">ταῦτα ἀκούσας ὁ Κρατῖνος ἔγραψε τὴν Πυτίνην δεικνὺς ὅτι οὐκ ἐλήρησεν, ἐν οἷς (ἐν ᾗ Kirchhoff Herm. XIII 290) κακῶς λέγει τὸν Ἀριστοφάνην ὡς τὰ Εὐπόλιδος λέγοντα. cf. quae ad fr. 198 extr. adnotavimus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="201" xml:id="kock-0434-pytine-201" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <note type="source">Plutarch. Mor. 833 a</note>
+              <note type="apparatus">ὅτι δὲ (Ἀντιφῶν ὁ Ῥαμνούσιος) ὑπὸ τῶν τριάκοντα ἀπέθανεν ἱστορεῖ καὶ Θεόπομπος ἐν τῇ πεντεκαιδεκάτῃ τῶν Φιλιππικῶν. ἀλλ᾽ οὗτός γε ἂν εἴη ἕτερος, Λυσιδωνίδου πατρός, οὗ Κρατῖνος ἐν Πυτίνῃ ὡς πονηροῦ μνημονεύει. ‘eundem fortasse Antiphontem risit Aristoph. Vesp. 301.’ Meinek.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="202" xml:id="kock-0434-pytine-202" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <note type="source">Schol. Platonis 331 Bekk.</note>
+              <note type="apparatus">Κρατῖνος Πυτίνῃ (Χαιρεφῶντα σκώπτει) εἰς αὐχμηρὸν καὶ πένητα. cf. interpr. Aristoph. Nub. 104.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="203" xml:id="kock-0434-pytine-203" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <note type="source">Schol. Plat. Bekk. 332</note>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0434-pytine-203-l1" xml:lang="grc">Λύκων μέντοι πατὴρ ἦν Αὐτολύκου,</l>
+                  <l n="2" xml:id="kock-0434-pytine-203-l2" xml:lang="grc">Ἴων γένος, δήμων Θορίκιος, πένης, ὡς Κρατῖνος Πυτίνῃ, Ἀριστο-</l>
+                  <l n="3" xml:id="kock-0434-pytine-203-l3" xml:lang="grc">φάνης Σφηξίν.</l>
+                </lg>
+              </quote>
+              <note type="apparatus">de Lycone, postea Socratis accusatore, Schneider. Xen. Anab. praef. XXXII. Meinek. I 117.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="204" xml:id="kock-0434-pytine-204" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <note type="source">Pollux 10, 58</note>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0434-pytine-204-l1" xml:lang="grc">ὁ δὲ ἐνὼν τῇ πινακίδι κηρὸς ἢ μάλθη . . . Κρα-</l>
+                  <l n="2" xml:id="kock-0434-pytine-204-l2" xml:lang="grc">τῖνος δὲ ἐν τῇ Πυτίνῃ μάλθην ἔφη.</l>
+                </lg>
+              </quote>
+              <note type="source">Bekk. Anecd. 278, 23</note>
+              <quote>
+                <lg>
+                  <l n="1_2" xml:id="kock-0434-pytine-204-l1_2" xml:lang="grc">μάλ-</l>
+                  <l n="2_2" xml:id="kock-0434-pytine-204-l2_2" xml:lang="grc">θη· μεμαλαγμένος κηρὸς ἢ ἄλλο τι τοιοῦτον, ᾧ τὰ γραμματεῖα (ta-</l>
+                  <l n="3" xml:id="kock-0434-pytine-204-l3" xml:lang="grc">bulae scriptoriae) πράττεται (πλάττεται?).</l>
+                </lg>
+              </quote>
+              <note type="apparatus">Ad Pytinen praeterea referebat Meinekius fr. 291, Runkelius 307; fortasse ad eandem pertinet Etym. m. 197, 32 ὕδωρ δὲ πίνει, τὸν δὲ Βίβλινον στυγεῖ. cf. etiam fr. 288.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="181" xml:id="kock-0434-pytine-181" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-181-l1" xml:lang="grc">ἀλλ’ ἐπανατρέψαι βούλομαί σου τὸν λόγον.</l>
+                <l n="2" xml:id="kock-0434-pytine-181-l2" xml:lang="grc">πρότερον ἐκεῖνος πρὸς ἑτέραν γυναῖκ’ ἔχων</l>
+                <l n="3" xml:id="kock-0434-pytine-181-l3" xml:lang="grc">τὸν νοῦν, κακὰς εἴποι πρὸς ἑτέραν· ἀλλ’</l>
+                <l n="4" xml:id="kock-0434-pytine-181-l4" xml:lang="grc">ἅμα μὲν τὸ γῆρας, ἅμα δέ μοι δοκεῖ</l>
+                <l n="5" xml:id="kock-0434-pytine-181-l5" xml:lang="grc">οὐδέποτ’ αὐτοῦ πρότερον.</l>
+              </lg>
+              <note type="source">Schol. Arist. Eq. 400 post verba quae supra exscripsimus.</note>
+              <note type="apparatus">
+                <p>1. ἐπανατρέψαι Bentleius] ἐπαναστρέψαι. ἐπαναθρέξαι, quod ἐπανατρέπειν verbum sit insolitum, Fritzsch. in libello acad. Rostoch. 1877 p. 14, sed id pro ἐπανιέναι non credo cuiquam Atticorum usitatum fuisse. scribendum censeo ἀλλ’ εἶ’ ἀνατρέψαι. nam εἶα neque in adhortando altero neque cum imperativo solum usurpatur. Eur. Hel. 1429 ἀλλ’ εἶα, τοὺς μὲν Πελοπιδῖον ἐῶ νόμους. de verbi ἀνατρέπειν significatione cf. Aristoph. Nub. 901, atque haud raro sic Plato. βούλομαί σου L. Dindorf. Annal. Fleckeis. 1869, 522. 3] βούλομαι εἰς. βουλόμενος εἰς Flor. 2. πρότερον vulgo cum λόγον coniunctum, in Venet. 464 omissum; melius interpunxit Fritzschius Quaest. Arist. I 263. Fritzschius De prol. p. 14 praeterea χατέραν — κακῶς κἀμοὶ προσεῖχεν, verba Cratini (cf. Mus. Rhen. XXX 413 sq.) sic videntur constituenda</p>
+                <lg>
+                  <l n="1_2" xml:id="kock-0434-pytine-181-l1_2" xml:lang="grc">ἀλλ’ εἶ’ ἀνατρέψαι βούλομαί σου τὸν λόγον.</l>
+                  <l n="2_2" xml:id="kock-0434-pytine-181-l2_2" xml:lang="grc">πρότερον μὲν ἐκεῖνος πρὸς ἑτέραν γυναῖκ’ ἔχων</l>
+                  <l n="3_2" xml:id="kock-0434-pytine-181-l3_2" xml:lang="grc">τὸν νοῦν [ὅμως] κἀμοὶ [προσεχρῆτ’ ἄν] ἀλλὰ νῦν</l>
+                  <l n="4_2" xml:id="kock-0434-pytine-181-l4_2" xml:lang="grc">ἅμα μὲν τὸ γῆρας, ἅμα δέ μοι μέθη δοκεῖ</l>
+                  <l n="5_2" xml:id="kock-0434-pytine-181-l5_2" xml:lang="grc">ὡς οὐδέποτ’ αὐτοῦ πρότερον [ἐπικρατεῖν ὅλως].</l>
+                </lg>
+                <p>in his μέθη est Fritzschii Quaest. Arist. 263. 4. ὅλως sic saepissime. cf. Antiphan. 33, 5. Athenion. 2. sunt autem verba Comoediae Cratinum apud amicos adcusantis, ex quibus unus (σου) poetae causam egerat.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="182" xml:id="kock-0434-pytine-182" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-182-l1" xml:lang="grc">γυνὴ δ’ ἐκείνου πρότερον ἦ, νῦν δ’ οὐκέτι.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="192" xml:id="kock-0434-pytine-192" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <head>192</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-192-l1" xml:lang="grc">ὡς λεπτός, ἦ δ’ ὅς, ἔσθ’ ὁ τῆς χορδῆς τόμος.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 94 f Κρατῖνος ἐν Πυτίνῃ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="193" xml:id="kock-0434-pytine-193" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <head>193</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-193-l1" xml:lang="grc">τοὺς μὲν ἐκ προχοιδίου,</l>
+                <l n="2" xml:id="kock-0434-pytine-193-l2" xml:lang="grc">τοὺς δ’ ἐκ καδίσκου.</l>
+              </lg>
+              <note type="source">Pollux 10, 70 ἀμφορεῖς καὶ ἀμφορίσκους καὶ κάδους καὶ καδίσκους . . . Κρατῖνος ἐν Πυτίνῃ. Strattid. 22 contulit Meinekius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="194" xml:id="kock-0434-pytine-194" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <head>194</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-194-l1" xml:lang="grc">ἀπὸ ποτέρου τὸν καῦνον ἀριθμήσεις;</l>
+              </lg>
+              <note type="source">Etymol. m. 267, 19 καῦνος γὰρ λέγεται ὁ κλῆρος. Κρατῖνος Πυτίνῃ ἀπὸ προτέρου τὸν καῦνον ἀριθμήσεις. καὶ ἐγώ, ὡς Καυνίων μάλιστα χρωμένων. Schol. Arist. Pac. 1081 διακαυνιάσαι· καὶ Κρατῖνος Πυτίνῃ ἀπὸ προτέρου τὸν καῦνον ἀριθμήσεις. ἄλλως. ἀντὶ τοῦ κληρωθῆναι, ὡς τῶν Καυνίων μάλιστα χρωμένων. Phot. καυνός· σκληρός.</note>
+              <note type="apparatus">adparet cum Cobeto corrigendum esse καῦνος· ὁ κλῆρος. ποτέρου Dind. et Meinek.] προτέρου. mihi ἐγώ quod in Etymologico verbum ἀριθμήσεις sequitur poetae esse et scribendum videtur εἰπέ, ποτέρου (εἴφ’ ὑποτ.) τ. κ. ἀριθμήσεις; Β. ἐγώ; sic enim interrogativum illud ἐγώ; responso praemittitur Aristoph. Nub. 723. Αν. 125. Ran. 486. 752. 1472. Eccl. 372. 930. cf. Pac. 187. Αν. 107.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="195" xml:id="kock-0434-pytine-195" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <head>195</head>
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-195-l1" xml:lang="grc">ληρεῖς ἔχων· γελοῖος ἔσται Κλεισθένης κυβεύων</l>
+                <l n="2" xml:id="kock-0434-pytine-195-l2" xml:lang="grc">ἐν τῇδε τῇ κάλλους ἀκμῇ.</l>
+              </lg>
+              <note type="source">Schol. Arist. Nub. 355 οὗτος δὲ (Κλεισθένης) ἐπὶ κιναιδίᾳ διαβάλλεται. τοῦτον δὲ ὡς γυναικιζόμενον οὐκ Ἀριστοφάνης διαβάλλει μόνον, ἀλλὰ καὶ Κρατῖνος ἐν Πυτίνῃ λέγων οὕτως κτλ. eadem fere Suidas Κλεισθένους ἀκρατέστερος (fabulae nomine omisso). post ληρεῖς ἔχων Schol. addit γράφ’ αὐτὸς ἐν ἐπεισοδίῳ. Suidas γράφων αὔτ’ (αὐτὸν Α) ἐν ἐπεισοδίῳ. Κλεισθένης] Κλεισθένη Schol. ἐν — ἀκμῇ om. Suid. τῇδε τῇ Bentl.] τῇ.</note>
+              <note type="apparatus">G. Dindorfius ληρεῖς ἔχων· γελοῖος ἔσται Κλεισθένης κυβεύων | ἐν τῇδε τῇ κάλλους ἀκμῇ· γράφ’ αὐτὸν ἐν σποδείῳ, σποδεῖον lupanar esse adfirmans, nullo tamen testimonio adlato. nos Piersonum (Moer. 391) secuti sumus, Porsono quoque et G. Hermanno probatum, qui modice transpositis verbis Κρατῖνος ἐν Πυτίνῃ λέγων οὕτως ἐν ἐπεισοδίῳ poetae verba ea tantum reliquit quae supra leguntur. ἐπεισόδιον cur non idem in comoedia significare possit quod in tragoedia, fabulae partem canticis choricis inclusam, nullam video causam. cf. quae adnotavimus ad Metag. 14. de Clisthene cf. interpr. Aristoph. Eq. 1374. Nub. 355.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="196" xml:id="kock-0434-pytine-196" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-196-l1" xml:lang="grc">Ὑπέρβολον δ’ ἀποσβέσας ἐν τοῖς λύχνοισι γράψον.</l>
+              </lg>
+              <note type="source">Schol. Arist. Pac. 692 λυχνοπώλης ὁ Ὑπέρβολος. Κρατῖνος ἐν Πυτίνῃ κτλ. λύχνοις codices.</note>
+              <note type="apparatus">de Hyperbolo cf. interpr. Aristoph. Eq. 1304. ἀποσβέσας pro ἐξαλείψας (nomen eius), quia lucernas vendebat. cf. Arist. Eq. 877 τὸν Γρύττον ἐξαλείψας. nomen Hyperboli dele et in foro ubi lucernae veneunt scribe. videntur duo nescio qui nomina eorum adulescentulorum recensere, qui indigni ad rem publicam accesserint. alter alterum iubet Clisthenem et Hyperbolum ex numero illorum qui digni sint tanto honore tollere et nomina eorum aptiori loco adscribere.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="197" xml:id="kock-0434-pytine-197" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-197-l1" xml:lang="grc">οὐ δύνανται πάντα ποιοῦσαι νεωσοίκων λαχεῖν,</l>
+                <l n="2" xml:id="kock-0434-pytine-197-l2" xml:lang="grc">οὐδὲ κάννης.</l>
+              </lg>
+              <note type="source">Pollux 10, 184 μάλιστα δ’ ἐχρῶντο τῷ πλέγματι τούτῳ (κάννας dicit) ἐς τὰ περιφράγματα, ὡς ἐν τῇ Πυτίνῃ ὁ Κρατῖνος περὶ τῶν τριήρων λέγει. νεὼς οἴκων codices, ut Paus. 1, 29, 16 νεώς εἰσιν οἶκοι. Bekker. Anecd. 282, 1 νεώσοικοι· καταγώγια ἐπὶ τῆς θαλάττης ᾠκοδομημένα εἰς ὑποδοχὴν τῶν νεῶν, ὅτε μὴ θαλαττεύοιεν. τὰ νεώρια δὲ ἡ τῶν ὅλων περιβολή. Hesych. utrumque confundens νεώσοικοι· τὰ νεώρια ἔνθα ἡ ναῦς χειμῶνος εἰσφέρεται.</note>
+              <note type="apparatus">erant autem νεώσοικοι, quos singulos singulae triremes habebant, ad Cantharum portum, ad Munychiam, denique ad Zeam (Boeckh. Oecon. Ath.2 I 84). postquam Themistocle auctore decretum erat, ut vicenae quotannis triremes novae aedificarentur (Boeckh. I 350) neque quingentorum senatus corona donabatur nisi eum numerum explevisset, naves festinantius plerumque aedificabantur: quo fiebat, ut saepenumero νεώσοικοι navibus recipiendis non sufficerent (Boeckh. III 279) multaeque triremes ὑπαίθριοι in terra iacerent (III 335). id ipsum Cratinus queritur, quod triremes πάντα ποιοῦσαι tamen non possint νεωσοίκους suos nancisci. excerpta enim haec sunt ex epirrhemate, atque imitatur quodammodo epirrhema sive Eupolidis sive Aristophanis Eq. 1300 sq.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="198" xml:id="kock-0434-pytine-198" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_pytine">
+              <lg>
+                <l n="1" xml:id="kock-0434-pytine-198-l1" xml:lang="grc">ὦ λιπερνῆτες πολῖται, τἀμὰ δὴ ξυνίετε</l>
+                <l n="2" xml:id="kock-0434-pytine-198-l2" xml:lang="grc">ῥήματα.</l>
+              </lg>
+              <note type="source">Schol. Arist. Pac. 603 Κρατίνος ἐν Πυτίνῃ . . . ἔστι δὲ πρὸς τὰ Ἀρχιλόχου· ὦ λιπερνῆτες πολίται, τἀμὰ δὴ ξυνίετε ῥήματα. Photius λιπέρνητες· ἤτοι λιποπόλεις ἢ πένητες· τὸ δὲ ὄνομα καὶ παρὰ τοῖς κωμικοῖς, ὅταν παρῳδῶσι τοὺς Ἴωνας.</note>
+              <note type="apparatus">ὦ add. Dindorfius, ῥήματα ex Archilocho Meinekius. idem versus (σοφώτατοι γεωργοί tamen pro</note>
+            </div>
+          </div></body></text></TEI>

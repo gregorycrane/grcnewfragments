@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg0006-oinets-dindorf1893-grc1"><teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Euripides, ΟΙΝΕΥΣ: fragments</title>
+        <title type="sub">Dindorf 1893: diplomatic TEI transcription</title>
+        <author>Euripides</author>
+        <editor>Wilhelm Dindorf</editor>
+        <respStmt xml:id="deepseek">
+          <resp>Preliminary OCR correction and TEI encoding requiring human review</resp>
+          <name>deepseek-flash</name>
+        </respStmt>
+        <respStmt xml:id="googleHathiOCR">
+          <resp>Google OCR distributed through HathiTrust, checked against local page images</resp>
+          <orgName>Google / HathiTrust Digital Library / University of Iowa</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working scholarly transcription.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>Wilhelm Dindorf</editor>
+            <title>Poetarum scenicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Londini</pubPlace>
+              <publisher>Parker et Socii</publisher>
+              <date when="1893">1893</date>
+            </imprint>
+          </monogr>
+          <biblScope unit="page" from="654" to="715"/>
+          <ref target="https://hdl.handle.net/2027/iau.31858007086675">HathiTrust source record</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic transcription of printed pages 654–715. The page image is authoritative; OCR is corrected against it. Greek verse is encoded as numbered TEI lines. Printed orthography and editorial matter are preserved; machine-generated encoding requires review.</p>
+      </editorialDecl>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-08" who="#deepseek">Initial page-level extraction using deepseek-flash; prompt dindorf-euripides-fragments-hathi-tei-v3-2026-10-08.</change>
+    <change when="2026-10-08">Normalized page-local headings to stable Euripidean work identities and restored Dindorf's printed per-work fragment numbering; transcription unchanged.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-08">Recorded 757 conservative Dindorf-to-Nauck correspondences from normalized quoted-Greek similarity.</change><change when="2026-10-09">Split the aggregate fragment corpus into the play-level CTS work tlg0006.oinets; wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc"><body xml:base="urn:cts:greekLit:tlg0006.oinets.dindorf1893-grc1"><div type="edition" n="urn:cts:greekLit:tlg0006.oinets.dindorf1893-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets"><head>ΟΙΝΕΥΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="fragment-oinets-dindorf1893_grc1-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets">
+            <note type="source">1. Schol. Aristot. Rhet. III, 16.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὦ γῆς πατρώας χαῖρε φίλτατον πέδον</l>
+              <l n="2" xml:lang="grc">Καλυδῶνος, ἔνθεν αἷμα συγγενὲς φυγό</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="fragment-oinets-dindorf1893_grc1-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets" sameAs="urn:cts:greekLit:tlg0006.oinets.nauck1889grc1:559">
+            <note type="source">2. Erotian. v. τιμωρέουσα. p. 362. Τιμωρέουσα, βοηθοῦσα, ὡς καὶ Εὐριπίδης ἐν Οἴνῃ (sic) φησίν·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ἐγὼ δὲ πατρὸς αἷμ᾽ ἐτιμωρησάμην</l>
+              <l n="2" xml:lang="grc">σὺν τοῖς ἐφηβήσασι τῶν ὀλωλότων.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="3" xml:id="fragment-oinets-dindorf1893_grc1-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets" sameAs="urn:cts:greekLit:tlg0006.oinets.nauck1889grc1:562">
+            <note type="source">3. Athen. XV, 3, p. 666 C. Κότταβος δ' ἐκαλεῖτο καὶ τὸ τιθέμενον ἆθλον πρὸς τοῖς νικῶσιν ἐν τῷ πότῳ, ὡς Εὐριπίδης παρίστησιν ἐν Οἰνεῖ λέγων οὕτως·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Πυκνοῖς δ᾽ ἔβαλλον Βακχίου τοξεύμασι</l>
+              <l n="2" xml:lang="grc">κάρα γέροντος· τὸν βαλόντα δὲ στέφειν</l>
+              <l n="3" xml:lang="grc">ἐγὼ τ̓ετάγμην, ἆθλα κότταβον διδούς.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="fragment-oinets-dindorf1893_grc1-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets">
+            <note type="source">4. Philostrat. Heroic. p. 663 Olear. (p. 12 Boiss.) Νυνὶ δέ μοι ἐκεῖνο εἰπέ· οἰκεῖα γεωργεῖς ταῦτα, ἢ δεσπότης μὲν αὐτῶν ἕτερος, σὺ δὲ τρέφοντα τοῦτον τρέφεις, ὥσπερ τὸν τοῦ Εὐριπίδου Οἰνέα ; ubi schol. ap. Boisson. τὶς τρέφει τὸν Οἰνέα τρέφοντα αὐτόν. Hinc. Matth. versum elicuit:</note>
+            <quote>σὺ δὴ τρέφοντά νιν τρέφεις - -;</quote>
+            <note type="commentary">Welckerus: σὺ δὲ τρέφοντα τοῦτον (νῦν) τρέφεις –; Mihi autem Philostratus locum ad finem suum accommodasse, Euripides vero scripsisse videtur: σὺ δὲ θρέψαντα τοῦτον (νῦν) τρέφεις;</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="5" xml:id="fragment-oinets-dindorf1893_grc1-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets" sameAs="urn:cts:greekLit:tlg0006.oinets.nauck1889grc1:564">
+            <note type="source">5. Stobæus CVI, 3.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Ὅταν κακοὶ πράξωσιν, ὦ ξένοι, καλῶς,</l>
+              <l n="2" xml:lang="grc">ἄγαν κρατοῦντες κοὐ νομίζοντες δίκην</l>
+              <l n="3" xml:lang="grc">δώσειν, ἔδρασαν πάντ᾽ ἐφέντες ἡδονῇ</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="6" xml:id="fragment-oinets-dindorf1893_grc1-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets" sameAs="urn:cts:greekLit:tlg0006.oinets.nauck1889grc1:565">
+            <note type="source">6. Schol. Arist. Ran. 72. οἱ μὲν γὰρ οὐκέτ᾽ εἰσὶν· Εὐριπίδου ἐξ Οἰνέως·</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">σὺ δ᾽ ὧδ᾽ ἔρημος ξυμμάχων ἀπόλλυσαι ;</l>
+              <l n="2" xml:lang="grc">οἱ μὲν γὰρ οὐκέτ᾽ εἰσὶν, οἱ δ᾽ ὄντες κακοί.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="7" xml:id="fragment-oinets-dindorf1893_grc1-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets" sameAs="urn:cts:greekLit:tlg0006.oinets.nauck1889grc1:563">
+            <note type="source">7. Stobæus CXIII, 1.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">Σχολὴ μὲν οὐχί· τῷ δὲ δυστυχοῦντί πως</l>
+              <l n="2" xml:lang="grc">τερπνὸν τὸ λέξαι κἀποκλαύσασθαι πάλιν.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="8" xml:id="fragment-oinets-dindorf1893_grc1-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets" sameAs="urn:cts:greekLit:tlg0006.oinets.nauck1889grc1:560">
+            <note type="source">8. Clem. Alex. Strom. VI, 1, § 7, p. 739 P.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ἀλλ᾽ ἄλλος ἄλλοις μᾶλλον ἥδεται τρόποις.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="fragment-oinets-dindorf1893_grc1-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets" sameAs="urn:cts:greekLit:tlg0006.oinets.nauck1889grc1:566">
+            <note type="source">9. Stobæus LXXV, 3.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">῾Ὡς οὐδὲν ἀνδρὶ πιστὸν ἄλλο, πλὴν τέκνων·</l>
+              <l n="2" xml:lang="grc">κέρδους δ᾽ ἔκατι καὶ τὸ συγγενὲς νοσεῖ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="fragment" n="10" xml:id="fragment-oinets-dindorf1893_grc1-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets">
+            <note type="source">10. Suid. v. Ἡρακλείαν λίθον. τινὲς τὴν Μαγνησίαν ἀπέδοσαν διὰ τὸ τὴν Ἡράκλειαν. τῆς Μαγνησίας εἶναι. οἱ δὲ ὅτι ἡ μὲν ἐπισπωμένη τὸν σίδηρον Ηρακλειῶτις, ἡ δὲ Μαγνῆτις ἀργύρῳ ὁμοία ἐστὶν, ὡς Εὐριπίδης ἐν Οἰνεῖ τὰς βροτῶν γνώμας σκοπών,</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">ὥστε Μαγνήτις λίθος τὴν δόξαν ἕλκει καὶ με-</l>
+              <l n="2" xml:lang="grc">θίστησιν πάλιν.</l>
+            </lg>
+            <note type="commentary">οὐ λέγει νῦν ὑπὸ τῆς Μαγνήτιδος λίθου τὸν σίδηρον, ἀλλὰ τὴν τῶν θεωμένων δόκησιν ἕλκεσθαι, πλανωμένων ὡς ἐπὶ ἀργύρῳ. Hunc locum respexit Plato in Ione p. 533 D. ἔστι γὰρ τοῦτο τέχνη μὲν οὐκ ὂν παρὰ σοὶ περὶ Ὁμήρου εὖ λέγειν, ὁ νῦν δὴ ἔλεγον, θεία δὲ δύναμις, ἢ σε κινεῖ ὥσπερ ἐν τῇ λίθῳ, ἣν Εὐριπίδης μὲν Μαγνῆτιν ὠνόμασεν, οἱ δὲ πολλοὶ Ἡράκλειαν. καὶ γὰρ αὕτη ἡ λίθος οὐ μόνον αὐτοὺς τοὺς δακτυλίους ἄγει τοὺς σιδηροῦς, ἀλλὰ καὶ δύναμιν ἐντίθησι τοῖς δακτυλίοις, ὥστ᾽ αὖ δύνασθαι ταὐτὸν τοῦτο ποιεῖν, ὅπερ ἡ λίθος, ἄλλους άγειν δακτυλίους, ὥστ᾽ ἐνίοτε ὁρμαθὸς μακρὸς πάνυ σιδηρίων καὶ δακτυλίων ἐξ ἀλλήλων ἤρτηται, κ.τ.λ. cf. Plat. Tim. p. 80 C. Lucret. VI, v. 906 sq.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="11" xml:id="fragment-oinets-dindorf1893_grc1-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets" sameAs="urn:cts:greekLit:tlg0006.oinets.nauck1889grc1:570">
+            <note type="source">11. Hesych. v. Ἀκρίζων· ἄκροις ποσὶν ἐπιπορευόμενος. Εὐριπίδης Οἰνεῖ.</note>
+          </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="fragment-oinets-dindorf1893_grc1-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0006_oinets">
+            <note type="source">12. Aristoph. Acharn. 471.</note>
+            <lg type="fragment">
+              <l n="1" xml:lang="grc">καὶ γάρ εἰμ᾽ ἄγαν</l>
+              <l n="2" xml:lang="grc">ὄχληρος οὖν δοκῶν γε κοιράνους στυγεῖν,</l>
+            </lg>
+            <note type="commentary">ad quem locum Schol. adnotat : τοῦτο πεπαρώδηται ἀσήμως ἐξ Οἰνέως Εὐριπίδου. ὁ δὲ Σύμμαχος καὶ ἐκ Τηλέφου φησὶν αὐτό.</note>
+          </div>
+        </div></body></text></TEI>

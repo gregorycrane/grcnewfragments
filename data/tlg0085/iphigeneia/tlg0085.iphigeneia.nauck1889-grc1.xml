@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeschylus, ΙΦΙΓΕΝΕΙΑ: fragments</title>
+        <author ref="urn:cts:greekLit:tlg0085">Aeschylus</author>
+        <editor>Augustus Nauck</editor>
+        <respStmt>
+          <resp>Transcription preview and TEI encoding</resp>
+          <name>Perseus Digital Library</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Perseus Digital Library</publisher>
+        <availability><p>Working OCR-derived transcription requiring review</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeschylus</author>
+            <editor>Augustus Nauck</editor>
+            <title>Tragicorum Graecorum Fragmenta</title>
+            <edition>Editio secunda</edition>
+          <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date when="1889">1889</date>
+            </imprint>
+            </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI is the canonical source. JSON collection views are derived build artifacts.</p>
+      </projectDesc>
+      <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="lat">Latin</language>
+        <language ident="mul">Mixed source context</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-07">Established TEI as the canonical source without changing fragment text.</change>
+    <change when="2026-10-09">Split the aggregate Aeschylus fragment corpus into the play-level CTS work tlg0085.iphigeneia; fragment wording was not changed.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="grc">
+    <body xml:base="urn:cts:greekLit:tlg0085.iphigeneia.nauck1889-grc1"><div type="edition" n="urn:cts:greekLit:tlg0085.iphigeneia.nauck1889-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:iphigeneia"><head xml:lang="grc">ΙΦΙΓΕΝΕΙΑ</head>
+          <note type="introduction" xml:lang="mul">Vide Schol. Aristot. locum p. 28 allatum. Aristophanis Ran. 1270 ex hac fabula sumptum esse putavit Asclepiades (vide fr. 238).</note>
+          <div type="textpart" subtype="fragment" n="94" corresp="urn:cite2:perseus:fragmentaryplays.v1:iphigeneia" xml:id="aesch-fr94">
+            <lg xml:lang="grc">
+              <l n="1" xml:id="nauck-tfg-1-aesch-94-1">οὔτοι γυναιξὶ . . κυδάζεσθαι· τί γάρ ;</l>
+            </lg>
+            <note type="sourceContext" xml:lang="mul">Schol. Soph. Ai. 722 : κυδάζεται, λοιδορεῖται, ὑβρίζεται — Αἱσχύλος ἐν Ἰφιγενείᾳ οὔτοι — γάρ ; cf. Suid. v. κυδάζεται, ubi τί γάρ om. post γυναιξὶ videtur addendum esse aut χρὴ cum Blomfieldo in Aesch. Agam. p. 29 aut δεῖ cum Elmsleio. Hesych. 2 p. 547: κυδάζεσθαι· λοιδορεῖσθαι.</note>
+          </div>
+        </div></body></text>
+</TEI>
