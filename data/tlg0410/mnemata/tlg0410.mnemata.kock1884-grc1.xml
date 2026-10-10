@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΜΝΗΜΑΤΑ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.mnemata.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.mnemata.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.mnemata.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_mnemata"><head>ΜΝΗΜΑΤΑ</head><div type="textpart" subtype="fragment" n="160" xml:id="kock-0410-mnemata-160" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_mnemata">
+              <head>160</head>
+              <lg>
+                <l n="1" xml:id="kock-0410-mnemata-160-l1" xml:lang="grc">
+                  <foreign xml:lang="grc">τῶν Πυθαγοριστῶν δ’ ἔτυχον ἄθλιοί τινες</foreign>
+                </l>
+                <l n="2" xml:id="kock-0410-mnemata-160-l2" xml:lang="grc">
+                  <foreign xml:lang="grc">ἐν τῇ χαράδρᾳ τρώγοντες ἅλιμα καὶ κακὰ</foreign>
+                </l>
+                <l n="3" xml:id="kock-0410-mnemata-160-l3" xml:lang="grc">
+                  <foreign xml:lang="grc">τοιαῦτα συλλέγοντες ἐν τῷ κωρύκῳ.</foreign>
+                </l>
+              </lg>
+              <note type="source">
+                <foreign xml:lang="grc">Athenaeus 4, 161 a τί οὐ τοὺς Πυθαγορικοὺς ἐκείνους ζηλοῖς, περὶ ὧν φησιν Ἀντιφάνης ἐν Μνήμασι τάδε κτλ.</foreign>
+              </note>
+              <note type="apparatus">
+                <foreign xml:lang="grc">1. Πυθαγοριστῶν</foreign> Elmsl. Cens. Edinb. III.191] <foreign xml:lang="grc">Πυθαγορικῶν. δ’ ἔτυχον</foreign> Porson.] <foreign xml:lang="grc">δὲ τυχὸν</foreign> A. <foreign xml:lang="grc">2. ἅλιμα</foreign> (sic) A. <foreign xml:lang="grc">ἅλιμον</foreign> Nauck. Philol. VI 417. <foreign xml:lang="grc">3. ἐν τῷ κωρύκῳ</foreign> add. Koppiers. Obs. 41: sequuntur enim apud Athenaeum haec <foreign xml:lang="grc">κἀν τῷ κυρίως Κωρύκῳ δ’ ἐπιγραφομένῳ φησί</foreign> (fr. 135). <foreign xml:lang="grc">Πυθαγόρειοι</foreign> et <foreign xml:lang="grc">Πυθαγορικοί</foreign> plerumque ipsius Pythagorae amici et discipuli dicuntur, <foreign xml:lang="grc">Πυθαγορισταί</foreign> inepti victus eius morumque imitatores. itaque <foreign xml:lang="grc">Πυθαγορισταί</foreign> fere comici, Alexis bis <foreign xml:lang="grc">Πυθαγόρειοι. Πυθαγοριστής</foreign> comoedia fuit Aristophontis. — <foreign xml:lang="grc">ἅλιμον</foreign> Theophrastus semper singulari numero; Wimmerus <foreign xml:lang="grc">ἅλιμον</foreign>. Hist. pl. 4, 16, 5 <foreign xml:lang="grc">χαλεπὸς ὁ κύτισος· ἀπόλλυσι γὰρ πάνθ’ ὡς εἰπεῖν· ἰσχυρότερον δὲ τούτου τὸ ἅλιμον· ἀπόλλυσι γὰρ τὸν κύτισον.</foreign>
+              </note>
+            </div>
+          </div></body></text></TEI>

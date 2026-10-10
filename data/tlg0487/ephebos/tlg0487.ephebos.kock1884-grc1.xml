@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHILEMON, ΕΦΗΒΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Philemon</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.ephebos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0487.ephebos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0487.ephebos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_ephebos"><head>ΕΦΗΒΟΣ</head><div type="textpart" subtype="fragment" n="28" xml:id="kock-0487-ephebos-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_ephebos">
+              <lg>
+                <l n="1" xml:id="kock-0487-ephebos-28-l1" xml:lang="grc">οὐ τοῖς πλέουσι τὴν θάλατταν γίνεται</l>
+                <l n="2" xml:id="kock-0487-ephebos-28-l2" xml:lang="grc">μόνοισι χειμών, ὡς ἔοικεν, ἀλλὰ καὶ</l>
+                <l n="3" xml:id="kock-0487-ephebos-28-l3" xml:lang="grc">τοῖς περιπατοῦσί που, Λάχης, ἐν τῇ στοᾷ,</l>
+                <l n="4" xml:id="kock-0487-ephebos-28-l4" xml:lang="grc">καὶ τοῖς μένουσιν ἔνδον ἐν ταῖς οἰκίαις.</l>
+                <l n="5" xml:id="kock-0487-ephebos-28-l5" xml:lang="grc">χοἱ μὲν πλέοντες ἐνίοθ’ ἡμέραν μίαν</l>
+                <l n="6" xml:id="kock-0487-ephebos-28-l6" xml:lang="grc">ἢ νύκτα χειμασθέντες εἶτ’ ἐκ τοῦ κακοῦ</l>
+                <l n="7" xml:id="kock-0487-ephebos-28-l7" xml:lang="grc">σωτηρίας ἐπέτυχον· ἢ τὸ πνεῦμα γὰρ</l>
+                <l n="8" xml:id="kock-0487-ephebos-28-l8" xml:lang="grc">αὐτοὺς τὸ σῶζον ἧκεν ἢ ’φάνη λιμήν.</l>
+                <l n="9" xml:id="kock-0487-ephebos-28-l9" xml:lang="grc">ἐμοὶ δὲ τοῦτ’ οὐκ ἔστιν· οὐκ εἰς ἡμέραν</l>
+                <l n="10" xml:id="kock-0487-ephebos-28-l10" xml:lang="grc">χειμάζομαι μίαν γάρ, εἰς τὸ ζῆν δ’ ὅλον,</l>
+                <l n="11" xml:id="kock-0487-ephebos-28-l11" xml:lang="grc">ἀεὶ τὸ λυπεῖσθαι δὲ μεῖζον γίνεται.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 98, 20 Φιλήμονος Ἐφήβῳ Α.</note>
+              <note type="apparatus">7. ἢ τὸ] ἤτοι Nauck. 8. ἧκεν ἢ ’φάνη Koen. Greg. Cor. p. 146] ἢ μένη ἐφάνη. ἡμέρα ἐφάνη Α. ἦλθεν ἢ ἐφάνη Salmas. 10. ὅλον | ἀεί, τὸ κτλ. K. 5. Hor. Sat. 1, 1, 7 horae momento cita mors venit aut victoria lacta.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="32" xml:id="kock-0487-ephebos-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_ephebos">
+              <lg>
+                <l n="1" xml:id="kock-0487-ephebos-32-l1" xml:lang="grc">οὐκ ἔστ᾽ ἀληθὲς παραλογίσασθ᾽, οὐδ᾽ ἔχειν</l>
+                <l n="2" xml:id="kock-0487-ephebos-32-l2" xml:lang="grc">ὀψάρια χρηστά.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 385 e Φιλήμων Θησαυρῷ κτλ.</note>
+              <note type="apparatus">1. παραλογίζεσθ᾽ Bentl. ἀληθῶς σε παραλογίσασθ᾽ G. Herm. Plaut. Trin. praef. XXVI. οὐδ᾽] ὥστ᾽ G. Herm. οὐκ ἔστ᾽ ἐναλήθως (cum veri specie) παραλογίζεσθ᾽ — χρηστά; Fritzsch. Ind. Rost. aest. 1878, 6 conl. Lucian. Ver. hist. 1, 2. οὐκ ἔστ᾽, ἄλαστε, π. Mein. fortasse οὐκ ἔστιν, ὄλεθρε, σὲ παραλογίσασθ᾽ ὧδ᾽ ἔχοντ᾽ ὀψάρι᾽ ἄχρηστα. atque ὀψάρι᾽ ἄχρηστα Mein. erus servo in ratione reddenda fraudem et fallacias exprobrat.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>AMPHIS, ΦΙΛΑΔΕΛΦΟΙ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Amphis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0404.philadelphoi.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0404.philadelphoi.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0404.philadelphoi.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_philadelphoi"><head>ΦΙΛΑΔΕΛΦΟΙ</head><div type="textpart" subtype="fragment" n="33" xml:id="kock-0404-philadelphoi-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_philadelphoi">
+              <lg>
+                <l n="1" xml:id="kock-0404-philadelphoi-33-l1" xml:lang="grc">κατὰ πόλλ᾽ ἐπαινῶ μᾶλλον ἡμῶν τὸν βίον</l>
+                <l n="2" xml:id="kock-0404-philadelphoi-33-l2" xml:lang="grc">τὸν τῶν φιλοποτῶν ἤπερ ὑμῶν τῶν μόνον</l>
+                <l n="3" xml:id="kock-0404-philadelphoi-33-l3" xml:lang="grc">ἐν τῷ μετώπῳ νοῦν ἔχειν εἰωθότων.</l>
+                <l n="4" xml:id="kock-0404-philadelphoi-33-l4" xml:lang="grc">ἡ μὲν γὰρ ἐπὶ τοῦ συντετάχθαι διὰ τέλους</l>
+                <l n="5" xml:id="kock-0404-philadelphoi-33-l5" xml:lang="grc">φρόνησις οὖσα, διὰ τὸ λεπτῶς καὶ πυκνῶς</l>
+                <l n="6" xml:id="kock-0404-philadelphoi-33-l6" xml:lang="grc">πάντ᾽ ἐξετάζειν δέδιεν ἐπὶ τὰ πράγματα</l>
+                <l n="7" xml:id="kock-0404-philadelphoi-33-l7" xml:lang="grc">ὁρμᾶν προχείρως, ἡ δὲ διὰ τὸ μὴ σαφῶς</l>
+                <l n="8" xml:id="kock-0404-philadelphoi-33-l8" xml:lang="grc">τί ποτ᾽ ἀφ᾽ ἑκάστου πράγματος συμβήσεται</l>
+                <l n="9" xml:id="kock-0404-philadelphoi-33-l9" xml:lang="grc">διαλελογίσθαι δρᾷ τι καὶ νεανικὸν</l>
+                <l n="10" xml:id="kock-0404-philadelphoi-33-l10" xml:lang="grc">καὶ θερμόν.</l>
+              </lg>
+              <note type="source">Athenaeus 10,448 a Ἄμφις δ᾽ ἐν Φιλαδέλφοις ἐπαινῶν τὸν τῶν φιλοποτῶν (φιλοπωτῶν, ω corr. in o a manu rec. A) βίον φησὶ κτλ. v. 1—3 Eustathius 1015, 46 Demosthenis illud adferens καταπεπατημένον φέρειν ἐν πτέρναις Ἀθηναίους τὸν ἐγκέφαλον ita pergit: ἡ κωμωδία σκώπτουσα τοὺς σχηματιζομένους φιλοσοφίας λόγῳ σεμνοπροσωπεῖν εἰς τὸ μέτωπον αὐτοῖς ἐπιγράφει τὸν νοῦν. λέγεται οὖν Ἄμφις ὁ κωμικὸς εἰπεῖν ὅτι ἐπαινῶ — εἰωθότων. 1. πολλὰ Α. 2. φιλοπωτῶν Α (non corr.). 4. συντετάσθαι Wyttenbach. Eunap. 79. 9. διαλελόγισται Α.</note>
+              <note type="apparatus">3. νοῦν solum ἐν τῷ μετώπῳ habent homines severi, non etiam vini calorem, quod interdum ipsum quoque utile esse dicit quisquis loquitur. 4. συντεταμένος et συντετάσθαι hac significatione Plato et Plutarchus. ἐπὶ τοῦ σ. οὖσα, ut Demosth. 4, 7 ἐπὶ τῆς τοιαύτης γενέσθαι γνώμης. 6,4 κωλύσαιτ᾽ ἂν ἐκεῖνον πράττειν ταῦτα, ἐφ᾽ ὧν ἐστὶ νῦν. 8,14 οἴεσθε τοὺς Βυζαντίους μενεῖν ἐπὶ τῆς ἀνοίας τῆς αὐτῆς ὥσπερ νῦν; cf. 21, 213.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="34" xml:id="kock-0404-philadelphoi-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_philadelphoi">
+              <lg>
+                <l n="1" xml:id="kock-0404-philadelphoi-34-l1" xml:lang="grc">Ἄπολλον, ὡς δυσάρεστόν ἐστ᾽ ἀνιώμενος</l>
+                <l n="2" xml:id="kock-0404-philadelphoi-34-l2" xml:lang="grc">ἄνθρωπος ἐφ᾽ ἅπασίν τε δυσχερῶς ἔχει.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 99, 24 Ἄμφιδος Φιλαδέλφων A. scribendum est ἔχων.</note>
+            </div>
+          </div></body></text></TEI>

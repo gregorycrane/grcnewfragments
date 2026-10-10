@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΚΟΡΟΠΛΑΘΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.koroplathos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.koroplathos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.koroplathos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_koroplathos"><head>ΚΟΡΟΠΛΑΘΟΣ</head><div type="textpart" subtype="fragment" n="127" xml:id="kock-0410-koroplathos-127" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_koroplathos">
+              <lg>
+                <l n="1" xml:id="kock-0410-koroplathos-127-l1" xml:lang="grc">γύναι, πρὸς αὐλὸν ἦλθες. ὀρχήσει πάλιν</l>
+                <l n="2" xml:id="kock-0410-koroplathos-127-l2" xml:lang="grc">τὴν ἴγδιν . . . τὴν θυΐαν ἀγνοεῖς;</l>
+                <l n="3" xml:id="kock-0410-koroplathos-127-l3" xml:lang="grc">τοῦτ’ ἔστιν ἴγδις.</l>
+              </lg>
+              <note type="source">Pollux 10, 103 ἴγδιν αὐτὴν (τὴν θυΐαν) κεκλήκασι Σόλων τε . . . καὶ ἔτι σαφέστερον Ἀντιφάνης Κοροπλάθῳ· γύναι — τὴν ἴγδιν. ἔστι μὲν οὖν ἴγδις καὶ ὀρχήσεως σχῆμα· ὁ δὲ παίζων πρὸς τοὔνομα κωμικῶς ἐπήγαγε· τὴν θυΐαν ἀγνοεῖς; τουτέστιν ἡ ἴγδις. Etym. m. 464, 49 (Gud. 271, 15) ἔστι δὲ καὶ εἶδος ὀρχήσεως ἴγδισμα, ἐν ᾗ ἐλύγιζον τὴν ὀσφὺν ἐμφερῶς τῷ δοίδυκι. Athen. 14, 629 f γελοῖαι δ’ εἰσὶν ὀρχήσεις ἴγδις καὶ μακτρισμός κτλ. Pollux 4, 101 βακτριασμὸς δὲ καὶ . . . ἴγδις ἀσελγῆ εἴδη ὀρχήσεων ἐν τῇ τῆς ὀσφύος περιφορᾷ. Phryn. Ecl. 164 θυείαν λέγε, μὴ ἴγδιν, ubi cf. Lobeck.</note>
+              <note type="apparatus">Herwerden. Stud. crit. 83 ὀρχήσει πάλιν τὴν ἴγδιν. Β. ἴγδιν; Α. τὴν θυΐαν ἀγνοεῖς; dubitans an extrema verba Meinekius non recte Antiphanis fragmento adiecerit. — videtur nescio quis mulierem simplicem duplici vocis ἴγδις significatione decipere. πρὸς αὐλὸν ἦλθες, i. e. ‘tempore venisti: tibia enim canitur’.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>AXIONICUS, ΤΥΡΡΗΝΟΣ ΦΙΛΕΥΡΙΠΙΔΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Axionicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0424.tyrrenos_phileyripides.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0424.tyrrenos_phileyripides.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0424.tyrrenos_phileyripides.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0424_tyrrenos_phileyripides"><head>ΤΥΡΡΗΝΟΣ ΦΙΛΕΥΡΙΠΙΔΗΣ</head><div type="textpart" subtype="fragment" n="4" xml:id="kock-0424-tyrrenos_phileyripides-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0424_tyrrenos_phileyripides">
+              <lg>
+                <l n="1" xml:id="kock-0424-tyrrenos_phileyripides-4-l1" xml:lang="grc">ἄλλον δ’ ἰχθὺν</l>
+                <l n="2" xml:id="kock-0424-tyrrenos_phileyripides-4-l2" xml:lang="grc">μεγέθει πίσυνόν τινα τοῖσδε τόποις</l>
+                <l n="3" xml:id="kock-0424-tyrrenos_phileyripides-4-l3" xml:lang="grc">ἥκει κομίσας</l>
+                <l n="4" xml:id="kock-0424-tyrrenos_phileyripides-4-l4" xml:lang="grc">γλαῦκός τις ἐν πόντῳ γαλεοὺς</l>
+                <l n="5" xml:id="kock-0424-tyrrenos_phileyripides-4-l5" xml:lang="grc">σῖτον ὀψοφάγων καὶ λίχνων ἀνδρῶν</l>
+                <l n="6" xml:id="kock-0424-tyrrenos_phileyripides-4-l6" xml:lang="grc">ἀγάπημα φέρων κατ’ ὤμων.</l>
+                <l n="7" xml:id="kock-0424-tyrrenos_phileyripides-4-l7" xml:lang="grc">τίνα τῷδ’ ἐνέπω τὴν σκευασίαν;</l>
+                <l n="8" xml:id="kock-0424-tyrrenos_phileyripides-4-l8" xml:lang="grc">πότερον χλωρῷ τρίμματι βρέξας,</l>
+                <l n="9" xml:id="kock-0424-tyrrenos_phileyripides-4-l9" xml:lang="grc">ἢ τῆς ἀγρίας ἅλμης πάσμασι</l>
+                <l n="10" xml:id="kock-0424-tyrrenos_phileyripides-4-l10" xml:lang="grc">σῶμα λιπάνας</l>
+                <l n="11" xml:id="kock-0424-tyrrenos_phileyripides-4-l11" xml:lang="grc">πυρὶ παμφλέκτῳ παραδώσω;</l>
+                <l n="12" xml:id="kock-0424-tyrrenos_phileyripides-4-l12" xml:lang="grc">ἔφα τις ὡς ἐν ἅλμῃ θερμῇ</l>
+                <l n="13" xml:id="kock-0424-tyrrenos_phileyripides-4-l13" xml:lang="grc">τοῦτο φάγοι γ’ ἑφθὸν ἀνὴρ Μοσχίων φίλαυλος.</l>
+                <l n="14" xml:id="kock-0424-tyrrenos_phileyripides-4-l14" xml:lang="grc">βοᾷ δ’ ὄνειδος ἴδιον, ὦ Καλαίδη·</l>
+                <l n="15" xml:id="kock-0424-tyrrenos_phileyripides-4-l15" xml:lang="grc">σὺ μὲν ἀμφὶ σῦκα καὶ ἀμφὶ τάριχ’ ἀγάλλει,</l>
+                <l n="16" xml:id="kock-0424-tyrrenos_phileyripides-4-l16" xml:lang="grc">τοῦ δ’ ἐν ἅλμῃ παρεόντος οὐ γεύει χαρίεντος ὄψου.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 342b Φιλέταιρος δ’ ἐν Ἀσκληπιῷ τὸν Ὑπερείδην πρὸς τῷ ὀψοφαγεῖν καὶ κυβεύειν αὐτόν φησι, καθάπερ καὶ Καλλίαν τὸν ῥήτορα Ἀξιόνικος (ἀξιόνεικος Α) ἐν Φιλευριπίδῃ κτλ. τὰ μὲν σῦκα ὡς ἂν συκοφάντην λοιδορῶν, τὰ δὲ ταρίχη μήποτε καὶ ὡς αἰσχροποιοῦντος.</note>
+              <note type="apparatus">1. δὲ Α. 4. γλαῦκος (om. in ult. acc.) et γαλοὺς Α. 6. φέρων Iacobs.] φέρω Α. 9. τῆς ἀργίας] τοῖς Θασίας K. cf. Cratin. 6. πάσμασι Erfurdt. Obs. 464] λιάσμασι Α. νάμασι Mein. in Ath. 12. εφατις Α. φάτις Iacobs. ἐν ἅλμῃ, sic A. 14. καλαΐδη Α. Καλλία, | εἰ Mein. 15. ἀγάλληι et 16. γεύηι Α. 15. ἀμφί τε σῦκα et τάριχ’ Α] ταρίχι’ Mein. 16. ἐν ἅλμῃ φέοντος K.</note>
+              <note type="apparatus">insanabiliter plurima corrupta esse videntur Meinekio. 4. γλαῦκον τοῖς ἐν πόντῳ γαλεοῖς | σῖτ’, ὀψοφάγων λίχνων τ’ ἀνδρῶν | ἀγάπημα φέρων κατὰ τῶν ὤμων amicus Erfurdtii (Dind. add. p. 1897). 8. τρίμματι. cf. Alexid. 188. Timocl. 3. Sotad. 1, 4. 17. Diphil. 42, 5 M. 12. ἔφα τις, ut Aesch. Ag. 369 οὐκ ἔφα τις θεοὺς βροτῶν ἀξιοῦσθαι μέλειν (Mein.). 13. de Moschione cf. Alexid. 236.</note>
+              <note type="apparatus">ceterum permirum est quomodo Athenaeus his versibus demonstrari posse crediderit Calliam fuisse aleatorem. nam Meinekii quidem ratio verbo κυβεύειν luxuriosam vitam significari censentis admitti nullo modo potest, cum Athenaeus eum πρὸς τῷ ὀψοφαγεῖν καὶ κυβεύειν dicat. sed omnes in hac ecloga et emendandi et interpretandi conatus, cum praesertim ne de metro quidem constet, nihil aliud sunt quam desperationis indicia.</note>
+            </div>
+          </div></body></text></TEI>

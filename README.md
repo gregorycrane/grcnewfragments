@@ -18,6 +18,7 @@ metadata; source wording is not silently corrected during repository migration.
 
 The viewer registry in `src-persverscomp` points directly to this repository.
 Kock, *Comicorum Atticorum Fragmenta* I is installed as 329 work-level TEI
-editions across 40 textgroups; all 329 Kock texts and their metadata pass
-HookTest. Older migrated fragment editions retain their existing encoding and
-can be normalized incrementally without mixing them back into `grcnewxml`.
+editions across 40 textgroups. Volume II adds 704 work-level editions across
+39 textgroups. All 1,033 Kock I–II texts and their metadata pass HookTest.
+Older migrated fragment editions retain their existing encoding and can be
+normalized incrementally without mixing them back into `grcnewxml`.

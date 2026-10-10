@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>DIPHILUS, ΖΩΓΡΑΦΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Diphilus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.zographos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0447.zographos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0447.zographos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_zographos"><head>ΖΩΓΡΑΦΟΣ</head><div type="textpart" subtype="fragment" n="43" xml:id="kock-0447-zographos-43" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_zographos">
+              <head>43</head>
+              <lg>
+                <l n="1" xml:id="kock-0447-zographos-43-l1" xml:lang="grc">οὐ μὴ παραλάβω σ’ οὐδαμοῦ, Δράκων, ἐγὼ</l>
+                <l n="2" xml:id="kock-0447-zographos-43-l2" xml:lang="grc">ἐπ’ ἔργον οὗ μὴ διατελεῖς τὴν ἡμέραν</l>
+                <l n="3" xml:id="kock-0447-zographos-43-l3" xml:lang="grc">τραπεζοποιῶν ἐν ἀγαθοῖς πολλοῖς χύδην.</l>
+                <l n="4" xml:id="kock-0447-zographos-43-l4" xml:lang="grc">οὐ γὰρ βαδίζω πρότερον ἂν μὴ δοκιμάσω</l>
+              </lg>
+              <pb n="554" facs="urn:hathi:hvd.hxijve:scan:590"/>
+              <lg>
+                <l n="5" xml:id="kock-0447-zographos-43-l5" xml:lang="grc">τίς ἐσθ᾽ ὁ θύων, ἢ πόθεν συνίσταται</l>
+                <l n="6" xml:id="kock-0447-zographos-43-l6" xml:lang="grc">τὸ δεῖπνον, ἢ κέκληκεν ἀνθρώπους τίνας.</l>
+                <l n="7" xml:id="kock-0447-zographos-43-l7" xml:lang="grc">ἔστιν δ᾽ ἁπάντων τῶν γενῶν μοι διαγραφή,</l>
+                <l n="8" xml:id="kock-0447-zographos-43-l8" xml:lang="grc">εἰς ποῖα μισθοῦν ἢ φυλάττεσθαί με δεῖ.</l>
+                <l n="9" xml:id="kock-0447-zographos-43-l9" xml:lang="grc">οἷον τὸ κατὰ τοὐμπόριον, εἰ βούλει, γένος.</l>
+                <l n="10" xml:id="kock-0447-zographos-43-l10" xml:lang="grc">ναύκληρος ἀποθύει τις εὐχήν, ἀποβαλὼν</l>
+                <l n="11" xml:id="kock-0447-zographos-43-l11" xml:lang="grc">τὸν ἱστὸν ἢ πηδάλια συντρίψας νεώς,</l>
+                <l n="12" xml:id="kock-0447-zographos-43-l12" xml:lang="grc">ἢ φορτί᾽ ἐξέρριψ᾽ ὑπέραντλος γενόμενος·</l>
+                <l n="13" xml:id="kock-0447-zographos-43-l13" xml:lang="grc">ἀφῆκα τὸν τοιοῦτον· οὐδὲν ἡδέως</l>
+                <l n="14" xml:id="kock-0447-zographos-43-l14" xml:lang="grc">ποιεῖ γὰρ οὗτος, ἀλλ᾽ ὅσον νόμου χάριν.</l>
+                <l n="15" xml:id="kock-0447-zographos-43-l15" xml:lang="grc">ὁμοῦ δὲ ταῖς σπονδαῖσι διαλογίζεται</l>
+                <l n="16" xml:id="kock-0447-zographos-43-l16" xml:lang="grc">τοῖς συμπλέουσιν ὁπόσον ἐπιβάλλει μέρος</l>
+                <l n="17" xml:id="kock-0447-zographos-43-l17" xml:lang="grc">τιθείς, τά θ᾽ αὑτοῦ σπλάγχν᾽ ἕκαστος ἐσθίει.</l>
+                <l n="18" xml:id="kock-0447-zographos-43-l18" xml:lang="grc">ἀλλ᾽ ἕτερος εἰσπέπλευκεν ἐκ Βυζαντίου</l>
+                <l n="19" xml:id="kock-0447-zographos-43-l19" xml:lang="grc">τριταῖος, ἀπαθής, εὐπορηκώς, περιχαρὴς</l>
+                <l n="20" xml:id="kock-0447-zographos-43-l20" xml:lang="grc">εἰς δέκ᾽ ἐπὶ τῇ μνᾷ γεγονέναι καὶ δώδεκα,</l>
+                <l n="21" xml:id="kock-0447-zographos-43-l21" xml:lang="grc">λαλῶν τὰ ναῦλα καὶ δάνει᾽ ἐρυγγάνων,</l>
+                <l n="22" xml:id="kock-0447-zographos-43-l22" xml:lang="grc">ἀφροδίσι᾽ ὑπὸ κόλλοψι μαστροποῖς ποιῶν·</l>
+                <l n="23" xml:id="kock-0447-zographos-43-l23" xml:lang="grc">ὑπὸ τοῦτον ὑπέκυψ᾽ εὐθὺς ἐκβεβηκότα,</l>
+                <l n="24" xml:id="kock-0447-zographos-43-l24" xml:lang="grc">τὴν δεξιὰν ἐνέβαλον, ἐμνήσθην Διὸς</l>
+                <l n="25" xml:id="kock-0447-zographos-43-l25" xml:lang="grc">σωτῆρος, ἐμπέπηγα τῷ διακονεῖν.</l>
+                <l n="26" xml:id="kock-0447-zographos-43-l26" xml:lang="grc">τοιοῦτος ὁ τρόπος. μειράκιον ἐρῶν πάλιν</l>
+                <l n="27" xml:id="kock-0447-zographos-43-l27" xml:lang="grc">τὰ πατρῷα βρύκει καὶ σπαθᾷ, πορεύομαι.</l>
+                <l n="28" xml:id="kock-0447-zographos-43-l28" xml:lang="grc">ἀπὸ συμβολῶν συνάγοντα νὴ Δί᾽ ἕτερά που</l>
+                <l n="29" xml:id="kock-0447-zographos-43-l29" xml:lang="grc">ἐνέβαλεν εἰς τὸν κέραμον ἐνευρημένα,</l>
+                <l n="30" xml:id="kock-0447-zographos-43-l30" xml:lang="grc">τὰ κράσπεδ᾽ ἀποθλιβέντα καὶ κεκραγότα</l>
+                <l n="31" xml:id="kock-0447-zographos-43-l31" xml:lang="grc">‘ὀψάριον ἀγοραῖον ποιεῖν τίς βούλεται;’</l>
+                <l n="32" xml:id="kock-0447-zographos-43-l32" xml:lang="grc">ἐῶ βοᾶν· πληγὰς γὰρ ἔνι προσλαμβάνειν</l>
+                <l n="33" xml:id="kock-0447-zographos-43-l33" xml:lang="grc">ἐλθόντα καὶ τὴν νύχθ᾽ ὅλην διακονεῖν.</l>
+                <l n="34" xml:id="kock-0447-zographos-43-l34" xml:lang="grc">τὸ μισθάριον γὰρ ἂν ἀπαιτῇς, ‘ἁμίδα μοι</l>
+                <l n="35" xml:id="kock-0447-zographos-43-l35" xml:lang="grc">ἔνεγκε πρῶτον’ φησίν. ‘ὅξος ἡ φακῆ</l>
+                <l n="36" xml:id="kock-0447-zographos-43-l36" xml:lang="grc">οὐκ εἶχε.’ πάλιν ᾔτησας, ‘οἰμώξει μακρὰ</l>
+                <l n="37" xml:id="kock-0447-zographos-43-l37" xml:lang="grc">πρῶτος μαγείρων’, φησίν. ἕτερα μυρία</l>
+                <l n="38" xml:id="kock-0447-zographos-43-l38" xml:lang="grc">τοιαῦτα καταλέξαιμ᾽ ἄν. οὗ δὲ νῦν σ᾽ ἄγω,</l>
+                <l n="39" xml:id="kock-0447-zographos-43-l39" xml:lang="grc">πορνεῖόν ἐστι, πολυτελῶς Ἀδώνια</l>
+                <l n="40" xml:id="kock-0447-zographos-43-l40" xml:lang="grc">ἄγουσ᾽ ἑταίρα μεθ᾽ ἑτέρων πορνῶν χύδην.</l>
+                <l n="41" xml:id="kock-0447-zographos-43-l41" xml:lang="grc">σαυτὸν ἀποσάξεις τόν τε κόλπον ἀποτρέχων.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 291f ὁ δὲ παρὰ Διφίλῳ ἐν τῷ Ζωγράφῳ (μά-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="44" xml:id="kock-0447-zographos-44" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_zographos">
+              <lg>
+                <l n="1" xml:id="kock-0447-zographos-44-l1" xml:lang="grc">ἄριστον ἐπεχόρευσεν ἐκλελεγμένον,</l>
+              </lg>
+              <pb n="556" facs="urn:hathi:hvd.hxijve:scan:592"/>
+              <lg>
+                <l n="2" xml:id="kock-0447-zographos-44-l2" xml:lang="grc">εἴ τι νέον ἢ ποθεινόν· ὀστρέων γένη</l>
+                <l n="3" xml:id="kock-0447-zographos-44-l3" xml:lang="grc">παντοδαπά, λοπάδων παρατεταγμένη φάλαγξ,</l>
+                <l n="4" xml:id="kock-0447-zographos-44-l4" xml:lang="grc">ὀπτῶν ἐπῇττε σωρὸς ἀπὸ τοῦ τηγάνου,</l>
+                <l n="5" xml:id="kock-0447-zographos-44-l5" xml:lang="grc">τριμμάτια τούτοις ἐν θυΐαις ἀργυραῖς.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 230 f Δίφιλος ἐν Ζωγράφῳ κτλ.</note>
+              <note type="apparatus">2. ὀστρείων Mein. 4. ἐπῇττε K.] ἐπῆγε A. cf. Eubul. 37. ἐπῇξε Erfurdt. Obs. 457. sed aoristus de partibus prandii (v. 1) minus aptus. 5. θυΐαις sic A. 1. ἐκλελεγμέμον ‘quod sibi elegit quidquid novi vel lauti reperiri poterat’. Mein. 5. τριμμάτια ‘iuscula ex allio, aceto, porro aliisque condimentis composita, quibus carnes assatae inbuendae erant’. Mein.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="45" xml:id="kock-0447-zographos-45" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_zographos">
+              <lg>
+                <l n="1" xml:id="kock-0447-zographos-45-l1" xml:lang="grc">ἀπροσδόκητον οὐδὲν ἀνθρώποις πάθος·</l>
+                <l n="2" xml:id="kock-0447-zographos-45-l2" xml:lang="grc">ἐφημέρους γὰρ τὰς τύχας κεκτήμεθα.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 105, 5 Διφίλου ἐκ Ζωγράφου A.</note>
+              <note type="apparatus">1. πάθος Voss.</note>
+            </div>
+            </div></body></text></TEI>

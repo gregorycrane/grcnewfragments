@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARAROS, ΚΑΙΝΕΥΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Araros</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0415.kaineys.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0415.kaineys.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0415.kaineys.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0415_kaineys"><head>ΚΑΙΝΕΥΣ</head><div type="textpart" subtype="fragment" n="4" xml:id="kock-0415-kaineys-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0415_kaineys">
+              <lg>
+                <l n="1" xml:id="kock-0415-kaineys-4-l1" xml:lang="grc">παρθένος δ’ εἶναι δοκεῖ</l>
+                <l n="2" xml:id="kock-0415-kaineys-4-l2" xml:lang="grc">φορῶν κροσωτοὺς καὶ γυναικείαν στολήν.</l>
+              </lg>
+              <note type="source">Pollux 7, 65 (οἱ θύσανοι) καὶ κροσσοὶ δοκοῖεν ἂν ὠνομάσθαι Ἀραρότος εἰπόντος ἐν Καινεῖ κτλ. ἔνιοι γὰρ οὕτω γράφουσιν ἀντὶ τοῦ κροκωτούς. Pollucem κροσ(σ)ωτούς scripsisse manifestum est. poetam κροκωτούς dedisse censet Meinekius, κροσός Atticis abiudicans. — Caenei anceps inter marem feminamque species designari videtur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0415-kaineys-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0415_kaineys">
+              <lg>
+                <l n="1" xml:id="kock-0415-kaineys-5-l1" xml:lang="grc">ἡ σὴ θυγάτηρ, ὅτ’ ἐκεῖνος αὐτὴν ἐπελέκα.</l>
+              </lg>
+              <note type="source">Bekker. Anecd. 112, 18 πελεκᾶν· εὕρηται καὶ ἐπὶ τοῦ κακεμφάτου. Ἀραρὼς Καινεῖ κτλ. αὐτὴν Bekker.] αὐτὸν cod. — si filia quae commemoratur Caenis est, Neptunus est qui eam dicitur πελεκῆσαι, adpellatur autem Elatus, Caenidis pater. Preller. Myth. gr.<hi rend="superscript">2</hi> II 11.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" xml:id="kock-0415-kaineys-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0415_kaineys">
+              <lg>
+                <l n="1" xml:id="kock-0415-kaineys-6-l1" xml:lang="grc">ἀνεμιαῖον ᾠόν</l>
+              </lg>
+              <note type="source">Ἀραρὼς Καινεῖ. Bekker. Anecd. 81, 32. ὑπηνέμια dicuntur Arist. Av. 695. fr. 186. Plat. com. 19.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0415-kaineys-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0415_kaineys">
+              <lg>
+                <l n="1" xml:id="kock-0415-kaineys-7-l1" xml:lang="grc">θυγατριδεῖν</l>
+              </lg>
+              <note type="source">ἀντὶ τοῦ θυγατέρα καλεῖν. Ἀραρὼς Καινεῖ. Bekker. Anecd. 99, 30. Meinekius θυγατρίζειν. potius θυγατερίζειν, ut πατερίζειν Arist. Vesp. 652. παππίζειν vel παππάζειν Vesp. 609. ἀδελφίζειν Apolloph. 4. καρδαμίζειν Arist. Thesm. 617.</note>
+            </div>
+          </div></body></text></TEI>

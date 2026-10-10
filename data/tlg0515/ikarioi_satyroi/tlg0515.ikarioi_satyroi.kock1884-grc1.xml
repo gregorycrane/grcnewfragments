@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>TIMOCLES, ΙΚΑΡΙΟΙ ΣΑΤΥΡΟΙ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Timocles</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0515.ikarioi_satyroi.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0515.ikarioi_satyroi.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0515.ikarioi_satyroi.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_ikarioi_satyroi"><head>ΙΚΑΡΙΟΙ ΣΑΤΥΡΟΙ</head><div type="textpart" subtype="fragment" n="16" xml:id="kock-0515-ikarioi_satyroi-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_ikarioi_satyroi">
+              <lg>
+                <l n="1" xml:id="kock-0515-ikarioi_satyroi-16-l1" xml:lang="grc">ὥστ’ ἔχειν οὐδὲν παρ’ ἡμῖν· νυκτερεύσας δ’ ἀθλίως</l>
+                <l n="2" xml:id="kock-0515-ikarioi_satyroi-16-l2" xml:lang="grc">πρῶτα μὲν σκληρῶς καθεῦδον, εἶτα Θούδιππος βδέων</l>
+                <l n="3" xml:id="kock-0515-ikarioi_satyroi-16-l3" xml:lang="grc">παντελῶς ἔπηξεν ἡμᾶς, εἶθ’ ὁ λιμὸς ἥπτετο.</l>
+                <l n="4" xml:id="kock-0515-ikarioi_satyroi-16-l4" xml:lang="grc">ἐφέρετο πρὸς Δίωνα τὸν διάπυρον· ἀλλὰ γὰρ</l>
+                <l n="5" xml:id="kock-0515-ikarioi_satyroi-16-l5" xml:lang="grc">οὐδ’ ἐκεῖνος οὐδὲν εἶχε. πρὸς δὲ τὸν χρηστὸν δραμὼν</l>
+                <l n="6" xml:id="kock-0515-ikarioi_satyroi-16-l6" xml:lang="grc">Τηλέμαχον Ἀχαρνέα σωρόν τε κυάμων καταλαβὼν</l>
+                <l n="7" xml:id="kock-0515-ikarioi_satyroi-16-l7" xml:lang="grc">ἁρπάσας τούτων ἐνέτραγον. ὁ δ’ ὄνος ἡμᾶς ὡς ὁρᾷ,</l>
+                <l n="8" xml:id="kock-0515-ikarioi_satyroi-16-l8" xml:lang="grc">(ὡσπερεὶ) Κηφισόδωρος περὶ τὸ βῆμ’, ἐπέρδετο.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 407 f (Τιμοκλῆς) ἐν Ἰκαρίοις Σατύροις φησίν κτλ. ἐκ τούτων δῆλόν ἐστιν ὅτι ὁ Τηλέμαχος κυάμων χύτρας ἀεὶ σιτούμενος ἦγε Πυανέψια πορδὴν ἑορτήν.</note>
+              <note type="apparatus">1. οὐδὲν Schweigh.] οὐδὲ ἓν Α. 2. καθεῦδον Iacobs. Add. Ath. 215] καθεύδω Α. βδέων Mein.] ὁ λέων Α. ὁ Θουδίππου Κλέων Bergk. conl. Isae. 9, 2—37. 3. ἔπηξεν] ἔπνιξεν Mein. 4. ἐφέρετο] ἐφερόμεσθ’ οὖν et ἐφερόμην δὲ Mein. εἶτ’ ἐφεῖρπον Iacobs. (melius ἀφεῖρπον). 5. οὐθὲν Α. 7. ὁ add. VL. ὣς Α. 8. ὡσπερεὶ Mein.] ὁ Α. εὐθέως Herwerd. Stud. crit. 87. 2. ‘Thudippus fortasse is est quem Athenienses Ol. 115, 3 cum Phocione supplicio adfecerunt. Plut. Phoc. 35. Mor. 189 b.’ Mein. 4. Dion quis dicatur nescio. 5. χρηστόν ‘fatuum’ Mein. 8. de Cephisodoro oratore Ruhnken. Hist. crit. orat. LXXXII. Harpocrat. Κηφισόδωρος ... κεκωμῴδηται δὲ οὗτος ὡς ὀνώδης (sic D. νωθής Bekker.). fragmentum nondum persanatum.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="17" xml:id="kock-0515-ikarioi_satyroi-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_ikarioi_satyroi">
+              <lg>
+                <l n="1" xml:id="kock-0515-ikarioi_satyroi-17-l1" xml:lang="grc">Ἄνυτος ὁ παχὺς πρὸς Πυθιονίκην ὅταν ἐλθὼν φάγῃ</l>
+                <l n="2" xml:id="kock-0515-ikarioi_satyroi-17-l2" xml:lang="grc">τι· καλεῖ γὰρ αὐτόν, ὥς φασιν, ὁπόταν Χαιρεφίλου τοὺς</l>
+                <l n="3" xml:id="kock-0515-ikarioi_satyroi-17-l3" xml:lang="grc">δύο σκόμβρους ξενίσῃ μεγάλους ἡδομένη.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 339 d. cf. fr. 14.</note>
+              <note type="apparatus">μεγάλους] μεγάλως Casaub. μεγάλ’ Mein. sunt enim σκόμβροι pisces minuti. Athenaeus 3, 119 f (τοὺς Χαιρεφίλου), οὓς καὶ Τιμοκλῆς ἰδὼν ἐπὶ τῶν ἵππων ἐν τοῖς Σατύροις ἔφη δύο σκόμβρους εἶναι. cf. Alexid. 77. G. A. Hirschig. Ann. crit. 10. ‘Anytum cum παχύν dicit, dubitari potest obesum an opulentum significare voluerit. σκόμβρους vocat Chaerephili filios eodem sensu quo (fr. 14) τάριχος et σαπέρδας, quae stultorum hominum sunt convicia.’ Mein. — versus restituere conatus est G. Hermannus in</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="14" xml:id="kock-0515-ikarioi_satyroi-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_ikarioi_satyroi">
+              <lg>
+                <l n="1" xml:id="kock-0515-ikarioi_satyroi-14-l1" xml:lang="grc">ἡ Πυθιονίκη δ’ ἀσμένως σε δέξεται,</l>
+                <l n="2" xml:id="kock-0515-ikarioi_satyroi-14-l2" xml:lang="grc">καί σου κατέδεται τυχὸν ἴσως ἃ νῦν ἔχεις</l>
+                <l n="3" xml:id="kock-0515-ikarioi_satyroi-14-l3" xml:lang="grc">λαβὼν παρ’ ἡμῶν δῶρ’· ἄπληστός ἐστι γάρ.</l>
+                <l n="4" xml:id="kock-0515-ikarioi_satyroi-14-l4" xml:lang="grc">ὅμως δὲ δοῦναί σοι κέλευσον σαργάνας</l>
+                <l n="5" xml:id="kock-0515-ikarioi_satyroi-14-l5" xml:lang="grc">αὐτήν· ταρίχους εὐπόρως γὰρ τυγχάνει</l>
+                <l n="6" xml:id="kock-0515-ikarioi_satyroi-14-l6" xml:lang="grc">ἔχουσα καὶ σύνεστι σαπέρδαις δυσίν,</l>
+                <l n="7" xml:id="kock-0515-ikarioi_satyroi-14-l7" xml:lang="grc">καὶ ταῦτ’ ἀνάλτοις καὶ πλατυρρύγχοις τισίν.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 339 d Πυθιονίκην δέ φησι φιληδεῖν ταρίχῳ, ἐπεὶ ἐραστὰς εἶχε τοὺς Χαιρεφίλου τοῦ ταριχοπώλου υἱούς, ὡς Τιμοκλῆς ἐν Ἰκαρίοις (Νικοκλῆς ἐν ἀκαρίοις Α) φησίν (fr. 17). καὶ πάλιν κτλ.</note>
+              <note type="apparatus">1. δὲ et 3. δῶρα Α. 4. σαργάνας Schweigh.] σαργανιας Α. 5. αυτην Α. 6. ἔχουσ’, ἐπεὶ Κ. σύνεστι σαπέρδαις Scaliger] σύνεστισ απέρδ’ εἰς Α. σαπέρδαιν δυοῖν Κ. 7. πλατυρύγχοις Α. rationem doni Pythionicae missi et cur σαργάναι ab ea poscantur non intellego. cf. 21,7. 7. ἄναλτος, si hunc versum excipias, apud solum quod sciam Homerum.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="15" xml:id="kock-0515-ikarioi_satyroi-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_ikarioi_satyroi">
+              <lg>
+                <l n="1" xml:id="kock-0515-ikarioi_satyroi-15-l1" xml:lang="grc">τόν τ’ ἰχθυόρρουν ποταμὸν Ὑπερείδην περᾶς,</l>
+                <l n="2" xml:id="kock-0515-ikarioi_satyroi-15-l2" xml:lang="grc">ὃς ἠπίαις φωναῖσιν ἔμφρονος λόγου</l>
+                <l n="3" xml:id="kock-0515-ikarioi_satyroi-15-l3" xml:lang="grc">κόμποις παφλάζων ἠπίοις πυκνώμασιν</l>
+                <l n="4" xml:id="kock-0515-ikarioi_satyroi-15-l4" xml:lang="grc">πρὸς πανδυσας ἔχει,</l>
+                <l n="5" xml:id="kock-0515-ikarioi_satyroi-15-l5" xml:lang="grc">μισθωτὸς ἄρδει πεδία τοῦ δεδωκότος.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 342 a καὶ Ὑπερείδης δὲ ὁ ῥήτωρ ὀψοφάγος ἦν, ὥς φησι Τιμοκλῆς ὁ κωμικὸς ἐν Δήλῳ, διηγούμενος τοὺς παρὰ Ἁρπάλου δωροδοκήσαντας... καὶ ἐν Ἰκαρίοις δὲ ὁ αὐτὸς ποιητής φησι κτλ.</note>
+              <note type="apparatus">1. τε Α. περᾶς Dobr.] πέρας. πέρα Iacobs. 2. ὃς ἠπίαις Iacobs.] ον σηπίαις (quattuor primae litterae in ras. m.<hi rend="superscript">1</hi>) Α. 3. κομψὸς παφλάζων αἱμύλοις πυκνώμασιν | πρὸς πᾶν ἀναιδεύσαιτ’ ἂν εὐφυῶς τ’ ἔχει — ἄρδειν Dobr. mihi pro κόμποις scribendum videtur βομβεῖ. 4. sic A. primum constat λύσας scribendum esse pro δύσας, deinde poetam in translatione incepta permansisse. itaque tale aliquid scripsit: πρὸς πᾶν τε λύσας ῥευμάτων (vel ῥημάτων) πηγὰς ἀεὶ μισθ. ἄρδει κτλ., ubi ἀεὶ coniungendum cum μισθωτός.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>XENARCHUS, ΣΚΥΘΑΙ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Xenarchus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0518.skythai.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0518.skythai.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0518.skythai.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0518_skythai"><head>ΣΚΥΘΑΙ</head><div type="textpart" subtype="fragment" n="11" xml:id="kock-0518-skythai-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0518_skythai">
+              <lg>
+                <l n="1" xml:id="kock-0518-skythai-11-l1" xml:lang="grc">ἑπτὰ δὲ καπάνας ἔτρεφον εἰς Ὀλύμπια.</l>
+                <l n="2" xml:id="kock-0518-skythai-11-l2" xml:lang="grc">Β. τί λέγεις; καπάνας; Α. ναί· καπάνας Θετταλοὶ</l>
+                <l n="3" xml:id="kock-0518-skythai-11-l3" xml:lang="grc">πάντες καλοῦσι τὰς ἀπήνας. Β. μανθάνω.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 418e Θετταλοὶ γὰρ τὰς ἀπήνας καπάνας ἔλεγον. Ξέναρχος Σκύθαις κτλ.</note>
+              <note type="apparatus">1. Ὀλύμπια Mein. An. Ath. 185] ὀλυμπίαν A. 2. καπάνας; ναί, καπάνας G. Hermann. ap. Erfurdt. Obs. 465] καπάνας A. — ἔτρεφον, at non quadrigas, sed equos alebat. sic tamen etiam τρέφειν τὰς ναῦς Thucyd. 8, 44. Xen. Hell. 1, 5, 6. 5, 1, 24.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0518-skythai-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0518_skythai">
+              <lg>
+                <l n="1" xml:id="kock-0518-skythai-12-l1" xml:lang="grc">τουτὶ τὸ κακὸν οὐκ ἔστ’ ἔτι</l>
+                <l n="2" xml:id="kock-0518-skythai-12-l2" xml:lang="grc">κακόν, τὸ θυγάτριόν τέ μου σεσινάπικεν</l>
+                <l n="3" xml:id="kock-0518-skythai-12-l3" xml:lang="grc">διὰ τῆς ξένης.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 367a Ξέναρχος ὁ κωμωδιοποιὸς ἐν Σκύθαις ἔφη κτλ. v. 2. 3 Eustathius 1061, 5 ἐκ τοῦ σίνηπι καὶ ῥῆμά ἐστι κωμικὸν σιναπῶ, οἷον τὸ θυγάτριον κτλ. ἤγουν ἐδριμύξατο.</note>
+              <note type="apparatus">2. τε om. σεσινάπικεν Dalecamp.] σεσινάπηκεν A et Eust. etiam in dimetros digeri posse monuit Meinekius. de voce σίναπι pro νᾶπυ apud sequiores usitato cf. Lobeck. Phryn. Epit. 288. 9. Hehn. Kulturpfl.<hi rend="superscript">2</hi> 183. 4. initium soluto sententiarum nexu non intellego, ne post Meinekium quidem. videtur pater queri, quod filiolam suam nescio quis hospitae ope deceperit.</note>
+            </div>
+          </div></body></text></TEI>

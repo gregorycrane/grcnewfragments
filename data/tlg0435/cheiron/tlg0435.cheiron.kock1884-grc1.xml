@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>CRATINUS JUNIOR, ΧΕΙΡΩΝ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Cratinus Junior</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0435.cheiron.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0435.cheiron.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0435.cheiron.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0435_cheiron"><head>ΧΕΙΡΩΝ</head><div type="textpart" subtype="fragment" n="9" xml:id="kock-0435-cheiron-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0435_cheiron">
+              <lg>
+                <l n="1" xml:id="kock-0435-cheiron-9-l1" xml:lang="grc">πολλοστῷ δ᾽ ἔτει</l>
+                <l n="2" xml:id="kock-0435-cheiron-9-l2" xml:lang="grc">ἐκ τῶν πολεμίων οἴκαδ᾽ ἥκων, ξυγγενεῖς</l>
+              </lg>
+              <pb n="292" facs="urn:hathi:hvd.hxijve:scan:298"/>
+              <lg>
+                <l n="3" xml:id="kock-0435-cheiron-9-l3" xml:lang="grc">καὶ φράτερας καὶ δημότας εὑρὼν μόλις,</l>
+                <l n="4" xml:id="kock-0435-cheiron-9-l4" xml:lang="grc">εἰς τὸ κυλικεῖον ἐνεγράφην· Ζεὺς ἔστι μοι</l>
+                <l n="5" xml:id="kock-0435-cheiron-9-l5" xml:lang="grc">ἑρκεῖος, ἔστι φράτριος, τὰ τέλη τελῶ.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 460f Κρατῖνος ὁ νεώτερος ἐν Χείρωνι κτλ.</note>
+              <note type="apparatus">v. 4 Eustathius 1271, 31 κυλικεῖον ἡ τῶν κυλίκων σκευοθήκη, οἷον ‘μόλις εἰς τὸ κυλικεῖον ἐνεγράφη’, ἤγουν εἰς τὸ συμπόσιον, ὡς οἷα πολιτογραφηθείς που. 1. ἔτει] ἔτι A. 2. οἴκαδε A. ἥκων Iacobs. Spec. animadv. ad auct. vet. 111] ἥκω. 4. ἐνεγράφην] ἐγράφην A. ἐνεγράφη Eust. 5. φράτριος Bergk. R. c. Att. 108] φρατόριος A. φρατέριος Mein. in Ath. homo nescio quis post diuturnam absentiam ex hostium terra rediens vix a se gentiles, tribules inventos esse, i. e. aegre sibi contigisse dicit ut ab illis agnosceretur. εἰς τὸ κυλικεῖον ἐνεγράφην per iocum et παρ’ ὑπόνοιαν dicit pro εἰς τὸ ληξιαρχικὸν γραμματεῖον (nos ich wurde ins Seidelbuch eingeschrieben pro ins Kirchenbuch). hominibus enim id genus τὸ κυλικεῖον multo et gravius et suavius est ipsa civitate. τὰ τέλη τελεῖν Schoemannus Ind. Gryphisv. 1858 p. 7. 8 docuit eum dici, qui quae civibus praestanda sint conferendis tributis aliisque muneribus obeundis probe et iuste praestet conl. C. I. I 101, 25 τελεῖν αὐτὸν τὰ αὐτὰ τέλη ἐν τῷ δήμῳ, ἅπερ ἂν καὶ Πειραιεῖς. Dinarch. 2, 17 εἰ τὰ τέλη τελεῖ. oppos. 18 τῶν δ’ ἄλλων Ἀθηναίων εἰσφερόντων ἐκ τῶν ἰδίων, οὗτος οὐδὲ τῶν δημοσίων καὶ ὧν ὦφλε τὸ ἀργύριον ἅπαν ἐκτέτικεν.</note>
+            </div>
+          </div></body></text></TEI>

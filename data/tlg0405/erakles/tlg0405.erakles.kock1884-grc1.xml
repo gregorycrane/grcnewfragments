@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANAXANDRIDES, ΗΡΑΚΛΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Anaxandrides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0405.erakles.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0405.erakles.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0405.erakles.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_erakles"><head>ΗΡΑΚΛΗΣ</head><div type="textpart" subtype="fragment" n="15" xml:id="kock-0405-erakles-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_erakles">
+              <lg>
+                <l n="1" xml:id="kock-0405-erakles-15-l1" xml:lang="grc">ὁ μὲν γὰρ εὐφυής τις εἶναι φαίνεται,</l>
+                <l n="2" xml:id="kock-0405-erakles-15-l2" xml:lang="grc">ὡς δ’ εὐρύθμως λαβὼν τὸ μελετητήριον</l>
+                <l n="3" xml:id="kock-0405-erakles-15-l3" xml:lang="grc">εἶτ’ ἐσχεδίασε δριμέως ἐν . . παπαῖ,</l>
+                <l n="4" xml:id="kock-0405-erakles-15-l4" xml:lang="grc">μεστὸς γενόμενος πρὸς τὸν Ἀργᾶν βούλομαι</l>
+                <l n="5" xml:id="kock-0405-erakles-15-l5" xml:lang="grc">κωδωνίσας πέμψαι σ’ ἀγωνιούμενον,</l>
+                <l n="6" xml:id="kock-0405-erakles-15-l6" xml:lang="grc">ἵνα καὶ σὺ νικᾷς τοὺς σοφιστάς, ὦ φίλε.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 638 d τοῦ Ἀργᾶ μνημονεύει . . . Ἀναξανδρίδης ἐν Ἡρακλεῖ κτλ.</note>
+              <note type="apparatus">2. εὐρύθμως Schweigh.] εὔρυθμος Α. 3. ενπαπαι Α. lacunam indicavit Schweigh. δριμέως παπαῖ παπαῖ Casaub. δριμέως εὖ μάλα παπαῖ Mein. — Eustath. 1455, 34 Εὐριπίδης (cum multis aliis) ἐπὶ συνετοῦ εἴρηκε τὸ δριμύ. Cycl. 104 δριμύ Σισύφου γένος. cf. quae ad Arist. Av. 255 adnotavimus. 4. μεστὸς γενόμενος i. e. cum satis cantu tuo me delectavero. Bekker. Anecd. 442, 30 Ἄργας· ὁ δεινότατος παρ’ ἡλικίαν ἄργας καλεῖται. οὕτως ἔλεγον καὶ τὸν Δημοσθένην (Plutarch. Dem. 4. Aeschin. 2, 99. Harpocrat. et Hesych. ἀργᾶς). fuit autem Argas illo tempore cantor et citharoedus celeberrimus. cf. 41, 17. Alexid. 19. de accentu Herodian. I 51, 4 (cf. 54, 3) ἔτι δὲ περισπῶνται ταῦτα μόνως κύρια ἢ ὑποκοριστικά, Ἑρμᾶς, Ἀργᾶς κτλ. 6. sophistae hic sunt musici, ut Protagoras apud Platonem principes cuiusque artis sophistas adpellabat. videntur duo pueri artis musicae magistro in disciplinam tradi, quorum alter ei magnopere probatur. alter fortasse Hercules fuit. τὸ μελετητήριον hic est instrumentum musicum. Hesych. μελετητήριον οἶκος ἢ ὄργανον, ἐν ᾧ τις μελετᾷ. 5. κωδωνίσας, ubi accuratius te examinavero.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΚΟΥΡΙΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.koyris.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.koyris.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.koyris.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_koyris"><head>ΚΟΥΡΙΣ</head><div type="textpart" subtype="fragment" n="128" xml:id="kock-0410-koyris-128" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_koyris">
+              <lg>
+                <l n="1" xml:id="kock-0410-koyris-128-l1" xml:lang="grc">ἐλθών τε πρὸς τὸν τεμαχοπώλην περίμενε,</l>
+                <l n="2" xml:id="kock-0410-koyris-128-l2" xml:lang="grc">παρ’ οὗ φέρειν εἴωθα· κἂν οὕτω τύχῃ,</l>
+                <l n="3" xml:id="kock-0410-koyris-128-l3" xml:lang="grc">Εὔθυνος . . ἀπολοπίζων αὐτόθι</l>
+                <l n="4" xml:id="kock-0410-koyris-128-l4" xml:lang="grc">χρηστόν τι περίμεινον κέλευσον μὴ τεμεῖν.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 120a Εὐθύνου δὲ τοῦ ταριχοπώλου μέμνηται Ἀντιφάνης ἐν Κουρίδι οὕτως κτλ.</note>
+              <note type="apparatus">3. εὔθουνος A. lacunam indicavit Dindorf. Εὔθυνος αὐτὸς Mein. V 76. ἀπολοπίζων Fritzsch. Daetal. 106 not.] ἀπολογίζων A. 4. περιμένων — μοι Schweigh. de Euthyno cf. 190, 1. Euphron. 1, 9. fortasse idem est quem commemorat Aristot. Rhet. 2, 19 Ἰσοκράτης ἔφη δεινὸν εἶναι, εἰ ὁ μὲν Εὔθυνος ἔμαθεν, αὐτὸς δὲ μὴ δυνήσεται. cf. Xenoph. Hellen. 4, 1, 34 καὶ ἐὰν οὕτω τύχωσιν, ἔστιν ὅτε καὶ ἀπέκτειναν ἀλλήλους. (Fritzsch.) 4. χρηστόν τι, ut 145. Arist. Pac. 563. mihi v. 3 sic scribendus videtur Εὔθυνον ὄψον ἀπολοπίζοντ’ αὐτόθι χρηστόν τι, Παρμένων, κέλευσόν μοι τεμεῖν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="129" xml:id="kock-0410-koyris-129" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_koyris">
+              <lg>
+                <l n="1" xml:id="kock-0410-koyris-129-l1" xml:lang="grc">Α. ὁ μὲν ἀγρῷ τρεφόμενος</l>
+                <l n="2" xml:id="kock-0410-koyris-129-l2" xml:lang="grc">θαλάττιον μὲν οὗτος οὐδὲν ἐσθίει,</l>
+                <l n="3" xml:id="kock-0410-koyris-129-l3" xml:lang="grc">πλὴν τῶν παρὰ γῆν, γόγγρον τιν’ ἢ νάρκην τιν’ ἢ</l>
+                <l n="4" xml:id="kock-0410-koyris-129-l4" xml:lang="grc">θύννης τὰ πρὸς τῆς ποῖα τὰ κάτωθεν λέγω.</l>
+                <l n="5" xml:id="kock-0410-koyris-129-l5" xml:lang="grc">Β. τούτους φάγοις ἄν; Γ. τοὺς γὰρ ἄλλους νενόμικα</l>
+                <l n="6" xml:id="kock-0410-koyris-129-l6" xml:lang="grc">ἀνθρωποφάγους ἰχθῦς. Β. τὸ δεῖνα δ’ ἐσθίεις;</l>
+                <l n="7" xml:id="kock-0410-koyris-129-l7" xml:lang="grc">τουτὶ κακόνωτα πλοῖα Γ. Κωπᾶδας λέγεις;</l>
+                <l n="8" xml:id="kock-0410-koyris-129-l8" xml:lang="grc">ἀγρίως γε. Β. παρὰ λίμνην γὰρ γεωργῶν τυγχάνω·</l>
+                <l n="9" xml:id="kock-0410-koyris-129-l9" xml:lang="grc">τὰ δ’ ἐγχέλεια γράψομαι λιποταξίου.</l>
+                <l n="10" xml:id="kock-0410-koyris-129-l10" xml:lang="grc">κομιδῆ γὰρ οὐκ ἦν οὐδαμοῦ.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 303.4 τῆς θυννίδος τὸ οὐραῖον ἐπαινεῖ καὶ Ἀντιφάνης ἐν Κουρίδι οὕτως κτλ. τούτων τῶν ἰαμβείων ἔνια ἔστιν εὑρεῖν καὶ ἐν Ἀκεστρίᾳ καὶ ἐν Ἀγροίκῳ ἢ Βουταλίωνι. v. 9 Eustathius 1240, 22 ὅθεν Ἀντιφάνης ὑποκοριστικῶς (!) ἔφη· τὰ ἐγχέλια κτλ.</note>
+              <note type="apparatus">personarum notas posuit Dobraeus Adv. II 316. 2. μὲν habet etiam A. ὁ μὲν ἐν Cobet. N. 1. 129. ὁ δ’ ἐν Mein. in ed. Ath. θαλάττιον ὄψον Mein. ed. mai. ὄψον θαλάττιον Casaub. 3. πλὴν C] πρὶν A. 4. sic A. 6. τὸ δεῖνα δ’ ἐσθίεις Schweigh.] τὸ δ’</note>
+            </div>
+          </div></body></text></TEI>

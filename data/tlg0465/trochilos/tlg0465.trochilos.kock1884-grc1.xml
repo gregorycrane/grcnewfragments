@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>HENIOCHUS, ΤΡΟΧΙΛΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Heniochus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0465.trochilos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0465.trochilos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0465.trochilos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0465_trochilos"><head>ΤΡΟΧΙΛΟΣ</head><div type="textpart" subtype="fragment" n="4" xml:id="kock-0465-trochilos-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0465_trochilos">
+              <lg>
+                <l n="1" xml:id="kock-0465-trochilos-4-l1" xml:lang="grc">πρὸς ἐμαυτὸν ἐνθυμούμενος, νὴ τοὺς θεούς,</l>
+                <l n="2" xml:id="kock-0465-trochilos-4-l2" xml:lang="grc">ὅσῳ διαφέρει σῦκα καρδάμων. σὺ δὲ</l>
+                <l n="3" xml:id="kock-0465-trochilos-4-l3" xml:lang="grc">Παύσωνι φὴς τὸ δεῖνα προσλελαληκέναι;</l>
+                <l n="4" xml:id="kock-0465-trochilos-4-l4" xml:lang="grc">Α. καὶ πρᾶγμά γ’ ἠρώτα με δυστράπελον πάνυ</l>
+                <l n="5" xml:id="kock-0465-trochilos-4-l5" xml:lang="grc">5 ἔχον τε πολλὰς φροντίδων διεξόδους.</l>
+              </lg>
+              <pb n="433" facs="urn:hathi:hvd.hxijve:scan:469"/>
+              <lg>
+                <l n="6" xml:id="kock-0465-trochilos-4-l6" xml:lang="grc">Β. λέγ᾽ αὐτό· καὶ γὰρ οὐκ ἀγέλοιόν ἐστ᾽ ἴσως.</l>
+                <l n="7" xml:id="kock-0465-trochilos-4-l7" xml:lang="grc">Α. ἔτνος κυάμινον διότι τὴν μὲν γαστέρα</l>
+                <l n="8" xml:id="kock-0465-trochilos-4-l8" xml:lang="grc">φυσᾷ, τὸ δὲ πῦρ οὔ. Β. χάριεν οἷς γινώσκεται</l>
+                <l n="9" xml:id="kock-0465-trochilos-4-l9" xml:lang="grc">τὸ πρᾶγμα τοῦ Παύσωνος. ὡς δ᾽ ἀεί ποτε</l>
+                <l n="10" xml:id="kock-0465-trochilos-4-l10" xml:lang="grc">10 περὶ τοὺς κυάμους ἔσθ᾽ οὗτος ὁ σοφιστής [τέλος].</l>
+              </lg>
+              <note type="source">Athenaeus 9, 408 a ἔτνους δὲ κυαμίνου μνημονεύει Ἡνίοχος ὁ κωμικὸς ἐν Τροχίλῳ λέγων οὕτως κτλ.</note>
+              <note type="apparatus">2. σὺ δὲ οὐδὲ A, quae manifesta est dittographia eius generis, de quo Kaibelius egit in Ind. Rost. 1883. 3. δεῖνα L] δειναὶ Α. 4. πρᾶγμά γ᾽ ἠρώτα Dindf.] πρᾶγμ᾽ ἠρώτα Α. ναί, πρᾶγμ᾽ ἐπηρώτα Iacobs. Add. Ath. 217. ναί, πρᾶγμ᾽ ἀνηρώτα Mein. 5. ἔχον τε Iacobs.] ἔχων δὲ Α. διεξόδους Boisson.] δυσεξόδους Α. 6. λέγε et ἐστισως Α. ἀγέλαιον Nauck. Philol. VI 420. 8. χάριεν οἷς Boisson.] χαριενοις Α. 10. τέλος Α] ὅλος Dalecamp. πολύς Iacobs. cum proximis Athenaei verbis coniunxit Dobr. Adv. II 324 (τέλος τοιούτων [οὖν] πολλῶν λεγομένων ὕδωρ ἐφέρετο). 1. ante hunc v. deest ἀνῆλθον ἐκ τοῦ Πειραιῶς vel tale aliquid. 2. Horatianum illud (Epist. 1, 7, 23) quid distent aera lupinis contulit Mein. 3. 'Pauson philosophus ut videtur Pythagoreus.' Mein. I 422. 5. compositus est hic versus ex Soph. Ant. 225. OR. 67. cf. Soph. fr. 433 N. ἀνέμων διέξοδοι, Eur. Androm. 1086 ἡλίου διεξόδους. Antiphan. 176, 4. Alexid. 124, 9. 7. Philostr. Vit. sophist. 483 Boiss. Χαιρεφῶν... διὰ τί, ἔφη, ὦ Γοργία, οἱ κύαμοι τὴν γαστέρα φυσῶσι, τὸ δὲ πῦρ οὐ φυσῶσιν; similes sunt illi in Nubibus ioci. 8. Menand. 98 Mein. γέλοιον, ὃς κόρης ἐλευθέρας εἰς ἔρων ἥκων σιωπᾷς. 205 ὡς οἰκτρόν, ἢ τοιαῦτα δυστυχῶ. sed neque haec prorsus similia nec Ζεὺς γελοῖος ὀμνύμενος τοῖς εἰδόσιν. fortasse χάριεν, ὦ Διοσκόρω, τὸ πρ. κτλ. cf. Amphid. 9, 4.</note>
+            </div>
+          </div></body></text></TEI>

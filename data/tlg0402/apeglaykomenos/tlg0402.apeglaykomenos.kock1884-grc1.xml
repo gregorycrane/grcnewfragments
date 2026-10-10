@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΑΠΕΓΛΑΥΚΩΜΕΝΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.apeglaykomenos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.apeglaykomenos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.apeglaykomenos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_apeglaykomenos"><head>ΑΠΕΓΛΑΥΚΩΜΕΝΟΣ</head><div type="textpart" subtype="fragment" n="15" xml:id="kock-0402-apeglaykomenos-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_apeglaykomenos">
+              <head>15</head>
+              <lg>
+                <l n="1" xml:id="kock-0402-apeglaykomenos-15-l1" xml:lang="grc">παρ’ ἐμοῦ δ’, ἐὰν μὴ καθ’ ἓν ἕκαστον πάντα δῷς,</l>
+                <l n="2" xml:id="kock-0402-apeglaykomenos-15-l2" xml:lang="grc">χαλκοῦ μέρος δωδέκατον οὐκ ἂν ἀπολάβοις.</l>
+              </lg>
+              <pb n="302" facs="urn:hathi:hvd.hxijve:scan:308"/>
+              <lg>
+                <l n="3" xml:id="kock-0402-apeglaykomenos-15-l3" xml:lang="grc">Β. δίκαιος ὁ λόγος. Α. ἀβάκιον, ψῆφον· λέγε.</l>
+                <l n="4" xml:id="kock-0402-apeglaykomenos-15-l4" xml:lang="grc">Β. ἔστ᾽ ὠμοτάριχος πέντε χαλκῶν. Α. λέγ᾽ ἕτερον.</l>
+                <l n="5" xml:id="kock-0402-apeglaykomenos-15-l5" xml:lang="grc">Β. μῦς ἑπτὰ χαλκῶν. Α. οὐδὲν ἀσεβεῖς οὐδέπω.</l>
+                <l n="6" xml:id="kock-0402-apeglaykomenos-15-l6" xml:lang="grc">λέγε. Β. τῶν ἐχίνων ὀβολός. Α. ἁγνεύεις ἔτι.</l>
+                <l n="7" xml:id="kock-0402-apeglaykomenos-15-l7" xml:lang="grc">Β. ἆρ᾽ ἦν μετὰ ταῦθ᾽ ἡ ῥάφανος ἣν ἐβοᾶτε; Α. ναί·</l>
+                <l n="8" xml:id="kock-0402-apeglaykomenos-15-l8" xml:lang="grc">χρηστὴ γὰρ ἦν. Β. ἔδωκα ταύτης δὺ᾽ ὀβολούς.</l>
+                <l n="9" xml:id="kock-0402-apeglaykomenos-15-l9" xml:lang="grc">Α. τί γὰρ ἐβοῶμεν; Β. τὸ κύβιον τριωβόλου.</l>
+                <l n="10" xml:id="kock-0402-apeglaykomenos-15-l10" xml:lang="grc">Α. ὀνεῖν κεχειρῶν γε οὐκ ἐπράξατ᾽ οὐδὲ ἕν.</l>
+                <l n="11" xml:id="kock-0402-apeglaykomenos-15-l11" xml:lang="grc">Β. οὐκ οἶσθας, ὦ μακάριε, τὴν ἀγοράν, ὅτι</l>
+                <l n="12" xml:id="kock-0402-apeglaykomenos-15-l12" xml:lang="grc">κατεδηδόκασι τὰ λάχαν᾽ αἱ τρωξαλλίδες.</l>
+                <l n="13" xml:id="kock-0402-apeglaykomenos-15-l13" xml:lang="grc">Α. διὰ τοῦτο τὸ τάριχος τέθεικας διπλασίου;</l>
+                <l n="14" xml:id="kock-0402-apeglaykomenos-15-l14" xml:lang="grc">Β. ὁ ταριχοπώλης ἐστίν· ἐλθὼν πυνθάνου.</l>
+                <l n="15" xml:id="kock-0402-apeglaykomenos-15-l15" xml:lang="grc">γόγγρος δέκ᾽ ὀβολῶν. Α. οὐχὶ πολλοῦ. λέγ᾽ ἕτερον.</l>
+                <l n="16" xml:id="kock-0402-apeglaykomenos-15-l16" xml:lang="grc">Β. τὸν ὀπτὸν ἰχθὺν ἐπριάμην δραχμῆς. Α. παπαῖ,</l>
+                <l n="17" xml:id="kock-0402-apeglaykomenos-15-l17" xml:lang="grc">ὥσπερ πυρετὸς ἀνῆκεν, εἶτ᾽ ἐν ἐπιτέλει.</l>
+                <l n="18" xml:id="kock-0402-apeglaykomenos-15-l18" xml:lang="grc">Β. πρόσθες τὸν οἶνον, ὃν μεθυόντων προσέλαβον</l>
+                <l n="19" xml:id="kock-0402-apeglaykomenos-15-l19" xml:lang="grc">ὑμῶν, χόας τρεῖς, δέκ᾽ ὀβολῶν ὁ χοῦς.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 117 e ἐν τῷ Ἀπεγλαυκωμένῳ (ἀπευγλ. Α) συμβολάς τις ἀπαιτούμενός φησι κτλ. v. 4 Athen. 3, 117 c ὠμοτάριχον δέ τινα κέκληκεν Ἄλεξις ἐν Ἀπεγλαυκωμένῳ (ἀπευγλ. Α).</note>
+              <note type="apparatus">1. δῷς] δ᾽ ὡς Α. θῇς Mein. ed. mai. ἐὰν | μή μοι καταλέγῃς καθ᾽ ἓν ἕκαστον πάνθ᾽ ἁπλῶς Dobr. Adv. II 303. 3. ψήφους Mein. λέγε. ἔστ᾽ VL] λέγεσθαι Α. 6. ἔτι] ὅτι Α. 7. ἐβοᾶτε; Α. ναί Kidd. Pors. Misc. 236] ἐβοᾶτ᾽ εἶναι Α. ᾗ ᾽πεβοᾶτε Mein. Anal. Ath. 55. 9. τριωβόλους Α. 10. ὄλοιο· σίσαρον δ᾽ οὐκ ἐπέθηκας οὐδὲ ἕν Mein. Anal. 12. κατεδηδόκασιν et λάχανα Α, omittens αἱ, add. a Dindorfio. 13. τὸ add. Schweigh. 17. εἶτ᾽ ἐπέτεινε δή Iacobs. Add. Ath. 82. εἶτ᾽ ἐπέτεινεν αὖ Dobr. Adv. II 303. ἀνῆκ᾽, ἐπέτεινε δ᾽ ἐπὶ τέλει Mein. ed. mai., πυρετὸς ἀνῆκεν, εἶτ᾽ ἐπέτεινεν ἐπὶ τέλει, deleto ὥσπερ Anal. Athen. 55. 18. ὃν om. A. 19. οχους Α.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="16" xml:id="kock-0402-apeglaykomenos-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_apeglaykomenos">
+              <lg>
+                <l n="1" xml:id="kock-0402-apeglaykomenos-16-l1" xml:lang="grc">τοὺς μὲν στρατηγοὺς τὰς ὀφρῦς ἐπὰν ἴδω</l>
+                <l n="2" xml:id="kock-0402-apeglaykomenos-16-l2" xml:lang="grc">ἀνεσπακότας, δεινὸν μὲν ἡγοῦμαι ποιεῖν,</l>
+                <l n="3" xml:id="kock-0402-apeglaykomenos-16-l3" xml:lang="grc">οὐ πάνυ τι θαυμάζω δὲ προτετιμημένους</l>
+                <l n="4" xml:id="kock-0402-apeglaykomenos-16-l4" xml:lang="grc">ὑπὸ τῆς πόλεως μεῖζόν τι τῶν ἄλλων φρονεῖν.</l>
+                <l n="5" xml:id="kock-0402-apeglaykomenos-16-l5" xml:lang="grc">τοὺς δ᾽ ἰχθυοπώλας τοὺς κάκιστ᾽ ἀπολουμένους</l>
+                <l n="6" xml:id="kock-0402-apeglaykomenos-16-l6" xml:lang="grc">ἐπὰν ἴδω κάτω βλέποντας, τὰς δ᾽ ὀφρῦς</l>
+                <l n="7" xml:id="kock-0402-apeglaykomenos-16-l7" xml:lang="grc">ἔχοντας ἐπάνω τῆς κορυφῆς, ἀποπνίγομαι.</l>
+                <l n="8" xml:id="kock-0402-apeglaykomenos-16-l8" xml:lang="grc">ἐὰν δ᾽ ἐρωτήσῃς π̔όσου τοὺς κεστρέας</l>
+                <l n="9" xml:id="kock-0402-apeglaykomenos-16-l9" xml:lang="grc">πωλεῖς δὺ᾽ ὄντας;᾽ δ̔έκ᾽ ὀβολῶν᾽ φησίν. β̔αρύ·</l>
+                <l n="10" xml:id="kock-0402-apeglaykomenos-16-l10" xml:lang="grc">ὀκτὼ λάβοις ἄν;᾽ ἑἴπερ ὠνεῖ τὸν ἕτερον.᾽</l>
+                <l n="11" xml:id="kock-0402-apeglaykomenos-16-l11" xml:lang="grc">῾ὦ ᾽τάν, λαβὲ καὶ μὴ παῖζε.᾽ τ̔οσουδί; παράτρεχε.᾽</l>
+                <l n="12" xml:id="kock-0402-apeglaykomenos-16-l12" xml:lang="grc">ταῦτ᾽ οὐχὶ πικρότερ᾽ ἐστὶν αὐτῆς τῆς χολῆς;</l>
+              </lg>
+              <note type="source">Athenaeus 6, 224 f <foreign xml:lang="grc">Ἄλεξις Ἀπεγλαυκωμένῳ</foreign> κτλ.</note>
+              <note type="apparatus">2. <foreign xml:lang="grc">ποεῖν</foreign> A. an <foreign xml:lang="grc">παθεῖν</foreign>? 4. <foreign xml:lang="grc">μεῖζόν τι</foreign> Wakefield. Silv. crit. II 71] <foreign xml:lang="grc">μείζω</foreign> A. 5. <foreign xml:lang="grc">δὲ</foreign> A. 8. <foreign xml:lang="grc">δ᾽</foreign> B] <foreign xml:lang="grc">τ᾽</foreign> A. <foreign xml:lang="grc">ἐρωτήσῃς</foreign> C] <foreign xml:lang="grc">ἐρωτήσας</foreign> A. <foreign xml:lang="grc">ἐρωτήσω</foreign> Dindf. in adnot. 9. <foreign xml:lang="grc">φησί</foreign> A. 11. <foreign xml:lang="grc">τὰν</foreign> A. <foreign xml:lang="grc">τοσουδί</foreign> Dobr. Arist. Plut. 361 p. 44] <foreign xml:lang="grc">τοὺς οὐδεῖ</foreign> A. <foreign xml:lang="grc">τόσου δεῖ</foreign> Coraes. 11. versum pravissima caesura elumbem ab Alexide scriptum esse numquam adducar ut credam. fortasse <foreign xml:lang="grc">λαβέ, μὴ παίσῃς. τοσουδί,</foreign> tam vili pretio? interrogat cetarius; abi in malam crucem. — cf. Amphid. 30.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="17_18" xml:id="kock-0402-apeglaykomenos-17_18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_apeglaykomenos">
+              <lg>
+                <l n="1" xml:id="kock-0402-apeglaykomenos-17_18-l1" xml:lang="grc">καὶ γὰρ ἑψητοί τινες</l>
+                <l n="2" xml:id="kock-0402-apeglaykomenos-17_18-l2" xml:lang="grc">παρῆσαν ἡμῖν δαιδάλεοί πως</l>
+                <l n="3" xml:id="kock-0402-apeglaykomenos-17_18-l3" xml:lang="grc">τῶν οὖν κορακίνων πεῖραν οὐχὶ λαμβάνεις;</l>
+                <l n="4" xml:id="kock-0402-apeglaykomenos-17_18-l4" xml:lang="grc">οὐδὲ τριχίδων, οὐδ᾽ οἷον ἑψητῶν τινων;</l>
+              </lg>
+              <note type="source">Athenaeus 7, 301 ab <foreign xml:lang="grc">Ἄλεξις ἐν Ἀπεγλαυκωμένῳ· καὶ γὰρ — πως. τὰ γὰρ καλὰ πάντα Δαιδάλου καλοῦσιν ἔργα. καὶ πάλιν· τῶν οὖν</foreign> κτλ. Eustathius 1169, 12 <foreign xml:lang="grc">Δαιδάλου γὰρ ἐκάλουν ἔργον πᾶν τὸ καλόν. διὸ καὶ Ἀλεξίς φησιν ὡς ἑψητοί τινες παρῆσαν δαιδάλεοί πως, ἤγουν καλοί.</foreign> verba <foreign xml:lang="grc">τὰ γὰρ καλὰ — ἔργα</foreign> ab Alexideis seclusit Meinekius.</note>
+              <note type="apparatus">2. <foreign xml:lang="grc">δαιδαλαῖοι πως</foreign> A. Reisig. Coniect. 131 <foreign xml:lang="grc">παρῆσαν ἡμῖν δαιδάλεοι, νὴ τὸν Δία.</foreign> B. <foreign xml:lang="grc">πῶς δαιδάλεοι;</foreign> A. <foreign xml:lang="grc">τὰ γὰρ</foreign>
+              </note>
+            </div>
+          </div></body></text></TEI>

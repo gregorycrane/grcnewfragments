@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΑΓΡΟΙΚΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.agroikos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.agroikos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.agroikos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos"><head>ΑΓΡΟΙΚΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0410-agroikos-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos">
+              <lg>
+                <l n="1" xml:id="kock-0410-agroikos-1-l1" xml:lang="grc">καὶ πρῶτα μὲν</l>
+                <l n="2" xml:id="kock-0410-agroikos-1-l2" xml:lang="grc">αἴρω ποθεινὴν μᾶζαν, ἣν φερέσβιος</l>
+              </lg>
+              <pb n="13" facs="urn:hathi:hvd.hxijve:scan:19"/>
+              <lg>
+                <l n="3" xml:id="kock-0410-agroikos-1-l3" xml:lang="grc">Δηὼ βροτοῖσι χάρμα δωρεῖται φίλον·</l>
+                <l n="4" xml:id="kock-0410-agroikos-1-l4" xml:lang="grc">ἔπειτα πνικτὰ τακερὰ μηκάδων μέλη,</l>
+                <l n="5" xml:id="kock-0410-agroikos-1-l5" xml:lang="grc">χλόην καταμπέχοντα, σάρκα νεογενῆ.</l>
+                <l n="6" xml:id="kock-0410-agroikos-1-l6" xml:lang="grc">Β. τί λέγεις; Α. τραγῳδίαν περαίνω Σοφοκλέους.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 396 b Ἀντιφάνης ἐν Ἀγροίκῳ.</note>
+              <note type="apparatus">3. Δηὼ Casaub.] δημήτηρ Α. 6. περαίνω Casaub.] παραινῶ Α. ad v. 2 cf. Aristoph. Pac. 1. Hesych. φερέσβιος· ὁ τὰ πρὸς τὸν βίον φέρων καὶ σῴζων ἢ ζωοποιός. Hesiod. Theog. 693 et [Hom.] Hymn. 2, 163 γαῖα φερέσβιος. [Hom.] Hymn. 5, 450 φερέσβιον οὖθαρ ἀρούρης. Aesch. fr. 293, 7 N. φερέσβιον Δήμητρος στάχυν. Δηώ nomen etiam 52, 9. Arist. Plut. 515. Xenarch. 1, 5. v. 5 poetam scripsisse arbitror χλόη καταμπέχοντα σάρκα νεογενῆ, membra caprina carnem recentem herbis velantia, i. e. quorum carnes variis herbis tectae sunt. Sophoclem clarissimum illum esse Nauckius iudicat Trag. gr. fr. 235 (Sophocl. fr. 683). mihi filius eius significari videtur. Diodor. 14, 53 ἐν δὲ ταῖς Ἀθήναις Σοφοκλῆς ὁ Σοφοκλέους τραγῳδίας διδάσκειν ἤρξατο (Ol. 95, 4) καὶ νίκας ἔσχε δυοκαίδεκα. περαίνω, ut 85. Arist. Ran. 1170. 1284. Sophoclis non tam verba ipsa recitare quam genus dicendi per parodiam imitari videtur. ceterum non video cur non maluerit scribere περαίνω Σ. τραγ., versu haud paullo modulatiore.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="kock-0410-agroikos-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos">
+              <lg>
+                <l n="1" xml:id="kock-0410-agroikos-2-l1" xml:lang="grc">ἔστιν δ’ ἑταίρα τῷ τρέφοντι συμφορά·</l>
+                <l n="2" xml:id="kock-0410-agroikos-2-l2" xml:lang="grc">εὐφραίνεται γὰρ κακὸν ἔχων οἴκοι μέγα.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 567 d ὡς Ἀντιφάνης φησὶν ἐν Ἀγροίκῳ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0410-agroikos-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos">
+              <lg>
+                <l n="1" xml:id="kock-0410-agroikos-3-l1" xml:lang="grc">ὅλην μύσας ἔκπινε. Β. μέγα τὸ φορτίον.</l>
+                <l n="2" xml:id="kock-0410-agroikos-3-l2" xml:lang="grc">Α. οὐχ ὅστις αὐτῆς ἐστιν ἐμπείρως ἔχων.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 445 f. 446 a προπιών τινι τῶν ἑταίρων ἔφη· ἀλλὰ κατὰ τὸν Ἀντιφάνην, ὃς ἐν Ἀγροίκοις φησίν κτλ.</note>
+              <note type="apparatus">1. ὅλην μύσας (sine acc.) A secund. Kaibel., ὅλη ην μύσας secund. Schweigh. fil. hoc si verum est, nihil aliud scripsit poeta quam ὄλπην. Crates ἐν δευτέρῳ Ἀττικῆς διαλέκτου apud Athen. 11, 495 b ὁ δὲ τύπος . . . οἰνοχόης σχῆμα, ὁποίους δή ποτε ὄλπας ἐκάλουν, χρώμενοι πρὸς τὴν τοῦ οἴνου ἔγχυσιν. καθάπερ Ἴων ὁ Χῖος ‘ἐκ ζαθέων πιθακνῶν ἀφύσαντες ὄλπαις οἶνον.’ — pro μύσας frustra Lobeckius ἀμυστὶ (πῖνε). clausis oculis per iocum iubetur bibere, ne scilicet suscepti periculi magnitudinem videat. cf. Menand. ap. Stob. Floril. 74, 27 φέρειν μύσαντα . . προῖκα καὶ γυναῖκα δεῖ, et Phryn. 41.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="4" xml:id="kock-0410-agroikos-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos">
+              <lg>
+                <l n="1" xml:id="kock-0410-agroikos-4-l1" xml:lang="grc">Ἁρμόδιος ἐπεκαλεῖτο, παιὰν ᾔδετο,</l>
+                <l n="2" xml:id="kock-0410-agroikos-4-l2" xml:lang="grc">μεγάλην Διὸς σωτῆρος ἄκατον ᾖρέ τις.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 692 f Ἀντιφάνης μὲν γὰρ ἐν Ἀγροίκοισιν ἔφη κτλ.</note>
+              <note type="apparatus">1. ἐπεκαλεῖτο Koppiers. Observ. phil. 31] ἐκαλεῖτο A. praeterea παιανηδετο et ακατονηρετις A, ut saepe, sine acc. et non discretis vocabulis. 2. ᾖρέ K. pro ἦρέ. nam opus est inperfecto. de Harmodii scolio cf. 85. Cratin. 236. Aristoph. fr. 430, de ἀκάτῳ i. e. φιάλη Theopomp. 3. comicis non παιᾶνα, sed παιῶνα usitatum esse monuit Elmsl. Arist. Ach. 1212. cf. Antiph. 85. sed haec observatio ad dei nomen pertinet; cantus sine dubio ubique παιάν vocabatur. Διὸς σωτῆρος ut κατὰ χειρῶν pro substantivo indeclinabili usurpatur. cf. 174. Eubul. 56, 7. Alexid. 232. Eriph. 4. Archestr. Athen. 1, 29 b ὁπόταν πλήρωμα Διὸς σωτῆρος ἕλησθε.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0410-agroikos-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos">
+              <lg>
+                <l n="1" xml:id="kock-0410-agroikos-5-l1" xml:lang="grc">ὡς δὴ σύ τι</l>
+                <l n="2" xml:id="kock-0410-agroikos-5-l2" xml:lang="grc">ποιεῖν δυνάμενος ὀρτυγίου ψυχὴν ἔχων.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 392 e ὑποκοριστικῶς . . . Ἀντιφάνης ἐν Ἀγροίκῳ ὀρτύγιον εἴρηκεν οὕτως κτλ.</note>
+              <note type="apparatus">scribendum videtur cum Dindorfio σὺ τί — ἔχων; falluntur qui cum Meinekio ὀρτυγίου ψυχὴν ἔχοντα timidum interpretantur. ὀρτυγομήτραν δειλήν dicit Alexander Myndius apud Athen. 9, 392. 3, quamquam cauta potius et provida esse putabatur (Cratin. 246); coturnices numquam timidas esse existimaverunt Graeci, quippe quibus ad certamina ut gallis et ad ὀρτυγοκοπίαν uterentur. hic potius nescio quis stolide litigiosus coturnicis animum habere dicitur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" xml:id="kock-0410-agroikos-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos">
+              <lg>
+                <l n="1" xml:id="kock-0410-agroikos-6-l1" xml:lang="grc">κραμβίδιον ἐφθὸν χάριεν ἀστεῖον πάνυ.</l>
+              </lg>
+              <note type="source">Pollux 6, 54 τὸ δὲ ὄνομα τῆς κράμβης ἔστι μὲν καὶ παρ’ Ἀριστοτέλει ἐν τοῖς περὶ ζῴων· ‘ῥάφανος, ἣν καλοῦσί τινες κράμβην’, ἄντικρυς δ’ αὐτῷ κέχρηται Ἀντιφάνης ἐν Ἀγροίκῳ κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0410-agroikos-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos">
+              <lg>
+                <l n="1" xml:id="kock-0410-agroikos-7-l1" xml:lang="grc">ῥαγδαῖος, ἄμαχος, πρᾶγμα μεῖζον ἢ δοκεῖς.</l>
+              </lg>
+              <note type="source">Photius 480, 20 et Suidas ῥαγδαίους· κατὰ μεταφορὰν ἀπὸ τῶν ὄμβρων τοὺς κεκινημένους καὶ σφοδροὺς καὶ βιαίους. Ἀντιφάνης Ἀγροίκοις κτλ.</note>
+              <note type="apparatus">ἢ] εἰ cod. Phot.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0410-agroikos-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos">
+              <p>ἐκ διαδοχῆς</p>
+              <lg>
+                <l n="1" xml:id="kock-0410-agroikos-8-l1" xml:lang="grc">τὸ ἐν μέρει.</l>
+              </lg>
+              <note type="source">Ἀντιφάνης Ἀγροίκῳ. Bekker Anecd. 97, 5.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="9" xml:id="kock-0410-agroikos-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos">
+              <head>9</head>
+              <p>καθαρὸς δοῦλος</p>
+              <note type="source">οἱονεὶ ἀπηκριβωμένος. Ἀντιφάνης Ἀγροίκῳ. Bekk. Anecd. 105, 5. comparat Meinekius Arist. Av. 1549, ubi cf. quae nos adnotavimus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="10" xml:id="kock-0410-agroikos-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos">
+              <head>10</head>
+              <p>μεῖζον μεῖζον, μικρὸν μικρόν</p>
+              <note type="source">ἀντὶ τοῦ ἀεὶ κατὰ μικρόν. Ἀντιφάνης Ἀγροίκῳ. Bekker. Anecd. 108, 7. alterutrum videtur dixisse Antiphanes. cf. μᾶλλον μᾶλλον Arist. Ran. 1001.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0410-agroikos-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_agroikos">
+              <head>11</head>
+              <p>ἐπίδημος</p>
+              <note type="source">ἀντὶ τοῦ ἔνδημος. Ἀντιφάνης Ἀγροίκῳ. Bekker. Anecd. 93, 27. ‘ἐπίδημος . . . dicitur qui aliunde inmigravit, ἔνδημος autem indigena.’ Meinek.</note>
+              <note type="apparatus">Praeterea cf. quae ad Butalion. extr. adnotavi et fr. 129.</note>
+            </div>
+          </div></body></text></TEI>

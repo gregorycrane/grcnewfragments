@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUBULUS, ΚΑΤΑΚΟΛΛΩΜΕΝΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.katakollomenos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.katakollomenos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.katakollomenos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_katakollomenos"><head>ΚΑΤΑΚΟΛΛΩΜΕΝΟΣ</head><div type="textpart" subtype="fragment" n="47" xml:id="kock-0458-katakollomenos-47" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_katakollomenos">
+              <lg>
+                <l n="1" xml:id="kock-0458-katakollomenos-47-l1" xml:lang="grc">καὶ πνικτὰ Σικελὰ πατανίων σωρεύματα</l>
+              </lg>
+              <note type="source">Athenaeus 9, 396a Εὔβουλος Κατακολλωμένῳ κτλ. Pollux 10, 107 τὸ δὲ πατάνιον Εὐβούλου ἐν Κατακολλῶντι κτλ.</note>
+              <note type="apparatus">Σικελὰ Bentl. in Poll.] σικελικά. an Σικελῶν? cf. 132. πατανιων sine accentu A Ath. — in Anal. Ath. 171 Meinekius suspicatur hic ut alibi coqui nomen (Πατανίων) obscuratum latere.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="48" xml:id="kock-0458-katakollomenos-48" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_katakollomenos">
+              <lg>
+                <l n="1" xml:id="kock-0458-katakollomenos-48-l1" xml:lang="grc">ἀλλ’ εἰσὶ φιάλαι πέντε, τραγέλαφοι δύο.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 500 e οὕτω (τραγέλαφοι) τινὰ καλεῖται ποτήρια, ὧν μνημονεύει . . . Εὔβουλος ἐν Κατακολλωμένῳ (μετακ. A) κτλ. — cf. Antiph. 224.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="49" xml:id="kock-0458-katakollomenos-49" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_katakollomenos">
+              <lg>
+                <l n="1" xml:id="kock-0458-katakollomenos-49-l1" xml:lang="grc">ἀλλὰ παραλαβὼν ἀκράτῳ κροῦε καὶ δίδου πυκνὰς</l>
+                <l n="2" xml:id="kock-0458-katakollomenos-49-l2" xml:lang="grc">καὶ βότρυς τρώγειν ἀνάγκαζ᾽ αὐτὸν ἐξ οἴνου συχνούς.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 653 e οἴδασι δὲ οἱ πρὸ ἡμῶν καὶ τοὺς ἐν οἴνῳ συντιθεμένους βότρυς. Εὔβουλος γοῦν ἐν Κατακολλωμένῳ φησίν κτλ. cf. 138. Amphid. 18. Plaut. Casin. 3, 5, 16 se percussit flore Liberi. Ovid. Rem. am. 145 multo tempora quassa mero. Athen. 4, 168 b διασειόμενοι τοὺς κροτάφους ὑπὸ τοῦ ἀκράτου (Mein.). πυκνάς, i. e. πόσεις.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="50" xml:id="kock-0458-katakollomenos-50" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_katakollomenos">
+              <note type="source">Athenaeus 10, 442 e Μιλησίους δ᾽ Εὔβουλος ἐν Κατακολλωμένῳ ὑβριστάς εἶναί φησι μεθυσθέντας.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="51" xml:id="kock-0458-katakollomenos-51" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_katakollomenos">
+              <p>διατοιχεῖν ἔδει</p>
+              <note type="apparatus">ἀντὶ τοῦ ἀνατοιχεῖν. Εὔβουλος Κατακολλωμένῳ. Bekker. Anecd. 89, 20. cod. διατυχεῖν et κατακολλωναίῳ. ἔδει add. H. Iacobi Mein. ed. min. xvi ex Polluce, qui 1, 114 de re navali disputans ἐρεῖς δὲ καὶ ‘διατοιχεῖν ἔδει’· τὸ γὰρ ἀνατοιχεῖν ἰδιωτικόν. Phryn. App. 34 διατοιχεῖν τὸ εἰς τὸν ἕτερον τοῖχον τῆς νεὼς διαβαίνειν ἐν τῷ πλοίῳ (πλῷ Lobeck.), ὅπερ οἱ ἰδιῶται ἀντιτοιχεῖν (ἀνατ.?) λέγουσιν. Lobeck. Phryn. 161. 2.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="52" xml:id="kock-0458-katakollomenos-52" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_katakollomenos">
+              <p>τροποῦσθαι κώπην</p>
+              <note type="source">Εὔβουλος Κατακολλωμένῳ. Bekker. Anecd. 114, 25. κατακολλωμένοις cod. — Hesych. τροπώσασθαι· τὸ τὴν κώπην πρὸς τὸν σκαλμὸν δῆσαι τῷ τροπωτῆρι. Phot. Suid. τροπωτῆρες· οἱ ἱμάντες οἱ ἐν τοῖς πλοίοις, ἐν οἷς αἱ κῶπαι περὶ τοὺς σκαλμοὺς περιδέονται. Poll. 1, 87 ὅθεν μὲν αἱ κῶπαι ἐκδέδενται, σκαλμός, ᾧ δὲ ἐκδέδενται, τροπωτήρ, καὶ τροπώσασθαι τὴν ναῦν.</note>
+            </div>
+          </div></body></text></TEI>

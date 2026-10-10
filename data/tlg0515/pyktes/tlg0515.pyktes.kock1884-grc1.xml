@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>TIMOCLES, ΠΥΚΤΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Timocles</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0515.pyktes.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0515.pyktes.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0515.pyktes.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_pyktes"><head>ΠΥΚΤΗΣ</head><div type="textpart" subtype="fragment" n="29" xml:id="kock-0515-pyktes-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_pyktes">
+              <lg>
+                <l n="1" xml:id="kock-0515-pyktes-29-l1" xml:lang="grc">εὑρήσεις δὲ τῶν ἐπισιτίων</l>
+                <l n="2" xml:id="kock-0515-pyktes-29-l2" xml:lang="grc">τούτων τιν', οἳ δειπνοῦσιν ἐσφυδωμένοι</l>
+                <l n="3" xml:id="kock-0515-pyktes-29-l3" xml:lang="grc">τἀλλότρι', ἑαυτοὺς ἀντὶ κωρύκων λέπειν</l>
+                <l n="4" xml:id="kock-0515-pyktes-29-l4" xml:lang="grc">παρέχοντες ἀθληταῖσι.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 246 f κοινῇ δὲ περὶ παρασίτων εἰρήκασι Τιμοκλῆς μὲν ἐν Πύκτῃ ἐπισιτίους καλῶν αὐτοὺς ἐν τοῖσδε κτλ.</note>
+              <note type="apparatus">2. τιν' Herwerd. Stud. crit. 5] τινὰς Α. 3. τἀλλότρια Α. λέπειν Mein.] λέγειν (sed γ in ras. m.1) Α. δέρειν Porson. cf. Plat. com. 12. 2. Hesych. διασφυδῶσαι· αὐξῆσαι. ἀπὸ τοῦ σφύζειν. cibis distenti et quasi tumentes. de κωρύκοις cf. quae ad Antiphanis Κώρυκον adnotavimus. ‘sunt sacci sabulo vel farina vel ficuum granis distenti, quos a lacunari suspensos athletae’ (Mein.) pro adversario verberabant. ζυγομαχεῖν τῷ κωρύκῳ Aristot. Rhet. 3, 11. πρὸς κώρυκον γυμνάζεσθαι Diogen. 7, 54. Diogen. Vind. 3, 70. Suid. Apostol. 14, 86. ἡ κωρυκομαχίη Hippocr. Diaet. 2 (I 701 Kuehn.).</note>
+            </div>
+          </div></body></text></TEI>

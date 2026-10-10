@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΠΑΝΝΥΧΙΣ Η ΕΡΙΘΟΙ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.pannychis_e_erithoi.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.pannychis_e_erithoi.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.pannychis_e_erithoi.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pannychis_e_erithoi"><head>ΠΑΝΝΥΧΙΣ Η ΕΡΙΘΟΙ</head><div type="textpart" subtype="fragment" n="173" xml:id="kock-0402-pannychis_e_erithoi-173" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pannychis_e_erithoi">
+              <lg>
+                <l n="1" xml:id="kock-0402-pannychis_e_erithoi-173-l1" xml:lang="grc">θερμοτέροις χαίρεις ἀεὶ</l>
+                <l n="2" xml:id="kock-0402-pannychis_e_erithoi-173-l2" xml:lang="grc">τοῖς ὀψαρίοις, ἢ τὸ μέσον ἢ κατωτέρω;</l>
+                <l n="3" xml:id="kock-0402-pannychis_e_erithoi-173-l3" xml:lang="grc">Β. κατωτέρω. Α. τί λέγεις σύ; ποδαπὸς οὑτοσὶ</l>
+                <l n="4" xml:id="kock-0402-pannychis_e_erithoi-173-l4" xml:lang="grc">ἅνθρωπος; οὐκ ἐπίστασαι ζῆν. ψυχρά σοι</l>
+                <l n="5" xml:id="kock-0402-pannychis_e_erithoi-173-l5" xml:lang="grc">ἅπαντα παραθῶ; Β. μηδαμῶς. Α. ζέοντα δέ;</l>
+              </lg>
+              <pb n="362" facs="urn:hathi:hvd.hxijve:scan:398"/>
+              <lg>
+                <l n="6" xml:id="kock-0402-pannychis_e_erithoi-173-l6" xml:lang="grc">Β. Ἄπολλον. Α. οὐκοῦν τὸ μέσον ἔστω. Β. δηλαδή.</l>
+                <l n="7" xml:id="kock-0402-pannychis_e_erithoi-173-l7" xml:lang="grc">Α. τοῦθ᾽ ἕτερος οὐδεὶς τῶν ὁμοτέχνων μου ποιεῖ —</l>
+                <l n="8" xml:id="kock-0402-pannychis_e_erithoi-173-l8" xml:lang="grc">Β. οὐκ οἴομ᾽, οὐδ᾽ ἄλλ᾽ οὐδὲν ὧν σὺ νῦν ποιεῖς.</l>
+                <l n="9" xml:id="kock-0402-pannychis_e_erithoi-173-l9" xml:lang="grc">Α. ἐγὼ δ᾽ ἐρῶ· τοῖσιν γὰρ ἑστιωμένοις</l>
+                <l n="10" xml:id="kock-0402-pannychis_e_erithoi-173-l10" xml:lang="grc">τὸν καιρὸν ἀποδίδωμι τῆς συγκράσεως.</l>
+                <l n="11" xml:id="kock-0402-pannychis_e_erithoi-173-l11" xml:lang="grc">Β. σὺ πρὸς θεῶν . . ἔθυσας τὸν ἔριφον,</l>
+                <l n="12" xml:id="kock-0402-pannychis_e_erithoi-173-l12" xml:lang="grc">μὴ κόπτ᾽ ἔμ᾽, ἀλλὰ τὰ κρέα. παῖδες, παράγετε.</l>
+                <l n="13" xml:id="kock-0402-pannychis_e_erithoi-173-l13" xml:lang="grc">Α. ὀπτάνιον ἔστιν; Β. ἔστι. Α. καὶ κάπνην ἔχει;</l>
+                <l n="14" xml:id="kock-0402-pannychis_e_erithoi-173-l14" xml:lang="grc">Β. δηλονότι. Α. μή μοι δῆλον· ἀλλ᾽ ἔχει κάπνην;</l>
+                <l n="15" xml:id="kock-0402-pannychis_e_erithoi-173-l15" xml:lang="grc">Β. ἔχει. Α. κακόν, εἰ τύφουσαν. Β. ἀπολεῖ μ᾽ οὑτοσί.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 386 a καὶ γὰρ Ἄλεξις ἐν Παννυχίδι περιθεὶς μαγείρῳ τὸν λόγον φησί κτλ.</note>
+              <note type="apparatus">1. χαιρεοις αἰεὶ Α. χαίρειν λέγεις Mein. Anal. Ath. 353. 3. σύ; ποδαπός Dobr. Arist. Plut. 48 p. 5] δέσποτα πῶς Α. τί λέγεις σύ, δέσποθ᾽; οὗτοσὶ ἄνθρωπος οὐκ κτλ. Iacobs. Add. Ath. 205. 4. ἄνθρ. Dobr.] ἄνθρ. Α. 6. B. add. Mein. ed. mai. 7. post ποιεῖ cum Cobeto N. 1. 34. 5 signum interruptae orationis posui. 9. ἐγὼ δὲ πρῶτος. τοῖς (sic A, non τοῖσιν) γὰρ κτλ. Cobet. scribendum videtur ἐγὼ δ᾽· ἐρωτῶν τοῖς γὰρ ἑστ., conl. v. 1. 2. 5. 11. οὐ πρὸς θεῶν ἔμ᾽ ἔθυσας, ἀλλὰ τὸν ἔριφον Cobet. at tum dicendum erat οὐ μὰ τοὺς θεούς. scr. σὺ πρὸς θεῶν δ᾽, ἐπεί γ᾽ ἔθυσας τὸν ἔριφον, μὴ κόπτ᾽ ἔμ᾽ κτλ. 12. κόπτ᾽ ἔμ᾽ Dindf.] κόπτε με Α. verba παῖδες, παράγετε fortasse personae A sunt. 13. ὀπτάνιόν Schweigh.] παῖδες ὀπτάνειον Α. 14. B. ante ἀλλ᾽ del. K. 15. Β. ἔχει Α. C. Kock] ἔχει. deinde fortasse κάπνην τύφουσαν; 2. κατωτέρω, ‘i. e. ψυχρῶς ὠπτημένοις’ Mein. conl. Eubul. 7. 6. Ἄπολλον, ἀποτρόπαιε δηλονότι. 9. interrogando unicuique cenantium se permittere gloriatur ut definiant ipsi quo temperamento cibos habere velint, θερμότερον an μέσως an κατωτέρω. 12. Poll. 6, 119 λάλος . . . κόπτων τὰ ὦτα. Alciphr. 2, 3, 7 ἵνα μὴ κόπτω σε (Mein). Hegesipp. 1, 3 (Cob.). Sosip. 20 (H. Iac.). Anaxipp. 1, 23. est obtundere, enecare.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="172" xml:id="kock-0402-pannychis_e_erithoi-172" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pannychis_e_erithoi">
+              <head>172</head>
+              <lg>
+                <l n="1" xml:id="kock-0402-pannychis_e_erithoi-172-l1" xml:lang="grc">ὅτι δέ σοι παρὰ τοῦτο κάνδαυλόν τινα</l>
+                <l n="2" xml:id="kock-0402-pannychis_e_erithoi-172-l2" xml:lang="grc">παραθήσομεν. Β. κάνδαυλον; οὐκ ἐδήδοκα</l>
+                <l n="3" xml:id="kock-0402-pannychis_e_erithoi-172-l3" xml:lang="grc">(κάνδαυλον) οὐδ’ ἀκήκο’ οὐδεπώποτε.</l>
+                <l n="4" xml:id="kock-0402-pannychis_e_erithoi-172-l4" xml:lang="grc">Α. θαυμαστὸν ἐμὸν εὕρημα. πάνυ πολὺν δ’ ἐγὼ</l>
+                <l n="5" xml:id="kock-0402-pannychis_e_erithoi-172-l5" xml:lang="grc">ἐὰν παραθῶ σοι, προσκατέδει τοὺς δακτύλους</l>
+                <l n="6" xml:id="kock-0402-pannychis_e_erithoi-172-l6" xml:lang="grc">σαυτῷ γε χαίρων. ἔρια μὲν ποιήσομεν —</l>
+                <l n="7" xml:id="kock-0402-pannychis_e_erithoi-172-l7" xml:lang="grc">Β. ἄνθρωπε ποίει λευκὰ καὶ βλέπ’ εἰς . .</l>
+                <l n="8" xml:id="kock-0402-pannychis_e_erithoi-172-l8" xml:lang="grc">Α. ἐπὰν ἀπὸ τῶν κοινῶν ταρίχους ἰχθύων,</l>
+                <l n="9" xml:id="kock-0402-pannychis_e_erithoi-172-l9" xml:lang="grc">κρεῶν βατανίων εὐθέως . . . .</l>
+                <l n="10" xml:id="kock-0402-pannychis_e_erithoi-172-l10" xml:lang="grc">δίπυρον παραθήσεις, ᾠὸν ἐπιτετμημένον,</l>
+                <l n="11" xml:id="kock-0402-pannychis_e_erithoi-172-l11" xml:lang="grc">πυόν, μέλιτος ὀξύβαφον, ἀποταγηνιῶ,</l>
+                <l n="12" xml:id="kock-0402-pannychis_e_erithoi-172-l12" xml:lang="grc">τυροῦ τροφάλια χλωρὰ Κυθνίου παρατεμών,</l>
+                <l n="13" xml:id="kock-0402-pannychis_e_erithoi-172-l13" xml:lang="grc">βοτρύδιόν τι, χόριον, ἐν ποτηρίῳ</l>
+                <l n="14" xml:id="kock-0402-pannychis_e_erithoi-172-l14" xml:lang="grc">γλυκύν· τὸ τοιοῦτον γὰρ ἀεί πως μέρος</l>
+                <l n="15" xml:id="kock-0402-pannychis_e_erithoi-172-l15" xml:lang="grc">ἐπιπαίζεται· κεφαλὴ δὲ δείπνου γίνεται —</l>
+                <l n="16" xml:id="kock-0402-pannychis_e_erithoi-172-l16" xml:lang="grc">Β. ἄνθρωπ’ ἐπίπαιζε· μόνον ἀπαλλάγηθί μου·</l>
+                <l n="17" xml:id="kock-0402-pannychis_e_erithoi-172-l17" xml:lang="grc">(τοὺς σοὺς δὲ) κανδαύλους λέγων καὶ χόρια καὶ</l>
+                <l n="18" xml:id="kock-0402-pannychis_e_erithoi-172-l18" xml:lang="grc">βατάνια πᾶσαν (ἀφανιεῖς) τὴν ἡδονήν.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="174" xml:id="kock-0402-pannychis_e_erithoi-174" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pannychis_e_erithoi">
+              <lg>
+                <l n="1" xml:id="kock-0402-pannychis_e_erithoi-174-l1" xml:lang="grc">κύκλῳ δεήσει περιτρέχειν με καὶ βοᾶν,</l>
+                <l n="2" xml:id="kock-0402-pannychis_e_erithoi-174-l2" xml:lang="grc">ἄν του δέωμαι. δεῖπνον αἰτήσεις με σὺ</l>
+                <l n="3" xml:id="kock-0402-pannychis_e_erithoi-174-l3" xml:lang="grc">ἤδη παρελθών· οὐκ ἔχων δὲ τυγχάνω</l>
+                <l n="4" xml:id="kock-0402-pannychis_e_erithoi-174-l4" xml:lang="grc">οὐκ ὄξος, οὐκ ἄνηθον, οὐκ ὀρίγανον,</l>
+                <l n="5" xml:id="kock-0402-pannychis_e_erithoi-174-l5" xml:lang="grc">οὐ θρῖον, οὐκ ἔλαιον, οὐκ ἀμυγδάλας,</l>
+                <l n="6" xml:id="kock-0402-pannychis_e_erithoi-174-l6" xml:lang="grc">οὐ σκόροδον, οὐ σίραιον, οὐχὶ γήθυον,</l>
+                <l n="7" xml:id="kock-0402-pannychis_e_erithoi-174-l7" xml:lang="grc">οὐ βολβόν, οὐ πῦρ, οὐ κύμινον, οὐχ ἅλας,</l>
+                <l n="8" xml:id="kock-0402-pannychis_e_erithoi-174-l8" xml:lang="grc">οὐκ ᾠόν, οὐ ξύλ᾽, οὐ σκάφην, οὐ τήγανον,</l>
+              </lg>
+              <pb n="363" facs="urn:hathi:hvd.hxijve:scan:399"/>
+              <lg>
+                <l n="9" xml:id="kock-0402-pannychis_e_erithoi-174-l9" xml:lang="grc">οὐχ ἱμονιάν, οὐ λάκκον εἶδον, οὐ φρέαρ·</l>
+                <l n="10" xml:id="kock-0402-pannychis_e_erithoi-174-l10" xml:lang="grc">οὐ στάμνος ἔστι· διακενῆς δ’ ἕστηκ’ ἐγὼ</l>
+                <l n="11" xml:id="kock-0402-pannychis_e_erithoi-174-l11" xml:lang="grc">ἔχων μάχαιραν, προσέτι περιεζωσμένος.</l>
+              </lg>
+              <note type="source">Athenaeus 4, 170b ἐν δὲ Παννυχίδι ἢ Ἐρίθοις, μάγειρον δὲ ποιεῖ (Ἄλεξις) λέγοντα, κτλ.</note>
+              <note type="apparatus">6. γήθυον Mein.] γήτειον A. οὐχὶ βολβόν, οὐ | γήτειον Dobr. 9. ἱμονιάν P] ἱμονίαν A. Herodian. I 298, 15 τὸ ἱμονιά τὸ ἀντλητήριον παρ’ Ἀττικοῖς ὀξύνεται. cf. II 452, 4. indignatur coquus quod sibi non ultro quidquid opus sit adferatur, sed per totam domum currenti clamantique quaerendum sit. 3. παρελθών, i. e ubi domum reverteris, statim etiam cenam flagitabis. 6. Herod. II 486, 16 γήτειον τὸ χλωρὸν κρόμμυον . . . καλεῖται καὶ γήθυον. 11. περιεζωσμένος, cf. Anaxandr. 41, 12.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="175" xml:id="kock-0402-pannychis_e_erithoi-175" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pannychis_e_erithoi">
+              <lg>
+                <l n="1" xml:id="kock-0402-pannychis_e_erithoi-175-l1" xml:lang="grc">ἡμίοπτα μὲν</l>
+                <l n="2" xml:id="kock-0402-pannychis_e_erithoi-175-l2" xml:lang="grc">τὰ κρεάδι’ ἐστί, τὸ περίκομμ’ ἀπόλλυται·</l>
+                <l n="3" xml:id="kock-0402-pannychis_e_erithoi-175-l3" xml:lang="grc">ὁ γόγγρος ἑφθός, τὰ δ’ ἀκροκώλι’ οὐδέπω.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 96 a Ἄλεξις . . . κἀν Παννυχίδι ἢ (om. A) Ἐρίθοισιν κτλ.</note>
+              <note type="apparatus">Ἐρίθοισιν· ἡμίοπτα] Ἐρίθοις· ἴν’ ἡμίοπτα Dindf.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="176" xml:id="kock-0402-pannychis_e_erithoi-176" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pannychis_e_erithoi">
+              <lg>
+                <l n="1" xml:id="kock-0402-pannychis_e_erithoi-176-l1" xml:lang="grc">εἶτα τετρακότυλον ἐπεσόβει κώθωνά μοι,</l>
+                <l n="2" xml:id="kock-0402-pannychis_e_erithoi-176-l2" xml:lang="grc">παλαιὸν οἴκων κτῆμα.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 483 e Ἄλεξις Ἐρίθοις κτλ.</note>
+              <note type="apparatus">1. εἶτα Porson. Eur. Med. 48] εἰτ’ ἐν A. 2. παλαιὸν Porson. ex Euripide, quem Alexis traducit] πλέον A.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="177" xml:id="kock-0402-pannychis_e_erithoi-177" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pannychis_e_erithoi">
+              <lg>
+                <l n="1" xml:id="kock-0402-pannychis_e_erithoi-177-l1" xml:lang="grc">ἔσει περιπατῶν σιτόκουρος.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 248 a σιτοκούρου Ἄλεξις μνημονεύει ἐν Παννυχίδι ἢ Ἐρίθοις κτλ.</note>
+              <note type="apparatus">ἔσηι A. — Menand. 409 M. σιτόκουρον ἄθλιον, ἄχρηστον εἰς τὴν οἰκίαν εἰλήφαμεν. cf. Menand. 235 M. Hesych. σιτόκουρος· ὁ ἄχρηστος καὶ μάτην τρεφόμενος. Eustath. 1854, 7 ὃς ἀεργὸς χοίνικος ἐθέλει ἅπτεσθαι, καὶ μάλιστα νέος ὤν, κληθείη ἂν σιτόκουρος.</note>
+            </div>
+          </div></body></text></TEI>

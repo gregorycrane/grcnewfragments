@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΒΡΕΤΤΙΑ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.brettia.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.brettia.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.brettia.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_brettia"><head>ΒΡΕΤΤΙΑ</head><div type="textpart" subtype="fragment" n="33" xml:id="kock-0402-brettia-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_brettia">
+              <p>εἶδές ποτε</p>
+              <lg>
+                <l n="1" xml:id="kock-0402-brettia-33-l1" xml:lang="grc">πίνουσιν ἀνθρώποις ἀπίους παρακειμένας</l>
+                <l n="2" xml:id="kock-0402-brettia-33-l2" xml:lang="grc">ἐν ὕδατι; Β. πολλοῖς πολλάκις δήπου. τί οὖν;</l>
+              </lg>
+              <pb n="310" facs="urn:hathi:hvd.hxijve:scan:316"/>
+              <lg>
+                <l n="3" xml:id="kock-0402-brettia-33-l3" xml:lang="grc">Α. οὐκοῦν ἕκαστος ἐκλεγόμενος λαμβάνει</l>
+                <l n="4" xml:id="kock-0402-brettia-33-l4" xml:lang="grc">τῶν ἐπινεουσῶν τὴν πεπαιτάτην ἀεί;</l>
+                <l n="5" xml:id="kock-0402-brettia-33-l5" xml:lang="grc">Β. δηλονότι.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 650c ὅτι δὲ τὰς ἀπίους ἐν ὕδατι εἰσέφερον εἰς τὰ συμπόσια Ἄλεξις ἐν Βρεττίᾳ (βρευτίᾳ Α) παρίστησι διὰ τούτων κτλ. Schol. Arist. Eccl. 355 ἀχράς τις. στένωσιν τῇ γαστρὶ παρέχει ὁ λεγόμενος παρ' ἡμῖν ἄπιος. οὕτω γὰρ καὶ Πλάτων ἐν Νόμοις ἀπίους εἴρηκεν. οὐ μόνος δέ, ἀλλὰ καὶ παρ' Ἀλέξιδι. quae sine dubio ad hanc eclogam pertinent. Suidas ἄπια· εἶδος ὀπώρας... παρὰ Ἀλέξιδι. Bekker. Anecd. 425, 1 ἀπίους ... ἔστι καὶ παρ' Ἀλέξιδι. — 2. πίνουσιν Dobr. Adv. II 137] πείνουσιν Α. 3. Β. πολλοῖς πολλάκις Κ.] πολλῷ; πολλάκις Α. Β. vulgo ante πολλάκις. i. e. πολλοῖς πολλάκις παρακειμένας ἀπίους εἶδον. 6. δηλονότι] δη όντι Α. cf. Pherecr. 8.</note>
+              <note type="apparatus">in aqua adferuntur pira: multane sit aqua nihil interest, dummodo sufficiat. πολλὰ πολλάκις Mein., sed quae ad tuendam hanc emendationem adfert exempla (in ed. mai. et V 88) aliena sunt omnia, quoniam in omnibus πολλά est accusativus schematis etymologici.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="34" xml:id="kock-0402-brettia-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_brettia">
+              <lg>
+                <l n="1" xml:id="kock-0402-brettia-34-l1" xml:lang="grc">τοιοῦτο τὸ ζῆν ἐστιν ὥσπερ οἱ κύβοι·</l>
+                <l n="2" xml:id="kock-0402-brettia-34-l2" xml:lang="grc">οὐ ταὔτ' ἀεὶ πίπτουσιν, οὐδὲ τῷ βίῳ</l>
+                <l n="3" xml:id="kock-0402-brettia-34-l3" xml:lang="grc">ταὐτὸν διαμένει σχῆμα, μεταβολὰς δ' ἔχει.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 105, 4 Ἀλέξιδος ἐκ Βρεττίας Α. omisso fabulae indice Arsenius Viol. 101. confert Meinekius Terent. Adelph. 4, 7, 21 ita vita est hominum, quasi si ludas tesseris. Plut. Mor. 467 a κυβείᾳ ὁ Πλάτων τὸν βίον ἀπείκασεν. quod ubi fecerit nescio.</note>
+            </div>
+          </div></body></text></TEI>

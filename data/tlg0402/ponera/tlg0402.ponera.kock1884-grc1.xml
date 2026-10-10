@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΠΟΝΗΡΑ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.ponera.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.ponera.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.ponera.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_ponera"><head>ΠΟΝΗΡΑ</head><div type="textpart" subtype="fragment" n="186" xml:id="kock-0402-ponera-186" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_ponera">
+              <head>186</head>
+              <lg>
+                <l n="1" xml:id="kock-0402-ponera-186-l1" xml:lang="grc">ὅμως λογίσασθαι πρὸς ἐμαυτὸν βούλομαι</l>
+                <l n="2" xml:id="kock-0402-ponera-186-l2" xml:lang="grc">καθεζόμενος ἐνταῦθα τὴν ὀψωνίαν,</l>
+                <l n="3" xml:id="kock-0402-ponera-186-l3" xml:lang="grc">ὁμοῦ τε συντάξαι τί πρῶτον οἰστέον,</l>
+                <l n="4" xml:id="kock-0402-ponera-186-l4" xml:lang="grc">ἡδυντέον τε πῶς ἕκαστόν ἐστί μοι.</l>
+                <l n="5" xml:id="kock-0402-ponera-186-l5" xml:lang="grc">τάριχός ἐστι πρῶτον ὡραῖον τοδί.</l>
+                <l n="6" xml:id="kock-0402-ponera-186-l6" xml:lang="grc">διωβόλου τοῦτ' ἔστι. πλυτέον εὖ μάλα.</l>
+                <l n="7" xml:id="kock-0402-ponera-186-l7" xml:lang="grc">εἶτ' εἰς λοπάδιον ὑποπάσας ἡδύσματα</l>
+                <l n="8" xml:id="kock-0402-ponera-186-l8" xml:lang="grc">ἐνθεὶς τὸ τέμαχος, λευκὸν οἶνον ἐπιχέας,</l>
+                <l n="9" xml:id="kock-0402-ponera-186-l9" xml:lang="grc">ἐπεσκέδασα τοὔλαιον· εἶθ' ἕψων ποιῶ</l>
+                <l n="10" xml:id="kock-0402-ponera-186-l10" xml:lang="grc">μυελόν, ἀφεϊλόν τ' ἐπιγανώσας σιλφίῳ.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 117 cd ὁ δ' αὐτὸς (Ἄλεξις) ἐν Πονήρᾳ περὶ σκευασίας ταρίχων μάγειρόν τινα παράγει λέγοντα τάδε κτλ.</note>
+              <note type="apparatus">1. πρὸς A] πρός γ' Iacobs. Add. Ath. 81. ὅμως δὲ Dindf. λογίζεσθαι Mein. ed. mai. fortasse λογίσασθαι δή. 5. ἐστι om. A. τοδί. | διωβόλου Dindf.] τὸ διο | βόλου A. dein ἔστιν A. 7. εἶτ' εἰς] εἴ τις A. 9. ποῶ A. et C. 10. σίλφῳ A. cum v. 1 cf. Arist. Nub. 20. 10. μυελόν, 'coquens ut sit tenerum et molle veluti medulla.' Schweigh. 9. 10 scribendum videtur ἐπισκεδάσας τ' ἔλαιον εἶθ' ἕψων ποιῶ μυελὸν ἀφειδῶς ἐπιγανώσας σιλφίῳ. nam quamquam in talibus coquorum meditationibus haud raro praesens tempus cum aoristo coniungitur, hic tamen mirum in modum contaminantur. cf. praeterea fr. 187.8, quae huic in fabula sine dubio proxima erant.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="187" xml:id="kock-0402-ponera-187" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_ponera">
+              <lg>
+                <l n="1" xml:id="kock-0402-ponera-187-l1" xml:lang="grc">σηπίας τόσας</l>
+                <l n="2" xml:id="kock-0402-ponera-187-l2" xml:lang="grc">δραχμῆς μιᾶς τρίς. τῶν δὲ τὰς μὲν πλεκτάνας</l>
+                <l n="3" xml:id="kock-0402-ponera-187-l3" xml:lang="grc">καὶ τὰ πτερύγια συντεμὼν ἑφθὰς ποιῶ,</l>
+                <l n="4" xml:id="kock-0402-ponera-187-l4" xml:lang="grc">τὸ δ’ ἄλλο σῶμα κατατεμὼν πολλοὺς κύβους</l>
+                <l n="5" xml:id="kock-0402-ponera-187-l5" xml:lang="grc">σμήσας τε λεπτοῖς ἁλσί, δειπνούντων ἅμα</l>
+                <l n="6" xml:id="kock-0402-ponera-187-l6" xml:lang="grc">ἐπὶ τὸ τάγηνον σίζον ἐπεισιὼν φέρω.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 324 b περὶ δὲ ἑψήσεως σηπιδίων Ἄλεξις ἐν Πονήρᾳ παράγει μάγειρον τάδε λέγοντα κτλ.</note>
+              <note type="apparatus">1. σηπίας τόσας Schweigh.] σηπίαι τόσους A. 3. ἑφθὰς ποιῶ Dindf.] ἑφθὰ ποῶ A. 6. ἐπεισιὼν] ἐπισείων Mein., sc. ἐπὶ τὸ τάγηνον. sed exempla desidero. fortasse ἐπὶ τοῦ ταγήνου σίζον ἐπινέων φέρω. ‘triplo maiorem sepiarum copiam una drachma se emisse dicit. in superioribus alios pisces commemoraverat.’ Mein. πλεκτάναι sunt brachia polyporum et sepiarum, πτερύγια pinnae piscium. Plin. N. h. 11, 258 (polypi, sepiae, loligines) brachia in contrarium movent. 4. cf. Ephipp. 22. 6. σίζον coniungendum cum σῶμα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="188" xml:id="kock-0402-ponera-188" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_ponera">
+              <lg>
+                <l n="1" xml:id="kock-0402-ponera-188-l1" xml:lang="grc">τῆς ὀριγάνου</l>
+                <l n="2" xml:id="kock-0402-ponera-188-l2" xml:lang="grc">πρώτιστον ὑποθεὶς εἰς λοπάδα νεανικὴν</l>
+                <l n="3" xml:id="kock-0402-ponera-188-l3" xml:lang="grc">τὸ τρῖμμ’ ἐπιπολῆς εὐρύθμως διειμένον</l>
+                <l n="4" xml:id="kock-0402-ponera-188-l4" xml:lang="grc">ὄξει, σιραίῳ χρωματίσας καὶ σιλφίῳ</l>
+                <l n="5" xml:id="kock-0402-ponera-188-l5" xml:lang="grc">πυκνῷ πατάξας —</l>
+              </lg>
+              <note type="source">Athenaeus 4, 170 c Ἄλεξις . . . κἀν Πονήρᾳ κτλ.</note>
+              <note type="apparatus">2. ὑποθεὶς Casaub.] ὑποτιθεὶς A. 3. τρῖμμα A. 4. σιλφίνωι A. 2. νεανικήν ingentem patinam, ut νεανικὸν κρέας Arist. Plut. 1137 (Schweigh.). τρῖμμα apud poetas novae comoediae saepe est vinum aromatis odoratum (Würzwein), cf. Athen. 1, 31 e. Poll. 6, 18, sed etiam idem est quod ὑπότριμμα. Poll. 6, 70 μυττωτός, τρῖμμα ἐκ σκορόδων δριμύ. Axion. 3, 8. Timocl. 3. Diphil. 44, 5. 5. πατάξας nequaquam firmatur exemplis a Meinekio adlatis Alexid. 133, 5, de quo supra diximus, et Axionic. 8, 4. Diphil. 17, 12, de quibus infra dicemus. scribendum videtur καταπάσας conl. Menand. 679 Mein. — ceterum mediam coqui orationem abrumpit Athenaeus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="189" xml:id="kock-0402-ponera-189" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_ponera">
+              <lg>
+                <l n="1" xml:id="kock-0402-ponera-189-l1" xml:lang="grc">τριωβόλου κρεΐσκον ἀστεῖον πάνυ</l>
+                <l n="2" xml:id="kock-0402-ponera-189-l2" xml:lang="grc">ὕειον· ὀπτόν, θερμὸν εὔχυλον τέρεν</l>
+                <l n="3" xml:id="kock-0402-ponera-189-l3" xml:lang="grc">ὅταν ᾖ προσφέρων.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 655 f Ἄλεξις ἐν Πονήρᾳ κτλ.</note>
+              <note type="apparatus">1. κρεΐσκιον recte Mein. 2. θερμὸν Casaub.] καὶ θερμὸν A. εὔχυλον, τέρεν Porson.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="190" xml:id="kock-0402-ponera-190" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_ponera">
+              <head>190</head>
+              <note type="source">
+                <p>μύροις</p>
+              </note>
+              <lg>
+                <l n="1" xml:id="kock-0402-ponera-190-l1" xml:lang="grc">ὑπαλείφεται τὰς ῥῖνας, ὑγιείας μέρος</l>
+                <l n="2" xml:id="kock-0402-ponera-190-l2" xml:lang="grc">μέγιστον, ὀσμὰς ἐγκεφάλῳ χρηστὰς ποιεῖν.</l>
+              </lg>
+              <note type="apparatus">
+                <p>Athenaeus 2, 46a οὐ κακῶς οὖν Ἀλεξίς φησιν κτλ. idem 15, 687d οὐκ οἶδας ὅτι αἱ ἐν τῷ ἐγκεφάλῳ ἡμῶν αἰσθήσεις ὀδμαῖς ἡδείαις παρηγοροῦνται προσέτι τε θεραπεύονται, καθὰ καὶ Ἀλεξίς φησιν ἐν Πονήρᾳ οὕτως (οὗτος A) ὑγιείας κτλ. Clemens Alexandr. Paedagog. 2, 8, 68 καθὰ καὶ ὁ κωμικός φησί που κτλ. indicatus a Nauckio Philol. V 554. 1. μύροις add. Clem. 2. ὑπαλείφεται Clem.] ἐναλείφεται. cf. Cobet. N. 1. 331. 2. ῥίνας] χειρας perperam Clem. Hippon. 40 βακκάρει δὲ τὰς ῥῖνας ἤλειφον apte comparat Brink. Philol. VI 48. 3. ποιεῖν A Athen. 687 et Clem.] ποιῶν.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="191" xml:id="kock-0402-ponera-191" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_ponera">
+              <head>191</head>
+              <lg>
+                <l n="1" xml:id="kock-0402-ponera-191-l1" xml:lang="grc">καὶ χόνδρος ἔνδον ἐστὶ Θετταλικὸς πολύς.</l>
+              </lg>
+              <note type="apparatus">
+                <p>Athenaeus 3, 127c ἐν δὲ Πονήρᾳ πάλιν ὁ Ἄλεξις κτλ. cf. Antiphan. 34, 2. 3. Hermipp. 63, 6. Ephipp. 1 et quae exposui in Mus. Rhen. XXXVII 131.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="192" xml:id="kock-0402-ponera-192" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_ponera">
+              <head>192</head>
+              <lg>
+                <l n="1" xml:id="kock-0402-ponera-192-l1" xml:lang="grc">ἀκρολίπαροι, τὸ δ' ἄλλο σῶμ' ὑπόξυλον</l>
+              </lg>
+              <note type="apparatus">
+                <p>Athenaeus 9, 385b ἀκρολιπάρους δέ τινας ἀνθρώπους κέκληκεν Ἄλεξις ἐν Πονήρᾳ οὕτως κτλ. 'fortasse ὑπόξυλοι' Mein.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

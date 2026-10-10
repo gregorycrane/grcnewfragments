@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>MNESIMACHUS, ΦΙΛΙΠΠΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Mnesimachus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0476.philippos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0476.philippos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0476.philippos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0476_philippos"><head>ΦΙΛΙΠΠΟΣ</head><div type="textpart" subtype="fragment" n="7" xml:id="kock-0476-philippos-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0476_philippos">
+              <lg>
+                <l n="1" xml:id="kock-0476-philippos-7-l1" xml:lang="grc">ἆρ᾽ οἶσθα,</l>
+                <l n="2" xml:id="kock-0476-philippos-7-l2" xml:lang="grc">ὁτιὴ πρὸς ἄνδρας ἐστί σοι μαχητέον,</l>
+                <l n="3" xml:id="kock-0476-philippos-7-l3" xml:lang="grc">οἳ τὰ ξίφη δειπνοῦμεν ἠκονημένα,</l>
+                <l n="4" xml:id="kock-0476-philippos-7-l4" xml:lang="grc">ὄψον δὲ δᾶδας ἡμμένας καταπίνομεν;</l>
+                <l n="5" xml:id="kock-0476-philippos-7-l5" xml:lang="grc">ἐντεῦθεν εὐθὺς ἐπιφέρει τραγήματα</l>
+                <l n="6" xml:id="kock-0476-philippos-7-l6" xml:lang="grc">ἡμῖν ὁ παῖς μετὰ δεῖπνον ἀκίδας Κρητικάς,</l>
+                <l n="7" xml:id="kock-0476-philippos-7-l7" xml:lang="grc">ὥσπερ ἐρεβίνθους, δορατίων τε λείψανα</l>
+                <l n="8" xml:id="kock-0476-philippos-7-l8" xml:lang="grc">κατεαγότ᾽, ἀσπίδας δὲ προσκεφάλαια καὶ</l>
+                <l n="9" xml:id="kock-0476-philippos-7-l9" xml:lang="grc">θώρακας ἔχομεν, πρὸς ποδῶν δὲ σφενδόνας</l>
+                <l n="10" xml:id="kock-0476-philippos-7-l10" xml:lang="grc">καὶ τόξα, καταπέλταισι δ᾽ ἐστεφανώμεθα.</l>
+              </lg>
+              <note type="source">Athenaeus 10,421bc</note>
+              <p>Μνησίμαχος δὲ ἐν Φιλίππῳ διὰ τὸν ὑπερβάλλοντα κόρον ἐν τοῖς δείπνοις παράγει τι συμπόσιον πολέμου παρασκευὴν ἐπαγγελλόμενον καὶ . . . πολέμου ἐργαστήριον. λέγει δ᾽ οὕτως κτλ. Eustathius 1085, 47 καλὸν δὲ. .προσθεῖναι καὶ τὸ Φιλιππίδου (sic) τὸ τὰ ξίφη δειπνοῦμεν ἡ κονημένα (sic ed. Lips.).</p>
+              <note type="apparatus">1. οἶσθ᾽ Α. οἶσθα σύ Porson. 2. μαχητέον Α] μάχη C. 3. ἠκονημένα Eust.] ἠκονημένοι Α. 8. κατεαγότα Α. 10. καταπέλταισι Pors.] καταπέλται Α. καταπέλταις C. δὲ στεφανούμεθα? militem exercitus Macedonici, fortasse Philippum ipsum gloriari conicit Meinekius. cf. Timocl. 12, 5.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0476-philippos-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0476_philippos">
+              <lg>
+                <l n="1" xml:id="kock-0476-philippos-8-l1" xml:lang="grc">τῶν Φαρσαλίων</l>
+                <l n="2" xml:id="kock-0476-philippos-8-l2" xml:lang="grc">ἥκει τις, ἵνα καὶ τὰς τραπέζας καταφάγῃ;</l>
+              </lg>
+              <pb n="442" facs="urn:hathi:hvd.hxijve:scan:478"/>
+              <lg>
+                <l n="3" xml:id="kock-0476-philippos-8-l3" xml:lang="grc">Β. οὐδεὶς πάρεστιν. Α. εὖ γε δρῶντες· ἆρά που</l>
+                <l n="4" xml:id="kock-0476-philippos-8-l4" xml:lang="grc">ὀπτὴν κατεσθίουσι πόλιν Ἀχαιικήν;</l>
+              </lg>
+              <note type="source">Athenaeus 10, 418 b</note>
+              <note type="apparatus">καὶ Φαρσάλιοι δὲ κωμῳδοῦνται ὡς πολυφάγοι. Μνησίμαχος γοῦν ἐν Φιλίππῳ φησί κτλ. 2. καὶ add. Grot. Excerpt. 663. 3. ἄρα A. 4. Ἀχαιικήν K.] Ἀχαϊκήν. cf. quae adnotavimus ad Arist. Nub. 821. Antiphan. 44, 6. — fortasse ex eadem scaena excerptum ac fr. 7.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="kock-0476-philippos-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0476_philippos">
+              <lg>
+                <l n="1" xml:id="kock-0476-philippos-9-l1" xml:lang="grc">καὶ τὸ λεγόμενον</l>
+                <l n="2" xml:id="kock-0476-philippos-9-l2" xml:lang="grc">σπανιώτερον πάρεστιν ὀρνίθων γάλα,</l>
+                <l n="3" xml:id="kock-0476-philippos-9-l3" xml:lang="grc">καὶ φασιανὸς ἀποτετιλμένος καλῶς.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 387 a</note>
+              <note type="apparatus">Μνησίμαχος ἐν Φιλίππῳ (εἷς δὲ καὶ οὗτός ἐστι τῶν τῆς μέσης κωμῳδίας ποιητῶν) φησί κτλ. 2. σπανιώτατον Mein. γάρ ἐστιν ἢ Grot. Excerpt. 663. καὶ | τὸ λεγόμενον πάρεστιν ὀρν. γ. Herwerd. Nov. add. crit. 35. τάλα A. fortasse καὶ σπανιώτερον | τὸ λεγόμενον πάρεστιν κτλ. cf. Arist. Av. 733.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="10" xml:id="kock-0476-philippos-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0476_philippos">
+              <lg>
+                <l n="1" xml:id="kock-0476-philippos-10-l1" xml:lang="grc">οὐκ ἀλλὰ καὶ τῆς νυκτός ἐστι Δωρίων</l>
+                <l n="2" xml:id="kock-0476-philippos-10-l2" xml:lang="grc">ἔνδον παρ’ ἡμῖν λοπαδοφυσητής.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 338 b</note>
+              <note type="apparatus">ὅτι δ’ ἦν ὁ Δωρίων οὗτος ἐπὶ ὀψοφαγίᾳ διαβόητος φανερὸν ἐξ ὧν λέγει Μνησίμαχος ὁ κωμῳδιοποιὸς ἐν Φιλίππῳ δράματι κτλ. Eustathius 1151, 13 et Philemon. gramm. 191 Osann. ἐξ αὐτῆς (φύσης) δέ καί τις ὀψοφάγος λοπαδοφυσητὴς ἐσκώφθη. 1. ἐστι Δωρίων ἔνδον Iacobs. Add. Ath. 185] δωρίων ἔνδον ἐστιν A. 2. in fine ὅδε add. Porson. (apud Ath. sequitur οἶδα). Dorion claudus erat tibicen, unde cognomen λοπαδοφυσητής petitum est. facete dicta eius refert Athen. 8, 337. 8. inter sodales Philippi etiam pugnae ad Chaeroneam commissae interfuit. Athen. 10, 435 bc. librum scripsit de piscibus. cf. M. Haupt. Herm. VIII 10 sq.</note>
+            </div>
+          </div></body></text></TEI>

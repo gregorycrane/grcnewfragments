@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>DIPHILUS, ΑΠΟΛΙΠΟΥΣΗΙ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Diphilus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.apolipoysei.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0447.apolipoysei.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0447.apolipoysei.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_apolipoysei"><head>ΑΠΟΛΙΠΟΥΣΗΙ</head><div type="textpart" subtype="fragment" n="18" xml:id="kock-0447-apolipoysei-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_apolipoysei">
+              <lg>
+                <l n="1" xml:id="kock-0447-apolipoysei-18-l1" xml:lang="grc">ἔστιν ἔνδον ὄξος ὀξύ σοι;</l>
+                <l n="2" xml:id="kock-0447-apolipoysei-18-l2" xml:lang="grc">Β. ὑπολαμβάνω, παιδάριον, ὀπὸν εἰλήφαμεν.</l>
+                <l n="3" xml:id="kock-0447-apolipoysei-18-l3" xml:lang="grc">ἄριστα τούτοις πάντα πιέσω καὶ πυκνά.</l>
+                <l n="4" xml:id="kock-0447-apolipoysei-18-l4" xml:lang="grc">ἡ φυλλὰς ἡ δριμεῖα περιοισθήσεται·</l>
+                <l n="5" xml:id="kock-0447-apolipoysei-18-l5" xml:lang="grc">τῶν πρεσβυτέρων γὰρ ταῦτα τῶν ἡδυσμάτων</l>
+                <l n="6" xml:id="kock-0447-apolipoysei-18-l6" xml:lang="grc">ἀναστομοῖ τάχιστα τἀσθητήρια,</l>
+                <l n="7" xml:id="kock-0447-apolipoysei-18-l7" xml:lang="grc">τό τε νωκαρῶδες καὶ κατημβλυωμένον</l>
+                <l n="8" xml:id="kock-0447-apolipoysei-18-l8" xml:lang="grc">ἐσκέδασε κἀποίησεν ἡδέως φαγεῖν.</l>
+              </lg>
+              <note type="source">Athenaeus 4, 133 f Δίφιλος ἢ Σώσιππος ἐν Ἀπολιπούσῃ (ἀπολειπούσῃ Α) κτλ.</note>
+              <note type="apparatus">1. ἔνδον ὄξος Porson.] ἔνδο ξος Α. 2. παιδάριον admitti non potest, quia sine dubio erus cum coquo conloquitur. scr. καὶ σίσαρον, ὀπὸν εἰλ. ‘etiam siser, laser emimus.’ Heraclid. Tarent. Athen. 3, 120c πολλὰ τῶν τὰς ἐκκρίσεις ποιούντων εὐλύτους... εὐστόμαχα καθέστηκεν, ἐν οἷς ἔστι καὶ τὸ σίσαρον καλούμενον, οὗ μνημονεύει Ἐπίχαρμος. cf. Plin. N. h. 20, 34 (siser) stomachum excitat, fastidium absterget, ex aceto laserpitiato sumptum. 3. πιέσω] δεύσω Κ. 4. φυλας η δριμεια A. emend. Scalig.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="19" xml:id="kock-0447-apolipoysei-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_apolipoysei">
+              <lg>
+                <l n="1" xml:id="kock-0447-apolipoysei-19-l1" xml:lang="grc">εἶτ᾽ οὐ μαλάκ᾽, ὦ δύστην᾽, ἔχεις,</l>
+                <l n="2" xml:id="kock-0447-apolipoysei-19-l2" xml:lang="grc">σκευάριον, ἐκπωμάτιον, ἀργυρίδιον;</l>
+                <l n="3" xml:id="kock-0447-apolipoysei-19-l3" xml:lang="grc">οὐκ ἐκδραμεῖ λαβὼν ταδὶ δώσεις τ᾽ ἐμοὶ</l>
+                <l n="4" xml:id="kock-0447-apolipoysei-19-l4" xml:lang="grc">παρακαταθήκην;</l>
+              </lg>
+              <note type="source">Pollux 10,12 ἐκαλεῖτο δὲ ταῦτα (supellex domestica) ὑπὸ τῶν νεωτέρων καὶ μαλακά, οἷον εὐμεταχείριστα, ὡς εἶπε ... Δίφιλος ἐν Ἀπολιπούσῃ κτλ.</note>
+              <note type="apparatus">1. εἶτ᾽ οὐ Hanov. Exerc. crit. 140] εἶτα. 3. οὐκ add. Bentl. ταδὶ Hanov.] τόδε. τ᾽ add. Hanov. iubet nescio quis alterum supellectilem totam domo efferre et sibi pro deposito tradere.</note>
+            </div>
+          </div></body></text></TEI>

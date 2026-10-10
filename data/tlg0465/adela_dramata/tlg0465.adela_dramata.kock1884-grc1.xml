@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>HENIOCHUS, ΑΔΗΛΑ ΔΡΑΜΑΤΑ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Heniochus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0465.adela_dramata.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0465.adela_dramata.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0465.adela_dramata.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0465_adela_dramata"><head>ΑΔΗΛΑ ΔΡΑΜΑΤΑ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0465-adela_dramata-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0465_adela_dramata">
+              <lg>
+                <l n="9" xml:id="kock-0465-adela_dramata-1-l9" xml:lang="grc">εἶεν. τί οὖν ἐνταῦθα δρῶσιν αἱ πόλεις;</l>
+                <l n="10" xml:id="kock-0465-adela_dramata-1-l10" xml:lang="grc">ἐλευθέρι᾽ ἀφίκοντο θύσουσαί ποτε,</l>
+                <l n="11" xml:id="kock-0465-adela_dramata-1-l11" xml:lang="grc">ὅτε τῶν φόρων ἐγένοντ᾽ ἐλεύθεραι σχεδόν.</l>
+                <l n="12" xml:id="kock-0465-adela_dramata-1-l12" xml:lang="grc">κἄπειτ᾽ ἀπ᾽ ἐκείνης τῆς θυσίας διέφθορεν</l>
+                <l n="13" xml:id="kock-0465-adela_dramata-1-l13" xml:lang="grc">αὐτὰς ξενίζουσ᾽ ἡμέραν ἐξ ἡμέρας</l>
+                <l n="14" xml:id="kock-0465-adela_dramata-1-l14" xml:lang="grc">ἀβουλία κατέχουσα πολὺν ἤδη χρόνον.</l>
+                <l n="15" xml:id="kock-0465-adela_dramata-1-l15" xml:lang="grc">γυναῖκε δ᾽ αὐτὰς δύο ταράττετόν τινε</l>
+                <l n="16" xml:id="kock-0465-adela_dramata-1-l16" xml:lang="grc">ἀεὶ συνοῦσαι· δημοκρατία θατέρᾳ</l>
+                <l n="17" xml:id="kock-0465-adela_dramata-1-l17" xml:lang="grc">ὄνομ᾽ ἐστί, τῇ δ᾽ ἀριστοκρατία θατέρᾳ,</l>
+                <l n="18" xml:id="kock-0465-adela_dramata-1-l18" xml:lang="grc">δι᾽ ἃς πεπαρῳνήκασιν ἤδη πολλάκις.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 43, 27 Ἡνιόχου Tr. Frob. deest ecloga in A.</note>
+              <note type="apparatus">1. ὀνόματα Grotius. 3. ἀνοηταίνουσι Salmas.] ἀνοηταίνουσαι. 5. scribendum utique νῦν εἰσί· χἂν ἔροιτο, i. e. καὶ ἃ ἂν ἔροιτο, et quae forsitan libenter interroget, ex me comperiet. 6. γὰρ τόδ᾽ ἐστὶ πᾶν] πᾶν τόδ᾽ ἐστὶν Voss. unde Mein. πᾶν τόδ᾽ ἐστὶν ἐν κύκλῳ. 7. τηνδὶ δὲ Valck. Diatr. 276] τὴν δ᾽ εἶδε. 8. θεωρικὴν] Πυθικὴν Voss. Gesner. marg. νομίζετε Grot.] νομίζεται. 10. ἐλευθέρια Gesner. marg.] ἐλευθερία. 13. αὐτὰς Grot.] αὐτὴν. 15. δύο ταράττετον Mein.] δύ᾽ ἐταράττετον. an δύ᾽ ἐταραττέτην? 16. συνοῦσαι] συνούσα Mein. vel potius συνόντε et 18. δι᾽ ὣ scribendum, si Cobetum sequare V. 1. 70.</note>
+            </div>
+            </div></body></text></TEI>

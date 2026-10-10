@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΛΕΠΤΙΝΙΣΚΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.leptiniskos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.leptiniskos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.leptiniskos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_leptiniskos"><head>ΛΕΠΤΙΝΙΣΚΟΣ</head><div type="textpart" subtype="fragment" n="140" xml:id="kock-0410-leptiniskos-140" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_leptiniskos">
+              <lg>
+                <l n="1" xml:id="kock-0410-leptiniskos-140-l1" xml:lang="grc">οἶνον Θάσιον πίνοις ἄν; Β. εἴ τις ἐγχέαι.</l>
+                <l n="2" xml:id="kock-0410-leptiniskos-140-l2" xml:lang="grc">Α. πρὸς ἀμυγδάλας δὲ πῶς ἔχεις; Β. εἰρηνικῶς.</l>
+              </lg>
+              <pb n="69" facs="urn:hathi:hvd.hxijve:scan:75"/>
+              <lg>
+                <l n="3" xml:id="kock-0410-leptiniskos-140-l3" xml:lang="grc">μαλακὰς σφόδρα, δι' ἃς μέλιτι προσπαίζειν βία.</l>
+                <l n="4" xml:id="kock-0410-leptiniskos-140-l4" xml:lang="grc">Α. μελίπηκτα δ' εἴ σοι προσφέροι; Β. τρώγοιμι καὶ</l>
+                <l n="5" xml:id="kock-0410-leptiniskos-140-l5" xml:lang="grc">ᾠὸν δὲ καταπίνοιμ' ἄν. Α. ἄλλου δεῖ τινος;</l>
+              </lg>
+              <note type="source">Athenaeus 14, 641 f ἐδίδοτο δὲ καὶ ᾠὸν ἐν τῇ δευτέρᾳ τραπέζῃ, ὥσπερ καὶ λαγῷα καὶ κίχλαι κοινῇ μετὰ τῶν μελιπήκτων εἰσεφέρετο, ὡς Ἀντιφάνης ἐν Λεπτινίσκῳ φησὶν οὕτως κτλ. Eustathius 1401, 52 αἱ δεύτεραι τράπεζαι . . . ἐν αἷς λαγῷα καὶ κίχλαι καὶ μελίπηκτα καὶ ᾠὰ περιεφέροντο. διὸ ἀστείως Ἀντιφάνης φησὶν ἐν ἐρωτήσει καὶ ἀποκρίσει ταῦτα· οἶνον — καταπίνοιμ' ἄν.</note>
+              <note type="apparatus">2. ἀμυγδάλας δέ πως Α. post v. 2 lacunam statuit Dindf. 3. διας Α. βία] βιαι Α. δέδοται Eustath. δείαν in compendio codicis C agnoscere sibi videbatur Schweigh. 4. δ' εἴ] δεῖ Α. προσφέροι Α] προσφέρει Eust. τρώγοιμι καὶ Α] τρώγοιμ' ἂν C et Eust. 5. δεῖ Dobr. Adv. II 348] δή. λαγῷα καὶ κίχλαι, quae commemorat Athenaeus, non inveniuntur in Antiphanis verbis. v. 3 graviter corruptum esse adparet, siquidem μαλακάς ad ἀμυγδάλας pertinere nullo modo potest, et interrogationem simul et responsum contineri his verbis necesse est. locutionem πῶς ἔχεις inlustravit Cobetus Mnem. IIII 304 conl. Plat. Reip. 1, 329 b πῶς ἔχεις πρὸς τἀφροδίσια; Symp. 174 b. 176 b. Menand. 313, 1 Mein. addo Theophil. 4, 3. Sosip. 51.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΚΟΥΡΙΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.koyris.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.koyris.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.koyris.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_koyris"><head>ΚΟΥΡΙΣ</head><div type="textpart" subtype="fragment" n="107" xml:id="kock-0402-koyris-107" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_koyris">
+              <lg>
+                <l n="1" xml:id="kock-0402-koyris-107-l1" xml:lang="grc">καὶ γὰρ ἐπὶ κῶμον . . ἀνθρώπων ὁρῶ</l>
+                <l n="2" xml:id="kock-0402-koyris-107-l2" xml:lang="grc">πλῆθος προσιόν, ὡς τῶν καλῶν τε κἀγαθῶν</l>
+              </lg>
+              <pb n="334" facs="urn:hathi:hvd.hxijve:scan:370"/>
+              <note type="apparatus">Continuation from previous page.</note>
+              <lg>
+                <l n="3" xml:id="kock-0402-koyris-107-l3" xml:lang="grc">ἐνθάδε συνόντων· μὴ γένοιτό μοι μόνῳ</l>
+                <l n="4" xml:id="kock-0402-koyris-107-l4" xml:lang="grc">νύκτωρ ἀπαντῆσαι καλῶς πεπραγόσιν</l>
+                <l n="5" xml:id="kock-0402-koyris-107-l5" xml:lang="grc">ὑμῖν περὶ τὸν βαλλισμόν· οὐ γὰρ ἄν ποτε</l>
+                <l n="6" xml:id="kock-0402-koyris-107-l6" xml:lang="grc">θοιμάτιον ἀπενέγκαιμι μὴ φύσας πτερά.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 362 c Ἄλεξις ἐν Κουρίδι φησί κτλ.</note>
+              <note type="apparatus">1. κῶμον] κώμων A. καὶ δὴ γὰρ ἐπὶ τὸν κ. ἀνθρ. Iacobs. Add. Ath. 196. κῶμον πλεῖστον ἀνθρ. Naber. Mnem. nov. VIII 258. 2. προσιὸν ἀστῶν Iacobs. προσιόντων ὡς κ. Mein. 3. Β. μὴ κτλ. Mein. in Ath. 4. 'malim κακῶς'. Mein. ed. min. 5. βαλλίζειν idem est quod ἑορτάζειν. Athen. 362 a βαλλίζουσιν οἱ κατὰ τὴν πόλιν τῇ θεῷ, quod ipse interpretatur κωμάζουσιν ἢ χορεύουσιν, unde Italorum ballare. adparet de comissatoribus nocturnis agi; multa tamen remanent obscura, quia quae proxima erant Athenaeus omisit.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="108" xml:id="kock-0402-koyris-108" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_koyris">
+              <lg>
+                <l n="1" xml:id="kock-0402-koyris-108-l1" xml:lang="grc">ὁ μὲν οὖν ἐμὸς υἱός, οἷον ὑμεῖς ἀρτίως</l>
+                <l n="2" xml:id="kock-0402-koyris-108-l2" xml:lang="grc">εἴδετε, τοιοῦτος γέγονεν, Οἰνοπίων τις ἢ</l>
+                <l n="3" xml:id="kock-0402-koyris-108-l3" xml:lang="grc">Μάρων τις ἢ Κάπηλος ἢ καὶ Τιμοκλῆς.</l>
+                <l n="4" xml:id="kock-0402-koyris-108-l4" xml:lang="grc">μεθύει γὰρ οὐδὲν ἧττον· ὁ δ' ἕτερος — τί ἂν</l>
+                <l n="5" xml:id="kock-0402-koyris-108-l5" xml:lang="grc">τύχοιμ' ὀνομάσας; βῶλος, ἄροτρον, γηγενὴς</l>
+                <l n="6" xml:id="kock-0402-koyris-108-l6" xml:lang="grc">ἄνθρωπος.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 443 d Ἄλεξις δ' ἐν Κουρίδι περί τινος πλέον πίνοντος διαλεγόμενός φησιν κτλ. Eustathius 1623, 51 Ἄλεξις σκώπτων τινὰ ὡς μέθυσον καὶ ἐξώλη φησίν· Οἰνοπίων τις ἢ καὶ Μάρων ἢ Τιμοκλῆς· μεθύει γάρ, οὐδὲν ἕτερον ἐμφαίνει ἢ ὡς ὁ Μάρων περὶ οἶνον ἠσχολεῖτο οὐ μόνον κτώμενος, ἀλλὰ καὶ πίνων. v. 4 (ab ὁ δ' ἕτερος) sq. Eustathius 962, 34 Ἀλέξιδος δέ φασι τοῦ κωμικοῦ ὁ λόγος.</note>
+              <note type="apparatus">3. καὶ add. Dindf. τις Porson. 4. ἧττον Porson.] ἕτερον A. 5. τύχοιμι A. — de Oenopione cf. Preller. Myth. gr.² I 352. 564. Maron notus ex Odyssea. Timoclem diversum a comico esse censet Meinek. I 389. 4. τί ἂν κτλ. cf. quae adnotavimus ad Arist. Nub. 1378. 5. γηγενής aliter, sed item translata significatione Arist. Nub. 853. — alterum filium helluonem, alterum stupidum solique agriculturae deditum esse pater nescio quis queritur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="109" xml:id="kock-0402-koyris-109" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_koyris">
+              <lg>
+                <l n="1" xml:id="kock-0402-koyris-109-l1" xml:lang="grc">ἐπεὶ πάλαι δεδείπναμεν</l>
+              </lg>
+              <note type="source">Ἄλεξις ἐν Κουρίδι. Athenaeus 10, 422 e. cf. Hermipp. 60.</note>
+            </div>
+          </div></body></text></TEI>

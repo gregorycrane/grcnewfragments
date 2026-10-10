@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΑΔΩΝΙΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.adonis.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.adonis.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.adonis.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adonis"><head>ΑΔΩΝΙΣ</head><div type="textpart" subtype="fragment" n="13" xml:id="kock-0410-adonis-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adonis">
+              <head>13</head>
+              <p>ἀνὰ μέσον</p>
+              <note type="source">ἀντὶ τοῦ ἐν μέσῳ. Ἀντιφάνης Ἀδώνιδι. Bekker. Anecd. 80, 24. Ἀντιφῶν Ruhnk. De Antiph. Rhamn. 254 et Wyttenb. Plut. Mor. 103 c. cf. Mein. I 314.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="14" xml:id="kock-0410-adonis-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adonis">
+              <head>14</head>
+              <p>ἀκληρίαν</p>
+              <note type="source">Ἀντιφάνης Ἀδώνιδι. ὁ αὐτὸς εὐκλήρωμα ἀντὶ τοῦ κατόρθωμα. Bekker. Anecd. 77, 25. cod. ἀντιφω. εὐκλήρημα Koppier-</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="15" xml:id="kock-0410-adonis-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adonis">
+              <head>κατάλυσιν</head>
+              <lg>
+                <l n="1" xml:id="kock-0410-adonis-15-l1" xml:lang="grc">καὶ ταύτην ἐπαιτιῶνται. Ἀντιφάνης Ἀδώνιδι. Bekker. Anecd.</l>
+              </lg>
+              <note type="apparatus">
+                <p>103, 15. ταύτην] τοῦτο Ruhnk. De Antiph. 254. ἐπαιτιῶνται, incriminantur ut vocem Atticis non usitatam. at κατάλυσιν deversorium dixerunt etiam Alexis 2 et Plato philosophus Protag. 315 d. Leg. 11, 919 a. 12, 953 a. οἴκων καταλύσεις Eurip. El. 393, quod moneo propter Mein. I 314. 5.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="18" xml:id="kock-0410-adonis-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adonis">
+              <lg>
+                <l n="1" xml:id="kock-0410-adonis-18-l1" xml:lang="grc">Μακαρεὺς ἔρωτι τῶν ὁμοσπόρων μιᾶς</l>
+                <l n="2" xml:id="kock-0410-adonis-18-l2" xml:lang="grc">πληγείς, τέως μὲν ἐπεκράτει τῆς συμφορᾶς</l>
+                <l n="3" xml:id="kock-0410-adonis-18-l3" xml:lang="grc">κατεῖχέ θ’ αὑτόν· εἶτα παραλαβών ποτε</l>
+                <l n="4" xml:id="kock-0410-adonis-18-l4" xml:lang="grc">οἶνον στρατηγόν, ὃς μόνος θνητῶν ἄγει</l>
+                <l n="5" xml:id="kock-0410-adonis-18-l5" xml:lang="grc">τὴν τόλμαν εἰς τὸ πρόσθε τῆς εὐβουλίας,</l>
+                <l n="6" xml:id="kock-0410-adonis-18-l6" xml:lang="grc">νύκτωρ ἀναστὰς ἔτυχεν ὧν ἐβούλετο.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 444cd Ἀντιφάνης ἐν Αἰόλῳ διαβάλλων ὅσα δεινὰ πράττουσιν οἱ πλέον πίνοντες φησί κτλ.</note>
+              <note type="apparatus">4. θνητῶν (sic enim A) pendet a τὴν τόλμαν. — excerpta haec videntur ex prologo fabulae; duo priores versus ex Euripidea tragoedia petitos esse coniecit Valckenar. Hippol. 1303. de Euripide cf. Nauck. Trag. gr. fr. 291.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="19" xml:id="kock-0410-adonis-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adonis">
+              <lg>
+                <l n="1" xml:id="kock-0410-adonis-19-l1" xml:lang="grc">τοῦτον οὖν</l>
+                <l n="2" xml:id="kock-0410-adonis-19-l2" xml:lang="grc">δι’ οἰνοφλυγίαν καὶ πάχος τοῦ σώματος</l>
+                <l n="3" xml:id="kock-0410-adonis-19-l3" xml:lang="grc">ἀσκὸν καλοῦσι πάντες οὐπιχώριοι.</l>
+              </lg>
+              <note type="source">Athenaeus 12, 552 f ὥς φησιν Ἀντιφάνης ἐν Αἰόλῳ κτλ.</note>
+              <note type="apparatus">3. οὐπιχώριοι Dindf.] οἱ ἐπιχώριοι A. Eustath. 1646, 14 ὅτι δὲ καὶ πάχους τοῦ κατὰ σῶμα γίνεται σκῶμμα ὁ ἀσκός, δηλοῖ Ἀθήναιος εἰπὼν ὅτι παχύν τινα ἐξ οἰνοφλυγίας γενόμενον ἀσκὸν ἐκάλουν οἱ ἐπιχώριοι.</note>
+            </div>
+          </div></body></text></TEI>

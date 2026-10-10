@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΔΥΣΕΡΩΤΕΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.dyserotes.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.dyserotes.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.dyserotes.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_dyserotes"><head>ΔΥΣΕΡΩΤΕΣ</head><div type="textpart" subtype="fragment" n="88" xml:id="kock-0410-dyserotes-88" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_dyserotes">
+              <lg>
+                <l n="1" xml:id="kock-0410-dyserotes-88-l1" xml:lang="grc">ἐκεῖσε δ’ οὐ πλέω</l>
+                <l n="2" xml:id="kock-0410-dyserotes-88-l2" xml:lang="grc">ὅθεν διεσπάσθημεν, ἐρρῶσθαι λέγων</l>
+              </lg>
+              <pb n="47" facs="urn:hathi:hvd.hxijve:scan:53"/>
+              <lg>
+                <l n="3" xml:id="kock-0410-dyserotes-88-l3" xml:lang="grc">ἅπασιν, ἵπποις, σιλφίῳ, συνωρίσιν,</l>
+                <l n="4" xml:id="kock-0410-dyserotes-88-l4" xml:lang="grc">καυλῷ, κέλησι, μαστοῖς, πυρετοῖς, ὀποῖς.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 100f τοῦ δὲ ὀποῦ μέμνηται Ἀντιφάνης ἐν Δυσέρωσι περὶ Κυρήνης τὸν λόγον ποιούμενος κτλ.</note>
+              <note type="apparatus">1. 2. δ’ οὐ πλέω ὅθεν K.] διουπλεωθεν Α. διαπλέω ὅθεν Schweigh. 3. ἅπασιν] ἀλλᾶσιν Meinek. Anal. Ath. 45. 4. μασπέτοις Dalecamp. μαζίοις Mein. πυρετοῖς] δίφροις Lennep. Phalar. 321. at v. 3 iam συνωρίδας commemoraverat. πυροῖς Mein. ed. min. ὀποῖς VL] ὀπίσω Α. ὀπῷ Toeppel. 13. inter duas personas divisit Meinekius in Ath. ed. Β. σιλφίῳ Α. συνωρίσιν | Β. καυλῷ Α. κέλησι Β. μ. Α. π. Β. ὀπ. at quam hic habemus orationem, ea multo similior est Arist. Ran. 112 sq. quam Plut. 190 sq. — negat qui haec loquitur se Cyrenen, unde abreptus sit, rediturum esse, facile relictis omnibus quae illa urbs pulchra et praeclara habeat. Strab. 17, 837 ἱπποτρόφος ἐστὶν ἀρίστη. de laserpitio cf. quae ad Arist. Eq. 894. 5 attuli. quibus addo Strab. 17, 838. Plin. N. h. 5, 33. usque ad taedium eo gloriari Cyrenaeos indicat poeta eiusdem rei nominibus identidem repetitis (σιλφίῳ, καυλῷ, ὀπῷ). 4. Theophr. Hist. plant. 6, 3, 1 τὸ δὲ φύλλον (τοῦ σιλφίου) καλοῦσι μάσπετον. (Plin. N. h. 19, 42 huius folia maspetum vocabant.) quod cum nominatim addere Theophrastus necessarium duxerit, non credo poetam ea voce usum esse quae Atheniensibus esset ignota. ac multo magis ridiculum videtur μαστροποῖς. neque vero πυρετοῖς scripsisse potest Antiphanes, cum saluberrima fuerit Cyrenaica. Theophr. Caus. pl. 6, 18, 3 ἡ γὰρ χώρα λεπτὴ καὶ ξηρὰ καὶ οὐκ ἄγαν θερμή, καθαρῷ δὲ τῷ ἀέρι καὶ ἀνύδρῳ. itaque, quoniam erat pulcherrima simul et magna, in monte posita, a mari longe conspicua (Strab. 17, 837), scribo πύργοις.</note>
+            </div>
+          </div></body></text></TEI>

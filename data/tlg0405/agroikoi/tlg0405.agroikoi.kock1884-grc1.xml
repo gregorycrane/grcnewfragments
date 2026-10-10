@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANAXANDRIDES, ΑΓΡΟΙΚΟΙ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Anaxandrides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0405.agroikoi.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0405.agroikoi.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0405.agroikoi.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_agroikoi"><head>ΑΓΡΟΙΚΟΙ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0405-agroikoi-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_agroikoi">
+              <lg>
+                <l n="1" xml:id="kock-0405-agroikoi-1-l1" xml:lang="grc">τίνα δὴ παρεσκευασμένοι</l>
+                <l n="2" xml:id="kock-0405-agroikoi-1-l2" xml:lang="grc">πίνειν τρόπον νῦν ἐστε; λέγετε. τίνα τρόπον;</l>
+                <l n="3" xml:id="kock-0405-agroikoi-1-l3" xml:lang="grc">Β. ἡμεῖς τοιοῦτον οἷον ἂν καὶ σοὶ δοκῇ.</l>
+              </lg>
+              <pb n="136" facs="urn:hathi:hvd.hxijve:scan:142"/>
+              <lg>
+                <l n="4" xml:id="kock-0405-agroikoi-1-l4" xml:lang="grc">Α. βούλεσθε δῆτα τὸν ἐπιδέξι᾽; Β. ὦ πάτερ,</l>
+                <l n="5" xml:id="kock-0405-agroikoi-1-l5" xml:lang="grc">λέγειν ἐπὶ τῷ πίνοντι τὸν ἐπιδέξια</l>
+                <l n="6" xml:id="kock-0405-agroikoi-1-l6" xml:lang="grc">λέγειν, Ἄπολλον, ὡσπερεὶ τεθνηκότι;</l>
+              </lg>
+              <note type="source">Athenaeus 11, 463 f τοῦ ἐπιδέξια πίνειν μνημονεύει καὶ Ἀναξανδρίδης ἐν Ἀγροίκοις οὕτως κτλ.</note>
+              <note type="apparatus">2. νῦν ἐστε Dobr. Adv. II 330] ἐστὲ νυνὶ A. πίνειν quod in fine versus addit A, delevit Dobr. λέγεθ᾽. Β. ὅντινα τρόπον | ἡμεῖς; κτλ. K. 4. δῆτα Cobet. N. 1. 19. 20] δήπου A. δῆτ᾽ οὖν Dindf. cf. Arist. Av. 1689. Ran. 416. deinde τὸν ἐπιδεξιωπατερ A. notam B adiecit Dobr. 5. λέγειν] τί φής; Dobr. πίνοντι: B. τὸν κτλ. Cobet. 6. λέγειν] λέγεις; Dobr. ὥσπερ ἐπὶ Cobet. (cf. Antiph. 240.) v. 4. 5 scribendum existimo B. ὦ πάτερ, | τί λέγεις; ἐπὶ τῷ πιόντι τὸν ἐπιδέξια | λέγειν; verba extrema non intellego.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0405-agroikoi-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_agroikoi">
+              <lg>
+                <l n="1" xml:id="kock-0405-agroikoi-2-l1" xml:lang="grc">ὡς δ᾽ ἐστεφανώθην, ἡ τράπεζ᾽ ἐσῄρετο,</l>
+                <l n="2" xml:id="kock-0405-agroikoi-2-l2" xml:lang="grc">τοσαῦτ᾽ ἔχουσα βρώμαθ᾽, ὅσα μὰ τοὺς θεοὺς</l>
+                <l n="3" xml:id="kock-0405-agroikoi-2-l3" xml:lang="grc">καὶ τὰς θεὰς οὐδ᾽ ἔνδον ὄντ᾽ ᾔδειν ἐγώ·</l>
+                <l n="4" xml:id="kock-0405-agroikoi-2-l4" xml:lang="grc">οὕτως παρέζων χρηστῶς οὐκ ἔζων τότε.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 642 b Ἀναξανδρίδης Ἀγροίκοις κτλ.</note>
+              <note type="apparatus">1. ἐσήρετο K. Mus. Rh. XXX 400] ἐπήγετο. 2. τοσαῦτ᾽] ἐπήγετοσαυτ᾽ A coniunctim. 3. οὐδ᾽ εἰ γέγονεν G. A. Hirschig. Ann. crit. 4. οὐδ᾽ εἰ γέγον᾽ ὄντως οἶδ᾽ ἐγώ Nauck. Bulletin de l'acad. de Pétersb. VIIII 379. an οὐκ εἶδον οὐδ᾽ ᾔδειν? 4. οὕτως et χρηστῶς A. χρηστὸς Villebr. Χρῆστε, κοὐκ Mein. ad firmandam coniecturam suam v. 3 G. A. Hirschigius contulit Demosth. 21, 78 τοῦτον οὐδ᾽ εἰ γέγονεν εἰδὼς οὐδὲ γιγνώσκων. Isocr. 12, 70 νησύδρια . . . ἃ πολλοὶ τῶν Ἑλλήνων οὐδ᾽ (εἰ γέγονεν adi. Hirschig.) ἴσασιν. addit Cobetus N. 1. 107 Demosth. 18, 70 Σέρριον καὶ Δορίσκον . . . οὐδ᾽ εἰ γέγονεν οἶδα. Isocr. 9, 6 ἥδιον ἂν εὐλογουμένων ἀκούοιεν, οὓς οὐκ (οὐδ᾽ ?) ἴσασιν εἰ γεγόνασιν. Cic. Fam. 9, 15, 4 reges . . quos ego . . . omnino natos nesciebam. at ista omnia cum contemptu dicuntur, hic admiratio potius locum habet. παραζῆν est vitam sine consilio et successu trahere. Plut. Mor. 13 b ζῆν, οὐ παραζῆν προσήκει. extrema nondum recte mihi videntur emendata esse.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0405-agroikoi-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_agroikoi">
+              <lg>
+                <l n="1" xml:id="kock-0405-agroikoi-3-l1" xml:lang="grc">μεγάλ᾽ ἴσως ποτήρια</l>
+                <l n="2" xml:id="kock-0405-agroikoi-3-l2" xml:lang="grc">προπινόμενα καὶ μέστ᾽ ἀκράτου κυμβία</l>
+                <l n="3" xml:id="kock-0405-agroikoi-3-l3" xml:lang="grc">ἐκάρωσεν ὑμᾶς. Β. ἀνακεχαίτικεν μὲν οὖν.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 481 f Ἀναξανδρίδης ἐν Ἀγροίκοις κτλ. Macrobius Saturn. 5, 21 Anaxandrides etiam comicus in fabula Ἀγροίκοις ·</note>
+            </div>
+          </div></body></text></TEI>

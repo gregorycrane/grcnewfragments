@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>AXIONICUS, ΦΙΛΙΝΝΑ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Axionicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0424.philinna.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0424.philinna.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0424.philinna.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0424_philinna"><head>ΦΙΛΙΝΝΑ</head><div type="textpart" subtype="fragment" n="5" xml:id="kock-0424-philinna-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0424_philinna">
+              <lg>
+                <l n="1" xml:id="kock-0424-philinna-5-l1" xml:lang="grc">γυναικὶ δὴ πίστευε μὴ πίνειν ὕδωρ.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 442 a Ἀξιόνικος ἐν Φιλίννῃ φησί κτλ. i. e. hoc sane mulieri credere poteris neganti se bibere aquam. nam si vinum se bibere negaverit, non erit credendum. ‘πείθομαί σοι μὴ ἔχειν χρήματα (Xen. Anab. 7, 8, 3) significat πείθομαί σοι ὅτι χρήματα οὐκ ἔχεις. sequiores aut λέγοντι addebant aut alio modo talia omnia formabant (Xen. Hell. 5, 2, 1).’ Cobet. N. 1. 509.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0424-philinna-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0424_philinna">
+              <lg>
+                <l n="1" xml:id="kock-0424-philinna-7-l1" xml:lang="grc">τρύβλια, χύτρα, λοπάδιον, ὀξίς, χοῦς, ἁμίς,</l>
+                <l n="2" xml:id="kock-0424-philinna-7-l2" xml:lang="grc">λεκάνη, θυΐα, κάνθαρος, σείσων, λύχνος.</l>
+                <l n="3" xml:id="kock-0424-philinna-7-l3" xml:lang="grc">Β. ὑπηρεσία σοι παντελής, γραῦ, κεραμίων.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10, 122 κεραμεῶν σκευῶν ὀνόματα ἐν Ἀξιονίκου Χαλκιδικῷ κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>2. σείσων, Alexid. 134. 3. B. add. Kuhnius.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="8" xml:id="kock-0424-philinna-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0424_philinna">
+              <p>ζωμὸν ποιῶ</p>
+              <lg>
+                <l n="1" xml:id="kock-0424-philinna-8-l1" xml:lang="grc">θερμὸν ἰχθὺν ἐπαναπλάττων, ἡμίβρωτα λείψανα</l>
+                <l n="2" xml:id="kock-0424-philinna-8-l2" xml:lang="grc">συντιθείς, οἴνῳ διαίνων, ἔντερ’ ἁλὶ καὶ σιλφίῳ</l>
+                <l n="3" xml:id="kock-0424-philinna-8-l3" xml:lang="grc">σφενδονῶν, ἀλλᾶντα τέμνω, παραφέρω χορδῆς τόμον,</l>
+                <l n="5" xml:id="kock-0424-philinna-8-l5" xml:lang="grc">ῥύγχος εἰς ὄξος πιέζων, ὥστε πάντας ὁμολογεῖν</l>
+                <l n="6" xml:id="kock-0424-philinna-8-l6" xml:lang="grc">τῶν γάμων κρείττω γεγονέναι τὴν ἕωλον ἡμέραν.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 3, 95 c Ἀξιόνικος ἐν Χαλκίδι φησί κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>1. ζωμὸν ποιῶ Casaub.] ζωμοποιώ A. 3. οἴνῳ διαίνων Emperius] οιονται ανω A. ἔντερ’ ἁλὶ καὶ Seidler.] ἑτεράλικα A. 5. πιέζων Dindf.] πιέζω. sed etiam τέμνων et παραφέρων cum Emperio et v. 1 ποιῶν scribendum est. dixerat enim coquus gloriabundus ‘ex vilissimis ac paene corruptis delicatissimos cibos facio, ζωμὸν ποιῶν κτλ.’</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

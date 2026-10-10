@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>AMPHIS, ΑΜΠΕΛΟΥΡΓΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Amphis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0404.ampeloyrgos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0404.ampeloyrgos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0404.ampeloyrgos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_ampeloyrgos"><head>ΑΜΠΕΛΟΥΡΓΟΣ</head><div type="textpart" subtype="fragment" n="3" xml:id="kock-0404-ampeloyrgos-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_ampeloyrgos">
+              <lg>
+                <l n="1" xml:id="kock-0404-ampeloyrgos-3-l1" xml:lang="grc">οὐκ ἔστιν οὐδὲν ἀτυχίας ἀνθρωπίνης</l>
+                <l n="2" xml:id="kock-0404-ampeloyrgos-3-l2" xml:lang="grc">παραμύθιον γλυκύτερον ἐν βίῳ τέχνης·</l>
+                <l n="3" xml:id="kock-0404-ampeloyrgos-3-l3" xml:lang="grc">ἐπὶ τοῦ μαθήματος γὰρ ἑστηκὼς ὁ νοῦς</l>
+                <l n="4" xml:id="kock-0404-ampeloyrgos-3-l4" xml:lang="grc">αὑτὸν λέληθε παραπλέων τὰς συμφοράς.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 60, 1 Ἀμφιδος ἐξ Ἀμπελουργοῦ Α.</note>
+              <note type="apparatus">4. αὑτὸν Mein.] αὐτοῦ. παραπλέων Trinc. Gesn. 1] παραπλέον. scientia quasi navis est, qua homo calamitates tamquam cautes praetervehitur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0404-ampeloyrgos-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_ampeloyrgos">
+              <lg>
+                <l n="1" xml:id="kock-0404-ampeloyrgos-4-l1" xml:lang="grc">ἐν οἷς ἂν ἀτυχήσῃ τις ἄνθρωπος τόποις,</l>
+                <l n="2" xml:id="kock-0404-ampeloyrgos-4-l2" xml:lang="grc">ἥκιστα τούτοις πλησιάζων ἥδεται.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 104, 6 Ἀμφιδος ἐξ Ἀμπελουργοῦ Α.</note>
+              <note type="apparatus">‘Phaedrus nemo libenter recolit qui laesit locum’. Valcken.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0404-ampeloyrgos-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_ampeloyrgos">
+              <lg>
+                <l n="1" xml:id="kock-0404-ampeloyrgos-5-l1" xml:lang="grc">μικρόν τι κέρμα</l>
+              </lg>
+              <note type="source">ὥσπερ ἐν τῷ Ἀμφιδος Ἀμπελουργῷ. Pollux 9, 88. idem 7, 170 κέρμα ἑνικῶς Ἄμφις εἴρηκεν ἐν Ἀμπελουργῷ. cf. Antiphan. 131.</note>
+              <note type="apparatus">scilicet multo frequentius numero plurali.</note>
+            </div>
+          </div></body></text></TEI>

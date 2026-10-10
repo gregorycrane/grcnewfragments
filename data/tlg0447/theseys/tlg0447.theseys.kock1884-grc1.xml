@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>DIPHILUS, ΘΗΣΕΥΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Diphilus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.theseys.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0447.theseys.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0447.theseys.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_theseys"><head>ΘΗΣΕΥΣ</head><div type="textpart" subtype="fragment" n="49" xml:id="kock-0447-theseys-49" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_theseys">
+              <lg>
+                <l n="1" xml:id="kock-0447-theseys-49-l1" xml:lang="grc">σὲ μὲν καλοῦσι ψωμοκόλαφον δραπέτην.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 262 a</note>
+              <note type="apparatus">ψωμοκόλαφον εἴρηκε Δίφιλος ἐν Θησεῖ οὕτως κτλ. ψωμοκόλαφον nove dicit eum quem superiores ψωμοκόλακα dixerant.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="50" xml:id="kock-0447-theseys-50" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_theseys">
+              <note type="source">Athenaeus 10, 451 b</note>
+              <note type="apparatus">Δίφιλος ἐν Θησεῖ τρεῖς ποτε κόρας Σαμίας φησὶν Ἀδωνίοισι γριφεύειν παρὰ πότον. προβαλεῖν δ’ αὐταῖσι τὸν γρῖφον ‘τί πάντων ἰσχυρότατον’; καὶ τὴν μὲν εἰπεῖν ὅτι σίδηρος, καὶ φέρειν τούτου λόγου τὴν ἀπόδειξιν, διότι τούτῳ πάντ’ ὀρύσσουσίν τε καὶ τέμνουσι καὶ χρῶντ’ εἰς ἅπαντα. εὐδοκιμοῦσαι δ’ ἐπάγειν τὴν δευτέραν, φάσκειν τε τὸν χαλκέα πολὺ κρείττω φέρειν ἰσχύν. ἐπεὶ τοῦτον κατεργαζόμενον καὶ τὸν σίδηρον τὸν σφοδρὸν κάμπτειν, μαλάσσειν, ὅτι ἂν χρήζῃ ποιεῖν. τὴν δὲ τρίτην ἀποφῆναι πέος ἰσχυρότατον πάντων, διδάσκειν δ’ ὅτι καὶ τὸν χαλκέα στένοντα πυγίζουσι τούτῳ. φησὶν] φασὶν Α. Ἀδωνίοισιν Α. λόγου] λόγον Α. τὴν] ταν Α. τὴν δευτ.] τῶν δευτ. Α. ἐπεὶ] ἐπὶ Α. σιδάρον Α. ποιεῖν Α. τὴν δὲ] τἂν δὲ Α. doricis formis puellas Samias usas fuisse vix credibile est. pro εὐδοκιμοῦσαι fortasse scribendum εὐδοκιμούση. referebat huc Meinekius fr. 103. versus iambici redintegrari possunt multis modis. sed nihil agitur, nisi omnes probabiliter restituantur.</note>
+            </div>
+          </div></body></text></TEI>

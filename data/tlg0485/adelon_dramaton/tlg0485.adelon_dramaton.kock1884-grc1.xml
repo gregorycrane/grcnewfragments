@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>OPHELIO, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Ophelio</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0485.adelon_dramaton.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0485.adelon_dramaton.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0485.adelon_dramaton.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0485_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="3" xml:id="kock-0485-adelon_dramaton-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0485_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0485-adelon_dramaton-3-l1" xml:lang="grc">Λιβυκόν τε πέπερι, θυμίαμα, βυβλίον</l>
+                <l n="2" xml:id="kock-0485-adelon_dramaton-3-l2" xml:lang="grc">Πλάτωνος ἐμβρόντητον</l>
+              </lg>
+              <note type="source">Athenaeus 2, 66d ὅτι εἰς τὸ πρόπομα καὶ ταῦτα ἐνεβάλλοντο, πέπερι, φυλλίς, σμύρνα, κύπειρον, μύρον Αἰγύπτιον . . . Ὠφελίων κτλ.</note>
+              <note type="apparatus">τε add. Elmsl. βυβλίον (βιβλ.) idem] καὶ βιβλίον. Λιβυκὸν πέπερι καὶ θ., β. Toup. Emend. 1 459. quomodo ea quae in πρόπομα iniciuntur coniungi possint cum libro Platonis in tanta fragmenti brevitate non perspicitur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0485-adelon_dramaton-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0485_adelon_dramaton">
+              <note type="source">Athenaeus 2, 43 f Εὔβουλος (fr. 135) εὑρετικούς φησι τὸ ὕδωρ ποιεῖν τοὺς πίνοντας αὐτὸ μόνον,</note>
+              <lg>
+                <l n="1" xml:id="kock-0485-adelon_dramaton-4-l1" xml:lang="grc">τὸν δ’ οἶνον ἡμῶν τῷ φρονεῖν ἐπισκοτεῖν.</l>
+              </lg>
+              <note type="source">τὰ αὐτὰ δ’ ἰαμβεῖα καὶ Ὠφελίων φησί.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0485-adelon_dramaton-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0485_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0485-adelon_dramaton-5-l1" xml:lang="grc">ἐλαίῳ Καρικῷ</l>
+                <l n="2" xml:id="kock-0485-adelon_dramaton-5-l2" xml:lang="grc">ἀλείφεται.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 66. 7 Καρικοῦ (ἐλαίου μνημονεύει) Ὠφελίων κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" xml:id="kock-0485-adelon_dramaton-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0485_adelon_dramaton">
+              <note type="source">Hesychius Ἶσις· ἔνιοι ὀμνύοντες τὴν Ἶσιν ἐξ ἑτοίμου ἐνόσουν. ὅθεν Ὠφελίων διὰ τὸ συνεχὲς τῶν νόσων ἐχρήσατο τῇ λέξει.</note>
+              <note type="apparatus">Ὠφελίων Mein.] ὠφελίμων. συνεχὲς Mein.] συνεχός. Iuvenal. 13, 92 putat esse deos et peierat . . . decernat quodcumque volet de corpore nostro Isis et irato feriat mea lumina sistro.</note>
+            </div>
+          </div></body></text></TEI>

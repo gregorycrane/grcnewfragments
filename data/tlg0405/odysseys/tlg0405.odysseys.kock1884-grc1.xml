@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANAXANDRIDES, ΟΔΥΣΣΕΥΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Anaxandrides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0405.odysseys.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0405.odysseys.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0405.odysseys.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_odysseys"><head>ΟΔΥΣΣΕΥΣ</head><div type="textpart" subtype="fragment" n="33" xml:id="kock-0405-odysseys-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_odysseys">
+              <lg>
+                <l n="1" xml:id="kock-0405-odysseys-33-l1" xml:lang="grc">τῶν ζωγράφων μὲν ἡ καλὴ χειρουργία</l>
+                <l n="2" xml:id="kock-0405-odysseys-33-l2" xml:lang="grc">ἐν τοῖς πίναξι κρεμαμένη θαυμάζεται,</l>
+                <l n="3" xml:id="kock-0405-odysseys-33-l3" xml:lang="grc">αὕτη δὲ σεμνῶς ἐκ λοπάδος ἁρπάζεται</l>
+                <l n="4" xml:id="kock-0405-odysseys-33-l4" xml:lang="grc">ἀπὸ τοῦ ταγήνου τ᾽ εὐθέως ἀφανίζεται.</l>
+                <l n="5" xml:id="kock-0405-odysseys-33-l5" xml:lang="grc">5 ἐπὶ τίνα δ᾽ ὧδ᾽ ἄλλην τέχνην, ὦ χρηστέ σύ,</l>
+                <l n="6" xml:id="kock-0405-odysseys-33-l6" xml:lang="grc">τὰ στόματα τῶν νεωτέρων κατακάετ᾽, ἢ</l>
+                <l n="7" xml:id="kock-0405-odysseys-33-l7" xml:lang="grc">ὠθισμός ἐστι δακτύλων τοιουτοσὶ</l>
+              </lg>
+              <pb n="147" facs="urn:hathi:hvd.hxijve:scan:153"/>
+              <lg>
+                <l n="8" xml:id="kock-0405-odysseys-33-l8" xml:lang="grc">ἢ πνιγμός, ἂν μὴ ταχὺ δύνηται καταπιεῖν;</l>
+                <l n="9" xml:id="kock-0405-odysseys-33-l9" xml:lang="grc">ἀλλ’ οὐ μόνη γὰρ τὰς συνουσίας ποιεῖ</l>
+                <l n="10" xml:id="kock-0405-odysseys-33-l10" xml:lang="grc">εὔοψος ἀγορά; τίς δὲ συνδειπνεῖ βροτῶν</l>
+                <l n="11" xml:id="kock-0405-odysseys-33-l11" xml:lang="grc">φρυκτοὺς καταλαβὼν ἢ κορακίνους ὠνίους</l>
+                <l n="12" xml:id="kock-0405-odysseys-33-l12" xml:lang="grc">ἢ μαινίδ’; ὡραῖον δὲ μειρακύλλιον</l>
+                <l n="13" xml:id="kock-0405-odysseys-33-l13" xml:lang="grc">ποίαις ἐπῳδαῖς ἢ λόγοις ἁλίσκεται</l>
+                <l n="14" xml:id="kock-0405-odysseys-33-l14" xml:lang="grc">τίσιν, φράσον γάρ, ἄν τις ἀφέλῃ τὴν τέχνην</l>
+                <l n="15" xml:id="kock-0405-odysseys-33-l15" xml:lang="grc">τὴν τῶν ἁλιέων; ἥδε γὰρ δαμάζεται,</l>
+                <l n="16" xml:id="kock-0405-odysseys-33-l16" xml:lang="grc">ἑφθοῖς προσώποις ἰχθύων χειρουμένη,</l>
+                <l n="17" xml:id="kock-0405-odysseys-33-l17" xml:lang="grc">ἄγουσ’ ὑπ’ αὐτὰ σώματ’ ἀρίστου πύλας</l>
+                <l n="18" xml:id="kock-0405-odysseys-33-l18" xml:lang="grc">ἀσύμβολον κλίνειν τ’ ἀναγκάζει φύσιν.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 227 b καὶ οἱ ἁλιεῖς ἐπὶ τῇ τέχνῃ μέγα φρονοῦσι μᾶλλον ἢ οἱ ἄριστοι τῶν στρατηγῶν. παράγει γοῦν τινα τούτων Ἀναξανδρίδης ἐν Ὀδυσσεῖ περὶ τῆς ἁλιευτικῆς τέχνης τάδε λέγοντα κτλ.</note>
+              <note type="apparatus">2. πίναξιν Α. 3. αὕτη Schweigh.] αὐτὴ Α. δ’ ἀσέμνως Bothius. 4. ταγήνου ου in ras. m.1 A. 5. ὧδ’ add. Erfurdt. Obs. 431. δῆτ’ Bergk. 6. κατακάετ’ ἢ Dobr. Arist. Plut. 361 p. 44] κατακάεται Α. 7. ὠθισμός C] ἠθισμός Α. δακτύλων] γαστρίδων? cf. quae ad Arist. Ran. 200 adnotavimus. τοσὶ Dobr.] τοιούτων Α. 8. ἂν Dindf.] ἐὰν Α. 9. ἀλλ’ οὐ μόνη cum interrog. post ἀγορά Casaub.] ἀλλ’ ἀλλοῦ μονονη Α. ἀλλ’ οὖν μόνη Dindf. 11. φρύκτ’ οὐ Casaub. (potius μή). κωρακίνους Α. 12. μαινίδ’ Casaub.] μηδὲν Α. 14. ἄν Dindf.] ἐάν Α. 15. τὴν add. Iacobs. Addit. Ath. 135. 17. ἄγουσ’] οἴγουσ’ Erfurdt. Obs. 456. idem αὐτὰ τὰ. ἀρίστου] Εὐρύτου Iacobs. (ἄγουσί τ’ αὖ τὰ σώματ’ ἐπ’ Εὐρ. π.) et Erf. multo deterius Herwerd. Obs. crit. 55. 3. ἐκ λοπάδος ad elixa, ἀπὸ τοῦ ταγήνου ad frixa pertinere monet Schweighaeus. 5. non recte se habet κατακάειν τὰ στόματα ἐπί τι. dici poterat ἐκκάονται αἱ καρδίαι ἐπί τι: sed quid reponendum sit nescio. 11. Hesych. φρυκτά· ξηρὰ ἰχθύδια εὐτελῆ. atque etiam coracini vilissimi habebantur. Pherecr. 56. Amphid. 22. Diphil. 71. Antiph. 68, 15. non hoc dicit piscator neminem cum altero cenare velle, nisi pisces frixos aut coracinos reperiat (Casaub.), vel si ne frixos quidem coracinosve reperiat: ei enim ab hominibus delicatioribus omnino contemnebantur: sed neminem apud eum cenare velle, qui pro pretiosioribus qui tum diligebantur piscibus nihil nisi vilissimos frixos et coracinos emat. itaque cum in foro emere apud Graecos sit λαμβάνειν, non καταλαμβάνειν (cf. quae adnotavimus ad Phrynich. 51), scribendum est φρυκτοὺς λαβόντι καὶ κορακίνους κτλ.: nam ex καί quod oblitus erat librarius suprascripto ortum est κατα, ut ἢ natum est ex τι. 16. προσώποις, ut 30, 2. Athen. 7, 295 a (attulit Mein.) καὶ γὰρ τὸν Θησέα γεγονότα καλὸν ὑπολαμβάνω τοῦ Τληπολέμου</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>TIMOCLES, ΗΡΩΕΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Timocles</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0515.eroes.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0515.eroes.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0515.eroes.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_eroes"><head>ΗΡΩΕΣ</head><div type="textpart" subtype="fragment" n="12" xml:id="kock-0515-eroes-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_eroes">
+              <head>12</head>
+              <lg type="verse">
+                <l n="1" xml:id="kock-0515-eroes-12-l1" xml:lang="grc">οὐκοῦν κελεύεις νῦν με πάντα μᾶλλον ἢ</l>
+                <l n="2" xml:id="kock-0515-eroes-12-l2" xml:lang="grc">τὰ προσόντα φράζειν. Β. πάνυ γε. Α. δράσω τοῦτό σοι.</l>
+                <l n="3" xml:id="kock-0515-eroes-12-l3" xml:lang="grc">καὶ πρῶτα μέν σοι παύσεται Δημοσθένης</l>
+                <l n="4" xml:id="kock-0515-eroes-12-l4" xml:lang="grc">ὀργιζόμενος. Β. ὁ ποῖος; Α. ὁποῖος; ὁ Βριάρεως,</l>
+                <l n="5" xml:id="kock-0515-eroes-12-l5" xml:lang="grc">ὁ τοὺς καταπέλτας τάς τε λόγχας ἐσθίων,</l>
+                <l n="6" xml:id="kock-0515-eroes-12-l6" xml:lang="grc">μισῶν λόγους ἄνθρωπος, οὐδὲ πώποτε</l>
+                <l n="7" xml:id="kock-0515-eroes-12-l7" xml:lang="grc">ἀντίθετον εἰπὼν οὐδέν, ἀλλ’ Ἄρη βλέπων.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 224 a Τιμοκλῆς ἐν Ἥρωσιν κτλ.</note>
+              <note type="apparatus">1. με Elmsl. Ach. 963 p. 91] μετὰ Α. 2. Β. et Α. inseruit Cobet. N. 1. 21. 22. 4. ὁ ποῖος; — ὁποῖος; Mein.] ὁ ποῖος Α. βριαρὸς Dindf. Βριαρεὺς Mein. sed recte Elmsleius καὶ πρῶτα μέντοι παύσεταί σοι Βριάρεως | ὀργιζόμενος. Β. ὁ ποῖος οὗτος Βριάρεως; | Α. ὁ τοὺς καταπέλτας κτλ. nam Δημοσθένης glossema est. 6. λόγους τ’ Elmsl. fortasse λόγους γ’. 2. τὰ προσόντα. Plat. Menex. 235 a οὕτω καλῶς ἐπαινοῦσιν, ὥστε καὶ τὰ προσόντα καὶ τὰ μὴ περὶ ἑκάστου λέγοντες ... γοητεύουσι .. τὰς ψυχάς. cf. Cratyl. 394 b. Antiphont. 5, 9 ὧν οὐδὲν ἐμοὶ προσὸν ἀπέδειξαν. 5. confert Meinekius Mnesim. 7, 3 sq. 6. 7. haec per ironiam scilicet dicuntur. 7. ἀντίθετον, quale famosum illud de δοῦναι et ἀποδοῦναι. cf. Antiphan. 169. nescio quis alteri, postquam quaesivit verumne ipsi dicere debeat, suadet ut ante omnia Demosthenis iram placet. sententia postulare videtur ut v. 1 scribatur νῦν με μηδὲν μᾶλλον.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="13" xml:id="kock-0515-eroes-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_eroes">
+              <head>13</head>
+              <lg type="verse">
+                <l n="1" xml:id="kock-0515-eroes-13-l1" xml:lang="grc">ὡς δ’ ἦν ἠρμένη</l>
+                <l n="2" xml:id="kock-0515-eroes-13-l2" xml:lang="grc">βίου τιθήνη, πολεμία λιμοῦ, φύλαξ</l>
+                <l n="3" xml:id="kock-0515-eroes-13-l3" xml:lang="grc">φιλίας, ἰατρὸς ἐκλύτου βουλιμίας,</l>
+                <l n="4" xml:id="kock-0515-eroes-13-l4" xml:lang="grc">τράπεζα. Β. περιέργως γε νὴ τὸν οὐρανόν,</l>
+                <l n="5" xml:id="kock-0515-eroes-13-l5" xml:lang="grc">ἐξὸν φράσαι τράπεζα συντόμως.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 455 f Τιμοκλῆς ἐν Ἥρωσιν κτλ.</note>
+              <note type="apparatus">ν. 2—4 (τράπεζα) Eustathius 1586, 20 om. fabulae auctorisque nomine. 4. γε add. Casaub. 5. φράσαι σοι τὴν τράπεζαν σ. Grotius Excerpt. 693. — in v. 4 pro voce τράπεζα alia aliqua eius περίφρασις videtur restituenda esse.</note>
+            </div>
+          </div></body></text></TEI>

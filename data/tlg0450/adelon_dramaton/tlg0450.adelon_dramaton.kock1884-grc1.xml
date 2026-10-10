@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EPHIPPUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Ephippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0450.adelon_dramaton.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0450.adelon_dramaton.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0450.adelon_dramaton.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="24" xml:id="kock-0450-adelon_dramaton-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0450-adelon_dramaton-24-l1" xml:lang="grc">κάρυα, ῥόας, φοίνικας, ἕτερα νώγαλα,</l>
+                <l n="2" xml:id="kock-0450-adelon_dramaton-24-l2" xml:lang="grc">σταμνάριά τ' οἴνου μικρὰ τοῦ φοινικίνου,</l>
+                <l n="3" xml:id="kock-0450-adelon_dramaton-24-l3" xml:lang="grc">ᾠάρια, τοιαῦθ' ἕτερα πολλὰ παίγνια.</l>
+              </lg>
+              <note type="source">v. 1. 2 Athenaeus 1, 29 d φοινικίου οἴνου μέμνηται καὶ Ἔφιππος κτλ. v. 2. 3 idem 2, 57 e Ἔφιππος κτλ. v. 1 Eustathius 1163, 26 καὶ τρισυλλάβως νώγαλα, οἷον κτλ.</note>
+              <note type="apparatus">1. ῥόας Dindf.] ῥοιάς. νώγαλα Casaub.] νωγαλίσματα. 2. μικρὰ deest 29. φοινικίνου Mein.] φοινικικοῦ. cf. 8. Antiphan. 65.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="25" xml:id="kock-0450-adelon_dramaton-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0450-adelon_dramaton-25-l1" xml:lang="grc">οἴνου σε πλῆθος πόλλ' ἀναγκάζει λαλεῖν.</l>
+                <l n="2" xml:id="kock-0450-adelon_dramaton-25-l2" xml:lang="grc">Β. οὐκοῦν μεθύοντάς φασι τἀληθῆ λέγειν.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 38 b φησί που Ἔφιππος κτλ. an οὔκουν — λέγειν;</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="26" xml:id="kock-0450-adelon_dramaton-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0450-adelon_dramaton-26-l1" xml:lang="grc">ὡς ἐγὼ σκιρτῶ πάλαι,</l>
+                <l n="2" xml:id="kock-0450-adelon_dramaton-26-l2" xml:lang="grc">ὅπου ῥοδόπνοα στρώματ' ἔστι, καὶ μύροις</l>
+                <l n="3" xml:id="kock-0450-adelon_dramaton-26-l3" xml:lang="grc">λοῦμαι ψακαστοῖς.</l>
+              </lg>
+              <note type="source">Athen. 2, 48 bc φησὶν Ἔφιππος. indicavit H. Iacobi Mein. V CXCVI.</note>
+              <note type="apparatus">3. μύροις | λοῦμαι Boisson.] λούομαι μύροις. fortasse ἔστ', ἀλείφομαι | μύροις ψακ. Arist. Plut. 529 μύροισιν μυρίσαι στακτοῖς.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="27" xml:id="kock-0450-adelon_dramaton-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0450-adelon_dramaton-27-l1" xml:lang="grc">ἵν' ὥσπερ οἱ μύκητες ἀποπνίξαιμί σε.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 60 e. 61 a (τῶν μυκήτων) εἰσὶν ἐδώδιμοι ὀλίγοι·</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="28_29" xml:id="kock-0450-adelon_dramaton-28_29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0450-adelon_dramaton-28_29-l1" xml:lang="grc">φιλῶ γε πράμνιον οἶνον Λέσβιον.</l>
+                <l n="2" xml:id="kock-0450-adelon_dramaton-28_29-l2" xml:lang="grc">πολλὴ δὲ Λεσβία σταγὼν ἐκπίνεται.</l>
+              </lg>
+              <note type="apparatus">
+                <p>Athenaeus 1, 28 f Ἔφιππος κτλ. 2. ἐκπίνεται] ἐκπίνεται ἄγαν, quod ex nomine quod sequitur Ἀντιφάνης ortum esse suspicatur Meinek. ἄγαν φιλῶ γε v. 1 Iacobs. Add. Ath. 26. φιλῶ γέ τοι πράμνειον Mein. sine dubitatione scribo φιλῶ γέροντα πράμνιον κτλ. cf. Eubul. 124. 5. Alexid. 167, 5. Aristoph. fr. 579, 3.</p>
+              </note>
+            </div>
+            </div></body></text></TEI>

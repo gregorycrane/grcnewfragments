@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΕΙΣΟΙΚΙΖΟΜΕΝΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.eisoikizomenos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.eisoikizomenos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.eisoikizomenos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_eisoikizomenos"><head>ΕΙΣΟΙΚΙΖΟΜΕΝΟΣ</head><div type="textpart" subtype="fragment" n="64" xml:id="kock-0402-eisoikizomenos-64" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_eisoikizomenos">
+              <lg>
+                <l n="1" xml:id="kock-0402-eisoikizomenos-64-l1" xml:lang="grc">τρικότυλον ψυγέα</l>
+              </lg>
+              <note type="source">Ἄλεξις ἐν Εἰσοικιζομένῳ φησί κτλ. Athenaeus 11, 502 d. Eustathius 1632, 12.</note>
+              <note type="apparatus">Εἰσοικιζομένῳ Schweigh.] οἰκιζομένῳ Α. Praeterea cf. fr. 344.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="62" xml:id="kock-0402-eisoikizomenos-62" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_eisoikizomenos">
+              <head>62</head>
+              <lg>
+                <l n="1" xml:id="kock-0402-eisoikizomenos-62-l1" xml:lang="grc">οὐ γὰρ ἐμυρίζετ’ ἐξ ἀλαβάστου, πρᾶγμά τι</l>
+                <l n="2" xml:id="kock-0402-eisoikizomenos-62-l2" xml:lang="grc">γινόμενον ἀεί, κρονικόν, ἀλλὰ τέτταρας</l>
+                <l n="3" xml:id="kock-0402-eisoikizomenos-62-l3" xml:lang="grc">περιστερὰς ἀφῆκεν ἀποβεβαμμένας</l>
+                <l n="4" xml:id="kock-0402-eisoikizomenos-62-l4" xml:lang="grc">εἰς οὐχὶ ταὐτὸν μὰ Δία τὴν αὐτὴν μύρον,</l>
+                <l n="5" xml:id="kock-0402-eisoikizomenos-62-l5" xml:lang="grc">ἰδίῳ δ’ ἑκάστην. πετόμεναι δ’ αὖται κύκλῳ</l>
+                <l n="6" xml:id="kock-0402-eisoikizomenos-62-l6" xml:lang="grc">ἔρραινον ἡμῶν θαἰμάτια καὶ στρώματα.</l>
+                <l n="7" xml:id="kock-0402-eisoikizomenos-62-l7" xml:lang="grc">μή μοι φθονήσητ’, ἄνδρες Ἑλλήνων ἄκροι,</l>
+                <l n="8" xml:id="kock-0402-eisoikizomenos-62-l8" xml:lang="grc">ἠλειφόμην ὑόμενος ἰρίνῳ μύρῳ.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 691 e <quote xml:lang="grc">ὡς λῆρον εἶναι τὰ ἐν τῷ Εἰσοικιζομένῳ Ἀλέξιδος ταυτί κτλ.</quote> v. 1 Eustathius 1161, 30 <quote xml:lang="grc">παρ’ Ἀθηναίῳ κεῖται Ἀλέξιδος τὸ ‘οὐ γὰρ ἐμυρίζετο ἐξ ἀλαβάστου’.</quote>
+              </note>
+              <note type="apparatus">1. propter v. 6 scribendum videtur aut <foreign xml:lang="grc">ἐμύριζεν</foreign> aut <foreign xml:lang="grc">ἐμυριζόμεθ’</foreign>. <foreign xml:lang="grc">ἀλαβάστου</foreign> etiam A. <foreign xml:lang="grc">πραγματι</foreign> Α. 2. <foreign xml:lang="grc">τέτταρας</foreign>] <foreign xml:lang="grc">Δ</foreign> A. 3. <foreign xml:lang="grc">ἀποβεβανμενας</foreign> Α. 4. <foreign xml:lang="grc">τὴν αὐτὴν</foreign>] <foreign xml:lang="grc">τὰς πάσας</foreign> G. A. Hirschig. Ann. crit. 10. <foreign xml:lang="grc">τὴν ὀσμὴν</foreign> Dobr. <foreign xml:lang="grc">τὸν μέγαν (Δία)</foreign> Herwerd. Obs. crit. 68. 9 conl. Arist. Nub. 1239. <foreign xml:lang="grc">ληκύθιον</foreign> Mein. Anal. Ath. 338. mihi scribendum videtur <foreign xml:lang="grc">δηλαδή</foreign>. cf. inprimis Arist. Eccl. 1157. dictantis scilicet vocem non recte interpretatus est librarius, non is tamen qui codicem A scripsit. 5. <foreign xml:lang="grc">ἰδίω</foreign> Α. scribendum utique <foreign xml:lang="grc">ἴδιον</foreign>. deinde <foreign xml:lang="grc">αυται</foreign> Α. 6. <foreign xml:lang="grc">ἔρρινον</foreign> (α in ras. m.1) A. <foreign xml:lang="grc">θαιματια</foreign> Α. <foreign xml:lang="grc">καὶ</foreign> Dindf.] <foreign xml:lang="grc">τὰ</foreign>. 8. <foreign xml:lang="grc">ἰρίνῳ</foreign> Canter] <foreign xml:lang="grc">ηρινῳ</foreign> Α. 2. <foreign xml:lang="grc">γινόμενον</foreign> rectissime dixit: ‘quod quoniam semper fere fit iam obsoletum est.’ <foreign xml:lang="grc">κρονικόν</foreign>, ut Arist. Plut. 581. cf. quae adnotavimus ad Nub. 398. v. 7 Euripidis esse ex Telepho (701 N.) Valckenarius adnotavit Theocr. Adon. 414. — scaena similis est Arist. Ach. 86 sq. loquitur miles vel legatus ex Asia rediens.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="63" xml:id="kock-0402-eisoikizomenos-63" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_eisoikizomenos">
+              <head>63</head>
+              <lg>
+                <l n="1" xml:id="kock-0402-eisoikizomenos-63-l1" xml:lang="grc">ἔξοινος ἐποίει ταῦτα</l>
+              </lg>
+            </div>
+          </div></body></text></TEI>

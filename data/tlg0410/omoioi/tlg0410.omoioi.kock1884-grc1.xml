@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΟΜΟΙΟΙ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.omoioi.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.omoioi.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.omoioi.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_omoioi"><head>ΟΜΟΙΟΙ</head><div type="textpart" subtype="fragment" n="173" xml:id="kock-0410-omoioi-173" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_omoioi">
+              <head>173</head>
+              <lg>
+                <l n="1" xml:id="kock-0410-omoioi-173-l1" xml:lang="grc">εὖ δ’ ἐγίνεθ’ ὅτι φακῆν</l>
+                <l n="2" xml:id="kock-0410-omoioi-173-l2" xml:lang="grc">ἕψειν μ’ ἐδίδασκε τῶν ἐπιχωρίων τις εἷς.</l>
+              </lg>
+              <note type="source">Athenaeus 4, 158 c Ἀντιφάνης Ὁμοίαις κτλ.</note>
+              <note type="apparatus">1. εὖ δεγινεθήφακην εψειημεδίδασκε Α. εὖ δ’ ἐγίνεθ’ ὅτι Porson. ἑψεῖν μ’ ἐδίδασκε Iacobs. Addit. Ath. 99. τις εἷς] τισεις Α.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="174" xml:id="kock-0410-omoioi-174" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_omoioi">
+              <head>174</head>
+              <lg>
+                <l n="1" xml:id="kock-0410-omoioi-174-l1" xml:lang="grc">εἶτ’ ἐπεισῆγεν χορείαν ἢ τράπεζαν δευτέραν,</l>
+                <l n="2" xml:id="kock-0410-omoioi-174-l2" xml:lang="grc">καὶ παρέθηκε γέμουσαν πέμμασι παντοδαποῖς.</l>
+                <l n="3" xml:id="kock-0410-omoioi-174-l3" xml:lang="grc">ὡς δ’ ἐδείπνησαν, συνάψαι βούλομαι γὰρ τὰν μέσῳ,</l>
+                <l n="4" xml:id="kock-0410-omoioi-174-l4" xml:lang="grc">καὶ Διὸς σωτῆρος ἦλθε θηρίκλειον ὄργανον,</l>
+                <l n="5" xml:id="kock-0410-omoioi-174-l5" xml:lang="grc">τῆς τρυφερᾶς ἀπὸ Λέσβου σεμνοπότου σταγόνος</l>
+                <l n="6" xml:id="kock-0410-omoioi-174-l6" xml:lang="grc">πλῆρες, ἀφρίζον, ἕκαστος δεξιτερᾷ δ’ ἔλαβεν.</l>
+              </lg>
+              <note type="source">v. 1. 2 Athenaeus 14, 642 a Ἀντιφάνης . . . ἐν Ὁμοίοις εἶτ’ ἐπεισῆγεν — παντοδαποῖς. v. 3—6 Athenaeus 11, 471 c μνημονεύει τοῦ ἐκπώματος καὶ Ἀντιφάνης ἐν Ὁμοίοις οὕτως· ὡς δ’ ἐδείπνησαν κτλ. ad unum fragmentum coniunxit Meinekius.</note>
+              <note type="apparatus">3. τὰν Koppiers. Obs. 50] τὰ Α. 5. σεμνοπότου Casaub.] σεμνοπόνου Α. 1. δευτέραν etiam ad χορείαν pertinet. mensas enim primas et secundas sermone elatiore tamquam quasdam choreas praedicat. v. 2. 5. 6 Antiphanes aut ex Cena Philoxeni Cytherii (de quo cf. quae ad Cyclopem adnotavimus) descripsit aut ad imitationem eius composuit. ceterum, ut tetrametri trochaici versusque dactylici inter se excipiant, v. 5 ante 4 ponendus videtur et scribendum σεμνόποτοι σταγόνες. — ceterum cf. Cobet. N. 1. 132. 3.</note>
+            </div>
+          </div></body></text></TEI>

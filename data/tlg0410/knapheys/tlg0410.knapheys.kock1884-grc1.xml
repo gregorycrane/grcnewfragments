@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΚΝΑΦΕΥΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.knapheys.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.knapheys.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.knapheys.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_knapheys"><head>ΚΝΑΦΕΥΣ</head><div type="textpart" subtype="fragment" n="125" xml:id="kock-0410-knapheys-125" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_knapheys">
+              <lg>
+                <l n="1" xml:id="kock-0410-knapheys-125-l1" xml:lang="grc">ἄτοπά γε κηρύττουσιν ἐν τοῖς ἰχθύσιν</l>
+                <l n="2" xml:id="kock-0410-knapheys-125-l2" xml:lang="grc">κηρύγμαθ', οὗ καὶ νῦν τις ἐκεκράγει μέγα</l>
+                <l n="3" xml:id="kock-0410-knapheys-125-l3" xml:lang="grc">μέλιτος γλυκυτέρας μεμβράδας φάσκων ἔχειν.</l>
+                <l n="4" xml:id="kock-0410-knapheys-125-l4" xml:lang="grc">εἰ τοῦτο τοιοῦτ' ἐστίν, οὐδὲν κωλύει</l>
+                <l n="5" xml:id="kock-0410-knapheys-125-l5" xml:lang="grc">τοὺς μελιτοπώλας αὖ λέγειν βοᾶν θ' ὅτι</l>
+                <l n="6" xml:id="kock-0410-knapheys-125-l6" xml:lang="grc">πωλοῦσι τὸ μέλι σαπρότερον τῶν μεμβράδων.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 7, 287 e ἔστιν εὑρεῖν (τὸ βεμβρὰς) καὶ διὰ τοῦ μ γραφόμενον. Ἀντιφάνης ἐν Κνοιθιδεῖ κτλ. Κνοιθιδεῖ· ἄτοπά γε Mein.] κνοισθιδειατόπον τε A. κηρύγμαθ' Mein.] κήρυγμα A.</p>
+              </note>
+              <note type="apparatus">
+                <p>rectissime Meinekius: nam de multis id genus proclamationibus unam (οὗ — τις) commemorat. de duplici forma (βεμβράς, μεμβράς) cf. Phrynich. 50.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="123" xml:id="kock-0410-knapheys-123" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_knapheys">
+              <lg>
+                <l n="1" xml:id="kock-0410-knapheys-123-l1" xml:lang="grc">ὅστις τέχνην πρῶτος κατέδειξε τῶν θεῶν,</l>
+                <l n="2" xml:id="kock-0410-knapheys-123-l2" xml:lang="grc">οὗτος μέγιστον εὗρεν ἀνθρώποις κακόν.</l>
+              </lg>
+              <pb n="60" facs="urn:hathi:hvd.hxijve:scan:66"/>
+              <lg>
+                <l n="3" xml:id="kock-0410-knapheys-123-l3" xml:lang="grc">ὅταν γὰρ ἀπορῆταί τις, ἂν μὲν ἀργὸς ᾖ,</l>
+                <l n="4" xml:id="kock-0410-knapheys-123-l4" xml:lang="grc">ἐλθὼν ἀπεκινδύνευσεν ἡμέραν μίαν,</l>
+                <l n="5" xml:id="kock-0410-knapheys-123-l5" xml:lang="grc">ὥστ’ ἢ γεγονέναι λαμπρὸς ἢ τεθνηκέναι.</l>
+                <l n="6" xml:id="kock-0410-knapheys-123-l6" xml:lang="grc">ἡμεῖς δ’ ἔχοντες ἀρραβῶνα τὴν τέχνην</l>
+                <l n="7" xml:id="kock-0410-knapheys-123-l7" xml:lang="grc">τοῦ ζῆν, ἀεὶ πεινῶμεν ἐπὶ ταῖς ἐλπίσιν,</l>
+                <l n="8" xml:id="kock-0410-knapheys-123-l8" xml:lang="grc">ἐξόν τε μικρὸν διαπορηθῆναι χρόνον,</l>
+                <l n="9" xml:id="kock-0410-knapheys-123-l9" xml:lang="grc">τὸν βίον ἅπαντα τοῦτο δρᾶν αἱρούμεθα.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 61, 2 Ἀντιφάνους ἐκ Κναφέως Α.</note>
+              <note type="apparatus">1. πρῶτος κατέδειξε A] κατέδειξε πρῶτος. 3. ᾖ Iacobs. Lect. Stob. 101] ἦν. 5. λαμπρὸς Naber. Mnem. nov. VIII 49] λαμπρόν. 3. ἂν μὲν ἀργὸς ᾖ, i. e. si artem (τέχνην) non habet. 4. Horat. Serm. 1, 1, 7 quid enim? concurritur: horae momento aut cita mors venit aut victoria laeta. ἐλθών, ut nos: so geht er hin und cet. ceterum cf. quae de hoc fragmento disputat Birtius Elpid. 34. 71.</note>
+            </div>
+          </div></body></text></TEI>

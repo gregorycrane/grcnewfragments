@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>DIPHILUS, ΗΡΑΚΛΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Diphilus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.erakles.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0447.erakles.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0447.erakles.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_erakles"><head>ΗΡΑΚΛΗΣ</head><div type="textpart" subtype="fragment" n="46" xml:id="kock-0447-erakles-46" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_erakles">
+              <lg>
+                <l n="1" xml:id="kock-0447-erakles-46-l1" xml:lang="grc">ἐμὲ μὲν οὐχ ὁρᾶς πεπωκότα</l>
+                <l n="2" xml:id="kock-0447-erakles-46-l2" xml:lang="grc">ἤδη τ’ ἀκροθώρακ’ ὄντα καὶ θυμούμενον,</l>
+                <l n="3" xml:id="kock-0447-erakles-46-l3" xml:lang="grc">τονδὶ δὲ ναστόν, Ἀστίωνος μείζονα,</l>
+                <l n="4" xml:id="kock-0447-erakles-46-l4" xml:lang="grc">ἤδη σχεδὸν δωδέκατον ἠριστηκότα;</l>
+              </lg>
+              <note type="source">Athenaeus 10, 421 e Δίφιλος ἐν Ἡρακλεῖ περί τινος τῶν ὁμοίων (πολυφάγων) διαλεγόμενος διέξεισιν κτλ.</note>
+              <note type="apparatus">2. κεὐθυμούμενον Mein, quod admodum languet. scr. κἀμφυσώμενον. cf. Henioch. 4, 8. Xenoph. Reip. Lac. 5, 8 οἱ ἄπονοι πεφυσημένοι τε καὶ αἰσχροί. Athen. 6, 255 d ἐμφυσωμένων τῇ κολακείᾳ. 3. τονδὶ δὲ ναστόν Heringa Observ. 279] τονδ’ ἴδεν ἀστὸν A. μείζον’ A. Ἀστίωνος] Ἀστερίωνος Herwerd. Nov. add. crit. 43 conl. Paus. 1, 35, 5 ἔστι δὲ Μιλησίοις πρὸ τῆς πόλεως Λάδη νῆσος, ἀπερρώγασι δ’ ἀπ’ αὐτῆς νησῖδες. Ἀστερίου τὴν ἑτέραν ὀνομάζουσι καὶ τὸν Ἀστέριον ἐν αὐτῇ ταφῆναι λέγουσιν... ἔχει δ’ οὖν ὁ νεκρὸς οὐδέν τι μεῖον πηχῶν δέκα. cf. Preller. Myth. gr.² II 135. sed potius Asterion (vel Asterius) gigas intellegendus est. Aristot. Schol. Aristid. 323, 9 Dind. τὰ Ἐλευσίνια διὰ τὸν καρπὸν τῆς Δήμητρος .. τὰ Παναθήναια ἐπὶ Ἀστερίῳ τῷ γίγαντι ὑπὸ Ἀθηνᾶς ἀναιρεθέντι (Mein. Anal. Ath. 354). sine dubio effigies eius in Gigantomachiarum simulacris publice cernebatur. Hesych. Ἀστόριον· μέγαν (sic Mein. pro μέγα) καὶ διακεχυμένον (ἐκκεχ. Mein.). — sententia per interrogationem efferenda erat.</note>
+            </div>
+          </div></body></text></TEI>

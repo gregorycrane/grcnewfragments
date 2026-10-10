@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUBULUS, ΟΛΒΙΑ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.olbia.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.olbia.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.olbia.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_olbia"><head>ΟΛΒΙΑ</head><div type="textpart" subtype="fragment" n="74" xml:id="kock-0458-olbia-74" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_olbia">
+              <head>74</head>
+              <lg>
+                <l n="1" xml:id="kock-0458-olbia-74-l1" xml:lang="grc">ἐν τῷ γὰρ αὐτῷ πάνθ’ ὁμοῦ πωλήσεται</l>
+                <l n="2" xml:id="kock-0458-olbia-74-l2" xml:lang="grc">ἐν ταῖς Ἀθήναις· σῦκα — Β. κλητῆρες Α. βότρυς,</l>
+                <l n="3" xml:id="kock-0458-olbia-74-l3" xml:lang="grc">γογγυλίδες, ἄπιοι, μῆλα — Β. μάρτυρες Α. ῥόδα,</l>
+                <l n="4" xml:id="kock-0458-olbia-74-l4" xml:lang="grc">μέσπιλα, χόρια, σχαδόνες, ἐρέβινθοι — Β. δίκαι</l>
+                <l n="5" xml:id="kock-0458-olbia-74-l5" xml:lang="grc">Α. πυός, πυριάτη, μύρτα — Β. κληρωτήρια</l>
+                <l n="6" xml:id="kock-0458-olbia-74-l6" xml:lang="grc">Α. ὑάκινθος, ἄρνες — Β. κλεψύδραι, νόμοι, γραφαί.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 640b ὡς ὁ Εὔβουλος ἐν Ὀλβίᾳ ἔφη κτλ.</note>
+              <note type="apparatus">2. σῦκα, κλητῆρες Pierson. Moer. 368] οὐ κακλητηρες Α. 4. 5. δικαι πυος πυριατη sine accentu A. in personarum notatione secutus sum Toeppelium (Progr. Neobr. 1851, 12 not.). cf. Arist. Plut. 190 sq. 1. verbi πωλήσεται neque tempus neque forma probanda. scribendum πωλεῖτ’ ἀεί. cf. Aristoph. fr. 569. 5. cf. Arist. Vesp. 710. Cratin. 142.</note>
+            </div>
+          </div></body></text></TEI>

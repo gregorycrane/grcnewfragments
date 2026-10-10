@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΠΑΡΟΙΜΙΑΙ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.paroimiai.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.paroimiai.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.paroimiai.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_paroimiai"><head>ΠΑΡΟΙΜΙΑΙ</head><div type="textpart" subtype="fragment" n="188" xml:id="kock-0410-paroimiai-188" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_paroimiai">
+              <lg>
+                <l n="1" xml:id="kock-0410-paroimiai-188-l1" xml:lang="grc">ἐγὼ γὰρ ἄν τι τῶν ὑμετέρων φάγοιμι,</l>
+                <l n="2" xml:id="kock-0410-paroimiai-188-l2" xml:lang="grc">μύκητας ὠμοὺς ἂν φαγεῖν ἐμοὶ δοκῶ</l>
+                <l n="3" xml:id="kock-0410-paroimiai-188-l3" xml:lang="grc">καὶ στρυφνὰ μῆλα κεἴ τι πνίγει βρῶμά τι.</l>
+              </lg>
+              <note type="source">Athenaeus 2,60de Κηφισόδωρος ὁ Ἰσοκράτους μαθητὴς ἐν τοῖς κατὰ ’Αριστοτέλους . . . ἐπιτιμᾷ τῷ φιλοσόφῳ ὡς οὐ ποιήσαντι λόγου ἄξιον τὸ παροιμίας ἀθροῖσαι, ’Αντιφάνους ὅλον ποιήσαντος δρᾶμα τὸ ἐπιγραφόμενον Παροιμίαι, ἐξ οὗ καὶ παρατίθεται τάδε κτλ.</note>
+              <note type="apparatus">1. ἔγωγ’ ἂν εἰ τῶν Porson. φάγοιμί τι Casaub. 2. ἐμοὶ add. Casaub. 3. κεἴ τι Dindf.] καὶ εἴ τι. πνίγει C] πνίγοι. βρῶμ’ ἔτι Dindf. βρωμάτων Mein. primus versus nondum persanatus videtur. aversatur nescio quis Pythagoristarum opinor vel cynicorum victum, vel acerbissima et tristissima alimenta istorum cenis se praeferre dicens.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="189" xml:id="kock-0410-paroimiai-189" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_paroimiai">
+              <lg>
+                <l n="1" xml:id="kock-0410-paroimiai-189-l1" xml:lang="grc">στίμμιν, κάτοπτρα, κρωβύλους, κεκρυφάλους.</l>
+              </lg>
+              <note type="source">Photius στίμμι καὶ στίμμιν· ὅ τινες στίβην (στίβι). ’Αντιφάνης Παροιμιαζομένῳ κτλ. κροβύλους cod. Herodian. I 354, 7. II 767,4 στίμμι, ὅπερ γυναῖκες κατὰ τοὺς ὀφθαλμοὺς χρίονται. ΙΙ 767, 17 εὑρέθη δὲ καὶ τὸ στίμμι θηλυκῶς λεγόμενον οἷον ἡ στίμμις στίμμεος ἰωνικῶς καὶ στίμμεως ἀττικῶς, ἡ αἰτιατικὴ στίμμιν οἷον Ἴων Ὀμφάλη (fr. 25 N.).</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUBULUS, ΑΝΤΙΟΠΗ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.antiope.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.antiope.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.antiope.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_antiope"><head>ΑΝΤΙΟΠΗ</head><div type="textpart" subtype="fragment" n="10" xml:id="kock-0458-antiope-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_antiope">
+              <lg>
+                <l n="1" xml:id="kock-0458-antiope-10-l1" xml:lang="grc">Ζῆθον μὲν ἐλθόνθ᾽ ἁγνὸν ἐς Θήβης πέδον</l>
+                <l n="2" xml:id="kock-0458-antiope-10-l2" xml:lang="grc">οἰκεῖν κελεύει· καὶ γὰρ ἀξιωτέρους</l>
+                <l n="3" xml:id="kock-0458-antiope-10-l3" xml:lang="grc">πωλοῦσιν, ὡς ἔοικε, τοὺς ἄρτους ἐκεῖ·</l>
+                <l n="4" xml:id="kock-0458-antiope-10-l4" xml:lang="grc">ὁ δ᾽ ὀξύπεινος· τὸν δὲ μουσικώτατον</l>
+              </lg>
+              <pb n="168" facs="urn:hathi:hvd.hxijve:scan:174"/>
+              <lg>
+                <l n="5" xml:id="kock-0458-antiope-10-l5" xml:lang="grc">κλεινὰς Ἀθήνας ἐκπερᾶν Ἀμφίονα,</l>
+                <l n="6" xml:id="kock-0458-antiope-10-l6" xml:lang="grc">οὗ ῥᾷστ’ ἀεὶ πεινῶσι Κεκροπιδῶν κόροι</l>
+                <l n="7" xml:id="kock-0458-antiope-10-l7" xml:lang="grc">κάπτοντες αὔρας ἐλπίδας σιτούμενοι.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 47 b Εὔβουλος κτλ. ad Antiopam recte rettulit Meinekius.</note>
+              <note type="apparatus">1. ἐλθόνθ’ Iacobs. Addit. Ath. 40] ἐλθεῖν. quod si retinetur, v. 2 κᾀκεῖν scribendum est. 4. ὁ Grotius] σύ. ‘nescio quis nuntius ad Zethum et Amphionem’ (vel potius ad Antiopam) ‘Iovis ut videtur mandata perfert’. Cobet. Obs. crit. Plat. 119. fortasse Mercurium induxit poeta. qui si (in prologo opinor, cf. Toeppel. Progr. Neobr. 1851, 14) oratione recta Iovis ipsius verba pronuntiabat, v. 2 κελεύω scribendum est. simillimum esse prologum Ionis monet Toeppelius, conl. simul Lucian. Deor. dial. 3 extr. 20 init. Hom. Il. 2, 9 sq. Nicostr. 21. 2. ἀξιωτέρους, ut Arist. Eq. 645. 672. Vesp. 491. cf. Cobet. Mnem. VIIII 345. 6. 6. ῥᾶστα, ut θεοὶ ῥεῖα ζώοντες. 7. Aesch. Ag. 1668 οἶδ’ ἐγὼ φεύγοντας ἄνδρας ἐλπίδας σιτουμένους. non huc pertinent quae Toeppelius contulit Eurip. Cycl. 629 ἐγκάψαντες αἰθέρα γνάθοις, siquidem eis verbis ut taceant admonentur satyri.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0458-antiope-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_antiope">
+              <lg>
+                <l n="1" xml:id="kock-0458-antiope-11-l1" xml:lang="grc">Καλλίστρατός τίς ἐστιν . . . . οὗτος οὖν</l>
+                <l n="2" xml:id="kock-0458-antiope-11-l2" xml:lang="grc">πυγὴν μεγάλην εἶχ’, ὦ Χαριάδη, καὶ καλήν.</l>
+                <l n="3" xml:id="kock-0458-antiope-11-l3" xml:lang="grc">Β. τοῦτον καταλεκτέ’ ἐστὶν ἐς τοὺς κόλλοπας</l>
+                <l n="4" xml:id="kock-0458-antiope-11-l4" xml:lang="grc">τοὺς ἐκδρομάδας.</l>
+              </lg>
+              <note type="source">Eustathius 1915, 18 ἐν τοῖς τοῦ γραμματικοῦ Ἀριστοφάνους φέρεται ταῦτα· κόλλοπα τὸ παχὺ δέρμα φασὶ λέγεσθαι . . . ἕτεροι δὲ οὕτω καλοῦσι τὸν περιτρέχοντα καὶ ἑταιροῦντα, ὡς καὶ Εὔπολις ἐν τῷ Καλλίστρατός τίς ἐστι κτλ. haec non Eupolidis, sed Eubuli ex Antiopa esse docuit Meinekius conl. Bekker. Anecd. 102, 33 κόλλοπάς φασι δεῖν κυρίως λέγειν τοὺς τῶν ὀργάνων . . . οὐ τοὺς ἀνδρογύνους. Εὔβουλος Ἀντιόπῃ ἐπὶ τοῦ ἀνδρογύνου. cf. quae ad Plat. com. 186 adnotavimus. verba melius digessit Meinekius. Eustathius ἐστί τις — μεγάλην πυγὴν εἶχεν — καταλεκτέον ἐς κτλ.</note>
+              <note type="apparatus">1. Bergkius Καλλίστρατος δ’ ἔστιν τίς; Β. ὅστις; οὗτος ὃς κτλ. Nauckius Aristoph. Byz. 170 Καλλίστρατός τίς ἐστιν οὕτως· οὗτος οὖν (conl. Arist. Lys. 784), quod mihi prorsus alienum videtur. excidisse arbitror in exitu versus ὁρᾷς, de quo cf. quae ad Arist. Nub. 355 adnotavimus. de Callistrato cf. 107, 5. 6. Theopomp. com. 30. Antiph. 300. Theopomp. hist. Athen. 4, 166 e Καλλίστρατος ὁ Καλλικράτους δημαγωγὸς καὶ αὐτὸς πρὸς μὲν τὰς ἡδονὰς ἦν ἀκρατής, τῶν δὲ πολιτικῶν πραγμάτων ἦν ἐπιμελής. 4. Eustath. ἐκδρομάδες οἱ ἀκολασταίνοντες ὑπέρακμα, ὡς παραδεδραμηκότες τὴν ὥραν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12" xml:id="kock-0458-antiope-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_antiope">
+              <lg>
+                <l n="1" xml:id="kock-0458-antiope-12-l1" xml:lang="grc">πώνειν μὲν ἁμὲς καὶ φαγεῖν μέγ’ ἀνδρικοὶ</l>
+                <l n="2" xml:id="kock-0458-antiope-12-l2" xml:lang="grc">καὶ καρτερεῖμεν, τοῖς δ’ Ἀθηναίοις λέγειν</l>
+                <l n="3" xml:id="kock-0458-antiope-12-l3" xml:lang="grc">καὶ μικρὰ φαγέμεν, τοὶ δὲ Θηβαῖοι μέγα.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 417 b καὶ ἔθνη δὲ ὅλα εἰς πολυφαγίαν ἐκωμῳδεῖτο, ὡς τὸ Βοιωτόν. Εὔβουλος γοῦν ἐν Ἀντιόπη φησί κτλ. Eustath. 954, 33 ὡς δὲ καὶ ἐπολυφάγουν (οἱ Βοιωτοί), λεγέτω Εὔβουλος, παρ’ ᾧ φησί τις Βοιωτός (cf. Ahrens Dial. II 523), ὅτι πονεῖν ἄμμες καὶ φαγεῖν ἀνδρικοί.</note>
+              <note type="apparatus">1. πώνειν (i. e. πίνειν) Ahrens Dial. II 524] πονεῖν Α. ἁμὲς Ahrens] ἄμες Α. μέγ’ Mein.] μὲν Α. 2. καρτερεῖμεν Ahrens] καρτερὴ μὲν Α. τοῖς δ’ Ἀθηναίοις Α] τοὶ δ’ Ἀθηναῖοι. καρτερεῖμεν τοίδε Θηβαῖοι· λέγειν | καὶ μικρὰ φαγέμεν τοῖς Ἀθηναίοις μέτα Ahrens. τοὶ δὲ Θηβαῖοι μέγα glossema esse suspicatur G. A. Hirschig. Ann. crit. 5. cui de τοὶ δὲ Θηβαῖοι adsentior, sed ad explendam oppositionem cum A scribendum censeo τοῖς δ’ Ἀθηναίοις λέγειν καὶ μικρὰ φαγέμεν, μικρὰ δ’ αὖ πώνειν μέλει.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="13" xml:id="kock-0458-antiope-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_antiope">
+              <p>περὶ πρώτους ὕπνους</p>
+              <note type="source">Εὔβουλος Ἀντιόπη. Bekker. Anecd. 111, 22.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>DIPHILUS, ΣΥΝΩΡΙΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Diphilus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.synoris.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0447.synoris.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0447.synoris.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_synoris"><head>ΣΥΝΩΡΙΣ</head><div type="textpart" subtype="fragment" n="77" xml:id="kock-0447-synoris-77" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_synoris">
+              <lg>
+                <l n="1" xml:id="kock-0447-synoris-77-l1" xml:lang="grc">ἐχηνίασας. ποιοῦσι τοῦτο πάντες οἱ</l>
+                <l n="2" xml:id="kock-0447-synoris-77-l2" xml:lang="grc">παρὰ Τιμοθέῳ.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 657 e χηνίζειν δὲ εἴρηται ἐπὶ τῶν αὐλούντων. Δίφιλος Συνωρίδι κτλ.</note>
+              <note type="apparatus">1. ἐχηνίασας A] ἐχήνισας H. Stephanus. χηνίζειν] χρονίζειν C. χηνιάζειν sic formatum ut σιφνιάζειν (Aristoph. fr. 912). Timotheum auloedum aliquem illius aetatis fuisse, non clarum illum Milesium, Meinekius arbitratur. at quamquam is mortuus est Ol. 105, 4, tamen a Diphilo commemorari potuit, dummodo scribamus οἱ παρὰ Τιμοθέου, i. e. discipuli et successores eius.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="73" xml:id="kock-0447-synoris-73" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_synoris">
+              <lg>
+                <l n="1" xml:id="kock-0447-synoris-73-l1" xml:lang="grc">ἄριστ’ ἀπαλλάττεις ἐπὶ τούτου τοῦ κύβου.</l>
+                <l n="2" xml:id="kock-0447-synoris-73-l2" xml:lang="grc">Β. ἀστεῖος εἶ. δραχμὴν ὑπόθες. Α. κεῖται πάλαι.</l>
+                <l n="3" xml:id="kock-0447-synoris-73-l3" xml:lang="grc">πῶς ἂν βάλοιμ’ Εὐριπίδην; Β. οὐκ ἄν ποτε</l>
+                <l n="4" xml:id="kock-0447-synoris-73-l4" xml:lang="grc">Εὐριπίδης γυναῖκα σώσει. οὐχ ὁρᾷς</l>
+                <l n="5" xml:id="kock-0447-synoris-73-l5" xml:lang="grc">ἐν ταῖς τραγωδίαισιν αὐτὰς ὡς στυγεῖ;</l>
+                <l n="6" xml:id="kock-0447-synoris-73-l6" xml:lang="grc">τοὺς δὲ παρασίτους ἠγάπα. λέγει γέ τοι</l>
+                <l n="7" xml:id="kock-0447-synoris-73-l7" xml:lang="grc">‘ἀνὴρ γὰρ ὅστις εὖ βίον κεκτημένος</l>
+                <l n="8" xml:id="kock-0447-synoris-73-l8" xml:lang="grc">μὴ τουλάχιστον τρεῖς ἀσυμβόλους τρέφει,</l>
+                <l n="9" xml:id="kock-0447-synoris-73-l9" xml:lang="grc">ὄλοιτο, νόστου μή ποτ’ εἰς πάτραν τυχών.’</l>
+                <l n="10" xml:id="kock-0447-synoris-73-l10" xml:lang="grc">Α. πόθεν ἐστὶ ταῦτα, πρὸς θεῶν; Α. τί δέ σοι μέλει;</l>
+                <l n="11" xml:id="kock-0447-synoris-73-l11" xml:lang="grc">οὐ γὰρ τὸ δρᾶμα, τὸν δὲ νοῦν σκοπούμεθα.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 247ab Δίφιλος δ’ ἐν Συνωρίδι, ἑταίρας δ’ ὄνομα ἡ Συνωρίς, Εὐριπίδου μνησθεὶς (κύβος δέ τις οὕτως καλεῖται Εὐριπίδης) παίζων καὶ πρὸς τὸ τοῦ ποιητοῦ ὄνομα ἅμα καὶ περὶ παρασίτων τάδε λέγει κτλ.</note>
+              <note type="apparatus">1. ἄριστα Α. 3. ποτ’ Α.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="74_75" xml:id="kock-0447-synoris-74_75" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_synoris">
+              <lg>
+                <l n="1" xml:id="kock-0447-synoris-74_75-l1" xml:lang="grc">ὀργίζεται; παράσιτος ὢν ὀργίζεται;</l>
+                <l n="2" xml:id="kock-0447-synoris-74_75-l2" xml:lang="grc">Β. οὐκ ἀλλ' ἀλείψας τὴν τράπεζαν τῇ χολῇ</l>
+                <l n="3" xml:id="kock-0447-synoris-74_75-l3" xml:lang="grc">ὥσπερ τὰ παιδί' αὑτὸν ἀπογαλακτιεῖ.</l>
+                <l n="4" xml:id="kock-0447-synoris-74_75-l4" xml:lang="grc">. . . . . . . . . . . .</l>
+                <l n="5" xml:id="kock-0447-synoris-74_75-l5" xml:lang="grc">τότε φάγοις, παράσιθ'. Β. ὅρα</l>
+                <l n="6" xml:id="kock-0447-synoris-74_75-l6" xml:lang="grc">ὡς διασέσυρκε τὴν τέχνην· οὐκ οἶσθ' ὅτι</l>
+                <l n="7" xml:id="kock-0447-synoris-74_75-l7" xml:lang="grc">μετὰ τὸν κιθαρῳδὸν ὁ παράσιτος κρίνεται;</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 6, 247 c ἐν δὲ τῇ διασκευῇ αὐτοῦ τοῦ (τοῦ αὐτοῦ) (fr. 74) δράματος περὶ ὀργιζομένου παρασίτου λέγων φησίν. καὶ ἑξῆς (fr. 75). Eustathius 1829, 49 Διφίλου τοῦ κωμῳδοῦ τὸ ἀλλ' ἀλείψας τῇ χολῇ ἀπογαλακτίζει τὸν δεῖνα ὥσπερ τὰ παιδία.</p>
+              </note>
+              <note type="apparatus">
+                <p>3. αὑτὸν] αὐτὸν Α. 4. παράσιτε Α. 5. διασέσυρκε Β] διασεσύρεκε Α. 2. nutrices ut infantes ablactent mammas felle inungunt. 'ita parasitus bile in mensam hospitalem effusa se ipse a convivio excludet.' 4. personas distinxit Iacobs. Add. Ath. 153. 5. artem, parasiticam. Plaut. Capt. 3, 1, 9. 6. i. e. proximus post citharoedum locus parasito conceditur. κρίνειν similiter Arist. Ran. 1416. Av. 1102. 1114. Eccl. 1155 sq. simile proverbium μετὰ Λέσβιον ᾠδόν (Terpandrum) Cratin. 243.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="76" xml:id="kock-0447-synoris-76" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_synoris">
+              <lg>
+                <l n="1" xml:id="kock-0447-synoris-76-l1" xml:lang="grc">ἕλκ' ἐς μέσον τὸν φιμὸν ὡς ἂν ἐμβάλῃ.</l>
+              </lg>
+              <note type="source">
+                <p>Harpocratio et (om. fabulae nomine) Photius et Suidas φιμοί. Αἰσχίνης (1, 59)... 'φιμοὺς καὶ κυβευτικὰ ἕτερα ὄργανα'. φιμὸς</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>DIPHILUS, ΕΝΑΓΙΣΜΑΤΑ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Diphilus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.enagismata.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0447.enagismata.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0447.enagismata.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_enagismata"><head>ΕΝΑΓΙΣΜΑΤΑ</head><div type="textpart" subtype="fragment" n="38" xml:id="kock-0447-enagismata-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_enagismata">
+              <lg>
+                <l n="1" xml:id="kock-0447-enagismata-38-l1" xml:lang="grc">εἴ μοι συνήθης, Φαίδιμ', ὢν ἐτύγχανεν</l>
+                <l n="2" xml:id="kock-0447-enagismata-38-l2" xml:lang="grc">ὁ Χαβρίου Κτήσιππος, εἰσηγησάμην</l>
+                <l n="3" xml:id="kock-0447-enagismata-38-l3" xml:lang="grc">νόμον ἄν τιν' οὐκ ἄχρηστον, ὡς ἐμοὶ δοκεῖ,</l>
+                <l n="4" xml:id="kock-0447-enagismata-38-l4" xml:lang="grc">ὥστ' ἐπιτελεσθῆναί ποτ' αὐτῷ τοῦ πατρὸς</l>
+                <l n="5" xml:id="kock-0447-enagismata-38-l5" xml:lang="grc">τὸ μνῆμα, κατ' ἐνιαυτὸν ἕνα λίθον</l>
+                <l n="6" xml:id="kock-0447-enagismata-38-l6" xml:lang="grc">ἁμαξιαῖον· καὶ σφόδρ' εὐτελὲς λέγω.</l>
+              </lg>
+              <note type="source">Athenaeus 4, 165f καὶ Κτήσιππος δ' ὁ Χαβρίου υἱὸς εἰς τοσοῦτον ἦλθεν ἀσωτίας, ὡς καὶ τοῦ μνήματος τοῦ πατρός, εἰς ὃ οἱ Ἀθηναῖοι χιλίας ἀνάλωσαν δραχμάς, τοὺς λίθους πωλῆσαι εἰς τὰς ἡδυπαθείας. Δίφιλος γοῦν ἐν τοῖς Ἐναγίζουσί φησιν κτλ.</note>
+              <note type="apparatus">1. εἴ μοι K.] εἰ μὴ A. Φαίδιμ' ὢν Dobr. Adv. II 307] φαιδίμῳ γ' A. 2. ὁ] υἱὸς Dobr. ὢν ὁ G. Herm. ὁ τοῦ Bergk. 3. ἄν τιν' K.] τιν'. 4. ὥστε ἐπιτελεσθῆναι A] ὡς μὴ κατεδεσθῆναι K. 5. ἕνα] ἕνα φαγεῖν Erfurdt. Obs. 453. ἕν' ἐρυγεῖν Mein. V 111. frustra. scrib. ἕνα θεῖναι. cf. Timocl. 5. Menand. 352 Mein. — hoc dicit: ne monumentum ab Atheniensibus Chabriae positum a Ctesippo posset venum dari et consumi, (tum cum exstruebatur) legem tulissem ut singulis annis unus lapis poneretur, sed is molaris, ne posset moveri.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="39" xml:id="kock-0447-enagismata-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_enagismata">
+              <note type="source">Photius et Suidas (cf. Append. prov. 5, 41. Apostol. 18, 56a) ψωλὸν γενέσθαι δεῖ σε μέχρι τοῦ μυρρίνου· ἡ παροιμία παρὰ Ἀριστοφάνει ἐν τοῖς Ἱππεῦσιν (964, ubi similia schol. Ald.). ἐλέχθη ἐπὶ τῶν μέχρι πολλοῦ διελκυσμένων (διεσκυλμένων Ald. διεσκολυμμένων Kuster. ἀπὸ τοῦ ἐσκολύφθαι schol. Ar. RV). παρὰ δὲ Διφίλῳ ἐν τοῖς Ἐναγίσμασι παραπεποίηται ἄχρι τοῦ λάρυγγος. itaque Diphilus dixit ψωλὸς μέχρι τοῦ λάρυγγος vel (secundum H. Iacobium Mein. V cccvi) ἄχρι τοῦ λάρυγγος, nihil amplius.</note>
+            </div>
+          </div></body></text></TEI>

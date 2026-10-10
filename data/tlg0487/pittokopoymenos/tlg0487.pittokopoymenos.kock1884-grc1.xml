@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHILEMON, ΠΙΤΤΟΚΟΠΟΥΜΕΝΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Philemon</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.pittokopoymenos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0487.pittokopoymenos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0487.pittokopoymenos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_pittokopoymenos"><head>ΠΙΤΤΟΚΟΠΟΥΜΕΝΟΣ</head><div type="textpart" subtype="fragment" n="63" xml:id="kock-0487-pittokopoymenos-63" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_pittokopoymenos">
+              <head>63</head>
+              <lg>
+                <l n="1" xml:id="kock-0487-pittokopoymenos-63-l1" xml:lang="grc">ἰδοὺ πάρεστιν, ὡς ὁρᾷς· τριτημόρου</l>
+                <l n="2" xml:id="kock-0487-pittokopoymenos-63-l2" xml:lang="grc">ἕκαστος ὑμῶν ἦλθεν· εἰς τοὺς τέτταρας</l>
+                <l n="3" xml:id="kock-0487-pittokopoymenos-63-l3" xml:lang="grc">εἴληφεν ὑμῖν οὗτοσὶ τριώβολον.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 9, 66 ὅτι δὲ τοὺς ἓξ χαλκοῦς τριτημόριον ὠνόμαζον, ἔστιν εὑρεῖν ἐν τῷ Φιλήμονος . . . Πιττοκοπουμένῳ κτλ. τεττάρων γὰρ καὶ εἴκοσι χαλκῶν ὄντων ἐν τῷ τριωβόλῳ, ἓξ ἑκάστῳ γίνονται χαλκοῖ τέτταρσιν οὖσιν, οὓς εἴρηκεν τριτημόριον. Photius τριτημόριον . . . ὅτι δὲ τριτημόριόν ἐστιν ἓξ χαλκοῖ, Φιλήμων διδάσκει. Suid. et Zonar. τριτημόριον τοὺς ἓξ χαλκοῦς τοῦ ὀβολοῦ εἴρηκε Φιλήμων. Etym. m. 753, 50 τριτημόριον τοὺς ἓξ χαλκοῦς εἴρηκε Φιλόξενος (Φιλήμων Mein.). Bekker. Anecd. 306, 26 τριτημόριόν ἐστιν οἱ ἓξ χαλκοῖ.</p>
+              </note>
+              <note type="apparatus">
+                <p>2. τοὺς add. Clericus. 3. ὑμῖν Hemsterh.] ἡμῖν. οὗτοσὶ Salmas.] οὕτωσί.</p>
+                <p>‘conductor quattuor mercennariorum debebat singulis sex chalcos: cum tot aenei chalci non essent ei ad manum, dedit uni tres obolos argenteos, aequivalentes quater sex chalcis, quos ipsi postea κερματίζειν possent.’ Bentl.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="64" xml:id="kock-0487-pittokopoymenos-64" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_pittokopoymenos">
+              <head>64</head>
+              <lg>
+                <l n="1" xml:id="kock-0487-pittokopoymenos-64-l1" xml:lang="grc">ὀβολοῦ τὸ πρῶτον ἡμῖν ἐνέχεεν</l>
+                <l n="2" xml:id="kock-0487-pittokopoymenos-64-l2" xml:lang="grc">καὶ τεττάρων χαλκῶν μετὰ ταῦτα. Β. καὶ μάλα·</l>
+                <l n="3" xml:id="kock-0487-pittokopoymenos-64-l3" xml:lang="grc">τρί’ ἡμιωβόλι’ ἐστί· χαλκοῦ θερμὸν ἦν.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 9, 67 ὅτι δὲ οἱ τέτταρες χαλκοῖ ἡμιωβόλιόν εἰσιν, ἐν τῷ αὐτῷ δράματι Φιλήμονος ἔστιν κτλ. et 9, 70 τουτὶ μέντοι τὸ</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

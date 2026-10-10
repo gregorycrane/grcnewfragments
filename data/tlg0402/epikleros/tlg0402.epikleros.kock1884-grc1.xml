@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΕΠΙΚΛΗΡΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.epikleros.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.epikleros.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.epikleros.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_epikleros"><head>ΕΠΙΚΛΗΡΟΣ</head><div type="textpart" subtype="fragment" n="80" xml:id="kock-0402-epikleros-80" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_epikleros">
+              <head>κακουχία</head>
+              <note type="source">Ἄλεξις Ἐπικλήρῳ. Bekker. Anecd. 104, 24. cf. Plat. Reip. 10, 615 b.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="78" xml:id="kock-0402-epikleros-78" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_epikleros">
+              <lg>
+                <l n="1" xml:id="kock-0402-epikleros-78-l1" xml:lang="grc">ὅστις ἀγοράζει πτωχὸς ὢν ὄψον πολύ,</l>
+                <l n="2" xml:id="kock-0402-epikleros-78-l2" xml:lang="grc">ἀπορούμενός τε τἄλλα πρὸς τοῦτ’ εὐπορεῖ,</l>
+                <l n="3" xml:id="kock-0402-epikleros-78-l3" xml:lang="grc">τῆς νυκτὸς οὗτος τοὺς ἀπαντῶντας ποιεῖ</l>
+                <l n="4" xml:id="kock-0402-epikleros-78-l4" xml:lang="grc">γυμνοὺς ἅπαντας. εἶτ’ ἐπάν τις ἐκδυθῇ,</l>
+                <l n="5" xml:id="kock-0402-epikleros-78-l5" xml:lang="grc">τηρεῖν ἕωθεν εὐθὺς ἐν τοῖς ἰχθύσιν·</l>
+                <l n="6" xml:id="kock-0402-epikleros-78-l6" xml:lang="grc">ὃν ἂν δ’ ἴδῃ πρῶτον πένητα καὶ νέον</l>
+                <l n="7" xml:id="kock-0402-epikleros-78-l7" xml:lang="grc">παρὰ Μικίωνος ἐγχέλεις ὠνούμενον,</l>
+                <l n="8" xml:id="kock-0402-epikleros-78-l8" xml:lang="grc">ἀπάγειν λαβόμενον εἰς τὸ δεσμωτήριον.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 227 d πρὸς δὲ τοὺς περιέργως ὀψωνοῦντας τάδε φησὶν Ἄλεξις ἐν Ἐπικλήρῳ κτλ. idem 6, 227 b Ἄλεξις ἐν Ἐπικλήρῳ Μικίωνος ἰχθυοπώλου τινὸς μνημονεύει.</note>
+              <note type="apparatus">3. ποεῖ A. 4. ἅπαντας suspectum Meinekio Anal. Ath. 98. εἶτ’] δεῖ τ’ Mein. δεῖ δ’ G. A. Hirschig. Ann. crit. 11. scribendum videtur γυμνούς· ἅπαντα δεῖ δ’, ἐάν κτλ. 5. τηρεῖ C. 6. ἂν δ’ Dindf.] δ’ ἂν A. 8. ἀπάγει C. — cf. 107.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="79" xml:id="kock-0402-epikleros-79" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_epikleros">
+              <lg>
+                <l n="1" xml:id="kock-0402-epikleros-79-l1" xml:lang="grc">ἀλλ’ ἔγωγ’, ὦ παῖ, δίδωμι, καὶ ποιήσω πάνθ’ ὅσα</l>
+                <l n="2" xml:id="kock-0402-epikleros-79-l2" xml:lang="grc">οὗτος αἰτεῖται παρ’ ἡμῶν.</l>
+              </lg>
+            </div>
+          </div></body></text></TEI>

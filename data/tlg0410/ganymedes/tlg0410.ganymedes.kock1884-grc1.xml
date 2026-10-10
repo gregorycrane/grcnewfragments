@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΓΑΝΥΜΗΔΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.ganymedes.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.ganymedes.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.ganymedes.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_ganymedes"><head>ΓΑΝΥΜΗΔΗΣ</head><div type="textpart" subtype="fragment" n="73" xml:id="kock-0410-ganymedes-73" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_ganymedes">
+              <lg>
+                <l n="1" xml:id="kock-0410-ganymedes-73-l1" xml:lang="grc">τῶν οἰκιῶν οὖν ὧν ὁρᾶς, ἐν τῇδε μὲν</l>
+                <l n="2" xml:id="kock-0410-ganymedes-73-l2" xml:lang="grc">ὁ τῶν Φρυγῶν τύραννος οἰκῶν τυγχάνει</l>
+                <l n="3" xml:id="kock-0410-ganymedes-73-l3" xml:lang="grc">γέρων, ἀπ’ ἀρχῆς Λαομέδων καλούμενος.</l>
+              </lg>
+              <note type="source">Schol. Eurip. Troad. 821 καὶ Ἀντιφάνης Λαομέδοντος παῖδα τὸν Γανυμήδην φησὶ διὰ τούτων κτλ. desunt igitur in extremo fragmento ea ipsa verba, quibus poeta Ganymedem Laomedontis</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="74" xml:id="kock-0410-ganymedes-74" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_ganymedes">
+              <lg>
+                <l n="1" xml:id="kock-0410-ganymedes-74-l1" xml:lang="grc">Π. οἴμοι περιπλοκὰς</l>
+                <l n="2" xml:id="kock-0410-ganymedes-74-l2" xml:lang="grc">λίαν ἐρωτᾶς. Α. ἀλλ’ ἐγὼ σαφῶς φράσω.</l>
+                <l n="3" xml:id="kock-0410-ganymedes-74-l3" xml:lang="grc">τῆς ἁρπαγῆς τοῦ παιδὸς εἰ ξύνοισθά τι,</l>
+                <l n="4" xml:id="kock-0410-ganymedes-74-l4" xml:lang="grc">ταχέως λέγειν χρὴ πρὶν κρέμασθαι. Π. πότερά μοι</l>
+                <l n="5" xml:id="kock-0410-ganymedes-74-l5" xml:lang="grc">γρῖφον προβάλλεις τοῦτον εἰπεῖν, δέσποτα,</l>
+                <l n="6" xml:id="kock-0410-ganymedes-74-l6" xml:lang="grc">τῆς ἁρπαγῆς τοῦ παιδὸς εἰ ξύνοιδά τι,</l>
+                <l n="7" xml:id="kock-0410-ganymedes-74-l7" xml:lang="grc">ἢ τί δύναται τὸ ῥηθέν; Α. ἔξω τις δότω</l>
+                <l n="8" xml:id="kock-0410-ganymedes-74-l8" xml:lang="grc">ἱμάντα ταχέως οἷον. Π. οὐκ ἔγνων ἴσως.</l>
+                <l n="9" xml:id="kock-0410-ganymedes-74-l9" xml:lang="grc">ἔπειτα τοῦτο ζημιοῖς με; μηδαμῶς·</l>
+                <l n="10" xml:id="kock-0410-ganymedes-74-l10" xml:lang="grc">ἅλμης δ’ ἐχρῆν τι περιφέρειν ποτήριον.</l>
+                <l n="11" xml:id="kock-0410-ganymedes-74-l11" xml:lang="grc">Α. οἶσθ’ οὖν ὅπως δεῖ τοῦτό σ’ ἐκπιεῖν; Π. ἐγώ;</l>
+                <l n="12" xml:id="kock-0410-ganymedes-74-l12" xml:lang="grc">κομιδή γε. Α. πῶς; Π. ἐνέχυρον ἀποφέροντά σου.</l>
+                <l n="13" xml:id="kock-0410-ganymedes-74-l13" xml:lang="grc">Α. οὐκ ἀλλ’ ὀπίσω τὼ χεῖρε ποιήσαντα δεῖ</l>
+                <l n="14" xml:id="kock-0410-ganymedes-74-l14" xml:lang="grc">ἕλκειν ἀπνευστί.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 10, 459 a λεκτέον ἤδη καὶ τίνα κόλασιν ὑπέμενον οἱ μὴ λύσαντες τὸν προτεθέντα γρῖφον. ἔπινον οὗτοι ἅλμην παραμισγομένην τῷ αὐτῶν ποτῷ, καὶ ἔδει προσενέγκασθαι τὸ ποτήριον ἀπνευστί, ὡς Ἀντιφάνης δηλοῖ ἐν Γανυμήδει διὰ τούτων κτλ. cf. Pollux 6, 107 ὁ μὲν λύσας γέρας εἶχε κρεῶν τινα περιφοράν, ὁ δὲ ἀδυνατήσας ἅλμης ποτήριον ἐκπιεῖν.</p>
+              </note>
+              <note type="apparatus">
+                <p>1. ἐρωτᾶς] ἔρωτας A. 4. κρέμασθαι VL] κρεμᾶσθαι A. ποτερα A. 5. προβάλλεις VL] προβαλεῖς A. 6. 7. τι ἢ Dindf.] τιν A. 10. παραφέρειν Villebrun. 11. τοῦτό σ’ Casaub.] σε τοῦτ’ A. 12. κομιδῆι A. σου Herm.] σοι. om. A.</p>
+              </note>
+            </div>
+            </div></body></text></TEI>

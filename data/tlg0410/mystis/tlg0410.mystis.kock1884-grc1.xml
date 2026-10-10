@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΜΥΣΤΙΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.mystis.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.mystis.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.mystis.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_mystis"><head>ΜΥΣΤΙΣ</head><div type="textpart" subtype="fragment" n="163" xml:id="kock-0410-mystis-163" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_mystis">
+              <lg>
+                <l n="1" xml:id="kock-0410-mystis-163-l1" xml:lang="grc">σὺ δ᾽ ἀλλὰ πίθι. Β. τοῦτο μέν σοι πείσομαι·</l>
+                <l n="2" xml:id="kock-0410-mystis-163-l2" xml:lang="grc">καὶ γὰρ ἐπαγωγόν, ὦ θεοί, τὸ σχῆμά πως</l>
+                <l n="3" xml:id="kock-0410-mystis-163-l3" xml:lang="grc">τῆς κύλικός ἐστιν ἄξιόν τε τοῦ κλέους</l>
+                <l n="4" xml:id="kock-0410-mystis-163-l4" xml:lang="grc">τοῦ τῆς ἑορτῆς. οὗ μὲν ἦμεν ἄρτι γὰρ</l>
+                <l n="5" xml:id="kock-0410-mystis-163-l5" xml:lang="grc">ἐξ ὀξυβαφίων κεραμεῶν ἐπίνομεν·</l>
+                <l n="6" xml:id="kock-0410-mystis-163-l6" xml:lang="grc">τούτῳ δέ, τέκνον, πολλὰ κἀγάθ᾽ οἱ θεοὶ</l>
+                <l n="7" xml:id="kock-0410-mystis-163-l7" xml:lang="grc">τῷ δημιουργῷ δοῖεν, ὃς ἐποίησέ σε,</l>
+                <l n="8" xml:id="kock-0410-mystis-163-l8" xml:lang="grc">τῆς συμμετρίας καὶ τῆς ἀφελείας εἵνεκα.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 446 bc Ἀντιφάνης ἐν Μύστιδι κτλ. idem 11, 494 cd ὅτι δ᾽ ἐστὶ τὸ ὀξύβαφον εἶδος κύλικος μικρᾶς κεραμεᾶς, σαφῶς παρίστησιν Ἀντιφάνης ἐν Μύστιδι διὰ τούτων· γραῦς ἐστι φίλοινος, ἐπαινοῦσα κύλικα μεγάλην καὶ ἐξευτελίζουσα τὸ ὀξύβαφον (τὴν κύλικα Α) ὡς βραχύ. εἰπόντος οὖν τινος πρὸς αὐτὴν ‘σὺ δ᾽ ἀλλὰ πίθι’ λέγει τοῦτο μέν κτλ. ν. 5 adfertur a Polluce 10, 67.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="164" xml:id="kock-0410-mystis-164" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_mystis">
+              <lg>
+                <l n="1" xml:id="kock-0410-mystis-164-l1" xml:lang="grc">ταῖς εὐτελείαις οἱ θεοὶ χαίρουσι γάρ·</l>
+                <l n="2" xml:id="kock-0410-mystis-164-l2" xml:lang="grc">τεκμήριον δ’· ὅταν γὰρ ἑκατόμβας τινὲς</l>
+                <l n="3" xml:id="kock-0410-mystis-164-l3" xml:lang="grc">θύωσιν, ἐπὶ τούτοις ἅπασιν ὕστατος</l>
+                <l n="4" xml:id="kock-0410-mystis-164-l4" xml:lang="grc">πάντων καὶ λιβανωτὸς ἐπετέθη,</l>
+                <l n="5" xml:id="kock-0410-mystis-164-l5" xml:lang="grc">ὡς τἄλλα μὲν τὰ πολλὰ παραναλούμενα</l>
+                <l n="6" xml:id="kock-0410-mystis-164-l6" xml:lang="grc">δαπάνην ματαίαν οὖσαν αὐτῶν εἵνεκα,</l>
+                <l n="7" xml:id="kock-0410-mystis-164-l7" xml:lang="grc">τὸ δὲ μικρὸν αὐτὸ τοῦτ’ ἀρεστὸν τοῖς θεοῖς.</l>
+              </lg>
+              <note type="source">
+                <p>Porphyrius De abstin. carn. 2, 17 ὅθεν καὶ τῶν ποιητῶν τισι διὰ τὸ γνώριμον ἀποφαίνεσθαι ἐδόκει τὰ τοιαῦτα, ὡς Ἀντιφάνει ἐν Μύστιδι λέγεται κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>3. 4. ὕστατον | πόπανον ἁπάντων vel ὕστ. πάντων πόπανόν τε Meinek. ὕστατος ἁπαξαπάντων et v. 7 ἀρέσκον Cobet. N. l. 131. 419. 6. εἵνεκα K.] οὕνεκα. v. 3. 4 scribendum videtur ἐπὶ τοῖς βουσὶ πᾶσιν ὕστατος | πέλανος ὑπ’ αὐτῶν κτλ. 6. αὐτῶν, i. e. τῶν θυόντων εἵνεκα.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="165" xml:id="kock-0410-mystis-165" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_mystis">
+              <lg>
+                <l n="1" xml:id="kock-0410-mystis-165-l1" xml:lang="grc">βούλει καὶ σύ, φιλτάτη, πιεῖν;</l>
+                <l n="2" xml:id="kock-0410-mystis-165-l2" xml:lang="grc">Β. καλῶς ἔχει μοι. Α. τοιγαροῦν φέρε . . .</l>
+                <l n="3" xml:id="kock-0410-mystis-165-l3" xml:lang="grc">μέχρι γὰρ τριῶν δεῖν φασι τιμᾶν τοὺς θεούς.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 10, 441 c οἷαι δ’ εἰσὶ παρὰ τοῖς Ἕλλησι μεθύουσαι αἱ γυναῖκες παραδίδωσιν Ἀντιφάνης . . . ἐν Μύστιδι (γυναῖκες δέ εἰσιν αἱ διαλεγόμεναι) κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>2. prorsus sic A. in fine φέρ’ ἐγὼ πίω G. Herm. ἐμοὶ φέρε Cobet. N. l. 132. 3. δεῖν add. Dindf. de καλῶς ἔχει μοι, blande recusandi formula, cf. Arist. Ran. 508. duae mulieres conloquuntur, quarum altera alteri potionem offert, sed cum illa recuset, ipsa bibit.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

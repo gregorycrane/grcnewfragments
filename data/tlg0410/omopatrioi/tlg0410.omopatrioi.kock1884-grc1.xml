@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΟΜΟΠΑΤΡΙΟΙ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.omopatrioi.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.omopatrioi.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.omopatrioi.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_omopatrioi"><head>ΟΜΟΠΑΤΡΙΟΙ</head><div type="textpart" subtype="fragment" n="175" xml:id="kock-0410-omopatrioi-175" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_omopatrioi">
+              <lg>
+                <l n="1" xml:id="kock-0410-omopatrioi-175-l1" xml:lang="grc">ἐν Ἡλίου μέν φασι γίνεσθαι πόλει</l>
+                <l n="2" xml:id="kock-0410-omopatrioi-175-l2" xml:lang="grc">φοίνικας, ἐν Ἀθήναις δὲ γλαύκας. ἡ Κύπρος</l>
+                <l n="3" xml:id="kock-0410-omopatrioi-175-l3" xml:lang="grc">ἔχει πελείας διαφόρους, ἡ δ᾽ ἐν Σάμῳ</l>
+                <l n="4" xml:id="kock-0410-omopatrioi-175-l4" xml:lang="grc">Ἥρα τὸ χρυσοῦν, φασίν, ὀρνίθων γένος,</l>
+                <l n="5" xml:id="kock-0410-omopatrioi-175-l5" xml:lang="grc">τοὺς καλλιμόρφους καὶ περιβλέπτους ταώς.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 655 b Ἀντιφάνης ἐν τοῖς Ὁμοπατρίοις φησίν κτλ. Eustathius 1035, 44 ὁ δ᾽ αὐτός (Ἀντιφάνης) τοὺς ταὼς ἐπαινῶν φησιν· ἐν Ἀθήναις γλαῦκες, ἐν δὲ Κύπρῳ πέλειαι διάφοροι, ἡ δ᾽ ἐν Σάμῳ Ἥρα τὸ χρυσοῦν ὀρνίθων γένος, τ. κ. κ. π. τ.</note>
+              <note type="apparatus">3. διαφόρους P] διφόρους A. 4. Ἥρα τὸ] ἤρατο A. 5. ταώς Mein.] ταώς. cf. quae ad Arist. Av. 102 adnotavimus. 1. Heliopoli in Solis templo tabulae erant pictae fabulosam avem phoenicem monstrantes. Herodot. 2, 73. Varro R. r. 3, 6, 2 (Mein. V CLXIX) pavonum greges agrestes transmarini esse dicuntur in insulis, Sami in luco Iunonis. idem apud Gellium 6, 16, 5 pavus e Samo (praestat). Menodot. Sam. Athen. 14, 655 a οἱ ταοὶ ἱεροί εἰσι τῆς Ἥρας. καὶ μήποτε πρώτιστοι καὶ ἐγένοντο καὶ ἐτράφησαν ἐν Σάμῳ καὶ ἐντεῦθεν εἰς τοὺς ἔξω τόπους διεδόθησαν. Herwerdenus quod Mnem. nov. IIII 322 v. 2 propter δέ ante γλ non productum vix sanum censet, antiquam comoediam cum nova confundit.</note>
+            </div>
+          </div></body></text></TEI>

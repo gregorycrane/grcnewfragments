@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΑΙΣΩΠΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.aisopos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.aisopos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.aisopos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_aisopos"><head>ΑΙΣΩΠΟΣ</head><div type="textpart" subtype="fragment" n="12" xml:id="kock-0402-aisopos-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_aisopos">
+              <head>12</head>
+              <p>ἀπολογηθῆναι</p>
+              <note type="source">ἀντὶ τοῦ ἀπολογήσασθαι. Ἄλεξις Ἀμπελουργῷ. Bekker. Anecd. 82, 5.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="kock-0402-aisopos-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_aisopos">
+              <lg>
+                <l n="1" xml:id="kock-0402-aisopos-9-l1" xml:lang="grc">κομψόν γε τοῦτ’ ἐστὶν παρ’ ὑμῖν, ὦ Σόλων,</l>
+                <l n="2" xml:id="kock-0402-aisopos-9-l2" xml:lang="grc">ἐν ταῖς Ἀθήναις, δεξιῶς θ’ εὑρημένον.</l>
+                <l n="3" xml:id="kock-0402-aisopos-9-l3" xml:lang="grc">Σ. τὸ ποῖον; Α. ἐν τοῖς συμποσίοις οὐ πίνετε</l>
+                <l n="4" xml:id="kock-0402-aisopos-9-l4" xml:lang="grc">ἄκρατον. Σ. οὐ γὰρ ῥάδιον· πωλοῦσι γὰρ</l>
+              </lg>
+              <pb n="300" facs="urn:hathi:hvd.hxijve:scan:306"/>
+              <lg>
+                <l n="5" xml:id="kock-0402-aisopos-9-l5" xml:lang="grc">ἐν ταῖς ἁμάξαις εὐθέως κεκραμένον,</l>
+                <l n="6" xml:id="kock-0402-aisopos-9-l6" xml:lang="grc">οὐχ ἵνα τι κερδαίνωσι, τῶν δ’ ὠνουμένων</l>
+                <l n="7" xml:id="kock-0402-aisopos-9-l7" xml:lang="grc">προνοούμενοι, τοῦ τὰς κεφαλὰς ὑγιεῖς ἔχειν</l>
+                <l n="8" xml:id="kock-0402-aisopos-9-l8" xml:lang="grc">ἐκ κραιπάλης. τοῦτ’ ἔσθ’, ὁρᾷς, Ἑλληνικὸς</l>
+                <l n="9" xml:id="kock-0402-aisopos-9-l9" xml:lang="grc">πότος, μετρίοισι χρωμένους ποτηρίοις</l>
+                <l n="10" xml:id="kock-0402-aisopos-9-l10" xml:lang="grc">λαλεῖν τι καὶ ληρεῖν πρὸς αὑτοὺς ἡδέως·</l>
+                <l n="11" xml:id="kock-0402-aisopos-9-l11" xml:lang="grc">τὸ μὲν γὰρ ἕτερον λουτρόν ἐστιν, οὐ πότος,</l>
+                <l n="12" xml:id="kock-0402-aisopos-9-l12" xml:lang="grc">ψυκτῆρι πίνειν καὶ κάδοις. Α. θάνατος μὲν οὖν.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 431 d Λύσανδρος ὁ Σπαρτιάτης τὸν οἶνον ὑδαρῆ πωλούντων τῶν καπήλων ἐν τῷ στρατοπέδῳ, κεκραμένον ἐκέλευσεν αὐτὸν πωλεῖν, ἵν’ αὐτὸν ἀκρατέστερον ὠνοῖντο. τὸ παραπλήσιον καὶ Ἄλεξις εἴρηκεν ἐν Αἰσώπῳ οὕτως κτλ.</note>
+              <note type="apparatus">1. ἐστὶ Α. ὦ Σόλων hic VL, initio v. 3 Α. 3. συμποσίοισιν et πίνεται Α. 5. ἐν] ἐπὶ? 9. ποτος et χρώμενος Α. τρόπος pro πότος Naber. Mnem. nov. VIII 254. 10. αὑτοὺς ‘i. e. ἀλλήλους’ Mein.] αὐτοὺς Α. 11. λουτρον et ποτος Α. 12. B. add. Herwerd. Nov. add. crit. 30. 4. ὤνιον pro ῥάδιον G. A. Hirschig. Ann. crit. 9. debebat certe ὤνιος (ὁ ἄκρατος). sed ῥάδιον rectissime dictum: non facile est merum bibere, quia iam mixtum venumdant. 5. Pollux 7, 192 ἐπίπρασκον .. τὸ γλεῦκος ἐφ’ ἁμαξῶν εἰς τὴν ἀγορὰν κομίζοντες. 7. προνοούμενοι primum cum τῶν ὠνουμένων coniungitur, deinde per ἐπεξήγησιν additur τοῦ — ἔχειν. 8. Bekker. Anecd. 45, 13 (attulit Mein.) κραιπάλη· ἡ ἀφ’ ἑσπέρας ἄχρι εἰς ὄρθρον πόσις. 10. λαλεῖν τι καὶ ληρεῖν poetam scripsisse non credo, sed ἄδειν τι κτλ. — scaenam fabulae Athenis non fuisse ex verbis παρ’ ὑμῖν κτλ. v. 1. 2 concludit Grauertus De Aesopo 29, non recte: cf. Arist. Ach. 729. 829. Lys. 170.</note>
+            </div>
+          </div></body></text></TEI>

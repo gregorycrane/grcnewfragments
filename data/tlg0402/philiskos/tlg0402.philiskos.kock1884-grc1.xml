@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΦΙΛΙΣΚΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.philiskos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.philiskos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.philiskos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_philiskos"><head>ΦΙΛΙΣΚΟΣ</head><div type="textpart" subtype="fragment" n="250" xml:id="kock-0402-philiskos-250" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_philiskos">
+              <lg>
+                <l n="1" xml:id="kock-0402-philiskos-250-l1" xml:lang="grc">ἀρτέον</l>
+                <l n="2" xml:id="kock-0402-philiskos-250-l2" xml:lang="grc">τράπεζαν, ἀπονίψασθαι δοτέον, προσοιστέος</l>
+                <l n="3" xml:id="kock-0402-philiskos-250-l3" xml:lang="grc">στέφανος, μύρον, σπονδή, λιβανωτός, ἐσχαρίς,</l>
+                <l n="4" xml:id="kock-0402-philiskos-250-l4" xml:lang="grc">τράγημα δοτέον ἔτι, πλακοῦντος ἁπτέον.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 642 f <quote>Ἄλεξις Φιλίσκῳ κτλ.</quote>
+              </note>
+              <note type="apparatus">2. ἀπονίψασθαι Α] ἀπονίψαι Porson. δοτεον Α. ἀρτέα | τράπεζ᾽, ἀπονίψασθαι δοτέον Mein. Anal. Ath. 313. 3. ἐσχαρις Α. 4. τράγημα Porson.] τραγήματα Α.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0402-philiskos-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_philiskos">
+              <lg>
+                <l n="1" xml:id="kock-0402-philiskos-2-l1" xml:lang="grc">ὁ Πειραιεὺς κάρυον μέγ’ ἐστὶ καὶ κενόν.</l>
+              </lg>
+              <note type="source">Anthologia Palat. 11, 441. cf. Arist. Pac. 145. fr. 608. Pherecr. 34. Alexid. 245, 1.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0402-philiskos-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_philiskos">
+              <lg>
+                <l n="1" xml:id="kock-0402-philiskos-3-l1" xml:lang="grc">χρηστῶν σφόδρ’ ἔσθ’ ἡ Χαλκὶς Ἑλλήνων πόλις.</l>
+              </lg>
+              <note type="source">Dicaearchus Vita Graec. 30 Buttm. δουλεύοντες γὰρ (Chalcidenses Euboici) πολὺν ἤδη χρόνον, τοῖς δὲ τρόποις ὄντες ἐλεύθεροι, μεγάλην εἰλήφασιν ἕξιν τοῦ φέρειν ῥᾳθύμως τὰ προσπίπτοντα. ὁ στίχος Φιλίσκου κτλ.</note>
+              <note type="apparatus">at ῥάθυμοι non sunt χρηστοί.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0402-philiskos-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_philiskos">
+              <lg>
+                <l n="1" xml:id="kock-0402-philiskos-4-l1" xml:lang="grc">οὐκ ἐστιν, ὦ μάταιε, σὺν ῥαθυμίᾳ</l>
+                <l n="2" xml:id="kock-0402-philiskos-4-l2" xml:lang="grc">τὰ τῶν πονούντων μὴ πονήσαντας λαβεῖν.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0402-philiskos-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_philiskos">
+              <lg>
+                <l n="1" xml:id="kock-0402-philiskos-5-l1" xml:lang="grc">πολιτογραφεῖν</l>
+              </lg>
+              <note type="source">Polluc. 3,56 δημοποίητοι, ὁπόσοι ἐκ δόγματος κοινοῦ πολιτείας τύχοιεν. τοῦτο δὲ πολιτογραφεῖν Φίλιστος καλεῖ. Φίλιστος Falck. 'non utitur Pollux alias auctoritate Philisci; at frequens apud eum Philisti memoria.' Mein. V 95. Hesych. πολιτογραφεῖ· πολιτικὰ γράφει, ubi εἰς πολίτας ἐγγράφει M. Schmidt.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUBULUS, ΟΡΘΑΝΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.orthanes.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.orthanes.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.orthanes.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_orthanes"><head>ΟΡΘΑΝΗΣ</head><div type="textpart" subtype="fragment" n="76" xml:id="kock-0458-orthanes-76" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_orthanes">
+              <lg>
+                <l n="1" xml:id="kock-0458-orthanes-76-l1" xml:lang="grc">ὡς εὖ νεναυάγηκεν ἐπὶ τοῦ τηγάνου</l>
+                <l n="2" xml:id="kock-0458-orthanes-76-l2" xml:lang="grc">ὁ θεοῖσιν ἐχθρός.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 108 d τὰ ἐξ Ὀρθάνου (ὀρθάννου A) Εὐβούλου ἰαμβεῖα (ἰαμβία A) εἰπών κτλ.</note>
+              <note type="apparatus">Μυρτίλος quod post ἐχθρός ab Athenaeo additur non Eubuli esse Meinekius Anal. Ath. 49 monuit: est enim Myrtilus unus ex convivis. ac fortasse etiam ὁ θεοῖσιν ἐχθρός Athenaei est. — ὡς εὖ νεναυάγηκεν, quam bene factum est, quod naufragium fecit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="77" xml:id="kock-0458-orthanes-77" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_orthanes">
+              <lg>
+                <l n="1" xml:id="kock-0458-orthanes-77-l1" xml:lang="grc">δεινὸν μὲν ἰδόντα παριππεῦσαι</l>
+                <l n="2" xml:id="kock-0458-orthanes-77-l2" xml:lang="grc">Κυπρίους ἄρτους· μαγνῆτις γὰρ</l>
+                <l n="3" xml:id="kock-0458-orthanes-77-l3" xml:lang="grc">λίθος ὡς ἕλκει τοὺς πεινῶντας.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 112 ef Κυπρίων δ’ ἄρτων μνημονεύει Εὔβουλος ὡς διαφόρων ἐν Ὀρθάνῃ διὰ τούτων κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="78" xml:id="kock-0458-orthanes-78" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_orthanes">
+              <lg>
+                <l n="1" xml:id="kock-0458-orthanes-78-l1" xml:lang="grc">καρῖδα καθῆκα κάτω κἀνέσπασ’ αὖθις.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 105 f ἐκτεταμένως δ’ εἴρηκε καρίδα . . . Εὔβουλος ἐν Ὀρθάνῃ (ὀρθάννη A) κτλ. καθηκατω κ’ ἀνέσπασ’ A.</note>
+              <note type="apparatus">‘temere haec tentavit Herwerd. Nov. add. crit. 25. cf. Gaisford. ad Heph. p. 341 ed. pr.’ Mein. Anal. Ath. 47.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="79" xml:id="kock-0458-orthanes-79" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_orthanes">
+              <p>τοῦ κυάθου</p>
+              <note type="source">μνημονεύει ... Εὔβουλος ἐν Ὀρθάνῃ (ὀρθάννη A). Athenaeus 10, 424 b. eum dicit κύαθον quo medici utuntur. Arist. Pac. 542.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="82" xml:id="kock-0458-orthanes-82" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_orthanes">
+              <lg>
+                <l n="1" xml:id="kock-0458-orthanes-82-l1" xml:lang="grc">οἴεσθε μέγεθος ἀρεσιαν; μέγαν πάνυ,</l>
+                <l n="2" xml:id="kock-0458-orthanes-82-l2" xml:lang="grc">καὶ ξηρὸν ἐποίησ’ εὐθέως τὸν κάνθαρον.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 473 e Εὔβουλος ἐν Παμφίλῳ πολλάκις μεμνημένος τοῦ ὀνόματος (κάνθαρος) φησίν ἐγὼ δὲ — κάνθαρον. καὶ πάλιν ὁ δὲ — ξηραίνεται. καὶ ἔτι ἅμα κτλ.</note>
+              <note type="apparatus">3. ἐνταῦθα Α. 6. κενὸς Schweigh.] δὴ καινὸς Α. ὡς] ὢν Mein. delebat Schweigh. πάλαι δὴ κείμενος | ξηραίνεται Mein. Anal. Ath. 256. δὴ (i. e. δηλονότι) κενὸς ὡς (ὤν) delet Cobet. N. 1. 38. πάλαι πάλαι ξηραίνεται Herwerd. Stud. crit. 84. 8. Ἀρεσία Dobr. Append. Arist. 113. pro μέγαν πάνυ edulii nomen restituendum esse suspicatur Herwerd. Mnem. nov. VI 67. v. 8 quod scripsit Dobraeus Ἀρεσία non bene convenit cum οἴεσθε. 9. ‘ξηρὸν ποιεῖν τ. κ. est cantharum potando siccare.’ Iacobs. — tria haec fragmenta ex eadem narratione excerpta sunt. inebriat nescio quis amatae puellae nutricem, cuius fr. 2 esse videtur dolentis quod tam diu cantharus sit siccus. rursus dato a caupone vino (fr. 3) cantharum celerrime ebibit.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="83" xml:id="kock-0458-orthanes-83" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_orthanes">
+              <lg>
+                <l n="1" xml:id="kock-0458-orthanes-83-l1" xml:lang="grc">πρῶτον μὲν αὐτοῦ παραλαβὼν τὰ χαλκίω</l>
+                <l n="2" xml:id="kock-0458-orthanes-83-l2" xml:lang="grc">τὸν ἰὸν ἐκ τῆς χειρὸς ἐξεσπόγγισεν.</l>
+              </lg>
+              <note type="source">Pollux 9, 90 τὸν δὲ νῦν χαλκὸν οἱ Ἀττικοὶ χαλκίον εἰώθασι καλεῖν, ὡς ἀπὸ τοῦ ἀργύρου ἀργύριον καὶ ἀπὸ τοῦ χρυσοῦ χρυσίον . . . Εὔβουλος ἐν Παμφίλῳ κτλ. medicum dicit pro exigua mercede venenum spongia de manu abstersisse.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="75" xml:id="kock-0458-orthanes-75" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_orthanes">
+              <head>75</head>
+              <lg>
+                <l n="1" xml:id="kock-0458-orthanes-75-l1" xml:lang="grc">πᾶσαδ’ εὔμορφος γυνὴ</l>
+                <l n="2" xml:id="kock-0458-orthanes-75-l2" xml:lang="grc">ἐρῶσα φοιτᾷ τηγάνων τε σύντροφα</l>
+                <l n="3" xml:id="kock-0458-orthanes-75-l3" xml:lang="grc">τριβαλλοπανόθρεπτα μειρακύλλια·</l>
+                <l n="4" xml:id="kock-0458-orthanes-75-l4" xml:lang="grc">ὁμοῦ δὲ τευθὶς καὶ Φαληρικὴ κόρη</l>
+              </lg>
+              <pb n="191" facs="urn:hathi:hvd.hxijve:scan:197"/>
+              <lg>
+                <l n="5" xml:id="kock-0458-orthanes-75-l5" xml:lang="grc">σπλάγχνοισιν ἀρνείοισι συμμεμιγμένη</l>
+                <l n="6" xml:id="kock-0458-orthanes-75-l6" xml:lang="grc">πηδᾷ, χορεύει, πῶλος ὡς ἄπο ζυγοῦ.</l>
+                <l n="7" xml:id="kock-0458-orthanes-75-l7" xml:lang="grc">ῥιπὶς δ’ ἐγείρει σκύλακας Ἡφαίστου κύνας,</l>
+                <l n="8" xml:id="kock-0458-orthanes-75-l8" xml:lang="grc">θερμῇ παροξύνουσα τηγάνου πνοῇ.</l>
+                <l n="9" xml:id="kock-0458-orthanes-75-l9" xml:lang="grc">ὀσμὴ δὲ πρὸς μυκτῆρας ἠρεθισμένη</l>
+                <l n="10" xml:id="kock-0458-orthanes-75-l10" xml:lang="grc">ἄσσει. μεμαγμένη δὲ Δήμητρος κόρη</l>
+                <l n="11" xml:id="kock-0458-orthanes-75-l11" xml:lang="grc">κοίλην φάραγγα δακτύλου πιέσματι</l>
+                <l n="12" xml:id="kock-0458-orthanes-75-l12" xml:lang="grc">σύρει, τριήρους ἐμβολὰς μιμουμένη,</l>
+                <l n="13" xml:id="kock-0458-orthanes-75-l13" xml:lang="grc">δείπνου πρόδρομον ἄριστον.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 3, 108ab Εὔβουλος Ὀρθάνῃ (ὀρθάννῃ A) κτλ. v. 7. 8. 1. 2 etiam 6, 228f Εὔβουλος ἐν Ὀρθάνῃ (ὀρθάχνῃ A) ‘ῥιπὶς — πνοῇ’. καὶ πάλιν· ‘πᾶσα δ’ εὔμορφος — συντρυφᾷ’. 2. ἐρῶσα φοιτᾷ A 228] ἐρεῖ οσ απηδει A 108. τηγάνων τε σύντροφα A 108] τηγάνῳ τε συντρυφᾷ A 228. 3. τριβαλλοποπανόθρεπτα Casaub. 4. καὶ] scrib. χή. Φαληρική Dalecamp.] φαληρὶς ἡ A. 6. ἀπὸ Iacobs. Add. Ath. 70 conl. Eurip. Orest. 45 πηδᾷ δρομαῖος πῶλος ὡς ἀπὸ ζυγοῦ] ὑπὸ A. 7. σκύλακας. K. Mus. Rhen. XXX 405. 6] φύλακας A 108. φλόγας C 228. 8. θέρμη (sic) — πνοή A 228. τηγάνου A 228] πηγάνου A 108. 11. κοίλην φάραγγα Dobr. Adv. II 302] κοίλη φάραγγος A. πιέσματι Valck. Schol. N. t. I 377] πιάσματι. cf. Mein. Anal. Ath. 48.</p>
+              </note>
+              <note type="apparatus">
+                <p>‘conveniunt mulierculae et adulescentuli libidinosi, Orthanae sacra facturi.’ Mein. cf. Plat. com. 174. 2. τηγάνων σύντροφα μ. sunt ‘adulescentuli delicatis opsoniis adsueti’. Mein. 3. rectissime A τριβαλλοπανόθρεπτα. cf. quae ad Arist. Av. 1529 adnotavimus et de Pane lasciviae amatore Preller. Myth. gr.² I 583 not. 3. 4. Phalerica puella est apua, ut Δήμητρος κόρη v. 10 farina. cf. Strattid. 2. Antiph. 52, 9. 6. πηδᾷ, ignis scilicet aestu in olla. Eubulus praeter ceteros tragicorum imitationibus gaudet. cf. Mein. I 356. itaque v. 10 retinendum ἄσσει. 7. tragici et lyrici poetae ‘quos comites deis deabusque iungunt eos canes adpellare solent’. Iacobs. Add. Ath. 71, conl. Aesch. Ag. 136. Prom. 1022, quibus addo Prom. 803. 9. ut ventus incitatus dici potest, sic etiam nidoris flamen celeriter ad nares perveniens. quod moneo propter Herwerd. Nov. add. crit. 25. 10. fort. scribendum μεμαγμένῃ — κόρῃ κοίλην φάραγγα — πιέσματα σύρει — μιμουμένην. cavitates quae in massa, dum magna vi subigitur, exsistere solent, cum sulcis comparantur quos in mari arant naves (Schweigh.). 13. πρόδρομον ἄριστον id genus est adpositionis, quo praeter ceteros Euripides gaudet. Orest. 1105 Ἑλένην κτάνωμεν, Μενέλεῳ λύπην πικράν. 841. 2 σφάγιον ἔθετο ματέρα, πατρώων παθέων ἀμοιβάν. cf. El. 1260. Androm. 291. Tro. 879. Orest. 499. 727. 962. Herc. fur. 323. Phoen. 213. Heindorf. Plat. Gorg. 507e. Pflugk. Eur. Andr. 291. Hec. 1074.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

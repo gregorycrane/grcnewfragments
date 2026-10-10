@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΔΗΜΗΤΡΙΟΣ Η ΦΙΛΕΤΑΙΡΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.demetrios_e_philetairos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.demetrios_e_philetairos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.demetrios_e_philetairos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_demetrios_e_philetairos"><head>ΔΗΜΗΤΡΙΟΣ Η ΦΙΛΕΤΑΙΡΟΣ</head><div type="textpart" subtype="fragment" n="46" xml:id="kock-0402-demetrios_e_philetairos-46" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_demetrios_e_philetairos">
+              <lg>
+                <l n="1" xml:id="kock-0402-demetrios_e_philetairos-46-l1" xml:lang="grc">πρότερον μὲν εἰ πνεύσειε βορρᾶς ἢ νότος</l>
+                <l n="2" xml:id="kock-0402-demetrios_e_philetairos-46-l2" xml:lang="grc">ἐν τῇ θαλάττῃ λαμπρός, ἰχθῦς οὐκ ἐνῆν</l>
+                <l n="3" xml:id="kock-0402-demetrios_e_philetairos-46-l3" xml:lang="grc">οὐδενὶ φαγεῖν· νυνὶ δὲ πρὸς τοῖς πνεύμασιν</l>
+                <l n="4" xml:id="kock-0402-demetrios_e_philetairos-46-l4" xml:lang="grc">τούτοις Φάυλλος προσγέγονε χειμὼν τρίτος·</l>
+                <l n="5" xml:id="kock-0402-demetrios_e_philetairos-46-l5" xml:lang="grc">ἐπὰν γὰρ ἐκνεφίας καταιγίσας τύχῃ</l>
+                <l n="6" xml:id="kock-0402-demetrios_e_philetairos-46-l6" xml:lang="grc">ἐς τὴν ἀγοράν, τοὔψον πριάμενος οἴχεται</l>
+                <l n="7" xml:id="kock-0402-demetrios_e_philetairos-46-l7" xml:lang="grc">φέρων ἅπαν τὸ ληφθέν, ὥστε γίνεται</l>
+                <l n="8" xml:id="kock-0402-demetrios_e_philetairos-46-l8" xml:lang="grc">ἐν τοῖς λαχάνοις τὸ λοιπὸν ἡμῖν ἡ μάχη.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 338 d Ἄλεξις ἐν Δημητρίῳ Φάυλλόν τινα κωμῳδεῖ ὡς φίλιχθυν ἐν τούτοις κτλ. Turpilius fr. 5 antehac si flabat aquilo aut auster, inopia tum erat piscati.</note>
+              <note type="apparatus">2. ἐνῆν] ἂν ἦν Porson. οὐκέτ᾽ ἦν Mein. Anal. Ath. 150. at cf. 25, 5. Anaxil. 22, 7. 3. νυνὶ Schweigh.] νῦν Α. 6. τοὖψον et 7. γίγνεται Α. 8. ἐν τοῖς λαχάνοις, in foro olitorio. cf. 15, 11. 12.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="47" xml:id="kock-0402-demetrios_e_philetairos-47" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_demetrios_e_philetairos">
+              <lg>
+                <l n="1" xml:id="kock-0402-demetrios_e_philetairos-47-l1" xml:lang="grc">ἀλλ᾽ αἰσχύνομαι</l>
+                <l n="2" xml:id="kock-0402-demetrios_e_philetairos-47-l2" xml:lang="grc">τὸν Κόρυδον, εἰ δόξω συναριστᾶν τισιν</l>
+                <l n="3" xml:id="kock-0402-demetrios_e_philetairos-47-l3" xml:lang="grc">οὕτω προχείρως· οὐκ ἀπαρνοῦμαι δ᾽ ὅμως·</l>
+                <l n="4" xml:id="kock-0402-demetrios_e_philetairos-47-l4" xml:lang="grc">οὐδὲ γὰρ ἐκεῖνος, ἂν καλῇ τις ἄν τε μή.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 241 ab ἦν δὲ καὶ ὁ Κόρυδος τῶν δι᾽ ὀνόματος παρασίτων . . . Ἄλεξις Δημητρίῳ ἢ Φιλεταίρῳ κτλ.</note>
+              <note type="apparatus">4. ἂν Dindf.] ἐὰν Α. ἄν τε μή in fine add. A. Nauck. Bulletin. Petersb. VIIII 397.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="48" xml:id="kock-0402-demetrios_e_philetairos-48" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_demetrios_e_philetairos">
+              <lg>
+                <l n="1" xml:id="kock-0402-demetrios_e_philetairos-48-l1" xml:lang="grc">ἔπειτα νάρκην ἔλαβον, ἐνθυμούμενος</l>
+                <l n="2" xml:id="kock-0402-demetrios_e_philetairos-48-l2" xml:lang="grc">ὅτι δεῖ γυναικὸς ἐπιφερούσης δακτύλους</l>
+                <l n="3" xml:id="kock-0402-demetrios_e_philetairos-48-l3" xml:lang="grc">ἁπαλούς, ὑπ᾽ ἀκάνθης μηδὲ ἓν τούτους παθεῖν.</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="45" xml:id="kock-0402-demetrios_e_philetairos-45" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_demetrios_e_philetairos">
+              <head>45</head>
+              <lg>
+                <l n="1" xml:id="kock-0402-demetrios_e_philetairos-45-l1" xml:lang="grc">ὁμοιότατος ἄνθρωπος οἴνῳ τὴν φύσιν</l>
+                <l n="2" xml:id="kock-0402-demetrios_e_philetairos-45-l2" xml:lang="grc">τρόπον τιν᾽ ἐστί. καὶ γὰρ οἶνον τὸν νέον</l>
+                <l n="3" xml:id="kock-0402-demetrios_e_philetairos-45-l3" xml:lang="grc">πολλή ᾽στ᾽ ἀνάγκη καὶ τὸν ἄνδρ᾽ ἀποζέσαι</l>
+                <l n="4" xml:id="kock-0402-demetrios_e_philetairos-45-l4" xml:lang="grc">πρώτιστον ἀφυβρίσαι τ᾽, ἀπανθήσαντα δὲ</l>
+                <l n="5" xml:id="kock-0402-demetrios_e_philetairos-45-l5" xml:lang="grc">σκληρὸν γενέσθαι, παρακμάσαντα δ᾽, ὧν λέγω</l>
+                <l n="6" xml:id="kock-0402-demetrios_e_philetairos-45-l6" xml:lang="grc">τούτων ἁπάντων ἀπαρυθέντα τὴν ἄνω</l>
+                <l n="7" xml:id="kock-0402-demetrios_e_philetairos-45-l7" xml:lang="grc">ταύτην ἄνοιαν ἐπιπολάζουσαν, τότε</l>
+                <l n="8" xml:id="kock-0402-demetrios_e_philetairos-45-l8" xml:lang="grc">πότιμον γενέσθαι καὶ καταστῆναι πάλιν,</l>
+                <l n="9" xml:id="kock-0402-demetrios_e_philetairos-45-l9" xml:lang="grc">ἡδύν θ᾽ ἅπασι τοὐπίλοιπον διατελεῖν.</l>
+              </lg>
+              <note type="apparatus">v. 1—5 (γενέσθαι) et 8 (a καὶ) 9 Stobaeus Floril. 115, 7 Ἀλέξιδος ἐκ Δημητρίου A. totam eclogam, sed om. fabulae nomine Athenaeus 2, 36 de Ἄλεξις δέ πού φησιν ὡς κτλ. 1. ὁμοιότατος Ath.] ὁμοιότατον Stob. 2. καὶ γὰρ A Stob.] τὸν γάρ. 3. πολλή ᾽στ᾽ Dindf.] πολλή τ᾽ BCD Athen. πολλή γ᾽ Stob. 4. ἀφυβρίσαι τ᾽ ΑΒ Voss. Stob. et BCDE Athen. (τε)] ἀφυβρίσαντ᾽. ἀπαν-</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>AMPHIS, ΓΥΝΑΙΚΟΜΑΝΙΑ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Amphis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0404.gynaikomania.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0404.gynaikomania.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0404.gynaikomania.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_gynaikomania"><head>ΓΥΝΑΙΚΟΜΑΝΙΑ</head><div type="textpart" subtype="fragment" n="11" xml:id="kock-0404-gynaikomania-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_gynaikomania">
+              <p>εὐκυβεῖν</p>
+              <note type="source">
+                <p>ὅπερ νῦν εὐβολεῖν. Ἄμφις ἐν Γυναικομανίᾳ. Hesychius. εὐκυβεῖν litterarum ordinem secutus I. Fr. Gronov.] εὐκολεῖν cod. Ἄμφις ἐν Γυναικομανίᾳ Heringa] ἀμφεῖς δὲ γυναικομανίαν. — Poll. 7, 204 οἱ δὲ βελτίους (βόλοι), ἐφ’ οἷς καὶ τὸ εὐκυβεῖν ἐλέγετο. et 9, 94 δυσκυβεῖν τε καὶ εὐκυβεῖν.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="kock-0404-gynaikomania-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_gynaikomania">
+              <lg>
+                <l n="1" xml:id="kock-0404-gynaikomania-9-l1" xml:lang="grc">ἤδη ποτ' ἤκουσας βίον</l>
+                <l n="2" xml:id="kock-0404-gynaikomania-9-l2" xml:lang="grc">ἀληλεμένον; Β. ναί· τοῦτ' ἐκεῖν' ἐστὶν σαφῶς·</l>
+                <l n="3" xml:id="kock-0404-gynaikomania-9-l3" xml:lang="grc">ἄμητες, οἶνος ἡδύς, ᾠά, σησαμαῖ,</l>
+                <l n="4" xml:id="kock-0404-gynaikomania-9-l4" xml:lang="grc">μύρον, στέφανος, αὐλητρίς. Α. ὦ Διοσκόρω,</l>
+                <l n="5" xml:id="kock-0404-gynaikomania-9-l5" xml:lang="grc">ὀνόματα τῶν δώδεκα θεῶν διελήλυθας.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 642 a ἐδίδοτο δὲ καὶ ᾠὸν ἐν τῇ δευτέρᾳ τραπέζῃ ... Ἄμφις δ' ἐν Γυναικομανίᾳ κτλ.</note>
+              <note type="apparatus">2. ἀληλεμενον sine acc. A. ναί Schweigh.] αἱ A. 3. ᾠά] ωσα A, qui statim σησαμαι et 4. αὐλητρισωδιοσκορω. 5. δώδεκα] ΙΒ A. τὠνόματα Herwerd. Obs. crit. 62. non recte: nam septem tantummodo nomina commemoravit; excidisse autem versum quo quinque alia ciborum nomina recensita fuerint, inprobabilis est Casauboni coniectura. tales cibos B dicit sibi non minus gratos esse quam duodecim deos, de quibus cf. quae ad Arist. Av. 95 adnotavimus. in personarum notatione Meinekium in Athen. ed. secutus sum, quamquam pro ναί scribendum arbitror παῖ, verbis personae A addendum. Eustath. 1859, 48 ἀληλεσμένον βίον ζῆν λέγονται οἱ ῥᾳδίως καὶ ἀπόνως βιοῦντες. Suid. ἀληλεσμένος βίος ἐπὶ τῶν ἐν ἀφθονίᾳ τῶν ἐπιτηδείων ὄντων. cf. Zenob. 1, 21. Diogenian. 1, 17.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="10" xml:id="kock-0404-gynaikomania-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_gynaikomania">
+              <lg>
+                <l n="1" xml:id="kock-0404-gynaikomania-10-l1" xml:lang="grc">Εὐρύβατε κνισολοιχέ, οὐκ ἔσθ' ὅπως</l>
+                <l n="2" xml:id="kock-0404-gynaikomania-10-l2" xml:lang="grc">οὐκ ὀλβιογάστωρ εἶ σύ.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 386 e τοῦ μὲν ὀλβιογάστορος Ἄμφις μέμνηται ἐν</note>
+            </div>
+          </div></body></text></TEI>

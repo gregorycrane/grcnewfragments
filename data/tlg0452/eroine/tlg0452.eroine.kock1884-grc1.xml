@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EPIGENES, ΗΡΩΙΝΗ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Epigenes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0452.eroine.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0452.eroine.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0452.eroine.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0452_eroine"><head>ΗΡΩΙΝΗ</head><div type="textpart" subtype="fragment" n="4" xml:id="kock-0452-eroine-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0452_eroine">
+              <lg>
+                <l n="1" xml:id="kock-0452-eroine-4-l1" xml:lang="grc">ἀλλ’ οὐδὲ κεραμεύουσι νῦν τοὺς κανθάρους,</l>
+                <l n="2" xml:id="kock-0452-eroine-4-l2" xml:lang="grc">ὦ τάλαν, ἐκείνους τοὺς ἁδρούς, ταπεινὰ δὲ</l>
+                <l n="3" xml:id="kock-0452-eroine-4-l3" xml:lang="grc">καὶ γλαφυρὰ πάντες, ὡσπερεὶ . . . .</l>
+                <l n="4" xml:id="kock-0452-eroine-4-l4" xml:lang="grc">αὐτὰ τὰ ποτήρι’, οὐ τὸν οἶνον πιόμενοι.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 474a Ἐπιγένης Ἡρωίνῃ κτλ.</note>
+              <note type="apparatus">3. κανθαρίδι’ add. Mein., quod ea mensura praesertim (ῑ) nusquam exstat. ὡσπερεὶ P] ὡς περὶ Α. ὡσπερεὶ τὰ ποτήρια | αὔτ’, οὐ τὸν οἶνον πιόμενοι Pors. 4. πιομένοις Mein. Anal. Ath. 218. mihi πάντες suspectum est: quapropter scribo καὶ γλαφυρὰ πετάχνι’, ὡσπερεὶ τὰ ποτήρια | αὔτ’, οὐ τὸν οἶνον πιομένοις. de πίομαι cf. Plat. com. 603. et de πετάχνοις Athen. 11, 496a. Aristoph. fr. 288. Alexid. 59. de sententia Pherecr. 143.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0452-eroine-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0452_eroine">
+              <lg>
+                <l n="1" xml:id="kock-0452-eroine-5-l1" xml:lang="grc">τὴν Θηρίκλειον δεῦρο καὶ τὰ ‘Ροδιακὰ</l>
+                <l n="2" xml:id="kock-0452-eroine-5-l2" xml:lang="grc">κόμισον λαβὼν τοὺς παῖδας. εἰσοίσεις μόνος</l>
+                <l n="3" xml:id="kock-0452-eroine-5-l3" xml:lang="grc">ψυκτῆρα, κύαθον, κυμβία, ῥυτὰ τέτταρα,</l>
+                <l n="4" xml:id="kock-0452-eroine-5-l4" xml:lang="grc">ἡδυποτίδας τρεῖς, ἡθμὸν ἀργυροῦν.</l>
+              </lg>
+            </div>
+          </div></body></text></TEI>

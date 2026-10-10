@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHILEMON, ΓΑΜΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Philemon</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.gamos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0487.gamos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0487.gamos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_gamos"><head>ΓΑΜΟΣ</head><div type="textpart" subtype="fragment" n="17" xml:id="kock-0487-gamos-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_gamos">
+              <head>17</head>
+              <lg>
+                <l n="1" xml:id="kock-0487-gamos-17-l1" xml:lang="grc">ὁλκεῖον εἶδον ἐπὶ τραπέζῃ κείμενον</l>
+                <l n="2" xml:id="kock-0487-gamos-17-l2" xml:lang="grc">πυρῶν τι μεστόν.</l>
+              </lg>
+              <note type="source">Pollux 10, 176 ὁλκεῖον, ἀγγεῖον ὑγρῶν τε καὶ ξηρῶν ὡς ἐπὶ τὸ πολὺ χαλκοῦν, ὡς . . . ἐν Φιλήμονος Γάμῳ κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="18" xml:id="kock-0487-gamos-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_gamos">
+              <head>18</head>
+              <lg>
+                <l n="1" xml:id="kock-0487-gamos-18-l1" xml:lang="grc">ἐν Καρὶ τὸν κίνδυνον· οἶδα, δέσποτα.</l>
+              </lg>
+              <note type="source">Schol. Platonis 322 Bekk. ἐν τῷ Καρὶ ὑμῖν ὁ κίνδυνος . . . Φιλήμων ἐν Γάμῳ κτλ.</note>
+              <note type="apparatus">B. οἶδα Cobet. N. 1. 22. non opus. servus animadvertens fore ut erus ipsum in discrimen committat ‘in me’ inquit ‘periculum facere statuisti; scio, domine’. cf. Cratin. 16.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="19" xml:id="kock-0487-gamos-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_gamos">
+              <head>19</head>
+              <note type="source">Bekker. Anecd. 92, 16 ἐμὲ ἀντὶ τοῦ ἐμαυτόν, σὲ ἀντὶ τοῦ σαυτόν.</note>
+              <p>Φιλήμων Γαμοῦντι· σώζε σαυτόν, ἐγὼ δ’ ἐμέ. fortasse Γάμῳ· οὐκοῦν σὺ σῷζε σαυτόν, | ἐγὼ δ’ ἐμέ, ut sint tetrametri iambici. ac σὺ iam Herwerd. Mnem. nov. VI 73.</p>
+            </div>
+            <div type="textpart" subtype="fragment" n="20" xml:id="kock-0487-gamos-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_gamos">
+              <head>20</head>
+              <p>θρασέα γυνή</p>
+              <note type="source">Bekker. Anecd. 99, 24 θρασέα· Φιλήμων Γάμῳ· θρ. γυνή. Γάλλῳ et θρασεῖα cod.</note>
+              <note type="apparatus">— fortasse Θρασέα, i. e. Thraseae uxor, quod nomen in titulis haud rarum est. cf. Roehl. Ind. C. I.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHILEMON, ΒΑΒΥΛΩΝΙΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Philemon</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.babylonios.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0487.babylonios.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0487.babylonios.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_babylonios"><head>ΒΑΒΥΛΩΝΙΟΣ</head><div type="textpart" subtype="fragment" n="16" xml:id="kock-0487-babylonios-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_babylonios">
+              <lg>
+                <l n="1" xml:id="kock-0487-babylonios-16-l1" xml:lang="grc">βασίλισσ' ἔσει Βαβυλῶνος, ἂν οὕτω τύχῃ.</l>
+                <l n="2" xml:id="kock-0487-babylonios-16-l2" xml:lang="grc">τὴν Πυθιονίκην οἶσθα καὶ τὸν Ἅρπαλον.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 595 c μνημονεύει τούτων (Πυθιονίκης καὶ Ἁρπάλου) καὶ Φιλήμων ἐν Βαβυλωνίῳ κτλ.</note>
+              <note type="apparatus">1. βασίλισσ' ἔσῃ Bentl.] βασιλίσσαις ἢ A. de forma βασίλισσα Lobeck. Phryn. 225. — militem audire mihi videor amicae montes auri pollicentem. Diodor. 17, 108 (Ἅρπαλος ἐν Βαβυλῶνι) τὴν ἐπιφανεστάτην τῶν ἑταιρῶν ὄνομα Πυθονίκην μετεπέμψατο (Ol. 113, 2) καὶ ζῶσάν τε αὐτὴν βασιλικαῖς δωρεαῖς ἐτίμησε καὶ μεταλλάξασαν ἔθαψε πολυ-</note>
+            </div>
+          </div></body></text></TEI>

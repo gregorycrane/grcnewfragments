@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>HERACLIDES, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Heraclides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0466.adelon_dramaton.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0466.adelon_dramaton.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0466.adelon_dramaton.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0466_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="1" xml:id="kock-0466-adelon_dramaton-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0466_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0466-adelon_dramaton-1-l1" xml:lang="grc">Ἀλεκτρυόνα τὸν τοῦ Φιλίππου παραλαβὼν</l>
+                <l n="2" xml:id="kock-0466-adelon_dramaton-1-l2" xml:lang="grc">ἀωρὶ κοκκύζοντα καὶ πλανώμενον</l>
+                <l n="3" xml:id="kock-0466-adelon_dramaton-1-l3" xml:lang="grc">κατέκοψεν· οὐ γὰρ εἶχεν οὐδέπω λόφον.</l>
+                <l n="4" xml:id="kock-0466-adelon_dramaton-1-l4" xml:lang="grc">ἕνα κατακόψας μάλα συχνοὺς ἐδείπνισεν</l>
+                <l n="5" xml:id="kock-0466-adelon_dramaton-1-l5" xml:lang="grc">Χάρης Ἀθηναίων τόθ’, ὡς γενναῖος ἦν.</l>
+              </lg>
+              <note type="source">Athenaeus 12, 532 e (Χάρης) ἐδείπνισεν Ἀθηναίους ἐν τῇ ἀγορᾷ θύσας τὰ ἐπινίκια τῆς γενομένης μάχης πρὸς τοὺς Φιλίππου ξένους. ὧν ἡγεῖτο μὲν Ἀδαῖος, Ἀλεκτρυὼν ἐπικαλούμενος, περὶ οὗ καὶ Ἡρακλείδης ὁ τῶν κωμῳδιῶν ποιητὴς μέμνηται οὕτως κτλ. τὰ αὐτὰ ἱστορεῖ καὶ Δοῦρις. Zenobius 6, 34 Φιλίππου Ἀλεκτρυών· αὕτη τάττεται ἐπὶ τῶν ἐν μικροῖς κατορθώμασιν ἀλαζονευομένων. Ἀλεκτρυών γάρ τις ἐγένετο Φιλίππου στρατηγός, ὃν ἀπέκτεινεν .. Χάρης ὁ Ἀθηναῖος. μέμνηται δ’ αὐτοῦ Ἡρακλείδης ὁ κωμικὸς καὶ Ἀντιφάνης (303). Eustathius 1479, 37 Ἡρακλείδης ὁ κωμικὸς ὡς περὶ ὄρνιθος λέγει ὅτι κτλ. cf. Apostol. 17, 85 et Damox. 1, 5.</note>
+              <note type="apparatus">1. παραλαβὼν A] λαβὼν Eust. καταλαβὼν Mein. in Athen. 2. καὶ πλανώμενον] κἀπτερωμένον Herwerd. Mnem. VI 71, tamquam sint galli etiam non alati. significatur inpressio bellica, qua agri late vastabantur. 3. post hunc versum nonnulla excidisse statuit Meinekius. 4. ἕνα κατακόψας] κατα κόψας epit. et Eust. 5. Ἀθηναίους epit. et Eust. similis iocus est Arist. Nub. 1356. 3. εἶχεν οὐδέπω λόφον. adulescentiam et inperitiam Adaei notat poeta. 5. ὡς γενναῖος ἦν ad Adaeum refert Dobraeus Adv. II 355, ἀλεκτρυόνα γενναῖον interpretans μάχιμον (Kampfhahn). mihi Chares potius intellegendus videtur et scribendum aut ὡς γενναῖος ὤν aut B. ὡς γενναῖος ἦν. Praeterea cf. fr. Heracliti et Chariclidis Ἀλύσεως. Mein. I 422.</note>
+            </div>
+          </div></body></text></TEI>

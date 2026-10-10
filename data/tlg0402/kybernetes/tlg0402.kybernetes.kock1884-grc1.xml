@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΚΥΒΕΡΝΗΤΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.kybernetes.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.kybernetes.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.kybernetes.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_kybernetes"><head>ΚΥΒΕΡΝΗΤΗΣ</head><div type="textpart" subtype="fragment" n="117" xml:id="kock-0402-kybernetes-117" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_kybernetes">
+              <lg>
+                <l n="1" xml:id="kock-0402-kybernetes-117-l1" xml:lang="grc">εἰσέβαινον ἰσχάδες,</l>
+                <l n="2" xml:id="kock-0402-kybernetes-117-l2" xml:lang="grc">τὸ παράσημον τῶν Ἀθηνῶν, καὶ θύμου δέσμαι τινές.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 14, 652c Ἄλεξις ἐν Κυβερνήτῃ φησίν κτλ. v. 1. 2 (Ἀθηνῶν, pro quo cum C Ath. Ἀττικῶν habet) Eustathius 955, 8 sine fabulae auctorisve nomine. v. 2 idem 1411, 35 χρῆσις Ἀλέξιδος ἐν τῷ 'καὶ θύμου κτλ.' cf. Eubul. 37.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="116" xml:id="kock-0402-kybernetes-116" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_kybernetes">
+              <lg>
+                <l n="1" xml:id="kock-0402-kybernetes-116-l1" xml:lang="grc">δύ’ ἐστί, Ναυσίνικε, παρασίτων γένη·</l>
+                <l n="2" xml:id="kock-0402-kybernetes-116-l2" xml:lang="grc">ἓν μὲν τὸ κοινὸν καὶ κεκωμῳδημένον,</l>
+                <l n="3" xml:id="kock-0402-kybernetes-116-l3" xml:lang="grc">οἱ μέλανες ἡμεῖς· θάτερον ζητῶ γένος,</l>
+                <l n="5" xml:id="kock-0402-kybernetes-116-l5" xml:lang="grc">σεμνοπαράσιτον ἐκ μέσου καλούμενον,</l>
+                <l n="4" xml:id="kock-0402-kybernetes-116-l4" xml:lang="grc">σατράπας παρασίτους καὶ στρατηγοὺς ἐπιφανεῖς</l>
+                <l n="6" xml:id="kock-0402-kybernetes-116-l6" xml:lang="grc">ὑποκρινόμενον εὖ τοῖς βίοις, ὀφρῦς ἔχον</l>
+                <l n="7" xml:id="kock-0402-kybernetes-116-l7" xml:lang="grc">χιλιοταλάντους ἀνακυλίόν τ’ οὐσίας.</l>
+                <l n="8" xml:id="kock-0402-kybernetes-116-l8" xml:lang="grc">νοεῖς σὺ τὸ γένος καὶ τὸ πρᾶγμα; Ν. καὶ μάλα.</l>
+                <l n="9" xml:id="kock-0402-kybernetes-116-l9" xml:lang="grc">Α. τούτων ἑκατέρου τῶν γενῶν ὁ μὲν τύπος</l>
+                <l n="10" xml:id="kock-0402-kybernetes-116-l10" xml:lang="grc">τῆς ἐργασίας εἷς ἐστι, κολακείας ἀγών·</l>
+                <l n="11" xml:id="kock-0402-kybernetes-116-l11" xml:lang="grc">ὥσπερ ἐπὶ τῶν βίων δέ, τοὺς μὲν ἡ τύχη</l>
+                <l n="12" xml:id="kock-0402-kybernetes-116-l12" xml:lang="grc">ἡμῶν μεγάλοις προσένειμε τοὺς δ’ ἐλάττοσιν,</l>
+                <l n="13" xml:id="kock-0402-kybernetes-116-l13" xml:lang="grc">εἶθ’ οἱ μὲν εὐποροῦμεν οἱ δ’ ἀλύομεν.</l>
+                <l n="14" xml:id="kock-0402-kybernetes-116-l14" xml:lang="grc">ἆρά γε διδάσκω, Ναυσίνικ’; Ν. οὐκ ἀστόχως·</l>
+                <l n="15" xml:id="kock-0402-kybernetes-116-l15" xml:lang="grc">ἀλλ’ ἄν σ’ ἐπαινῶ μᾶλλον, αἰτήσεις μέ τι.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 237 b</note>
+              <note type="apparatus">παρασίτων εἶναί φησι γένη δύο Ἄλεξις ἐν Κυβερνήτῃ διὰ τούτων κτλ. 1. ἐστιν αὐσίνικε A. v. 4 post 5 transposuit Dobr. Adv. II 310, ut accusativi penderent ab ὑποκρινόμενον. 4. παρασίτους] μεγίστους vel ζαχρύσους (ζαπλούτους) Dobr. 5. ἐκ μέσου] ἐμμέτρως Herwerd. Obs. crit. 69 conl. Plat. Cratyl. 395 e δοκεῖ τοὔνομα ἐμμέτρως κεῖσθαι. scribendum potius ἐν μέσῳ, i. e. ubique. 6. ἔχον Grot. Excerpt. 573] ἔχοντα A. 7. ἀνακυλίόν τ’ οὐσίας Porson.] ἀνακυλιον τουσιας A. χιλιοταλάντους τ’ ἀνακυλίνδον Herwerd., remota forma κυλίω, de qua Cobet. V. 1.2</note>
+            </div>
+          </div></body></text></TEI>

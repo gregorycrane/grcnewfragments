@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΚΑΡΕΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.kares.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.kares.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.kares.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_kares"><head>ΚΑΡΕΣ</head><div type="textpart" subtype="fragment" n="113" xml:id="kock-0410-kares-113" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_kares">
+              <head>113</head>
+              <lg>
+                <l n="1" xml:id="kock-0410-kares-113-l1" xml:lang="grc">οὐχ ὁρᾷς ὀρχούμενον</l>
+                <l n="2" xml:id="kock-0410-kares-113-l2" xml:lang="grc">ταῖς χερσὶ τὸν βάκηλον; οὐδ' αἰσχύνεται</l>
+                <l n="3" xml:id="kock-0410-kares-113-l3" xml:lang="grc">ὁ τὸν Ἡράκλειτον πᾶσιν ἐξηγούμενος,</l>
+                <l n="4" xml:id="kock-0410-kares-113-l4" xml:lang="grc">ὁ τὴν Θεοδέκτου μόνος ἀνευρηκὼς τέχνην,</l>
+                <l n="5" xml:id="kock-0410-kares-113-l5" xml:lang="grc">ὁ τὰ κεφάλαια συγγράφων Εὐριπίδῃ.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 4, 134 b Ἀντιφάνης ἐν Καρσὶ κατὰ τὸ Ἀττικὸν ἔθος τῆς ὀρχήσεως κωμῳδεῖ τινα τῶν σοφῶν ὡς παρὰ δεῖπνον ὀρχούμενον, λέγων οὕτως κτλ. v. 1. 2 Eustath. 159, 45 ἀστείως ὁ κωμικὸς Ἀντιφάνης ἀνάπαλιν πρὸς τὸ ὠρχήσατο σκέλεσιν ἔφη τὸ 'οὐχ ὁρᾷς — βάκηλον'. Phrynich. Epit. 272 σημαίνει ὁ βάκηλος τὸν ἀποτετμημένον τὰ αἰδοῖα, ὃν Βιθυνοὶ καὶ Ἀσιανοὶ Γάλλον καλοῦσι. cf. Alexid. 100. Tribacelus comoedia est Cn. Naevii (O. Ribbeck. Com. Rom.<hi rend="superscript">2</hi> p. 23), ex graeco ut videtur translata. ὀρχεῖσθαι ταῖς χερσίν Meinekio iudice is dicitur qui quae loquitur manuum quo-</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

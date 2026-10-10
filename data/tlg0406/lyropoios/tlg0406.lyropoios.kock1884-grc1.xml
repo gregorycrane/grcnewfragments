@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANAXILAS, ΛΥΡΟΠΟΙΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Anaxilas</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0406.lyropoios.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0406.lyropoios.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0406.lyropoios.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_lyropoios"><head>ΛΥΡΟΠΟΙΟΣ</head><div type="textpart" subtype="fragment" n="15" xml:id="kock-0406-lyropoios-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_lyropoios">
+              <lg>
+                <l n="1" xml:id="kock-0406-lyropoios-15-l1" xml:lang="grc">ἐγὼ δὲ βαρβίτους, τριχόρδους, πηκτίδας,</l>
+                <l n="2" xml:id="kock-0406-lyropoios-15-l2" xml:lang="grc">κιθάρας, λύρας, σκινδαψὸν ἐξηρτυόμαν.</l>
+              </lg>
+              <note type="apparatus">Athenaeus 4, 183b μνημονεύει δ’ αὐτοῦ (τοῦ σκινδαψοῦ) ... Ἀναξίλας ἐν Λυροποιῷ κτλ. τριχόρδους] τρίχορδον, quae legitima forma est, non τρίχορδος, Mein. Pollux 4, 60 τρίχορδον δὲ (Ἀσσυρίων) ἦν τὸ εὕρημα. τρίχορδα Herwerd. Nov. add. crit. 28. 2. σκινδαψὸν Bernh. Eratosth. 139] σκινδαψοὺς Α. ἐξήρτυον ἄν Meinek. ἐξηρτυόμην Bernhard. Cobetus Collect. crit. 343 Doriensem loqui existimans formas doricas restituit βάρβιτος, τρίχορδος, πακτίδας, σκίνδαψος. Athen. 182 f Ἀριστόξενος ἔκφυλα ὄργανα καλεῖ.. πηκτίδας... καὶ σκινδαψούς. 183a ἔστι δ’ ὁ σκινδαψὸς τετράχορδον ὄργανον. πηκτίδας commemorat etiam Arist. Thesm. 1217. Photius κινδαψός· ὄργανον ποιόν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="16" xml:id="kock-0406-lyropoios-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_lyropoios">
+              <lg>
+                <l n="1" xml:id="kock-0406-lyropoios-16-l1" xml:lang="grc">πῶς ἔχεις; ὡς ἰσχνὸς εἶ.</l>
+                <l n="2" xml:id="kock-0406-lyropoios-16-l2" xml:lang="grc">Β. ἀπόλλυμαι. τρέφω γὰρ ἐν ἀγρῷ χωρίον.</l>
+              </lg>
+              <note type="apparatus">Stobaeus Floril. 57, 4 Ἀναξιλάου ἐκ Λυροποιοῦ. 1. πῶς] παῖς Α. ὡς] εἰς Trinc. ἰσχνὸς Valcken.] ἴσχανος. Λυροποιοῦ] μυρπΐου ‘sic fere A.’ Gaisf. μυρεπίου Β. fortasse igitur Μυροποιός</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="17" xml:id="kock-0406-lyropoios-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_lyropoios">
+              <lg>
+                <l n="1" xml:id="kock-0406-lyropoios-17-l1" xml:lang="grc">ἐν τοῖς βαλανείοις οὐ τίθεται λουτήρια.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 7, 167 Ἀναξίλας δὲ οὕτως (λουτήρια) ὀνομάζει τοὺς νῦν λουτῆρας ἐν Λουτροποιῷ (Λυροποιῷ Schweigh.) λέγων κτλ. idem 10, 46 ἐπὶ δὲ τῶν νῦν λουτήρων Ἀναξίλας ἐν Λουτροποιῷ κτλ. ἐν deest 7, 167. — cum in omnibus publicis privatisque balneis λουτήρια, i. e. pelves vel labra fuerint, cum C. Fr. Hermanno (Becker. Charicl.<hi rend="superscript">2</hi> III 75) aut in exitu versus interrogationis signum ponendum aut οὖν pro οὐ scribendum est.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="18" xml:id="kock-0406-lyropoios-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_lyropoios">
+              <lg>
+                <l n="1" xml:id="kock-0406-lyropoios-18-l1" xml:lang="grc">ξανθοῖς τε μύροις χρῶτα λιπαίνων,</l>
+                <l n="2" xml:id="kock-0406-lyropoios-18-l2" xml:lang="grc">χλανίδας θ’ ἕλκων, βλαύτας σύρων,</l>
+                <l n="3" xml:id="kock-0406-lyropoios-18-l3" xml:lang="grc">βολβοὺς τρώγων, τυροὺς κάπτων,</l>
+                <l n="4" xml:id="kock-0406-lyropoios-18-l4" xml:lang="grc">ᾠὰ κολάπτων, κήρυκας ἔχων,</l>
+                <l n="5" xml:id="kock-0406-lyropoios-18-l5" xml:lang="grc">Χῖον πίνων, καὶ πρὸς τούτοις</l>
+                <l n="6" xml:id="kock-0406-lyropoios-18-l6" xml:lang="grc">ἐν σκυταρίοις ῥαπτοῖσι φορῶν</l>
+                <l n="7" xml:id="kock-0406-lyropoios-18-l7" xml:lang="grc">Ἐφεσήια γράμματα καλά.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 12, 548 c τὰ ἐκ τοῦ Ἀναξίλα Λυροποιοῦ κτλ. Ἀναξίλα Λυροποιοῦ Casaub.] ἀναξιλαυροποιοῦ A teste Dindorfio. in meo Kaibelianae conlationis exemplo nihil invenio.</p>
+              </note>
+              <note type="apparatus">
+                <p>4. ᾠὰ κολάπτων non aptum videtur. certissima emendatio est fratris mei ᾦ’ ἐκλάπτων. sed etiam verba κήρυκας ἔχων corrupta esse demonstravit Coraes. Toupius ἔδων (Alcae. com. 36), quod hic minime placet. scrib. κήρυκας ἐμῶν. Eupol. 163. Nicomach. 4. 7. Ephesiae litterae videntur nomina Dactylorum Idaeorum esse. Clem. Alex. Strom. 1, 15, 73 τινὲς δὲ μυθικώτερον τῶν Ἰδαίων καλουμένων Δακτύλων σοφούς τινας πρώτους γενέσθαι λέγουσιν, εἰς οὓς ἥ τε τῶν Ἐφεσίων λεγομένων γραμμάτων . . . εὕρεσις ἀναφέρεται . . . Φρύγες δὲ ἦσαν καὶ βάρβαροι οἱ Ἰδαῖοι Δάκτυλοι. et 5, 8, 43 Ἀνδροκύδης ὁ Πυθαγορικὸς τὰ Ἐφέσια καλούμενα γράμματα...συμβόλων ἔχειν φησὶ τάξιν. Plut. Mor. 706 e οἱ μάγοι τοὺς δαιμονιζομένους κελεύουσι τὰ Ἐφέσια γράμματα πρὸς αὑτοὺς καταλέγειν. Hesych. Ἐφέσια γράμματα singula enumerat. cf. Strab. 10, 473. Poll. 2, 156. Wyttenbach. Plut. Mor. 85 b. Lobeck. Aglaoph. 1163. 1330 sq. Schoem. Ant. gr.<hi rend="superscript">2</hi> II 336. 7. — καλά apud Atticos incredibile. an καινά?</p>
+                <p>describitur homo superstitiosus, in summa rusticitate elegans videri cupiens.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

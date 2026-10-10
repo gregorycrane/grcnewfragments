@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHILETAERUS, ΜΗΝΕΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Philetaerus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0489.menes.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0489.menes.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0489.menes.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0489_menes"><head>ΜΗΝΕΣ</head><div type="textpart" subtype="fragment" n="17" xml:id="kock-0489-menes-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0489_menes">
+              <head>ἐπίπλο[ι]ον</head>
+              <note type="source">
+                <p>Athenaeus 3, 106 e ἑξῆς εἰσεκομίσθη ταγηνιστὰ ἥπατα περιειλημμένα τῷ καλουμένῳ ἐπίπλῳ, ὃν Φιλέταιρος ἐν Τηρεῖ ἐπίπλοιον (omentum) εἴρηκεν. ἐπίπλοον Dobr., Hesych. M. Schmidtii ἔπιπλον· ἐπίπλοιον· ὁ πιμελώδης ὑμὴν ἐπὶ τῆς κοιλίας καὶ τῶν ἐντέρων, ἐπίπλους λεγόμενος. Pollux 2, 212 ἐκ τοῦ περιφεροῦς τῆς κοιλίας ἐκπέφυκεν, αὐτήν τε καὶ μέρος τοῦ ἄλλου ἐντέρου καλύπτον, τὸ ὀνομαζόμενον ἐπίπλουν. et 2, 224 καὶ μὴν ἔκ γε τοῦ σπληνὸς ἕτερος ὑμὴν ἐκπεφυκώς, ὑπὸ τὸ περιτόναιον κείμενος, τὸ αὐτὸ διάφραγμα περιειληφώς, ἐπίπλους ὀνομάζεται· Ἀντιφῶν δὲ (ὁ ἰατρός) αὐτὸν καὶ ἀρρενικῶς καὶ οὐδετέρως καλεῖ. cf. Lobeck. Phryn. 142. 3.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="12" xml:id="kock-0489-menes-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0489_menes">
+              <p>12</p>
+              <lg>
+                <l n="1" xml:id="kock-0489-menes-12-l1" xml:lang="grc">τίς ἐστι μαιμακτηριών; Β. μὴν δικάσιμος.</l>
+              </lg>
+              <note type="source">
+                <p>Schol. Ven. Arist. Av. 1047 ὡς ἐν τούτῳ (μουνιχιῶνι) τῶν ἐναγομένων ξένων ἀπὸ τῶν πόλεων καλουμένων. οὐκ ἦν δέ, ἀλλ’ ὁ μαιμακτηριών, ὡς Φιλέταιρος ἐν Μησὶ δηλοῖ κτλ. Hesych. δικάσιμοι μῆνες οὕτως ἐλέγοντο, ἐν οἷς ἐδίκαζον. confert M. Schmidt. Plat. Leg. 12, 958b. addo Aristoph. fr. 278.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

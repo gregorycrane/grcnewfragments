@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΦΙΛΟΜΗΤΩΡ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.philometor.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.philometor.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.philometor.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_philometor"><head>ΦΙΛΟΜΗΤΩΡ</head><div type="textpart" subtype="fragment" n="220" xml:id="kock-0410-philometor-220" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_philometor">
+              <head>220</head>
+              <lg>
+                <l n="1" xml:id="kock-0410-philometor-220-l1" xml:lang="grc">ἔμμητρον ἂν ᾖ τὸ ξύλον, βλάστην ἔχει.</l>
+                <l n="2" xml:id="kock-0410-philometor-220-l2" xml:lang="grc">μητρόπολίς ἐστιν οὐχὶ πατρόπολις πόλις.</l>
+                <l n="3" xml:id="kock-0410-philometor-220-l3" xml:lang="grc">μήτραν τινὲς πωλοῦσιν ἥδιστον κρέας.</l>
+                <l n="4" xml:id="kock-0410-philometor-220-l4" xml:lang="grc">Μητρᾶς ὁ Χῖός ἐστι τῷ δήμῳ φίλος.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 3, 100 d μνημονεύει τῆς μήτρας καὶ Ἀντιφάνης ἐν Φιλομήτορι οὕτως κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>1. ἔνμητρον ἐὰν A. 2. in exitu πόλις add. Mein. 4. Μητρᾶς (i. e. Μητρόδωρος) Mein.] μήτρας. Theophr. H. pl. 1, 6, 5 ἅπασαι δ' (αἱ ῥίζαι) ἔμμητροι. Caus. pl. 5, 17, 2 τὰ ξύλα τὰ ἔμμητρα διαστρέφεται κατειργασμένα ἤδη μέχρι οὗ ἂν τελέως ἀναξηρανθῇ. 2. Μητρόπολις et Πατρόπολις Meinekius. at non opus est nomine proprio: siquidem is qui loquitur matri plus quam patri verecundiae deberi comice exemplis demonstrat. sic μητρόπολιν urbem dici ex qua coloniae deducantur, non πατρόπολιν. 4. 'Metrodorum Chium, Anaxarchi Abderitae Ol. 110 clari magistrum commemorat Diog. L. 9, 58.' Mein. Μητρόδωρος ὁ Χῖος ἐν Τρωικοῖς Athen. 4, 184a. περὶ φύσεως Cic. Acad. 2, 23, 73.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

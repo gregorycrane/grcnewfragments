@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUBULUS, ΙΩΝ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.ion.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.ion.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.ion.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_ion"><head>ΙΩΝ</head><div type="textpart" subtype="fragment" n="37" xml:id="kock-0458-ion-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_ion">
+              <head>37</head>
+              <lg>
+                <l n="1" xml:id="kock-0458-ion-37-l1" xml:lang="grc">μετὰ ταῦτα θύννων μεγαλόπλουτ᾽ ἐπεισέπλει</l>
+                <l n="2" xml:id="kock-0458-ion-37-l2" xml:lang="grc">ὑπογάστρι᾽ ὀπτῶν, αἵ τε λιμνοσώματοι</l>
+                <l n="3" xml:id="kock-0458-ion-37-l3" xml:lang="grc">Βοιώτιαι παρῆσαν ἐγχέλεις θεαὶ</l>
+                <l n="4" xml:id="kock-0458-ion-37-l4" xml:lang="grc">τεῦτλ᾽ ἀμπεχόμεναι.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 300 bc ὅτι δ᾽ ἤσθιον τὰς ἐγχέλεις καὶ μετὰ τεύτλων ἐντυλίξαντες καὶ Εὔβουλός φησιν. . . ἐν Ἴωνι κτλ. v. 1. 2 idem 7, 302 d ἐπαινεῖται δὲ τοῦ ἰχθύος τούτου τὰ ὑπογάστρια, ὡς καὶ Εὔβουλός φησιν ἐν Ἴωνι μετὰ ταῦτα — ὀπτῶν. 1. μετὰ A 302] καὶ μετὰ A 300. μετὰ ταῦτα om. C 300. ἐπεισέπλει A 302] ἐπὶ σὲ πλεῖ A 300. 3. παρῇσαν Mein. Anal. Ath. 132.</note>
+              <note type="apparatus">1. ἐπεισέπλει, ut ἐπιχορεύειν Diphil. 44, 1. 64, 4, ἐπιβακχεύειν Nicostr. (Philet.) 4, 1, ἐπιδονεῖν Antiph. 185, ἐπιρροθεῖν Soph. fr. 691 N. cf. Antiph. 207. Alexid. 117. 2. λιχνοσώματοι Mein., λιπαροσώματοι G. A. Hirschig. Ann. crit. 6, λειοσώματοι Valcken. (et Cobet. N. 1. 138). mihi χιονοσώματοι scribendum videtur. cf. Antiph. 49. praeierat quodammodo Euripides Helen. 216 Ζεὺς . . . χιονόχρως κύκνου πτερῷ et cuius auctoritas apud comicos illius aetatis non minus valet Philoxenus Cytherius Athen. 4, 147 a μάζας χιονόχροας. λευκόχρως anguilla dicitur 35, 2.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="38" xml:id="kock-0458-ion-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_ion">
+              <head>38</head>
+              <lg>
+                <l n="1" xml:id="kock-0458-ion-38-l1" xml:lang="grc">τρύβλια δὲ καὶ βατάνια καὶ κακκάβια καὶ</l>
+                <l n="2" xml:id="kock-0458-ion-38-l2" xml:lang="grc">λοπάδια καὶ πατάνια πυκινὰ ταρφέα</l>
+                <l n="3" xml:id="kock-0458-ion-38-l3" xml:lang="grc">κοὐδ᾽ ἂν λέγων λέξαιμι.</l>
+              </lg>
+              <note type="source">Athenaeus 4, 169 f Εὔβουλος ἐν Ἴωνι καὶ βατάνια (βατάνεια A) καὶ πατάνια (πατάνεια A) λέγει ἐν τούτοις κτλ. v. 1. 2 Pollux 10, 106 ἐν Εὐβούλου Ἴωνι εἴρηται τρύβλια δὲ καὶ πατάνια καὶ κακκάβια καὶ λοπάδια, ὡς ἕτερον ὂν παρὰ τὴν λοπάδα τοῦτο τῷ σχήματι. 2. hic πατάνια A. ταρφέα κοὐδ᾽ ἂν] ταρβα καὶ ουδαν A. 3. λήξαιμι Fritzschius Daetal. 73 n. 38 conl. Rhes. 874 ὅδ᾽ αὖ τὸν αὐτὸν μῦθον οὐ λήξει λέγων. iure adversatur Meinekius III 223 et 441. οὐδ᾽ ἂν λέγων λέξαιμι est ‘ne si incipiam quidem dicere possim.’</note>
+              <note type="apparatus">βατάνια et πατάνια coniungi potuisse iure negat Meinekius. cum v. 1 Pollux praebeat πατάνια, v. 2 scribendum est τηγάνια. Athenaeus fort. scripsit ἐν Ἴωνι τὰ βατάνια καὶ πατάνια λέγει. sed corrupta sunt etiam πυκινὰ ταρφέα, formae apud comicos, in trimetris praesertim, inauditae.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="39" xml:id="kock-0458-ion-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_ion">
+              <head>39</head>
+              <lg>
+                <l n="1" xml:id="kock-0458-ion-39-l1" xml:lang="grc">οὕτω σφόδρ᾽ ἐστὶ τοὺς τρόπους Βοιώτιος,</l>
+                <l n="2" xml:id="kock-0458-ion-39-l2" xml:lang="grc">ὥστ᾽ οὐδὲ δειπνῶν, ὡς λέγουσ᾽, ἐμπίμπλαται.</l>
+              </lg>
+            </div>
+          </div></body></text></TEI>

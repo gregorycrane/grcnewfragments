@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ARISTOPHON, ΠΥΘΑΓΟΡΙΣΤΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Aristophon</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0421.pythagoristes.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0421.pythagoristes.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0421.pythagoristes.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0421_pythagoristes"><head>ΠΥΘΑΓΟΡΙΣΤΗΣ</head><div type="textpart" subtype="fragment" n="10" xml:id="kock-0421-pythagoristes-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0421_pythagoristes">
+              <lg>
+                <l n="1" xml:id="kock-0421-pythagoristes-10-l1" xml:lang="grc">πρὸς μὲν τὸ πεινῆν ἐσθίειν τε μηδὲ ἓν</l>
+                <l n="2" xml:id="kock-0421-pythagoristes-10-l2" xml:lang="grc">νόμιζ᾽ ὁρᾶν Τιθύμαλλον ἢ Φιλιππίδην.</l>
+                <l n="3" xml:id="kock-0421-pythagoristes-10-l3" xml:lang="grc">ὕδωρ δὲ πίνειν βάτραχος, ἀπολαῦσαι θύμων</l>
+                <l n="4" xml:id="kock-0421-pythagoristes-10-l4" xml:lang="grc">λαχάνων τε κάμπη, πρὸς τὸ μὴ λοῦσθαι ῥύπος,</l>
+                <l n="5" xml:id="kock-0421-pythagoristes-10-l5" xml:lang="grc">ὑπαίθριος χειμῶνα διάγειν κόψιχος,</l>
+                <l n="6" xml:id="kock-0421-pythagoristes-10-l6" xml:lang="grc">πνῖγος ὑπομεῖναι καὶ μεσημβρίας λαλεῖν</l>
+                <l n="7" xml:id="kock-0421-pythagoristes-10-l7" xml:lang="grc">τέττιξ, ἐλαίῳ μήτε χρῆσθαι μήθ᾽ ὁρᾶν</l>
+                <l n="8" xml:id="kock-0421-pythagoristes-10-l8" xml:lang="grc">κονιορτός, ἀνυπόδητος ὄρθρου περιπατεῖν</l>
+                <l n="9" xml:id="kock-0421-pythagoristes-10-l9" xml:lang="grc">γέρανος, καθεύδειν μηδὲ μικρὸν νυκτερίς.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 238 c κἂν Πυθαγοριστῇ δέ φησι (Ἀριστοφῶν) κτλ. v. 3 sq., omisso tamen μήθ᾽ ὁρᾶν v. 7, cum fr. 4 (non addito fabulae poetaeve nomine) continuo coniungit Eustathius 1951, 41.</note>
+              <note type="apparatus">1. πίνειν C. at cf. v. 3. 3. ἀπολαῦσαι et 7. μήτε ὁρᾶν Α. μήτ᾽ ἐρᾶν Bothius. cf. Eupol. 326. μὴ κεχρῖσθαι μηδὲ γρῦ Naber. Mnem. nov. VIII 253. μηδὲ χρίεσθαι τὸ πᾶν Wilamowitz. et Kaibel. Herm. XVIIII 260. violentissime Herwerdenus Obs. crit. 64. 5 v. 8. 9 post v. 4 (λοῦσθαι ῥύπον) conlocatis verba ἐλαίῳ μήτε χρῆσθαι μήθ᾽ ὁρᾶν eicit, conl. Anaxandr. 34, 6. mihi versus nondum videtur persanatus esse. de sententia et syntaxi cf. fr. 4, de Tithymallo Antiphan. 210, de Philippide supra fr. 8.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="11" xml:id="kock-0421-pythagoristes-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0421_pythagoristes">
+              <lg>
+                <l n="1" xml:id="kock-0421-pythagoristes-11-l1" xml:lang="grc">εἶτ᾽ οὐ δικαίως ἔστ᾽ ἀπεψηφισμένος</l>
+                <l n="2" xml:id="kock-0421-pythagoristes-11-l2" xml:lang="grc">ὑπὸ τῶν θεῶν τῶν δώδεκ᾽ εἰκότως τ᾽ Ἔρως;</l>
+                <l n="3" xml:id="kock-0421-pythagoristes-11-l3" xml:lang="grc">ἐτάραττε κἀκείνους γὰρ ἐμβάλλων στάσεις,</l>
+                <l n="4" xml:id="kock-0421-pythagoristes-11-l4" xml:lang="grc">ὅτ᾽ ἦν μετ᾽ αὐτῶν· ὡς δὲ λίαν ἦν θρασὺς</l>
+                <l n="5" xml:id="kock-0421-pythagoristes-11-l5" xml:lang="grc">καὶ σοβαρός, ἀποκόψαντες αὐτοῦ τὰ πτερά,</l>
+                <l n="6" xml:id="kock-0421-pythagoristes-11-l6" xml:lang="grc">ἵνα μὴ πέτηται πρὸς τὸν οὐρανὸν πάλιν,</l>
+                <l n="7" xml:id="kock-0421-pythagoristes-11-l7" xml:lang="grc">δεῦρ᾽ αὐτὸν ἐφυγάδευσαν ὡς ἡμᾶς κάτω,</l>
+                <l n="8" xml:id="kock-0421-pythagoristes-11-l8" xml:lang="grc">τὰς δὲ πτέρυγας ἃς εἶχε τῇ Νίκῃ φορεῖν</l>
+                <l n="9" xml:id="kock-0421-pythagoristes-11-l9" xml:lang="grc">ἔδυσαν, περιφανὲς σκῦλον ἀπὸ τῶν πολεμίων.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 563 b Ἀριστοφῶν ἐν Πυθαγοριστῇ κτλ. pauca excerpsit Eustathius 880, 5 et 987, 22.</note>
+              <note type="apparatus">2. τ᾽ add. Pors. 4. ὅτ᾽ ἦν] ὁ τὴν Α. 6. οὐρανὸν] ουνον Α. 9. τοῦ πολεμίου Eust. 987. — ἀπεψηφισμένος, i. e. decreto deorum ex Olympo eiectus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="12_13" xml:id="kock-0421-pythagoristes-12_13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0421_pythagoristes">
+              <lg>
+                <l n="1" xml:id="kock-0421-pythagoristes-12_13-l1" xml:lang="grc">ἔφη καταβὰς εἰς τὴν δίαιταν τῶν κάτω</l>
+                <l n="2" xml:id="kock-0421-pythagoristes-12_13-l2" xml:lang="grc">ἰδεῖν ἑκάστους, διαφέρειν δὲ πάμπολυ</l>
+                <l n="3" xml:id="kock-0421-pythagoristes-12_13-l3" xml:lang="grc">τοὺς Πυθαγοριστὰς τῶν νεκρῶν· μόνοισι γὰρ</l>
+              </lg>
+              <pb n="281" facs="urn:hathi:hvd.hxijve:scan:287"/>
+              <lg>
+                <l n="4" xml:id="kock-0421-pythagoristes-12_13-l4" xml:lang="grc">τούτοισι τὸν Πλούτωνα συσσιτεῖν ἔφη</l>
+                <l n="5" xml:id="kock-0421-pythagoristes-12_13-l5" xml:lang="grc">δι᾽ εὐσέβειαν. Β. εὐχερῆ θεὸν λέγεις,</l>
+                <l n="6" xml:id="kock-0421-pythagoristes-12_13-l6" xml:lang="grc">εἰ τοῖς ῥύπου μεστοῖσιν ἥδεται ξυνών.</l>
+              </lg>
+              <gap reason="unreadable" extent="unknown"/>
+              <lg>
+                <l n="7" xml:id="kock-0421-pythagoristes-12_13-l7" xml:lang="grc">ἐσθίουσί τε</l>
+                <l n="8" xml:id="kock-0421-pythagoristes-12_13-l8" xml:lang="grc">λάχανά τε καὶ πίνουσιν ἐπὶ τούτοις ὕδωρ·</l>
+                <l n="9" xml:id="kock-0421-pythagoristes-12_13-l9" xml:lang="grc">φθεῖρας δὲ καὶ τρίβωνα τήν τ᾽ ἀλουσίαν</l>
+                <l n="10" xml:id="kock-0421-pythagoristes-12_13-l10" xml:lang="grc">οὐδεὶς ἂν ὑπομείνειε τῶν νεωτέρων.</l>
+              </lg>
+              <note type="source">Diogenes Laert. 8, 38 Ἀριστοφῶν Πυθαγοριστῇ ἔφη — ξυνών. ἔτι ἐν τῷ αὐτῷ ἐσθίουσι κτλ. Suidas Πυθαγόρα τὰ σύμβολα.</note>
+              <note type="apparatus">1. ἔφη Cobet.] ἔφη τε Diog., om. Suid. τὴν δίαιταν Froben. Diog. et Suidas] δίαιταν. τῶν] αὐτῶν Suid. 2. διαφέρει V Suid. 4. 5 σύσσιτον δι᾽ εὐσέβειαν ἔφη V Suid. 5. εὐχερῆ] δυσχερῆ Cobet. at εὐχερῆ per ironiam dixit. 5. 6 λέγεις, | εἰ τοῖς] λέγειν σίτοις AV Suid. μεστοῖς AV Suid. 7. ἐσθίουσί τε om. Suid., cuius aliquot codices post λάχανά τε inserunt γὰρ κατέδονται, quod deest in ABV. 10. τῶν ἐνερτέρων Naber. Mnem. nov. VIII 253. τῶν ἐνεωτέρων Nauck. Philol. VI 118: Pythagoreos enim sua sententia esse τοὺς σοφούς, reliquos omnes τοὺς ἐνεούς. ubi quid comparativus sibi velit nescio, sed desidero χαριεστέρων vel μετριωτέρων vel tale aliquid. — ceterum cf. quae de hac ecloga disputavit E. Rhode Mus. Rhen. XXVI 557. 8 et Griech. Roman. 260 n. 3.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="9" xml:id="kock-0421-pythagoristes-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0421_pythagoristes">
+              <lg>
+                <l n="1" xml:id="kock-0421-pythagoristes-9-l1" xml:lang="grc">πρὸς τῶν θεῶν οἰόμεθα, τοὺς πάλαι ποτὲ</l>
+                <l n="2" xml:id="kock-0421-pythagoristes-9-l2" xml:lang="grc">τοὺς Πυθαγοριστὰς γινομένους οὕτως ῥυπᾶν</l>
+                <l n="3" xml:id="kock-0421-pythagoristes-9-l3" xml:lang="grc">ἑκόντας, ἢ φορεῖν τρίβωνας ἡδέως;</l>
+                <l n="4" xml:id="kock-0421-pythagoristes-9-l4" xml:lang="grc">οὐκ ἔστι τούτων οὐδέν, ὡς ἐμοὶ δοκεῖ·</l>
+                <l n="5" xml:id="kock-0421-pythagoristes-9-l5" xml:lang="grc">ἀλλ’ ἐξ ἀνάγκης, οὐκ ἔχοντες οὐδὲ ἕν,</l>
+                <l n="6" xml:id="kock-0421-pythagoristes-9-l6" xml:lang="grc">τῆς εὐτελείας πρόφασιν εὑρόντες καλὴν</l>
+                <l n="7" xml:id="kock-0421-pythagoristes-9-l7" xml:lang="grc">ὅρους ἔπηξαν τοῖς πένησι χρησίμους.</l>
+                <l n="8" xml:id="kock-0421-pythagoristes-9-l8" xml:lang="grc">ἐπεὶ παράθες αὐτοῖσιν ἰχθῦς ἢ κρέας,</l>
+                <l n="9" xml:id="kock-0421-pythagoristes-9-l9" xml:lang="grc">κἂν μὴ κατεσθίωσι καὶ τοὺς δακτύλους,</l>
+                <l n="10" xml:id="kock-0421-pythagoristes-9-l10" xml:lang="grc">ἐθέλω κρέμασθαι δεκάκις.</l>
+              </lg>
+              <note type="source">Athenaeus 4, 161 e Ἀριστοφῶν ἐν Πυθαγοριστῇ κτλ. v. 1. 2 Eustathius 1553,30 τί ποτε οἰόμεθα τοὺς πάλαι ποτὲ Πυθαγοριστὰς ῥυπᾶν. ὁ Ἀθήναιος δὲ οὕτω γράφει. — ἀριστοφάνης δ’ ἐν πυθαγόροις τί πρὸς τ. θ. A. τί πώποτε οἰόμεθα C. τί ποτε οἰόμεθα Eust. ante v. 1 fortasse τί πώποτε restituendum cum interrogationis signo post οἰόμεθα. deinde scribendum τοὺς ὑδατοπότας. cf. 10. 13. 2. γινομένους A] λεγομένους Mein. recte. οὕτως BDP] ὄντως A. 8. αὐτοῖσιν Schweigh.] αὐτοῖς A.</note>
+              <note type="apparatus">quae in exitu v. 1 codices praebent poeta scripsisse non potest, quia non de veteribus Pythagorae discipulis, sed de noviciis eius sectatoribus (Gell. 1, 9, 11) loquitur. Schol. Theocr. 14,5 οἱ μὲν Πυθαγορικοὶ πᾶσαν φροντίδα ποιοῦνται τοῦ σώματος, οἱ δὲ Πυθαγορισταὶ περιεσταλμένῃ καὶ αὐχμηρᾷ διαίτῃ χρῶνται. 9. cf. Hermipp. 24. Alexid. 172, 5.</note>
+            </div>
+          </div></body></text></TEI>

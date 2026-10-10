@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>AMPHIS, ΠΛΑΝΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Amphis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0404.planos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0404.planos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0404.planos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_planos"><head>ΠΛΑΝΟΣ</head><div type="textpart" subtype="fragment" n="30" xml:id="kock-0404-planos-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_planos">
+              <lg>
+                <l n="1" xml:id="kock-0404-planos-30-l1" xml:lang="grc">πρὸς τοὺς στρατηγοὺς ῥᾷόν ἐστι μυρίαις</l>
+                <l n="2" xml:id="kock-0404-planos-30-l2" xml:lang="grc">μοίραις προσελθόντ' ἀξιωθῆναι λόγου,</l>
+                <l n="3" xml:id="kock-0404-planos-30-l3" xml:lang="grc">λαβεῖν τ' ἀπόκρισιν ὧν ἂν ἐπερωτᾷ τις, ἢ</l>
+                <l n="4" xml:id="kock-0404-planos-30-l4" xml:lang="grc">πρὸς τοὺς καταράτους ἰχθυοπώλας ἐν ἀγορᾷ·</l>
+                <l n="5" xml:id="kock-0404-planos-30-l5" xml:lang="grc">οὓς ἂν ἐρωτήσῃ τις ἀναλαβών τι τῶν</l>
+                <l n="6" xml:id="kock-0404-planos-30-l6" xml:lang="grc">παρακειμένων, ἔκυψεν ὥσπερ Τήλεφος</l>
+                <l n="7" xml:id="kock-0404-planos-30-l7" xml:lang="grc">πρῶτον σιωπῇ (καὶ δικαίως τοῦτό γε·</l>
+                <l n="8" xml:id="kock-0404-planos-30-l8" xml:lang="grc">ἅπαντες ἀνδροφόνοι γάρ εἰσιν ἑνὶ λόγῳ)</l>
+              </lg>
+              <pb n="245" facs="urn:hathi:hvd.hxijve:scan:251"/>
+              <lg>
+                <l n="9" xml:id="kock-0404-planos-30-l9" xml:lang="grc">ὡσεί τε προσέχων οὐδὲν οὐδ᾽ ἀκηκοὼς</l>
+                <l n="10" xml:id="kock-0404-planos-30-l10" xml:lang="grc">ἔκρουσε πουλύπουν τιν᾽ ὁ δ᾽ ἐπρήσθη καὶ τοτ᾽ οὐ λαλῶν ὅλα</l>
+                <l n="11" xml:id="kock-0404-planos-30-l11" xml:lang="grc">τὰ ῥήματ᾽, ἀλλὰ συλλαβὴν ἀφελών, ‘ττάρων</l>
+                <l n="12" xml:id="kock-0404-planos-30-l12" xml:lang="grc">βολῶν γένοιτ᾽ ἄν·’ ‘ἡ δὲ κέστρα;’ ‘κτὼ βολῶν·’</l>
+                <l n="13" xml:id="kock-0404-planos-30-l13" xml:lang="grc">τοιαῦτ᾽ ἀκοῦσαι δεῖ τὸν ὀψωνοῦντά τι.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 224d Ἄμφις ἐν Πλάνῳ κτλ.</note>
+              <note type="apparatus">1. ἐστιν Α. 3. ὧν add. Porson. Misc. 237. 5. ἂν ἐρωτήσῃ τις ἀναλαβών K.] ἐὰν ἐπερωτήσῃ τις, λαβών Α. 9. ὡσεί τε προσέχων Mein. Menand. 186] ὡσεὶ προσέχων δ᾽ Α. 10. πουλύπουν Mein.] πώλυπόν Α, qui deinde ut supra scripsimus. 11. τὰ ῥήματα Α. ττάρων K.] τεττάρων Α. 12. βολῶν Schweigh.] ὀβολῶν Α. κτὼ Mein. Menand. 186] ὀκτὼ Α. βολῶν in exitu Α. 13. τοιαῦτα Α. — ex hac ecloga Hesych. βολοί· ὀβολοί. 2. μοίραις, um zehntausend Theile leichter. similiter certe Plat. Leg. 11,923b τὸ ἑνὸς ἑκάστου κατατιθεὶς ἐν μοίραις ἐλάττοσι. 5. quos si emptor, piscem aliquem prope adiacentem qui ei placuit manu tollens interrogat quanti veneat, primum piscarius prono capite ut Telephus adstat ne verbum quidem hiscens ac quasi nihil eorum quae emptor interrogavit perceperit, polypum percutit cet. 6. Telephus est Aeschyli in Mysis (Nauck. p. 35), qui Auges matris fratribus occisis (Append. proverb. 2, 85) expiationem petens tacebat. cf. Alexid. 178, 3. eis enim qui hominem occiderant antequam expiati essent loqui non licebat. Schol. Aesch. Eum. 272 οἱ ἐναγεῖς οὔτε ἐν ἱερῷ προσήεσαν οὔτε προσέβλεπον (Amphis ἔκυψεν), οὔτε διελέγοντό τινι. καὶ παρ᾽ Εὐριπίδῃ· τί σιγᾷς; μῶν φόνον τιν᾽ εἰργάσω; cf. Welcker. Trag. gr. I 56. ἔκυψεν, i. e. ταυρηδὸν ὑποβλέπων. 10. κρούειν πουλύπουν idem videtur esse quod πληγαῖς πιλεῖν. cf. Aristoph. fr. 191. ἐπρήσθη nemo dum explicavit. neque Meinekii coniectura ἐπρίσθη (Menand. 278) quicquam proficitur, siquidem πρίειν (τους ὀδόντας), non πρίεσθαι dicebant. verba κᾆτ᾽ οὐ (καὶ τοτ᾽ οὐ Α) — ἀφελών Herwerdenus Nov. add. crit. 27 eicit. mihi quae ille retinet ὁ δ᾽ ἐπρήσθη aliunde inlata videntur: quibus omissis reliqua quae A habet facile inter se coeunt, ἔκρουσε πουλύπουν τινὰ κοὐ λαλῶν ὅλα | τὰ ῥήματ᾽ κτλ. 12. verba ἡ δὲ κέστρα emptoris esse quanti constet quaerentis monet Mein.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="31" xml:id="kock-0404-planos-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_planos">
+              <lg>
+                <l n="1" xml:id="kock-0404-planos-31-l1" xml:lang="grc">παραδεδειπνημένος, παῖδες, πάλαι</l>
+              </lg>
+              <note type="source">Athenaeus 10, 423 a παραδεδειπνημένος δ᾽ εἴρηκεν Ἄμφις ἐν Πλάνῳ οὕτως κτλ.</note>
+              <note type="apparatus">παραδεδειπνημένος Α. ‘παραδεδειπνημένοι sunt cena frustrati.’ Mein. V 85. Theophr. Char. 8 extr. εἰσὶ δ᾽ οἳ καὶ πόλεις τῷ λόγῳ κατὰ κράτος αἱροῦντες παρεδειπνήθησαν. est caput illud λογοποιίας.</note>
+            </div>
+          </div></body></text></TEI>

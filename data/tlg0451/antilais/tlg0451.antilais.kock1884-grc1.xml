@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EPICRATES, ΑΝΤΙΛΑΙΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Epicrates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0451.antilais.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0451.antilais.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0451.antilais.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0451_antilais"><head>ΑΝΤΙΛΑΙΣ</head><div type="textpart" subtype="fragment" n="2_3" xml:id="kock-0451-antilais-2_3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0451_antilais">
+              <lg>
+                <l n="1" xml:id="kock-0451-antilais-2_3-l1" xml:lang="grc">τὰς μὲν ἄλλας ἔστιν αὐλούσας ἰδεῖν</l>
+                <l n="2" xml:id="kock-0451-antilais-2_3-l2" xml:lang="grc">αὐλητρίδας πάσας Ἀπόλλωνος νόμον,</l>
+                <l n="3" xml:id="kock-0451-antilais-2_3-l3" xml:lang="grc">. . . . . . . . . . . . Διὸς νόμον·</l>
+                <l n="4" xml:id="kock-0451-antilais-2_3-l4" xml:lang="grc">αὗται δὲ μόνον αὐλοῦσιν Ἱέρακος νόμον</l>
+                <l n="5" xml:id="kock-0451-antilais-2_3-l5" xml:lang="grc">αὕτη δὲ Λαΐς ἀργός ἐστι καὶ πότις,</l>
+                <l n="6" xml:id="kock-0451-antilais-2_3-l6" xml:lang="grc">τὸ καθ’ ἡμέραν ὁρῶσα πίνειν κἀσθίειν</l>
+                <l n="7" xml:id="kock-0451-antilais-2_3-l7" xml:lang="grc">μόνον· πεπονθέναι δὲ ταὐτά μοι δοκεῖ</l>
+              </lg>
+              <pb n="283" facs="urn:hathi:hvd.hxijve:scan:289"/>
+              <lg>
+                <l n="8" xml:id="kock-0451-antilais-2_3-l8" xml:lang="grc">τοῖς ἀετοῖς· οὗτοι γὰρ ὅταν ὦσιν νέοι,</l>
+                <l n="9" xml:id="kock-0451-antilais-2_3-l9" xml:lang="grc">ἐκ τῶν ὀρῶν πρόβατ’ ἐσθίουσι καὶ λαγὼς</l>
+                <l n="10" xml:id="kock-0451-antilais-2_3-l10" xml:lang="grc">μετέωρ’ ἀναρπάζοντες ὑπὸ τῆς ἰσχύος·</l>
+                <l n="11" xml:id="kock-0451-antilais-2_3-l11" xml:lang="grc">ὅταν δὲ γηράσκωσιν ἤδη τότε (θεῶν)</l>
+                <l n="12" xml:id="kock-0451-antilais-2_3-l12" xml:lang="grc">ἐπὶ τοὺς νεὼς ἵζουσι πεινῶντες κακῶς·</l>
+                <l n="13" xml:id="kock-0451-antilais-2_3-l13" xml:lang="grc">κἄπειτα τοῦτ’ εἶναι νομίζεται τέρας.</l>
+                <l n="14" xml:id="kock-0451-antilais-2_3-l14" xml:lang="grc">καὶ Λαΐς ὀρθῶς γοῦν νομίζοιτ’ ἂν τέρας·</l>
+                <l n="15" xml:id="kock-0451-antilais-2_3-l15" xml:lang="grc">αὕτη γὰρ οὖν ὁπότ’ ἦν νεοττὸς καὶ νέα,</l>
+                <l n="16" xml:id="kock-0451-antilais-2_3-l16" xml:lang="grc">ὑπὸ τῶν στατήρων ἦν ἀπηγριωμένη,</l>
+                <l n="17" xml:id="kock-0451-antilais-2_3-l17" xml:lang="grc">εἶδες δ’ ἂν αὐτῆς Φαρνάβαζον θᾶττον ἄν.</l>
+                <l n="18" xml:id="kock-0451-antilais-2_3-l18" xml:lang="grc">ἐπεὶ δὲ δόλιχον τοῖς ἔτεσιν ἤδη τρέχει,</l>
+                <l n="19" xml:id="kock-0451-antilais-2_3-l19" xml:lang="grc">τὰς ἁρμονίας τε διαχαλᾷ τοῦ σώματος,</l>
+                <l n="20" xml:id="kock-0451-antilais-2_3-l20" xml:lang="grc">ἰδεῖν μὲν αὐτὴν ῥᾷόν ἐστι καὶ πτύσαι·</l>
+                <l n="21" xml:id="kock-0451-antilais-2_3-l21" xml:lang="grc">ἐξέρχεταί τε πανταχόσ’ ἤδη πιομένη,</l>
+                <l n="22" xml:id="kock-0451-antilais-2_3-l22" xml:lang="grc">δέχεται δὲ καὶ στατῆρα καὶ τριώβολον,</l>
+                <l n="23" xml:id="kock-0451-antilais-2_3-l23" xml:lang="grc">προσίεται δὲ καὶ γέροντα καὶ νέον·</l>
+                <l n="24" xml:id="kock-0451-antilais-2_3-l24" xml:lang="grc">οὕτω δὲ τιθασὸς γέγονεν, ὥστ’, ὦ φίλτατε,</l>
+                <l n="25" xml:id="kock-0451-antilais-2_3-l25" xml:lang="grc">τἀργύριον ἐκ τῆς χειρὸς ἤδη λαμβάνει.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 570b τὰς μὲν ἄλλας — Ἱέρακος νόμον, Ἐπικράτης φησὶν ἐν Ἀντιλαΐδι. ἐν ᾧ δράματι καὶ περὶ τῆς πολυθρυλήτου Λαΐδος τάδε λέγει· αὕτη δὲ κτλ. v. 5 et 24 Eustathius 1403, 57 ὅμοιον τῷ ‘κλυτὸς Ἱπποδάμεια’ καὶ τῷ ‘ἡ Λαΐς ἀργός ἐστι καὶ πότις’. καὶ τῷ ‘τιθασὸς γέγονεν’ ἡ αὐτὴ δηλαδὴ Λαΐς.</note>
+              <note type="apparatus">1. τὰς μὲν γὰρ Schweigh. et quidni καὶ τὰς μὲν? 3. lacunam indicavit Dindorf. Ἑρμοῦ νόμον, Πανὸς νόμον inserit Cobet. N. 1. 33. 5. αὕτη] αὐτὴ Schweigh. αυτη, λαϊς ἀργος, ποτις Α. 7. ταὐτὰ Schweigh.] ταῦτα Α. 10. ὑπὸ Porson. Arist. Plut. 98 p.11] ἀπὸ Α. 11. θεῶν add. Mein. ἤδη ποτέ, τότε Casaub. 12. ΐζουσιν Α. 14. γοῦν] νῦν Mein. in Ath. om. γοῦν Α. 15. οὖν ὁπότ’ ἦν νεοττὸς Α. νέα] καλή Herwerd. Nov. add. crit. 29. nubem exemplorum congessit Lobeck. Paralip. 61. 2 ad tutandam vulgatam; nihilo minus poetam scripsisse credo καὶ πλέα, conl. Arist. Eq. 1129. 17. θᾶττον] ῥᾷον Mein. Anal. Ath. 266. 20. ἐστιν Α. ἐστιν ἢ πτύσαι Herwerd. Obs. crit. 65. 6. ‘facilius est eam videre quam spuere’ quod tamen omnium facillimum est. καὶ κύσαι Iacobs. Add. Ath. 304. 21. πῖομένη in exitu versus tolerari non potest. πενομένη Mein. Anal. Ath. που μόνη G. Herm. facillimum videtur πετομένη. cf. Arist. Lys. 55. 24. φίλταται A, fortasse recte. 2. Pollux 4, 78. 9 νόμοι δὲ Ὀλύμπου καὶ Μαρσύου... καὶ νόμος δ’ ἦν Ἱέρακος· ὁ δὲ Ἱέραξ νέος μὲν ἐτελεύτα, Ὀλύμπου (Arist. Eq. 9) δ’ ἦν οἰκέτης καὶ μαθητὴς καὶ ἐρώμενος. iocus continetur confusione nominum ἱέραξ et Ἱέραξ. 12. ‘insident aquilae tem-</note>
+            </div>
+          </div></body></text></TEI>

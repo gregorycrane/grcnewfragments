@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUBULUS, ΣΕΜΕΛΗ Η ΔΙΟΝΥΣΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.semele_e_dionysos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.semele_e_dionysos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.semele_e_dionysos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_semele_e_dionysos"><head>ΣΕΜΕΛΗ Η ΔΙΟΝΥΣΟΣ</head><div type="textpart" subtype="fragment" n="95" xml:id="kock-0458-semele_e_dionysos-95" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_semele_e_dionysos">
+              <lg>
+                <l n="1" xml:id="kock-0458-semele_e_dionysos-95-l1" xml:lang="grc">πρῶτον μὲν ὅταν ἐμοί τι θύωσίν τινες,</l>
+                <l n="2" xml:id="kock-0458-semele_e_dionysos-95-l2" xml:lang="grc">αἷμα, κύστιν, μὴ καρδίαν</l>
+                <l n="3" xml:id="kock-0458-semele_e_dionysos-95-l3" xml:lang="grc">μηδ’ ἐπιπόλαιον. οὐκ ἐγὼ γὰρ ἐσθίω</l>
+                <l n="4" xml:id="kock-0458-semele_e_dionysos-95-l4" xml:lang="grc">γλύκιον οὐδὲ μηρίαν.</l>
+              </lg>
+              <note type="source">Clemens Alex. Strom. 7, 6, 30 Εὔβουλος ὁ καὶ αὐτὸς κωμικὸς ὧδέ πως περὶ τῶν θυσιῶν γράφει (fr. 130). καὶ παραγαγὼν τὸν Διόνυσον ἐν Σεμέλη διαστελλόμενον πεποίηκεν κτλ.</note>
+              <note type="apparatus">1. θύωσιν Sylb.] θύωσι L. 2. θύουσιν αἷμα Sylb. post κύστιν plura excidisse suspicatur Mein. 3. μηδ’ Sylb.] μηδὲ. 4. γλύκιον G. Hermann.] γλυκείαν. κοιλία Arsen. Viol. 299. οὐκ ἐγὼ γὰρ ἐσθίω | γλυκύτερον οὐδὲν μηρίων Grotius Excerpt. 655. γλυκεῖαν i. e. fel Mein. IIII 613 sq. quae in Mnem. nov. VI 68 Herwerdenus protulit ea, utpote graecae linguae legibus adversa, publica luce indigna erant. neque vero probanda quae G. Hermannus proponit Aeschyl. II 101 θύουσιν αἷμα, κύστιν· οὐ μὴ καρδίαν, μηδ’ ἐπιπόλαιον· οὐκ ἐγὼ γὰρ ἐσθίω | γλύκιον οὐδὲν μηρίων; mihi conl. Pherecr. 23 non dubium videtur quin Bacchus his verbis illa recuset quae homines quippe quibus ipsi uti non possint deis inmolant, et ea poscat quae antiquitus deis dabantur μηρία. itaque sic haec constituo: μήθ’ αἷμα μήτε κύστιν μήτε καρδίαν, | μηδ’ ἐπιπόλαιον· ὡς ἔγωγ’ οὐκ ἐσθίω | γλύκιον οὐδὲν μηρίων. Hesych. ἐπιπόλαιον· τὸν ἐπίπλουν, ὑμένα. cf. Philetaer. 17.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="96" xml:id="kock-0458-semele_e_dionysos-96" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_semele_e_dionysos">
+              <lg>
+                <l n="1" xml:id="kock-0458-semele_e_dionysos-96-l1" xml:lang="grc">Ἑρμῆς ὁ Μαίας λίθινος, ὃν προσεύγμασιν</l>
+                <l n="2" xml:id="kock-0458-semele_e_dionysos-96-l2" xml:lang="grc">ἐν τῷ κυλικείῳ λαμπρὸν ἐκτετριμμένον —</l>
+              </lg>
+              <note type="source">Athenaeus 11, 460 e εἴρηται οὕτως (κυλικεῖον) ἡ τῶν ποτηρίων σκευοθήκη ... Εὔβουλος ... ἐν Σεμέλῃ ἢ Διονύσῳ κτλ.</note>
+              <note type="apparatus">1. προσεύγμασιν] προσευξάμην Fritzschius apud Toeppel. Progr. Neobr. 1857, 8. at quis praestet poetam orationem non sic continuavisse ὃν προσεύγμασιν — ἐκτετριμμένον τιμῶμεν vel ἱκετεύομεν? 2. ἐκτετριμμένον rectissime. sic Polybius τὰς πανοπλίας ἐκτρίβειν. cum poculis in κυλικείῳ Mercurius marmoreus positus erat ut deus tutelaris cauponae. id signum ut pocula abstergebatur. cf. Alexid. 119 et Toeppel. 8. 9. non audiendus est Herwerden. Nov. add. crit. 25.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="94" xml:id="kock-0458-semele_e_dionysos-94" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_semele_e_dionysos">
+              <lg>
+                <l n="1" xml:id="kock-0458-semele_e_dionysos-94-l1" xml:lang="grc">τρεῖς γὰρ μόνους κρατῆρας ἐγκεραννύω</l>
+                <l n="2" xml:id="kock-0458-semele_e_dionysos-94-l2" xml:lang="grc">τοῖς εὖ φρονοῦσι· τὸν μὲν ὑγιείας ἕνα,</l>
+                <l n="3" xml:id="kock-0458-semele_e_dionysos-94-l3" xml:lang="grc">ὃν πρῶτον ἐκπίνουσι, τὸν δὲ δεύτερον</l>
+                <l n="4" xml:id="kock-0458-semele_e_dionysos-94-l4" xml:lang="grc">ἔρωτος ἡδονῆς τε, τὸν τρίτον δ' ὕπνου,</l>
+                <l n="5" xml:id="kock-0458-semele_e_dionysos-94-l5" xml:lang="grc">ὃν ἐκπιόντες οἱ σοφοὶ κεκλημένοι</l>
+                <l n="6" xml:id="kock-0458-semele_e_dionysos-94-l6" xml:lang="grc">οἴκαδε βαδίζουσ'. ὁ δὲ τέταρτος οὐκ ἔτι</l>
+                <l n="7" xml:id="kock-0458-semele_e_dionysos-94-l7" xml:lang="grc">ἡμέτερός ἐστ', ἀλλ' ὕβρεος· ὁ δὲ πέμπτος βοῆς·</l>
+                <l n="8" xml:id="kock-0458-semele_e_dionysos-94-l8" xml:lang="grc">ἕκτος δὲ κώμων· ἔβδομος δ' ὑπωπίων·</l>
+                <l n="9" xml:id="kock-0458-semele_e_dionysos-94-l9" xml:lang="grc">ὁ δ' ὄγδοος κλητῆρος· ὁ δ' ἔνατος χολῆς·</l>
+                <l n="10" xml:id="kock-0458-semele_e_dionysos-94-l10" xml:lang="grc">δέκατος δὲ μανίας, ὥστε καὶ βάλλειν ποιεῖ·</l>
+                <l n="11" xml:id="kock-0458-semele_e_dionysos-94-l11" xml:lang="grc">πολὺς γὰρ εἰς ἓν μικρὸν ἀγγεῖον χυθεὶς</l>
+                <l n="12" xml:id="kock-0458-semele_e_dionysos-94-l12" xml:lang="grc">ὑποσκελίζει ῥᾷστα τοὺς πεπωκότας.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 36 b Εὔβουλος δὲ ποιεῖ τὸν Διόνυσον λέγοντα κτλ. Suidas οἶνος. Cramer. Anecd. Ox. IIII 254, 6 (sine auctoris fabulaeve indicio) τὸ μὲν πρῶτον ὑγείας· τὸ δεύτερον ἡδονῆς· τὸ τρίτον ὕβρεως· τὸ δὲ τελευταῖον μανίας. ad Semelen vel Dionysum rettulit Grotius Excerpt. 649.</note>
+              <note type="apparatus">1. γὰρ] γίνεται C. 2. ὑγιείας Dindf.] ὑγείας. ἕνα] ἕνεκα Suid. 5. ἐκπιόντες C] εἰσπίνοντες. ἐκπίνοντες Suid. 6. ἔτι Suid.] ἔθ'. 7. ἡμέτερος] ὑμέτερος A Suidae. ἐστ'] ἐστιν Suid. ὕβρεος Dindf.] ὕβρεως. cf. Theopomp. 32, 3. 9. ὁ δ' ὄγδ. Casaub.] ὄγδ. κλητῆρος Florens Christianus Arist. Vesp. 1384] κλήτορος. 10. ὥστε καὶ βάλλειν] ὥστ' ἐκβάλλειν Suid. ὥστε καὶ σφάλλειν πόδας Iacobs. Add. Ath. 35. ὥστε κακβάλλειν Mein. Anal. Ath. 18. 11. μικρὸν et 12. ῥᾷστα om. Suid. 1. fortasse scribendum ἐγκεράννυμεν. cf. v. 7. 3. an ὃν ἄκρατον ἐκπίνουσι? nam conlatis testimoniis ab Athenaeo 486 f.</note>
+            </div>
+          </div></body></text></TEI>

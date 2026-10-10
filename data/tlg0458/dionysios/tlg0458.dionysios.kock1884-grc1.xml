@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUBULUS, ΔΙΟΝΥΣΙΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.dionysios.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.dionysios.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.dionysios.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_dionysios"><head>ΔΙΟΝΥΣΙΟΣ</head><div type="textpart" subtype="fragment" n="26_27" xml:id="kock-0458-dionysios-26_27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_dionysios">
+              <lg>
+                <l n="1" xml:id="kock-0458-dionysios-26_27-l1" xml:lang="grc">Εὐριπίδου δ’ ἔσωσας ὡς ἴσασί σοι —</l>
+                <l n="2" xml:id="kock-0458-dionysios-26_27-l2" xml:lang="grc">[ὦ παρθέν’ εἰ σώσαιμί σ’, ἕξεις μοι χάριν;]</l>
+                <l n="3" xml:id="kock-0458-dionysios-26_27-l3" xml:lang="grc">καὶ τοῖς ἐμοῖσιν ἐγγελῶσι πήμασιν</l>
+                <l n="4" xml:id="kock-0458-dionysios-26_27-l4" xml:lang="grc">τὰ σῖγμα συλλέξαντες, ὡς αὐτοὶ σοφοί.</l>
+              </lg>
+              <note type="source">Schol. Euripid. Med. 476 Dindf. ἔσωσά σ’, ὡς ἴσασιν· πλεονάζει ὁ στίχος τῷ σ. ὅθεν... Εὔβουλος Διονυσίῳ Εὐριπίδου δ’ ἔσωσας, ὡς ἴσασί σοι· καὶ παρθενεύσεις ἕξεις μοι χάριν κτλ. 2. ὦ παρθέν’ εἰ σώσαιμί σ’ ἕξεις Andromedae fr. 126 N., ubi tamen εἴσει pro ἕξεις] παρθενεύσης ἔξει I. παρθενεύεις ἕξεις B. Fl. 6. 15. 3. ἐγγελῶσι Porson.] ἀγγελοῦσι.</note>
+              <note type="apparatus">fr. 1 conl. Plat. com. 30 (ex parte cum Meinekio) fortasse ita redintegrandum ἐκ τῶν σῖγμα τῶν Εὐριπίδου | ἔσωσας ὡς ἴσασιν Ἑλλήνων ὅσοι —. v. 2 Euripidis est, non Eubuli, qui tamen eum fortasse per ludibrium repetiverat. v. 4 ὡς αὐτός, sc. Εὐριπίδης Fritzschius Arist. Thesm. 501, quod vulgatum est intellegi posse negans. non recte. inducitur Euripides ipse, de comicorum malignitate indignabundus, si quid minus bene fecerit acriter conligentium, tamquam ipsi soli sapientes sint et omni errore careant.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="28" xml:id="kock-0458-dionysios-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_dionysios">
+              <lg>
+                <l n="1" xml:id="kock-0458-dionysios-28-l1" xml:lang="grc">χαὶ Προκλέους ἵπποι χλωρὰν ψαλάκανθαν ἔδουσιν.</l>
+              </lg>
+              <note type="source">Ptolemaeus Heph. Phot. Bibl. 190 p. 150 ὅτι τὸ κτλ., ἀγνοηθὲν Καλλιμάχῳ, Εὐβούλου ἐστὶ τοῦ κωμικοῦ εἰς Διονύσιον κωμωδία. καὶ περὶ τῆς παρῳδήσεως τοῦ στίχου. ἡ δὲ ψαλάκανθα βοτάνη ἐστὶν Αἰγυπτία, ἥτις ἵπποις περιαπτομένη νίκην παρέχει καὶ εὐδαιμονίαν. Suidas III 223 Πτολεμαῖος Κυθήριος, ἐποποιός. οὗτος ἔγραψε περὶ ψαλακάνθης. ἐν τούτῳ δέ φησιν, ὅτι βοτάνη ἐστὶ θαυμαστήν τινα δύναμιν ἔχουσα. in quibus ante verba οὗτος ἔγραψε inserenda esse Πτολεμαῖος Ἡφαιστίωνος indicat Meinekius, ut Ptolemaeus Cytherius discernatur a grammatico Ptolemaeo.</note>
+              <note type="apparatus">Eubuli versus quomodo ad inrisionem Dionysii pertineat non adparet. Procles, Naxiorum in Sicilia imperator, patriam Dionysio prodidit Ol. 94, 2. Diodor. 14, 15. Mein. I 361.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0458-dionysios-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_dionysios">
+              <lg>
+                <l n="1" xml:id="kock-0458-dionysios-29-l1" xml:lang="grc">κωφότερος κίχλης</l>
+              </lg>
+              <note type="source">παρ’ Εὐβούλῳ ἐν Διονυσίῳ. λέγεται καὶ ἀφωνότερος κίχλης. Photius, Suidas, Cramer. Anecd. Par. I 396, 33. Zenobius 4, 66 κωφότερος κίχλης· ταύτης Εὔβουλος ἐν Διονυσίῳ μέμνηται.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="25" xml:id="kock-0458-dionysios-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_dionysios">
+              <lg>
+                <l n="1" xml:id="kock-0458-dionysios-25-l1" xml:lang="grc">ἀλλ' ἔστι τοῖς σεμνοῖς μὲν αὐθαδέστερος,</l>
+                <l n="2" xml:id="kock-0458-dionysios-25-l2" xml:lang="grc">καὶ τοῖς κόλαξι πᾶσι τοῖς σκώπτουσί τε</l>
+                <l n="3" xml:id="kock-0458-dionysios-25-l3" xml:lang="grc">ἑαυτὸν εὐόργητος· ἡγεῖται δὲ δὴ</l>
+                <l n="4" xml:id="kock-0458-dionysios-25-l4" xml:lang="grc">τούτους μόνους ἐλευθέρους, κἂν δοῦλος ᾖ.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 260 cd postquam Philippum regem pronum ad ludibria fuisse narravit ita pergit: τὰ παραπλήσια ἐποίει καὶ ὁ Σικελιώτης Διονύσιος, ὡς Εὔβουλος ὁ κωμῳδιοποιὸς παρίστησιν ἐν τῷ τοῦ τυράννου ὁμωνύμῳ δράματι κτλ.</note>
+              <note type="apparatus">2. καὶ τοῖς] τοῖς δ' αὖ vel (in Ath.) τοῖσι δὲ Mein. 3. ἑαυτὸν Casaub.] αὐτὸν Α. εἰς αὐτὸν Mein. ed. mai. πᾶσι, τοῖς σκώπτουσι δὲ | εἰς αὐτὸν G. A. Hirschig. Ann. crit. 6. δὲ δὴ Schweigh.] δὴ Α. 4. κἂν δοῦλος ᾖ, i. e. τις αὐτῶν. — εὐόργητον Athenaeus certe hic facilem ad ignoscendum interpretabatur.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="7_11" xml:id="kock-0458-dionysios-7_11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_dionysios">
+              <lg>
+                <l n="1" xml:id="kock-0458-dionysios-7_11-l1" xml:lang="grc">ἔπειτα δ’ οὐδὲ τοῦτο γινώσκεις ὅτι</l>
+                <l n="2" xml:id="kock-0458-dionysios-7_11-l2" xml:lang="grc">τοῖς οὐδὲν οὖσιν οὐδὲ εἷς ὅλως φθονεῖ;</l>
+              </lg>
+            </div>
+          </div></body></text></TEI>

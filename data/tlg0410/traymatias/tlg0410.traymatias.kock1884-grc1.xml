@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΤΡΑΥΜΑΤΙΑΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.traymatias.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.traymatias.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.traymatias.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_traymatias"><head>ΤΡΑΥΜΑΤΙΑΣ</head><div type="textpart" subtype="fragment" n="207" xml:id="kock-0410-traymatias-207" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_traymatias">
+              <lg>
+                <l n="1" xml:id="kock-0410-traymatias-207-l1" xml:lang="grc">μὴ μεστὰς ἀεὶ</l>
+                <l n="2" xml:id="kock-0410-traymatias-207-l2" xml:lang="grc">ἕλκωμεν, ἀλλὰ καὶ λογισμὸς εἰς μέσον</l>
+                <l n="3" xml:id="kock-0410-traymatias-207-l3" xml:lang="grc">παταξάτω τις, καί τι καὶ μελίσκιον,</l>
+                <l n="4" xml:id="kock-0410-traymatias-207-l4" xml:lang="grc">στροφὴ λόγων παρελθέτω τις. ἡδύ τοι</l>
+                <l n="5" xml:id="kock-0410-traymatias-207-l5" xml:lang="grc">ἐστὶν μεταβολὴ παντὸς ἔργου πλὴν ἑνός</l>
+                <l n="6" xml:id="kock-0410-traymatias-207-l6" xml:lang="grc">. . . . . παραδίδου δ’ ἑξῆς ἐμοὶ</l>
+                <l n="7" xml:id="kock-0410-traymatias-207-l7" xml:lang="grc">τὸν ἀρκεσίγυιον, ὡς ἔφασκ’ Εὐριπίδης.</l>
+                <l n="8" xml:id="kock-0410-traymatias-207-l8" xml:lang="grc">Α. Εὐριπίδης γὰρ τοῦτ’ ἔφασκεν; Β. ἀλλὰ τίς;</l>
+                <l n="9" xml:id="kock-0410-traymatias-207-l9" xml:lang="grc">Α. Φιλόξενος δήπουθεν. Β. οὐδὲν διαφέρει,</l>
+                <l n="10" xml:id="kock-0410-traymatias-207-l10" xml:lang="grc">ὦ ’τάν· ἐλέγχεις μ’ ἕνεκα συλλαβῆς μιᾶς.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 446 a Ἀντιφάνης ἐν τῷ Τραυματίᾳ κτλ.</note>
+              <note type="apparatus">1. αἰεὶ Α. 2. λογισμός] διάλογος Herwerd. Mnem. nov. VI 65. scr. λογίσκος, sermunculus, ut μελίσκιον. cf. οἰνίσκος, οἰκίσκος. 3. παταξάτω] παραξάτω Mein., quod verbum nimis est violentum. scr. παρεισίτω. cf. Nicostr. 4 et quae ad Eubul. 37 congessi. 4. στροφὴ λόγων Porson.] στροφὴ Α. ἡδύ τοι Porson.] ἡ αὐτὴ λέγων Α. ἡδύ τι Grot. Excerpt. 629. 5. ἐστὶ Α. 6. παραδίδου — ἀρκεσίγυιον Athenaei verba esse indicat Dindorfius, post v. 5 plura excidisse censens. 7. τὸν Casaub.] οἶνον Α. 9. οὐθὲν Α. 10. ὦταν ἐλέγχηις Α. 4. Clement. Alex. Strom. 6, 8, 70 ἐπίσταται στροφὰς λόγων καὶ λύσεις αἰνιγμάτων confert Meinekius V 78, quod longe aliter dictum est. 5. τὴν μεταβολὴν τοῦ ἡδέος εἰς τὸ ἐναντίον non suavem esse recte interpretatur Valck. Diatr. 229, unde (nisi a παραδίδου alterum fragmentum incohandum est) facile suppleas τοῦ γ’ ἡδέος αὐτοῦ. aliter Herwerd. Obs. crit. 10. 6. non bene Athenaeum suum intellexit Eustathius 1910, 48 ὅτε καιρὸν ἡ πόσις ἔχει τοῦ οἴνου, τότε κατὰ τὴν Εὐριπίδειον μοῦσαν ἀρκεσίγυιός ἐστιν. Bergkius eam vocem in Philoxeni fragmentis (17) inter τὰ ἄδηλα εἴδη recepit. mihi Antiphanes ita demum intellegi posse videtur, si Euripides re vera vinum, in cantico puto, τὸν ἀρκεσίγυιον (fort. ἀερσίγυιον) dixit. id epitheton alter tam alienum ducit poesi Euripidea, ut Philoxeno potius dignum iudicet.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="208" xml:id="kock-0410-traymatias-208" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_traymatias">
+              <lg>
+                <l n="1" xml:id="kock-0410-traymatias-208-l1" xml:lang="grc">κατεσκευασμένος</l>
+                <l n="2" xml:id="kock-0410-traymatias-208-l2" xml:lang="grc">λαμπρότατον ἰατρεῖον εὐχάλκοις πάνυ</l>
+                <l n="3" xml:id="kock-0410-traymatias-208-l3" xml:lang="grc">λουτηρίοισιν, ἐξαλείπτροις, κυλιχνίσιν,</l>
+                <l n="4" xml:id="kock-0410-traymatias-208-l4" xml:lang="grc">σικύαισιν, ὑποθέτοισιν.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="210" xml:id="kock-0410-traymatias-210" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_traymatias">
+              <lg>
+                <l n="1" xml:id="kock-0410-traymatias-210-l1" xml:lang="grc">ἀρετὴ τὸ προῖκα τοῖς φίλοις ὑπηρετεῖν.</l>
+                <l n="2" xml:id="kock-0410-traymatias-210-l2" xml:lang="grc">Β. λέγεις ἔσεσθαι τὸν Τιθύμαλλον πλούσιον·</l>
+                <l n="3" xml:id="kock-0410-traymatias-210-l3" xml:lang="grc">εἰ πράξεται γὰρ μισθὸν ἐκ τοῦ σοῦ λόγου</l>
+                <l n="4" xml:id="kock-0410-traymatias-210-l4" xml:lang="grc">παρ’ οἷς ἐδείπνει προῖκα, συλλέξει συχνά.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 240 f Ἀντιφάνης Τυρρηνῷ κτλ.</note>
+              <note type="apparatus">1. ἀρετὴ Erfurdt. Obs. 447] γαρετη Α. 2. τὸν add. Schweigh. 3. εἰ πράξεται Cobet. N. 1. 14] εὐπράξεται Α. ἐσπράξεται Casaub. 4. συλλέξει Dindf.] συλλέξειν Α. συχνά Cobet.] συχνὴν Α. praeterea scribendum est παρ’ οἷσι δειπνεῖ. παρ’ οἷς τε δειπνεῖ Dindorf. — verba personae B non satis concinunt cum v. 1. de Tithymallo agit Athenaeus toto cap. 38 libri 6.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="211" xml:id="kock-0410-traymatias-211" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_traymatias">
+              <lg>
+                <l n="1" xml:id="kock-0410-traymatias-211-l1" xml:lang="grc">δήμου δ’ Ἀλαιεύς ἐστιν. Β. ἓν γὰρ τοῦτό μοι</l>
+                <l n="2" xml:id="kock-0410-traymatias-211-l2" xml:lang="grc">τὸ λοιπόν ἐστι, καὶ κακῶς ἀκούσομαι.</l>
+                <l n="3" xml:id="kock-0410-traymatias-211-l3" xml:lang="grc">Α. τί δῆτα τοῦτο; Β. θρᾶτταν ἢ ψῆττάν τιν’ ἢ</l>
+                <l n="4" xml:id="kock-0410-traymatias-211-l4" xml:lang="grc">μύραιναν ἢ κακόν τί μοι δώσει μέγα</l>
+                <l n="5" xml:id="kock-0410-traymatias-211-l5" xml:lang="grc">θαλάττιον.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 329 e ὅτι δὲ θρᾶτταν ἔλεγον τὸ θαλάττιον ἰχθύδιον.. παρίστησι ... καὶ Ἀντιφάνης ἐν Τυρρηνῷ κτλ.</note>
+              <note type="apparatus">1. τῶν | δήμων Herwerd. Obs. crit. 51. ἁλαιευς sine acc. A. ἓν ἄρα ἔτι λοιπὸν ἦν, ὅτι καὶ Herwerd. 2. ἐστιν Α. ἐστιν, εἰ Naber. Mnem. nov. VIII 52. an ἐστ’ εἰ καὶ? 4. δώσει] θήσει (‘an μ’ ὀνομάσει?’) Herwerd. Stud. crit. 84. 5. Ἁλαί pagus est τῆς Αἰγηίδος, et Ἁλαιεύς Kirchhoff. I. A. 157. 188. 230. 237. Ἁλαιεῖς fabula est Menandri. ‘videtur poeta mulierculam induxisse pisces vehementer aversantem et Halaeensi civi, apud quos multam piscium capturam fuisse constat, invito animo nubentem’. Mein. ‘muraena ponitur a Graecis in convicio. Aesch. Cho. 994. Arist. Ran. 477’, item ‘ψῆττα... Lysistr. 115. Plat. com. 106. nihil certius quam mulierem...respondere, se ab illo, quippe Halaeensi, identidem cognomento aliquo ex eo genere...laceratum iri.’ Herwerd. Stud. crit. 84. 5. de θράττῃ cf. Archipp. 27. mihi non liquet.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΒΟΜΒΥΛΙΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.bombylios.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.bombylios.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.bombylios.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_bombylios"><head>ΒΟΜΒΥΛΙΟΣ</head><div type="textpart" subtype="fragment" n="62" xml:id="kock-0410-bombylios-62" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_bombylios">
+              <head>62</head>
+              <lg>
+                <l n="1" xml:id="kock-0410-bombylios-62-l1" xml:lang="grc">τὰς προσφόρους</l>
+                <l n="2" xml:id="kock-0410-bombylios-62-l2" xml:lang="grc">ὑμῖν τροφάς, σκορόδια, τυρόν, κρόμμυα,</l>
+                <l n="3" xml:id="kock-0410-bombylios-62-l3" xml:lang="grc">κάππαριν . . . πάντα ταῦτ’ ἐστὶν δραχμῆς.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 4, 161 e ἐξὸν κατὰ τὸν αὐτὸν τοῦτον ποιητὴν (Ἀντιφάνη) ἐν Θομβυκίῳ λέγοντα (λέγονται Α) δραχμῆς ὠνήσασθαι κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>2. ὑμῖν, non ἡμῖν, Α. σκορόδια Iacobs. Addit. 103] σκόροδα. — in ed. min. Mein. ante τὰς προσφόρους posuit δραχμῆς, in Athenaeo etiam τὰς προσφόρους ὑμῖν τροφάς cum Dobraeo a poetae verbis secludit. 3. ἐλάας vel ἄνηθον supplet Dobr.: at quidni ἔλαιον? cf. fr. 70. Iacobs. καὶ κάππαρίν γ’· ἅπαντα κτλ., Nauck. Philol. VI 416 κάππαριν· ἁπαξάπαντα κτλ. Herwerden. Nov. add. crit. 19 κάππαριν· ἅπαντα ταῦτα μιᾶς ἐστιν δρ., caesura intolerabili.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="63" xml:id="kock-0410-bombylios-63" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_bombylios">
+              <head>63</head>
+              <note type="source">
+                <p>Pollux 10, 179 εἴη δ’ ἂν καὶ κόιξ ἓν τι τῶν πλεγμάτων . . . σαφῶς δὲ αὐτὸ Ἀντιφάνης ἐν Βομβυλιῷ δηλοῖ εἰπών· ἀγγεῖον ἀλφιτηρὸν ὁ κόιξ.</p>
+              </note>
+              <note type="apparatus">
+                <p>ἀλφιτηρὸν Cobet. Mnem. V 194] ἀλφιτήριον. verba poetae ea esse quae Pollux tradit credere non possum. ceterum cf. Pherecr. 78.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="64" xml:id="kock-0410-bombylios-64" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_bombylios">
+              <head>64</head>
+              <head>κνισολοιχός</head>
+              <note type="source">
+                <p>Athenaeus 3, 125 f τοῦ κνισολοιχοῦ δὲ καὶ Ἀντιφάνης μνημονεύει ἐν Βομβυλιῷ.</p>
+              </note>
+              <note type="apparatus">
+                <p>κνισολοιχοῦ Mein.] κνισολοίχου.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

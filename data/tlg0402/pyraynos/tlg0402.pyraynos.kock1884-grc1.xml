@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΠΥΡΑΥΝΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.pyraynos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.pyraynos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.pyraynos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pyraynos"><head>ΠΥΡΑΥΝΟΣ</head><div type="textpart" subtype="fragment" n="201_202" xml:id="kock-0402-pyraynos-201_202" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pyraynos">
+              <lg>
+                <l n="1" xml:id="kock-0402-pyraynos-201_202-l1" xml:lang="grc">ΣΤΡ. ἐμοὶ παρασιτεῖν κρεῖττον ἦν τῷ Πηγάσῳ,</l>
+                <l n="2" xml:id="kock-0402-pyraynos-201_202-l2" xml:lang="grc">ἢ τοῖς Βορεάδαις ἢ εἴ τι θᾶττον ἔτι τρέχει,</l>
+                <l n="3" xml:id="kock-0402-pyraynos-201_202-l3" xml:lang="grc">ἢ Δημέᾳ Λάχητος Ἐτεοβουτάδῃ·</l>
+                <l n="4" xml:id="kock-0402-pyraynos-201_202-l4" xml:lang="grc">πέτεται γὰρ οὐχ οἷον βαδίζει τὰς ὁδούς.</l>
+                <l n="5" xml:id="kock-0402-pyraynos-201_202-l5" xml:lang="grc">Στράτιε, φιλεῖς δήπου με. ΣΤΡ. μᾶλλον τοῦ πατρός·</l>
+                <l n="6" xml:id="kock-0402-pyraynos-201_202-l6" xml:lang="grc">ὁ μὲν γὰρ οὐ τρέφει με, σὺ δὲ λαμπρῶς τρέφεις.</l>
+                <l n="7" xml:id="kock-0402-pyraynos-201_202-l7" xml:lang="grc">Α. εὔχει τ᾽ ἀεί με ζῆν. ΣΤΡ. ἅπασι τοῖς θεοῖς·</l>
+                <l n="8" xml:id="kock-0402-pyraynos-201_202-l8" xml:lang="grc">ἂν γὰρ πάθῃς τι, πῶς ἐγὼ βιώσομαι;</l>
+              </lg>
+              <note type="source">Athenaeus 6, 244 de Ἄλεξις ἐν Πυραύνῳ (παρϋνωι A) Στράτιον παράσιτον εἰσάγει δυσχεραίνοντα τῷ τρέφοντι καὶ λέγοντα τάδε ἐμοὶ — τὰς ὁδούς. καὶ μετ᾽ ὀλίγα Στράτιε κτλ.</note>
+              <note type="apparatus">2. εἴ add. C. ἔτι Schweigh.] ἔτι τούτων A. τούτων ἔτι C. eiecto priore ἤ Kaibelius Herm. XVIIII 259 τοῖς Βορεάδαις ἢ θᾶττον ὅτι τούτων τρέχει. 3. δημεᾳ λαχητος ἐτεοβουτάδη A. 4. πετε γαρουχοιον A. 7. εὔχη A. 2. de Boreadis cf. Preller. Myth. gr.² II 149. 323. 331. 3. Hesych. Ἐτεοβουτάδαι· γένος Ἀθήνησι πάνυ λαμπρόν. Phot. Ἐτεοβουτ[ι]άδαι· γένος Ἀθηναίοις· οἷον οἱ ἀληθῶς ἀπὸ Βούτου γεγονότες. ἐκ δὲ τούτων καθίστατο ἡ ἱερεία (ἱέρεια cod.) τῆς Πολιάδος. cf. C. F. Hermann. Ant. rel. 61, 11. 12. 4. οὐχ οἷον, ut 18, 4. 5. ‘plus quam meum patrem’ te amo. Cobet. N. 1. 614. 7. ἅπασι τοῖς θεοῖς, εὔχομαί σε ζῆν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="203" xml:id="kock-0402-pyraynos-203" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pyraynos">
+              <lg>
+                <l n="1" xml:id="kock-0402-pyraynos-203-l1" xml:lang="grc">πεῖραν ἐπεθύμουν θατέρου βίου λαβεῖν,</l>
+                <l n="2" xml:id="kock-0402-pyraynos-203-l2" xml:lang="grc">ὃν πάντες εἰώθασιν ὀνομάζειν ὑγρόν.</l>
+                <l n="3" xml:id="kock-0402-pyraynos-203-l3" xml:lang="grc">τρεῖς ἐν Κεραμεικῷ περιπατήσας ἡμέρας</l>
+                <l n="4" xml:id="kock-0402-pyraynos-203-l4" xml:lang="grc">διδασκάλους ἐξεῦρον οὗ λέγω βίου</l>
+                <l n="5" xml:id="kock-0402-pyraynos-203-l5" xml:lang="grc">ἴσως τριάκοντ᾽ ἀφ᾽ ἑνὸς ἐργαστηρίου.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 258b οὐκ ἂν διαμάρτοι δέ τις τὸν τοῦ μειρακίου τούτου τοῦ Κυπρίου (Antiphan. 202) βίον ὑγρὸν ὀνομάζων, οὗ πολλοὺς καὶ διδασκάλους φησὶν εἶναι Ἀθήνησιν Ἄλεξις ἐν Πυραύνῳ λέγων οὕτως κτλ.</note>
+              <note type="apparatus">1. ἐπιθυμῶν deleta post v. 2 interpunctione Naber. Mnem. nov. VIII 263. 5. ἀφ᾽] ἐφ᾽ Mein. Anal. Ath. 113. ἐργαστήριον est κουρεῖον vel μαστροπεῖον vel aliquid simile.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="204" xml:id="kock-0402-pyraynos-204" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pyraynos">
+              <lg>
+                <l n="1" xml:id="kock-0402-pyraynos-204-l1" xml:lang="grc">ἄνοιγ᾽ ἄνοιγε τὴν θύραν· ἐλάνθανον</l>
+                <l n="2" xml:id="kock-0402-pyraynos-204-l2" xml:lang="grc">πάλαι περιπατῶν ἀνδριάς, ἀλέτων ὄνος,</l>
+                <l n="3" xml:id="kock-0402-pyraynos-204-l3" xml:lang="grc">ποτάμιος ἵππος, τοῖχος, ὁ Σελεύκου τίγρις.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 590b ἀρσενικῶς εἴρηκε τὸν τίγριν Ἄλεξις ἐν Πυραύνῳ οὕτως κτλ.</note>
+              <note type="apparatus">2. ἀνδριάς Dalecamp.] ἀνδρείας Α. ἀλέτων, non ἀλετών, Α. cf. fr. 13. 3. τοῖχος ut lapis molaris v. 2 pro ἀναισθήτῳ dicitur. cf. Arist. Nub. 181. adulescens Alexideus paratus est artis magistris se dedere, sed qui βίου ὑγροῦ artem docere possint.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="205" xml:id="kock-0402-pyraynos-205" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_pyraynos">
+              <lg>
+                <l n="1" xml:id="kock-0402-pyraynos-205-l1" xml:lang="grc">ἐγὼ δ᾽ ἐπειδὰν ἀσχολουμένους λάβω,</l>
+                <l n="2" xml:id="kock-0402-pyraynos-205-l2" xml:lang="grc">ἀνέκραγον ‘οὐ δώσει τις ἡμῖν ματτύην;’</l>
+              </lg>
+              <note type="source">Athenaeus 14, 663.4 Ἄλεξις ἐν Πυραύνῳ (sine accentu A) ἀμφιβόλως εἴρηκεν κτλ., ὥσπερ ἂν εἰ τὸ δεῖπνον ἔλεγεν.</note>
+              <note type="apparatus">in tanta fragmenti brevitate neque poetam neque Athenaeum intellego.</note>
+            </div>
+          </div></body></text></TEI>

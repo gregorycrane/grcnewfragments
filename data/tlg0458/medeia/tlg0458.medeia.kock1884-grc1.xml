@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUBULUS, ΜΗΔΕΙΑ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.medeia.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.medeia.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.medeia.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_medeia"><head>ΜΗΔΕΙΑ</head><div type="textpart" subtype="fragment" n="64" xml:id="kock-0458-medeia-64" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_medeia">
+              <head>64</head>
+              <lg>
+                <l n="1" xml:id="kock-0458-medeia-64-l1" xml:lang="grc">τεῦτλ’ ἀμπεχομένης παρθένου Βοιωτίας</l>
+                <l n="2" xml:id="kock-0458-medeia-64-l2" xml:lang="grc">Κωπᾷδος· ὀνομάζειν γὰρ αἰδοῦμαι θεάν.</l>
+              </lg>
+              <note type="source">Athenaeus 7,300c ὅτι δ’ ἤσθιον τὰς ἐγχέλεις καὶ μετὰ τεύτλων ἐντυλίξαντες . . . Εὔβουλος δέ φησιν . . . ἐν Μηδείᾳ κτλ.</note>
+              <note type="apparatus">1. τεῦτλ’ ἀμπεχομένης addenda esse monuit Casaub. praecedit enim apud Athenaeum fr. 37. παρθένου, quia anguilla quasi locum occupat Minervae. non hoc dicit se vereri anguillam deam adpellare, sed vereri deam suo nomine anguillam adpellare, tamquam non sit dea. parodiam esse Eurip. Orest. 37 ὀνομάζειν γὰρ αἰδοῦμαι θεὰς | Εὐμενίδας monuit Toeppelius Progr. Neobr. 1851, 15. — θεάν, ut Antiph. 81. cf. Aristoph. fr. 204.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="66" xml:id="kock-0458-medeia-66" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_medeia">
+              <lg>
+                <l n="1" xml:id="kock-0458-medeia-66-l1" xml:lang="grc">σὺ μὲν τὸ Θήβης, ὡς λέγεις, πέδον λιπών,</l>
+                <l n="2" xml:id="kock-0458-medeia-66-l2" xml:lang="grc">ἀνδρῶν ἀρίστων ἐσθίειν δι’ ἡμέρας</l>
+                <l n="3" xml:id="kock-0458-medeia-66-l3" xml:lang="grc">ὅλης τραχήλους καὶ κοπρῶνος πλησίον —</l>
+              </lg>
+              <note type="source">Athenaeus 10, 417d ἐν τοῖς Μυσοῖς πρὸς τὸν Ἡρακλέα ποιεῖ τινα τάδε λέγοντα (Εὔβουλος) κτλ. v. 2 etiam fr. 34.</note>
+              <note type="apparatus">1. λέγεις] λόγος Naber. Mnem. nov. VIII 247. talia soluta sententiarum continuatione diiudicari non possunt. 3. κοπρῶνος Schweigh.] κοπρῶνας Α. scribendum videtur τοῦ κοπρῶνος πλησίον. καὶ τακῶνας πλησίον κοπρῶνος Mein. Anal. Ath. 184. deest verbum finitum. — τράχηλοι, cochlearum cervices, libentissime ab Atheniensibus edebantur. Archedic. 3, 4. Posidipp. 12, 3 Mein. sed Boeotis alia sine dubio placebant, neque eos per totos dies cochleis delectatos fuisse consentaneum est. scribendum φασήλους, qui est rusticorum cibus. Arist. Pac. 1144. Demetr. com. 5. vilem phaselum dicit Verg. Georg. 1, 227. Plin. N. h. 18, 118 (faba) praevalens pulmentari cibo et hebetare sensus existimata.</note>
+            </div>
+          </div></body></text></TEI>

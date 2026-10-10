@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΚΡΑΤΕΥΑΣ Η ΦΑΡΜΑΚΟΠΩΛΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.krateyas_e_pharmakopoles.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.krateyas_e_pharmakopoles.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.krateyas_e_pharmakopoles.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_krateyas_e_pharmakopoles"><head>ΚΡΑΤΕΥΑΣ Η ΦΑΡΜΑΚΟΠΩΛΗΣ</head><div type="textpart" subtype="fragment" n="111" xml:id="kock-0402-krateyas_e_pharmakopoles-111" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_krateyas_e_pharmakopoles">
+              <lg>
+                <l n="1" xml:id="kock-0402-krateyas_e_pharmakopoles-111-l1" xml:lang="grc">παῖ, τὴν μεγάλην δός, ὑποχέας</l>
+                <l n="2" xml:id="kock-0402-krateyas_e_pharmakopoles-111-l2" xml:lang="grc">φιλίας κυάθους μὲν τῶν παρόντων τέτταρας,</l>
+                <l n="3" xml:id="kock-0402-krateyas_e_pharmakopoles-111-l3" xml:lang="grc">τοὺς τρεῖς δ' ἔρωτος προσαποδώσεις ὕστερον·</l>
+                <l n="4" xml:id="kock-0402-krateyas_e_pharmakopoles-111-l4" xml:lang="grc">ἕν' Ἀντιγόνου τοῦ βασιλέως νίκης καλῶς,</l>
+                <l n="5" xml:id="kock-0402-krateyas_e_pharmakopoles-111-l5" xml:lang="grc">καὶ τοῦ νεανίσκου κύαθον Δημητρίου.</l>
+                <l n="6" xml:id="kock-0402-krateyas_e_pharmakopoles-111-l6" xml:lang="grc">φέρε τὸν τρίτον . . . . . . . . . . . .</l>
+                <l n="7" xml:id="kock-0402-krateyas_e_pharmakopoles-111-l7" xml:lang="grc">Φίλας Ἀφροδίτης· χαίρετ' ἄνδρες συμπόται,</l>
+                <l n="8" xml:id="kock-0402-krateyas_e_pharmakopoles-111-l8" xml:lang="grc">ὅσων ἀγαθῶν τὴν κύλικα μεστὴν πίομαι.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 6, 254 a Ἄλεξις γοῦν ἐν Φαρμακοπώλῃ ἢ Κρατεύᾳ (κρατείᾳ A) προπίνοντά τινα εἰσαγαγὼν ἑνὶ τῶν συμποτῶν καὶ λέγοντα ποιεῖ τάδε κτλ.</p>
+              </note>
+              <note type="apparatus">
+                <p>1. ὑποχέας recte A. 2. μὲν add. Mein., melius tamen in Athen. scribens τῶν συμπαρόντων. 3. ἔρωτος A. versum corruptum esse arbitratur Cobetus N. 1. 610. 11. 4. ἕν' add. Casaub. καλῆς idem. B. καλῶς. A. καὶ τοῦ κτλ. Dobr. 7. φίλης (suprascr. α) A. 8. ὅσων P et Casaub.] ὅσην A.</p>
+                <p>1. ‘οἱ οἰνοχόοι τὸν οἶνον ὑποχέαντες εἶτα τὸ ὕδωρ ἐπιχέουσιν’</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="110" xml:id="kock-0402-krateyas_e_pharmakopoles-110" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_krateyas_e_pharmakopoles">
+              <lg>
+                <l n="1" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l1" xml:lang="grc">πρῶτον μὲν οὖν ὄστρεια παρὰ Νηρεῖ τινα</l>
+                <l n="2" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l2" xml:lang="grc">ἰδὼν γέροντι φῦκος ἠμφιεσμένα</l>
+                <l n="3" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l3" xml:lang="grc">ἔλαβον ἐχίνους τ᾽· ἔστι γὰρ προοίμιον</l>
+                <l n="4" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l4" xml:lang="grc">δείπνου χαριέντως ταῦτα πεπρυτανευμένου.</l>
+                <l n="5" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l5" xml:lang="grc">τούτων δ᾽ ἀπολυθείς, κειμένων ἰχθυδίων</l>
+                <l n="6" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l6" xml:lang="grc">μικρῶν, τρεμόντων τῷ δέει τί πείσεται,</l>
+                <l n="7" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l7" xml:lang="grc">θαρρεῖν κελεύσας ἕνεκ᾽ ἐμοῦ ταῦτ᾽, οὐδὲ ἓν</l>
+                <l n="8" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l8" xml:lang="grc">φήσας ἀδικήσειν, ἐπριάμην γλαύκον μέγαν.</l>
+                <l n="9" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l9" xml:lang="grc">ἔπειτα νάρκην ἔλαβον, ἐνθυμούμενος</l>
+                <l n="10" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l10" xml:lang="grc">ὅτι δεῖ γυναικὸς ἐπιφερούσης δακτύλους</l>
+                <l n="11" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l11" xml:lang="grc">ἁπαλοὺς ὑπ᾽ ἀκάνθης μηδὲ ἓν τούτων παθεῖν.</l>
+                <l n="12" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l12" xml:lang="grc">ἐπὶ τὸ τάγηνον φυκίδας, ψήττας τινάς,</l>
+                <l n="13" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l13" xml:lang="grc">καρῖδα, φύκην, κωβιόν, πέρκην, σπάρον,</l>
+                <l n="14" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l14" xml:lang="grc">ἐποίησά τ᾽ αὐτὸ ποικιλώτερον ταῶ.</l>
+                <l n="15" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l15" xml:lang="grc">κρεάδι᾽ ἄττα, ποδάρια, ῥύγχη τινά,</l>
+                <l n="16" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l16" xml:lang="grc">ὠτάρι᾽ ὕει᾽, ἡπάτιον ἐγκεκαλυμμένον·</l>
+                <l n="17" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l17" xml:lang="grc">αἰσχύνεται γὰρ πελιτνὸν ὂν τῷ χρώματι.</l>
+                <l n="18" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l18" xml:lang="grc">τούτοις μάγειρος οὐ πρόσεισ᾽, οὐκ ὄψεται.</l>
+                <l n="19" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l19" xml:lang="grc">οἰμώξεται γὰρ νὴ Δί᾽· ἀλλ᾽ ἐγὼ σοφῶς</l>
+                <l n="20" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l20" xml:lang="grc">ταῦτ᾽ οἰκονομήσω καὶ γλαφυρῶς καὶ ποικίλως</l>
+                <l n="21" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l21" xml:lang="grc">οὕτω, ποιῶ γὰρ τοὔψον αὐτός, ὥστε τοὺς</l>
+                <l n="22" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l22" xml:lang="grc">δειπνοῦντας εἰς τὰ λοπάδι᾽ ἐμβάλλειν ποιῶ</l>
+                <l n="23" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l23" xml:lang="grc">ἐνίοτε τοὺς ὀδόντας ὑπὸ τῆς ἡδονῆς.</l>
+                <l n="24" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l24" xml:lang="grc">τὰς σκευασίας πάντων δὲ καὶ τὰς σκευάσεις</l>
+                <l n="25" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l25" xml:lang="grc">τούτων ἕτοιμός εἰμι δεικνύειν, λέγειν,</l>
+                <l n="26" xml:id="kock-0402-krateyas_e_pharmakopoles-110-l26" xml:lang="grc">προῖκα προδιδάσκειν, ἂν θέλῃ τις μανθάνειν.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 3, 107 a ῎Αλεξις ἐν Κρατεύᾳ (κρατείᾳ Α) ἢ Φαρμακοπώλῃ ... φησὶ δ᾽ οὕτως ὁ κωμικός κτλ. v. 9—11 etiam fr. 48, cui v. 12—14 quoque addendos esse censet Mein. cf. etiam fr. 24. v. 12 Athen. 3, 108a ταγηνιστῶν δ᾽ ἰχθύων μνημονεύει ῎Αλεξις ἐν Δημητρίῳ καθάπερ καὶ ἐν τῷ προκειμένῳ δράματι (Κρατεύᾳ). v. 15. 16 Athenaeus 3, 95 a ποδῶν τε καὶ ὠτίων, ἔτι δὲ ῥύγχους ῎Αλεξις (μνημονεύει) ἐν Κρατεύᾳ (κρατίαι Α) ἢ Φαρμακοπώλῃ.</p>
+              </note>
+              <note type="apparatus">
+                <p>1. οὖν add. Elmsl. ὄστρεια Dindf.] ὄστρεα Α. τινα</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

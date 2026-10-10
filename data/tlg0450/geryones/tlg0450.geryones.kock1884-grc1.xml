@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EPHIPPUS, ΓΗΡΥΟΝΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Ephippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0450.geryones.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0450.geryones.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0450.geryones.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_geryones"><head>ΓΗΡΥΟΝΗΣ</head><div type="textpart" subtype="fragment" n="3" xml:id="kock-0450-geryones-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_geryones">
+              <lg>
+                <l n="1" xml:id="kock-0450-geryones-3-l1" xml:lang="grc">ἔπειτα πῶς</l>
+                <l n="2" xml:id="kock-0450-geryones-3-l2" xml:lang="grc">οὐ στέφανος οὐδείς ἐστι πρόσθε τῶν θυρῶν;</l>
+              </lg>
+              <pb n="252" facs="urn:hathi:hvd.hxijve:scan:258"/>
+              <lg>
+                <l n="3" xml:id="kock-0450-geryones-3-l3" xml:lang="grc">οὐ κνῖσα κρούει ῥινὸς ὑπεροχὰς ἄκρας,</l>
+                <l n="4" xml:id="kock-0450-geryones-3-l4" xml:lang="grc">Ἀμφιδρομίων ὄντων, ἐν οἷς νομίζεται</l>
+                <l n="5" xml:id="kock-0450-geryones-3-l5" xml:lang="grc">ὀπτᾶν τε τυροῦ Χερρονησίτου τόμους,</l>
+                <l n="6" xml:id="kock-0450-geryones-3-l6" xml:lang="grc">ἕψειν τ’ ἐλαίῳ ῥάφανον ἠγλαϊσμένην,</l>
+                <l n="7" xml:id="kock-0450-geryones-3-l7" xml:lang="grc">πνίγειν τε παχέων ἀρνίων στηθύνια,</l>
+                <l n="8" xml:id="kock-0450-geryones-3-l8" xml:lang="grc">τίλλειν τε φάττας καὶ κίχλας ὁμοῦ σπίνοις,</l>
+                <l n="9" xml:id="kock-0450-geryones-3-l9" xml:lang="grc">κοινῇ τε χναύειν τευθίσιν σηπίδια,</l>
+                <l n="10" xml:id="kock-0450-geryones-3-l10" xml:lang="grc">πιλεῖν τε πολλὰς πλεκτάνας ἐπιστρόφως,</l>
+                <l n="11" xml:id="kock-0450-geryones-3-l11" xml:lang="grc">πίνειν τε πολλὰς κύλικας εὐζωρεστέρας.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 370 c Ἀθήνησι δὲ καὶ ταῖς τετοκυίαις κράμβη παρεσκευάζετο, ὥς τι ἀντιφάρμακον εἰς τροφήν. Ἔφιππος γοῦν ἐν Γηρυόνῃ φησίν κτλ.</note>
+              <note type="apparatus">2. οὐδεὶς Dindf.] οὐδ’ εἷς A. de ceteris cf. Eubul. 150.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0450-geryones-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_geryones">
+              <lg>
+                <l n="1" xml:id="kock-0450-geryones-4-l1" xml:lang="grc">καὶ συναγώγιμον</l>
+                <l n="2" xml:id="kock-0450-geryones-4-l2" xml:lang="grc">συμπόσιον ἐπιπληροῦσιν.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 365 c καλοῦσι δέ τινα καὶ συναγώγιμα δεῖπνα, ὡς ... Ἔφιππος ἐν Γηρυόνῃ κτλ.</note>
+              <note type="apparatus">2. ἐπιπληροῦσιν Casaub.] ἐπικληροῦσιν A.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0450-geryones-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_geryones">
+              <lg>
+                <l n="1" xml:id="kock-0450-geryones-5-l1" xml:lang="grc">τούτῳ δ’ ὁπόταν ναέται χώρας</l>
+                <l n="2" xml:id="kock-0450-geryones-5-l2" xml:lang="grc">ἰχθύν τιν’ ἕλωσ’ οὐχ ἡμέριον,</l>
+                <l n="3" xml:id="kock-0450-geryones-5-l3" xml:lang="grc">τῆς περικλύστου δ’ ἁλίας Κρήτης</l>
+                <l n="4" xml:id="kock-0450-geryones-5-l4" xml:lang="grc">μείζω μεγέθει, λοπάς ἐστ’ αὐτῷ</l>
+                <l n="5" xml:id="kock-0450-geryones-5-l5" xml:lang="grc">δυνατὴ τούτους χωρεῖν ἑκατόν.</l>
+                <l n="6" xml:id="kock-0450-geryones-5-l6" xml:lang="grc">καὶ περιοίκους εἶναι ταύτῃ</l>
+                <l n="7" xml:id="kock-0450-geryones-5-l7" xml:lang="grc">Σίνδους, Λυκίους, Μυγδονιώτας,</l>
+                <l n="8" xml:id="kock-0450-geryones-5-l8" xml:lang="grc">Κραναούς, Παφίους. τούτους δ’ ὕλην</l>
+                <l n="9" xml:id="kock-0450-geryones-5-l9" xml:lang="grc">κόπτειν, ὁπόταν βασιλεὺς ἔψῃ</l>
+                <l n="10" xml:id="kock-0450-geryones-5-l10" xml:lang="grc">τὸν μέγαν ἰχθύν, καὶ προσάγοντας,</l>
+                <l n="11" xml:id="kock-0450-geryones-5-l11" xml:lang="grc">καθόσον πόλεως ἕστηκεν ὅρος,</l>
+                <l n="12" xml:id="kock-0450-geryones-5-l12" xml:lang="grc">τοὺς δ’ ὑποκάειν, λίμνην δ’ ἐπάγειν</l>
+                <l n="13" xml:id="kock-0450-geryones-5-l13" xml:lang="grc">ὕδατος μεστὴν εἰς τὴν ἅλμην,</l>
+                <l n="14" xml:id="kock-0450-geryones-5-l14" xml:lang="grc">τοὺς δ’ ἅλας αὐτῷ ζεύγη προσάγειν</l>
+                <l n="15" xml:id="kock-0450-geryones-5-l15" xml:lang="grc">μηνῶν ὀκτὼ συνεχῶς ἑκατόν·</l>
+                <l n="16" xml:id="kock-0450-geryones-5-l16" xml:lang="grc">περιπλεῖν δ’ ἐπὶ τοῖς ἄμβωσιν ἄνω</l>
+                <l n="17" xml:id="kock-0450-geryones-5-l17" xml:lang="grc">πέντε κέλητας πεντεσκάλμους,</l>
+                <l n="18" xml:id="kock-0450-geryones-5-l18" xml:lang="grc">περιαγγέλλειν τε κοὐχ ὑποκαίειν</l>
+              </lg>
+              <pb n="253" facs="urn:hathi:hvd.hxijve:scan:259"/>
+              <lg>
+                <l n="19" xml:id="kock-0450-geryones-5-l19" xml:lang="grc">Λυκίων πρυτάνεις· ψυχρόν τουτί·</l>
+                <l n="20" xml:id="kock-0450-geryones-5-l20" xml:lang="grc">παύου φυσῶν, Μακεδὼν ἄρχων·</l>
+                <l n="21" xml:id="kock-0450-geryones-5-l21" xml:lang="grc">σβέννυ Κελτούς, μὴ προσκαύσης.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 346 f τάχα δὲ καὶ ὑμεῖς ἑκόντες παρελίπετε ὡς ἱερόν τινα ἰχθὺν τὸν παρ’ Ἐφίππῳ τῷ κωμῳδιοποιῷ, ὅν φησι τῷ Γηρυόνῃ σκευάζεσθαι ἐν τῷ ὁμωνύμῳ δράματι διὰ τούτων λέγων κτλ.</note>
+              <note type="apparatus">2. ἕλωσ’ Dindf.] ἕλωσιν Α. 3. δαλίας Α. 5. τούτους] Κνωσοὺς Herwerd. Stud. crit. 86 (!). 6. ταύτῃ] φασιν Naber. Mnem. nov. VIII 249. ταύτῃ Σινδούς Schweigh.] ταύτῃ ἐσῖν ἰνδοὺς Α. ταύτης Σιντούς Droysen. de accentu nominis Σίνδος Meinek. Steph. Byz. 569, 27. 7. Μυγδονιάτας non sine dubitatione Schweigh. 11. ὅρος, τοὺς δ’] ὅρος τῆσδ’, Mein. ed. min. 17. πεντεσκάλμους Cobet. N. 1. 775. 6] πεντασκάλμους A. cf. Hermipp. 34. 18. τε κοὐχ Α] τ’ οὐχ Schweigh. ὑποκαίειν Α] ὑποκάειν Dindf. κοὐ παρακούειν Schweigh. 19. Λυκίων Schweigh.] λυκείων Α. 20. παῦ’ οὖν Cobet. V. 1.2 265 nusquam alibi inveniri παύου monens. 21. σβέννυ Κελτοὺς Schweigh.] σβεννυκελτους Α. προσκαύσης Schweigh.] προσκλύσης Α. πρὸς κλαύσῃς Both. σβέννυ, Κελτοὺς μὴ προσκαύσης Mein. Anal. Ath. 153.</note>
+            </div>
+            </div></body></text></TEI>

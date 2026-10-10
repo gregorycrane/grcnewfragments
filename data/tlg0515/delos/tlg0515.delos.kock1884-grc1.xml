@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>TIMOCLES, ΔΗΛΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Timocles</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0515.delos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0515.delos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0515.delos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_delos"><head>ΔΗΛΟΣ</head><div type="textpart" subtype="fragment" n="4" xml:id="kock-0515-delos-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_delos">
+              <lg>
+                <l n="1" xml:id="kock-0515-delos-4-l1" xml:lang="grc">Α. Δημοσθένης τάλαντα πεντήκοντ᾽ ἔχει.</l>
+                <l n="2" xml:id="kock-0515-delos-4-l2" xml:lang="grc">Β. μακάριος, εἴπερ μεταδίδωσι μηδενί.</l>
+                <l n="3" xml:id="kock-0515-delos-4-l3" xml:lang="grc">Α. καὶ Μοιροκλῆς εἴληφε χρυσίον πολύ.</l>
+                <l n="4" xml:id="kock-0515-delos-4-l4" xml:lang="grc">Β. ἀνόητος ὁ διδούς, εὐτυχὴς δ᾽ ὁ λαμβάνων.</l>
+                <l n="5" xml:id="kock-0515-delos-4-l5" xml:lang="grc">Α. εἴληφε καὶ Δήμων τι καὶ Καλλισθένης.</l>
+                <l n="6" xml:id="kock-0515-delos-4-l6" xml:lang="grc">Β. πένητες ἦσαν, ὥστε συγγνώμην ἔχω.</l>
+                <l n="7" xml:id="kock-0515-delos-4-l7" xml:lang="grc">Α. ὅ τ᾽ ἐν λόγοισι δεινὸς Ὑπερείδης ἔχει.</l>
+                <l n="8" xml:id="kock-0515-delos-4-l8" xml:lang="grc">Β. τοὺς ἰχθυοπώλας οὗτος ἡμῖν πλουτιεῖ</l>
+                <l n="9" xml:id="kock-0515-delos-4-l9" xml:lang="grc">ὀψοφάγος ὥστε τοὺς λάρους εἶναι Σύρους.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 341ef καὶ Ὑπερείδης δὲ ὁ ῥήτωρ ὀψοφάγος ἦν, ὥς φησι Τιμοκλῆς ὁ κωμικὸς ἐν Δήλῳ (Δηλίῳ Mein.) διηγούμενος τοὺς παρὰ Ἁρπάλου δωροδοκήσαντας. γράφει δὲ οὕτως κτλ.</note>
+              <note type="apparatus">5. εἴληφε VL] εἴτ᾽ εἴληφε A. an εἶτ᾽ ἔλαβε? τι Dobr.] τε A. 8. πλουτιεῖ C] πλουτεῖ A. 9. ὀψοφάγος] ὀψοφάγος γὰρ A. οὑψοφάγος Bergk. post Σύρους sine dubio addiderat παρ᾽ αὐτόν. vel ὀψοφάγος οὕτως, ὥστε τοὺς λάρους Σύρους | εἶναι παρ᾽ αὐτόν.</note>
+            </div>
+            </div></body></text></TEI>

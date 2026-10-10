@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EPHIPPUS, ΕΜΠΟΛΗ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Ephippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0450.empole.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0450.empole.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0450.empole.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_empole"><head>ΕΜΠΟΛΗ</head><div type="textpart" subtype="fragment" n="6" xml:id="kock-0450-empole-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_empole">
+              <lg>
+                <l n="1" xml:id="kock-0450-empole-6-l1" xml:lang="grc">ἔπειτά γ’ εἰσιόντ’, ἐὰν λυπούμενος</l>
+                <l n="2" xml:id="kock-0450-empole-6-l2" xml:lang="grc">τύχῃ τις ἡμῶν, ἐκολάκευσεν ἡδέως,</l>
+                <l n="3" xml:id="kock-0450-empole-6-l3" xml:lang="grc">ἐφίλησεν οὐχὶ συμπιέσασα τὸ στόμα</l>
+                <l n="4" xml:id="kock-0450-empole-6-l4" xml:lang="grc">ὥσπερ πολέμιον, ἀλλὰ τοῖσι στρουθίοις</l>
+                <l n="5" xml:id="kock-0450-empole-6-l5" xml:lang="grc">χανοῦσ’ ὁμοίως, ἦσε, παρεμυθήσατο,</l>
+                <l n="6" xml:id="kock-0450-empole-6-l6" xml:lang="grc">ἐποίησέ θ’ ἱλαρὸν εὐθέως τ’ ἀφεῖλε πᾶν</l>
+                <l n="7" xml:id="kock-0450-empole-6-l7" xml:lang="grc">αὐτοῦ τὸ λυποῦν κἀπέδειξεν ἵλεων.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 363 c ὅτι δὲ τὸν αὐτὸν ἵλεων καὶ ἱλαρὸν ἔλεγον δηλοῖ Ἔφιππος ἐν τῷ ἐπιγραφομένῳ δράματι Ἐμπολή· περὶ ἑταίρας δέ τινος λέγει κτλ. idem 13, 571 e περὶ δὲ τῶν ἑταιρῶν Ἔφιππος (εὔσχημος A) ἐν Ἐμπολῇ τάδε φησίν κτλ. Eustathius 1411, 8 τις κωμικὸς εἰπὼν ὡς ἐκολάκευσεν οὐ συμπιέσασα τὸ στόμα ὥσπερ πολέμιος, ἀλλὰ τοῖσι στρουθίοις χαυνοῦσα ὁμοίως.</note>
+              <note type="apparatus">1. ἐπεὶ τὰ γ’ A 363. ἔπειτ’ ἂν Mein. an ἔπειτά τ’? εἰσιόντα A utrubique. λυπούμενοις (sic) A 363. 2. ὑμῶν A 571. ἡδέως, ἐφίλησεν A 363] ἢ κατεφίλησεν A 571. ἐφίλησέ τ’ Mein. 4. πολέμιον A 571] πολέμιος A 363. 5. χανοῦσ’ Mein.] χαυνοῦσα utrubique A. ἦσε, παρεμ. Turneb.] ἥσε παρεμ. A 363. ἧς ἐπαρεμ. A 571. ἦσε, παρεμ. VL. 6. εὐθέως τε A 571] εὐθέως A 363. 7. λυποῦν A 363] λοιπὸν A 571. πολέμιον v. 4 Meinekius utique corruptum censet. 5. pro ἦσε scribendum ὁμοίως ἔκυσε. neque v. 6 ἱλαρόν verum esse credo: Athenaeus enim ἵλεων pro ἱλαρόν Ephippum dixisse testatur, non utrumque ταυτολόγως coniunxisse. fortasse ἐποίησέ τ’ εὔφρον’ εὐθέως κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" xml:id="kock-0450-empole-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_empole">
+              <lg>
+                <l n="1" xml:id="kock-0450-empole-7-l1" xml:lang="grc">κοινωνεῖ γάρ, ὦ μειράκιον, ἡ</l>
+                <l n="2" xml:id="kock-0450-empole-7-l2" xml:lang="grc">ἐν τοῖσιν αὐλοῖς μουσικὴ κἀν τῇ λύρᾳ</l>
+                <l n="3" xml:id="kock-0450-empole-7-l3" xml:lang="grc">τοῖς ἡμετέροισι παιγνίοις· ὅταν γὰρ εὖ</l>
+                <l n="4" xml:id="kock-0450-empole-7-l4" xml:lang="grc">συναρμόσῃ τις τοῖς συνοῦσι τὸν τρόπον,</l>
+                <l n="5" xml:id="kock-0450-empole-7-l5" xml:lang="grc">τόθ’ ἡ μεγίστη τέρψις ἐξευρίσκεται.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 617. 18 περὶ δὲ τῆς αὐλῶν πρὸς λύραν κοινωνίας . . . Ἔφιππος ἐν Ἐμπολῇ φησιν κτλ.</note>
+              <note type="apparatus">1. ἡ | ἐν Dindf.] ἢν A. εὖ | ἡ ’ν Mein. in Ath. 2. αὐλοις — τῆ et 3. παιγνιοις A. 4. συνοῦσιν οἱ τρόποι Mein. Anal. Ath. 296. tum etiam συναρμόσωσιν scribendum erat. mihi praeterea initio κοινωνεῖ ex Athenaei verbis τῆς κοινωνίας ortum et scribendum videtur συμφωνεῖ γὰρ εὖ κτλ.</note>
+            </div>
+          </div></body></text></TEI>

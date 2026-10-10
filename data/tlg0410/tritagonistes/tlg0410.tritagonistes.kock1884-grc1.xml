@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΤΡΙΤΑΓΩΝΙΣΤΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.tritagonistes.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.tritagonistes.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.tritagonistes.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_tritagonistes"><head>ΤΡΙΤΑΓΩΝΙΣΤΗΣ</head><div type="textpart" subtype="fragment" n="209" xml:id="kock-0410-tritagonistes-209" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_tritagonistes">
+              <lg>
+                <l n="1" xml:id="kock-0410-tritagonistes-209-l1" xml:lang="grc">πολύ γ’ ἐστὶ πάντων τῶν ποιητῶν διάφορος</l>
+                <l n="2" xml:id="kock-0410-tritagonistes-209-l2" xml:lang="grc">ὁ Φιλόξενος. πρώτιστα μὲν γὰρ ὀνόμασιν</l>
+                <l n="3" xml:id="kock-0410-tritagonistes-209-l3" xml:lang="grc">ἰδίοισι καὶ καινοῖσι χρῆται πανταχοῦ·</l>
+                <l n="4" xml:id="kock-0410-tritagonistes-209-l4" xml:lang="grc">ἔπειτα τὰ μέλη μεταβολαῖς καὶ χρώμασιν</l>
+                <l n="5" xml:id="kock-0410-tritagonistes-209-l5" xml:lang="grc">ὡς εὖ κέκραται. θεὸς ἐν ἀνθρώποισιν ἦν</l>
+                <l n="6" xml:id="kock-0410-tritagonistes-209-l6" xml:lang="grc">ἐκεῖνος, εἰδὼς τὴν ἀληθῶς μουσικήν·</l>
+                <l n="7" xml:id="kock-0410-tritagonistes-209-l7" xml:lang="grc">οἱ νῦν δὲ κισσόπλεκτα καὶ κρηναῖα καὶ</l>
+                <l n="8" xml:id="kock-0410-tritagonistes-209-l8" xml:lang="grc">ἀνθεσιπότατα μέλεα μελέοις ὀνόμασιν</l>
+                <l n="9" xml:id="kock-0410-tritagonistes-209-l9" xml:lang="grc">ποιοῦσιν ἐμπλέκοντες ἀλλότρια μέλη.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 643 d ὁ Κυθήριος Φιλόξενος, ὃν ἐπαινῶν Ἀντιφάνης ἐν τῷ Τριταγωνιστῇ φησιν κτλ.</note>
+              <note type="apparatus">2. πρώτιστα Dobr. Adv. II 349] πρῶτα A. 3. ἰδίοισι Grotius Excerpt. 629] ἰδίοις A. καινοῖσι Grotius] κοινοῖσι A. κοὐ κοινοῖσι Bergk. ap. Mein. V 78. 4. τὰ add. Casaub. 5. ἦν A. 6. τὴν ἀληθῶς Grot.] τ’ ἀληθῶς A. 7. κισσόπλεκτα Mein.] κισόπληκτα A. consulto formis non vulgaribus utitur. 8. ἀνθεσιπότατα Elmsl. Arist. Ach. 1151] ἀνθεσιπότατά τε A. flores circumvolitantia apum instar. μέλεα epitheton est, non substantivum. perstringit lyricos, quod ex sola rerum natura imagines petant. μέλεα μελιπτέρωτα Μοισᾶν poeta apud Athen. 14, 633 a.</note>
+            </div>
+          </div></body></text></TEI>

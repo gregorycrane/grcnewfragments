@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EPICRATES, ΤΡΙΟΔΟΥΣ Η ΡΩΠΟΠΩΛΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Epicrates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0451.triodoys_e_ropopoles.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0451.triodoys_e_ropopoles.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0451.triodoys_e_ropopoles.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0451_triodoys_e_ropopoles"><head>ΤΡΙΟΔΟΥΣ Η ΡΩΠΟΠΩΛΗΣ</head><div type="textpart" subtype="fragment" n="7_8" xml:id="kock-0451-triodoys_e_ropopoles-7_8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0451_triodoys_e_ropopoles">
+              <lg>
+                <l n="1" xml:id="kock-0451-triodoys_e_ropopoles-7_8-l1" xml:lang="grc">λαβὲ τριόδοντα καὶ λυχνοῦχον</l>
+                <l n="2" xml:id="kock-0451-triodoys_e_ropopoles-7_8-l2" xml:lang="grc">. . . . . . . . . . . . . . . .</l>
+                <l n="3" xml:id="kock-0451-triodoys_e_ropopoles-7_8-l3" xml:lang="grc">ἐγὼ δὲ δεξιᾷ γε τόνδ’ ἔχω τινά,</l>
+                <l n="4" xml:id="kock-0451-triodoys_e_ropopoles-7_8-l4" xml:lang="grc">σιδηρότευκτον ἐναλίων θηρῶν βέλος,</l>
+                <l n="5" xml:id="kock-0451-triodoys_e_ropopoles-7_8-l5" xml:lang="grc">κερατίνου τε φωσφόρου λύχνου σέλας.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 699 f Ἐπικράτης δ’ ἐν Τριόδοντι ἢ Ῥωποπώλῃ προειπὼν (v. 1) ἐπιφέρει (v. 2—4).</note>
+              <note type="apparatus">3. βέλος Casaub.] μέλος A. Ἐπικράτης scriptum esse in Marciano Athenaei diserte testatur R. Schoell. Herm. IIII 169. — significatur genus piscandi, cuius rationem inlustrat Oppian. Halieut. 4, 640 <quote>τοὺς μὲν (τῶν ἰχθύων) ὑπηματίους, τοὺς δ’ ἕσπερος εἷλε δαμέντας, εὐτ’ ἂν ὑπὸ πρῶτον νυκτὸς κνέφας ἀσπαλιῆες πυρσὸν ἀναψάμενοι . . . ἰχθύσιν . . αἶσαν ἄγωσιν. ἔνθ’ οἱ μὲν πεύκης λιπαρῇ φλογὶ καγχαλόωντες ἀμφ’ ἀκάτῳ θύνουσι, κακὸν δ’ ἴδον ἑσπέριον πῦρ, ῥιπῆς τριγλώχινος (i. e. τριόδοντος) ἀμειλίκτοιο τυχόντες.</quote> cf. Plat. Sophist. 220 e. — v. 2 pro τινά scr. κτένα.</note>
+            </div>
+          </div></body></text></TEI>

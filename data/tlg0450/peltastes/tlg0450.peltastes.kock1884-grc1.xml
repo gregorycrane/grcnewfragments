@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EPHIPPUS, ΠΕΛΤΑΣΤΗΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Ephippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0450.peltastes.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0450.peltastes.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0450.peltastes.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_peltastes"><head>ΠΕΛΤΑΣΤΗΣ</head><div type="textpart" subtype="fragment" n="17" xml:id="kock-0450-peltastes-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_peltastes">
+              <lg>
+                <l n="1" xml:id="kock-0450-peltastes-17-l1" xml:lang="grc">οὐ Μενεκράτης μὲν ἔφασκεν εἶναι Ζεὺς θεός;</l>
+                <l n="2" xml:id="kock-0450-peltastes-17-l2" xml:lang="grc">Νικόστρατος δ᾽ ἁργεῖος ἕτερος Ἡρακλῆς;</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="18" xml:id="kock-0450-peltastes-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_peltastes">
+              <lg>
+                <l n="1" xml:id="kock-0450-peltastes-18-l1" xml:lang="grc">ἔνθ’ ὄνων ἵππων στάσεις</l>
+                <l n="2" xml:id="kock-0450-peltastes-18-l2" xml:lang="grc">καὶ γεύματ’ οἴνων.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 380f Ἔφιππος ἐν Πελταστῇ κτλ.</note>
+              <note type="apparatus">1. ἵππων Mein.] ἵππων τε Α. 2. γεύματ’ Mein.] γεύματα Α.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="19" xml:id="kock-0450-peltastes-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_peltastes">
+              <lg>
+                <l n="1" xml:id="kock-0450-peltastes-19-l1" xml:lang="grc">τοιαῦθ’ ὑθλῶν δειπνεῖ καὶ ζῇ</l>
+                <l n="2" xml:id="kock-0450-peltastes-19-l2" xml:lang="grc">θαυμαζόμενος μετὰ μειρακίων,</l>
+                <l n="3" xml:id="kock-0450-peltastes-19-l3" xml:lang="grc">οὐ γινώσκων ψήφων ἀριθμούς,</l>
+                <l n="4" xml:id="kock-0450-peltastes-19-l4" xml:lang="grc">σεμνός σεμνῶς χλανίδ’ ἕλκων.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 347b οὐκ ἀγνοῶ δ’ ὅτι τὰ αὐτὰ ταῦτα (fr. 5) εἴρηκεν ὁ Ἔφιππος κἂν Πελταστῇ τῷ δράματι, ἐν ᾧ καὶ ταῦτα ἐκείνοις ὑποτέτακται κτλ. εἰς τίνα δὲ ταῦτ’ ἀποτεινόμενος Ἔφιππος εἴρηκεν ὥρα σοι ζητεῖν, ὦ καλὲ Οὐλπιανέ, καὶ διδάσκειν ἡμᾶς.</note>
+              <note type="apparatus">1. ζῆ Α. — coniung. ζῇ μετὰ μειρακίων. 3. Arist. Vesp. 656 λόγισαι φαύλως, μὴ ψήφοις, ἀλλ’ ἀπὸ χειρός. Becker. Charicl.2 II 35. magis perspicue dixisset ψήφοις ἀριθμεῖν. eundem Macedonum ducem dici atque in fr. 5 Meinekii est opinio, quae mihi quidem prorsus incredibilis videtur. sed nullam habeo probabiliorem.</note>
+            </div>
+          </div></body></text></TEI>

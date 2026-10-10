@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUBULUS, ΚΑΜΠΥΛΙΩΝ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.kampylion.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.kampylion.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.kampylion.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kampylion"><head>ΚΑΜΠΥΛΙΩΝ</head><div type="textpart" subtype="fragment" n="43" org="hathi" xml:id="kock-0458-kampylion-43" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kampylion">
+              <lg>
+                <l n="1" xml:id="kock-0458-kampylion-43-l1" xml:lang="grc">ὦ γαῖα κεραμί, τίς σε Θηρικλῆς ποτε</l>
+                <l n="2" xml:id="kock-0458-kampylion-43-l2" xml:lang="grc">ἔτευξε κοίλης λαγόνος εὐρύνας βάθος;</l>
+                <l n="3" xml:id="kock-0458-kampylion-43-l3" xml:lang="grc">ἦ που κατειδὼς τὴν γυναικείαν φύσιν,</l>
+                <l n="4" xml:id="kock-0458-kampylion-43-l4" xml:lang="grc">ὡς οὐχὶ μικροῖς ἥδεται ποτηρίοις.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 471 e Ἀραρὼς ἢ Εὔβουλος ἐν Καμπυλίωνι κτλ. Eustath. 1153, 45.</note>
+              <note type="apparatus">1. κεραμί, τίς σε Porson. Miscell. 242] κεραμι τιοσε Α. κεραμῖτι σὲ C Eustath. γῆ κεραμίς etiam Poll. 10, 185 (Mein.). loquitur sine dubio mulier. ’quis tantus artifex tam scite te confecit: nam certe non minus prudens fuit quam Thericles.’</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="44" org="hathi" xml:id="kock-0458-kampylion-44" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kampylion">
+              <lg>
+                <l n="1" xml:id="kock-0458-kampylion-44-l1" xml:lang="grc">τήν τ’ εὐπρόσωπον λοπάδα τοῦδε τοῦ θαλαττίου</l>
+                <l n="2" xml:id="kock-0458-kampylion-44-l2" xml:lang="grc">γλαύκου φέρουσαν εὐγενέστερον</l>
+                <l n="3" xml:id="kock-0458-kampylion-44-l3" xml:lang="grc">λάβρακά θ’ ἑφθὸν . . . ἅλμῃ μίαν.</l>
+              </lg>
+              <note type="source">Athenaeus 7, 295 e Εὔβουλος Καμπυλίωνι κτλ. om. C.</note>
+              <note type="apparatus">3. θ’] τ’ Α. Meinekius Anal. Ath. 130 τήν τ’ εὐπρόσωπον λοπάδα τοῦ θ. γλαύκου φέρουσαν εὐγενέστατον κάρα, quod Athenaeus haec adferat ut doceat quanti sit caput glauci aestimatum. at iam duo alia fragmenta inseruerat, quorum neutro caput glauci commemorat. Dobraeus Adv. II 315 λοπάδα τοῦ θ. | αὐτοῦ φέρουσαν γλαῦκον εὐγενέστερον, glaucum nobiliorem ipso Glauco. Cobetus N. 1. 11 τοῦ θαλαττίου θεοῦ Γλαύκου omisso ut videtur λοπάδα. Herwerd. Anal. crit. 30 τήν τ’ εὐπρ. λοπάδ’ ἔτ’ εὐγενέστερον γλαῦκον φέρουσαν τοῦ θαλαττίου θεοῦ. deinde v. 3 λάβρακά θ’ ἑφθὸν λιπαρὸν ἅλμῃ νὴ Δία Meinek. conl. Sotad. 1, 9. — unum perspicio</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="45" xml:id="kock-0458-kampylion-45" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kampylion">
+              <lg>
+                <l n="1" xml:id="kock-0458-kampylion-45-l1" xml:lang="grc">τραγημάτων δ’ ἔσθ’ ἡ τράπεζά σοι πλέα.</l>
+                <l n="2" xml:id="kock-0458-kampylion-45-l2" xml:lang="grc">Β. οὐ φιλοτραγήμων εἰμί πως ἑκάστοτε.</l>
+              </lg>
+              <note type="source">Athenaeus 14, 642c Εὔβουλος Καμπυλίωνι κτλ.</note>
+              <note type="apparatus">2. οὐ C] οὐχὶ A.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="46" xml:id="kock-0458-kampylion-46" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kampylion">
+              <lg>
+                <l n="1" xml:id="kock-0458-kampylion-46-l1" xml:lang="grc">ἀνιακκάς, περιμανώς, μανέρως</l>
+              </lg>
+              <note type="source">Suidas ἀνιακκάς· ᾠδῆς ὄνομα ὁ (ὡς Mein.) περιμανὼς καὶ μανέρως. Εὔβουλος Καμπυλίωνι. Bekker. Anecd. 405, 7 ex hac glossa nihil habet nisi ἀνιακκάς. Suidas μανέρως καὶ περιμανώς· ὀνόματα ᾠδῆς. Εὔβουλος Καμπυλίωνι.</note>
+              <note type="apparatus">Cf. praeterea fragmenta Ararotis 8—12.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="41" xml:id="kock-0458-kampylion-41" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kampylion">
+              <lg>
+                <l n="1" xml:id="kock-0458-kampylion-41-l1" xml:lang="grc">τίς ἦν ὁ γράψας πρῶτος ἀνθρώπων ἄρα</l>
+                <l n="2" xml:id="kock-0458-kampylion-41-l2" xml:lang="grc">ἢ κηροπλαστήσας Ἔρωθ᾽ ὑπόπτερον;</l>
+                <l n="3" xml:id="kock-0458-kampylion-41-l3" xml:lang="grc">ὡς οὐδὲν ᾔδει πλὴν χελιδόνας γράφειν,</l>
+                <l n="4" xml:id="kock-0458-kampylion-41-l4" xml:lang="grc">ἀλλ᾽ ἦν ἄπειρος τῶν τρόπων τῶν τοῦ θεοῦ.</l>
+                <l n="5" xml:id="kock-0458-kampylion-41-l5" xml:lang="grc">ἔστιν γὰρ οὔτε κοῦφος, οὔτε ῥάδιος</l>
+                <l n="6" xml:id="kock-0458-kampylion-41-l6" xml:lang="grc">ἀπαλλαγῆναι τῷ φέροντι τὴν νόσον,</l>
+                <l n="7" xml:id="kock-0458-kampylion-41-l7" xml:lang="grc">βαρὺς δὲ κομιδῆ· πῶς ἂν οὖν ἔχοι πτερὰ</l>
+                <l n="8" xml:id="kock-0458-kampylion-41-l8" xml:lang="grc">τοιοῦτο πρᾶγμα; λῆρος, εἰ κἄφησέ τις.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 562 c Ἀραρὼς ἢ Εὔβουλος ἐν Καμπυλίωνι κτλ. Eustathius 987, 24 Εὔβουλος . . . ἀποστερεῖ πτερῶν τὸν Ἔρωτα, ὡς οὔτε κοῦφον οὔτε ῥάδιον ἀπαλλαγῆναι τῷ φέροντι τὴν νόσον, βαρὺν δὲ κομιδή.</note>
+              <note type="apparatus">2. Ἔρωτα A. 8. verba extrema (λῆρος κτλ.) om. C. εἰ κἄφησέ τις Dindf.] εἶ κὰν φήσειέ τις A. τοιοῦτο πρᾶγμα λῆρον ἂν φήσειέ τις Porson.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="42" xml:id="kock-0458-kampylion-42" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kampylion">
+              <lg>
+                <l n="1" xml:id="kock-0458-kampylion-42-l1" xml:lang="grc">ὡς δ᾽ ἐδείπνει κοσμίως,</l>
+                <l n="2" xml:id="kock-0458-kampylion-42-l2" xml:lang="grc">οὐχ ὥσπερ ἄλλαι τῶν πράσων ποιούμεναι</l>
+              </lg>
+              <pb n="179" facs="urn:hathi:hvd.hxijve:scan:185"/>
+              <lg>
+                <l n="3" xml:id="kock-0458-kampylion-42-l3" xml:lang="grc">τολύπας ἔσαττον τὰς γνάθους καὶ τῶν κρεῶν</l>
+                <l n="4" xml:id="kock-0458-kampylion-42-l4" xml:lang="grc">ἀπέβρυκον αἰσχρῶς, ἀλλ’ ἑκάστου μικρὸν ἂν</l>
+                <l n="5" xml:id="kock-0458-kampylion-42-l5" xml:lang="grc">5 ἀπεγεύεθ’ ὥσπερ παρθένος Μιλησία.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 571 f Εὔβουλος ἐν Καμπυλίωνι κοσμίαν ἑταίραν παράγων φησίν κτλ.</note>
+              <note type="apparatus">4. 5. ἂν ἀπεγεύεθ’ Piers. Moer. 101] αναπετευε Α. ποιουμένη — ἔσαττε — ἀπέβρυκεν Herwerd. Obs. crit. 59. perperam: cf. quae ad Arist. Eq. 784 congessimus exempla. quibus addo Plat. Symp. 189 c δοκοῦσιν ἄνθρωποι...μέγιστ’ ἂν αὐτοῦ ἱερὰ κατασκευάσαι...οὐχ ὥσπερ νῦν τούτων οὐδὲν γίγνεται. Reip. 3, 410 b πρὸς τὸ θυμοειδὲς βλέπων...πονήσει μᾶλλον ἢ πρὸς ἰσχύν, οὐχ ὥσπερ οἱ ἄλλοι ἀθληταὶ ῥώμης ἕνεκα σιτία καὶ πόνους μεταχειρίζονται (sic enim recte C. Fr. Hermann. ex Galeno). 5. Μιλησία. Athen. 10, 429 a παρὰ Μασσαλιήταις νόμος ὑδροποτεῖν. ἐν δὲ Μιλήτῳ ἔτι καὶ νῦν φησι Θεόφραστος τοῦτ’ εἶναι τὸ νόμιμον (Schweigh.).</note>
+            </div>
+          </div></body></text></TEI>

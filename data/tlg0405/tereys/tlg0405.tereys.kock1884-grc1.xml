@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANAXANDRIDES, ΤΗΡΕΥΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Anaxandrides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0405.tereys.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0405.tereys.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0405.tereys.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_tereys"><head>ΤΗΡΕΥΣ</head><div type="textpart" subtype="fragment" n="45" xml:id="kock-0405-tereys-45" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_tereys">
+              <lg>
+                <l n="1" xml:id="kock-0405-tereys-45-l1" xml:lang="grc">ὄρνις κεκλήσει. Β. διὰ τί, πρὸς τῆς Ἑστίας;</l>
+                <l n="2" xml:id="kock-0405-tereys-45-l2" xml:lang="grc">πότερον καταφαγὼν τὴν πατρῴαν οὐσίαν</l>
+                <l n="3" xml:id="kock-0405-tereys-45-l3" xml:lang="grc">ὥσπερ Πολύευκτος ὁ καλός; Α. οὐ δῆτ’, ἀλλ’ ὅτι</l>
+                <l n="4" xml:id="kock-0405-tereys-45-l4" xml:lang="grc">ἄρρην ὑπὸ θηλειῶν κατεκόπης.</l>
+              </lg>
+              <note type="source">Athenaeus 4, 166 d Πολύευκτον Ἀναξανδρίδης ἐν Τηρεῖ κωμῳδῶν κτλ. 1. κεκλήσηι et 3. δῆτα Α.</note>
+              <note type="apparatus">— adparet Polyeuctum quoque ab Atheniensibus avem vocatum esse. cf. Arist. Av. 165 sq. 1290 sq. significatur autem Polyeuctus Sphettius, orator nobilissimus, de quo cf. Demosth. 9, 72. Dinarch. 1, 100. Plutarch. Mor. 841 e. Ruhnk. Hist. crit. or. lxxx. Saupp. Orat. Att. fr. 273. dissentit tamen Boehneckius Forsch. auf d. Gebiet d. att. Redn. 643. de gallinis gallorum victricibus cf. Aristot. H. an. 10, 49. Aelian. H. an. 5, 5.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="46" xml:id="kock-0405-tereys-46" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_tereys">
+              <lg>
+                <l n="1" xml:id="kock-0405-tereys-46-l1" xml:lang="grc">ἀλλ’ οἷα νύμφη βασιλὶς ὠνομασμένη</l>
+                <l n="2" xml:id="kock-0405-tereys-46-l2" xml:lang="grc">μύροις Μεγαλλείοισι σῶμ’ ἀλείφεται.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 691 a τοῦ Μεγαλλείου μύρου μνημονεύει . . . Ἀναξανδρίδης Τηρεῖ κτλ. μεγαλλίοισι et μεγαλλίου A. cf. Pherecr. 140.</note>
+              <note type="apparatus">— ὠνομασμένη ‘regia virgo desponsata’. Mein. de qua significatione iure dubitat Herwerden. Obs. crit. 55. scribendum est ἔνδον ἀσμένη. cf. Eupol. 281. Lysipp. 8. Toeppelius Progr. Neobr. 1867, 8 ἀσμένη χεροῖν. 2. Μεγαλλείοις τὸ σῶμ’ Herwerd. Stud. crit. 86.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="47" xml:id="kock-0405-tereys-47" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_tereys">
+              <lg>
+                <l n="1" xml:id="kock-0405-tereys-47-l1" xml:lang="grc">ὀχευομένους δὲ τοὺς κάπρους</l>
+                <l n="2" xml:id="kock-0405-tereys-47-l2" xml:lang="grc">καὶ τὰς ἀλεκτρυόνας θεωροῦσ’ ἄσμενοι.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 373 f τὸν ἀλεκτρυόνα . . . οἱ ἀρχαῖοι καὶ θηλυκῶς εἰρήκασι. . . Ἀναξανδρίδης Τηρεῖ κτλ. θεωροῦσ’ Dindf.] θεωροῦσιν A.</note>
+              <note type="apparatus">τοῖς κάπροις ὀχευομένοις quid faciam nescio.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>TIMOCLES, ΜΑΡΑΘΩΝΙΟΙ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Timocles</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0515.marathonioi.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0515.marathonioi.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0515.marathonioi.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_marathonioi"><head>ΜΑΡΑΘΩΝΙΟΙ</head><div type="textpart" subtype="fragment" n="26" xml:id="kock-0515-marathonioi-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_marathonioi">
+              <note type="source">
+                <p>Harpocratio παράβυστον· οὕτως ἐκαλεῖτό τι τῶν παρ’ Ἀθηναίοις δικαστηρίων, ἐν ᾧ ἐδίκαζον οἱ ια΄ . . . μνημονεύουσι δ’ αὐτοῦ ἄλλοι τε τῶν κωμικῶν καὶ Τιμοκλῆς ἐν Ὀρεσταυτοκλείδῃ. Hesych. παράβυστον . . . δικαστήριον οὕτω καλούμενον.</p>
+              </note>
+              <note type="apparatus">
+                <p>‘itaque Areopago et Areopagitis Parabystum et undecim viros substituit, quos de cuiusvis generis maleficis iudicium exercuisse constat.’ Mein. I 432. cf. Schoemann. Ant. gr.2 I 494.</p>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="22" xml:id="kock-0515-marathonioi-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_marathonioi">
+              <lg>
+                <l n="1" xml:id="kock-0515-marathonioi-22-l1" xml:lang="grc">ὅσον τὸ μεταξὺ μετὰ κορίσκης ἢ μετὰ</l>
+                <l n="2" xml:id="kock-0515-marathonioi-22-l2" xml:lang="grc">χαμαιτύπης τὴν νύκτα κοιμᾶσθαι, βαβαί.</l>
+                <l n="3" xml:id="kock-0515-marathonioi-22-l3" xml:lang="grc">ἡ στιφρότης, τὸ χρῶμα, πνεῦμα, δαίμονες,</l>
+                <l n="4" xml:id="kock-0515-marathonioi-22-l4" xml:lang="grc">τὸ μὴ σφόδρ’ εἶναι πάνθ’ ἕτοιμα, δεῖν δέ τι</l>
+                <l n="5" xml:id="kock-0515-marathonioi-22-l5" xml:lang="grc">ἀγωνιᾶσαι καὶ ῥαπισθῆναί τε καὶ</l>
+                <l n="6" xml:id="kock-0515-marathonioi-22-l6" xml:lang="grc">πληγὰς λαβεῖν ἁπαλαῖσι χερσίν. Β. ἡδύ γε</l>
+                <l n="7" xml:id="kock-0515-marathonioi-22-l7" xml:lang="grc">νὴ τὸν Δία τὸν μέγιστον.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 570 f <foreign xml:lang="grc">ἢ ἥδιστόν ἐστί σοι, ὡς ἐν Μαραθωνίοις</foreign>
+              </note>
+            </div>
+          </div></body></text></TEI>

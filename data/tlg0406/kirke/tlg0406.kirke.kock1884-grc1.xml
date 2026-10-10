@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANAXILAS, ΚΙΡΚΗ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Anaxilas</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0406.kirke.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0406.kirke.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0406.kirke.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_kirke"><head>ΚΙΡΚΗ</head><div type="textpart" subtype="fragment" n="12" xml:id="kock-0406-kirke-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_kirke">
+              <lg>
+                <l n="1" xml:id="kock-0406-kirke-12-l1" xml:lang="grc">τοὺς μὲν ὀρειονόμους ὑμῶν ποιήσει δέλφακας ἠλιβάτους,</l>
+                <l n="2" xml:id="kock-0406-kirke-12-l2" xml:lang="grc">τοὺς δὲ πάνθηρας, ἄλλους ἀγρώστας λύκους,</l>
+                <l n="3" xml:id="kock-0406-kirke-12-l3" xml:lang="grc">λέοντας.</l>
+              </lg>
+              <note type="source">Athenaeus 9, 374 e f Ἀναξίλας δ’ ἐν Κίρκῃ καὶ ἀρσενικῶς εἴρηκε τὸν δέλφακα καὶ ἐπὶ τελείου τέθεικε τοὔνομα εἰπών κτλ.</note>
+              <note type="apparatus">1. ὀρειονόμους Bergk.] ὀρεινόμους A. ἠλιβάτους Mein.] ὑλιβάτους A. cf. Antiphan. 133, 3. ἀκυληβότας ex Hom. Od. 10, 241 Lobeck. Phryn. 637, χιληβότας Paralip. 80. μεσπιλοβότας K. conl. Od. 10, 242 cum Amphid. 38, 3. sed ne ὀρειονόμους quidem sues esse comperi; fortasse ἑλειονόμους. nisi forte in conlocatione verborum Athenaeus aliquid turbavit, Anaxilas autem scripsit τοὺς μὲν ὑμῶν π. δ. μεσπιλοβ., | τοὺς δὲ π. ὀρειονόμους, ἄλλους δ’ ἀγρ. cum versus 2 sit tetr. creticus, v. 3 καὶ vel ἢ λέοντας Mein. — Eurylochum de sociorum casu narrare arbitratur Lobeckius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="13" xml:id="kock-0406-kirke-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_kirke">
+              <lg>
+                <l n="1" xml:id="kock-0406-kirke-13-l1" xml:lang="grc">δεινὸν μὲν γὰρ ἔχονθ’ ὑὸς</l>
+                <l n="2" xml:id="kock-0406-kirke-13-l2" xml:lang="grc">ῥύγχος, ὦ φίλε Κινησία.</l>
+              </lg>
+              <note type="apparatus">Athenaeus 3, 95b Ἀναξίλας δ’ ἐν Κίρκῃ κτλ. Κινησία, ex quo tota pendebat Bergkii quam commemoravimus fr. 10. 11 interpretatio, corruptum esse numeri arguunt manifesto glyconei. Κνησία Mein. in ed. utr., κνησιᾶν I 228 (probatum Cobet. N. 1. 623). at suem κνησιᾶν nihil est quod mireris. cf. Xenoph. Memor. 1, 2, 30. apud Homerum autem Od. 10, 241 ὡς οἱ μὲν κλαίοντες ἐέρχατο (iam commutati), unde manifestum est scribendum esse κλαυσιᾶν. Arist. Plut. 1098. nam lacrimare suem, id demum portentum est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="14" xml:id="kock-0406-kirke-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_kirke">
+              <note type="source">Diogenes Laert. 3, 28 χλευάζει δ’ αὐτὸν (Πλάτωνα) καὶ Ἀναξίλας ἐν .. Κίρκη.</note>
+              <note type="apparatus">Cf. praeterea quae ad Ephippi Circen adnotavimus.</note>
+            </div>
+          </div></body></text></TEI>

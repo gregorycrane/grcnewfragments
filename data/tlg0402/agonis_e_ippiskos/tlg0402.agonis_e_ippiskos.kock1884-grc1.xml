@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΑΓΩΝΙΣ Η ΙΠΠΙΣΚΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.agonis_e_ippiskos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.agonis_e_ippiskos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.agonis_e_ippiskos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_agonis_e_ippiskos"><head>ΑΓΩΝΙΣ Η ΙΠΠΙΣΚΟΣ</head><div type="textpart" subtype="fragment" n="2" xml:id="kock-0402-agonis_e_ippiskos-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_agonis_e_ippiskos">
+              <lg>
+                <l n="1" xml:id="kock-0402-agonis_e_ippiskos-2-l1" xml:lang="grc">ἀπήντων τῷ ξένῳ,</l>
+                <l n="2" xml:id="kock-0402-agonis_e_ippiskos-2-l2" xml:lang="grc">εἰς τὴν κατάλυσιν ησονην αἴθων ἀνήρ·</l>
+                <l n="3" xml:id="kock-0402-agonis_e_ippiskos-2-l3" xml:lang="grc">τοῖς παισί τ’ εἶπα, δύο γὰρ ἦγον οἴκοθεν,</l>
+                <l n="4" xml:id="kock-0402-agonis_e_ippiskos-2-l4" xml:lang="grc">τἀκπώματ’ εἰς τὸ φανερὸν ἐκνενιτρωμένα</l>
+                <l n="5" xml:id="kock-0402-agonis_e_ippiskos-2-l5" xml:lang="grc">θεῖναι. κύαθος δ’ ἦν ἀργυροῦς, τἀκπώματα</l>
+                <l n="6" xml:id="kock-0402-agonis_e_ippiskos-2-l6" xml:lang="grc">ἦγεν δύο δραχμάς, κυμβίον δὲ τέτταρας</l>
+              </lg>
+              <pb n="298" facs="urn:hathi:hvd.hxijve:scan:304"/>
+              <lg>
+                <l n="7" xml:id="kock-0402-agonis_e_ippiskos-2-l7" xml:lang="grc">ἴσως ἑτέρας, ψυκτηρίδιόν τε δέκ᾽ ὀβολούς,</l>
+                <l n="8" xml:id="kock-0402-agonis_e_ippiskos-2-l8" xml:lang="grc">Φιλιππίδου λεπτότερον. Β. ἀλλὰ ταῦθ᾽ ὅλως</l>
+                <l n="9" xml:id="kock-0402-agonis_e_ippiskos-2-l9" xml:lang="grc">πρὸς ἀλαζονείαν οὐ κακῶς νενοημέν᾽ ἦν.</l>
+              </lg>
+              <note type="apparatus">v. 1—8 (λεπτότερον) Athenaeus 11, 502. 3 Ἄλεξις ἐν Ἱππίσκῳ ψυκτηρίδιον καλεῖ διὰ τούτων κτλ. v. 3 sq. idem 6, 230b Ἄλεξις ἐν Ἱππίσκῳ νεανίσκον παράγων ἐρῶντα καὶ ἐπιδεικνύμενον τὸν πλοῦτον τῇ ἐρωμένῃ ταῦτα ποιεῖ λέγοντα κτλ. 2. sic A. ᾗ συνῆν Grotius Excerpt. 557. ἦγον. ἦν δ᾽ Mein. οὗ συνῆν Ἀγωνίδι Herw. Mnem. nov. VI 68. 3. παισί Α 502] πᾶσι Α 230. 5. τἀκπώματα Α 230] τ᾽ ἐκπώματ᾽ Α 502. 6. τέτταρας ἴσως ἑτέρας Α 230] τέτταρας Α 502. cf. Philet. 9, 1. 2. 7. ψυκτηρίδιόν τε Α 503 (δὲ Schweigh.)] ψυκτηρίδιον 230. δέκ᾽ Α 230] δύ᾽ 503. v. 8. 9 ex 230 poetae contra Meinekium (Menand. p. 130) reddidit Cobet. N. 1. 361. quod praetermisit Kaibelius Herm. XVIIII 259, pro τέτταρας ἴσως ἑτέρας scribens δύ᾽ ἑτέρας. νενοημένα Athen. narrat amator Agonidis, quomodo ipsam cum nescio quo homine (τῷ ξένῳ) in deversorio et exceperit et deceperit. Agonidem adfuisse ipse Athenaeus testatur. v. 2 scribo εἰς τὴν κατάλυσιν ἦγον, ἣν ἐθεωσάμην, quam sulfuris suffitu purgandam curaveram. cf. Hom. Od. 22, 494. 23, 50. Plin. N. h. 35, 177. Schoemann. Ant. gr.² II 352 et de forma (pro ἐθειωσ.) Ararot. 12. Hesych. θεώματα· τὰ περικαθαρτήρια. αἴθων apud comicos non invenitur nisi ubi Homerum imitantur, Arist. Pac. 1328. Hermipp. 46, 7. — de Philippide cf. 144.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0402-agonis_e_ippiskos-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_agonis_e_ippiskos">
+              <lg>
+                <l n="1" xml:id="kock-0402-agonis_e_ippiskos-3-l1" xml:lang="grc">ὦ μῆτερ, ἱκετεύω σε, μὴ ᾽πίσειέ μοι</l>
+                <l n="2" xml:id="kock-0402-agonis_e_ippiskos-3-l2" xml:lang="grc">τὸν Μισγόλαν· οὐ γὰρ κιθαρῳδός εἰμ᾽ ἐγώ.</l>
+              </lg>
+              <note type="source">Athenaeus 8, 339c Ἄλεξις ἐν Ἀγωνίδι ἢ Ἱππίσκῳ κτλ.</note>
+              <note type="apparatus">1. ᾽πίσειε VL] πείσειε Α. Eurip. Or. 255 ὦ μῆτερ, ἱκετεύω σε, μὴ ᾽πίσειέ μοι τὰς αἱματωποὺς καὶ δρακοντώδεις κόρας· αὗται γάρ, αὗται πλησίον θρώσκουσί μου. de Misgola, citharoedorum amatore, cf. Antiphan. 26, 14.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0402-agonis_e_ippiskos-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_agonis_e_ippiskos">
+              <lg>
+                <l n="1" xml:id="kock-0402-agonis_e_ippiskos-4-l1" xml:lang="grc">ὁ τρίτος οὗτος δ᾽ ἔχει</l>
+                <l n="2" xml:id="kock-0402-agonis_e_ippiskos-4-l2" xml:lang="grc">σύκων κυλιστὸν στέφανον· ἀλλ᾽ ἔχαιρε καὶ</l>
+                <l n="3" xml:id="kock-0402-agonis_e_ippiskos-4-l3" xml:lang="grc">ζῶν τοῖς τοιούτοις.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 678e εὑρίσκω δὲ καὶ παρὰ τοῖς κωμικοῖς κυλιστόν τινα καλούμενον στέφανον ... Ἄλεξις ἐν Ἀγωνίδι ἢ Ἱππίσκῳ (ἱππίσκω Α) κτλ.</note>
+              <note type="apparatus">1. οὗτος δ᾽ Mein.] δ᾽ οὗτος Α. mortuorum quorundam hominum imagines contemplari videntur. verba ἀλλ᾽ ἔχαιρε κτλ. fortasse alteri interlocutori tribuenda sunt Mein. cf. Cobet. N. 1. 20. 1. Nicander Athen. 678 f ἐκκύλιστοι στέφανοι καὶ μάλιστα οἱ ἐκ ῥόδων. cf. 272, 5. 207. Archipp. 40. Eubul. 73.</note>
+            </div>
+          </div></body></text></TEI>

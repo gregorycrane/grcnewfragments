@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>PHILEMON, ΦΑΣΜΑ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Philemon</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.phasma.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0487.phasma.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0487.phasma.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_phasma"><head>ΦΑΣΜΑ</head><div type="textpart" subtype="fragment" n="84" xml:id="kock-0487-phasma-84" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_phasma">
+              <head>84</head>
+              <lg>
+                <l n="1" xml:id="kock-0487-phasma-84-l1" xml:lang="grc">ἔπιεν ἡ Ῥόδη</l>
+                <l n="2" xml:id="kock-0487-phasma-84-l2" xml:lang="grc">κυμβίον ἀκράτου· κατασέσειχ' ὑμᾶς ἄνω.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 481 d κυμβία, τὰ κοῖλα ποτήρια καὶ μικρά . . . Φιλήμων Φάσματι κτλ. Macrobius Saturn. 5, 21 (— ἀκράτου).</note>
+              <note type="apparatus">1. ἔπιεν Paris. Macr.] ἐπεὶ δ' Α Ath. 2. κατασέσειχ' Dindf.] κατα-σέσεικεν Α. ἡμᾶς Mein. ἄφνω Κ. contulit Meinekius Menand. 11. nos 'unter den Tisch trinken'. Horat. Epod. 12, 7 sq. (Plaut. Most. 274 sq.) et C. 2, 13, 5 sq. (Plaut. Most. 479 sq.) aliquo modo ex Philemonis Phasmate ducta esse existimat Fr. Leo Herm. XVIII 563.</note>
+            </div>
+          </div></body></text></TEI>

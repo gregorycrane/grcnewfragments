@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUBULUS, ΣΤΕΦΑΝΟΠΩΛΙΔΕΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.stephanopolides.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.stephanopolides.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.stephanopolides.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_stephanopolides"><head>ΣΤΕΦΑΝΟΠΩΛΙΔΕΣ</head><div type="textpart" subtype="fragment" n="100" xml:id="kock-0458-stephanopolides-100" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_stephanopolides">
+              <lg>
+                <l n="1" xml:id="kock-0458-stephanopolides-100-l1" xml:lang="grc">λῦε τἀλαβάστια</l>
+                <l n="2" xml:id="kock-0458-stephanopolides-100-l2" xml:lang="grc">θᾶττον σὺ καὶ τῇ σπαθίδι τὸν πώγωνά μου</l>
+                <l n="3" xml:id="kock-0458-stephanopolides-100-l3" xml:lang="grc">καὶ τὴν ὑπήνην μύρισον.</l>
+              </lg>
+              <note type="source">
+                <p>Pollux 10,120 Εὔβουλος ἐν ταῖς Στεφανοπώλισι τοῦτο μὲν (τὸ εἰς τὰς ληκύθους καθιέμενον ἐπὶ γεύματι τοῦ μύρου) σπαθίδα, τοὺς δ' ἀλαβάστους ἀλαβάστια εἴρηκεν κτλ. cf. Aristoph. fr. 205.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="101" xml:id="kock-0458-stephanopolides-101" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_stephanopolides">
+              <lg>
+                <l n="1" xml:id="kock-0458-stephanopolides-101-l1" xml:lang="grc">εἰ μὴ σὺ χηνὸς ἦπαρ ἢ ψυχὴν ἔχεις.</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 9, 384c χηνείων δ' ἡπάτων... μνημονεύει Εὔβουλος ἐν Στεφανοπώλισι λέγων οὕτως κτλ. (εὔπολις ἐν στεφανοπώλησι Α).</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="102" xml:id="kock-0458-stephanopolides-102" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_stephanopolides">
+              <lg>
+                <l n="1" xml:id="kock-0458-stephanopolides-102-l1" xml:lang="grc">Αἰγυπτίῳ ψάγδανι τρὶς λελουμένη</l>
+              </lg>
+              <note type="source">
+                <p>Athenaeus 15,690 e Εὔβουλος δ' ἐν Στεφανοπώλισιν κτλ. ψαγδανι sine acc. A. cf. Eupol. 198. Aristoph. fr. 206. Epilyc. 1.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="103" xml:id="kock-0458-stephanopolides-103" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_stephanopolides">
+              <lg>
+                <l n="1" xml:id="kock-0458-stephanopolides-103-l1" xml:lang="grc">εὔχρων τι κιλλόν, μανθάνεις, θερίστριον</l>
+              </lg>
+              <note type="source">
+                <p>Herodian. I 158,3. II 101,9 Lentz. τὰ εἰς λος ἑτέρῳ λ παραληγόμενα, οὗ τὸ α μὴ προηγεῖται, ὀξύνεται· κιλλός, εἶδος χρώματος (eselsgrau) ἐν Στεφανοπώλισιν Εὐβούλου κτλ. de θεριστρίῳ Valcken. Theocr. Adoniaz. p. 368c conferri iubet Meinekius. de μανθάνεις cf. quae adnotavimus ad Arist. Nub. 355. Av. 1003.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="104" xml:id="kock-0458-stephanopolides-104" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_stephanopolides">
+              <lg>
+                <l n="1" xml:id="kock-0458-stephanopolides-104-l1" xml:lang="grc">ὦ μάκαρ ἥτις ἔχουσ' ἐν δωματίῳ</l>
+                <l n="2" xml:id="kock-0458-stephanopolides-104-l2" xml:lang="grc">στρούθιον ἀεροφόρητον</l>
+                <l n="3" xml:id="kock-0458-stephanopolides-104-l3" xml:lang="grc">λεπτότατον περὶ σῶμα συνίλλεταί τε</l>
+                <l n="4" xml:id="kock-0458-stephanopolides-104-l4" xml:lang="grc">ἡδυπότατον περὶ νυμφίον εὔτριχα</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="98" xml:id="kock-0458-stephanopolides-98" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_stephanopolides">
+              <lg>
+                <l n="1" xml:id="kock-0458-stephanopolides-98-l1" xml:lang="grc">μὰ Δί’ οὐχὶ περιπεπλασμέναι ψιμυθίοις,</l>
+                <l n="2" xml:id="kock-0458-stephanopolides-98-l2" xml:lang="grc">οὐδ’ ὥσπερ ὑμεῖς συκαμίνῳ τὰς γνάθους</l>
+                <l n="3" xml:id="kock-0458-stephanopolides-98-l3" xml:lang="grc">κεχριμέναι. κἂν ἐξίητε τοῦ θέρους,</l>
+                <l n="4" xml:id="kock-0458-stephanopolides-98-l4" xml:lang="grc">ἀπὸ τῶν μὲν ὀφθαλμῶν ὑδρορρόαι δύο</l>
+                <l n="5" xml:id="kock-0458-stephanopolides-98-l5" xml:lang="grc">ῥέουσι μέλανος, ἐκ δὲ τῶν γνάθων ἱδρὼς</l>
+                <l n="6" xml:id="kock-0458-stephanopolides-98-l6" xml:lang="grc">ἐπὶ τὸν τράχηλον ἄλοκα μιλτώδη ποιεῖ,</l>
+                <l n="7" xml:id="kock-0458-stephanopolides-98-l7" xml:lang="grc">ἐπὶ τῷ προσώπῳ δ’ αἱ τρίχες φορούμεναι</l>
+                <l n="8" xml:id="kock-0458-stephanopolides-98-l8" xml:lang="grc">εἶξασι πολιαῖς, ἀνάπλεῳ ψιμυθίου.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 557 f αἱ δὲ γαμεταὶ ἡμῶν γυναῖκες οὐκ εἰσὶ τοιαῦται, οἵας Εὔβουλός φησιν ἐν Στεφανοπώλισιν κτλ. Eustathius 976, 56 (sine fabulae nomine).</note>
+              <note type="apparatus">1. ψιμμυθίῳ C et Eust. 3. κεχρισμέναι C et Eust. ἐξείητε A. 4. μὲν τῶν C et Eust. ὑδρορόαι A. 7. δ’ αἱ] δὲ Eust. 8. εἴξασιν ἤγουν ὁμοιοῦνται Eust. 4. 5. Bekker. Anecd. 68, 17 ὑπογράμματα· οἷς ὑπογράφονται τοὺς ὀφθαλμούς· ἔστι δέ τις μέλαινα σκευασία, ἣν καὶ στίβην (στίμμι) καλοῦσιν. cf. Aristoph. fr. 320, 5. 880. Pollux 5, 101 ἴσως δ’ ἂν τοῖς κόσμοις προσήκοι καὶ τὸ ἔντριμμα, ψιμύθιον, ἄγχουσα, φῦκος, καὶ τὰ ὑπογράμματα. cf. Hesych. ὑπογράμματα. Phot. ὑπόγραμμα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="99" xml:id="kock-0458-stephanopolides-99" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_stephanopolides">
+              <lg>
+                <l n="1" xml:id="kock-0458-stephanopolides-99-l1" xml:lang="grc">στεφάνους ἴσως βούλεσθε· πότερ’ ἑρπυλλίνους</l>
+                <l n="2" xml:id="kock-0458-stephanopolides-99-l2" xml:lang="grc">ἢ μυρτίνους ἢ τῶν διηνθημένων;</l>
+                <l n="3" xml:id="kock-0458-stephanopolides-99-l3" xml:lang="grc">Β. τῶν μυρτίνων βουλόμεθα τουτωνί· σὺ δὲ</l>
+                <l n="4" xml:id="kock-0458-stephanopolides-99-l4" xml:lang="grc">τά γ’ ἄλλα πώλει πάντα πλὴν τῶν μυρτίνων.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 679 de καταλέγει δὲ Εὔβουλος καὶ ἄλλους στεφάνους (fr. 105) κἂν τοῖς ἑξῆς τάδε φησί κτλ. cum 679 b Athenaeus ex Eubuli Corollariis quaedam excerpserit (fr. 104), dubium esse non potest quin hoc quoque fragmentum et 105 ad eandem fabulam pertineant.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="104_2" xml:id="kock-0458-stephanopolides-104_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_stephanopolides">
+              <lg>
+                <l n="5" xml:id="kock-0458-stephanopolides-104_2-l5" xml:lang="grc">κισσὸς ὅπως καλάμῳ περιφύεται</l>
+                <l n="6" xml:id="kock-0458-stephanopolides-104_2-l6" xml:lang="grc">αὐξόμενος ἔαρος ὀλολυγόνος</l>
+                <l n="7" xml:id="kock-0458-stephanopolides-104_2-l7" xml:lang="grc">ἔρωτι κατατετηκώς.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 679 b στέφανον... τὸν στρούθιον καλούμενον, οὗ μέμνηται μὲν ὁ Ἀσκληπιάδης, παρατιθέμενος τὰ ἐκ τῶν Εὐβούλου Στεφανοπωλίδων ταῦτα κτλ. πλέκεται δ' οὗτος ἐκ τοῦ στρουθίου καλουμένου ἄνθους.</note>
+              <note type="apparatus">1. ἐν] ἐ in rasura m.¹ A. 3. sic, sine accentu tamen, non συνίλλεσται, A. cf. Cobet. N. 1. 457. 5. κισσος, καλάμω et 6. ὀλολυγονος Α.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="105" xml:id="kock-0458-stephanopolides-105" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_stephanopolides">
+              <lg>
+                <l n="1" xml:id="kock-0458-stephanopolides-105-l1" xml:lang="grc">Αἰγίδιον, σὺ δὲ τόνδε φορήσεις</l>
+                <l n="2" xml:id="kock-0458-stephanopolides-105-l2" xml:lang="grc">στέφανον πολυποίκιλον ἀνθέων,</l>
+                <l n="3" xml:id="kock-0458-stephanopolides-105-l3" xml:lang="grc">γρυπότατον, χαριέστατον, ὦ Ζεῦ.</l>
+                <l n="4" xml:id="kock-0458-stephanopolides-105-l4" xml:lang="grc">τίς γὰρ αὐτὸν ἔχουσα φιλήσει.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 679 de καταλέγει δὲ Εὔβουλος καὶ ἄλλους στεφάνους κτλ. cf. fr. 99.</note>
+              <note type="apparatus">2. τὸν στ. Iacobs. Add. Ath. 355. 3. ὑγρότατον G. A. Hirschig. Ann. crit. 7. 4. τί γάρ; Bergk. φιλήσεις Mein. (τίς γὰρ ἂν αὐτὸν ἔχουσ' ἀφίλητος; in Ath.) fortasse τίς γὰρ ἂν αὐτὸν ἔχουσ' ἄφιλος μένοι;</note>
+            </div>
+            </div></body></text></TEI>

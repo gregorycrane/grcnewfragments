@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΕΛΕΝΗΣ ΑΡΠΑΓΗ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.elenes_arpage.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.elenes_arpage.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.elenes_arpage.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_elenes_arpage"><head>ΕΛΕΝΗΣ ΑΡΠΑΓΗ</head><div type="textpart" subtype="fragment" n="71" xml:id="kock-0402-elenes_arpage-71" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_elenes_arpage">
+              <lg>
+                <l n="1" xml:id="kock-0402-elenes_arpage-71-l1" xml:lang="grc">ἀκόλαστός ἐστι, τὴν δὲ πολιὰν οὐκ ἐντρέπεται.</l>
+              </lg>
+              <note type="source">Priscianus 18, 211 Attici ἐντρέπομαι τοῦτο καὶ τούτου . . . Ἄλεξις Ἑλένης ἁρπαγῇ κτλ.</note>
+              <note type="apparatus">Meinekius ἀκ. εἶ, τὴν δὲ π. οὐκ ἐντρέπει vel ἀκ. ἐστι, τὴν δὲ πολιὰν τοῦ πατρὸς | οὐκ ἐντρέπεται. at comici certe Graeci, ut Romani canos (capillos), non canum, semper dicunt πολιάς, non πολιάν. Arist. Eq. 520. 908. fr. 410. Vesp. 1064 πολιώτεραι τρίχες. Eubul. 98, 8. Philem. 179 pro τὴν σεμνὴν πολιάν Meinekius ipse τὴν σεμνὴν τρίχα. itaque adparet scribendum esse τὴν δὲ πολιὰν μητέρα | οὐκ ἐντρέπεται. mater videtur esse Leda.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="72" xml:id="kock-0402-elenes_arpage-72" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_elenes_arpage">
+              <note type="source">Bekker. Anecd. 106, 22 Λάκαιναν τὴν παρθένον φασὶ δεῖν καλεῖν, τὴν δὲ χώραν Λακωνικήν. Ἄλεξις Ἑλένης ἁρπαγῇ.</note>
+              <note type="apparatus">utrum Alexis dixerit dubium est.</note>
+            </div>
+          </div></body></text></TEI>

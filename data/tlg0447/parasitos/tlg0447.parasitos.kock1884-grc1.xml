@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>DIPHILUS, ΠΑΡΑΣΙΤΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Diphilus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.parasitos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0447.parasitos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0447.parasitos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_parasitos"><head>ΠΑΡΑΣΙΤΟΣ</head><div type="textpart" subtype="fragment" n="60" xml:id="kock-0447-parasitos-60" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_parasitos">
+              <lg>
+                <l n="1" xml:id="kock-0447-parasitos-60-l1" xml:lang="grc">εὖ γ’ ὁ κατάχρυσος εἶπε πόλλ’ Εὐριπίδης·</l>
+                <l n="2" xml:id="kock-0447-parasitos-60-l2" xml:lang="grc">‘νικᾷ δὲ χρεία μ’ ἡ ταλαίπωρός τέ μου</l>
+                <l n="3" xml:id="kock-0447-parasitos-60-l3" xml:lang="grc">γαστήρ.’ ταλαιπωρότερον οὐδέν ἐστι γὰρ</l>
+                <l n="4" xml:id="kock-0447-parasitos-60-l4" xml:lang="grc">τῆς γαστρός, εἰς ἣν πρῶτον ἐμβάλοις . .</l>
+                <l n="5" xml:id="kock-0447-parasitos-60-l5" xml:lang="grc">ἀλλ’ οὐχ ἕτερον ἀγγεῖον. ἐν πήρᾳ φέροις</l>
+                <l n="6" xml:id="kock-0447-parasitos-60-l6" xml:lang="grc">ἄρτους ἄν, ἀλλ’ οὐ ζωμόν, ἢ διαφθερεῖς.</l>
+                <l n="7" xml:id="kock-0447-parasitos-60-l7" xml:lang="grc">εἰς σπυρίδα μάζας ἐμβαλεῖς, ἀλλ’ οὐ φακῆν,</l>
+                <l n="8" xml:id="kock-0447-parasitos-60-l8" xml:lang="grc">οἰνάριον εἰς λάγυνον, ἀλλ’ οὐ κάραβον.</l>
+                <l n="9" xml:id="kock-0447-parasitos-60-l9" xml:lang="grc">εἰς τὴν θεοῖς ἐχθρὰν δὲ ταύτην εἰσφόρει</l>
+                <l n="10" xml:id="kock-0447-parasitos-60-l10" xml:lang="grc">τὰ πάνθ’ ἑαυτοῖς μηδὲν ὁμολογούμενα.</l>
+                <l n="11" xml:id="kock-0447-parasitos-60-l11" xml:lang="grc">κοὐ προστίθημι τἄλλα, διότι πανταχοῦ</l>
+                <l n="12" xml:id="kock-0447-parasitos-60-l12" xml:lang="grc">διὰ τὴν τάλαιναν πάντα ταύτην γίνεται.</l>
+              </lg>
+              <note type="source">Athenaeus 10, 422b Δίφιλος ἐν Παρασίτῳ κτλ. v. 1 Eustathius 1205, 20 Εὐριπίδης, ὃν κατάχρυσον ὁ Δίφιλος εἶπεν.</note>
+              <note type="apparatus">1. πόλλ’] τοῦτ’ Grotius Excerpt. 793. 2. με A. 3. οὐδέν ἐστι γὰρ VL] γὰρ οὐδέν ἐστι A. 4. πρῶτον A] πάντ’ ἂν C. πρῶτον ἂν πάντ’ Grotius. ἐμβάλοις VL] ἐμβαλεῖς A. βρωτὸν ἐμβαλεῖς ἅπαν Mein. πάντ’ ἂν ἐμβάλοις ἅμα Herwerd. Nov. add. crit. 43. 44, cui adsentior. 5. ἀλλ’ οὐχ ἕτερον εἰς ἄγγος Mein. ὡς οὐχ ἕτ. ἀγγεῖον K. 6. ἄρτουσαν ἄλλου A. 9. εἰσφορεῖν | πάντ’ ἔσθ’ Mein. in Ath. 10. τὰ πάνθ’ VL] πάντα A. ἅπανθ’ Iacobs. Add. Ath. 9. πᾶς φέρει | ἅπανθ’ K. 11. τὰ ἄλλα A. 12. ταύτην C] ταῦτα A. τὰ κακὰ Casaub. πάντ’ ἄτακτα Iacobs. 229. πάντα γίνεται κακά Mein. An. Ath. 191. ταὐτὰ Volgraff. Mnem. nov. X 421. 2. fortasse πάντα που | διὰ τὴν τ. τὰ κακὰ ταύτην γ. duo postremi versus</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="2" xml:id="kock-0447-parasitos-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_parasitos">
+              <lg>
+                <l n="1" xml:id="kock-0447-parasitos-2-l1" xml:lang="grc">νικᾷ δὲ χρεία μ' ἡ κακῶς τ' ὀλουμένη</l>
+                <l n="2" xml:id="kock-0447-parasitos-2-l2" xml:lang="grc">γαστήρ, ἀφ' ἧς δὴ πάντα γίνεται κακά</l>
+              </lg>
+              <note type="source">Eurip. fr. 907 N. (ex Clem. Alex. Strom. 6, 2, 12).</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="61" xml:id="kock-0447-parasitos-61" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_parasitos">
+              <lg>
+                <l n="1" xml:id="kock-0447-parasitos-61-l1" xml:lang="grc">ὅταν με καλέσῃ πλούσιος δεῖπνον ποιῶν,</l>
+                <l n="2" xml:id="kock-0447-parasitos-61-l2" xml:lang="grc">οὐ κατανοῶ τὰ τρίγλυφ' οὐδὲ τὰς στέγας,</l>
+                <l n="3" xml:id="kock-0447-parasitos-61-l3" xml:lang="grc">οὐδὲ δοκιμάζω τοὺς Κορινθίους κάδους,</l>
+                <l n="4" xml:id="kock-0447-parasitos-61-l4" xml:lang="grc">ἀτενὲς δὲ τηρῶ τοῦ μαγείρου τὸν καπνόν.</l>
+                <l n="5" xml:id="kock-0447-parasitos-61-l5" xml:lang="grc">κἂν μὲν σφοδρὸς φερόμενος εἰς ὀρθὸν τρέχῃ,</l>
+                <l n="6" xml:id="kock-0447-parasitos-61-l6" xml:lang="grc">γέγηθα καὶ χαίρω τε καὶ πτερύττομαι·</l>
+                <l n="7" xml:id="kock-0447-parasitos-61-l7" xml:lang="grc">ἂν δὲ πλάγιος καὶ λεπτός, εὐθέως νοῶ</l>
+                <l n="8" xml:id="kock-0447-parasitos-61-l8" xml:lang="grc">ὅτι τοῦτό μοι τὸ δεῖπνον ἀλλ' οὐδ' αἷμ' ἔχει.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 236 b ὁ δὲ παρὰ τῷ Διφίλῳ (παράσιτος) τάδε φησίν κτλ.</note>
+              <note type="apparatus">2. τὰ τριαγλυφουδε Α. 5. σφοδρῶς C. 6. τε Dobr.] τι Α. πτερύττομαι Dindf.] πτερύσσομαι A. fort. γέγηθά τ' ἀσπαίρω τε κτλ. palpitant enim etiam qui supra modum laetantur. 7. ἂν Grot. Excerpt. 799] ἐὰν Α. 8. αἷμα Α. 2. cf. Arist. Vesp. 1214. 5. 6. πτερύττεσθαι proprie aves dicuntur laetabundae vel timidae. Lucian. Ver. h. 2, 41. Aelian. H. anim. 7, 7.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="62" xml:id="kock-0447-parasitos-62" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_parasitos">
+              <lg>
+                <l n="1" xml:id="kock-0447-parasitos-62-l1" xml:lang="grc">ἀγνοεῖς ἐν ταῖς ἀραῖς</l>
+                <l n="2" xml:id="kock-0447-parasitos-62-l2" xml:lang="grc">ὅ τι ἐστίν, εἴ τις μὴ φράσει' ὀρθῶς ὁδόν,</l>
+                <l n="3" xml:id="kock-0447-parasitos-62-l3" xml:lang="grc">ἢ πῦρ ἐναύσει', ἢ διαφθείρει' ὕδωρ,</l>
+                <l n="4" xml:id="kock-0447-parasitos-62-l4" xml:lang="grc">ἢ δειπνιεῖν μέλλοντα κωλύσαι τινά;</l>
+              </lg>
+              <note type="source">Athenaeus 6, 238 f Δίφιλος δ' ἐν Παρασίτῳ μελλόντων γίνεσθαι γάμων τὸν παράσιτον ποιεῖ λέγοντα τάδε κτλ.</note>
+              <note type="apparatus">2. φράσει' Porson.] φρασειή Α. 3. ἐναύσει et διαφθείρει Α. 4. δειπνιεῖν Erfurdt. Obs. 459] δειπνεῖν Α. κωλύσαι Erf.] κωλύσηι Α. in proverbio erant ἀραὶ Βουζύγειοι. Append. prov. 1, 61 Βουζύγης... ἄλλα τε πολλὰ ἀρᾶται καὶ τοῖς μὴ κοινωνοῦσι (μεταδιδοῦσι) ... ὕδατος ἢ πυρὸς ἢ μὴ ὑποφαίνουσιν ὁδὸν πλανωμένοις. Cic. Off. 3, 13, 55 erranti viam non monstrare, quod Athenis exsecrationibus publicis (Buzygis Valcken. Herodot. 7, 231) sanctum est. C. F. Hermann. Ant. sacr. 9, 9. 22, 1 sq. M. Haupt. Opusc. III 506. 3. cum ad πῦρ ἐναύσειε (Cratin. 409) supplendum sit μή, ad διαφθείρειε non item, scribendum videtur εἰ διαφθ. κτλ. 4. ioci causa παρ' ὑπόνοιαν: 'si quis amicos epulis excipere volentem prohibeat, sacer esto': tamquam sint qui id faciant.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="67" xml:id="kock-0447-parasitos-67" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_parasitos">
+              <lg>
+                <l n="1" xml:id="kock-0447-parasitos-67-l1" xml:lang="grc">τί ποτ᾽ ἐστίν; ὡς ῥαγδαῖος ἐξελήλυθεν.</l>
+              </lg>
+              <note type="source">Photius 480, 20 ῥαγδαίους· τοὺς κεκινημένους καὶ σφοδροὺς καὶ βιαίους . . . Δίφιλος Πολυπράγμονι κτλ. cf. Teleclid. 30. Aristoph. fr. 243. Antiphan. 7.</note>
+            </div>
+          </div></body></text></TEI>

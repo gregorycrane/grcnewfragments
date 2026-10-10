@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ALEXIS, ΦΑΙΔΡΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.phaidros.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.phaidros.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.phaidros.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_phaidros"><head>ΦΑΙΔΡΟΣ</head><div type="textpart" subtype="fragment" n="246" xml:id="kock-0402-phaidros-246" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_phaidros">
+              <lg>
+                <l n="1" xml:id="kock-0402-phaidros-246-l1" xml:lang="grc">σχολῇ γε, νὴ τὸν ἥλιον, σχολῇ λέγεις.</l>
+                <l n="2" xml:id="kock-0402-phaidros-246-l2" xml:lang="grc">Ἐπιχαρίδης ὁ μικρὸς ἐν πένθ’ ἡμέραις</l>
+                <l n="3" xml:id="kock-0402-phaidros-246-l3" xml:lang="grc">σφαῖραν ἐποίησε τὴν πατρώαν οὐσίαν.</l>
+                <l n="4" xml:id="kock-0402-phaidros-246-l4" xml:lang="grc">οὕτω συνεστρόγγυλεν ἰταμῶς καὶ ταχύ.</l>
+              </lg>
+              <note type="source">Athenaeus 4, 165 e ἀσώτους μὲν γὰρ οἶδα διαβοήτους, ἕνα μὲν</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="245" xml:id="kock-0402-phaidros-245" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_phaidros">
+              <lg>
+                <l n="1" xml:id="kock-0402-phaidros-245-l1" xml:lang="grc">πορευομένῳ δ᾽ ἐκ Πειραιῶς ὑπὸ τῶν κακῶν</l>
+                <l n="2" xml:id="kock-0402-phaidros-245-l2" xml:lang="grc">καὶ τῆς ἀπορίας φιλοσοφεῖν ἐπῆλθέ μοι.</l>
+              </lg>
+              <pb n="387" facs="urn:hathi:hvd.hxijve:scan:423"/>
+              <lg>
+                <l n="3" xml:id="kock-0402-phaidros-245-l3" xml:lang="grc">καί μοι δοκοῦσιν ἀγνοεῖν οἱ ζωγράφοι</l>
+                <l n="4" xml:id="kock-0402-phaidros-245-l4" xml:lang="grc">τὸν Ἔρωτα, συντομώτατον δ’ εἰπεῖν, ὅσοι</l>
+                <l n="5" xml:id="kock-0402-phaidros-245-l5" xml:lang="grc">τοῦ δαίμονος τούτου ποιοῦσιν εἰκόνας.</l>
+                <l n="6" xml:id="kock-0402-phaidros-245-l6" xml:lang="grc">ἔστιν γὰρ οὔτε θήλυς οὔτ’ ἄρρην, πάλιν</l>
+                <l n="7" xml:id="kock-0402-phaidros-245-l7" xml:lang="grc">οὔτε θεὸς οὔτ’ ἄνθρωπος, οὔτ’ ἀβέλτερος</l>
+                <l n="8" xml:id="kock-0402-phaidros-245-l8" xml:lang="grc">οὔτ’ αὖθις ἔμφρων, ἀλλὰ συνενηνεγμένος</l>
+                <l n="9" xml:id="kock-0402-phaidros-245-l9" xml:lang="grc">πανταχόθεν, ἑνὶ τύπῳ τε πόλλ’ εἴδη φέρων.</l>
+                <l n="10" xml:id="kock-0402-phaidros-245-l10" xml:lang="grc">ἡ τόλμα μὲν γὰρ ἀνδρός, ἡ δὲ δειλία</l>
+                <l n="11" xml:id="kock-0402-phaidros-245-l11" xml:lang="grc">γυναικός, ἡ δ’ ἄνοια μανίας, ὁ δὲ λόγος</l>
+                <l n="12" xml:id="kock-0402-phaidros-245-l12" xml:lang="grc">φρονοῦντος, ἡ σφοδρότης δὲ θηρός, ὁ δὲ πόνος</l>
+                <l n="13" xml:id="kock-0402-phaidros-245-l13" xml:lang="grc">ἀδάμαντος, ἡ φιλοτιμία δὲ δαίμονος.</l>
+                <l n="14" xml:id="kock-0402-phaidros-245-l14" xml:lang="grc">καὶ ταῦτ’ ἐγώ, μὰ τὴν Ἀθηνᾶν καὶ θεούς,</l>
+                <l n="15" xml:id="kock-0402-phaidros-245-l15" xml:lang="grc">οὐκ οἶδ’ ὅ τι ἐστίν, ἀλλ’ ὅμως ἔχει γέ τι</l>
+                <l n="16" xml:id="kock-0402-phaidros-245-l16" xml:lang="grc">τοιοῦτον, ἐγγύς τ’ εἰμὶ τοὐνόματος.</l>
+              </lg>
+              <note type="source">Athenaeus 13, 562 a ὁ Πλούταρχος ἀπεμνημόνευσε τῶν ἐκ Φαίδρου Ἀλέξιδος κτλ. v. 3—12 (φρονοῦντος) Eustathius 988, 14 ὁ κωμικὸς Ἄλεξις. λέγει κτλ.</note>
+              <note type="apparatus">1. πορευομένων A non recte: nam philosophatur sine dubio solus ambulans, non cum amicis. 4. συντομώτερον C et Eust. 6. ἄρρην Dindf.] ἄρσην A. 8. συνενηνεγμένος K.] συνενηγμένος A. συνηνεγμένος C et Eust. που συνηγμένος Mein. in Ath. (Anal. 260) συμμεμιγμένος Herw. Obs. crit. 79. 9. τε add. Schweigh. πάντοθεν, ἐν ἑνὶ τύπῳ τε Mein. in Athen. φέρων] φορῶν Herwerd. Mnem. nov. IIII 317. 10. δὲ om. A. 12. ‘nisi πόνος de duritie adamantis et in ferendis ictibus quasi patientia interpretari licet, suspiceris scribendum esse “Ἄτλαντος.”’ Mein. Anal. Ath. 260. 13. δαίμονος corruptum videtur. 14. διὰ ταῦτ’ Mein. 16. εἰμὶ] εἰμὴ A. τοὐνόματος Dindf.] τοῦ ὀνόματος A. τοῦ νοήματος Emper. Mein. V 91. τοῦ ’ννοήματος Mein. που τοῦ πράγματος Dobr. Adv. II 341.</note>
+            </div>
+          </div></body></text></TEI>

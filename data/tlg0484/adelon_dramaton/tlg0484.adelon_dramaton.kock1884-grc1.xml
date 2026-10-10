@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>NICOSTRATUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Nicostratus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0484.adelon_dramaton.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0484.adelon_dramaton.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0484.adelon_dramaton.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="22" xml:id="kock-0484-adelon_dramaton-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-22-l1" xml:lang="grc">ὁ κάπηλος γὰρ οὐκ τῶν γειτόνων,</l>
+                <l n="2" xml:id="kock-0484-adelon_dramaton-22-l2" xml:lang="grc">ἄν τ᾽ οἶνον ἄν τε φανὸν ἀποδῶταί τινι</l>
+                <l n="3" xml:id="kock-0484-adelon_dramaton-22-l3" xml:lang="grc">ἄν τ᾽ ὄξος, ἀπέπεμψ᾽ ὁ κατάρατος δοὺς ὕδωρ.</l>
+              </lg>
+              <note type="source">Athenaeus 15, 700b Νικόστρατος ἐν Πατριώταις κτλ.</note>
+              <note type="apparatus">2. τε φανὸν B] σφέφανον A. 3. ἀπέπεμψεν A. — φανοί sunt οἱ καλούμενοι λυχνοῦχοι Athen. 699 f, quibus a caupone oleum statim infundebatur. cf. Menand. 63 Mein.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="30_31" xml:id="kock-0484-adelon_dramaton-30_31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-30_31-l1" xml:lang="grc">πάλιν χρόνῳ τἀρχαῖα καινὰ γίνεται.</l>
+                <l n="2" xml:id="kock-0484-adelon_dramaton-30_31-l2" xml:lang="grc">οὐκ ἔστι δυσαρεστότερον οὐδὲ ἓν χρόνου·</l>
+                <l n="3" xml:id="kock-0484-adelon_dramaton-30_31-l3" xml:lang="grc">οὐδέποτ’ ἀρέσκει ταὐτὰ τούτῳ τῷ θεῷ.</l>
+              </lg>
+              <note type="source">Stobaeus Ecl. 1, 8, 12 ‘in codicibus VAE Nicostrati nomen ad proximum versum’ (fr. 31) ‘trahitur. legitur autem is in codicibus continuo cum nostro, unde probabile est utrumque Nicostrati esse’. Heeren.</note>
+              <note type="apparatus">2. δυσαρεστότερον Heeren.] δυσαρεστότατον V. δυσαρεσκότατον A E. οὐδὲ ἓν Grotius] οὐδέν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="32" xml:id="kock-0484-adelon_dramaton-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-32-l1" xml:lang="grc">μειράκιον δὲ κατὰ τύχην</l>
+                <l n="2" xml:id="kock-0484-adelon_dramaton-32-l2" xml:lang="grc">ὑποσκαφιόκαρτόν τι κεχλαμυδωμένον</l>
+                <l n="3" xml:id="kock-0484-adelon_dramaton-32-l3" xml:lang="grc">κατάγεις ἀναγκόσιτον.</l>
+              </lg>
+              <note type="source">Athenaeus 2, 47 e ἀναγκόσιτον δὲ . . . Νικόστρατος κτλ.</note>
+              <note type="apparatus">1. δὲ add. Porson. Misc. 234. 2. τι Porson.] τι καὶ. κατάγεις ἀναγκόσιτον Porson.] κατὰ γῆς ἀναγκοσιτῶ. cf. Cratet. 44.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="33" xml:id="kock-0484-adelon_dramaton-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-33-l1" xml:lang="grc">ἁλύσεις, καθετῆρας, δακτυλίους, βουβάλι’, ὄφεις,</l>
+                <l n="2" xml:id="kock-0484-adelon_dramaton-33-l2" xml:lang="grc">περισκελίδας, ἐλλέβορον.</l>
+              </lg>
+              <note type="source">Clemens Alex. Paed. 2, 12, 123 λέγει γοῦν ὁ κωμικὸς Νικόστρατος κτλ. Pollux 5, 100 περισκελίδας· καὶ γὰρ τούτῳ τῷ ὀνόματι κέχρηνται Μένανδρος καὶ Νικόστρατος οἱ κωμῳδοδιδάσκαλοι. βουβάλια codices. Hesych. βουβάλιον· γυναικὸς κοσμάριον. cf. Aristoph. fr. 320. Diphil. 59.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="34" xml:id="kock-0484-adelon_dramaton-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-34-l1" xml:lang="grc">ῥήτορες</l>
+                <l n="2" xml:id="kock-0484-adelon_dramaton-34-l2" xml:lang="grc">ἐξωρμενικότες, δυσχερεῖς, παλιναίρετοι</l>
+              </lg>
+              <note type="source">Photius ὄρμενα· τὰ τῆς κράμβης . . . Νικοστράτῳ (Νικόστρατος Mein.) κτλ.</note>
+              <note type="apparatus">ῥήτορες ἐξωρμενικότες Porson.] ῥήτορι ἐξωρμενηκότες cod. παλιναίρετοι Mein.] πάλιν αἱρετοί. Bekker. Anecd. 38, 17 ἐξορμενίζειν· τὸ ἐξανθεῖν . . . ὄρμενα γὰρ καλεῖται ὑπὸ τῶν Ἀττικῶν τὰ τῶν λαχάνων ἐξανθήματα. cf. ibid. 24, 13. Eustath. 899, 15. Athen. 2, 62f Ἀττικοὶ δ’ εἰσὶν οἱ λέγοντες ὄρμενον τὸν ἀπὸ τῆς κράμβης ἐξηνθηκότα. Pollux 6, 54 πᾶν τὸ ὑπερεξηνθηκός, ὅπερ ἐκκεκαυληκὸς καλοῦσιν, ὄρμενον ὠνόμαζον. Photius ὅρμενον· τὸ ἄγριόν τι λάχανον κυρίως οὕτως καλούμενον· καταχρηστικῶς δὲ πᾶν τὸ ἐκκεκαυλικὸς παντὸς λαχάνου καὶ ἄνθους. Hesych. ἐξορμενίζεις· ἐκκεκαύληκας, ἐκκέχυσαι. Soph. fr. 294 N. κάξορμενίζει κοὐκ ἐπισχολάζεται βλάστη. — παλιναίρετα sunt quae electioni adversantur, quae nemo facile eligat, incommoda et odiosa. Ruhnken. Tim. 203. 4.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="42" xml:id="kock-0484-adelon_dramaton-42" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <p>
+                <hi rend="italic">στρῆνον</hi>
+              </p>
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-42-l1" xml:lang="grc">οἱ μὲν τὸ ὀξὺ καὶ τὸ ἀνατεταμένον. Νικόστρατος δὲ τὸ τραχὺ</l>
+                <l n="2" xml:id="kock-0484-adelon_dramaton-42-l2" xml:lang="grc">καὶ πρόσαντες τῇ ἀκοῇ φθέγμα.</l>
+              </lg>
+              <note type="source">Photius et Etym. m. 730, 21 στρηνόν.</note>
+              <note type="apparatus">indicavit H. Iacobi. musicum Nicostratum intellegit Stiehlius Philol. X 170.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="35" xml:id="kock-0484-adelon_dramaton-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-35-l1" xml:lang="grc">νὴ τὴν Ἀφροδίτην, ὦ ξένη,</l>
+                <l n="2" xml:id="kock-0484-adelon_dramaton-35-l2" xml:lang="grc">βλοσυράν γε τὴν ψυχὴν ἔχεις.</l>
+              </lg>
+              <note type="apparatus">Eustathius 677, 4 οἱ δὲ παλαιοὶ βλοσυρόν φασι καὶ τὸ σεμνόν, παρ' οἷς καὶ χρῆσις Νικοστράτου φέρεται αὕτη κτλ. ψυχὴν] τέχνην Cobet. N. 1. 74. 'lena erat ut suspicor'.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="36" xml:id="kock-0484-adelon_dramaton-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-36-l1" xml:lang="grc">εἰπέ μοι, τίνι</l>
+                <l n="2" xml:id="kock-0484-adelon_dramaton-36-l2" xml:lang="grc">• ἐδιακόνεις;</l>
+              </lg>
+              <note type="source">Νικόστρατος. Cramer. Anecd. Paris. IIII 114, 11. indicavit H. Iacobi.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="37" xml:id="kock-0484-adelon_dramaton-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <note type="apparatus">Bekker. Anecd. 342, 17 Suidas Ἀδράστεια, cod. Harpocrat. p. 6 Bekk. ἔνιοι μέντοι ὡς διαφέρουσαν συγκαταλέγουσιν αὐτὴν (τὴν Ἀδράστειαν) τῇ Νεμέσει, ὡς Μένανδρος καὶ Νικόστρατος. ὡς μὴ διαφέρουσαν Suid. cf. Lehrs Popul. Aufs. 57. 8.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="38" xml:id="kock-0484-adelon_dramaton-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-38-l1" xml:lang="grc">ζιγγοῦν</l>
+              </lg>
+              <note type="apparatus">τὸ ὑποπίνειν Κίλικες. οὕτως Νικόστρατος. Photius. Bekker. Anecd. 98, 6 ζιγοῦν ἀντὶ τοῦ πίνειν Κίλικες λέγουσιν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="39" xml:id="kock-0484-adelon_dramaton-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-39-l1" xml:lang="grc">στήριγμα</l>
+              </lg>
+              <note type="apparatus">τὸ ὑποτιθέμενον τῇ ἁμάξῃ δίκρουν. οὕτως Νικόστρατος. Photius. scribendum στήριγγα. Hesych. στήριγγες· ἐρείσματα· οἱ δὲ τὸ δίκρουν, ὅπερ ὑποτιθέασι τῷ τῆς ἁμάξης ζυγῷ. cf. Xen. Eq. 1, 5 τῶν κνημῶν τὰ ὀστᾶ ... ἐστι στήριγγες τοῦ σώματος. ac στήριγγα Plut. Mor. 280 e.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="40" xml:id="kock-0484-adelon_dramaton-40" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-40-l1" xml:lang="grc">Ταραντῖνον</l>
+              </lg>
+              <note type="apparatus">λεπτὸν καὶ διαφανὲς ἱμάτιον, οὐ πάντως πορφυροῦν, ὥς τινες ὑπέλαβον. οὕτως Νικόστρατος. Photius et Suidas, qui Ταραντινίδιον praebet. Hesych. Ταραντῖνον· ἱμάτιον γυναικεῖον λεπτόν, κρωσσοὺς (κροσσοὺς) ἔχον ἐκ τοῦ ἑνὸς μέρους.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="27" xml:id="kock-0484-adelon_dramaton-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-27-l1" xml:lang="grc">εἰ τὸ συνεχῶς καὶ πολλὰ καὶ ταχέως λαλεῖν</l>
+                <l n="2" xml:id="kock-0484-adelon_dramaton-27-l2" xml:lang="grc">ἦν τοῦ φρονεῖν παράσημον, αἱ χελιδόνες</l>
+                <l n="3" xml:id="kock-0484-adelon_dramaton-27-l3" xml:lang="grc">ἐλέγοντ’ ἂν ἡμῶν σωφρονέστεραι πολύ.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 36, 8 Νικοστράτου A. Boissonad. Anecd. I 114. Antonius Mel. 95, 157, ubi post εἰ inseritur ἐπί et v. 3 ἐλέγοντ’ ἂν ἡμῶν φρονιμώτεροι om. πολύ.</note>
+              <note type="apparatus">2. παράσημ/ A. 3. ἐγένοντ’ et ἐμφρονέστεραι Mein. V cxc.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="28" xml:id="kock-0484-adelon_dramaton-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-28-l1" xml:lang="grc">‘οὐκ ἔστιν ὅστις πάντ’ ἀνὴρ εὐδαιμονεῖ.’</l>
+                <l n="2" xml:id="kock-0484-adelon_dramaton-28-l2" xml:lang="grc">νὴ τὴν Ἀθηνᾶν συντόμως γε, φίλτατε</l>
+                <l n="3" xml:id="kock-0484-adelon_dramaton-28-l3" xml:lang="grc">Εὐριπίδη, τὸν βίον ἔθηκας εἰς στίχον.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. 105, 48 Νικοστράτου A. Arsen. Viol. 372.</note>
+              <note type="apparatus">2. γ’ ὦ φ. Bothius. — cf. Eurip. fr. 46. 662 N. Arist. Ran. 1217.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="29" xml:id="kock-0484-adelon_dramaton-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_adelon_dramaton">
+              <lg>
+                <l n="1" xml:id="kock-0484-adelon_dramaton-29-l1" xml:lang="grc">ἆρ’ οἶσθ’ ὅτι τῆς πενίας ὅπλον</l>
+                <l n="2" xml:id="kock-0484-adelon_dramaton-29-l2" xml:lang="grc">ἡ παρρησία; ταύτην ἐάν τις ἀπολέσῃ,</l>
+                <l n="3" xml:id="kock-0484-adelon_dramaton-29-l3" xml:lang="grc">τὴν ἀσπίδ’ ἀποβέβληκεν οὗτος τοῦ βίου.</l>
+              </lg>
+              <note type="source">Stobaei App. Flor. 21, 24 (p. 29 Gaisf.).</note>
+              <note type="apparatus">1. ὅπλον ἐστὶν ἡ | παρρ. Mein. in Stob. ἆρ’ οἶσθ’ ὅτι | πενίας ὅπλον μέγιστον ἡ παρρησία; | ταύτην — ἀπολέσῃ, τί ἄλλο γ’ ἢ κτλ. Mein. Stob. praef. XXXII. ἆρ’ οἶσθ’ ὅτι τῆς π. ὅπλον παρρησία | ἄριστόν ἐστιν; ἣν ἐάν τις κτλ. Herwerd. Nov. add. crit. 26. ac talia excogitari possunt sexcenta.</note>
+            </div>
+          </div></body></text></TEI>

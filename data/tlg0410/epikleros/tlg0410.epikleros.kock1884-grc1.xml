@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΕΠΙΚΛΗΡΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.epikleros.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.epikleros.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.epikleros.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_epikleros"><head>ΕΠΙΚΛΗΡΟΣ</head><div type="textpart" subtype="fragment" n="94" xml:id="kock-0410-epikleros-94" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_epikleros">
+              <lg>
+                <l n="1" xml:id="kock-0410-epikleros-94-l1" xml:lang="grc">ὦ γῆρας, ὡς ἅπασιν ἀνθρώποισιν εἶ</l>
+                <l n="2" xml:id="kock-0410-epikleros-94-l2" xml:lang="grc">ποθεινόν, ὡς εὔδαιμον, εἶθ’ ὅταν παρῇς</l>
+                <l n="3" xml:id="kock-0410-epikleros-94-l3" xml:lang="grc">ἀχθηρόν, ὡς μοχθηρόν, εὖ λέγει τέ σε</l>
+                <l n="4" xml:id="kock-0410-epikleros-94-l4" xml:lang="grc">οὐδείς, κακῶς δὲ πᾶς τις ὃς σοφῶς λέγει.</l>
+              </lg>
+              <note type="source">
+                <p>Stobaeus Floril. 116, 23 Ἀντιφάνους ἐξ Ἐπικλήρου Α.</p>
+              </note>
+              <note type="apparatus">
+                <p>4. δὲ om. et σοφὸς A Vind. et Meinek. in Stob. — πᾶς τις, οὐ σοφῶς Nauck. Intell. z. allg. Lit.z. 1847 p. 489.</p>
+                <p>in v. 3 vocabulum relictum est ab editoribus, quod neque usquam reperiatur et totam sententiam pervertat, ἀχθηρόν. scribendum cum Bothio ἤχθηραν ὡς μοχθηρόν. cf. Arist. Ran. 1425. Cratin. 317. aoristus est consuetudinis, frequentissimus apud omnes Atticos. praeterea in v. 1 fortasse ὡς ἀπὸν μὲν ἀνθρ. κτλ. ceterum cf. fr. 238.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

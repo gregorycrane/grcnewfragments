@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>DIPHILUS, ΑΜΦΙΣΒΗΤΗΣΙΜΑ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Diphilus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.amphisbetesima.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0447.amphisbetesima.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0447.amphisbetesima.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_amphisbetesima"><head>ΑΜΦΙΣΒΗΤΗΣΙΜΑ</head><div type="textpart" subtype="fragment" n="136" xml:id="kock-0447-amphisbetesima-136" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_amphisbetesima">
+              <lg>
+                <l n="1" xml:id="kock-0447-amphisbetesima-136-l1" xml:lang="grc">κόρης ἀπαλλαττόμεθα ταμιείου πικροῦ.</l>
+              </lg>
+              <note type="source">
+                <p>Stobaeus Floril. 77, 8 Διφίλου A. sed cf. Anaxandrid. 78.</p>
+              </note>
+              <note type="apparatus">
+                <p>non credo in comparationem nequaquam ex trivio petitam utrumque pariter incidisse.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="137" xml:id="kock-0447-amphisbetesima-137" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_amphisbetesima">
+              <note type="source">
+                <p>Etym. m. 127 init. ἀπολιβάξω· ἀπέλθω . . . ἢ εἰς τὴν Λιβύην ἀπελεύσῃ. ὅμοιον τὸ εἰς κόρακας, ἀντὶ τοῦ ἐν ἀγνοίᾳ. ‘fortasse legendum ἀντὶ τοῦ ἐς φθόρον· Δίφιλος ἐν Ἀγνοίᾳ.’ Mein. I 450.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="138" xml:id="kock-0447-amphisbetesima-138" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_amphisbetesima">
+              <note type="source">
+                <p>Clemens Alex. Strom. 5, 14, 133 ὁ κωμικὸς Δίφιλος γνωμικώτατα τὸν ὄντα πάντων, φησί, πατέρα τοῦτον διὰ τέλους τίμα μόνον, ἀγαθῶν τοσούτων εὑρετὴν καὶ κτίστορα. ‘Eusebius P. E. XIII p. 404 Steph., ubi priora ita scripta sunt: ὁ κωμικὸς Δίφιλος γεννικώτατον ὄντα πάντων κτλ. plenius haec leguntur et ex Menandri Diphilo (sic) citantur apud Iustinum Mart. De monarch. 41 c</p>
+              </note>
+              <lg>
+                <l n="1" xml:id="kock-0447-amphisbetesima-138-l1" xml:lang="grc">διότι τὸν ὄντα κύριον πάντων ἀεὶ</l>
+                <l n="2" xml:id="kock-0447-amphisbetesima-138-l2" xml:lang="grc">καὶ πατέρα τοῦτον διὰ τέλους τιμᾶν μόνον,</l>
+                <l n="3" xml:id="kock-0447-amphisbetesima-138-l3" xml:lang="grc">ἀγαθῶν τοσούτων εὑρετὴν καὶ κτίστορα.’</l>
+              </lg>
+              <note type="apparatus">
+                <p>Mein. — Christiani alicuius sunt hominis.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

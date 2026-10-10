@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIPHANES, ΣΤΡΑΤΙΩΤΗΣ Η ΤΥΧΩΝ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.stratiotes_e_tychon.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.stratiotes_e_tychon.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.stratiotes_e_tychon.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_stratiotes_e_tychon"><head>ΣΤΡΑΤΙΩΤΗΣ Η ΤΥΧΩΝ</head><div type="textpart" subtype="fragment" n="202" xml:id="kock-0410-stratiotes_e_tychon-202" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_stratiotes_e_tychon">
+              <lg>
+                <l n="1" xml:id="kock-0410-stratiotes_e_tychon-202-l1" xml:lang="grc">. . ἐν Κύπρῳ φής, εἰπέ μοι, διήγετε</l>
+                <l n="2" xml:id="kock-0410-stratiotes_e_tychon-202-l2" xml:lang="grc">πολὺν χρόνον; Β. τὸν πάνθ᾽ ἕως ἦν ὁ πόλεμος.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="202_2" xml:id="kock-0410-stratiotes_e_tychon-202_2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_stratiotes_e_tychon">
+              <lg>
+                <l n="1" xml:id="kock-0410-stratiotes_e_tychon-202_2-l1" xml:lang="grc">Α. ἐν τίνι τόπῳ μάλιστα; λέγε γάρ. Β. ἐν Πάφῳ.</l>
+                <l n="2" xml:id="kock-0410-stratiotes_e_tychon-202_2-l2" xml:lang="grc">οὗ πρᾶγμα τρυφερὸν διαφερόντως ἦν ἰδεῖν</l>
+                <l n="5" xml:id="kock-0410-stratiotes_e_tychon-202_2-l5" xml:lang="grc">ἄλλως τ᾽ ἄπιστον. Α. ποῖον; Β. ἐρριπίζετο</l>
+                <l n="6" xml:id="kock-0410-stratiotes_e_tychon-202_2-l6" xml:lang="grc">ὑπὸ τῶν περιστερῶν, ὑπ᾽ ἄλλου δ᾽ οὐδενός,</l>
+                <l n="7" xml:id="kock-0410-stratiotes_e_tychon-202_2-l7" xml:lang="grc">δειπνῶν ὁ βασιλεύς. Α πῶς; ἐάσας τἄλλα γὰρ</l>
+                <l n="8" xml:id="kock-0410-stratiotes_e_tychon-202_2-l8" xml:lang="grc">ἐρήσομαί σε τοῦθ᾽. Β. ὅπως; ἠλείφετο</l>
+                <l n="9" xml:id="kock-0410-stratiotes_e_tychon-202_2-l9" xml:lang="grc">ἐκ τῆς Συρίας ἥκοντι τοιούτῳ μύρῳ</l>
+                <l n="10" xml:id="kock-0410-stratiotes_e_tychon-202_2-l10" xml:lang="grc">καρποῦ σύχν᾽ οἷόν φασι τὰς περιστερὰς</l>
+                <l n="11" xml:id="kock-0410-stratiotes_e_tychon-202_2-l11" xml:lang="grc">τρώγειν. διὰ τὴν ὀσμὴν δὲ τούτου πετόμεναι</l>
+                <l n="12" xml:id="kock-0410-stratiotes_e_tychon-202_2-l12" xml:lang="grc">παρῆσαν, οἷαί τ᾽ ἦσαν ἐπικαθιζάνειν</l>
+                <l n="13" xml:id="kock-0410-stratiotes_e_tychon-202_2-l13" xml:lang="grc">ἐπὶ τὴν κεφαλήν· παῖδες δὲ παρακαθήμενοι</l>
+                <l n="14" xml:id="kock-0410-stratiotes_e_tychon-202_2-l14" xml:lang="grc">ἐσόβουν. ἀπαίρουσαι δὲ μικρόν, οὐ πολύ,</l>
+                <l n="15" xml:id="kock-0410-stratiotes_e_tychon-202_2-l15" xml:lang="grc">τοῦ μήτ᾽ ἐκεῖσε μήτε δεῦρο παντελῶς,</l>
+                <l n="16" xml:id="kock-0410-stratiotes_e_tychon-202_2-l16" xml:lang="grc">οὕτως ἀνερρίπιζον, ὥστε σύμμετρον</l>
+                <l n="17" xml:id="kock-0410-stratiotes_e_tychon-202_2-l17" xml:lang="grc">αὐτῷ τὸ πνεῦμα, μὴ περίσκληρον, ποιεῖν.</l>
+              </lg>
+              <note type="source">Athenaeus 6, 257 d Ἀντιφάνης ὁ κωμῳδιοποιὸς ἐν Στρατιώτη τὰ ὅμοια λέγει περὶ τῆς τῶν ἐν Κύπρῳ βασιλέων τρυφῆς. ποιεῖ δέ τινα ἀναπυνθανόμενον στρατιώτου τάδε κτλ. et 258 b οὐκ ἂν διαμάρτοι τις τὸν τοῦ μειρακίου τούτου τοῦ Κυπρίου βίον ὑγρὸν ὀνομάζων.</note>
+              <note type="apparatus">1. ἐν τῇ Κ. Dindorf. quidni ἀλλ᾽ ἐν? 5. ἄλλως τ᾽ Dindf.] ἄλλως γ᾽ Α. 6. δὲ Α. 7. τἄλλα Β] τἀμὰ Α. 8. τοῦθ᾽· Β. ὅπως; Cobet. N. 1. 16] τοῦτο· πῶς; 10. σύχν᾽ οἷον Porson.] συχνοῦ ὃν Α. σύχν᾽ οὗπερ Dobr. scr. σύχν᾽ οἴου et v. 9 τοιούτου. 14. ἀπαίρουσαι Herwerd. Mnem. nov. VI 65] ἐπαίρουσαι Α. praeterea v. 12 scribo ἰταμαί τ᾽ ἦσαν ἐπικ. cf. Alexid. 105, 3. 234, 5. 246, 4. de genetivo v. 15 Meinekius confert Heindorf. Plat. Gorg. 457 e. quamquam quae ille adfert exempla huic versui non omnia conveniunt.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="203" xml:id="kock-0410-stratiotes_e_tychon-203" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_stratiotes_e_tychon">
+              <lg>
+                <l n="1" xml:id="kock-0410-stratiotes_e_tychon-203-l1" xml:lang="grc">ἐκ τῶν μαγειρείων βαδίζων ἐμβαλών</l>
+                <l n="2" xml:id="kock-0410-stratiotes_e_tychon-203-l2" xml:lang="grc">εἰς τοὔψον.</l>
+              </lg>
+              <note type="source">Pollux 9, 48 καὶ μαγειρεῖα... ὁ τόπος, ὅθεν μισθοῦνται τοὺς μαγείρους, ὡς Ἀντιφάνης ἐν Στρατιώτῃ ὑποδηλοῦν ἔοικεν κτλ.</note>
+              <note type="apparatus">ἐμβαλὼν] fort. ἐνέβαλον.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="204" xml:id="kock-0410-stratiotes_e_tychon-204" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_stratiotes_e_tychon">
+              <lg>
+                <l n="1" xml:id="kock-0410-stratiotes_e_tychon-204-l1" xml:lang="grc">ὅστις ἄνθρωπος δὲ φὺς</l>
+                <l n="2" xml:id="kock-0410-stratiotes_e_tychon-204-l2" xml:lang="grc">ἀσφαλές τι κτῆμ᾽ ὑπάρχειν τῷ βίῳ λογίζεται,</l>
+                <l n="3" xml:id="kock-0410-stratiotes_e_tychon-204-l3" xml:lang="grc">πλεῖστον ἡμάρτηκεν· ἢ γὰρ εἰσφορά τις ἥρπακεν</l>
+              </lg>
+              <pb n="99" facs="urn:hathi:hvd.hxijve:scan:105"/>
+              <lg>
+                <l n="4" xml:id="kock-0410-stratiotes_e_tychon-204-l4" xml:lang="grc">τἄνδοθεν πάντ᾽, ἢ δίκη τις περιπεσὼν ἀπώλετο,</l>
+                <l n="5" xml:id="kock-0410-stratiotes_e_tychon-204-l5" xml:lang="grc">ἢ στρατηγήσας προσῶφλεν, ἢ χορηγὸς αἱρεθεὶς</l>
+                <l n="6" xml:id="kock-0410-stratiotes_e_tychon-204-l6" xml:lang="grc">ἱμάτια χρυσᾶ παρασχὼν τῷ χορῷ ῥάκος φορεῖ,</l>
+                <l n="7" xml:id="kock-0410-stratiotes_e_tychon-204-l7" xml:lang="grc">ἢ τριηραρχῶν ἀπήγξατ᾽, ἢ πλέων ἥλωκέ ποι,</l>
+                <l n="8" xml:id="kock-0410-stratiotes_e_tychon-204-l8" xml:lang="grc">ἢ βαδίζων ἢ καθεύδων κατακέκοφθ᾽ ὑπ᾽ οἰκετῶν.</l>
+                <l n="9" xml:id="kock-0410-stratiotes_e_tychon-204-l9" xml:lang="grc">οὐ βέβαιον οὐδέν ἐστι, πλὴν ὅσ᾽ ἂν καθ᾽ ἡμέραν</l>
+                <l n="10" xml:id="kock-0410-stratiotes_e_tychon-204-l10" xml:lang="grc">εἰς ἑαυτὸν ἡδέως τις εἰσαναλίσκων τύχῃ.</l>
+                <l n="11" xml:id="kock-0410-stratiotes_e_tychon-204-l11" xml:lang="grc">οὐδὲ ταῦτα σφόδρα τι· καὶ γὰρ τὴν τράπεζαν ἁρπάσαι</l>
+                <l n="12" xml:id="kock-0410-stratiotes_e_tychon-204-l12" xml:lang="grc">κειμένην ἄν τις προσελθών· ἀλλ᾽ ὅταν τὴν ἔνθεσιν</l>
+                <l n="13" xml:id="kock-0410-stratiotes_e_tychon-204-l13" xml:lang="grc">ἐντὸς ἤδη τῶν ὀδόντων τυγχάνῃς κατεσπακώς,</l>
+                <l n="14" xml:id="kock-0410-stratiotes_e_tychon-204-l14" xml:lang="grc">τοῦτ᾽ ἐν ἀσφαλεῖ νόμιζε τῶν ὑπαρχόντων μόνον.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 103 e καὶ παρ᾽ Ἀντιφάνει ἐν Στρατιώτῃ ἢ (ἢ om. A) Τύχωνι παραινέσεις εἰσφέρων ἄνθρωπος τοιοῦτός ἐστιν, ὃς φησιν κτλ.</note>
+              <note type="apparatus">1. δὲ φὺς] γεγώς Valck. Eurip. Phoen. 1282. 5. ἢ χορηγὸς Casaub.] χορηγὸς A. 6. χρυσᾶ Grot. Excerpt. 627] καὶ χρυσια A. ῥάκκος A. 9. οὐθέν A. 10. εἰσαναλίσκων Casaub.] εἰσαναλίσκειν A. τύχη Pors.] τύχοι A. 11. οὐδὲ] κοὐδὲ? 13. τυγχάνῃς C] τυγχάνῃ A. 3. de perfecto consuetudinis, quod rarius quidem est aoristo, sed nequaquam inusitatum, cf. quae adnotavi ad Arist. Eq. 718. Anaxandr. 34. Alexid. 257. Theophil. 4. et infra v. 7. 8. 7. ἀπήγξατο ‘propter sumptuum magnitudinem, qui totum saepe patrimonium funditus evertebant’. Casaub. ποι coniungendum cum participio πλέων, ἥλωκε, a praedonibus videlicet. 8. βαδίζων, in itinere, ut πλέων in navigatione. cum v. 13. 14 cf. Amphid. 8. Athen. 11, 478 e πολλὰ μεταξὺ πέλει κοτύλης καὶ χείλεος ἄκρου. Cato cens. Gell. 13, 17 saepe audivi inter os atque offam multa intervenire posse; verumvero inter offam atque herbam, ibi vero longum intervallum est. 14. Eurip. Hec. 981 ἐν ἀσφαλεῖ γὰρ ἥδ᾽ ἐρημία. Hippol. 785 τὸ πολλὰ πράσσειν οὐκ ἐν ἀσφαλεῖ βίου contulit Valck. addo Iph. T. 762 ἐν ἀσφαλεῖ γάρ. Heracl. 397 ἐν ἀσφαλεῖ τε τῆσδ᾽ ἱδρύσεται χθονός. nusquam sic in eis quae exstant fabulis Aeschylus aut Sophocles, neque vero comici praeter hunc versum, non tamen cum Hirschigio (Ann. crit. 3) temptandum. Demosth. 19, 152. 262 contulit Cobetus Mnem. VII 66. 7. semel quod sciam Plat. Leg. 10, 892 e.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="205" xml:id="kock-0410-stratiotes_e_tychon-205" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_stratiotes_e_tychon">
+              <lg>
+                <l n="1" xml:id="kock-0410-stratiotes_e_tychon-205-l1" xml:lang="grc">τῶν ταὧν μὲν ὡς ἅπαξ τις ζεῦγος ἤγαγεν μόνον,</l>
+                <l n="2" xml:id="kock-0410-stratiotes_e_tychon-205-l2" xml:lang="grc">σπάνιον ὂν τὸ χρῆμα, πλείους εἰσὶ νῦν τῶν ὀρτύγων·</l>
+                <l n="3" xml:id="kock-0410-stratiotes_e_tychon-205-l3" xml:lang="grc">χρηστὸν ἄνθρωπον δ᾽ ἐάν τις ἕνα μόνον ζητῶν ἴδῃ,</l>
+                <l n="4" xml:id="kock-0410-stratiotes_e_tychon-205-l4" xml:lang="grc">ὄψετ᾽ ἐκ τούτου πονηροὺς πέντε παῖδας γεγονότας.</l>
+              </lg>
+            </div>
+            </div></body></text></TEI>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>EUBULUS, ΚΥΒΕΥΤΑΙ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.kybeytai.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.kybeytai.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.kybeytai.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kybeytai"><head>ΚΥΒΕΥΤΑΙ</head><div type="textpart" subtype="fragment" n="56" xml:id="kock-0458-kybeytai-56" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kybeytai">
+              <lg>
+                <l n="1" xml:id="kock-0458-kybeytai-56-l1" xml:lang="grc">ἄρτι μὲν μάλ' ἀνδρικὴν</l>
+                <l n="2" xml:id="kock-0458-kybeytai-56-l2" xml:lang="grc">τῶν θηρικλείων ὑπεραφρίζουσαν παρά,</l>
+                <l n="3" xml:id="kock-0458-kybeytai-56-l3" xml:lang="grc">κωθωνόχειλον, ψηφοπεριβομβήτριαν,</l>
+                <l n="4" xml:id="kock-0458-kybeytai-56-l4" xml:lang="grc">μέλαιναν, εὐκύκλωτον, ὀξυπύνδακα,</l>
+                <l n="5" xml:id="kock-0458-kybeytai-56-l5" xml:lang="grc">στίλβουσαν, ἀνταυγοῦσαν, ἐκνενιμμένην,</l>
+                <l n="6" xml:id="kock-0458-kybeytai-56-l6" xml:lang="grc">κισσῷ κάρα βρύουσαν, ἐπικαλούμενοι</l>
+                <l n="7" xml:id="kock-0458-kybeytai-56-l7" xml:lang="grc">εἶλκον Διὸς σωτῆρος.</l>
+              </lg>
+              <note type="source">Athenaeus 11, 471 d Εὔβουλος . . . ἐν Κυβευταῖς κτλ.</note>
+              <note type="apparatus">
+                <p>1. μάλ' ἀνδρικὴν C et epit. Hoesch.] μαλαν αν δρικην Α. 2. παρα Α. πάνυ Dobr. Adv. II 331. πέριξ Ahlwardt. Seebod. Bibl. crit. 1821, n. 5. κάρα Mein. πάτερ Herwerd. Obs. crit. 66. 7. 3. κωθωνόχειλον Ahlwardt] κωθωνοχειρον Α. 4. ὀξυπύνδακα Schweigh.] ὀξυπινδακα Α. 6. κάρα βρύουσαν Porson. conl. Soph. O. C. 473] καταβρύουσαν Α. κισσοῖσι καταβρύουσαν Mein. Anal. Ath. 217. ἐπικαλούμενοι Α] ἐπικαλούμενος C et Hoesch.</p>
+                <p>2. ὑπεραφρίζουσαν κάρα 'poculum super oram spumans' Mein. mihi scribendum videtur χαρᾷ conl. 109. Alexid. 119. Aristophont. 14. potatoris enim laetitia poculo tribuitur. 3. χείλη 'sunt ὀφρυώδεις ἐπαναστάσεις sive ἄμβωνες, quos in cothone commemorat Critias Plut. Lycurg. 9. Athen. 11, 483 b. Pollux 6, 97'. Mein. ψηφοπεριβομβήτριαν 'subindicat quandam similitudinem, quam poculum illud cum clepsydra habebat, in quam demissi calculi iudiciales argutum sonum efficiebant'. Mein. quae interpretatio frigidissimas argutias poetae obtrudit. fortasse scripsit γριφοπεριβ., quia inter potum griphi proponebantur. 4. an εὐρυπύνδακα? 6. κισσῷ hic non temptandum propter orationem elatiorem. ceterum cf. Archestr. Athen. 1, 29 b ὅταν πλήρωμα Διὸς σωτῆρος ἕλησθε, ἤδη χρὴ γεραόν, πολιὸν σφόδρα κρᾶτα φοροῦντα οἶνον ὑγρὰν χαίταν λευκῷ πεπυκασμένον ἄνθει πίνειν, et Antiph. 4.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="57" xml:id="kock-0458-kybeytai-57" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kybeytai">
+              <lg>
+                <l n="1" xml:id="kock-0458-kybeytai-57-l1" xml:lang="grc">κεντρωτός, ἱερός, ἅρμ' ὑπερβάλλον πόδας,</l>
+                <l n="2" xml:id="kock-0458-kybeytai-57-l2" xml:lang="grc">κήρυνος, εὐδαίμων, κυνῶτες, ἄρτια,</l>
+                <l n="3" xml:id="kock-0458-kybeytai-57-l3" xml:lang="grc">Λάκωνες, ἀντίτευχος, Ἀργεῖος, δάκνων,</l>
+                <l n="4" xml:id="kock-0458-kybeytai-57-l4" xml:lang="grc">Τιμόκριτος, ἐλλείπων, πυαλίτης, ἐπίθετος,</l>
+                <l n="5" xml:id="kock-0458-kybeytai-57-l5" xml:lang="grc">σφάλλων, ἀγύρτης, οἶστρος, ἀνακάμπτων, δορεύς,</l>
+                <l n="6" xml:id="kock-0458-kybeytai-57-l6" xml:lang="grc">λάμπων, Κύκλωπες, ἐπιφέρων, Σόλων, Σίμων.</l>
+              </lg>
+              <note type="source">Pollux 7, 205 καὶ ἄλλοι δὲ πολλοί εἰσιν (βόλοι), οὓς ὀνομάζει</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="1" xml:id="kock-0458-kybeytai-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kybeytai">
+              <note type="apparatus">1. ἅρμ᾽ ὑπερβάλλον πόδας Bentleius Epist. Mill. 486 Lips. dictum existimat ut πεζὸς ὁδεύων παρὰ Λύδιον ἅρμα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="kock-0458-kybeytai-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kybeytai">
+              <note type="apparatus">2. Photius (attulit Nauck Philol. VI 417) κάρυννος· βόλων ὀνόματα (βόλου ὄνομα). Cramer. Anecd. Ox. II 21, 22 κυνωτός· βώλου ὄνος (βόλου ὄνομα Mein.). κυνώτας Lobeck. Pathol. prol. 263 n. 24. Hesych. ἄρτος· βόλος τις. verum erit ἄρτιος.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" xml:id="kock-0458-kybeytai-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kybeytai">
+              <note type="apparatus">3. Phot. Λάκωνες· κυβευτικοῦ βόλου ὄνομα. Hesych. Ἀργεῖος (ἀργείης cod.)· κυβευτικοῦ βόλου ὄνομα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0458-kybeytai-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kybeytai">
+              <note type="apparatus">4. πυαλίτης, attice πυελίτης. Lob. Phryn. 309. sed multa in his nominibus insunt dorismi vestigia.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" xml:id="kock-0458-kybeytai-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kybeytai">
+              <note type="apparatus">5. pro σφάλλων fort. scribendum σχαδών. Hesych. σχαδών· κυβευτικὸς βόλος. Hesych. et Etym. m. ἀγύρτης· καὶ ὄνομα βόλου κυβευτικοῦ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" xml:id="kock-0458-kybeytai-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kybeytai">
+              <note type="apparatus">6. Simon Meinekio nomen accepisse videtur a Simone illo famosissimo veteratore, de quo Zenob. 5, 41. Diogen. 7, 26. fueritne idem cum eo quem inriserunt Arist. Nub. 351. 399, Eupol. 218 nescio. — plurimorum nominum rationes explicari vix poterunt.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="58" xml:id="kock-0458-kybeytai-58" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kybeytai">
+              <note type="source">Proverbia Bodlei. 642 (Append. proverb. Leutsch. 3, 98)</note>
+              <note type="apparatus">
+                <quote>Μίδας ἐν κύβοις εὐβολώτατος· βόλου ὄνομα ὁ Μίδας, οὗ καὶ Εὔβουλος ἐν Κυβευταῖς μέμνηται.</quote> ‘priora si Eubuli sunt, senarium facile restituas, <quote>Μίδας μὲν ἐν κύβοισιν εὐβολώτατος.</quote>’ Mein. dissentit Pollux 7, 204 <quote>τῶν μὲν φαύλων καὶ δυσβόλων ... Μίδας, Μάνης.</quote> 205 <quote>ὁ μέντοι Μίδας καὶ τῶν μέσων βόλων ἦν.</quote> Midas rex non magis dives fuit quam stolidus: quocirca non facile est diiudicare.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="59" xml:id="kock-0458-kybeytai-59" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_kybeytai">
+              <note type="source">Hesychius</note>
+              <note type="apparatus">
+                <quote>Μάνης· κυβευτικοῦ βόλου ὄνομα ... καθάπερ Εὔβουλος ἐν Κυβευταῖς παρίστησι, καὶ ἄλλων καταλέγων ὀνόματα βόλων</quote> (καταλεγομένων βόλ. cod., emend. Musurus). cf. Arist. Ran. 965 cum eis quae adnotavit Fritzschius. Aliam quoque Hesychii glossam <quote>Ξανθιμίας</quote> (Ξανθίας Mein.)· <quote>βόλου ὄνομα</quote> ad hanc comoediam pertinere censet Meinekius.</note>
+            </div>
+          </div></body></text></TEI>

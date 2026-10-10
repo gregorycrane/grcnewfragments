@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title>ANTIDOTUS, ΤΥΡΡΗΝΟΣ: fragments</title><title type="sub">Kock 1884: OCR-derived diplomatic TEI transcription</title><author>Antidotus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1884</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor02kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijve">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0409.tyrrenos.kock1884-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0409.tyrrenos.kock1884-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0409.tyrrenos.kock1884-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0409_tyrrenos"><head>ΤΥΡΡΗΝΟΣ</head><div type="textpart" subtype="fragment" n="3" xml:id="kock-0409-tyrrenos-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0409_tyrrenos">
+              <lg>
+                <l n="1" xml:id="kock-0409-tyrrenos-3-l1" xml:lang="grc">λαβόντα θερμοὺς ἐσχαρίτας, πῶς γὰρ οὔ;</l>
+                <l n="2" xml:id="kock-0409-tyrrenos-3-l2" xml:lang="grc">τούτους ἀνειλίττοντα βάπτειν εἰς γλυκύν.</l>
+              </lg>
+              <note type="source">Athenaeus 3, 109 c ἐσχαρίτην. τούτου μνημονεύει Ἀντίδοτος ἐν Πρωτοχόρῳ κτλ.</note>
+              <note type="apparatus">Πρωτοχόρῳ Schweigh.] πρωτόχρωι A. — cf. Aristoph. fr. 125. Crobyl. 2. cum ἀνειλίττειν sit evolvere, adparet τοὺς ἐσχαρίτας coqui solitos fuisse convolutos, qualia placentarum genera nos quoque habemus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" xml:id="kock-0409-tyrrenos-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0409_tyrrenos">
+              <lg>
+                <l n="1" xml:id="kock-0409-tyrrenos-4-l1" xml:lang="grc">Θάσιον ἔγχει . .</l>
+                <l n="2" xml:id="kock-0409-tyrrenos-4-l2" xml:lang="grc">ὁ γὰρ λαβών μου καταφάγῃ τὴν καρδίαν,</l>
+                <l n="3" xml:id="kock-0409-tyrrenos-4-l3" xml:lang="grc">ὅταν πίω τοῦτ᾽, εὐθὺς ὑγιὴς γίνεται.</l>
+                <l n="4" xml:id="kock-0409-tyrrenos-4-l4" xml:lang="grc">Ἀσκληπιὸς κατέβρεξεν.</l>
+              </lg>
+              <note type="source">Athenaeus 1, 28 e Χίου δὲ οἴνου καὶ Θασίου μέμνηται . . . Ἀντίδοτος κτλ.</note>
+              <note type="apparatus">2. ὃ γὰρ ἂν Iacobs. Add. Ath. 24. λαβόν Schweigh. καταφάγῃ Iacobs.] καταφάγει C. καταφαγεῖν Corsel. 3. γίνεται C] γίνομαι Corsel. Ἀντίδοτος Kidd. Porson. Miscell. 390] ἀντίδοτον. — scrib. (καὶ) Θάσιον ἔγχει (λαβών)· ὃ γὰρ ἂν δάκνον μου καταφάγῃ τὴν καρδίαν, ὅταν πίω τοῦδ᾽, εὐθὺς ὑγιὴς γίνεται (ἡ καρδία). τοῦδε, non τοῦτο, quia Θάσιος, non Θάσιον dicitur vinum Thasium. 4. eam vim, ut aegros sanaret, Aesculapius viti Thasiae adspersit.</note>
+            </div>
+            </div></body></text></TEI>
