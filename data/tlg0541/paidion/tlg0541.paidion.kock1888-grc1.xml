@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΠΑΙΔΙΟΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.paidion.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.paidion.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.paidion.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+        <head>ΠΑΙΔΙΟΝ</head>
+        <div type="textpart" subtype="fragment" n="370" xml:id="kock-0541-paidion-370" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+          <lg>
+            <l n="1" xml:id="kock-0541-paidion-370-l1" xml:lang="grc">ἂν πάντα δουλεύειν ὁ δοῦλος μανθάνῃ,</l>
+            <l n="2" xml:id="kock-0541-paidion-370-l2" xml:lang="grc">πονηρὸς ἔσται· μεταδίδου παρρησίας,</l>
+            <l n="3" xml:id="kock-0541-paidion-370-l3" xml:lang="grc">βελτίον' αὐτὸν τοῦτο ποιήσει πολύ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 62, 27 Μενάνδρου Παιδίου Gesn. 'nihil enotatum ex A'. Gaisf. om. B. v. 1. 2 Philon. I 473 (attulit Grotius) (θαυμάσιος δὲ ἀρετὴ) ἡ ἐν δέοντι παρρησία, ὡς καὶ κωμικὸν ἀψευδῶς μᾶλλον ἢ κωμικῶς εἰρῆσθαι δοκεῖν 'ἂν πάνθ' ὁ δοῦλος ἡσυχάζων(-ειν) μανθάνῃ' κτλ.</note>
+          <note type="apparatus">ἂν πάντα — μανθάνῃ Philo] ἅπαντα (εἰ πάντα Gesn.) — μανθάνει. βελτίον' Iacobs. Lect. Stob. 102] βέλτιστον. cf. Cobet. N. 1. 80.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="371" xml:id="kock-0541-paidion-371" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+          <lg>
+            <l n="1" xml:id="kock-0541-paidion-371-l1" xml:lang="grc">Ἐφέσια τοῖς γαμοῦσιν οὗτος περιπατεῖ</l>
+            <l n="2" xml:id="kock-0541-paidion-371-l2" xml:lang="grc">λέγων ἀλεξιφάρμακα.</l>
+          </lg>
+          <note type="source">Suidas ἀλεξιφάρμακα· ἀλεξητήρια φαρμάκων. Μένανδρος Παιδίῳ κτλ.</note>
+          <note type="apparatus">cf. Anaxil. 18, 7. Plut. Mor. 706 e οἱ μάγοι τοὺς δαιμονιζομένους κελεύουσι τὰ Ἐφέσια γράμματα πρὸς αὐτοὺς καταλέγειν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="372" xml:id="kock-0541-paidion-372" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+          <lg>
+            <l n="1" xml:id="kock-0541-paidion-372-l1" xml:lang="grc">ἁλύσιον</l>
+            <l n="2" xml:id="kock-0541-paidion-372-l2" xml:lang="grc">χρυσοῦν ἐπόρισας. εἴθε λιθοκόλλητον ἦν·</l>
+            <l n="3" xml:id="kock-0541-paidion-372-l3" xml:lang="grc">καλὸν ἦν ἂν οὕτως.</l>
+          </lg>
+          <note type="source">Pollux 10, 187 ἐν τῷ Μενάνδρου Παιδίῳ χρυσοῦν κτλ.</note>
+          <note type="apparatus">1. ἁλύσιον add. Mein. ex Alciphr. 3, 3, 4 τὸ χρυσοῦν ἁλύσιον, ὅπερ ποτὲ εὐπορῶν τῇ γαμετῇ κόσμον εἶναι περιαυχένιον ἐπεπορίκειν. meretricis verba munus oblatum fastidientis. haud longe aberant a fr. 373. cf. etiam 957.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="373" xml:id="kock-0541-paidion-373" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+          <lg>
+            <l n="1" xml:id="kock-0541-paidion-373-l1" xml:lang="grc">μάραγδον εἶναι ταῦτ’ ἔδει καὶ σάρδια.</l>
+          </lg>
+          <note type="source">Athenaeus 3, 94 b μαράγδων μνημονεύει Μένανδρος ἐν Παιδίῳ (πεδίῳ Α) κτλ.</note>
+          <note type="apparatus">ἄνευ δὲ τοῦ σ λεκτέον παρὰ γὰρ τὸ μαρμαίρειν ὠνόμασται. Eustath. 842, 53 καὶ τὸ σμάραγδος μάραγδος. οἷον κτλ. 853, 50 ὁ παρὰ Μενάνδρῳ δίχα τοῦ σ μάραγδος. σάρδια, ut Aristoph. fr. 320, 13. cf. Philemonis Σάρδιος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="374" xml:id="kock-0541-paidion-374" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+          <lg>
+            <l n="1" xml:id="kock-0541-paidion-374-l1" xml:lang="grc">εἴ τις δικαστὴς ἢ διαιτητὴς θεῶν —</l>
+          </lg>
+          <note type="source">Ammonius 41 δικαστὴς καὶ διαιτητὴς διαφέρει . . . Μένανδρος ἐν Παιδίῳ (παίδῳ cod.) κτλ.</note>
+          <note type="apparatus">sine fabulae indicio Etymol. Gud. 146, 14. ἤ τις δικ. Pierson. Moer. 134 init. sed in tanta eclogae tenuitate nihil certum est.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="375" xml:id="kock-0541-paidion-375" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+          <lg>
+            <l n="1" xml:id="kock-0541-paidion-375-l1" xml:lang="grc">ἐνταῦθ’ ἀπόστα μικρόν.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 436, 14 et Suidas ἀπόστα· οὐ μόνον ἀπόστηθι . . . Μένανδρος Παιδίῳ κτλ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="376" xml:id="kock-0541-paidion-376" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+          <lg>
+            <l n="1" xml:id="kock-0541-paidion-376-l1" xml:lang="grc">μικρὸν ἐπιμείνας προστρέχει,</l>
+            <l n="2" xml:id="kock-0541-paidion-376-l2" xml:lang="grc">‘ἠγόρακά σοι περιστέρια’ λέγων.</l>
+          </lg>
+          <note type="source">Athenaeus 14, 654 b περιστέριον οὕτως ἔστιν εὑρεῖν εἰρημένον παρὰ Μενάνδρῳ ἐν Παλλακῇ κτλ.</note>
+          <note type="apparatus">1. ἐπιμείνας Cleric.] ἐπέμεινας A. 2. ‘suppleverim περιστέρια ταδί’ λέγων Cobet. N. 1. 89. — ceterum cf. adesp. 1115.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="377" xml:id="kock-0541-paidion-377" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+          <lg>
+            <l n="1" xml:id="kock-0541-paidion-377-l1" xml:lang="grc">νῦν πῖθι, νῦν ἀφύβρισον. Β. ἣν ἀφύβρικα.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 473, 3 ἀφυβρίσαι . . τὸ ἀκολάστως ὑβρίσαι δηλοῖ εἰς κόρον καὶ ὥστε ἀποπληρωθῆναι. οὕτω Μένανδρος Παλλακῇ κτλ.</note>
+          <note type="apparatus">ἣν Dobraeus Adv. II 620] ἣν. cf. 148.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="378" xml:id="kock-0541-paidion-378" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+          <lg>
+            <l n="1" xml:id="kock-0541-paidion-378-l1" xml:lang="grc">πολλοὺς λογισμοὺς ἡ πονηρία κυκλοῖ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 2, 4 Μενάνδρου Παλλακή Α. κυκλοῖ Α] κυκλεῖ.</note>
+          <note type="apparatus">λογισμούς cum non idem sit ac σοφισμούς, minus suo loco positum videtur. ἑλιγμούς conl. Plat. Reip. 405 c Cobet. Mnem. nov. II 446. facilius λυγισμούς. cf. Eupol. 339. Arist. Ran. 775.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="379" xml:id="kock-0541-paidion-379" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+          <lg>
+            <l n="1" xml:id="kock-0541-paidion-379-l1" xml:lang="grc">ἀλλὰ τῶν χρηστῶν ἔχει τιν’ ἐπιμέλειαν καὶ θεός.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 37, 11 Μενάνδρου Παλλακῇ Α.</note>
+          <note type="apparatus">Cf. praeterea fr. 903.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

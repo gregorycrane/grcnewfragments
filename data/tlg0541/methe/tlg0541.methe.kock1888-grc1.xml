@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΜΕΘΗ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.methe.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.methe.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.methe.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_methe">
+        <head>ΜΕΘΗ</head>
+        <div type="textpart" subtype="fragment" n="319" xml:id="kock-0541-methe-319" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_methe">
+          <head>319</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-methe-319-l1" xml:lang="grc">εἶτ’ οὐχ ὅμοια πράττομεν καὶ θύομεν;</l>
+            <l n="2" xml:id="kock-0541-methe-319-l2" xml:lang="grc">ὅπου γε τοῖς θεοῖς μὲν ἠγορασμένον</l>
+            <l n="3" xml:id="kock-0541-methe-319-l3" xml:lang="grc">δραχμῶν ἄγω προβάτιον ἀγαπητὸν δέκα,</l>
+            <l n="4" xml:id="kock-0541-methe-319-l4" xml:lang="grc">αὐλητρίδας δὲ καὶ μύρον καὶ ψαλτρίας,</l>
+            <l n="5" xml:id="kock-0541-methe-319-l5" xml:lang="grc">Μενδαῖον, Θάσιον, ἐγχέλεις, τυρόν, μέλι,</l>
+            <l n="6" xml:id="kock-0541-methe-319-l6" xml:lang="grc">μικροῦ τάλαντον, γίνεταί τε κατὰ λόγον</l>
+            <l n="7" xml:id="kock-0541-methe-319-l7" xml:lang="grc">δραχμῶν μὲν ἀγαθὸν ἄξιον λαβεῖν δέκα</l>
+            <l n="8" xml:id="kock-0541-methe-319-l8" xml:lang="grc">ἡμᾶς, ἐὰν καὶ καλλιερηθῇ τοῖς θεοῖς,</l>
+            <l n="9" xml:id="kock-0541-methe-319-l9" xml:lang="grc">τούτων δὲ πρὸς ταῦτ’ ἀνελεῖν τὴν ζημίαν,</l>
+            <l n="10" xml:id="kock-0541-methe-319-l10" xml:lang="grc">πῶς οὐχὶ τὸ κακὸν τῶν ἱερῶν διπλάζεται;</l>
+            <l n="11" xml:id="kock-0541-methe-319-l11" xml:lang="grc">ἐγὼ μὲν οὖν ὤν γ’ ὁ θεὸς οὐκ εἴασα τὴν</l>
+            <l n="12" xml:id="kock-0541-methe-319-l12" xml:lang="grc">ὀσφὺν ἂν ἐπὶ τὸν βωμὸν ἐπιθεῖναί ποτε,</l>
+            <l n="13" xml:id="kock-0541-methe-319-l13" xml:lang="grc">εἰ μὴ καθήγιζέν τις ἅμα τὴν ἔγχελυν,</l>
+            <l n="14" xml:id="kock-0541-methe-319-l14" xml:lang="grc">ἵνα Καλλιμέδων ἀπέθανεν εἷς τῶν συγγενῶν.</l>
+          </lg>
+          <note type="source">Athenaeus 8, 364 d θύοντες τοῖς θεοῖς ὀλίγιστα εἰς τὰς θυσίας καὶ πλεῖστα εἰς τὰ τυχόντα δαπανῶμεν, ὥσπερ ὁ καλὸς Μένανδρος ἐν τῇ Μέθῃ παρίστησιν κτλ. v. 1—6 Athenaeus 4, 146 d Μένανδρος ἐν Μέθῃ τοῦ μεγίστου δείπνου δαπάνημα τάλαντον τίθησι λέγων</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="320" xml:id="kock-0541-methe-320" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_methe">
+          <lg>
+            <l n="1" xml:id="kock-0541-methe-320-l1" xml:lang="grc">ἐμὲ γὰρ διέτριψεν ὁ</l>
+            <l n="2" xml:id="kock-0541-methe-320-l2" xml:lang="grc">κομψότατος ἀνδρῶν Χαιρεφῶν, ἱερὸν γάμον</l>
+            <l n="3" xml:id="kock-0541-methe-320-l3" xml:lang="grc">φάσκων ποιήσειν δευτέραν μετ’ εἰκάδα</l>
+            <l n="4" xml:id="kock-0541-methe-320-l4" xml:lang="grc">καθ’ αὑτόν, ἵνα τῇ τετράδι δειπνῇ παρ’ ἑτέροις·</l>
+            <l n="5" xml:id="kock-0541-methe-320-l5" xml:lang="grc">τὰ τῆς θεοῦ γὰρ πανταχῶς ἔχειν καλῶς.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="321" xml:id="kock-0541-methe-321" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_methe">
+          <lg>
+            <l n="1" xml:id="kock-0541-methe-321-l1" xml:lang="grc">. . . . . . . Ἀδράστεια καὶ</l>
+            <l n="2" xml:id="kock-0541-methe-321-l2" xml:lang="grc">θεὰ σκυθρωπὲ Νέμεσι, συγγινώσκετε.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Miller. Mélanges 382 Ἀδράστεια· ἑταίρα τῆς Νεμέσεως. Μένανδρος Μέθη κτλ. θεὰ σκυθρωπὲ Νέμεσι Mein. Herm. III 456. 7] θεαὶ σκυθρωπαὶ Νέμεσις. Bekker. Anecd. 342, 6 et Suidas Ἀδράστεια· οἱ μὲν τὴν αὐτὴν τῇ Νεμέσει λέγουσιν . . . ἔνιοι μέντοι ὡς διαφέρουσαν συγκαταλέγουσιν αὐτὴν τῇ Νεμέσει, ὡς Μένανδρος καὶ Νικόστρατος (37). cf. quae ad Cratini Nemesin adnotavimus I 47 et Lehrs Pop. Aufs. 57. 8.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="322" xml:id="kock-0541-methe-322" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_methe">
+          <lg>
+            <l n="1" xml:id="kock-0541-methe-322-l1" xml:lang="grc">. . . εἶτ’ οὐκ εἶχεν οὐ πῦρ, οὐ λίθον,</l>
+            <l n="2" xml:id="kock-0541-methe-322-l2" xml:lang="grc">οὐκ ἄλλο τοιοῦθ’· ἕτερον.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Bekker. Anecd. 379, 31 et Suidas ἄλλο ἕτερον· ἐκ παραλλήλου λέγουσιν. Μένανδρος Μέθη κτλ. ἄλλο τοιοῦθ’ Dindf. Ann. Fleckeis. 1869, 524] ἄλλο τι οὔθ’ Suid. et Bekk. cod. ἄλλ’ ὁτιοῦν Porson Tracts 200.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

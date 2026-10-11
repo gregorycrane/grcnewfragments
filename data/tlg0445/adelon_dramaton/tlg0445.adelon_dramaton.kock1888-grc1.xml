@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DIONYSIUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Dionysius</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0445.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0445.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0445.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0445_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0445-adelon_dramaton-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0445_adelon_dramaton">
+          <note type="apparatus">Fr. 1 vel post ea quae disputaverunt Herwerdenus 190 et O. Crusius p. 622. 3 non magis intellego quam antea.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" xml:id="kock-0445-adelon_dramaton-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0445_adelon_dramaton">
+          <note type="apparatus">2, 11 ὡς γὰρ στρατηγός nunc etiam Madvig. Adv. crit. III 64. — 28 ὅσ’ ἔνεστι καταγεγρ. Ellis Amer. Journ. VI 6, cuius reliquae coniecturae admitti vix possunt. neque magis vero ea quae Madvigius proponit Advers. crit. III 64. — 37 scr. ἔφησθ’ ἔχοντα. Nauck. Bullet. Petersb. XII 514.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" xml:id="kock-0445-adelon_dramaton-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0445_adelon_dramaton">
+          <note type="apparatus">4, 4. ταχὺν ὄντα hic nihil aliud significat quam ubique: ‘cum homo velox sit’. quod cur sententiae minus aptum iudicet Herwerd. 190 non exputo.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" xml:id="kock-0445-adelon_dramaton-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0445_adelon_dramaton">
+          <note type="apparatus">5, 2. del. verba ‘fortasse κύμβαι’. cf. v. 3.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="10" xml:id="kock-0445-adelon_dramaton-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0445_adelon_dramaton">
+          <note type="apparatus">10. monost. 43 αὐτὸς πενόμενος. — ceterum de hoc et de fr. 7 cf. Dionys. trag. 7. 8 N.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

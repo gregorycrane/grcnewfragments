@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΥΔΡΙΑ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.ydria.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.ydria.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.ydria.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ydria">
+        <head>ΥΔΡΙΑ</head>
+        <div type="textpart" subtype="fragment" n="466" xml:id="kock-0541-ydria-466" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ydria">
+          <lg>
+            <l n="1" xml:id="kock-0541-ydria-466-l1" xml:lang="grc">ὡς ἡδὺ τῷ μισοῦντι τοὺς φαύλους τρόπους</l>
+            <l n="2" xml:id="kock-0541-ydria-466-l2" xml:lang="grc">ἐρημία, καὶ τῷ μελετῶντι μηδὲ ἓν</l>
+          </lg>
+          <pb n="134" facs="urn:hathi:hvd.hxijy4:scan:160" />
+          <lg>
+            <l n="3" xml:id="kock-0541-ydria-466-l3" xml:lang="grc">πονηρὸν ἱκανὸν κτῆμ' ἀγρὸς τρέφων καλῶς.</l>
+            <l n="4" xml:id="kock-0541-ydria-466-l4" xml:lang="grc">ἐκ τῶν ὄχλων δὲ ζῆλος, ἥ τε κατὰ πόλιν</l>
+            <l n="5" xml:id="kock-0541-ydria-466-l5" xml:lang="grc">αὕτη τρυφὴ λάμπει μέν, ἐς δ' ὀλίγον χρόνον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 58, 8 Μενάνδρου Ὑδρίας Α. v. 1. 2 (ἐρημία) idem 56, 11 Μενάνδρου Ὑδρία Α.</note>
+          <note type="apparatus">1. τρόπους om. 56. 3. 4. τρέφων — ἥ τε om. B. del. A². πτόλιν B. 5. δ' ὀλίγον] ὀλίγον δὲ Voss. Hens. ὀλίγον δ' ἐς Mein. ed. mai. 4. ἐκ] οὐκ G. A. Hirschig. Ann. crit. 24. at sententia est: 'ex magno hominum concursu et turba necessario concertatio oritur'. 5. fortasse λαμπρά.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="467" xml:id="kock-0541-ydria-467" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ydria">
+          <lg>
+            <l n="1" xml:id="kock-0541-ydria-467-l1" xml:lang="grc">γέροντα δυστυχοῦντα τῶν θ' αὑτοῦ κακῶν</l>
+            <l n="2" xml:id="kock-0541-ydria-467-l2" xml:lang="grc">ἐπαγόμενον λήθην ἀνέμνησας πάλιν</l>
+            <l n="3" xml:id="kock-0541-ydria-467-l3" xml:lang="grc">ἐπὶ τἀτυχεῖν τ' ἤγειρας.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 104, 2 Μενάνδρου Ὑδρίας Α.</note>
+          <note type="apparatus">2. ἐπαγομένων A Voss. 3. ἐπὶ τἀτυχεῖν Grot.] ἔπειτ' ἀτυχεῖν. ἔπειτα τυχεῖν Voss. Hens. 'qui hoc loco senex commemoratur, fortasse idem est, a quo prologus fabulae actus est.' Mein.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="468" xml:id="kock-0541-ydria-468" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ydria">
+          <lg>
+            <l n="1" xml:id="kock-0541-ydria-468-l1" xml:lang="grc">εὐθὺς καταχρήσεσθ' αὑτὸν ἀνορωρυγμένην</l>
+            <l n="2" xml:id="kock-0541-ydria-468-l2" xml:lang="grc">ταύτην ἰδόντα.</l>
+          </lg>
+          <note type="source">Suidas ἀνορωρυγμένον, οὐχὶ ἀνωρυγμένον λέγουσιν. Μένανδρος Ὑδρίᾳ κτλ. Bekker. Anecd. 405, 28 Μένανδρος· τὴν ἀνορωρυγμένην ταύτην ἰδών.</note>
+          <note type="apparatus">καταχρήσεσθ' αὑτὸν Bernhardy] καταχρήσεσθαι τὸν AC. καχρήσασθαι τὸν ceteri. ἀνορωρυγμένην BCE Suid. et Bekk. An.] ἀνορωρυγμένον. Ὑδρίᾳ A] ὑδρεία. — 'statim ipsum sibi mortem consciturum, quando effossam urnam intellexerit'. Bernb.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="469" xml:id="kock-0541-ydria-469" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ydria">
+          <lg>
+            <l n="1" xml:id="kock-0541-ydria-469-l1" xml:lang="grc">οἱ Θρᾷκες, Λίβυ,</l>
+            <l n="2" xml:id="kock-0541-ydria-469-l2" xml:lang="grc">Τρῶες καλοῦνται· πάντα νῦν ἤδη 'σθ' ὁμοῦ.</l>
+          </lg>
+          <note type="source">Schol. Plat. 380 Bekk. ἔχει (τὸ ὁμοῦ) καὶ δύναμιν συλλεκτικήν, ὡς παρὰ Μενάνδρῳ ἐν Ὑδρίᾳ κτλ. ὅπερ δηλοῖ τὸ ἐν τῷ αὐτῷ.</note>
+          <note type="apparatus">1. Λίβυ | Τρῶες Cobet. N. 1. 22. 3] Λιβύτρωες. 'Λίβυς servile nomen est, ut Φρύξ, Σύρος, Τίβιος, Λυδός, Καρίων, Γέτας'. etiam Lysandri frater Libys erat. Xen. Hell. 2, 4, 28. 2. ἤδη 'σθ'] ηιδεισθ' B. de locutione πάντα ὁμοῦ cf. Aristoph. fr. 543, 6.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="470" xml:id="kock-0541-ydria-470" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ydria">
+          <lg>
+            <l n="1" xml:id="kock-0541-ydria-470-l1" xml:lang="grc">οἱ δὲ κατὰ χειρῶν λαβόντες περιμένουσι φίλτατοι.</l>
+          </lg>
+          <note type="source">Athenaeus 9, 408 ef Μένανδρος Ὑδρίᾳ κτλ. Phryn. Epit. 327</note>
+          <note type="apparatus">μεστὴ ἡ κωμῳδία τοῦ κατὰ χειρός, ubi cf. Lobeck. uterque numerus usitatus, singularis in antiqua comoedia frequentior. fortasse περιμένουσι, φίλτατοι (φίλτατε).</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="471" xml:id="kock-0541-ydria-471" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ydria">
+          <p>παρουσία</p>
+          <note type="source">Hesychius οὕτως ἐκάλουν καὶ τὰ ὑπάρχοντα. καὶ μήποτε ἡ παρὰ πρόθεσις παρέλκει. Μένανδρος Ὑδρίᾳ (ὑδρείας cod.). cf. Cratet. 16.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

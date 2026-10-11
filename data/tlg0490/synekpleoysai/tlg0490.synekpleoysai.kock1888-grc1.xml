@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>PHILIPPIDES, ΣΥΝΕΚΠΛΕΟΥΣΑΙ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Philippides</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0490.synekpleoysai.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0490.synekpleoysai.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0490.synekpleoysai.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0490_synekpleoysai">
+        <head>ΣΥΝΕΚΠΛΕΟΥΣΑΙ</head>
+        <div type="textpart" subtype="fragment" n="16" xml:id="kock-0490-synekpleoysai-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0490_synekpleoysai">
+          <lg>
+            <l n="1" xml:id="kock-0490-synekpleoysai-16-l1" xml:lang="grc">ὁ φανὸς ἡμῖν οὐκ ἔφαινεν οὐδὲ ἕν.</l>
+            <l n="2" xml:id="kock-0490-synekpleoysai-16-l2" xml:lang="grc">Β. ἔπειτα φυσᾶν δυστυχὴς οὐκ ἠδύνω;</l>
+          </lg>
+          <note type="source">
+            <p>Athenaeus 15, 700c ἄλλοι δ’ ἔφασκον φανὸν λέγεσθαι τὴν λαμπάδα, οἱ δὲ τὴν ἔκ τινων ξύλων τετμημένων δέσμην... Φιλιππίδης Συμπλεούσαις κτλ. Eustathius 1571, 13 φανὸς ἡ ἐκ ξύλων τετμημένων δέσμη. καὶ δηλοῖ αὐτὸ Φιλιππίδης ἐν τῷ ‘ὁ φανὸς — οὐδέν’ (sic). πρὸς ὃ λέγει ὁ ἀκούσας ‘ἔπειτα — ἠδύνω’. καὶ ὅρα τὸ ὁ φανὸς οὐκ ἔφαινεν ἐτυμολογικῶς ῥηθέν. — altercantur inter se emptor et venditor.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="17" xml:id="kock-0490-synekpleoysai-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0490_synekpleoysai">
+          <lg>
+            <l n="1" xml:id="kock-0490-synekpleoysai-17-l1" xml:lang="grc">ὅταν ἐξίῃς,</l>
+            <l n="2" xml:id="kock-0490-synekpleoysai-17-l2" xml:lang="grc">παραγώγιον ὧν ἂν ἐκφέρῃ σ’ εἰσπράξομαι.</l>
+          </lg>
+          <note type="source">
+            <p>Pollux 9, 30 καὶ παραγώγιον τέλους ὄνομα, εἰ δεῖ πρὸς ἀπολογίαν τῆς κοινῆς χρήσεως παρέχεσθαι τὸ ἐν τῇ Φιλιππίδου Συνεκπλεούσῃ εἰρημένον κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>1. ἐξίῃς Cobet. N. 1. 125] ἑξῆς. 2. ὧν add. Cobet. ἐκφέρῃ σ’ Cobet.] ἐκφέρης. de sententia cf. Dionys. com. 3, 16. 17. paciscitur enim ianitor cum servo, ut furti partem ipse accipiat.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

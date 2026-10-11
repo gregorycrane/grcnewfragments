@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΕΑΥΤΟΝ ΤΙΜΩΡΟΥΜΕΝΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.eayton_timoroymenos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.eayton_timoroymenos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.eayton_timoroymenos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eayton_timoroymenos">
+        <head>ΕΑΥΤΟΝ ΤΙΜΩΡΟΥΜΕΝΟΣ</head>
+        <div type="textpart" subtype="fragment" n="140" xml:id="kock-0541-eayton_timoroymenos-140" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eayton_timoroymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eayton_timoroymenos-140-l1" xml:lang="grc">πρὸς τῆς Ἀθηνᾶς, δαιμονᾷς, γεγονὼς ἔτη</l>
+            <l n="2" xml:id="kock-0541-eayton_timoroymenos-140-l2" xml:lang="grc">τοσαῦθ'; ὁμοῦ γάρ ἐστιν ἑξήκοντά σοι.</l>
+          </lg>
+          <note type="source">Schol. Plat. 380 Bekk. ὁμοῦ σημαίνει ποτὲ μὲν τὸ ἐγγύς (numeralibus adiunctum) . . . Μένανδρος ἐν τῷ Ἑαυτὸν τιμωρουμένῳ κτλ. Terentius 1, 1, 9 nam pró deum atque hominúm fidem,</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="141" xml:id="kock-0541-eayton_timoroymenos-141" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eayton_timoroymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eayton_timoroymenos-141-l1" xml:lang="grc">λουτρόν, θεραπαίνας, ἀργυρώματα.</l>
+          </lg>
+          <note type="source">
+            <p>Athenaeus 6, 231 a Μένανδρος Ἑαυτὸν τιμωρουμένῳ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>Terent. 1, 1, 78 ancillae tot me vestiant? sumptus domi tantos ego solus faciam? — στρώματ', ἀργυρώματα H. Iacobi.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="142" xml:id="kock-0541-eayton_timoroymenos-142" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eayton_timoroymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eayton_timoroymenos-142-l1" xml:lang="grc">ἐξ ἱσταρίου δ' ἐκρέματο φιλοπόνως πάνυ.</l>
+            <l n="2" xml:id="kock-0541-eayton_timoroymenos-142-l2" xml:lang="grc">. . . . . . καὶ θεραπαινὶς ἦν μία·</l>
+            <l n="3" xml:id="kock-0541-eayton_timoroymenos-142-l3" xml:lang="grc">αὕτη συνύφαινεν ῥυπαρῶς διακειμένη.</l>
+          </lg>
+          <note type="source">
+            <p>Terentius 2, 3, 52 subtegmen nebat: praeterea una ancillula erat; ea texebat una, pannis obsita, neglecta, inmunda inluvie, ubi graeca servavit scholiasta cod. Bembin.</p>
+          </note>
+          <note type="apparatus">
+            <p>δ' Mein.] γάρ. — ἐκρέματο, ut Ovid. Met. 4, 35 (Minyeides) haerent telae. cf. Spengel. Varr. L. l. p. 118.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="143" xml:id="kock-0541-eayton_timoroymenos-143" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eayton_timoroymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eayton_timoroymenos-143-l1" xml:lang="grc">ἀνδρὸς χαρακτὴρ ἐκ λόγου γνωρίζεται.</l>
+          </lg>
+          <note type="source">
+            <p>Terentius 2, 4, 4 nam mihi quale ingenium haberes, fuit indicio oratio. cod. Bemb. . . . λανδρος χαρακτήρ κτλ. Spengel. Varr. L. l. p. 118.</p>
+          </note>
+          <note type="apparatus">
+            <p>idem versus fr. 72. negat Ihnius (Quaest. Ter. 42) ex Heauton Timorumeno desumptum esse: sed versus proverbialis facile poterat saepius repeti.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="144" xml:id="kock-0541-eayton_timoroymenos-144" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eayton_timoroymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eayton_timoroymenos-144-l1" xml:lang="grc">πᾶς πατὴρ μωρός.</l>
+          </lg>
+          <note type="source">
+            <p>Terentius 3, 1, 31 vemens in utramque partem, Menedeme, es nimis. ubi schol. Bemb. 'graece πᾶς πατὴρ μωρός.' cf. Ihne ibid.</p>
+          </note>
+          <note type="apparatus">
+            <p>Herodian. I 192, 26 μωρός καὶ μῶρος Ἀττικῶς. Theogn. τοῦτο ἐπὶ ἐμψύχου τιθέμενον βαρύνεται.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="145" xml:id="kock-0541-eayton_timoroymenos-145" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eayton_timoroymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eayton_timoroymenos-145-l1" xml:lang="grc">οἴκοι μένειν χρὴ καὶ μένειν ἐλεύθερον</l>
+            <l n="2" xml:id="kock-0541-eayton_timoroymenos-145-l2" xml:lang="grc">ἢ μηκέτ' εἶναι τὸν καλῶς εὐδαίμονα.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="146" xml:id="kock-0541-eayton_timoroymenos-146" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eayton_timoroymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eayton_timoroymenos-146-l1" xml:lang="grc">μετ’ ἄριστον γὰρ ὡς ἀμυγδαλᾶς [ἐγὼ]</l>
+            <l n="2" xml:id="kock-0541-eayton_timoroymenos-146-l2" xml:lang="grc">παρέθηκα, καὶ τῶν ῥοιδίων ἐτρώγομεν.</l>
+          </lg>
+          <note type="source">
+            <p>Athenaeus 14, 651 a Μένανδρος ἐν Ἑαυτὸν (αὑτὸν A) τιμωρουμένῳ ῥοίδια ὠνόμασε διὰ τούτων κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>1. ἐγὼ post ἀμυγδαλᾶς del. Bentl. ‘recte, nisi ἄριστον corruptum est’ Dindf. 2. ἐγὼ παρέθηκα, ῥοιδίων ἐτρώγομεν Dobr. Adv. II 273. ἐνετράγομεν Cobet. N. 1. 73. at tempus mutatum facilem explicationem habet; quod autem ἐντραγεῖν Atticos, non τρώγειν dixisse Cobetus statuit, id iure mireris. τρώγειν enim tam saepe reperitur, ut exempla adferre taedeat. scilicet comici quidem numquam dicebant ἐντρώγειν, sed semper τρώγειν, numquam quod sciam τραγεῖν, sed ἐντραγεῖν. ceterum nondum persanatum est fragmentum.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="147" xml:id="kock-0541-eayton_timoroymenos-147" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eayton_timoroymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eayton_timoroymenos-147-l1" xml:lang="grc">ταῦτά σοι καὶ Πύθια</l>
+            <l n="2" xml:id="kock-0541-eayton_timoroymenos-147-l2" xml:lang="grc">καὶ Δήλια.</l>
+          </lg>
+          <note type="source">
+            <p>Zenob. 6, 15 ἡ παροιμία εἴρηται ἐπὶ τῶν ὕστατα καὶ τελευταῖα ποιούντων. μέμνηται δὲ αὐτῆς Μένανδρος (ἐν Ἑαυτὸν τιμωρουμένῳ add. cod. Miller. Mélanges 356). cf. etiam qui Menandri mentionem faciunt nullam Phot. 473, 1, Suid. Πύθια καὶ Δήλια, Apostol. 15, 9 Πύθια καὶ Δήλια· ἐπὶ τῶν ταχέως ἀπολλυμένων.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="148" xml:id="kock-0541-eayton_timoroymenos-148" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eayton_timoroymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eayton_timoroymenos-148-l1" xml:lang="grc">ἀλλ’ ἣν χιτών σοι</l>
+          </lg>
+          <note type="source">
+            <p>Photius 70, 24 ἣν . . . [οἱ δὲ παλαιοὶ] ἐν Μενάνδρου Αὑτὸν τιμωρουμένῳ τὸ [δὲ] ψιλὸν ἀντὶ τοῦ ἰδού κτλ. οἱ δὲ παλαιοὶ eiecit</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

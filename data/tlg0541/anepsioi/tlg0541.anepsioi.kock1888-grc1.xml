@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΑΝΕΨΙΟΙ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.anepsioi.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.anepsioi.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.anepsioi.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anepsioi">
+        <head>ΑΝΕΨΙΟΙ</head>
+        <div type="textpart" subtype="fragment" n="59" xml:id="kock-0541-anepsioi-59" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anepsioi">
+          <head>59</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-anepsioi-59-l1" xml:lang="grc">φύσει γάρ ἐστ᾽ ἔρως</l>
+            <l n="2" xml:id="kock-0541-anepsioi-59-l2" xml:lang="grc">τοῦ νουθετοῦντος κωφόν· ἅμα δ᾽ οὐ ῥάδιον</l>
+            <l n="3" xml:id="kock-0541-anepsioi-59-l3" xml:lang="grc">νεότητα νικᾶν ἐστι καὶ θεὸν λόγῳ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 64, 17 Μενάνδρου Ἀνεψιός Α. 2. νομοθετοῦντος ΑΒ Trinc. ἅμα — λόγῳ om. Voss. — apte O. Ribbeck. p. 210 confert Afranii fr. 31 ámentes, quibus ánimi non sunt integri, surde aúdiunt.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="60" xml:id="kock-0541-anepsioi-60" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anepsioi">
+          <head>60</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-anepsioi-60-l1" xml:lang="grc">εὐδαιμονία τοῦτ᾽ ἐστὶν υἱὸς νοῦν ἔχων·</l>
+            <l n="2" xml:id="kock-0541-anepsioi-60-l2" xml:lang="grc">ἀλλὰ θυγάτηρ κτῆμ᾽ ἐστὶν ἐργῶδες πατρί.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 77, 4 Μενάνδρου, 5 Μενάνδρου Ἀνεψιοῖς Α. ad unum fr. coniunxit Grotius. 1. εὐδαιμονία H. Steph.] εὐδαιμονίας. 2. Β. ἀλλὰ θυγάτηρ; Α. κτῆμ᾽ ἐστὶν κτλ. Nauck.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="61" xml:id="kock-0541-anepsioi-61" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anepsioi">
+          <head>61</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-anepsioi-61-l1" xml:lang="grc">ὁ φανός ἐστι μεστὸς ὕδατος οὑτοσί,</l>
+            <l n="2" xml:id="kock-0541-anepsioi-61-l2" xml:lang="grc">δεῖ τ᾽ οὐχὶ σείειν, ἀλλ᾽ ἀποσείειν αὐτόθεν.</l>
+          </lg>
+          <note type="source">Athenaeus 15, 700 b ἄλλοι δ᾽ ἔφασκον φανὸν λέγεσθαι τὴν λαμπάδα· οἱ δὲ τὴν ἔκ τινων ξύλων τετμημένην δέσμην. Μένανδρος Ἀνεψιοῖς (ἀνεψιὸς Α) κτλ. 2. δεῖτε Α. ἀλλ᾽ ἀποσείειν αὐτόθεν Bentl.] ἀλλὰ ποδιειν αυτόν A. Phot. 639, 4 φανός· λαμπὰς ἡ ἐκ κλημάτων. οὕτως Μένανδρος. Bachmann. Anecd. I 403, 11 φανός· λαμπὰς ἐκ κλημάτων. οὕτως Μένανδρος. Eustath. 1571, 3 τὸ φανίον ἐκ τοῦ φανοῦ παράγωγον, οὗ ἡ χρῆσις παρὰ Μενάνδρῳ. cf. Nicostr. 22.</note>
+          <note type="apparatus">fax erat aquae plena: itaque non concuti eam oportebat, ut fulgor excitaretur, sed aquam excuti.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="62" xml:id="kock-0541-anepsioi-62" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anepsioi">
+          <head>62</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-anepsioi-62-l1" xml:lang="grc">οἶσ᾽ εἰσιὼν</l>
+            <l n="2" xml:id="kock-0541-anepsioi-62-l2" xml:lang="grc">πανόν, λύχνον, λυχνοῦχον, ὅ τι πάρεστι· φῶς</l>
+            <l n="3" xml:id="kock-0541-anepsioi-62-l3" xml:lang="grc">μόνον πολὺ ποίει.</l>
+          </lg>
+          <note type="source">Athenaeus 15, 700 de πανὸς ὀνομάζεται τὸ διακεκομμένον ξύλον καὶ συνδεδεμένον· τούτῳ δ᾽ ἐχρῶντο λαμπάδι. Μένανδρος Ἀνεψιοῖς κτλ.</note>
+          <note type="apparatus">1. οἶσ᾽ add. Dobr. 2. πάρεστιν Α. 3. ποίει Dalecamp.] ποιεῖ Α. ‘quidquid praesto est effer: modo claram fac lucem’. Xen. Hell. 6, 2, 29 πρὸ τοῦ στρατεύματος φῶς ἐποίει. — tetrametr. (om. λύχνον) οἶσ᾽ ἰὼν πανόν — μόνον | πολὺ ποίει L. Dindorf. Ann. Fleckeis. 1869, 524.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="63" xml:id="kock-0541-anepsioi-63" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anepsioi">
+          <head>63</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-anepsioi-63-l1" xml:lang="grc">τὰ κακῶς τρέφοντα χωρί᾽ ἀνδρείους ποιεῖ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 56, 7 Μενάνδρου Ἀνεψιοί Α. — verum esse norunt Borussi non minus quam Attici.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

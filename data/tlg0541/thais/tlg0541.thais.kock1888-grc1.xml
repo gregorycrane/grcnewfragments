@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΘΑΙΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.thais.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.thais.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.thais.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thais">
+        <head>ΘΑΙΣ</head>
+        <div type="textpart" subtype="fragment" n="217" xml:id="kock-0541-thais-217" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thais">
+          <lg>
+            <l n="1" xml:id="kock-0541-thais-217-l1" xml:lang="grc">ἐμοὶ μὲν οὖν ἄειδε τοιαύτην, θεά,</l>
+            <l n="2" xml:id="kock-0541-thais-217-l2" xml:lang="grc">θρασεῖαν, ὡραίαν δὲ καὶ πιθανὴν ἅμα,</l>
+            <l n="3" xml:id="kock-0541-thais-217-l3" xml:lang="grc">ἀδικοῦσαν, ἀποκλῄουσαν, αἰτοῦσαν πυκνά,</l>
+            <l n="4" xml:id="kock-0541-thais-217-l4" xml:lang="grc">μηδενὸς ἐρῶσαν, προσποιουμένην δ’ ἀεί.</l>
+          </lg>
+          <note type="source">
+            <p>Plutarchus Mor. 19 a ὁ Μένανδρος ἐν τῷ προλόγῳ τῆς Θαΐδος πεποίηκεν κτλ. ἄειδε (non ᾆδε) dixit Homerum imitatus. cf. Cratin. 305. Eupol. 139, 2.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="218" xml:id="kock-0541-thais-218" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thais">
+          <lg>
+            <l n="1" xml:id="kock-0541-thais-218-l1" xml:lang="grc">φθείρουσιν ἤθη χρήσθ’ ὁμιλίαι κακαί.</l>
+          </lg>
+          <note type="source">
+            <p>Paulus Ep. Corinth. I 15, 33. ubi adscripta repperit H. Stephanus (Com. gr. p. 351) haec Μενάνδρου τοῦ κωμικοῦ γνώμη ἐν Θαδίᾳ (Θαΐδι). ac Menandro tribuunt Hieronymus (III fol. 148 d. V fol. 86 d. VIIII 185 b. 248 c), Photius Quaest. Amphiloch. 151 (Mai. Script. vet. VIIII 102). Euripidi adscribit Socrates Hist. eccl. III 16 p. 155 d. nomen poetae omittit cum aliis (cf. Nauck. Eurip. fr. 1013) Clem. Alex. Paed. 2, 6, 50. Strom. 1, 14, 59. cf. mon. 738. Tertull. Ad uxor. 1, 8 <hi rend="italic">bonos corrumpunt mores congressus mali.</hi> Diodor. 16, 54 extr. (Φίλιππος) ταῖς πονηραῖς ὁμιλίαις διέφθειρε τὰ ἤθη τῶν ἀνθρώπων. — mutuatus est ut solebat versum Menander ab Euripide.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="219" xml:id="kock-0541-thais-219" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thais">
+          <p>κατὰ μυὸς ὄλεθρον</p>
+          <note type="source">
+            <p>ἡ παροιμία λέγει. μέμνηται δὲ αὐτῆς Μένανδρος ἐν τῇ Θαΐδι Aelian. H. an. 12, 10. cf. Philem. 211 cum eis quae adnotavimus.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="220" xml:id="kock-0541-thais-220" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thais">
+          <head>220</head>
+          <head>Ἄρης τύραννος</head>
+          <note type="source">(ἐκ τῶν Τιμοθέου Περσῶν) . . . μέμνηται ταύτης Μένανδρος ἐν Θαΐᾳ (Θαΐδι Mill.). Miller Mélanges 363. Macar. 2, 39 Ἄρης τύραννος· ἐπὶ τῶν μετὰ βίας τι διαπραττομένων. Suid. et Hesych. Ἄρης τ. Timoth. fr. 8 Bergk. Plut. Ages. 14 πολλοῖς ἐπῄει τὰ τοῦ Τιμοθέου λέγειν· Ἄρης τύραννος· χρυσὸν δὲ Ἑλλὰς οὐ δέδοικεν. cf. Plut. Demetr. 42.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="221" xml:id="kock-0541-thais-221" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thais">
+          <head>221</head>
+          <head>πτωχότερος κίγκλου</head>
+          <note type="source">παροιμία ᾗ κέχρηται Μένανδρος Θαΐδι. Photius et Suidas (κίγκλος). Miller. Mélanges 354 πτωχότερος λεβηρίδος ἢ κινδάλου (scr. κίγκλου). μέμνηται ταύτης Μένανδρος ἐν Θ[ηβ]αΐδι. ἐπὶ τῶν πάνυ πενήτων καὶ ἀσθενῶν εἴρηται ἡ παροιμία. cf. Apostol. 9, 82. 10, 49. 15, 4 et Aristoph. fr. 29. 35.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="222" xml:id="kock-0541-thais-222" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thais">
+          <head>222</head>
+          <head>μέταυλος</head>
+          <note type="source">ἐστὶν ἡ ῥυπαρὰ λεγομένη αὐλή, οὗ ὄρνιθες ἦσαν . . . Μένανδρος Θαΐδι. Harpocration 127, 25. cf. Aristoph. fr. 371. Praeterea cf. 407.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

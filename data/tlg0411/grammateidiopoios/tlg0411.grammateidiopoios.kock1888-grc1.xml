@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>APOLLODORUS CARYSTIUS, ΓΡΑΜΜΑΤΕΙΔΙΟΠΟΙΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Apollodorus Carystius</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0411.grammateidiopoios.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0411.grammateidiopoios.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0411.grammateidiopoios.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_grammateidiopoios">
+        <head>ΓΡΑΜΜΑΤΕΙΔΙΟΠΟΙΟΣ</head>
+        <div type="textpart" subtype="fragment" n="6" xml:id="kock-0411-grammateidiopoios-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_grammateidiopoios">
+          <lg>
+            <l n="1" xml:id="kock-0411-grammateidiopoios-6-l1" xml:lang="grc">καὶ κλῄεθ’ ἡ θύρα μοχλοῖς· ἀλλ’ οὐδὲ εἷς</l>
+            <l n="2" xml:id="kock-0411-grammateidiopoios-6-l2" xml:lang="grc">τέκτων ὀχυρὰν οὕτως ἐποίησεν θύραν,</l>
+            <l n="3" xml:id="kock-0411-grammateidiopoios-6-l3" xml:lang="grc">δι’ ἧς γαλῆ καὶ μοιχὸς οὐκ εἰσέρχεται.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 6, 28 ’Απολλόδωρος A. Apollodori in Calumniatore Gesner. in mrg. et Grot. cf. Mein. I 463.</note>
+          <note type="apparatus">1. καὶ om. A. κλῄεθ’ K.] κλείεθ’. κατακλείεθ’ Bothius. κεκλείσεθ’ Naber. Mnem. nov. VIII 428. 3. εἰσδύσεται Mein. Stob. IIII LVI. εἰσερπύσει Nauck.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" xml:id="kock-0411-grammateidiopoios-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_grammateidiopoios">
+          <lg>
+            <l n="1" xml:id="kock-0411-grammateidiopoios-7-l1" xml:lang="grc">μέγα,</l>
+            <l n="2" xml:id="kock-0411-grammateidiopoios-7-l2" xml:lang="grc">ὦ Φορμίων, γλωττόκομον· οὐκ ὀφθαλμιῶ.</l>
+          </lg>
+          <note type="source">Pollux 10, 154 ἀλλὰ καὶ ἐπὶ τοῦ ἀγγείου γλωττοκομεῖον (γλωττόκομον Nunnesius) παρὰ τοῖς νεωτέροις ἔστιν εὑρεῖν, ὡς . . . ἐν ’Απολλοδώρου τοῦ Καρυστίου Διαβόλῳ κτλ. μέγ’ ὁ Φορμίων κτλ. (uno versu) Lobeck. ὀφθαλμιῶ Iungermann.] ὀφθαλμῷ. — cf. Timocl. 2. Phrynich. Ecl. 98 γλωσσόκομον· τὸν μὲν τύπον καὶ τὴν θέσιν ὑπ’ ἀρχαίων ἔχει, διεφθαρμένως δὲ λέγεται ὑπὸ τῶν πολλῶν. ἐχρῆν γὰρ γλωττοκομεῖον λέγειν, ὥσπερ ἀμέλει οἱ ἀρχαῖοι. Bekker. Anecd. 32, 28 γλωττοκομεῖον . . . καλοῦσι δ’ αὐτὸ οἱ ἀμαθεῖς γλωσσόκομον. de Phormione opinionem Meinekii exscripsimus ad titulum ’Επιδικαζομένου extr.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" xml:id="kock-0411-grammateidiopoios-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_grammateidiopoios">
+          <lg>
+            <l n="1" xml:id="kock-0411-grammateidiopoios-5-l1" xml:lang="grc">ὦ πάντες ἄνθρωποι, τί τὸ ζῆν ἡδέως</l>
+            <l n="2" xml:id="kock-0411-grammateidiopoios-5-l2" xml:lang="grc">παρέντες ἐπιμελεῖσθε τοῦ κακῶς ποιεῖν</l>
+            <l n="3" xml:id="kock-0411-grammateidiopoios-5-l3" xml:lang="grc">πολεμοῦντες ἀλλήλους; πότερα πρὸς τῶν θεῶν</l>
+            <l n="4" xml:id="kock-0411-grammateidiopoios-5-l4" xml:lang="grc">ἐπιστατεῖ τις τοῦ βίου νυνὶ τύχη</l>
+            <l n="5" xml:id="kock-0411-grammateidiopoios-5-l5" xml:lang="grc">ἄγροικος ἡμῶν, οὐδὲ παιδείαν ὅλως</l>
+            <l n="6" xml:id="kock-0411-grammateidiopoios-5-l6" xml:lang="grc">εἰδυῖα, τί τὸ κακόν ποτ' ἢ τί τἀγαθὸν</l>
+            <l n="7" xml:id="kock-0411-grammateidiopoios-5-l7" xml:lang="grc">ἔστ᾽ ἀγνοοῦσα παντελῶς εἰκῆ τέ πως</l>
+            <l n="8" xml:id="kock-0411-grammateidiopoios-5-l8" xml:lang="grc">ἡμᾶς κυλίνδουσ᾽ ὅντιν᾽ ἂν τύχῃ τρόπον;</l>
+            <l n="9" xml:id="kock-0411-grammateidiopoios-5-l9" xml:lang="grc">οἶμαί γε· πῶς γὰρ μᾶλλον ἂν προείλετο</l>
+            <l n="10" xml:id="kock-0411-grammateidiopoios-5-l10" xml:lang="grc">Ἕλλην ἀληθῶς οὖσα λεπομένους ὁρᾶν</l>
+            <l n="11" xml:id="kock-0411-grammateidiopoios-5-l11" xml:lang="grc">αὐτοὺς ὑφ᾽ αὑτῶν καὶ καταπίπτοντας νεκρούς,</l>
+            <l n="12" xml:id="kock-0411-grammateidiopoios-5-l12" xml:lang="grc">ἐξὸν ἱλαροὺς παίζοντας ὑποπεπωκότας</l>
+            <l n="13" xml:id="kock-0411-grammateidiopoios-5-l13" xml:lang="grc">αὐλουμένους σποδεῖν; λέγ᾽ αὐτή, γλυκυτάτη,</l>
+            <l n="14" xml:id="kock-0411-grammateidiopoios-5-l14" xml:lang="grc">ἔλεγχ᾽ ἄγροικον οὖσαν ἡμῶν τὴν τύχην.</l>
+          </lg>
+          <pb n="282" facs="urn:hathi:hvd.hxijy4:scan:308" />
+          <lg>
+            <l n="15" xml:id="kock-0411-grammateidiopoios-5-l15" xml:lang="grc">οὐ τοῦτο τὸ ζῆν ἐστι τὸν καλούμενον</l>
+            <l n="16" xml:id="kock-0411-grammateidiopoios-5-l16" xml:lang="grc">θεῶν ἀληθῶς βίον. ὅσῳ δ’ ἡδίονα</l>
+            <l n="17" xml:id="kock-0411-grammateidiopoios-5-l17" xml:lang="grc">τὰ πράγματ’ ἐν ταῖς πόλεσιν ἦν ἂν ἢ τὰ νῦν,</l>
+            <l n="18" xml:id="kock-0411-grammateidiopoios-5-l18" xml:lang="grc">εἰ μεταβαλόντες τὸν βίον διήγομεν·</l>
+            <l n="19" xml:id="kock-0411-grammateidiopoios-5-l19" xml:lang="grc">πίνειν Ἀθηναίους ἅπαντας τοὺς μέχρι</l>
+            <l n="20" xml:id="kock-0411-grammateidiopoios-5-l20" xml:lang="grc">ἐτῶν τριάκοντ’, ἐξιέναι τοὺς ἱππέας</l>
+            <l n="21" xml:id="kock-0411-grammateidiopoios-5-l21" xml:lang="grc">ἐπὶ κῶμον εἰς Κόρινθον ἡμέρας δέκα,</l>
+            <l n="22" xml:id="kock-0411-grammateidiopoios-5-l22" xml:lang="grc">στεφάνους ἔχοντας καὶ μύρον πρὸ ἡμέρας,</l>
+            <l n="23" xml:id="kock-0411-grammateidiopoios-5-l23" xml:lang="grc">τοὺς τὴν ῥάφανον πωλοῦντας ἕψειν Μεγαρέων,</l>
+            <l n="24" xml:id="kock-0411-grammateidiopoios-5-l24" xml:lang="grc">εἰς τὸ βαλανεῖον ἀπιέναι τοὺς συμμάχους,</l>
+            <l n="25" xml:id="kock-0411-grammateidiopoios-5-l25" xml:lang="grc">κεραννύναι τὸν οἶνον Εὐβοῆς. τρυφὴ</l>
+            <l n="26" xml:id="kock-0411-grammateidiopoios-5-l26" xml:lang="grc">καὶ βίος ἀληθῶς. ἀλλ’ ἀπαιδεύτῳ τύχῃ</l>
+            <l n="27" xml:id="kock-0411-grammateidiopoios-5-l27" xml:lang="grc">δουλεύομεν.</l>
+          </lg>
+          <note type="source">Athenaeus 7, 280 de Ἀπολλόδωρος ὁ Καρύστιος ἐν Γραμματιδιοποιῷ (περὶ τῆς τύχης) πάντες — τύχην (14). καὶ προελθών· οὐ τοῦτο κτλ. v. 10 Eustathius 1077, 31 ἔστι κοινὸν καὶ τὸ Ἕλλην, ὡς δηλοῖ τὸ ‘Ἕλλην ἀληθῶς οὖσα’, ὅπερ ἐν τοῖς τοῦ Ἀθηναίου κεῖται περὶ τῆς τύχης.</note>
+          <note type="apparatus">2. κακῶς C] καλῶς A. 5. οὐδὲ Mein.] οὔτε. 6. ποτ’ ἢ τί Erfurdt. Obs. 461] ἢ τί ποτ’ ἢ τί A. ἤ τι τὸ κακόν, ἢ τί ποτε C. 9. πῶς Iacobs. Add. Ath. 163] τίς. 12. ὑποπεπωκότας C] ὑποπεπτωκότας A. 13. σπόδειν K.] ωδει A. τί δεῖ λέγειν ὦ γλ. Iacobs. κηλουμένους ᾠδῇ Mein. Anal. Ath. 125. at opus est infinitivo qui pendeat ab ἐξόν. 15. τὸν καλ. Schweigh.] τὸ καλ. 17. ἢ Musur.] ἦν A. ἦ P. 18. μεταβάλλοντες A. corr. Cas. 19. interpunctionem post ἅπαντας del. H. Iacobi V 113. 20. τοὺς Dindf.] τοὺς δ’ A 23. ἐλθεῖν Μεγαρέας Grotius. 25. fortasse Εὐβοᾶς. B. τρυφὴ et 26. A. ἀλλ’ Kaibel., quod nequaquam necessarium est.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΘΕΤΤΑΛΗ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.thettale.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.thettale.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.thettale.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thettale">
+        <head>ΘΕΤΤΑΛΗ</head>
+        <div type="textpart" subtype="fragment" n="229" xml:id="kock-0541-thettale-229" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thettale">
+          <lg>
+            <l n="1" xml:id="kock-0541-thettale-229-l1" xml:lang="grc">καὶ τὸ κεράμιον</l>
+            <l n="2" xml:id="kock-0541-thettale-229-l2" xml:lang="grc">ἀνέῳχας· ὄζεις, ἱερόσυλ’, οἴνου πολύ.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Bekker. Anecd. 399, 24 ἀνέῳγεν, οὐχὶ ἤνοιγε, καὶ ἀνεῴγετο λέγουσι . . . Θετταλῇ κτλ. Suidas ἀνεῴγεισαν . . . Θετταλῇ· καὶ τὸ κεράμιον ἀνέῳγεν (ἀνέωχεν AC). Zonaras 213 ἀνέῳγα . . . καὶ ἐν Θετταλοῖς· τὸ κεράμιον ἀνέῳκται. Cram. Anecd. Par. IIII 113, 29 ἐν Θετταλίᾳ et ἀνέῳχας. ex Menandri Thessala haec excerpta esse omnibus constat. confert O. Ribbeck. Com. R.<hi rend="superscript">2</hi> 216 L. Afranii fr. 14 (3) ex <hi rend="italic">óre mi oculis tuí bibiones involant.</hi> bibiones sunt vermiculi vinum super natantes.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="230" xml:id="kock-0541-thettale-230" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thettale">
+          <lg>
+            <l n="1" xml:id="kock-0541-thettale-230-l1" xml:lang="grc">μικρά γε πρόφασίς ἐστι τοῦ πρᾶξαι κακῶς.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Stobaeus Floril. 4, 40 Μενάνδρου Θετταλή Α. γε om. Voss.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="231" xml:id="kock-0541-thettale-231" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thettale">
+          <lg>
+            <l n="1" xml:id="kock-0541-thettale-231-l1" xml:lang="grc">εὐθυμία βίε τὸν δοῦλον τρέφει.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Stobaeus Floril. 62, 31 Μενάνδρου Θεττάλῃ Α. βί Α. βέλτιστε Gaisf. τοι Τίβιε Bentl. cf. Leucon. 3. Menand. 1075. emendatio, cum multa nomina in <hi rend="italic">βίος</hi> exeant, admodum dubia. στρέφει Α.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="232" xml:id="kock-0541-thettale-232" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thettale">
+          <lg>
+            <l n="1" xml:id="kock-0541-thettale-232-l1" xml:lang="grc">ἔλυσ’ ἐμαυτόν, εἶτ’ ἀπέδραν μόνος.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Zonaras 274 ἀπέδραν καὶ ἀπέδρα χρὴ λέγειν, οὐχὶ ἀπέδρασα καὶ ἀπέδρασεν. ἔλυσ’ ἐμαυτόν κτλ. Bekker. Anecd. 420, 1 Μένανδρος Θετταλοῖς· εἶτ’ ἀπέδραν μόνος. Suidas ἀπέδρα· καὶ τὸ πρῶτον πρόσωπον ἀπέδραν . . . Μένανδρος Θεττάλῃ (Θετταλεῦσιν ΑΒ Med. Θετταλέσιν Ε) εἶτ’ ἀπέδραν (sic ΑΒΕ) μόνος. — μόλις μόνος Naber. Mnem. nov. VIII 416. ἔλυσ’ ἐμαυτὸν αὐτὸς O. Hense Lect. Stob. 20 adn. at semper quod sciam αὐτὸς ἐμαυτόν,</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="233" xml:id="kock-0541-thettale-233" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thettale">
+          <lg>
+            <l n="1" xml:id="kock-0541-thettale-233-l1" xml:lang="grc">ὁλόκληρος οὗτός σοι, ξένε.</l>
+          </lg>
+          <note type="source">
+            <p>Photius ὁλόκληρος· οἱ ἄρχοντες ἐδοκιμάζοντο εἰ ὁλόκληροί εἰσιν· Μένανδρος Θετταλῇ κτλ.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="234" xml:id="kock-0541-thettale-234" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thettale">
+          <p>λυχνοκαΐαν</p>
+          <note type="source">
+            <p>εἴρηκεν ... Μένανδρος ἐν Θετταλῇ. Pollux 10, 115. cf. Cratin. 227 (cum supplem.). ex cod. Laurentiano Pollucis Maassius Herm. XV 619 Μένανδρος δὲ ἐν Θετταλῇ λύχνων ἁφάς. περὶ λύχνων ἁφάς Herodot. 7, 215.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

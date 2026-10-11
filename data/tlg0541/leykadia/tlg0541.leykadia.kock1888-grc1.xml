@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΛΕΥΚΑΔΙΑ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.leykadia.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.leykadia.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.leykadia.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_leykadia">
+        <head>ΛΕΥΚΑΔΙΑ</head>
+        <div type="textpart" subtype="fragment" n="309" xml:id="kock-0541-leykadia-309" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_leykadia">
+          <lg>
+            <l n="1" xml:id="kock-0541-leykadia-309-l1" xml:lang="grc">ὅστις ὑπέχει χρυσίῳ</l>
+            <l n="2" xml:id="kock-0541-leykadia-309-l2" xml:lang="grc">τὴν χεῖρα, κἂν μὴ φῇ, πονηρὰ βούλεται.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 10, 20 Μενάνδρου Λευκαδίᾳ Α (λευκαδεία, λευκαδία Voss. Hens.). Maximus Conf. 12, 35 p. 571 Combefis. 2. φησὶ Max. βούλεται N et B¹] βουλεύεται (etiam Max.). Diogenian. 3, 12 (Apost. 4, 27) Ἀττικὸς ὑπέχει τὴν χεῖρα ἀποθνήσκων· ἐπὶ τῶν φιλαργύρων.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="310" xml:id="kock-0541-leykadia-310" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_leykadia">
+          <lg>
+            <l n="1" xml:id="kock-0541-leykadia-310-l1" xml:lang="grc">ἀεὶ νομίζονθ' οἱ πένητες τῶν θεῶν.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 95, 4 Μενάνδρου Λευκαδίᾳ Α. νομίζεθ' (i. e. νομίζεσθ') Β.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="311" xml:id="kock-0541-leykadia-311" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_leykadia">
+          <lg>
+            <l n="1" xml:id="kock-0541-leykadia-311-l1" xml:lang="grc">ἐπίθες τὸ πῦρ ἡ ζάκορος· οὑτωσὶ καλῶς.</l>
+          </lg>
+          <note type="source">Etymolog. m. 407, 22 (usque ad ζάκορος etiam Miller. Mélanges 139), Photius et Suidas ζάκορος . . . Μένανδρος Λευκαδίᾳ κτλ. ἡ ζάκορος ἱερέως οὑτωσὶ καλῶς ABVE Suid.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="312" xml:id="kock-0541-leykadia-312" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_leykadia">
+          <lg>
+            <l n="1" xml:id="kock-0541-leykadia-312-l1" xml:lang="grc">οὗ δὴ λέγεται πρώτη Σαπφὼ</l>
+            <l n="2" xml:id="kock-0541-leykadia-312-l2" xml:lang="grc">τὸν ὑπέρκομπον θηρῶσα Φάων'</l>
+            <l n="3" xml:id="kock-0541-leykadia-312-l3" xml:lang="grc">οἰστρῶντι πόθῳ ῥίψαι πέτρας</l>
+            <l n="4" xml:id="kock-0541-leykadia-312-l4" xml:lang="grc">ἀπὸ τηλεφανοῦς ἅλμα κατ' εὐχὴν</l>
+            <l n="5" xml:id="kock-0541-leykadia-312-l5" xml:lang="grc">σήν, δέσποτ' ἄναξ . . . .</l>
+          </lg>
+          <note type="source">Strabo 10, 452 ἔχει τὸ τοῦ Λευκάτα Ἀπόλλωνος ἱερὸν καὶ τὸ ἅλμα τὸ τοὺς ἔρωτας παύειν πεπιστευμένον. οὗ δὴ λέγεται πρώτη Σαπφώ, ὥς πού φησιν ὁ Μένανδρος, τὸν ὑπέρκομπον κτλ. ὁ μὲν οὖν Μένανδρος πρώτην ἁλέσθαι λέγει τὴν Σαπφώ. ex Leucadia excerptum esse adparet. Schol. Hephaestion. 9, 1 p. 126 Gaisf. κατὰ περιορισμοὺς δὲ ἀνίσους, οἷα ἐστὶν ἡ εἰσβολὴ τῆς Λευκαδίας Μενάνδρου, quae ad hoc ipsum carmen pertinere adparet, quod post prologum positum fuerat. cf. Mein. I 443.</note>
+          <note type="apparatus">— 3. οἰστρῶντι] οἰστροῦντι? nam Attici semper οἰστρήσειν, οἰστρῆσαι, οἰστρηθῆναι. πέτρας] fortasse σκοπιᾶς, ad amovendam positionem debilem. 4. ἀπὸ] κατὰ Herwerd. Obs. crit. 88. (Cob. V. 1.2 277). ἅλμα Wordsworth. Theocrit. 3, 25] ἀλλὰ. recte Wordsw.: nam Strabonem mediam sententiam abrupisse credi vix potest. 5. σὸν Bentl., coniungendum cum τέμενος fr. 313, quod ille cum hoc (312) conectebat. mihi κατ' εὐχήν corruptum et scribendum videtur κατ' αὐλὴν σήν. cf. quae adnotavimus ad Pherecr. 46. nam 'ex tuo voto, quemadmodum tibi vovimus' cum Meinekio scripturam vulgatam explicari posse despero. — ceterum cf. Phot. Λευκάτης· σκόπελος τῆς Ἠπείρου (?), ἀφ' οὗ ῥίπτουσιν αὑτοὺς εἰς τὸ πέλαγος οἱ ἱερεῖς (ἐρασταί Schleusner.). Σαπφὼ δὲ πρώτην ἐπὶ Φάωνι τοῦτο ποιῆσαι τὴν ποιήτριαν· οἱ δὲ τὴν ἑταίραν· ἐγένετο γὰρ ἄλλη [Λεσβία] ἑταίρα.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="313" xml:id="kock-0541-leykadia-313" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_leykadia">
+          <lg>
+            <l n="1" xml:id="kock-0541-leykadia-313-l1" xml:lang="grc">εὐφημείσθω</l>
+            <l n="2" xml:id="kock-0541-leykadia-313-l2" xml:lang="grc">τέμενος πέρι Λευκάδος ἀκτῆς.</l>
+          </lg>
+          <note type="source">Hesychius Λευκάδος· Μένανδρος ἐν Λευκαδίᾳ κτλ. quamquam fuerunt qui Leucadiac Menandreae commemorationem ad glossam Hesychii paullo infra positam λευκὴ ἡμέρα· ἀγαθή conl.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="314" xml:id="kock-0541-leykadia-314" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_leykadia">
+          <head>314</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-leykadia-314-l1" xml:lang="grc">πάφωνε οὐρεία χέλυς</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 1431 (ex Choerob.) χέλυς χέλυος. σημαίνει δὲ τὴν κιθάραν κτλ. Μένανδρος ἐν Λευκαδίᾳ. Eurip. Alc. 446 ἑπτάτονον ὀρείαν χέλυν. Herc. fur. 683 χέλυος ἑπτατόνου μολπάν, unde ἑπτάφωνε Lobeck.</note>
+          <note type="apparatus">οὐρεία Μenandri esse non potest, quamquam testudo ὀρεία χέλυς bene dicitur. ὄρεσι ζώουσα Hymn. Merc. 33 (cf. 24 sq.). fortasse ἑπτάφωνος Ἑρμαία χέλυς, a Mercurio inventa. Horat. C. 1, 10, 6. 3, 11, 1. 3.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="315" xml:id="kock-0541-leykadia-315" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_leykadia">
+          <head>315</head>
+          <note type="source">Zenobius 6, 13 Μένανδρος δέ φησιν ἐν Λευκαδίῳ (Λευκαδίᾳ) τὴν ἀγαθὴν ἡμέραν λευκὴν καλεῖσθαι. cf. Eupol. 174. Plut. Per. 27 cum adn. Sinten. Macar. 5, 51. Append. prov. 3, 60. Phot. Suid. Hesych. Bekker. Anecd. 106, 33 (Soph. fr. 5 N.). candidi soles Catull. 8, 3 (Ellis Journ. Philol. X 19).</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="316" xml:id="kock-0541-leykadia-316" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_leykadia">
+          <head>316</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-leykadia-316-l1" xml:lang="grc">ὀνόματα</l>
+          </lg>
+          <note type="source">Olympiodor. Aristot. Categ. 2, 2 cod. Mutin. 69 διττὸν τὸ ὄνομα· τὸ μὲν πτωτικόν, ὃ καὶ τοῖς γραμματικοῖς ἔθος καλεῖν οὕτω, τὸ δὲ φερόμενον κατὰ πάσης λέξεως σημαινούσης τι· οὕτω γὰρ καὶ ὁ Μένανδρος ἐν προοιμίοις τῆς Λευκαδίας ὀνόματα ἐκάλεσεν πᾶσαν λέξιν, καὶ αὐτὸς δὲ ὁ Ἀριστοτέλης ἐν τῷ Περὶ ἑρμηνείας ὀνόματα καλεῖ πᾶσαν λέξιν. per litteras mecum communicavit Dilesius.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="317" xml:id="kock-0541-leykadia-317" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_leykadia">
+          <head>317</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-leykadia-317-l1" xml:lang="grc">συντρίβειν</l>
+          </lg>
+          <note type="source">. . Μένανδρος κέχρηται ἐν Λευκαδίᾳ. Schol. Aristoph. Acharn. 284.</note>
+          <note type="apparatus">συντρίβειν Mein.] συντριβείη. cf. 78.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

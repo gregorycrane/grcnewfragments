@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CRATINUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Cratinus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0434.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0434.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="3" xml:id="kock-0434-adelon_dramaton-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">Fr. 3 ἐμοὶ μὲν (sic suppl. Mein.) ἡδὺ Nauck. Mélanges gréco-rom. V 221.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6_2" xml:id="kock-0434-adelon_dramaton-6-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">6, 2 scrib. ἀπετείσατο.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="16_2" xml:id="kock-0434-adelon_dramaton-16-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">16, 2 πρώτῳ ποιεῖσθαι πεῖραν Cobet. Coll. crit. 291.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="22" xml:id="kock-0434-adelon_dramaton-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">22. memorabilis est Plinii narratio 4, 91 nec licet dubitare de gente ea (Hyperboreis), cum tot auctores prodant frugum primitias solitos Delon mittere Apollini quem praecipue colunt. virgines ferebant eas, hospitiis gentium per annos aliquot venerabiles, donec violata fide in proximis accolarum finibus deponere sacra ea instituere, hique ad conterminos deferre, atque ita Delon usque.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="76b" xml:id="kock-0434-adelon_dramaton-76b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <head>76b (repet. ex vol. I vi)</head>
+          <note type="source">
+            <p>Schol. Oribas. III 680 <foreign xml:lang="grc">ἐκφόριον γὰρ λέγεται . . . ἐπὶ λόγου, ὡς κρατύνει θύραζε. ‘οὐκ ἔστι μῦθος ἔκφορος | ἐντεῦθεν ὡς ἄφρονες.’</foreign>
+            </p>
+          </note>
+          <note type="apparatus">
+            <p>indic. Nauckius, qui rectissime <foreign xml:lang="grc">ὡς Κρατῖνος Θράτταις</foreign>. pro <foreign xml:lang="grc">ἄφρονες</foreign> facile est scribere <foreign xml:lang="grc">ἄφρονας</foreign>: sed in tanta fragmenti brevitate incerta est emendatio.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="331b" xml:id="kock-0434-adelon_dramaton-331b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <head>331b</head>
+          <note type="source">
+            <p>Schol. Clement. Alex. p. 422, 23 Dindf. <foreign xml:lang="grc">τοῦ δὲ Ἵππωνος . . . ὡς ἀσεβοῦς γενομένου μέμνηται Κρατῖνος.</foreign>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="389b" xml:id="kock-0434-adelon_dramaton-389b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <head>389b</head>
+          <p>
+            <foreign xml:lang="grc">Ἀρτύων Ἀρτύωνος</foreign>
+          </p>
+          <note type="source">
+            <p>
+              <foreign xml:lang="grc">κέκλιται παρὰ Κρατίνῳ.</foreign> Theodosius <foreign xml:lang="grc">Περὶ κλίσεως τῶν εἰς ων βαρυτόνων</foreign> (ex Herodiano) in Progr. gymn. Heidelberg. 1887 p. 21, 29.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="459b" xml:id="kock-0434-adelon_dramaton-459b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <head>459b</head>
+          <lg>
+            <l n="1" xml:id="kock-0434-adelon_dramaton-459b-l1" xml:lang="grc">
+              <foreign xml:lang="grc">ἵν’ Ἀμαζόνες ἄνδρες ἔασιν.</foreign>
+            </l>
+          </lg>
+          <note type="source">
+            <p>Theodosius <foreign xml:lang="grc">Περὶ κλίσεως τῶν εἰς ων βαρυτόνων</foreign> in Progr. gymn. Heidelberg. 1887 p. 23, 1 <foreign xml:lang="grc">λέγεται καὶ ἀρσενικῶς (Ἀμαζών), ὡς παρὰ Κρατίνῳ κτλ.</foreign> Callimacho tribuitur <foreign xml:lang="grc">(ἐῶσιν)</foreign> in Cramer. Anecd. Ox. II 38. cf. O. Schneider. Callim. fr. 523 <foreign xml:lang="grc">(ἔωσιν)</foreign>. Cratino vindicat E.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="550" xml:id="kock-0434-adelon_dramaton-550" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>550. πάλαι non est <hi rend="italic">olim</hi>, sed <hi rend="italic">dudum</hi>, i. e. in scaena ipsa, sed paullo ante.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="565" xml:id="kock-0434-adelon_dramaton-565" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>565. Bergkio et Dindorfio adsentitur Nauck. Arist. Byz. 90 n. 9.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="568" xml:id="kock-0434-adelon_dramaton-568" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>568. Bachmann. Anecd. II 377, 11 <quote>Ἀριστοφάνης ἐν Κόραις</quote> κτλ. cf. Fleckeisen. Annal. CXXIII (1881) 309.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="569" xml:id="kock-0434-adelon_dramaton-569" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>569, 14. Arist. Ran. 1454 <quote>τί δαὶ σύ; τί λέγεις;</quote>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="576" xml:id="kock-0434-adelon_dramaton-576" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>576. Leonis opinio <quote>ζεῦγος τρίδουλον</quote> Horas interpretantis non erat digna quae commemoraretur ab Brandesio (Obs. crit. 34).</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="579" xml:id="kock-0434-adelon_dramaton-579" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>579, 3. sic Ephipp. 28 <quote>πράμνιον οἶνον Λέσβιον.</quote>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="581" xml:id="kock-0434-adelon_dramaton-581" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>581, 1 <quote>κεκραμμένου</quote> cod. Paris. 2720 Studemund. Philol. XLVI 26.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="586" xml:id="kock-0434-adelon_dramaton-586" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>586 <quote>πλὴν μέλιτος οὐδὲν γλυκύτερον</quote> τ. ἰσχ. Cobet. haec nescio quo casu in eis quae adnotavi exciderunt. deinde scribendum: ex Iuliani Epist. alterum versum effinxit cet.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="590" xml:id="kock-0434-adelon_dramaton-590" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>590. <quote>τὴν κεφαλὴν</quote> tuetur Cobet. Mnem. n. VIII 369.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="594" xml:id="kock-0434-adelon_dramaton-594" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>594. Eurip. Hecub. 1265 <quote>κύων γενήσει πύρσ' ἔχουσα δέργματα.</quote>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="596" xml:id="kock-0434-adelon_dramaton-596" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>596. Eustath. 1624, 18 (O. Kaehler. Herm. XXI 631) <quote>ὁ Ἀφροδίτης γάλα τὸν οἶνον εἰπὼν ἐκωμικεύσατο.</quote>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="609" xml:id="kock-0434-adelon_dramaton-609" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>609. scr. <quote>κυοῦσ'</quote>.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="615" xml:id="kock-0434-adelon_dramaton-615" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>615. nullius pretii sunt quae profert Herwerd. Mnem. n. X 75.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="619" xml:id="kock-0434-adelon_dramaton-619" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>619. <quote>γραμμήν</quote> conl. Arist. Ach. 483 inlustrari putat idem 76. Hesych. <quote>γραμμή· ἡ ἐπὶ τοῦ δρόμου, ἧς ἐπέβαινον οἱ δρομεῖς.</quote> sed ne sic quidem satis intellego.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="621" xml:id="kock-0434-adelon_dramaton-621" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>621. <quote>σαυτόν</quote> A. Nauck. (<quote>σεαυτόν</quote> Lex. Vindob., ubi auctor non commemoratur).</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="628" xml:id="kock-0434-adelon_dramaton-628" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>628. emendationem a me propositam occupaverat Nauckius Mélanges III 118.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="631" xml:id="kock-0434-adelon_dramaton-631" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>631. <quote>σᾶ</quote> retinendum. C. I. A. 62, 8 (Dittenberger. Syll. 88) <quote>ὅπως (ἂ)ν Ἄνδ(ρος) ἦ(ι) σ(ᾶ) τῷδ(ή)μωι τῶι Ἀθη(να)ίων.</quote> Bamberg. Jahresber. XII 34.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="636" xml:id="kock-0434-adelon_dramaton-636" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>636. Pherecr. 51, 3 confert Herwerd. Mnem. n. X 76.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="638" xml:id="kock-0434-adelon_dramaton-638" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>638. testimoniis adduntur in Stud. Vindob. VIII 246 Hesych. et Phot. <quote>στρεψίμαλλος</quote>, Milleri Mélanges 420 (<quote>στρεψίμαλος</quote>), Eustath. 1561, 36.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="652" xml:id="kock-0434-adelon_dramaton-652" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>652. Hesych. <quote>ὑπερῶ· ἀντὶ τοῦ προερῶ.</quote> Herodian. (post Lex. Vindob.) 316, 2 N. Etym. Gud. 541, 12. Etym. Ang. Ritschl. Opusc. I 690 addit Nauck. Mélanges V 228.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="678" xml:id="kock-0434-adelon_dramaton-678" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>678, 3. cf. Herwerden. Mnem. n. X 76. <quote>π. τοιαυτὶ τῇδὶ κἀκεῖ καὶ δεῦρο (δευρί)</quote> σχ. Kaibel. conl. Arist. Av. 425.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="679" xml:id="kock-0434-adelon_dramaton-679" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_adelon_dramaton">
+          <note type="apparatus">
+            <p>679. I. Wackernagelius (Ztschr. f. vergl. Sprachforsch. XXVIII 110sq.) ubique <quote>οὕνεκα</quote> etiam praepositionem scribi iubet: ionismum</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

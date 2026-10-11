@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΘΡΑΣΥΛΕΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.thrasyleon.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.thrasyleon.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.thrasyleon.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thrasyleon">
+        <head>ΘΡΑΣΥΛΕΩΝ</head>
+        <div type="textpart" subtype="fragment" n="240" xml:id="kock-0541-thrasyleon-240" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thrasyleon">
+          <head>240</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-thrasyleon-240-l1" xml:lang="grc">κατὰ πόλλ᾽ ἄρ᾽ ἐστὶν οὐ καλῶς εἰρημένον</l>
+            <l n="2" xml:id="kock-0541-thrasyleon-240-l2" xml:lang="grc">τὸ γνῶθι σαυτόν· χρησιμώτερον γὰρ ἦν</l>
+            <l n="3" xml:id="kock-0541-thrasyleon-240-l3" xml:lang="grc">τὸ γνῶθι τοὺς ἄλλους.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 21, 5 Μενάνδρου Θρασυλέοντος (θρασυλεον) A. Anton. Mel. 80 p. 139. Maxim. Conf. Serm. 56, 112 p. 663 Combefis.</note>
+          <note type="apparatus">1. πόλλ᾽ ἄρ᾽ Pors. Adv. 235] πόλλ᾽ ἂν. πολλῶν Anton. et Maxim. πολλά γ᾽ Steph. 2. σεαυτόν Voss Hens. et Maxim. ἦν] εἶ Voss. mrg.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="241" xml:id="kock-0541-thrasyleon-241" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thrasyleon">
+          <head>241</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-thrasyleon-241-l1" xml:lang="grc">ὁ δεύτερος πλοῦς ἐστι δήπου λεγόμενος,</l>
+            <l n="2" xml:id="kock-0541-thrasyleon-241-l2" xml:lang="grc">ἂν ἀποτύχῃ τις οὐρίου, κώπαισι πλεῖν.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 59, 9 Μενάνδρου ἐκ Θρασυλέοντος A.</note>
+          <note type="apparatus">2. οὐρίου κώπαισι Grot. cf. Cobet. N. 1. 84. 5. πρῶτον ἐν Stob., sed πρῶτον om. A. πνεύματος κώπαισι Ios. Scalig. ἂν ἀποτυχών τις πρῶτον ἐν κώπαις πλέῃ Mein. 1. Eustath. 661, 43 ὁ τῶν κωπηλατούντων πλοῦς δεύτερος κατὰ τὴν παροιμίαν λέγεται πλοῦς, ὡς πρώτου ὄντος τοῦ πλέειν πρὸς ἄνεμον. idem Odyss. 2 extr. δεύτερος πλοῦς ὁ δι᾽ ἔνδειαν (ἀνέμου) δι᾽ εἰρεσίας γινόμενος. 1453, 18 δεύτερος πλοῦς λέγεται, ὅτε ἀποτυχών τις οὐρίου κώπαις πλέει, κατὰ Παυσανίαν. Bachmann. Anecd. I 191, 31. Boisson. Anecd. II 445. cf. fr. 228. 279. Philemoni haec tribuuntur Diogen Vind. 2, 45 δεύτερος πλοῦς·</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="242" xml:id="kock-0541-thrasyleon-242" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thrasyleon">
+          <lg>
+            <l n="1" xml:id="kock-0541-thrasyleon-242-l1" xml:lang="grc">φιλοσοφεῖ δὲ τοῦθ’ ὅπως</l>
+            <l n="2" xml:id="kock-0541-thrasyleon-242-l2" xml:lang="grc">καταπράξεται τὸν γάμον.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Harpocration φιλοσοφεῖν ἀντὶ τοῦ πονεῖσθαι, ἀσκεῖν . . . Μένανδρος Θρασυλέοντι κτλ. Photius et Suidas φιλοσοφεῖν. Cramer. Anecd. Ox. II 500, 4. — τοῦθ’ ὅπως καταπράξεται Bentl.] τοῦτο ὅπως καταπράξηται (καταπράξη D) Harp. σοι τὸν γάμον Cobet. ἀσκεῖν Gronov.] φάσκειν.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="243" xml:id="kock-0541-thrasyleon-243" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thrasyleon">
+          <lg>
+            <l n="1" xml:id="kock-0541-thrasyleon-243-l1" xml:lang="grc">ἡ δ’ ἀνέῳγε τὴν θύραν.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Bekker. Anecd. 399, 24 ἀνέῳγεν οὐχὶ ἤνοιγε, καὶ ἀνεῴγετο λέγουσι. καὶ Θρασυλέοντι γ ἢ δ κτλ. sine auctoris fabulaeque nomine Suid. ἀνεώγεισαν. ἀνέω (in poetae verbis) cod. Bekk. γ ἢ δ] ἤδη δ’ Mein. ἡδὶ δ’ Porson. — cf. 229.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="244" xml:id="kock-0541-thrasyleon-244" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thrasyleon">
+          <lg>
+            <l n="1" xml:id="kock-0541-thrasyleon-244-l1" xml:lang="grc">ὡς ὀκνηρός, πάντα μέλλων, σιτόκουρος ὁμολογῶν</l>
+            <l n="2" xml:id="kock-0541-thrasyleon-244-l2" xml:lang="grc">παρατρέφεσθαι.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Athenaeus 6, 248 a b Μένανδρος δὲ τὸν ἄχρηστον καὶ μάτην τρεφόμενον σιτόκουρον εἴρηκεν ἐν Θρασυλέοντι οὕτως κτλ. v. 1 (— σιτόκουρος) sine nomine fabulae Eustathius 1854, 7. 1. ὡς add. Porson. σιτόκουρος Pors.] σιτόκουρον ἄθλιον ἄχρηστον εἰς γῆν, perperam inlata ex fr. 420, A. — cf. Alexid. 177. παρατρέφεσθαι ‘indignum ali tamquam vile quoddam mancipium.’ Casaub. cf. 866. Timocl. 9, 2. Demosth. 19, 200 ἐπὶ τῷ τριταγωνιστεῖν ἀγαπητῶς παρατρεφόμενον.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

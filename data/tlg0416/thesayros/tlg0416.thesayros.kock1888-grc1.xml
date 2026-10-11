@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ARCHEDICUS, ΘΗΣΑΥΡΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Archedicus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0416.thesayros.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0416.thesayros.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0416.thesayros.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0416_thesayros">
+        <head>ΘΗΣΑΥΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="2" xml:id="kock-0416-thesayros-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0416_thesayros">
+          <lg>
+            <l n="1" xml:id="kock-0416-thesayros-2-l1" xml:lang="grc">πρῶτον ὠμῶν κειμένων</l>
+            <l n="2" xml:id="kock-0416-thesayros-2-l2" xml:lang="grc">τῶν ἰχθύων πάρεισιν οἱ κεκλημένοι·</l>
+            <l n="3" xml:id="kock-0416-thesayros-2-l3" xml:lang="grc">‘δίδου κατὰ χειρός.’ ‘τοὔψον οὐκ εἴσει λαβών;’</l>
+            <l n="4" xml:id="kock-0416-thesayros-2-l4" xml:lang="grc">τὰς λοπάδας ἐπιθεὶς ἐπὶ τὸ πῦρ τοὺς ἄνθρακας</l>
+            <l n="5" xml:id="kock-0416-thesayros-2-l5" xml:lang="grc">ἔρραν’ ἐλαίῳ πάντα καὶ ποιῶ φλόγα.</l>
+            <l n="6" xml:id="kock-0416-thesayros-2-l6" xml:lang="grc">ἐν ᾧ τὸ λάχανον αἵ τε τῶν παροψίδων</l>
+            <l n="7" xml:id="kock-0416-thesayros-2-l7" xml:lang="grc">πάντ’ ἄνδρα δριμύτητες εὐφραίνουσί μου,</l>
+            <l n="8" xml:id="kock-0416-thesayros-2-l8" xml:lang="grc">ἑφθὸν τὸν ἰχθὺν ἀποδίδωμ’, ἔχοντα τοὺς</l>
+            <l n="9" xml:id="kock-0416-thesayros-2-l9" xml:lang="grc">χυμοὺς ἐν αὑτῷ τήν τε τῆς ἅλμης ἀκμήν,</l>
+            <l n="10" xml:id="kock-0416-thesayros-2-l10" xml:lang="grc">εἰς ἣν ἂν ἐμβάψαιτο πᾶς ἐλεύθερος·</l>
+          </lg>
+          <pb n="277" facs="urn:hathi:hvd.hxijy4:scan:303" />
+          <lg>
+            <l n="11" xml:id="kock-0416-thesayros-2-l11" xml:lang="grc">ἐλᾳδίου κοτύλη τε παραναλωμένη</l>
+            <l n="12" xml:id="kock-0416-thesayros-2-l12" xml:lang="grc">σέσωκέ μοι τρίκλινα πεντήκοντ᾽ ἴσως.</l>
+          </lg>
+          <note type="source">Athenaeus 7, 292 e παρ᾽ Ἀρχεδίκῳ ἐν Θησαυρῷ ἄλλος σοφιστὴς μαγειρίσκος τάδε λέγει κτλ. v. 11 Eustathius 1552, 33 ἐλάδιον.</note>
+          <note type="apparatus">κεῖται οὖν παρὰ τῷ Δειπνοσοφιστῇ, ἐλαδίου κοτύλη. 3. οὐκ εἴσει (ab εἴσειμι) K.] οἰχήσει Α. οὐκ οἴσεις Herwerd. Obs. crit. 100. 4. 5. τὸν ἄνθρακα (G. Herm.) ἔρραν᾽ ἐλαίῳ πάντα Mein. Anal. Ath. 129 (de singulari cf. Sotad. 1, 12). τούς τ᾽ ἄνθρακας ῥάνας — πανταχῆ Herwerd. ac πανταχοῦ vel πανταχῆ G. Herm. fortasse ἐπιθεὶς πρῶτον ἐπὶ τοὺς ἄνθρακας. 7. πάντ᾽ K.] τὸν. 9. αὑτῷ Dindf.] αὐτῷ Α. 10. πᾶς VL] πᾶς ἀνὴρ Α. 11. κοτύλη τε παραναλωμένη Dobr. Adv. II 314] κοτύλης τε παραναλωμένης. 12. σέσωκέ μοι Mein.] σέσωκέμου Α. σέσωκ᾽ ἐμοὶ Schweigh.
+loquitur popinarius. 3. ‘verba δίδου — λαβὼν a convivis sibi acclamari fingit’. Mein. 7. coniung. αἱ τῶν παροψίδων μου δριμύτητες. 11. ‘olei cotyla (ad ignem suscitandum) solitae inpensae addita in popina mea fortasse triclinia quinquaginta, i. e. quinquaginta tricliniorum homines, retinuit’, vel ‘tot emptores retinuit ut quinquaginta tricliniis operam meam conlocare possim’. cf. Anaxandr. 70.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" xml:id="kock-0416-thesayros-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0416_thesayros">
+          <lg>
+            <l n="1" xml:id="kock-0416-thesayros-3-l1" xml:lang="grc">δραχμῶν τριῶν γλαυκίσκον . . . . .</l>
+            <l n="2" xml:id="kock-0416-thesayros-3-l2" xml:lang="grc">γόγγρου κεφαλὴν καὶ τὰ πρῶτα τεμάχια</l>
+            <l n="3" xml:id="kock-0416-thesayros-3-l3" xml:lang="grc">δραχμῶν πάλιν πέντ᾽. ὦ ταλαιπώρου βίου.</l>
+            <l n="4" xml:id="kock-0416-thesayros-3-l4" xml:lang="grc">δραχμῆς τραχήλους. ἀλλὰ νὴ τὸν ἥλιον,</l>
+            <l n="5" xml:id="kock-0416-thesayros-3-l5" xml:lang="grc">κἀμοὶ τράχηλον ἕτερον εἴ ποθεν λαβεῖν</l>
+            <l n="6" xml:id="kock-0416-thesayros-3-l6" xml:lang="grc">ἦν καὶ πρίασθαι δυνατόν, ὃν ἔχω τοῦτον ἄν,</l>
+            <l n="7" xml:id="kock-0416-thesayros-3-l7" xml:lang="grc">πρὶν εἰσενεγκεῖν ταῦτα δεῦρ᾽, ἀπηγξάμην.</l>
+            <l n="8" xml:id="kock-0416-thesayros-3-l8" xml:lang="grc">οὐδεὶς δεδιακόνηκεν ἐπιπονώτερον.</l>
+            <l n="9" xml:id="kock-0416-thesayros-3-l9" xml:lang="grc">ἅμα μὲν πρίασθαι πολλὰ καὶ πολλοῦ σφόδρα,</l>
+            <l n="10" xml:id="kock-0416-thesayros-3-l10" xml:lang="grc">ἅμα δ᾽ εἴ τι χρηστὸν ἀγοράσαιμ᾽ ἀπωλλύμην,</l>
+            <l n="11" xml:id="kock-0416-thesayros-3-l11" xml:lang="grc">‘κατέδοντ᾽ ἐκεῖνοι τοῦτο’ πρὸς ἐμαυτὸν λέγων,</l>
+            <l n="12" xml:id="kock-0416-thesayros-3-l12" xml:lang="grc">‘διαπυτιοῦσ᾽ οἶνον δὲ τοιοῦτον χαμαί’.</l>
+            <l n="13" xml:id="kock-0416-thesayros-3-l13" xml:lang="grc">οἴμοι.</l>
+          </lg>
+          <note type="source">Athenaeus 7, 294 b Ἀρχέδικος ἐν Θησαυρῷ παράγει τινὰ μάγειρον λέγοντα περὶ ὧν ὠψώνηκεν αὐτός κτλ.</note>
+          <note type="apparatus">1. ὠψώνηκ᾽ ἐγώ add. Dindorfius. ὦ μεγάλοι θεοί vel οἴμοι τῶν κακῶν Mein. 2. γόγγρου δὲ Schweigh. γόγγρου κεφάλαια Mein. κεφαλὴν καὶ τακεροχρῶτα Herwerd. Obs. crit. 124. at non qualia, sed cuius piscis essent indicandum erat. scrib. κεφάλαιον καὶ τάδ᾽ ὀρφὼ τεμάχια.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

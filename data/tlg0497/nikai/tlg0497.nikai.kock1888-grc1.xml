@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>PLATO COMICUS, Νίκαι: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Plato Comicus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.nikai.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0497.nikai.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0497.nikai.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_nikai">
+        <head>Νίκαι</head>
+        <div type="textpart" subtype="fragment" n="82" xml:id="kock-0497-nikai-82" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_nikai">
+          <p>82. πλῦμα (ut φύσις φῦμα al.) Nauck. Mél. V 229.</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="86" xml:id="kock-0497-nikai-86" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_nikai">
+          <p>86. Eustath. 1817, 60 Πλάτων ὁ κωμικὸς τοὺς μεγάλους ἄρτους καὶ ῥυπαροὺς . . . Κιλικίους ὀνομάζει (O. Kaehler. Wochenschr. f. kl. Phil. 1885, 903. 4).</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="90" xml:id="kock-0497-nikai-90" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_nikai">
+          <p>90. Cobeti παλαιογενῶν Herwerdenus Mnem. n. X 77 interpretatur 'antiquo genere prognatorum', i. e. αὐτοχθόνων. audio: sed quid fiet Arist. Nub. 358 eisque locis quos ibi congessimus?</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="95" xml:id="kock-0497-nikai-95" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_nikai">
+          <p>95. add. Hyperid. 3 (Euxenid.), 1. Plut. Mor. 629 f.</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="103" xml:id="kock-0497-nikai-103" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_nikai">
+          <p>103. anonymus est Philostratus Vit. sophist. 15, 2.</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="121" xml:id="kock-0497-nikai-121" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_nikai">
+          <p>121. Πλάτων ἐν Σκεύεσι (sic cod.) Lexic. Vindob. 28, 5 Nauck.</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="150" xml:id="kock-0497-nikai-150" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_nikai">
+          <p>150. scrib. χαρίεν. Herodian. I 350, 5. II 673, 8 τοῦ χαρίεις χαρίεν ἐστὶ τὸ οὐδέτερον. . . ἰστέον δὲ ὅτι παρὰ τοῖς Ἀττικοῖς χάριεν</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

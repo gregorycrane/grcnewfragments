@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΛΟΚΡΟΙ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.lokroi.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.lokroi.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.lokroi.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_lokroi">
+        <head>ΛΟΚΡΟΙ</head>
+        <div type="textpart" subtype="fragment" n="318" xml:id="kock-0541-lokroi-318" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_lokroi">
+          <head>318</head>
+          <p>ὑγιέστερος κροτῶνος</p>
+          <note type="apparatus">ἐπὶ τῶν πάνυ ὑγιαινόντων ἡ παροιμία ἀπὸ τοῦ ζῴου τοῦ κροτῶνος. λεῖον γάρ ἐστιν ὅλον καὶ χωρὶς ἀμυχῆς καὶ μηδὲν ἔχον σίνος. μέμνηται ταύτης Μένανδρος ἐν Λοκροῖς. Zenobius 6, 27. cf. Macar. 5, 33. Suidas et Photius 180, 16. 614, 22. Aelian. Epist. 10 p. 19 Hercher. ὑγιεινότερος ἔσται κροτῶνος. prorsus aliam explicationem Strabo praebet 6, 262 τὴν παροιμίαν ὑγιέστερον Κρότωνος λέγουσαν ἐντεῦθεν εἰρῆσθαί φασιν, ὡς τοῦ τόπου πρὸς ὑγίειαν καὶ εὐεξίαν ἔχοντός τι φορὸν διὰ τὸ πλῆθος τῶν ἀθλητῶν. de accentu Herodian. I 36, 17 τὸ δὲ κρότων, ὅτε τὸν κτίστην ἢ τὴν πόλιν . . . σημαίνει . . . βαρύνεται, τὸ μέντοι ἐπὶ τοῦ φθαρτικοῦ τῶν κυνῶν (sunt κυνοραισταί Hom. Od. 17, 300) ὀξύνεται.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

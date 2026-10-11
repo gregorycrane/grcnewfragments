@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>PHILEMON, ΔΑΚΤΥΛΙΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Philemon</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.daktylios.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.daktylios.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.daktylios.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_daktylios">
+        <head>ΔΑΚΤΥΛΙΟΣ</head>
+        <div type="textpart" subtype="fragment" n="20b" xml:id="kock-0487-daktylios-20b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_daktylios">
+          <note type="source">Cod. paroemiogr. Paris. suppl. 676 (S Cohn. p. 80) n. 83</note>
+          <p>τὸν (ἐν Σάμῳ) κομήτην. Σάμιόν φασιν πύκτην κομῶντα εἰς Ὀλυμπιάδα (scr. — ίαν) ἀφικόμενον (καὶ νικήσαντα ἐπὶ τῷ θηλυπρεπεῖ πρὸς τῶν ἀνταγωνιστῶν χλευαζόμενον εἰς παροιμ(ίαν ἐλθεῖν) . . . τῆς παροιμίας ταύτης μεμνῆσθαι καὶ Δίφιλον ἐν Πήρᾳ καὶ Φιλή-</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

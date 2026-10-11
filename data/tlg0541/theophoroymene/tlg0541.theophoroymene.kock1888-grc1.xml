@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΘΕΟΦΟΡΟΥΜΕΝΗ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.theophoroymene.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.theophoroymene.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.theophoroymene.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_theophoroymene">
+        <head>ΘΕΟΦΟΡΟΥΜΕΝΗ</head>
+        <div type="textpart" subtype="fragment" n="225" xml:id="kock-0541-theophoroymene-225" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_theophoroymene">
+          <lg>
+            <l n="1" xml:id="kock-0541-theophoroymene-225-l1" xml:lang="grc">ὁ πλεῖστον νοῦν ἔχων</l>
+            <l n="2" xml:id="kock-0541-theophoroymene-225-l2" xml:lang="grc">μάντις τ᾽ ἄριστός ἐστι σύμβουλός θ᾽ ἅμα.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 3, 6 Μενάνδρου Θεοφορουμένῳ Α. 2. τ᾽ add. Salvin.</note>
+          <note type="apparatus">— hic quoque Menander Euripidem imitatur fr. 963 N. μάντις δ᾽ ἄριστος ὅστις εἰκάζει καλῶς. Cic. De div. 2, 5, 12 bene qui coniciet, vátem hunc perhibeto óptimum. Eurip. Hel. 757 γνώμη δ᾽ ἀρίστη μάντις (Mein.).</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="226" xml:id="kock-0541-theophoroymene-226" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_theophoroymene">
+          <lg>
+            <l n="1" xml:id="kock-0541-theophoroymene-226-l1" xml:lang="grc">μέσως μεθύων τὴν Θηρίκλειον ἔσπασεν.</l>
+          </lg>
+          <note type="source">Athenaeus 11, 472 b θηλυκῶς δὲ τὴν Θηρίκλειον εἶπε Μένανδρος ἐν Θεοφορουμένῃ κτλ. τὴν add. Schweigh. recte: nam sic demum Menandrum feminino genere usum esse adparet. θηρικλείαν Mein. V 103.</note>
+          <note type="apparatus">cf. fr. 324. μέσως corruptum videtur. fort. μεστήν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="227" xml:id="kock-0541-theophoroymene-227" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_theophoroymene">
+          <lg>
+            <l n="1" xml:id="kock-0541-theophoroymene-227-l1" xml:lang="grc">ἀπὸ μηχανῆς θεὸς ἐπεφάνης.</l>
+          </lg>
+          <note type="source">ἐπὶ τῶν ἀπροσδοκήτως ἐπ᾽ ὠφελείᾳ καὶ σωτηρίᾳ φαινομένων ... Μένανδρος Θεοφορουμένῃ. Schol. Plat. 394 Bekk. cf. Creuzer. Plotin. De pulchrit. p. 534.</note>
+          <note type="apparatus">fortasse ἀπὸ μηχανῆς θεὸς | ἡμῖν ἐπεφ. cf. fr. 278.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="228" xml:id="kock-0541-theophoroymene-228" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_theophoroymene">
+          <p>...</p>
+          <lg>
+            <l n="1" xml:id="kock-0541-theophoroymene-228-l1" xml:lang="grc">δεύτερος πλοῦς</l>
+          </lg>
+          <note type="source">παροιμία ἐπὶ τῶν ἀσφαλῶς τι πραττόντων, παρόσον οἱ διαμαρτόντες κατὰ τὸν πρότερον πλοῦν ἀσφαλῶς παρασκευάζονται τὸν δεύτερον ... Μένανδρος ... Θεοφορουμένῃ. Schol. Plat. 381 Bekk. Aristot. Eth. Nicom. 2, 9 (1109 a 34) ἐπεὶ οὖν τοῦ μέσου τυχεῖν ἄκρως χαλεπόν, κατὰ τὸν δεύτερον, φασί, πλοῦν τὰ ἐλάχιστα ληπτέον τῶν κακῶν. cf. Polit. 3, 13 (1284 b 19). Suid. δεύτερος πλοῦς· ὅτε ἀποτυχών τις οὐρίου κώπαις πλεῖ. cf. fr. 241 et Heindorf. Plat. Phaed. 99 b.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="223" xml:id="kock-0541-theophoroymene-223" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_theophoroymene">
+          <head>223</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-theophoroymene-223-l1" xml:lang="grc">εἴ τις προσελθών μοι θεῶν λέγοι ‘Κράτων,</l>
+            <l n="2" xml:id="kock-0541-theophoroymene-223-l2" xml:lang="grc">ἐπὰν ἀποθάνῃς, αὖθις ἐξ ἀρχῆς ἔσει·</l>
+            <l n="3" xml:id="kock-0541-theophoroymene-223-l3" xml:lang="grc">ἔσει δ' ὅ τι ἂν βούλῃ, κύων, πρόβατον, τράγος,</l>
+            <l n="4" xml:id="kock-0541-theophoroymene-223-l4" xml:lang="grc">ἄνθρωπος, ἵππος· δὶς βιῶναι γάρ σε δεῖ·</l>
+            <l n="5" xml:id="kock-0541-theophoroymene-223-l5" xml:lang="grc">εἱμαρμένον τοῦτ' ἐστίν, ὅ τι βούλει δ' ἑλοῦ·</l>
+            <l n="6" xml:id="kock-0541-theophoroymene-223-l6" xml:lang="grc">ἅπαντα μᾶλλον, εὐθὺς εἰπεῖν ἂν δοκῶ,</l>
+            <l n="7" xml:id="kock-0541-theophoroymene-223-l7" xml:lang="grc">ποίει με πλὴν ἄνθρωπον· ἀδίκως εὐτυχεῖ</l>
+            <l n="8" xml:id="kock-0541-theophoroymene-223-l8" xml:lang="grc">κακῶς τε πράττει τοῦτο τὸ ζῷον μόνον.</l>
+          </lg>
+          <pb n="64" facs="urn:hathi:hvd.hxijy4:scan:90" />
+          <lg>
+            <l n="9" xml:id="kock-0541-theophoroymene-223-l9" xml:lang="grc">ὁ κράτιστος ἵππος ἐπιμελεστέραν ἔχει</l>
+            <l n="10" xml:id="kock-0541-theophoroymene-223-l10" xml:lang="grc">ἑτέρου θεραπείαν· ἀγαθὸς ἂν γένῃ κύων,</l>
+            <l n="11" xml:id="kock-0541-theophoroymene-223-l11" xml:lang="grc">ἐντιμότερος εἶ τοῦ κακοῦ κυνὸς πολύ.</l>
+            <l n="12" xml:id="kock-0541-theophoroymene-223-l12" xml:lang="grc">ἀλεκτρυὼν γενναῖος ἐν ἑτέρᾳ τροφῇ</l>
+            <l n="13" xml:id="kock-0541-theophoroymene-223-l13" xml:lang="grc">ἔστιν, ὁ δ’ ἀγεννὴς καὶ δέδιε τὸν κρείττονα·</l>
+            <l n="14" xml:id="kock-0541-theophoroymene-223-l14" xml:lang="grc">ἄνθρωπος ἂν ᾗ χρηστός, εὐγενής, σφόδρα</l>
+            <l n="15" xml:id="kock-0541-theophoroymene-223-l15" xml:lang="grc">γενναῖος, οὐδὲν ὄφελος ἐν τῷ νῦν γένει.</l>
+            <l n="16" xml:id="kock-0541-theophoroymene-223-l16" xml:lang="grc">πράττει δ’ ὁ κόλαξ ἄριστα πάντων, δεύτερα</l>
+            <l n="17" xml:id="kock-0541-theophoroymene-223-l17" xml:lang="grc">ὁ συκοφάντης, ὁ κακοήθης τρίτα λέγει.</l>
+            <l n="18" xml:id="kock-0541-theophoroymene-223-l18" xml:lang="grc">ὄνον γενέσθαι κρεῖττον ἢ τοὺς χείρονας</l>
+            <l n="19" xml:id="kock-0541-theophoroymene-223-l19" xml:lang="grc">ὁρᾶν ἑαυτοῦ ζῶντας ἐπιφανέστερον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 106, 8 Μενάνδρου Θεοφορουμένου (sic) A.</note>
+          <note type="apparatus">v. 2 Sueton. Vesp. 23 de Cerylo liberto, qui dives admodum, ob subterfugiendum quandoque ius fisci, ingenuum se et Lachetem mutato nomine coeperat ferre: ὦ Λάχης, Λάχης (Men. fr. 921), ἐπὰν ἀποθάνῃς, αὖθις ἐξ ἀρχῆς ἔσει κηρύλος. v. 16. 17 Schol. Eurip. Hipp. 426 ὁ βίος ἥδεται τοῖς πονηροῖς, ὡς Μένανδρος κτλ. v. 16 Athenaeus 6, 248 d πράττει γὰρ πάντων ὁ κόλαξ ἄριστα, ὁ καλὸς εἶπεν Μένανδρος. v. 18. 19 Plutarch. Mor. 739f πολλάκις παρίσταται καὶ τὰ τοῦ κωμικοῦ γέροντος (i. e. Κράτωνος) κτλ.
+1. Κράτων Gesner.] κρατῶν. Κρίτων vel Στράτων Valck. 4. δὶς β. Α]διαβ. 5. αἱροῦ καὶ ἕλου Α. 11. εἶ] ἦ (non ᾖ) Α. 13. ὁ δ’] οὐδ’ Α. 14. ἐὰν ᾖ ἄνθρωπος χρηστὸς Α. ἂν δ’ ᾖ Mein. 16. δεύτερος συκ. A Schol. Eur. 17. τὰ τρίτ’ ἔχει cod. Caes. et Vind. Stob. τρίτος λέγεται Α Schol. Eur. τρίτατος (sine λέγ.) Β Ι.
+12. scr. ἐν προτέρᾳ τροφῇ. nam non solum aliter, sed melius alitur. cf. Plat. Lach. 183b προτέρους πρὸς τὰ τοῦ πολέμου et ad fr. 474 H. Iacobi. 13. de forma ἀγεννής cf. Heind. Plat. Charmid. 158 c. Schneider. Plat. Reip. 7, 529 a (ἀγεννῶς). Plat. com. 46, 6. 17. τὰ δεύτερα λέγειν 484, τὰ πρῶτα λ. Strattid. 1.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="224" xml:id="kock-0541-theophoroymene-224" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_theophoroymene">
+          <lg>
+            <l n="1" xml:id="kock-0541-theophoroymene-224-l1" xml:lang="grc">καὶ ταχὺ</l>
+            <l n="2" xml:id="kock-0541-theophoroymene-224-l2" xml:lang="grc">πάλιν τὸ πρῶτον περισοβεῖ ποτήριον</l>
+            <l n="3" xml:id="kock-0541-theophoroymene-224-l3" xml:lang="grc">αὐτοῖς ἀκράτου.</l>
+          </lg>
+          <note type="source">Athenaeus 11, 504 a Μενάνδρου . . . πάλιν ἐκ Θεοφορουμένης κτλ.</note>
+          <note type="apparatus">1. καὶ] παῖ Toeppel. Progr. Neobr. 1857, 13. deleto v. 2 πάλιν (πάλι Α), quod ex Athenaei verbis (πάλιν ἐκ Θεοφ.) inepte repetitum censet, Cobetus N. 75 καὶ ταχὺ τὸ πρῶτον περισόβει π. ‘quae domini verba sunt ad servulum’. paullo ante Athenaeus</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

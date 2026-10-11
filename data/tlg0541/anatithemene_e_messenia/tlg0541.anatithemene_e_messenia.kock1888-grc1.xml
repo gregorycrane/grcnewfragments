@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΑΝΑΤΙΘΕΜΕΝΗ Η ΜΕΣΣΗΝΙΑ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.anatithemene_e_messenia.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.anatithemene_e_messenia.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.anatithemene_e_messenia.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anatithemene_e_messenia">
+        <head>ΑΝΑΤΙΘΕΜΕΝΗ Η ΜΕΣΣΗΝΙΑ</head>
+        <div type="textpart" subtype="fragment" n="30" xml:id="kock-0541-anatithemene_e_messenia-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anatithemene_e_messenia">
+          <lg>
+            <l n="1" xml:id="kock-0541-anatithemene_e_messenia-30-l1" xml:lang="grc">οἱ δ’ ἁρπάσαντες τοὺς κάδους τοὺς στρογγύλους</l>
+            <l n="2" xml:id="kock-0541-anatithemene_e_messenia-30-l2" xml:lang="grc">ὕδρευον ἀνδρειότατα κηπουροὶ πάλιν.</l>
+            <l n="3" xml:id="kock-0541-anatithemene_e_messenia-30-l3" xml:lang="grc">Β. ‘ἤντλουν’ λέγειν δεῖ καὶ ‘κάδους’ οὐ δεῖ λέγειν,</l>
+            <l n="4" xml:id="kock-0541-anatithemene_e_messenia-30-l4" xml:lang="grc">ἀλλ’ ‘ἀντλιαντλητῆρας’.</l>
+          </lg>
+          <note type="source">
+            <p>Bekker. Anecd. 411, 12, ἀντλιαντλητῆρα. Μένανδρος Μεσσηνίᾳ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>1. τοὺς στρ. Bekker.] στρ. 2. κηπουροί Mein.] κηπ . . .</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="31" xml:id="kock-0541-anatithemene_e_messenia-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anatithemene_e_messenia">
+          <lg>
+            <l n="1" xml:id="kock-0541-anatithemene_e_messenia-31-l1" xml:lang="grc">τίθημ' ἔχειν χολήν σε καλλιωνύμου</l>
+            <l n="2" xml:id="kock-0541-anatithemene_e_messenia-31-l2" xml:lang="grc">πλείω.</l>
+          </lg>
+          <note type="source">
+            <p>Aelianus N. an. 13, 4 (ὑπὲρ τοῦ καλλιωνύμου) Ἀριστοτέλης (H. an. 8, 506 b 10) λέγει ὅτι ἄρα ἐπὶ τοῦ λοβοῦ τοῦ δεξιοῦ καθημένην ἔχει χολὴν πολλὴν . . . καὶ μαρτυρεῖ τούτοις ὁ Μένανδρος ἐν τῇ Μεσσηνίᾳ οἶμαι λέγων κτλ. Plin. N. h. 32, 69 callionymi fel . . . nulli hoc piscium copiosius, ut existimavit Menander quoque in comoediis. cf. Anaxipp. 2, 2. Athen. 7, 282 cd.</p>
+          </note>
+          <note type="apparatus">
+            <p>— amatoris esse puellae nimiam exprobrantis iracundiam sententia est Fritzschii p. 10.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="32" xml:id="kock-0541-anatithemene_e_messenia-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anatithemene_e_messenia">
+          <lg>
+            <l n="1" xml:id="kock-0541-anatithemene_e_messenia-32-l1" xml:lang="grc">Ἀράβιον ἆρ' ἐγὼ κεκίνηκ' ἄγγελον.</l>
+          </lg>
+          <note type="source">
+            <p>Apostolius 3, 71 Ἀράβιος αὐλητής· τίθεται ἐπὶ τῶν ἀπαυστὶ διαλεγομένων . . Μένανδρος Μεσσηνίᾳ κτλ. ἄγγελον Mein.] αὐλόν. Suidas Ἀράβιος ἄγγελος· Μένανδρος Ἀνατιθεμένῃ ἢ Μεσσηνίᾳ, παρὰ τὴν παροιμίαν Ἀράβιος αὐλητής. Proverbia Coisl. 40 p. 124 ἀπὸ τούτου ἐλήφθη ἡ παροιμία (Ἀράβιος αὐλητής), ἣν μεταλλάξας Μένανδρος Ἀράβιον, φησίν, ἐξεύρηκα σύμβουλον, καὶ Ἀράβιον ἐγὼ κεκίνηκ' ἄγγελον. Hesych. Ἀράβιος ἄγγελος· παροιμία παρὰ τὸ Ἀράβιος αὐλητής παραλαμβανομένη ἐπὶ τῶν ἀπαύστως διαλεγομένων. cf. 871 et quae adno adnotavimus ad Canthar. 1, ubi ante 'Dion. Perieg.' add. 'Eustath.'</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="33" xml:id="kock-0541-anatithemene_e_messenia-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anatithemene_e_messenia">
+          <lg>
+            <l n="1" xml:id="kock-0541-anatithemene_e_messenia-33-l1" xml:lang="grc">ἡγεῖταί μ' ὅλως</l>
+            <l n="2" xml:id="kock-0541-anatithemene_e_messenia-33-l2" xml:lang="grc">ἐπικόπανόν τι.</l>
+          </lg>
+          <note type="source">
+            <p>Pollux 10, 101 τράπεζα μαγειρική, ἣν οἱ νεώτεροι ἐπικόπανον. ἔστι δὲ τοὔνομα παρὰ Μενάνδρῳ ἐν Μεσσηνίᾳ κτλ. idem 6, 90 ἐπίξηνον, ὅπερ ἡ νέα κωμῳδία ἐπικόπανον καλεῖ. μ' Hemsterh.] μὲν. 'me quidem plane mensam coquinariam quandam existimat: adeo scilicet me verberibus lacerat.' Bentl. Epist. Hemsterh. 62. puellam de acceptis iniuriis queri arbitratur Fritzsch. p. 10.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>EUPOLIS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Eupolis</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0461.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0461.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0461.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="3" xml:id="kock-0461-adelon_dramaton-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <p>Aesch. Suppl. 350 (δάμαλις) ἂμ πέτραις ἠλιβάτοις . . μέμυκε φράζουσα βοτῆρι μόχθους.</p>
+          <note type="source">
+            <p>Suidae αἴγειον μέλος ad Eupolidis Capras refert Nauck. Mél. V 224.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="52" xml:id="kock-0461-adelon_dramaton-52" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>‘non necesse est sensu obscaeno accipiatur, si ponamus Aristophanem, qui καινὰς ἰδέας se proferre toties glorietur, ab aemulo irato exagitari, quod non dubitaverit alienos catinos delambere, i. e. aliorum inventa in suum commodum convertere’. Luebk. Observ. crit. 48 (βίον ὡς μοχθηρὸν ἔτριβεν scribens cum Dindf. et omnia uni personae tribuens). dubito tamen propter verbum ἀσεβῶν, nimis ut in tali causa acerbum. ceterum v. 2 περιειλίξας Etymol. m. Milleri (Mélanges 28).</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="65" xml:id="kock-0461-adelon_dramaton-65" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>exstat etiam in Lex. Vindob. 58, 16 Nauck.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="77" xml:id="kock-0461-adelon_dramaton-77" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>cf. etiam Erotian. 19. 20 Klein.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="79" xml:id="kock-0461-adelon_dramaton-79" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>scrib. Boisson. Anecd. III 265 pro IIII (perperam translato numero ex ed. min. Meinekii). ceterum cf. Annal. Fleckeisen. CXXIII (1881), 309.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="83" xml:id="kock-0461-adelon_dramaton-83" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>Κοτυτώ cod. recte. cf. Meinek. Theocr.<hi rend="superscript">3</hi> p. 475 (ad 6, 40). In Demis Eupolis Aeschyli in Persis exemplum secutus est.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="91" xml:id="kock-0461-adelon_dramaton-91" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>1 πῶς, non ὡς apud Marquardt. η το νητίας ὢν ἐγένου L. 3. τὴν φύσιν προθύμως LO.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="283" xml:id="kock-0461-adelon_dramaton-283" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>sic Arist. Ran. 754 <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0461-adelon_dramaton-283-l1" xml:lang="grc">ὦ Φοῖβ᾽ Ἄπολλον, ἔμβαλέ μοι τὴν</l>
+                  <l n="2" xml:id="kock-0461-adelon_dramaton-283-l2" xml:lang="grc">δεξιάν,</l>
+                </lg>
+              </quote> ubi Plutonis servus adpellatur, non Apollo.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="284" xml:id="kock-0461-adelon_dramaton-284" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>ἀποτράγημα iure reiecit Cobetus Mnem. n. VIIII 367.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="304_3" xml:id="kock-0461-adelon_dramaton-304-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>Eustath. 927, 57 λεπτὸς καὶ ἀτελὴς φόρτος . . . γέλγην δέ, φησίν (Αἴλ. Διονύσιος), αὐτὸν ἔλεγον οἱ παλαιοί O. Kaehler. Herm. XXI 630.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="308" xml:id="kock-0461-adelon_dramaton-308" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>add. Thom. Mag. 398, 7. Stud. Vindob. VIII 250.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="323" xml:id="kock-0461-adelon_dramaton-323" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>pro verbis ‘caput eius’ potius ‘caput meum’ Herwerd. Mnem. n. X 73. ‘conviciaire quantum lubet: verba enim’ cet.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="332" xml:id="kock-0461-adelon_dramaton-332" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>est etiam apud Eustath. 1166, 35 (Kaehler. Herm. XXI 630).</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="333" xml:id="kock-0461-adelon_dramaton-333" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>Aesch. Ag. 923 <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0461-adelon_dramaton-333-l1" xml:lang="grc">ἐν ποικίλοις κάλλεσιν βαίνειν.</l>
+                </lg>
+              </quote>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="345" xml:id="kock-0461-adelon_dramaton-345" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>Finckh. Philol. XXV 693 sq. <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0461-adelon_dramaton-345-l1" xml:lang="grc">ἰσχάσιν | βολβοί,</l>
+                </lg>
+              </quote> i. e. ‘adulescentes insipide nos cum ficubus comparant’. ita mulieres convicium in laudem suam convertere et simul adulescentium insipientiam ridere. Philem. 122. non muto sententiam.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="359" xml:id="kock-0461-adelon_dramaton-359" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>Eustathii testimonium (293, 41) add. O. Kaehler. Herm. XXI 630.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="360" xml:id="kock-0461-adelon_dramaton-360" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>κρανέης pro πρίνης Nauck. Bullet. Petersb. XII 515.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="412" xml:id="kock-0461-adelon_dramaton-412" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>scrib. Nauckius Aristoph. Byz. 211.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="416" xml:id="kock-0461-adelon_dramaton-416" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>scrib. κοινότερον διὰ τοῦ ει (non ε). Nauck. Mél. V 225.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="420" xml:id="kock-0461-adelon_dramaton-420" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="apparatus">
+            <p>delenda sunt verba ‘deleri iubet cet.’ cf. Nauck. Mél. V 225. 6.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="17b" xml:id="kock-0461-adelon_dramaton-17b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="source">
+            <p>Schol. Theocrit. 5, 141 Paris. 2831. Vatican. 4. Ambros. Ziegler. p. 46</p>
+          </note>
+          <note type="apparatus">
+            <p>φριμαγμός ἐστι τῶν ἵππων, βληχὴ δὲ αἰγῶν καὶ προβάτων. τῷ αὐτῷ ἁμαρτήματι περιπέπτωκε καὶ Εὔπολις ἐν Αἰξίν. itaque verbo φριμάττεσθαι (vel φριμαγμός) Eupolis in Capris videtur usus esse. cf. H. Iacobi V LXVII. VIII.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="367_b" xml:id="kock-0461-adelon_dramaton-367-b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0461_adelon_dramaton">
+          <note type="source">
+            <p>Aristid. II 170 Dindf.</p>
+          </note>
+          <note type="apparatus">
+            <p>(Periclem Athenienses garrulos fecisse negans) ὥστ᾽ ἐξ αὐτῶν ὧν τοὺς ὕστερον ᾐτιάσαντο (οἱ κωμικοί) καὶ ὧν ὑπὸ τῶν μετ᾽ ἐκεῖνον διεβλήθησαν τά γ᾽ ἐκείνου σεμνύνεται. ad quae Schol. 467, 23 εἰς τοὺς κωμικοὺς αἰνίττεται· ὧν εἷς ἐστιν ὁ Εὔπολις.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>APOLLODORUS CARYSTIUS, ΕΚΥΡΑ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Apollodorus Carystius</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0411.ekyra.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0411.ekyra.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0411.ekyra.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_ekyra">
+        <head>ΕΚΥΡΑ</head>
+        <div type="textpart" subtype="fragment" n="8" xml:id="kock-0411-ekyra-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_ekyra">
+          <lg>
+            <l n="1" xml:id="kock-0411-ekyra-8-l1" xml:lang="grc">ὀλίγαις ἐραστὴς γέγον’ ἑταίραισιν, Σύρα,</l>
+            <l n="2" xml:id="kock-0411-ekyra-8-l2" xml:lang="grc">βέβαιος.</l>
+          </lg>
+          <note type="source">Terentius Hecyr. 1, 1, 1 per pól quam paucos réperias mere-</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="9" xml:id="kock-0411-ekyra-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_ekyra">
+          <lg>
+            <l n="1" xml:id="kock-0411-ekyra-9-l1" xml:lang="grc">σύ με παντάπασιν ἥγησαι λίθον.</l>
+          </lg>
+          <note type="source">Terentius 2, 1, 17 tu inquam, mulier, quaé me omnino lápidem, non hominém putas. Donatus ἐν ἤθει. sic Apollodorus σύ με παντάπασιν eHCAY λίθον. corr. Cobet.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="10" xml:id="kock-0411-ekyra-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_ekyra">
+          <lg>
+            <l n="1" xml:id="kock-0411-ekyra-10-l1" xml:lang="grc">οἱ γὰρ ἀτυχοῦντες τὸν χρόνον κερδαίνομεν,</l>
+            <l n="2" xml:id="kock-0411-ekyra-10-l2" xml:lang="grc">(ὁπόσον ἂν ἀγνοῶ) μεν ἠτυχηκότες.</l>
+          </lg>
+          <note type="source">Terentius 3, 1, 6 nám nos omnes, quibus est alicunde áliquis obiectús labos, ómne quod est intérea tempus, prius quam id rescitúmst lucrost. Donatus totum Apollodori est, qui sic ait ΟΙΓΑΡ ACICOYNIEΣ ΤΟΝ χΡω CΝΟΦ ΔιΕΝΤΙΚΗKOTHC. emendavit et supplevit Cobet.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="11" xml:id="kock-0411-ekyra-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_ekyra">
+          <lg>
+            <l n="1" xml:id="kock-0411-ekyra-11-l1" xml:lang="grc">οὕτως ἕκαστός ἐστι παρὰ τὰ πράγματα</l>
+            <l n="2" xml:id="kock-0411-ekyra-11-l2" xml:lang="grc">ἢ σεμνὸς ἢ ταπεινός.</l>
+          </lg>
+          <note type="source">Terentius 3, 3, 20 ómnibus nobis út res dant sese, ita magni atque humilés sumus. Donatus οὕτως ἕκαστος διὰ τὰ πράγματα σεμνὸς ἦν καὶ ταπεινός.</note>
+          <note type="apparatus">1. οὕτως] ἡμῶν Cobet., Terentium secutus. ἐστι add. Mein. παρὰ Cobet.] διὰ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="12" xml:id="kock-0411-ekyra-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_ekyra">
+          <p>Μυκόνιος φαλακρός</p>
+          <note type="source">Terentius 3, 4, 26 magnús, rubicundus, crispus, crassus, caésius. Donatus inperite Terentium de Myconio crispum dixisse aiunt, cum Apollodorus calvum dixerit, quod proprium Myconiis est . . . unde etiam proverbium graecum Μυκόνιος φαλακρός. nihil de eo proverbio paroemiographi. sed Strabo 10, 487 τοὺς φαλακροὺς τινες Μυκονίους καλοῦσιν ἀπὸ τοῦ τὸ πάθος τοῦτο ἐπιχωριάζειν τῇ νήσῳ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="13" xml:id="kock-0411-ekyra-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_ekyra">
+          <lg>
+            <l n="1" xml:id="kock-0411-ekyra-13-l1" xml:lang="grc">μαρσίπιόν τι μικρόν</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

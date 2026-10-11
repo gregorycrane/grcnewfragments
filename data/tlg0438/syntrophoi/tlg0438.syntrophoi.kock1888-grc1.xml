@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DAMOXENUS, ΣΥΝΤΡΟΦΟΙ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Damoxenus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0438.syntrophoi.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0438.syntrophoi.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0438.syntrophoi.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0438_syntrophoi">
+        <head>ΣΥΝΤΡΟΦΟΙ</head>
+        <div type="textpart" subtype="fragment" n="2" xml:id="kock-0438-syntrophoi-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0438_syntrophoi">
+          <lg>
+            <l n="1" xml:id="kock-0438-syntrophoi-2-l1" xml:lang="grc">Ἐπικούρου δέ με</l>
+            <l n="2" xml:id="kock-0438-syntrophoi-2-l2" xml:lang="grc">ὁρᾶς μαθητὴν ὄντα τοῦ σοφοῦ, παρ᾽ ᾧ</l>
+            <l n="3" xml:id="kock-0438-syntrophoi-2-l3" xml:lang="grc">ἐν δύ᾽ ἔτεσιν καὶ μησὶν οὐχ ὅλοις δέκα</l>
+            <l n="4" xml:id="kock-0438-syntrophoi-2-l4" xml:lang="grc">τάλαντ᾽ ἐγώ σοι κατεπύκνωσα τέτταρα.</l>
+            <l n="5" xml:id="kock-0438-syntrophoi-2-l5" xml:lang="grc">Β. τοῦτο δὲ τί ἐστιν; εἰπέ μοι. Α. καθήγισα.</l>
+            <l n="6" xml:id="kock-0438-syntrophoi-2-l6" xml:lang="grc">ΙΙΙ μάγειρος ἦν κἀκεῖνος, ὦ γῆ καὶ θεοί.</l>
+            <l n="7" xml:id="kock-0438-syntrophoi-2-l7" xml:lang="grc">Β. ποῖος μάγειρος; Α. ἡ φύσις πάσης τέχνης</l>
+            <l n="8" xml:id="kock-0438-syntrophoi-2-l8" xml:lang="grc">ἀρχέγονον ἐστ᾽. Β. ἀρχέγονον, ὦλιτήριε;</l>
+            <l n="9" xml:id="kock-0438-syntrophoi-2-l9" xml:lang="grc">Α. οὐκ ἔστιν οὐδὲν τοῦ πονεῖν σοφώτερον,</l>
+            <l n="10" xml:id="kock-0438-syntrophoi-2-l10" xml:lang="grc">πᾶν εὐχερές τε πρᾶγμα τοῦ λόγου τριβὴν</l>
+            <l n="11" xml:id="kock-0438-syntrophoi-2-l11" xml:lang="grc">ἔχοντι τούτου· πολλὰ γὰρ συμβάλλεται.</l>
+            <l n="12" xml:id="kock-0438-syntrophoi-2-l12" xml:lang="grc">διόπερ μάγειρον ὅταν ἴδῃς ἀγράμματον</l>
+            <l n="13" xml:id="kock-0438-syntrophoi-2-l13" xml:lang="grc">μὴ Δημόκριτόν τε πάντα διανεγνωκότα,</l>
+            <l n="14" xml:id="kock-0438-syntrophoi-2-l14" xml:lang="grc">μᾶλλον δὲ κατέχοντα [καταγέλα ὡς κενοῦ]</l>
+            <l n="15" xml:id="kock-0438-syntrophoi-2-l15" xml:lang="grc">καὶ τὸν Ἐπικούρου κανόνα, μινθώσας ἄφες</l>
+            <l n="16" xml:id="kock-0438-syntrophoi-2-l16" xml:lang="grc">ὡς ἐκ διατριβῆς. τοῦτο δεῖ γὰρ εἰδέναι,</l>
+            <l n="17" xml:id="kock-0438-syntrophoi-2-l17" xml:lang="grc">τίν᾽ ἔχει διαφορὰν πρῶτον, ὦ βέλτιστε σύ,</l>
+            <l n="18" xml:id="kock-0438-syntrophoi-2-l18" xml:lang="grc">γλαυκίσκος ἐν χειμῶνι καὶ θέρει, πάλιν</l>
+            <l n="19" xml:id="kock-0438-syntrophoi-2-l19" xml:lang="grc">ποῖος περὶ δύσιν Πλειάδος συνειδέναι</l>
+            <l n="20" xml:id="kock-0438-syntrophoi-2-l20" xml:lang="grc">ἰχθὺς ὑπὸ τροπάς τ᾽ ἐστὶ χρησιμώτατος.</l>
+            <l n="21" xml:id="kock-0438-syntrophoi-2-l21" xml:lang="grc">αἱ μεταβολαὶ γὰρ αἵ τε κινήσεις κακὸν</l>
+            <l n="22" xml:id="kock-0438-syntrophoi-2-l22" xml:lang="grc">ἠλίβατόν ἐστ᾽ ἀνθρώποις ἀλλοιώματα</l>
+            <l n="23" xml:id="kock-0438-syntrophoi-2-l23" xml:lang="grc">ἐν ταῖς τροφαῖς ποιοῦσι, μανθάνεις; τὸ δὲ</l>
+            <l n="24" xml:id="kock-0438-syntrophoi-2-l24" xml:lang="grc">ληφθὲν καθ᾽ ὥραν ἀποδίδωσι τὴν χάριν.</l>
+            <l n="25" xml:id="kock-0438-syntrophoi-2-l25" xml:lang="grc">τίς παρακολουθεῖ δ᾽ αὐτά; τοιγαροῦν στρόφοι</l>
+            <l n="26" xml:id="kock-0438-syntrophoi-2-l26" xml:lang="grc">καὶ πνευμάτια γινόμενα τὸν κεκλημένον</l>
+          </lg>
+          <pb n="350" facs="urn:hathi:hvd.hxijy4:scan:376" />
+          <lg>
+            <l n="27" xml:id="kock-0438-syntrophoi-2-l27" xml:lang="grc">ἀσχημονεῖν ποιοῦσι. παρὰ δ’ ἐμοὶ τρέφει</l>
+            <l n="28" xml:id="kock-0438-syntrophoi-2-l28" xml:lang="grc">τὸ προσφερόμενον βρῶμα, καὶ λεπτύνεται</l>
+            <l n="29" xml:id="kock-0438-syntrophoi-2-l29" xml:lang="grc">ὀρθῶς τε διαπνεῖ. τοιγαροῦν εἰς τοὺς πόρους</l>
+            <l n="30" xml:id="kock-0438-syntrophoi-2-l30" xml:lang="grc">ὁ χυμὸς ὁμαλῶς πανταχοῦ συνίσταται.</l>
+            <l n="31" xml:id="kock-0438-syntrophoi-2-l31" xml:lang="grc">χυμός, λέγει Δημόκριτος, οὐδὲν πρᾶγμα τὰ</l>
+            <l n="32" xml:id="kock-0438-syntrophoi-2-l32" xml:lang="grc">γινόμενα ποιεῖ τὸν φαγόντ’ ἀρθριτικόν.</l>
+            <l n="33" xml:id="kock-0438-syntrophoi-2-l33" xml:lang="grc">Β. καὶ τῆς ἰατρικῆς τι μετέχειν μοι δοκεῖς.</l>
+            <l n="34" xml:id="kock-0438-syntrophoi-2-l34" xml:lang="grc">Α. καὶ πᾶς ὁ φύσεως ἐντός. ἡ δ’ ἀπειρία</l>
+            <l n="35" xml:id="kock-0438-syntrophoi-2-l35" xml:lang="grc">τῶν νῦν μαγείρων κατανόει, πρὸς τῶν θεῶν,</l>
+            <l n="36" xml:id="kock-0438-syntrophoi-2-l36" xml:lang="grc">οἷα ’στίν. ἅλμην ὅταν ἴδῃς ἐξ ἰχθύων</l>
+            <l n="37" xml:id="kock-0438-syntrophoi-2-l37" xml:lang="grc">ὑπεναντίων αὑτοῖσι ποιοῦντας μίαν</l>
+            <l n="38" xml:id="kock-0438-syntrophoi-2-l38" xml:lang="grc">καὶ σήσαμ’ ὑποτρίβοντας εἰς ταύτην, λαβὼν</l>
+            <l n="39" xml:id="kock-0438-syntrophoi-2-l39" xml:lang="grc">ἕκαστον αὐτῶν κατὰ μέρος προσπαρδέτω.</l>
+            <l n="40" xml:id="kock-0438-syntrophoi-2-l40" xml:lang="grc">Β. ὥς μοι κέχρησαι. Α. τί γὰρ ἂν εὖ γένοιτ’ ἔτι,</l>
+            <l n="41" xml:id="kock-0438-syntrophoi-2-l41" xml:lang="grc">τῆς ἰδιότητος πρὸς ἑτέραν μεμιγμένης</l>
+            <l n="42" xml:id="kock-0438-syntrophoi-2-l42" xml:lang="grc">καὶ συμπλεκομένης οὐχὶ συμφώνους ἁφάς;</l>
+            <l n="43" xml:id="kock-0438-syntrophoi-2-l43" xml:lang="grc">τὸ ταῦτα διορᾶν ἐστιν ἐμψύχου τέχνης,</l>
+            <l n="44" xml:id="kock-0438-syntrophoi-2-l44" xml:lang="grc">οὐ τὸ διανίζειν λοπάδας οὐδ’ ὄζειν καπνοῦ.</l>
+            <l n="45" xml:id="kock-0438-syntrophoi-2-l45" xml:lang="grc">ἐγὼ γὰρ εἰς τοὐπτάνιον οὐκ εἰσέρχομαι.</l>
+            <l n="46" xml:id="kock-0438-syntrophoi-2-l46" xml:lang="grc">Β. ἀλλὰ τί; Α. θεωρῶ πλησίον καθήμενος,</l>
+            <l n="47" xml:id="kock-0438-syntrophoi-2-l47" xml:lang="grc">πονοῦσιν ἕτεροι δ’, οἷς λέγω τὰς αἰτίας</l>
+            <l n="48" xml:id="kock-0438-syntrophoi-2-l48" xml:lang="grc">καὶ τἀποβαῖνον· ὀξὺ τὸ περίκομμ’, ἄνες.</l>
+            <l n="49" xml:id="kock-0438-syntrophoi-2-l49" xml:lang="grc">Β. ἁρμονικὸς εἶ μάγειρος. Α. ἐπίτεινον τὸ πῦρ.</l>
+            <l n="50" xml:id="kock-0438-syntrophoi-2-l50" xml:lang="grc">ὁμαλιζέτω τοῖς τάχεσιν· ἡ πρώτη λοπὰς</l>
+            <l n="51" xml:id="kock-0438-syntrophoi-2-l51" xml:lang="grc">ζεῖ ταῖς ἐφεξῆς οὐχὶ συμφώνως. νοεῖς</l>
+            <l n="52" xml:id="kock-0438-syntrophoi-2-l52" xml:lang="grc">τὸν τύπον; Β. Ἄπολλον, μέγα τι φαίνεθ’ ἡ τέχνη.</l>
+            <l n="53" xml:id="kock-0438-syntrophoi-2-l53" xml:lang="grc">Α. εἶτ’ οὐδὲν εἰκῆ παρατίθημι, μανθάνεις;</l>
+            <l n="54" xml:id="kock-0438-syntrophoi-2-l54" xml:lang="grc">βρῶμ’, ἀλλὰ μείξας πάντα κατὰ συμφωνίαν.</l>
+            <l n="55" xml:id="kock-0438-syntrophoi-2-l55" xml:lang="grc">Β. πῶς; Α. ἔστιν αὑτοῖς ἃ διὰ τεττάρων ἔχει</l>
+            <l n="56" xml:id="kock-0438-syntrophoi-2-l56" xml:lang="grc">κοινωνίαν, διὰ πέντε, διὰ πασῶν πάλιν.</l>
+            <l n="57" xml:id="kock-0438-syntrophoi-2-l57" xml:lang="grc">ταῦτα προσάγω πρὸς αὐτὰ τὰ διαστήματα</l>
+            <l n="58" xml:id="kock-0438-syntrophoi-2-l58" xml:lang="grc">καὶ ταῖς ἐπιφοραῖς εὐθὺς οἰκείως πλέκω·</l>
+            <l n="59" xml:id="kock-0438-syntrophoi-2-l59" xml:lang="grc">ἐνίοτ’ ἐφεστὼς παρακελεύομαι· πόθεν</l>
+            <l n="60" xml:id="kock-0438-syntrophoi-2-l60" xml:lang="grc">ἅπτει; τί τούτῳ μιγνύειν μέλλεις; ὅρα,</l>
+            <l n="61" xml:id="kock-0438-syntrophoi-2-l61" xml:lang="grc">διάφωνον ἕλκεις· οὐχ ὑπερβήσει σοφόν;</l>
+            <l n="62" xml:id="kock-0438-syntrophoi-2-l62" xml:lang="grc">Ἐπίκουρος οὕτω κατεπύκνου τὴν ἡδονήν,</l>
+            <l n="63" xml:id="kock-0438-syntrophoi-2-l63" xml:lang="grc">ἐμασᾶτ’ ἐπιμελῶς, εἶδε τἀγαθὸν μόνος</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="VIII" xml:id="kock-0438-syntrophoi-VIII" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0438_syntrophoi">
+          <lg>
+            <l n="1" xml:id="kock-0438-syntrophoi-VIII-l1" xml:lang="grc">ἐκεῖνος οἷόν ἐστιν· οἱ δ' ἐν τῇ στοᾷ</l>
+            <l n="65" xml:id="kock-0438-syntrophoi-VIII-l65" xml:lang="grc">ζητοῦσι συνεχῶς οἷόν ἐστ' οὐκ εἰδότες.</l>
+            <l n="3" xml:id="kock-0438-syntrophoi-VIII-l3" xml:lang="grc">οὐκοῦν ὅ γ' οὐκ ἔχουσιν, ἀγνοοῦσι δέ,</l>
+            <l n="4" xml:id="kock-0438-syntrophoi-VIII-l4" xml:lang="grc">οὐδ' ἂν ἑτέρῳ δοίησαν. Β. οὕτω συνδοκεῖ.</l>
+            <l n="5" xml:id="kock-0438-syntrophoi-VIII-l5" xml:lang="grc">ἀφῶμεν οὖν τὰ λοιπά. δῆλα δὴ πάλαι.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

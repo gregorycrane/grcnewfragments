@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΑΛΙΕΙΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.alieis.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.alieis.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.alieis.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+        <head>ΑΛΙΕΙΣ</head>
+        <div type="textpart" subtype="fragment" n="13" xml:id="kock-0541-alieis-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-13-l1" xml:lang="grc">χαῖρ᾽, ὦ φίλη γῆ, διὰ χρόνου πολλοῦ σ᾽ ἰδὼν</l>
+            <l n="2" xml:id="kock-0541-alieis-13-l2" xml:lang="grc">ἀσπάζομαι· τουτὶ γὰρ οὐ πᾶσαν ποιῶ</l>
+            <l n="3" xml:id="kock-0541-alieis-13-l3" xml:lang="grc">τὴν γῆν, ὅταν δὲ τοὐμὸν ἐσίδω χωρίον·</l>
+            <l n="4" xml:id="kock-0541-alieis-13-l4" xml:lang="grc">τὸ γὰρ τρέφον με τοῦτ᾽ ἐγὼ κρίνω θεόν.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="14" xml:id="kock-0541-alieis-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-14-l1" xml:lang="grc">ὁ πρῶτος εὑρὼν διατροφὴν πτωχῷ τέχνην</l>
+            <l n="2" xml:id="kock-0541-alieis-14-l2" xml:lang="grc">πολλοὺς ἐποίησεν ἀθλίους· ἁπλοῦν γὰρ ἦν</l>
+            <l n="3" xml:id="kock-0541-alieis-14-l3" xml:lang="grc">τὸν μὴ δυνάμενον ζῆν ἀλύπως ἀποθανεῖν.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 61, 1 Μενάνδρου Ἁλιέως Α. Plaut. Trin. 2, 2, 58 dé mendico mále meretur qui ei dat quod edit aút bibat: | nam ét illud quod dat pérdit et illi pródit (i. e. producit) vitam ad míseriam. (Toeppel. Progr. Neobr. 1857 p. 11.)</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="15" xml:id="kock-0541-alieis-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-15-l1" xml:lang="grc">ὡς δὲ τὴν ἄκραν</l>
+            <l n="2" xml:id="kock-0541-alieis-15-l2" xml:lang="grc">κάμπτοντας ἡμᾶς εἶδον, ἐμβάντες ταχὺ</l>
+            <l n="3" xml:id="kock-0541-alieis-15-l3" xml:lang="grc">ἀνηγάγοντο.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 402, 8 ἀνηγάγοντο· ἀνήχθησαν . . . Μένανδρος Ἁλιεῦσιν κτλ. κάμπτοντας Bekker.] κάμπτοντες. 'ut nos promunturium flectentes viderunt, celeriter navem conscenderunt.'</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="16" xml:id="kock-0541-alieis-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-16-l1" xml:lang="grc">ἐκλελάκτικεν</l>
+            <l n="2" xml:id="kock-0541-alieis-16-l2" xml:lang="grc">ὁ χρηστὸς ἡμῖν μοιχός, ἀλλ' ἀντάλλαγος —</l>
+          </lg>
+          <note type="source">Suidas ἀντάλλαγον καλοῦσι τὸν ἀντὶ ἄλλου ἠλλαγμένον, οὐχὶ ἄνταλλον. Μένανδρος ... ἐν Ἁλιεῖ κτλ. idem ἐκλελάκτικεν· ἀποβέβηκεν, ἀπέφυγεν. Bekker Anecd. 410, 30 ἀνταλλαῖος (Mein. ἀντάλλαγος)</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="17" xml:id="kock-0541-alieis-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-17-l1" xml:lang="grc">δύ' οἰκίας</l>
+            <l n="2" xml:id="kock-0541-alieis-17-l2" xml:lang="grc">φηλοῦν γερόντων, ὡς λέγεις, ἀβελτέρων.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Photius et Suidas φηλοῦν· ἀπατᾶν. Μένανδρος Ἀλιεῖ κτλ. Schol. Aristoph. Pac. 1165 φῆλος ὁ ἀπατεών. Μένανδρος Ἀλιεῖ δύ' — γερόντων. φηλοῦν] φίλων cod. Phot. φηλῶν Schol. Arist. et Porson. φήλων (adiect.) Naber. — Phot. φηλώματα· ἐξαπάτας. φηλοῦν γὰρ τὸ ἐξαπατᾶν. eadem fere Harpocr. φηλώματα. Bekker. Anecd. 315, 11 φηλώματα· αἱ ἀπάται, παρὰ τὸν φήληκα. φήληξ δ' ἐστὶν ὁ ὄλυνθος ὁ φαινόμενος μὲν πέπειρος, οὐκ ὢν δέ (sic ex Bekkeri emend.). 71, 4 φήληκες . . . παρὰ τὸ φηλοῦν, ὅ ἐστιν ἀπατᾶν. Hesych. φηδῶσαι (φηλ.), φηλήτῃσι, φῆλον, φηλωθείς. — in verbis δύ' οἰκίας vitium latere iure suspicabatur Iacobs. not. ms. δύο σκιὰς φηλῶν — ὡς λέγουσ' Nauck. Ztschr. Gymnas. X 505. fortasse δυσηκοΐαν . . | φ. γ. φηλῶν an φηλοῦν verum sit discerni non potest.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="18" xml:id="kock-0541-alieis-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-18-l1" xml:lang="grc">χαλεπόν γε θυγάτηρ κτῆμα καὶ δυσδιάθετον.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Stobaeus Floril. 77, 6 Μενάνδρου Ἀλιεύς (i. e. Ἀλιεῦσι Mein.) A. cf. 60 et monost. 750. Hesychius οὐκ εὐδιάθετος· οὐ δυναμένη εὐχερῶς γήμασθαι, unde Mein. in Menandro κοὐκ εὐδιάθετον. 'metaphora a mercibus venum expositis petita. Lycon. Diog. L. 5, 65 βαρύ φορτίον πατρὶ κόρη.' Mein. cf. etiam Cobet. Mnem. n. VIIII 376.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="19" xml:id="kock-0541-alieis-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-19-l1" xml:lang="grc">δύναται τὸ πλουτεῖν καὶ φιλανθρώπους ποιεῖν.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Stobaeus Floril. 91, 5 Μένανδρος Ἀλιεῖ A. idem versus monost. 120 et sine auctoris fabulaeve nomine Hermog. Progymn. p. 8, 1 Spengel. 'interdum divitiae etiam humanum faciunt hominem'. est enim Stobaei liber Ἔπαινος πλούτου.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="20" xml:id="kock-0541-alieis-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-20-l1" xml:lang="grc">καὶ χρυσολαβὲς καλὸν πάνυ</l>
+            <l n="2" xml:id="kock-0541-alieis-20-l2" xml:lang="grc">ἐγχειρίδιον.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Pollux 10, 145 Εὐριπίδης μὲν ἐν Παλαμήδει λέγει κώπην χρυσόκολλον, Μένανδρος δὲ ἐν Ἀλιεῦσι κτλ. ἐγχειρίδιον fr. 74, 6 et Hermipp. 46, 5.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="21_22_23" xml:id="kock-0541-alieis-21-22-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-21-22-23-l1" xml:lang="grc">παχὺς γὰρ ὗς ἔκειτ’ ἐπὶ στόμα.</l>
+          </lg>
+          <lg>
+            <l n="1_2" xml:id="kock-0541-alieis-21-22-23-l1-2" xml:lang="grc">ἐτρύφησεν ὥστε μὴ πολὺν τρυφᾶν χρόνον.</l>
+          </lg>
+          <lg>
+            <l n="1_3" xml:id="kock-0541-alieis-21-22-23-l1-3" xml:lang="grc">ἴδιον ἐπιθυμῶν μόνος μοι θάνατος οὗτος φαίνεται</l>
+            <l n="2" xml:id="kock-0541-alieis-21-22-23-l2" xml:lang="grc">εὐθάνατος, ἔχοντα πολλὰς χολλάδας κεῖσθαι παχύν,</l>
+            <l n="3" xml:id="kock-0541-alieis-21-22-23-l3" xml:lang="grc">ὕπτιον, μόλις λαλοῦντα καὶ τὸ πνεῦμ’ ἔχοντ’ ἄνω,</l>
+            <l n="4" xml:id="kock-0541-alieis-21-22-23-l4" xml:lang="grc">ἐσθίοντα καὶ λέγοντα ’σήπομ’ ὑπὸ τῆς ἡδονῆς.’</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="24" xml:id="kock-0541-alieis-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-24-l1" xml:lang="grc">εὐποροῦμεν, οὐδὲ μετρίως· ἐκ Κυΐνδων χρυσίον,</l>
+            <l n="2" xml:id="kock-0541-alieis-24-l2" xml:lang="grc">Περσικαὶ στολαὶ δὲ κεῖνται πορφυραῖ, τορεύματα</l>
+            <l n="3" xml:id="kock-0541-alieis-24-l3" xml:lang="grc">ἔνδον ἔστ’, ἄνδρες, ποτηρίδια, τορεύματα,</l>
+            <l n="4" xml:id="kock-0541-alieis-24-l4" xml:lang="grc">κἀκτυπωμάτων πρόσωπα, τραγέλαφοι, λαβρώνια.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="25" xml:id="kock-0541-alieis-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-25-l1" xml:lang="grc">καὶ θάλαττα βορβορώδης, ἢ τρέφει θύννον μέγαν.</l>
+          </lg>
+          <note type="source">Athenaeus 7, 303 c μνημονεύει δὲ τοῦ θύννου . . . Μένανδρος Ἁλιεῦσι κτλ. καὶ θάλασσα καὶ A. alterum καὶ eiecit Bentl. θάλαττα Mein. Μένανδρος add. Dalecamp.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="26" xml:id="kock-0541-alieis-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-26-l1" xml:lang="grc">ἀναπετῶ τουτὶ προσελθὼν κοὐκ ἀνέξομ’ οὐκέτι.</l>
+          </lg>
+          <note type="source">Suidas et Zonaras 204 ἀναπετῶ· ἀναπετάσω. Μένανδρος Ἁλιεῦσιν κτλ. προσελθὼν D Suid. et Zon.] προελθὼν A K. Ἁλιεῦσι Kuster.] ἄλλοις. an Ἁλαεῦσι; — τουτί, τὸ θύριον Dobr.</note>
+          <note type="apparatus">‘suspicor haec ab eo piscatore pronuntiari, qui cistam monumenta puellae condentem recluderet’. Bernhardy. — fort. ἀναπετῶ | τουτὶ κτλ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="27" xml:id="kock-0541-alieis-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <lg>
+            <l n="1" xml:id="kock-0541-alieis-27-l1" xml:lang="grc">ἀμφιβλήστρῳ περιβάλλεται</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="28" xml:id="kock-0541-alieis-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <head>ἡδυλίζειν</head>
+          <note type="source">
+            <p>Photius ἡδυλισμός· εἶδός τι κολακείας. καὶ Μένανδρος ἐν Ἁλιεῖ κέχρηται τῷ ἡδυλίζειν. Eustath. 1417, 21 ἡδυλισμός, ἀφ’ οὗ καὶ τὸ ἡδυλίζειν παρὰ Μενάνδρῳ. Hesych. ἡδυλίσαι· συνουσιάσαι. ἡδυλισμός· συνουσία.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="29" xml:id="kock-0541-alieis-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+          <head>ἡ λαμπήνη</head>
+          <note type="source">
+            <p>. . . ἐν τοῖς Μενάνδρου Ἁλιεῦσιν Pollux 10, 52. Phot. λαμπήνη· εἶδος ἅρματος ἁμάξης (ἁρμαμάξης Dobr.). οὕτω Μένανδρος. Hesych. λαμπήνη· εἶδος ἁμάξης ἐφ’ ἧς ὀχοῦνται. ἔνιοι ἀπήνη. ἢ ἁρμαμάξης περιφανοῦς βασιλικῆς. similiter Suid. λαμπήνη. cf. Soph. fr. 405 N. Posidipp. 10.</p>
+          </note>
+          <note type="apparatus">
+            <p>Praeterea cf. fr. 8.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

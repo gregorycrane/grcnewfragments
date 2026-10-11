@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΔΗΜΙΟΥΡΓΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.demioyrgos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.demioyrgos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.demioyrgos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_demioyrgos">
+        <head>ΔΗΜΙΟΥΡΓΟΣ</head>
+        <div type="textpart" subtype="fragment" n="113" xml:id="kock-0541-demioyrgos-113" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_demioyrgos">
+          <lg>
+            <l n="1" xml:id="kock-0541-demioyrgos-113-l1" xml:lang="grc">τί τοῦτο, παῖ; διακονικῶς γὰρ νὴ Δία</l>
+            <l n="2" xml:id="kock-0541-demioyrgos-113-l2" xml:lang="grc">προελήλυθας. Β. ναί· πλάττομεν γὰρ πλάσματα,</l>
+            <l n="3" xml:id="kock-0541-demioyrgos-113-l3" xml:lang="grc">τὴν νύκτα τ’ ἠγρυπνήκαμεν· καὶ νῦν ἔτι</l>
+            <l n="4" xml:id="kock-0541-demioyrgos-113-l4" xml:lang="grc">ἀποίητα πάμπολλ’ ἐστὶν ἡμῖν.</l>
+          </lg>
+          <note type="source">Athenaeus 4, 172 c ὅτι ἐκεχώριστο τὰ τῆς ὑπουργίας, πεμμάτων μὲν προνοουσῶν τῶν δημιουργῶν, ὀψαρτυτικῆς δὲ μαγείρων, διεσάφησεν . . . Μένανδρος Δημιουργῷ κτλ.</note>
+          <note type="apparatus">2. πλάσματα] ‘forsitan πέμματα’. Mein. cf. tamen Lobeck. Paralip. 504. — ‘sunt ipsius δημιουργοῦ verba’. Mein.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="114" xml:id="kock-0541-demioyrgos-114" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_demioyrgos">
+          <lg>
+            <l n="1" xml:id="kock-0541-demioyrgos-114-l1" xml:lang="grc">μακάριος ὅστις οὐσίαν καὶ νοῦν ἔχει·</l>
+            <l n="2" xml:id="kock-0541-demioyrgos-114-l2" xml:lang="grc">χρῆται γὰρ οὗτος εἰς ἃ δεῖ ταύτῃ καλῶς.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 103, 7 Μενάνδρου Δημιουργοῦ A. Antonius Mel. 111 p. 221. v. 1 Plutarchus Mor. 34 c τοῦ Μενάνδρου λέγοντος κτλ. monost. 340. Maxim. Conf. 12, 35 p. 571 Combefis. duobus versibus auctum idem fragmentum Stob. Flor. 94, 7 Μενάνδρου Μηναγύρτῃ A. scilicet 94, 7 ‘librarius lemma tertio et quarto versui adponendum primo et secundo adscripsit.’ Mein.</note>
+          <note type="apparatus">— 2. ταύτῃ, τῇ οὐσίᾳ. ταῦτα Max. Conf. — cf. Sext. Turpil. fr. 3 (p. 89. 90 Ribb.).</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="115" xml:id="kock-0541-demioyrgos-115" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_demioyrgos">
+          <p>βίος</p>
+          <p>ἐπὶ [συν]οὐσίας . . . Μένανδρος Δημιουργῷ. Bekker. Anecd. 83, 31.</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="116" xml:id="kock-0541-demioyrgos-116" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_demioyrgos">
+          <p>ληνόν</p>
+          <note type="source">Μένανδρος ἐν Δημιουργῷ . . εἴρηκε τὴν κάρδοπον. Pollux 10, 102. idem 7, 22 τὸ ἀγγεῖον μαγίς καὶ μάκτρα καὶ σκάφη καὶ παρὰ Μενάνδρῳ ληνός. et 7, 179 Μένανδρος δὲ τὴν κάρδοπον καὶ ληνὸν κέκληκεν.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

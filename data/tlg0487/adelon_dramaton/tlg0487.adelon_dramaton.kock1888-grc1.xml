@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>PHILEMON, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Philemon</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="4" xml:id="kock-0487-adelon_dramaton-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_adelon_dramaton">
+          <note type="apparatus">Fr. 4, 1. praecedebat obiectum verbi εὗρες, unde simul pendebant voces εἰς ἅπαντας.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="10" xml:id="kock-0487-adelon_dramaton-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_adelon_dramaton">
+          <note type="apparatus">10. Menand. 550 confert O. Crusius p. 627.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="21" xml:id="kock-0487-adelon_dramaton-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_adelon_dramaton">
+          <note type="apparatus">21. cf. Menand. 441.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="23" xml:id="kock-0487-adelon_dramaton-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_adelon_dramaton">
+          <note type="apparatus">23. adfert etiam Maxim. Conf. 10, 32 p. 563 Combef. (3 καὶ γὰρ ὁ λ. 4. λοιδορεῖται ὁ λ).</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="224b" xml:id="kock-0487-adelon_dramaton-224b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_adelon_dramaton">
+          <p>σύζηθι</p>
+          <note type="apparatus">
+            <p>Etymologicum m. Milleri (Mélanges 140) εὕρηται καὶ παρὰ Φιλήμονι μετὰ τῆς σύν προθέσεως σύζηθι. non dubito quin comicum dicat.</p>
+            <p>Praeterea cf. Menand. 241. 1097. 8. 9. adesp. 249. 740.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

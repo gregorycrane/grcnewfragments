@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>NICOLAUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Nicolaus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0481.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0481.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0481.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0481_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0481-adelon_dramaton-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0481_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0481-adelon_dramaton-1-l1" xml:lang="grc">τὸ τῶν παρασίτων, ἄνδρες, ἐξηῦρεν γένος</l>
+            <l n="2" xml:id="kock-0481-adelon_dramaton-1-l2" xml:lang="grc">Διὸς πεφυκώς, ὡς λέγουσι, Τάνταλος.</l>
+            <l n="3" xml:id="kock-0481-adelon_dramaton-1-l3" xml:lang="grc">οὐ δυνάμενος δὲ τῇ τέχνῃ χρῆσθαι καλῶς</l>
+            <l n="4" xml:id="kock-0481-adelon_dramaton-1-l4" xml:lang="grc">ἀκόλαστον ἔσχε γλῶσσαν, εἶτ’ ἀκουσίῳ</l>
+            <l n="5" xml:id="kock-0481-adelon_dramaton-1-l5" xml:lang="grc">δίφρῳ περιπεσὼν δυναμένῳ λιμὸν ποιεῖν</l>
+            <l n="6" xml:id="kock-0481-adelon_dramaton-1-l6" xml:lang="grc">ἀπὸ τῆς τραπέζης ἐξαπίνης ἀπεστράφη·</l>
+            <l n="7" xml:id="kock-0481-adelon_dramaton-1-l7" xml:lang="grc">ἄφνω δὲ πληγεὶς εἰς μέσην τὴν γαστέρα</l>
+            <l n="8" xml:id="kock-0481-adelon_dramaton-1-l8" xml:lang="grc">ἔδοξεν αὐτῷ γεγονέναι τἄνω κάτω,</l>
+            <l n="9" xml:id="kock-0481-adelon_dramaton-1-l9" xml:lang="grc">Σίπυλόν τε τοῦτον ἀνατετράφθαι τὸν τρόπον·</l>
+            <l n="10" xml:id="kock-0481-adelon_dramaton-1-l10" xml:lang="grc">καὶ μάλα δικαίως· Φρὺξ γὰρ ἂν οὐχ ἱκανὸς ἦν</l>
+            <l n="11" xml:id="kock-0481-adelon_dramaton-1-l11" xml:lang="grc">τὴν τοῦ τρέφοντος εὖ φέρειν παρρησίαν.</l>
+            <l n="12" xml:id="kock-0481-adelon_dramaton-1-l12" xml:lang="grc">διὸ δὴ τοιαύτης παντελῶς καχεξίας</l>
+            <l n="13" xml:id="kock-0481-adelon_dramaton-1-l13" xml:lang="grc">ἐν τοῖς βίοις παρὰ πᾶσιν ἐζηλωμένης</l>
+            <l n="14" xml:id="kock-0481-adelon_dramaton-1-l14" xml:lang="grc">πικρῶς ἐπιπλῆξαι βούλομ’, ἄνπερ νὴ Δία</l>
+            <l n="15" xml:id="kock-0481-adelon_dramaton-1-l15" xml:lang="grc">παρρησίαν μοι δῶτε, τοὺς ἀσυμβόλους</l>
+          </lg>
+          <pb n="384" facs="urn:hathi:hvd.hxijy4:scan:410" />
+          <lg>
+            <l n="16" xml:id="kock-0481-adelon_dramaton-1-l16" xml:lang="grc">τἀλλότρια δειπνεῖν ἑλομένους ἄνευ πόνου.</l>
+            <l n="17" xml:id="kock-0481-adelon_dramaton-1-l17" xml:lang="grc">τί γὰρ παθών, ἄνθρωπε, πρὸς τῶν δαιμόνων</l>
+            <l n="18" xml:id="kock-0481-adelon_dramaton-1-l18" xml:lang="grc">βούλει παρασιτεῖν; ἢ τί τῶν ἐν τῷ βίῳ</l>
+            <l n="19" xml:id="kock-0481-adelon_dramaton-1-l19" xml:lang="grc">ηὔξηκας; εἶπον· ἄξιον γὰρ εἰδέναι·</l>
+            <l n="20" xml:id="kock-0481-adelon_dramaton-1-l20" xml:lang="grc">τίνος μαθητὴς γέγονας; αἵρεσιν τίνα</l>
+            <l n="21" xml:id="kock-0481-adelon_dramaton-1-l21" xml:lang="grc">ζηλοῖς; ἀπὸ τίνων δογμάτων ὁρμώμενος</l>
+            <l n="22" xml:id="kock-0481-adelon_dramaton-1-l22" xml:lang="grc">τολμᾷς παρασιτεῖν; ἃ μόλις ἡμεῖς τὸν βίον</l>
+            <l n="23" xml:id="kock-0481-adelon_dramaton-1-l23" xml:lang="grc">ἅπαντα κατατρίψαντες οὐδὲ νῦν ἔτι</l>
+            <l n="24" xml:id="kock-0481-adelon_dramaton-1-l24" xml:lang="grc">ἀνεῳγμένην δυνάμεθα τὴν θύραν ἰδεῖν</l>
+            <l n="25" xml:id="kock-0481-adelon_dramaton-1-l25" xml:lang="grc">διὰ τοὺς ἄνω διὰ τἀλλότρια μασωμένους.</l>
+            <l n="26" xml:id="kock-0481-adelon_dramaton-1-l26" xml:lang="grc">οὐ παντὸς ἀνδρὸς ἐπὶ τράπεζάν ἐσθ' ὁ πλοῦς.</l>
+            <l n="27" xml:id="kock-0481-adelon_dramaton-1-l27" xml:lang="grc">πλευρὰν ἔχειν πρώτιστον ἐν τούτοισι δεῖ,</l>
+            <l n="28" xml:id="kock-0481-adelon_dramaton-1-l28" xml:lang="grc">πρόσωπον ἰταμόν, χρῶμα διαμένον, γνάθον</l>
+            <l n="29" xml:id="kock-0481-adelon_dramaton-1-l29" xml:lang="grc">ἀκάματον, εὐθὺς δυναμένην πληγὰς φέρειν.</l>
+            <l n="30" xml:id="kock-0481-adelon_dramaton-1-l30" xml:lang="grc">στοιχεῖα μὲν ταῦτ' ἐστὶ τῆς ὅλης τέχνης.</l>
+            <l n="31" xml:id="kock-0481-adelon_dramaton-1-l31" xml:lang="grc">ἔπειτα δεῖ σκωπτόμενον ἐφ' ἑαυτῷ γελᾶν·</l>
+            <l n="32" xml:id="kock-0481-adelon_dramaton-1-l32" xml:lang="grc">αἰσχρὸν γὰρ οἶμαι δοῦλον εἶναι σκώμματος.</l>
+            <l n="33" xml:id="kock-0481-adelon_dramaton-1-l33" xml:lang="grc">ἀπὸ τῶν ἐτῶν κλέπτει τις ἢ καὶ βάπτεται,</l>
+            <l n="34" xml:id="kock-0481-adelon_dramaton-1-l34" xml:lang="grc">θέλων καλὸς εἶναι, καὶ παρ' ἡλικίαν νοσεῖ·</l>
+            <l n="35" xml:id="kock-0481-adelon_dramaton-1-l35" xml:lang="grc">ἔστω Γανυμήδης οὗτος ἀποθεούμενος·</l>
+            <l n="36" xml:id="kock-0481-adelon_dramaton-1-l36" xml:lang="grc">πρὸς χάριν ὁμιλεῖ τοῦ τρέφοντος ἐπ' ὀλέθρῳ·</l>
+            <l n="37" xml:id="kock-0481-adelon_dramaton-1-l37" xml:lang="grc">παρατάττεταί τις καὶ ποιεῖ πάντας νεκρούς,</l>
+            <l n="38" xml:id="kock-0481-adelon_dramaton-1-l38" xml:lang="grc">δειπνῶν σιωπῇ τοῦτον ὑπομυκτηρίσας</l>
+            <l n="39" xml:id="kock-0481-adelon_dramaton-1-l39" xml:lang="grc">εἰς τὴν τράπεζαν καὶ σὺ τὴν χολὴν ἄφες.</l>
+            <l n="40" xml:id="kock-0481-adelon_dramaton-1-l40" xml:lang="grc">οἶμαι δ' ἐμαυτὸν εὔθετον τῷ πράγματι,</l>
+            <l n="41" xml:id="kock-0481-adelon_dramaton-1-l41" xml:lang="grc">παῖδες, γεγονέναι· πάντα γὰρ πρόσεστί μοι</l>
+            <l n="42" xml:id="kock-0481-adelon_dramaton-1-l42" xml:lang="grc">ὅσα περ ἔχειν τἀλλότρια τὸν δειπνοῦντα δεῖ,</l>
+            <l n="43" xml:id="kock-0481-adelon_dramaton-1-l43" xml:lang="grc">λιμός, ἀπόνοια, τόλμα, γαστήρ, ἀργία.</l>
+            <l n="44" xml:id="kock-0481-adelon_dramaton-1-l44" xml:lang="grc">καὶ νῦν μ' ὁ Λυδῶν τῶν πολυχρύσων ἄναξ</l>
+            <l n="45" xml:id="kock-0481-adelon_dramaton-1-l45" xml:lang="grc">σύνδειπνον αὑτῷ κέκρικεν εἶναι καὶ φίλον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 14, 7 Νικολάου Α. v. 1—11 om. A.</note>
+          <note type="apparatus">1. ἐξεῦρεν cod. 4. ἀκούσιος vel ἀκουσίως Mein. 6. ἀπὸ τῆς Β²] εἰ τῆς Trinc. Gesn. θείης (-ας) Iacobs. 8. τἄνω καὶ κάτω Trinc. 12. διὸ δεῖ Α. 14. πικρὸς Α. ἐπιπλῆξαι A Gesn. mrg.] ἐκπλῆξαι. 15. τοῖς ἀσυμβόλοις — ἑλομένοις Κ. nam ἐπιπλήττειν semper cum dativo coniungitur. cf. Heindorf. Plat. Protag. 327a. 17. παθών Mein. (cf. Cobet. Mnem. VIIII 113)] μαθών. 19. ηὔξηκας Β (ἴσως)] νυξῆκας ΑΝ. νύξηκας Vind. εὕρηκας A mrg. 'quid eorum quae ad</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

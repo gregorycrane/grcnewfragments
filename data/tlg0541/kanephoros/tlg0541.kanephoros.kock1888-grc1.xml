@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΚΑΝΗΦΟΡΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.kanephoros.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.kanephoros.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.kanephoros.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kanephoros">
+        <head>ΚΑΝΗΦΟΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="252" xml:id="kock-0541-kanephoros-252" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kanephoros">
+          <lg>
+            <l n="1" xml:id="kock-0541-kanephoros-252-l1" xml:lang="grc">τὸ γὰρ προθύμως μὴ πονήσαντας τυχεῖν</l>
+            <l n="2" xml:id="kock-0541-kanephoros-252-l2" xml:lang="grc">εὐδαιμονίας εἴωθ’ ὑπερηφανίας ποιεῖν.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 22 (περὶ ὑπεροψίας), 30. 31. 30 τοῦ αὐτοῦ (Μενάνδρου 29) Κανηφόρος Α. 31 Εὐριπίδου Β<hi rend="superscript">2</hi> Trinc.</note>
+          <note type="apparatus">‘nihil enotavi ex A’. Gaisf. at Vindob. cum superiore coniungit omisso lemmate Εὐριπίδου. ac coniungendos esse versus adparet. 1. an τὸ μὴ πρ. γὰρ κτλ.? — πονήσαντας τυχεῖν εὐδαιμονίας Pflugk. Sched. crit. 34] πονήσαντες εὐτύχησεν εὐδαιμονία Α. εὐτυχὴς Ν. 2. εἴωθεν libri. ὑπερηφανίαν probabiliter Mein.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="253" xml:id="kock-0541-kanephoros-253" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kanephoros">
+          <p>ἀλογίστου τρόπου</p>
+          <lg>
+            <l n="1" xml:id="kock-0541-kanephoros-253-l1" xml:lang="grc">ἀτύχημα φεύγειν ἐστὶν οὐκ αὐθαίρετον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 108, 30 Μενάνδρου Κανηφόρῳ A. Sexti Turpilii fr. 3 (1 Can.), quod conferunt Ladewigius et O. Ribbeck. Com. R. fr.<hi rend="superscript">2</hi> 86, non magnam habet cum Menandreo similitudinem.</note>
+          <note type="apparatus">ἀτύχημ’ ἐλέγχειν Heimsoeth. Ind. Bonn. 1867 aest. xx. ἀτύχημα κλάειν Madvig. Advers. crit. I 720. cum autem titulus libri 108 Stob. sit ὅτι δεῖ γενναίως φέρειν τὰ προσπίπτοντα, Engerus Progr. Posn. gymn. Mar. 1868 p. 13 vulgatam defendit φεύγειν interpretatus <hi rend="italic">fugere velle.</hi> mihi neque haec neque Clerici explicatio probatur: unum video οὐκ αὐθαίρετον necessario esse praedicatum. fortasse ‘nequaquam in arbitrio nostro positum est inprudentiae poenas effugere’. ἐστὶν οὐκ αὐθ. pro οὐκ ἔστιν αὐθ., ut Nausicr. 3 ἐστὶν οὐχὶ ῥάδιον.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="254" xml:id="kock-0541-kanephoros-254" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kanephoros">
+          <lg>
+            <l n="1" xml:id="kock-0541-kanephoros-254-l1" xml:lang="grc">ἐδεῖτο χρῆσαι τὴν σεαυτῆς θυγατέρα</l>
+            <l n="2" xml:id="kock-0541-kanephoros-254-l2" xml:lang="grc">ἀντάλλαγον.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 407, 18 et Suidas ἀντάλλαγον· καλοῦσι τὸν ἀντὶ ἑτέρου ἠλλαγμένον· οὐχὶ ἄνταλλον. Μένανδρος Κανηφόρῳ κτλ. cf. 16.</note>
+          <note type="apparatus">— ἐδεῖτο χρῆσαι rogabat te ut mutuam dares.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="255" xml:id="kock-0541-kanephoros-255" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kanephoros">
+          <lg>
+            <l n="1" xml:id="kock-0541-kanephoros-255-l1" xml:lang="grc">ὃ δ’ ἀποκρινεῖται, κἂν ἐγὼ λέγοιμί σοι.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 429, 13 et Suidas ἀπόκριναι . . . Μένανδρος Κανηφόρῳ κτλ. ὃ] &amp; A Suid. Μένανδρος om. A et cum eis quae sequuntur C Suid.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="256" xml:id="kock-0541-kanephoros-256" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kanephoros">
+          <lg>
+            <l n="1" xml:id="kock-0541-kanephoros-256-l1" xml:lang="grc">γραῦς τις κακολόγος ἐκ δυοῖν Αἰξωνέοιν</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 354, 1 βλάσφημοι οἱ Αἰξωνεῖς κατηγοροῦνται. φησὶ γὰρ ὁ κωμικός κτλ. Harpocration 9, 1 Αἰξωνῆς δῆμος φυλῆς τῆς Κεκροπίδος. ἐκωμῳδοῦντο δὲ ὡς βλάσφημοι, ἀφ’ οὗ καὶ τὸ κακῶς λέγειν αἰξωνεύεσθαι ἔλεγον. Μένανδρος ἐν Κανηφόρῳ. cf. etiam Apostol. 1, 67. Suid. αἰξωνεύεσθαι, αἰξωνεία, Αἰξωνῆς. Plat. Lach. 197 c. Bursian. Geogr. gr. I 360. 1. recte versum ab Harpocratione servatum ad Canephorum rettulit Bergk. Rel. c. Att. 84 n. ‘mulierem illam maledicentissimam dicit non infacete ex patre atque ex matre Aexonensibus ortam esse’, ut cives Athenienses ei demum erant, qui ex duobus Atheniensibus prognati essent.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="258" xml:id="kock-0541-kanephoros-258" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kanephoros">
+          <lg>
+            <l n="1" xml:id="kock-0541-kanephoros-258-l1" xml:lang="grc">περὶ τὸν τράχηλον ἁλύσιόν τί σοι δότω.</l>
+          </lg>
+          <note type="apparatus">Bekker. Anecd. 380, 30 ἁλύσιον· ἁλυσείδιον, πλόκιον περιτραχήλιον. Μένανδρος Καρίνῃ κτλ. Suid. ἁλύσιον· πλοκίου γένος περὶ τὸν τράχηλον. Μένανδρος Καρίνῃ κτλ. τι] τις Bentl. quod cur praeferendum sit non video. neque felicius μοι Bergk. pro σοι. docet lena puellam, quomodo amatorem emungere argento debeat. — cf. Aristoph. fr. 320, 12. Nicostr. 33. Philippid. 33.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="259" xml:id="kock-0541-kanephoros-259" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kanephoros">
+          <note type="source">Athenaeus 4, 175 a</note>
+          <note type="apparatus">μνημονεύει τῶν γίγγρων αὐλῶν . . . Μένανδρος ἐν Καρίνῃ. cf. Amphid. 14.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

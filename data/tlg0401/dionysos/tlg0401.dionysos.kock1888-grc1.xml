@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ALEXANDER, ΔΙΟΝΥΣΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Alexander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0401.dionysos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0401.dionysos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0401.dionysos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0401_dionysos">
+        <head>ΔΙΟΝΥΣΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0401-dionysos-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0401_dionysos">
+          <lg>
+            <l n="1" xml:id="kock-0401-dionysos-1-l1" xml:lang="grc">ἰδοὺ κάτοπτρον· εἰπέ μοι, τούτῳ τί χρῇ;</l>
+          </lg>
+          <note type="source">Schol. Ven. Hom. Il. 1, 216 ἀπὸ τοῦ χρῶμαι τὸ δεύτερον τῆς κοινῆς διαλέκτου ἐστὶ χρᾷ ἰωνικῶς. ἀττικὸν δὲ χρῇ, ὡς εἴρηται Ἀλεξάνδρῳ ἐν Διονύσῳ κτλ. Cramer. Anecd. Par. III 275, 30 ὡς εἴρηται Ἀλεξάνδρῳ ἐν Διονυσίῳ κτλ. τούτῳ τί χρῇ G. Herm. El. d. metr. 145] τί χρὴ τοῦτο Schol. Hom. τί τούτων χρή Cram. Anecd. —</note>
+          <note type="apparatus">videtur Bacchum perinde atque Aristophanes in <hi rend="italic">Ranis</hi> et Aeschylus in <hi rend="italic">Edonis</hi> muliebriter vestitum in scaenam induxisse. ac cf. Arist. Thesm. 140.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" xml:id="kock-0401-dionysos-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0401_dionysos">
+          <head>προχύτης</head>
+          <note type="source">
+            <p>Athenaeus 11, 496 c εἶδος ἐκπώματος . . . Φιλητᾶς δ’ ἐν Ἀτάκτοις ἀγγεῖον ξύλινον, ἀφ’ οὗ τοὺς ἀγροίκους πίνειν. μνημονεύει αὐτοῦ καὶ Ἀλέξανδρος ἐν τιγονι (sic A). om. C.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" xml:id="kock-0401-dionysos-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0401_dionysos">
+          <lg>
+            <l n="1" xml:id="kock-0401-dionysos-5-l1" xml:lang="grc">ταμιεῖον ἀρετῆς ἐστι γενναία γυνή.</l>
+          </lg>
+          <note type="source">
+            <p>Stobaeus Floril. 67, 12 Ἀλεξάνδρου A. Clemens Alex. Paed. 3, 11, 67 (om. poetae nomine) συλλήβδην γοῦν ταμιεῖον ἀρετῆς ἐστιν ἀνδρεία γυνή, ἥτις σῖτα ὀκνηρὰ οὐκ ἔφαγεν. monost. 505 ταμιεῖον ἀνθρώποισι σωφροσύνη μόνη, ubi τ. ἀρετῆς ἐστιν ἡ σώφρων γυνή Mein. — Euripidis esse ex Alexandro putabat Gaisford.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" xml:id="kock-0401-dionysos-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0401_dionysos">
+          <lg>
+            <l n="1" xml:id="kock-0401-dionysos-6-l1" xml:lang="grc">ἦσαν ἄνθρωποι δὲ πέντε καὶ γυναῖκες τέτταρες.</l>
+          </lg>
+          <note type="source">
+            <p>Schol. Aristoph. Thesm. 682 γυναιξὶ καὶ βροτοῖς· γελοίως εἶπεν, ὡς Ἀλεξανδ. (sic) κτλ. πέπαικται οὖν τοῦτο ὡς ἐν κωμῳδίᾳ. — δὲ add. Mein. τέτταρες Mein.] τρεῖς. fortasse τρεῖς ἐκεῖ. Ἀλεξανδ. Lobeckius Pathol. prol. 25 n. 14 interpretatur Ἀλεξανδρεῖς, Alexandrinos ita locutos esse docens conl. Esdr. 9, 40. Alex. Trall. IIII 233 Basil.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" xml:id="kock-0401-dionysos-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0401_dionysos">
+          <note type="source">
+            <p>Schol. Aristoph. Ran. 840 ὅτι λαχανοπώλιδος υἱὸς ἦν Κλειτοῦς ὁ Εὐριπίδης Ἀλέξανδρός φησι. ad comicum num recte haec referantur dubitat Meinekius (I 488).</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>NICO, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Nico</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0479.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0479.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0479.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0479_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="3" xml:id="kock-0479-adelon_dramaton-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0479_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0479-adelon_dramaton-3-l1" xml:lang="grc">οὐσίδιόν μοι καταλιπόντος τοῦ πατρὸς</l>
+            <l n="2" xml:id="kock-0479-adelon_dramaton-3-l2" xml:lang="grc">οὕτω συνεστρόγγυλα κἀξεκόκκισα</l>
+            <l n="3" xml:id="kock-0479-adelon_dramaton-3-l3" xml:lang="grc">ἐν μησὶν ὀλίγοις ὥσπερ ᾠόν τις ῥοφῶν.</l>
+          </lg>
+          <note type="source">Athenaeus 2, 58a ᾠῶν δὲ ῥοφητῶν μνημονεύει Νικόμαχος κτλ.</note>
+          <note type="apparatus">1. μοι κ. τοῦ Cobet. V. 1.2 375. 6. N. 1. 614] γὰρ κ. μοι τοῦ CE. 2. συνεστρόγγυλα Mein] συνεστρογγύλικα CE. cf. Cob. V. 1.2 375. cf. Alexid. 246, 4. 2. ἐξεκόκκισα ab Aristophane mutuatus est. Ach. 1179. Pac. 63. Lys. 364. 448. 3. i. e. οὕτω ῥᾳδίως ὥσπερ τις ᾠὸν ῥοφεῖ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" xml:id="kock-0479-adelon_dramaton-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0479_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0479-adelon_dramaton-4-l1" xml:lang="grc">ὦ χαῖρε, χρυσοκλύστα καὶ χρυσοῦς ἐμῶν.</l>
+          </lg>
+          <note type="source">Athenaeus 11, 781f φησὶ πρός τινα Νικόμαχος κτλ. χαῖρε add. Mein. χρυσόκλυστα Letronn. De nom. vas. gr. 56] χρυσοκλαῦστα C. — Midam aliquem adloquitur. cf. Pherecr. 131. Diphil. 43, 21.</note>
+          <note type="apparatus">Quae Bekker. Anecd. 337, 11 et 349, 10 adferuntur Nicomachi frustula, ea ad tragicum Nicomachum potius pertinere intellexit Meinekius I 498. cf. Nauck. Tr. gr. fr. p. 591.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

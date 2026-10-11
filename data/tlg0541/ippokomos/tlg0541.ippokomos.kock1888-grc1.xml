@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΙΠΠΟΚΟΜΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.ippokomos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.ippokomos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.ippokomos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ippokomos">
+        <head>ΙΠΠΟΚΟΜΟΣ</head>
+        <div type="textpart" subtype="fragment" n="249" xml:id="kock-0541-ippokomos-249" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ippokomos">
+          <lg>
+            <l n="1" xml:id="kock-0541-ippokomos-249-l1" xml:lang="grc">Μόνιμός τις ἦν ἄνθρωπος, ὦ Φίλων, σοφός,</l>
+            <l n="2" xml:id="kock-0541-ippokomos-249-l2" xml:lang="grc">ἀδοξότερος μικρῷ δ᾽. Β. ὁ τὴν πήραν ἔχων;</l>
+            <l n="3" xml:id="kock-0541-ippokomos-249-l3" xml:lang="grc">Α. πήρας μὲν οὖν τρεῖς· ἀλλ᾽ ἐκεῖνος ῥῆμά τι</l>
+            <l n="4" xml:id="kock-0541-ippokomos-249-l4" xml:lang="grc">ἐφθέγξατ᾽ οὐδὲν ἐμφερὲς μὰ τὸν Δία</l>
+            <l n="5" xml:id="kock-0541-ippokomos-249-l5" xml:lang="grc">τῷ γνῶθι σαυτόν, οὐδὲ τοῖς βοωμένοις</l>
+            <l n="6" xml:id="kock-0541-ippokomos-249-l6" xml:lang="grc">τούτοις· ὑπὲρ δὲ ταῦθ᾽ ὁ προσαιτῶν καὶ ῥυπῶν·</l>
+            <l n="7" xml:id="kock-0541-ippokomos-249-l7" xml:lang="grc">τὸ γὰρ ὑποληφθὲν τῦφον εἶναι πᾶν ἔφη.</l>
+          </lg>
+          <note type="source">Diogenes Laert. 6, 83 Μόνιμος Συρακόσιος μαθητὴς μὲν Διογένους, οἰκέτης δέ τινος τραπεζίτου Κορινθίου . . . ἐγένετο δὲ ἀνὴρ ἐλλόγιμος, ὡς καὶ Μένανδρον αὐτοῦ τὸν κωμικὸν μεμνῆσθαι· ἔν τινι γοῦν τῶν δραμάτων, ἐν τῷ Ἱπποκόμῳ, εἶπεν οὕτως κτλ. 2. sic Cobet. N. l. 93 cum libris optimis (ἀδοξότερος μικρῷ δέ, ὁ τὴν πήραν ἔχων). 3. ῥῆμά τι cod. Flor.] ῥήματι.</note>
+          <note type="apparatus">2. ἀδοξότερος, nos etwas unanschnlich. 3. πήρας τρεῖς ‘erat enim gibbosus utrimque’. ‘μὲν οὖν, ut passim, est ita respondentis ut quod alter dixerit corrigat.’ Cobet. 93. 6. ὑπὲρ δὲ ταῦτα i. e. ‘superavit haec omnia Monimus, cuius dictum, πᾶν τὸ ὑποληφθὲν τῦφός ἐστι, Menandro videtur celebratissimis veterum sententiis, τοῖς βοωμένοις τούτοις, anteponendum esse.’ Cobet. 94. Sextus Emp. Adv. math. 8, 5 (289, 28 Bekk.) Μόνιμος ὁ κύων τῦφον (Schwindel) εἰπὼν τὰ πάντα, ὅπερ οἴησίς ἐστι τῶν οὐκ ὄντων ὡς ὄντων. cf. Sext. Emp. Adv. math. 7, 48 (200, 7 B.). 87. 8 (208, 8 et 11 B.).</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

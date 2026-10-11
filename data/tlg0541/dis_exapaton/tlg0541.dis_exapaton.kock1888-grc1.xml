@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΔΙΣ ΕΞΑΠΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.dis_exapaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.dis_exapaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.dis_exapaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dis_exapaton">
+        <head>ΔΙΣ ΕΞΑΠΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="123" xml:id="kock-0541-dis_exapaton-123" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dis_exapaton">
+          <lg>
+            <l n="1" xml:id="kock-0541-dis_exapaton-123-l1" xml:lang="grc">βουληφόρως</l>
+            <l n="2" xml:id="kock-0541-dis_exapaton-123-l2" xml:lang="grc">τὴν ἡμετέραν, ὦ Δημέα, προκατέλαβες</l>
+            <l n="3" xml:id="kock-0541-dis_exapaton-123-l3" xml:lang="grc">ὅρασιν.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="124" xml:id="kock-0541-dis_exapaton-124" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dis_exapaton">
+          <lg>
+            <l n="1" xml:id="kock-0541-dis_exapaton-124-l1" xml:lang="grc">ἐμοὶ παράστα· τὴν θύραν κόψας ἐγὼ</l>
+            <l n="2" xml:id="kock-0541-dis_exapaton-124-l2" xml:lang="grc">καλῶ τιν’ αὐτῶν.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 436, 14 et Suidas ἀπόστα. οὐ μόνον ἀπόστηθι λέγουσιν, ἀλλὰ καὶ ἀπόστα . . . Μένανδρος Δὶς ἐξαπατῶντι κτλ. 2. καλῶς τιν’ αὐτόν cod. Bekk. — cf. fr. 170.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="125" xml:id="kock-0541-dis_exapaton-125" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dis_exapaton">
+          <lg>
+            <l n="1" xml:id="kock-0541-dis_exapaton-125-l1" xml:lang="grc">ὃν οἱ θεοὶ φιλοῦσιν ἀποθνήσκει νέος.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 120, 8 Μενάνδρου Δὶς ἐξαπατῶντος Α. Plutarchus Mor. 119 e προσμαρτυρήσας τῷ καλῶς ὑπὸ Μενάνδρου ῥηθέντι τούτῳ κτλ. Clemens Alex. Str. 6, 2, 17 Μένανδρος πεποίηκεν κτλ. Schol. Hom. Odyss. 15, 246. Eustath. 1781, 2 Μένανδρος . . . δοξάζων σύμβολον θεοφιλοῦς εἶναι τὸ (μὴ) καταγηρᾶν φησι κτλ. mon. 425. Plautus Bacch. 4, 7, 18 quem di diligunt | aduléscens moritur.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="126" xml:id="kock-0541-dis_exapaton-126" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dis_exapaton">
+          <lg>
+            <l n="1" xml:id="kock-0541-dis_exapaton-126-l1" xml:lang="grc">οὐ Μεγάβυζος ἦν,</l>
+            <l n="2" xml:id="kock-0541-dis_exapaton-126-l2" xml:lang="grc">ὅστις γένοιτο ζάκορος.</l>
+          </lg>
+          <note type="source">Photius et Suidas ζάκορος· νεωκόρος. Μένανδρος Δὶς ἐξαπατῶντι κτλ. cf. Miller. Mélanges 139. Plaut. Bacch. 2, 3, 74 (Theotimus est) Mégalobusi filius, qui nunc in Ephesost Ephesiis carissumus. de Megabyzo cf. Cratet. 33 et quae ad Alexid. 116, 4 adnotantur. ‘aut sic verto: nullus (Ephesi) Megabyzus fuit, qui aedituus esset Dianae, aut: non Megabyzus aliquis fuit, qui aedituus Dianae esset? h. e. ut arbitror, cui crederetur pecunia? quaerit apud Menandrum Mnesilochi pater, quod sua sponte narrantem Chrysalum Plautus fecit’. Ritschl. Parerg. 407, ubi cf. etiam 408. Praeterea cf. 946. adesp. 151. 2.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

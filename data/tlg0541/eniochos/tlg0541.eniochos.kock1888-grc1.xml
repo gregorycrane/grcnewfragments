@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΗΝΙΟΧΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.eniochos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.eniochos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.eniochos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eniochos">
+        <head>ΗΝΙΟΧΟΣ</head>
+        <div type="textpart" subtype="fragment" n="201" xml:id="kock-0541-eniochos-201" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eniochos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eniochos-201-l1" xml:lang="grc">ἀλλὰ θεὸς οὐδεὶς εἰς τὸ προκόλπιον φέρει</l>
+            <l n="2" xml:id="kock-0541-eniochos-201-l2" xml:lang="grc">ἀργύριον, ἀλλ᾽ ἔδωκεν εὔνους γενόμενος</l>
+            <l n="3" xml:id="kock-0541-eniochos-201-l3" xml:lang="grc">πόρον, εἰσβολήν τ᾽ ἔδειξεν εὐπορίας τινός,</l>
+          </lg>
+          <pb n="58" facs="urn:hathi:hvd.hxijy4:scan:84" />
+          <lg>
+            <l n="4" xml:id="kock-0541-eniochos-201-l4" xml:lang="grc">ἣν ἂν παρῇς σύ, μηκέτ᾽ αἰτιῶ θεόν,</l>
+            <l n="5" xml:id="kock-0541-eniochos-201-l5" xml:lang="grc">ἤδη δὲ τῇ σαυτοῦ ζυγομάχει μαλακίᾳ.</l>
+          </lg>
+          <note type="source">Orion Antholognom. 4, 1 (περὶ προνοίας) ἐκ τοῦ Ἡνιόχου Μενάνδρου.</note>
+          <note type="apparatus">1. τὸ Mein.] τὸν. 3. πόρον εἰσβολήν τ᾽ Preller. Philol. III 521] πόρνης βουλήν. πόρον ἢ ᾽σβολήν Nauck. Philol. VI 421. πόρον λαβήν τ᾽ Heimsoeth. Ind. Bonn. 1867 aest. xv. 4. σύ add. K. μηκέτ᾽ αἰτιῶ θεόν Schneidewin.] μηκέτι τὸν θεὸν αἰτῶ. 5. μαλθακίᾳ cod. ἤδη δὲ σ. ζ. τῇ μαλακίᾳ Schneidewin. 3. εἰσβολήν, ut Arist. Ran. 1104 εἰσβολαὶ σοφισμάτων (ἀφορμαί, ἀρχαί schol.). 5. Phot. ζυγομαχεῖ· στασιάζει. ὡς οἱ βόες ἐζευγμένοι. μετῆκται ἡ λέξις ἀπὸ τῆς τῶν βοῶν πρὸς ἀλλήλους μάχης· ἐκεῖνοι γὰρ πολλάκις ὅταν ἕλκωσι κάμνοντες ἐπερείδουσι (ἀπερ.) τὸ βάρος πρὸς ἀλλήλους. Hesych. ζυγομαχεῖν· τὸ τοῖς οἰκείοις διαφέρεσθαι. cf. 673. adesp. 207. Ruhnk. Tim. 130. 1.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="202" xml:id="kock-0541-eniochos-202" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eniochos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eniochos-202-l1" xml:lang="grc">οὐδείς μ᾽ ἀρέσκει περιπατῶν ἔξω θεὸς</l>
+            <l n="2" xml:id="kock-0541-eniochos-202-l2" xml:lang="grc">μετὰ γραός, οὐδ᾽ εἰς οἰκίαν παρεισιὼν</l>
+            <l n="3" xml:id="kock-0541-eniochos-202-l3" xml:lang="grc">ἐπὶ τοῦ σανιδίου. τὸν δίκαιον δεῖ θεὸν</l>
+            <l n="4" xml:id="kock-0541-eniochos-202-l4" xml:lang="grc">οἴκοι μένειν σῴζοντα τοὺς ἱδρυμένους.</l>
+          </lg>
+          <note type="source">Iustinus De monarch. p. 39 (140 Otto) Μένανδρος ἐν Ἡνιόχῳ λέγει κτλ. v. 1—3 (σανιδίου) Clemens Alex. Protrept. 7, 75 Μένανδρος γοῦν ὁ κωμικὸς ἐν Ἡνιόχῳ ἐν Ὑποβολιμαίῳ τῷ δράματι κτλ. τοιοῦτοι γὰρ οἱ μητραγύρται.</note>
+          <note type="apparatus">1. ἔξωθεν Argent. Iust. 2. μετὰ γραὸς om. Iustin. 4. ἱδρυμένους] αἰτουμένους? apud Clementem ἐν Ὑποβολιμαίῳ eicit Dindf. ἐν Ἡν. καὶ ἐν Ὑπ. Mein., similem in Hypobolimaco sententiam significari ratus. 1. Eurip. Hippol. 106 οὐδείς μ᾽ ἀρέσκει νυκτὶ θαυμαστὸς θεός. ‘perstringit comicus Cybeles sacerdotes, qui cum anu circumibant urbes in gratiam deae stipem petentes’. Potter. σανίδιον est tabula divinatoria. Lobeck. Agl. I 253.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="203_abc" xml:id="kock-0541-eniochos-203-abc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eniochos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eniochos-203-abc-l1" xml:lang="grc">ἐλεεῖν δ᾽ ἐκεῖνος ἔμαθεν εὐτυχῶν μόνος.</l>
+            <l n="2" xml:id="kock-0541-eniochos-203-abc-l2" xml:lang="grc">ὁ χρηστός, ὡς ἔοικε, καὶ χρηστοὺς ποιεῖ.</l>
+            <l n="3" xml:id="kock-0541-eniochos-203-abc-l3" xml:lang="grc">μί᾽ ἐστὶν ἀρετὴ τὸν ἄτοπον φεύγειν ἀεί.</l>
+          </lg>
+          <note type="source">Orion Antholognom. 7, 6 (περὶ ἀρετῆς) ἐκ τοῦ Ἡνιόχου Μενάνδρου. v. 2 Boissonad. Anecd. I 158. v. 3 monost. 339 (τὸ ἄτοπον).</note>
+          <note type="apparatus">— 1. ille (iustus sine dubio vel bonus) solus didicit in rebus</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="204" xml:id="kock-0541-eniochos-204" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eniochos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eniochos-204-l1" xml:lang="grc">τὸν δὲ παῖδ’ οὐδ’ εἴδομεν,</l>
+            <l n="2" xml:id="kock-0541-eniochos-204-l2" xml:lang="grc">ἀλλ’ ἁρπαγὴν αὐτῷ κατασκευάζομεν.</l>
+          </lg>
+          <note type="source">Ammonius 22 ἁρπαγή . . . τὴν μετὰ βίας ἀφαίρεσιν δηλώσει . . . καὶ παρὰ Μενάνδρῳ . . . ἐν Ἡνιόχῳ κτλ. v. 2 Bachmann. Anecd. 376, 25 ἁρπαγή ἡ μετὰ βίας ἀφαίρεσις, ἁρπάγη δὲ τὸ ἄγκιστρον, δι’ οὗ τῶν φρεάτων τὰ ἀγγεῖα ἐξαίρομεν. καὶ Μένανδρος κτλ. cf. Herodian. I 304, 6. 7. II 856, 32. 3.</note>
+          <note type="apparatus">1. οὐδ’ εἴδομεν Heringa Obs. 286] οὐ δίδομεν. οὐ διήσομεν ‘non transmittemus’ Mein. sententiae magis convenire videtur οὐχ εἵλομεν non cepimus, sed capturos esse speramus. 2. ἁρπαγὴν Valcken. conl. Antiphan. 74, 3] ἁρπάγην.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="205" xml:id="kock-0541-eniochos-205" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eniochos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eniochos-205-l1" xml:lang="grc">ὧν δὲ μὴ αἴτιος τρόπος,</l>
+            <l n="2" xml:id="kock-0541-eniochos-205-l2" xml:lang="grc">τὰ γ’ ἀπὸ τῆς τύχης φέρειν δεῖ γνησίως τὸν εὐγενῆ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 108, 45 Μενάνδρου Ἡνιόχῳ Α.</note>
+          <note type="apparatus">1. μή σ̓τιν Mein. 2. τό γ’ ἀπὸ Α. τἀπὸ Mein. in ed. Stob. trimetros constituit Grotius ὧν δὲ μὴ τρόπος αἴτιος, | τὰ τύχης κτλ. quorum non hominis ingenium culpam sustinet, mala a fortuna nobis inflicta ferre decet hominem ingenuum. scilicet quae nostra culpa animis insita sunt vitia, ea non ferri sed exstirpari iubet. — cum v. 2 Antiphan. 281 contulit Meinekius. com. anon. Athen. 10, 458 c σοφός ἐστιν ὁ φέρων τἀπὸ τῆς τύχης καλῶς.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="206" xml:id="kock-0541-eniochos-206" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eniochos">
+          <p>αὐτολήκυθοι</p>
+          <p>. . . τὸ ὄνομα καὶ παρὰ Μενάνδρῳ ἔν τε Ἡνιόχῳ καὶ Δακτυλίῳ.</p>
+          <note type="source">Harpocration. cf. 105. Antiphan. 16.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="207" xml:id="kock-0541-eniochos-207" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eniochos">
+          <p>παρῶμμαι</p>
+          <p>ἐν ὑπεροψίᾳ εἰμί. Μένανδρος Ἡνιόχῳ.</p>
+          <note type="source">Photius. ἡνιόβωι cod.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="214" xml:id="kock-0541-eniochos-214" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eniochos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eniochos-214-l1" xml:lang="grc">εὖ ἴσθι, κἀγὼ τοῦτο συγχωρήσομαι.</l>
+          </lg>
+          <note type="source">Ammonius 76 Μένανδρος ἐν Ἥρωι κτλ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="215" xml:id="kock-0541-eniochos-215" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eniochos">
+          <note type="apparatus">Bekker. Anecd. 1262 ἀπὸ τοῦ θηλυκοῦ τοῦ παῖς γίνεται ἡ παιδίσκη καὶ αἱ παιδίσκαι τῶν παιδισκῶν περισπωμένως ὡς μονογενὲς 'τῶν παιδισκῶν τινι δούς,' παρὰ τῷ Μενάνδρῳ ἐν τῷ Ἥρωι. Meinek. τῶν δὲ παιδισκῶν τινι | δούς.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="216" xml:id="kock-0541-eniochos-216" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eniochos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eniochos-216-l1" xml:lang="grc">ὦ δυστυχής, εἰ μὴ βαδιεῖ</l>
+          </lg>
+          <note type="source">Choerobosc. Marcian. 489 Gaisf. 163, 11 ὁ δυστυχής ὦ δυστυχής, ὡς παρὰ τῷ Μενάνδρῳ ἐν τῷ Ἥρωι κτλ. βαδιεῖ Schneidewin. G. g. A. 1848 p. 1795] βαδιῆς. — cf. 137. Praeterea cf. fr. 879.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

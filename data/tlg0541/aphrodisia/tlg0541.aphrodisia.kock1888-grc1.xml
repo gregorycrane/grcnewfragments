@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΑΦΡΟΔΙΣΙΑ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.aphrodisia.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.aphrodisia.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.aphrodisia.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aphrodisia">
+        <head>ΑΦΡΟΔΙΣΙΑ</head>
+        <div type="textpart" subtype="fragment" n="85" xml:id="kock-0541-aphrodisia-85" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aphrodisia">
+          <lg>
+            <l n="1" xml:id="kock-0541-aphrodisia-85-l1" xml:lang="grc">ἀλλ’ ὅταν ἐρῶντα νοῦν ἔχειν τις ἀξιοῖ,</l>
+            <l n="2" xml:id="kock-0541-aphrodisia-85-l2" xml:lang="grc">παρὰ τίνι τἀνόητον οὗτος ὄψεται;</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 64, 2 (ψόγος Ἀφροδίτης) Μενάνδρου Ἀφροδισίων Α. 2. παρὰ τίνι τὸ ἀνόητον Grot.] παρά τινι τἀνόνητον Α.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="86" xml:id="kock-0541-aphrodisia-86" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aphrodisia">
+          <lg>
+            <l n="1" xml:id="kock-0541-aphrodisia-86-l1" xml:lang="grc">ἐκφυγοῦσα δ’ ἣν εἶχεν νόσον</l>
+            <l n="2" xml:id="kock-0541-aphrodisia-86-l2" xml:lang="grc">οὐκ ἔσχε τοὺς ῥηθέντας ἀναθέσθαι λόγους.</l>
+          </lg>
+          <note type="source">Suidas ἀναθέσθαι· τὸ μεταθέσθαι, ἀπὸ τῶν πεττευόντων καὶ τὰς κεκινημένας ἤδη ψήφους διορθούντων . . . Μένανδρος ἐν Ἀφροδισίῳ κτλ.</note>
+          <note type="apparatus">‘de puella videtur agi quae in morbi delirio dicenda tacenda locuta dicta postea revocare (ἀναθέσθαι) non posset.’ Iacobs. not. ms.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="87" xml:id="kock-0541-aphrodisia-87" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aphrodisia">
+          <lg>
+            <l n="1" xml:id="kock-0541-aphrodisia-87-l1" xml:lang="grc">εἰ τὰς ἀληθείας ἁπλῶς τίς σοι λέγει —</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 376, 4 et Suidas ἀλήθεια· ἀληθῆ καὶ τὰς ἀληθείας πληθυντικῶς λέγουσι. Μένανδρος Ἀφροδισίῳ κτλ. ἃς ἁπλῶς ABE Med. Suid. et Bekk. cod.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

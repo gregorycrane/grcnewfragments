@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>POSIDIPPUS, ΑΝΑΒΛΕΠΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Posidippus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0500.anablepon.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0500.anablepon.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0500.anablepon.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_anablepon">
+        <head>ΑΝΑΒΛΕΠΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0500-anablepon-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_anablepon">
+          <lg>
+            <l n="1" xml:id="kock-0500-anablepon-1-l1" xml:lang="grc">ἐγὼ μάγειρον λαμβάνων ἀκήκοα</l>
+            <l n="2" xml:id="kock-0500-anablepon-1-l2" xml:lang="grc">τὰ τῶν μαγείρων πάντα καθ' ἑκάστου κακά.</l>
+          </lg>
+          <pb n="336" facs="urn:hathi:hvd.hxijy4:scan:362" />
+          <lg>
+            <l n="3" xml:id="kock-0500-anablepon-1-l3" xml:lang="grc">ἀντεργολαβοῦντες ἔλεγον ὁ μὲν ὡς οὐκ ἔχει</l>
+            <l n="4" xml:id="kock-0500-anablepon-1-l4" xml:lang="grc">ῥῖνα κριτικὴν πρὸς τοὔψον, ὁ δ’ ὅτι τὸ στόμα</l>
+            <l n="5" xml:id="kock-0500-anablepon-1-l5" xml:lang="grc">πονηρόν, ὁ δὲ τὴν γλῶτταν εἰς ἀσχήμονας</l>
+            <l n="6" xml:id="kock-0500-anablepon-1-l6" xml:lang="grc">ἐπιθυμίας</l>
+            <l n="7" xml:id="kock-0500-anablepon-1-l7" xml:lang="grc">ἕνιά τε τῶν ἡδυσμάτων,</l>
+            <l n="8" xml:id="kock-0500-anablepon-1-l8" xml:lang="grc">κάθαλος, κάτοξος, χναυστικός, προσκαυστικός,</l>
+            <l n="9" xml:id="kock-0500-anablepon-1-l9" xml:lang="grc">καπνὸν οὐ φέρων, πῦρ οὐ φέρων. ἐκ τοῦ πυρὸς</l>
+            <l n="10" xml:id="kock-0500-anablepon-1-l10" xml:lang="grc">εἰς τὰς μαχαίρας ἦλθον· ὧν εἷς οὑτοσὶ</l>
+            <l n="11" xml:id="kock-0500-anablepon-1-l11" xml:lang="grc">διὰ τῶν μαχαιρῶν τοῦ πυρός τ’ ἐλήλυθεν.</l>
+          </lg>
+          <note type="source">Athenaeus 14, 661f Ποσίδιππος (sic A) ἐν Ἀναβλέποντι κτλ.</note>
+          <note type="apparatus">1. ἕν’ ἐγὼ G. A. Hirschig. Ann. crit. 31. λαμβάνων Mein.] ἀναλαβὼν Α. ἕνα λαβὼν Coraes. 2. καθ’ ἕκαστον Dobr. Adv. II 351. 3. ἀντεργολαβοῦντες ἔλεγον ὁ μὲν Grot.] ἀντεργολαβοῦντος ἐλέγομεν Α. fortasse τὰ τῶν μαγείρων πάνθ’ ἃ καθ’ ἑκάστου κακὰ (convicia) ἀντεργολαβοῦντος ἔλεγον, ὁ μὲν κτλ. ἔχοι Dobr. 4. κριτικὴν Β] κρητικὴν Α. τὸ add. Iacobs. Add. Ath. 346. ὁτιὴ στόμα Dobr. 5. γλῶτταν Dindf.] γλῶσσαν Α. 6. post ἐπιθυμίας quaedam excidisse sensit Dindorf. ἕνιά τε] ἀνεῖτο Dobr. ἐμίαινε (coniunct. cum reliquis sine lacuna) Cobet. V. 1.2 188. 9. at requireretur μιαίνει vel μιαίνοι. ὥς ἐστι κατακεχρημένος, | ὁ δ’ ὅτι ἀφειδής ἐστι τῶν ἡδ. supplet Mein. 7. κάτοξος Grot.] κατοξους Α. 8. πῦρ οὐ Grot.] οὐ πῦρ οὐ Α. φέρων δ’ Α. 10. εἰς τὸ πῦρ Grot. 1. ‘cum conducerem in foro, ubi coquorum statio erat.’ Mein. 9. ad cultros ventum est, sc. pugna inter coquos exorta. 10. Zenob. 3, 19 διὰ μαχαιρῶν καὶ πυρὸς ῥίπτειν δεῖ· ἐπὶ τῶν παραβαλλομένων καὶ ῥιψοκίνδυνα ποιούντων. Xen. Mem. 1, 3, 9 κἂν εἰς μαχαίρας κυβιστήσειε κἂν εἰς πῦρ ἅλλοιτο. ac διὰ πυρὸς βαδίζειν Arist. Lys. 133. cf. Eupol. 162. Apostol. 6, 2. Ovid. Met. 8, 76 ire per ignes, per gladios ausim. 9. 10. hoc est: ‘hunc unum qui in concertatione victor fuit mecum duco.’</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

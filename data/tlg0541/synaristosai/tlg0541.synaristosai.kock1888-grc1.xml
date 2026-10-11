@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΣΥΝΑΡΙΣΤΩΣΑΙ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.synaristosai.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.synaristosai.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.synaristosai.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_synaristosai">
+        <head>ΣΥΝΑΡΙΣΤΩΣΑΙ</head>
+        <div type="textpart" subtype="fragment" n="449" xml:id="kock-0541-synaristosai-449" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_synaristosai">
+          <lg>
+            <l n="1" xml:id="kock-0541-synaristosai-449-l1" xml:lang="grc">Ἔρως δὲ τῶν θεῶν</l>
+            <l n="2" xml:id="kock-0541-synaristosai-449-l2" xml:lang="grc">ἰσχὺν ἔχων πλείστην ἐπὶ τούτου δείκνυται·</l>
+            <l n="3" xml:id="kock-0541-synaristosai-449-l3" xml:lang="grc">διὰ τοῦτον ἐπιορκοῦσι τοὺς ἄλλους θεούς.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 63, 15 Μενάνδρου Συναριστώσαις Α.</note>
+          <note type="apparatus">2. τούτοις B. miror cur non numerosius scripserit ἰσχὺν ἐπὶ τούτου δ. πλ. ἔχων.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="450" xml:id="kock-0541-synaristosai-450" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_synaristosai">
+          <lg>
+            <l n="1" xml:id="kock-0541-synaristosai-450-l1" xml:lang="grc">ἀστεῖον τὸ μὴ</l>
+            <l n="2" xml:id="kock-0541-synaristosai-450-l2" xml:lang="grc">συνάγειν γυναῖκας μηδὲ δειπνίζειν ὄχλον,</l>
+            <l n="3" xml:id="kock-0541-synaristosai-450-l3" xml:lang="grc">ἀλλ’ οἰκοσίτους τοὺς γάμους πεποιηκέναι.</l>
+          </lg>
+          <note type="source">Athenaeus 6, 247. 8 Μένανδρος . . . ἐν Συναριστώσαις ἔφη κτλ.</note>
+          <note type="apparatus">3. i. e. vili pretio nuptias celebrasse, nullo invitato nisi qui ad familiam pertineret. cf. Antiphan. 200.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="451" xml:id="kock-0541-synaristosai-451" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_synaristosai">
+          <lg>
+            <l n="1" xml:id="kock-0541-synaristosai-451-l1" xml:lang="grc">ἂν ἔτι πιεῖν μοι δῷ τις. Β. ἀλλ’ ἡ βάρβαρος</l>
+            <l n="2" xml:id="kock-0541-synaristosai-451-l2" xml:lang="grc">ἅμα τῇ τραπέζῃ καὶ τὸν οἶνον ᾤχετο</l>
+            <l n="3" xml:id="kock-0541-synaristosai-451-l3" xml:lang="grc">ἄρασ’ ἀφ’ ἡμῶν.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 358, 10 et Suidas αἴρειν τράπεζαν· ἐπὶ τοῦ παρακειμένην ἀφελεῖν τὴν τράπεζαν. Μένανδρος . . . Συναριστώσαις κτλ.</note>
+          <note type="apparatus">1. B. add. Cob. N. 1. 24. συαριστώσαις cod. Bekk. ἂν — δῷ τις pendebant a verbis quae apud poetam praecedebant: quod moneo contra Naberum, Mnem. nov. VIII 419.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="452" xml:id="kock-0541-synaristosai-452" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_synaristosai">
+          <lg>
+            <l n="1" xml:id="kock-0541-synaristosai-452-l1" xml:lang="grc">τρισάθλιόν γε καὶ ταλαίπωρον φύσει</l>
+            <l n="2" xml:id="kock-0541-synaristosai-452-l2" xml:lang="grc">πολλῶν τε μεστόν ἐστι τὸ ζῆν φροντίδων.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 98, 53 Μενάνδρου Συναριστώσαις Α. cf. Antonius Mel. 155 p. 247. Maxim. Conf. 36, 79 p. 627 Combefis.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="453" xml:id="kock-0541-synaristosai-453" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_synaristosai">
+          <lg>
+            <l n="1" xml:id="kock-0541-synaristosai-453-l1" xml:lang="grc">καὶ τὸν ἐπὶ κακῷ</l>
+            <l n="2" xml:id="kock-0541-synaristosai-453-l2" xml:lang="grc">γινόμενον ἀλλήλων ἀγαπησμόν, οἷος ἦν.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 324, 27 et Suidas ἀγαπησμόν· λέγουσι καὶ ἀγάπησιν (ἀγαπησμόν?) τὴν φιλοφρόνησιν. Συναριστώσαις Μένανδρος κτλ. ἀλλήλων pendet a κακῷ. Hesych. ἀγαπησμός· ἀγάπησις. Zonar. 22 ἀγαπησμός· ἡ φιλοφροσύνη. cf. Lobeck. Phryn. 352.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="454" xml:id="kock-0541-synaristosai-454" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_synaristosai">
+          <lg>
+            <l n="1" xml:id="kock-0541-synaristosai-454-l1" xml:lang="grc">πατὴρ δ’ ἀπειλῶν οὐκ ἔχει μέγαν φόβον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 83, 7 Μενάνδρου Συναριστώσαις Α. de locutione ἔχειν φόβον cf. 625, 2.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="455" xml:id="kock-0541-synaristosai-455" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_synaristosai">
+          <note type="source">Plinius N. h. 23, 159 (myrtus sativae semen) odorem oris commendat vel pridie commanducatum. item apud Menandrum Synaristosae hoc edunt.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="456" xml:id="kock-0541-synaristosai-456" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_synaristosai">
+          <lg>
+            <l n="1" xml:id="kock-0541-synaristosai-456-l1" xml:lang="grc">γυναικείαν ἀγοράν</l>
+          </lg>
+          <note type="source">τὸν τόπον οὗ τὰ σκεύη τὰ τοιαῦτα (ταῖς γυναιξὶν ἐπιτήδεια) πιπράσκουσιν . . . εὕροις ἂν ἐν ταῖς Συναριστώσαις Μενάνδρου. Pollux 10, 18.</note>
+          <note type="apparatus">Praeterea cf. 954.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="458" xml:id="kock-0541-synaristosai-458" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_synaristosai">
+          <head>ἀναπετῶ</head>
+          <note type="source">ἀναπετάσω. Μένανδρος . . . ἐν Συνερώσῃ. Suidas. cf. 26</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

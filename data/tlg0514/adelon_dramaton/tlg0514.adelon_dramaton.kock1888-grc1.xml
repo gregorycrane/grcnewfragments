@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>THUGENIDES, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Thugenides</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0514.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0514.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0514.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0514_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="2" xml:id="kock-0514-adelon_dramaton-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0514_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0514-adelon_dramaton-2-l1" xml:lang="grc">ᾔτησεν εἰς ὀψώνιον τριώβολον.</l>
+          </lg>
+          <note type="source">Pollux 6, 38 Θουγενίδης ἔφη κτλ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" xml:id="kock-0514-adelon_dramaton-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0514_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0514-adelon_dramaton-3-l1" xml:lang="grc">μὴ νόμισον</l>
+          </lg>
+          <note type="apparatus">ἀντὶ τοῦ μὴ νομίσῃς· οὕτω Θουκυδίδης. Photius 267, 8 et Suidas. Bekker. Anecd. 107, 30 μὴ νόμισον· ἀντὶ τοῦ μὴ νομίσης. —</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" xml:id="kock-0514-adelon_dramaton-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0514_adelon_dramaton">
+          <p>Λειβηθρίων ἀνοητότεροι</p>
+          <note type="apparatus">
+            <p>Zonaras 1294 Λειβήθριοι· ἔθνος μωρόν, ἀπὸ τόπου Λείβηθρα καλουμένου, ἐν ᾧ κατοικοῦσιν ἀνόητοι ἄνθρωποι. Θουκυδίδης κτλ. Cramer. Anecd. Par. IIII 148, 28 Λείβηρα (sic) τόπος ἐν ᾧ κατοικοῦσιν ἀνόητοι ἄνθρωποι. Θουκυδίδης κτλ. — ἀνοητότεροι] ἀμουσότεροι Lex. reg. ms., quod ad Hesych. Λείβηθρον excitavit Alberti'. Tittm. Θουκυδίδης] Θουγενίδης Schaefer. Tittm. CXLVI. Zenob. 1, 79 ἀμουσότερος Λειβηθρίων . . . Λειβήθριοι ἔθνος Πιερικόν ἐστι . . . λέγονται δὲ ἀμουσότατοι εἶναι, ἐπειδὴ παρ' αὐτοῖς ὁ τοῦ Ὀρφέως ἐγένετο θάνατος, ubi cf. editor. Diogenian. 2, 26 (Vind. 1, 37). 7, 14. Apostol. 2, 67. 10, 50. adesp. 1572.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" xml:id="kock-0514-adelon_dramaton-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0514_adelon_dramaton">
+          <p>ἀνέσπακεν</p>
+          <note type="apparatus">
+            <p>Θουκυδίδης. ἀνεύρηκεν, εἴληφεν. Suidas. Θουγενίδης Mein. Thucydidis locum reperiri posse negat Duker. Thucyd. 6, 100. cf. Menand. 429.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

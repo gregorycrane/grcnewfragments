@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>EPINICUS, ΜΝΗΣΙΠΤΟΛΕΜΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Epinicus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0454.mnesiptolemos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0454.mnesiptolemos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0454.mnesiptolemos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0454_mnesiptolemos">
+        <head>ΜΝΗΣΙΠΤΟΛΕΜΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0454-mnesiptolemos-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0454_mnesiptolemos">
+          <lg>
+            <l n="1" xml:id="kock-0454-mnesiptolemos-1-l1" xml:lang="grc">ἐπ’ ἀλφίτου πίνοντα τοῦ θέρους ποτὲ</l>
+            <l n="2" xml:id="kock-0454-mnesiptolemos-1-l2" xml:lang="grc">ἰδὼν Σέλευκον ἡδέως τὸν βασιλέα</l>
+            <l n="3" xml:id="kock-0454-mnesiptolemos-1-l3" xml:lang="grc">ἔγραψα, καὶ παρέδειξα τοῖς πολλοῖς ὅτι,</l>
+            <l n="4" xml:id="kock-0454-mnesiptolemos-1-l4" xml:lang="grc">κἂν τὸ τυχὸν ᾗ πραγμάτιον ἢ σφόδρ’ εὐτελές,</l>
+            <l n="5" xml:id="kock-0454-mnesiptolemos-1-l5" xml:lang="grc">σεμνὸν δύναται τοῦθ’ ἡ δύναμις ἡ ’μὴ ποιεῖν.</l>
+            <l n="6" xml:id="kock-0454-mnesiptolemos-1-l6" xml:lang="grc">‘γέροντα Θάσιον τόν τε γῆς ἀπ’ Ἀτθίδος</l>
+            <l n="7" xml:id="kock-0454-mnesiptolemos-1-l7" xml:lang="grc">ἑσμὸν μελίσσης τῆς ἀκραχόλου γλυκὺν</l>
+            <l n="8" xml:id="kock-0454-mnesiptolemos-1-l8" xml:lang="grc">συγκυρκανήσας ἐν σκύφῳ χυτῆς λίθου,</l>
+            <l n="9" xml:id="kock-0454-mnesiptolemos-1-l9" xml:lang="grc">Δήμητρος ἀκτῇ πᾶν γεφυρώσας ὑγρὸν</l>
+            <l n="10" xml:id="kock-0454-mnesiptolemos-1-l10" xml:lang="grc">κατῃσίμωσε πῶμα, καύματος λύσιν.’</l>
+          </lg>
+          <note type="source">
+            <p>Athenaeus 10, 432b ἔπινον οἱ πολλοὶ καὶ ἄλφιτα ἐπιβάλλοντες τῷ οἴνῳ . . . Ἐπίνικος γοῦν, Μνησιπτολέμου ἀνάγνωσιν ποιησαμένου τῶν ἱστοριῶν ἐν αἷς ἐγέγραπτο ὡς Σέλευκος ἐπηλφίτωσε, γράψας δρᾶμα Μνησιπτόλεμον, καὶ κωμῳδῶν αὐτὸν καὶ περὶ τῆς πόσεως ταῖς ἐκείνου χρώμενος φωναῖς ἐποίησε λέγοντα κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>1. ἐπαλφιτοῦντα τοῦ θ. ποτὲ Cobet. Mnem. III 322. 5. ποιεῖν, non ποεῖν, A. 10. κατησίμωσε Schweigh.] κατησίμωσα A. κατησίμωκα C. 6. cf. Alexid. 167, 5. 7. ἑσμὸν condemnavit Herwerd. Obs. crit. 110. ‘non enim dulce examen apum Seleucum vino inmiscuisse</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

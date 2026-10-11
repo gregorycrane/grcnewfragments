@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΑΝΑΤΙΘΕΜΕΝΗ ΑΝΔΡΙΑ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.anatithemene_andria.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.anatithemene_andria.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.anatithemene_andria.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anatithemene_andria">
+        <head>ΑΝΑΤΙΘΕΜΕΝΗ ΑΝΔΡΙΑ</head>
+        <div type="textpart" subtype="fragment" n="38" xml:id="kock-0541-anatithemene_andria-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anatithemene_andria">
+          <note type="source">Terentius Andr. 1, 2, 33 <hi rend="italic">nil me fállis.</hi> Donatus (schol. 1) <hi rend="italic">id est non te ignoro, non me decipis.</hi> sic <hi rend="italic">Menander</hi> ΝΥΝδ. ΟΥΛΕΝ C-Θ ΛCΜΕΝΛΜ. (schol. 2) <hi rend="italic">figura</hi> ΛΛΗΝΙC <hi rend="italic">aloco</hi>. ΟΥΕΝΛΙΕ. ΛΛΝΘ ΛΝΙCΛΝ. (schol. 3) <hi rend="italic">lates, ut sit</hi> ΟΥΔΕΝΜΕΛΕΛΗΘΛC <hi rend="italic">nihil me fallis.</hi> ex quibus νῦν δ’ οὐ λέληθας μὴν ἐμέ, figura ἑλληνισμός, οὐδέν με λανθάνοις ἄν, οὐδέν με λέληθας exsculpserunt.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="39" xml:id="kock-0541-anatithemene_andria-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anatithemene_andria">
+          <lg>
+            <l n="1" xml:id="kock-0541-anatithemene_andria-39-l1" xml:lang="grc">εὑρετικὸν εἶναί φασι τὴν ἐρημίαν</l>
+            <l n="2" xml:id="kock-0541-anatithemene_andria-39-l2" xml:lang="grc">οἱ τὰς ὀφρῦς αἴροντες.</l>
+          </lg>
+          <note type="source">Terentius 2, 4, 3 <hi rend="italic">venit meditatus álicunde ex soló loco, orátionem spérat invenisse se.</hi> Donatus <hi rend="italic">Menander</hi> ΕΥΡΕΙΚΟΝΕΙΝΑΙΟΛCITHNEPEMIANOITAC ΟΦΡΙCΛΙponteſ. οἱ τὰς ὀφρ. αἴρ. philosophi sunt.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="40" xml:id="kock-0541-anatithemene_andria-40" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anatithemene_andria">
+          <note type="source">Terentius 3, 1, 15 <hi rend="italic">Iunó Lucina, fér opem.</hi> Donatus <hi rend="italic">obstetriciam hanc potestatem Iunoni attribuit Terentius, quamquam Menander illam Dianam adpellet.</hi> Eugraphius <hi rend="italic">hanc (Iunonem) quidam tamen potius Dianam esse dixerunt: nam ita Menander ipsam vocat cum dicit</hi> Ἄρτεμιν. Schol. Theocrit. 2, 66 καὶ παρὰ Μενάνδρῳ· ‘αἱ κυΐσκουσαι ἐπικαλεῖσθε τὴν Ἄρτεμιν, ἀξιοῦσθαι συγγνώμης ὅτι διεκορήθητε’. ‘quae ita scribenda videntur καὶ παρὰ Μενάνδρῳ αἱ κυΐσκουσαι ἐπικαλοῦνται τὴν Ἄρτεμιν ἀξιοῦσθαι συγγνώμης ὅτι διεκορήθησαν.’ Mein. ac διεκορήθησαν Ambros. Ziegler. p. 23. εἰώθασιν ἐπικαλεῖσθαι Duebner. ἐπικαλεῖσθαι — ἀξιοῦσι συγγνωμονῆσαι Ahrens.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="41" xml:id="kock-0541-anatithemene_andria-41" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anatithemene_andria">
+          <lg>
+            <l n="1" xml:id="kock-0541-anatithemene_andria-41-l1" xml:lang="grc">λούσατ’ αὐτὴν αὐτίκα.</l>
+          </lg>
+          <note type="source">Terentius 3, 2, 3 <hi rend="italic">nunc primum fac ista ut lavét.</hi> Donatus (schol. 1) <hi rend="italic">Menander</hi> ΛΟΥC. ΛΤΛΥΤΚΝ. (schol. 2) <hi rend="italic">sic enim et Men-</hi>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

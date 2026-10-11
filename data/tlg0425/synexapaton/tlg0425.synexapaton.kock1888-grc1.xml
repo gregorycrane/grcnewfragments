@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>BATON, ΣΥΝΕΞΑΠΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Baton</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0425.synexapaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0425.synexapaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0425.synexapaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0425_synexapaton">
+        <head>ΣΥΝΕΞΑΠΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="5" xml:id="kock-0425-synexapaton-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0425_synexapaton">
+          <lg>
+            <l n="1" xml:id="kock-0425-synexapaton-5-l1" xml:lang="grc">ἀπολώλεκας τὸ μειράκιόν μου παραλαβών,</l>
+            <l n="2" xml:id="kock-0425-synexapaton-5-l2" xml:lang="grc">ἀκάθαρτε, καὶ πέπεικας ἐλθεῖν εἰς βίον</l>
+            <l n="3" xml:id="kock-0425-synexapaton-5-l3" xml:lang="grc">ἀλλότριον αὐτοῦ, καὶ πότους ἑωθινοὺς</l>
+            <l n="4" xml:id="kock-0425-synexapaton-5-l4" xml:lang="grc">πίνει διὰ σὲ νῦν, πρότερον οὐκ εἰθισμένος.</l>
+            <l n="5" xml:id="kock-0425-synexapaton-5-l5" xml:lang="grc">Β. εἶτ᾽ εἰ μεμάθηκε, δέσποτα, ζῆν, ἐγκαλεῖς;</l>
+            <l n="6" xml:id="kock-0425-synexapaton-5-l6" xml:lang="grc">Α. ζῆν δ᾽ ἐστὶ τὸ τοιοῦθ᾽; Β. ὡς λέγουσί γ᾽ οἱ σοφοί.</l>
+            <l n="7" xml:id="kock-0425-synexapaton-5-l7" xml:lang="grc">ὁ γοῦν Ἐπίκουρός φησιν εἶναι τἀγαθὸν</l>
+            <l n="8" xml:id="kock-0425-synexapaton-5-l8" xml:lang="grc">τὴν ἡδονὴν δήπουθεν· οὐκ ἔστιν δ᾽ ἔχειν</l>
+            <l n="9" xml:id="kock-0425-synexapaton-5-l9" xml:lang="grc">ταύτην ἑτέρωθεν, ἐκ δὲ τοῦ ζῆν παγκάλως</l>
+            <l n="10" xml:id="kock-0425-synexapaton-5-l10" xml:lang="grc">ἴσως ἅπαντας εὐτυχεῖν δώσεις ἐμοί.</l>
+            <l n="11" xml:id="kock-0425-synexapaton-5-l11" xml:lang="grc">Α. ἑόρακας οὖν φιλόσοφον, εἰπέ μοι, τινὰ</l>
+            <l n="12" xml:id="kock-0425-synexapaton-5-l12" xml:lang="grc">μεθύοντ᾽ ἐπὶ τούτοις θ᾽ οἷς λέγεις ζηλούμενον;</l>
+            <l n="13" xml:id="kock-0425-synexapaton-5-l13" xml:lang="grc">Β. ἅπαντας· οἱ γοῦν τὰς ὀφρῦς ἐπηρκότες</l>
+            <l n="14" xml:id="kock-0425-synexapaton-5-l14" xml:lang="grc">καὶ τὸν φρόνιμον ζητοῦντες ἐν τοῖς περιπάτοις</l>
+            <l n="15" xml:id="kock-0425-synexapaton-5-l15" xml:lang="grc">καὶ ταῖς διατριβαῖς ὥσπερ ἀποδεδρακότα,</l>
+            <l n="16" xml:id="kock-0425-synexapaton-5-l16" xml:lang="grc">οὕτως, ἐπὰν γλαυκίσκος αὐτοῖς παρατεθῇ,</l>
+            <l n="17" xml:id="kock-0425-synexapaton-5-l17" xml:lang="grc">ἴσασιν οὗ δεῖ πρῶτον ἅψασθαι τόπου</l>
+            <l n="18" xml:id="kock-0425-synexapaton-5-l18" xml:lang="grc">καὶ τὴν κεφαλὴν ζητοῦσιν ὥσπερ πράγματος,</l>
+            <l n="19" xml:id="kock-0425-synexapaton-5-l19" xml:lang="grc">ὥστ᾽ ἐκπεπλῆχθαι πάντας.</l>
+          </lg>
+          <note type="source">Athenaeus 3, 103c Βάτων ἐν Συνεξαπατῶντι δυσχεραίνοντα ποιήσας μειρακίου πατέρα, ὡς διαφθαρέντος κατὰ τὴν δίαιταν ὑπὸ παιδαγωγοῦ, φησίν κτλ. idem 7, 279a Βάτων (sic Casaub., Πλάτων hic ut 103 AC) ἐν Συνεξαπατῶντι δυσχεραίνοντα ποιήσας πατέρα τῷ τοῦ υἱοῦ παιδαγωγῷ καὶ λέγοντα κτλ.</note>
+          <note type="apparatus">1. μου τὸ μειράκιον AC 103. 3. ποτοὺς Α. 279. 4. εἰθισμένος Α 279] εἰθισμένον 103. 5. εἶτ᾽ εἰ Α 279] εἴ τι 103. fortasse ὁτιὴ. 6. δ᾽ ἐστὶ τὸ τοιοῦτον AC utrubique. δὲ τὸ τοιοῦτον Dindf. φὴς τὸ τοι-</note>
+          <pb n="329" facs="urn:hathi:hvd.hxijy4:scan:355" />
+          <note type="apparatus">
+            <p>οὖτον Cobet. Mnem. VIIII 114. λέγουσί γ' Mein. Anal. Ath. 46] λέγουσιν. 9. δὴ καλῶς A 103. παγκάλως 279. ἐτ. εἰ μὴ ἐκ τοῦ ξ. καλῶς C. 10. utrubique om. C. ευσωσιαπαντητυχον A 103. εὖ σῶς ἅπαντας ἢ τυχὸν 279. ἴσως ἅπαντας εὐτυχεῖν Herwerd. Obs. crit. 124 ‘fortasse dabis (concedes) τὸ ζῆν παγκ. omnibus parere felicitatem’. εὐτυχεῖν pro ἢ τυχὸν Emperius p. 346. ‘fortasse’ dicit per ironiam. 11. ἑώρακας οὖν A 279] ἑώρακας σύ 103. ἑώρακας δὲ σὺ C. 12. ἐπὶ A utrubique. del. Grotius. ζηλούμενον K.] κηλούμενον. cf. varietas script. Nicol. 21. 13. γοῦν A 103. γὰρ 279. 14. 15 om. C. cf. fr. 2, 3. 4. τὸ φρ. A 279. ζητοῦντες A 279] ζῶντες 103. 16. οὕτως] οὗτοι δ' K. 17. οὐδεῖ A 279. 18. ὥσπερ Porson.] ὡσπερὶ A utrubique. v. 18 expungit G. A. Hirschig. Annot. crit. 30. non accedo.</p>
+            <p>6. ‘ζῆν pro ἡδέως ζῆν vita frui’. Cobet. 9. Epicur. Diog. L. 10, 140 οὐκ ἔστιν ἡδέως ζῆν ἄνευ τοῦ φρονίμως καὶ καλῶς καὶ δικαίως, οὐδὲ φρονίμως καὶ καλῶς καὶ δικαίως ἄνευ τοῦ ἡδέως. ὅτῳ δὲ μὴ ὑπάρχει ζῆν φρονίμως καὶ καλῶς καὶ δικαίως, οὐκ ἔστι τοῦτον ἡδέως ζῆν. 16. οὕτως referunt ad ὥστε v. 19 ‘tam bene glauco adposito norunt . ., ut omnes stupefiant.’ 17. τόπον et κεφαλὴν (i. e. κεφάλαιον) πράγματος dicit ad exemplum rhetorum. glauci autem caput praeter cetera in deliciis erat. cf. Sannyr. 3. Antiphan. 132, 4. Anaxandr. 30, 2. Sotad. 1, 5.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" xml:id="kock-0425-synexapaton-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0425_synexapaton">
+          <note type="source">
+            <p>Athenaeus 15, 678 f σὺ γὰρ εἶ ὁ τὰ ἐν τοῖς βιβλίοις οὐ μόνον ἀπόρρητα ἐκλέγων ἀλλὰ καὶ διορύττων, καθάπερ οἱ παρὰ Βάτωνι τῷ κωμῳδιοποιῷ ἐν Συνεξαπατῶντι φιλόσοφοι.</p>
+          </note>
+          <note type="apparatus">
+            <p>ἀπόρρ. οὐ μόνον ἐκλέγων ἀλλὰ καὶ ἐξορύττων Mein. Anal. Ath. 328.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

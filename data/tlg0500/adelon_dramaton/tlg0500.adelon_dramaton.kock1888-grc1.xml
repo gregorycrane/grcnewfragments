@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>POSIDIPPUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Posidippus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0500.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0500.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0500.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="42" xml:id="kock-0500-adelon_dramaton-42" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <head>ἐπίχαρμα</head>
+          <note type="source">Pollux 3, 101 τὸ παρὰ Ποσειδίππῳ ἐπίχαρμα μοχθηρόν. cf. Theocrit. 2, 20.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="43" xml:id="kock-0500-adelon_dramaton-43" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <head>κακοπρόσωπος</head>
+          <note type="source">Ποσείδιππος. Bekker. Anecd. 104, 19. ποσίδ. cod. cf. Bekker. adn. ad 93, 19.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="44" xml:id="kock-0500-adelon_dramaton-44" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <head>κύφωνες</head>
+          <note type="source">ἱμάτια γυναικεῖα ἢ χιτῶνος εἶδος. οὕτως Ποσείδιππος. Photius. Hesych. κύφων... ἔστι καὶ χιτῶνος εἶδος.</note>
+          <note type="apparatus">Menacchmos Plauti et Aululariam O. Ribbeckius Alazon. 25 n. 1, quod servi coqui in eis inveniantur, ex Posidippi comoediis expressas esse arbitratur conl. Athen. 14, 658f οὐ γὰρ ἂν εὕροι τις δοῦλόν τινα μάγειρον πλὴν παρὰ Ποσειδίππῳ μόνῳ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="27" xml:id="kock-0500-adelon_dramaton-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <head>ἰδιώτης μέγας</head>
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-27-l1" xml:lang="grc">αὐτοῖς ὁ Σεύθης. οἶσθα δ᾽, ὦ βέλτισθ᾽, ὅτι</l>
+            <l n="2" xml:id="kock-0500-adelon_dramaton-27-l2" xml:lang="grc">ἀγαθοῦ στρατηγοῦ διαφέρειν οὐδὲν δοκεῖ.</l>
+            <l n="3" xml:id="kock-0500-adelon_dramaton-27-l3" xml:lang="grc">οἱ πολέμιοι πάρεισιν· ὁ βαθὺς τῇ φύσει</l>
+            <l n="5" xml:id="kock-0500-adelon_dramaton-27-l5" xml:lang="grc">στρατηγὸς ἕστηκεν, τὸ πρᾶγμ᾽ ἐδέξατο.</l>
+            <l n="6" xml:id="kock-0500-adelon_dramaton-27-l6" xml:lang="grc">πολέμιός ἐστι πᾶς ὁ συμπίνων ὄχλος.</l>
+            <l n="7" xml:id="kock-0500-adelon_dramaton-27-l7" xml:lang="grc">κινεῖ γὰρ ἁθρόος οὗτος· εἰσελήλυθεν</l>
+            <l n="8" xml:id="kock-0500-adelon_dramaton-27-l8" xml:lang="grc">ἐκ πέντε καὶ δέχ᾽ ἡμερῶν προηλπικὼς</l>
+            <l n="9" xml:id="kock-0500-adelon_dramaton-27-l9" xml:lang="grc">τὸ δεῖπνον, ὁρμῆς μεστός, ἐκλελυμένος,</l>
+            <l n="10" xml:id="kock-0500-adelon_dramaton-27-l10" xml:lang="grc">τηρῶν πότ᾽ ἐπὶ τὰς χεῖρας οἴσει τις. νόει</l>
+            <l n="11" xml:id="kock-0500-adelon_dramaton-27-l11" xml:lang="grc">ὄχλου τοιούτου ῥαχίαν ἠθροισμένην.</l>
+          </lg>
+          <note type="source">Athenaeus 9, 377b <foreign xml:lang="grc">καὶ περὶ ἑτέρου μαγείρου, ὄνομα δ᾽ ἐστὶ Σεύθης, ὁ αὐτός φησιν ποιητὴς (Ποσείδιππος) οὕτως κτλ.</foreign>
+          </note>
+          <note type="apparatus">
+            <p>2. <foreign xml:lang="grc">σευήθης</foreign> Α. <foreign xml:lang="grc">δ᾽</foreign> add. Grotius. <foreign xml:lang="grc">οἶσθας</foreign> Pierson. Moer. 283. 3. <foreign xml:lang="grc">οὐδὲν</foreign> P] <foreign xml:lang="grc">οὐθὲν</foreign> Α. 5. <foreign xml:lang="grc">ἕστηκεν καὶ</foreign> Α. <foreign xml:lang="grc">ἕστηκε</foreign> C. <foreign xml:lang="grc">καὶ</foreign> del. (vel <foreign xml:lang="grc">ἔστη καὶ</foreign>) Casaub. 7. <foreign xml:lang="grc">κινεῖ</foreign> Grot.] <foreign xml:lang="grc">πίνει</foreign> AC. 8. <foreign xml:lang="grc">προηλπικὼς</foreign> C] <foreign xml:lang="grc">προσηλπικὼς</foreign> Α. 9. <foreign xml:lang="grc">ἐκλελεγμένος</foreign> Mein. probabilius <foreign xml:lang="grc">ἐκκεκαυμένος</foreign> Cobet. N. 1. 5. 10. <foreign xml:lang="grc">ὁπότε κατὰ χειρὸς</foreign> Cobet. tribrachum cum anapaesto poetam coniunxisse non credo. 11. fortasse <foreign xml:lang="grc">τοσούτου</foreign>. <foreign xml:lang="grc">ῥαχίαν</foreign> Schweigh.] <foreign xml:lang="grc">ῥακίαν</foreign> Α. 1. quid hic sit <foreign xml:lang="grc">ἰδιώτης</foreign> nescio. 5. <foreign xml:lang="grc">ἐδέξατο</foreign>, ut imperator impetum hostium. 7. <foreign xml:lang="grc">κινεῖν</foreign> ut Romani <hi rend="italic">movere exercitum</hi> dicunt posteriores. cf. Polyb. 2, 54 (Mein.). 11. Eustath. 1540, 27 <foreign xml:lang="grc">τὸν τόπον ᾧ προσαρράττει τὸ κῦμα ῥαχίαν λέγουσιν, ὡς ἐν ῥητορικῷ εὕρηται λεξικῷ</foreign>. cf. Poll. 1, 109. Phot. <foreign xml:lang="grc">ῥαχίαν</foreign>. Plut. Mor. 789 d <foreign xml:lang="grc">ῥαχίαν ἐν δήμῳ καὶ ψόφον</foreign>. 791a <foreign xml:lang="grc">τὴν ῥαχίαν καὶ τὸν ψόφον ἀφεικώς</foreign>. proverbium fuit <foreign xml:lang="grc">ῥαχίας λαλίστερος</foreign>. Diogenian. 7, 99. Gregor. Cypr. 3, 58. Apostol. 15, 21.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="30" xml:id="kock-0500-adelon_dramaton-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-30-l1" xml:lang="grc">οὐδεὶς ἀλύπως τὸν βίον διήγαγεν</l>
+            <l n="2" xml:id="kock-0500-adelon_dramaton-30-l2" xml:lang="grc">ἄνθρωπος ὤν, οὐδὲ μέχρι τοῦ τέλους πάλιν</l>
+            <l n="3" xml:id="kock-0500-adelon_dramaton-30-l3" xml:lang="grc">ἔμεινεν εὐτυχῶν.</l>
+          </lg>
+          <note type="source">Clemens Alex. Strom. 6, 2, 13 Ποσείδιππος κτλ. Maximus Conf. 28, 68 p. 614 extr. Combefis. et omisso auctoris nomine Stobaeus Floril. 99, 14.</note>
+          <note type="apparatus">ἄνθρωπος ὢν οὐδεὶς ἄλυπος — διήγαγεν, οὐδὲ μέχρι τέλους ἔμ. εὐτ. Stob., sed ἄνθρωπος ὢν post διήγ. Trinc. ἄλυπος — οὐδ’ ἄχρι τέλ. et om. πάλιν Max. ἄχρι etiam Clem. 2. οὐδεὶς δὲ μέχρι τέλους Grot. οὐδ’ εἴ γε μέχρι τέλους Gaisf. nos secuti sumus Meinekium. 3. εὐτυχῶν V. εὐτυχών L Clem. ἀτυχῶν recte ut videtur Potter.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="31" xml:id="kock-0500-adelon_dramaton-31" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-31-l1" xml:lang="grc">τὴν χλανίδα πάντες, ὡς ἔοικεν, οὐκ ἐμὲ</l>
+            <l n="2" xml:id="kock-0500-adelon_dramaton-31-l2" xml:lang="grc">προσηγόρευον· οὐδὲ εἷς νῦν μοι λαλεῖ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 14 (περὶ κολακείας), 1 Ποσειδίππου (sic) A.</note>
+          <note type="apparatus">i. e. antehac, ubi splendida veste indutus prodibam, omnes me adpellabant, nunc nemo: itaque non me, sed vestem adloquebantur.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="32" xml:id="kock-0500-adelon_dramaton-32" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-32-l1" xml:lang="grc">διὰ τὴν τέχνην μὲν γνωρίμους ἐκτησάμην</l>
+            <l n="2" xml:id="kock-0500-adelon_dramaton-32-l2" xml:lang="grc">πολλούς, διὰ τὸν τρόπον δὲ τοὺς πλείστους φίλους.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 37 (περὶ χρηστότητος), 14 Ποσειδίππου A. Maxim. Conf. 57, 114 p. 665 Combefis.</note>
+          <note type="apparatus">1. διὰ τὴν τέχνην Stob.] τέχνη Max. 'poterat homo κουρεὺς εἶναι τὴν τέχνην et hinc γνωρίμους permultos habere'. Cobet. N. 1. 74. vel coquus, ut H. Iacobi V cccxx. itaque perperam τύχην Mein. in Stob.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="33" xml:id="kock-0500-adelon_dramaton-33" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-33-l1" xml:lang="grc">οὐκ ἔργον ἐστὶν εὖ λέγειν, ἀλλ’ εὖ φρονεῖν·</l>
+            <l n="2" xml:id="kock-0500-adelon_dramaton-33-l2" xml:lang="grc">πολλοὶ γὰρ εὖ λέγοντες οὐκ ἔχουσι νοῦν.</l>
+          </lg>
+          <note type="source">Stobaeus Ecl. 2, 15, 24 Wachsm. Ποσειδίππου (.οδιδίππου) L.</note>
+          <note type="apparatus">1. φρονεῖν Cobet. N. 1. 90] ποιεῖν. 2. λέγοντες εὖ L.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="34" xml:id="kock-0500-adelon_dramaton-34" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-34-l1" xml:lang="grc">διψηρός, ἄτοπος ὁ μυρίνης ὁ τίμιος.</l>
+          </lg>
+          <pb n="347" facs="urn:hathi:hvd.hxijy4:scan:373" />
+          <note type="source">Athenaeus 1, 32b μυρίνης δὲ οἶνος κεῖται παρὰ Ποσειδίππῳ κτλ.</note>
+          <note type="apparatus">δίψης ἀρωγὸς Herwerd. Nov. add. crit. 45. 6, minime 'ingeniose', ut iudicabat Mein. Anal. Ath. 16, quamquam Antiphan. 150 δίψους ἀρωγόν. ἄποτος Coraes. μυρίνης Pors.] μυρρίνης. cf. Diphil. 17, 10. scribendum videtur λιψουρὸς ἀτόπως conl. Aesch. Choeph. 756. 'urinam ciet'.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="28" xml:id="kock-0500-adelon_dramaton-28" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-28-l1" xml:lang="grc">Ἑλλὰς μέν ἐστι μία, πόλεις δὲ πλείονες·</l>
+            <l n="2" xml:id="kock-0500-adelon_dramaton-28-l2" xml:lang="grc">σὺ μὲν ἀττικίζεις, ἡνίκ᾽ ἂν φωνὴν λέγῃς</l>
+            <l n="3" xml:id="kock-0500-adelon_dramaton-28-l3" xml:lang="grc">αὐτοῦ τινές, οἱ δ᾽ Ἕλληνες ἑλληνίζομεν.</l>
+            <l n="4" xml:id="kock-0500-adelon_dramaton-28-l4" xml:lang="grc">τί προσδιατρίβων συλλαβαῖς καὶ γράμμασιν</l>
+            <l n="5" xml:id="kock-0500-adelon_dramaton-28-l5" xml:lang="grc">τὴν εὐτραπελίαν εἰς ἀηδίαν ἄγεις;</l>
+          </lg>
+          <note type="source">[Dicaearchus] 3, 7 in C. Mueller. Geogr. min. I 109 ὅτι δὲ πᾶσα ἣν κατηριθμήμεθα Ἑλλάς ἐστι, μαρτυρεῖ ἡμῖν ὁ τῶν κωμῳδιῶν ποιητὴς Ποσείδιππος, μεμφόμενος Ἀθηναίοις ὅτι τὴν αὑτῶν φωνὴν καὶ τὴν πόλιν φασὶν Ἑλλάδος εἶναι, λέγων οὕτως κτλ. πρὸς μὲν τοὺς οὐχ ὑπολαμβάνοντας εἶναι τὴν Θετταλίαν τῆς Ἑλλάδος, οὐδὲ τοὺς Θετταλούς, Ἕλληνος ἀπογόνους ὄντας, ἑλληνίζειν ἐπὶ τοσοῦτον εἰρήσθω.</note>
+          <note type="apparatus">3. αὐτοῦ τιν᾽ Salmas. fortasse αὐτῖτιν, ut αὐτίτην οἶνον dicebant τὸν ἐπιχώριον. Atticus aliquis Thessalum parum attice loquentem reprehenderat. respondet Thessalus, ut Attici ἀττικίζειν debeant, ita ceteris Graecis sua cuique lingua uti licere. 5. τὴν εὐτραπελίαν, conloquii facilitatem.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="29" xml:id="kock-0500-adelon_dramaton-29" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-29-l1" xml:lang="grc">ναοὶ δύ᾽ εἰσὶ καὶ στοά, καὶ τοὔνομα,</l>
+            <l n="2" xml:id="kock-0500-adelon_dramaton-29-l2" xml:lang="grc">καὶ τὸ βαλανεῖον, καὶ τὸ Σαράβου κλέος,</l>
+            <l n="3" xml:id="kock-0500-adelon_dramaton-29-l3" xml:lang="grc">τὸ πολὺ μὲν ἀκτή, τοῖς δ᾽ Ἐλευθερίοις πόλις.</l>
+          </lg>
+          <note type="source">[Dicaearchus] 1, 11 in C. Mueller. Geogr. min. I 102 ἡ δὲ πόλις (Πλαταιαί) κατὰ τὸν κωμῳδιῶν ποιητὴν Ποσείδιππον κτλ.</note>
+          <note type="apparatus">1. νεὼ Mein. 2. Σαράβου Mein.] Σηράμβου. 3. Ἐλευθερίοις I. Voss. Scylac. 9] ἐλευθέροις. anno ante Leuctricam pugnam tertio ἡ πόλις (Πλαταιαί) ὑπὸ τῶν Θηβαίων καθηρέθη πλὴν τὰ ἱερά. Paus. 9, 1, 18. 1. Pausanias 9, 2 Iunonis, 4 Minervae Cererisque templa commemorat. 2. Σάραμβος ὁ κάπηλος est Plat. Gorg. 518b (cum Thcarione Aristoph. fr. 1 et Mithaeco coniunctus), οἶνον θαυμαστὸν παρασκευάζων. ῾propter Posidippi testimonium hominem Plataeas patriam habuisse conicias᾽. Mein. V 115. O. Muellerus Aegin. 77 Aeginetam fecerat. Σάραμβον plerique dicunt, sed Σάραβον verum nomen esse docet Achaeus Athen. 4, 173d Σαραβικῶν κοπίδων συνομώνυμε. Poll. 7, 193 Σαράβωνα ὁ Πλάτων κάπηλον ὠνόμασεν, ἐπαινῶν αὐτὸν ἐπ᾽ οἰνουργία. 3. 'festis Eleutheriorum diebus Plataea urbs est, i. e. hominum multitudine frequens'. de Eleutheriis in memoriam victoriae Plataeensis quinto quoque anno celebratis cf. Paus. 9, 2, 4 (6). Strab. 9, 412. — ἀκτή oppidum procul a mari situm, monte Cithaerone interiacente, dici nullo modo poterat. neque vero Cic.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="35" xml:id="kock-0500-adelon_dramaton-35" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <note type="source">Harpocration 98, 8</note>
+          <note type="apparatus">τὴν πενιχρὰν κόρην .. θῆσσαν ὀνομάζουσιν οἱ Ἀττικοί. ἐπάναγκες δὲ ἦν τοῖς ἔγγιστα γένους τὰς θήσσας ἢ λαμβάνειν πρὸς γάμον ἢ ἐ μνᾶς διδόναι, ὡς καὶ Ποσείδιππός που ὁ κωμικός φησιν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="36" xml:id="kock-0500-adelon_dramaton-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-36-l1" xml:lang="grc">προσέκοψε τῷ ἀνθρώπῳ</l>
+          </lg>
+          <note type="apparatus">ἀντὶ τοῦ ἠλλοτριώσατο. οὕτως Ποσείδιππος. Photius et Suidas. προσέκοψεν Phot. προσέκοψε τἀνθρώπῳ Mein. i. e. succensuit. cf. Wesseling. Diod. 1, 71 et exempla ab eodem ad 13, 80 congesta. Alexid. 81.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="37" xml:id="kock-0500-adelon_dramaton-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-37-l1" xml:lang="grc">τὸ τῆς ἐλαίας δένδρον</l>
+          </lg>
+          <note type="apparatus">παρὰ Ποσειδίππῳ. Cramer. Anecd. Ox. II 277. scr. ἐλάας.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="38" xml:id="kock-0500-adelon_dramaton-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-38-l1" xml:lang="grc">ὀνυχιστήρια λεπτά</l>
+          </lg>
+          <note type="apparatus">παρὰ Ποσειδίππῳ. Pollux 10, 140. est μαχαιρῶν genus. παρὰ add. Bekker.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="39" xml:id="kock-0500-adelon_dramaton-39" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-39-l1" xml:lang="grc">ἄθετος</l>
+          </lg>
+          <note type="apparatus">ὁ ἀποίητος. οὕτω Ποσείδιππος. Bekker. Anecd. 350, 21. ποσίδ. cod. — ambiguam habet explicationem.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="40" xml:id="kock-0500-adelon_dramaton-40" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-40-l1" xml:lang="grc">αὐθέκαστος</l>
+          </lg>
+          <note type="apparatus">Ποσείδιππος ἀντὶ τοῦ ἁπλοῦ ἐχρήσατο. Bekker. Anecd. 462, 32. cf. Philem. 89, 7.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="41" xml:id="kock-0500-adelon_dramaton-41" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0500-adelon_dramaton-41-l1" xml:lang="grc">ἡ ἔπηλις</l>
+          </lg>
+          <note type="apparatus">ἔστι παρὰ Ποσιδίππῳ. Bekker. Anecd. 424, 26. Suidas ἀπηλιώτης· ὁ ἄνεμος... καὶ πάντα τὰ ὅμοια ψιλῶς. καὶ ἡ ἔπηλις ἔστι</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΕΜΠΙΜΠΡΑΜΕΝΗ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.empimpramene.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.empimpramene.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.empimpramene.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_empimpramene">
+        <head>ΕΜΠΙΜΠΡΑΜΕΝΗ</head>
+        <div type="textpart" subtype="fragment" n="154" xml:id="kock-0541-empimpramene-154" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_empimpramene">
+          <lg>
+            <l n="1" xml:id="kock-0541-empimpramene-154-l1" xml:lang="grc">. . . ἐξώλης ἀπόλοιθ᾽ ὅστις ποτὲ</l>
+            <l n="2" xml:id="kock-0541-empimpramene-154-l2" xml:lang="grc">ὁ πρῶτος ἦν γήμας, ἔπειθ᾽ ὁ δεύτερος,</l>
+            <l n="3" xml:id="kock-0541-empimpramene-154-l3" xml:lang="grc">εἶθ᾽ ὁ τρίτος, εἶθ᾽ ὁ τέταρτος, εἶθ᾽ ὁ μεταγενής.</l>
+          </lg>
+          <note type="source">Athenaeus 13, 559 e Μένανδρος . . . ἐν Ἐμπιμπραμένῃ (sic A) κτλ.</note>
+          <note type="apparatus">2. γήμας A] ὁ γήμας. 3. Μεταγένης Zedelius cum L, recte fortasse, quamquam quis fuerit ille quem ridet Metagenes nescio. similiter iocatur Arist. Ran. 587. 8. de sententia cf. Eubul. 116. Aristophont. 5.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="155" xml:id="kock-0541-empimpramene-155" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_empimpramene">
+          <lg>
+            <l n="1" xml:id="kock-0541-empimpramene-155-l1" xml:lang="grc">τρία γάρ ἐστι, δέσποτα,</l>
+            <l n="2" xml:id="kock-0541-empimpramene-155-l2" xml:lang="grc">δι᾽ ὧν ἅπαντα γίνετ᾽, ἢ κατὰ τοὺς νόμους,</l>
+            <l n="3" xml:id="kock-0541-empimpramene-155-l3" xml:lang="grc">ἢ ταῖς ἀνάγκαις, ἢ τὸ τρίτον ἔθει τινί.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 43, 15 Μενάνδρου Ἐμπιμπραμένη A. sine poetae fabulaeve nomine Apostolius 17, 26.</note>
+          <note type="apparatus">— 2. τοὺς om. Stob. γίνεται ἢ κατὰ τὸν νόμον Apostol. 3. τὸ add. Bentl. Cuiacius Observ. 19, 16 comparavit Modestinum Digest. 1, 3, 40 omne ius aut consensus fecit, aut necessitas constituit, aut firmavit consuetudo.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="156" xml:id="kock-0541-empimpramene-156" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_empimpramene">
+          <lg>
+            <l n="1" xml:id="kock-0541-empimpramene-156-l1" xml:lang="grc">ἐφ’ ᾧ φρονεῖς μέγιστον ἀπολεῖ τοῦτό σε,</l>
+            <l n="2" xml:id="kock-0541-empimpramene-156-l2" xml:lang="grc">τὸ δοκεῖν τιν’ εἶναι· καὶ γὰρ ἄλλους μυρίους.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 22, 28 τοῦ αὐτοῦ (Μενάνδρου) Ἐμπιμπραμένῃ</note>
+          <note type="apparatus">Α. 2. τιν’] τι B. μυρίους, i. e. ἀπώλεσεν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="157" xml:id="kock-0541-empimpramene-157" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_empimpramene">
+          <lg>
+            <l n="1" xml:id="kock-0541-empimpramene-157-l1" xml:lang="grc">ὡς ἀγαθόν ἐστι πρᾶγμα τὸ γενέσθαι τινὸς</l>
+            <l n="2" xml:id="kock-0541-empimpramene-157-l2" xml:lang="grc">πατέρα.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 75, 6 Μενάνδρου Ἐμπιμπραμένῃ Α. ἐστι] τό</note>
+          <note type="apparatus">ΑΒ. τινὸς] τέκνων Dobr.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="158_159" xml:id="kock-0541-empimpramene-158-159" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_empimpramene">
+          <lg>
+            <l n="1" xml:id="kock-0541-empimpramene-158-159-l1" xml:lang="grc">καὶ νῦν ὑπὲρ τούτων συνάγουσι κατὰ μόνας.</l>
+            <l n="2" xml:id="kock-0541-empimpramene-158-159-l2" xml:lang="grc">ἐπλήρωσέν τε τὸ συναγώγιον.</l>
+          </lg>
+          <note type="source">Athenaeus 8, 365 c ἔλεγον δὲ συνάγειν καὶ τὸ μετ’ ἀλλήλων πίνειν, καὶ συναγώγιον τὸ συμπόσιον. Μένανδρος ἐν Ἐμπιμπραμένῃ (ἐν πιμπραμένη Α) καὶ — μόνας. εἶθ’ ἑξῆς ἔφη κτλ. μήποτε δὲ τοῦτ’ ἔστι τὸ ἀπὸ συμβολῶν καλούμενον. cf. Ephipp. 4. Diphil. 43, 28. Poll. 6, 8 συναγαγεῖν συμπόσιον, συστῆσαι, πληρῶσαι . . συναθροῖσαι.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

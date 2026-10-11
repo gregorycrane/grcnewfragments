@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>AMPHIS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Amphis</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0404.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0404.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0404.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="4" xml:id="kock-0404-adelon_dramaton-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_adelon_dramaton">
+          <note type="source">
+            <p>Martial. 1, 85, 5. 6 confert O. Crusius Philol. XLVI 615.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="30" xml:id="kock-0404-adelon_dramaton-30" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_adelon_dramaton">
+          <note type="source">
+            <p>1. 2. [Lucianus] Amor. 27 <foreign xml:lang="grc">ἡ θήλεια τέρψις ὅλῃ μοίρᾳ πλεονεκτεῖ τὴν ἄρρενα.</foreign> — 9. <foreign xml:lang="grc">ὡσεὶ προσῆκον δ᾽ οὐδὲν</foreign> Kaibel.</p>
+          </note>
+          <note type="apparatus">
+            <p>10. multo minus quam ulla mearum coniectura admitti potest K. Zacheri (Berl. Wochenschr. 712) <foreign xml:lang="grc">ἔκρουσε πουλύπουν τιν'· ὁ δὲ πρίασθαι θέλων.</foreign>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="37" xml:id="kock-0404-adelon_dramaton-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_adelon_dramaton">
+          <note type="apparatus">
+            <p>4 <foreign xml:lang="grc">τὸν λῆρον</foreign> (i. e. 'cerebri ex vino perturbationem'), <foreign xml:lang="grc">ὥστε τὰς ῥ. λῆρον δοκεῖν</foreign> Madvig. Advers. crit. III 52. <foreign xml:lang="grc">τὸν οἶνον ὥστε τ. ῥ. λῆρον δοκεῖν</foreign> Kaibel.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="42" xml:id="kock-0404-adelon_dramaton-42" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_adelon_dramaton">
+          <note type="source">
+            <p>Maxim. Conf. 33, 75 p. 622 Combef.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="45" xml:id="kock-0404-adelon_dramaton-45" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0404_adelon_dramaton">
+          <note type="apparatus">
+            <p>dubium est. cf. Nauck. Mélanges V 235. O. Crus. p. 615.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

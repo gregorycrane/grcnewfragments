@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΠΕΡΙΝΘΙΑ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.perinthia.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.perinthia.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.perinthia.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+        <head>ΠΕΡΙΝΘΙΑ</head>
+        <div type="textpart" subtype="fragment" n="393" xml:id="kock-0541-perinthia-393" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+          <lg>
+            <l n="1" xml:id="kock-0541-perinthia-393-l1" xml:lang="grc">ὅστις παραλαβὼν δεσπότην ἀπράγμονα</l>
+            <l n="2" xml:id="kock-0541-perinthia-393-l2" xml:lang="grc">καὶ κοῦφον ἐξαπατᾷ θεράπων, οὐκ οἶδ’ ὅ τι</l>
+            <l n="3" xml:id="kock-0541-perinthia-393-l3" xml:lang="grc">οὗτος μεγαλεῖόν ἐστι διαπεπραγμένος,</l>
+            <l n="4" xml:id="kock-0541-perinthia-393-l4" xml:lang="grc">ἐπαβελτερώσας τὸν πρότερον ἀβέλτερον.</l>
+          </lg>
+          <note type="source">Suidas ἀβέλτερος· ἀνόητος, ἀσύνετος. Μένανδρος Περινθίᾳ κτλ.</note>
+          <note type="apparatus">2. οὐκ οἶσθ’ ὅτι Porson. Adv. 255. 4. πρότερον Cobet. N. 1. 80] ποτε. ποτ’ ὄντ’ Scaliger. τὸ πρόσθ’ Grotius. — 2. 3. ‘nescio quid magnifici perfecerit’, i. e. nihil magnifici perfecit.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="394" xml:id="kock-0541-perinthia-394" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+          <lg>
+            <l n="1" xml:id="kock-0541-perinthia-394-l1" xml:lang="grc">οὐπώποτ’ ἐζήλωσα πολυτελῆ νεκρόν·</l>
+            <l n="2" xml:id="kock-0541-perinthia-394-l2" xml:lang="grc">εἰς τὸν ἴσον ὄγκον τῷ σφόδρ’ ἔρχετ’ εὐτελεῖ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 123, 2 (περὶ ταφῆς) Μενάνδρου Περινθ[ε]ίας</note>
+          <note type="apparatus">A. 1. monost. 411. 2. ἴσον δ’ codices. εἰς τὸν ἴσον οἶκον Bentl. at Soph. El. 1142 σμικρὸς προσήκεις ὄγκος ἐν σμικρῷ κύτει. cf. Cobet. V. 1.² 195. — scilicet cremando vel putescendo uterque ad eandem exiguitatem redigitur.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="395" xml:id="kock-0541-perinthia-395" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+          <lg>
+            <l n="1" xml:id="kock-0541-perinthia-395-l1" xml:lang="grc">ὅσ’ ἔστι μαλακὰ συλλαβὼν</l>
+            <l n="2" xml:id="kock-0541-perinthia-395-l2" xml:lang="grc">ἐκ τῆς πόλεως τὸ σύνολον ἐκπήδα, φίλος.</l>
+          </lg>
+          <note type="source">Pollux 10, 11. 12 ἐκαλεῖτο δὲ ταῦτα (τὰ κατ’ οἶκον σκεύη) ὑπὸ τῶν νεωτέρων καὶ μαλακά, οἷον εὐμεταχείριστα, ὡς εἶπε Μένανδρος ἐν τῇ Περινθίᾳ κτλ.</note>
+          <note type="apparatus">ὅσ’ ἔστι μαλακὰ Bentl.] ὅ ἐστι μαλακόν. 2. φίλος C, θᾶττον P. Φίλων Mein. Φίλων, | θᾶττον Mein. 1.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="396" xml:id="kock-0541-perinthia-396" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+          <lg>
+            <l n="1" xml:id="kock-0541-perinthia-396-l1" xml:lang="grc">ἐπὶ τῶν ἁμαξῶν εἰσι πομπεῖαί τινες</l>
+            <l n="2" xml:id="kock-0541-perinthia-396-l2" xml:lang="grc">σφόδρα λοίδοροι.</l>
+          </lg>
+          <note type="source">Harpocration, Photius, Suidas πομπείας καὶ πομπεύειν ἀντὶ τοῦ λοιδορίας καὶ λοιδορεῖν . . . μεταφέρει δὲ ἀπὸ τῶν ἐν ταῖς Διονυσιακαῖς πομπαῖς ἐπὶ τῶν ἁμαξῶν λοιδορουμένων ἀλλήλοις. Μένανδρος Περινθίᾳ κτλ.</note>
+          <note type="apparatus">ἡ μεταφορὰ δὲ Phot. ἡ μεταφορὰ Suid. et D Harp.. περινθείαι cod. Phot. περινθίω *V Suid. cf. Demosth. 18, 122 cum schol., Phot. Suid. τὰ ἐκ τῶν ἁμαξῶν σκώμματα.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="397" xml:id="kock-0541-perinthia-397" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+          <lg>
+            <l n="1" xml:id="kock-0541-perinthia-397-l1" xml:lang="grc">οὐδεμίαν ἡ γραῦς ὅλως</l>
+            <l n="2" xml:id="kock-0541-perinthia-397-l2" xml:lang="grc">κύλικα παρῆκεν, ἀλλὰ πίνει τὴν κύκλῳ.</l>
+          </lg>
+          <note type="source">Athenaeus 11, 504 a ἔδωκε (τὴν φιάλην) τῷ παιδὶ περισοβεῖν ἐν κύκλῳ κελεύσας, τὸ κύκλῳ πίνειν τοῦτ’ εἶναι λέγων, παρατιθέμενος Μενάνδρου ἐκ Περινθίας κτλ.</note>
+          <note type="apparatus">ἡ γραῦς] ἤγρευσ’ A. temulentam obstetricem Terentii Andr. 1, 4 et 5 dici censet Grauert.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="398" xml:id="kock-0541-perinthia-398" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+          <lg>
+            <l n="1" xml:id="kock-0541-perinthia-398-l1" xml:lang="grc">τὸ παιδίον δ’ εἰσῆλθεν ἑψητοὺς φέρον.</l>
+          </lg>
+          <note type="source">Athenaeus 7, 301 b ἑψητός. ἐπὶ τῶν λεπτῶν ἰχθυδίων . . . Μένανδρος Περινθίᾳ κτλ.</note>
+          <note type="apparatus">δ’ om. A. Terent. Andr. 2, 2, 31 púerum</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="399" xml:id="kock-0541-perinthia-399" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+          <lg>
+            <l n="1" xml:id="kock-0541-perinthia-399-l1" xml:lang="grc">οὐδ’ αὐτός εἰμι σὺν θεοῖς ὑπόξυλος.</l>
+          </lg>
+          <note type="source">Schol. Hermog. V 486 Walz.</note>
+          <note type="apparatus">κεῖται δὲ (τὸ ὑπόξυλος) ἐπὶ τῶν λαμπρῶν μὲν ἔξωθεν καὶ ἐπιεικῶν, πονηρῶν δὲ τὰ ἔνδον. καὶ Μένανδρος ἐν τῇ Περινθίᾳ φησίν κτλ. ἀντὶ τοῦ κίβδηλος καὶ οὐ γνήσιος. Bekker. Anecd. 1073 (ad 67, 7) εἴρηται (τὸ ὑπόξ.) μεταφορικῶς ἀπὸ τῶν ἐκ ξύλου σκευῶν, οἷς ἐπιπολῆς ἐπελήλαται ἄργυρος. cf. Aristoph. fr. 881. Alexid. 192.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="400" xml:id="kock-0541-perinthia-400" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+          <lg>
+            <l n="1" xml:id="kock-0541-perinthia-400-l1" xml:lang="grc">τὰ δ’ ἄλλ’ ἀνέπαφα σώματ’ οὐδ’ ἕλῃ.</l>
+          </lg>
+          <note type="source">Suidas</note>
+          <note type="apparatus">ἀνέπαφον· ἀνεύθυνον, καθαρόν, ἀθιγές, ἀψηλάφητον. Μένανδρος Περινθίᾳ κτλ. ἄλλα — οὐδέλη ABE Med. — Bekker. Anecd. 203, 26 ἀνέπαφα· τὰ ἀνεπίληπτα, ὧν οὐκ ἄν τις ἅψαιτο· 397, 30 ἀνέπαφον — ἀθιγές (ut Suid.). Zonar. ἀνέπαφον· μὴ ψηλαφηθέν. Hesych. ἀνέπαφος· ἀψηλάφητος. ‘ἀνέπαφα σώματα sunt quae in titulo C. I. 1704. 5 dicuntur σώματα ἀνέφαπτα, servitia libertate donata’ Mein., qui in extr. οὐδὲ ληπτέα. an οὐδ’ ἕλκειν ἐχρῆν? de rebus Demosth. 35, [11]. 56, 38.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="401" xml:id="kock-0541-perinthia-401" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+          <head>Αἰάντειος γέλως</head>
+          <note type="apparatus">μέμνηται ταύτης Μένανδρος ἐν Περινθίᾳ τῇ πρώτῃ. λέγουσι δὲ ὅτι Πλεισθένης ὁ ὑποκριτὴς Καρκίνου Αἴαντα ὑποκρινόμενος εὐκαίρως ἐγέλασε· τοῦ γὰρ Ὀδυσσέως εἰπόντος ὅτι τὰ δίκαια χρὴ ποιεῖν, μετὰ εἰρωνείας ὁ Αἴας τῷ γέλωτι ἐχρήσατο. Zenob. Milleri Mélanges 355. aliter non commemorato Menandro Zenob. 1, 43, alii. Cf. praeterea fr. 602. 862.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="402" xml:id="kock-0541-perinthia-402" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+          <lg>
+            <l n="1" xml:id="kock-0541-perinthia-402-l1" xml:lang="grc">ἐπ᾽ ἀμφότερον οὖς ἡπίκληρος ἡ καλὴ</l>
+            <l n="2" xml:id="kock-0541-perinthia-402-l2" xml:lang="grc">μέλλει καθευδήσειν· κατείργασται μέγα</l>
+            <l n="3" xml:id="kock-0541-perinthia-402-l3" xml:lang="grc">καὶ περιβόητον ἔργον· ἐκ τῆς οἰκίας</l>
+            <l n="4" xml:id="kock-0541-perinthia-402-l4" xml:lang="grc">ἐξέβαλε τὴν λυποῦσαν ὡς ἐβούλετο,</l>
+            <l n="5" xml:id="kock-0541-perinthia-402-l5" xml:lang="grc">ἵν᾽ ἀποβλέπωσι πάντες εἰς τὸ Κρωβύλης</l>
+            <l n="6" xml:id="kock-0541-perinthia-402-l6" xml:lang="grc">πρόσωπον ᾗ τ᾽ εὔγνωστος οὖσ᾽ ἐμὴ γυνὴ</l>
+            <l n="7" xml:id="kock-0541-perinthia-402-l7" xml:lang="grc">δέσποινα· καὶ τὴν ὄψιν ἣν ἐκτήσατο</l>
+            <l n="8" xml:id="kock-0541-perinthia-402-l8" xml:lang="grc">ὄνος ἐν πιθήκοις τοῦτο δὴ τὸ λεγόμενον</l>
+            <l n="9" xml:id="kock-0541-perinthia-402-l9" xml:lang="grc">ἔστιν. σιωπᾶν βούλομαι τὴν νύκτα τὴν</l>
+            <l n="10" xml:id="kock-0541-perinthia-402-l10" xml:lang="grc">πολλῶν κακῶν ἀρχηγόν. οἴμοι Κρωβύλην</l>
+            <l n="11" xml:id="kock-0541-perinthia-402-l11" xml:lang="grc">λαβεῖν ἔμ᾽, ἑκκαίδεκα τάλαντα . . .</l>
+            <l n="12" xml:id="kock-0541-perinthia-402-l12" xml:lang="grc">τὴν ῥῖν᾽ ἔχουσαν πήχεως. εἶτ᾽ ἐστὶ τὸ</l>
+            <l n="13" xml:id="kock-0541-perinthia-402-l13" xml:lang="grc">φρύαγμά πως ὑποστατόν; μὰ τὸν Δία</l>
+            <l n="14" xml:id="kock-0541-perinthia-402-l14" xml:lang="grc">τὸν Ὀλύμπιον καὶ τὴν Ἀθηνᾶν, οὐδαμῶς.</l>
+            <l n="15" xml:id="kock-0541-perinthia-402-l15" xml:lang="grc">παιδισκάριον θεραπευτικὸν δὲ καὶ λόγου</l>
+            <l n="16" xml:id="kock-0541-perinthia-402-l16" xml:lang="grc">τάχιον ἀπαγέσθω δέ τις ἢ ἄρ᾽ ἀντεισαγάγοι.</l>
+          </lg>
+          <note type="source">Gellius N. Att. 2, 23, 8 sq. accesserat dehinc lectio (Plocii Menandrei et Caeciliani) ad eum locum, in quo maritus senex super uxore divite atque deformi querebatur, quod ancillam suam, non inscito puellam ministerio et facie haud inliberali, coactus erat venumdare suspectam uxori quasi paelicem. nihil dicam ego quantum differat. versus utrimque eximi iussi et aliis ad iudicium faciendum exponi. Menander sic cet.</note>
+          <note type="apparatus">1. ἀμφότερον οὖς Cobet. Mnem. nov. IIII 450] ΑΜΦΟΤΕΡΑΝΙΝ V (atic. 3452). ΑΜΦΟΤΕΡΑΝ ΙΝΑ Urb. (Vat.-Urbin.). deteriorum codicum discrepantiam, apud Hertzium accurate enotatam, ubique omitto. ἡπίκληρος M. Haupt. cf. Opusc. II 90 sq.] ΕΠΙΚΛΗΡΟΣ. ἡ καλὴ O. Ribbeck.] ΗΚ V. 2. μέλλει Grot.] ΜΕΛΛΕΙΝ Urb. ΜΕΜΕΙΝ V. καθευδήσειν Urb. (Spengel. Caec. Stat. Ploc. fr. 1 p. 36 sq.)] ΚΑΘΕΥΔΕΣΕΙ V. κατείργασται Dorvill.] ΚΑΤΕΙΡΓΑΣΑΣΑ. 3. οἰκίας cod. rec.] ΟΙΚΕΙΑΣ V Urb. 4. λυποῦσαν ὡς Cobet.] ΛΥΠΟΥΣΙΝΕΝ V. ΛΥΠΟΥΣΑΝ ΗΝ Urb. 5. ἵν᾽ ἀποβλέπωσι Spengel.] ΙΝΑΑΠΟΒΛΕΠΩΣΙΝ V Urb. Κρωβύλης Urb. corr.] ΚΡΩΒΟΥΛΗΣ V Urb. 6. ᾗ τ᾽ εὔγνωστος οὖσ᾽ ἐμὴ γυνὴ M. Haupt.] ΗΤΕΥΝΩΕΤΟΣ ΥΣΑΕΜΕΓΥΝΗ V. ΗΤΟ ΕΥΓΝΩΣΤΟΣ ΕΙΧΕ ΜΕΓΥΝΗ Urb. 7. ἣν Grot. ΩΝ V. ΩΝ Urb. 8. τοῦτο δὴ τὸ λεγόμενον | ἔστιν M. Haupt.] ΤΟΙΤΟΔΕΤΟΛΕΓΟΜΕΝΟΝΕΣΤΙΝΑΚΤΟΥΤΟ V. ΤΟΙΤΟ ΛΕΓΟΜΕΝΟΝ ΕΣΤΙΝ ΔΗ ΤΟΥΤΟ Urb. sic τὸ δὴ λεγόμενον τοῦτο Philem. 77. ac τοῦτο δὴ τὸ λ. etiam Spengel. 9. ΒΟΙΛΟΜΑΙ V. 10. ΟΙΜΜΟΙ V Urb. 11. ἔμ᾽ ἑκκαίδεκα Hertz.] ΕΜΕΚΑΙΔΕΚΑ. φερομένην in exitu supplet K. 12. τὴν suppl. K. ῥῖν᾽ ἔχουσαν K.] ΓΕΙΝΕΣΟΥΣΑΝ V. ΓΥΝΑΙΚΑΟΥΣΑΝ</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

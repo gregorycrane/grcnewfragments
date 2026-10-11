@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>POSIDIPPUS, ΧΟΡΕΥΟΥΣΑΙ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Posidippus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0500.choreyoysai.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0500.choreyoysai.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0500.choreyoysai.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_choreyoysai">
+        <head>ΧΟΡΕΥΟΥΣΑΙ</head>
+        <div type="textpart" subtype="fragment" n="26" xml:id="kock-0500-choreyoysai-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_choreyoysai">
+          <lg>
+            <l n="1" xml:id="kock-0500-choreyoysai-26-l1" xml:lang="grc">μαθητὰ Λεύκων οἵ τε συνδιάκονοι</l>
+            <l n="2" xml:id="kock-0500-choreyoysai-26-l2" xml:lang="grc">ὑμεῖς· ἅπας γάρ ἐστιν οἰκεῖος τόπος</l>
+            <l n="3" xml:id="kock-0500-choreyoysai-26-l3" xml:lang="grc">ὑπὲρ τέχνης λαλεῖν τι· τῶν ἡδυσμάτων</l>
+            <l n="4" xml:id="kock-0500-choreyoysai-26-l4" xml:lang="grc">πάντων κράτιστόν ἐστιν ἐν μαγειρικῇ</l>
+          </lg>
+          <pb n="343" facs="urn:hathi:hvd.hxijy4:scan:369" />
+          <lg>
+            <l n="5" xml:id="kock-0500-choreyoysai-26-l5" xml:lang="grc">ἀλαζονεία· τὸ καθ’ ὅλου δὲ τῶν τεχνῶν</l>
+            <l n="6" xml:id="kock-0500-choreyoysai-26-l6" xml:lang="grc">ὄψει σχεδόν τι τοῦθ’ ἡγούμενον.</l>
+            <l n="7" xml:id="kock-0500-choreyoysai-26-l7" xml:lang="grc">ξεναγὸς οὗτος, ὅστις ἂν θώρακ’ ἔχῃ</l>
+            <l n="8" xml:id="kock-0500-choreyoysai-26-l8" xml:lang="grc">φολιδωτὸν ἢ δράκοντα σεσιδηρωμένον,</l>
+            <l n="9" xml:id="kock-0500-choreyoysai-26-l9" xml:lang="grc">ἐφάνη Βριάρεως, ἂν τύχῃ δ’ ἐστὶν λαγώς.</l>
+            <l n="10" xml:id="kock-0500-choreyoysai-26-l10" xml:lang="grc">ὁ μάγειρος ἂν μὲν ὑποδιακόνους ἔχων</l>
+            <l n="11" xml:id="kock-0500-choreyoysai-26-l11" xml:lang="grc">πρὸς τὸν ἰδιώτην καὶ μαθητὰς εἰσίῃ,</l>
+            <l n="12" xml:id="kock-0500-choreyoysai-26-l12" xml:lang="grc">κυμινοπρίστας πάντας ἢ λιμοὺς καλῶν,</l>
+            <l n="13" xml:id="kock-0500-choreyoysai-26-l13" xml:lang="grc">ἔπτηξ’ ἕκαστος εὐθύς. ἂν δ’ ἀληθινὸν</l>
+            <l n="14" xml:id="kock-0500-choreyoysai-26-l14" xml:lang="grc">σαυτὸν παραβάλλῃς, καὶ προσεκδαρεὶς ἄπει.</l>
+            <l n="15" xml:id="kock-0500-choreyoysai-26-l15" xml:lang="grc">ὅπερ οὖν ὑπεθέμην, τῷ κενῷ χώραν δίδου.</l>
+            <l n="16" xml:id="kock-0500-choreyoysai-26-l16" xml:lang="grc">καὶ τὰ στόματα γίνωσκε τῶν κεκλημένων·</l>
+            <l n="17" xml:id="kock-0500-choreyoysai-26-l17" xml:lang="grc">ὥσπερ γὰρ εἰς τἀμπόρια, τῆς τέχνης πέρας</l>
+            <l n="18" xml:id="kock-0500-choreyoysai-26-l18" xml:lang="grc">τοῦτ’ ἔστιν, ἂν εὖ προσδράμῃς πρὸς τὸ στόμα.</l>
+            <l n="19" xml:id="kock-0500-choreyoysai-26-l19" xml:lang="grc">διακονοῦμεν νῦν γάμους. τὸ θῦμα βοῦς,</l>
+            <l n="20" xml:id="kock-0500-choreyoysai-26-l20" xml:lang="grc">ὁ διδοὺς ἐπιφανής, ἐπιφανὴς ὁ λαμβάνων.</l>
+            <l n="21" xml:id="kock-0500-choreyoysai-26-l21" xml:lang="grc">τούτων γυναῖκες ἱέρειαι τῇ θεᾷ θεοί,</l>
+            <l n="22" xml:id="kock-0500-choreyoysai-26-l22" xml:lang="grc">κορύβαντες, αὐλοί, παννυχίδες, ἀναστροφή·</l>
+            <l n="23" xml:id="kock-0500-choreyoysai-26-l23" xml:lang="grc">ἱππόδρομος οὗτός ἐστί σοι μαγειρικῆς.</l>
+            <l n="24" xml:id="kock-0500-choreyoysai-26-l24" xml:lang="grc">μέμνησο καὶ σὺ τοῦτο.</l>
+          </lg>
+          <note type="source">Athenaeus 9, 376e Ποσείδιππος (sic A) ἐν Χορευούσαις· μάγειρος δ’ ἐστὶν ὁ λέγων πρὸς τοὺς μαθητὰς τάδε κτλ. v. 12 Eustathius 1828, 6 φειδωλός . . . καὶ κυμινοπρίστης, ἔτι δὲ καὶ λιμός.</note>
+          <note type="apparatus">v. 1—7 med. et 19—24 om. C. 3. λαλεῖν L] ἄλλειν A. 5. ἀλαζονείαι et καθόλου A. 6. ὄψει σχεδόν τι πάντα Porson. ὄψεις δ’ ἔχοντι A. πάντα dubium videtur. 7. οἷον ξ. οὗτος, ἂν θ. ἔχῃ vel ξ. οὗτος, ἡνίκ’ ἂν Mein. fortasse ξ. οὗτος αὐτίκ’, ἂν κτλ. cf. Arist. Av. 166 cum eis quae adnotavi. 9. ἂν τύχῃ] ἐν μάχῃ K. cf. Arist. Pac. 1190. 10. ἂν Dindf.] ἐὰν AC. 12. καλῶν Grot. Excerpt. 817] καλῶς. 13. ἔπτηξ’ Casaub.] ἐπιτηξ’ A. ἔπειτ’ ἦξεν C. ἕκαστος εὐθὺς om. C. ἂν Dindf.] ἐὰν AC. 14. παραβάλης C. προσεκδαρεὶς A] πρὸς ἐκδαρεὶς Dindf. 16. στόματα Casaub.] στόμια A. 18. ἂν εὖ C] ἄνευ A. 21. γυναῖκές εἰσ’ Erfurdt. Obs. 441. τῇ θεᾷ θεοί] τῇ θεῷ Grot. cf. Cobet. N. 1. 26. 7. γυν. ἱέρειαι Θεᾷ, Θεῷ Wilam. ap. Kaibel. conl. Dittenb. Syll. inser. 13, 39. 23. μοι Mein. Anal. Ath. 165. 24. τοῦτο, non τουτί, A.</note>
+          <note type="apparatus">6. cf. Sosipat. 47. 7. Hesych. ξεναγός· ὁ τῶν ξένων ἡγούμενος. dux mercennariorum. cf. quae ad Menandri Ξενολόγον adnotantur. 9. Βριάρεως, cf. Timocl. 12, 4. Plaut. Poen. 5, 5, 41. 12. λιμούς, ‘famelicos’ Mein. 13. ἀληθινὸν coquum dicit qui sine</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

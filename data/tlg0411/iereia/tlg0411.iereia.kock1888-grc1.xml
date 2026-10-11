@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>APOLLODORUS CARYSTIUS, ΙΕΡΕΙΑ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Apollodorus Carystius</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0411.iereia.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0411.iereia.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0411.iereia.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_iereia">
+        <head>ΙΕΡΕΙΑ</head>
+        <div type="textpart" subtype="fragment" n="24" xml:id="kock-0411-iereia-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_iereia">
+          <lg>
+            <l n="1" xml:id="kock-0411-iereia-24-l1" xml:lang="grc">καινόν γέ φασι Χαιρεφῶντ᾽ ἐν τοῖς γάμοις</l>
+            <l n="2" xml:id="kock-0411-iereia-24-l2" xml:lang="grc">ὡς τὸν Ὀφέλαν ἄκλητον εἰσδεδυκέναι.</l>
+            <l n="3" xml:id="kock-0411-iereia-24-l3" xml:lang="grc">σπυρίδα λαβὼν γὰρ καὶ στέφανον, ὡς ἦν σκότος,</l>
+            <l n="4" xml:id="kock-0411-iereia-24-l4" xml:lang="grc">φάσκων παρὰ τῆς νύμφης ὁ τὰς ὄρνεις φέρων</l>
+            <l n="5" xml:id="kock-0411-iereia-24-l5" xml:lang="grc">ἥκειν, δεδείπνηχ᾽, ὡς ἔοικεν, εἰσπεσών.</l>
+          </lg>
+          <note type="source">
+            <p>Athenaeus 6, 243 d Ἀπολλόδωρος ὁ Καρύστιος ἐν Ἱερείᾳ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>1. καινόν] καὶ νῦν Casaub. 4. νῦν φησοτας Α. ὄρνις Mein. in Athen. cf. Menandr. 167. 8. 5. δεδείπνηχ᾽ ὡς Casaub.] δεδειπνηκώς Α.</p>
+            <p>si καινόν scripsit poeta, ‘nomen hominis in superioribus indicatum fuisse probabile est’. Mein. Ophelas fortasse est praefectus Alexandri m. postea Cyrene potitus, quem Diodorus Siculus narrat cum Agathocle Carthaginiensibus bellum intulisse, sed prope urbem contentione orta ab Agathocle inpugnatum occidisse. Diod. 20, 41. 2. idem 20, 40 πρὸς Ἀθηναίους περὶ συμμαχίας διεπέμπετο (Ὀφέλλας), γεγαμηκὼς Εὐθυδίκην τὴν Μιλτιάδου θυγατέρα τοῦ τὴν προσηγορίαν (ἀνα)φέροντος εἰς τὸν στρατηγήσαντα τῶν ἐν Μαραθῶνι. διὰ δὴ ταύτην τὴν ἐπιγαμίαν καὶ τὴν ἄλλην σπουδὴν ὑπῆρχεν ἀποδεδεγμένος εἰς τὴν πόλιν. eas ipsas nuptias fortasse significat Apollodorus: quamquam temporum rationes ei coniecturae non admodum videntur favere.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

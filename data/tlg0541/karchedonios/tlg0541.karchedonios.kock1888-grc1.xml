@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΚΑΡΧΗΔΟΝΙΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.karchedonios.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.karchedonios.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.karchedonios.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_karchedonios">
+        <head>ΚΑΡΧΗΔΟΝΙΟΣ</head>
+        <div type="textpart" subtype="fragment" n="261" xml:id="kock-0541-karchedonios-261" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_karchedonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-karchedonios-261-l1" xml:lang="grc">αὐτὸν γὰρ οὐδεὶς οἶδε τοῦ ποτ’ ἐγένετο,</l>
+            <l n="2" xml:id="kock-0541-karchedonios-261-l2" xml:lang="grc">ἀλλ’ ὑπονοοῦμεν πάντες ἢ πιστεύομεν.</l>
+          </lg>
+          <note type="source">Eustathius 1412, 14 ὅτι δὲ τῇ μητρὶ ἀνάκειται ἡ περὶ τῶν παίδων ἀκριβὴς εἴδησις δηλοῖ . . . Μένανδρος κτλ. Schol. Hom. Od. 1, 215 καὶ Μένανδρος κτλ. v. 1 Stobaeus 76, 11 Μένανδρος Καρχηδονίῳ (καρχη) Α.</note>
+          <note type="apparatus">1. αὐτὸς Stob. οὐθεὶς AB Stob. τοῦ ποτ’ Eust.] πῶς Stob. πῶς ποτ’ EM Schol. Hom. οἶδ’ ὅτου Cobet. N. 1. 54.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="262" xml:id="kock-0541-karchedonios-262" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_karchedonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-karchedonios-262-l1" xml:lang="grc">ἔργον ἐκ πολλοῦ χρόνου</l>
+            <l n="2" xml:id="kock-0541-karchedonios-262-l2" xml:lang="grc">ἄνοιαν ἡμέρᾳ μεταστῆσαι μιᾷ.</l>
+          </lg>
+          <note type="source">Stobaeus Ecl. 2, 31, 19 Wachsm. τοῦ αὐτοῦ (Μενάνδρου 18) Καρχηδονίῳ (καρχηδν). cf. 504. 726.</note>
+          <note type="apparatus">difficile est inveteratam stultitiam uno die inmutare. fallitur Iacobs. Lect. Stob. 149. Catull. 76, 13 difficile est longum subito deponere amorem (Ellis Journ. of philol. X 18).</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="263" xml:id="kock-0541-karchedonios-263" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_karchedonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-karchedonios-263-l1" xml:lang="grc">χρεία διδάσκει, κἂν ἄμουσος ᾖ, σοφὸν</l>
+            <l n="2" xml:id="kock-0541-karchedonios-263-l2" xml:lang="grc">Καρχηδόνιον.</l>
+          </lg>
+          <note type="source">Suidas χρεία. καὶ παροιμία κτλ. Καρχηδόνιον] Καρχηδονίῳ probabiliter Toup. — rursus ab Euripide levi mutatione facta mutuatus est versum. cf. Eurip. fr. 666. 709 N.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="264" xml:id="kock-0541-karchedonios-264" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_karchedonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-karchedonios-264-l1" xml:lang="grc">ᾄδοντα λιτυέρσην ἀπ’ ἀρίστου τέως</l>
+          </lg>
+          <note type="source">Photius Λιτυέρσης· εἶδος ᾠδῆς. Μένανδρος Καρχηδονίῳ (sic Hemsterh. pro Χαλκηδονίῳ) κτλ. . . . Μίδου δὲ ἦν ὁ Λιτυέρσης νόθος υἱός, κατοικῶν δὲ ἐν Κελαιναῖς τοὺς παριόντας ὑποδεχόμενος ἠνάγκαζε μεθ’ αὑτοῦ θερίζειν, εἶτα ἀποκόπτων τὰς κεφαλὰς τὸ ἄλλο σῶμα συνείλει ἐν τοῖς δράγμασιν. ἀπέθανεν δὲ ὑπὸ Ἡρακλέους . . . θεριστικὸς ὕμνος ἐπ’ αὐτῷ συνετέθη. fere eadem Phot. et Suidas Λιτυέρσαν. Apostol. 10, 74. Schol. Theocr. 10, 41 Ἡρακλῆς δὲ τοῦτον ἀποκτείνας ἔρριψεν εἰς τὸν Μαίανδρον ποταμόν. Athen. 10, 415 b. 14, 619 a. Aelian. V. h. 1, 27. Sosith. trag. fr. 2 cum eis quae congessit Nauck. Preller. Myth. gr.² II 230.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="265" xml:id="kock-0541-karchedonios-265" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_karchedonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-karchedonios-265-l1" xml:lang="grc">τὸ καλῶς ἔχον που κρεῖττόν ἐστι καὶ νόμου.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="260" xml:id="kock-0541-karchedonios-260" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_karchedonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-karchedonios-260-l1" xml:lang="grc">ἐπιθυμίσας τῷ Βορέᾳ ἴδιον</l>
+            <l n="2" xml:id="kock-0541-karchedonios-260-l2" xml:lang="grc">ὀψάριον οὐδὲν ἔλαβον, ἑψήσω φακῆν.</l>
+          </lg>
+          <note type="apparatus">Athenaeus 9, 385 e Μένανδρος Καρχηδονίῳ κτλ. sic A, nisi quod 1. τῶι βορεαι et 2. οὐδὲ ἓν. 1. ἐπιθυμιάσας et λιβανίδιον Bentl., κρεάδιον Dobr. ἐπεὶ δὲ θύσας Casaub., ἐπεὶ θυσιάσας Mein., ἐπεὶ δὲ θύσας τῷ βορέᾳ νὴ τὸν Δία Heringa. Bentleii emendationem probat Cobet. N. 1. 92. 3. ‘verba sunt pauperculi piscatoris qui se frustra Boreae adolevisse queritur — quid igitur? turis aliquantulum: nempe hos honores deis habebant inopes.’ mihi nondum omnis dubitatio exemta. ventis non sacrificatum esse nisi raro et certis quibusdam de causis docet Xen. An. 4, 5, 4. cf. Aelian. V. h. 12, 61. Preller. Myth. gr.² I 371.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

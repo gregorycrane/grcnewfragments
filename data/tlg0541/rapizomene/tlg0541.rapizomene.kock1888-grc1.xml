@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΡΑΠΙΖΟΜΕΝΗ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.rapizomene.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.rapizomene.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.rapizomene.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+        <head>ΡΑΠΙΖΟΜΕΝΗ</head>
+        <div type="textpart" subtype="fragment" n="425" xml:id="kock-0541-rapizomene-425" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-425-l1" xml:lang="grc">ὁ μὴ δεχόμενος τῶν θεῶν τὸ σύμφορον</l>
+            <l n="2" xml:id="kock-0541-rapizomene-425-l2" xml:lang="grc">αὐτῷ διδόντων ἕνεκα τοῦ ζῆν, οὐ βούλεται</l>
+            <l n="3" xml:id="kock-0541-rapizomene-425-l3" xml:lang="grc">. . . τὸ δ’ ἀτυχεῖν ἢ τὸ μὴ</l>
+            <l n="4" xml:id="kock-0541-rapizomene-425-l4" xml:lang="grc">θεὸς δίδωσιν, οὐ τρόπου δ’ ἔσθ’ ἁμαρτία.</l>
+          </lg>
+          <note type="source">Stobaeus Ecl. 2, 8(7), 9. 9 a Wachsm. (περὶ τῶν ἐφ’ ἡμῖν) Μενάνδρου Ῥαπιζομένῃ F mrg.</note>
+          <note type="apparatus">1. σύμφερον (sic) Heeren. 2. αὐτῶν Pauw. οὐ del. Grot. βούλεται; Badham. Philol. X 340. 4. δ’ ἔσθ’] ’σθ’ Mein. δ’ Heeren. ἁμαρτία F] ἁμάρτημα P. τοιοῦτος ἀτυχεῖν· ἣν δὲ μὴ θεὸς διδῷ, | τοῦ μὴ διδόντος, οὐ τρ. κτλ. Grotius. οὗτος ἀτυχεῖν· ἐὰν δὲ κτλ., ut Grot., Mein. — v. 3. 4 a prioribus separat, sic scribens ⏑ _ ⏑ _ ⏒ τὸ δ’ ἀτυχεῖν τιν’ ἢ τὸ μὴ | θ. δ., οὐ τρόπου ’σθ’ ἁμ. Badham. ἢ τὸ μὴ del. O. Hense. quae duo fragmenta statuit Badhamius, eorum neutrum stare potest, alterum autem a priore separatum titulo libri Ecl. 2 non convenit. mihi scribendum videtur: ὁ μὴ δεχόμενος τῶν θεῶν τὸ σύμφορον | αὐτῶν διδόντων ἕνεκα τοῦ ζῆν εὐτυχῶς, | οὐ βούλεθ’ οὗτος εὐτυχεῖν· ἐὰν δὲ μὴ | θεοὶ διδῶσιν, οὐ τρόπου ’σθ’ ἁμ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="426" xml:id="kock-0541-rapizomene-426" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-426-l1" xml:lang="grc">ἀτύχημα κἀδίκημα διαφορὰν ἔχει·</l>
+            <l n="2" xml:id="kock-0541-rapizomene-426-l2" xml:lang="grc">τὸ μὲν διὰ τύχην γίνεται, τὸ δ’ αἱρέσει.</l>
+          </lg>
+          <note type="source">Stobaeus Ecl. 2, 8(7), 7 Wachsm. Μενάνδρου FP. ῥαπιζομένω add. August., non Vatic. fabulae nomen per errorem ex ecl. 9 (fr. 425) repetitum censet Wachsm. quod si verum est, ad incerta potius fragmentum pertinet.</note>
+          <note type="apparatus">1. καὶ ἀδίκ. FP. 2. τὸ μὲν Wyttenb.] τὸ μὲν γὰρ P. τὸ μὲν διὰ τύχην γὰρ F. τὸ μὲν τύχῃ γὰρ Mein.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="427" xml:id="kock-0541-rapizomene-427" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-427-l1" xml:lang="grc">ἆρ’ ἐστὶν ἀγαθῶν πᾶσι πλείστων ἀξία</l>
+            <l n="2" xml:id="kock-0541-rapizomene-427-l2" xml:lang="grc">ἡ σύνεσις, ἂν ᾗ πρὸς τὰ βελτίω σοφή.</l>
+          </lg>
+          <note type="source">Orion Anthologn. 1, 15 ἐκ Ῥαπιζομένης Μενάνδρου. Stobaeus Flor. 3, 7 Μενάνδρου A (πανταπλείστων αἰτία).</note>
+          <note type="apparatus">atque αἰτία quidem iure probatur Cobeto N. 1. 80.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="428" xml:id="kock-0541-rapizomene-428" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-428-l1" xml:lang="grc">τοὐμὸν θυγάτριον· πάνυ γάρ ἐστι τῇ φύσει</l>
+            <l n="2" xml:id="kock-0541-rapizomene-428-l2" xml:lang="grc">. . φιλάνθρωπον τὸ παιδάριον σφόδρα.</l>
+          </lg>
+          <note type="source">Clemens Alex. Paed. 1, 4, 11 δοκοῦσιν οἱ Ἀττικοὶ παιδάριον ἐπικοίνως οὐ μόνον τὸ ἄρρεν ἀλλὰ καὶ τὸ θῆλυ κεκληκέναι, εἴ τῳ</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="429" xml:id="kock-0541-rapizomene-429" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-429-l1" xml:lang="grc">πόθεν γάρ, ὦ φίλοι θεοί,</l>
+            <l n="2" xml:id="kock-0541-rapizomene-429-l2" xml:lang="grc">τούτους ἀνεσπάκασιν οὗτοι τοὺς λόγους;</l>
+          </lg>
+          <note type="apparatus">
+            <p>Bekker. Anecd. 399, 3 et Suidas ἀνέσπακεν· ἀνεύρηκεν, εἴληφεν. Μένανδρος Ῥαπιζομένῃ κτλ. πόθεν] πέποθε Α Suid. 2. τούτους add. Suid. — Hesych. et Etym. m. 104, 43 ἀνεσπάκασιν· εὑρήκασιν, εἰλήφασιν. atque in Etym. m. Va Gaisf. 266 ἀνέσπακε ... ἔστι δὲ καὶ ἀντὶ τοῦ εἴληφεν· οἷον· πόθεν γάρ, ὦ θεοί, τούτους ἀνεσπάκασι τοὺς λόγους; cf. Arist. Ran. 903 cum interpr. et Soph. Ai. 302 Lob.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="430" xml:id="kock-0541-rapizomene-430" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-430-l1" xml:lang="grc">ὁ μυόχοδος γέρων</l>
+            <l n="2" xml:id="kock-0541-rapizomene-430-l2" xml:lang="grc">λεληθέναι σφόδρ᾽ οἰόμενος</l>
+          </lg>
+          <note type="apparatus">
+            <p>Photius 282, 11 et Suidas μυόχοδον· οὐδενὸς ἄξιον. Μένανδρος Ῥαπιζομένῃ κτλ. μυόδοχον BE Suid. — derivatum a χέζω, latine muscerda. Arist. Pac. 786 σφυράδων ἀποκνίσματα confert Bernhardy. Hesych. μυόχοδος· οὐδενὸς ἄξιος. Moeris 203, 28 Bekk. μυσκέλενδρον Ἀττικοί, μυόχοδον Ἕλληνες. Phot. μυσ[ι]κέλενδρον· τὸ τοῦ μυὸς ἀποπάτημα, μυόχοδον. cf. Poll. 5, 91 extr.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="431" xml:id="kock-0541-rapizomene-431" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-431-l1" xml:lang="grc">εἶτ᾽ ἀμφορεαφόρος τις ἀποφορὰν φέρων</l>
+          </lg>
+          <note type="apparatus">
+            <p>Suidas ἀμφορεαφόρους· τοὺς μισθίους, τοὺς τὰ κεράμια φέροντας κτλ. Μένανδρος Ῥαπιζομένῃ. cf. Bekker. Anecd. 389, 24. Moeris 190, 32. Hesych. ἀμφορεαφόρους. Aristoph. fr. 299. Eupol. 187. — Ammon. 21 ἀποφορά ἐστι τὰ ἀπὸ τῶν δούλων τοῖς δεσπόταις παρεχόμενα χρήματα. Xen. De Ath. rep. 1, 11. Boeckh. Oec. Ath. I 78. 9.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="432" xml:id="kock-0541-rapizomene-432" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-432-l1" xml:lang="grc">οὐχ ὁρᾶτε τὴν τροφὸν</l>
+            <l n="2" xml:id="kock-0541-rapizomene-432-l2" xml:lang="grc">ζῶμ᾽ ἐνδεδυμένην;</l>
+          </lg>
+          <note type="apparatus">
+            <p>Pollux 7, 51 ὅτι δὲ ἐνδῦναι ἦν ἐπιτήδεια (τὰ ζώματα) τεκμήραιτ᾽ ἄν τις ἐκ τῶν ἐν τῇ Μενάνδρου Ῥαπιζομένῃ κτλ. ὡς ἐπὶ τὸ πολὺ γὰρ γραῶν τὸ φόρημα ἦν. Photius ζῶμα· χιτῶνός τι ζωστοῦ</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="433" xml:id="kock-0541-rapizomene-433" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-433-l1" xml:lang="grc">ἔρχεται τἀληθὲς εἰς φῶς ἐνίοτ' οὐ ζητούμενον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 11, 10 Μενάνδρου Ῥαπιζομένη A. antea Mein. ἔρχεται | τἀληθὲς κτλ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="434" xml:id="kock-0541-rapizomene-434" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-434-l1" xml:lang="grc">καὶ τυφλῷ δῆλον</l>
+          </lg>
+          <note type="apparatus">ἐπὶ τῶν ἄγαν σαφεστάτων. μέμνηται ταύτης Μένανδρος . . Ῥαπιζομένη. Schol. Plat. 372 Bekk. cf. 111.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="435" xml:id="kock-0541-rapizomene-435" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-435-l1" xml:lang="grc">ἀνηνέχθη</l>
+          </lg>
+          <note type="apparatus">ἀνήνεγκε καὶ ἀνελάμβανεν αὐτόν. Ῥαπιζομένη Μένανδρος. Bekker. Anecd. 402, 13. convaluit. cf. Theopomp. com. 66.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="436" xml:id="kock-0541-rapizomene-436" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+          <lg>
+            <l n="1" xml:id="kock-0541-rapizomene-436-l1" xml:lang="grc">ἀπελευθέραν</l>
+          </lg>
+          <note type="source">Μένανδρον ἐν Ῥαπιζομένη εἰρηκέναι. Athenaeus 3, 115 b.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

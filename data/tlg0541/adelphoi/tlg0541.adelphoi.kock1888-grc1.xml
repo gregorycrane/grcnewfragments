@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΑΔΕΛΦΟΙ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.adelphoi.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.adelphoi.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.adelphoi.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+        <head>ΑΔΕΛΦΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0541-adelphoi-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-adelphoi-1-l1" xml:lang="grc">ὦ μακάριόν με· γυναῖκα οὐ λαμβάνω.</l>
+          </lg>
+          <note type="source">Terentius Andr. 1, 1, 18 <hi rend="italic">et quod fortunatum isti putant, uxorem numquam habui.</hi> Donatus <hi rend="italic">dicit autem Romanis ita videri, quos spe-</hi>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" xml:id="kock-0541-adelphoi-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <note type="source">Terentius 2, 1, 45 <hi rend="italic">hómini misero plús quingentos cólaphos infregit mihi.</hi> Donatus secundum illud Menandri ΑΙΓΟΣ ΤΗ ΠΟΙΩΝ ΤΟΙΓΟΕ. Ρ. ΠΑΤΟ ΤΟΝ ΓΡΩΝΟΝ ΟΙΚΕΤΗΝ λαβών.</note>
+          <note type="apparatus">Benoit (Mein. V CCXL) <quote>
+              <lg>
+                <l n="1" xml:id="kock-0541-adelphoi-2-l1" xml:lang="grc">αἰσχρὸν τοῦτό σοι, | τοιχωρύχ᾽, εἰς τὸ γρῶνον οἰκέτην</l>
+                <l n="2" xml:id="kock-0541-adelphoi-2-l2" xml:lang="grc">λαβών</l>
+              </lg>
+            </quote> . . . quae neque quid sibi velint neque quomodo cum Terentianis consentiant intellego. Duebnerus (Journal de l'instruction publ. 1855 31 Mart.) <quote>
+              <lg>
+                <l n="1_2" xml:id="kock-0541-adelphoi-2-l1-2" xml:lang="grc">μάστιγι παίων ἐντόνως | εὐρωστότατον ἀρωγὸν</l>
+                <l n="2_2" xml:id="kock-0541-adelphoi-2-l2-2" xml:lang="grc">οἰκέτην λαβών.</l>
+              </lg>
+            </quote> M. Schmidt. Hesych. γρόνθων scribit γρόνθῳ τὸν οἰκέτην λαβών. Moeris πύξ ᾽Αττικοί, γρόνθος Ἕλληνες. cf. Eustath. 1322, 40. Hesych. πυγμή· γρόνθος . . ἤγουν τὸ συγκεκλεῖσθαι τοὺς δακτύλους.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" xml:id="kock-0541-adelphoi-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-adelphoi-3-l1" xml:lang="grc">εἰ δ᾽ ἔστιν οὗτος τὴν κόρην ὁ διεφθορώς.</l>
+          </lg>
+          <note type="source">Ammonius 41 Μένανδρος ᾽Αδελφοῖς κτλ. Bachmann. Anecd. II 377, 13 εἰ δ᾽ ἔστιν [οὗτος] τὴν κ. δ. Eustathius 191, 25 παραφέρουσι καὶ χρῆσιν ὁμοίαν ἐκ Μενάνδρου τὸ κτλ. Moschop. Collect. voc. Att. διεφθορώς (ex Ammonio). — εἰ δέ τις τὴν κ. δ. Monac. 499 (R. Schneider Annal. Fleckeis. 1881 p. 309). ὁ add. K. Terent. 3, 1, 8. 9 confert Valckenarius, 3, 2, 10 Meinekius.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" xml:id="kock-0541-adelphoi-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-adelphoi-4-l1" xml:lang="grc">ἔργον εὑρεῖν συγγενῆ</l>
+            <l n="2" xml:id="kock-0541-adelphoi-4-l2" xml:lang="grc">πένητός ἐστιν· οὐδὲ εἷς γὰρ ὁμολογεῖ</l>
+            <l n="3" xml:id="kock-0541-adelphoi-4-l3" xml:lang="grc">αὐτῷ προσήκειν τὸν βοηθείας τινὸς</l>
+            <l n="4" xml:id="kock-0541-adelphoi-4-l4" xml:lang="grc">δεόμενον· αἰτεῖσθαι γὰρ ἅμα τι προσδοκᾷ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 10, 24 Μενάνδρου ᾽Αδελφοῖς Α. 2. οὐδεεὶς Grot.] οὐδείς. versus recte distribuit idem Grotius. si Terentii verba 3,</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_55" xml:id="kock-0541-adelphoi-2-55" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <note type="source">nam hercle álius nemo réspicit nos ex his Menandri translata sunt, non ubique illum verbum de verbo expressisse adparet.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" xml:id="kock-0541-adelphoi-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-adelphoi-5-l1" xml:lang="grc">οὐ παντελῶς δεῖ τοῖς πονηροῖς ἐπιτρέπειν,</l>
+            <l n="2" xml:id="kock-0541-adelphoi-5-l2" xml:lang="grc">ἀλλ’ ἀντιτάττεσθ’· εἰ δὲ μή, τἄνω κάτω</l>
+            <l n="3" xml:id="kock-0541-adelphoi-5-l3" xml:lang="grc">ἡμῶν ὁ βίος λήσει μεταστραφεὶς ὅλος.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 44, 3 Μενάνδρου Ἀδελφοῖς A. Maxim. Conf. Serm. 57, 113 p. 665 Combefis. (quae editio sola codicum fide nititur). v. 1. 2 Comp. Men. et Phil. 105. 6 (p. 26 Studemund.), ubi extrema corrupta sunt.</note>
+          <note type="apparatus">2. μή γ’, ἄνω Bernhardy Dionys. 937. 3. μεταστραφθεὶς B. ‘sunt verba Hegionis, qui iniuriam a pravis hominibus inlatam omni modo vindicandam censet’ ex scaena 3, 4 post 8 vel post 54. ‘omisit Terentius ut saepe, quia generalem sententiam non omnino necessariam continebant.’ Ihne Quaest. Ter. 29.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" xml:id="kock-0541-adelphoi-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-adelphoi-6-l1" xml:lang="grc">πρὸς ἅπαντα δειλὸν ὁ πένης ἐστὶ γὰρ</l>
+            <l n="2" xml:id="kock-0541-adelphoi-6-l2" xml:lang="grc">καὶ πάντας αὑτοῦ καταφρονεῖν ὑπολαμβάνει.</l>
+            <l n="3" xml:id="kock-0541-adelphoi-6-l3" xml:lang="grc">ὁ γὰρ μετρίως πράττων περισκελέστερον</l>
+            <l n="4" xml:id="kock-0541-adelphoi-6-l4" xml:lang="grc">ἅπαντα τἀνιαρά, Λαμπρία, φέρει.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 96, 11 Μενάνδρου A. Adelphis recte tribuit Meinekius propter Terent. 4, 3, 14 omnés quibus res sunt minus secundae, mágis sunt nescio quómodo | suspiciosi: ad cóntumeliam ómnia accipiúnt magis: | proptér suam inpotentiam se sémper credunt lúdier. apud Terentium Micionem adloquitur Hegio.</note>
+          <note type="apparatus">1. πρὸς ἁπαξάπαντα Herwerd. Nov. add. crit. 38. de postposita γάρ cf. Antiphan. 26, 22. 3. περισκελέστερον durius, aegrius Gesner., περισκελῶς potius σκληρῶς, στερρῶς interpretatur Cobetus, qui N. 1. 72. 3 duo haec fragmenta esse suspicatur, quorum alterum cum Adelphis nihil commune habeat. Bentleius omnia recte cohaerere censebat, si τὸν μετρίως πράττοντα pauperem interpretaremur.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" xml:id="kock-0541-adelphoi-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <note type="source">Terentius 4, 5, 59 quid credebas? dórmienti haec tibi confecturós deos? ubi codex Bambinus Menandri v . . sus est in illo loco que . . . γυμνατεραν . . . τταλον abet h . . . indicavit Spengel. Varr. L. 1. p. 118.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="8" xml:id="kock-0541-adelphoi-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-adelphoi-8-l1" xml:lang="grc">ὀκτώ τις ὑποχεῖν ἀνεβόα καὶ δώδεκα</l>
+            <l n="2" xml:id="kock-0541-adelphoi-8-l2" xml:lang="grc">κυάθους, ἕως κατέσεισε φιλοτιμούμενος.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="9" xml:id="kock-0541-adelphoi-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-adelphoi-9-l1" xml:lang="grc">κοινὰ τὰ τῶν φίλων.</l>
+          </lg>
+          <note type="source">
+            <p>Schol. Plat. 319 Bekk. κοινὰ τὰ τῶν φίλων, ἐπὶ τῶν εὐμεταδότων . . . καὶ Μένανδρος ἐν Ἀδελφοῖς β΄. (β΄ unus Bekkeri codex omittit, alius habet ἐν Β.) cf. Grauert. Anal. hist. phil. 136. 7. Ritschl. Parerg. I 270. 1. Suidas κοινὰ τὰ τῶν φίλων . . . κέχρηται τῇ παροιμίᾳ Μένανδρος Ἀδελφοῖς. Terent. 5, 3, 17 nám vetus verbum hóc quidem est, commúnia esse amicorum inter se ómnia. cf. Zenob. 4, 79 cum eis quae adnotavit Leutschius. Iacobsius not. mscr. αἶνος (λόγος Mein.) παλαιός ἐστι· κοινὰ τὰ τῶν φίλων, caesura non optima.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="10" xml:id="kock-0541-adelphoi-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-adelphoi-10-l1" xml:lang="grc">ἐγὼ δ’ ἀγροῖκος, ἐργάτης, σκυθρός, πικρός,</l>
+            <l n="2" xml:id="kock-0541-adelphoi-10-l2" xml:lang="grc">φειδωλός.</l>
+          </lg>
+          <note type="source">
+            <p>Photius σκυθρός· αὐθέκαστος, αὐστηρός. Μένανδρος κτλ. ἐργάτης] τ in litura, pro στ ut videtur. Terent. 5, 4, 12, égo ille agrestis, saévos, tristis, párcus, truculentús, tenax, dúxi uxorem. similiter Strepsiades in Nubibus (43 sq.). de accentu vocis ἀγροῖκος cf. quae ad Antiphanis Ἄγροικον adnotavimus.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="11" xml:id="kock-0541-adelphoi-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-adelphoi-11-l1" xml:lang="grc">θεός ἐστι τοῖς χρηστοῖς ἀεὶ</l>
+            <l n="2" xml:id="kock-0541-adelphoi-11-l2" xml:lang="grc">ὁ νοῦς γάρ, ὡς ἔοικεν, ὦ σοφώτατοι.</l>
+          </lg>
+          <note type="source">
+            <p>Iustinus Mart. De monarch. 41 e. 109 a Mor. 5, p. 148. 50 Otto κτλ. 2. ὦ Bentl.] οἱ. Ἀδελφοῖς] δελφοῖς Argent.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="12" xml:id="kock-0541-adelphoi-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-adelphoi-12-l1" xml:lang="grc">τί πολλὰ τηρεῖν πολλὰ δεῖ δεδοικότα;</l>
+          </lg>
+          <note type="source">
+            <p>Stobaeus Floril. 8, 8 Μένανδρος Ἀδελφοῖς Α. τὸν δεδοικότα Α. Meinekius confert Eurip. Phoen. 252 ἢ πολλὰ μοχθεῖν πόλλ’ ἔχων</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="696" xml:id="kock-0541-adelphoi-696" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_adelphoi">
+          <note type="source">Praeterea monost. 696</note>
+          <lg>
+            <l n="1" xml:id="kock-0541-adelphoi-696-l1" xml:lang="grc">οἴμοι· τὸ γὰρ ἄφνω δυστυχεῖν μανίαν ποιεῖ</l>
+          </lg>
+          <note type="apparatus">ad Adelphos videtur pertinere conl. Terent. 2, 1, 43 <hi rend="italic">minume miror qui insanire occipiunt ex iniuria.</hi> —</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

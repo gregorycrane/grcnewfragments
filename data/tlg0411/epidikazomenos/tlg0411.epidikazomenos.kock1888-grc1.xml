@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>APOLLODORUS CARYSTIUS, ΕΠΙΔΙΚΑΖΟΜΕΝΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Apollodorus Carystius</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0411.epidikazomenos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0411.epidikazomenos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0411.epidikazomenos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_epidikazomenos">
+        <head>ΕΠΙΔΙΚΑΖΟΜΕΝΟΣ</head>
+        <div type="textpart" subtype="fragment" n="14" xml:id="kock-0411-epidikazomenos-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_epidikazomenos">
+          <note type="source">Terentius Phorm. 1, 1, 14</note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="kock-0411-epidikazomenos-14-l1" xml:lang="grc">porro aútem alio (munere Geta</l>
+              <l n="2" xml:id="kock-0411-epidikazomenos-14-l2" xml:lang="grc">ferietur), ubi erit púero natalis dies; ubi initiabunt.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">Donatus Terentius, inquit, Apollodorum sequitur, apud quem legitur in insula Samothracum a certo tempore pueros initiari, more Atheniensium.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="15" xml:id="kock-0411-epidikazomenos-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_epidikazomenos">
+          <note type="source">Terentius 1, 2, 37</note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="kock-0411-epidikazomenos-15-l1" xml:lang="grc">nos ótiosi operám dabamus Phaédriae.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">Donatus adfert verba Apollodori ΝΑΛΚΕΙΣ δὲ σιωεμαλι μΕΟΛ. 'codex Antverpensis αναλκεις δε συνεμαμμωα εναργης δε συνεπιμελομεθα. i. e. συνεπεμελούμεθα.' Mein. cf. Dziatzko Mus. Rhen. XXXI 371. ναλκεις] ἐν λέσχῃ Ellis Journ. philol. X 21.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="16" xml:id="kock-0411-epidikazomenos-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_epidikazomenos">
+          <note type="source">Terentius 1, 2, 41</note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="kock-0411-epidikazomenos-16-l1" xml:lang="grc">intérvenit aduléscens quidam lácrumans.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">Donatus Apollodorus tonsorem ipsum nuntium facit, qui dicat se nuper puellae comam ob luctum abstulisse: quod scio (scito?) mutasse Terentium, ne externis moribus spectatorem Romanum offenderet.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="17" xml:id="kock-0411-epidikazomenos-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_epidikazomenos">
+          <note type="source">Terentius 3, 1, 18</note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="kock-0411-epidikazomenos-17-l1" xml:lang="grc">quántum metuist mihi, videre huc sálvom</l>
+              <l n="2" xml:id="kock-0411-epidikazomenos-17-l2" xml:lang="grc">nunc patruóm, Geta.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">Donatus non optat salvum patruum venire</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="18" xml:id="kock-0411-epidikazomenos-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_epidikazomenos">
+          <note type="source">Terentius 3, 2, 21 <hi rend="italic">immo id quod aiunt auribus teneo lupum. nam neque quo pacto a me amittam neque uti retineam scio.</hi> Donatus 'fortasse ex Apollodoro' (Mein.)</note>
+          <note type="apparatus">τῶν ὤτων ἔχω τὸν λύκον· οὔτ' ἔχειν, οὔτ' ἀφεῖναι δύναμαι. Aristaenet. Epist. 2, 3 extr. ἐγὼ γὰρ τὸν λ. τῶν ὤτων ἔχω, ὃν οὔτε κατέχειν ἐπὶ πολὺ δυνατόν, οὔτε μὴν ἀκίνδυνον ἀφεῖναι. Macar. 8, 44 τὸν λύκον τῶν ὤτων ἔχειν· ἐπὶ τῶν ἐν κινδύνῳ καθεστώτων· οὔτε γὰρ κατέχειν οἷόν τε οὔτε ἀφεῖναι ἀκίνδυνον. itaque Apollodorus videtur scripsisse τὸν γὰρ λύκον πως, φασί, τῶν ὤτων ἔχω, | ὃν οὔτε κατέχειν χερσὶ δυνατὸν οὔτε μὴν ἀσφαλὲς ἀφεῖναι. cf. Mus. Rhen. XXXXIII 35.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="19" xml:id="kock-0411-epidikazomenos-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_epidikazomenos">
+          <note type="source">Terentius 3, 3, 29 <hi rend="italic">sólus est homo amico amicus.</hi> Donatus ex Apollodoro</note>
+          <note type="apparatus">μόνος ἐπίσταται φιλεῖν φίλους. μόνος φιλεῖν γὰρ τοὺς φίλους ἐπίσταται Guyetus.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="20" xml:id="kock-0411-epidikazomenos-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_epidikazomenos">
+          <note type="source">Terentius 4, 1, 9 <hi rend="italic">senéctus ipsast mórbus.</hi> Donatus ex Apollodoro</note>
+          <note type="apparatus">τὸ γῆράς ἐστιν αὐτὸ νόσημα. eadem verba sine auctoris nomine Hensio teste exstant in Vossiano cod. Stobaei fol. 69 r. in mrg. sup. m. 5.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="21" xml:id="kock-0411-epidikazomenos-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_epidikazomenos">
+          <note type="source">Terentius 4, 1, 21 <hi rend="italic">nam ego meórum solus súm meus.</hi> Donatus ex Apollodoro</note>
+          <note type="apparatus">ἐγὼ γάρ εἰμι μόνος τῶν ἐμῶν ἐμός. ἐγὼ γάρ εἰμι τῶν ἐμῶν ἐμὸς μόνος Guyetus. ἐγὼ μόνος γάρ εἰμι τῶν ἐμῶν ἐμός Grotius. Priscianus 17, 110 <hi rend="italic">Persius</hi> (5, 88) 'vindicta postquam meus a praetore recessi' et <hi rend="italic">Euripides</hi> (fr. 993 N.) ἐγὼ δ' ἐμός εἰμι.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="22" xml:id="kock-0411-epidikazomenos-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_epidikazomenos">
+          <note type="source">Terentius 4, 3, 41 <hi rend="italic">parvi ré tulit non suscepisse: invéntast quae dotém petat.</hi> Donatus in graeca fabula senex hoc dicit, quid interest me non suscepisse filiam, si modo dos dabitur alienae?</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="23" xml:id="kock-0411-epidikazomenos-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_epidikazomenos">
+          <p>μυρίας δίκας</p>
+          <note type="source">Donatus ex Apollodoro ad Terent. 4, 3, 63 <hi rend="italic">sescéntas proinde scribito iam mihi dicas.</hi>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DEMONICUS, ΑΧΕΛΩΙΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Demonicus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0441.acheloios.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0441.acheloios.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0441.acheloios.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0441_acheloios">
+        <head>ΑΧΕΛΩΙΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0441-acheloios-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0441_acheloios">
+          <lg>
+            <l n="1" xml:id="kock-0441-acheloios-1-l1" xml:lang="grc">ἐσπουδάκει δ’ ἕκαστος, ὡς ἂν ἑστιῶν</l>
+            <l n="2" xml:id="kock-0441-acheloios-1-l2" xml:lang="grc">ἅμα τ’ ὀξύπεινον ἄνδρα καὶ Βοιώτιον·</l>
+            <l n="3" xml:id="kock-0441-acheloios-1-l3" xml:lang="grc">τὸ γοῦν κατὰ χειρὸς περιέγραψ’ εἴπας, ὅτι</l>
+            <l n="4" xml:id="kock-0441-acheloios-1-l4" xml:lang="grc">μετὰ δεῖπνον αὐτῷ τοῦτο γίνεται λαβεῖν.</l>
+          </lg>
+          <note type="source">Athenaeus 9, 410d Πολέμων ἐν ἕκτῳ τῶν πρὸς Ἀντίγονον καὶ Ἀδαῖον περὶ τῆς διαφορᾶς λέγει τοῦ κατὰ χειρὸς πρὸς τὸ νίψασθαι. Δημόνικος δ’ ἐν τῷ Ἀχελωνιῳ (sic A) τό (τε add Mein.) πρὸ τοῦ δείπνου (καὶ τὸ μετὰ τὸ δεῖπνον add. Mein.) κατὰ χειρός φησι διὰ τούτων κτλ.</note>
+          <note type="apparatus">Demonici eclogam om. C. 1. ἑστιῶν Casaub.] ἐσθίων A. 3. περιέγραψ’ εἴπας Cobet. N. 1. 2] περιγράφει πᾶς A. ‘perspicuum est ὅτι Ἡρακλῆς ξενίζεται, qui morae inpatiens τὸ κατὰ χειρός ante cenam ut inutile περιέγραψ’ εἴπας ὅτι κτλ. εἶπα et imper. εἶπον, εἶπαι, εἴπας apud sequiores tritissima sunt’. Cobet. περιγράφειν est tollere, omittere (Mein.), pro quo Attici vetustiores fere διαγράφειν dicebant. cf. Ruhnken. Tim. 81. 2. 3. — Herculis cum Acheloo certamen fabulae argumentum videtur fuisse.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

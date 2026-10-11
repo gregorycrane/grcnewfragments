@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΚΕΚΡΥΦΑΛΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.kekryphalos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.kekryphalos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.kekryphalos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kekryphalos">
+        <head>ΚΕΚΡΥΦΑΛΟΣ</head>
+        <div type="textpart" subtype="fragment" n="272" xml:id="kock-0541-kekryphalos-272" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kekryphalos">
+          <lg>
+            <l n="1" xml:id="kock-0541-kekryphalos-272-l1" xml:lang="grc">παρὰ τοῖς γυναικονόμοις δὲ τοὺς ἐν τοῖς γάμοις</l>
+            <l n="2" xml:id="kock-0541-kekryphalos-272-l2" xml:lang="grc">διακονοῦντας ἀπογεγράφθαι πυθόμενος</l>
+            <l n="3" xml:id="kock-0541-kekryphalos-272-l3" xml:lang="grc">πάντας μαγείρους κατὰ νόμον καινόν τινα,</l>
+            <l n="4" xml:id="kock-0541-kekryphalos-272-l4" xml:lang="grc">ἵνα πυνθάνωνται τοὺς κεκλημένους, ἐὰν</l>
+            <l n="5" xml:id="kock-0541-kekryphalos-272-l5" xml:lang="grc">πλείους τις ὧν ἔξεστιν ἑστιῶν τύχῃ,</l>
+            <l n="6" xml:id="kock-0541-kekryphalos-272-l6" xml:lang="grc">ἐλθών —</l>
+          </lg>
+          <note type="source">Athenaeus 6, 245 bc ὅτι δ’ ἦν ἔθος τοὺς γυναικονόμους ἐφορᾶν τὰ συμπόσια καὶ ἐξετάζειν τῶν κεκλημένων τὸν ἀριθμὸν εἰ ὁ κατὰ νόμον ἐστί . . . Μένανδρος ἐν Κεκρυφάλῳ κτλ.</note>
+          <note type="apparatus">5. τύχῃ Musurus] τύχης A. 6. ἐλθών del. Grot. sententiam non finitam esse constat. dixerat fere poeta ‘ut si plures quam lex permittebat convivae invitati essent, eos gynaeconomi e convivio removerent.’ Mein. Anal. Ath. 107. 4. ἐάν et hypothetice et interrogative accipi potest: nam perperam Meinekius hoc alterum per usum dicendi fieri non posse opinatur. Xen. Mem. 4, 4, 12 σκέψαι ἐὰν τόδε σοι ἀρέσκῃ. Plat. Theaetet. 156 c ἄθρει ἐάν πως ἀποτελεσθῇ. Gorg. 452 c σκόπει ἐάν σοι πλούτου φανῇ τι μεῖζον. ac sic iam inde ab Homero sexcentiens.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="273" xml:id="kock-0541-kekryphalos-273" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kekryphalos">
+          <lg>
+            <l n="1" xml:id="kock-0541-kekryphalos-273-l1" xml:lang="grc">εἶτ’ εὐθὺς οὕτω τὰς τραπέζας αἴρετε,</l>
+            <l n="2" xml:id="kock-0541-kekryphalos-273-l2" xml:lang="grc">μύρα, στεφάνους ἑτοίμασον, σπονδὰς ποίει.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 358, 10 et Suidas αἴρειν . . . ἐπὶ τοῦ παρακειμένην ἀφελεῖν τὴν τράπεζαν. Μένανδρος Κεκρυφάλῳ κτλ.</note>
+          <note type="apparatus">1. τὰς om. BE Med. Suid. αἶρε, παῖ Iacobs. not. ms. 2. ποίησον Bekk. An.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="274" xml:id="kock-0541-kekryphalos-274" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kekryphalos">
+          <lg>
+            <l n="1" xml:id="kock-0541-kekryphalos-274-l1" xml:lang="grc">ἡδὺ τὸ μύρον, παιδίον. Β. ἡδύ· πῶς γὰρ οὔ;</l>
+            <l n="2" xml:id="kock-0541-kekryphalos-274-l2" xml:lang="grc">νάρδινον.</l>
+          </lg>
+          <note type="source">Athenaeus 15, 691 ab ναρδίνου μύρου μέμνηται Μένανδρος ἐν Κεκρυφάλῳ οὕτως κτλ.</note>
+          <note type="apparatus">1. ὡς ἡδύ Iacob. Add. Ath. 363. παιδάριον Dindf. παιδάριον, ἡδύ. Β. πῶς κτλ. Cobet. ἡδὺ τὸ μύρον, παῖ. Β. νὴ Δί’, ἡδύ. πῶς γὰρ οὔ; Mein. in Athen. ed. (Anal. 338) cum Dobr.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="275" xml:id="kock-0541-kekryphalos-275" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kekryphalos">
+          <lg>
+            <l n="1" xml:id="kock-0541-kekryphalos-275-l1" xml:lang="grc">ταὐτόματον ἡμῖν ἀφανὲς ὂν συλλαμβάνει.</l>
+          </lg>
+          <note type="source">Stobaeus Ecl. 1, 6(5), 14 a Wachsm.</note>
+          <note type="apparatus">Μενάνδρου Κεκρυφάλῳ F mrg. ὂν Grot.] ὂν FP. συλαμβ. FP. cf. 460, 4. 5.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="276" xml:id="kock-0541-kekryphalos-276" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kekryphalos">
+          <note type="source">Athenaeus 6, 241 e μνημονεύει δ’ αὐτοῦ (Φιλοξένου τῆς Πτερνοκοπίδος) καὶ Μένανδρος ἐν Κεκρυφάλῳ, αὐτὸ μόνον Πτερνοκοπίδα αὐτὸν καλῶν. cf. Axionic. 6, 2.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="277" xml:id="kock-0541-kekryphalos-277" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kekryphalos">
+          <note type="source">Athenaeus 6, 243 a καὶ Μένανδρος αὐτοῦ (Χαιρεφῶντος τοῦ παρασίτου) μνημονεύει ἐν Κεκρυφάλῳ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="278" xml:id="kock-0541-kekryphalos-278" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kekryphalos">
+          <lg>
+            <l n="1" xml:id="kock-0541-kekryphalos-278-l1" xml:lang="grc">ἀπὸ μηχανῆς θεὸς ἐπεφάνης.</l>
+          </lg>
+          <note type="source">Μένανδρος . . . Κεκρυφάλῳ. Schol. Plat. 394 Bekk. cf. 227.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="279" xml:id="kock-0541-kekryphalos-279" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kekryphalos">
+          <lg>
+            <l n="1" xml:id="kock-0541-kekryphalos-279-l1" xml:lang="grc">δεύτερος πλοῦς</l>
+          </lg>
+          <note type="source">ἐμνήσθη ταύτης Μένανδρος Κεκρυφάλῳ. Schol. Platonis 381 Bekk. cf. 228. 241.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="280" xml:id="kock-0541-kekryphalos-280" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kekryphalos">
+          <lg>
+            <l n="1" xml:id="kock-0541-kekryphalos-280-l1" xml:lang="grc">ἀβυρτάκη</l>
+          </lg>
+          <note type="source">ὑπότριμμα βαρβαρικὸν ἐκ δριμέων σκευαζόμενον . . καρδάμων καὶ σκορόδων καὶ σινάπεως καὶ σταφίδων, ᾧ πρὸς κοιλιολυσίαν ἐχρῶντο . . ἔστι καὶ ἐν Κεκρυφάλῳ Μενάνδρου τοὔνομα. Bekker. Anecd. 323, 26. Suidas ἀβυρτάκη· ὑπότριμμα βαρβαρικόν . . . ἔστι δὲ καὶ ἐν Κεκρυφάλῳ Μενάνδρου τοὔνομα. cf. Pherecr. 181. Theopomp. 17. Antiphan. 142, 3. Alexid. 141, 13.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

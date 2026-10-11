@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, Ὑποβολιμαῖος: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.ypobolimaios.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.ypobolimaios.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.ypobolimaios.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios">
+        <head>Ὑποβολιμαῖος</head>
+        <div type="textpart" subtype="fragment" n="484" xml:id="kock-0541-ypobolimaios-484" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios-484-l1" xml:lang="grc">τὰ δεύτερ’ ἀεὶ τὴν γυναῖκα δεῖ λέγειν,</l>
+            <l n="2" xml:id="kock-0541-ypobolimaios-484-l2" xml:lang="grc">τὴν δ’ ἡγεμονίαν τῶν ὅλων τὸν ἄνδρ’ ἔχειν.</l>
+            <l n="3" xml:id="kock-0541-ypobolimaios-484-l3" xml:lang="grc">οἶκος δ’ ἐν ᾧ τὰ πάντα πρωτεύει γυνή,</l>
+            <l n="4" xml:id="kock-0541-ypobolimaios-484-l4" xml:lang="grc">οὐκ ἔστιν ὅστις πώποτ’ οὐκ ἀπώλετο.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 74, 5 Μενάνδρου Ὑποβολιμαίου Α.</note>
+          <note type="apparatus">1. ἀεὶ Mein.] αἰεί. 3. sic Bentl. οἰκία δ’ ἐν ᾗ πρωτεύει πάντα ΑΒ. 4. ὅστις Bentl.] ἥτις. — 1. τὰ δεύτερα λέγειν ut 223, 17.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="485" xml:id="kock-0541-ypobolimaios-485" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios-485-l1" xml:lang="grc">τοῦτο μόνον ἐπισκοτεῖ</l>
+            <l n="2" xml:id="kock-0541-ypobolimaios-485-l2" xml:lang="grc">καὶ δυσγενείᾳ καὶ τρόπου πονηρίᾳ</l>
+            <l n="3" xml:id="kock-0541-ypobolimaios-485-l3" xml:lang="grc">καὶ πᾶσιν οἷς ἔσχηκεν ἄνθρωπος κακοῖς,</l>
+            <l n="4" xml:id="kock-0541-ypobolimaios-485-l4" xml:lang="grc">τὸ πολλὰ κεκτῆσθαι· τὰ δ’ ἄλλ’ ἐλέγχεται.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 91, 9 Μενάνδρου Ὑποβολιμαίῳ Α.</note>
+          <note type="apparatus">2. δυσγενείᾳ — πονηρίᾳ Bentl.] δυσγένειαν — πονηρίαν. ‘solae divitiae sunt quae hominum vitia tegant’. ‘alioqui’ ea vitia ‘redarguuntur et deteguntur’. Bentl.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="486" xml:id="kock-0541-ypobolimaios-486" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios-486-l1" xml:lang="grc">οὐ παντὸς ἀγαθοῦ τὴν πρόνοιαν αἰτίαν</l>
+            <l n="2" xml:id="kock-0541-ypobolimaios-486-l2" xml:lang="grc">κρίνων ἂν ὀρθῶς ὑπολαβεῖν τίς μοι δοκεῖ,</l>
+            <l n="3" xml:id="kock-0541-ypobolimaios-486-l3" xml:lang="grc">ἀλλ’ ἔστι καὶ ταὐτόματον ἔνια χρήσιμον.</l>
+          </lg>
+          <note type="source">Stobaeus Ecl. 1, 6(5), 10 Wachsm. Μενάνδρου Ὑποβολιμαίῳ (rubr. superscr. τοξενω) F.</note>
+          <note type="apparatus">1. οὐ] υ F (o pro rubr. om.). ὁ Mein. 2. ἂν οὐκ ὀρθῶς ὑπολαβεῖν μοι Mein. 3. ἔνια F, ἔνια corr. ἐνίοτε P. ἐνίοις Mein. ἔνθα Usener. sed cf. 421.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="482_483" xml:id="kock-0541-ypobolimaios-482-483" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios-482-483-l1" xml:lang="grc">παύσασθε νοῦν λέγοντες· οὐδὲν γὰρ πλέον</l>
+            <l n="2" xml:id="kock-0541-ypobolimaios-482-483-l2" xml:lang="grc">ἀνθρώπινος νοῦς ἐστιν, ἀλλ᾽ ὁ τῆς τύχης</l>
+            <l n="3" xml:id="kock-0541-ypobolimaios-482-483-l3" xml:lang="grc">(εἴτ᾽ ἐστὶ τοῦτο πνεῦμα θεῖον εἴτε νοῦς)</l>
+            <l n="4" xml:id="kock-0541-ypobolimaios-482-483-l4" xml:lang="grc">τοῦτ᾽ ἔστι τὸ κυβερνῶν ἅπαντα καὶ στρέφον</l>
+            <l n="5" xml:id="kock-0541-ypobolimaios-482-483-l5" xml:lang="grc">καὶ σῷζον, ἡ πρόνοια δ᾽ ἡ θνητὴ καπνὸς</l>
+            <l n="6" xml:id="kock-0541-ypobolimaios-482-483-l6" xml:lang="grc">καὶ φλήναφος. πείσθητε κοὐ μέμψεσθέ με·</l>
+            <l n="7" xml:id="kock-0541-ypobolimaios-482-483-l7" xml:lang="grc">πάνθ᾽ ὅσα νοοῦμεν ἢ λέγομεν ἢ πράττομεν</l>
+            <l n="8" xml:id="kock-0541-ypobolimaios-482-483-l8" xml:lang="grc">τύχη ᾽στίν, ἡμεῖς δ᾽ ἐσμὲν ἐπιγεγραμμένοι.</l>
+          </lg>
+          <lg>
+            <l n="9" xml:id="kock-0541-ypobolimaios-482-483-l9" xml:lang="grc">τύχη κυβερνᾷ πάντα· ταύτην καὶ φρένας</l>
+            <l n="10" xml:id="kock-0541-ypobolimaios-482-483-l10" xml:lang="grc">δεῖ καὶ πρόνοιαν τὴν θεὸν καλεῖν μόνην,</l>
+            <l n="11" xml:id="kock-0541-ypobolimaios-482-483-l11" xml:lang="grc">εἰ μή τις ἄλλως ὀνόμασιν χαίρει κενοῖς.</l>
+          </lg>
+          <note type="source">
+            <p>Stobaeus Ecl. 1, 6(5), 1a Wachsm. Μενάνδρου Ὑποβολιμαίῳ Ρ.² ὑποβολιμαῖος FP¹. a v. 9 nova ecloga incipit in FP, ut iam voluerat Mein. 1. quam incerto poetae tribuit Wachsmuth.</p>
+          </note>
+          <note type="apparatus">
+            <p>ac sane offendunt κυβερνᾷ πάντα v. 9 ex v. 4 repetita. 1. λέγοντες K. Mus. Rhen. XXX 399, tum nesciens id occupatum esse ab Heimsoethio Ind. Bonn. aest. 1867 XVII] ἔχοντες. πλέον] Κλέων Mein. Phil. XII 369, hic πλέον non defendi Philem. 118 a recte indicans. 2. ἁνθρ. Mein.] ἀνθρ. FP. 3. εἴτε νοῦς FP. εἴτ᾽ ἄνουν O. Hense. εἴτε μὴ Mein. εἴθ᾽ ὃ λῇς Heimsoeth. verba nondum sanata. 4. τοῦτέστι F. τουτέστι Ρ. ἅπαντα add. Bentl. στρέφον F] στρέφων (ων m.² in ras.) Ρ. τρέφον Mein. 5. σῷζον F] ζῶον (supra o m.² ω) Ρ. δὲ FP. 7. πάνθ᾽ ὅσα Salm. ap. Grot.] ἅπανθ᾽ ὅσα FP. ἅπανθ᾽ ἃ Heeren. νοοῦμεν Canter.] ποιοῦμεν FP. λέγομεν Canter.] γέγονεν FP. 8. τύχη ᾽στίν Grot.] τύχη ἐστὶν F. τύχης ἐστὶν Ρ. 10. τὴν FP] καὶ</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

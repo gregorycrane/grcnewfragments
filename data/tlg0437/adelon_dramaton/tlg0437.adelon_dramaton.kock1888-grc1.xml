@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CROBYLUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Crobylus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0437.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0437.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0437.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="10" xml:id="kock-0437-adelon_dramaton-10" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0437-adelon_dramaton-10-l1" xml:lang="grc">τὸν πλακοῦντα κόμμιδι,</l>
+            <l n="2" xml:id="kock-0437-adelon_dramaton-10-l2" xml:lang="grc">οὐ μέλιτι διεκόσμει.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Bekker. Anecd. 1208 δεῖ γινώσκειν ὅτι τοῦ κόμμι εὑρέθη παρὰ Κρωβύλῳ (sic Mein. pro Κρυβόλῳ) ἡ δοτικὴ κόμμιδι ὡς παρὰ τῆς κόμμιδος γενικῆς· ἔχει δὲ οὕτως κτλ. Bekker. Anecd. 104, 1 κόμμιδι· ἡ δοτική. Ἡρόδοτος δευτέρῳ (2, 86). cf. Herodian. II 767, 9. apud Herodotum hodie scribitur ὑποχρίοντας τῷ κόμμι.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="11" xml:id="kock-0437-adelon_dramaton-11" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_adelon_dramaton">
+          <note type="source">
+            <p>Harpocration 141, 11 χιλίας ἐζημιοῦντο αἱ κατὰ τὰς ὁδοὺς ἀκοσμοῦσαι γυναῖκες . . . Κρώβυλος δὲ ὁ κωμικός φησι τοῦ Φιλιππίδου τὸν νόμον εἶναι τὸν περὶ τούτων κείμενον.</p>
+          </note>
+          <note type="apparatus">
+            <p>Philippidem dicit Hyperidis in administranda republica adversarium, quem Crobylus mortuum commemoraverat iudice Meinekio I 490. 1.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="8" xml:id="kock-0437-adelon_dramaton-8" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0437-adelon_dramaton-8-l1" xml:lang="grc">ἐγὼ δὲ πρὸς τὰ θερμὰ ταῦθ' ὑπερβολῇ</l>
+            <l n="2" xml:id="kock-0437-adelon_dramaton-8-l2" xml:lang="grc">τοὺς δακτύλους δήπουθεν Ἰδαίους ἔχω,</l>
+            <l n="3" xml:id="kock-0437-adelon_dramaton-8-l3" xml:lang="grc">καὶ τὸν λάρυγγ' ἥδιστα πυριῶ τεμαχίοις.</l>
+            <l n="4" xml:id="kock-0437-adelon_dramaton-8-l4" xml:lang="grc">Β. κάμινος, οὐκ ἄνθρωπος.</l>
+          </lg>
+          <note type="source">Athenaeus 1, 5f παρὰ Κρωβύλῳ τῷ κωμικῷ (τις) φησιν κτλ. v. 1—3 Suidas Τιμαχίδας . . . καὶ Κρώβυλός φησιν κτλ. v. 1. 2 Suidas et Zonaras 1085 Ἰδαίους· ψυχρούς. κτλ. 3. φάρυγγ' Suid. Τιμαχ. πυρειῶ CE. τεμαχίοις Suid. Τιμ. et L] τεμάχοις. τεμαχείοις C. τεμμαχίοις Ε.</note>
+          <note type="apparatus">1. ὑπερβολῇ coniung. cum θερμά. 2. 'heluo aliquis gloriatur se Idaeos digitos, i. e. ferro et aeri similes habere, quibus cibos calidissimos absque ullo doloris sensu contrectare possit.' Kuster. cf. etiam Lobeck. Aglaoph. II 1181. Suidas Idaeos interpretatur frigidos, i. e. caloris patientes, quales fuerunt Dactyli Idaei, εὐπάλαμοι θεράποντες, οἳ πρῶτοι τέχνην πολυμήτιος Ἡφαίστοιο εὗρον ἐν οὐρείῃσι νάπαις, ἰόεντα σίδηρον ἐς πῦρ τ' ἤνεγκαν. Schol. Apollon. Rhod. 1, 1129. cf. Preller. Myth. gr.² I 518.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="9" xml:id="kock-0437-adelon_dramaton-9" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0437-adelon_dramaton-9-l1" xml:lang="grc">χλωρὸν ἐρέβινθόν τινα</l>
+            <l n="2" xml:id="kock-0437-adelon_dramaton-9-l2" xml:lang="grc">ἐκοττάβιζον κενὸν ὅλως. Β. τράγημα δὲ</l>
+            <l n="3" xml:id="kock-0437-adelon_dramaton-9-l3" xml:lang="grc">ἔστιν πιθήκου τοῦτο δήπου δυστυχοῦς.</l>
+          </lg>
+          <note type="source">Athenaeus 2, 54e Κρώβυλος κτλ.</note>
+          <note type="apparatus">2. τράγημα δὲ Dindf.] τραγήματα δ' CE. δυστυχῆ E. ad Ψευδυποβολιμαῖον propter simili-</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

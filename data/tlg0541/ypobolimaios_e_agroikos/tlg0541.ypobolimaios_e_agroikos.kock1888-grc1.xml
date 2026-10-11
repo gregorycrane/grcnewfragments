@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΥΠΟΒΟΛΙΜΑΙΟΣ Η ΑΓΡΟΙΚΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.ypobolimaios_e_agroikos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.ypobolimaios_e_agroikos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.ypobolimaios_e_agroikos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+        <head>ΥΠΟΒΟΛΙΜΑΙΟΣ Η ΑΓΡΟΙΚΟΣ</head>
+        <div type="textpart" subtype="fragment" n="481" xml:id="kock-0541-ypobolimaios_e_agroikos-481" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l1" xml:lang="grc">τοῦτον εὐτυχέστατον λέγω,</l>
+            <l n="2" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l2" xml:lang="grc">ὅστις θεωρήσας ἀλύπως, Παρμένων,</l>
+            <l n="3" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l3" xml:lang="grc">τὰ σεμνὰ ταῦτ᾽ ἀπῆλθεν, ὅθεν ἦλθεν, ταχύ,</l>
+            <l n="4" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l4" xml:lang="grc">τὸν ἥλιον τὸν κοινόν, ἄστρ᾽, ὕδωρ, νέφη,</l>
+            <l n="5" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l5" xml:lang="grc">πῦρ· ταῦτα, κἂν ἑκατὸν ἔτη βιῷς, ἀεὶ</l>
+            <l n="6" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l6" xml:lang="grc">ὄψει παρόντα, κἂν ἐνιαυτοὺς σφόδρ᾽ ὀλίγους,</l>
+            <l n="7" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l7" xml:lang="grc">σεμνότερα τούτων ἕτερα δ᾽ οὐκ ὄψει ποτέ.</l>
+            <l n="8" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l8" xml:lang="grc">πανήγυριν νόμισόν τιν᾽ εἶναι τὸν χρόνον,</l>
+            <l n="9" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l9" xml:lang="grc">ὅν φημι, τοῦτον ἢ ᾽πιδημίαν, ἐν ᾧ</l>
+            <l n="10" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l10" xml:lang="grc">ὄχλος, ἀγορά, κλέπται, κυβεῖαι, διατριβαί·</l>
+            <l n="11" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l11" xml:lang="grc">ἂν πρῶτον ἀπίῃς καταλύσεις, βελτίονα</l>
+            <l n="12" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l12" xml:lang="grc">ἐφόδι᾽ ἔχων ἀπῆλθες, ἐχθρὸς οὐδενί·</l>
+            <l n="13" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l13" xml:lang="grc">ὁ προσδιατρίβων δὲ σκοπιάσας ἀπώλεσε,</l>
+            <l n="14" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l14" xml:lang="grc">κακῶς τε γηρῶν ἐνδεής που γίνεται,</l>
+            <l n="15" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l15" xml:lang="grc">ῥεμβόμενος ἐχθροὺς ηὗρ᾽, ἐπεβουλεύθη ποθέν,</l>
+            <l n="16" xml:id="kock-0541-ypobolimaios_e_agroikos-481-l16" xml:lang="grc">οὐκ εὐθανάτως ἀπῆλθεν ἐλθὼν εἰς χρόνον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 121, 7 Μενάνδρου Ὑβολιμαίου Α. v. 8 monost. 444. a.</note>
+          <note type="apparatus">v. 8 alteram eclogam incipere suspicatur Mein. 4. ἄστρ᾽ Bentl.] ἀστέρα Voss. ἀστέρας Α. 5. κἂν ἑκατὸν ἔτη Porson. Adv. 292] ἔτη κἂν ἑκατόν. βιῷς ἀεί Mein.] βιώσηται Α. βιώσεται Vind. Voss. Hens. (ubi bis haec ecl.). βιώσεαι Β. βιῷς ἔτι Pors. γὰρ ἔτη κἂν ἑκατὸν βιῷς ἔτι Iacobs. Addit. Ath. 106. ταῦτ᾽ ἔτη κἂν ἑκατὸν ἔτι βιῷς, ἀεὶ Duebn. 6. ὄψει AB Voss.] ὄχει. 7. δ᾽ add. Pors. ἕτερ᾽ ἄρ᾽ Bernhardy Hist. litt. gr. I 29, totum versum uncis includens. 9. ὃν φημι] Εὔφημε Heringa Obs. 257. Ὀνήσιμε Nauck. prius probat M. Haupt. Opusc. III 607. ἢ ᾽πιδημίαν, ἐν ᾧ Porson.] τὴν ἐπιδημίαν ανω ABVoss. κἀπιδημίαν βροτῶν Grot. τοῦτον τὸν ἐπιδημίας, ἐν ᾧ Iacobs. Add. Ath. 33. τὴν ἐπιδημίαν ἄνω Bentl. τοῦτον κἀπιδημίαν· ἄνω | ὄχλος Lennep. Phalar. 103. τὴν ἄνω ᾽πιδημίαν Nauck. 11. πρῶτον ἀπίῃς ABVoss.] πρῶτος ἀπέλθῃς. πρῶτος etiam Vind. πρῶτ᾽ ἀπέλθῃς Porson. πρῷος pro πρῶτος Preller. Philol. III 522. προαπίης καταλύσεως 'si prius abis quam conventus dissolvitur' M. Haupt. Opusc. III 608. Herwerd. Nov. add. crit. 40 propter peccatum metricum non commemoro. 13. σκοπιάσας Α]</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="487" xml:id="kock-0541-ypobolimaios_e_agroikos-487" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios_e_agroikos-487-l1" xml:lang="grc">ἀεὶ κράτιστόν ἐστι τἀληθῆ λέγειν.</l>
+            <l n="2" xml:id="kock-0541-ypobolimaios_e_agroikos-487-l2" xml:lang="grc">ἐν παντὶ καιρῷ τοῦτ’ ἐγὼ παρεγγυῶ</l>
+            <l n="3" xml:id="kock-0541-ypobolimaios_e_agroikos-487-l3" xml:lang="grc">εἰς ἀσφάλειαν τῷ βίῳ πλεῖστον μέρος.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 11, 11 Μενάνδρου Ὑποβολιμαίῳ Α.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="488" xml:id="kock-0541-ypobolimaios_e_agroikos-488" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios_e_agroikos-488-l1" xml:lang="grc">πολλῶν κατὰ γῆν καὶ κατὰ θάλατταν θηρίων</l>
+            <l n="2" xml:id="kock-0541-ypobolimaios_e_agroikos-488-l2" xml:lang="grc">ὄντων, μέγιστόν ἐστι θηρίον γυνή.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 73, 56 Ὑποβολιμαίου A. cum Menandri Hypobolimaeus omnium fuerit clarissima, dubium vix potest esse quin ea ipsa significetur.</note>
+          <note type="apparatus">1. θηρίον B.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="489" xml:id="kock-0541-ypobolimaios_e_agroikos-489" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios_e_agroikos-489-l1" xml:lang="grc">Ἄπολλον, ἀλλὰ σκαιὸν οὐ μετρίως λέγεις,</l>
+            <l n="2" xml:id="kock-0541-ypobolimaios_e_agroikos-489-l2" xml:lang="grc">μετὰ μαρτύρων ἀτυχεῖν, παρὸν λεληθέναι.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 109, 3 (ὅτι δεῖ τὰς ἀτυχίας κρύπτειν) Μενάνδρου Ὑποβολιμαίῳ Α.</note>
+          <note type="apparatus">2. λεληθότα Nauck., quod non necessarium.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="490" xml:id="kock-0541-ypobolimaios_e_agroikos-490" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios_e_agroikos-490-l1" xml:lang="grc">δυσπαρακολούθητόν τι πρᾶγμ’ ἐστὶν τύχη.</l>
+          </lg>
+          <note type="source">Stobaeus Ecl. 2, 1, 6 Wachsm. Μενάνδρου Ὑποβολιμαίου FP.</note>
+          <note type="apparatus">quae F addit ἡσιόδου πυνδάρου, ea pertinent ad ecl. 7. 8. — τι] δὲ monost. 660. ἐστὶν Clericus] ἐστὶ FPL. ἔσθ’ ἡ monost. — δυσπαρακολούθητον, i. e. δυστέκμαρτον.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="491" xml:id="kock-0541-ypobolimaios_e_agroikos-491" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios_e_agroikos-491-l1" xml:lang="grc">τὸν ἄμητα, Χαίριππ’, οὐκ ἐᾶς πέττειν τινά.</l>
+          </lg>
+          <note type="source">Athenaeus 14, 644 f ἄμης πλακοῦντος γένος ... Μένανδρος ἐν Ὑποβολιμαίῳ κτλ. sic Porsonus. αμητα χαίριππουκεαιεσ πέττιν A. om. versum C. fortasse πέττειν. B. τίνα | ἄμητα; de Chaerippo, si is idem est, cf. Phoenicid. 3, 2. Athen. 10, 416 e. Aelian. V. h. 1, 27.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="492" xml:id="kock-0541-ypobolimaios_e_agroikos-492" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios_e_agroikos-492-l1" xml:lang="grc">ὡς μηδὲν ἀποκρινουμένου δ’ οὕτω λάλει.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 429, 13. 16 et Suidas ἀπόκριναι· ἀποκρινεῖται λέγουσι μᾶλλον ἢ ἀποκριθήσεται. Μένανδρος . . . Ὑποβολιμαίῳ</note>
+          <pb n="142" facs="urn:hathi:hvd.hxijy4:scan:168" />
+          <note type="apparatus">(ὑποβολιμαίᾳ Bekk. cod.) κτλ. ἀποκρινουμένου — λάλει G. A. Hirschig, Ann. crit. 24 et Cobet. N. 1. 58] ἀποκρινουμένῳ — λαλεῖν. ἀποκρινόμενα codices Suid. οὕτως Suid. τούτῳ ‘mihi’ Mein.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="493" xml:id="kock-0541-ypobolimaios_e_agroikos-493" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios_e_agroikos-493-l1" xml:lang="grc">γέρων ἀπεμέμυκτ’ ἄθλιος λέμφος.</l>
+          </lg>
+          <note type="source">Ammonius 88 λέμφοι παρὰ Ἀττικοῖς οἱ κορυζώδεις ἐλέγοντο καὶ μυξώδεις. Μένανδρος Ὑποβολιμαίῳ (-οις) κτλ.</note>
+          <note type="apparatus">ἀπεμέμυκτ’ Burmann. Praef. Bentl. Emend. 24] ἀπέμικτ’. Pollux 2, 78 τὸ (τὴν κόρυζαν) ἀφαιρεῖν ἀπομύττειν . . . ἤδη δέ τινες τῶν κωμικῶν τὸ ἐπὶ κέρδει ἐξαπατᾶν ἀπομύττειν εἶπον. Hesych. ἀπομύττειν· ἐξαπατᾶν, γοητεύειν. Terent. Phorm. 4, 4, 1 emunxi argento senes. Horat. A. p. 238 emuncto Simone. — deest in fine iambus.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="494" xml:id="kock-0541-ypobolimaios_e_agroikos-494" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+          <lg>
+            <l n="1" xml:id="kock-0541-ypobolimaios_e_agroikos-494-l1" xml:lang="grc">μικρὰ Παναθήναι’ ἐπειδὴ δι’ ἀγορᾶς πέμποντά σε,</l>
+            <l n="2" xml:id="kock-0541-ypobolimaios_e_agroikos-494-l2" xml:lang="grc">Μοσχίων, μήτηρ ἑώρα τῆς κόρης ἐφ’ ἅρματος.</l>
+          </lg>
+          <note type="source">Photius et Suidas πέμπειν· τὸ πομπεύειν. Μένανδρος Ὑποβολιμαίῳ ἢ Ἀγροίκῳ κτλ.</note>
+          <note type="apparatus">1. ἐπειδὴ Bentl. ap. Kuster.] ἐπεὶ. πέμποντας ἐμοσχίων ABVE Suid. 2. μήτηρ] μηρ (supra scr. ω) A Suid. trimetros Naberus restituit in Phot. ed. Choricius Apol. mim. (Revue de philol. 1877, 228) τῶν Μενάνδρου πεποιημένων προσώπων Μοσχίων μὲν ἡμᾶς παρεσκεύασε παρθένους βιάζεσθαι, Χαιρέστρατος δὲ ψαλτρίας ἐρᾶν, Κνήμων δὲ δυσκόλους ἐποίησεν εἶναι, Σμικρίνης δὲ φιλαργύρους. Chaerestratum fratrem esse Moschionis conlata Caeciliana fabula censet O. Ribbeck. Agroik. 11.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="495" xml:id="kock-0541-ypobolimaios_e_agroikos-495" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+          <note type="source">Quintilianus 1, 10, 18 apud Menandrum in Hypobolimaco senex reposcenti filium patri velut rationem impendiorum quae in educationem contulerit exponens psaltis se et geometris multa dicit dedisse.</note>
+          <note type="apparatus">fortasse ψάλταις ἔδωκα πολλὰ καὶ γεωμέτραις.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="496" xml:id="kock-0541-ypobolimaios_e_agroikos-496" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ypobolimaios_e_agroikos">
+          <note type="source">Schol. Aristoph. Lysistr. 378 περὶ γαμηλίων λουτρῶν Μένανδρος ἐν Κρητί φησι καὶ ἐν Ὑποβολιμαίῳ. cf. 57.</note>
+          <note type="apparatus">Cf. praeterea fr. 202.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

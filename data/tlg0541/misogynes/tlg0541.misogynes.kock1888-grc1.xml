@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΜΙΣΟΓΥΝΗΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.misogynes.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.misogynes.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.misogynes.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misogynes">
+        <head>ΜΙΣΟΓΥΝΗΣ</head>
+        <div type="textpart" subtype="fragment" n="328" xml:id="kock-0541-misogynes-328" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misogynes">
+          <lg>
+            <l n="1" xml:id="kock-0541-misogynes-328-l1" xml:lang="grc">ὄμνυμί σοι τὸν ἥλιον,</l>
+            <l n="2" xml:id="kock-0541-misogynes-328-l2" xml:lang="grc">ἦ μὴν ἀποίσειν σοι γραφὴν κακώσεως.</l>
+          </lg>
+          <note type="source">
+            <p>Priscianus 18, 247 Attici ὄμνυμι θεούς . . . Menander . . . in Misogyno κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>ἀποίσειν VRM (cf. Cobet. Mnem. VII 186)] ποιήσειν C(O). ἐποίσειν Markland. Eur. Suppl. 1192. ἐπιθήσειν Porson. Adv. 293. conficit rem Demosth. 27, 12 ὅταν κατ’ αὐτῶν τὰς γραφὰς ἀπενέγκωμεν (πρὸς τὸν ἄρχοντα). de γραφῇ κακώσεως Schoemann. Ant. gr.² I 533. 4.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="329" xml:id="kock-0541-misogynes-329" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misogynes">
+          <lg>
+            <l n="1" xml:id="kock-0541-misogynes-329-l1" xml:lang="grc">χαῖρ’, ὦ Γλυκέριον. ΓΛ. καὶ σύ. Α. πολλοστῷ χρόνῳ</l>
+            <l n="2" xml:id="kock-0541-misogynes-329-l2" xml:lang="grc">ὁρῶ σε.</l>
+          </lg>
+          <note type="source">
+            <p>Priscianus 18, 251 Attici ὅσῳ χρόνῳ. Μένανδρος Μισογύνῃ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>Γλυκέριον Bentl.] γλυκέρα codices. ὦ χαῖρε Γλυκέρα Porson. χαῖρ’ ὦ Γλυκέρα μοι Spengel. ὦ χ. Γλυκέρα. Γλ. καὶ σὺ πόλλ’. Α. ὅσῳ χρόνῳ C. F. Hermann. Mus. Rh. V 614. χαῖρ’ ὦ Γλυκέριον. Γλ. καὶ σύ γε. Α. πολλοστῷ Cobet. N. 1. 88. 9 conl. Arist. Lys. 6. ‘longum post tempus’. Philostr. Epist. 38, 357 Τιμαγόρα καὶ Λαΐς . . καὶ τὸ Μενάνδρου Γλυκέριον.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="330" xml:id="kock-0541-misogynes-330" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misogynes">
+          <lg>
+            <l n="1" xml:id="kock-0541-misogynes-330-l1" xml:lang="grc">ἀλλ’ οὐ τὰ βίου νῷν ἴσως δεῖ φροντίσαι.</l>
+          </lg>
+          <note type="source">
+            <p>Priscianus 18, 305 Attici ‘φροντίζει τῶνδε’ καὶ ‘τάδε’ καὶ ‘περὶ τῶνδε’. Μένανδρος Μισογύνῃ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>ἀλλ’ οὐ Putsch.] ΑΛΟΥ VML. οὐδὲ vel οὐχὶ Mein. οὐ τὰ βιότου Bentl. οὐ τὰ Τιβίου Bergk. perperam: nam prima syllaba producitur. Leucon. 3.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="331" xml:id="kock-0541-misogynes-331" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misogynes">
+          <lg>
+            <l n="1" xml:id="kock-0541-misogynes-331-l1" xml:lang="grc">χλαμύδα, καυσίαν,</l>
+            <l n="2" xml:id="kock-0541-misogynes-331-l2" xml:lang="grc">λόγχην, ἀόρτην, ἱμάτια.</l>
+          </lg>
+          <note type="source">
+            <p>Pollux 7, 79 ῥίσκοι . . . καὶ ἀόρται, Μενάνδρου εἰπόντος ἐν Μισογύνῃ κτλ. idem 10, 139 τὸ γὰρ ἐν Μισογύνῃ Μενάνδρου κτλ. ἀμφίβολον, ὅτι ἔνιοι καὶ ἀορτῆρα (Pherecr. 37) γράφουσιν. ac 10, 162 ἡ δὲ καυσία πῖλος Μακεδονικὸς παρὰ Μενάνδρῳ. cf. Diphil. 40. Posidipp. 10.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="325" xml:id="kock-0541-misogynes-325" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misogynes">
+          <head>325</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-misogynes-325-l1" xml:lang="grc">πρὸς τὸ πρᾶγμ' ἔχω</l>
+            <l n="2" xml:id="kock-0541-misogynes-325-l2" xml:lang="grc">κακῶς. Β. ἐπαριστερῶς γὰρ αὐτὸ λαμβάνεις·</l>
+            <l n="3" xml:id="kock-0541-misogynes-325-l3" xml:lang="grc">τὰ δυσχερῆ γὰρ καὶ τὰ λυπήσαντά σε</l>
+            <l n="4" xml:id="kock-0541-misogynes-325-l4" xml:lang="grc">ὁρᾶς ἐν αὐτῷ, τὰ δ' ἀγάθ' οὐκέτι βλέπεις.</l>
+            <l n="5" xml:id="kock-0541-misogynes-325-l5" xml:lang="grc">εὕροις δ' ἂν οὐδὲν τῶν ἁπάντων, Σιμύλε,</l>
+            <l n="6" xml:id="kock-0541-misogynes-325-l6" xml:lang="grc">ἀγαθὸν ὅτῳ τι μὴ πρόσεστι καὶ κακόν.</l>
+            <l n="7" xml:id="kock-0541-misogynes-325-l7" xml:lang="grc">γυνὴ πολυτελής ἐστ' ὀχληρόν, οὐδ' ἐᾷ</l>
+            <l n="8" xml:id="kock-0541-misogynes-325-l8" xml:lang="grc">ζῆν τὸν λαβόνθ' ὡς βούλετ'· ἀλλ' ἔνεστί τι</l>
+            <l n="9" xml:id="kock-0541-misogynes-325-l9" xml:lang="grc">ἀγαθὸν ἀπ' αὐτῆς, παῖδες· ἐλθόντ' εἰς νόσον</l>
+            <l n="10" xml:id="kock-0541-misogynes-325-l10" xml:lang="grc">τὸν ἔχοντα ταύτην ἐθεράπευσεν ἐπιμελῶς,</l>
+            <l n="11" xml:id="kock-0541-misogynes-325-l11" xml:lang="grc">ἀτυχοῦντι συμπαρέμεινεν, ἀποθανόντα τε</l>
+            <l n="12" xml:id="kock-0541-misogynes-325-l12" xml:lang="grc">ἔθαψε, περιέστειλεν οἰκείως· ὅρα</l>
+            <l n="13" xml:id="kock-0541-misogynes-325-l13" xml:lang="grc">εἰς ταῦθ', ὅταν λυπῇ τι τῶν καθ' ἡμέραν.</l>
+            <l n="14" xml:id="kock-0541-misogynes-325-l14" xml:lang="grc">οὕτω γὰρ οἴσεις πᾶν τὸ πρᾶγμ'· ἂν δ' ἐκλέγῃ</l>
+            <l n="15" xml:id="kock-0541-misogynes-325-l15" xml:lang="grc">ἀεὶ τὸ λυποῦν, μηδὲν ἀντιπαρατιθεὶς</l>
+            <l n="16" xml:id="kock-0541-misogynes-325-l16" xml:lang="grc">τῶν προσδοκωμένων, ὀδυνήσει διὰ τέλους.</l>
+          </lg>
+          <note type="apparatus">v. 1—4 Clemens Alex. Strom. 2, 23, 141 ὁ κωμικὸς Μένανδρος καταδραμὼν τοῦ γάμου, ἀλλὰ καὶ τὰ χρήσιμα ἀντιτιθεὶς ἀποκρίνεται τῷ εἰπόντι (v. 1. 2), εἶτ' ἐπιφέρει (3. 4) καὶ τὰ ἑξῆς. v. 3—6 Stobaeus Floril. 108, 44 Μενάνδρου Μισογύνου A. v. 5. 6 Stobaeus Floril. 105, 10 Μενάνδρου A. v. 7 sq. Stobaeus Floril. 69, 4 Μενάνδρου A. v. 14 (ἂν ἐκλέγῃ) — 16 Stobaeus Floril. 108, 41 Μενάνδρου Μισογύνου A. itaque haec omnia esse ex Misogyne constat, de continuitate v. 6 et 7 non constat. — 3. δυσχερῆ τε Clem. λυπήσαντα Clem.] λυπήσοντα AB Vind. Stob. 4. οὐκ ἐπιβλέπεις</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="326" xml:id="kock-0541-misogynes-326" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misogynes">
+          <lg>
+            <l n="1" xml:id="kock-0541-misogynes-326-l1" xml:lang="grc">ἐθύομεν δὲ πεντάκις τῆς ἡμέρας,</l>
+            <l n="2" xml:id="kock-0541-misogynes-326-l2" xml:lang="grc">ἐκυμβάλιζον δ’ ἑπτὰ θεράπαιναι κύκλῳ·</l>
+            <l n="3" xml:id="kock-0541-misogynes-326-l3" xml:lang="grc">αἱ δ’ ὠλόλυζον.</l>
+          </lg>
+          <note type="source">
+            <p>Strabo 7, 297 ἅπαντες τῆς δεισιδαιμονίας ἀρχηγοὺς οἴονται τὰς γυναῖκας· αὗται δὲ καὶ τοὺς ἄνδρας προκαλοῦνται πρὸς τὰς ἐπὶ πλέον θεραπείας τῶν θεῶν . . . τὸν δὲ Μισογύνην αὐτὰ (scr. ταὐτὰ) ταῦτα αἰτιώμενον (ποιεῖ Μένανδρος) κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>3. αἱ δὲ sunt reliquae quae aderant mulieres.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="327" xml:id="kock-0541-misogynes-327" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misogynes">
+          <lg>
+            <l n="1" xml:id="kock-0541-misogynes-327-l1" xml:lang="grc">ἕλκει δὲ γραμματείδιον</l>
+            <l n="2" xml:id="kock-0541-misogynes-327-l2" xml:lang="grc">ἐκεῖσε δίθυρον καὶ παράστασις, μία</l>
+            <l n="3" xml:id="kock-0541-misogynes-327-l3" xml:lang="grc">δραχμή.</l>
+          </lg>
+          <note type="source">
+            <p>Harpocration 148, 1, Photius, Suidas παράστασις . . . ἔστι δὲ δραχμὴ καταβαλλομένη ὑπὸ τῶν δικαζομένων τὰς ἰδίας δίκας. Μένανδρος Μισογύνῃ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>1. γραμματείδιον N Harp.] γραμματεῖον A. γραμμάτιον B. γραμματίδιον cet. et Phot. — γραμμ. est libellus, in quo actor et nomen suum et causam scribebat: qui libellus reo tradebatur. δίθυρος autem dicitur, quia ex duabus tabulis vel duobus foliis constabat. Poll. 10, 57 γραμματείδιον δίθυρον ἢ τρίπτυχον ἢ καὶ πλειόνων πτυχῶν. Hesych. δίθυρον· γραμματίδιον δίπτυχον. idem θυρίς . . . θυρίδας Ἀττικοὶ τὰς τῶν γραμμάτων (γραμματείων Hemsterh.) πτυχάς· καὶ δίθυρον λέγουσιν· οὐ τρίθυρον ἀλλὰ</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="332" xml:id="kock-0541-misogynes-332" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misogynes">
+          <note type="source">Athenaeus 15, 691 c</note>
+          <note type="apparatus">ἐπιπράσκετο Ἀθήνησιν ἡ τοῦ μύρου κοτύλη ὡς μὲν Ἵππαρχός φησιν (fr. 4) πέντε μνῶν, ὡς δὲ Μένανδρος ἐν Μισογύνῃ, δέκα. πέντε] ε A. δέκα] ι A. cf. Antiphan. 223. videtur ὁ μισογύνης queri de uxoris luxuria.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="333" xml:id="kock-0541-misogynes-333" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misogynes">
+          <lg>
+            <l n="1" xml:id="kock-0541-misogynes-333-l1" xml:lang="grc">ἐπιχρύσους σανδαλοθήκας</l>
+          </lg>
+          <note type="source">Pollux 7, 87</note>
+          <note type="apparatus">Μένανδρος ἐν Μισογύνῃ καὶ ἐπ. σ. λέγει. idem 10, 50 Μένανδρος ἐν Μισογύνῃ καὶ σανδαλοθήκας (εἴρηκεν) et 10, 127 παρὰ Μενάνδρῳ ἐν Μισογύνῃ σανδαλοθῆκαι. fortasse ex eadem mariti oratione ac fr. 332.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="334" xml:id="kock-0541-misogynes-334" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misogynes">
+          <note type="source">Phrynichus Epit. 417</note>
+          <note type="apparatus">γῦρος· καὶ τοῦτο Μένανδρος τὴν καλλίστην τῶν κωμῳδιῶν τῶν ἑαυτοῦ, τὸν Μισογύνην, κατεκηλίδωσεν εἰπών (lacunam indic. Lobeck). τί γὰρ δὴ γῦρός ἐστιν οὐ συνίημι. τοῦτο] τούτῳ Bentl. Eustath. 1864, 5 οἱ παλαιοί φασιν ὅτι γυροὶ λέγονται καὶ οὗ τὰ φυτὰ ἐμβάλλουσι (scrobes). ac sic Theophrast. Caus. pl. 3, 4, 1. 6, 2. 12, 1. (Aelian. N. an. 9, 32). ut nesciam quid causae habuerit Phrynichus hanc vocem vituperandi. nisi forte apud Menandrum γῦρος erat ornamentum muliebre. Praeterea cf. fr. 601.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

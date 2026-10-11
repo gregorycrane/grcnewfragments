@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΜΙΣΟΥΜΕΝΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.misoymenos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.misoymenos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.misoymenos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+        <head>ΜΙΣΟΥΜΕΝΟΣ</head>
+        <div type="textpart" subtype="fragment" n="335" xml:id="kock-0541-misoymenos-335" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-335-l1" xml:lang="grc">εἰ γὰρ ἐπίδοιμι τοῦτο, καὶ ψυχὴν πάλιν</l>
+            <l n="2" xml:id="kock-0541-misoymenos-335-l2" xml:lang="grc">λάβοιμ’ ἐγώ· νυνὶ γάρ — ἀλλὰ ποῦ θεοὺς</l>
+            <l n="3" xml:id="kock-0541-misoymenos-335-l3" xml:lang="grc">οὕτως δικαίους ἔστιν εὑρεῖν, ὦ Γέτα;</l>
+          </lg>
+          <note type="source">Iustinus De mon. 40 b (142 Otto) ἐν <hi rend="italic">Μισουμένῳ</hi> ἀποφαίνων περὶ τῶν εἰς θεοὺς παραλαμβονομένων τὰς γνώμας, μᾶλλον δὲ ἐλέγχων ὡς οὐκ ὄντας ὁ αὐτὸς Μένανδρος κτλ.</note>
+          <note type="apparatus">1. frustra κἂν Mein. et Otto. πάλιν add. Bentl. 2. post γάρ orationem abrumpit.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="336" xml:id="kock-0541-misoymenos-336" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-336-l1" xml:lang="grc">παρ’ ἐμοὶ γάρ ἐστιν ἔνδον, ἔξεστιν δέ μοι</l>
+            <l n="2" xml:id="kock-0541-misoymenos-336-l2" xml:lang="grc">καὶ βούλομαι τοῦθ’, ὡς ἂν ἐμμανέστατα</l>
+            <l n="3" xml:id="kock-0541-misoymenos-336-l3" xml:lang="grc">ἐρῶν τις, οὐ ποιῶ δέ.</l>
+          </lg>
+          <note type="source">Plutarchus Mor. 524. 5 πῶς οὐ μανικὸν . . τὸ πάθος, εἴ τις ἱματίῳ μὴ χρῆται διὰ τὸ ῥιγοῦν, μηδ’ ἄρτῳ διὰ τὸ πεινῆν . . . ἀλλ’ ἐν τοῖς Θρασωνίδου κακοῖς ἐστιν κτλ. ad hanc fabulam rettulit Toup. Emend. II 445.</note>
+          <note type="apparatus">verba ὡς ἂν — τις Menandreis add. Madvig. Advers. crit. I 644. Cobet. V. 1.² 152. N. 1. 42. Lucian. Philops. 14 περιβάλλει τὸν Γλαυκίαν ὡς ἂν ἐμμανέστατα ἐρῶσα. conf. Nauck. Mélanges gréco-rom. V 241.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="337" xml:id="kock-0541-misoymenos-337" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-337-l1" xml:lang="grc">Ἄπολλον, ἀνθρώπων τιν’ ἀθλιώτερον</l>
+            <l n="2" xml:id="kock-0541-misoymenos-337-l2" xml:lang="grc">ἑόρακας; ἆρ’ ἐρῶντα δυσποτμώτερον;</l>
+          </lg>
+          <note type="source">Plutarchus Mor. 525 (post fr. 336). sunt verba Thrasonidae, de misera sua sorte querentis, fortasse in ipsa fabula fragmento 336 vel praemissa vel postposita.</note>
+          <note type="apparatus">ἄνθρωπόν τιν’ Naber. Mnem. nov. VIII 417. δυσποτμώτερος, βαρυποτμώτατος, εὐτεκνώτατος Euripides.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="338" xml:id="kock-0541-misoymenos-338" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-338-l1" xml:lang="grc">παιδισκάριόν με καταδεδούλωκ’ εὐτελές,</l>
+            <l n="2" xml:id="kock-0541-misoymenos-338-l2" xml:lang="grc">ὃν οὐδεὶς τῶν πολεμίων πώποτε.</l>
+          </lg>
+          <note type="source">Arrianus Dissert. Epict. 4, 1, 20 p. 533 Schweigh. εἶτα τί λέγει (Θρασωνίδης); κτλ. Clemens Alex. Strom. 2, 15, 64 τὸν γὰρ κωμικὸν ἐκεῖνον Θρασωνίδην ἄλλη σκηνή (τραγῳδεῖ)· παιδισκάριόν</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="339" xml:id="kock-0541-misoymenos-339" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-339-l1" xml:lang="grc">ἀπαμφιεῖ γὰρ τὸ κατάπλαστον τοῦτό σου</l>
+            <l n="2" xml:id="kock-0541-misoymenos-339-l2" xml:lang="grc">καὶ λανθάνειν βουλόμενον ἡ μέθη ποτέ.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 415, 8 et Suidas (ἀπαμφιέσαντες) ἀπαμφιεῖ· ἀποκαλύψει. Μισουμένῳ κτλ. σου Hemsterh. Lucian. 443] μὲν Bekk. An. μου Suid. — Hesych. ἀπαμφιεῖ· ἀπογυμνώσει.</note>
+          <note type="apparatus">dicit puella modestiam a milite promissam ficticiam esse et ebrietate mox eversum iri.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="340" xml:id="kock-0541-misoymenos-340" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-340-l1" xml:lang="grc">ἐκ Κύπρου λαμπρῶς πάνυ</l>
+            <l n="2" xml:id="kock-0541-misoymenos-340-l2" xml:lang="grc">πράττων· ἐκεῖ γὰρ ὑπό τιν’ ἦν τῶν βασιλέων.</l>
+          </lg>
+          <note type="source">Schol. Hom. Odyss. 17, 442 πολλοὺς εἶχεν ἡ Κύπρος βασιλεῖς ἐν ταὐτῷ (χρόνῳ, ante Ol. 117, cf. Diodor. 19, 79). φησὶ καὶ ὁ Μένανδρος ἐν Μισουμένῳ κτλ. λαμπρῶς πάνυ Mein.] λαμπρῶς πάνυ λαμπρά.</note>
+          <note type="apparatus">in schol. post verba ἐν Μισουμένῳ adduntur ὡς ἐν παραβάσει, quae nemodum intellexit. 1. fortasse πρώην δ’ ἐπανῆλθον (vel ἐπανῆλθεν) ἐκ Κ. κτλ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="341" xml:id="kock-0541-misoymenos-341" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-341-l1" xml:lang="grc">ὦ δυστυχής,</l>
+            <l n="2" xml:id="kock-0541-misoymenos-341-l2" xml:lang="grc">τί οὐ καθεύδεις; σύ μ’ ἀποκναίεις περιπατῶν.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 1190 (ad 979, 6) ὁ δυστυχής ὦ δυστυχής, ὡς παρὰ Μενάνδρῳ· τί οὐ καθ. ν. 2 ibidem 428, 27 ἀποκναίει· διαφθείρει, ἀποκόπτει, ἀπολλύει ἢ λυπεῖ, ὀδυνᾷ, ἐνοχλεῖ, παρατείνει· οἷον· τί οὐ κτλ. Μένανδρος Μισουμένῳ. Suidas ἀποκναίειν· ἐνοχλεῖν, παρατείνειν. τί οὐ κτλ. Μένανδρος Μισουμένῳ. Hesych. ἀποκναίεις· ἀναιρεῖς. cf. idem ἀποκναίει. Demosth. 21, 153 ἀποκναίει ἀηδίᾳ καὶ ἀναισθησίᾳ. Ruhnk. Tim. 42.</note>
+          <note type="apparatus">sed cum ὦ δυστυχής, τι οὐ καθεύδεις Dyscoli esse constet (137), ex Μισουμένῳ autem nihil nisi v. 2 adferatur, dubium est an v. 1 hic sit delendus. Geta erum adloquitur. nisi forte prior pars (v. 2) militis, altera Getae est.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="342" xml:id="kock-0541-misoymenos-342" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-342-l1" xml:lang="grc">εἴσελθε κἂν νῦν, ὦ μακάριε.</l>
+          </lg>
+          <note type="source">Schol. Isocratis Nicocl. 3, 34 τὸ παρὰ Μενάνδρῳ ἐν Μισουμένῳ κτλ. Μισουμένῳ Dobson.] Μισουμένῃ.</note>
+          <note type="apparatus">fortasse continuo cum fr. 341 coniunctum fuit.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="343" xml:id="kock-0541-misoymenos-343" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <head>343</head>
+          <head>Λακωνική</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-343-l1" xml:lang="grc">κλείς ἐστιν ὡς ἔοικέ μοι περιοιστέα.</l>
+          </lg>
+          <note type="source">Schol. Aristoph. Thesm. 423 et Suidas <foreign xml:lang="grc">Λακωνικαὶ κλεῖδες·</foreign> Μένανδρος Μισουμένῳ (Μισουμέναις Suid.) κτλ. καί φασιν ὅτι ἔξωθεν περικλείεται μοχλοῦ παρατιθεμένου (περιτιθ. Suid.) ἤ τινος τοιούτου ὥστε τοῖς ἔνδον μὴ εἶναι ἀνοῖξαι. Olympiodorus Platon. Alcib. I p. 152 Creuz. αἱ δὲ τῶν Λακεδαιμονίων (γυναῖκες) ἐφυλάττοντο, ὡς ἐδήλωσεν ἡ πάντολμος κωμῳδία λέγουσα Λακωνικὴ κλεῖς ἐστι καὶ οὐ περιοιστέα, ubi margo κοὐ περιοιστέα. προσοιστέα Bergk. Λακωνική — ἔοικέ μοι | περιοιστέα Cobet. N. 1. 32. dicit fortasse miles puellam sibi ab aemulo Laconica clave custodiendam esse.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="344" xml:id="kock-0541-misoymenos-344" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <head>344</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-344-l1" xml:lang="grc">ὦ πάτερ,</l>
+            <l n="2" xml:id="kock-0541-misoymenos-344-l2" xml:lang="grc">μισοῦσι μὲν Θράσων', ἀπεκτάγκασι δ' οὔ.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 429, 27 ἀπεκτόνασιν, οὐκ ἀπεκτάγκασι. Μισουμένῳ· πάτερ μὲν Θράσων' (cod. θρασωνι) ἀπεκτάγκασι δ' οὔ. Suidas ἀπεκτάγκασι καὶ ἀπεκτόνασι· μισοῦσι μέν, ὦ πάτερ, Θράσων', ἀπεγκτάγκασι δ' οὔ. at idem ἀποκτιννύναι ... ἀπεκτόνασιν, οὐκ ἀπεκτάγκασι. μισοῦσι μέν, ὦ πάτερ, Θράσωνα κτλ. versuum reliquias disposuit Toupius. μισοῦσι μὲν | Θρασωνίδην, ὦ πάτερ κτλ. Dobr. Adv. II 277. ἀπεκτόνασι Cobet. N. 1. 55. 'tam foedum est ἀπέκταγκα, ut semibarbaris Byzantinis solis imputari posse credam'. non adsentior ten Brinkio, qui Philol. XIII 754 haec puellae tribuit. at eius ut servae pater in comoedia esse vix potuit.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="345" xml:id="kock-0541-misoymenos-345" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <head>345</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-345-l1" xml:lang="grc">ΘΡ. οὐπώποτ' ἠράσθης, Γέτα;</l>
+            <l n="2" xml:id="kock-0541-misoymenos-345-l2" xml:lang="grc">Γ. οὐ γὰρ ἐνεπλήσθην.</l>
+          </lg>
+          <note type="source">Hermias Plat. Phaedr. p. 76 Ast. οἱ μὲν γὰρ ὑπέλαβον ἁπλῶς φαῦλον τὸ ἐρᾶν, ὡς ... ὁ εἰπών 'πλήρει γὰρ ὄγκῳ γαστρὸς αὔξεται κύπρις' (Nauck. Trag. gr. fr. adesp. 150) καὶ φησίν 'οὐπώποτε ἠράσθην, οὐ γὰρ ἐνεπλήσθην'. quae Bekkerus (Schol. Plat. 312) ex cod. D ita emendavit ut supra scripsimus, non addita tamen personarum notatione, quae est Meinekii. idem recte ut videtur ad Menandri Μισούμενον rettulit. cf. Plaut. Mil. glor. 1, 1, 49.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="346" xml:id="kock-0541-misoymenos-346" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <head>346</head>
+          <lg>
+            <l n="1" xml:id="kock-0541-misoymenos-346-l1" xml:lang="grc">ἀφανεῖς γεγόνασιν αἱ σπάθαι.</l>
+          </lg>
+          <note type="source">Pollux 10, 145. 6 τὴν σπάθην ἐπὶ τοῦ ξίφους εἰρήκασιν ... καὶ ἐν τῷ Μισουμένῳ Μένανδρος, ὅταν λέγῃ κτλ. cf. Philem. 70. —</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="347" xml:id="kock-0541-misoymenos-347" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+          <head>σπαθᾶν</head>
+          <note type="source">Μένανδρος Μισουμένῳ· τὸ ἀλαζονεύεσθαι. Photius.</note>
+          <note type="apparatus">Cf. praeterea adesp. 129. nullius pretii sunt quae proferuntur Cramer. Anecd. Par. III 494, 6 et 502, 11. — ex Misumeno Luciani Dialogum meretr. 13 expressum esse arbitratur O. Ribbeck. Alaz. 36 conl. etiam Alciphr. 3, 36.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

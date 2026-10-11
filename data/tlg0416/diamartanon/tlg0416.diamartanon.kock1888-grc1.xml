@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ARCHEDICUS, ΔΙΑΜΑΡΤΑΝΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Archedicus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0416.diamartanon.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0416.diamartanon.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0416.diamartanon.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0416_diamartanon">
+        <head>ΔΙΑΜΑΡΤΑΝΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0416-diamartanon-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0416_diamartanon">
+          <lg>
+            <l n="1" xml:id="kock-0416-diamartanon-1-l1" xml:lang="grc">Νικοστράτην τιν’ ἤγαγον πρώην σφόδρα</l>
+            <l n="2" xml:id="kock-0416-diamartanon-1-l2" xml:lang="grc">γρυπήν, Σκοτοδίνην ἐπικαλουμένην, ὅτι</l>
+            <l n="3" xml:id="kock-0416-diamartanon-1-l3" xml:lang="grc">δῖνόν ποτ’ ἦρεν ἀργυροῦν ἐν τῷ σκότῳ.</l>
+            <l n="4" xml:id="kock-0416-diamartanon-1-l4" xml:lang="grc">Β. δῖνον καὶ δεινόν, ὦ θεοί.</l>
+          </lg>
+          <note type="source">Athenaeus 11, 467 e Ἀρχέδικος ἐν Διαμαρτάνοντι παράγων οἰκέτην τινὰ περὶ ἑταιρίδων διαλεγόμενόν φησι κτλ. Eustathius p. 1207, 11 γράφεται γὰρ (ὁ δῖνος) τὰ πλείω διὰ διφθόγγου (δεῖνος). τῆς δὲ τοιαύτης γραφῆς τεκμήριον τόδε. λέγει, φασίν, Ἀρχέδικος οὕτω· Νικοστράτην — σκότῳ. πρὸς ὅπερ ἐρωτηματικῶς εἰπών τις, δῖνον; ἐπάγει, δεινόν, ὦ θεοί. καὶ διὰ μὲν τοῦ σκοτοδίνη ἐμφαίνεται ἡ διὰ τοῦ ι γραφή, διὰ δὲ τοῦ δεινόν, ὦ θεοί, ὑπονοεῖται ἡ δίφθογγος.</note>
+          <note type="apparatus">2. σκοτοδεινην Α. σκοτοδίνην Eust. 3. δῖνόν Eust.] δεῖνόν Α. ἦιρεν Α. ἥρπασ’ Herwerd. Nov. add. crit. 45. cf. Mein. Anal. Ath. 215. 4. δεινον καὶ δεινον Α. δεῖνον δεινόν C. δεινόν γε δεῖνον Mein. solum δῖνος, non δεῖνος, recte admittit Cobet. V. 1. 2 90. cf. Strattid. 34. Β. δῖνον; . . . . . δεινόν, ὦ θεοί Herwerd. — 1. ἤγαγον ad dominum duxi. 2. Σκοτοδίνην vel propterea scribendum est, quia eo nomine etiam σκοτοδινίας memoriam volebant revocare.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

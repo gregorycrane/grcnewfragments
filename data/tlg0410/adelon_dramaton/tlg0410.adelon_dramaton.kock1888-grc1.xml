@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ANTIPHANES, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Antiphanes</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0410.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0410.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="3" xml:id="kock-0410-adelon_dramaton-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">Fr. 3. inusitatum esse vas ex quo bibere nescio quis iubetur indicat qui respondet μέγα τὸ φορτίον.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" xml:id="kock-0410-adelon_dramaton-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">5. Eustath. 1702, 53 (O. Kaehler. Wochenschr. f. klass. Phil. 1885, 902) καὶ ὀρτύγιον λέγεται παρὰ τοῖς κωμικοῖς ὑποκοριστικῶς, οὗ χρῆσις τὸ τίσυον (sic) ποιεῖν δύνασαι ὀρτ. ψ. ἔχων.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" xml:id="kock-0410-adelon_dramaton-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">6. χαρίεν. cf. supplem. Plat. 150.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="16" xml:id="kock-0410-adelon_dramaton-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">16. cf. Lobeck. Aglaoph. 1036 et Schol. Demosth. 54, 14.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="21" xml:id="kock-0410-adelon_dramaton-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">21. Herodian. I 356, 17 τὸ κλισίον παρὰ τοῖς Ἀττικοῖς τὸ ῑ ἐκτεῖνον παροξύνεται ὡς τὸ θηρίον, παρὰ δὲ Ὁμήρῳ συστέλλει τὸ ῑ καὶ προπαροξύνεται. II 903, 7 τὸ κλισίον παρὰ τὸ κλείω ἐστίν, ὃ σημαίνει τὸ περιέχω.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="24" xml:id="kock-0410-adelon_dramaton-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">24, 3. 4. post κεράννυται plenius interpungit et cetera una sententia uni personae continuat Kaibel.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="25" xml:id="kock-0410-adelon_dramaton-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">25. de ἐλευθερίῳ ὕδατι cf. Wilamowitz. Herm. XVIIII 463, 4. inlustrat proverbium etiam cod. Paris. suppl. gr. 676 S (Cohn. Paroemiogr. p. 77) n. 51.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="177" xml:id="kock-0410-adelon_dramaton-177" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>4. Arist. Pac. 175 <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0410-adelon_dramaton-177-l1" xml:lang="grc">ἤδη στρέφει τι πνεῦμα περὶ τὸν</l>
+                  <l n="2" xml:id="kock-0410-adelon_dramaton-177-l2" xml:lang="grc">ὀμφαλόν</l>
+                </lg>
+              </quote> contulit Herwerdenus Mnem. n. XIIII 174. 5.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="185" xml:id="kock-0410-adelon_dramaton-185" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>adn. lin. 3 scrib. Eubul. 150, 2.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="190" xml:id="kock-0410-adelon_dramaton-190" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>15 ser. κατακλῆσαι. — pisces publice ex piscatorum scaphis in forum deferri iubet, ne piscatores eos privatim in divitum domos portent. sic H. Weil. Rev. crit. 1885, 276.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="191" xml:id="kock-0410-adelon_dramaton-191" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>18. τὰ ᾠκονομημένα πρότερον sunt τὰ ἔξω τοῦ δράματος, quae ante (πρότερον) actionis ipsius initium facta esse poeta fingit et quae ad inventionem (οἰκονομίαν) fabulae non minus pertinent quam actio ipsa.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="194" xml:id="kock-0410-adelon_dramaton-194" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>17 ἐμάνθανε τῶνδε Kaibel.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="195" xml:id="kock-0410-adelon_dramaton-195" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>7 ἐξελθεῖν φρέαρ, quod quoniam manifesto corruptum est explicari non potest, quomodo tamen explicari iubeat K. Zacherus Berl. Wochenschr. 715 ego non exputo: nam quae praecedunt δειπνεῖν ἄκλητος μυῖα certe explicatione non indigent. nec magis scio qua ratione idem v. 12 interpretetur, cum p. 712 ὤν ab ἔφυν segregandum esse censet. — cum tota ecloga Ellis Amer. Journ. VI 2 apte confert Sidon. Apollin. Epist. 5, 7 <hi rend="italic">in foro Scythae, in cubiculo viperae, in convivio scurrae, in exactionibus harpyiae, in conlocutionibus statuae, in quaestionibus bestiae, in tractatibus cocleae, in contractionibus trapezitae, ad intellegendum saxei</hi> (λίθινοι), <hi rend="italic">ad iudicandum ignei, ad succensendum flammei, ad ignoscendum ferrei, ad amicitias pardi, ad facetias ursi, ad fallendum vulpes, ad superbientdum tauri</hi> (fortasse <hi rend="italic">centauri</hi>), <hi rend="italic">ad consumendum minotauri.</hi>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="199" xml:id="kock-0410-adelon_dramaton-199" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>1. cf. Clearch. 5.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="200" xml:id="kock-0410-adelon_dramaton-200" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>2. ὢν προτοῦ suppl. Porson. cf. Meinek. Anal. Athen. 109.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="202" xml:id="kock-0410-adelon_dramaton-202" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>9 scr. τοιούτου cum Dittenbergero. — 12. οἷος cum infinitivo coniunctum tam vulgatum est ut non opus fuerit Herwerdeni (p. 175) admonitione. hic tamen sententiae aptum esse nunc quoque nego.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="211" xml:id="kock-0410-adelon_dramaton-211" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>1. τῶν | δήμων δ' Ἁλ. Herwerdenus 176. — 2. fortasse ἔτι λοιπόν ἐστιν. — 4. cf. Menand. 747. Philostrat. Heroic. (II 210, 22 Kayser) <quote>φησὶ δ' αὐτοῖς κακόν τι ἐκ θαλάττης δώσειν.</quote>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="225" xml:id="kock-0410-adelon_dramaton-225" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>cf. Alexand. com. 3. Caecil. <hi rend="italic">Chrysion:</hi>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0410-adelon_dramaton-225-l1" xml:lang="grc">quamquam ego</l>
+                  <l n="2" xml:id="kock-0410-adelon_dramaton-225-l2" xml:lang="grc">mercede huc conductus tua | advénio.</l>
+                </lg>
+              </quote>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="230" xml:id="kock-0410-adelon_dramaton-230" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>Antiphan. (non Alexid.) 195, 7 conferri iubet Herwerd. 177. — <quote>
+                <lg>
+                  <l n="1" xml:id="kock-0410-adelon_dramaton-230-l1" xml:lang="grc">οὓς ἔδει | τὸν δ. ἐκ κοινοῦ τρέφειν, ἀεὶ θ' ὅπερ | Ὀλ. κτλ.</l>
+                </lg>
+              </quote> Kaibel.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="232" xml:id="kock-0410-adelon_dramaton-232" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_adelon_dramaton">
+          <note type="apparatus">
+            <p>Ἀντιφάνους etiam Stob. Floril. 2, 3 cod. Ven. teste Kirchhoffio. de v. 1 ad Athen. 14, 625c relegat O. Crusius p. 609.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

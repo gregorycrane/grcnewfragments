@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>EUBULUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Eubulus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0458.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0458.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="85b" xml:id="kock-0458-adelon_dramaton-85b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_adelon_dramaton">
+          <note type="source">
+            <p>Schol. Theocrit. 6, 3 Ambros. <foreign xml:lang="grc">πυρρός. ὁ ἀρτίχνους, ὁ ἤδη πωγωνίτης . . . ὁ δ᾽ ἡμιγένειος· Παρμενίσκος· παῖδ᾽ οὔτε γένειον πυρρὸν οὔθ᾽ ὑπηνήτην.</foreign>
+            </p>
+          </note>
+          <note type="apparatus">
+            <p>poetae scenici fragmentum esse videtur <foreign xml:lang="grc">παῖδ᾽ οὔτ᾽ ἔτι | γένεια πυρρὸν οὔθ᾽ ὑπηνήτην πάλαι᾽.</foreign> Ziegler. p. 47. fortasse ex Eubuli Parmenisco.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="145b" xml:id="kock-0458-adelon_dramaton-145b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_adelon_dramaton">
+          <p>
+            <foreign xml:lang="grc">κορυδαλός</foreign>
+          </p>
+          <note type="source">
+            <p>Thomas Mag. 213, 15 R. <foreign xml:lang="grc">τὸ κ.</foreign> (pro <foreign xml:lang="grc">κόρυδος</foreign>) <foreign xml:lang="grc">κοινόν, εἰ καὶ Εὔβουλος χρῆται.</foreign>
+            </p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

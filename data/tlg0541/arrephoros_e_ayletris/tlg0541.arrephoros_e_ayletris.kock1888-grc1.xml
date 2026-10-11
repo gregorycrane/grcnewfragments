@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΑΡΡΗΦΟΡΟΣ Η ΑΥΛΗΤΡΙΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.arrephoros_e_ayletris.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.arrephoros_e_ayletris.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.arrephoros_e_ayletris.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_arrephoros_e_ayletris">
+        <head>ΑΡΡΗΦΟΡΟΣ Η ΑΥΛΗΤΡΙΣ</head>
+        <div type="textpart" subtype="fragment" n="65" xml:id="kock-0541-arrephoros_e_ayletris-65" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_arrephoros_e_ayletris">
+          <lg>
+            <l n="1" xml:id="kock-0541-arrephoros_e_ayletris-65-l1" xml:lang="grc">οὐ γαμεῖς, ἂν νοῦν ἔχῃς,</l>
+            <l n="2" xml:id="kock-0541-arrephoros_e_ayletris-65-l2" xml:lang="grc">τοῦτον καταλιπὼν τὸν βίον· γεγάμηκα γὰρ</l>
+            <l n="3" xml:id="kock-0541-arrephoros_e_ayletris-65-l3" xml:lang="grc">αὐτός· διὰ τοῦτο σοὶ παραινῶ μὴ γαμεῖν.</l>
+            <l n="4" xml:id="kock-0541-arrephoros_e_ayletris-65-l4" xml:lang="grc">Β. δεδογμένον τὸ πρᾶγμ'· ἀνερρίφθω κύβος.</l>
+            <l n="5" xml:id="kock-0541-arrephoros_e_ayletris-65-l5" xml:lang="grc">Α. πέραινε. σωθείης δὲ νῦν. ἀληθινὸν</l>
+            <l n="6" xml:id="kock-0541-arrephoros_e_ayletris-65-l6" xml:lang="grc">εἰς πέλαγος αὐτὸν ἐμβαλεῖς γὰρ πραγμάτων,</l>
+            <l n="7" xml:id="kock-0541-arrephoros_e_ayletris-65-l7" xml:lang="grc">οὐ Λιβυκόν, οὐδ' Αἰγαῖον . . . . .</l>
+            <l n="8" xml:id="kock-0541-arrephoros_e_ayletris-65-l8" xml:lang="grc">οὗ τῶν τριάκοντ' οὐκ ἀπόλλυται τρία</l>
+            <l n="9" xml:id="kock-0541-arrephoros_e_ayletris-65-l9" xml:lang="grc">πλοιάρια· γήμας δ' οὐδὲ εἷς σέσῳσθ' ὅλως.</l>
+          </lg>
+          <note type="source">Athenaeus 13, 559 de Μένανδρος ἐν Ἀρρηφόρῳ ἢ Αὐλητρίδι κτλ.</note>
+          <note type="apparatus">ἂν Dindf.] ἐὰν. 3. καὐτός Mein. τοῦτο σοὶ Cobet. N. 1. 76] τοῦτό σοι. 4. ἀνερίφθω Α. 5. σωθείης δέ· νῦν ἀλ. Iacobs. at cf. adesp. 1225. 6. σεαυτὸν ἐμβάλλεις Α. 8. οὗ] οὐ Α. 7. οὐδ' Αἰγύπτιον add. Grot. οὐδὲ Σικελικόν Cobet. N. 1. 76. quidni οὐδὲ Κρητικόν (Horat. C. 1, 26, 2)? 4. cf. Aristoph. fr. 673. frustra Herwerd. Anal. crit. 41 articulum desiderat. 6. de postposita γάρ cf. Antiphan. 26, 22.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="66" xml:id="kock-0541-arrephoros_e_ayletris-66" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_arrephoros_e_ayletris">
+          <lg>
+            <l n="1" xml:id="kock-0541-arrephoros_e_ayletris-66-l1" xml:lang="grc">ἐὰν δὲ κινήσῃ μόνον τὴν Μυρτίλην</l>
+            <l n="2" xml:id="kock-0541-arrephoros_e_ayletris-66-l2" xml:lang="grc">ταύτην τις ἢ τίτθην καλῇ, πέρας ποιεῖ</l>
+            <l n="3" xml:id="kock-0541-arrephoros_e_ayletris-66-l3" xml:lang="grc">λαλιᾶς· τὸ Δωδωναῖον ἄν τις χαλκίον,</l>
+            <l n="4" xml:id="kock-0541-arrephoros_e_ayletris-66-l4" xml:lang="grc">ὃ λέγουσιν ἠχεῖν, ἢν παράψηθ' ὁ παριών,</l>
+            <l n="5" xml:id="kock-0541-arrephoros_e_ayletris-66-l5" xml:lang="grc">τὴν ἡμέραν ὅλην, καταπαύσαι θᾶττον ἢ</l>
+            <l n="6" xml:id="kock-0541-arrephoros_e_ayletris-66-l6" xml:lang="grc">ταύτην λαλοῦσαν· νύκτα γὰρ προσλαμβάνει.</l>
+          </lg>
+          <note type="source">Stephanus Byz. Δωδώνη. μέμνηται αὐτῆς (τῆς παροιμίας) Μένανδρος ἐν Ἀρρηφόρῳ κτλ. Zenob. 6, 5 τὸ Δωδωναῖον χαλκεῖον· παρὰ Μενάνδρῳ ἐν τῇ Ἀρρηφόρῳ. Suid. Δωδωναῖον χαλκεῖον κέχρηται τῇ παροιμίᾳ Μένανδρος Αὐλητρίδι (αὐλητρίσι VC).</note>
+          <note type="apparatus">2. ἢ Bentl.] ἣν S. ἢ τιτθιολαβῇ Naber Mnem. nov VII 413. at Graeci dicunt τιτθολ. 3. Δωδωνεῖον S. 5. καταπαῦσαι S. 2. πέρας οὐ ποιεῖ Bentl. 'numquam loquendi finem facit'. contra dicit Cobet. N. 1. 71 'πέρας est τὸ ἑκάστου ἔσχατον, id quod in quaque re extremum est quo perveniri potest et quo non est progredi ulterius. cf. Hegesipp. 1, 4. Posidipp. 26, 17. Damox. 3, 9.' non ubique tamen eam esse vocis significationem docet fr. 418. 5. de forma optat. καταπαύσαι cf. Bamberg. Jahresber. III 12. 13.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="67" xml:id="kock-0541-arrephoros_e_ayletris-67" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_arrephoros_e_ayletris">
+          <lg>
+            <l n="1" xml:id="kock-0541-arrephoros_e_ayletris-67-l1" xml:lang="grc">πάντας μεθύσους τοὺς ἐμπόρους</l>
+            <l n="2" xml:id="kock-0541-arrephoros_e_ayletris-67-l2" xml:lang="grc">ποιεῖ τὸ Βυζάντιον· ὅλην ἐπίνομεν</l>
+            <l n="3" xml:id="kock-0541-arrephoros_e_ayletris-67-l3" xml:lang="grc">τὴν νύκτα διὰ σὲ καὶ σφόδρ’ ἄκρατόν μοι δοκῶ.</l>
+            <l n="4" xml:id="kock-0541-arrephoros_e_ayletris-67-l4" xml:lang="grc">ἀνίσταμαι γοῦν τέτταρας κεφαλὰς ἔχων.</l>
+          </lg>
+          <note type="source">Athenaeus 10, 442 d Μένανδρος ἐν Ἀρρηφόρῳ ἢ Αὐλητρίδι κτλ.</note>
+          <note type="apparatus">v. 1—3 Aelian. V. h. 3, 14 extr. ὁμολογεῖν τούτοις (τοῖς κατηγοροῦσι Βυζαντίων) ἔοικε καὶ ὁ Μένανδρος, ὅταν λέγῃ· μεθύσους — νύκτα. v. 2 sq. Eustath. 1504, 63 ἔμπορος γοῦν τις μέθυσος παρὰ Μενάνδρῳ . . . οὕτως· ὅλην κτλ. idem Dionys. Perieg. 804 κωμῳδοῦνται εἰς μέθην οἱ παλαιοὶ Βυζάντιοι. Pollux 6, 25 ὁ μέθυσος ἐπὶ ἀνδρῶν Μενάνδρῳ δεδόσθω. cf. Lobeck. Phryn. 151. 2 et de Byzantiis Strattid. 36. 3. διὰ σὲ] νὴ Δία Herwerd. Obs. crit. 122. Θάσιον Heimsoeth. Ind. Bonn. 1867 aest. XVIII. de μοι δοκῶ cf. Clearch. 5.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="68" xml:id="kock-0541-arrephoros_e_ayletris-68" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_arrephoros_e_ayletris">
+          <lg>
+            <l n="1" xml:id="kock-0541-arrephoros_e_ayletris-68-l1" xml:lang="grc">τὰ πατρῷα μὲν ποιεῖ καιρός ποτε</l>
+            <l n="2" xml:id="kock-0541-arrephoros_e_ayletris-68-l2" xml:lang="grc">ἀλλότρια, σῴζει δ’ αὐτά που τὰ σώματα·</l>
+            <l n="3" xml:id="kock-0541-arrephoros_e_ayletris-68-l3" xml:lang="grc">βίου δ’ ἔνεστιν ἀσφάλει’ ἐν ταῖς τέχναις.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 60, 5 Μενάνδρου Αὐλητρίδος Α.</note>
+          <note type="apparatus">1. τὰ γὰρ π. Grotius. τὰ μὲν π. μεταποιεῖ Iacobs. Anthol. 12 p. 105. ποιεῖ] που Α. 2. σώζει] δουλοῖ Mein. fort. χρῴζει. temporis iniquitate non solum bonorum possessio transmutatur, sed interdum etiam corporum ipsorum colores inficiuntur et vitiantur. cf. Alexid. 141, 9. 3. ἔνεστιν Gesn. 3] ἔνεστι μία Α.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="69" xml:id="kock-0541-arrephoros_e_ayletris-69" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_arrephoros_e_ayletris">
+          <lg>
+            <l n="1" xml:id="kock-0541-arrephoros_e_ayletris-69-l1" xml:lang="grc">ἐλλέβορον ἤδη πώποτ’ ἔπιες, Σωσία;</l>
+            <l n="2" xml:id="kock-0541-arrephoros_e_ayletris-69-l2" xml:lang="grc">Β. ἅπαξ. Α. πάλιν νῦν πῖθι· μαίνει γὰρ κακῶς.</l>
+          </lg>
+          <note type="source">Athenaeus 10, 446 d Μένανδρος Αὐλητρίδι κτλ. (αὐλητρίσι Α).</note>
+          <note type="apparatus">1. ἐλλέβορον Heringa Observ. 224] βαλ’ ἐς κόρον Α. Σωσία Heringa. Β. ἅπαξ. Α. Cobet. N. 1. 22] σωσιλαπᾶσιν Α (i. e. Σωσία ἅπασιν). 2. παλινυν Α. μαίνει Heringa] μένει Α.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="70" xml:id="kock-0541-arrephoros_e_ayletris-70" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_arrephoros_e_ayletris">
+          <lg>
+            <l n="1" xml:id="kock-0541-arrephoros_e_ayletris-70-l1" xml:lang="grc">πάντ’ ἐστὶ τῷ καλῷ λόγῳ</l>
+            <l n="2" xml:id="kock-0541-arrephoros_e_ayletris-70-l2" xml:lang="grc">ἱερόν· ὁ νοῦς γάρ ἐστιν ὁ λαλήσων θεός.</l>
+          </lg>
+          <note type="source">Iustinus De mon. 40 b (150 Otto) ὁ αὐτὸς (Μένανδρος) καὶ ἐν Αὐλητρίσι κτλ.</note>
+          <note type="apparatus">1. πανταχῆ ἐστι Bentl. πάντη ’στὶ Mein. 2. monost.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

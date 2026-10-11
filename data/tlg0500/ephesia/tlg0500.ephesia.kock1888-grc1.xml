@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>POSIDIPPUS, ΕΦΕΣΙΑ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Posidippus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0500.ephesia.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0500.ephesia.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0500.ephesia.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_ephesia">
+        <head>ΕΦΕΣΙΑ</head>
+        <div type="textpart" subtype="fragment" n="12" xml:id="kock-0500-ephesia-12" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_ephesia">
+          <lg>
+            <l n="1" xml:id="kock-0500-ephesia-12-l1" xml:lang="grc">Φρύνη πρὸ ἡμῶν γέγονεν ἐπιφανεστάτη</l>
+            <l n="2" xml:id="kock-0500-ephesia-12-l2" xml:lang="grc">πολὺ τῶν ἑταιρῶν· καὶ γὰρ εἰ νεωτέρα</l>
+            <l n="3" xml:id="kock-0500-ephesia-12-l3" xml:lang="grc">τῶν τότε χρόνων εἶ, τόν γ’ ἀγῶν’ ἀκήκοας.</l>
+            <l n="4" xml:id="kock-0500-ephesia-12-l4" xml:lang="grc">βλάπτειν δοκοῦσα τοὺς βίους μείζους βλάβας</l>
+            <l n="5" xml:id="kock-0500-ephesia-12-l5" xml:lang="grc">τὴν ἡλιαίαν εἶλε περὶ τοῦ σώματος,</l>
+            <l n="6" xml:id="kock-0500-ephesia-12-l6" xml:lang="grc">καὶ τῶν δικαστῶν καθ’ ἕνα δεξιουμένη</l>
+            <l n="7" xml:id="kock-0500-ephesia-12-l7" xml:lang="grc">μετὰ δακρύων διέσωσε τὴν ψυχὴν μόλις.</l>
+          </lg>
+          <note type="source">Athenaeus 13, 591 e Ποσίδιππος (sic A) ὁ κωμικὸς ἐν Ἐφεσίᾳ τάδε φησὶν περὶ αὐτῆς (Φρύνης) κτλ.</note>
+          <note type="apparatus">1. πρὸ ἡμῶν] περισήμων Iacobs. Add. Ath. 318. πρό γ’ ἡμῶν Dobr. Adv. II 346. 3. εἶ Casaubonus] εἴη Α. 4. βίους] fortasse νέους. nam non prorsus conveniunt Alexid. 116, 6. 11. Menand. 855. Nicol. 1, 13. 5. εἶλε] εἶχε Schweigh. εἰς ἡλ. ἦλθε Dobr. εἶδε ante Cobetum N. 1. 127 Bothius. cf. Arist. Ach. 613. at quid est τὴν ἡλιαίαν εἶδε περὶ τοῦ σ.? scribendum est εἶλε χάριτι σώματος. de causa Phrynes et defensione Hyperidis cf. Athen. 13, 590 de.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

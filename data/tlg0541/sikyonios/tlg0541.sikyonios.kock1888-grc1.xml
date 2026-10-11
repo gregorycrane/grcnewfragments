@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΣΙΚΥΩΝΙΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.sikyonios.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.sikyonios.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.sikyonios.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_sikyonios">
+        <head>ΣΙΚΥΩΝΙΟΣ</head>
+        <div type="textpart" subtype="fragment" n="438" xml:id="kock-0541-sikyonios-438" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_sikyonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-sikyonios-438-l1" xml:lang="grc">ἅβραν γὰρ ἀντωνούμενος</l>
+            <l n="2" xml:id="kock-0541-sikyonios-438-l2" xml:lang="grc">ἐρωμένην αὐτῇ μὲν οὐ παρέδωκ᾽ ἔχειν,</l>
+            <l n="3" xml:id="kock-0541-sikyonios-438-l3" xml:lang="grc">τρέφει δὲ χωρίς, ὡς ἐλευθέραν πρέπει.</l>
+          </lg>
+          <note type="source">Suidas ἅβρα· Μένανδρος . . . Σικυωνίῳ κτλ.</note>
+          <note type="apparatus">1. ἅβρ. Mein.] καὶ ἅβρ. 2. ταύτῃ Clericus. 3. τρέφει — ἐλευθέραν Dobr. Adv. II 278] τρέφειν — ἐλευθέρᾳ. de ἄβρᾳ cf. 64.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="439" xml:id="kock-0541-sikyonios-439" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_sikyonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-sikyonios-439-l1" xml:lang="grc">εὐλοιδόρητον, ὡς ἔοικε, φαίνεται</l>
+            <l n="2" xml:id="kock-0541-sikyonios-439-l2" xml:lang="grc">τὸ τοῦ στρατιώτου σχῆμα καὶ τὸ τοῦ ξένου.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 53, 3 Μενάνδρου Σικυωνίῳ (σικυώ) A.</note>
+          <note type="apparatus">1. εὐλοιδώρητον Voss. Hens. miles erat Stratophanes fr. 442.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="440" xml:id="kock-0541-sikyonios-440" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_sikyonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-sikyonios-440-l1" xml:lang="grc">ὁ πλέων κατήχθη, κρίνεθ᾽ οὗτος πολέμιος·</l>
+            <l n="2" xml:id="kock-0541-sikyonios-440-l2" xml:lang="grc">ἐὰν δ᾽ ἔχῃ τι μαλακόν, ἀγγαρεύεται.</l>
+          </lg>
+          <note type="source">Suidas ἄγγαροι . . . καὶ ἀγγαρεύεσθαι καλοῦσιν ὥσπερ ἡμεῖς νῦν τὸ εἰς φορτηγίαν καὶ τοιαύτην τινὰ ὑπηρεσίαν ἄγεσθαι. καὶ Μένανδρος καὶ τοῦτο ἐν Σικυωνίῳ παρίστησιν κτλ.</note>
+          <note type="apparatus">2. δ᾽ add. Bentl. ‘supellex, si quam secum detulit,’ in portu ‘fisco damnatur’ Bentl. Hesych. ἀγγαρεύεται· ὑπ᾽ ἀγγαρευτῶν κατέχεται. Bekker. Anecd. 325, 5 ἄγγαρος . . . παρὰ τοῖς βαρβάροις ὁ δημόσιος γραμματοφόρος (cf. Blomfield. Aesch. Ag. 273), ὅθεν ἀγγαρεύεσθαι τὸ εἰς δημοσίαν χρείαν ὑπηρετεῖν. et 11 τίθεται δὲ . . . καὶ ἐπὶ τῶν τοῦ λιμένος παραφυλακῶν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="441" xml:id="kock-0541-sikyonios-441" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_sikyonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-sikyonios-441-l1" xml:lang="grc">κακὴ μὲν ὄψις, ἐν δὲ δείλαιαι φρένες.</l>
+          </lg>
+          <note type="source">Photius et Suidas κακὴ μὲν ὄψις· κόμμα παροιμίας κτλ. Μένανδρος Σικυωνίῳ. omisso auctoris fabulaeque nomine Diogenian. 5, 89. Apost. 9, 23 (δειλίᾳ). cf. Philem. 21.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="442" xml:id="kock-0541-sikyonios-442" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_sikyonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-sikyonios-442-l1" xml:lang="grc">Στρατοφάνη, λιτόν ποτ᾽ εἶχες χλαμύδιον καὶ παῖδ᾽ ἕνα.</l>
+          </lg>
+          <note type="source">Photius Στρατοφάνη· τὴν κλητικὴν πτῶσιν. Μένανδρος Σικυωνίῳ κτλ. καὶ ἀεὶ οὕτως λέγει (Μένανδρος). per totam fabulam</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="443" xml:id="kock-0541-sikyonios-443" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_sikyonios">
+          <lg>
+            <l n="1" xml:id="kock-0541-sikyonios-443-l1" xml:lang="grc">ὡς αἰεὶ τὸν ὁμοῖον ἄγει θεὸς ὡς τὸν ὁμοῖον.</l>
+          </lg>
+          <note type="source">μέμνηται αὐτῆς . . . Μένανδρος Σικυωνίῳ. Schol. Platon. 375</note>
+          <note type="apparatus">Bekk.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="444" xml:id="kock-0541-sikyonios-444" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_sikyonios">
+          <note type="source">Pollux 4, 119 οἱ παράσιτοι μελαίνῃ ἢ φαιᾷ (ἐχρῶντο ἐσθῆτι), πλὴν ἐν Σικυωνίῳ λευκῇ, ὅτε μέλλει γαμεῖν ὁ παράσιτος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="445" xml:id="kock-0541-sikyonios-445" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_sikyonios">
+          <p>παλίμβολος τρίπρατος</p>
+          <note type="source">Harpocration 143, 11 παλίμβολον . . . ὁ πολλάκις ἐμπολῇ μεταβεβλημένος παλίμπρατος παλίμβολος λέγεται, ὡς δῆλον . . . ἐκ τοῦ Μενάνδρου Σικυωνίου. Photius 374, 5 ὁ πολλάκις ἐπ' ἐμπολῇ μεταβεβλημένος καὶ λεγόμενος ἐν τῷ βίῳ παλίμπρατος παλίμβολος ἐλέγετο, ὡς . . . Μένανδρος. Eustath. 725, 32 φέρει δὲ καὶ (τῶν τις παλαιῶν) ἀπὸ χρήσεως τοῦ κωμικοῦ τὸ παλίμβολος τρίπρατος, καὶ πολλάκις ἀπημπολημένος. Pollux 6, 164 παλίμβολος παλίμπρατος. cf. 4, 36. 6, 190. Bekker. Anecd. 291, 29 παλίμβολος . . . ὁ δοῦλος ὁ διὰ πονηρίαν πιπρασκόμενος καὶ ἄλλοτε ἄλλους δεσπότας κεκτημένος. cf. Hesych. παλίμβολος. Eustath. 1405, 7. 1542, 50. Ruhnken. Tim. 205. Nauck. Aristoph. Byz. p. 177. Δύσπρατος comoedia fuit Antiphanis. cf. II 47.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="446" xml:id="kock-0541-sikyonios-446" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_sikyonios">
+          <p>ἀναίνεσθαι</p>
+          <note type="source">κοινῶς μὲν ἀρνεῖσθαι, ἰδίως δὲ ἐπὶ τῶν κατὰ τοὺς γάμους καὶ τὰ ἀφροδίσια λέγεται. Μένανδρος Σικυωνίῳ. Harpocration 17, 16. cf. Plat. com. 181.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

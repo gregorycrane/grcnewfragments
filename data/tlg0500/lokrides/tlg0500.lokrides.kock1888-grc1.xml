@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>POSIDIPPUS, ΛΟΚΡΙΔΕΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Posidippus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0500.lokrides.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0500.lokrides.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0500.lokrides.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_lokrides">
+        <head>ΛΟΚΡΙΔΕΣ</head>
+        <div type="textpart" subtype="fragment" n="14" xml:id="kock-0500-lokrides-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_lokrides">
+          <lg>
+            <l n="1" xml:id="kock-0500-lokrides-14-l1" xml:lang="grc">ὥρα περαίνειν· ἐγχέλεια, καράβους,</l>
+            <l n="2" xml:id="kock-0500-lokrides-14-l2" xml:lang="grc">κόγχας, ἐχίνους προσφάτους, μηκώνια,</l>
+            <l n="3" xml:id="kock-0500-lokrides-14-l3" xml:lang="grc">πίνας, τραχήλους, μύας.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="14_2" xml:id="kock-0500-lokrides-14-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_lokrides">
+          <note type="apparatus">
+            <p>Athenaeus 3, 87f <foreign xml:lang="grc">οἱ τράχηλοι τῶν πορφυρῶν εὐθετοῦσι πρὸς τὰς τῶν στομάχων διαθέσεις. μνημονεύει δ' αὐτῶν Ποσίδιππος (sic A) ἐν Λοκρίσιν οὕτως κτλ.</foreign> Photius <foreign xml:lang="grc">τράχηλοι· τῶν θαλασσίων πορφυρῶν. οὕτως Ποσίδιππος.</foreign> Etym. m. 764, 47 <foreign xml:lang="grc">ἐν τῷ ῥητορικῷ λεξικῷ τράχηλον εὗρον σημαίνειν τῶν θαλασσίων πορφύρων (sic). οὕτω Ποσίδιππος.</foreign> — 1. post <foreign xml:lang="grc">περαίνειν</foreign> interpunxit Herwerd. Stud. crit. 92. 3. <foreign xml:lang="grc">ἐγχέλεια</foreign> Porson.] <foreign xml:lang="grc">ἐγχέλια</foreign> A. 3. <foreign xml:lang="grc">πίνας</foreign> A] <foreign xml:lang="grc">πίννας. μύας</foreign>] <foreign xml:lang="grc">μῦς</foreign> K.</p>
+            <p>'tempus est verbis meis finem inponere: (emi) <foreign xml:lang="grc">ἐγχέλεια κτλ.</foreign>'</p>
+            <p>2. Athen. 3, 87e <foreign xml:lang="grc">αἱ μήκωνες (τῶν κηρύκων) πρὸς μὲν τὰς τῶν στομάχων εὐτονίας οὐκ εὐθετοῦσι, πρὸς δὲ τὴν τῆς κοιλίας ἀσθένειαν χρήσιμοι.</foreign> et 7, 316d <foreign xml:lang="grc">ὁ μήκων (τοῦ πουλύποδος) κεῖται ἐπάνω τῆς κοιλίας οἱονεὶ κύστις.</foreign> 3. Herodian. I 256, 6 <foreign xml:lang="grc">τὰ εἰς να δισύλλαβα βαρύνεται, πῖνα ἐπὶ τοῦ ὀστρέου κτλ.</foreign> II 455, 5 <foreign xml:lang="grc">τὰ εἰς ἵνα ἀποστρέφεται τὴν εἰ δίφθογγον ... πῖνα ἐπὶ τοῦ θαλασσίου διὰ τοῦ ἰ.</foreign> cf. 570, 1. <foreign xml:lang="grc">τραχήλους</foreign> non proprium piscium genus esse, sed quia per se coquerentur seorsim nominasse Posidippum monuit Salmas. Exerc. Plin. 792. cf. Archedic. 3, 4 et quae ad Eubul. 66, 3 adnotantur.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

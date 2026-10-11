@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΔΑΚΤΥΛΙΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.daktylios.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.daktylios.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.daktylios.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_daktylios">
+        <head>ΔΑΚΤΥΛΙΟΣ</head>
+        <div type="textpart" subtype="fragment" n="102" xml:id="kock-0541-daktylios-102" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_daktylios">
+          <lg>
+            <l n="1" xml:id="kock-0541-daktylios-102-l1" xml:lang="grc">τίς γὰρ οὑτοσὶ κακοδαίμων ἔφυ,</l>
+            <l n="2" xml:id="kock-0541-daktylios-102-l2" xml:lang="grc">ὃς οὐκ ἂν ἐκδοίη θυγατέρας ἄσμενος,</l>
+            <l n="3" xml:id="kock-0541-daktylios-102-l3" xml:lang="grc">καὶ ταῦτα πεντήκοντα παιδίσκας ἔχων.</l>
+          </lg>
+          <note type="source">
+            <p>Ammonius 110 παιδίσκη καὶ παῖς διαφέρει· παιδίσκη μὲν γὰρ ἡ ἐλευθέρα παρ' Ἀττικοῖς, παῖς δὲ ἡ δούλη. Μένανδρος ἐν Δακτυλίῳ ἐπὶ τοῦ Δαναοῦ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>poetae verba ad codicum Marcianorum fidem quos contulit Cobetus exhibui. 1. τίς γὰρ non in omnibus. alii οὕτως ὁ pro οὑτοσί. ἔφυ] Ald. et cod.?] ἔφη. 2. θυγατέρ' ἂν Pauw. ἐπὶ τοῦ Δαναοῦ egregie Cobet N. 1. 43] ἐπὶ τοῦ δάν et ἐπὶ τοῦ δάου cod. Marc., alii ἐπὶ τοῦδε δ' αὖθ', ἐπὶ τοῦδ' αὖθις, τοῦδ' ἄν τις. de emendando certa ratione v. 1 Cobetus desperavit. fortasse τίς γάρ ποθ' οὕτως ὡς σὺ κακοδαίμων ἔφυ. quo recepto nequaquam sequitur Danai in hac fabula partes fuisse. σύ enim altera persona est quam adpellat qui loquitur. 3. tangit Eurip. fr. 230, 1 N. Δαναὸς ὁ πεντήκοντα θυγατέρων πατήρ. — 'sic demum adparebat παιδίσκας dici τὰς ἐλευθέρας, quoniam Danaus dicebatur πεντήκοντα παιδίσκας ἔχειν, quod facete dictum pro θυγατέρας.' Cobet. vulgo enim παιδίσκη ἡ θεράπαινα. Suid. cf. 338.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="103" xml:id="kock-0541-daktylios-103" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_daktylios">
+          <lg>
+            <l n="1" xml:id="kock-0541-daktylios-103-l1" xml:lang="grc">οἰκόσιτον νυμφίον</l>
+            <l n="2" xml:id="kock-0541-daktylios-103-l2" xml:lang="grc">οὐδὲν δεόμενον προικὸς ἐξευρήκαμεν.</l>
+          </lg>
+          <note type="source">
+            <p>Athenaeus 6, 247 f καλεῖται οἰκόσιτος ὁ μὴ μισθοῦ ἀλλὰ προῖκα τῇ πόλει ὑπηρετῶν . . . Μένανδρος Δακτυλίῳ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>Δακτυλίῳ Casaub.] δακτύλωι A. — cf. Antiphan. 200. Anaxandr. 24. Anaxil. 39.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="104" xml:id="kock-0541-daktylios-104" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_daktylios">
+          <lg>
+            <l n="1" xml:id="kock-0541-daktylios-104-l1" xml:lang="grc">ἀνεμιαῖον ἐγένετο</l>
+          </lg>
+          <note type="source">
+            <p>Photius et Suidas ὑπηνέμια· Μένανδρος Δακτυλίῳ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>ἐγίνετο cod. Phot. — addit Suid. τὰ δίχα σπέρματος ἄρρενος. cf. Arar. 6.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="109" xml:id="kock-0541-daktylios-109" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_daktylios">
+          <lg>
+            <l n="1" xml:id="kock-0541-daktylios-109-l1" xml:lang="grc">ἀγαθόν τί μοι γένοιτο, πολύτιμοι θεοί·</l>
+            <l n="2" xml:id="kock-0541-daktylios-109-l2" xml:lang="grc">ὑποδούμενος τὸν ἱμάντα γὰρ τῆς δεξιᾶς</l>
+            <l n="3" xml:id="kock-0541-daktylios-109-l3" xml:lang="grc">ἐμβάδος ἀπέρρηξ᾽. Β. εἰκότως, ὦ φλήναφε·</l>
+            <l n="4" xml:id="kock-0541-daktylios-109-l4" xml:lang="grc">σαπρὸς γὰρ ἦν, σὺ δὲ μικρολόγος ἄρ᾽ οὐ θέλων</l>
+            <l n="5" xml:id="kock-0541-daktylios-109-l5" xml:lang="grc">καινὰς πρίασθαι.</l>
+          </lg>
+          <note type="source">Clemens Alex. Strom. 7, 4, 24 τοιοῦτόν τινα ἐν τῷ Δεισιδαίμονι ὁ Μένανδρος διακωμῳδεῖ κτλ. Theodoretus Affect. gr. cur. 6, 88, 5 (238 Gaisf.) ὁ Μένανδρος ἐν Δεισιδαίμονι παραπλησίως τοὺς τὰ τοιαῦτα παρατηροῦντας γελᾷ λέγων ὡδί κτλ. Cramer. Anecd. Par. IIII 251.</note>
+          <note type="apparatus">1. πολύτιμοι Sylburg.] ὦ πολυτίμητοι. ἀγαθόν τί μοι γένοιτο. Β. τί δ᾽ ἔστιν; Α. ὦ πολυτίμητοι θεοί Cobet. N. 1. 56. 7. 2. γὰρ add. Mein. 3. ἀπέρρηξ᾽ Mein.] διέρρηξ᾽ (διέρρηξα). 4. σαθρὸς Cobet. σμικρολόγος Theodoret. ἄρ᾽ οὐ θέλων Mein.] οὐκ ἐθέλων. οὐ θέλων καινὸν Grot. — de discrimine quod est inter πολύτιμος et πολυτίμητος cf. Arist. Av. 667. Ran. 337 cum interpr.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="110" xml:id="kock-0541-daktylios-110" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_daktylios">
+          <lg>
+            <l n="1" xml:id="kock-0541-daktylios-110-l1" xml:lang="grc">οὐ δεῖ γὰρ ἀδικεῖν οἰκέτας, ἄλλως τε καὶ</l>
+            <l n="2" xml:id="kock-0541-daktylios-110-l2" xml:lang="grc">ὅταν μετ᾽ εὐνοίας τι μὴ πονηρίᾳ</l>
+            <l n="3" xml:id="kock-0541-daktylios-110-l3" xml:lang="grc">πταίσωσιν· αἰσχρόν ἐστι τοῦτο γὰρ πάνυ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 9, 11 Μενάνδρου Δεισιδαίμονι Α.</note>
+          <note type="apparatus">οἰκέτας Cobet. N. 1. 40] τοὺς οἰκέτας A Trinc., τοὺς ἱκέτας ceteri. 2. εὐνοίας] ἐννοίας A. ἀγνοίας Pflugk. Sched. crit. 19. πονηρίᾳ Bentl.] πονηρᾶς A. 3. τοῦτο γάρ ἐστιν πάνυ cod. transposuit Dobr.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="111" xml:id="kock-0541-daktylios-111" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_daktylios">
+          <lg>
+            <l n="1" xml:id="kock-0541-daktylios-111-l1" xml:lang="grc">καὶ τυφλῷ δῆλον</l>
+          </lg>
+          <note type="source">. . . μέμνηται ταύτης καὶ Μένανδρος Δεισιδαίμονι. Schol. Platon. 372 Bekk.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="112" xml:id="kock-0541-daktylios-112" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_daktylios">
+          <lg>
+            <l n="1" xml:id="kock-0541-daktylios-112-l1" xml:lang="grc">ὀλόλους</l>
+          </lg>
+          <note type="source">τοὺς δεισιδαίμονας ἐκάλουν οἰωνιζόμενοι. Μένανδρος Δεισιδαίμονι Photius. cf. Theopomp. com. 61.</note>
+          <note type="apparatus">Praeterea cf. 530. 544. adesp. 105.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

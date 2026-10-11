@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΥΜΝΙΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.ymnis.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.ymnis.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.ymnis.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ymnis">
+        <head>ΥΜΝΙΣ</head>
+        <div type="textpart" subtype="fragment" n="472" xml:id="kock-0541-ymnis-472" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ymnis">
+          <lg>
+            <l n="1" xml:id="kock-0541-ymnis-472-l1" xml:lang="grc">νὴ τὴν Ἀθηνᾶν, μακάριόν γ' ἡ χρηστότης</l>
+            <l n="2" xml:id="kock-0541-ymnis-472-l2" xml:lang="grc">πρὸς πάντα καὶ θαυμαστὸν ἐφόδιον βίῳ.</l>
+            <l n="3" xml:id="kock-0541-ymnis-472-l3" xml:lang="grc">τούτῳ λαλήσας ἡμέρας σμικρὸν μέρος</l>
+            <l n="4" xml:id="kock-0541-ymnis-472-l4" xml:lang="grc">εὔνους ἐγὼ νῦν εἰμι. ‘πειστικὸν λόγος’</l>
+            <l n="5" xml:id="kock-0541-ymnis-472-l5" xml:lang="grc">πρὸς τοῦτ' ἂν εἴποι τις μάλιστα τῶν σοφῶν.</l>
+            <l n="6" xml:id="kock-0541-ymnis-472-l6" xml:lang="grc">τί οὖν ἑτέρους λαλοῦντας εὖ βδελύττομαι;</l>
+            <l n="7" xml:id="kock-0541-ymnis-472-l7" xml:lang="grc">τρόπος ἔσθ' ὁ πείθων τοῦ λέγοντος, οὐ λόγος.</l>
+            <l n="8" xml:id="kock-0541-ymnis-472-l8" xml:lang="grc">τὸ γὰρ λέγειν εὖ δεινόν ἐστιν εἰ φέροι</l>
+            <l n="9" xml:id="kock-0541-ymnis-472-l9" xml:lang="grc">βλάβην τινά.</l>
+          </lg>
+          <note type="apparatus">v. 1—7 Stobaeus Flor. 37, 18. 19. 18 (v. 1—6) Μενάνδρου Ὕμνις Voss. Hens. deest in A. 19 Μενάνδρου Ὕμνυς (sic) A. v. 7 Plutarch. Mor. 801 c τὸ τοῦ Μενάνδρου κτλ. v. 1—7 recte coniungunt Voss. Hens. et Trinc. v. 8. 9 add. K. nam v. 7—9 sine lemmate Maximus Conf. Serm. 15 p. 580 ed. Combefis. Paris 1765. 1. γ' add. Clericus. μακάριόν τι χρ. Mein. χρηστότης καὶ αἰδώς Voss. Hens. sed καὶ αἰδ. del. m¹. 2. τῶ βίω Voss. H. N. 3. τούτῳ superscr. οις Voss. H. μέρους idem. 4. πειστικὸν Β²] πιστικόν. 6. εὖ N. εὖ superscr. οὐ Voss. H. 7. ἔστω Maxim. 9. τινὰ βλάβην Maxim.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="473" xml:id="kock-0541-ymnis-473" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ymnis">
+          <lg>
+            <l n="1" xml:id="kock-0541-ymnis-473-l1" xml:lang="grc">οὐ πάνυ τι γηράσκουσιν αἱ τέχναι καλῶς,</l>
+            <l n="2" xml:id="kock-0541-ymnis-473-l2" xml:lang="grc">ἂν μὴ λάβωσι προστάτην φιλάργυρον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 61, 3 Μενάνδρου Ὑμνίδος A. Maximus Tyr. Dissert. 30 p. 320 μὴ ἐνόχλει τῇ τύχῃ· οὐ γὰρ τοῖς δεομένοις δίδωσιν. μὴ ἐνόχλει τῇ τέχνῃ· ἀκούεις γὰρ Μενάνδρου λέγοντος κτλ. 1. τι] τοι A Stob. γηράσκουσιν] γὰρ πράττουσιν Herwerd. Mnem. nov. VI 75.</note>
+          <note type="apparatus">nihil novandum in ecloga minime perspicua: nam neque προστάτης utrum sit artifex, ut in Protagora ἐπιστάτης, an patronus, neque cur avaro opus sit artibus ut honeste senescant vel crescant satis adparet.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="474" xml:id="kock-0541-ymnis-474" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ymnis">
+          <lg>
+            <l n="1" xml:id="kock-0541-ymnis-474-l1" xml:lang="grc">νῦν δὲ κατὰ πόλιν</l>
+            <l n="2" xml:id="kock-0541-ymnis-474-l2" xml:lang="grc">εὕρηκε τὸν ἕτερον, τὸν σέ, τὸν ἐμὲ τουτονί.</l>
+          </lg>
+          <note type="source">Apollonius De pron. p. 13 Schneider. Ἀττικοὶ γοῦν τὸν ἐμέ. Μένανδρος ἐν Ὑμνίδι κτλ. Bekker. Anecd. 923, 10 καὶ Μένανδρος ἐν ὕδατι (Ὕμνιδι)· τὸν ἐμὲ τουτονί. 2. πρότερον ἢ σὲ τὸν ἐμὲ τὸν ἕτερον, σέ. Β. τὸν ἐμὲ τ.; Herwerd. Stud. crit. 89. — cf. Plat. Soph. 239a ibique Heindorf.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="475" xml:id="kock-0541-ymnis-475" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ymnis">
+          <lg>
+            <l n="1" xml:id="kock-0541-ymnis-475-l1" xml:lang="grc">ἀλλὰ τἀργυρώματα</l>
+            <l n="2" xml:id="kock-0541-ymnis-475-l2" xml:lang="grc">ἥκω λαβεῖν βουλόμενος.</l>
+          </lg>
+          <note type="source">Athenaeus 6, 231 a Μένανδρος . . . ἐν Ὑμνίδι κτλ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="476" xml:id="kock-0541-ymnis-476" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ymnis">
+          <lg>
+            <l n="1" xml:id="kock-0541-ymnis-476-l1" xml:lang="grc">οὐ πῦρ γὰρ αὐτῶν, οὐδὲ λοπάδ’ αὐτούμενος</l>
+          </lg>
+          <note type="source">Harpocration ᾐτημένην· αἰτεῖσθαι ἔλεγον τὸ κιχρᾶσθαι. Μένανδρος ἐν τῷ (perperam Mein. τῇ) Ὕμνιδι κτλ. Ammon. 5 τὸ μὲν γὰρ αἰτῶ ἐπὶ τοῦ ἅπαξ τι λαβεῖν καὶ μὴ ἀποδοῦναι, τὸ δὲ αἰτοῦμαι ἐπὶ τοῦ χρήσασθαι εἰς ἀπόδοσιν. Μένανδρος ἐν τῷ Ὕμνιδι διαστέλλει κτλ. similiter Suidas αἰτήσασθαι et αἰτούμενος (utrubique Ὕμνιδι). Bekker. Anecd. 359, 15 αἰτούμενος· κιχράμενος. Μεν. Ὕμνιδι κτλ. ibid. 81, 18 αἰτεῖν καὶ αἰτεῖσθαι διαφέρει· οὐ πῦρ γὰρ κτλ. et 360, 4 αἰτήσασθαι· τὸ χρήσασθαι. Μένανδρος. cf. etiam Phot. 77, 1. — idem fr. 136.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="477" xml:id="kock-0541-ymnis-477" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ymnis">
+          <lg>
+            <l n="1" xml:id="kock-0541-ymnis-477-l1" xml:lang="grc">βάκηλος εἶ</l>
+          </lg>
+          <note type="source">Zenobius Milleri 2, 70 (Mélanges 365) βάκηλος εἶ· αὕτη τέτα(κ)ται κατὰ τῶν ἐκλύτων καὶ ἀνάνδρων. λέγεται δὲ κυρίως</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="478" xml:id="kock-0541-ymnis-478" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ymnis">
+          <head>κιγκλισμός</head>
+          <note type="apparatus">Μένανδρος ἐν Ὑμίδη (Ὕμνιδι) φησὶν ἀντὶ τοῦ τάραχος. Etymol. Gud. 321, 28. Zonaras 1209 κιγκλισμὸς ἀντὶ τοῦ τάραχος. οὕτω Μένανδρος. Bekker. Anecd. 1215 et 1459 not. ex cod. Barocc. 50, Cramer. Anecd. Ox. II 454, 22 καὶ Μένανδρος (ἐν Ὕμνιδι add. Bekk. 1459, ἐν Ὑμνίδι Cram.) κιγκλισμός φησιν ἀντὶ τοῦ τάραχος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="479" xml:id="kock-0541-ymnis-479" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ymnis">
+          <head>παρυφές</head>
+          <note type="apparatus">Hesychius παρυφίς· Μένανδρος ἐν Ὑμνίδι. Pollux 7, 46 ἡ παρυφίς. at rectius Pollux ipse 7, 53 et Photius 388, 13 παρυφές (πάρυφες). cf. Aristoph. fr. 320, 7.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="480" xml:id="kock-0541-ymnis-480" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ymnis">
+          <head>πόσθων</head>
+          <note type="apparatus">ὁ παιδαριώδης καὶ ἀνάγωγος. Μένανδρος ἐν Ὑμνίδι. Bachmann. Anecd. I 357, 8. Photius πόσθων· δηλοῖ δὲ καὶ τὸν παιδαριώδη καὶ ἄφρονα κατὰ μεταφοράν. Hesychius πόσθωνας . . . τοὺς παῖδας . . . ἄλλοι μωροὺς ἢ παιδαριώδεις. idem σμόρδωνες· ὑποκοριστικῶς ἀπὸ τῶν μορίων, ὡς πόσθωνες. cf. Arist. Pac. 1300.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

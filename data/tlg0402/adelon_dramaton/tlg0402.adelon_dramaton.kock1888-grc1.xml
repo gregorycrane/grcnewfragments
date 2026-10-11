@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ALEXIS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Alexis</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0402.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0402.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="278b" xml:id="kock-0402-adelon_dramaton-278b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0402-adelon_dramaton-278b-l1" xml:lang="grc">ἀλλ’ ἐπὶ τὸ πλῆθος ἐμφερεῖς τοὺς οἰκέτας</l>
+            <l n="2" xml:id="kock-0402-adelon_dramaton-278b-l2" xml:lang="grc">ἔχοντας ὄψει τοὺς τρόπους τοῖς δεσπόταις.</l>
+            <l n="3" xml:id="kock-0402-adelon_dramaton-278b-l3" xml:lang="grc">τοῖς ἤθεσιν γὰρ οἷς ὑπηρετοῦσ’ ἀεὶ</l>
+            <l n="4" xml:id="kock-0402-adelon_dramaton-278b-l4" xml:lang="grc">προσέχουσα τούτοις ἡ φύσις κεράννυται.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 62, 40 Ἀλέξιδος Α. 3. οἷς ὑπηρετοῦσ’ ἀεὶ Valcken.] τοῖς ὑπηρετοῦσα καὶ.</note>
+          <note type="apparatus">hoc fragmentum cum nescio quo errore inductus pro adespoto haberem (cf. 54) omisi.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="303b" xml:id="kock-0402-adelon_dramaton-303b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_adelon_dramaton">
+          <note type="source">Athenaeus 6, 230c οἶδα δὲ κἀγώ τινα πολίτην ἡμέτερον πτωχαλαζόνα κτλ. ubi cod. C οἶδά τινα, φησὶν Ἄλεξις, πολίτην ἡμέτερον. 'videntur Alexidis verba inesse'. G. Kaibel. fortasse</note>
+          <lg>
+            <l n="1" xml:id="kock-0402-adelon_dramaton-303b-l1" xml:lang="grc">. . πολίτην πτωχαλαζόν’ οἶδ’ ἐγώ,</l>
+            <l n="2" xml:id="kock-0402-adelon_dramaton-303b-l2" xml:lang="grc">ὃς ἔχων δραχμῆς ἅπαντα τἀργυρώματα</l>
+            <l n="3" xml:id="kock-0402-adelon_dramaton-303b-l3" xml:lang="grc">ἐβόα καλῶν τὸν παῖδ’, ἕν’ ὄντα καὶ μόνον,</l>
+            <l n="4" xml:id="kock-0402-adelon_dramaton-303b-l4" xml:lang="grc">ὀνόμασι δὲ ψαμμακοσίοισι χρώμενον,</l>
+            <l n="5" xml:id="kock-0402-adelon_dramaton-303b-l5" xml:lang="grc">‘παῖ Στρομβιχίδη, τῶν ἀργυρωμάτων σὺ μὴ</l>
+            <l n="6" xml:id="kock-0402-adelon_dramaton-303b-l6" xml:lang="grc">τῶν χειμερινῶν νῦν, ἀλλὰ τῶν θερινῶν’ ἔφη</l>
+            <l n="7" xml:id="kock-0402-adelon_dramaton-303b-l7" xml:lang="grc">‘παράθες’.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="345b" xml:id="kock-0402-adelon_dramaton-345b" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_adelon_dramaton">
+          <note type="apparatus">Fragmentum Alexidis ex ignota aliqua comoedia, cui Περιαγωγοί vel Μυριαγωγά titulus esset, Gomperzius invenisse sibi videbatur Vol. Hercul. ed Oxon. II fol. 102. Coll. alt. Neapol. IIII 94 (Ztschr. f. österr. gymn. 1865, 825). sed prorsus incerta sunt quae ibi leguntur. cf. Nauck. Mél. V 236. 7.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

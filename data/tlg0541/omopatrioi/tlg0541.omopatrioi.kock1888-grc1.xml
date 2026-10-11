@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΟΜΟΠΑΤΡΙΟΙ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.omopatrioi.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.omopatrioi.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.omopatrioi.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_omopatrioi">
+        <head>ΟΜΟΠΑΤΡΙΟΙ</head>
+        <div type="textpart" subtype="fragment" n="360" xml:id="kock-0541-omopatrioi-360" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_omopatrioi">
+          <lg>
+            <l n="1" xml:id="kock-0541-omopatrioi-360-l1" xml:lang="grc">χρηστοὺς νομιζομένους ἐφόδιον ἀσφαλὲς</l>
+            <l n="2" xml:id="kock-0541-omopatrioi-360-l2" xml:lang="grc">εἰς πάντα καιρὸν καὶ τύχης πᾶσαν ῥοπήν.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. 37, 10 (περὶ χρηστότητος) Μενάνδρου Ὁμοπάτριοι Α.</note>
+          <note type="apparatus">1. χρηστοὺς νόμιζε μόνους Cobet. N. 1. 89, sua ipse emendatione non contentus. scilicet scribendum est χρηστὸς νόμιμος τε νοῦς. cf. 472, 1. 2. 2. πᾶσαν ῥοπήν Gesner.] ῥοπὴν πᾶσαν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="361" xml:id="kock-0541-omopatrioi-361" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_omopatrioi">
+          <lg>
+            <l n="1" xml:id="kock-0541-omopatrioi-361-l1" xml:lang="grc">πᾶς ἐρυθριῶν χρηστὸς εἶναί μοι δοκεῖ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 31, 5 Μενάνδρου Ὁμοπατριῶν Gesner. Μουσωνίου Trinc. at Musonii est quae sequitur ecloga.</note>
+          <note type="apparatus">πᾶς] ἅπας Grot. — fortasse πᾶς παῖς. Terent. Adelph. 4, 5, 9 erubuit. salva res est.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="362" xml:id="kock-0541-omopatrioi-362" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_omopatrioi">
+          <lg>
+            <l n="1" xml:id="kock-0541-omopatrioi-362-l1" xml:lang="grc">ἦν δῆλον οὔ τι νυμφίος τε ἀλφάνει.</l>
+          </lg>
+          <note type="source">Suidas ἀλφάνει· εὑρίσκει. Μένανδρος Ὁμοπατρίοις κτλ.</note>
+          <note type="apparatus">ἣν — οὔνι B E¹. Bentleius ἣν δηλονοτιὴ νυμφίος τότ' ἀλφάνει, non contentus ipse. ἦν δὲ δῆλον οὔτι τὴν νύμφην ποθ' ὅστις ἀλφάνει Bernhardy, non satis peritus comicae dictionis.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

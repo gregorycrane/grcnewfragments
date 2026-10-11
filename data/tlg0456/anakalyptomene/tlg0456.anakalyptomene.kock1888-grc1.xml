@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>EUANGELUS, ΑΝΑΚΑΛΥΠΤΟΜΕΝΗ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Euangelus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0456.anakalyptomene.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0456.anakalyptomene.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0456.anakalyptomene.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0456_anakalyptomene">
+        <head>ΑΝΑΚΑΛΥΠΤΟΜΕΝΗ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0456-anakalyptomene-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0456_anakalyptomene">
+          <lg>
+            <l n="1" xml:id="kock-0456-anakalyptomene-1-l1" xml:lang="grc">τέτταρας . . τραπέζας τῶν γυναικῶν εἶπά σοι,</l>
+            <l n="2" xml:id="kock-0456-anakalyptomene-1-l2" xml:lang="grc">ἓξ δὲ τῶν ἀνδρῶν, τὸ δεῖπνον δ’ ἐντελὲς καὶ μηδενὶ</l>
+            <l n="3" xml:id="kock-0456-anakalyptomene-1-l3" xml:lang="grc">ἐλλιπές. λαμπροὺς γενέσθαι βουλόμεσθα τοὺς γάμους.</l>
+            <l n="4" xml:id="kock-0456-anakalyptomene-1-l4" xml:lang="grc">οὐ παρ’ ἑτέρου δεῖ πυθέσθαι, πάντα δ’ αὐτόπτης ἐρῶ.</l>
+            <l n="5" xml:id="kock-0456-anakalyptomene-1-l5" xml:lang="grc">τῶν μὲν ἐλαῶν ἄφελε . . πάνθ’ ὅσ’ ἂν βούλῃ γένη.</l>
+            <l n="6" xml:id="kock-0456-anakalyptomene-1-l6" xml:lang="grc">εἰς δὲ τὰ κρέα μόσχον ἔλαβες, δέλφακας, χοίρους, λαγώς.</l>
+            <l n="7" xml:id="kock-0456-anakalyptomene-1-l7" xml:lang="grc">Α. ὡς ἀλαζὼν ὁ κατάρατος. Β. θρῖα, τυρόν, ἐγχύτους.</l>
+            <l n="8" xml:id="kock-0456-anakalyptomene-1-l8" xml:lang="grc">Α. παῖ Δρόμων. Β. κάνδυλον, ᾠά τ’, ἀμύλιον . . . .</l>
+            <l n="9" xml:id="kock-0456-anakalyptomene-1-l9" xml:lang="grc">τὸ πέρας, ὕψος τῆς τραπέζης πήχεών ἐστιν τριῶν,</l>
+            <l n="10" xml:id="kock-0456-anakalyptomene-1-l10" xml:lang="grc">ὥστε τὸν δειπνοῦντ’ ἐπαίρειν, ἄν τι βούληται λαβεῖν.</l>
+          </lg>
+          <note type="source">Athenaeus 14, 644cd ἐγχύτων δὲ πλακούντων μνημονεύει . . . Εὐάγγελος ἐν Ἀνακαλυπτομένῃ (ἀκαλυπτομένῃ Α) κτλ. om. eclogam C.</note>
+          <note type="apparatus">1. ποιεῖν suppl. Mein. εἶπά σοι Schweigh.] εἶπας οἱ (sic) Α. 2. τὸ δεῖπνον δ’ Dindf.] τὸ δὲ δεῖπνον Α. μηδενὶ Fiorillo] μηδὲν Α. μηδενὸς Mein. 3. ἐλλειπές Α. γίνεσθαι Α. 4. 5. ἐρῶ. | τῶν] ἐρωτῶν Α. 5. ‘fortasse τῶν ἐλαῶν μὲν γὰρ ἄφελε’ Dindf. ὅσ’ ἂν βούλῃ (vel ὁπόσα βούλει) Dindf.] ὅσα βούλει Α. τῶν μὲν ἄλλων ἄφελε πάντων ὅσα γε βούλει, νὴ Δία (vel πάνθ’ ὅσ’ ἂν θέλῃς γε, νὴ Δία) Herwerd. Obs. crit. 113. τῶν μὲν ἔνδον ἄφελε πάντων πάνθ’ ὅσ’ ἂν βούλῃ γένη Κ. 6. δέλφακας Β] δέλφακα Α. λαγώς Schweigh.] λαγωούς Α. 8. fortasse κάνδαυλον. cf. Nicostr. 17. in exitu A. παῖ, παῖ Δρόμων suppl. Mein. sed etiam deminutivum ἀμύλιον parum aptum videtur. 9. ἐστι Α. ἔστω Dalecamp. ἔσται Both. 10. ἐπαίρεσθ’ Mein.</note>
+          <note type="apparatus">conloquitur erus nuptias adparans cum coquo, praesente etiam huius famulo. 5. ἔνδον: nam eis quae in foro coquus emerat opponuntur quae domi ad cibos parandos adservari solent. cf. Alexid. 127, 4. 191. Diphil. 18. γένη, ut Alexid. 261, 3. Henioch. 3, 1. Timocl. 3. Diphil. 44, 2. Hegesipp. 1, 10. 9. τὸ πέρας, ut Alexid. 261, 13. Apollodor. com. 13, 13. cum eis quae sequuntur Toeppelius (Progr. Neobr. 1857, 18) comparat Plaut. Menaechm. 1, 1, 24 ceriális cenas dát: ita mensas éxstruit, tantás struices cóncinnat patinárias: standúmst in lecto, sí quid de</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

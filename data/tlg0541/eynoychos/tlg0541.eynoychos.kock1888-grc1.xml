@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΕΥΝΟΥΧΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.eynoychos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.eynoychos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.eynoychos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+        <head>ΕΥΝΟΥΧΟΣ</head>
+        <div type="textpart" subtype="fragment" n="186" xml:id="kock-0541-eynoychos-186" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+          <note type="apparatus">
+            <p>Terentius fabulae initio <hi rend="italic">quid igitur faciam? nón eam ne núnc quidem quom arcéssor ultro?</hi> ubi Donatus <foreign xml:lang="grc">εἶτα τί ποιήσω . . . non eam?</foreign> Probus distinguit. iungunt qui secundum Menandri exemplum legunt. itaque Meinekius</p>
+          </note>
+          <lg>
+            <l n="1" xml:id="kock-0541-eynoychos-186-l1" xml:lang="grc">εἶτα τί ποιήσω; μὴ προσέλθω μηδὲ νῦν,</l>
+            <l n="2" xml:id="kock-0541-eynoychos-186-l2" xml:lang="grc">αὐτῆς καλούσης;</l>
+          </lg>
+          <note type="apparatus">
+            <p>Persius Sat. 5, 172 <hi rend="italic">quidnam igitur faciam? nec nunc cum arcessat et ultro supplicet accedam?</hi> unde fortasse adici potest <foreign xml:lang="grc">αὐτῆς καλούσης χἰκετευούσης ἐμέ;</foreign> Hor. Serm. 2, 3, 262. 3.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="187" xml:id="kock-0541-eynoychos-187" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eynoychos-187-l1" xml:lang="grc">μὴ θεομάχει, μηδὲ προσάγου τῷ πράγματι</l>
+            <l n="2" xml:id="kock-0541-eynoychos-187-l2" xml:lang="grc">χειμῶνας ἑτέρους, τοὺς δ’ ἀναγκαίους φέρε.</l>
+          </lg>
+          <note type="source">
+            <p>Stobaeus Floril. 108, 46 Μενάνδρου Εὐνούχῳ Α.</p>
+          </note>
+          <note type="apparatus">
+            <p>Terentius 1, 1, 31 <hi rend="italic">neque praeterquam quas ipse amor moléstias habet áddas, et illas quás habet recté feras.</hi> 1. μὴ Grot.] καὶ μὴ vel μὴ καὶ (B Vind.).</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="188" xml:id="kock-0541-eynoychos-188" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eynoychos-188-l1" xml:lang="grc">οὗτός ἐστι γαλεώτης γέρων.</l>
+          </lg>
+          <note type="apparatus">
+            <p>Terent. 4, 4, 21 <hi rend="italic">vietus vétus veternosús senex, colóre mustelíno.</hi> ubi Donatus erravit Terentius non intellegens Menandreum illud <foreign xml:lang="grc">οὗτός</foreign> (alii <foreign xml:lang="grc">αὐτός</foreign>) <foreign xml:lang="grc">ἐστιν γαλεώτης γέρων.</foreign> ait autem stelionem, animal quod lacertae non dissimile est, maculoso corio: nempe ad id genus coloris facies exprimitur eunuchorum [corporis], quia plerique lentiginosi sunt. Suidas <foreign xml:lang="grc">ἀσκαλαβώτης· Μένανδρος οὗτοσὶ (οὑτωσὶ V) δὲ γαλεώτης γέρων.</foreign> Bekker. Anecd. 452, 6 <foreign xml:lang="grc">ἀσκαλαβώτην, οὐχὶ καλαβώτην λέγουσι, μᾶλλον δὲ γαλεώτην. Μένανδρος οὕτως.</foreign> Plin. N. h. 29, 90 (stelionem) <hi rend="italic">Graeci coloten vocant et ascalaboten et galeoten . . . est . . plenus lentigine.</hi>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="189" xml:id="kock-0541-eynoychos-189" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eynoychos-189-l1" xml:lang="grc">πάντα τὰ ζητούμενα</l>
+            <l n="2" xml:id="kock-0541-eynoychos-189-l2" xml:lang="grc">δεῖσθαι μερίμνης φασὶν οἱ σοφώτεροι.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 29, 47 Μενάνδρου Εὐνούχου Α. Clemens Alex. Strom. 5, 1, 11 κατὰ τὸν Σοφοκλέα (OR. 111). τὰ δ᾽ ὅμοια καὶ Μένανδρος ὁ κωμικὸς λέγει κτλ. σοφώτατοι Clem.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="190" xml:id="kock-0541-eynoychos-190" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+          <note type="source">Terentius Andr. 5, 5, 3 <foreign xml:lang="lat">égo deorum vítam ea propter sém-piternam esse árbitror, quód voluptates córum propriae súnt: nam mi immortálitas pártast, si nulla aégritudo huic gaúdio intercésserit.</foreign> ubi Donatus hanc sententiam totam Menandri de Eunucho transtulit. Aristid. I 592 Dindf. οὐκ ἐξ ἴσου τὰ πράγματα οἱ θεοὶ σφίσι τ᾽ αὐτοῖς καὶ τοῖς ἀνθρώποις ἔνειμαν, ἀλλ᾽ αὐτοὶ μὲν ἅτ᾽ ὄντες ἀθά-νατοι καὶ κύριοι τῶν ἁπάντων ἀθανάτους καὶ τὰς εὐτυχίας ἔχουσιν.</note>
+          <note type="apparatus">quae sententia tam similis est Terentianae, ut Aristidem Menan-dri verba leviter inmutasse credam, Menandrum autem sic fere scripsisse:</note>
+          <lg>
+            <l n="1" xml:id="kock-0541-eynoychos-190-l1" xml:lang="grc">οὐκ ἐξ ἴσου τὰ πράγμαθ᾽ οἱ θεοὶ σφίσιν</l>
+            <l n="2" xml:id="kock-0541-eynoychos-190-l2" xml:lang="grc">αὐτοῖς τ᾽ ἔνειμαν καὶ βροτοῖς. ἀλλ᾽ αὐτίκα</l>
+            <l n="3" xml:id="kock-0541-eynoychos-190-l3" xml:lang="grc">αὐτοὶ μὲν ὄντες ἀθάνατοι καὶ κύριοι</l>
+            <l n="4" xml:id="kock-0541-eynoychos-190-l4" xml:lang="grc">ἁπαξαπάντων ἀθανάτους τὰς ἡδονὰς</l>
+            <l n="5" xml:id="kock-0541-eynoychos-190-l5" xml:lang="grc">ἔχουσιν.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="191" xml:id="kock-0541-eynoychos-191" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+          <note type="source">συστομώτερος σκάφης</note>
+          <note type="apparatus">παροιμία ἐπὶ τῶν . . . μὴ δυναμένων παρρησιάζεσθαι . . . μέ-μνηται ταύτης Μένανδρος ἐν τῷ Εὐνούχῳ. Zenob. 5, 95. cf. Diogenian. 8, 12. Phot. συστομώτερον σκάφης . . . ὁπότε ἐβούλοντο μέτοικον δηλῶσαι, ἢ σκάφην ἔλεγον ἢ σκαφηφόρον, διὰ δὲ τὸ ἀπαρρησίαστον εἶναι συστο-μώτερον ποιήσειν ἀπειλεῖν (ἠπείλουν?) σκάφης. similiter, sed brevius Hesychius. cf. Boeckh. Oec. Ath. II 75. Photii verbis probabile fit Menandrum scripsisse (καὶ) συστομώτερόν σε ποιήσω σκάφης. Terent. 3, 5, 49 comparat Grauertus, quae similitudo non est nimia.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="192" xml:id="kock-0541-eynoychos-192" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+          <note type="source">λύκου πτερά</note>
+          <note type="apparatus">Zenobius Milleri 87 (Mélanges p. 359) λύκου πτερά· ἐπὶ τῶν ἀδυνάτων εἴρηται ἡ παροιμία, ὅταν μέχρι τῶν λόγων ἄφοβος (ὁ φόβος Diogenian. Vind. 3, 7. Macar. 5, 68. Suid.) ᾗ (στῇ Macar.). πῶς γὰρ ἂν πτηνός τις γένοιτο λύκος; μέμνηται ταύτης Μένανδρος ἐν Εὐνούχῳ. cf. Cratet. 29, 3. nulla Menandri mentione facta praeter</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="196_197" xml:id="kock-0541-eynoychos-196-197" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eynoychos-196-197-l1" xml:lang="grc">ἐπ᾽ ἀρίστῳ λαβὼν</l>
+            <l n="2" xml:id="kock-0541-eynoychos-196-197-l2" xml:lang="grc">ὀψάριον</l>
+            <l n="3" xml:id="kock-0541-eynoychos-196-197-l3" xml:lang="grc">. . . . . . . . . . . .</l>
+            <l n="4" xml:id="kock-0541-eynoychos-196-197-l4" xml:lang="grc">τῶν ἰχθυοπωλῶν ἀρτίως τις τεττάρων</l>
+            <l n="5" xml:id="kock-0541-eynoychos-196-197-l5" xml:lang="grc">δραχμῶν ἐπώλει κωβιούς. Β. πολλοῦ σφόδρα.</l>
+          </lg>
+          <note type="source">Athenaeus 9, 385 df ὀψάριον . . . ἐπὶ τοῦ ἰχθύος . . . Μέν-ανδρος . . . ἐν Ἐφεσίῳ ἐπ᾽ – ὀψάριον. εἶτ᾽ ἐπιφέρει· τῶν ἰχθ. κτλ. v. 3. 4 idem 7, 309 e Μένανδρος Ἐφεσίοις κτλ.</note>
+          <note type="apparatus">1. ἐπαρίστῳ Α. 3. ἀρτίως et 4. πολλοῦ σφόδρα om. Α 385, πολλοῦ 309 add. Salvinius. 4. ἐπώλει] ἐτίμα Α 309. κωβιούς Α 309. fortasse non πολλοῦ, sed ὀλίγου dixit, per ironiam.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="198" xml:id="kock-0541-eynoychos-198" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eynoychos-198-l1" xml:lang="grc">παρέσομαι γὰρ ἓν δύο.</l>
+          </lg>
+          <note type="source">Suidas ἓν δύο· τὸ ταχέως, ὡς ἡμεῖς. Μένανδρος Ἐφεσίῳ. ἓν δύο Bentl.] ἔνδυο. ‘dum aliquis unum duo numerare possit’.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="199" xml:id="kock-0541-eynoychos-199" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eynoychos-199-l1" xml:lang="grc">ἔσχατος Μυσῶν</l>
+          </lg>
+          <note type="source">ταύτης μέμνηται τῆς παροιμίας Μένανδρος ἐν Ἐφεσίῳ. Miller. Mélanges 352. cf. 55.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="200" xml:id="kock-0541-eynoychos-200" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eynoychos">
+          <lg>
+            <l n="1" xml:id="kock-0541-eynoychos-200-l1" xml:lang="grc">Τενέδιος ἄνθρωπος</l>
+          </lg>
+          <note type="source">Zenobius 6, 9 Τένης ὁ Κύκνου . . . ἐνομοθέτησεν ἐπὶ τῶν δικῶν ἵστασθαι ἄνθρωπον πέλεκυν ἔχοντα κατὰ νῶτα τοῦ κρίνοντος καὶ τοῦ κρινομένου, ἵνα ὁ ἁλοὺς εὐθὺς τῷ πελέκει πληγεὶς ἀποθάνῃ. εἴρηται οὖν ἡ παροιμία καὶ ἐπὶ τῶν φοβερῶν τὰς ὄψεις . . . μέμνηται ταύτης ἐν Ἐφεσίῳ Μένανδρος. cf. Diogenian. 8, 58. Phot. et Suid. Τενέδιος (ἄνθρωπος, ξυνήγορος, πέλεκυς). Steph. Byz. Τένεδος.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

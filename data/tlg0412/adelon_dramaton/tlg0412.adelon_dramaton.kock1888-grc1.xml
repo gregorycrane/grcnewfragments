@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>APOLLODORUS CARYSTIUS VEL GELOUS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Apollodorus Carystius vel Gelous</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0412.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0412.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0412.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="27" xml:id="kock-0412-adelon_dramaton-27" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0412-adelon_dramaton-27-l1" xml:lang="grc">οἶδ’ ὅτι καλοῦμεν ῥάφανον, ὑμεῖς δ’ οἱ ξένοι</l>
+            <l n="2" xml:id="kock-0412-adelon_dramaton-27-l2" xml:lang="grc">κράμβην· γυναιξὶ διαφέρειν οἴει δέ τι;</l>
+          </lg>
+          <note type="source">Athenaeus 1, 34 d ὅτι τὴν κράμβην ῥάφανον ἐκάλουν οἱ παλαιοὶ Ἀπολλόδωρος δηλοῖ ὁ Καρύστιος κτλ.</note>
+          <note type="apparatus">1. οἶδ’] εἰ δ’ BC. ὑμεῖς Dalecamp.] ἡμεῖς. 2. δέ τι K.] δὲ τί.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="13" xml:id="kock-0412-adelon_dramaton-13" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0412-adelon_dramaton-13-l1" xml:lang="grc">δεῖ τὸν ἀκροατὴν καὶ συνετὸν ὄντως κριτὴν</l>
+            <l n="2" xml:id="kock-0412-adelon_dramaton-13-l2" xml:lang="grc">πρὸ τῶν λεγομένων τὸν βίον διασκοπεῖν,</l>
+            <l n="3" xml:id="kock-0412-adelon_dramaton-13-l3" xml:lang="grc">ποῖός τις ὁ λέγων καὶ πόθεν, καὶ τὴν ἀκμὴν</l>
+            <l n="4" xml:id="kock-0412-adelon_dramaton-13-l4" xml:lang="grc">ἐκ παιδὸς αὐτοῦ πρὸς τί καταθέμενος.</l>
+            <l n="5" xml:id="kock-0412-adelon_dramaton-13-l5" xml:lang="grc">αὑτοῦ προδότης κακός τε τῆς ὥρας φύλαξ·</l>
+            <l n="6" xml:id="kock-0412-adelon_dramaton-13-l6" xml:lang="grc">μάλισθ᾽ ὁ τοιοῦτος ἀνατρέπει πᾶσαν πόλιν.</l>
+            <l n="7" xml:id="kock-0412-adelon_dramaton-13-l7" xml:lang="grc">οὐδὲν γὰρ αἰσχρόν ἐστιν αὐτὸν ἀποτυχεῖν.</l>
+            <l n="8" xml:id="kock-0412-adelon_dramaton-13-l8" xml:lang="grc">πράττουσι πάντα· τὴν γὰρ αἰσχύνην πάλαι</l>
+            <l n="9" xml:id="kock-0412-adelon_dramaton-13-l9" xml:lang="grc">πᾶσαν ἀπολωλέκασι καθ᾽ ἑτέρας θύρας.</l>
+            <l n="10" xml:id="kock-0412-adelon_dramaton-13-l10" xml:lang="grc">ὅθεν ἐπιχειρεῖ πάντ᾽ ἀπηρυθριακότως</l>
+            <l n="11" xml:id="kock-0412-adelon_dramaton-13-l11" xml:lang="grc">ἕκαστος αὐτῶν, πρὸς δὲ πάντ᾽ ἐστὶν θρασύς,</l>
+            <l n="12" xml:id="kock-0412-adelon_dramaton-13-l12" xml:lang="grc">ψεύδετ᾽, ἐπιορκεῖ, μαρτυρεῖ, δικορραφεῖ,</l>
+          </lg>
+          <pb n="292" facs="urn:hathi:hvd.hxijy4:scan:318" />
+          <lg>
+            <l n="13" xml:id="kock-0412-adelon_dramaton-13-l13" xml:lang="grc">κλέπτει, τελωνεῖ, ῥᾳδιουργεῖ· τὸ δὲ πέρας,</l>
+            <l n="14" xml:id="kock-0412-adelon_dramaton-13-l14" xml:lang="grc">οὐ πόλιν ὅλην φυλὴν δὲ μαλακὸς ἀνατρέπει·</l>
+            <l n="15" xml:id="kock-0412-adelon_dramaton-13-l15" xml:lang="grc">ἐπεὶ κατὰ μέρος τὰς πόλεις, ὦ φίλε, θεῶ,</l>
+            <l n="16" xml:id="kock-0412-adelon_dramaton-13-l16" xml:lang="grc">ὑπὸ Λαισποδιῶν γάρ εἰσιν ἀνατετραμμέναι,</l>
+            <l n="17" xml:id="kock-0412-adelon_dramaton-13-l17" xml:lang="grc">σκόπει· νεῶν δὲ κατάλογον δόξεις μ’ ἐρεῖν.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 46, 15 Ἀπολλοδώρου Α.</note>
+          <note type="apparatus">1. ὄντος Α. 2. τῶν λεγομένων Cobet. V. 1.2 640. 1] τοῦ λεγομένου. cf. Mnem. VIIII 128. 4. αὐτοῦ] εὐθὺς Herwerd. Obs. crit. 101. an αὐτίκ’ εἰς τί κτλ.? πρός τι καταθέμενος ut videtur Α. κᾆτα θέμενος ὡς ὠὐτοῦ Β². κατατεθειμένος Mein. in Stob. πρὸς τί καταθέμενος λέγει (cum proceleusmatico) Cobet. scrib. potius καταθέμενος ἔχει. aoristus enim in hac periphrasi non minus usitatus perfecto. ante v. 7 plura excidisse arbitratur Mein. Stob. IIII LXVII. 7. αὐτὸν] αὐτοῖς Gesner., quod deleta interpunctione (ut coniungantur αὐτοῖς πράττουσι) probat Mein. in Stob. αὐτοῖς ἀπὸ τύχης Madvig. Advers. crit. I 719. 10. ἀπηρ. Halm. Lect. Stob. 52] ἀπερ. 14. εἰ μὴ πόλιν, φυλὴν ὁ Gesner. (adversatur v. 6). φύρδην ὁ Iacobs. Addit. Athen. 25. ὅλην πόλιν, οὐ φ. Madvig. v. 14 suppositicium censens τὸ δὲ πέρας, κατὰ μέρος αὐτὰς τὰς πόλεις, ὦ φίλε, θεῶ, ὑπὸ Λαισπ. ὥς εἰσιν ἀνατετραμμέναι Ο. Hense Lect. Stob. 8. 9. atque ὡς εἰσιν etiam G. A. Hirschig. Ann. crit. 28. 15. θεῶ] Θέων Salmas., quod nomen hodie quidem apud comicos non exstat. 16. Λαισποδίων (sic pro — ιῶν) Salmas.] λεπριδίων. λεσπριδίων Α. γάρ εἰσιν Iacobs.] εἰσιν γάρ. 17. νέων καταλόγων Β¹. ἐρεῖν] αἵρειν Α.</note>
+          <note type="apparatus">2. ‘dicere videtur poeta quae vulgo ab hominibus de aliquo narrantur’. Mein. Stob. IIII LXVII. immo ‘priusquam ea quae dicit probes vita oratoris examinanda est.’ Aeschin. 1, 30 οὐκ ᾤετο δεῖν ὁ νομοθέτης τὸν ῥήτορα ἥκειν ἐπὶ τὸ βῆμα τῶν λόγων ἐπιμεληθέντα πρότερον ἀλλ’ οὐ τοῦ βίου (cont. Cobet.). Aeschin. 1, 180 (Gell. 18, 3) confert H. Iacobi V cccxi. 5. Aeschin. 1, 182 εὑρὼν τὴν ἑαυτοῦ θυγατέρα τὴν ἡλικίαν οὐ καλῶς διαφυλάξασαν μέχρι γάμου ‘rem foedam verborum lenitate obumbrans’ Cobet. Mnem. VIIII 128. 9. ἑτέρας θύρας podicem dicit. Plut. Mor. 645e (Mein. V 113) τὴν διὰ τῶν ὤτων ἀποκλείει τρυφὴν καὶ ἡδυπάθειαν τῇ αὐλείῳ, κατὰ τὰ ὄμματα καὶ τὰς ῥῖνας ὥσπερ καθ’ ἑτέρας θύρας ἐπεισάγων τῇ ψυχῇ. 17. tam multas numero urbes esse dicit, quae ab inpudicis hominibus eversae sint, ut oratione opus sit longiore quam Homeri navium catalogus fuerit, si quis omnes enumerare velit. scilicet in eis quae v. 17 sequebantur singulas civitates nominatim recensuerat. 5. protasis loco haec sunt: si quis sui proditor est cet. itaque post φύλαξ interpungendum erat. 7. scrib. οὐδὲν γὰρ αἰσχρόν ἐστιν αὐτοῖς· ἀπὸ τύχης πράττουσι πάντα. nihil est quod turpe eis videatur; sicuti fors fert, omnia agunt. Lys. 21, 10 τοῦτο οὐκ</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="14" xml:id="kock-0412-adelon_dramaton-14" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0412-adelon_dramaton-14-l1" xml:lang="grc">εἰς οἰκίαν ὅταν τις εἰσίῃ φίλου,</l>
+            <l n="2" xml:id="kock-0412-adelon_dramaton-14-l2" xml:lang="grc">ἔστιν θεωρεῖν, Νικοφῶν, τὴν τοῦ φίλου</l>
+            <l n="3" xml:id="kock-0412-adelon_dramaton-14-l3" xml:lang="grc">εὔνοιαν εὐθὺς εἰσιόντα τὰς θύρας.</l>
+            <l n="4" xml:id="kock-0412-adelon_dramaton-14-l4" xml:lang="grc">ὁ θυρωρὸς ἱλαρὸς πρῶτόν ἐστιν, ἡ κύων</l>
+            <l n="5" xml:id="kock-0412-adelon_dramaton-14-l5" xml:lang="grc">ἔσηνε καὶ προσῆλθ᾽, ὑπαντήσας δέ τις</l>
+            <l n="6" xml:id="kock-0412-adelon_dramaton-14-l6" xml:lang="grc">δίφρον εὐθέως ἔθηκε, κἂν μηδεὶς λέγῃ</l>
+            <l n="7" xml:id="kock-0412-adelon_dramaton-14-l7" xml:lang="grc">μηδέν.</l>
+          </lg>
+          <note type="source">Athenaeus 1, 3 c κατὰ τὸν κωμῳδιοποιὸν Ἀπολλόδωρον κτλ.</note>
+          <note type="apparatus">3. εἰσιόντα BC] εἰσιόντι VL. 5. ἔσανε C ‘sed a in ras.’ Kaibel. atque ἔσηνα etiam posteriores. προσῆλθ᾽ Mein.] προσῆλθεν. ὑπαντήσας δέ τις Grot. Excerpt. 807] ὑπάντησέ τις C. ὑπήντησεν δέ τις et 6. εὐθέως τ᾽ Mein.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="15" xml:id="kock-0412-adelon_dramaton-15" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0412-adelon_dramaton-15-l1" xml:lang="grc">μισῶ τύχην συνοῦσαν ἀτυχεῖ σώματι·</l>
+            <l n="2" xml:id="kock-0412-adelon_dramaton-15-l2" xml:lang="grc">ὅστις γὰρ εὐπορῶν, παρὸν ζῆν ἡδέως,</l>
+            <l n="3" xml:id="kock-0412-adelon_dramaton-15-l3" xml:lang="grc">κακῶς διάγει, τί ἄν τις ἄλλ᾽ ἢ τῇ τύχῃ</l>
+            <l n="4" xml:id="kock-0412-adelon_dramaton-15-l4" xml:lang="grc">μέμφοιτο, διότι δυστυχεῖ συνδυστυχεῖ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 16, 2 Ἀπολλοδώρου Α.</note>
+          <note type="apparatus">3. τις] οὗτος K. 4. συντύχει Α¹. συνδυστυχεῖ Α² Β². σὺν τύχῃ N Trinc. — ‘qui opibus instructus, quibus suaviter vivere possit, tamen morbo laborans vel alio malo infeliciter vivit, quid hic aliud quam Fortunae exprobret, quod infelicis hominis infelicitatem una ferat?’.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="16" xml:id="kock-0412-adelon_dramaton-16" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0412-adelon_dramaton-16-l1" xml:lang="grc">οὐκ οἶδ᾽ ὅτῳ πέποιθας· ἀργυρίῳ, πάτερ;</l>
+            <l n="2" xml:id="kock-0412-adelon_dramaton-16-l2" xml:lang="grc">ὃ καιρὸς ὁ τυχὼν τοῖς μὲν οὐ κεκτημένοις</l>
+            <l n="3" xml:id="kock-0412-adelon_dramaton-16-l3" xml:lang="grc">ἔδωκε, τῶν κεκτημένων δ᾽ ἀφείλετο;</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 105, 49 Ἀπολλοδώρου Α.</note>
+          <note type="apparatus">2. ὁ Mein.] ὁ. post</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="17" xml:id="kock-0412-adelon_dramaton-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0412-adelon_dramaton-17-l1" xml:lang="grc">χαλεπὸν τύχη ’στὶ πρᾶγμα, χαλεπόν· ἀλλὰ δεῖ</l>
+            <l n="2" xml:id="kock-0412-adelon_dramaton-17-l2" xml:lang="grc">αὐτὴν φέρειν κατὰ τρόπον ὥσπερ φορτίον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 108, 36 Ἀπολλοδώρου A. τύχη ’στὶ Porsonus] τύχης τι. τύχης τὸ B. τύχηστι Vind. κατὰ τρόπον, cf. Antiphan. 39, 2.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="18" xml:id="kock-0412-adelon_dramaton-18" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0412-adelon_dramaton-18-l1" xml:lang="grc">χρόνον γὰρ εἰς τὰ πράγματ’ ἂν λάβῃς,</l>
+            <l n="2" xml:id="kock-0412-adelon_dramaton-18-l2" xml:lang="grc">ἅπαντα λήξει καὶ κατασταλήσεται.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 29, 43 Ἀπολλοδώρου Trinc. ἀπολλοδό Vindob. deest ecloga in A. 1. βραχύν in exitu add. Vind. et B². χρόνον γὰρ ἱκανὸν Grot. ms. ἂν Mein.] ἐὰν. 2. κατασταλήσεται sedabitur. verbum philosophis in tali re usitatum.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="19" xml:id="kock-0412-adelon_dramaton-19" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0412-adelon_dramaton-19-l1" xml:lang="grc">μάστιγος οὔσης ὅρκον οἰκέτῃ δίδως;</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 27, 7 Ἀπολλοδώρου A. οἰκέτῃ AB² Damasc.] οὐκέτι.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="20" xml:id="kock-0412-adelon_dramaton-20" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <p>ἐργοδοτῶν</p>
+          <note type="source">ὡς κἂν τῇ συνηθείᾳ. Ἀπολλόδωρος. Bekker. Anecd. 94, 5. Phrynichus Epit. 344 ἐργοδότης οὐ κεῖται, τὸ δὲ ἐργοδοτεῖν παρά τινι τῶν νεωτέρων κωμῳδῶν, οἷς καὶ αὐτοῖς οὐ πειστέον. cf. Lobeck.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="21" xml:id="kock-0412-adelon_dramaton-21" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <p>μέλασμα</p>
+          <note type="source">τὸ βάμμα τῆς κεφαλῆς. Ἀπολλόδωρος. Photius 255, 8. Poll. 2, 35 μέλασμα τὸ τῆς κόμης βάμμα.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="22" xml:id="kock-0412-adelon_dramaton-22" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <p>ῥάξαι</p>
+          <note type="source">ἀντὶ τοῦ καταβαλεῖν. οὕτως Ἀπολλόδωρος. Photius 483, 5. Bekker. Anecd. 113, 12 ῥάξαι· ἀντὶ τοῦ καταβαλεῖν. Demosth. 54, 8 ὑποσκελίσαντες καὶ ῥάξαντες εἰς τὸν βόρβορον.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="23" xml:id="kock-0412-adelon_dramaton-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <head>23</head>
+          <head>συντύχημα</head>
+          <note type="source">συντυχία. οὕτως Ἀπολλόδωρος. Photius. ἀπόλλων cod. corr. Porson.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="24" xml:id="kock-0412-adelon_dramaton-24" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <head>24</head>
+          <note type="apparatus">Quos Stobaeus Floril. 105, 51 servavit tredecim versus τραγικὸν ἐπεισόδιον inscribens (fr. adesp. 462 N.), eos Arsenius (Apostol. 15, 95a) Ἀπολλοδώρου esse unde compererit non adparet. apud Stobaeum lemma deest in Trinc. et ecl. 49 Apollodori est (fr. 16). fortasse Arsenius codice utebatur, in quo ecl. 50 deesset et 51 lemmate careret. non esse comici constat.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="25" xml:id="kock-0412-adelon_dramaton-25" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <head>25</head>
+          <note type="apparatus">Etymolog. Gud. 342, 35 κράδη· ἡ συκῆ . . . Ὧρος τῷ Θηριππίδῃ ἔστι πατὴρ κύμινον καὶ μόνον οὔτ' ἀρηχεύων τοὺς θαλλοὺς τῶν κραδῶν. Ritschelius De Orione p. 39 κράδη· ἡ συκῆ . . . Ὧρος. Ἀπολλόδωρος ἐν τῷ Θηριππίδῃ· ἔστιν πατὴρ κύμινον (αὖον ἐσθίων) | μόνον οὐ ταριχεύων τε θαλλοὺς τῶν κραδῶν. Meinekius (IIII 457. 8) solutam esse orationem censens τῷ Θ. ἔστι πατὴρ κύμινον πρίων (vel κυμινοπρίστης) καὶ μόνον οὐ τ. τοὺς θ. τῶν κρ., Alciphronis esse suspicatur. cf. etiam H. Iacobi V cccxii. Mein. IIII 641. res prorsus incerta est.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="26" xml:id="kock-0412-adelon_dramaton-26" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <head>26</head>
+          <lg>
+            <l n="1" xml:id="kock-0412-adelon_dramaton-26-l1" xml:lang="grc">ἐγὼ γὰρ (ἔγωγ' ἂν Mein.) οὐ τὸν πλοῦτον ἴδοιμι ὅσος ἐστίν,</l>
+            <l n="2" xml:id="kock-0412-adelon_dramaton-26-l2" xml:lang="grc">ἀλλ' ὅστις αὐτὸν κέκτηται, εἰ ὑπέρτερός ἐστιν ὧν ἔχει.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 26, 3 τοῦ αὐτοῦ (Ἀπολλοδώρου 2) Α. Apollodoro comico tribuentes Grotius et Iacobsius (Lect. Stob. 62) trimetros restituere conati sunt, infeliciter uterque. cod. Vindob. lemma τοῦ αὐτοῦ omittit: solutam esse orationem Meinekius intellexit IIII 456. Stob. I XXIV.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="27_2" xml:id="kock-0412-adelon_dramaton-27-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_adelon_dramaton">
+          <head>27</head>
+          <note type="apparatus">Athenaeus 11, 482 e κύμβα ποτήριον Ἀπολλόδωρος Παφίοις (π φίους Α). in his ne quis Apollodori comici fragmentum fabulaeque ignotae hucusque nomen delitescere opinetur, conf. 483a Ἀπολλόδωρος δ' ἐν τῷ Περὶ ἐτυμολογιῶν Παφίους τὸ ποτήριον καλεῖν κύμβαν (λέγει).</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

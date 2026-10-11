@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΕΠΙΚΛΗΡΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.epikleros.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.epikleros.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.epikleros.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_epikleros">
+        <head>ΕΠΙΚΛΗΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="166" xml:id="kock-0541-epikleros-166" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_epikleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-epikleros-166-l1" xml:lang="grc">ἢ δεῖ μόνον</l>
+            <l n="2" xml:id="kock-0541-epikleros-166-l2" xml:lang="grc">ζῆν ἢ γενόμενον πατέρα παίδων ἀποθανεῖν·</l>
+            <l n="3" xml:id="kock-0541-epikleros-166-l3" xml:lang="grc">οὕτω τὸ μετὰ ταῦτ’ ἐστὶ τοῦ βίου πικρόν.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 76, 4 Μενάνδρου Ἐπικλήρῳ Α. codices: ἢ μόνον δεῖ ζῆν ἢ παίδων γεννωμένων (γενομένων Α) πατέρα ἀποθανεῖν. correxit Dobraeus Adv. II 273.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="167_168" xml:id="kock-0541-epikleros-167-168" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_epikleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-epikleros-167-168-l1" xml:lang="grc">ἀλεκτρυών τις ἐκεκράγει μέγα.</l>
+            <l n="2" xml:id="kock-0541-epikleros-167-168-l2" xml:lang="grc">. . . οὐ σοβήσετ’ ἔξω, φησί, τὰς</l>
+            <l n="3" xml:id="kock-0541-epikleros-167-168-l3" xml:lang="grc">ὄρνιθας ἀφ’ ἡμῶν;</l>
+            <l n="4" xml:id="kock-0541-epikleros-167-168-l4" xml:lang="grc">αὕτη ποτ’ ἐξεσόβησε τὰς ὄρνεις μόλις.</l>
+          </lg>
+          <note type="source">Athenaeus 9, 373 c Μένανδρος ἐν Ἐπικλήρῳ πρώτῃ σαφῶς τὸ ἐπὶ τῆς συνηθείας φησὶν ἐμφανίζων οὕτως· ἀλεκτρυών — ἀφ’ ἡμῶν; καὶ πάλιν· αὕτη ποτ’ κτλ. priora Eustath. 1440, 50. 2. φησί omittit Eust. initio ὁ δ’ εὐθὺς add. Dobr. Adv. II 274. 3. ὄρνις G. Kaibel. 4. τὰς ὄρνις A. ac sic Meinekius in Ath. ed. nam 373 d Athenaeus ipse ὅτι καὶ ἐπὶ τοῦ πληθυντικοῦ ὄρνις λέγουσι, πρόκειται τὸ Μενάνδρειον μαρτύριον (fr. 167. 8).</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="169" xml:id="kock-0541-epikleros-169" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_epikleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-epikleros-169-l1" xml:lang="grc">τί δ’ ἂν ἔχοι νεκρὸς</l>
+            <l n="2" xml:id="kock-0541-epikleros-169-l2" xml:lang="grc">ἀγαθόν, ὅπου γ’ οἱ ζῶντες ἔχομεν οὐδὲ ἕν;</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 121, 19 Μενάνδρου Ἐπίκληρος Α. 1. ἔχοι] ἔχοιμεν Α. 2. ὅπου χοὶ Mein. οὐδὲ] μηδὲ Voss.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="170" xml:id="kock-0541-epikleros-170" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_epikleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-epikleros-170-l1" xml:lang="grc">ὅρα σὺ καὶ φρόντιζε κἀπόστα βραχύ.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 81, 12 ἀνάβα, κατάβα, διάβα, ἀπόστα. Μένανδρος Ἐπικλήρῳ κτλ. ‘secede paullulum ab hominum consuetudine, ut tecum solus consideres’.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="164" xml:id="kock-0541-epikleros-164" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_epikleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-epikleros-164-l1" xml:lang="grc">ἆρ’ ἐστὶ πάντων ἀγρυπνία λαλίστατον.</l>
+            <l n="2" xml:id="kock-0541-epikleros-164-l2" xml:lang="grc">ἐμὲ γοῦν ἀναστήσασα δευρὶ προάγεται</l>
+            <l n="3" xml:id="kock-0541-epikleros-164-l3" xml:lang="grc">λαλεῖν ἀπ’ ἀρχῆς πάντα τὸν ἐμαυτοῦ βίον.</l>
+          </lg>
+          <note type="source">Theo Progymn. 1, 200. 1 Walz. 92, 16 Spengel. ἔστι δὲ καὶ ἀνάπαλιν προθέντα γνωμικὸν λόγον διηγήσασθαι, καθάπερ καὶ ἐπὶ τοῦ μύθου παρεσημειωσάμεθα· οἷον καὶ παρὰ Μενάνδρῳ ἐν τῇ χρηστῇ (χρυσῇ Hemsterhusius) Ἐπικλήρῳ ἆρ’ ἐστὶ — λαλίστατον. εἶτα τὸ διήγημα· ἐμὲ γοῦν κτλ. v. 1 idem 1, 196 extr. (88, 14) om. poetae fabulaeque nomine. Plutarch. Mor. 513 d πολλῷ γάρ ἐστιν ἡ χαρὰ τῆς κωμικῆς ἐκείνης ἀγρυπνίας λαλίστερον.</note>
+          <note type="apparatus">‘haec ex initio fabulae ducta esse, ideo a Menandro ficta, ut rerum quas scire deberent spectatores narrandarum esset occasio, et per se probabile est et apparet ex imitatione Turpilii comici (Epicler. fr. 1 [12] apud Priscianum, ubi initia fere fabularum commemorantur:<quote>
+              <l n="1_2" xml:id="kock-0541-epikleros-164-l1-2" xml:lang="grc">Steph. quaeso édepol, quo ante lúcem te subitó rapis,</l>
+              <l n="2_2" xml:id="kock-0541-epikleros-164-l2-2" xml:lang="grc">ere, cum úno puero? Phaedria. néqueo esse intus, Stéphanio.</l>
+              <l n="3_2" xml:id="kock-0541-epikleros-164-l3-2" xml:lang="grc">St. quid ita? Ph. út solent, me cúrae somno ségregant,</l>
+              <l n="4" xml:id="kock-0541-epikleros-164-l4" xml:lang="grc">forásque noctis éxcitant siléntio.</l>
+            </quote>servum addidisse Turpilius videtur, et apud Menandrum una persona loqui.’ Duebner. cf. etiam quae Ribbeckius adnotavit ad Turpilii fragm.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="165" xml:id="kock-0541-epikleros-165" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_epikleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-epikleros-165-l1" xml:lang="grc">ὥσπερ τῶν χορῶν</l>
+            <l n="2" xml:id="kock-0541-epikleros-165-l2" xml:lang="grc">οὐ πάντες ᾄδουσ’, ἀλλ’ ἄφωνοι δύο τινὲς</l>
+            <l n="3" xml:id="kock-0541-epikleros-165-l3" xml:lang="grc">ἢ τρεῖς παρεστήκασι πάντων ἔσχατοι</l>
+            <l n="4" xml:id="kock-0541-epikleros-165-l4" xml:lang="grc">εἰς τὸν ἀριθμόν, καὶ τοῦθ’ ὁμοίως πως ἔχει·</l>
+            <l n="5" xml:id="kock-0541-epikleros-165-l5" xml:lang="grc">χώραν κατέχουσι, ζῶσι δ’ οἷς ἐστιν βίος.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 121, 11 Ἐπίκληρος A, poetae nomine omisso: sed cum praecedat 10 Μενάνδρου, dubium esse non potest quin ex Menandri fabula excerptum sit. Phot. 210, 10 λαυροστάται· μέσοι τοῦ χοροῦ . . . φαυλότεροι δὲ οὗτοι (Cratin. 422). Lucian. Toxar. 9 τοῖς κενοῖς τούτοις καὶ κωφοῖς προσωπείοις ἐοικότας . . . ἃ διηρμένα τὸ στόμα καὶ παμμέγεθες κεχηνότα οὐδὲ τὸ σμικρότατον</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="171" xml:id="kock-0541-epikleros-171" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_epikleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-epikleros-171-l1" xml:lang="grc">οὔπω σοι πεπίστευμαι;</l>
+          </lg>
+          <note type="source">Priscian. 18, 266 illi (Attici) ‘πεπίστευμαι σοί’ καὶ ‘ὑπὸ σοῦ’. Μένανδρος Ἐπικλήρῳ κτλ.</note>
+          <note type="apparatus">codicum varietatem attulit Hertzius.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="172" xml:id="kock-0541-epikleros-172" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_epikleros">
+          <note type="source">Harpocration 139, 24 (τὸ) ὄρον . . . παρὰ Μενάνδρῳ ἐν δευτέρῳ Ἐπικλήρῳ σημαίνει ξύλον τι, ᾧ τὴν πεπατημένην σταφυλὴν πιέζουσιν.</note>
+          <note type="apparatus">eadem, omisso tamen fabulae nomine, Photius.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

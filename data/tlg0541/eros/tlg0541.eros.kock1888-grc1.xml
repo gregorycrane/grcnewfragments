@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΗΡΩΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.eros.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.eros.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.eros.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eros">
+        <head>ΗΡΩΣ</head>
+        <div type="textpart" subtype="fragment" n="208" xml:id="kock-0541-eros-208" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eros">
+          <note type="source">χειμάζειν τὸ ἐνοχλεῖν, ὡς Μένανδρος ἐν Ἡνιόχῳ. Ammonius 146. — cf. fr. 404, 7. 970. Philem. 28, 10. Praeterea cf. 880.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="209" xml:id="kock-0541-eros-209" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eros">
+          <lg>
+            <l n="1" xml:id="kock-0541-eros-209-l1" xml:lang="grc">δέσποιν', Ἔρωτος οὐδὲν ἰσχύει πλέον,</l>
+            <l n="2" xml:id="kock-0541-eros-209-l2" xml:lang="grc">οὐδ' αὐτὸς ὁ κρατῶν τῶν ἐν οὐρανῷ θεῶν</l>
+            <l n="3" xml:id="kock-0541-eros-209-l3" xml:lang="grc">Ζεύς, ἀλλ' ἐκείνῳ πάντ' ἀναγκασθεὶς ποιεῖ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 63, 21 Μενάνδρου Ἥρωι Α.</note>
+          <note type="apparatus">1. ὦ δέσπ. Α. 2. τῶν add. Grot. not. θεῶν om. Α. 3. ἐκεῖνο Voss. ἀναγκασθεὶς πάντα Α. ποεῖ Voss.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="210" xml:id="kock-0541-eros-210" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eros">
+          <lg>
+            <l n="1" xml:id="kock-0541-eros-210-l1" xml:lang="grc">ἐχρῆν γὰρ εἶναι τὸ καλὸν εὐγενέστατον,</l>
+            <l n="2" xml:id="kock-0541-eros-210-l2" xml:lang="grc">τοὐλεύθερον δὲ πανταχοῦ φρονεῖν μέγα.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 89, 7 Μενάνδρου Ἥρωι Α.</note>
+          <note type="apparatus">1. τὸ A Voss.] τὸν. 2. τοὐλεύθερον δὲ Bentl.] τὸν ἐλεύθερον δὲ δεῖ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="211" xml:id="kock-0541-eros-211" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eros">
+          <lg>
+            <l n="1" xml:id="kock-0541-eros-211-l1" xml:lang="grc">ὡς οἰκτρόν, ἢ [τὰ] τοιαῦτα δυστυχῶ μόνη,</l>
+            <l n="2" xml:id="kock-0541-eros-211-l2" xml:lang="grc">ἃ μηδὲ πιθανὰς τὰς ὑπερβολὰς ἔχει.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 104, 13 Μένανδρος Ἥρωι Α.</note>
+          <note type="apparatus">1. ἣ] εἰ B corr. at cf. γελοῖον, ὃς κτλ. 100 et multa alia eiusdem modi. τὰ del. G. A. Hirschig. Annot. crit. 21.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="212" xml:id="kock-0541-eros-212" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eros">
+          <lg>
+            <l n="1" xml:id="kock-0541-eros-212-l1" xml:lang="grc">χοῦς κεκραμένου</l>
+            <l n="2" xml:id="kock-0541-eros-212-l2" xml:lang="grc">οἴνου· λαβὼν ἔκπιθι τοῦτον.</l>
+          </lg>
+          <note type="source">Athenaeus 10, 426 c Μένανδρος ἐν Ἥρωι ἔφη κτλ. in exitu suppleri possunt multa.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="213" xml:id="kock-0541-eros-213" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eros">
+          <lg>
+            <l n="1" xml:id="kock-0541-eros-213-l1" xml:lang="grc">πεφαρμάκευσαι, γλυκύτατ', ἀναλυθεὶς μόλις.</l>
+          </lg>
+          <note type="source">Suidas ἀναλυθῆναι· τὸ καθαρμῷ τινι χρήσασθαι φαρμάκων. Μένανδρος Ἥρωι κτλ.</note>
+          <note type="apparatus">ἐπεφαρμάκευσο γλυκύτ' Α cum Zonara 202.</note>
+          <pb n="61" facs="urn:hathi:hvd.hxijy4:scan:87" />
+          <note type="apparatus">ἐπεφαρμάκευσον Β. ἐπεφαρμάκευσον Ε. ἐπιφαρμάκευσον ceteri. corr. Lobeck. (πεφαρμάκευσ' ὦ) et Mein. ἀναλωθεὶς Β. ἀναλωθεὶς (suprascr. v) E. vix purgatus denuo es fascinatus. Hesych. ἀναλῦσαι· τὸ βεβλαμμένον τινὰ δι' ἐπῳδῆς ἀπαλλάξαι. 'quemadmodum καταδεδέσθαι idem est quod πεφαρμακεῦσθαι, sic λύειν et ἀναλύειν est veneficia solvere.' Lobeck. Aglaoph. 644.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

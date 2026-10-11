@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΕΓΧΕΙΡΙΔΙΟΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.egcheiridion.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.egcheiridion.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.egcheiridion.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_egcheiridion">
+        <head>ΕΓΧΕΙΡΙΔΙΟΝ</head>
+        <div type="textpart" subtype="fragment" n="152" xml:id="kock-0541-egcheiridion-152" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_egcheiridion">
+          <note type="source">Schol. Plat. 359 Bekker. παροιμία ἄνω κάτω πάντα, ἐπὶ τῶν τὴν τάξιν μεταστρεφόντων. Μένανδρος Ἐγχειριδίῳ.</note>
+          <note type="apparatus">eadem omissa voce παροιμία Greg. Cypr. Leid. 1, 61. cf. 514.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="153" xml:id="kock-0541-egcheiridion-153" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_egcheiridion">
+          <note type="source">ὑπὲρ ὄνου σκιᾶς</note>
+          <note type="source">μέμνηται ταύτης ἐν τῷ Ἐγχειριδίῳ Μένανδρος Zenob. 6, 28.</note>
+          <note type="apparatus">cf. Arist. Vesp. 191 cum schol. et Aristoph. fr. 192.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="149" xml:id="kock-0541-egcheiridion-149" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_egcheiridion">
+          <lg>
+            <l n="1" xml:id="kock-0541-egcheiridion-149-l1" xml:lang="grc">οὐχ ὅθεν ἂν ᾤμην ἠτύχηκα· πάντα δὲ</l>
+            <l n="2" xml:id="kock-0541-egcheiridion-149-l2" xml:lang="grc">τὰ μηδὲ προσδοκώμεν’ ἔκστασιν φέρει.</l>
+          </lg>
+          <note type="source">
+            <p>Stobaeus Floril. 104, 7 Μενάνδρου Ἐγχειριδίου A. partem posteriorem Stobaeus repetit Flor. 111, 11 τοῦ αὐτοῦ (Μενάνδρου) Ἐγχειριδίου A.</p>
+          </note>
+          <note type="apparatus">
+            <p>1. οὐχ] οὐκ AB. ἠτύχηκα Porson. Misc. 250] ἡ τύχη καὶ. 2. μηδὲ] μὴ Stob. 111.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="150" xml:id="kock-0541-egcheiridion-150" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_egcheiridion">
+          <lg>
+            <l n="1" xml:id="kock-0541-egcheiridion-150-l1" xml:lang="grc">τοῦ δ’ ἆρα Κωρυκαῖος ἠκροάσατο.</l>
+          </lg>
+          <note type="source">
+            <p>Photius et Suidas Κωρυκαῖος . . . ὅθεν καὶ ἡ παροιμία κτλ. Μένανδρος Ἐγχειριδίῳ. Zenobius 4, 75 Κωρυκαῖος ἠκροάζετο· ταύτης Μένανδρος μέμνηται ἐν τῷ Ἐγχειριδίῳ . . . ἡ παροιμία ἐπὶ τῶν δοκούντων μὲν λάθρα πράττεσθαι, εἰς γνῶσιν δὲ ἐρχομένων. cf. Hesych. Κωρυκαῖος ἠκροάζετο· παροιμία παρὰ τοῖς κωμικοῖς. cf. Suid. τοῦ δ’ ἆρα ὁ Κωρυκαῖος. Eustath. 1534, 54 ἐκ τῆς Κωρύκου παροιμία τοῦ δ’ ἆρ’ ὁ Κωρύκιος ἠκροάζετο, περὶ ἧς ἐν τοῖς τοῦ περιηγητοῦ (Dionys. Perieg. 855) δεδήλωται. Append. proverb. 4, 96. optime explicat Steph. Byz. Κώρυκος . . . λιμὴν . . καὶ νησίον . . οὗ κατὰ τὸν παράπλουν ληστήριόν τι μέγα τῶν Κωρυκαίων ὠτακουστούντων ἐν τοῖς αὐτόθι λιμέσι (τὰ κατὰ) τοὺς φόρτους καὶ τοὺς πλοῦς τῶν ἐμπόρων καὶ οὕτως αὐτοῖς ἐπιβουλευόντων, ὅθεν ἡ παροιμία ἐπὶ τῶν περιεργαζομένων τὰ ἀπόρρητα κτλ. cf. etiam quae adnotantur ad Antiphanis Κώρυκον II 66. Dioxipp. 3.</p>
+          </note>
+          <note type="apparatus">
+            <p>— ἠκροάσατο Steph. AV] ἠκροάζετο.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="151" xml:id="kock-0541-egcheiridion-151" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_egcheiridion">
+          <lg>
+            <l n="1" xml:id="kock-0541-egcheiridion-151-l1" xml:lang="grc">πίε. B. πιεῖν ἀναγκάσω</l>
+            <l n="2" xml:id="kock-0541-egcheiridion-151-l2" xml:lang="grc">τὴν ἱερόσυλον πρῶτα.</l>
+          </lg>
+          <note type="source">
+            <p>Athenaeus 10, 446 e πίε δισυλλάβως (ἀεὶ συνεσταλμένως Mein. Anal. Ath. 202). Μένανδρος ἐν Ἐγχειριδίῳ κτλ. πίε verbis poetae add. Clericus.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

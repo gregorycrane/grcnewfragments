@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΔΥΣΚΟΛΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.dyskolos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.dyskolos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.dyskolos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+        <head>ΔΥΣΚΟΛΟΣ</head>
+        <div type="textpart" subtype="fragment" n="127" xml:id="kock-0541-dyskolos-127" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <lg>
+            <l n="1" xml:id="kock-0541-dyskolos-127-l1" xml:lang="grc">τῆς Ἀττικῆς νομίζετ’ εἶναι τὸν τόπον</l>
+            <l n="2" xml:id="kock-0541-dyskolos-127-l2" xml:lang="grc">Φυλήν, τὸ Νυμφαῖον δ’ ὅθεν προέρχομαι</l>
+            <l n="3" xml:id="kock-0541-dyskolos-127-l3" xml:lang="grc">Φυλασίων.</l>
+          </lg>
+          <note type="source">
+            <p>Harpocratio Φυλή . . . δῆμός ἐστι φυλῆς τῆς Οἰνηίδος· Μένανδρος Δυσκόλῳ κτλ. ν. 1. 2 (Φυλήν) Schol. Aristoph. Acharn. 1023 ἀπὸ Φυλῆς· ὄνομα δήμου· καὶ Μένανδρος Δυσκόλῳ κτλ. perverse Etymol. m. 802, 21 Φυλὴ γὰρ δῆμος τῆς Οἰνηίδος. ὁ δὲ Μένανδρος τόπον νομίζει εἶναι Φυλήν.</p>
+          </note>
+          <note type="apparatus">
+            <p>1. νομίζετ’ Schol. Arist.] νομίζεται Harp. τὸν τόπον εἶναι BCG Harp. 2. τὸν ΑΒ. νυμφιαῖον Α. 3. φυλάξων C. Δυσκόλῳ τῆς Ἀττικῆς om. D Harpocr. — ex</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="128" xml:id="kock-0541-dyskolos-128" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <lg>
+            <l n="1" xml:id="kock-0541-dyskolos-128-l1" xml:lang="grc">περὶ χρημάτων λαλεῖς, ἀβεβαίου πράγματος·</l>
+            <l n="2" xml:id="kock-0541-dyskolos-128-l2" xml:lang="grc">εἰ μὲν γὰρ οἶσθα ταῦτα παραμενοῦντά σοι</l>
+            <l n="3" xml:id="kock-0541-dyskolos-128-l3" xml:lang="grc">εἰς πάντα τὸν χρόνον, φύλαττε μηδενὶ</l>
+            <l n="4" xml:id="kock-0541-dyskolos-128-l4" xml:lang="grc">ἄλλῳ μεταδιδούς, αὐτὸς ὢν δὲ κύριος·</l>
+            <l n="5" xml:id="kock-0541-dyskolos-128-l5" xml:lang="grc">εἰ μὴ δὲ σαυτοῦ, τῆς τύχης δὲ πάντ᾽ ἔχεις,</l>
+            <l n="6" xml:id="kock-0541-dyskolos-128-l6" xml:lang="grc">τί ἂν φθονοίης, ὦ πάτερ, τούτων τινί;</l>
+            <l n="7" xml:id="kock-0541-dyskolos-128-l7" xml:lang="grc">αὐτὴ γὰρ ἄλλῳ τυχὸν ἀναξίῳ τινὶ</l>
+            <l n="8" xml:id="kock-0541-dyskolos-128-l8" xml:lang="grc">παρελομένη σου πάντα προσθήσει πάλιν.</l>
+            <l n="9" xml:id="kock-0541-dyskolos-128-l9" xml:lang="grc">διόπερ ἔγωγέ φημι δεῖν, ὅσον χρόνον</l>
+            <l n="10" xml:id="kock-0541-dyskolos-128-l10" xml:lang="grc">εἶ κύριος, χρῆσθαί σε γενναίως, πάτερ,</l>
+            <l n="11" xml:id="kock-0541-dyskolos-128-l11" xml:lang="grc">αὐτόν, ἐπικουρεῖν πᾶσιν, εὐπόρους ποιεῖν</l>
+            <l n="12" xml:id="kock-0541-dyskolos-128-l12" xml:lang="grc">οὓς ἂν δύνῃ πλείστους διὰ σαυτοῦ· τοῦτο γὰρ</l>
+            <l n="13" xml:id="kock-0541-dyskolos-128-l13" xml:lang="grc">ἀθάνατόν ἐστι, κἄν ποτε πταίσας τύχης,</l>
+            <l n="14" xml:id="kock-0541-dyskolos-128-l14" xml:lang="grc">ἐκεῖθεν ἔσται ταὐτὸ τοῦτό σοι πάλιν.</l>
+            <l n="15" xml:id="kock-0541-dyskolos-128-l15" xml:lang="grc">πολλῷ δὲ κρεῖττόν ἐστιν ἐμφανὴς φίλος</l>
+            <l n="16" xml:id="kock-0541-dyskolos-128-l16" xml:lang="grc">ἢ πλοῦτος ἀφανής, ὃν σὺ κατορύξας ἔχεις.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 16, 13 Μενάνδρου ἐκ Δυσκόλου Α.</note>
+          <note type="apparatus">3. εἰς πάντα Α. εἰς deest B¹. ἅπαντα Bentl. 4. ὤν γε Herwerd. Obs. crit. 86. ὧν εἶ Naber. Mnem. n. VIII 415. fort. ὧν σὺ. 5. εἰ μὴ δὲ σαυτοῦ Mein. conl. Timocl. 8, 13] εἰ δὲ μὴ σεαυτοῦ Α. εἰ δ᾽ οὐ σεαυτοῦ Β². ἃ δὲ μὴ σεαυτοῦ Porson. Adv. 43. 9. ἔγωγε Tyrwhitt.] ἐγώ σε. 12. ὡς (supraser. οὓς) ΑΒ. 15. πολλῶ Β.² πολλῶν Α. πολλοῦ Ν. v. 15. 16 perperam incerto poetae tribuit Grotius: fortasse πολλῷ γε. ‘sunt filii ad patrem, ipsum forsitan Δύσκολον, verba’. Mein. 11. pro αὐτόν scribendum videtur αὐτοῖς (τοῖς χρήμασιν), siquidem diserte negat soli divitias esse fruendas. 15. Bekker. Anecd. 463, 23 ἀφανὴς οὐσία λέγεται ἡ ἐν χρήμασι καὶ σώμασι καὶ σκεύεσι, φανερὰ δὲ ἡ ἔγγειος. οὕτω Λυσίας ceterique oratores. pro φανερά etiam dicebant ἐμφανῆ (ut hic ἐμφανὴς φίλος). Xen. Hell. 5, 2, 10 ἐψηφίσαντο ἀποδοῦναι τὰ ἐμφανῆ κτήματα.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="129" xml:id="kock-0541-dyskolos-129" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <lg>
+            <l n="1" xml:id="kock-0541-dyskolos-129-l1" xml:lang="grc">ὡς θύουσι δ᾽ οἱ τοιχωρύχοι,</l>
+            <l n="2" xml:id="kock-0541-dyskolos-129-l2" xml:lang="grc">κίστας φέροντες, σταμνί᾽, οὐχὶ τῶν θεῶν</l>
+            <l n="3" xml:id="kock-0541-dyskolos-129-l3" xml:lang="grc">ἕνεκ᾽, ἀλλ᾽ ἑαυτῶν· ὁ λιβανωτός εὐσεβές,</l>
+          </lg>
+          <pb n="39" facs="urn:hathi:hvd.hxijy4:scan:65" />
+          <lg>
+            <l n="4" xml:id="kock-0541-dyskolos-129-l4" xml:lang="grc">καὶ τὸ πόπανον τοῦτ᾽ ἔλαβεν ὁ θεὸς ἐπὶ τὸ πῦρ</l>
+            <l n="5" xml:id="kock-0541-dyskolos-129-l5" xml:lang="grc">ἅπαν ἐπιτεθέν· οἱ δὲ τὴν ὀσφὺν ἄκραν</l>
+            <l n="6" xml:id="kock-0541-dyskolos-129-l6" xml:lang="grc">καὶ τὴν χολὴν ὀστᾶ τ᾽ ἄβρωτα τοῖς θεοῖς</l>
+            <l n="7" xml:id="kock-0541-dyskolos-129-l7" xml:lang="grc">ἐπιθέντες αὐτοὶ τἄλλα καταπίνουσ᾽ ἀεί.</l>
+          </lg>
+          <note type="source">Athenaeus 4, 146 de Μένανδρος . . . ἐν Δυσκόλῳ φησὶν οὕτως κτλ. v. 3—5 (τεθέν) Porphyrius De abst. 2, 131 Μένανδρος ἐν Δυσκόλῳ κτλ. v. 5. 6 Clemens Alex. Strom. 7, 6, 31 Μένανδρός τε τὴν ὀσφὺν ἄκραν πεποίηκεν, τὴν χολήν, ὀστέα τ᾽ ἄβρωτα, φησί, τοῖς θεοῖς ἐπιτιθέντες αὐτοὶ τὰ ἄλλα ἀναλίσκουσιν. Etymol. m. 468, 24 ἱερὸν ὀστοῦν· τὸ ἄκρον τῆς ὀσφύος· οὕτω γὰρ κέκληται . . . ὅτι ἱερουργεῖται τοῖς θεοῖς. Μένανδρος οἱ δὲ τὴν ὀσφὺν ἄκραν θύσαντες.</note>
+          <note type="apparatus">1. δὲ οἱ τοχ suprascr. A. 2. κίστας Grot.] κοίτας. cf. quae adnotavimus ad Pherecr. 122. Eupol. 76. Mus. Rh. XXX 414. 5. σταμνία τ᾽ Brunck. 3. εὐσεβής Porphyr. 4. ἐπὶ] ἐπεὶ A Ath. 5. τεθέν Porphyr. ταῦτ᾽ — ἅπαντ᾽ ἐπιτεθέντ᾽ (-θ᾽) Mein. Anal. Ath. 70. οἱ δὲ] ἔτι δὲ K. 6. ὀστᾶ τ᾽ Clemens] ὅτι ἐστ᾽ A Ath. (sed non habet τὰ βρώματα). 7. καταπίνουσ᾽ ἀεὶ Bentl.] καταπίνουσι. τἄλλα πάντα κατέπιον Dobr. Adv. II 273. 5. Bekker. Anecd. 416, 11. 13 ἅπαν . . . οἱ Ἀττικοὶ ἐκτείνουσι τὴν ὑστέραν. τὴν ὀσφὺν ἄκραν, 'extremam dorsi partem, sacram spinam' Mein. — de sententia cf. Pherecr. 23 cum adn. et adesp. 1205.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="130" xml:id="kock-0541-dyskolos-130" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <lg>
+            <l n="1" xml:id="kock-0541-dyskolos-130-l1" xml:lang="grc">οὐδὲ εἷς</l>
+            <l n="2" xml:id="kock-0541-dyskolos-130-l2" xml:lang="grc">μάγειρον ἀδικήσας ἀθῷος διέφυγεν·</l>
+            <l n="3" xml:id="kock-0541-dyskolos-130-l3" xml:lang="grc">ἱεροπρεπής πώς ἐστιν ἡμῶν ἡ τέχνη.</l>
+          </lg>
+          <note type="source">Athenaeus 9, 383 f τὰ ἐκ Δυσκόλου Μενάνδρου . . τάδε κτλ.</note>
+          <note type="apparatus">3. ἡμῶν etiam A.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="131_132" xml:id="kock-0541-dyskolos-131-132" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <lg>
+            <l n="1" xml:id="kock-0541-dyskolos-131-132-l1" xml:lang="grc">οὐδενὸς χρὴ πράγματος</l>
+            <l n="2" xml:id="kock-0541-dyskolos-131-132-l2" xml:lang="grc">τὸν εὖ πονοῦνθ᾽ ὅλως ἀπογνῶναί ποτε.</l>
+            <l n="3" xml:id="kock-0541-dyskolos-131-132-l3" xml:lang="grc">. . . . . . . . . . . . . . .</l>
+            <l n="4" xml:id="kock-0541-dyskolos-131-132-l4" xml:lang="grc">ἁλωτὰ γίνετ᾽ ἐπιμελείᾳ καὶ πόνῳ</l>
+            <l n="5" xml:id="kock-0541-dyskolos-131-132-l5" xml:lang="grc">ἅπαντα.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 29, 45. 6. 45 Μενάνδρου Δυσκόλου A. ad 46 deest lemma in A. in Voss. Hens. fol. 84 v. fr. 45 6 coniuncta sunt sub lemmate τοῦ αὐτοῦ (praec. 47 Μενάνδρου Εὐνούχου) δύσκολος. in marg. add. 46 cum lemmate με, deletum eadem manu.</note>
+          <note type="apparatus">2. πονοῦνθ᾽ Grot.] ποιοῦνθ᾽. ἀπογν.] ἐπιγν. Voss. 4. ἁλωτὰ γὰρ A, unde Mein. ἁλωτὰ γὰρ | ἅπαντα γίνετ᾽ ἐπ. κτλ. Terent.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="133" xml:id="kock-0541-dyskolos-133" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <note type="source">Ammonius 62</note>
+          <note type="apparatus">
+            <p>ὁ οὖν ἐναλλάσσων (εὐθύς et εὐθύ) ἁμαρτάνει, καθὰ Μένανδρος ἐν Δυσκόλῳ· τί φὴς ἰδὼν ἔνθεν γε πᾶς δ’ ἐλευθερῶν ἀπῆλθες εὐθὺς ὡς ταχύ. Valckenarius ἐνθένδε et Ἐλευθερῶν. Meinekius τί φής; B. ἰὼν ἐνθένδ’ ὁ παῖς | Ἐλευθερῶν ἀπῆλθεν εὐθὺς ὡς ταχύ. ὡς τάχος Cobet. N. 1. 73. non audiendi sunt Lobeck. Phryn. 144 not. *) et Fritzsch. Arist. Thesm. 727 p. 264. servum fugitivum ‘non sine acumine Eleutheras aufugisse dicit’ Mein. apud Platonem Protag. 310 c servus fugitivus Oenoen petiverat. de adverbio εὐθύς cf. Pherecr. 110 et quae ad eius Μεταλλέας adnotavimus, de <hi rend="italic">Eleutheris</hi> Bursian. Geogr. gr. I 249. 50. neque ἰδών neque ἰών Menandri est.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="134" xml:id="kock-0541-dyskolos-134" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <lg>
+            <l n="1" xml:id="kock-0541-dyskolos-134-l1" xml:lang="grc">σιωπῇ φασι τούτῳ τῷ θεῷ</l>
+            <l n="2" xml:id="kock-0541-dyskolos-134-l2" xml:lang="grc">οὐ δεῖν προσιέναι.</l>
+          </lg>
+          <note type="source">Schol. Aristoph. Lys. 2 et Suidas</note>
+          <note type="apparatus">
+            <p>Πανικῷ δείματι· Πανὶ ὠργίαζον αἱ γυναῖκες μετὰ κραυγῆς. καὶ Μένανδρος ἐν Δυσκόλῳ σιωπῇ φησι τούτῳ τῷ θεῷ οὐ δεῖ προσιέναι. 1. φασι Porson. Toup. III 464] φησι. 2. δεῖν R et Suid.] δεῖ. δεὶς V Suid. (i. e. οὐδεὶς). τούτῳ etiam Suidas, quod moneo propter Meinekii errorem.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="135" xml:id="kock-0541-dyskolos-135" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <lg>
+            <l n="1" xml:id="kock-0541-dyskolos-135-l1" xml:lang="grc">οὐκ ἔνεστί σοι φυγεῖν</l>
+            <l n="2" xml:id="kock-0541-dyskolos-135-l2" xml:lang="grc">οἰκειότητα, δᾶερ.</l>
+          </lg>
+          <note type="source">Schol. Eurip. Androm. 976 Dind.</note>
+          <note type="apparatus">
+            <p>τὸ συγγενὲς κατὰ φυσικὴν ἀνάγκην δοῦλον, ὡς καὶ ἐν Δυσκόλῳ φησὶ Μένανδρος κτλ. ex cod. Vatic. et Marc. primus Cobetus ed. p. 291 Geel. — οὐκ ἔνεστ’ ἴσως οἰκεῖν — δάει Vat., δάερ Marc.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="136" xml:id="kock-0541-dyskolos-136" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <lg>
+            <l n="1" xml:id="kock-0541-dyskolos-136-l1" xml:lang="grc">οὐ πῦρ γὰρ αἰτῶν, οὐδὲ λοπάδ’ αἰτούμενος</l>
+          </lg>
+          <note type="source">Etymol. Gud. 23, 26</note>
+          <note type="apparatus">
+            <p>Μένανδρος ἐν τῷ Δυσκόλῳ διαστέλλει τὴν διαφορὰν (αἰτεῖν et αἰτεῖσθαι) κτλ. Plaut. Aulul. 91 <hi rend="italic">quod quispiam ignem quaérat, exstingui volo, ne causae quid sit quód te quisquam quaéritet . . . cultrúm, securim, pistillum, mortárium,</hi>
+            </p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="137" xml:id="kock-0541-dyskolos-137" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <lg>
+            <l n="1" xml:id="kock-0541-dyskolos-137-l1" xml:lang="grc">ὦ δυστυχής, τί οὐ καθεύδεις;</l>
+          </lg>
+          <note type="source">Choerobosc. Gaisf. 163, 11 (Bekker. Anecd. 1190 ad 979, 6)</note>
+          <note type="apparatus">τῶν ἐπιθέτων . . ὁμόφωνός ἐστιν ἡ κλητικὴ τῇ εὐθείᾳ, οἷον ὁ δυστυχής ὦ δυστυχής, ὡς παρὰ Μενάνδρῳ κτλ. in cod. Marc. 489 ὡς παρὰ τῷ Μενάνδρῳ . . . ἐν Δυσκόλῳ. cf. fr. 216. 341.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="138" xml:id="kock-0541-dyskolos-138" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <lg>
+            <l n="1" xml:id="kock-0541-dyskolos-138-l1" xml:lang="grc">εὑρηκὼς κἀγὼ τούτου τέχνην</l>
+          </lg>
+          <note type="source">Ammonius 61 εὑρεῖν καὶ εὑρέσθαι διαφέρει. εὑρεῖν μὲν γάρ, τὸ καὶ ἐν τῇ συνηθείᾳ, εὑρέσθαι δέ, οἱονεὶ τὸ ἐκπορίσασθαι. Μένανδρος Δυσκόλῳ κτλ.</note>
+          <note type="apparatus">— εὑρηκός vet. ed., εὕρηκα et τουτουί Mein. fort. εὑρηκὼς ἐγὼ | τούτου τέχνην, postquam ego huius rei medicinam inveni —.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="139" xml:id="kock-0541-dyskolos-139" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dyskolos">
+          <lg>
+            <l n="1" xml:id="kock-0541-dyskolos-139-l1" xml:lang="grc">ἀνδριάς</l>
+          </lg>
+          <note type="source">καὶ ἐπὶ γραφῇ . . Μένανδρος Δυσκόλῳ. Bekker. Anecd. 82, 11. ἐπιγραφή cod.</note>
+          <note type="apparatus">Praeterea cf. 1027.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

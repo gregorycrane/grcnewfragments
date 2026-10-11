@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>APOLLODORUS CARYSTIUS, ΑΠΟΛΕΙΠΟΥΣΑ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Apollodorus Carystius</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0411.apoleipoysa.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0411.apoleipoysa.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0411.apoleipoysa.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_apoleipoysa">
+        <head>ΑΠΟΛΕΙΠΟΥΣΑ</head>
+        <div type="textpart" subtype="fragment" n="4" xml:id="kock-0411-apoleipoysa-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_apoleipoysa">
+          <p>τὴν ἐπωμίδα</p>
+          <lg>
+            <l n="1" xml:id="kock-0411-apoleipoysa-4-l1" xml:lang="grc">πτύξας διπλῆν ἄνωθεν ἐνεκομβωσάμην.</l>
+          </lg>
+          <note type="source">Photius Epist. 156 p. 210 Ἀπολλοδώρου τοῦ Καρυστίου . . . ἐχρῆν περιπτύσσεσθαι μᾶλλον ἢ δυσχεραίνειν τῇ λέξει (ἐγκομβώσασθαι) . . . ὁ δὲ Καρύστιος ἐν Ἀπολειπούσῃ κτλ. Suidas ἐγκομβώσασθαι· Ἀπολλόδωρος Καρυστίοις ἀπολιποῦσι κτλ. Etymolog. m. 311, 3. 8 ἐγκόμβωμα· ὁ δεσμὸς τῶν χειρίδων . . . Ἀπολλόδωρος κτλ.</note>
+          <note type="apparatus">1. ἐπωμίαν Phot. et Etym. m. Milleri (Mélanges 97). 2. πτύξασα Phot. Etym. Mill. Suid. διπλῶς Etym. (etiam Milleri). ἐκομβωσάμην BE Med. Suid. — Pollux 4, 119 τῇ τῶν δούλων ἐξωμίδι καὶ ἱματίδιόν τι πρόσκειται λευκόν, ὃ ἐγκόμβωμα λέγεται. fuit enim et ἐξωμίς (Poll. 4, 118. 7, 47) et ἐπωμίς (γυναικῶν Poll. 7, 49). cf. Becker. Charikl.<hi rend="superscript">2</hi> III 161 sq. 178. 9.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

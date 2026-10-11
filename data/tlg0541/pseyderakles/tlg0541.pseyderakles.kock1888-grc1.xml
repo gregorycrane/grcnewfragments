@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΨΕΥΔΗΡΑΚΛΗΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.pseyderakles.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.pseyderakles.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.pseyderakles.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_pseyderakles">
+        <head>ΨΕΥΔΗΡΑΚΛΗΣ</head>
+        <div type="textpart" subtype="fragment" n="518" xml:id="kock-0541-pseyderakles-518" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_pseyderakles">
+          <lg>
+            <l n="1" xml:id="kock-0541-pseyderakles-518-l1" xml:lang="grc">μάγειρ᾽, ἀηδής μοι δοκεῖς εἶναι σφόδρα·</l>
+            <l n="2" xml:id="kock-0541-pseyderakles-518-l2" xml:lang="grc">πόσας τραπέζας μέλλομεν ποιεῖν, τρίτον</l>
+            <l n="3" xml:id="kock-0541-pseyderakles-518-l3" xml:lang="grc">ἤδη μ᾽ ἐρωτᾶς· χοιρίδιον ἓν θύομεν,</l>
+            <l n="4" xml:id="kock-0541-pseyderakles-518-l4" xml:lang="grc">ὀκτὼ ποιήσοντες τραπέζας δ᾽ ἢ μίαν,</l>
+            <l n="5" xml:id="kock-0541-pseyderakles-518-l5" xml:lang="grc">τί σοὶ διαφέρει τοῦτο; παράθες σημίαν.</l>
+            <l n="6" xml:id="kock-0541-pseyderakles-518-l6" xml:lang="grc">οὐκ ἔστι κανδύλους ποιεῖν, οὐδ᾽ οἷα σὺ</l>
+            <l n="7" xml:id="kock-0541-pseyderakles-518-l7" xml:lang="grc">εἴωθας εἰς ταὐτὸν καρυκεύειν, μέλι,</l>
+            <l n="8" xml:id="kock-0541-pseyderakles-518-l8" xml:lang="grc">σεμίδαλιν, ᾠά. πάντα γὰρ τἀναντία</l>
+            <l n="9" xml:id="kock-0541-pseyderakles-518-l9" xml:lang="grc">νῦν ἐστιν· ὁ μάγειρος γὰρ ἐγχύτους ποιεῖ,</l>
+            <l n="10" xml:id="kock-0541-pseyderakles-518-l10" xml:lang="grc">πλακοῦντας ὀπτᾷ, χόνδρον ἕψει καὶ φέρει</l>
+            <l n="11" xml:id="kock-0541-pseyderakles-518-l11" xml:lang="grc">μετὰ τὸ τάριχος, εἶτα θρῖον καὶ βότρυς.</l>
+            <l n="12" xml:id="kock-0541-pseyderakles-518-l12" xml:lang="grc">ἡ δημιουργὸς δ᾽ ἀντιπαρατεταγμένη</l>
+            <l n="13" xml:id="kock-0541-pseyderakles-518-l13" xml:lang="grc">κρεάδι᾽ ὀπτᾷ καὶ κίχλας τραγήματα.</l>
+            <l n="14" xml:id="kock-0541-pseyderakles-518-l14" xml:lang="grc">ἔπειθ᾽ ὁ δειπνῶν μὲν τραγηματίζεται,</l>
+            <l n="15" xml:id="kock-0541-pseyderakles-518-l15" xml:lang="grc">μυρισάμενος δὲ καὶ στεφανωσάμενος πάλιν</l>
+            <l n="16" xml:id="kock-0541-pseyderakles-518-l16" xml:lang="grc">δειπνεῖ μελίπηκτα τὰς κίχλας.</l>
+          </lg>
+          <note type="source">Athenaeus 4, 172 a Μένανδρος Ψευδηρακλεῖ, καταμεμφόμενος τοὺς μαγείρους ὡς ἐπιχειροῦντας καὶ οἷς μὴ δεῖ, φησίν κτλ. v. 6—13 (κίχλας) idem 14, 644 c ἐγχύτων δὲ πλακούντων μνημονεύει Μένανδρος ἐν Ψευδηρακλεῖ κτλ.</note>
+          <note type="apparatus">τες 4. ποιήσοντες — δ᾽ ἢ μίαν Dindf.] ποίησον τὰς — δυομαν (sic) A. 5. παραθήσω μίαν Bentl. διαφέρει; τοῦτο παράθες Σιμία Dindf. πάραγε Σ. Mein. 6. οὐδ᾽ Mein. ἔστιν κἀνδύλους A 172. οἷα] ὅσα A 644. 7. ταὐτὸ A 172. μελισενμιδαλινωι· ἀ A 644. 9. ἐγχύτους A 644]</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="518_2" xml:id="kock-0541-pseyderakles-518-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_pseyderakles">
+          <note type="apparatus">
+            <p>εν πιχυχε τους (i. e. ἐγχύτους et ἐπιχύτους) A 172. 10. ὀπτᾷ A 172] ὀπτοὺς A 644. ἕψει A utrubique. 13. κρεαδιοπται A 644. κρεᾴδια ὀπτᾷ et καὶ τραγήματα A 172. καὶ del. Schweigh. 16. τὰς κίχλας Porson. Misc. 237] ταῖς κίχλαις A.</p>
+            <p>‘sunt τραπεζοποιοῦ verba ad coquum’. Mein. Phot. 598, 14 et Etym. m. 763, 46 τραπεζοποιός· ὁ τῶν περὶ τὸ συμπόσιον πάντων ἐπιμελούμενος, τραπεζῶν, σκευῶν, σπονδῶν, ἀκουσμάτων. οὕτως Μένανδρος. quae ex Pseudheracle excerpta esse existimat Mein. Hesych. τραπεζοποιός· οὐχ ὁ μάγειρος, ἀλλ’ ὁ τῆς πάσης περὶ τὰ συμπόσια σκευασίας ἐπιμελούμενος. cf. Poll. 3, 41. 6, 13. Antiphan. 152. Philem. 61. — 1. ἀηδής molestus. 5. scrib. παράθες δὴ μίαν. sic παρατιθέναι τράπεζαν Cratet. 14, 5. Alexid. 171. v. 5 cum 6 fortasse non continuo cohaerebat. 6. de candylo cf. Aristoph. fr. 791. post ᾠά v. 8 interrogandi signo posito Mein. 1 p. 572 <hi rend="italic">quin tu candylos facis et quae praeterea condire soles bellaria? sic enim nunc est: coquus parat bellaria, libifica carnes assat.</hi> 7. Hesych. κρηπίς . . . τὸ ἐπίθεμα τῶν ἐγχύτων πλακούντων. ‘Gusskuchen’ Lobeck. Agl. II 1069 not. q. 12. de δημιουργῷ cf. Antiphan. 225. Alexand. 3. 14. ὁ δειπνῶν, i. e. is qui δεῖπνον exspectat, sed pro eo τραγήματα accipit. 15. post cenam ante compotationem et τραγήματα unguenta coronaeque adferebantur. cf. Athen. 15, 669 c. 674 bc. 685 e. C. F. Herm. Ant. gr. priv. 28, 23. Becker. Charikl.² I 180. 1.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="519" xml:id="kock-0541-pseyderakles-519" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_pseyderakles">
+          <lg>
+            <l n="1" xml:id="kock-0541-pseyderakles-519-l1" xml:lang="grc">νῦν δ’ εἰς γυναικωνῖτιν εἰσιόνθ’ ὅταν</l>
+            <l n="2" xml:id="kock-0541-pseyderakles-519-l2" xml:lang="grc">ἴδω παράσιτον, τὸν δὲ Δία τὸν κτήσιον</l>
+            <l n="3" xml:id="kock-0541-pseyderakles-519-l3" xml:lang="grc">ἔχοντα τὸ ταμιεῖον οὐ κεκλεισμένον,</l>
+            <l n="4" xml:id="kock-0541-pseyderakles-519-l4" xml:lang="grc">ἀλλ’ εἰστρέχοντα πορνίδια —</l>
+          </lg>
+          <note type="source">
+            <p>Harpocration 115 extr. κτήσιον Δία ἐν τοῖς ταμιείοις ἱδρύοντο. Μένανδρος Ψευδηρακλεῖ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>3. scrib. κεκλημένον. Phot. κληῖσαι οἱ ἀρχαῖοι λέγουσιν, οὐ κλεῖσαι· καὶ κληῖδα. cf. Bamberg. Progr. Goth. 1885 p. 8 n. 3. deest apodosis: ‘indignatio suboritur’. — 2. de Iove Ctesio cf. Athen. 11, 473 bc. Preller. Myth. gr.² I 114. 4 fortasse paelex significatur de qua fr. 520.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="520" xml:id="kock-0541-pseyderakles-520" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_pseyderakles">
+          <lg>
+            <l n="1" xml:id="kock-0541-pseyderakles-520-l1" xml:lang="grc">μήτηρ τέθνηκε ταῖν ἀδελφαῖν ταῖν δυοῖν</l>
+            <l n="2" xml:id="kock-0541-pseyderakles-520-l2" xml:lang="grc">ταύταιν· τρέφει δὲ παλλακή τις τοῦ πατρὸς</l>
+            <l n="3" xml:id="kock-0541-pseyderakles-520-l3" xml:lang="grc">αὐτάς, ἅβρα τῆς μητρὸς αὐτῶν γενομένη.</l>
+          </lg>
+          <note type="source">
+            <p>Suidas ἅβρα· οἰκότριψ γυναικὸς κόρη καὶ ἔντιμος, εἴτε οἰκογενὴς εἴτε μή. Μένανδρος Ψευδηρακλεῖ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>v. 2. 3 Eustathius 1854,</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="521" xml:id="kock-0541-pseyderakles-521" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_pseyderakles">
+          <lg>
+            <l n="1" xml:id="kock-0541-pseyderakles-521-l1" xml:lang="grc">ὑπὲρ μὲν οἴνου μηδὲ γρῦ, τίτθη, λέγε·</l>
+            <l n="2" xml:id="kock-0541-pseyderakles-521-l2" xml:lang="grc">ἂν τἄλλα δ’ ᾖς ἄμεμπτος, ἕκτην ἐπὶ δέκα</l>
+            <l n="3" xml:id="kock-0541-pseyderakles-521-l3" xml:lang="grc">Βοηδρομιῶνος ἐνδελεχῶς ἄξεις ἀεί.</l>
+          </lg>
+          <note type="source">Ammonius 67 Μένανδρος ἐν Ψευδηρακλεῖ κτλ.</note>
+          <note type="apparatus">2. ἕκτην ἐπὶ δέκα Porson. Misc. 253] εἰς τὴν ἕκτην, quibus ἐπὶ δέκα addit cod. Mus. Brit. 3. ἄξεις Cobet. Mnem. IIII 109] ἕξεις. Plut. Phoc. 6 ἐνίκων δ (prope Naxum) μεγάλοις μυστηρίοις, καὶ παρεῖχεν οἰνοχόημα Χαβρίας Ἀθηναίοις καθ’ ἕκαστον ἐνιαυτὸν τῇ ἕκτῃ ἐπὶ δέκα τοῦ Βοηδρομιῶνος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="522" xml:id="kock-0541-pseyderakles-522" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_pseyderakles">
+          <lg>
+            <l n="1" xml:id="kock-0541-pseyderakles-522-l1" xml:lang="grc">ἀστοργίαν ἔχει τιν’ ὁ σκληρὸς βίος.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 16, 10 Μενάνδρου ἐν Ψευδηρακλεῖ Α.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="523" xml:id="kock-0541-pseyderakles-523" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_pseyderakles">
+          <lg>
+            <l n="1" xml:id="kock-0541-pseyderakles-523-l1" xml:lang="grc">χαῦνόν τι πλάσμα καὶ διάκενον</l>
+          </lg>
+          <note type="source">Plutarchus Mor. 59 e ἐν κωμῳδίᾳ Μενάνδρου Ψευδηρακλῆς πρόσεισι, ῥόπαλον κομίζων οὐ στιβαρὸν οὐδ’ ἰσχυρόν, ἀλλὰ χ. τι πλ. κ. δ.</note>
+          <note type="apparatus">‘potuit’ eis verbis ‘uti qui refelleret quae’ Pseudhercules ‘iactaret’. M. Haupt. Ind Berol. 1855/6 p. 6. cf. Herwerd. Obs. crit. 91. fortasse in exitu addendum περιφέρων.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="524" xml:id="kock-0541-pseyderakles-524" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_pseyderakles">
+          <lg>
+            <l n="1" xml:id="kock-0541-pseyderakles-524-l1" xml:lang="grc">οὐκ ἐπείρα Νάννιον;</l>
+          </lg>
+          <note type="source">Athenaeus 13, 587b Μένανδρος ἐν Ψευδηρακλεῖ φησιν κτλ. Photius πειρᾶν τὸ πειράζειν ἐπὶ φθορᾷ καὶ συνουσίᾳ Μένανδρος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="525" xml:id="kock-0541-pseyderakles-525" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_pseyderakles">
+          <lg>
+            <l n="1" xml:id="kock-0541-pseyderakles-525-l1" xml:lang="grc">Καρκίνου ποιήματα</l>
+          </lg>
+          <note type="source">Μένανδρος Ψευδηρακλεῖ, αἰνιγματώδη. ὁ γὰρ Καρκίνος Ὀρέστην . . ἀναγκαζόμενον ὁμολογῆσαι ὅτι ἐμητροκτόνησεν ἐποίησε δι’ αἰνιγμάτων ἀποκρινόμενον. Photius. cf. Suidas Καρκίνου π.</note>
+          <note type="apparatus">— ‘spectat hoc sine dubio ad illum novae tragoediae morem, quo poetae non simplici et plano dicendi genere, sed obscuris verborum ambagibus utebantur.’ Mein. I 510. 11. Praeterea cf. 722.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

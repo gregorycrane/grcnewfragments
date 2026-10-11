@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΘΗΣΑΥΡΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.thesayros.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.thesayros.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.thesayros.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thesayros">
+        <head>ΘΗΣΑΥΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="235" xml:id="kock-0541-thesayros-235" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thesayros">
+          <lg>
+            <l n="1" xml:id="kock-0541-thesayros-235-l1" xml:lang="grc">εἶτ’ οὐ μέγιστός ἐστι τῶν θεῶν Ἔρως</l>
+            <l n="2" xml:id="kock-0541-thesayros-235-l2" xml:lang="grc">καὶ τιμιώτατός γε τῶν πάντων πολύ;</l>
+          </lg>
+          <pb n="68" facs="urn:hathi:hvd.hxijy4:scan:94" />
+          <lg>
+            <l n="3" xml:id="kock-0541-thesayros-235-l3" xml:lang="grc">οὐδεὶς γὰρ οὕτως ἐστὶ φειδωλὸς σφόδρα</l>
+            <l n="4" xml:id="kock-0541-thesayros-235-l4" xml:lang="grc">ἄνθρωπος οὐδ’ οὕτως ἀκριβὴς τοὺς τρόπους,</l>
+            <l n="5" xml:id="kock-0541-thesayros-235-l5" xml:lang="grc">ὃς οὐχὶ τούτῳ μερίδα τῷ θεῷ νέμει</l>
+            <l n="6" xml:id="kock-0541-thesayros-235-l6" xml:lang="grc">τῆς οὐσίας· ὅσοις μὲν οὖν πράως ἔχει,</l>
+            <l n="7" xml:id="kock-0541-thesayros-235-l7" xml:lang="grc">νέοις ἔτ’ οὖσι τοῦτο προστάττει ποιεῖν·</l>
+            <l n="8" xml:id="kock-0541-thesayros-235-l8" xml:lang="grc">οἱ δ’ εἰς τὸ γῆρας ἀναβολὰς ποιούμενοι,</l>
+            <l n="9" xml:id="kock-0541-thesayros-235-l9" xml:lang="grc">οὗτοι προσαποτίνουσι τοῦ χρόνου τόκους.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 63, 13. 14. 13 (v. 1—5) Ἀλέξιδος A (perperam coniuncti cum Alexidis fr. 289). 14 (v. 6 sq.) Μενάνδρου Θησαυρῶν A. versus 1—5 quoque Menandri esse demonstravit Tyrwhittus apud Gaisford.</note>
+          <note type="apparatus">1. οὐ Arsen. Viol. p. 101] οὖν. 2. γε om. A. 5. τῶν θεῶν A. 6. ὅσοις om. A. ἔχει A. 7. ἔτ’ οὖσι B] αἰτοῦσι. προστάττει AB] προστάττειν. 9. τοῦ χρόνου AB] ὡραίους. in hoc ἀωρίας latere putabat Bentl.
+4. Toeppelius Progr. Neobr. 1857, 14 confert Plut. Cat. mai. 3 ὡς οὐδὲν δέοιτο ταμίου λίαν ἀκριβοῦς (nos genau). 9. τοῦ χρόνου, i. e. morae usuras, Verzugszinsen. nihil agit Hirschig. Ann. crit. 21.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="236" xml:id="kock-0541-thesayros-236" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thesayros">
+          <lg>
+            <l n="1" xml:id="kock-0541-thesayros-236-l1" xml:lang="grc">ὅταν δ’ ἐρῶντος τόλμαν ἀφέλῃς οἴχεται,</l>
+            <l n="2" xml:id="kock-0541-thesayros-236-l2" xml:lang="grc">εἰς τοὺς ἰαλέμους τε τοῦτον ἔγγραφε.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 64, 18 τοῦ αὐτοῦ (Μενάνδρου 17) Θησαυρῷ A.</note>
+          <note type="apparatus">2. ἔγγραφε B Arsen.] ἔγραφε. ἰαλέμους, cf. quae ad Amphidis Ἰάλεμον adnotantur II 241. Maxim. Planud. Walz. Rhet. V 541, 8 ὁ ἰάλεμος εἶδός ἐστι θρήνου. τοὺς ἀξίους οὖν ἐλέου διὰ τὴν ἀμαθίαν ὁμωνύμως ἰαλέμους ἐκάλεσεν (Ἑρμογένης).</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="237" xml:id="kock-0541-thesayros-237" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thesayros">
+          <lg>
+            <l n="1" xml:id="kock-0541-thesayros-237-l1" xml:lang="grc">πολλοῖς ὑπέκκαυμ’ ἔστ’ ἔρωτος μουσική.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 63, 18 Μενάνδρου Θησαυροῖς A.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="238" xml:id="kock-0541-thesayros-238" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thesayros">
+          <lg>
+            <l n="1" xml:id="kock-0541-thesayros-238-l1" xml:lang="grc">ἄσιτος ἑπτὰ μῆνας, ὕδατος στράγγ’ ἔχων</l>
+          </lg>
+          <note type="source">Photius στράγγα· Μένανδρος Θησαυρῷ κτλ. Etymol. m. 729, 43 στράγξ· ἡ ἐπισχεθεῖσα ῥύσις. καὶ Μένανδρος· ὕδατος κτλ. cf. M. Schmidt. Didym. p. 69.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="239" xml:id="kock-0541-thesayros-239" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thesayros">
+          <head>239</head>
+          <p>κανθάρου μελάντερος</p>
+          <note type="apparatus">παροιμία. Μένανδρος Θησαυρῷ. Photius et Suidas. add. Suidas καὶ κανθάρου σοφώτερος, ἐπὶ τῶν πονηρῶν καὶ κακοηθῶν. cf. Philem. 33. Zenob. 4, 65. Diogen. 5, 40. Append. prov. 2, 41 cum eis quae edit. adn. — verbis κανθάρου μελάντερος bestiola significari videtur. Praeterea cf. 960.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

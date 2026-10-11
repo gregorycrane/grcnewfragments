@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DEMETRIUS, ΑΡΕΟΠΑΓΙΤΗΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Demetrius</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0439.areopagites.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0439.areopagites.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0439.areopagites.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0439_areopagites">
+        <head>ΑΡΕΟΠΑΓΙΤΗΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0439-areopagites-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0439_areopagites">
+          <lg>
+            <l n="1" xml:id="kock-0439-areopagites-1-l1" xml:lang="grc">σύ μου καταφρονεῖς, ὅτι μάγειρός εἰμ᾽, ἴσως·</l>
+            <l n="2" xml:id="kock-0439-areopagites-1-l2" xml:lang="grc">ὅσον δ᾽ ἀπὸ ταύτης τῆς τέχνης εἴργασμ᾽ ἐγώ,</l>
+            <l n="3" xml:id="kock-0439-areopagites-1-l3" xml:lang="grc">οὐδεὶς ὑποκριτής ἐσθ᾽ ὅλως εἰργασμένος.</l>
+            <l n="4" xml:id="kock-0439-areopagites-1-l4" xml:lang="grc">καπνιζομένη τυραννὶς αὕτη ᾽σθ᾽ ἡ τέχνη.</l>
+            <l n="5" xml:id="kock-0439-areopagites-1-l5" xml:lang="grc">ἀβυρτακοποιὸς παρὰ Σέλευκον ἐγενόμην·</l>
+            <l n="6" xml:id="kock-0439-areopagites-1-l6" xml:lang="grc">παρ᾽ Ἀγαθοκλεῖ δὲ πρῶτος εἰσήνεγκ᾽ ἐγὼ</l>
+            <l n="7" xml:id="kock-0439-areopagites-1-l7" xml:lang="grc">τῷ Σικελιώτῃ τὴν τυραννικὴν φακῆν.</l>
+            <l n="8" xml:id="kock-0439-areopagites-1-l8" xml:lang="grc">τὸ μέγιστον οὐκ εἴρηκα· Λαχάρους τινός,</l>
+            <l n="9" xml:id="kock-0439-areopagites-1-l9" xml:lang="grc">ὅτ᾽ ἦν ὁ λιμός, ἑστιῶντος τοὺς φίλους,</l>
+            <l n="10" xml:id="kock-0439-areopagites-1-l10" xml:lang="grc">ἀνάληψιν ἐποίησ᾽ εἰσενέγκας κάππαριν.</l>
+            <l n="11" xml:id="kock-0439-areopagites-1-l11" xml:lang="grc">Β. γυμνὴν Ἀθηνᾶν τότ᾽ ἐποίησε Λαχάρης</l>
+            <l n="12" xml:id="kock-0439-areopagites-1-l12" xml:lang="grc">οὐδὲν ἐνοχλοῦσαν· σὲ δ᾽ ἐνοχλοῦντα νῦν ἐγώ.</l>
+          </lg>
+          <note type="source">Athenaeus 9, 405 e καταφρονεῖς ὅτι μάγειρός εἰμι ἴσως· ὅσον ἀπὸ ταύτης τῆς τέχνης εἴργασμ᾽ ἐγώ, κατὰ τὸν κωμικὸν Δημήτριον, ὃς ἐν τῷ ἐπιγραφομένῳ Ἀρεοπαγίτῃ ταῦτ᾽ εἴρηκεν· ὅσον ἀπὸ ταύτης τῆς τέχνης κτλ.</note>
+          <note type="apparatus">v. 1. 11. 12 ex Athen. add. K. (11. 12 — ἐνοχλοῦσαν iam Dindf.). cf. nunc etiam Kaibel. 2. δ᾽ add. Mein. 4. αὕτη ᾽σθ᾽</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΠΛΟΚΙΟΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.plokion.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.plokion.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.plokion.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+        <head>ΠΛΟΚΙΟΝ</head>
+        <div type="textpart" subtype="fragment" n="403" xml:id="kock-0541-plokion-403" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <lg>
+            <l n="1" xml:id="kock-0541-plokion-403-l1" xml:lang="grc">ἔχω δ᾽ ἐπίκληρον Λάμιαν· οὐκ εἴρηκά σοι</l>
+            <l n="2" xml:id="kock-0541-plokion-403-l2" xml:lang="grc">τοῦτ᾽; εἶτ᾽ ἄρ᾽ οὐχί; κυρίαν τῆς οἰκίας</l>
+            <l n="3" xml:id="kock-0541-plokion-403-l3" xml:lang="grc">καὶ τῶν ἀγρῶν καὶ τῶν πατρῴων ἄντικρυς</l>
+          </lg>
+          <pb n="117" facs="urn:hathi:hvd.hxijy4:scan:143" />
+          <lg>
+            <l n="4" xml:id="kock-0541-plokion-403-l4" xml:lang="grc">ἔχομεν, Ἄπολλον, ὡς χαλεπῶν χαλεπώτατον.</l>
+            <l n="5" xml:id="kock-0541-plokion-403-l5" xml:lang="grc">ἅπασι δ’ ἀργαλέα ’στίν, οὐκ ἐμοὶ μόνῳ,</l>
+            <l n="6" xml:id="kock-0541-plokion-403-l6" xml:lang="grc">υἱῷ πολὺ μᾶλλον, θυγατρί. Β. πρᾶγμ’ ἄμαχον λέγεις.</l>
+            <l n="7" xml:id="kock-0541-plokion-403-l7" xml:lang="grc">Α. εὖ οἶδα.</l>
+          </lg>
+          <note type="source">Gellius 2, 23, 12 idem ille maritus senex cum altero sene vicino conloquens et uxoris locupletis superbiam deprecans haec ait κτλ.</note>
+          <note type="apparatus">1. ΕΛΩ V. Δὲ Urb. ΕΠΙΚΑΛΗΡΟΝ V. Λάμιαν Mein.] ΛΑΜΙΑΝ V. ΛΑΜΙΑΝ Urb. 2. ΤΟΥΓΕΙΤΑΡΟΥΧΙ V. ΤΟΥΤΟΕΙΤΕΑΡΑΟΥΧΙ Urb. ΚΙΡΙΑΝ V. 3. καὶ τῶν πατρῴων ἄντικρυς Spengel.] ΚΙΠΑΝΤΩΝΑΝΤΕΚΕΙΝΕΣ V. ΚΑΙ ΠΑΝΤΩΝ ΑΝΤΙ ΕΚΕΙΝΗΣ Urb. fortasse καὶ τῶν ἁπάντων ἄντικρυς. 4. ΑΠΟΛΛΩΝ ΩΣ Urb. ΛΑΛΕΠΟΝ V. ΧΑΛΕΠΟΝ Urb. 5. ΔΕ V. ’στιν Spengel.] ΕCTIN. ΟΥΚCΜΟΙ V. 6. ΜΑΜΟΝ V. Β. add. Spengel. ΠΡΑΓΜΑ libri. ΑΜΑΧΟ V. 7. Α. add. Heringa. ΟΙΔΑ V.</note>
+          <note type="apparatus">1. Λάμιαν, i. e. turpissimam. cf. quae ad Cratetis Lamiam adnotantur I 136. Arist. Vesp. 1035. 1177. Strab. 1, 17 ἥ τε γὰρ Λάμια μῦθός ἐστι καὶ ἡ Γοργὼ καὶ ὁ Ἐφιάλτης καὶ ἡ Μορμολύκη. Horat. A. p. 340. 2. τοῦτ’; εὖ γὰρ οἶδα. K. 3. si verum est τῶν πατρώων, hoc significat: ‘non solum suae dotis, sed etiam mei patrimonii dominam’. 4. ἔχομεν] ἔχομεν K. (ἃ ἔχ.) et fortasse χαλεπωτάτην (κυρίαν). 6. υἱῷ πολὺ μᾶλλον, θ. Duebner.] υἱῷ, π. μ. θ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="404" xml:id="kock-0541-plokion-404" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <lg>
+            <l n="1" xml:id="kock-0541-plokion-404-l1" xml:lang="grc">ὦ τρὶς κακοδαίμων, ὅστις ὢν πένης γαμεῖ</l>
+            <l n="2" xml:id="kock-0541-plokion-404-l2" xml:lang="grc">καὶ παιδοποιεῖθ’. ὡς ἀλόγιστός ἐστ’ ἀνήρ,</l>
+            <l n="3" xml:id="kock-0541-plokion-404-l3" xml:lang="grc">ὃς μήτε φυλακὴν τῶν ἀναγκαίων ἔχει,</l>
+            <l n="4" xml:id="kock-0541-plokion-404-l4" xml:lang="grc">μήτ’ ἂν ἀτυχήσας εἰς τὰ κοινὰ τοῦ βίου</l>
+            <l n="5" xml:id="kock-0541-plokion-404-l5" xml:lang="grc">ἐπαμφιέσαι δύναιτο τοῦτο χρήμασιν,</l>
+            <l n="6" xml:id="kock-0541-plokion-404-l6" xml:lang="grc">ἀλλ’ ἐν ἀκαλύπτῳ καὶ ταλαιπώρῳ βίῳ</l>
+            <l n="7" xml:id="kock-0541-plokion-404-l7" xml:lang="grc">χειμαζόμενος ζῇ, τῶν μὲν ἀνιαρῶν ἔχων</l>
+            <l n="8" xml:id="kock-0541-plokion-404-l8" xml:lang="grc">τὸ μέρος ἁπάντων, τῶν δ’ ἀγαθῶν οὐδὲν μέρος·</l>
+            <l n="9" xml:id="kock-0541-plokion-404-l9" xml:lang="grc">ὑπὲρ γὰρ ἑνὸς ἀλγῶν ἅπαντας νουθετῶ.</l>
+          </lg>
+          <note type="source">Gellius 2, 23, 15 filia hominis pauperis in pervigilio vitiata est: ea res clam patrem fuit, et habebatur pro virgine. ex eo vitio gravida mensibus exactis parturit. servus bonae frugi cum pro foribus domus staret et propinquare partum erili filiae atque omnino vitium esse oblatum ignoraret, gemitum et ploratum audit puellae in puerperio enitentis: timet, irascitur, suspicatur, miseretur, dolet. hi omnes motus eius affectionesque animi in graeca quidem comoedia mirabiliter acres et illustres: apud Caecilium autem pigra istaec omnia et a rerum dignitate atque gratia vacua sunt. post ubi idem</note>
+          <pb n="118" facs="urn:hathi:hvd.hxijy4:scan:144" />
+          <note type="apparatus">
+            <p>servus percontando quod acciderat repperit, has apud Menandrum voces facit κτλ. v. 1 — 8 Stobaeus Floril. 68, 4 Μενάνδρου A. v. 1 monost. 757. v. 6. 7 Dio Chrysost. 32 p. 365 M. οἱ δὲ . . . ἄπειροι . . . ἄθλιοι μηδεμίαν σκέπην μηδὲ προβολὴν ἔχοντες ἀπὸ τῶν παθῶν, ἀλλ’ ἐν — χειμαζόμενοι, καθάπερ σκάφει σαθρῷ καὶ λελυμένῳ. 1. ὦ] ὡς mon. 757. γαμεῖ Stob. et mon.] ἀνήρ. 2. παιδοποιεῖδ’ Stob.] παιδοποιεῖ. ὡς] ὃς Stob. A. 3. ὃς] ὡς Stob. A. 4. μήτ’ ἂν ἀτυχήσας Stob.] ΜΗΤΑΝΑΤΙΧΗCΗ V. εἰμητοανατειχήcη Urb. κοινὰ] λοιπὰ Stob. 5. ἐπαμφιάσαι τοῦτο δύναιτο Stob. ΕΠΑΜΦΙΕCΤΑΙΔΙΝΑΤΟΤΟΥΤΟ V. ἘΠΑΜΦΙΕCθΑΙ δύναται τοῦτο Urb. ἐπαμφιέσασθαι τοῦτο Maehly Philol. XXIII 175, securus ut videtur de v. 4 (ἄν). ἐπαμφιέσαι Mein. in Stob. 6. ΑΚΑΧΥΠΤω V. Ἀκατακύπτῳ Urb. BIO V. 7. ΧΕΙΜΑΞΟΜΕΝΟC V. ζῇ, τῶν Stob.] ΖΕΤωΝ V. Urb. ἀνιαρῶν Stob.] ΑΝΙΑΡΟΝ V. ανιαρὸν δὲ Urb. 8. τῶν δ’ om. Gellii cod. οὐδὲν μέρος Zedel.] οὐ δυνάμενος (ΔΙΝΑΜΕΝΟC V). ἀλγῶν Grot.] ἀλέγων. λέγων Cobet. Mnem. nov. IIII 452 ‘loquor de uno, admoneo omnes.’ ΝΟΙΘΕΤW 3. i. e. ‘cui neque propinquorum tutela et defensio praesto est’ quod moneo contra Dobr. Adv. II 278. 4. τὰ κοινά ‘quae accidere solent hominibus’. Mein. 5. ἐπαμφιέσαι. ἀπαμφιεῖ 339.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="405_406" xml:id="kock-0541-plokion-405-406" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <lg>
+            <l n="1" xml:id="kock-0541-plokion-405-406-l1" xml:lang="grc">ὅστις πένης ὢν ζῆν ἐν ἄστει βούλεται,</l>
+            <l n="2" xml:id="kock-0541-plokion-405-406-l2" xml:lang="grc">ἀθυμότερον ἑαυτὸν ἐπιθυμεῖ ποιεῖν·</l>
+            <l n="3" xml:id="kock-0541-plokion-405-406-l3" xml:lang="grc">ὅταν γὰρ εἰς τρυφῶντα καὶ σχολὴν ἄγειν</l>
+            <l n="4" xml:id="kock-0541-plokion-405-406-l4" xml:lang="grc">δυνάμενον ἐμβλέψῃ, τότ’ αὐτὸν ἔστ’ ἰδεῖν</l>
+            <l n="5" xml:id="kock-0541-plokion-405-406-l5" xml:lang="grc">ὡς ἄθλιον ζῇ καὶ ταλαίπωρον βίον.</l>
+          </lg>
+          <lg>
+            <l n="6" xml:id="kock-0541-plokion-405-406-l6" xml:lang="grc">κακῶς ὁ δεσπότης βεβούλευται πάνυ·</l>
+            <l n="7" xml:id="kock-0541-plokion-405-406-l7" xml:lang="grc">ἐν ἀγρῷ γὰρ οἰκῶν οὐ σφόδρ’ ἐξηλέγχετο</l>
+            <l n="8" xml:id="kock-0541-plokion-405-406-l8" xml:lang="grc">τῆς μερίδος ὢν τῆς οὐδαμοῦ τεταγμένος,</l>
+            <l n="9" xml:id="kock-0541-plokion-405-406-l9" xml:lang="grc">εἶχεν δὲ παραπέτασμα τὴν ἐρημίαν.</l>
+          </lg>
+          <note type="source">
+            <p>Stobaeus Floril. 96, 20 Μενάνδρου Πλοκίῳ Α. 1. ζῆ B. 2. αὑτὸν Α. αὐτὸν Voss. Hens. ποεῖν Voss. H. 4. ἀμβλέψῃ Α. τόθ’ αὑτὸν Mein. ἔστ’] ἐστιν Α. 5. ζῇ Gesn.] ζῆν. 8. τεταγμένος Mein.] τεταγμένης. 9. ἐρημίαν] ῥαθυμίαν Voss.</p>
+          </note>
+          <note type="apparatus">
+            <p>artissime coniuncta apud Stobaeum segregavit Grotius, v. 6 sq. incerto poetae tribuens. at sunt omnia servi fidelis (Parmenonis), de quo Gellius, eiusdemque scaenae ac fortasse ῥήσεως, sed non continuanda. atque eiusdem ῥήσεως videtur esse fr. 408. 8. cf.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="407" xml:id="kock-0541-plokion-407" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <lg>
+            <l n="1" xml:id="kock-0541-plokion-407-l1" xml:lang="grc">ὦ Παρμένων, οὐκ ἔστιν ἀγαθὸν τῷ βίῳ</l>
+            <l n="2" xml:id="kock-0541-plokion-407-l2" xml:lang="grc">φυόμενον ὥσπερ δένδρον ἐκ ῥίζης μιᾶς,</l>
+            <l n="3" xml:id="kock-0541-plokion-407-l3" xml:lang="grc">ἀλλ’ ἐγγὺς ἀγαθοῦ παραπέφυκε καὶ κακόν,</l>
+            <l n="4" xml:id="kock-0541-plokion-407-l4" xml:lang="grc">ἐκ τοῦ κακοῦ τ’ ἤνεγκεν ἀγαθὸν ἡ φύσις.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 105, 23 Μενάνδρου Πλοκίων Θαΐδος Α.</note>
+          <note type="apparatus">‘aut Πλοκίου aut Θαΐδος fragmentum excidisse dicas’. Mein. Stob. IIII vii. at fortasse Thais erat ancillula a Crobyla expulsa, quae haec Parmenoni dicebat. Themist. Or. 22 p. 276 c λέγει τις ὀρθῶς τῶν τοῦ γέλωτος ποιητῶν ὅτι μηδέν ἐστιν ἀγαθὸν ἐν τῷ βίῳ φυόμενον ὥσπερ δένδρον ἐκ ῥίζης μιᾶς, ἀεὶ δὲ αὐτῷ προσπέφυκε καὶ κακόν. addit Nauckius Choric. 23 οὐδὲν ἄκρατόν ἐστι τῶν κακῶν, ἀεὶ δέ τι παραπέφυκεν ἀγαθόν. [Callisth.] 13 ἐγγὺς ἀγαθοῦ πέφυκε κακόν (V CCLXII). cf. 325, 6.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="408" xml:id="kock-0541-plokion-408" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <lg>
+            <l n="1" xml:id="kock-0541-plokion-408-l1" xml:lang="grc">ἆρ’ ἐστὶν ἀρετῆς καὶ βίου διδάσκαλος</l>
+            <l n="2" xml:id="kock-0541-plokion-408-l2" xml:lang="grc">ἐλευθέρου τοῖς πᾶσιν ἀνθρώποις ἀγρός.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 56, 5 Μενάνδρου Πλοκίῳ (πλόκῳ) Α.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="409" xml:id="kock-0541-plokion-409" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <lg>
+            <l n="1" xml:id="kock-0541-plokion-409-l1" xml:lang="grc">μεστὰς τρίχας φθειρῶν τε καὶ ῥύπου, διδοὺς</l>
+            <l n="2" xml:id="kock-0541-plokion-409-l2" xml:lang="grc">πιεῖν, ἀνηδαξᾶτ’ ἄν, ὥστε μὴ πιεῖν.</l>
+          </lg>
+          <note type="source">Erotian. 17, 16 Klein. (ex schol. UV Darembg. p. 205) ὀδαξησμοὶ ἢ ἀδαξησμοί· ἐν γάρ τισι τῶν ἀντιγράφων οὕτως εὕρομεν. εἰσὶ γὰρ κνησμοὶ μετ’ ἐρεθισμοῦ, ὡς καὶ Μένανδρος ἐν Πλοκίῳ φησί· τὸ μὴ τὰς τρίχας αἴρων (αἴρων U) καὶ τὸν ῥύπον διδοὺς πιεῖν ἀνεδάξατο (sic V, ἀνεδέξατο U), ὥστε μὴ πιεῖν.</note>
+          <note type="apparatus">1. μεστὰς et φθειρῶν H. Jacobi. αἰρῶν Daremb. σαίρων Egger. τε καὶ ῥύπου H. Iacobi. ἂν ἠδαξᾶτ’ ἄν Schneidewin. G. g. A. 1852 p. 422. ἀνηδαξᾶτο Darembg. — omitto coniecturas quae defendi non posse videntur. omnes in eo peccaverunt quod de viro haec narrari putant. at, si quid video, Crobyle dicitur tam foede ac turpiter corpus curare. Caecil. Stat. Ploc. fr. 2 taedet méntionis: quaé mihi, | ubi domum adveni ac sédi, extemplo sávium | dat iéiuna anima: níl peccat de sávio: | ut dévomas volt, quod foris potáveris. simile est quod hic narratur. itaque scr. τὰς τρίχας | μεστὰς ἔχουσ’ αἰρῶν τε καὶ ῥύπου, πιεῖν | διδοῦσ</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="410" xml:id="kock-0541-plokion-410" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <lg>
+            <l n="1" xml:id="kock-0541-plokion-410-l1" xml:lang="grc">ἀεὶ τὸ λυποῦν ἀποδίωκε τοῦ βίου·</l>
+            <l n="2" xml:id="kock-0541-plokion-410-l2" xml:lang="grc">μικρόν τι τὸ βίου καὶ στενὸν ζῶμεν χρόνον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 108, 32 Μενάνδρου Πλοκίῳ Α. v. 1 monost. 3 (ἐκδίωκε). Senec. Brev. vit. 2 <hi rend="italic">adeo ut quod apud maximum poetarum more oraculi dictum est, verum esse non dubitem 'exigua pars est vitae quam nos vivimus.'</hi>
+          </note>
+          <note type="apparatus">v. 2 fortasse 'scriptoris prosaici verba' esse mire suspicatur Meinekius Stob. IIII IX. X. — confert Toeppel. Progr. Neobr. 1867, 19 Eurip. Suppl. 953 σμικρὸν τὸ χρῆμα τοῦ βίου· τοῦτον δὲ χρὴ ὡς ῥᾷστα καὶ μὴ σὺν πόνοις διεκπερᾶν. addo Herc. fur. 503 sq.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="411" xml:id="kock-0541-plokion-411" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <lg>
+            <l n="1" xml:id="kock-0541-plokion-411-l1" xml:lang="grc">οὐκ ἔστιν εὑρεῖν βίον ἄλυπον οὐδενός.</l>
+          </lg>
+          <note type="source">Orion Anthologn. 8, 5 ἐκ τοῦ Πλοκίου. monost. 419. Εὐριπίδου (fr. 872 N.) Anton. Mel. 1, 72 p. 73, 9 et Maxim. Conf. 28 p. 615, 3 ed. Combefis. Paris. 1675. cf. Wachsmuth. Stud. zu den griech. Floril. 140. 1.</note>
+          <note type="apparatus">ἐν οὐδενί Maxim. cum plurimis.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="412" xml:id="kock-0541-plokion-412" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <note type="source">Schol. Hephaest. p. 29 Gaisf.<hi rend="super">2</hi> cod. Saib. (cf. Anecd. var. Schoell. et Studemund. I 67, 22) ἐπισυναλοιφῆς (duorum versuum ita coniunctorum, ut prior in vocalem elisam exeat, ut Soph. OR. 332 τί ταῦτ᾽ | ἄλλως κτλ.) exempla adferens καὶ Μένανδρος ἐν Πλοκίῳ 'λεπτὸν μεθ᾽ ἑτέρας ἱστὸν ὑφαίνει', ubi verba quibus contineretur ἐπισυναλοιφή excidisse adparet.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="413" xml:id="kock-0541-plokion-413" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <lg>
+            <l n="1" xml:id="kock-0541-plokion-413-l1" xml:lang="grc">γυνὴ κυεῖ δέκα μῆνας;</l>
+          </lg>
+          <note type="source">Gellius 3, 16, 3 <hi rend="italic">hoc idem</hi> (decimo mense mulierem parere) <hi rend="italic">tradit etiam Menander poeta vetustior, humanarum opinionum vel peritissimus. versus eius super ea re de fabula Plocio posui κτλ.</hi>
+          </note>
+          <note type="apparatus">δέκα μῆνας Hertz.] ΔΕΚΑΜΗΙΝΑC V. Caecilius (Gell. ibid.) <hi rend="italic">solétne mulier décimo mense párere? B. pol, nonoque, etiam septimo atque</hi>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="414" xml:id="kock-0541-plokion-414" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <note type="apparatus">
+            <p>Cramer. Anecd. Ox. IIII 544. 5 ‘ὅστις δ’ ὁμιλῶν ἥδεται.’ τοῦτο τοῦ Θεόγνιδος. sed paullo post Μενάνδρου τοῦτο πέφυκεν ἐκ δράματος Πλοκίου, οὐ Θεόγνιδος. at est Euripidis fr. 809, 7 N., ubi cf. Nauckii adn. — itaque aut exciderunt nonnulla, aut Euripideo versu ut saepe usus est Menander.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="415" xml:id="kock-0541-plokion-415" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <lg>
+            <l n="1" xml:id="kock-0541-plokion-415-l1" xml:lang="grc">δεύτερος πλοῦς</l>
+          </lg>
+          <note type="source">
+            <p>... Μένανδρος .. Πλοκίῳ. Schol. Plat. 384 Bekk. cf. 228. 241. 279.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="416" xml:id="kock-0541-plokion-416" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_plokion">
+          <lg>
+            <l n="1" xml:id="kock-0541-plokion-416-l1" xml:lang="grc">τρυγόνος λαλίστερον</l>
+          </lg>
+          <note type="source">
+            <p>. . . μέμνηται ταύτης τῆς παροιμίας ἐν τῷ Πλοκίῳ ὁ αὐτός (Μένανδρος) Aelian. N. an. 12, 10. cf. Alexid. 92.</p>
+          </note>
+          <note type="apparatus">
+            <p>Praeterea cf. 649. 929.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

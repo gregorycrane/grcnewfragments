@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΠΩΛΟΥΜΕΝΟΙ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.poloymenoi.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.poloymenoi.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.poloymenoi.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_poloymenoi">
+        <head>ΠΩΛΟΥΜΕΝΟΙ</head>
+        <div type="textpart" subtype="fragment" n="420" xml:id="kock-0541-poloymenoi-420" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_poloymenoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-poloymenoi-420-l1" xml:lang="grc">(οἴμοι) τάλας, ἕστηκας ἔτι πρὸς ταῖς θύραις</l>
+            <l n="2" xml:id="kock-0541-poloymenoi-420-l2" xml:lang="grc">τὸ φορτίον θείς; σιτόκουρον ἄθλιον,</l>
+            <l n="3" xml:id="kock-0541-poloymenoi-420-l3" xml:lang="grc">ἄχρηστον εἰς τὴν οἰκίαν εἰλήφαμεν.</l>
+          </lg>
+          <note type="source">Athenaeus 6, 248 b Μένανδρος δὲ τὸν ἄχρηστον καὶ μάτην τρεφόμενον σιτόκουρον . . . ἐν Πωλουμένοις κτλ. οἴμοι add. Cobet. N. l. 89, τί ὦ Porson. 3. τὴν] γῆν ὁμολογῶν A, perperam hac ecloga confusa cum fr. 244. — cf. Alexid. 177.</note>
+          <note type="apparatus">1. ὦ τάλας tragicorum esse monuit Cobetus: Theogneti 1, 5 huc non pertinet, Arist. Ach. 454 et Thesm. 1038 παρατραγῳδεῖ. Theopomp. 32, 8 est Σπινθὴρ τάλας. cf. adesp. 1215. confert Ribbeck. Caec. Stat. fr. inc. 24 tu, quid enim óscitans | hietánsque restas?</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="421" xml:id="kock-0541-poloymenoi-421" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_poloymenoi">
+          <lg>
+            <l n="1" xml:id="kock-0541-poloymenoi-421-l1" xml:lang="grc">οὐ πανταχοῦ τὸ φρόνιμον ἁρμόττει παρόν,</l>
+            <l n="2" xml:id="kock-0541-poloymenoi-421-l2" xml:lang="grc">καὶ συμμανῆναι δ᾽ ἔνια δεῖ.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="422" xml:id="kock-0541-poloymenoi-422" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_poloymenoi">
+          <head>γραμματικός</head>
+          <note type="source">Cramer. Anecd. Ox. III 310, 24 μέμνηται τοῦ ὀνόματος Μένανδρος ἐν Πωλουμένοις.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="423" xml:id="kock-0541-poloymenoi-423" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_poloymenoi">
+          <head>διασείστους (ἀστραγάλους)</head>
+          <note type="source">
+            <quote>... παρὰ τὸ κινεῖσθαι καὶ διασείεσθαι πρότερον, εἶτα βάλλεσθαι, ἵν’ ἀκακούργητοι μᾶλλον ὦσι. Μένανδρος Πωλουμένοις.</quote> Harpocrat. 58, 21. eadem fere Suidas διασείστους. διάσειστοι κύβοι nulla adiecta interpretatione Poll. 7, 203.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="424" xml:id="kock-0541-poloymenoi-424" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_poloymenoi">
+          <head>καταφαγᾶς</head>
+          <note type="source">Μένανδρος Πωλουμένοις. Bekker. Anecd. 105, 20 et Menandrum acerbe reprehendens Phryn. Epit. 433, ubi cf. Lobeck. Pollux 6, 40 παμπόνηρον τὸ παρὰ Μυρτίλῳ τῷ κωμικῷ (4 hui. ed. I 254. cf. Arist. Av. 288. 9) καταφαγάς, κἂν Αἰσχύλος αὐτὸ ᾖ προειρηκώς (fr. 420 N.).</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

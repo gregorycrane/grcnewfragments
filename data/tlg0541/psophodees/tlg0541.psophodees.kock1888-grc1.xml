@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΨΟΦΟΔΕΗΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.psophodees.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.psophodees.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.psophodees.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_psophodees">
+        <head>ΨΟΦΟΔΕΗΣ</head>
+        <div type="textpart" subtype="fragment" n="526" xml:id="kock-0541-psophodees-526" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_psophodees">
+          <lg>
+            <l n="1" xml:id="kock-0541-psophodees-526-l1" xml:lang="grc">ἐπίσημον οὖν τὴν ἀσπίδ’ εἰς τὴν τοῦ Διὸς</l>
+            <l n="2" xml:id="kock-0541-psophodees-526-l2" xml:lang="grc">στοὰν ἀνέθηκαν.</l>
+          </lg>
+          <note type="apparatus">Boissonad. Anecd. III 240 παρὰ Μενάνδρῳ ... ἐν Ψοφοδεεῖ κτλ. Herod. De soloec. 308, 7 Nauck. (Lex. Vindob.). cf. ibid. 292, 10. οὖν] αὖ cod. Bar. Mus. Ox. II 113, ubi om. τοῦ. ἀνέθηκα Naber. Mnem. nov. VIII 421. ac quidni ἀνέθηκεν? significari videtur porticus Iovis Eleutherii. cf. 1008. Harpocr. 43, 19. 70, 13. Xen. Oecon. 7, 1. Bursian. Geogr. gr. I 282.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="527" xml:id="kock-0541-psophodees-527" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_psophodees">
+          <lg>
+            <l n="1" xml:id="kock-0541-psophodees-527-l1" xml:lang="grc">ὄνος λύρας</l>
+          </lg>
+          <note type="apparatus">Μένανδρος Ψοφοδεεῖ. ἡ δ’ ὅλη παροιμία ὄνος λύρας ἤκουε καὶ σάλπιγγος ὗς. Photius et Suidas, qui ἡ δ’ ὅλη om. — cf. Leutsch. Philol. III 567.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="528" xml:id="kock-0541-psophodees-528" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_psophodees">
+          <lg>
+            <l n="1" xml:id="kock-0541-psophodees-528-l1" xml:lang="grc">Νοῦθος</l>
+          </lg>
+          <note type="apparatus">κύριον Ψοφοδεεῖ. Herodian. II 947, 26, ex emend. Schneidewin. G. g. A 1842 p. 525. cod. νοῦθος κύριον· ψόφος ἐν οὔδει. ἡσίοδος ἐν τρίτῳ. sed Lehrs κύριον, καὶ ψόφος, ἣν οἶδεν Ἡσίοδος ἐν τρίτῳ· νοῦθος δὲ ποδῶν ὑπόδουπος ὀρώρει. itaque hoc quidem fragmentum plus quam dubiae est fidei.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="529" xml:id="kock-0541-psophodees-529" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_psophodees">
+          <lg>
+            <l n="1" xml:id="kock-0541-psophodees-529-l1" xml:lang="grc">Πάνακτος</l>
+          </lg>
+          <note type="apparatus">... ἀρρενικῶς Μένανδρος ἐν Ψοφοδεεῖ. Harpocration 144, 23. Ψοφοδεεῖ Vales.] ψηφώσεσιν Α. ψηφώδεσσι C. ψηφώδεσιν Β. Photius et Suidas Πάνακτος . . . Μένανδρος ἀρσενικῶς. cf. Bursian. Geogr. gr. I 250. 1. 332.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

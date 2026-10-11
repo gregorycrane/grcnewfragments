@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LYNCEUS, ΚΕΝΤΑΥΡΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Lynceus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0471.kentayros.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0471.kentayros.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0471.kentayros.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0471_kentayros">
+        <head>ΚΕΝΤΑΥΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0471-kentayros-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0471_kentayros">
+          <lg>
+            <l n="1" xml:id="kock-0471-kentayros-1-l1" xml:lang="grc">μάγειρ᾽, ὁ θύων ἔσθ᾽ ὁ δειπνίζων τ᾽ ἐμὲ</l>
+            <l n="2" xml:id="kock-0471-kentayros-1-l2" xml:lang="grc">Ῥόδιος, ἐγὼ δ᾽ ὁ κεκλημένος Περίνθιος·</l>
+            <l n="3" xml:id="kock-0471-kentayros-1-l3" xml:lang="grc">οὐδέτερος ἡμῶν ἥδεται τοῖς Ἀττικοῖς</l>
+            <l n="4" xml:id="kock-0471-kentayros-1-l4" xml:lang="grc">δείπνοις. ἀηδία γάρ ἐστιν Ἀττικὴ</l>
+            <l n="5" xml:id="kock-0471-kentayros-1-l5" xml:lang="grc">ὥσπερ ξενική· παρέθηκε πίνακα γὰρ μέγαν,</l>
+            <l n="6" xml:id="kock-0471-kentayros-1-l6" xml:lang="grc">ἔχοντα μικροὺς πέντε πινακίσκους ἐν οἷ.</l>
+            <l n="7" xml:id="kock-0471-kentayros-1-l7" xml:lang="grc">τούτων ὁ μὲν ἔχει σκόροδον, ὁ δ᾽ ἐχίνους δύο,</l>
+            <l n="8" xml:id="kock-0471-kentayros-1-l8" xml:lang="grc">ὁ δὲ θρυμματίδα γλυκεῖαν, ὁ δὲ κόγχας δέκα,</l>
+            <l n="9" xml:id="kock-0471-kentayros-1-l9" xml:lang="grc">ὁ δ᾽ ἀντακαίου μικρόν. ἐν ὅσῳ δ᾽ ἐσθίω,</l>
+            <l n="10" xml:id="kock-0471-kentayros-1-l10" xml:lang="grc">ἕτερος ἐκεῖν᾽, ἐν ὅσῳ δ᾽ ἐκεῖνος, τοῦτ᾽ ἐγὼ</l>
+            <l n="11" xml:id="kock-0471-kentayros-1-l11" xml:lang="grc">ἠφάνισα· βούλομαι δ᾽ ἐγώ, βέλτιστε σύ,</l>
+            <l n="12" xml:id="kock-0471-kentayros-1-l12" xml:lang="grc">κἀκεῖνο καὶ τοῦτ᾽, ἀλλ᾽ ἀδύνατα βούλομαι·</l>
+            <l n="13" xml:id="kock-0471-kentayros-1-l13" xml:lang="grc">οὔτε στόματα γὰρ οὔτε χείλη πέντ᾽ ἔχω.</l>
+          </lg>
+          <pb n="275" facs="urn:hathi:hvd.hxijy4:scan:301" />
+          <lg>
+            <l n="14" xml:id="kock-0471-kentayros-1-l14" xml:lang="grc">ὄψιν μὲν οὖν ἔχει τὰ τοιαῦτα ποικίλην,</l>
+            <l n="15" xml:id="kock-0471-kentayros-1-l15" xml:lang="grc">ἀλλ’ οὐδέν ἐστι τοῦτο πρὸς τὴν γαστέρα·</l>
+            <l n="16" xml:id="kock-0471-kentayros-1-l16" xml:lang="grc">κατέπασα γὰρ τὸ χεῖλος, οὐκ ἐνέπλησα δέ.</l>
+            <l n="17" xml:id="kock-0471-kentayros-1-l17" xml:lang="grc">Β. τί οὖν; Α. ἔχεις ὄστρεια; Β. πολλά. Α. πίνακά μοι</l>
+            <l n="18" xml:id="kock-0471-kentayros-1-l18" xml:lang="grc">τούτων παραθήσεις αὐτὸν ἐφ’ ἑαυτοῦ μέγαν.</l>
+            <l n="19" xml:id="kock-0471-kentayros-1-l19" xml:lang="grc">ἔχεις ἐχίνους; Β. ἕτερος ἔσται σοι πίναξ·</l>
+            <l n="20" xml:id="kock-0471-kentayros-1-l20" xml:lang="grc">αὐτὸς γὰρ αὐτὸν ἐπριάμην ὀκτὼ ’βολῶν.</l>
+            <l n="21" xml:id="kock-0471-kentayros-1-l21" xml:lang="grc">Α. ὀψάριον αὐτὸ τοῦτο παραθήσεις μόνον,</l>
+            <l n="22" xml:id="kock-0471-kentayros-1-l22" xml:lang="grc">ἵνα ταὐτὰ πάντες, μὴ τὸ μὲν ἐγώ, τὸ δ’ ἕτερος.</l>
+          </lg>
+          <note type="source">Athenaeus 4, 131 f Λυγκεὺς δ’ ἐν Κενταύρῳ διαπαίζων τὰ Ἀττικὰ δεῖπνά φησι κτλ. v. 12 (ἀλλ’). 13 Eustathius 261, 38 παρὰ τὸ δέκα μὲν στόματα καὶ ἑξῆς (Hom. Il. 2, 489) πέπαικταί τινι παλαιῷ ὡς ἐκ προσώπου λίχνου τό κτλ.</note>
+          <note type="apparatus">1. ἔσθ’ Mein.] ἐστὶν Α. ἐστὶ δειπνίζων τ’, quia ὁ δειπνίζων idem sit atque ὁ θύων Herwerd. Anal. crit. 41. 6. οἱ Dindf.] ᾧ Α. 10. ἐκεῖνο A. at potius cogitandum ἐκεῖνα et deinceps scribendum ταῦτ’. 11. σύ, | κἀκεῖνο Schweigh.] συγκαμεῖν Α. βούλομαι δέ γ’ ὦ σύ, καὶ τοῦτο κάπτειν, ἀλλ’ Porson. Adv. 294. 13. χείλη] χεῖρας Emperius. οὖν est in A et C. 15. οὐδέν Dindf.] οὐθέν Α. 16. κατέπασα Mein.] κατέπλησα Α. κατέπλασα Herwerd. Nov. add. crit. 44. κατέδευσα Κ. 17. personarum dissignatio est K., ex parte Meinekii in ed. mai. 20. γὰρ VL] δ’ Α. ’βολῶν Κ.] ὀβολῶν Α. 22. ταῦτα Α. invitatus parasitus ad cenam cum coquo conloquitur. 4. 5. ‘nam quamquam Atticorum summa est in moribus omnique vita concinnitas et elegantia, tamen etiam illorum non minus quam peregrinorum, in conviviis certe, quaedam est iniucunditas, ut scilicet nimis parcae ac tenues sint epulae.’ 5. παρέθηκε ‘scil. Atticus homo’. Mein. sed quomodo τις deesse possit non video. 7. echinos ipsos non reprehendit (cf. 19 sq.), sed quod pauci adponantur. 9. de ἀντακαίῳ cf. Antiphan. 77. Strab. 7 p. 307 (ἐν τῷ διάπλῳ τῷ εἰς Φαναγορίαν ἐκ τοῦ Παντικαπαίου) εἰσὶν οἱ ἀποληφθέντες ἐν τῷ κρυστάλλῳ . . . ἀντακαῖοι, δελφῖσι πάρισοι τὸ μέγεθος. 16. Hom. Il. 22, 495 χείλεα μέν τ’ ἐδίην’, ὑπερῴην δ’ οὐκ ἐδίηνεν (Mein. V 113). 21. ne sicuti in eo de quo supra narraverat convivio denuo propter paucitatem adparatus cibo aliquo privetur, unum idemque omnibus obsonium adponi iubet, sed ut sufficiat omnibus.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

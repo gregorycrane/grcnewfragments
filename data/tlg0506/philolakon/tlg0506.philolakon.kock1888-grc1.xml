@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>STEPHANUS, ΦΙΛΟΛΑΚΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Stephanus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0506.philolakon.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0506.philolakon.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0506.philolakon.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0506_philolakon">
+        <head>ΦΙΛΟΛΑΚΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0506-philolakon-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0506_philolakon">
+          <lg>
+            <l n="1" xml:id="kock-0506-philolakon-1-l1" xml:lang="grc">Σ. τούτῳ προέπιεν ὁ βασιλεὺς κώμην τινά.</l>
+            <l n="2" xml:id="kock-0506-philolakon-1-l2" xml:lang="grc">Β. καινόν τι τοῦτο γέγονε νῦν ποτήριον;</l>
+            <l n="3" xml:id="kock-0506-philolakon-1-l3" xml:lang="grc">Σ. κώμη μὲν οὖν τίς ἐστι περὶ τὴν Θουρίαν.</l>
+            <l n="4" xml:id="kock-0506-philolakon-1-l4" xml:lang="grc">Β. εἰς τὰς Ῥοδιακὰς ὅλος ἀπηνέχθην ἐγὼ</l>
+            <l n="5" xml:id="kock-0506-philolakon-1-l5" xml:lang="grc">καὶ τοὺς ἐφήβους, Σωσία, τοὺς δυσχερεῖς.</l>
+          </lg>
+          <note type="source">Athenaeus 11, 469ab ἔφηβος· τὸ καλούμενον ποτήριον . . . Στέφανος ὁ κωμικὸς ἐν Φιλολάκωνί φησι κτλ.</note>
+          <note type="apparatus">
+            <p>1. προεπιεν Α. δὲ προὔπι᾽ Mein. δὲ προὔπιεν ὁ β. Pierson. Moer. — apud comicos augmentum, ubi accentu acuitur, cum praepositione πρό semper coalescit. προὔπιεν Damox. 1, 4. προὔπινεν Menand. 510, 3. προὔθηκεν Eubul. 14, 4. προὔδωκεν Philyll. 18. προὔδοσαν Arist. Lys. 108. προὔλιπεν Αν. 1558. προὔφθης Eccl. 884. προὔπεμψεν Alexid. 65. atque etiam προὐπίνομεν Arist. Thesm. 631. προὐθέμεσθα Lys. 611. προὐκείμεθ᾽ fr. 488, 7. προὐδιδάξατο Plut. 687. προὐνοήσω Εq. 421. προὐτένθευσαν Nub. 1200. προὐσχόμην Nub. 1385. προὐδίδου Eupol. 181, 4. contra semper προελήλυθα (et προέστηκα). itaque hic quoque προὔπιεν scribendum est: τούτῳ δ᾽ ὁ βασιλεὺς προὔπιεν κ. τ. 2. τοῦτο Iacobs. Add. Ath. 251] νῦν τοῦτο (γ. νῦν) Α. καινόν τι νῦν τουτὶ γ. ποτ. Mein. in Ath. 4. Ῥοδιακὰς Abresch. Dilucid. Thucyd. 661] δ᾽ οδιακὸς Α. 5. δυσχερεῖς L] δυσχερισ Α. ante v. 1 mira poculorum genera, qualia erant ἐλέφας, τραγέ-</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

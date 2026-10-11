@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>SOSICRATES, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Sosicrates</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0503.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0503.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0503.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0503_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="3" xml:id="kock-0503-adelon_dramaton-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0503_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0503-adelon_dramaton-3-l1" xml:lang="grc">ἀγαθοὶ δὲ τὸ κακὸν ἔσμεν ἐφ’ ἑτέρων ἰδεῖν,</l>
+            <l n="2" xml:id="kock-0503-adelon_dramaton-3-l2" xml:lang="grc">αὐτοὶ δ’ ὅταν ποιῶμεν οὐ γινώσκομεν.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 23, 2 Σωσικράτους (σωσικρᾶ) Α. σωσικρᾶ Voss. Hens. fol. 5 v. σιοκρᾶ idem fol. 19 v. Euripidi tribuit Antonius Mel. p. 349. cf. monost. 46. 47. Stobaeus 23, 5 Εὐριπίδου· ἅπαντές ἐσμεν εἰς τὸ νουθετεῖν σοφοί, αὐτοὶ δ’ ὅταν σφαλῶμεν, οὐ γιγνώσκομεν (Eurip. fr. 1029 N.).</note>
+          <note type="apparatus">1. δὲ] γὰρ Voss. fol. 19. ἐσμεν om. idem. ἑτέρους Trinc. — cf. Ritschl. Opusc. I 836. 7.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" xml:id="kock-0503-adelon_dramaton-4" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0503_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0503-adelon_dramaton-4-l1" xml:lang="grc">ὅταν ποθεῖν λέγῃ σε καὶ στέργειν γυνή,</l>
+            <l n="2" xml:id="kock-0503-adelon_dramaton-4-l2" xml:lang="grc">φοβοῦ παρ’ αὐτῆς πλείον’ ὧν λέγει κακά.</l>
+          </lg>
+          <note type="source">Maximus Conf. p. 198 Gesner. Σωκράτους. Σωσικράτους Mein. I 499. cf. Wachsmuth. Stud. z. d. gr. Floril. 141. in editione Maximi Combefisiana, mea fortasse caecitate quadam deceptus, non repperi.</note>
+          <note type="apparatus">1. ποθεῖν λέγῃ σε καὶ στ. Mein.] ποθεῖν σε καὶ στ. λέγει. λέγῃ ποθεῖν σε καὶ στ. Wachsm. 2. πλείον’ Mein.] πλέον’.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" xml:id="kock-0503-adelon_dramaton-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0503_adelon_dramaton">
+          <lg>
+            <l n="1" xml:id="kock-0503-adelon_dramaton-5-l1" xml:lang="grc">ἡ τῶν κολάκων εὔνοια καθάπερ ἐκ τροπῆς</l>
+            <l n="2" xml:id="kock-0503-adelon_dramaton-5-l2" xml:lang="grc">φεύγει τὰς ἀτυχίας.</l>
+          </lg>
+          <note type="source">Maximus Conf. 11 p. 567 ed. Combefis. Paris. 1675 Σωκράτης κτλ. scr. Σωσικράτης.</note>
+          <note type="apparatus">2. scr. τὰς ἀτυχίας φεύγει.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" xml:id="kock-0503-adelon_dramaton-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0503_adelon_dramaton">
+          <note type="source">Maximus Conf. 31 p. 620 Combefis. Σωκράτ. τῆς παρρησίας ὥσπερ ὀπώρας ἐν καιρῷ ἡ χάρις ἡδεῖα.</note>
+          <note type="apparatus">quae sic videntur redintegranda: Σωσικράτης· τῆς παρρησίας | καθάπερ ὀπώρας ἐστὶν ἡν καιρῷ χάρις | ἡδεῖα.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" xml:id="kock-0503-adelon_dramaton-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0503_adelon_dramaton">
+          <head>ἀμφίας</head>
+          <note type="source">οἶνος ὁ φαῦλος καλεῖται παρὰ Σωσικράτει. Athenaeus 1, 31 e. ἄμφιος CE. Suidas ἀμφίας· μέτριος οἶνος. Νικόστρατος Οἰνοποιῷ (18) καὶ Σωσικράτης. Hesych. ἀμφίας· γένος οἴνου.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

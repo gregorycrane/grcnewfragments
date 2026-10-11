@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΓΕΩΡΓΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.georgos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.georgos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.georgos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_georgos">
+        <head>ΓΕΩΡΓΟΣ</head>
+        <div type="textpart" subtype="fragment" n="93" xml:id="kock-0541-georgos-93" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_georgos">
+          <lg>
+            <l n="1" xml:id="kock-0541-georgos-93-l1" xml:lang="grc">εὐκαταφρόνητόν ἐστι, Γοργία, πένης,</l>
+            <l n="2" xml:id="kock-0541-georgos-93-l2" xml:lang="grc">κἂν πάνυ λέγῃ δίκαια· τούτου γὰρ λέγειν</l>
+            <l n="3" xml:id="kock-0541-georgos-93-l3" xml:lang="grc">ἕνεκα μόνου νομίζεθ’ οὗτος, τοῦ λαβεῖν.</l>
+            <l n="4" xml:id="kock-0541-georgos-93-l4" xml:lang="grc">καὶ συκοφάντης εὐθὺς ὁ τὸ τριβώνιον</l>
+            <l n="5" xml:id="kock-0541-georgos-93-l5" xml:lang="grc">ἔχων καλεῖται, κἂν ἀδικούμενος τύχῃ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 96, 5 Μενάνδρου Γεωργῷ A. 2. sic coniungenda sunt verba οὗτος γὰρ λέγειν νομίζεται τούτου μόνου ἕνεκα, τοῦ λαβεῖν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="94" xml:id="kock-0541-georgos-94" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_georgos">
+          <lg>
+            <l n="1" xml:id="kock-0541-georgos-94-l1" xml:lang="grc">ὁ δ’ ἠδικηκὼς ὅστις ἔσθ’ οὗτός ποτε</l>
+            <l n="2" xml:id="kock-0541-georgos-94-l2" xml:lang="grc">τὴν ὑμετέραν πενίαν, κακοδαίμων ἔσθ’, ὅτι</l>
+            <l n="3" xml:id="kock-0541-georgos-94-l3" xml:lang="grc">τοῦτ’ ἠδίκηκεν, οὗ τυχὸν μεταλήψεται.</l>
+            <l n="4" xml:id="kock-0541-georgos-94-l4" xml:lang="grc">εἰ καὶ σφόδρ’ εὐπορεῖ γάρ, ἀβεβαίως τρυφᾷ·</l>
+            <l n="5" xml:id="kock-0541-georgos-94-l5" xml:lang="grc">τὸ τῆς τύχης γὰρ ῥεῦμα μεταπίπτει ταχύ.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 105, 28 Μενάνδρου Γεωργῷ Α. v. 5 Etymol. m. 685, 38 Μένανδρός φησι κτλ. Schol. Sophoclis Oed. T. 1191. Cramer. Anecd. Ox. I 333, 32. Schol. Ven. Hom. Il. 4, 396 (IIII 383, 30 Dind.).</note>
+          <note type="apparatus">2. ἡμετέραν Voss. 3. τυχὼν N. 4. εὖ ποιεῖ Ars.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="95" xml:id="kock-0541-georgos-95" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_georgos">
+          <lg>
+            <l n="1" xml:id="kock-0541-georgos-95-l1" xml:lang="grc">οὗτος κράτιστός ἐστ’ ἀνήρ, ὦ Γοργία,</l>
+            <l n="2" xml:id="kock-0541-georgos-95-l2" xml:lang="grc">ὅστις ἀδικεῖσθαι πλεῖστ’ ἐπίστατ’ ἐγκρατῶς·</l>
+            <l n="3" xml:id="kock-0541-georgos-95-l3" xml:lang="grc">τὸ δ’ ὀξύθυμον τοῦτο καὶ λίαν πικρὸν</l>
+            <l n="4" xml:id="kock-0541-georgos-95-l4" xml:lang="grc">δεῖγμ’ ἐστὶν εὐθὺς πᾶσι μικροψυχίας.</l>
+          </lg>
+          <note type="source">Orion Antholognom. 7, 9 τοῦ αὐτοῦ, lemma ἐκ τοῦ Γεωργοῦ, falso adscriptum ad 7, 8 quod est fr. Men. 179, pertinet ad 7, 9. v. 1. 2 Stobaeus Flor. 5, 1 Μενάνδρου Γεωργῶν Α. v. 3. 4 Stobaeus Flor. 20, 22 τοῦ αὐτοῦ (Μενάνδρου) Α.</note>
+          <note type="apparatus">— 2. ἐπίσταται βροτῶν Stob. ἀδικεῖσθαι ‘iniurias ferre’. Mein.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="96" xml:id="kock-0541-georgos-96" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_georgos">
+          <lg>
+            <l n="1" xml:id="kock-0541-georgos-96-l1" xml:lang="grc">ἀγρὸν εὐσεβέστερον γεωργεῖν οὐδένα</l>
+            <l n="2" xml:id="kock-0541-georgos-96-l2" xml:lang="grc">οἶμαι· φέρει γὰρ ὅσα θεοῖς ἄνθη καλά,</l>
+            <l n="3" xml:id="kock-0541-georgos-96-l3" xml:lang="grc">κιττόν, δάφνην· κριθὰς δ’ ἐὰν σπείρω, πάνυ</l>
+            <l n="4" xml:id="kock-0541-georgos-96-l4" xml:lang="grc">δίκαιος ὢν ἀπέδωχ’ ὅσας ἂν καταβάλω.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 57, 5 Μενάνδρου Γεωργοῦ Α. Pollux 1, 227 Μένανδρος δίκαιον γήδιον καλεῖ τὸ μηδὲν πλέον τοῦ σπέρματος ἐκφέρον. Quintilian 12, 10, 25 <quote xml:lang="la">si quod . . . uberius invenerint solum fertilioremve segetem, negaturos (existimo) Atticam esse, quod plus quam acceperit seminis reddat; quia hanc eius terrae fidem Menander eludit.</quote>
+          </note>
+          <note type="apparatus">2. ὡς θεοῖς Grot. 3. ἐὰν Grot.] ἂν ΑΒ. 4. δίκαιος ὢν Zedel. Magaz. f. Schul. II 359] δικαίως. ἀπέδωκ’ codices. ὅσας Porson. App. Toup. 435] ὅσα. — praeivit quodammodo Xenoph. Cyrop. 8, 3, 38 <quote xml:lang="grc">μικρὸν γῄδιον, οὐ μέντοι πονηρόν γε, ἀλλὰ πάντων δικαιότατον· ὅ τι γὰρ λάβοι σπέρμα καλῶς καὶ δικαίως ἀπεδίδου.</quote> cf. fr. 899.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="97" xml:id="kock-0541-georgos-97" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_georgos">
+          <lg>
+            <l n="1" xml:id="kock-0541-georgos-97-l1" xml:lang="grc">εἰμὶ μὲν ἄγροικος, καὐτὸς οὐκ ἄλλως ἐρῶ,</l>
+            <l n="2" xml:id="kock-0541-georgos-97-l2" xml:lang="grc">καὶ τῶν κατ’ ἄστυ πραγμάτων οὐ παντελῶς</l>
+            <l n="3" xml:id="kock-0541-georgos-97-l3" xml:lang="grc">ἔμπειρος, ὁ δὲ χρόνος τί μ’ εἰδέναι ποιεῖ</l>
+            <l n="4" xml:id="kock-0541-georgos-97-l4" xml:lang="grc">πλέον.</l>
+          </lg>
+          <note type="source">Orion Antholognom. 1, 19 ἐκ τοῦ Γεωργοῦ.</note>
+          <note type="apparatus">ἄλλως Schneidewin.] ἄλλος. ἐρῶ] λέγω Cobet. N. 1. 73 conl. Rhes. 271. utrumque recte dici potuisse existimo.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="98" xml:id="kock-0541-georgos-98" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_georgos">
+          <lg>
+            <l n="1" xml:id="kock-0541-georgos-98-l1" xml:lang="grc">βουβῶν ἐπήρθη τῷ γέροντι, θέρμα τε</l>
+            <l n="2" xml:id="kock-0541-georgos-98-l2" xml:lang="grc">ἐπέλαβεν αὐτόν.</l>
+          </lg>
+          <note type="source">Zonaras 1030 θέρμη καὶ θέρμα . . . Μένανδρος κτλ. Etymol. m. 206, 57 Μένανδρος ἐν τῷ Γεωργῷ οἷον βουβῶν — γέροντι. eadem om. fabulae nomine Suidas βουβών. Phrynich. Epit. 331 θέρμα· οὕτως ὁ Μένανδρος, διὰ τοῦ ᾱ, ἀλλ’ οὔτε Θουκυδίδης οὔθ’ ἡ ἀρχαία κωμῳδία, οὔτε Πλάτων, θέρμη δέ, ubi cf. Lobeck. — Aelian. Ep. 2 φελλεῖ ἐπέκοψε τὸ σκέλος πάνυ ἰσχυρῶς, καὶ θέρμη ἐπέλαβεν αὐτὸ καὶ βουβὼν ἐπήρθη.</note>
+          <note type="apparatus">quae tam manifesto ex Menandro arrepta sunt ut dubitem an etiam priora poetae sint reddenda: φελλεῖ ’πέκοψε τὸ σκέλος ἰσχυρῶς πάνυ· βουβὼν δ’ ἐπ. κτλ. de nomine φελλεύς egregia est disputatio Sauppii Epist. crit. 59 sq.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="99" xml:id="kock-0541-georgos-99" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_georgos">
+          <lg>
+            <l n="1" xml:id="kock-0541-georgos-99-l1" xml:lang="grc">ἦν δ’ οὐ πονηρὸς οὐδ’ ἐδόκουν.</l>
+          </lg>
+          <note type="source">Bekker. Anecd. 1380. Cramer. Anecd. Ox. IIII 363, 24 ἔχομεν τὴν χρῆσιν τοῦ ‘ἦν ἐγώ’ παρὰ ’Αριστοφάνει . . . καὶ παρὰ Μενάνδρῳ ἐν τῷ Γεωργῷ κτλ.</note>
+          <note type="apparatus">cf. quae ad Arist. Av. 97 adnotavimus.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="100" xml:id="kock-0541-georgos-100" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_georgos">
+          <lg>
+            <l n="1" xml:id="kock-0541-georgos-100-l1" xml:lang="grc">ἐμβεβρόντησαι; γελοῖον, ὃς κόρης ἐλευθέρας</l>
+            <l n="2" xml:id="kock-0541-georgos-100-l2" xml:lang="grc">εἰς ἔρωθ’ ἥκων σιωπᾷς καὶ μάτην ποθουμένους</l>
+            <l n="3" xml:id="kock-0541-georgos-100-l3" xml:lang="grc">περιορᾷς γάμους σεαυτῷ.</l>
+          </lg>
+          <note type="source">Maximus Planudes Walz. Rhet. V 525 παρὰ τῷ Μενάνδρῳ ἐν Γεωργῷ κτλ.</note>
+          <note type="apparatus">2. ἔρωθ’] ἕωθ’ Io. Sicel. cod. Vind. καὶ] ὡς Sicel. ποθουμένους Mein.] ποθουμένης Sicel., omissis reliquis. ποιουμένους ceteri. πονουμένους Heringa.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="101" xml:id="kock-0541-georgos-101" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_georgos">
+          <note type="source">Schol. Aristoph. Plut. 652 ἀκριβῶς δεδήλωκεν ὅτι ἐπὶ κακῷ ἔλεγον οἱ ’Αθηναῖοι τὰ πράγματα, καὶ Μένανδρος δὲ ἐν Γεωργῷ ἐν</note>
+          <pb n="31" facs="urn:hathi:hvd.hxijy4:scan:57" />
+          <note type="apparatus">
+            <p>πράγμασιν, ἐν μάχαις. postrema καὶ Μένανδρος — μάχαις omittunt Rav. et Ven. Suid. πράγματα· ἐπὶ κακῷ χρῶνται τῇ λέξει οἱ παλαιοί. haec ἐν μάχαις scholiastae, non poetae esse suspicatur Dobr. Adv. II 272.</p>
+            <p>Praeterea cf. 179 et adesp. 347.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

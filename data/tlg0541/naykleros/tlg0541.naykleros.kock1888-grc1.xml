@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΝΑΥΚΛΗΡΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.naykleros.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.naykleros.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.naykleros.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_naykleros">
+        <head>ΝΑΥΚΛΗΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="349" xml:id="kock-0541-naykleros-349" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_naykleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-naykleros-349-l1" xml:lang="grc">ὦ φιλτάτη γῆ μῆτερ, ὡς σεμνὸν σφόδρ’ εἶ</l>
+            <l n="2" xml:id="kock-0541-naykleros-349-l2" xml:lang="grc">τοῖς νοῦν ἔχουσι κτῆμα πολλοῦ τ’ ἄξιον.</l>
+            <l n="3" xml:id="kock-0541-naykleros-349-l3" xml:lang="grc">ὡς δῆτ’ ἐχρῆν, εἴ τις πατρῴαν παραλαβὼν</l>
+            <l n="4" xml:id="kock-0541-naykleros-349-l4" xml:lang="grc">γῆν καταφάγοι, πλεῖν τοῦτον ἤδη διὰ τέλους,</l>
+            <l n="5" xml:id="kock-0541-naykleros-349-l5" xml:lang="grc">καὶ μηδ’ ἐπιβαίνειν γῆς, ἵν’ οὕτως ᾔσθετο,</l>
+            <l n="6" xml:id="kock-0541-naykleros-349-l6" xml:lang="grc">οἷον παραλαβὼν ἀγαθὸν οὐκ ἐφείσατο.</l>
+          </lg>
+          <note type="source">Athenaeus 4, 166 b χρὴ δὲ τοὺς τὰ πατρῷα κατεδηδοκότας κατὰ τὸν Μενάνδρου Ναύκληρον οὕτως κολάζεσθαι· φησὶν γάρ κτλ.</note>
+          <note type="apparatus">4. πλεῖν] πλὴν Α. 4. cf. 363, 7. 5. ‘ne attingere quidem patriam, nedum in ea habitare’. Mein. — videtur Theophilus rediens terram patriam salutare.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="350" xml:id="kock-0541-naykleros-350" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_naykleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-naykleros-350-l1" xml:lang="grc">ὅ τε Πολυνείκης πῶς ἀπώλετ’ οὐχ ὁρᾷς;</l>
+          </lg>
+          <note type="source">Schol. Sophocl. OC. 1375 extr. Μένανδρος ἐν Ναυκλήρῳ (ναυκλήροις R) κτλ.</note>
+          <note type="apparatus">τε] δὲ Mein., ‘propter Porsoni regulam’. — videtur etiam in Nauclero rixa fratrum fuisse.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="351" xml:id="kock-0541-naykleros-351" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_naykleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-naykleros-351-l1" xml:lang="grc">ὦ Ζεῦ πολυτίμηθ’, οἷόν ἐστ’ ἐλπὶς κακόν.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 110, 8 Μενάνδρου Ναύκληρος Α.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="352" xml:id="kock-0541-naykleros-352" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_naykleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-naykleros-352-l1" xml:lang="grc">καὶ φύσει πως εὐάγωγόν ἐστι πᾶς ἀνὴρ ἐρῶν.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 63, 17 Μενάνδρου Ναυκλήρῳ Α.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="348" xml:id="kock-0541-naykleros-348" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_naykleros">
+          <lg>
+            <l n="1" xml:id="kock-0541-naykleros-348-l1" xml:lang="grc">ἥκει λιπὼν Αἰγαῖον ἁλμυρὸν βάθος</l>
+            <l n="2" xml:id="kock-0541-naykleros-348-l2" xml:lang="grc">Θεόφιλος ἡμῖν, ὦ Στράτων. ὡς εἰς καλὸν</l>
+            <l n="3" xml:id="kock-0541-naykleros-348-l3" xml:lang="grc">τὸν υἱὸν εὐτυχοῦντα καὶ σεσωσμένον</l>
+            <l n="4" xml:id="kock-0541-naykleros-348-l4" xml:lang="grc">πρῶτος λέγω σοι τόν τε χρυσοῦν κάνθαρον.</l>
+            <l n="5" xml:id="kock-0541-naykleros-348-l5" xml:lang="grc">ΣΤΡ. ποῖον; Α. τὸ πλοῖον· οὐδὲν οἶσθας, ἄθλιε.</l>
+            <l n="6" xml:id="kock-0541-naykleros-348-l6" xml:lang="grc">ΣΤΡ. τὴν ναῦν σεσῷσθαί μοι λέγεις; Α. ἔγωγε μὴν</l>
+            <l n="7" xml:id="kock-0541-naykleros-348-l7" xml:lang="grc">τὴν ναῦν ἐκείνην ἣν ἐποίησε Καλλικλῆς</l>
+            <l n="8" xml:id="kock-0541-naykleros-348-l8" xml:lang="grc">ὁ Καλύμνιος, Εὐφράνωρ δ’ ἐκυβέρνα Θούριος.</l>
+          </lg>
+          <note type="source">Athenaeus 11, 474 b Μένανδρος Ναυκλήρῳ· ἥκει — τὸ πλοῖον (om. altera parte v. 5) καὶ μετ’ ὀλίγα· τὴν ναῦν κτλ. v. 1. 2. 4. 5 Macrob. Sat. 5, 21 sequitur ut quando cantharum et poculi et navigii genus esse supra diximus, probetur exemplis . . . Menander in Ναυκλήρῳ κτλ. v. 1 Eurip. Troad. 1 (ἥκω) et Athen. 1, 4 a. v. 5 Schol. Aristoph. Pac. 143 et Suidas κάνθαρος· ἄντικρυς Μένανδρος ἐν Ναυκλήρῳ κάνθαρον εἶπε πλοῖον εἶναι. inter v. 5 et 6 plura excidisse possunt.</note>
+          <note type="apparatus">2. ἐς Α Ath. 4. τε] δὲ Macrob. κάνθαρον] θαρο P Macr. 5. πλοῖον] ηλοιον P Macr. οὐδὲν Mein.] οὐδέ μ’ Macr. αθαιε P Macr. 6. ἔγωγε μὴν Bentl.] ἐγὼ τὴν ἐμὴν Α. 7. κείνην ναῦν καλλικλῆς ἐποίησε Α. emend. Grotius Excerpt. 735. 8. ὁ Καλύμνιος Heringa Obs. 251] τὸν καλούμενον Α. Εὐφράνωρ δ’ Grot.] ευφρανορ’ Α. δὲ κυβερνᾷ Heringa. — de cantharo cf. Nicostr. 10. Sosicr. 2.</note>
+          <p>fieri non potest ut Strato navigii sui nomen (τὸν χρ. κάνθ.) ignoret, quod scilicet cupiens ut montes aureos sibi reportaret sine</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

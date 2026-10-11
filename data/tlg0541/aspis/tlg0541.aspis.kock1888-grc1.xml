@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΑΣΠΙΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.aspis.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.aspis.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.aspis.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aspis">
+        <head>ΑΣΠΙΣ</head>
+        <div type="textpart" subtype="fragment" n="74" xml:id="kock-0541-aspis-74" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aspis">
+          <lg>
+            <l n="1" xml:id="kock-0541-aspis-74-l1" xml:lang="grc">ὦ τρισάθλιοι</l>
+            <l n="2" xml:id="kock-0541-aspis-74-l2" xml:lang="grc">τί πλέον ἔχουσι τῶν ἄλλων; βίον</l>
+            <l n="3" xml:id="kock-0541-aspis-74-l3" xml:lang="grc">ὡς οἰκτρὸν ἐξαντλοῦσιν οἱ τὰ φρούρια</l>
+            <l n="4" xml:id="kock-0541-aspis-74-l4" xml:lang="grc">τηροῦντες, οἱ τὰς ἀκροπόλεις κεκτημένοι·</l>
+            <l n="5" xml:id="kock-0541-aspis-74-l5" xml:lang="grc">εἰ πάντας ὑπονοοῦσιν οὕτω ῥᾳδίως</l>
+            <l n="6" xml:id="kock-0541-aspis-74-l6" xml:lang="grc">ἐγχειρίδιον ἔχοντας αὐτοῖς προσιέναι,</l>
+            <l n="7" xml:id="kock-0541-aspis-74-l7" xml:lang="grc">οἵαν δίκην διδόασιν.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 49, 8 (ψόγος τυραννίδος) Μενάνδρου Ἀσπίδος Voss. Hens.</note>
+          <note type="apparatus">2. βασιλεῖς init. add. Grotius. οἳ πλέον ἔχειν ζητοῦσι τῶν ἄλλων Cobet. N. 1. 76. mihi σατράπαι initio videtur excidisse. 3. οἰκτρὸν οἱ A. 4. ἢ τὰς Mein. 5. οὕτω] οὗτοι Porson. Arist. Vesp. 632.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="75" xml:id="kock-0541-aspis-75" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aspis">
+          <lg>
+            <l n="1" xml:id="kock-0541-aspis-75-l1" xml:lang="grc">ὃ βούλεται γὰρ μόνον ὁρῶν καὶ προσδοκῶν</l>
+            <l n="2" xml:id="kock-0541-aspis-75-l2" xml:lang="grc">ἀλόγιστος ἔσται τῆς ἀληθείας κριτής.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 23, 4 τοῦ αὐτοῦ (Μενάνδρου 23, 3) Ἀσπίδος A.</note>
+          <note type="apparatus">2. ἔσται ΑΒ] ἔστι. ‘loquitur de certo quodam homine’. Mein. nam si quod vult tantummodo videt cet.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="76ab" xml:id="kock-0541-aspis-76ab" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aspis">
+          <lg>
+            <l n="1" xml:id="kock-0541-aspis-76ab-l1" xml:lang="grc">στρατιώτην, Σμικρίνη, σωτηρίας</l>
+            <l n="2" xml:id="kock-0541-aspis-76ab-l2" xml:lang="grc">ἔστ’ ἔργον εὑρεῖν πρόφασιν, ὀλέθρου δ’ εὔπορον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 53, 5 (ψόγος τόλμης) Μενάνδρου Ἀσπίδος A.</note>
+          <note type="apparatus">1. Σμικρίνη Bentl.] σμικρὴν ἡ A. difficile est ‘militem salutis reperire opportunitatem, facile autem interitus causam reperiet’. Iacobs. Addit. Ath. 102. Smicrines in comoedia nova nomen est senis avari et sordidi. Choric. Apol. mim. (Revue de philol. 1877, 228) τῶν Μενάνδρου πεποιημένων προσώπων . . . Σμικρίνης (ἡμᾶς ἐποίησε) φιλαργύρους, ὁ δεδιὼς μή τι τῶν ἔνδον ὁ καπνὸς οἴχοιτο φέρων, quae ad Ἐπιτρέποντας refert O. Ribb. Agroik. 19 conl. Plaut. Aul. 300. Alciphr. 3, 43, 3 Σμικρίνης ὁ δύστροπος καὶ δύσκολος. Iulian. Caes. 311 a. Misopog. 349 c. cf. fr. 174. Galli Harpagon.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="77" xml:id="kock-0541-aspis-77" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aspis">
+          <lg>
+            <l n="1" xml:id="kock-0541-aspis-77-l1" xml:lang="grc">πολλοὶ γὰρ ἐκλελοιπότες</l>
+            <l n="2" xml:id="kock-0541-aspis-77-l2" xml:lang="grc">τὸν χάρακα τὰς κώμας ἐπόρθουν.</l>
+          </lg>
+          <note type="source">Harpocratio χάρακα . . τὸ χαράκωμα ὃ περιεβάλλοντό τινες στρατοπέδῳ ἐπὶ σωτηρία. Μένανδρος Ἀσπίδι κτλ. eadem om. fabulae nomine Suidas et Zonaras (1841). cf. Miller Mélanges 307.</note>
+          <note type="apparatus">κώμας] πόλεις cod. Milleri.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="78" xml:id="kock-0541-aspis-78" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aspis">
+          <lg>
+            <l n="1" xml:id="kock-0541-aspis-78-l1" xml:lang="grc">ἔχων τὴν ἀσπίδα</l>
+            <l n="2" xml:id="kock-0541-aspis-78-l2" xml:lang="grc">ἔκειτο συντετριμμένην.</l>
+          </lg>
+          <note type="source">Schol. Aristoph. Acharn. 284 τῷ συντρίβειν καὶ Μένανδρος κέχρηται . . . ἐν Ἀσπίδι κτλ.</note>
+          <note type="apparatus">συντρίβειν Mein.] συντριβείη. — fr. 77. 8 ex narratione pugnae videntur excerpta esse.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="79" xml:id="kock-0541-aspis-79" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aspis">
+          <lg>
+            <l n="1" xml:id="kock-0541-aspis-79-l1" xml:lang="grc">Ἑλληνίς, οὐκ Ἰβηρίς</l>
+          </lg>
+          <note type="source">Stephanus Byz. p. 324 Mein. Ἰβηρίαι· ἀπὸ τοῦ Ἴβηρος γενικῆς Ἰβηρὶς τὸ θηλυκόν κτλ. Μένανδρος Ἀσπίδι.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

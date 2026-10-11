@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MENANDER, ΚΝΙΔΙΑ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Menander</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.knidia.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.knidia.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.knidia.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_knidia">
+        <head>ΚΝΙΔΙΑ</head>
+        <div type="textpart" subtype="fragment" n="290" xml:id="kock-0541-knidia-290" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_knidia">
+          <lg>
+            <l n="1" xml:id="kock-0541-knidia-290-l1" xml:lang="grc">οὐδὲν γένους γένος γὰρ οἶμαι διαφέρειν,</l>
+            <l n="2" xml:id="kock-0541-knidia-290-l2" xml:lang="grc">ἀλλ᾽ εἰ δικαίως ἐξετάσεις, καὶ γνήσιος</l>
+            <l n="3" xml:id="kock-0541-knidia-290-l3" xml:lang="grc">ὁ χρηστός ἐστιν, ὁ δὲ πονηρὸς καὶ νόθος.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. 86, 10 Μενάνδρου κνηδία Α.</note>
+          <note type="apparatus">1. οὐθὲν libri. 2. ἐξετάσης Voss. Hens. fort. ἢν — ἐξετάσῃς. γνησίος Α. γνησίως Voss.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="291" xml:id="kock-0541-knidia-291" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_knidia">
+          <lg>
+            <l n="1" xml:id="kock-0541-knidia-291-l1" xml:lang="grc">ταὐτόματόν ἐστιν ὡς ἔοικέ που θεός,</l>
+            <l n="2" xml:id="kock-0541-knidia-291-l2" xml:lang="grc">σῴζει τε πολλὰ τῶν ἀοράτων πραγμάτων.</l>
+          </lg>
+          <note type="source">Stobaeus Ecl. 1, 6(5), 9 Wachsm. Μένανδρος Κνιδίᾳ (sic Clericus. κηδείᾳ P, κηδείᾳ F, in mrg. add. σῆ). Palladas Alex. Anth. Pal. 10, 52 εὖ γε λέγων τὸν καιρὸν ἔφης θεόν, εὖ γε Μένανδρε . . . πολλάκι γὰρ τοῦ σφόδρα μεριμνηθέντος ἄμεινον προσπεσὸν εὐκαίρως εὗρέ τι ταὐτόματον.</note>
+          <note type="apparatus">2. πολλά etiam F. πολλοὺς (sic Vat.) δι᾽ ἀοράτων πρ. H. Iacobi V CCLVI. τῶν ἀδράτων Usener. conl. Bekker. Anecd. 7, 6 ἄδρατα· ἀποίητα. vehementer dubito.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CROBYLUS, ΨΕΥΔΥΠΟΒΟΛΙΜΑΙΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Crobylus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0437.pseydypobolimaios.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0437.pseydypobolimaios.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0437.pseydypobolimaios.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_pseydypobolimaios">
+        <head>ΨΕΥΔΥΠΟΒΟΛΙΜΑΙΟΣ</head>
+        <div type="textpart" subtype="fragment" n="5" xml:id="kock-0437-pseydypobolimaios-5" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_pseydypobolimaios">
+          <lg>
+            <l n="1" xml:id="kock-0437-pseydypobolimaios-5-l1" xml:lang="grc">Λάχης. Β. ἐγὼ δὲ πρὸς σέ. Α. πρόαγε. Β. ποῖ;</l>
+            <l n="2" xml:id="kock-0437-pseydypobolimaios-5-l2" xml:lang="grc">Α. ὅποι μ’ ἐρωτᾶς; ὡς Φιλουμένην, παρ’ ᾗ</l>
+            <l n="3" xml:id="kock-0437-pseydypobolimaios-5-l3" xml:lang="grc">τἀπιδόσιμ’ ἡμῖν ἐστιν, ἧς ἐχθὲς πιεῖν</l>
+            <l n="4" xml:id="kock-0437-pseydypobolimaios-5-l4" xml:lang="grc">κυάθους ἕκαστον ἐβιάσω σὺ δώδεκα.</l>
+          </lg>
+          <note type="source">Athenaeus 8, 364. 5 ὀνομάζουσι δ’ οἱ ἀρχαῖοι καὶ ἐπιδόσιμά τινα δεῖπνα, ἅπερ Ἀλεξανδρεῖς λέγουσιν ἐξ ἐπιδομάτων . . . Κρώβυλος ἐν Ψευδυποβολιμαίῳ κτλ.</note>
+          <note type="apparatus">1. χαῖρ’ ὦ Λάχης Iacobs. Add. Ath. 196. Λάχης, Λάχης Both. ante v. 1 excidisse πρὸς σὲ βούλομαι arbitratur Mein. 1. 2. πρόαγεοποὐμερωταῖς A (Bruns.). ὅποι Iacobs. 3. 4. B. ἧς — δώδεκα; Mein. in Ath. 4. ἕκαστον Casaub.] ἑκατον Α. ἀκράτου μ’ Dobr. Adv. II 321. 3. ἐπιδόσιμα δεῖπνα adiecticias cenas interpretatur Casaubonus, i. e. quae fiebant ex ea pecunia quam conferebant sodales ultra id quod debebant ex pacto vel infelici alea. cf. Alexid. 65, 4. Athen. 4, 141 b ἄν τι λάβωσιν (οἱ Σπαρτιᾶται πρὸς τὰ φιδίτια) ἐπιδόσιμον, ἰχθὺν ἢ λαγών.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" xml:id="kock-0437-pseydypobolimaios-6" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_pseydypobolimaios">
+          <lg>
+            <l n="1" xml:id="kock-0437-pseydypobolimaios-6-l1" xml:lang="grc">εἰσῆλθεν ἡμίκραιρα τακερὰ δέλφακος·</l>
+            <l n="2" xml:id="kock-0437-pseydypobolimaios-6-l2" xml:lang="grc">ταύτης μὰ τὸν Δί’ οὐχὶ κατέλιπον δ’ ἐγὼ</l>
+            <l n="3" xml:id="kock-0437-pseydypobolimaios-6-l3" xml:lang="grc">οὐδέν.</l>
+          </lg>
+          <pb n="381" facs="urn:hathi:hvd.hxijy4:scan:407" />
+          <note type="source">Athenaeus 9, 384cd ἦσαν καὶ ἡμίκραιραι πολλαὶ δελφάκων. μνημονεύει δ' αὐτῶν Κρώβυλος (κρωβύλος Α) ἐν Ψευδυποβολιμαίῳ κτλ.</note>
+          <note type="apparatus">1. εἰσῆλθεν L] εἰσῆλθον Α. 2. δ' ἐγὼ Dindf.] λέγω Α. γ' ἐγὼ Musur. cf. Amips. 7.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" xml:id="kock-0437-pseydypobolimaios-7" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_pseydypobolimaios">
+          <lg>
+            <l n="1" xml:id="kock-0437-pseydypobolimaios-7-l1" xml:lang="grc">καὶ πλεκτάνην στιφρὰν σφόδρ', ἐν τούτοις τέ που</l>
+            <l n="2" xml:id="kock-0437-pseydypobolimaios-7-l2" xml:lang="grc">αἰσχυνόμενον ἧπαρ καπρίσκου σκατοφάγου.</l>
+          </lg>
+          <note type="source">Athenaeus 3, 107 ef μήποτε δὲ καὶ Κρώβυλος (ρωβουλος Α) ὁ κωμωδιοποιὸς αἰσχυνόμενον εἶπε τὸ τοιοῦτον ἧπαρ ἐν Ψευδυποβολιμαίῳ λέγων οὕτως κτλ.</note>
+          <note type="apparatus">ἐν] ἐπὶ Mein. Anal. Ath. 48. 2. καπρίσκου σκατοφάγου Porson.] καὶ πρίσκους καταφάγου Α. — cf. Alexid. 110, 17. 'pudore suffusum vocat iecur, quoniam fere omento involuta adponebantur'. πλεκτάνη 'conlective sunt bracchia polyporum'. Mein. Praeterea cf. fr. 9.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

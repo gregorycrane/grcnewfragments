@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MACHON, ΕΠΙΣΤΟΛΗ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Machon</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0473.epistole.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0473.epistole.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0473.epistole.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0473_epistole">
+        <head>ΕΠΙΣΤΟΛΗ</head>
+        <div type="textpart" subtype="fragment" n="2" xml:id="kock-0473-epistole-2" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0473_epistole">
+          <head>2</head>
+          <lg>
+            <l n="1" xml:id="kock-0473-epistole-2-l1" xml:lang="grc">ὀψοφάγος εἰμί. τοῦτο δ᾽ ἐστὶ τῆς τέχνης</l>
+            <l n="2" xml:id="kock-0473-epistole-2-l2" xml:lang="grc">θεμέλιος ἡμῖν. προσπεπονθέναι τι δεῖ</l>
+            <l n="3" xml:id="kock-0473-epistole-2-l3" xml:lang="grc">τὸν μὴ τὰ παρατεθέντα λυμανούμενον.</l>
+            <l n="4" xml:id="kock-0473-epistole-2-l4" xml:lang="grc">πεφροντικὼς αὑτοῦ γὰρ οὐκ ἔσται κακός.</l>
+            <l n="5" xml:id="kock-0473-epistole-2-l5" xml:lang="grc">5 ἔπειτ᾽ ἐπὰν ᾗ καθαρὰ τἀσθητήρια,</l>
+            <l n="6" xml:id="kock-0473-epistole-2-l6" xml:lang="grc">οὐκ ἂν διαμάρτοις. ἕψε καὶ γεύου πυκνά.</l>
+            <l n="7" xml:id="kock-0473-epistole-2-l7" xml:lang="grc">ἅλας οὐκ ἔχει· προσένεγκ. ἔτ᾽ ἐπιδεῖταί τινος</l>
+            <l n="8" xml:id="kock-0473-epistole-2-l8" xml:lang="grc">ἑτέρου· πάλιν γεύου σὺ μέχρι ἂν ἡδὺς ᾖ·</l>
+            <l n="9" xml:id="kock-0473-epistole-2-l9" xml:lang="grc">ὥσπερ λύραν ἐπίτειν᾽ ἕως ἂν ἁρμόσῃ·</l>
+            <l n="10" xml:id="kock-0473-epistole-2-l10" xml:lang="grc">10 εἶθ᾽ ὁπόταν ἤδη πάντα συμφωνεῖν δοκῇς,</l>
+            <l n="11" xml:id="kock-0473-epistole-2-l11" xml:lang="grc">εἴσαγε διὰ πασῶν Νικολαΐδας Μυκόνιος.</l>
+          </lg>
+          <note type="source">Athenaeus 8, 345f Μάχων Ἐπιστολῇ κτλ.</note>
+          <note type="apparatus">2. θεμέλιος A] θεμέλιον Dindf. 3. παραδοθέντα Mein. 'ea quae coquo adparanda tradita sunt. non enim de adponendis, sed de adparandis cibis agitur.' 4. ὁ πεφρ. Kaibel. αὑτοῦ Dindf.] αὐτοῦ A. 5. τἀσθ. V] τ᾽ αἰσθ. A. 6. καὶ γεύου Coraes] καί γε οὐ A. 7. προσένεγκ. ἔτ᾽ Iacobs. Add. Ath. 191] προσένεγκε A. προσένεγκον Dobr. Adv. II 319. ἔπιδ᾽ εἰ δεῖται Porson. 8. παλιηγευου συμμετρίαν ἁρμόσῃ A. 9. ἐπίτειναι· ὡς ἡδὺς εἶ A. πάλιν γεύου σύ· μέτρι᾽ ἀναρμόσῃ (?), ὥσπερ λ. ἐπίτεινέ γ᾽ ἕως ἂν ἡδὺς ᾗ (ὁ ἰχθύς) Iacobs. μέχρι ἂν ἡδὺς ᾖ, ὥσπερ λύραν ἐπίτειν᾽, ἕως ἂν ἁρμόσῃ Mein. γεύου σύ· μέχρι ἂν ἁρμόσῃ, ὥσπερ λύραν ἐπίτεινον. Β. οἴμ᾽ ὡς ἡδὺς εἶ (cf. Cratin. 183, 3) K. 10. δοκῇ Iacobs. 11. sic A. Νικολᾷδας Dindf., Μυκονίας Casaub.</note>
+          <note type="apparatus">coquus cupediarum ipse amator discipulo praecipit. 4. 'qui in cena coquenda sui ipsius rationem habebit, is malus non erit coquus'. Mein. 9. confert Kaibelius Plut. Mor. 657de ἐκέλευσα λαβόντα ποτήριον ὥσπερ λύραν ἐντείνεσθαι τὴν ἐπαινουμένην κρᾶσιν καὶ ἁρμονίαν· καὶ προσελθὼν ὁ παῖς ὑπήχει τὴν ἄκρατον. de v. 11 desperant Meinekius (Anal. Ath. 152. 3. V 114) et quamvis multa moliatur Herwerd. Obs. crit. 107. 8. Mnem. nov. VI 83. neque vero eis quae alibi de Myconiis narrantur (Eustath. 1828, 6. Strab. 10, 487. Phot. Μυκόνιον, cf. etiam Cratin. 328) quicquam proficitur.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

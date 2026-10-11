@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>STRATTIS, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Strattis</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0508.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0508.adelon_dramaton.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0508.adelon_dramaton.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="3" xml:id="kock-0508-adelon_dramaton-3" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_adelon_dramaton">
+          <note type="apparatus">Fr. 3, 3. Philostrat. Vit. sophist. 17, 4 (p. 214) <foreign xml:lang="grc">οἱ ἡγούμενοι τὴν κωμῳδίαν καθάπτεσθαι τοῦ ἀνδρὸς (Ἰσοκράτους) ὡς αὐλοποιοῦ ἁμαρτάνουσιν. πατὴρ μὲν γὰρ αὐτῷ Θεόδωρος ἦν, ὃν ἐκάλουν αὐλοποιὸν Ἀθήνησιν, αὐτὸς δὲ οὔτε αὐλοὺς ἐγίνωσκεν οὔτε ἄλλο τι τῶν ἐν βαναυσίοις.</foreign> — ceterum cum in voce <foreign xml:lang="grc">αὐλοτρύπην</foreign> non videatur corripi posse vocalis <foreign xml:lang="grc">ῡ</foreign>, scr. <foreign xml:lang="grc">τὸν δ’ αὐλοτρύπην αὐτὸν εἶθ’ ἥκειν ταχύ.</foreign>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="17" xml:id="kock-0508-adelon_dramaton-17" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_adelon_dramaton">
+          <note type="apparatus">17. Thrasybulum Stiriensem significari docet Frohberger. Philol. XVII 445.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="23" xml:id="kock-0508-adelon_dramaton-23" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_adelon_dramaton">
+          <note type="apparatus">23. Eustath. 1289, 64 add. H. Iacobi V CXVI. ceterum aliter verba poetae interpretatur Voemel. De Eurip. casu talorum Philol. XIII 302 sq.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="36" xml:id="kock-0508-adelon_dramaton-36" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_adelon_dramaton">
+          <note type="apparatus">36. in fine add.: ipse enim Alcibiades, neque id Spartae solum ut opinor, Achilles vocabatur. Plut. Alcib. 23.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="37" xml:id="kock-0508-adelon_dramaton-37" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_adelon_dramaton">
+          <note type="apparatus">37. cf. E. Curtius Herm. XII 492. De Potamiis aliter iudicatur Liter. Centralbl. 1881, 963: non actam esse ante Ol. 92, 4, sed ante Plutum posteriorem et Ecclesiazusas Aristophanis. eas enim, non duplicem Plutum indicari Strattid. 37.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="38" xml:id="kock-0508-adelon_dramaton-38" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_adelon_dramaton">
+          <note type="apparatus">38. Aristot. Phys. ausc. 3, 6 (p. 207 a 17). Aristid. II 192 Dindf. <foreign xml:lang="grc">ἀλλὰ γὰρ λίνον λίνῳ συνάπτει, φασίν.</foreign>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="45" xml:id="kock-0508-adelon_dramaton-45" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_adelon_dramaton">
+          <note type="apparatus">45. ridicule pusillas privatae vitae curas et occupationes etiam ad heroum aetatem pertinere fingit: quod moneo propter Fr. Spironem, qui (De Eurip. Phoen. 24. 5) ironiae comicae inmemor miratur quid Oedipi filiis rei esse possit cum negotiis domesticis.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="71" xml:id="kock-0508-adelon_dramaton-71" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_adelon_dramaton">
+          <note type="apparatus">71. cf. E. Rohde Mus. Rhen. XXXIII 304.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
