@@ -1,13 +1,23 @@
 import unittest
 from pathlib import Path
 
-from tools.install_meineke_volume2 import SOURCE, collect, install
+from tools.install_meineke_volume2 import (
+    SOURCE, citation_number, collect, install, roman_number,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class MeinekeVolume2InstallTests(unittest.TestCase):
+    def test_roman_fragment_numbers_are_normalized_for_citation(self):
+        self.assertEqual(roman_number("II."), 2)
+        self.assertEqual(roman_number("LXXIX"), 79)
+        self.assertIsNone(roman_number("LXXVI — LXXIX"))
+        self.assertIsNone(roman_number("I. II."))
+        self.assertEqual(citation_number("I. II."), "1_2")
+        self.assertEqual(citation_number("LXXVI — LXXIX"), "76_79")
+
     def test_all_fragments_are_assigned_to_real_author_works(self):
         compiled, omitted = collect(ROOT / SOURCE, ROOT / "data")
         self.assertEqual(sum(len(record["items"]) for record in compiled.values()), 2875)

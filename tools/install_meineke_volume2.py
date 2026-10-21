@@ -75,6 +75,48 @@ def slug(value: str) -> str:
     return value or "fragmenta"
 
 
+def roman_number(value: str) -> int | None:
+    """Return an Arabic value for a pure printed Roman numeral."""
+    token = (value or "").strip().upper()
+    if token.endswith("."):
+        token = token[:-1].strip()
+    if not token or not re.fullmatch(r"[IVXLCDM]+", token):
+        return None
+    values = {"I": 1, "V": 5, "X": 10, "L": 50,
+              "C": 100, "D": 500, "M": 1000}
+    total = previous = 0
+    for char in reversed(token):
+        current = values[char]
+        total += -current if current < previous else current
+        previous = max(previous, current)
+    numerals = ((1000, "M"), (900, "CM"), (500, "D"), (400, "CD"),
+                (100, "C"), (90, "XC"), (50, "L"), (40, "XL"),
+                (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I"))
+    remainder, canonical = total, ""
+    for amount, numeral in numerals:
+        while remainder >= amount:
+            canonical += numeral
+            remainder -= amount
+    return total if canonical == token else None
+
+
+def citation_number(value: str) -> str:
+    """Use Arabic citations while the volume source preserves printed Romans."""
+    converted = roman_number(value)
+    if converted is not None:
+        return str(converted)
+
+    # Meineke sometimes groups several fragments under one heading (for
+    # example ``I. II.`` or ``LXXVI — LXXIX``).  Convert every Roman member
+    # instead of accidentally collapsing the heading into one larger numeral.
+    roman_tokens = re.findall(r"[IVXLCDM]+", (value or "").upper())
+    residue = re.sub(r"[IVXLCDM.\s,;:/\-–—]+", "", (value or "").upper())
+    converted_tokens = [roman_number(token) for token in roman_tokens]
+    if roman_tokens and not residue and all(item is not None for item in converted_tokens):
+        return "_".join(str(item) for item in converted_tokens)
+    return slug(value)
+
+
 def is_incertae(title: str) -> bool:
     key = norm(title)
     return (
@@ -300,7 +342,11 @@ def work_tree(source_root: ET.Element, record: dict, source_path: Path) -> ET.El
     fragment_numbers = []
     printed_numbers = []
     last_page = None
-    for page, node in record["items"]:
+    items = record["items"]
+    if items and all(roman_number(node.get("n") or "") is not None
+                     for _, node in items):
+        items = sorted(items, key=lambda item: roman_number(item[1].get("n")))
+    for page, node in items:
         page_number = page.get("n") if page is not None else None
         if page is not None and page_number != last_page:
             edition.append(page)
@@ -308,7 +354,7 @@ def work_tree(source_root: ET.Element, record: dict, source_path: Path) -> ET.El
         printed_number = node.get("n") or "unnumbered"
         printed_numbers.append(printed_number)
         seen_numbers[printed_number] = seen_numbers.get(printed_number, 0) + 1
-        number = slug(printed_number)
+        number = citation_number(printed_number)
         if seen_numbers[printed_number] > 1:
             number = f"{number}_{seen_numbers[printed_number]}"
             tokens = node.get("ana", "").split()
