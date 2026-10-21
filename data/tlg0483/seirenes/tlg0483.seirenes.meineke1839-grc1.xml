@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Nicophon, ΣΕΙΡΗΝΕΣ: fragments</title><author>Nicophon</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0483.seirenes.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0483.seirenes.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0483.seirenes.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0483_seirenes"><head>ΣΕΙΡΗΝΕΣ</head><div type="textpart" subtype="fragment" n="i" ana="#compiled-citation-normalized" xml:id="meineke-0483-seirenes-i">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0483-seirenes-i-l1">Ἐὰν δὲ γ᾽ ἡμῶν σῦκά τις μεσημβρίας</l>
+                  <l n="2" xml:id="meineke-0483-seirenes-i-l2">τρώγων καθεύδῃ χλωρά, πυρετὸς εὐθέως</l>
+                  <l n="3" xml:id="meineke-0483-seirenes-i-l3">ἥκει τρέχων, οὐκ ἄξιος τριωβόλου·</l>
+                  <l n="4" xml:id="meineke-0483-seirenes-i-l4">κἆθ᾽ οὗτος ἐπιπεσὼν ἐμεῖν ποιεῖ χολήν.</l>
+                </lg>
+              </quote>
+              <note place="bottom">*) V. Hist. crit. p. 257.</note>
+              <pb n="851" facs="urn:hathi:hvd.hxjhbd:scan:869" />
+              <note type="source">Athenaeus III p. 80 a: μὴ δεῖ σῦκα προσφέρεσθαι μεσημβρίας. — Νικοφῶν Σειρῆσιν Ἐὰν δέ γ' ἡμῶν κτλ.</note>
+              <note type="apparatus">Grotius Excerptis p. 868:
+    <quote>
+                  <lg>
+                    <l n="5" xml:id="meineke-0483-seirenes-i-l5">Nostrum aliquis ficus virides si meridie</l>
+                    <l n="6" xml:id="meineke-0483-seirenes-i-l6">epulatus obdormiscat, accurrit febris</l>
+                    <l n="7" xml:id="meineke-0483-seirenes-i-l7">continuo, verum non facienda trioboli:</l>
+                    <l n="8" xml:id="meineke-0483-seirenes-i-l8">quippe etiam bile nos levat vomitum ciens.</l>
+                  </lg>
+                </quote>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="ii" starts_on_page="851" ends_on_page="851" ana="#compiled-citation-normalized" xml:id="meineke-0483-seirenes-ii">
+              <lg>
+                <l n="1" xml:id="meineke-0483-seirenes-ii-l1">Νιφέτω μὲν ἀλφίτοις,</l>
+                <l n="2" xml:id="meineke-0483-seirenes-ii-l2">ψακαζέτω δ' ἄρτοισιν, ὑέτω δ' ἔτνει,</l>
+                <l n="3" xml:id="meineke-0483-seirenes-ii-l3">ζωμὸς διὰ τῶν ὁδῶν κυλινδείτω κρέα,</l>
+                <l n="4" xml:id="meineke-0483-seirenes-ii-l4">πλακοῦς ἑαυτὸν ἐσθίειν κελευέτω.</l>
+              </lg>
+              <note type="source">Athenaeus VI p. 269 e: τῶν δὲ Μεταγένους ἐκ Θουριοπερσῶν μνημονεύσας καταπαύσω τὸν λόγον, μακρὰ χαίρειν εἰπὼν ταῖς Νικοφῶντος Σειρῆσιν, ἐν αἷς τάδε γέγραπται Νιφέτω μὲν ἀλφίτοις κτλ.</note>
+              <note type="apparatus">Vs. 1 codd. fere νειφέτω. Ibidem ἀλφίτοις Schweighaeuserus pro ἀλφίτοισι. — Vs. 2 P ψεκαζέτω. — Vs. 3 VL καλινδείτω. Illud ABCP.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="iii" starts_on_page="851" ends_on_page="851" ana="#compiled-citation-normalized" xml:id="meineke-0483-seirenes-iii">
+              <lg>
+                <l n="1" xml:id="meineke-0483-seirenes-iii-l1">Ἄλλος μαχέσθω περὶ ἕδρας παροψίδι.</l>
+              </lg>
+              <note type="source">Athenaeus IX p. 368 b: ἐπὶ ἡδύσματος ἡ παροψὶς κεῖται — Νικοφῶν Σειρῆσιν Ἄλλος μαχέσθω κτλ.</note>
+              <note type="apparatus">Pro ἄλλος legendum aut ἄμης vel ἄμυλος, aut quod Bergkius Comment. p. 425 voluit ἀλλᾶς. Idem hunc versum cum secundo fragmento coniungendum censet; certe non longo ab illis versibus intervallo dissitus fuit.</note>
+            </div>
+          </div></body></text></TEI>

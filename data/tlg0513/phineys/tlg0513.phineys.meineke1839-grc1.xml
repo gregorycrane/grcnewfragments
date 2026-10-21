@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Theopompus, ΦΙΝΕΥΣ: fragments</title><author>Theopompus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0513.phineys.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0513.phineys.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0513.phineys.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_phineys"><head>ΦΙΝΕΥΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0513-phineys-1">
+              <lg>
+                <l n="1" xml:id="meineke-0513-phineys-1-l1">Παῦσαι κυβεύων, μειράκιον, καὶ τοῖς βλίτοις</l>
+                <l n="2" xml:id="meineke-0513-phineys-1-l2">διαχρῶ τὸ λοιπόν· κοιλίαν σκληρὰν ἔχεις,</l>
+                <l n="3" xml:id="meineke-0513-phineys-1-l3">τὰ πετραῖα τῶν ἰχθυδίων ἀπέσθιε·</l>
+                <l n="4" xml:id="meineke-0513-phineys-1-l4">ἡ τρὺξ ἄριστόν ἐστιν εἰς εὐβουλίαν.</l>
+                <l n="5" xml:id="meineke-0513-phineys-1-l5">ταῦτ᾽ ἢν ποιῇς, ῥᾴων ἔσει τὴν οὐσίαν.</l>
+              </lg>
+              <note type="source">
+                <bibl>Athenaeus XIV p. 649 b:</bibl> ἀλλ᾽ οὐκ ἐσθίειν σε προσέταξα, ἀλλὰ μὴ ἐσθίειν. τὸ γὰρ ἀπεσθίειν οὕτως εἴρηκεν</note>
+              <pb n="814" facs="urn:hathi:hvd.hxjhbd:scan:832" />
+              <note type="source">ἐν Φινεῖ ὁ κωμῳδιοποιὸς Θεόπομπος <quote>Παῦσαι κυβεύων</quote> κτλ.</note>
+              <note type="apparatus">Latine transtulit Grotius Excerptis p. 552: <quote>
+                  <lg>
+                    <l n="6" xml:id="meineke-0513-phineys-1-l6">Desine adolescens aleam, atque in posterum</l>
+                    <l n="7" xml:id="meineke-0513-phineys-1-l7">oleribus vescere. alvus praedura est tibi:</l>
+                    <l n="8" xml:id="meineke-0513-phineys-1-l8">tum saxatilibus piscibus tete abstine.</l>
+                    <l n="9" xml:id="meineke-0513-phineys-1-l9">villum praetenue confert ad sapientiam:</l>
+                    <l n="10" xml:id="meineke-0513-phineys-1-l10">hoc bibe, et habebit melius se patrimonium.</l>
+                  </lg>
+                </quote> Vs. 1 B κυβεύον ex correctione. — Vs. 2 σκληράν. Eustathius ad Odyss. p. 1753 23 ξηράν. — Vs. 3 ἀπέσθιε Athenaeus eumque sequutus Eustathius explicat μὴ ἔσθιε. Victorius autem Var. Lect. III 13 Athenaeum Theopompi praeceptum perperam interpretatum esse et ἀπεσθίειν eandem hic quam ubique significationem habere contendit. „Provocat is ad Catonem de Re rust. c. 158, ubi pro bene deiicienda alvo commendat inter alia mytulum, piscem capitonem, scorpionem et cochleas. Cfr Horat. Sat. II 4 27. Ad quae si quis regerat, mitylos et conchas non esse ex genere saxatilium, ecce rursus Plinius H. N. XXXII 9 31 et Dioscor. II 35 ad emolliendam alvum optimum esse dicit piscium ius, praesertim e scorpionibus et iulide et saxatilibus. At contra doct. Coraes ad Xenocratem de Alim. ex aquat. p. 138 docuit, ex vetustiorum medicorum ratione saxatiles pisces sistere potius alvum quam laxare: Hippocratem certe de Affect. Opp. ed. van der Lind. II p. 185 πετραίους ἰχθύας commendare, ubi siccare alvum oportet. Notandumque praeterea, non de piscium carne, sed de iure ex piscibus loqui auctores in contrariam partem citatos.“ Schweighaeuserus. Vera haec esse videntur; quamquam fatendum est audacissime ita Theopompum ἀπεσθίειν dixisse pro παύεσθαι ἐσθίοντα. Ex parte tantum similia sunt ἀποπαρθενεύεσθαι, ἀποκηδεῖν, ἀποσιτεῖν et alia quae collegit Valckenarius ad Theocriti Adon. p. 203 c. — Vs. 4 Grotius Exc. p. 971 „εὐβουλίαν mutat Casaubonus *) in εὐκοιλίαν. Ego aliter censeo: specie dandi consilii ad valetudinem aliud dari quod<ref target="#fn1">*)</ref>
+              </note>
+              <note id="fn1" type="footnote">*) Voluit Scaligerum nominare, ut recte Schweighaeuserus.</note>
+              <pb n="815" facs="urn:hathi:hvd.hxjhbd:scan:833" />
+              <note type="apparatus">menti et patrimonio conducat, idque κατὰ τὸ ἀπροσδόκητον. Sic sequente versu, cum expectaretur ut diceret ῥᾴων ἔσῃ τὴν κοιλίαν, subintulit τὴν οὐσίαν.” Non credo hic locum habere figuram παρὰ προσδοκίαν. Novum infert praeceptum ad mentis sanitatem spectans. οὐσία est res familiaris. — Vs. 5 ταύτην πόης (ποης Α) ABV. Correxit Scaliger. Ibidem ῥᾴων ἔσει Α. ῥᾷον ἔσει Β. καὶ ῥᾷον ἔσῃ VL. Ceterum haec ad formulam qua medici utebantur dicta esse, monuit Coraes apud Schweighaeuserum, allato Hippocrate Opp. van der Lind. II p. 212: ταῦτα ἢν ποιέῃ, ῥήϊον οἴσει τὴν νοῦσον.</note>
+            </div>
+          </div></body></text></TEI>

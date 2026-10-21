@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Demetrius Comicus, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><author>Demetrius Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0439.adelon_dramaton.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0439.adelon_dramaton.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0439.adelon_dramaton.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0439_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="i" author_heading="DEMETRIUS" work_heading="EX INCERTIS FABULIS" starts_on_page="877" ends_on_page="877" ana="#compiled-citation-normalized" xml:id="meineke-0439-adelon_dramaton-i">
+              <lg type="verse">
+                <l n="1" xml:id="meineke-0439-adelon_dramaton-i-l1">Ἢ σῦκον ἢ φάσηλον ἢ τοιοῦτό τι.</l>
+              </lg>
+              <note type="source">Athenaeus II p. 56 a: Φάσηλοι. Λακεδαιμόνιοι — διδόασι τραγήματα σῦκά τε ξηρὰ καὶ κυάμους καὶ φασήλους χλωρούς. ἱστορεῖ Πολέμων — Δημήτριος Ἢ σῦκον κτλ.</note>
+            </div>
+          <pb n="878" facs="urn:hathi:hvd.hxjhbd:scan:896" />
+            <div type="textpart" subtype="fragment" n="ii" ana="#compiled-citation-normalized" xml:id="meineke-0439-adelon_dramaton-ii">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0439-adelon_dramaton-ii-l1">Σφόδρʼ εὐάλωτόν ἐστιν ἡ πονηρία·</l>
+                  <l n="2" xml:id="meineke-0439-adelon_dramaton-ii-l2">εἰς γὰρ τὸ κέρδος μόνον ἀποβλέπουσʼ ἀεὶ</l>
+                  <l n="3" xml:id="meineke-0439-adelon_dramaton-ii-l3">ἀφρόνως ἅπαντα καὶ προπετῶς συμπείθεται.</l>
+                </lg>
+              </quote>
+              <note type="source">Stobaeus Floril. II 1 in titulo περὶ κακίας. Δημητρίου Σφόδρʼ εὐάλωτον κτλ.</note>
+              <note type="apparatus">Vs. 2 legebatur ἀποβλέπουσα (cod. A ἀποβλέπουσιν) et vs. 3 ἀπαντᾷ. Illud Grotius, hoc Valckenarius correxit apud Gaisfordium.</note>
+            </div>
+          </div></body></text></TEI>

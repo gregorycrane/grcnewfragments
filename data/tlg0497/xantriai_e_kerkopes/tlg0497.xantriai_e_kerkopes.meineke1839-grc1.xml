@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Plato Comicus, ΞΑΝΤΡΙΑΙ Η ΚΕΡΚΩΠΕΣ: fragments</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.xantriai_e_kerkopes.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.xantriai_e_kerkopes.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.xantriai_e_kerkopes.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_xantriai_e_kerkopes"><head>ΞΑΝΤΡΙΑΙ Η ΚΕΡΚΩΠΕΣ</head><pb n="646" facs="urn:hathi:hvd.hxjhbd:scan:664" />
+            <div type="textpart" subtype="fragment" n="i" author_heading="PLATONIS" work_heading="ΞΑΝΤΡΙΑΙ Η ΚΕΡΚΩΠΕΣ" ana="#compiled-citation-normalized" xml:id="meineke-0497-xantriai_e_kerkopes-i">
+              <lg>
+                <l n="1" xml:id="meineke-0497-xantriai_e_kerkopes-i-l1">Χαῖρε παλαιογόνων ἀνδρῶν θεατῶν ξύλλογε παντοσόφων.</l>
+              </lg>
+              <note type="source">Hephaestio XV p. 91: γίνεται δὲ καὶ τριπενθημιμερὲς ἐκ τούτων, τὸ καλούμενον Πλατωνικόν, ἐν ᾧ τὰ μὲν ἑκατέρωθεν δύο δακτυλικά εἰσι πενθημιμερῆ, τὸ δὲ μέσον ἰαμβικόν. κέχρηται δὲ αὐτῷ Πλάτων ἐν Ξαντρίαις Χαῖρε παλαιογόνων κτλ.</note>
+              <note type="apparatus">Cfr. ad Fragm. Cratini p. 102.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="ii" author_heading="PLATONIS" work_heading="ΞΑΝΤΡΙΑΙ Η ΚΕΡΚΩΠΕΣ" ana="#compiled-citation-normalized" xml:id="meineke-0497-xantriai_e_kerkopes-ii">
+              <lg>
+                <l n="1" xml:id="meineke-0497-xantriai_e_kerkopes-ii-l1">Ἦν δὴ θόρυβος τευταζόντων.</l>
+              </lg>
+              <note type="source">Photius Lex. p. 504. τευθάζειν: — Πλάτων Ξάνταις (sic) Ἦν δὴ θόρυβος τευτάζοντων. ἀντὶ τοῦ πραγματευομένων ἢ διατριβόντων Eadem Suidas s. v. τευτάζειν. Etymol. M. p. 755 43: Πλάτων, ἦν δὲ θόρυβος τευταζόντων,</note>
+              <note type="apparatus">ubi cod. Dorvill. apud Gaisfordium ad Hephaest. p. 91 habet Πλάτων ἑτ (superscripto σ″) ἦν δὴ θόρμος (sic) τευταζόντων.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="iii" author_heading="PLATONIS" work_heading="ΞΑΝΤΡΙΑΙ Η ΚΕΡΚΩΠΕΣ" ana="#compiled-citation-normalized" xml:id="meineke-0497-xantriai_e_kerkopes-iii">
+              <lg>
+                <l n="1" xml:id="meineke-0497-xantriai_e_kerkopes-iii-l1">Τῶνδε βουλευτὶς πόνων.</l>
+              </lg>
+              <note type="source">Etymol. M. p. 595 40: βουλευτής, βουλευτίς. τῶνδε βουλευτὶς πόνων, ἐν Ξαντρίαις.</note>
+              <note type="apparatus">
+                <quote>Haec quo iure ad Aeschyli Xantrias relata sint, non apparet. Quanto probabilius est, post πόνων Platonis nomen excidisse, cuius Ξάντριαι partim laudantur.</quote> Haec ex Curis crit. p. 40. Vid. Hist. crit. p. 176.</note>
+            </div>
+          </div></body></text></TEI>

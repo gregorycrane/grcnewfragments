@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Plato Comicus, ΠΑΙΔΑΡΙΟΝ: fragments</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.paidarion.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.paidarion.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.paidarion.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_paidarion"><head>ΠΑΙΔΑΡΙΟΝ</head><pb n="648" facs="urn:hathi:hvd.hxjhbd:scan:666" />
+            <div type="textpart" subtype="fragment" n="iii" author_heading="PLATONIS" work_heading="ΠΑΙΔΑΡΙΟΝ" ana="#compiled-citation-normalized" xml:id="meineke-0497-paidarion-iii">
+              <lg>
+                <l n="1" xml:id="meineke-0497-paidarion-iii-l1">Ὥσπερ τοὺς πουλύποδας πρώτιστά σε.</l>
+              </lg>
+              <note type="source">Athenaeus VII p. 316 c: <quote>Ἀττικοὶ γὰρ πουλύπουν λέγουσι — Πλάτων Παιδὶ Ὥσπερ τοὺς πουλύποδας πρώτιστά σε.</quote>
+              </note>
+              <note type="apparatus">Casaubonus et Dindorfius Παιδίῳ. V. Hist. crit. p. 176. Nec sententiae nec metro sua constat ratio. Th. Bergkius versum Eupolideum latere suspicans tentabat, ὡσπερεὶ τοὺς πουλύποδας περιτρώγειν πρώτιστά σε.</note>
+            </div>
+          <pb n="647" facs="urn:hathi:hvd.hxjhbd:scan:665" />
+            <div type="textpart" subtype="fragment" n="i" ana="#compiled-citation-normalized" xml:id="meineke-0497-paidarion-i">
+              <head>I.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0497-paidarion-i-l1">Εἰ μὲν μὴ λίαν [ὑπὸ τοῦδ᾽], ὧνδρες, ἠναγκαζόμην</l>
+                <l n="2" xml:id="meineke-0497-paidarion-i-l2">στρέψαι δεῦρ᾽, οὐκ ἂν παρέβην εἰς λέξιν τοιάνδ᾽ ἐπῶν.</l>
+              </lg>
+              <note type="source">Scholiasta Aristophanis Pac. 733: <quote>παράβασιν δὲ τοῦτο ἐκάλουν ἀπὸ τοῦ παραβαίνειν τὸν χορὸν ἀπὸ τῆς νενομισμένης στάσεως εἰς τὴν καταντικρὺ τοῦ θεάτρου ὄψιν, ὁπότε ἐβούλετο ὁ ποιητὴς διαλεχθῆναί τι ἔξω τῆς ὑποθέσεως ἄνευ τῶν ὑποκριτῶν πρὸς τὸ θέατρον διὰ τοῦ χοροῦ. ἐστρέφετο δὲ ὁ χορὸς καὶ ἐγίνοντο στίχοι δ΄. εἶτα διελθόντες τὴν καλουμένην παράβασιν, ἐστρέφοντο πάλιν εἰς τὴν προτέραν στάσιν. δῆλον δὲ αὐτοὶ ποιοῦσιν οἱ ποιηταί, τὸ στρέφεσθαι σημαίνοντες καὶ τὸ παραβαίνειν. Πλάτων ἐν τῷ Παιδαρίῳ Εἰ μὲν μὴ λίαν κτλ.</quote> Similia Suidas s. v. <quote>παράβασις</quote>, ubi <quote>ἄνδρες</quote> legitur.</note>
+              <note type="apparatus">Lacunam a Bentleio indicatam probabiliter expleas inserendis verbis <quote>ὑπὸ τοῦδ᾽</quote>.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="ii" ana="#compiled-citation-normalized" xml:id="meineke-0497-paidarion-ii">
+              <head>II.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0497-paidarion-ii-l1">Φέρε τοῦτ᾽ ἐμοὶ</l>
+                <l n="2" xml:id="meineke-0497-paidarion-ii-l2">δεῖξον τὸ κανοῦν μοι δεῦρο πῆ μάχαιρ᾽ ἔνι.</l>
+              </lg>
+              <note type="source">Scholiasta Aristophanis Pac. 948: <quote>ἐκέκρυπτο ἐν τῷ κανῷ ἡ μάχαιρα ταῖς ὀλαῖς καὶ τοῖς στέμμασι. καὶ ἐντεῦθεν κανοῦν ἀπὸ τοῦ κνεῖν Πλάτων ἐν Παιδαρίῳ Φέρε τοῦτ᾽ ἐμοί κτλ.</quote>
+              </note>
+              <note type="apparatus">Pro δεῖξον vulgo δῆξον. Correxit Kusterus, firmante nunc Ravennate, qui μοι post κανοῦν recte omittit. Fortasse locus ita scribendus: <quote>Φέρε τοῦτό μοι | δεῖξον τὸ κανοῦν δεῦρ᾽· εἰπέ μοι, μάχαιρ᾽ ἔνι;</quote> In verbis scholiastae ante καὶ ἐντεῦθεν aliquid excidit, quod facili opera suppleas ex Etymol. M. p. 489 9. quo duce pro κνεῖν scribe καίνειν.</note>
+            </div>
+          </div></body></text></TEI>

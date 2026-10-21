@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Magnes, ΠΥΤΑΚΙΔΗΣ: fragments</title><author>Magnes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0474.pytakides.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0474.pytakides.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0474.pytakides.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0474_pytakides"><head>ΠΥΤΑΚΙΔΗΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0474-pytakides-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0474-pytakides-1-l1">Εἰπέ μοι· νῦν δὴ μὲν ὤμνυς μὴ γεγονέναι, νῦν δὲ φῇς.</l>
+                </lg>
+              </quote>
+              <note type="source">Suidas vol. II p. 640. Νῦν δή: ἀρτίως ἢ μικρὸν ἔμπροσθεν. — Μάγνης δὲ ἐν Πυτακίδῃ <quote>Εἰπέ μοι· νῦν δὴ μὲν ὤμνυς</quote> κτλ.</note>
+              <note type="apparatus">Ita codd. et Photius Lex. p. 305 9. Vulgo</note>
+              <pb n="11" facs="urn:hathi:hvd.hxjhbd:scan:21" />
+              <note type="apparatus">νῦν μὲν δή. Pro νῦν δὴ in Suidae glossa scriptorumque locis quos affert (Plat. Legg. III p. 683 E. Eurip. Hipp. 233 et Meleag. fragm. XVI p. 231 Matth.) superiores Suidae editiones habent νῦνδη, quod recte habet si νύνδη scripseris. Bernhardius non monito lectore edidit νῦν δή, contra mentem grammatici, quem Suidas exscripsit. Ita enim ille pergit: <quote>ἐν δὲ τοῖς Νόμοις διαλελυμένον εἴρηκε (Plato Legg. I p. 629 D) τὸ μὲν νῦν ἐπὶ τοῦ παρόντος χρόνου, τὸ δὲ δὴ ἐπὶ συνδέσμου· “Ὃς δὴ πάντων τῶν πολέμων χαλεπώτατος, ὡς ἔφαμεν ἡμεῖς νῦν δή.</quote> Spectant haec ad grammaticorum quorumdam doctrinam, νῦν et νῦν δή sive potius νύνδη ita distinguentium, ut νῦν de tribus temporibus, νύνδη autem nonnisi de praeterito tempore dici praeciperent. Ita Etymol. M. p. 78 30 emendatum a Lehrsio meo Quaest. ep. p. 131. Eiusdem doctrinae vestigia supersunt apud schol. Aristoph. Equ. 5. <quote>νῦν δὴ ἔφερες: οὕτως Ἀττικοὶ ἀντὶ τοῦ ἀρτίως.</quote> De titulo fabulae dixi Hist. crit. p. 35. Probo nunc Bernhardium Τιτακίδης dramatis indicem fuisse suspicantem. Cfr Hist. crit. p. 422.</note>
+            </div>
+          </div></body></text></TEI>

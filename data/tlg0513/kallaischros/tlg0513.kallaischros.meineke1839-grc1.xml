@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Theopompus, ΚΑΛΛΑΙΣΧΡΟΣ: fragments</title><author>Theopompus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0513.kallaischros.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0513.kallaischros.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0513.kallaischros.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_kallaischros"><head>ΚΑΛΛΑΙΣΧΡΟΣ</head><div type="textpart" subtype="fragment" n="i" ana="#compiled-citation-normalized" xml:id="meineke-0513-kallaischros-i">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0513-kallaischros-i-l1">Ἰχθύων δὲ δὴ</l>
+                  <l n="2" xml:id="meineke-0513-kallaischros-i-l2">ὑπογάστρι᾽ ὦ Δάματερ.</l>
+                </lg>
+              </quote>
+              <note type="source">
+                <bibl>Athenaeus VI p. 302 e:</bibl>
+                <quote>ὅταν δὲ καὶ Θεόπομπος ἐν Καλλαίσχρῳ λέγῃ Ἰχθύων δὲ δὴ ὑπογάστρι᾽ ὦ Δάματερ, παρατηρητέον ὅτι ἐπὶ ἰχθύων μὲν ὑπογάστριον λέγουσι, σπανίως δὲ ἐπὶ χοίρων καὶ τῶν ἄλλων ζῴων.</quote>
+              </note>
+              <note type="apparatus">Libri ὑπογάστριον, quod correctum ex IX p. 399 d: ὑπογάστριον δὲ μόνον ὡς ἐπὶ τῶν ἰχθύων λέγεται. Στράττις Ἀταλάντῃ. Θεόπομπος Καλλαίσχρῳ Ἰχθύων δὲ δὴ ὑπογάστρι᾽ ὦ Δάματερ, ubi cod. A ὑπογαστριω διαματερ, quod vicissim correctum ex libro VI. Pro Δάματερ libro IX cod. B habet Δήμητερ. V. Lobeckium ad Phryn. p. 640.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="ii" ana="#compiled-citation-normalized" xml:id="meineke-0513-kallaischros-ii">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0513-kallaischros-ii-l1">Ἠρίσταμεν· δεῖ γὰρ συνάπτειν τὸν λόγον.</l>
+                </lg>
+              </quote>
+              <note type="source">
+                <bibl>Athenaeus X p. 423 a:</bibl>
+                <quote>καὶ ἠρίσταμεν δὲ εἴρηκε Θεόπομπος Καλλαίσχρῳ Ἠρίσταμεν κτλ.</quote>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="iii" ana="#compiled-citation-normalized" xml:id="meineke-0513-kallaischros-iii">
+              <head>III.</head>
+              <note type="source">
+                <bibl>Pollux IX 59:</bibl>
+                <quote>τὰ δὲ στατῆρος ἄξια στατηριαῖα φαίης ἄν, ὡς Θεόπομπος ἐν Καλλαίσχρῳ οὐ φησιν εἶναι τῶν</quote>
+              </note>
+              <pb n="800" facs="urn:hathi:hvd.hxjhbd:scan:818" />
+              <quote>ἑταιρῶν τὰς μέσας στατηριαίας.</quote>
+              <note type="apparatus">Scribendum videtur <quote>ἐν Καλλαίσχρῳ πού φησιν εἶναι</quote>, ut X 108 ὥσπερ που καὶ Θεόπομπος ἐν Ἀλθαίᾳ. Nisi forte hic Theopompi versus fuit:<lg>
+                  <l n="1" xml:id="meineke-0513-kallaischros-iii-l1">Οὗ φασιν εἶναι τῶν ἑταιρῶν τὰς μέσας</l>
+                  <l n="2" xml:id="meineke-0513-kallaischros-iii-l2">στατηριαίας.</l>
+                </lg>Quae de urbe dicta videntur, in qua meretrices magno pretio noctes vendebant, ut vel mediocres (μέσαι) statera exigerent. Stater fere Laidos pretium fuit. V. Epicrates Antilaid. II 12 et 17.</note>
+            </div>
+          </div></body></text></TEI>

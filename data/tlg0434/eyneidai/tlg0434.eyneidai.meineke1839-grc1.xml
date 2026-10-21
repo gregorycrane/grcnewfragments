@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Cratinus, ΕΥΝΕΙΔΑΙ: fragments</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.eyneidai.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.eyneidai.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.eyneidai.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_eyneidai"><head>ΕΥΝΕΙΔΑΙ</head><div type="textpart" subtype="fragment" n="i" ana="#compiled-citation-normalized" xml:id="meineke-0434-eyneidai-i">
+              <lg>
+                <l n="1" xml:id="meineke-0434-eyneidai-i-l1">“Ἥβης ἐκείνης νοῦ τ᾽ ἐκείνου καὶ φρενῶν.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. LII 11: <quote>Κρατῖνος ἐν Εὐνίδαις· Ἥβης ἐκείνης, νοῦ δὲ τοῦδε καὶ φρενῶν κατάλληλος.</quote>
+              </note>
+              <note type="apparatus">
+                <p>Postremam</p>
+              </note>
+              <pb n="57" facs="urn:hathi:hvd.hxjhbd:scan:67" />
+              <note type="apparatus">
+                <p>vocem delevit Grotius. Iulianus a Gaisfordio allatus Misop. p. 339 d: <quote>ὅπερ ὑμεῖς ὁρῶντες ὀλίγῳ πρότερον ἀναμιμνήσκεσθε νῦν ἥβης ἐκείνης νοῦ τε ἐκείνου καὶ φρενῶν.</quote> Item Synesius, scriptor antiquae comoediae studiosissimus*), Epist. 129 p. 265: <quote>
+                    <lg>
+                      <l n="2" xml:id="meineke-0434-eyneidai-i-l2">στένομεν μεμνημένοι ἥβης τε ἐκείνης νοῦ τ’ ἐκείνου καὶ φρενῶν.</l>
+                    </lg>
+                  </quote> Ubi verba στένομεν μεμνημένοι dubitari potest utrum Synesii sint an Cratini. Cum Cratini versu coniunxit ea Blomfieldius ad Aeschyli Pers. 290 et Th. Bergkius Comment. p. 71. In ceteris probavi scripturam eam, in qua Iulianus et Synesius consentiunt, νοῦ τ’ ἐκείνου. Stobaeus νοῦ δὲ τοῦδε.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="ii" author_heading="CRATINI" work_heading="ΕΥΝΕΙΔΑΙ" starts_on_page="57" ana="#compiled-citation-normalized" xml:id="meineke-0434-eyneidai-ii">
+              <head>II. III.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0434-eyneidai-ii-l1">Δωροῖ συκοπέδιλε.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="iii" author_heading="CRATINI" work_heading="ΕΥΝΕΙΔΑΙ" starts_on_page="57" ana="#compiled-citation-normalized" xml:id="meineke-0434-eyneidai-iii">
+              <lg>
+                <l n="1" xml:id="meineke-0434-eyneidai-iii-l1">Τέκτονες εὐπαλάμων ὕμνων.</l>
+              </lg>
+            </div>
+            <pb n="59" facs="urn:hathi:hvd.hxjhbd:scan:69" />
+            <div type="textpart" subtype="fragment" n="iv_v" ana="#compiled-citation-normalized" xml:id="meineke-0434-eyneidai-iv_v">
+              <head>IV. V.</head>
+              <note type="source">
+                <bibl>Suidas vol. I p. 149.</bibl>
+                <quote>Ἀμφιανακτίζειν: ᾄδειν τὸν Τερπάνδρου νόμον, τόν καλούμενον ῎Ορθιον, οὗ τὸ προοίμιον ταύτην τὴν ἀρχὴν εἶχεν
+<lg>
+                    <l n="1" xml:id="meineke-0434-eyneidai-iv_v-l1">Ἀμφί μοι αὐτὸν ἄναχθ᾽ ἑκατηβόλον ἀδέτω φρήν.</l>
+                  </lg>
+ἔστι δὲ καὶ ἐν Εὐναίᾳ καὶ ἐν Ἀναγύρῳ.</quote>
+              </note>
+              <note type="apparatus">
+                <p>Dindorfius ad Aristoph. Fragm. p. 95 corrigit <title>Εὐνείδαις</title> vel <title>Πυλαίᾳ</title>. Praetuli <title>Εὐνείδαις</title>, in qua fabula frequentes fuisse aliorum poetarum parodias Quaest. scen. I p. 21 monui ex Athenaeo XV p. 698 d: <quote>κέχρηται δὲ (παρῳδίαις) καὶ Κρατῖνος ὁ τῆς ἀρχαίας κωμῳδίας ποιητὴς ἐν Εὐνείδαις.</quote> Hinc fortasse ad eandem fabulam referenda sunt, quae leguntur apud Porphyrium Eusebii Praep. Ev. X 3: <quote>τὸ γὰρ „τὸν δ᾽ ἀπαμειβόμενος προσέφη κρείων Διομήδης” σιγῶ, Ὁμήρου κωμῳδηθέντος ὑπὸ Κρατίνου διὰ τὸ πλεονάσαι ἐν τῷ „τὸν δ᾽ ἐπαμειβόμενος.”</quote> Itaque ut Homericum illud hemistichium <quote>τὸν δ᾽ ἐπαμειβόμενος</quote>, ita etiam dithyrambicis poetis frequentatum exordium <quote>„ἀμφί μοι αὖτις ἄνακτα”</quote> parodiae lusu riserat Cratinus. Terpandri versus a Suida et schol. Arist. Nub. 591 allatus praeeunte fere Ernestio ita scribendus est:</p>
+              </note>
+              <pb n="60" facs="urn:hathi:hvd.hxjhbd:scan:70" />
+              <quote>
+                <lg>
+                  <l n="2" xml:id="meineke-0434-eyneidai-iv_v-l2">Ἀμφί μοι αὖτις ἄναχθ᾽ ἑκατηβόλον ἀδέτω ἁ φρήν.</l>
+                </lg>
+              </quote>
+              <note type="apparatus">Frequentem in Nomis fuisse usum hexametri, maxime in prooemiis, docet Timothei Milesii exordium Persarum apud Plutarchum Philop. c. XI.<quote>
+                  <lg>
+                    <l n="3" xml:id="meineke-0434-eyneidai-iv_v-l3">Κλεινὸν ἐλευθερίας τεύχω μέγαν Ἑλλάδι κοσμόν.</l>
+                  </lg>
+                </quote>Porro αὖτις quod pro αὐτὸν reposui ipse Suidas l. l. confirmat: <quote>Ἀμφιανακτίζειν: διὰ τὸ οὕτω προοιμιάζεσθαι. Τέρπανδρος· Ἀμφί μοι αὖτις ἄνακτα· καὶ Ἀριστοφάνης ἐν Νεφέλαις· Ἀμφί μοι αὖτε Φοῖβε ἄναξ Δήλιε.</quote> Ita enim rectissime Kusterus correxit editum Περίανδρος. Idem voluit Bergkius p. 71. Quae statim sequuntur apud Suidam, <quote>Ἀμφιάνακτας ἔλεγον καὶ τοὺς διθυραμβοποιούς· συνεχῶς γὰρ ἐκεῖνοι ταύτῃ ἐχρῶντο τῇ λέξει,</quote> ea fortasse et ipsa ad Cratinum referenda sunt. Terpandri Nomum respexit etiam Hesychius, <quote>Ἀμφιάνακτα: ἀρχὴ νόμου κιθαρῳδικοῦ.</quote> Ubi scribendum <quote>Ἀμφὶ ἄνακτα.</quote>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="vi" ana="#compiled-citation-normalized" xml:id="meineke-0434-eyneidai-vi">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0434-eyneidai-vi-l1">Ἐπίσχες αὐτοῦ, μὴ πέρα προβῇς λόγου.</l>
+                </lg>
+              </quote>
+              <note type="source">Io. Alexandrinus de acc. p. 29 25: <quote>ἔστι τινὰ (adverbia) καὶ παρὰ αἰτιατικῆς γεγονότα, οἷον τὸ πέραν καὶ πέρην — καὶ ἀπὸ δοτικῆς· ἐπίσχες αὐτοῦ, μὴ πέρα προβῆς λόγου, Κρατῖνος Εὐμένισιν.</quote>
+              </note>
+              <note type="apparatus">Sublato scholiastae Aristophanis (Fragm. II. III.) testimonio, hic unus locus relictus est, in quo Cratini Eumenides commemorantur, quo nomine qui Cratinum eodem quod Aeschylus in cognomine tragoedia sequutus est consilio fabulam scripsisse censet Th. Bergkius Comment. p. 68, vehementer vereor ne sententiam suam paucis probaturus sit. Mihi quidem, quamquam olim (Quaest. scen. I p. 21) contrariam sententiam sequuto, nunc re diligenter perpensa non dubitandum videtur, quin etiam Ioannes Alex. Eunidas, non Eumenidas Cratini ad partes vocaverit. Parum cognitum librariis Eunidarum nomen errorem genuit.</note>
+            </div>
+          </div></body></text></TEI>

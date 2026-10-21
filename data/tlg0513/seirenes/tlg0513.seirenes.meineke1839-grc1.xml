@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Theopompus, ΣΕΙΡΗΝΕΣ: fragments</title><author>Theopompus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0513.seirenes.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0513.seirenes.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0513.seirenes.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0513_seirenes"><head>ΣΕΙΡΗΝΕΣ</head><pb n="811" facs="urn:hathi:hvd.hxjhbd:scan:829" />
+            <div type="textpart" subtype="fragment" n="i" author_heading="ΘΕΟΠΟΜΠΟΣ" work_heading="ΣΕΙΡΗΝΕΣ" ana="#compiled-citation-normalized" xml:id="meineke-0513-seirenes-i">
+              <lg>
+                <l n="1" xml:id="meineke-0513-seirenes-i-l1">Θύννων τε λευκῶν Σικελικῶν ὑπήτρια.</l>
+              </lg>
+              <note type="source">Athenaeus IX p. 399 d: ἐν δὲ Σειρῆσιν ὑπήτρια λέγει (Theopompus) τὰ ὑπογάστρια λέγων οὕτως Θύννων τε λευκῶν κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="ii" author_heading="ΘΕΟΠΟΜΠΟΣ" work_heading="ΣΕΙΡΗΝΕΣ" ana="#compiled-citation-normalized" xml:id="meineke-0513-seirenes-ii">
+              <lg>
+                <l n="1" xml:id="meineke-0513-seirenes-ii-l1">Αὐλεῖ γὰρ σαπρά</l>
+                <l n="2" xml:id="meineke-0513-seirenes-ii-l2">αὕτη γε κρούμαθ᾽ οἷα τἀπὶ Χαριξένης.</l>
+              </lg>
+              <note type="source">Etymol. M. p. 367 22. Ἐπὶ Χαριξένης: αὐλητρὶς ἡ Χαριξένη ἀρχαία καὶ ποιήτρια κρουμάτων. Θεόπομπος Αὐλεῖ γὰρ σαπρὰ αὕτη γε κρουμάτια τὰ ἐπὶ Χαριξένης.</note>
+              <note type="apparatus">Correxi supra p. 98.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="iii" author_heading="ΘΕΟΠΟΜΠΟΣ" work_heading="ΣΕΙΡΗΝΕΣ" ana="#compiled-citation-normalized" xml:id="meineke-0513-seirenes-iii">
+              <lg>
+                <l n="1" xml:id="meineke-0513-seirenes-iii-l1">Ὑποδοῦ λαβὼν τὰς περιβαρίδας.</l>
+              </lg>
+              <note type="source">Scholiasta Aristophanis Lysistr. 45: εἶδος ὑποδήματος αἱ περιβαρίδες, ὡς καὶ Θεόπομπος ἐν Σειρῆσιν Ὑποδοῦ κτλ. Eadem Suidas v. περιβαρίδες, ubi vitiose legitur ὑπὸ σοῦ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="iv" author_heading="ΘΕΟΠΟΜΠΟΣ" work_heading="ΣΕΙΡΗΝΕΣ" ana="#compiled-citation-normalized" xml:id="meineke-0513-seirenes-iv">
+              <lg>
+                <l n="1" xml:id="meineke-0513-seirenes-iv-l1">Φρυγεύς, θυεία, λήκυθος.</l>
+              </lg>
+              <note type="source">Pollux VII 181: φρυγεύς, ἀγγεῖον ὅπου ἔφρυγον. Θεόπομπος ἐν Σειρῆσι Φρυγεύς, φησί, θυεία, λήκυθος. Eadem ferme leguntur Χ 108: τὸν δὲ φρυγέα καὶ αὐτὸν ὡς σκεῦος μαγειρικόν, εἴτε τὸ ἀγγεῖον ἐν ᾧ ἔφρυγον, εἴτε τὸ φρύγετρον, ὡς ὁ κωμικὸς Θεόπομπος ὑποδηλοῖ λέγων Φρυγεύς κτλ.</note>
+            </div>
+          </div></body></text></TEI>

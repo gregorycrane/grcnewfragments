@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Plato Comicus, ΠΕΡΙΑΛΓΗΣ: fragments</title><author>Plato Comicus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0497.perialges.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0497.perialges.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0497.perialges.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0497_perialges"><head>ΠΕΡΙΑΛΓΗΣ</head><pb n="652" facs="urn:hathi:hvd.hxjhbd:scan:670" />
+            <div type="textpart" subtype="fragment" n="i" author_heading="PLATONIS" work_heading="ΠΕΡΙΑΛΓΗΣ" ana="#compiled-citation-normalized" xml:id="meineke-0497-perialges-i">
+              <lg>
+                <l n="1" xml:id="meineke-0497-perialges-i-l1">Ὦ θεῖε Μόρυχε, νῦν γὰρ εὐδαίμων ἔφυς,</l>
+                <l n="2" xml:id="meineke-0497-perialges-i-l2">καὶ Γλαυκέτης ἡ ψῆττα, καὶ Λεωγόρας,</l>
+                <l n="3" xml:id="meineke-0497-perialges-i-l3">οἳ ζῆτε τερπνῶς οὐδὲν ἐνθυμούμενοι.</l>
+              </lg>
+              <note type="source">Scholiasta Aristophanis Nub. 110: Λεωγόρας δὲ τρυφερός τις, ὁ Ἀνδοκίδου πατήρ. Πλάτων Περιαλγεῖ Ὦ θεῖε Μόρυχε κτλ. Eadem leguntur apud Suidam III p. 583: ὁ δὲ Λεωγόρας τρυφερός τις. Πλάτων λέγει (fort. Περιαλγεῖ) Ὦ θεῖε Μόρυχε κτλ.</note>
+              <note type="apparatus">Vs. 1 legebatur Μόρυχέ τε νῦν γάρ. Suidas Μόρυχε τέως γάρ, quod cum Ruhnkenio ad Tim. p. 183 et Sluitero Lectt. Andoc. p. 12 praefert Reisigius Coniect. p. 72. Hanovius Exerc. crit. I p. 125 Μόρυχε, θεοῦ γάρ. At neque τέως neque θεοῦ monosyllabum est apud comicos. Itaque cum Hermanno Casaubonum sequutus sum. Nescio tamen an in illo τέως aliud quid lateat. Nihil desiderarem si legeretur, <quote>ὦ θεῖε Μόρυχ᾽, οὐκ ἔτος ἄρ᾽ εὐδαίμων ἔφυς</quote>. De formula οὐκ ἔτος ἄρα vide Aristoph. Plut. 404. Eccles. 248 et Athen. III p. 113 d. Pro νῦν Th. Bergkius Comment. p. 345 scribebat νοῦν. — Vs. 2 legebatur ᾖ. Suidas ἡ. Correxit Ruhnkenius. — Vs. 3 Suidas τερπνῶς, scholiasta τερπνόν. Casaubonus tentabat οἱ ζῆτ᾽ ἀτερπὲς οὐδὲν ἐνθυμούμενοι. De Morycho et Glauceta Aristophanis testimonia apposuit Ruhnkenius. Ψήτταν cur dixerit Glaucetam, haud alia fuisse videtur caussa, quam quod hoc piscium genere, gulosis hominibus impense amato (Clem. Alex. Paed. II 1 p. 240 ed. Col.), summopere delectabatur. Similem ob caussam Callimedonti Carabi cognomen haesit. Alia Aristophanei loci ratio Lys. 131: <quote>ταυτὶ σὺ λέγεις, ὦ ψῆττα</quote>. Quibus verbis respicitur quod Calonice vs. 115 di-</note>
+              <pb n="653" facs="urn:hathi:hvd.hxjhbd:scan:671" />
+              <note type="apparatus">xerat, ἐγὼ δὲ γ᾿ ἂν κὰν ὡσπερεὶ ψῆτταν, δοκῶ, δοῦνἂν ἐμαυτῆς παρταμοῦσα θἥμισυ. De Leogora Hermannus attulit Sluiterum Lectt. Andoc. p. 11. Cfr Athenaeus IX p. 387 b: <quote>κωμῳδεῖται γὰρ ὁ Λεωγόρας ὡς γαστρίμαργος ὑπὸ Πλάτωνος ἐν Περιαλγεῖ.</quote>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="ii" ana="#compiled-citation-normalized" xml:id="meineke-0497-perialges-ii">
+              <lg>
+                <l n="1" xml:id="meineke-0497-perialges-ii-l1">Ὅς πρῶτα μὲν Κλέωνι πόλεμον ἠράμην.</l>
+              </lg>
+              <note type="source">Priscianus Inst. gramm. XVIII p. 211 Kr. „Attici ἠράμην πόλεμον πρὸς τοῦτον καὶ τούτῳ. Πλάτων περὶ Λάγιος <quote>Πρῶτα μὲν</quote> κτλ.”</note>
+              <note type="apparatus">Ita Putschius. Krehlius edidit incertum an e codicibus: Πλάτων Περιαλγεῖ, πρῶτα μὲν κτλ. Recte Porsonus ad Euripidis Med. 139 no. XII. <quote>Περιαλγεῖ, ὃς πρῶτα μὲν</quote> etc. Cod. Monac. apud Spengelium Append. Varr. p. 621 habet ΠΕΡΙΛΠΩC πρῶτα μὲν etc. Ceterum cfr Hist. crit. p. 165.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="iii" ana="#compiled-citation-normalized" xml:id="meineke-0497-perialges-iii">
+              <lg>
+                <l n="1" xml:id="meineke-0497-perialges-iii-l1">Ἀλλ᾿ ἡγούμεσθ᾿ εὖ κἀνδρείως πολλῷ πάντων προέχοντες.</l>
+              </lg>
+              <note type="source">Priscianus l. l. p. 248. „Attici προέχοντες τούτων καὶ τούτοις, καὶ πολλῇ πάντων. Πλάτων περὶ πάσης ἄλλης <quote>οὖν ἔοικ᾿ ἀνδρείας πολλῷ πάντων προέχοντες</quote>.”</note>
+              <note type="apparatus">Cod. Monac. Πλάτων περι αΛΤει αΛΛΕΤOYNeCdOYΚαΝdΡΙΩC ΠΟΛΛΝ πάντων προέχοντες. Cod. Leid. Πλάτων Περιαλγεῖ ἀλλ᾿ ηγουνεσθαγκανδριως πολλων παντων προεχοντες. Quae recte emendavit editor Scapulae Oxoniensis. Frustra Hanovius Exerc. I p. 41 tentabat: <quote>ἀλλ᾿ ἐπτοιεῖσθ᾿ οὐκ ἀνδρείως</quote>. Formulae εὖ καὶ ἀνδρείως exempla vide apud Aristoph. Thesm. 656. Platonem Theaet. p. 157 d et Legg. IX 855 a. De Atheniensium principatu et imperio locum intelligendum esse non dubito.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="iv" ana="#compiled-citation-normalized" xml:id="meineke-0497-perialges-iv">
+              <lg>
+                <l n="1" xml:id="meineke-0497-perialges-iv-l1">Χρηστὸν μὴ κατὰ Μειδίαν ὀρτυγοκόπον.</l>
+              </lg>
+              <note type="source">Scholiasta Aristophanis Av. 1297: δηλοῖ δὲ τοῦτο (ὀρτυγοκόπον fuisse Midiam) Ἀριστοφάνης ἐν Περιαλγεῖ Χρη-</note>
+              <pb n="654" facs="urn:hathi:hvd.hxjhbd:scan:672" />
+              <note type="source">στὸν μὴ κατὰ Μειδίαν ὀρτυγοκόπον.</note>
+              <note type="apparatus">In his Aristophani Platonis nomen substituendum esse indicavi Quaest. scen. II p. 22. Cfr Fritzschii Dissert. de Aristoph. Daet. p. 98. Scholiasta Luciani ad Iovem Trag. II p. 696: <quote>ὁ δὲ Μειδίας ὀρτυγοκόπος ἦν, ὡς Πλάτων Περιαλγεῖ, καὶ ὡς πονηρὸν δὲ καὶ κόβαλον καὶ τῶν δημοσίων νοσφιστὴν Φρύνιχος καὶ Πλάτων διαβάλλουσι.</quote> Platonis versum Th. Bergkius Comment. p. 425 probabiliter ita corrigit, <quote>χρηστόν γε</quote> κτλ. hominem probum neque Midiae similem.</note>
+            </div>
+          </div></body></text></TEI>

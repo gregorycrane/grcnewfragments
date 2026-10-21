@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Susarion, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><author>Susarion</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0264.adelon_dramaton.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0264.adelon_dramaton.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0264.adelon_dramaton.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0264_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="local_1" ana="#compiled-citation-normalized" xml:id="meineke-0264-adelon_dramaton-local_1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0264-adelon_dramaton-local_1-l1">Ἀκούετε λεῴ· Σουσαρίων λέγει τάδε,</l>
+                  <l n="2" xml:id="meineke-0264-adelon_dramaton-local_1-l2">υἱὸς Φιλίνου Μεγαρόθεν Τριποδίσκιος·</l>
+                  <l n="3" xml:id="meineke-0264-adelon_dramaton-local_1-l3">κακὸν γυναῖκες, ἀλλ᾽ ὅμως, ὦ δημόται,</l>
+                  <l n="4" xml:id="meineke-0264-adelon_dramaton-local_1-l4">οὐκ ἔστιν οἰκεῖν οἰκίαν ἄνευ κακοῦ.</l>
+                  <l n="5" xml:id="meineke-0264-adelon_dramaton-local_1-l5">καὶ γὰρ τὸ γῆμαι καὶ τὸ μὴ γῆμαι κακόν.</l>
+                </lg>
+              </quote>
+              <note type="apparatus">
+                <ref>Tzetzes apud Cramerum Anecd. III p. 336:</ref>
+                <quote>ὁ Σουσαρίων οὗτος ὁ κωμικός, φαύλης τῆς γυναικὸς τούτου φανείσης καὶ τοῦτον ἀπολιπούσης, εἰσελθὼν ἐν τῷ θεάτρῳ ἀνεφθέγξατο ταδί Ἀκούετε — ἄνευ κακοῦ. Ἰστέον δὲ ὡς τῶν Σουσαρίωνος τούτου ποιημάτων μόνα ταῦτα κατελείφθη τὰ τέσσαρα ἰαμβεῖα.</quote>
+                <ref>Scholiasta Dionysii Thr. p. 748:</ref>
+                <quote>πρῶτον οὖν Σουσαρίων τις τῆς ἐμμέτρου κωμῳδίας ἀρχηγὸς ἐγένετο, οὗ τὰ μὲν δράματα λήθῃ κατενεμήθη, δύο δὲ ἢ τρεῖς ἴαμβοι τοῦ πρώτου δράματος ἐπὶ μνήμῃ φέρονται. εἰσὶ δὲ οὗτοι Ἀκούετε λεώς κτλ.</quote> Iisdem propemodum verbis Anonymus Crameri IV p. 315 sq. Quintum versum, quem Tzetzes Scholiasta Dionysii et Anonymus omittunt nec ab eo qui reliquos fecit profectus esse videtur, servavit Stobaeus Flor. LXIX 2. ubi omisso secundo versu idem fragmentum servatum est. Versum primum cum tertio et quarto habet etiam Diomedes III p. 486. <quote>Poetae primi comici fuerunt Susarion Mullus et Magnes. Hi veteris disciplinae ioculatoria quaedam minus scite et venuste pronunciabant, in quibus hi versus fuerunt, Ἀκούετε λέξιν· Σουσαρίων λέγει</quote>
+              </note>
+            </div>
+          </div></body></text></TEI>

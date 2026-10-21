@@ -25,6 +25,12 @@ NS = {"tei": TEI}
 ET.register_namespace("", TEI)
 
 
+def indent(tree: ET.ElementTree) -> None:
+    """Pretty-print on Python 3.9+; remain compatible with HookTest's 3.8."""
+    if hasattr(ET, "indent"):
+        ET.indent(tree, space="  ")
+
+
 def q(name: str) -> str:
     return f"{{{TEI}}}{name}"
 
@@ -165,7 +171,7 @@ def compile_volume(source_path: Path, source_key: str, output_dir: Path) -> dict
             output = make_work_document(
                 source_root, author, work, source_key, source_path
             )
-            ET.indent(output, space="  ")
+            indent(output)
             output.write(destination, encoding="utf-8", xml_declaration=True)
 
             fragments = work.findall(".//tei:div[@subtype='fragment']", NS)

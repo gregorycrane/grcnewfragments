@@ -33,5 +33,11 @@ Kock, *Comicorum Atticorum Fragmenta* I is installed as 329 work-level TEI
 editions across 40 textgroups. Volume II adds 704 work-level editions across
 39 textgroups. Volume III adds 295 work-level editions across 90 textgroups.
 All 1,328 Kock I–III texts and their metadata pass HookTest.
+Meineke, *Fragmenta Comicorum Graecorum* II is installed as 302 parallel
+work-level editions containing all 2,875 encoded fragments. Repeated
+page-derived headings are consolidated against the established Kock CTS
+identities; appendix headings without fragments remain only in the
+authoritative volume source. All 302 Meineke editions and their metadata pass
+HookTest.
 Older migrated fragment editions retain their existing encoding and can be
 normalized incrementally without mixing them back into `grcnewxml`.

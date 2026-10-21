@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Hegemon, ΦΙΛΙΝΗ: fragments</title><author>Hegemon</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0463.philine.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0463.philine.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0463.philine.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0463_philine"><head>ΦΙΛΙΝΗ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0463-philine-1">
+              <lg>
+                <l n="1" xml:id="meineke-0463-philine-1-l1">Μάλα ταχέως αὐτῶν πρίω μοι πουλύπουν,</l>
+                <l n="2" xml:id="meineke-0463-philine-1-l2">καὶ δὸς καταφαγεῖν κἀπὸ <choice>
+                    <sic>τηγάνον</sic>
+                    <corr>τηγάνου</corr>
+                  </choice> γόνον.</l>
+              </lg>
+              <note type="source">Athenaeus III p. 108 c: <quote>Ἡγήμων δ᾽ ἐν Φιλίννῃ (Β φιλλίνῃ) καὶ γόνον ἐκ ταγήνου ἐσθίοντας ποιεῖ ἐν τούτοις Μάλα ταχέως κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 ΑΡ πριῶ. Tum μοι ex coniectura addidi; αὐτῶν de numis intelligi licet, quorum in antecedentibus mentio facta fuerit. Coraes ad Xenocr. p. 206 tentabat αὐτῷ πρίω σὺ πώλυπον (sic). — Vs. 2 γόνον Schweighaeuserus recte interpretatur foeturam piscium, minutos pisciculos. Archestratus Athenaei VII p. 285 b. τὸν γόνον (apuas dicit Phalericas) ἐξαυδῶ, τὸν ἀφρὸν καλέουσιν Ἴωνες. Fabulae nomen dubitari possit utrum Φίλιννα an Φιλίνη scribendum sit. Verius mihi videtur Φιλίνη propter Athenaeum XV p. 699 e. γέγραφε δὲ (Ἡγήμων) καὶ κωμῳδίαν εἰς τὸν ἀρχαῖον τρόπον, ἣν ἐπιγράφουσι Φιλίννην, quod quum haud dubie corruptum sit, facilius in Φιλίνην quam in Φίλινναν mutaveris. Eandem formam haud obscure indicat cod. B in eo Athenaei loco, quem supra adscripsimus.</note>
+            </div>
+          </div></body></text></TEI>

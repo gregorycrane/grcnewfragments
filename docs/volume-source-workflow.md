@@ -38,6 +38,23 @@ Compilation is deterministic. Re-running it replaces only the selected build
 directory. Never edit files under `build/` or compiler-generated files under
 `data/`; correct the volume source or a reviewed annotation instead.
 
+## Meineke volume II production build
+
+Meineke II has a reviewed identity-aware production compiler:
+
+```sh
+python tools/install_meineke_volume2.py
+```
+
+It routes fragments by their retained `work_heading`, consolidates repeated
+page-derived author/work containers, reuses Kock CTS identities, and writes the
+parallel `meineke1839-grc1` editions and CTS inventory entries. Sections that
+are actually appendices or running headings and contain no fragments remain in
+the volume source but are not exposed as ancient authors. The generated
+`sources/volumes/meineke/meineke-fcg2-install-report.json` records every output
+and any printed fragment-number collision disambiguated in compiled citation
+values. Validate the installed corpus with HookTest before committing.
+
 ## Promotion workflow
 
 1. Compile the registered source.

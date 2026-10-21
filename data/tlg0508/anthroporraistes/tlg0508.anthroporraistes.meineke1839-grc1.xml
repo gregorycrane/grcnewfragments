@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Strattis, ΑΝΘΡΩΠΟΡΡΑΙΣΤΗΣ: fragments</title><author>Strattis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0508.anthroporraistes.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0508.anthroporraistes.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0508.anthroporraistes.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0508_anthroporraistes"><head>ΑΝΘΡΩΠΟΡΡΑΙΣΤΗΣ</head><div type="textpart" subtype="fragment" n="i" ana="#compiled-citation-normalized" xml:id="meineke-0508-anthroporraistes-i">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0508-anthroporraistes-i-l1">Καὶ τῶν μὲν ἄλλων οὐκ ἐμέλησέ μοι μελῶν,</l>
+                  <l n="2" xml:id="meineke-0508-anthroporraistes-i-l2">Εὐριπίδου δὲ δρᾶμα δεξιώτατον</l>
+                  <l n="3" xml:id="meineke-0508-anthroporraistes-i-l3">διέκναισ᾽ Ὀρέστην, Ἡγέλοχον τὸν Κιννάρου</l>
+                  <l n="4" xml:id="meineke-0508-anthroporraistes-i-l4">μισθωσάμενος τὰ πρῶτα τῶν ἐπῶν λέγειν.</l>
+                </lg>
+              </quote>
+              <note type="source">Scholiasta Euripidis Orest. 269 <quote>ἐκ κυμάτων γὰρ αὖθις αὖ γαλήν᾽ ὁρῶ</quote>] κεκωμώδηται ὁ στίχος διὰ Ἡγέλοχον τὸν ὑποκριτήν. οὐ γὰρ φθάσαντα διελεῖν τὴν συναλοιφήν, ἐπιλείψαντος τοῦ πνεύματος, τοῖς ἀκροωμένοις τὴν γαλῆν δόξαι λέγειν τὸ ζῷον, ἀλλ᾽ οὐχὶ τὰ γαληνά. πολλοὶ μὲν οὖν διέπαιξαν τῶν κωμικῶν, Ἀριστοφάνης καὶ Στράττις ἐν Ἀνθρωπορραίστῃ <quote>Καὶ τῶν μὲν ἄλλων κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 3 vulgo Ὀρέστῃ. Correxit Berglerus ad Aristoph. Ran. 305. Male</note>
+              <pb n="764" facs="urn:hathi:hvd.hxjhbd:scan:782" />
+              <note type="apparatus">
+                <p>Matthiae <title>Ὀρέστης</title>. V. Hist. crit. p. 224. Ibid. Κιννάρου Bentleius. Vulgo Κινυάρου. Matthiae Κινύρου, quod primam syllabam corripit. Nominis Κίννυρος vel Κιννύρας exemplum habet Zenobius Prov. I 31.</p>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="meineke-0508-anthroporraistes-2">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0508-anthroporraistes-2-l1">Τῶν δὲ διδύμων ἐκγόνων</l>
+                  <l n="2" xml:id="meineke-0508-anthroporraistes-2-l2">σεμιδάλιδος.</l>
+                </lg>
+              </quote>
+              <note type="source">
+                <bibl>Athenaeus III p. 127 c. d:</bibl>
+                <quote>καὶ σεμιδάλεως δὲ μέμνηται, καὶ εἰ μὴ τὰ μαρτύρια κρατῶ, Στράττις ἐν Ἀνθρωπορραίστῃ καὶ ῎Αλεξις ἐν Ἰσοστασίῳ. τὴν γενικὴν δὲ σεμιδάλιδος εἴρηκεν ὁ Στράττις ἐν τῷ αὐτῷ δράματι οὕτως <quote>
+                    <lg>
+                      <l n="1_2" xml:id="meineke-0508-anthroporraistes-2-l1_2">Τῶνδε διδύμων ἐκγόνων σεμιδάλιδος.</l>
+                    </lg>
+                  </quote>
+                </quote>
+                <bibl>Pollux VI 75:</bibl>
+                <quote>Στράττις δὲ καὶ τὴν γενικὴν εἴρηκε σεμιδάλιδος.</quote>
+              </note>
+              <note type="apparatus">
+                <p>Integrum senarium restituas si scribas <quote>τούτων δὲ</quote> vel <quote>τωνδὶ δέ</quote>. Farinae filios dicit panes, quo dicendi genere in eadem re usus est Archestratus Athenaei III p. 112 b: <quote>εἶτα τὸν ἐν Τεγέαις (leg. Τεγέᾳ) σεμιδάλεος υἱὸν ἐπαινῶ</quote>, ubi Casaubonus admonet Philyllii collabos πυρῶν ἐκγόνους dicentis in Auge. Eodem pertinet quod idem Archestratus dixit apud Athenaeum IV p. 137 c: <quote>Δήμητρος παῖδ᾽ ὀπτὸν ἐπεισελθόντα πλακοῦντα.</quote>
+                </p>
+              </note>
+            </div>
+          </div></body></text></TEI>

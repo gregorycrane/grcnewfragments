@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Cratinus, ΛΑΚΩΝΕΣ: fragments</title><author>Cratinus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0434.lakones.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0434.lakones.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0434.lakones.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0434_lakones"><head>ΛΑΚΩΝΕΣ</head><pb n="72" facs="urn:hathi:hvd.hxjhbd:scan:82" />
+            <div type="textpart" subtype="fragment" n="1" author_heading="CRATINI" work_heading="ΛΑΚΩΝΕΣ" xml:id="meineke-0434-lakones-1">
+              <lg>
+                <l n="1" xml:id="meineke-0434-lakones-1-l1">Φοβερὸν ἀνθρώποις τόδ' αὖ</l>
+                <l n="2" xml:id="meineke-0434-lakones-1-l2">κταμένοις ἐπ' αἰζηοῖσι καυχᾶσθαι μέγα.</l>
+              </lg>
+              <note type="source">Clemens Alexandr. Strom. VI p. 738 25 (263): Πάλιν δ' αὖ Ὁμήρου (Odyss. χ' 412) εἰπόντος „οὐχ ὁσίη κταμένοισιν ἐπ' ἀνδράσιν εὐχετάασθαι", Ἀρχίλοχός τε καὶ Κρατῖνος γράφουσιν, ὁ μὲν „οὐ γὰρ ἐσθλὰ κατθανοῦσι κερτομεῖν ἐπ' ἀνδράσιν", Κρατῖνος δὲ ἐν τοῖς Λάκωσι· Φοβερὸν ἀνθρώποις κτλ.</note>
+              <note type="apparatus">Ingeniosa et fortasse vera est Iacobsii Animadv. Anal. Brunck. I p. 164 coniectura φθονερὸν pro φοβερὸν scribentis. In fine versus Grotius Exc. p. 489 τόδε scribebat pro τόδ' αὖ. Sed aliud quid latere videtur. Aoristo κτάσθαι vix alius atticorum poetarum usus est; nec αἰζηός in vulgari sermone usitatum fuit. Ceterum num recte Cratino fabula Λάκωνες inscripta tribuatur vehementer nunc dubito. Ac dubitat etiam Th. Bergkius Comment. p. 130. Si illa a Lacedaemonio dicta fuisse statuas, non male opinor verba ἐν τοῖς Λάκωσι cum Cratini fragmento coniungas, ut apud Lacedaemonios res plena invidiae fuisse dicatur de occisis gloriari. Ita igitur hic locus scribendus est: <lg>
+                  <l n="1_2" xml:id="meineke-0434-lakones-1-l1_2">Ἐν τοῖς Λάκωσι φθονερὸν ἀνθρώποις πέλει</l>
+                  <l n="2_2" xml:id="meineke-0434-lakones-1-l2_2">κταμένοις ἐπ' αἰζηοῖσι καυχᾶσθαι μέγα.</l>
+                </lg> Ac fortasse etiam in poetae nomine erratum et in Cratini locum Καρκίνος substituendum est.</note>
+            </div>
+            </div></body></text></TEI>

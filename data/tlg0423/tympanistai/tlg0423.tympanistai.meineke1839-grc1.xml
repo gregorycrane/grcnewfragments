@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Autocrates, ΤΥΜΠΑΝΙΣΤΑΙ: fragments</title><author>Autocrates</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0423.tympanistai.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0423.tympanistai.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0423.tympanistai.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0423_tympanistai"><head>ΤΥΜΠΑΝΙΣΤΑΙ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0423-tympanistai-1">
+              <lg>
+                <l n="1" xml:id="meineke-0423-tympanistai-1-l1">Οἷα παίζουσιν φίλαι</l>
+                <l n="2" xml:id="meineke-0423-tympanistai-1-l2">παρθένοι Λυδῶν κόραι,</l>
+                <l n="3" xml:id="meineke-0423-tympanistai-1-l3">κοῦφα πηδῶσαι κόμαν,</l>
+                <l n="4" xml:id="meineke-0423-tympanistai-1-l4">κάνακρούουσαι χεροῖν,</l>
+                <l n="5" xml:id="meineke-0423-tympanistai-1-l5">Ἐφεσίαν παρ' Ἄρτεμιν</l>
+                <l n="6" xml:id="meineke-0423-tympanistai-1-l6">κάλλιστ' ἄν, καὶ τοῖν ἰσχίοιν</l>
+                <l n="7" xml:id="meineke-0423-tympanistai-1-l7">τὸ μὲν κάτω τὸ δ' αὖ</l>
+                <l n="8" xml:id="meineke-0423-tympanistai-1-l8">εἰς ἄνω ἐξαίρουσα,</l>
+                <l n="9" xml:id="meineke-0423-tympanistai-1-l9">οἷα κίγκλος ἅλλεται.</l>
+              </lg>
+              <note type="source">Aelianus H. A. XII 9 de motacilla ave disserens: μέμνηται δὲ καὶ τοῦ ὄρνιθος τοῦδε Ἀριστοφάνης ἐν τῷ Ἀμφιαράῳ — καὶ Αὐτοκράτης ἐν Τυμπανισταῖς Οἷα παίζουσιν φίλαι κτλ.</note>
+              <note type="apparatus">Vs. 2 Λυδῶν. Olim legebatur αὐλῶν, quod certatim emendarunt critici, firmante nunc cod. Parisino. Haud dissimilem imaginem repraesentant haec Aristophanis Lys. 1310: <lg>
+                  <l n="10" xml:id="meineke-0423-tympanistai-1-l10">ἆτε πῶλοι δ' αἱ κόραι πὰρ τὸν Εὐρώταν ἀμπάλλοντι</l>
+                  <l n="11" xml:id="meineke-0423-tympanistai-1-l11">πυκνὰ ποδοῖν ἐγκονιῶσαι, ταὶ δὲ κόμαι σείονθ'</l>
+                  <l n="12" xml:id="meineke-0423-tympanistai-1-l12">ἅπερ Βακχᾶν θυρσαδδωᾶν καὶ παιδδωᾶν.</l>
+                </lg> Comparavit haec iam Lobeckius Aglaoph. p. 1086. Lydiacas illas saltatrices Dianam choreis et cantu venerantes commemorat Aristoph. Nub. 595: <lg>
+                  <l n="13" xml:id="meineke-0423-tympanistai-1-l13">ἥ τ' Ἐφέσου μάκαιρα πάγχρυσον ἔχεις οἶκον ἐν</l>
+                  <l n="14" xml:id="meineke-0423-tympanistai-1-l14">ᾧ κόραι σε Λυδῶν μεγάλως σέβουσιν,</l>
+                </lg> et Diogenes tragicus Athenaei XIV p. 636 a: <lg>
+                  <l n="15" xml:id="meineke-0423-tympanistai-1-l15">Κλύω δὲ Λυδὰς Βακτρίας τε</l>
+                </lg>
+              </note>
+              <pb n="892" facs="urn:hathi:hvd.hxjhbd:scan:910" />
+              <note type="apparatus">
+                <p>παρθένους | δαφνόσκιον κατ᾿ ἄλσος Ἄρτεμιν σέβειν. Easdem ad Herculem celebrandum adhibet apud Ionem Omphale ibid. p. 634 c: <quote>ἀλλ᾽ εἶα Λυδαὶ ψάλτριαι παλαιθετῶν | ὕμνων ἀοιδοὶ τὸν ξένον κοσμήσατε</quote>. Cfr Wernsdorfius ad Himer. p. 34. — Vs. 3 unus liber πηδῶσι. Ibid. κόμαν omnes praeter unum, qui habet κόμας. Conieceram olim Quaest. scen. II p. 74 <quote>κοῦφα πηδῶσαι πόδας</quote>, nescius idem in mentem venisse Fiorillo Observ. in Athen. p. 109. quem indicavit Iacobsius. Dictionem πηδᾶν vel ἅλλεσθαι πόδας illustravit Porsonus ad Orest. 1427 et Huschke Anal. crit. p. 25. Lobeckius coniecit, <quote>κοῦφα πηδῶσαι, κομῶσαι</quote>. — Vs. 5 Lobeckius <quote>κἀνακρούουσαι χορείαν</quote>. Ac sane insolens dicendi genus est ἀνακρούειν χεροῖν, pro quo aut ἀνακροτεῖν χεροῖν aut ἀνακρούειν sive potius συγκρούειν χεῖρε expectes. Sed requiro versum acatalecticum. Quae sequuntur verba metro et sententiae perniciosa variis modis tentata sunt. Vs. 6 καλλίσταν ex duobus codd. edidit Iacobsius. Lobeckius <quote>κάλλιστα</quote>. Requiri videtur verbum cuius trochaica sit mensura. — Vs. 7 non male Fiorillo <quote>τοῦτο μὲν</quote> coniecit; unus liber τὼ μέν. Ibidem pro αὖ Vind. habet αὖθις. — Vs. 8 Iacobsius tentabat <quote>εἰς ἄνω ξ̓αίρουσ᾽ ἀεί</quote>. Fortasse scribendum <quote>ἐξεπαίρουσ᾽ εἰς ἄνω</quote>. Sed hic omnia sunt incerta: ac fuit quum omnia illa inde a verbis καλλίστ᾽ ἂν usque ad ἐξαίρουσα ab aliena manu accessisse existimabam. Sed huic etiam rationi sunt quae obstare videantur.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

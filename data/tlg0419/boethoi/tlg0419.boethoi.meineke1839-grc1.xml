@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume II: Fragmenta Poetarum Comoediae Antiquae, Partes I-II</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Aristomenes, ΒΟΗΘΟΙ: fragments</title><author>Aristomenes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1839-1840</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647828">Internet Archive scan (part1-recovered)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/p1fragmentacomic02meinuoft">Internet Archive scan (part1)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2-duplicate-shift)</ref>
+          <ref target="https://archive.org/details/mdp.39015027647836">Internet Archive scan (part2-recovered-636-637)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor02meinuoft">Internet Archive scan (part2)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbd">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/mdp.39015027647836">HathiTrust Michigan OCR</ref>
+          <ref target="https://hdl.handle.net/2027/nnc1.0035499206">HathiTrust Columbia OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-20">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0419.boethoi.meineke1839-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0419.boethoi.meineke1839-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0419.boethoi.meineke1839-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0419_boethoi"><head>ΒΟΗΘΟΙ</head><div type="textpart" subtype="fragment" n="i" ana="#compiled-citation-normalized" xml:id="meineke-0419-boethoi-i">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0419-boethoi-i-l1">Ἔνδον γὰρ ἡμῖν ἐστιν ἀνδρῶν γάργαρα.</l>
+                </lg>
+              </quote>
+              <note type="source">Macrobius Sat. V 20: <quote>Gargara, ut videtis, manifeste posuit (Alcaeus comicus) pro multitudine. Nec aliter Aristomenes ἐν Μύθοις Ἔνδον γὰρ κτλ.</quote> Schol. Aristophanis Acharn. 3. <quote>καὶ τὰ γάραρα δὲ ἐπὶ πλήθους ἐτίθετο — καὶ παρὰ Ἀριστομένει ἐν Βοηθοῖς Ἔνδον γὰρ ἡμῖν γάργαρα.</quote> Eadem Suidas s. v. Ψαμμακοσιογάργαρα.</note>
+              <note type="apparatus">Cfr Hist. crit. p. 212.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="ii" ana="#compiled-citation-normalized" xml:id="meineke-0419-boethoi-ii">
+              <head>II.</head>
+              <note type="source">Priscianus XVII 23 p. 91 Kr. de abundantia praepositionis agens in locutione συνακολουθεῖν μετά τινος et similibus: <quote>Aristophanes (sic) Βοηθοῖς <lg>
+                    <l n="1" xml:id="meineke-0419-boethoi-ii-l1">Εὖ γὰρ εὖ πράττειν</l>
+                    <l n="2" xml:id="meineke-0419-boethoi-ii-l2">σε βούλομαι. πῶς λέγεις; ὅπως μετ᾿ ἐμοῦ ξυνέσῃ.</l>
+                  </lg>
+                </quote>
+              </note>
+              <note type="apparatus">Ita Putschius, quem Krehlius ut solet negligentissime inspexit. Aldus εὖ γὰρ εἰσπράττειν σε βούλομαι πόσα ἔτη ὅπως μετ᾿ ἐμοῦ ξυνῇς. Cod. Monac. apud Spengelium App. ad Varron. de lingua lat. p. 626: ευ ταρευ πραττειν σε βουλομαι ποσαετευς οπως μετεμου ξενεσε. Neque aliter</note>
+              <pb n="731" facs="urn:hathi:hvd.hxjhbd:scan:749" />
+              <note type="apparatus">cod. Tegerns. in quo desinit locus in vocula ὅπως. Hermannus apud Krehlium tentabat:
+<quote>
+                  <lg>
+                    <l n="3" xml:id="meineke-0419-boethoi-ii-l3">οὐ γὰρ εὖ</l>
+                    <l n="4" xml:id="meineke-0419-boethoi-ii-l4">πράττειν σε βούλομαί τι; <label>Β.</label> πῶς λέγεις; <label>Α.</label> ὅπως</l>
+                    <l n="5" xml:id="meineke-0419-boethoi-ii-l5">μετ᾿ ἐμοῦ ξυνέσει.</l>
+                  </lg>
+                </quote>
+Dobraeus ad Plutum 504:
+<quote>
+                  <lg>
+                    <l n="6" xml:id="meineke-0419-boethoi-ii-l6">εὖ γάρ σε πράττειν βούλομαι γ̓ώ. <label>Β.</label> πῶς λέγεις;</l>
+                    <l n="7" xml:id="meineke-0419-boethoi-ii-l7">
+                      <label>Α.</label> ὅπως; μετ᾿ ἐμοῦ ξυνέσει.</l>
+                  </lg>
+                </quote>
+Similiter iam Brunckius Fragm. Aristoph. p. 122 Lips. nisi quod legit βούλομαι. τόδε πῶς λέγεις; Reisigius Coniect. p. 45:
+<quote>
+                  <lg>
+                    <l n="8" xml:id="meineke-0419-boethoi-ii-l8">εὖ γὰρ ἀεί</l>
+                    <l n="9" xml:id="meineke-0419-boethoi-ii-l9">πράττειν σε βούλομαί γ᾽, ὅπως ὁσέτη μετ᾿ ἐμοῦ ξυνῇς ἄν.</l>
+                  </lg>
+                </quote>
+Apertum est horum omnium nihil certum esse.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="iii" ana="#compiled-citation-normalized" xml:id="meineke-0419-boethoi-iii">
+              <head>III.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0419-boethoi-iii-l1">Μισῶ σ᾽ ὁτιὴ λέγεις με τἀσχρά.</l>
+                </lg>
+              </quote>
+              <note type="source">Priscianus XVIII 25 p. 232: <quote>Aristophanes (sic) Βοηθοῖς Μισῶ σ᾽ ὁτιὴ λέγεις με τἀσχρά.</quote> Huic simile est illud Terentianum in Andria (IV 2 26): <foreign xml:lang="lat">quid me fiet.</foreign>
+              </note>
+              <note type="apparatus">Legebatur μισῶ σε ὁτιὴ λέγεις με τὰ αἰσχρά. Correxit Brunckius ad Aristoph. fragm. p. 122 ed. Lips.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="iv" ana="#compiled-citation-normalized" xml:id="meineke-0419-boethoi-iv">
+              <head>IV.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0419-boethoi-iv-l1">Ἐπειδὴ τοὺς πρυτάνεις προσήλθομεν.</l>
+                </lg>
+              </quote>
+              <note type="source">Priscianus XVIII 26 p. 250: <quote>Aristomenes Βοηθοῖς Ἐπειδὴ τοὺς πρυτάνεις προσήλθομεν.</quote>
+              </note>
+              <note type="apparatus">Ita Krehlius, ne verbo quidem de auctore eius, quam sequutus est, lectionis admonens. Habet tamen ita cod. Leid. annotante Scapulae editore Oxoniensi. Putschius οἱ γ᾽ ἤδη τοὺς πρυτάνεις προσηλθομεν. Brunckius autem Fragm. Aristoph. p. 122 Lips. haec ita scripta affert αὐτοὶ γὰρ ἤδη τοὺς κτλ.</note>
+            </div>
+          </div></body></text></TEI>
