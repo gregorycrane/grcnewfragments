@@ -18,7 +18,10 @@ metadata; source wording is not silently corrected during repository migration.
   and authority identification.
 - `data/<textgroup>/__cts__.xml` identifies the author or fragment collection.
 - `data/<textgroup>/<work>/` contains one fragmentary work and its CTS metadata.
-- `data/<textgroup>/fragments/source/` retains author-level aggregate sources
+- `data/<textgroup>/fragments/source/` retains non-CTS author-level aggregate
+  sources; these staging directories intentionally have no `__cts__.xml`
+- `sources/legacy/nauck1889/` retains the earlier Nauck authority, corpus
+  manifest, and build report outside the published CTS `data/` tree
   used to generate or verify the work-level editions.
 - `data/nauck1889/` retains the corpus-level Nauck source and authority files.
 - `tools/compile_volume_sources.py` deterministically splits supported volume
