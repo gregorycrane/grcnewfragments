@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DIOPHANTUS, ΜΕΤΟΙΚΙΖΟΜΕΝΟΣ: fragments</title>
+        <title type="sub">Kock 1888: OCR-derived diplomatic TEI transcription</title>
+        <author>Diophantus</author>
+        <editor>Theodor Kock</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Theodor Kock</persName>
+            </editor>
+            <title>Comicorum Atticorum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>In aedibus B. G. Teubneri</publisher>
+              <date>1888</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/comicorumatticor03kockuoft">Internet Archive scan</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxijy4">HathiTrust OCR witness</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. Hathi OCR and the 2014 XML are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+      <classDecl>
+        <taxonomy xml:id="fragment-profile-v2">
+          <desc>Pilot taxonomy for explicit fragmentary-text evidence roles.</desc>
+          <category xml:id="testimonium">
+            <catDesc>Testimonium</catDesc>
+            <desc>Evidence for a work without separately quoted fragment text.</desc>
+          </category>
+          <category xml:id="unparsed-witness">
+            <catDesc>Unparsed witness</catDesc>
+            <desc>A witness/source block preserved without conjectural internal segmentation.</desc>
+          </category>
+          <category xml:id="resolved-witness">
+            <catDesc>Resolved witness</catDesc>
+            <desc>The transmitting work and passage have a verified CTS URN.</desc>
+          </category>
+          <category xml:id="unresolved-witness">
+            <catDesc>Unresolved witness</catDesc>
+            <desc>The printed witness citation has been isolated but not assigned a verified CTS URN.</desc>
+          </category>
+          <category xml:id="residual-evidence">
+            <catDesc>Residual evidence</catDesc>
+            <desc>Witness quotation, apparatus, and/or commentary remain mixed and are preserved without conjectural separation.</desc>
+          </category>
+          <category xml:id="unparsed-apparatus">
+            <catDesc>Unparsed apparatus</catDesc>
+            <desc>Diplomatic apparatus text not safely reducible to TEI critical apparatus entries.</desc>
+          </category>
+          <category xml:id="extracted-apparatus">
+            <catDesc>Extracted apparatus</catDesc>
+            <desc>A machine-actionable apparatus entry copied from a clear reading in a lossless diplomatic apparatus note.</desc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-10">Split the volume-level OCR draft into canonical TLG author and work files. Running-head continuations were folded into their works; wording was not corrected. The page image remains authoritative and the transcription requires human review.</change>
+      <change when="2026-10-11">Pilot conversion to Perseus Fragment Profile v2: fragment text and evidence roles made explicit; source wording and CTS identifiers unchanged.</change>
+      <change when="2026-10-22">Second Fragment Profile v2 pilot pass: isolated conservative witness bibliographies, recorded verified CTS targets where available, assigned stable witness identifiers, and classified structured versus residual apparatus without deleting diplomatic text.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0395.metoikizomenos.kock1888-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0395.metoikizomenos.kock1888-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0395.metoikizomenos.kock1888-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0395_metoikizomenos">
+        <head>ΜΕΤΟΙΚΙΖΟΜΕΝΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="kock-0395-metoikizomenos-1" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0395_metoikizomenos">
+          <quote type="fragtext" source="#kock-0395-metoikizomenos-1-w1">
+            <lg>
+              <l n="1" xml:id="kock-0395-metoikizomenos-1-l1" xml:lang="grc">φέρειν τὸν οἶνον</l>
+            </lg>
+          </quote>
+          <cit type="witness" subtype="unparsed" ana="#unresolved-witness" xml:id="kock-0395-metoikizomenos-1-w1" n="1">
+            <bibl ana="#unresolved-witness">ἐπὶ τοῦ νήφειν. Διόφαντος Μετοικιζομένῳ. Bekker. Anecd. 115, 31.</bibl>
+          </cit>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
