@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Cratinus Junior, ΤΙΤΑΝΕΣ: fragments</title><author>Cratinus Junior</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0435.titanes.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0435.titanes.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0435.titanes.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0435_titanes"><head>ΤΙΤΑΝΕΣ</head><pb n="377" facs="urn:hathi:hvd.32044079388682:scan:385" />
+            <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0435-titanes-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0435-titanes-1-l1">Κόρυδον τὸν χαλκοτύπον πεφύλαξο,</l>
+                  <l n="2" xml:id="meineke-0435-titanes-1-l2">ἣν μὴ σοὶ νομιεῖς αὐτὸν μηδὲν καταλείψειν,</l>
+                  <l n="3" xml:id="meineke-0435-titanes-1-l3">μηδ᾽ ὄψον κοινῇ μετὰ τούτου πώποτε δαίσῃ,</l>
+                  <l n="4" xml:id="meineke-0435-titanes-1-l4">τοῦ Κορύδου· προλέγω σοι· ἔχει γὰρ χεῖρα κραταιάν,</l>
+                  <l n="5" xml:id="meineke-0435-titanes-1-l5">χαλκῆν, ἀκάματον, πολὺ κρείττω τοῦ πυρὸς αὐτοῦ.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus VI p. 241 c. de Corydo parasito comicorum testimonia componens: <quote>Κρατῖνος δ᾽ ὁ νεώτερος ἐν Τιτᾶσι Κόρυδον τὸν χαλκοτύπον κτλ.</quote>
+              </note>
+              <note type="apparatus">Non dubitari potest quin haec ex ficto aliquo oraculo derivata sint. Similis vaticiniorum color apud Aristoph. Equ. 1049 et Horat. Sat. I 9 34. Vs. 1 χαλκοτύπον C. χαλκότυπον PVL. Fabrum ferrarium cur dicat Corydum non perspicio. Num χαλκότυπον explicandum χαλκοῦ κεκροτημένον, ex aere factum sive aeneum, propter invictas manus? — Vs. 2 Lobeckius ad Phryn. p. 458 οὐ μή σοι. Porsonus εἰ μή σοι, nisi existimabis eum nihil tibi relicturum. Quod quid sit non intellego. Nec Lobeckii coniectura ad sententiam apta est, quae ita potius procedere debebat: cave tibi a Corydo, neque unquam cum hoc homine obsonium comedas: nihil enim tibi relinquet. Totum versum, si abesset, nemo desideraret. Pro σοὶ PVL σύ. — Vs. 3 μετὰ τοῦδ᾽ οὐ πώποτε Lobeckius. — Vs. 5 πρείττω τοῦ πυρός. V. Bernhardii Eratosth. p. 220 et supra ad Eupolin p. 487.</note>
+            </div>
+          </div></body></text></TEI>

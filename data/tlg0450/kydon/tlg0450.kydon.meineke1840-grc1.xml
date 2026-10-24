@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Ephippus, ΚΥΔΩΝ: fragments</title><author>Ephippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0450.kydon.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0450.kydon.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0450.kydon.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_kydon"><head>ΚΥΔΩΝ</head><pb n="330" facs="urn:hathi:hvd.32044079388682:scan:338" />
+            <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0450-kydon-1">
+              <lg>
+                <l n="3" xml:id="meineke-0450-kydon-1-l3">σαῦρος, φυκίς, βρίγκος, τρίγλη,</l>
+                <l n="4" xml:id="meineke-0450-kydon-1-l4">κόκκυξ, φάργος, μύλλος, λεβίας,</l>
+                <l n="5" xml:id="meineke-0450-kydon-1-l5">σπάρος, αἰολίας, θρίττα, χελιδών,</l>
+                <l n="6" xml:id="meineke-0450-kydon-1-l6">καρίς, τευθίς, ψῆττα, δρακαινίς,</l>
+                <l n="7" xml:id="meineke-0450-kydon-1-l7">πουλυπόδειον, σηπία, ὀρφῶς,</l>
+                <l n="8" xml:id="meineke-0450-kydon-1-l8">κωβιός, ἀφύαι, βελόναι, κεστρεῖς.</l>
+              </lg>
+              <note type="source">Athenaeus VII p. 322 d : <quote>Ἔφιππος δ᾽ ἐν Κύδωνι πολλῶν καὶ ἄλλων ἰχθύων κατάλογον ποιούμενος καὶ τοῦ σαύρου μνημονεύει διὰ τούτων <quote>Θύννου</quote> κτλ.</quote>
+              </note>
+              <note type="apparatus">Cum his contende simillimos versus Mnesimachi in Hippotropho. Vs. 1 pro γλάνιδος LV γλανίδος. — Vs. 2 libri κεφαλῆς πέρκης. Correxit Casaubonus. Fortasse tamen praestat κεφάλου, πέρκης. — Vs. 3 σαῦρος Dindorfius pro σαυρός. Quod ante φυκὶς in libris legitur φυκία vel φυαία delevit Villebrunius. Pro βρίγκος Mnesimachus l. l. βρίγχος. — Vs. 4—6 a μύλλος usque ad τευθὶς habet etiam Mnesimachus. — Vs. 5 pro θρίττα Mnesimachus θρᾷττα. — Vs. 7 libri πουλυπόδιον. Ex eiusdem convivii descriptione sequens fragmentum derivatum est.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0450-kydon-1_2">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0450-kydon-1_2-l1">Θύννου τεμάχη, γλάνιδος, γαλεοῦ,</l>
+                  <l n="2" xml:id="meineke-0450-kydon-1_2-l2">ῥίνης, γόγγρου, κέφαλος, πέρκη,</l>
+                </lg>
+              </quote>
+              <note type="apparatus">*) V. Hist. crit. p. 352.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0450-kydon-2">
+              <lg>
+                <l n="1" xml:id="meineke-0450-kydon-2-l1">Καὶ μετὰ δεῖπνον κόκκος * *</l>
+                <l n="2" xml:id="meineke-0450-kydon-2-l2">ἐρέβινθος * * * κύαμος,</l>
+                <l n="3" xml:id="meineke-0450-kydon-2-l3">χόνδρος, τυρός,</l>
+                <l n="4" xml:id="meineke-0450-kydon-2-l4">μέλι, σησαμίδες, βράχος, βρυγμός,</l>
+                <l n="5" xml:id="meineke-0450-kydon-2-l5">μνοῦς, πυραμίδες, μῆλον, κάρυον,</l>
+                <l n="6" xml:id="meineke-0450-kydon-2-l6">γάλα, κανναβίδες, κόγχαι, χυλός,</l>
+                <l n="7" xml:id="meineke-0450-kydon-2-l7">Διὸς ἐγκέφαλος.</l>
+              </lg>
+              <note type="source">Athenaeus XIV p. 642 e. de mensis secundis disserens: <quote>Ἔφιππος Ἐφήβοις — καὶ ἐν Κύδωνι <quote>Καὶ μετὰ δεῖπνον</quote> κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 δεῖπνον. Libri τὸ δεῖπνον. „Κόκκος quis sit non constat; generatim granum pomorum aut nucleum significat. Sigillatim h. l. punicorum malorum acinos intelligebat Dalecampius: v. Bodaeus a Stap. ad Theophr. p. 392. Hippo-</note>
+              <pb n="331" facs="urn:hathi:hvd.32044079388682:scan:339" />
+              <note type="apparatus">
+                <p>crates vero, Galeno teste apud Foes. Oec. Hipp. 346, κόκκον sigillatim et κατ᾿ ἐξοχὴν granum cnidium dixit, quod est quaedam velut piperis species. Salmasius Exerc. Plin. p. 925 B fabae Aegyptiacae nucleum κόκκον fuisse existimavit." Schweighaeuserus. Mihi ipsum illud κνίδιος in fine versus addendum videtur. Eubulus Fragm. inc. XV b: κόκκον λαβοῦσα κνίδιον ἢ τοῦ πεπέριδος. — Vs. 2 lacunas indicavi prout fecit Dindorfius. Fortasse supplendum ἀχράς, βολβός, quae passim coniunguntur. — Vs. 3 pro τυρὸς Eustathius πυρὸς p. 948 38: Ἔφιππος συναριθμεῖ καὶ χόνδρον, πυρόν, μέλι σησαμίδας καὶ κανναβίδας. — Vs. 4 σησαμίδες. Athen. p. 646 f: σησαμίδες ἐκ μέλιτος καὶ σησάμων πεφρυγμένων καὶ ἐλαίου σφαιροειδῆ πέμματα — μνημονεύει αὐτῶν καὶ Ἔφιππος ἐν Κύδωνι. Perobscura et fortasse corrupta sunt quae sequuntur verba βράχος βρυγμός, quorum illud abest a C. Parum probabiliter Dalecampius bellaria, quae inter dentes strident et strepitus edunt, intelligebat. Si sanum est βρυγμός, ad eandem normam pro βράχος scribendum fuerit βραγμός, quod a βράξαι formatur ut βρυγμὸς a βρύξαι. Nec magis de μνοῦς liquet. — Vs. 6 κανναβίδες sunt cannabis semen. Laudant Plinium H. N. XIX 9, 66. semen eius in Italia cibus est: conditur quippe, duratque in urceis vel anni spatio. Ibid. χυλὸς de hordei ptisana intellegendum, quae aegrotantium et delicatorum hominum fuit sorbitio. Vide quae dixi vol. II p. 211. Cfr incertus apud Photium p. 395 5: παρέλαβε τὴν πόλιν, οὐ τὴν ἐπὶ τῶν προγόνων, ἀλλὰ γραῦν σανδάλια ὑποδεδεμένην καὶ πτισάνην ῥοφοῦσαν. — Vs. 7 Διὸς ἐγκέφαλος proverbialiter dicitur de cibo delicatissimo. V. quos laudat Burmannus ad Valesii Emend. I p. 25.</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

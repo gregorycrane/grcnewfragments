@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΕΦΕΣΙΑ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.ephesia.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.ephesia.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.ephesia.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_ephesia"><head>ΕΦΕΣΙΑ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0410-ephesia-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0410-ephesia-1-l1">Δύστηνος ὅστις ζῇ θαλάττιον βίον·</l>
+                  <l n="2" xml:id="meineke-0410-ephesia-1-l2">τῶν γὰρ πλεόντων ζητεῖν. στάδια ἑκατὸν</l>
+                  <l n="3" xml:id="meineke-0410-ephesia-1-l3">ἐλθεῖν που δὴ κρεῖττον ἢ πλεῦσαι πλέθρον.</l>
+                  <l n="4" xml:id="meineke-0410-ephesia-1-l4">πλεῖς τὴν θάλατταν σχοινίων πωλουμένων;</l>
+                </lg>
+              </quote>
+              <note type="source">Stobaeus Floril. LIX 6 cum lemmate Ἀντιφάνους Ἐφεσίας.</note>
+              <note type="apparatus">Versu quarto pro που δὴ codd. A et B habent</note>
+              <pb n="53" facs="urn:hathi:hvd.32044079388682:scan:63" />
+              <note type="apparatus">σπουδῇ. Vs. 2 et 3 Iacobsius Anim. ad Athen. p. 186 ita refingere conatus est:
+<quote>
+                  <lg>
+                    <l n="5" xml:id="meineke-0410-ephesia-1-l5">τῶν γὰρ πλεόντων ζῇ τις; ἑκατὸν στάδια γὰρ</l>
+                    <l n="6" xml:id="meineke-0410-ephesia-1-l6">ἐλθεῖν ποσὶν δὴ κρεῖττον ἢ πλεῦσαι πλέθρον.</l>
+                  </lg>
+                </quote>
+Ubi γὰρ a Iacobsio omissum supplevit Gaisfordius. Similiter Dobraeus Advers. II p. 358:
+<quote>
+                  <lg>
+                    <l n="7" xml:id="meineke-0410-ephesia-1-l7">τῶν γὰρ πλεόντων ζῆν τίν᾽ οἴει; στάδια γὰρ</l>
+                    <l n="8" xml:id="meineke-0410-ephesia-1-l8">ἑκατὸν περιελθεῖν κρεῖττον ἢ πλεῦσαι πλέθρον.</l>
+                  </lg>
+                </quote>
+Denique Elmsleio, referente Gaisfordio, quattuor fragmenta hic in unum coaluisse videbantur. I δύστηνος etc. II τῶν γὰρ πλεόντων οὔτινα ζῆν οἴομαι. III ἑκατὸν στάδι᾽ ἐλθεῖν κρεῖττον ἢ πλεῦσαι πλέθρον. IV πλεῖς τὴν θάλασσαν etc. Hanc rationem si inire placet, secundum et tertium versum etiam ita constituere possis:
+<quote>
+                  <lg>
+                    <l n="9" xml:id="meineke-0410-ephesia-1-l9">Τῶν γὰρ πλεόντων ζῆν τιν᾿ οὐ λέξω ποτε.</l>
+                    <l n="10" xml:id="meineke-0410-ephesia-1-l10">Ἑκατὸν ἐλθεῖν στάδια πολὺ δὴ κρεῖττον ἢ πλεῦσαι πλέθρον.</l>
+                  </lg>
+                </quote>
+Sive malis iambicis numeris <quote>Στάδι᾽ ἑκατὸν | ἐλθεῖν πολὺ δῆτα κτλ.</quote> Sed in huiusmodi fragmentis omnia sunt incerta. Quartum versum a reliquis separandum esse non dubito. Emendavit eum Salmasius: libri πλείστην. „Est autem loquutio proverbialis. Nam et Apollodorus dixerat, citante Donato, <quote>ὦ φίλε γαμεῖς σὺ σχοινίων πωλουμένων;</quote> quem sensum sic expressit Iuvenalis VI 30: <quote>
+                  <foreign xml:lang="lat">ferre potes dominam salvis tot restibus ullam?</foreign>
+                </quote>“ Grotius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0410-ephesia-2">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0410-ephesia-2-l1">Ἐν γῇ πένεσθαι μᾶλλον ἢ πλουτοῦντα πλεῖν.</l>
+                </lg>
+              </quote>
+              <note type="source">Apostolius VIII 37 cum lemmate Ἀντιφάνους τοῦ Λεσβίου, quod ex fabulae titulo corruptum.</note>
+              <note type="apparatus">Versus plurimis commemoratus. V. Suidam I p. 735. Diogenianum Prov. IV 83. Proverb. Coisl. 184. Bodlei. 454. Etymol. M. p. 415 29. Crameri Anecd. I p. 189 4. ubi, ut apud Etymologum, ita scriptum est: <quote>κρεῖσσον ἐν γῇ πένεσθαι ἢ πλουτοῦντα πλεῖν.</quote>
+              </note>
+            </div>
+          </div></body></text></TEI>

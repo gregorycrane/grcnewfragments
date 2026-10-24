@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΛΕΒΗΣ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.lebes.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.lebes.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.lebes.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_lebes"><head>ΛΕΒΗΣ</head><pb n="437" facs="urn:hathi:hvd.32044079388682:scan:445" />
+            <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0402-lebes-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-lebes-1-l1">Καὶ τί δεῖ</l>
+                  <l n="2" xml:id="meineke-0402-lebes-1-l2">λέγειν ἔθ᾽ ἡμᾶς τοὺς τὰ σῦχ᾽ ἑκάστοτε</l>
+                  <l n="3" xml:id="meineke-0402-lebes-1-l3">ἐν τοῖς συρίχοις πωλοῦτας; οἳ κάτωθε μέν</l>
+                  <l n="4" xml:id="meineke-0402-lebes-1-l4">τὰ σκληρὰ καὶ μοχθηρὰ τῶν σύκων ἀεί</l>
+                  <l n="5" xml:id="meineke-0402-lebes-1-l5">τιθέασιν, ἐπιπολῆς δὲ πέπονα καὶ καλά.</l>
+                  <l n="6" xml:id="meineke-0402-lebes-1-l6">εἶθ᾽ ὁ μὲν ἔδωκεν ὡς τοιαῦτ᾽ ὠνούμενος</l>
+                  <l n="7" xml:id="meineke-0402-lebes-1-l7">τιμήν, ὁ δ᾽ ἐγκάψας τὸ κέρμ᾽ εἰς τὴν γνάθον</l>
+                  <l n="8" xml:id="meineke-0402-lebes-1-l8">ἐρίν᾽ ἀπέδοτο σῦκα πωλεῖν ὀμνύων.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus III p. 76 d. de ἐρινῷ, ficus genere contempto, disserens: καὶ Ἄλεξις ἐν Λέβητι Καὶ τί δεῖ κτλ.</note>
+              <note type="apparatus">Vs. 3 Dindorfius proponit ὑρίχοις. Videtur utraque forma usitata fuisse. Eodem modo variant συρίσκος et ὑρίσκος. Hesychius, Συρίσκος: ἀγγεῖόν τι πλεκτόν, εἰς ὃ σῦκα ἐμβάλλουσι· τινὲς δὲ ὑρίσκον. Ibidem BP κάτωθεν. — Vs. 4 ante μοχθηρὰ articulum τὰ addunt ABP. — Vs. 7 ἐγκάψας τὸ κέρμ᾽ εἰς τὴν γνάθον. Pro γνάθον mira varietate B πήθον. De more pecuniam in ore condendi v. ad Hermippum p. 390. — Vs. 8 ἐρίν᾽ B. Vulgo ἔριν᾽.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-lebes-2">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-lebes-2-l1">Καὶ μὴ προφάσεις ἐνταῦθά μοι, μηδ᾽ „οὐκ ἔχω.”</l>
+                  <l n="2" xml:id="meineke-0402-lebes-2-l2">
+                    <sp>
+                      <speaker>Β.</speaker> ἀλλὰ λέγ᾽ ὅτου δεῖ. λήψομαι γὰρ πάντ᾽ ἐγώ.</sp>
+                  </l>
+                  <l n="3" xml:id="meineke-0402-lebes-2-l3">
+                    <sp>
+                      <speaker>Α.</speaker> ὀρθῶς. τὸ πρῶτον μὲν λάβ᾽ ἐλθὼν σήσαμα.</sp>
+                  </l>
+                  <l n="4" xml:id="meineke-0402-lebes-2-l4">
+                    <sp>
+                      <speaker>Β.</speaker> ἀλλ᾽ ἔστιν ἔνδον. <speaker>Α.</speaker> ἀσταφίδα κεκομμένην,</sp>
+                  </l>
+                  <l n="5" xml:id="meineke-0402-lebes-2-l5">μάραθρον, ἄνηθον, νᾶπυ, καυλόν, σίλφιον,</l>
+                  <l n="6" xml:id="meineke-0402-lebes-2-l6">κορίαννον αὖον, ῥοῦν, κύμινον, κάππαριν,</l>
+                  <l n="7" xml:id="meineke-0402-lebes-2-l7">ὀρίγανον, γήτειον, ἄνισον, θύμον,</l>
+                  <l n="8" xml:id="meineke-0402-lebes-2-l8">σφάκον, σίραιον, σέσελι, πήγανον, πρέσον.</l>
+                </lg>
+              </quote>
+              <pb n="438" facs="urn:hathi:hvd.32044079388682:scan:446" />
+              <note type="source">
+                <bibl>Athenaeus IV p. 170 a:</bibl>
+                <quote>ἡδυσμάτων δὲ κατάλογον Ἄλεξις ἐποιήσατο ἐν Λέβητι οὕτως <title>Καὶ μὴ</title> κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 καί, quod codd. omittunt, additum ex VL. Alii μηδέ. Possis etiam μὴ μή, ut apud Aristoph. Lys. 740 μὴ μἀποδείρῃς. Vesp. 1418 μὴ μὴ καλέσῃς πρὸς τῶν θεῶν. — Vs. 2 ἀλλὰ λέγ᾿ ὅτου δεῖ Dobraeus Adv. II p. 307. ἀλλὰ λέγοντα οὐ δεῖ A. ἀλλὰ λέγοντα οὐδ᾿ εἰ P. ἀλλὰ λέγοντα οὐδ᾿ εἰ B. ἀλλ᾿ ἄγε λέγ᾿ οὗ δεῖ Casaubonus et Dindorfius. — Vs. 3—8 attulit Pollux VI 66. — Vs. 5 μάραθρον B. μάραθρα Pollux. μάραθον PVL. νᾶπυ pro νάπυ Dindorfius. — Vs. 7 ἄνισον recepi ex Polluce, quod ne quis propter ἄνηθον vs. 5 memoratum minus aptum arbitretur, prohibet schol. Theocr. Id. VII 63: ἄνηθον τὸ μάλαθρον (leg. μάραθρον) <hi rend="italic">η̄</hi>, ἄνισον δὲ τὸ γλυκάνισον <hi rend="italic">ῑ</hi>. Athenaeus pro ἄνισον habet σκόροδον, unde Dobraeo Adv. II p. 308 scribendum videbatur ὀρίγανον σκορόδια γήτειον θύμον, rectius haud dubie Dindorfio, qui tentabat ὀρίγανον γήτιον (ita Pollux) ἅλας σκόροδον θύμον. Nam γήτιον pro γήτειον vix recte dicitur. Cfr ad Pannych. III 6. Ceterum de variis scripturis vocabuli ἄνισον (ἄννισον, ἄννησον, ἄννητον) disseruit Dindorfius ad Aristoph. Nub. 982. Cfr Fritzschius ad Thesmoph. p. 175. Nostro loco probandum videtur ἄννισον. — Vs. 8 „σίραιον ABCPV. σισίραιον L. τότ᾿ αὖ σίραιον Pollux. σέσελι ABCP. σέσελλι VL. πέπερι Pollux, qui propter hoc ipsum πέπερι Alexidis versus attulit.” Dindorfius.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3_4" ana="#compiled-citation-normalized" xml:id="meineke-0402-lebes-3_4">
+              <head>III. IV.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0402-lebes-3_4-l1">Οὐ γέγονε κρείττων νομοθέτης τοῦ πλουσίου</l>
+                <l n="2" xml:id="meineke-0402-lebes-3_4-l2">Ἀριστονίκου. τίθησι γὰρ νυνὶ νόμον,</l>
+                <l n="3" xml:id="meineke-0402-lebes-3_4-l3">τῶν ἰχθυοπωλῶν ὅστις ἂν πωλῶν τινί</l>
+                <l n="4" xml:id="meineke-0402-lebes-3_4-l4">ἰχθὺν ὑποτιμήσας ἀποδῶτ᾽ ἐλάττονος</l>
+                <l n="5" xml:id="meineke-0402-lebes-3_4-l5">ἧς εἶπε τιμῆς, εἰς τὸ δεσμωτήριον</l>
+                <l n="6" xml:id="meineke-0402-lebes-3_4-l6">εὐθὺς ἀπάγεσθαι τοῦτον, ἵνα δεδοικότες</l>
+                <l n="7" xml:id="meineke-0402-lebes-3_4-l7">τῆς ἀξίας ἀγαπῶσιν, ἢ τῆς ἑσπέρας</l>
+                <l n="8" xml:id="meineke-0402-lebes-3_4-l8">σαπροὺς ἅπαντας ἀποφέρωσιν οἴκαδε.</l>
+              </lg>
+              <pb n="439" facs="urn:hathi:hvd.32044079388682:scan:447" />
+              <lg>
+                <l n="9" xml:id="meineke-0402-lebes-3_4-l9">κἀνταῦθα καὶ γραῦς καὶ γέρων καὶ παιδίον</l>
+                <l n="10" xml:id="meineke-0402-lebes-3_4-l10">πεμφθεὶς ἅπαντες ἀγοράσουσι κατὰ τρόπον.</l>
+                <l n="11" xml:id="meineke-0402-lebes-3_4-l11">* * *</l>
+                <l n="12" xml:id="meineke-0402-lebes-3_4-l12">Οὐ γέγονε μετὰ Σόλωνα κρείττων οὐδὲ εἷς</l>
+                <l n="13" xml:id="meineke-0402-lebes-3_4-l13">Ἀριστονίκου νομοθέτης· τὰ τ᾿ ἄλλα γάρ</l>
+                <l n="14" xml:id="meineke-0402-lebes-3_4-l14">νενομοθέτηκε πολλὰ καὶ παντοῖα δή,</l>
+                <l n="15" xml:id="meineke-0402-lebes-3_4-l15">νυνί τε καινὸν εἰσφέρει νόμον τινά</l>
+                <l n="16" xml:id="meineke-0402-lebes-3_4-l16">χρυσοῦν, τὸ μὴ πωλεῖν καθημένους ἔτι</l>
+                <l n="17" xml:id="meineke-0402-lebes-3_4-l17">τοὺς ἰχθυοπώλας, διὰ τέλους δ᾿ ἑστηκότας·</l>
+                <l n="18" xml:id="meineke-0402-lebes-3_4-l18">εἶτ᾿ εἰς νέωτά φησι γράψειν κρεμαμένους·</l>
+                <l n="19" xml:id="meineke-0402-lebes-3_4-l19">καὶ θᾶττον ἀποπέμψουσι τοὺς ὠνουμένους,</l>
+                <l n="20" xml:id="meineke-0402-lebes-3_4-l20">ἀπὸ μηχανῆς πωλοῦντες ὥσπερ οἱ θεοί.</l>
+              </lg>
+              <note type="source">Athenaeus VI p. 226 a. de piscariorum artibus agens: <quote>κἀν τῷ Λέβητι δέ φησιν ὁ αὐτὸς ποιητής <quote>Οὐ γέγονε — κατὰ τρόπον.</quote> καὶ προελθὼν δέ φησιν <quote>Οὐ γέγονε κτλ.</quote>
+                </quote>
+              </note>
+              <note type="apparatus">Priora antiquitus in hunc fere modum scripta fuisse suspicor:
+<lg>
+                  <l n="21" xml:id="meineke-0402-lebes-3_4-l21">Οὐδὲ εἷς</l>
+                  <l n="22" xml:id="meineke-0402-lebes-3_4-l22">Ἀριστονίκου γέγονε κρείττων νομοθέτης</l>
+                  <l n="23" xml:id="meineke-0402-lebes-3_4-l23">τοῦ πλουσίου· τίθησι γὰρ νυνὶ νόμον —</l>
+                </lg>
+Nisi forte post Ἀριστονίκου aliqua exciderunt, quae Dindorfii est sententia. Vs. 3 τινὶ Porsonus Advers. p. 50. Libri τόν. VL γε τόν. — Vs. 4 recte, ut videtur, Coraes apud Schweighaeuserum ἐπιτιμήσας. — Vs. 8 ἅπαντας pro ἅπαντες Grotius Exc. p. 575. — Vs. 10 πεμφθεὶς codices. V πεμφείς. Basil L πεμφεῖς. Ibidem C ἀγοράσωσι. — Vs. 13 δὴ Grotius pro δέ. — Vs. 14 νυνὶ δὲ B. Ita scripsit etiam Grotius. — Vs. 15 libri ἔτι καθημένους. Transposuit Iacobsius Addit. p. 132. — Vs. 18 ἀποπέμψουσι C. ἀποπέμπουσι PVL.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0402-lebes-3">
+              <head>III.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-lebes-3-l1">Nemo unquam melior iuris auctor divite</l>
+                  <l n="2" xml:id="meineke-0402-lebes-3-l2">Aristonico. namque is hanc legem tulit,</l>
+                </lg>
+              </quote>
+            </div>
+            <pb n="696" facs="urn:hathi:hvd.32044079388682:scan:698" />
+            <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0402-lebes-2_2">
+              <lg>
+                <l n="1" xml:id="meineke-0402-lebes-2_2-l1">si quisquam faciens quaestum e re piscaria</l>
+                <l n="2" xml:id="meineke-0402-lebes-2_2-l2">piscem indicasset et minoris traderet</l>
+                <l n="3" xml:id="meineke-0402-lebes-2_2-l3">eum indicato, collo obtorto in vincula</l>
+                <l n="4" xml:id="meineke-0402-lebes-2_2-l4">abduceretur, ut eius exempli metu</l>
+                <l n="5" xml:id="meineke-0402-lebes-2_2-l5">addicere aequo vellent pretio, aut vespere</l>
+                <l n="6" xml:id="meineke-0402-lebes-2_2-l6">cunctos referrent pisces putentes domum.</l>
+                <l n="7" xml:id="meineke-0402-lebes-2_2-l7">nunc ergo anus, senecio, seu missus puer,</l>
+                <l n="8" xml:id="meineke-0402-lebes-2_2-l8">aeque bene omnes quicquid collibitum est emunt.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0402-lebes-4">
+              <lg>
+                <l n="1" xml:id="meineke-0402-lebes-4-l1">Aristonico post Solonis tempora</l>
+                <l n="2" xml:id="meineke-0402-lebes-4-l2">nemo legum auctor exstitit prudentior;</l>
+                <l n="3" xml:id="meineke-0402-lebes-4-l3">nam leges multas atque multiplices tulit,</l>
+                <l n="4" xml:id="meineke-0402-lebes-4-l4">et nunc rogationem scivit auream,</l>
+                <l n="5" xml:id="meineke-0402-lebes-4-l5">ne desidentes in foro piscarii</l>
+                <l n="6" xml:id="meineke-0402-lebes-4-l6">opsonia vendant, totum sed stantes diem,</l>
+                <l n="7" xml:id="meineke-0402-lebes-4-l7">idem ut pendentes faciant anno proximo</l>
+                <l n="8" xml:id="meineke-0402-lebes-4-l8">scripturus, homines quo a se absolvant celerius,</l>
+                <l n="9" xml:id="meineke-0402-lebes-4-l9">gerentes rem de machina exemplo Deum.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0402-lebes-5">
+              <lg>
+                <l n="1" xml:id="meineke-0402-lebes-5-l1">
+                  <sp>
+                    <speaker>A.</speaker> Nefrendem serius, quantum arbitror,</sp>
+                </l>
+                <l n="2" xml:id="meineke-0402-lebes-5-l2">assare furno aggressus est. <sp>
+                    <speaker>B.</speaker> Suavis caro est.</sp>
+                </l>
+                <l n="3" xml:id="meineke-0402-lebes-5-l3">
+                  <sp>
+                    <speaker>A.</speaker> Atque ita eam adussit.</sp>
+                  <sp>
+                    <speaker>B.</speaker> Id te sollicitet nihil:</sp>
+                </l>
+                <l n="4" xml:id="meineke-0402-lebes-5-l4">malum sanabile hoc est. <sp>
+                    <speaker>A.</speaker> Quo tandem modo?</sp>
+                </l>
+                <l n="5" xml:id="meineke-0402-lebes-5-l5">
+                  <sp>
+                    <speaker>B.</speaker> Acetum sumes, idque in pelvim frigidam</sp>
+                </l>
+                <l n="6" xml:id="meineke-0402-lebes-5-l6">infundes, capin' hoc? ollam deinde fervidam</l>
+                <l n="7" xml:id="meineke-0402-lebes-5-l7">aceto impones, quae vim retinens igneam</l>
+                <l n="8" xml:id="meineke-0402-lebes-5-l8">madorem ducet atque fermentabitur,</l>
+                <l n="9" xml:id="meineke-0402-lebes-5-l9">et veluti pumex vacuis plena meatibus</l>
+                <l n="10" xml:id="meineke-0402-lebes-5-l10">humorem innumeris simul acceptabit viis;</l>
+                <l n="11" xml:id="meineke-0402-lebes-5-l11">et sic eveniet arida ut ne sit caro,</l>
+                <l n="12" xml:id="meineke-0402-lebes-5-l12">sed quantum satis est succulenta et roscida.</l>
+                <l n="13" xml:id="meineke-0402-lebes-5-l13">
+                  <sp>
+                    <speaker>A.</speaker> O Iuppiter, quam medice?</sp>
+                  <sp>
+                    <speaker>B.</speaker> Fac ita, Glaucia,</sp>
+                </l>
+                <l n="14" xml:id="meineke-0402-lebes-5-l14">ut imperavi. <sp>
+                    <speaker>A.</speaker> Tum quando appones, puer,</sp>
+                </l>
+                <l n="15" xml:id="meineke-0402-lebes-5-l15">appone (satis intelligisne?) frigidam:</l>
+                <l n="16" xml:id="meineke-0402-lebes-5-l16">nam sic eveniet naribus ne se vapor</l>
+              </lg>
+              <pb n="697" facs="urn:hathi:hvd.32044079388682:scan:699" />
+              <lg>
+                <l n="17" xml:id="meineke-0402-lebes-5-l17">obtrudat, sed longe abeat superos in locos.</l>
+                <l n="18" xml:id="meineke-0402-lebes-5-l18">quantum videtur pol tu libros scribere</l>
+                <l n="19" xml:id="meineke-0402-lebes-5-l19">quam coquere multo potior. quod ais, non ais:</l>
+                <l n="20" xml:id="meineke-0402-lebes-5-l20">artique probro es.</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="5_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0402-lebes-5_2">
+              <lg>
+                <l n="1" xml:id="meineke-0402-lebes-5_2-l1">Ἧψέ μοι δοκεῖ</l>
+                <l n="2" xml:id="meineke-0402-lebes-5_2-l2">πνικτόν τι ὄψον δελφάκειον. <sp>
+                    <speaker>Β.</speaker> ἡδύ γε.</sp>
+                </l>
+                <l n="3" xml:id="meineke-0402-lebes-5_2-l3">
+                  <sp>
+                    <speaker>Α.</speaker> ἔπειτα προσκέκαυκε.</sp>
+                  <sp>
+                    <speaker>Β.</speaker> μηδὲν φροντίσῃς.</sp>
+                </l>
+              </lg>
+              <pb n="440" facs="urn:hathi:hvd.32044079388682:scan:448" />
+              <lg>
+                <l n="4" xml:id="meineke-0402-lebes-5_2-l4">ἰάσιμον γὰρ τὸ πάθος ἐστί. <sp>
+                    <speaker>Α.</speaker> τῷ τρόπῳ;</sp>
+                </l>
+                <l n="5" xml:id="meineke-0402-lebes-5_2-l5">
+                  <sp>
+                    <speaker>Β.</speaker> ὄξος λαβὼν ἢν εἰς λεκάνην τίν᾽ ἐγχέας</sp>
+                </l>
+                <l n="6" xml:id="meineke-0402-lebes-5_2-l6">ψυχρόν, ξυνίης; εἶτα θερμὴν τὴν χύτραν</l>
+                <l n="7" xml:id="meineke-0402-lebes-5_2-l7">εἰς τοὔξος ἔνθῃς· διάπυρος γὰρ οὖσ᾽ ἔτι</l>
+                <l n="8" xml:id="meineke-0402-lebes-5_2-l8">ἕλξει δι᾽ αὑτῆς νοτίδα, καὶ ζυμουμένη</l>
+                <l n="9" xml:id="meineke-0402-lebes-5_2-l9">ὥσπερ κίσηρις λήψεται διεξόδους</l>
+                <l n="10" xml:id="meineke-0402-lebes-5_2-l10">σομφάς, δι᾽ ὧν τὴν ὑγρασίαν ἐκδέξεται·</l>
+                <l n="11" xml:id="meineke-0402-lebes-5_2-l11">τὰ κρεάδι᾽ ἔσται τ᾽ οὐκ ἀπεξηραμμένα,</l>
+                <l n="12" xml:id="meineke-0402-lebes-5_2-l12">ἔγχυλα δ᾽ ἀτρεμεὶ καὶ δροσώδη τὴν σχέσιν.</l>
+                <l n="13" xml:id="meineke-0402-lebes-5_2-l13">
+                  <sp>
+                    <speaker>Α.</speaker> Ἄπολλον, ὡς ἰατρικῶς. ὦ Γλαυκία,</sp>
+                </l>
+                <l n="14" xml:id="meineke-0402-lebes-5_2-l14">ταυτὶ ποιήσω. <sp>
+                    <speaker>Β.</speaker> καὶ παρατίθει γ᾽ αὐτά, παῖ,</sp>
+                </l>
+                <l n="15" xml:id="meineke-0402-lebes-5_2-l15">ὅταν παρατιθῇς, μανθάνεις; ἐψυγμένα.</l>
+                <l n="16" xml:id="meineke-0402-lebes-5_2-l16">ἀτμὸς γὰρ οὕτως οὐχὶ προσπηδήσεται</l>
+                <l n="17" xml:id="meineke-0402-lebes-5_2-l17">ταῖς ῥισίν, ἀλλ᾽ ἄνω μάλ᾽ εἶσι καταφυγών.</l>
+                <l n="18" xml:id="meineke-0402-lebes-5_2-l18">
+                  <sp>
+                    <speaker>Α.</speaker> πολλῷ γ᾽ ἀμείνων, ὡς ἔοικας, ἦσθ᾽ ἄρα</sp>
+                </l>
+                <l n="19" xml:id="meineke-0402-lebes-5_2-l19">λογογράφος ἢ μάγειρος. ὃ λέγεις οὐ λέγεις,</l>
+                <l n="20" xml:id="meineke-0402-lebes-5_2-l20">τέχνην δ᾽ ὀνειδίζεις.</l>
+              </lg>
+              <note type="source">
+                <bibl>Athenaeus IX p. 383 c:</bibl>
+                <quote>ἐγὼ δὲ ἕνα τῶν ἀρχαίων μαγείρων τεθαύμακα πείρᾳ τῆς τέχνης ἧς εἰσηγήσατο ἀπολαύσας. παράγει δ᾽ αὐτὸν Ἄλεξις ἐν Λέβητι λέγοντα τάδε <title>Ἧψέ μοι δοκεῖ</title> κτλ.</quote> Coquum, quem in hac fabula induxit Alexis, non servum fuisse, sed ingenuum, Athenaei scimus testimonio <bibl>lib. XIV p. 661 d:</bibl>
+                <quote>καὶ Ἄλεξις δ᾽ ἐν Λεβητίῳ (sic) δηλοῖ ὅτι ἡ μαγειρικὴ τέχνη ἐπιτήδευμα τῶν ἐλευθέρων. πολίτης γάρ τις οὐκ ἀπινὴς ἐν αὐτῷ δείκνυται ὁ μάγειρος.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 fortasse ἦψ᾽, ἐμοὶ δοκεῖν. Quamquam nec hoc satisfacit. — Vs. 2 libri τιν᾽ ὄψον. Coraes τι γ᾽ ὄψον. De hiatu vide ad Antiphanem p. 81. Ibid. δελφάκειον pro δελφάκιον Dindorfius. — Vs. 3 ην (sic) A. ἦν Β. ὗν PVL. οὖν Schweighaeuserus. νυν Porsonus et Dindorfius. Mirum est nullum horum vidisse rectissime habere ἣν et vs. 7 legendum ἔνθῃς. At vidit Dobraeus Adv. II p. 322. Quomodo? inter-</note>
+              <pb n="441" facs="urn:hathi:hvd.32044079388682:scan:449" />
+              <note type="apparatus">rogaverat primus interlocutor. Cui alter respondet: si fervidam ollam in frigidum acetum immiseris. — Vs. 6 ξυνιεὶς libri: ξυνιεῖς Schweighaeuserus. ξυνίης Dindorfius. Ibidem Dobraeus ἐγχέῃς, quo fortasse non opus est. — Vs. 7 libri ἐνθείς, quod in ἔνθες mutarunt. Vide quae ad tertium versum dixi. Coniunctivum reposuit etiam Dobraeus. — Vs. 8 ζυμουμένη ΑΡ. ζωμουμένη Β. ζυμουμένην VL. — Vs. 9 κίσηρις ΑΒΡ. κίσαρις V. κίσηρης L. — Vs. 11 libri κρέα δ᾽ ἔσται. Correxit Casaubonus. τ᾽ post ἔσται accessit ex B. ἀπεξηραμμένα Β. ἀπεξηραμένα PVL. — Vs. 12 ἀτρέμα PVL. ἀτρεμεὶ Α. ἀτρέμει Β. Recepi ἀτρεμεί, de qua forma vide grammaticorum locos a Dindorfio ad Aristoph. Nub. 261 indicatos, quibus adde grammaticum Bekk. Anecd. p. 460 20. Ἀτρέμας: ἠρέμα. καὶ ἀτρέμα λέγουσι καὶ ἀτρεμεῖν. Scribe ἀτρεμεί. — Vs. 15 παρατιθῇς pro παρατίθης Schweighaeuserus. ἐψυγμένα PVL. ἐψυσμένα Β. — Vs. 16 ἀτμὸς pro ἀτμὶς Schweighaeuserus. — Vs. 17 τοῖς Β. Ibidem vulgo ἀνωμαλίσι (ΑΡ ἀνωμαλίσει) καταφαγών. Correxit Scaliger apud Grotium Excerptis p. 973. — Vs. 18 πολλῷ γ᾽ pro πολλῶν τ᾽ Casaubonus. — Vs. 19 λογογράφον non historiarum scriptorem dicit, ut Grotius interpretatur, sed qui mercede conductus reis orationes scribit. Quod hominum genus vulgo male audiebat. Demosth. fals. leg. p. 420 in. (ed. Rsk.) εἶτ᾽ οὐ σὺ σοφιστὴς καὶ πονηρός γε; οὐ σὺ λογογράφος καὶ θεοῖς ἐχθρός; Hi quamvis verbosi, saepe tamen argumentum parum dilucide explicabant et multa dicendo efficiebant ut audientes nihil intelligerent. Hinc recte infertur ὃ λέγεις οὐ λέγεις i. e. οὐδὲν λέγεις. Cui dicendi generi mirum est quam infesti fuerint critici, qui non hunc tantum locum, in quo Dobraeus ὃ λέγεις εὖ λέγεις scribebat, sed etiam Eubulum Ion. I 3: κοὐδ᾽ ἂν λέγων λέξαιμι, et Aristophanem apud Polluc. VII 96: οὐδ᾽ ἂν λέγων λέξαις, haud optimis coniecturis vexarunt. Haud dissimile est quod dixit Aristoph. Plut. 606: οὐ γὰρ πείσεις οὐδ᾽ ἢν πείσῃς, quod attigit Eustathius ad Iliad. p. 660 62.</note>
+            </div>
+          </div></body></text></TEI>

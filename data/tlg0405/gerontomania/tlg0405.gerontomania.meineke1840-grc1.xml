@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Anaxandrides, ΓΕΡΟΝΤΟΜΑΝΙΑ: fragments</title><author>Anaxandrides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0405.gerontomania.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0405.gerontomania.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0405.gerontomania.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_gerontomania"><head>ΓΕΡΟΝΤΟΜΑΝΙΑ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0405-gerontomania-1">
+              <head>Ι.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0405-gerontomania-1-l1">
+                    <sp>
+                      <speaker>Α.</speaker> Τὴν ἐκ Κορίνθου Λαΐδ᾽ οἶσθα;</sp>
+                    <sp>
+                      <speaker>Β.</speaker> πῶς γὰρ οὔ;</sp>
+                  </l>
+                  <l n="2" xml:id="meineke-0405-gerontomania-1-l2">
+                    <sp>τὴν ἡμετέρειον.</sp>
+                    <sp>
+                      <speaker>Α.</speaker> ἦν ἐκείνῃ τις φίλη</sp>
+                  </l>
+                  <l n="3" xml:id="meineke-0405-gerontomania-1-l3">῎Αντεια. <sp>
+                      <speaker>Β.</speaker> καὶ τοῦθ᾽ ἡμέτερον ἦν παίγνιον.</sp>
+                  </l>
+                </lg>
+              </quote>
+              <pb n="165" facs="urn:hathi:hvd.32044079388682:scan:175" />
+              <sp>
+                <speaker>Α.</speaker>
+                <lg>
+                  <l n="4" xml:id="meineke-0405-gerontomania-1-l4">νὴ τὸν Δί᾽ ἤνθει τότε Λαγίσκιον, τότ᾽ ἦν</l>
+                  <l n="5" xml:id="meineke-0405-gerontomania-1-l5">καὶ Θεολύτη μάλ᾽ εὐπρόσωπος καὶ καλή,</l>
+                  <l n="6" xml:id="meineke-0405-gerontomania-1-l6">ὑπέφαιν᾽ ἐσομένη δ᾽ Ὥκιμον λαμπρὸν πάνυ.</l>
+                </lg>
+              </sp>
+              <note type="source">
+                <bibl>Athenaeus XIII p. 570 d</bibl>: μνημονεύει δὲ τῆς Λαΐδος καὶ Ἀναξανδρίδης ἐν Γεροντομανίᾳ καὶ ἄλλας ἑταίρας αὐτῇ συγκαταλέγει διὰ τούτων <quote>Τὴν ἐκ Κορίνθου</quote> κτλ.</note>
+              <note type="apparatus">Vs. 2 ἡμετέρειον. Ita Abreschius Diluc. Thucyd. p. 489. ἡμέρειον VL. ημεριον Α. ἡμέριον Β. ἡμερίον P. Forma ἡμετέρειος usus est Anacreon Fragm. LXXV. De accentu (ἡμετερεῖος an ἡμετέρειος) dixit Lobeckius Paral. gramm. p. 322. Frustra Casaubonus tentat τὴν Ἱμεραίαν, et Schweighaeuserus τὴν Ὑκκαρείαν. — Vs. 2 φίλη VL. φιάλη Β. φιάλη Ρ. — Vs. 3 Ἄντεια PVL. ἄντειαν Β. ἄνθεια Α: nisi hic Schweighaeuseri error est enotatam ex codice litteram ϑ ad Ἄντεια referentis, quum fortasse ad τοῦτ᾽ debuerit. τοῦθ᾽ V. ταῦθ᾽ Ρ. τοῦτ᾽ Basil. L et Schweigh. editio. Dindorfius. — Vs. 4 Λαγίσκιον, τότ᾽ ἦν scripsi praeeunte Iacobsio, qui coniecit Λαγίσκιον, τότε. Libri Λαγίσκη. ἦν δὲ τότε. Dobraeus Adv. II p. 344: ἤνθει καὶ Λαγίσκη· καὶ τότε ἦν Θεολύτη, vel τότ᾽ ἦν ἡ Θεολύτη. Pro Θεολίτη ex C enotatum Νεολύτη. — Vs. 6 ἐσομένη δ᾽ ὤκιμον ΑΒ. ἐσομένη ἦν δ᾽ ὤκιμον VL. Pro λαμπρὸν malim cum Dobraeo λαμπρά. Dindorfius postremos versus ita edidit:
+<quote>
+                  <lg>
+                    <l n="7" xml:id="meineke-0405-gerontomania-1-l7">νὴ τὸν Δί᾽ ἤνθει τότε Λαγίσκη * *</l>
+                    <l n="8" xml:id="meineke-0405-gerontomania-1-l8">* * * * * ἦν δὲ τότε</l>
+                    <l n="9" xml:id="meineke-0405-gerontomania-1-l9">καὶ Θεολύτη μάλ᾽ εὐπρόσωπος καὶ καλή</l>
+                    <l n="10" xml:id="meineke-0405-gerontomania-1-l10">ὑπέφαιν᾽ ἐσομένη * * * *</l>
+                    <l n="11" xml:id="meineke-0405-gerontomania-1-l11">* * δ᾽ Ὥκιμον λαμπρὸν πάνυ.</l>
+                  </lg>
+                </quote>
+Quarum lacunarum vix idonea caussa erat.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0405-gerontomania-2">
+              <lg>
+                <l n="1" xml:id="meineke-0405-gerontomania-2-l1">Καί τοι πολύ γε πονοῦμεν,</l>
+                <l n="2" xml:id="meineke-0405-gerontomania-2-l2">τὸν ἀσύμβολον εὗρε γελοῖα λέγειν Ῥαδάμανθυς καὶ Παλαμήδης.</l>
+              </lg>
+              <pb n="166" facs="urn:hathi:hvd.32044079388682:scan:176" />
+              <note type="source">Athenaeus XIV p. 614 c: <quote>Ἀναξανδρίδης δ᾽ ἐν Γεροντομανίᾳ καὶ εὑρετὰς τῶν γελοίων φησὶ γενέσθαι Ῥαδάμανθυν καὶ Παλαμήδην, λέγων οὕτως <quote>Καί τοι κτλ.</quote>
+                </quote>
+              </note>
+              <note type="apparatus">In his B verba <quote>λέγων οὕτως</quote> omittit, post <quote>καί τοι</quote> inferens <quote>φησί</quote>. Anaxandridis verba ex loco antistrophico desumpta videri possint, ut iambici versus cum anapaestico tetrametro coniunctio nihil offensionis habeat. Cfr Phrynichi fragm. p. 580. Quamquam priora illa quo consilio reliquis praemissa sint non intellegitur. Ceterum satis obscura sunt quae de hoc loco tradidit Aristoteles Rhet. III 12: <quote>ἀνάγκη δὲ μεταβάλλειν τὸ αὐτὸ λέγοντας· ὅπερ ὡς προοδοποιεῖ τῷ ὑποκρίνεσθαι· „οὗτός ἐστιν ὁ κλέψας ὑμῶν, οὗτός ἐστιν ὁ ἐξαπατήσας, οὗτος ὁ τὸ ἔσχατον προδοῦναι ἐπιχειρήσας.“ οἷον καὶ Φιλήμων ὁ ὑποκριτὴς ἐποίει ἔν τε τῇ Ἀναξανδρίδου Γεροντομανίᾳ, ὅτε λέγει Ῥαδάμανθυς καὶ Παλαμήδης, καὶ ἐν τῷ προλόγῳ τῶν Εὐσεβῶν τὸ ἐγώ· ἐὰν γάρ τις ταῦτα μὴ ὑποκρίνηται, γίνεται ὁ τὴν δοκὸν φέρων.</quote> In arte rhetorica quid fuerit <foreign xml:lang="grc">metabole</foreign> docuit Spaldingius ad Quintil. IX 3, 38. Nec minus constat de <foreign xml:lang="grc">hypocrisi</foreign>, de qua vide, ne longius abeam, Ernesti Lex. techn. p. 364. Philemon autem quid fecerit in recitandis verbis <quote>Ῥαδάμανθυς καὶ Παλαμήδης</quote>, non satis apparet. Num forte eadem verba in pluribus deinceps versibus repetebantur et alio atque alio vocis flexu et sono ab histrione recitabantur? Ita sane videtur, neque alia alterius loci fuerit ratio, in quo identidem repetebatur pronomen <quote>ἐγώ</quote>.</note>
+            </div>
+          </div></body></text></TEI>

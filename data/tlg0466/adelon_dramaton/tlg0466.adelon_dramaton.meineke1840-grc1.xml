@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Heraclides, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><author>Heraclides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0466.adelon_dramaton.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0466.adelon_dramaton.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0466.adelon_dramaton.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0466_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="1" author_heading="HERACLIDES." xml:id="meineke-0466-adelon_dramaton-1">
+              <lg>
+                <l n="1" xml:id="meineke-0466-adelon_dramaton-1-l1">Ἀλεκτρυόνα τὸν τοῦ Φιλίππου παραλαβὼν</l>
+                <l n="2" xml:id="meineke-0466-adelon_dramaton-1-l2">ἀωρὶ κοκκύζοντα καὶ πλανώμενον</l>
+                <l n="3" xml:id="meineke-0466-adelon_dramaton-1-l3">κατέκοψεν· οὐ γὰρ εἶχεν οὐδέπω λόφον.</l>
+                <l n="4" xml:id="meineke-0466-adelon_dramaton-1-l4">ἕνα κατακόψας μάλα συχνοὺς ἐδείπνισεν</l>
+                <l n="5" xml:id="meineke-0466-adelon_dramaton-1-l5">Χάρης Ἀθηναίων τόθ', ὡς γενναῖος ἦν.</l>
+              </lg>
+              <note type="source">Athenaeus XII p. 533 e. de Charete, Cleocharis filio (Stephanus Byz. v. Ἀγγελή), Atheniensium duce notissimo: <quote>ἐδείπνισεν Ἀθηναίους ἐν τῇ ἀγορᾷ θύσας τὰ ἐπινίκια τῆς γενομένης μάχης πρὸς τοὺς Φιλίππου ξένους, ὧν ἡγεῖτο μὲν Ἀδαῖος, Ἀλεκτρυὼν ἐπικαλούμενος, περὶ οὗ καὶ Ἡρακλείδης, ὁ τῶν κωμῳδιῶν ποιητὴς μέμνηται οὕτως Ἀλεκτρυόνα τὸν τοῦ κτλ.</quote> Respicit haec Zenobius VI 34. <quote>Φιλίππου Ἀλεκτρυών: αὕτη τάττεται ἐπὶ τῶν ἐν μικροῖς κατορθώμασιν ἀλαζονευομένων. Ἀλεκτρυών γάρ τις ἐγένετο Φιλίππου στρατηγός, ὃν ἀπέκτεινεν, ὡς φασι, Χάρης ὁ Ἀθηναῖος. μέμνηται δὲ αὐτοῦ Ἡρακλείδης ὁ κωμικός καὶ Ἀντιφάνης.</quote> Ex Athenaeo profecit allatus a Schweighaeusero Eustathius ad Odyss. p. 1479 37. qui inter alia haec annotavit: <quote>ἔστι δὲ τὸ μὲν ἀωρὶ κοκκύζειν τὸν Ἀδαῖον ἀλεκτρυόνα τὸ παρὰ καιρὸν ἐπιβαλεῖν τῇ μόχῃ· τὸ δὲ μήπω λόφον ἔχειν, τὸ ἄοπλον ἔτι ὄντα περιπεσεῖν κινδύνῳ.</quote>
+              </note>
+              <note type="apparatus">Schweighaeuserus verba οὐκ εἶχεν οὐδέπω λόφον ad imperitiam et iuventatem Adaei refert. Vs. 4 pro ἕνα Epit. et Eustathius κᾆτα. Si verum est ἕνα, de quo non dubito, infer tertium</note>
+              <pb n="566" facs="urn:hathi:hvd.32044079388682:scan:570" />
+              <note type="apparatus">et quartum versum aliquid omissum videri potest. — Vs. 5 epit. et Eust. <quote>Ἀθηναίους</quote>. Verba <quote>ὡς γενναῖος ἦν</quote> fortasse ad Adaeum sive Alectryona referenda sunt. Menander Θεοφορ. II 12: <quote>
+                  <l n="6" xml:id="meineke-0466-adelon_dramaton-1-l6">ἀλεκτρυὼν γενναῖος ἐν ἑτέρᾳ τροφῇ ἐστίν,</l>
+                  <l n="7" xml:id="meineke-0466-adelon_dramaton-1-l7">ὁ δ’ ἀγεννὴς καὶ δέδια τὸν κρείττονα.</l>
+                </quote> Quae Dobraeus Adv. II p. 355 comparat cum verbis Clyti Milesii apud Athen. XIV p. 655 c: <quote>ἔχει (ὄρνις μελεαγρὶς) τὸ μὲν μέγεθος ὄρνιθος γενναίου</quote>. Quod recte intellegit de gallo qui certaminibus committendis alitur (Kampfhahn). Charetis de Adaeo, mercenariorum Philippi militum duce, victoriam ad alterutram duarum illarum expeditionum ab Atheniensibus adversus Philippum Olymp. CVIII 1 pro Olynthiis susceptarum spectare, monuit Schweighaeuserus. Adaeum commemorat etiam Damoxenus Heautonpenth. vs. 5.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Mnesimachus, ΔΥΣΚΟΛΟΣ: fragments</title><author>Mnesimachus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0476.dyskolos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0476.dyskolos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0476.dyskolos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0476_dyskolos"><head>ΔΥΣΚΟΛΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0476-dyskolos-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0476-dyskolos-1-l1">Ἀλλ᾽, ἀντιβολῶ σ᾽, ἐπίταττέ μοι μὴ πόλλ᾽ ἄγαν,</l>
+                  <l n="2" xml:id="meineke-0476-dyskolos-1-l2">μηδ᾽ ἄγρια λίαν, μηδ᾽ ἐπηργυρωμένα,</l>
+                  <l n="3" xml:id="meineke-0476-dyskolos-1-l3">μέτρια δέ, τῷ θείῳ σεαυτοῦ. <sp>
+                      <speaker>Β.</speaker> πῶς ἔτι</sp>
+                  </l>
+                  <l n="4" xml:id="meineke-0476-dyskolos-1-l4">μετριώτερ᾽ ὦ δαιμόνιε; <sp>
+                      <speaker>Α.</speaker> πῶς; σύντεμνε καὶ</sp>
+                  </l>
+                  <l n="5" xml:id="meineke-0476-dyskolos-1-l5">ἐπεξαπάτα με. τοὺς μὲν ἰχθῦς μοι κάλει</l>
+                  <l n="6" xml:id="meineke-0476-dyskolos-1-l6">ἰχθύδιον· ὄψον δ᾽ ἂν λέγῃς ἕτερον, κάλει</l>
+                  <l n="7" xml:id="meineke-0476-dyskolos-1-l7">ὀψάριον. ἥδιον γὰρ ἀπολοῦμαι πολύ.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus VIII p. 359 c: ὁ δὲ παρὰ Μνησιμάχῳ ἐν τῷ ὁμωνύμῳ δράματι Δύσκολος φιλάργυρος ὢν σφόδρα πρὸς τὸν ἀσωτευόμενον νεανίσκον φησίν <quote>Ἀλλ᾿ ἀντιβολῶ</quote> κτλ.</note>
+              <note type="apparatus">Vs. 4 πῶς; fortasse adolescenti tribuendum. — Vs. 6 pro <quote>ἰχθύδιον</quote> pluralem requirebat Dawesius Miscell. p. 14. Iniuria, opinor, et invito ipso illo, quem loquentem induxit poeta, avaro.</note>
+            </div>
+          </div></body></text></TEI>

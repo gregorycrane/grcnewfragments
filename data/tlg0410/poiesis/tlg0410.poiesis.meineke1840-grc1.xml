@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΠΟΙΗΣΙΣ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.poiesis.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.poiesis.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.poiesis.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_poiesis"><head>ΠΟΙΗΣΙΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0410-poiesis-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0410-poiesis-1-l1">Μακάριόν ἐστιν ἡ τραγῳδία</l>
+                  <l n="2" xml:id="meineke-0410-poiesis-1-l2">ποίημα κατὰ πάντ᾽, εἴ γε πρῶτον οἱ λόγοι</l>
+                  <l n="3" xml:id="meineke-0410-poiesis-1-l3">ὑπὸ τῶν θεατῶν εἰσιν ἐγνωρισμένοι,</l>
+                  <l n="4" xml:id="meineke-0410-poiesis-1-l4">πρὶν καί τιν᾽ εἰπεῖν· ὡς ὑπομνῆσαι μόνον</l>
+                  <l n="5" xml:id="meineke-0410-poiesis-1-l5">δεῖ τὸν ποιητήν· Οἰδίπουν γὰρ ἂν μόνον</l>
+                </lg>
+              </quote>
+              <pb n="106" facs="urn:hathi:hvd.32044079388682:scan:116" />
+              <lg>
+                <l n="6" xml:id="meineke-0410-poiesis-1-l6">φῶ, τἄλλα πάντ᾽ ἴσασιν· ὁ πατὴρ Λάϊος,</l>
+                <l n="7" xml:id="meineke-0410-poiesis-1-l7">μήτηρ Ἰοκάστη, θυγατέρες, παῖδες τίνες,</l>
+                <l n="8" xml:id="meineke-0410-poiesis-1-l8">τί πείσεθ᾽ οὗτος, τί πεποίηκεν. ἂν πάλιν</l>
+                <l n="9" xml:id="meineke-0410-poiesis-1-l9">εἴπῃ τις Ἀλκμαίωνα, καὶ τὰ παιδία</l>
+                <l n="10" xml:id="meineke-0410-poiesis-1-l10">πάντ᾽ εὐθὺς εἴρηχ᾽, ὅτι μανεὶς ἀπέκτονεν</l>
+                <l n="11" xml:id="meineke-0410-poiesis-1-l11">τὴν μητέρ᾽, ἀγανακτῶν δ᾽ Ἄδραστος εὐθέως</l>
+                <l n="12" xml:id="meineke-0410-poiesis-1-l12">ἥξει πάλιν τ᾽ ἄπεισι <gap reason="lost" extent="unknown" />
+                </l>
+                <l n="13" xml:id="meineke-0410-poiesis-1-l13">ἔπειθ᾽ ὅταν μηδὲν δύνωντ᾽ εἰπεῖν ἔτι,</l>
+                <l n="14" xml:id="meineke-0410-poiesis-1-l14">κομιδῇ δ᾽ ἀπειρήκωσιν ἐν τοῖς δράμασιν,</l>
+                <l n="15" xml:id="meineke-0410-poiesis-1-l15">αἴρουσιν ὥσπερ δάκτυλον τὴν μηχανήν,</l>
+                <l n="16" xml:id="meineke-0410-poiesis-1-l16">καὶ τοῖς θεωμένοισιν ἀποχρώντως ἔχει.</l>
+                <l n="17" xml:id="meineke-0410-poiesis-1-l17">ἡμῖν δὲ ταῦτ᾽ οὐκ ἔστιν, ἀλλὰ πάντα δεῖ</l>
+                <l n="18" xml:id="meineke-0410-poiesis-1-l18">εὑρεῖν, ὀνόματα καινά, τὰ διῳκημένα</l>
+                <l n="19" xml:id="meineke-0410-poiesis-1-l19">πρότερον, τὰ νῦν παρόντα, τὴν καταστροφήν,</l>
+                <l n="20" xml:id="meineke-0410-poiesis-1-l20">τὴν εἰσβολήν. ἂν ἕν τι τούτων παραλίπῃ</l>
+                <l n="21" xml:id="meineke-0410-poiesis-1-l21">Χρέμης τις ἢ Φείδων τις ἐκσυρίττεται·</l>
+                <l n="22" xml:id="meineke-0410-poiesis-1-l22">Πηλεῖ δὲ ταῦτ᾽ ἔξεστι καὶ Τεύκρῳ ποιεῖν.</l>
+              </lg>
+              <note type="source">
+                <bibl>Athenaeus VI p. 222 a</bibl>: <quote>ὑπομνήσομεν τὰ παρ᾽ Ἀντιφάνει λεγόμενα ἐν Ποιήσει τόνδε τὸν τρόπον <title>Μακάριόν ἐστιν ἡ τραγῳδία</title> κτλ.</quote> V. Hist. crit. p. 272.</note>
+              <note type="apparatus">— Vs. 2 οἱ λόγοι <foreign xml:lang="lat">argumenta</foreign>. Metagenes Philoth. 1: μεταβάλλω τὸν λόγον. Aristoph. Vesp. 54: φέρε νυν κατείπω τοῖς θεαταῖς τὸν λόγον. Comicus inc. apud Cramerum Anecd. IV p. 328: ἤδη δὲ λέξω τὸν λόγον τοῦ δράματος. — Vs. 5. 6 γὰρ ἂν μόνον φῶ, τἄλλα. Ita Dindorfius, quem sequutus sum. ABC γὰρ φῶ τὰ δ᾽ ἄλλα. VL γὰρ ἄν γε φῶ τὰ δ᾽ ἄλλα. P γὰρ ἂν φῶ τὰ δ᾽ ἄλλα. Fortasse igitur lenius corrigas Οἰδίπουν γὰρ ἄν γε φῶ, καὶ τἄλλα πάντ᾽ ἴσασιν. — Vs. 9 Dindorfius Ἀλκμέωνα, quam formam ut legitimam agnoscere videtur Grammaticus Crameri Anecd. III p. 386: τὰ διὰ τοῦ εων ὑπὲρ δύο συλλαβὰς βαρύτονα πεφύκασι φυλάττειν τὸ ω ἐν τῇ γενικῇ, οἷον Γελέων Γελέωνος, Ἀλκμέων Ἀλκ-</note>
+              <pb n="107" facs="urn:hathi:hvd.32044079388682:scan:117" />
+              <note type="apparatus">μέωνος. Eandem ex marmore Sandvicensi afferunt Walpole Com. graec. fragm. p. 101 et Elmsleius ad Euripid. Bacch. 337, habentque codices cum aliis locis tum Aristot. Rhet. II 23. Clement. Alex. Str. I p. 144 Sylb. Hesychii v. Λαισποδίας. Stephani Byzant. s. v. Φοιτίαι. Cfr Wesselingius ad Herod. I 59. Schaeferus ad Plut. Vit. V p. 452 et quae infra attuli ad Timoclis Dionysiaz. vs. 12. — Vs. 12 et 13 ita editi sunt, ut in codd. se scriptos repperisse testatur Casaubonus. Α ἥξει πάλιν ταπεισιθ᾿ ὅταν κτλ. Similiter ceteri. — Vs. 13 μηδὲν MSS Casaub. μηθὲν PVL. — Vs. 14 ἀπειρήκωσιν Dindorfius. Vulgo ἀπειρήκασιν. ΑΒΡ ἀπειρηκόσιν. — Vs. 15 αἴρουσιν ὥσπερ δάκτυλον τὴν μηχανήν. Deum ex machina eos introducere dicit. Similiter Plato Crat. p. 425 d : εἰ μὴ ἄρα δή, ὥσπερ οἱ τραγῳδοποιοί, ἐπειδάν τι ἀπορῶσιν, ἐπὶ τὰς μηχανὰς καταφεύγουσι θεοὺς αἴροντες. Quod expressisse constat Cicer. Nat. d. I 20: ut tragici poetae, cum explicare argumenti exitum non potestis, confugitis ad deum. Eodem artificio nonnunquam etiam poetas comicos usos esse colligas ex scholiasta Aristidis p. 75 ed. Fromm. ἔχομεν γὰρ πολλάκις ἐν τοῖς κωμικοῖς δράμασι θεοὺς φαινομένους διὰ μηχανῆς. Sed legendum videtur ἐν τοῖς τραγικοῖς δράμασιν. Verba αἴρουσιν ὥσπερ δάκτυλον recte interpretari videtur Grotius Excerptis p. 622: tam facile quam digitulum tollunt machinam. Quod enim Casaubonus existimat, respexisse Antiphanem morem quo pugiles victos se profitentes tollebant digitum, Romanorum is mos fuit non Graecorum, quos nec grammaticum Bekkeri Anecd. p. 357 30 respexisse credo haec scribentem, Αἶρε δάκτυλον: τίθεται ἐπὶ τῶν ἀπαγορευόντων ἐν τῇ ἀγωνίᾳ. ἐπαίρεσθαι γὰρ τὴν χεῖρα σύμβολον τοῦ νενικῆσθαι. — Vs. 18 κἄπειτα, quod post καινὰ in libris legitur, delevit Casaubonus. — Vs. 21 Φίδων ΑΒ.</note>
+            </div>
+            </div></body></text></TEI>

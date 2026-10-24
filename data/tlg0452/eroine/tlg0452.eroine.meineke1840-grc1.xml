@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Epigenes, ΗΡΩΙΝΗ: fragments</title><author>Epigenes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0452.eroine.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0452.eroine.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0452.eroine.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0452_eroine"><head>ΗΡΩΙΝΗ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0452-eroine-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0452-eroine-1-l1">Ἀλλ᾿ οὐδὲ κεραμεύουσι νῦν τοὺς κανθάρους</l>
+                  <l n="2" xml:id="meineke-0452-eroine-1-l2">ὦ τάλαν, ἐκείνους τοὺς ἁδρούς, ταπεινὰ δὲ</l>
+                  <l n="3" xml:id="meineke-0452-eroine-1-l3">καὶ γλαφυρὰ πάντες, ὡσπερεὶ τὰ ποτήρια</l>
+                  <l n="4" xml:id="meineke-0452-eroine-1-l4">αὔτ᾽ οὐ τὸν οἶνον πιόμενοι.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XIII p. 474 a. de cantharis disserens: Ἐπιγένης Ἡρωίνῃ Ἀλλ᾿ οὐδέ κτλ.</note>
+              <note type="apparatus">Vs. 3 et 4 ὡσπερεὶ τὰ ποτήρια αὔτ᾽ Porsonus. AB ὡς περὶ αὐτὰ τὰ ποτήρια. P ὡσπερεὶ αὐτὰ τὰ ποτήρια. V ὥσπερ αὐτὰ τὰ ποτήρια. L ὥσπερ αὐτὰ ποτήρια. Recepi praeeunte Dindorfio Porsoni coniecturam. Servari tamen potest codicum scriptura, si versu tertio aliquid excidisse statuas et locum ita disponas:
+<quote>
+                  <lg>
+                    <l n="3_2" xml:id="meineke-0452-eroine-1-l3_2">καὶ γλαφυρὰ πάντες . . . . ὡσπερεὶ</l>
+                    <l n="4_2" xml:id="meineke-0452-eroine-1-l4_2">αὐτὰ τὰ ποτήρι᾽ οὐ τὸν οἶνον πιόμενοι.</l>
+                  </lg>
+                </quote>
+Ac nescio an id etiam necessarium sit, cum ad ταπεινὰ καὶ γλαφυρὰ substantivum requiratur, et αὐτὰ melius ante quam post ποτήρια inferatur. Nec dubium esse potest quid exciderit. Nam ingentibus illis cantharis non unum quodlibet nomen minoris poculi oppositum fuisse consentaneum est, sed deminutivum ab ipso illo κάνθαρος formatum, h. e. κανθαρίδια, quod a κανθάριον formatum recte antepenultimam producit. Itaque locus ita videtur a poeta scriptus esse:
+<quote>
+                  <lg>
+                    <l n="3_3" xml:id="meineke-0452-eroine-1-l3_3">καὶ γλαφυρὰ πάντες κανθαρίδι᾽, ὡσπερεὶ</l>
+                    <l n="4_3" xml:id="meineke-0452-eroine-1-l4_3">αὐτὰ τὰ ποτήρι᾽, οὐ τὸν οἶνον πιόμενοι.</l>
+                  </lg>
+                </quote>
+              </note>
+            </div>
+          <pb n="539" facs="urn:hathi:hvd.32044079388682:scan:543" />
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0452-eroine-2">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0452-eroine-2-l1">Τὴν Θηρίκλειον δεῦρο καὶ τὰ Ῥοδιακὰ</l>
+                  <l n="2" xml:id="meineke-0452-eroine-2-l2">κόμισον λαβὼν τοὺς παῖδας. εἰσοίσεις μόνος</l>
+                  <l n="3" xml:id="meineke-0452-eroine-2-l3">ψυκτῆρα, κύαθον, κυμβία, ῥυτὰ τέτταρα,</l>
+                  <l n="4" xml:id="meineke-0452-eroine-2-l4">ἡδυποτίδας τρεῖς, ἠθμὸν ἀργυροῦν.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XI p. 502 e: <quote>Ἐπιγένης δ᾽ ἐν Ἡρωίνῃ καταλέγων πολλὰ ποτήρια καὶ τοῦ ψυγέως οὕτω μνημονεύει <quote rend="inline">Τὴν Θηρίκλειον — κυμβία.</quote>
+                </quote> Idem XI p. 469 c: <quote>μνημονεύει δ᾽ αὐτῶν (ἡδυποτίδων) καὶ Ἐπιγένης ἐν Ἡρωίνῃ διὰ τούτων <quote rend="inline">Ψυκτῆρα — ἀργυροῦν.</quote>
+                </quote>
+              </note>
+              <note type="apparatus">Apertum est haec in unum fragmentum coniungenda esse. Vs. 2 pro εἰσοίσεις scribendum videtur εἶτ᾽ οἴσεις, quod sententiae progressus fere flagitat. Versu quinto fortasse praestat ἡθμόν. Vide vol. II p. 91.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Sophilus, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><author>Sophilus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0502.adelon_dramaton.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0502.adelon_dramaton.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0502.adelon_dramaton.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0502_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0502-adelon_dramaton-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0502-adelon_dramaton-1-l1">Ὁ πατὴρ ὁ ταύτης πολὺ μέγιστός ἐστι</l>
+                  <l n="2" xml:id="meineke-0502-adelon_dramaton-1-l2">κριὸς ἐρέβινθος.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus II p. 54 f: <quote>Θεόφραστος δ᾽ ἐν φυτικοῖς τῶν ἐρεβίνθων τινὰς καλεῖ κρείους. καὶ Σώφιλος Ὁ πατὴρ κτλ.</quote>
+              </note>
+              <note type="apparatus">Cfr Eustathius ad Iliad. p. 948 46. Apud Theophr. de plant. VIII 5 <quote>κριούς</quote> legi, non <quote>κρείους</quote>, monuit Schweighaeuserus. Nec dubitari potest quin ea unice vera scriptura sit. Ab arietini capitis similitudine hoc ciceris genus appellatum esse scribit Plinius HN. XVIII 12 32. Itaque etiam Sophilo <quote>κριὸς</quote> reddidi pro vulgato <quote>κρεῖος</quote>. Comparatio spectat fortasse ad hominis salacitatem, siquidem <quote>ἐρέβινθος</quote> de αἰδοίῳ comicis familiare est. In fine versus fortasse scribendum <quote>ἐστι γάρ</quote>. Quamquam videndum ne tetrametrorum sint reliquiae.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0502-adelon_dramaton-2">
+              <note type="source">Athenaeus IV p. 158 a: <quote>Τραγικὸν γὰρ ἡ φακῆ σ̓τίν, Ἀρχάγαθος ἔφη πο γεγραφέναι ἧς καὶ ῥοφοῦντ᾽ Ὀρέστην τῆς νόσου πεπαυμένον, φησὶ Σώφιλος ὁ κωμῳδιοποιός.</quote>
+              </note>
+              <note type="apparatus">Schweighaeuserus in litteris <quote>πο</quote> Posidippi vel Polyzeli nomen latere putat, Archagathum autem no-</note>
+              <pb n="584" facs="urn:hathi:hvd.32044079388682:scan:588" />
+              <note type="apparatus">men medici a Plinio memorati esse coniicit. Acutissime, ut solet, Dobraeus Adv. II p. 306:
+<quote>
+                  <lg>
+                    <l n="1" xml:id="meineke-0502-adelon_dramaton-2-l1">(ἀλλὰ) τραγικὸν ἡ φακῆ σ̓θ᾽, ἧς φασὶν Ἀγάθαρχόν ποτε</l>
+                    <l n="2" xml:id="meineke-0502-adelon_dramaton-2-l2">γεγραφέναι ῥοφοῦντ᾽ Ὀρέστην τῆς νόσου πεπαυμένον.</l>
+                  </lg>
+„ut γὰρ sit Athenaei. Agatharchum, pictorem celebrem, de quo Iunius in catalogo et Bentleius Addend. ad Dissert. Phalar. Totus enim locus est Sophili, picturam quandam ridentis. Confer Aristoph. Plut. 385. Lys. 680.”</quote> Primum versum lenius ita refingas:
+<quote>
+                  <lg>
+                    <l n="3" xml:id="meineke-0502-adelon_dramaton-2-l3">τραγικὸν ἡ φακῆ σ̓τιν, ἧς καί φασιν Ἀγάθαρχον —</l>
+                  </lg>
+                </quote>
+Ac fortasse etiam Ἀρχάγαθον servari potest, de qua huius nominis forma v. Wesselingius ad Diodor. Sic. II p. 413. Dactylus in nomine proprio excusationem habet satis idoneam. <ref target="#p0584-u01-fn1">*)</ref>
+              </note>
+              <note type="footnote" xml:id="p0584-u01-fn1">*) Ea excusatio non locum habet apud Aristoph. Acharn. 318: <quote>ὑπὲρ ἐπιξήνου θελήσω τὴν κεφαλὴν ἔχων λέγειν.</quote> Aliorum coniecturis accedat haec mea: <quote>ὑπὲρ ἐπιξήνου θελήσω πάνθ᾽ ὅσ᾽ ἂν λέγω λέγειν.</quote> Ita vs. 355: <quote>ἐμοῦ θέλοντος ὑπὲρ ἐπιξήνου λέγειν — ἅπανθ᾽ ὅσ᾽ ἂν λέγω.</quote> Verba τὴν κεφαλὴν ἔχων interpretationis causa adscripta ipsa poetae verba expulerunt.</note>
+            </div>
+            </div></body></text></TEI>

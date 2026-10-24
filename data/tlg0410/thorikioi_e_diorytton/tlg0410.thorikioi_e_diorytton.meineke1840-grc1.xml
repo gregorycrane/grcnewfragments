@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΘΟΡΙΚΙΟΙ Η ΔΙΟΡΥΤΤΩΝ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.thorikioi_e_diorytton.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.thorikioi_e_diorytton.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.thorikioi_e_diorytton.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_thorikioi_e_diorytton"><head>ΘΟΡΙΚΙΟΙ Η ΔΙΟΡΥΤΤΩΝ</head><pb n="56" facs="urn:hathi:hvd.32044079388682:scan:66" />
+            <div type="textpart" subtype="fragment" n="unnumbered" xml:id="meineke-0410-thorikioi_e_diorytton-unnumbered">
+              <lg>
+                <l n="1" xml:id="meineke-0410-thorikioi_e_diorytton-unnumbered-l1">Λοῦται δ᾽ ἀληθῶς; <sp>
+                    <speaker>Β.</speaker>
+                    <p>ἀλλὰ τί;</p>
+                  </sp>
+                </l>
+                <l n="2" xml:id="meineke-0410-thorikioi_e_diorytton-unnumbered-l2">ἐκ χρυσοκολλήτου γε κάλπιδος μύρῳ</l>
+                <l n="3" xml:id="meineke-0410-thorikioi_e_diorytton-unnumbered-l3">Αἰγυπτίῳ μὲν τοὺς πόδας καὶ τὰ σκέλη,</l>
+                <l n="4" xml:id="meineke-0410-thorikioi_e_diorytton-unnumbered-l4">φοινικίνῳ δὲ τὰς γνάθους καὶ τιτθία,</l>
+                <l n="5" xml:id="meineke-0410-thorikioi_e_diorytton-unnumbered-l5">σισυμβρίνῳ δὲ τὸν ἕτερον βραχίονα,</l>
+                <l n="6" xml:id="meineke-0410-thorikioi_e_diorytton-unnumbered-l6">ἀμαρακίνῳ δὲ τὰς ὀφρῦς καὶ τὴν κόμην,</l>
+                <l n="7" xml:id="meineke-0410-thorikioi_e_diorytton-unnumbered-l7">ἑρπυλλίνῳ δὲ τὸ γόνυ καὶ τὸν αὐχένα,</l>
+              </lg>
+              <note type="source">Athenaeus XII p. 553 d: Ἀντιφάνης δὲ ἐν μὲν Ἀλκήστιδι ἐλαίῳ τινὰ ποιεῖ χριόμενον τοὺς πόδας — καὶ ἐν Θορικίοις <quote>Λοῦται δ᾽ ἀληθῶς</quote> κτλ. Idem XV p. 689 e: ὅτι δὲ διὰ σπουδῆς ἦν τοῖς παλαιοτέροις ἡ τῶν μύρων χρῆσις δῆλον ἐκ τοῦ καὶ ἐπίστασθαι ποῖόν τι ἑκάστῳ τῶν μελῶν ἡμῶν ἐστιν ἐπιτήδειον. Ἀντιφάνης γοῦν ἐν Θορικίοις ἢ Διορυττοντί φησι <quote>Λοῦται δ᾽ ἀληθῶς</quote> κτλ.</note>
+              <note type="apparatus">Vs. 1 λοῦται δ᾽ ἀληθῶς primo loco omnes; altero B λοῦτ αἰ δου ο ἀληθῶς. Cant. et L λοῦτ᾽ αἰδου. Extuli haec per interrogationem et sequentia alteri interlocutori adsignavi. — Vs. 2 primo loco pro χρυσοκολλήτου δὲ ABP habent χρυσοκόλλη (χρυσοκόλλη B) τε ABP. χρυσοκολλήτου γε VL. Id sequutus sum. — Vs. 3 τὰ σκέλη altero loco, primo τὰς χεῖρας, pro quo VL scripserunt τὰς χέρας, qua forma non utuntur poetae comici. Pro τὰ σκέλη antiquae comoediae poeta scripsisset opinor τὼ σκέλη. Sed ut Antiphanes etiam Anaxilas Neott. I 21. — Vs. 4 φοινικίνῳ altero loco et primo ABP. φοινικίῳ VL. — Vs. 5 σισυμβρίνῳ altero loco, et primo AP. οἰσιμβρίνῳ B. σισυμβρίῳ VL. — Vs. 7 primo loco AB ἑρπυλίνῳ. Pro γόνυ A γύνι.</note>
+            </div>
+            </div></body></text></TEI>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΚΥΒΕΡΝΗΤΗΣ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.kybernetes.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.kybernetes.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.kybernetes.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_kybernetes"><head>ΚΥΒΕΡΝΗΤΗΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0402-kybernetes-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-kybernetes-1-l1">Δύ᾿ ἐστί, Ναυσίνικε, παρασίτων γένη·</l>
+                  <l n="2" xml:id="meineke-0402-kybernetes-1-l2">ἓν μὲν τὸ κοινὸν καὶ κεκωμῳδημένον,</l>
+                  <l n="3" xml:id="meineke-0402-kybernetes-1-l3">οἱ μέλανες ἡμεῖς. <sp>
+                      <speaker>
+                        <abbr>Ν.</abbr>
+                      </speaker>
+                      <p>θάτερον ζητῶ γένος.</p>
+                    </sp>
+                  </l>
+                </lg>
+              </quote>
+              <pb n="434" facs="urn:hathi:hvd.32044079388682:scan:442" />
+              <lg>
+                <l n="4" xml:id="meineke-0402-kybernetes-1-l4">
+                  <sp>
+                    <speaker>Α.</speaker> σατράπας παρασίτους καὶ στρατηγοὺς ἐπιφανεῖς,</sp>
+                </l>
+                <l n="5" xml:id="meineke-0402-kybernetes-1-l5">σεμνοπαράσιτον ἐκ μέσου καλούμενον,</l>
+                <l n="6" xml:id="meineke-0402-kybernetes-1-l6">ὑποκρινόμενον εὖ τοῖς βίοις, ὀφρῦς ἔχον</l>
+                <l n="7" xml:id="meineke-0402-kybernetes-1-l7">χιλιοταλάντους ἀνακυλῖόν τ᾽ οὐσίας.</l>
+                <l n="8" xml:id="meineke-0402-kybernetes-1-l8">νοεῖς σὺ τὸ γένος καὶ τὸ πρᾶγμα; <sp>
+                    <speaker>Ν.</speaker> καὶ μάλα.</sp>
+                </l>
+                <l n="9" xml:id="meineke-0402-kybernetes-1-l9">
+                  <sp>
+                    <speaker>Α.</speaker> τούτων δ᾽ ἑκατέρου τῶν γενῶν ὁ μὲν τύπος</sp>
+                </l>
+                <l n="10" xml:id="meineke-0402-kybernetes-1-l10">τῆς ἐργασίας εἷς ἐστι, κολακείας ἀγών.</l>
+                <l n="11" xml:id="meineke-0402-kybernetes-1-l11">ὥσπερ ἐπὶ τῶν βίων δὲ τοὺς μὲν ἡ τύχη</l>
+                <l n="12" xml:id="meineke-0402-kybernetes-1-l12">ἡμῶν μεγάλοις προσένειμε τοὺς δ᾽ ἐλάττοσιν·</l>
+                <l n="13" xml:id="meineke-0402-kybernetes-1-l13">εἶθ᾽ οἱ μὲν εὐποροῦμεν οἱ δ᾽ ἀλύομεν.</l>
+                <l n="14" xml:id="meineke-0402-kybernetes-1-l14">ἆρά γε διδάσκω, Ναυσίνικ᾽; <sp>
+                    <speaker>Ν.</speaker> οὐκ ἀστόχως·</sp>
+                </l>
+                <l n="15" xml:id="meineke-0402-kybernetes-1-l15">
+                  <sp>
+                    <speaker />ἀλλ᾽ ἄν σ᾽ ἐπαινῶ μᾶλλον, αἰτήσεις μέ τι.</sp>
+                </l>
+              </lg>
+              <note type="source">
+                <quote>Athenaeus VI p. 237 b: παρασίτων δ᾽ εἶναί φησι γένη δύο ῎Αλεξις ἐν Κυβερνήτῃ διὰ τούτων Δύ᾽ ἐστί κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 3 οἱ μέλανες ημεῖς. „Pulla enim veste in scenam inducebantur parasiti. Vid. Pollux IV 119 et Victorius V. L. VI 23.“ Schweighaeuserus. — Vs. 4 Dobraeus Adv. II p. 310 transponit post vs. 5, ut accusativi σατράπας παρασίτους (pro quo μεγίστους vel ζαπλούτους coniicit) et στρατηγοὺς ἐπιφανεῖς pendeant ab ὑποκρινόμενον. Verba ἐκ μέσου quid significent nemo adhuc docuit. — Vs. 6 ἔχον Grotius Excerptis p. 573. ἔχοντα ΑΒΡ. ἔχοντά γε VL. — Vs. 7 libri ἀνακυλιοντουσίας. Correxit Porsonus. — Vs. 8 σὺ addidit Reisig. Coniect. p. 179. Porsonus Praef. Hecubae p. XVIII scribebat τό τε γένος. — Vs. 9 τούτων BL. τούτου PV. δ᾽ add. VL. om. BP. — Vs. 12 μεγάλοις VL. μεγάλαις ABP. — Vs. 15 libri μ᾽ ἔτι. Correxit Dutheil, quo auctore personarum vices et orationis cola ita distinxi ut supra vides. Vulgo: ἆρά γε διδάσκω, Ναυσίνικ᾽, οὐ ἀστόχως; Ν. ἀλλ᾽ ἄν σ᾽ ἐπαινῶ, μᾶλλον αἰτήσεις μ᾽ ἔτι. Cfr Dobraei Adv. II p. 310.</note>
+            </div>
+            <pb n="435" facs="urn:hathi:hvd.32044079388682:scan:443" />
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-kybernetes-2">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-kybernetes-2-l1">Εἰσέβαινον ἰσχάδες,</l>
+                  <l n="2" xml:id="meineke-0402-kybernetes-2-l2">τὸ παράσημον τῶν Ἀθηνῶν, καὶ θύμου δέσμαι τινές.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XIV p. 652 c. de ficubus atticis agens: <quote>῎Αλεξις δ᾽ ἐν Κυβερνήτῃ φησίν Εἰσέβαινον κτλ.</quote> Priora verba usque ad <quote>Ἀθηνῶν</quote>, pro quo <quote>Ἀττικῶν</quote> habet, apposuit etiam Eustathius ad Iliad. p. 955 8. Postrema <quote>θύμου δέσμαι τινές</quote> idem affert p. 1411 35.</note>
+            </div>
+          </div></body></text></TEI>

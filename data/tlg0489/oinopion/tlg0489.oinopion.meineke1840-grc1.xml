@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Philetaerus, ΟΙΝΟΠΙΩΝ: fragments</title><author>Philetaerus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0489.oinopion.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0489.oinopion.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0489.oinopion.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0489_oinopion"><head>ΟΙΝΟΠΙΩΝ</head><pb n="298" facs="urn:hathi:hvd.32044079388682:scan:306" />
+            <div type="textpart" subtype="fragment" n="2_3" ana="#compiled-citation-normalized" xml:id="meineke-0489-oinopion-2_3">
+              <head>II. III.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0489-oinopion-2_3-l1">Ὁ μάγειρος οὗτος Πατανίων προσελθέτω.</l>
+                <l n="2" xml:id="meineke-0489-oinopion-2_3-l2">Πλείους Στρατονίκου τοὺς μαθητάς μοι δοκεῖ</l>
+                <l n="3" xml:id="meineke-0489-oinopion-2_3-l3">ἕξειν Πατανίων.</l>
+              </lg>
+              <note type="source">
+                <bibl>Athenaeus IV p. 169 e:</bibl> πατάνιον δὲ διὰ τοῦ π Ἀντιφάνης — Φιλέταιρος Οἰνοπίωνι <quote>Ὁ μάγειρος οὗτος πατανίων προσελθέτω.</quote> καὶ πάλιν <quote>Πλείους</quote> κτλ.</note>
+              <note type="apparatus">In Philetaeri versibus Πατανίων nomen proprium esse intellexit Schweighaeuserus, a Dindorfio neglectus. Ad eandem plane rationem, ut multa similia omittam, formatum est cauponis nomen Πιθακνίων apud Alciphronem Epist. III 18 19, et Democlis parasiti cognomen Λαγυνίων apud Athen. XIII p. 584 f. De Stratonico citharista celeberrimo multis egit Athenaeus VIII cap. 41—45.</note>
+              <note type="apparatus">De quarto huius fabulae fragmento vide Nicostrati Oenopionem.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0489-oinopion-1">
+              <head>I.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0489-oinopion-1-l1">Θνητῶν δ’ ὅσοι</l>
+                <l n="2" xml:id="meineke-0489-oinopion-1-l2">ζῶσιν κακῶς ἔχοντες ἄφθονον βίον,</l>
+                <l n="3" xml:id="meineke-0489-oinopion-1-l3">ἐγὼ μὲν αὐτοὺς ἀθλίους εἶναι λέγω·</l>
+                <l n="4" xml:id="meineke-0489-oinopion-1-l4">οὐ γὰρ θανὼν δήπουθ’ ἂν ἔγχελυν φάγοις,</l>
+                <l n="5" xml:id="meineke-0489-oinopion-1-l5">οὐδ’ ἐν νεκροῖσι πέττεται γαμήλιος.</l>
+              </lg>
+              <note type="source">Athenaeus VII p. 280 d. de iis disserens qui ante Epicurum voluptatem commendaverint: Φιλέταιρος Κυναγίδι — καὶ ἐν Οἰνοπίωνι δὲ ὁ αὐτός φησι Θνητῶν δ’ ὅσοι κτλ.</note>
+              <note type="apparatus">Vs. 4 libri οὐ γὰρ θανών γε δήπουθ’ ἔγχελυν, nisi quod BP δήπουθεν. Probavi coniecturam Porsoni. Dindorfius οὐκ ἂν θανὼν δήπουθεν ἔγχελυν. — Vs. 5 πέττεται P et Eustathius p. 1156 58. πέπτεται VL. Ad γαμήλιος confer Grammaticum Bekk. Anecd. p. 229 30. γαμήλιος: ὁ εἰς τοὺς γάμους πλασσόμενος πλακοῦς.</note>
+              <note type="footnote" xml:id="p0297-u02-fn1">*) V. Hist. crit. p. 348.</note>
+            </div>
+          </div></body></text></TEI>

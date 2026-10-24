@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΚΩΡΥΚΟΣ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.korykos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.korykos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.korykos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_korykos"><head>ΚΩΡΥΚΟΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0410-korykos-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0410-korykos-1-l1">
+                    <sp>
+                      <speaker>Α.</speaker> Ἐν ὅσῳ δ᾽ ἀκροῶμαί σου, κέλευσόν μοί τινα</sp>
+                  </l>
+                  <l n="2" xml:id="meineke-0410-korykos-1-l2">
+                    <sp>φέρειν ἀπονίψασθαι.</sp>
+                    <sp>
+                      <speaker>Β.</speaker> δότω τις δεῦρ᾽ ὕδωρ</sp>
+                  </l>
+                  <l n="3" xml:id="meineke-0410-korykos-1-l3">
+                    <sp>καὶ σμῆμα.</sp>
+                  </l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus IX p. 409 c: ἐχρῶντο δὲ εἰς τὰς χεῖρας, ἀποπλύνοντες αὐτάς, καὶ σμήματι ἀπορρύψεως χάριν, ὡς πα-</note>
+              <pb n="75" facs="urn:hathi:hvd.32044079388682:scan:85" />
+              <note type="source">ρίστησιν Ἀντιφάνης ἐν Κωρύκῳ <quote>Ἐν ὅσῳ δ᾽ ἀκροῶμαι</quote> κτλ.</note>
+              <note type="apparatus">Vs. 1 μοι addidit Koppiersius Observ. p. 41. — Vs. 2 δότω τις — σμῆμα. Male PVL σμῆγμα. Eustathius ad Hom. p. 1401 6: <quote>χέρνιβα δὲ τὰ εἰς χειρὸς νίμμα καταχεόμενα, οἷς πολλάκις καί τι προσεδίδοτο καθαρτικὸν χειρῶν κατὰ τὸ δότω τις δεῦρ᾽ ὕδωρ καὶ σμῆμα, ὥς φησιν Ἀντιφάνης.</quote> Eadem sed omisso poetae nomine habet Philemo Lex. p. 200, cuius verba mirifice perturbata Osannus facili opera restituere potuisset, si Eustathii locum cognitum habuisset.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0410-korykos-2">
+              <lg>
+                <l n="1" xml:id="meineke-0410-korykos-2-l1">Τῶν θαλαττίων δ᾽ ἀεὶ</l>
+                <l n="2" xml:id="meineke-0410-korykos-2-l2">ὄψων ἓν ἔχομεν, διὰ τέλους δὲ τοῦθ᾽, ἅλας.</l>
+                <l n="3" xml:id="meineke-0410-korykos-2-l3">* * * * ἐπὶ δὲ τούτοις πίνομεν</l>
+                <l n="4" xml:id="meineke-0410-korykos-2-l4">οἰνάριον εἶδος, νὴ Δί᾽, οἰκίας τρόπον</l>
+                <l n="5" xml:id="meineke-0410-korykos-2-l5">Πόσειδος οἷον τοῖς παροῦσι συμφέρει</l>
+                <l n="6" xml:id="meineke-0410-korykos-2-l6">ἁπαξάπασιν ὀξυβάφῳ ποτηρίῳ.</l>
+              </lg>
+              <note type="source">Athenaeus IX p. 366 c: ἀνηδύντων δὲ ἁλῶν πλήρεις οἱ Κυνικοί, παρ᾽ οἷς κατὰ τὸν Ἀντιφάνην, λέγει δ᾽ ἐν Κωρύκῳ τις ἄλλος κύων <quote>Τῶν θαλαττίων</quote> κτλ.</note>
+              <note type="apparatus">Vs. 1 δαλατίων B. — Vs. 2 ὄψον L. Ibidem ἓν ἔχομεν pro ἕνεχ᾽ ὁ μὲν vel ἓν ἕνεχ᾽ ὁ μὲν Schweighaeuserus. Idem τοῦθ᾽ ἅλας pro τοῦτο ἅλα. — Vs. 3 lacunam indicavit Dindorfius. Sequentia nemo dum expedivit. — Vs. 4 pro εἶδος Schweighaeuserus probabiliter ἦδος correxit. οἰκείας D. τρόπον om. PVL. add. AB. — Vs. 5 πόσειδος ABP. πόσειδον VL. οἷον AB. οἷος PVL. — Vs. 6 ἁπαξάπασιν PVL. ἁπαξανάπασιν ABD.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0410-korykos-3">
+              <lg>
+                <l n="1" xml:id="meineke-0410-korykos-3-l1">Πρῶτον μὲν ὥσπερ πυθαγορίζων ἐσθίει</l>
+                <l n="2" xml:id="meineke-0410-korykos-3-l2">ἔμψυχον οὐδέν, τῆς δὲ πλείστης τοὐβολοῦ</l>
+                <l n="3" xml:id="meineke-0410-korykos-3-l3">μάζης μελαγχρῆ μερίδα λαμβάνων λέπει.</l>
+              </lg>
+              <note type="source">Athenaeus IV p. 161 a: περὶ ὧν (Pythagoreos dicit) φησιν Ἀντιφάνης μὲν ἐν Μνήμασι τάδε — κὰν τῷ κυρίως</note>
+              <pb n="76" facs="urn:hathi:hvd.32044079388682:scan:86" />
+              <note type="source">Κωρύκῳ δ᾽ ἐπιγραφομένῳ φησί <quote>Πρῶτον κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 2 τοὐβολοῦ pro τοῦ βολοῦ Casaubonus. Eustathius ad Odyss. p. 1382 18: ὁ κωμικὸς τοὺς πολλοὺς εἴτουν τοὺς χύδην διακειμένους ἄνδρας οὐχ ἁπλῶς εἶπε πολλούς, ἀλλὰ πολλοὺς τοῦ βολοῦ (sic) ἐκ μεταφορᾶς δηλαδὴ τῶν εὐτελῶν καὶ εἰώνων εἰδῶν (ciborum). Respicit ad Aristoph. Equ. 941. Dicitur de re vili nulliusque pretii; contra μικρὸν τοὐβολοῦ de re magni pretii dixit quamvis corrupto loco Eupolis Mar. XX. — Vs. 3 μελάγχρη P. Rectius μελαγχρῆ. Vide quae ea de forma dixi ad Menandri fragm. p. 281. Atque ita etiam Eustathius ad Odyss. p. 1863 56: τοῦ δὲ λέπειν χρῆσις μὲν καὶ ἐν τῇ Ἰλιάδι, ἔτι δὲ καὶ παρὰ τῷ εἰπόντι Μάζης μελαγχρῆ μερίδα λαμβάνων λέπει, ἤγουν ἐκλεπίζει. Mazam μελαγχρῆ habemus item apud Poliochum Athenaei II p. 60 b: μικρὰν μελαγχρῆ μᾶζαν ἠχυρωμένην. Verbum λέπειν, quod proprio sensu hic non locum habet, simpliciter edere significare videtur. Apud Photium, Λέπτει: κατεσθίει. οὕτως Εὔπολις (p. 575), fortasse λέπει scribendum.</note>
+            </div>
+          </div></body></text></TEI>

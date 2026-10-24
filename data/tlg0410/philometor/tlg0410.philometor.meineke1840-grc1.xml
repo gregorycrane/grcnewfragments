@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΦΙΛΟΜΗΤΩΡ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.philometor.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.philometor.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.philometor.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_philometor"><head>ΦΙΛΟΜΗΤΩΡ</head><div type="textpart" subtype="fragment" n="unnumbered" xml:id="meineke-0410-philometor-unnumbered">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0410-philometor-unnumbered-l1">Ἔμμητρον ἂν ᾖ τὸ ξύλον, βλάστην ἔχει.</l>
+                  <l n="2" xml:id="meineke-0410-philometor-unnumbered-l2">Μητρόπολίς ἐστιν οὐχὶ Πατρόπολις πόλις.</l>
+                  <l n="3" xml:id="meineke-0410-philometor-unnumbered-l3">Μήτραν τινὲς πωλοῦσιν ἥδιστον κρέας.</l>
+                  <l n="4" xml:id="meineke-0410-philometor-unnumbered-l4">Μητρᾶς ὁ Χῖός ἐστι τῷ δήμῳ φίλος.</l>
+                </lg>
+              </quote>
+              <note type="source">
+                <bibl>Athenaeus III p. 100 d</bibl>: μνημονεύει τῆς μήτρας καὶ Ἀντιφάνης ἐν Φιλομήτορι οὕτως <quote>Ἔμμητρον κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 ἔμμητρον L. ἔνμητρον PV. De ξύλῳ ἐμμήτρῳ dixi ad Theocriti Idyll. XXV 209. Pro ἄν, quod reposuit Dindorfius, libri ἐάν. — Vs. 2 addidi in fine πόλις, et pro μητρόπολις et πατρόπολις scripsi Μητρόπολις et Πατρόπολις Non intellexerunt hunc versum interpretes, cuius iam plana est sententia. Cfr Hist. crit. p. 314. Metropoles urbes commemorat plures Stephanus Byz. p. 557, quarum celeberrimae fuerunt quae in Lydia et Phrygia sitae erant. Lydiacam commemorat praeter alios etiam Aelianus Hist. An. XVI 38. Phrygiacam, in cuius vicinia Alcibiadis sepulcrum ostendebatur, Athenaeus XIII p. 574 f. — Vs. 4 Μητρᾶς h. e. Μητρόδωρος scripsi pro edito Μήτρας V. Etymol. M. p. 234, 20 et Arcadius de acc. p. 21 18. De homine ipso nihil mihi innotuit. Metrodorum Chium, Anaxarchi Abderitae Olymp. CX clari magistrum, commemorat Diogenes Laert.</note>
+              <note type="footnote">*) V. Hist. crit. p. 314.</note>
+            </div>
+          </div></body></text></TEI>

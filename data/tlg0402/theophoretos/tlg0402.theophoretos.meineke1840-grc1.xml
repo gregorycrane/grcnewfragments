@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΘΕΟΦΟΡΗΤΟΣ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.theophoretos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.theophoretos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.theophoretos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_theophoretos"><head>ΘΕΟΦΟΡΗΤΟΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0402-theophoretos-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-theophoretos-1-l1">Οἶμαί γ᾽ ἐπιτιμᾶν τῶν ἀπαντώντων τινάς</l>
+                  <l n="2" xml:id="meineke-0402-theophoretos-1-l2">ἡμῖν, ὅτι τηνικαῦτα μεθύων περιπατῶ·</l>
+                  <l n="3" xml:id="meineke-0402-theophoretos-1-l3">ποῖος γάρ ἐστι φανός, ὦ πρὸς τῶν θεῶν,</l>
+                  <l n="4" xml:id="meineke-0402-theophoretos-1-l4">τοιοῦτος οἷος ὁ γλυκύτατος ἥλιος.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XV p. 700 a. de λύχνῳ, λυχνούχῳ et φανῷ disserens, allato Alexidis loco ex Medone: <quote>ἐν δὲ Θεοφορήτῳ ὁ αὐτὸς ῎Αλεξις <quote>Οἶμαι</quote> κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 libri οἶμαι γὰρ ἐπιτιμᾶν. Correxit Iacobsius Addit. p. 368. Ibid. ἁπαντώντων pro</note>
+              <note place="bottom">tum in thesi ferri potest. Scribendum κοιΐλη, quam formam comparare licet cum aeolico κώϊλος, de quo dixit H. L. Ahrens Dial. aeol. p. 106. (In eiusdem carminis versu nono, ut id adiiciam, libri habent ἵν᾽ ἀλήθουν ἄρμα. Scribendum igitur ἵνα δὴ θοὸν ἅρμα.)</note>
+              <pb n="419" facs="urn:hathi:hvd.32044079388682:scan:427" />
+              <note type="apparatus">ἀπαντώντων BVL. ἁπάντων P. τινὰς om. B. Tertium et quartum versum ex parte apposuit Eustathius p. 1471 2.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-theophoretos-2">
+              <lg>
+                <l n="1" xml:id="meineke-0402-theophoretos-2-l1">Λαλῶ Πτολεμαίῳ, γογγυλίδος ὀπτῶν τόμους.</l>
+              </lg>
+              <note type="source">Athenaeus IX p. 369 e: <quote>ταύτης (τῆς ὠπτημένης γογγυλίδος) μνημονεύει — καὶ Ἄλεξις ἐν Θεοφορήτῳ <quote>Λαλῶ</quote> κτλ.</quote>
+              </note>
+              <note type="apparatus">B λάλω πτοτεμαίω. Pro ὀπτῶν C habet ὀπτῆς. Hinc suspiceris <quote>Λάβω Πτολεμαίῳ γογγυλίδος ὀπτῆς τόμους;</quote> vin' emam Ptolemaeo? Possis etiam <quote>Λάβ᾽ ὦ Πτολεμαῖε γογγυλίδος ὀπτῆς τόμους.</quote> Sed in tam minutulo fragmento quis certa spondeat?</note>
+            </div>
+          </div></body></text></TEI>

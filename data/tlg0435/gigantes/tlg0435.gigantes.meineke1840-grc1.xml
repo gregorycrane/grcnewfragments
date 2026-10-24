@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Cratinus Junior, ΓΙΓΑΝΤΕΣ: fragments</title><author>Cratinus Junior</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0435.gigantes.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0435.gigantes.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0435.gigantes.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0435_gigantes"><head>ΓΙΓΑΝΤΕΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0435-gigantes-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0435-gigantes-1-l1">Ἐνθυμεῖσθε τῆς γῆς ὡς γλυκύ</l>
+                  <l n="2" xml:id="meineke-0435-gigantes-1-l2">ὄζει, καπνός τ᾽ ἐξέρχετ᾽ εὐωδέστερος;</l>
+                  <l n="3" xml:id="meineke-0435-gigantes-1-l3">οἰκεῖ τις ὡς ἔοικεν ἐν τῷ χάσματι</l>
+                  <l n="4" xml:id="meineke-0435-gigantes-1-l4">λιβανωτοπώλης ἢ μάγειρος Σικελικός.</l>
+                  <l n="5" xml:id="meineke-0435-gigantes-1-l5">[παραπλησίαν ὀσμὴν λέγεις ἀμφοῖν γλυκύς.]</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XV p. 661 e: ἐκσεμνύνει δὲ τὴν τέχνην (τὴν μαγειρικὴν) καὶ ὁ νεώτερος Κρατῖνος ἐν τοῖς Γίγασι λέγων <quote>Ἐνθυμεῖσθε τῆς γῆς</quote> κτλ.</note>
+              <note type="apparatus">Vs. 1 libri ἐνθύμει δέ. Dindorfius dubitanter ἐνθυμοῦ δέ. Scripsi ἐνθυμεῖσθε et verba per interrogationem extuli. Ibid. inter γῆς et ὡς Β inserit φασί. — Vs. 2 recte puto Bergkius Comm. p. 277 εὐωδέστατος. At idem non recte addit loqui poetam de Gigantum felicitate, quibus et terra et fumus suavissime oleat. Ex poetae verbis nihil aliud efficias nisi terrae hiatum in scena fuisse conspectum, ex quo suavissimum odorem efflari dicit. — Vs. 5 γλυκὺς a C omissum Dindorfius inclusit. Dobraeus Adv. II p. 351 fragmentum quarto versu terminat, cetera Athenaeo tribuens: παραπλησίαν ὀσμὴν λέγει (ὁ Κρατῖνος scil.) ἀμφοῖν. καὶ ὁ γλυκὺς Ἀντιφάνης —. Huius enim proxime sequitur locus e Philotide. Vera haec puto; itaque totum versum inclusi.</note>
+            </div>
+          <pb n="375" facs="urn:hathi:hvd.32044079388682:scan:383" />
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0435-gigantes-2">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0435-gigantes-2-l1">῾Ὡς σφοδρῶς Αἰγυπτιώδης, Σώχαρις, Πααμύλης.</l>
+                </lg>
+              </quote>
+              <note type="source">Hesychius, Πααμύλης: Αἰγύπτιος θεὸς πριαπώδης. Κρατῖνος ὁ νεώτερος, ὡς σφοδρῶς. ἡ Αἰγυπτώδης Σόχαρις (cod. σόχαρ..) Πααμύλης.</note>
+              <note type="apparatus">Correxi ut supra adscripta sunt. Videntur illa de homine impense libidinoso intellegenda esse. De Sochare et Paamyle cfr Iablonski Panth. Aegypt. V 7. Vitiose apud Hesychium alio loco Παλμύτης scriptum est. Compara nomen Paapis, quode dixi vol. II p. 749. Cum Socharis nomine cognatum videtur quod Pollux VI 82 commemorat uvae Aegyptiacae nomen Σωχὶς ἢ (lege ἡ) καὶ Αἰγυπτία.</note>
+            </div>
+          </div></body></text></TEI>

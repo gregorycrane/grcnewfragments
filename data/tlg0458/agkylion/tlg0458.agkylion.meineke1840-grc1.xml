@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Eubulus, ΑΓΚΥΛΙΩΝ: fragments</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.agkylion.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.agkylion.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.agkylion.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_agkylion"><head>ΑΓΚΥΛΙΩΝ</head><div type="textpart" subtype="fragment" n="1_2_3" ana="#compiled-citation-normalized" xml:id="meineke-0458-agkylion-1_2_3">
+              <head>I. II. III.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0458-agkylion-1_2_3-l1">Καὶ γὰρ πάλαι πέττει τὰ νικητήρια.</l>
+                </lg>
+                <gap reason="lost" extent="unknown" />
+                <lg>
+                  <l n="2" xml:id="meineke-0458-agkylion-1_2_3-l2">Ἐξεπήδησ᾽ ἀρτίως πέττουσα τὸν χαρίσιον.</l>
+                </lg>
+                <gap reason="lost" extent="unknown" />
+                <lg>
+                  <l n="3" xml:id="meineke-0458-agkylion-1_2_3-l3">Εἶεν, γυναῖκες· νῦν ὅπως τὴν νύχθ᾽ ὅλην</l>
+                  <l n="4" xml:id="meineke-0458-agkylion-1_2_3-l4">ἐν τῇ δεκάτῃ τοῦ παιδίου χορεύσετε.</l>
+                  <l n="5" xml:id="meineke-0458-agkylion-1_2_3-l5">θήσω δὲ νικητήριον τρεῖς ταινίας</l>
+                  <l n="6" xml:id="meineke-0458-agkylion-1_2_3-l6">καὶ μῆλα πέντε καὶ φιλήματ᾽ ἐννέα.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XV p. 668 d: <quote>ἐγίνετο δὲ καὶ πεμμάτια τινα
+ἐν ταῖς παννυχίσιν, ἐν αἷς πλεῖστον ὅσον χρόνον διηγρύπ-
+νουν χορεύοντες. καὶ διωνομάζετο τὰ πεμμάτια τότε χα-
+ρίσιοι — μνημονεύει Εὔβουλος ἐν Ἀγκυλίωνι λέγων οὑτωσί
+<quote>Καὶ γὰρ — νικητήρια.</quote> εἶθ᾽ ἑξῆς φησιν <quote>Ἐξεπήδησ᾽ —
+χαρίσιον.</quote> ὅτι δὲ καὶ φίλημα ἦν ἆθλον ἑξῆς λέγει ὁ Εὔ-
+βουλος <quote>Εἶεν κτλ.</quote>
+                </quote>
+              </note>
+              <note type="apparatus">Vs. 1 πέττει AB. πέπτει PVL. νικητήρια
+dicit τοὺς χαρισίους. — Vs. 2 iterum affert Athenaeus XIV
+p. 646 b: <quote>Εὔβουλος δ᾽ ἐν Ἀγκυλίωνι ὡς περὶ ἄρτου αὐτοῦ
+(τοῦ χαρισίου) ὄντος οὑτωσὶ λέγει <quote>Ἐξεπήδησ᾽ κτλ.</quote>
+                </quote> ubi libri</note>
+              <pb n="204" facs="urn:hathi:hvd.32044079388682:scan:214" />
+              <note type="apparatus">habent ἐξεπίλησας. ἀρτίως utroque loco praebuit A. PVL priore loco ἀρτίω, altero (p. 668) ἄρτι ὡς. Pro πέττουσα PVL habent πέπτουσα. Illud priore loco libri omnes, altero ABC et Eustathius ad Hom. p. 1843 27. — Vs. 3 εἶεν et hic et apud Platonem Phaonis Fragm. II 1: εἶεν, γυναῖκες, ὡς ὑμῖν κτλ. exhortandi vim habere videtur, eia. Pro ὅπως male Valesius ad Harpocr. p. 110 scribebat ὅμως. — Vs. 4 τῇ δεκάτῃ. „Decimum diem dicit ex quo natus est infans: quo die natalitia infantis celebrabantur sacrificio et epulo cognatis exhibito. Vide quos laudarunt Hesychii interpretes in v. δεκάτην θύειν: praesertim vero Suidam in δεκατεύειν et in δεκάτην ἑστιάσειν.“ Schweighaeuserus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0458-agkylion-4">
+              <head>IV.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0458-agkylion-4-l1">Ὀπτήσιμον γογγυλίδα ταυτηνὶ φέρω.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus IX p. 369 e: ταύτης (γογγυλίδος) μνημονεύει Εὔβουλος ἐν Ἀγκυλίωνι οὕτως <quote>Ὀπτήσιμον κτλ.</quote>
+              </note>
+            </div>
+          </div></body></text></TEI>

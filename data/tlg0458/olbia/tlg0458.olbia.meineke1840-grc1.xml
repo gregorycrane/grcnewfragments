@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Eubulus, ΟΛΒΙΑ: fragments</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.olbia.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.olbia.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.olbia.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_olbia"><head>ΟΛΒΙΑ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0458-olbia-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0458-olbia-1-l1">Ἐν τῷ γὰρ αὐτῷ πάνθ᾽ ὁμοῦ πωλήσεται</l>
+                  <l n="2" xml:id="meineke-0458-olbia-1-l2">ἐν ταῖς Ἀθήναις· σῦκα, κλητῆρες, βότρυς,</l>
+                  <l n="3" xml:id="meineke-0458-olbia-1-l3">γογγυλίδες, ἄπιοι, μῆλα, μάρτυρες, ῥόδα,</l>
+                  <l n="4" xml:id="meineke-0458-olbia-1-l4">μέσπιλα, χόρια, σχαδόνες, ἐρέβινθοι, δίκαι,</l>
+                  <l n="5" xml:id="meineke-0458-olbia-1-l5">πῦος, πυριάτη, μύρτα, κληρωτήρια,</l>
+                  <l n="6" xml:id="meineke-0458-olbia-1-l6">ὑάκινθος, ἄρνες, κλεψύδραι, νόμοι, γραφαί.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XIV p. 640 b: καὶ ὡς ὁ Εὔβουλος δ᾽ ἐν Ὀλβίᾳ ἔφη <quote>Ἐν τῷ γὰρ αὐτῷ</quote> κτλ.</note>
+              <note type="apparatus">„Ingeniosus poeta Athenas laudare simulans ut omnium rerum ad victum necessariarum copia abundantes, simul ea commemorat, ex quibus veteratorium eorum ingenium appareat. Eo spectant insertae voces singulae singulis versibus <quote>κλητῆρες, μάρτυρες, δίκαι, κληρωτήρια, κλεψύδραι, νόμοι, γραφαί.</quote> Quae omnia forensia sunt vocabula.” Casaubonus. Similis diversissimarum rerum compositio apud Aristophanem Pluto vs. 190 sq. — Vs. 2 <quote>σῦκα, κλητῆρες</quote> Piersonus ad Moer. p. 368. libri <quote>οὐκ ἀκλητῆρες</quote>. Casaubonus <quote>οὐχὶ κλητῆρες</quote> cum interroga-</note>
+              <pb n="242" facs="urn:hathi:hvd.32044079388682:scan:252" />
+              <note type="apparatus">tione post βότρυς. — Vs. 4 χόρια ABV. χοίρια P. χώρια L. — Vs. 5 πῦος Porsonus pro πυός. Ibid. πυριάτη AB. πυρεία τε VL. Utrumque πῦον et πυριάτην coniunxit etiam Aristoph. Vesp. 707 et Pollux VI 54.</note>
+            </div>
+          </div></body></text></TEI>

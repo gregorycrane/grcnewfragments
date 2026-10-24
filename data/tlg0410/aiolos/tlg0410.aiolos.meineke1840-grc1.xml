@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΑΙΟΛΟΣ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.aiolos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.aiolos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.aiolos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_aiolos"><head>ΑΙΟΛΟΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0410-aiolos-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0410-aiolos-1-l1">Μακαρεὺς ἔρωτι τῶν ὁμοσπόρων μιᾶς</l>
+                  <l n="2" xml:id="meineke-0410-aiolos-1-l2">πληγείς, τέως μὲν ἐπεκράτει τῆς συμφορᾶς</l>
+                </lg>
+              </quote>
+              <pb n="8" facs="urn:hathi:hvd.32044079388682:scan:18" />
+              <lg>
+                <l n="3" xml:id="meineke-0410-aiolos-1-l3">κατεῖχέ θ᾽ αὑτόν· εἶτα παραλαβών ποτε</l>
+                <l n="4" xml:id="meineke-0410-aiolos-1-l4">οἶνον στρατηγόν, ὃς μόνος θνητοῖς ἄγει</l>
+                <l n="5" xml:id="meineke-0410-aiolos-1-l5">τὴν τόλμαν εἰς τὸ πρόσθε τῆς εὐβουλίας,</l>
+                <l n="6" xml:id="meineke-0410-aiolos-1-l6">νύκτωρ ἀναστὰς ἔτυχεν ὧν ἐβούλετο.</l>
+              </lg>
+              <note type="source">
+                <bibl>Athenaeus X p. 444 c:</bibl> ἐν δὲ Αἰόλῳ διαβάλλων ὅσα δεινὰ πράττουσιν οἱ πλέον πίνοντες φησί <quote>Μακαρεὺς ἔρωτι</quote> κτλ.</note>
+              <note type="apparatus">Ex ipso dramatis prologo haec ducta esse suspicor. Expressit autem haud dubie Euripideam fabulam, cuius argumentum contineri videtur Sostrati verbis ex libro II Tyrrhenicorum servatis a Stobaeo Floril. LXIV 35: Αἴολος τῶν κατὰ Τυρρηνίαν βασιλεὺς τόπων ἔσχεν ἐξ Ἀμφιθέας θυγατέρας ἓξ καὶ τὸν αὐτὸν ἀριθμὸν ἀρρένων παίδων, ὧν ὁ πρεσβύτατος Μακαρεὺς Κανάκης τῆς ἀδελφῆς ἐρασθεὶς ἐβιάσατο τὴν προειρημένην. Αἴολος δὲ περὶ τούτων μαθὼν τῇ θυγατρὶ ξίφος ἔπεμψεν· ἡ δὲ ὡς νόμον δεξαμένη τὸν σίδηρον αὑτὴν ἀνεῖλε. Μακαρεὺς δὲ τὸν γεννήσαντα προεξιλεωσάμενος *) ἔδραμεν εἰς τὸν θάλαμον, εὑρὼν δὲ τὴν ἀγαπωμένην αἱμορραγοῦσαν τῷ αὐτῷ ξίφει τὸν βίον περιέγραψε. Neglexit haec qui de Euripideo dramate scripsit Grauertus Mus. Rhen. II 1 p. 50. Duo priores versus ex ipso Euripide adscivisse Antiphanem haud improbabilis coniectura est Valckenarii ad Hippol. 1303. — Vs. 4 θνητοῖς PVL. θνητὸς Β. θνητῶν AC. — Vs. 5 πρόσθε CP. πρόσθεν VL.</note>
+              <note type="footnote">*) Verbum προεξιλεώσασθαι lexica ignorant. Usitatiorem formam ἐξιλάσασθαι restituo Grammatico Bekk. Anecd. p. 353 8. Ἄθετος Ἐριννύς: σκληρά, ἣν οὐχ οἷόν τε ἐξιλάσασθαι. Editur ἐξιάσασθαι. Pro ἄθετος scribe ἄθεστος a verbo θέσσασθαι i. e. ἱκετεῦσαι. V. intpp. Hesychii I p. 1704. Apud Photium p. 440 15: Πολύθετον τὸ πολύσεπτον, scribendum πολύθεστον</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0410-aiolos-2">
+              <lg>
+                <l n="1" xml:id="meineke-0410-aiolos-2-l1">Τοῦτον οὖν</l>
+                <l n="2" xml:id="meineke-0410-aiolos-2-l2">δι᾽ οἰνοφλυγίαν καὶ πάχος τοῦ σώματος</l>
+                <l n="3" xml:id="meineke-0410-aiolos-2-l3">ἀσκὸν καλοῦσι πάντες οὑπιχώριοι.</l>
+              </lg>
+              <pb n="9" facs="urn:hathi:hvd.32044079388682:scan:19" />
+              <note type="source">
+                <bibl>Athenaeus XII p. 552 f:</bibl> πολλῷ οὖν κάλλιόν ἐστι τοιοῦτόν τινα εἶναι τὴν ἰδέαν ἢ ὡς φησιν Ἀντιφάνης ἐν Αἰόλῳ <quote>Τοῦτον οὖν</quote> κτλ. <bibl>Eustathius ad Odyss. p. 1646 14:</bibl> ὅτι δὲ καὶ πάχους τοῦ κατὰ σῶμα γίνεται σκῶμμα ὁ ἀσκός, δηλοῖ Ἀθήναιος εἰπὼν ὅτι παχύν τινα ἐξ οἰνοφλυγίας γενόμενον ἀσκὸν ἐκάλουν οἱ ἐπιχώριοι.</note>
+              <note type="apparatus">Versu tertio ante Dindorfium οἱ ἐπιχώριοι.</note>
+            </div>
+          </div></body></text></TEI>

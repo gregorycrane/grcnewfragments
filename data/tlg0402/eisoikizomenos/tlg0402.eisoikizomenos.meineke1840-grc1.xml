@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΕΙΣΟΙΚΙΖΟΜΕΝΟΣ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.eisoikizomenos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.eisoikizomenos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.eisoikizomenos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_eisoikizomenos"><head>ΕΙΣΟΙΚΙΖΟΜΕΝΟΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0402-eisoikizomenos-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-eisoikizomenos-1-l1">Οὐ γὰρ ἐμυρίζετ᾽ ἐξ ἀλαβάστου, πρᾶγμά τι</l>
+                  <l n="2" xml:id="meineke-0402-eisoikizomenos-1-l2">γιγνόμενον ἀεί, κρονικόν, ἀλλὰ τέτταρας</l>
+                  <l n="3" xml:id="meineke-0402-eisoikizomenos-1-l3">περιστερὰς ἀφῆκεν ἀποβεβαμμένας</l>
+                  <l n="4" xml:id="meineke-0402-eisoikizomenos-1-l4">εἰς οὐχὶ ταὐτὸν μὰ Δία τὴν αὐτὴν μύρον,</l>
+                  <l n="5" xml:id="meineke-0402-eisoikizomenos-1-l5">ἰδίῳ δ᾽ ἑκάστην. πετόμεναι δ᾽ αὗται κύκλῳ</l>
+                  <l n="6" xml:id="meineke-0402-eisoikizomenos-1-l6">ἔρραινον ἡμῶν θαἱμάτια καὶ στρώματα.</l>
+                  <l n="7" xml:id="meineke-0402-eisoikizomenos-1-l7">μή μοι φθονήσητ᾽, ἄνδρες Ἑλλήνων ἄκροι,</l>
+                  <l n="8" xml:id="meineke-0402-eisoikizomenos-1-l8">ἠλειφόμην ὑόμενος ἰρίνῳ μύρῳ.</l>
+                </lg>
+              </quote>
+              <note type="source">
+                <bibl>Athenaeus XV p. 691 e</bibl>: ὡς λῆρον εἶναι τὰ ἐν τῷ Εἰσοικιζομένῳ Ἀλέξιδος ταυτί <quote>Οὐ γὰρ κτλ.</quote> Priora verba usque ad ἀλαβάστου habet etiam <bibl>Eustathius ad Hom. p. 1161, 30</bibl>.</note>
+              <note type="apparatus">Vs. 1 ἀλαβάστου A et Eustathius, alii ἀλαβάστρου. Ibid. πρᾶγμά τι pro πράγματι Canterus. — Vs. 2 libri γινόμενον et τέσσαρες. Κρονικὸν i. q. ἀρχαῖον, ut apud Aristoph. Plut. 581 aliisque locis. V. Bergkium Comment. p. 9. — Vs. 6 καὶ pro τὰ Dindorfius. — Vs. 7 ex Euripidis Telepho sumptum esse docuit Valckenarius ad Theocr. Adon. p. 414. V. Matthiae Fragm. Euripidis p. 340. — Vs. 8 ἰρίνῳ pro ἠρίνῳ Canterus. Ibidem libri θυόμενος. At nec de sacrificio quidquam in superioribus legitur, neque omnino sacrificio hic locus est. Sunt enim haec militis aut legati Atheniensis verba ex Persia reducis et regis in unguentorum usu luxuriem praedicantis. His adde quod aliud est θύεσθαι, aliud θύειν. Scripsi igitur ὑόμενος, irino unguento tanquam imbre irrigatus. Idem repperit, cui hunc locum monstraveram, Th. Bergkius. Possis etiam δευόμενος.</note>
+            </div>
+          <pb n="411" facs="urn:hathi:hvd.32044079388682:scan:419" />
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-eisoikizomenos-2">
+              <head>II.</head>
+              <note type="source">Athenaeus XI p. 502 d: <quote>῎Αλεξις Εἰσοικιζομένῳ φησι <lg>
+                    <l n="1" xml:id="meineke-0402-eisoikizomenos-2-l1">τρικότυλον ψυγέα.</l>
+                  </lg>
+                </quote>
+              </note>
+              <note type="apparatus">Hinc sumpsit Eustathius p. 1632, 12. In ψυγέα videtur ultimam corripuisse. Cfr Hist. crit. p. 295.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0402-eisoikizomenos-3">
+              <head>III.</head>
+              <note type="source">Athenaeus XIV p. 613 c: <quote>ὁ ἔξοινος — παρ᾽ Ἀλέξιδι ἐν Εἰσοικιζομένῳ <lg>
+                    <l n="1" xml:id="meineke-0402-eisoikizomenos-3-l1">ἔξοινος ἐποίει ταῦτα.</l>
+                  </lg>
+                </quote> Idem XV p. 685 f: <quote>οὕτως (ἔξοινος) δ᾽ εἴρηκε τὸν μεθύσην ῎Αλεξις ἐν Εἰσοικιζομένῳ.</quote>
+              </note>
+            </div>
+          </div></body></text></TEI>

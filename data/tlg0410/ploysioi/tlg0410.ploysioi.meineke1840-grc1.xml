@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΠΛΟΥΣΙΟΙ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.ploysioi.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.ploysioi.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.ploysioi.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_ploysioi"><head>ΠΛΟΥΣΙΟΙ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0410-ploysioi-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0410-ploysioi-1-l1">Εὔθυνος δ᾽ ἔχων</l>
+                  <l n="2" xml:id="meineke-0410-ploysioi-1-l2">σανδάλια καὶ σφραγῖδα καὶ μεμυρισμένος</l>
+                  <l n="3" xml:id="meineke-0410-ploysioi-1-l3">τῶν πραγμάτων οὐκ οἶδ᾽ ὅ τι ἐλογίζετο</l>
+                </lg>
+              </quote>
+              <pb n="104" facs="urn:hathi:hvd.32044079388682:scan:114" />
+              <lg>
+                <l n="4" xml:id="meineke-0410-ploysioi-1-l4">Φοινικίδης δὲ Ταυρέας θ᾽ ὁ φίλτατος,</l>
+                <l n="5" xml:id="meineke-0410-ploysioi-1-l5">ἄνδρες πάλαι ὀψοφάγοι τοιοῦτοί τινες,</l>
+                <l n="6" xml:id="meineke-0410-ploysioi-1-l6">οἷοι καταβροχθίζειν ἐν ἀγορᾷ τὰ τεμάχη,</l>
+                <l n="7" xml:id="meineke-0410-ploysioi-1-l7">ὁρῶντες ἐξέθνησκον ἐπὶ τῷ πράγματι,</l>
+                <l n="8" xml:id="meineke-0410-ploysioi-1-l8">ἔφερόν τε δεινῶς τὴν ἀνοψίαν πάνυ.</l>
+                <l n="9" xml:id="meineke-0410-ploysioi-1-l9">κύκλους δὲ συναγείροντες ἔλεγον ἂν τάδε,</l>
+                <l n="10" xml:id="meineke-0410-ploysioi-1-l10">ὡς οὐ βιωτόν ἐστιν οὐδ᾽ ἀνασχετόν</l>
+                <l n="11" xml:id="meineke-0410-ploysioi-1-l11">τῆς μὲν θαλάττης ἀντιποιεῖσθαί τινας</l>
+                <l n="12" xml:id="meineke-0410-ploysioi-1-l12">ὑμῶν ἀναλίσκειν τε πολλὰ χρήματα,</l>
+                <l n="13" xml:id="meineke-0410-ploysioi-1-l13">ὄψου δὲ μηδὲν μήποτ᾽ εἰσπλεῖν μηδὲ γρῦ.</l>
+                <l n="14" xml:id="meineke-0410-ploysioi-1-l14">τί οὖν ὄφελος τῶν νησιαρχῶν ἐστι; δεῖ</l>
+                <l n="15" xml:id="meineke-0410-ploysioi-1-l15">νόμῳ κατακλεῖσαι τοῦτο, παραπομπὴν ποιεῖν</l>
+                <l n="16" xml:id="meineke-0410-ploysioi-1-l16">τῶν ἰχθύων. νυνὶ δὲ Μάτων συνήρπακεν</l>
+                <l n="17" xml:id="meineke-0410-ploysioi-1-l17">τοὺς ἁλιέας, καὶ Διογείτων νὴ Δία</l>
+                <l n="18" xml:id="meineke-0410-ploysioi-1-l18">ἅπαντας ἀναπέπεικεν ὡς αὑτὸν φέρειν,</l>
+                <l n="19" xml:id="meineke-0410-ploysioi-1-l19">κοὐ δημοτικόν γε τοῦτο δρᾷ τοιαῦτα φλῶν.</l>
+                <l n="20" xml:id="meineke-0410-ploysioi-1-l20">γάμοι δ᾽ ἐκείνοις καὶ πότοι νεανικοί</l>
+                <l n="21" xml:id="meineke-0410-ploysioi-1-l21">ἦσαν.</l>
+              </lg>
+              <note type="source">
+                <bibl>Athenaeus VIII p. 342 e:</bibl>
+                <quote>Ἀντιφάνης δ᾽ ἐν Πλουσίοις κατάλογον ποιεῖται ὀψοφάγων ἐν τούτοις <quote rend="inline">Εὔθυνος δ᾽ ἔχων</quote> κτλ.</quote>
+              </note>
+              <note type="apparatus">De Euthyno Phoenicide et Taurea comicorum loca indicabuntur in indice. — Vs. 2 σανδάλιον libri. Correxit Koppiersius Observ. p. 55. — Vs. 3 ἐλογίζετο, quod libri in initio versus habent, transposuit Dindorfius. Dobraeus Adv. II p. 318 coniiciebat ἐλογίζετ᾽ ἰὼν τῶν etc. Koppiersius Observ. phil. p. 55 ἐλογίζετό τοι. — Vs. 5 retinui lectionem librorum ABP. πάλαι ὀψοφάγοι τοῖοί τινες VL. Iacobsius Addit. p. 190 παλαιὸν ὀψοφαγίστατοί τινες, quod verum videtur, sed pro παλαιὸν malim πάλαι πότ᾽. Nisi potius totus versus delendus est, quae Dobraei sententia est. — Vs. 8 citat Eustath. p. 867 58 sic: δεινῶς πάνυ τὴν ἀν. φέροντας. — Vs. 9 ἂν addidit Dobraeus ad Aristoph. Plut. 980. —</note>
+              <pb n="105" facs="urn:hathi:hvd.32044079388682:scan:115" />
+              <note type="apparatus">Vs. 11 et 12 Dobraeus pro τινὰς ὑμῶν coniicit πάλαι ἡμᾶς (Athenienses) vel τινας μάτην, vel denique τινας νήσων τ᾽. Quorum nihil admodum placet; ac fortasse ne corrupta quidem est librorum lectio. — Vs. 13 pro μηδὲν ΑΡ μηδέ. Tum μήποτ᾽ quo libri carent addidi ad Menandr. p. 181. — Vs. 14 praestat fortasse νησιάρχων. Ibid. ἐστι δεῖ VL. ἔστι δὴ ΑΒ. ἔστιν δὴ Ρ. ἐστιν, εἰ νόμῳ κατακλεῖσται Porsonus. Cfr Demosth. Phil. I p. 40 15 Rsk. κἂν — πᾶσαν τὴν δύναμιν νόμῳ κατακλείσητε ἐπὶ τῷ πολέμῳ μένειν. — Vs. 16 νυνὶ δὲ pro νῦν δὲ Schweighaeuserus; νυνδὶ Dindorfius. Idem Μάτων pro Μάτρων (Μακρῶ ABP), quod primam producit. De Matone sophista et lurcone famosissimo cfr Anaxilae Monotr. 2 et Antiphanis Cithar. II. — Vs. 17 Διογείτων num recte prima longa dicatur dubito. Tentabam καὶ δὴ Διογείτων. Dobraeus χἅμα Διογείτων. — Vs. 18 ἅπαντας pro πάντας primus scripsit Muretus Var. Lect. XIX 3. — Vs. 19 καὶ οὐ ΒΡ. τοσαῦτα pro τοιαῦτα Iacobsius Addit. p. 190. — Vs. 20 libri ἐκεῖνοι, quod Muretus sic interpretabatur: nuptialia convivia et adolescentium compotationes desierunt celebrari, ex quo illi divites omnia ad se trahere coeperunt. At recte Koppiersius Observ. phil. p. 54 ἐκείνοις h. e. Matoni et Diogitoni. Recepit etiam Dindorfius. „Γάμοι non verae sunt nuptiae, sed epulae quales in nuptiis parari solent.“ Iacobsius. Ibidem ποτοὶ PVL. νεανίσκοι ΒΡ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0410-ploysioi-1_2">
+              <lg>
+                <l n="1" xml:id="meineke-0410-ploysioi-1_2-l1">Euthynus nitens,</l>
+                <l n="2" xml:id="meineke-0410-ploysioi-1_2-l2">unguenta redolens cum sandalio atque annulo,</l>
+                <l n="3" xml:id="meineke-0410-ploysioi-1_2-l3">nescio quid secum mussitabat deputans:</l>
+                <l n="4" xml:id="meineke-0410-ploysioi-1_2-l4">at Taureas amicus et Phoenicides,</l>
+                <l n="5" xml:id="meineke-0410-ploysioi-1_2-l5">tanti inde ab antiquo helluones piscium</l>
+                <l n="6" xml:id="meineke-0410-ploysioi-1_2-l6">fragmenta ut ipso deglutirent in foro,</l>
+                <l n="7" xml:id="meineke-0410-ploysioi-1_2-l7">ad hoc spectaclum stabant velut emortui,</l>
+                <l n="8" xml:id="meineke-0410-ploysioi-1_2-l8">graviterque ferentes parcitatem obsonii</l>
+                <l n="9" xml:id="meineke-0410-ploysioi-1_2-l9">implebant hisce circulos rumoribus.</l>
+                <l n="10" xml:id="meineke-0410-ploysioi-1_2-l10">quam vita non vitalis, nec tolerabilis!</l>
+                <l n="11" xml:id="meineke-0410-ploysioi-1_2-l11">sunt ergo ex vobis qui maris sibi vindicant</l>
+                <l n="12" xml:id="meineke-0410-ploysioi-1_2-l12">curam, atque insumunt multum in eam pecuniae,</l>
+                <l n="13" xml:id="meineke-0410-ploysioi-1_2-l13">cum nihil interea piscium huc adnaviget?</l>
+                <l n="14" xml:id="meineke-0410-ploysioi-1_2-l14">quid ergo opus est praesidibus insularibus?</l>
+                <l n="15" xml:id="meineke-0410-ploysioi-1_2-l15">sciscenda lex ut piscium importatio</l>
+                <l n="16" xml:id="meineke-0410-ploysioi-1_2-l16">huc fiat. nam nunc piscatores occupat</l>
+                <l n="17" xml:id="meineke-0410-ploysioi-1_2-l17">Matron: Diogiton quoque persuasit omnibus</l>
+                <l n="18" xml:id="meineke-0410-ploysioi-1_2-l18">ad se ut deferrent piscium omnem copiam,</l>
+                <l n="19" xml:id="meineke-0410-ploysioi-1_2-l19">quam devorando rem non popularem facit.</l>
+                <l n="20" xml:id="meineke-0410-ploysioi-1_2-l20">in nuptiis namque et iuvenum conviviis</l>
+                <l n="21" xml:id="meineke-0410-ploysioi-1_2-l21">mera vastitudo est.</l>
+              </lg>
+            </div>
+          </div></body></text></TEI>

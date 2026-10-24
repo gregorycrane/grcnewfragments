@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Anaxilas, ΛΥΡΟΠΟΙΟΣ: fragments</title><author>Anaxilas</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0406.lyropoios.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0406.lyropoios.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0406.lyropoios.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_lyropoios"><head>ΛΥΡΟΠΟΙΟΣ</head><pb n="345" facs="urn:hathi:hvd.32044079388682:scan:353" />
+            <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0406-lyropoios-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0406-lyropoios-1-l1">Ξανθοῖς τε μύροις χρῶτα λιπαίνων,</l>
+                  <l n="2" xml:id="meineke-0406-lyropoios-1-l2">χλανίδας θ᾽ ἕλκων, βλαύτας σύρων,</l>
+                  <l n="3" xml:id="meineke-0406-lyropoios-1-l3">βολβοὺς τρώγων, τυροὺς κάπτων,</l>
+                  <l n="4" xml:id="meineke-0406-lyropoios-1-l4">ᾠὰ κολάπτων, κήρυκας ἔχων,</l>
+                  <l n="5" xml:id="meineke-0406-lyropoios-1-l5">Χῖον πίνων, καὶ πρὸς τούτοις</l>
+                  <l n="6" xml:id="meineke-0406-lyropoios-1-l6">ἐν σκυταρίοις ῥαπτοῖσι φορῶν</l>
+                  <l n="7" xml:id="meineke-0406-lyropoios-1-l7">Ἐφεσήϊα γράμματα καλά.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XII p. 548 c: διὸ πρεπόντως ἄν τις εἴποι τῷ σοφῷ τούτῳ φιλοσόφῳ (Anaxarchum dicit) τὰ ἐκ τοῦ Ἀναξίλα Λυροποιοῦ Ξανθοῖς κτλ.</note>
+              <note type="apparatus">Vs. 2 θ᾽ AC. τε Β. δ᾽ PVL. — Vs. 4 pro κήρυκας Ρ μήρυκας. ἔχων recte tuetur Schweighaeuserus, quem vide ad Athen. VII p. 287 f. Toupius tentabat ἔδων, qua forma Atticis ceteris incognita usus est Alcaeus comicus p. 832. — Vs. 7. De Ephesiis litteris v. intpp. Hesychii I p. 1544 et Lobeckii Aglaoph. p. 1330.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0406-lyropoios-2">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0406-lyropoios-2-l1">Ἐγὼ δὲ βαρβίτους τριχόρδους, πηκτίδας,</l>
+                  <l n="2" xml:id="meineke-0406-lyropoios-2-l2">κιθάρας, λύρας, σκινδαψὸν ἐξηρτυόμην.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus IV p. 183 b: μνημονεύει δ᾽ αὐτοῦ (τοῦ σκινδαψοῦ) — καὶ Ἀναξίλας ἐν Λυροποιῷ ᾿Ἐγὼ δὲ κτλ.</note>
+              <note type="apparatus">Vs. 1 parum apte barbitis epitheton adiunctum est, quo reliqua carent. Fortasse commate post βαρβίτους distinguendum, ut τρίχορδοι substantivum sit: quamquam legitimam formam τὸ τρίχορδον esse scio. Itaque malim τρίχορδον. — Vs. 2 libri σκινδαψοὺς ἐξηρτυόμαν. Correxit Bernhardius Eratosth. p. 139. Quamquam pro ἐξηρτυόμαν nescio an praestet ἐξήρτυον ἄν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="unnumbered" xml:id="meineke-0406-lyropoios-unnumbered">
+              <lg>
+                <l n="1" xml:id="meineke-0406-lyropoios-unnumbered-l1">Valesne? quam macer es! <sp>
+                    <speaker>B.</speaker> Periurus</sp>
+                </l>
+                <l n="2" xml:id="meineke-0406-lyropoios-unnumbered-l2">ipse pasco.</l>
+              </lg>
+            </div>
+          <pb n="346" facs="urn:hathi:hvd.32044079388682:scan:354" />
+            <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0406-lyropoios-3">
+              <lg>
+                <l n="1" xml:id="meineke-0406-lyropoios-3-l1">Πῶς ἔχεις; ὡς ἰσχνὸς εἶ;</l>
+                <l n="2" xml:id="meineke-0406-lyropoios-3-l2">Β. ἀπόλλυμαι. τρέφω γὰρ ἐν ἀγρῷ χωρίον.</l>
+              </lg>
+              <note type="apparatus">Stobaeus Floril. LVII 4 cum lemmate Ἀναξιλάου ἐκ Λυροποιοῦ, quod vide Hist. crit. p. 408. Vs. 1 παῖς pro πῶς Α. ὡς Trinc. Ibid. ἰσχνὸς Valckenarius pro ἴσχανος.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0406-lyropoios-4">
+              <lg>
+                <l n="1" xml:id="meineke-0406-lyropoios-4-l1">Ἐν τοῖς βαλανείοις οὐ τίθεται λουτήρια.</l>
+              </lg>
+              <note type="apparatus">Pollux VII 167: Ἀναξίλας δὲ οὕτως (λουτήρια) ὀνομάζει τοὺς νῦν λουτῆρας λέγων Ἐν τοῖς κτλ. Deest vulgo ἐν, quod suppletum ex X 46: ἐπὶ δὲ τῶν νῦν λουτήρων Ἀναξίλας ἐν Λυροποιῷ Ἐν τοῖς βαλανείοις οὐ τίθεται λουτήρια.</note>
+            </div>
+          </div></body></text></TEI>

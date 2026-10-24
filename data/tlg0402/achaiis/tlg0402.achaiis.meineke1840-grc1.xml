@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΑΧΑΙΙΣ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.achaiis.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.achaiis.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.achaiis.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_achaiis"><head>ΑΧΑΙΙΣ</head><div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-achaiis-2">
+              <note type="source">Grammaticus Bekkeri Anecd. p. 339 8: ἔστι δὲ ἀγκύλη καὶ εἶδός τι ἅμματος. <quote>῎Αλεξις Ἀχαΐδι <quote rend="merge">
+                    <lg>
+                      <l n="1" xml:id="meineke-0402-achaiis-2-l1">Ἀγκύλην τῆς ἐμβάδος οὐ καλῶς ἔσφιγξας λυθεῖσαν.</l>
+                    </lg>
+                  </quote>
+                </quote> ἐχρήσαντο δὲ καὶ ἄλλοι τῇ λέξει.</note>
+              <note type="apparatus">Versuum reliquias ita distinguere licebit:
+<quote>
+                  <lg>
+                    <l n="1_2" xml:id="meineke-0402-achaiis-2-l1_2">Τὴν ἀγκύλην τῆς ἐμβάδος</l>
+                    <l n="2" xml:id="meineke-0402-achaiis-2-l2">οὐ καλῶς ἔσφιγξας αὖ λυθεῖσαν.</l>
+                  </lg>
+                </quote>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="1" author_heading="ALEXIS" work_heading="ΑΧΑΙΣ" xml:id="meineke-0402-achaiis-1">
+              <lg>
+                <l n="1" xml:id="meineke-0402-achaiis-1-l1">Quaesita tandem dabitur seperare omnia,</l>
+                <l n="2" xml:id="meineke-0402-achaiis-1-l2">si non laborem fugias ac te deseras.</l>
+                <l n="3" xml:id="meineke-0402-achaiis-1-l3">nam si homines tantis intervallis dissiti</l>
+                <l n="4" xml:id="meineke-0402-achaiis-1-l4">reperire partem potuerunt caelestium,</l>
+                <l n="5" xml:id="meineke-0402-achaiis-1-l5">ortus, occasus siderum, pulsus duos,</l>
+                <l n="6" xml:id="meineke-0402-achaiis-1-l6">deliquia solis, quidni possint proxima</l>
+                <l n="7" xml:id="meineke-0402-achaiis-1-l7">et sibi cognata quaevis deprehendere?</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0402-achaiis-1_2">
+              <lg>
+                <l n="1" xml:id="meineke-0402-achaiis-1_2-l1">Ὅτι πάντα τὰ ζητούμεν’ ἐξευρίσκεται,</l>
+                <l n="2" xml:id="meineke-0402-achaiis-1_2-l2">ἂν μὴ προαποστῇς μηδὲ τὸν πόνον φύγῃς·</l>
+                <l n="3" xml:id="meineke-0402-achaiis-1_2-l3">ὅπου γὰρ εὑρήκασιν ἄνθρωποί τινες</l>
+                <l n="4" xml:id="meineke-0402-achaiis-1_2-l4">μέρος τι τῶν θείων τοσούτῳ τῷ τόπῳ</l>
+                <l n="5" xml:id="meineke-0402-achaiis-1_2-l5">ἀπέχοντες, ἄστρων ἐπιτολάς, δύσεις, τροπάς,</l>
+                <l n="6" xml:id="meineke-0402-achaiis-1_2-l6">ἔκλειψιν ἡλίου, τί τῶν κοινῶν κάτω</l>
+                <l n="7" xml:id="meineke-0402-achaiis-1_2-l7">καὶ συγγενικῶν δύναιτ’ ἂν ἄνθρωπον φυγεῖν;</l>
+              </lg>
+              <pb n="398" facs="urn:hathi:hvd.32044079388682:scan:406" />
+              <note type="apparatus">Stobaeus Flor. XXIX 33. Vs. 1 Grotius ὅτι τὰ πάντα nescio an operarum vitio. Vera lectio videtur ἅπαντα, omisso ὅτι. — Vs. 6 κάτω addidit Gaisfordius ex A, qui id inter lineas scriptum habet. B in marg. γρ. ὅλως κάτω. Grotius τῶν κοινῶν τε καὶ τῶν συγγενικῶν. — Vs. 7 καὶ accessit ex A et Trincavello.</note>
+            </div>
+          </div></body></text></TEI>

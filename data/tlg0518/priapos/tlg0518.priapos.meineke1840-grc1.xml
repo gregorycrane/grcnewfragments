@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Xenarchus, ΠΡΙΑΠΟΣ: fragments</title><author>Xenarchus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0518.priapos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0518.priapos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0518.priapos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0518_priapos"><head>ΠΡΙΑΠΟΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0518-priapos-1">
+              <lg>
+                <l n="1" xml:id="meineke-0518-priapos-1-l1">Σὺ δὲ μηκέτ’ ἔγχει, παιδάριον, εἰς τἀργυροῦν,</l>
+                <l n="2" xml:id="meineke-0518-priapos-1-l2">εἰς τὸ βαθὺ δὲ πάλιν ἄγωμεν, εἰς τὸν κάνθαρον,</l>
+                <l n="3" xml:id="meineke-0518-priapos-1-l3">παιδάριον, ἔγχει νὴ Δία, νὴ τὸν κάνθαρον.</l>
+              </lg>
+              <note type="source">Athenaeus XI p. 473 f: <quote>Ξέναρχος δ’ ἐν Πριάπῳ φησὶ τάδε <title>Σὺ δὲ</title> κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 libri ἀργυροῦν. Correxit Dobraeus Append. ad Aristoph. p. 113. — Vs. 2 Dobraeus delevit δέ. Rectius, opinor, corrigas: <quote>εἰς τὸ βαθὺ δ’ ἐπανάγωμεν,</quote> metaphora sumpta ab iis qui classem contra hostes in altum mare deducunt. Cfr Naekii Choerilea p. 165. — Vs. 3 suspicabar <quote>παιδάριον ἔγχει. <sp>
+                    <speaker>Β.</speaker>
+                    <l n="3a" part="Y" xml:id="meineke-0518-priapos-1-l3a">νὴ Δί’, εἰς τὸν κάνθαρον.</l>
+                  </sp>
+                </quote> ut postrema unius convivatorum verba sint. Aliter Dobraeus, qui loquentium vices ita descripsit: <quote>
+                  <sp>
+                    <speaker>Β.</speaker>
+                    <l n="2a" part="F" xml:id="meineke-0518-priapos-1-l2a">εἰς τὸ βαθὺ πάλιν ἄγωμεν;</l>
+                  </sp>
+                  <sp>
+                    <speaker>Α.</speaker>
+                    <l n="3b" part="I" xml:id="meineke-0518-priapos-1-l3b">εἰς τὸν — νὴ Δία.</l>
+                  </sp>
+                  <sp>
+                    <speaker>Γ.</speaker>
+                    <l n="3c" part="F" xml:id="meineke-0518-priapos-1-l3c">ναί, τὸν κάνθαρον.</l>
+                  </sp>
+                </quote> ut B ministrum, A et Γ convivas significet.</note>
+            </div>
+          </div></body></text></TEI>

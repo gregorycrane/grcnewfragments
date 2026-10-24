@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Aristophon, ΠΕΡΙΘΟΥΣ: fragments</title><author>Aristophon</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0421.perithoys.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0421.perithoys.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0421.perithoys.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0421_perithoys"><head>ΠΕΡΙΘΟΥΣ</head><pb n="361" facs="urn:hathi:hvd.32044079388682:scan:369" />
+            <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0421-perithoys-1">
+              <note type="apparatus">μὴν κτλ. Ex Athenaeo profecit Eustath. p. 1168 21, male ille vs. 3 et 4 coniungens <quote>θύννου μὲν οὖν σεμνὸν τὸ βρῶμα</quote>. Vs. 3 scripsi <quote>κλείουσιν; οὔ· θύννου</quote>. Libri <quote>κλείουσι; θύννου</quote>. Iacobsius et Dindorfius <quote>κλείουσι; τοῦ θύννου</quote>. Ludit poeta in duplici significatione vocis κλεῖς, quae et clavem et iuiulum thynnorum vel orcynorum notat. Sensum loci aperuit Casaubonus. „Graecis duo clavium genera erant in usu, communium et Laconicarum, quae etiam καλυπταὶ dicebantur. Oppositum καλυπτοῦ sive <foreign xml:lang="la">occulti</foreign> est τὸ ὀπτόν, quod cerni potest: nam ὀπτὸν utrumque significat, et <foreign xml:lang="la">assatum</foreign> et <foreign xml:lang="la">visibile</foreign>. Vide VIII p. 338 b. c. Ex his intelliguntur versiculi Aristophontis. Nam ut diximus clavis Laconica, alio nomine καλυπτὴ dicta, opponitur ταῖς δυσὶν ὀπταῖς.” De clavibus Laconicis, quas non tam καλυπτὰς quam κρυπτὰς dici solitas fuisse Schweighaeuserus monuit, vide ad Menandr. p. 120.</note>
+              <pb n="361" facs="urn:hathi:hvd.32044079388682:scan:369" />
+              <lg>
+                <l n="1" xml:id="meineke-0421-perithoys-1-l1">ὕδωρ δὲ πίνειν βάτραχος, ἀπολαῦσαι θύμων</l>
+                <l n="2" xml:id="meineke-0421-perithoys-1-l2">λαχάνων τε κάμπη, πρὸς τὸ μὴ λοῦσθαι ῥύπος,</l>
+                <l n="3" xml:id="meineke-0421-perithoys-1-l3">ὑπαίθριος χειμῶνα διάγειν κόψιχος,</l>
+                <l n="4" xml:id="meineke-0421-perithoys-1-l4">πνῖγος ὑπομεῖναι καὶ μεσημβρίας λαλεῖν</l>
+                <l n="5" xml:id="meineke-0421-perithoys-1-l5">τέττιξ, ἐλαίῳ μήτε χρῆσθαι μήθ᾽ ὁρᾶν</l>
+                <l n="6" xml:id="meineke-0421-perithoys-1-l6">κονιορτός, ἀνυπόδητος ὄρθρου περιπατεῖν</l>
+                <l n="7" xml:id="meineke-0421-perithoys-1-l7">γέρανος, καθεύδειν μηδὲ μικρὸν νυκτερίς.</l>
+              </lg>
+              <note type="source">
+                <bibl>Athenaeus VI p. 238 c.</bibl> de parasitis agens: <quote>κἀν Πυθαγοριστῇ δέ φησι Πρὸς μὲν τὸ πεινῆν κτλ.</quote> Inde a tertio versu locum ex Athenaeo repetivit <bibl>Eustathius p. 1951 41.</bibl>
+              </note>
+              <note type="apparatus">Vs. 1 non male C πίνειν. — Vs. 6 B λαλεῖν τε. — Vs. 7 libri μήτε ὁρᾶν. In ὁρᾶν fortasse corruptela latet. — Vs. 8 κονιορτός. Ita homines sordidos et squalore obsitos vocatos esse constat ex Anaxandridis Ulix. II 6: χαίρει τις αὐχμῶν ἢ ῥυπῶν, κονιορτὸς ἀναπέφηνεν. Cfr Demosthenes a Casaubono indicatus in Mid. p. 560 Rsk.: νῦν δ᾽ οἶμαι τούτου προβέβληνται Πολύευκτος, Τιμοκράτης, Εὐκτήμων ὁ κονιορτός. τοιοῦτοί τινές εἰσι μισθοφόροι περὶ αὐτόν.</note>
+            </div>
+          </div></body></text></TEI>

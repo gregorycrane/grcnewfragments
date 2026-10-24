@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Philetaerus, ΦΙΛΑΥΛΟΣ: fragments</title><author>Philetaerus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0489.philaylos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0489.philaylos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0489.philaylos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0489_philaylos"><head>ΦΙΛΑΥΛΟΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0489-philaylos-1">
+              <lg>
+                <l n="1" xml:id="meineke-0489-philaylos-1-l1">Ὦ Ζεῦ, καλόν γ' ἔστ' ἀποθανεῖν αὐλούμενον·</l>
+                <l n="2" xml:id="meineke-0489-philaylos-1-l2">τούτοις ἐν ᾅδου γὰρ μόνοις ἐξουσία</l>
+                <l n="3" xml:id="meineke-0489-philaylos-1-l3">ἀφροδισιάζειν ἐστίν, οἱ δὲ τοὺς τρόπους</l>
+                <l n="4" xml:id="meineke-0489-philaylos-1-l4">ῥυπαροὺς ἔχοντες μουσικῆς ἀπειρίᾳ,</l>
+                <l n="5" xml:id="meineke-0489-philaylos-1-l5">εἰς τὸν πίθον φέρουσι τὸν τετρημένον.</l>
+              </lg>
+              <note type="source">Athenaeus XIV p. 633 e: καταπαύσω τὸ πολυλογεῖν τὰ ἐκ Φιλαύλου Φιλεταίρου ἐπειπών Ὦ Ζεῦ κτλ. Vs. 1 libri ἐστίν. Ibid. αὐλούμενον tibiae cantu delinitum, ut apud Antigonum Caryst. Athenaei VIII p. 280 f. et Strabon. XV p. 550 et Apollodorum Athenaei VII p. 215 e. Ita etiam ψαλλόμενος, citante Schweighaeusero, apud Machonem Athenaei VIII p. 348 f.</note>
+              <note type="apparatus">*) Antiphon medicus, cuius σύνοψις τῶν κατ' ἄνθρωπον a Polluce laudatur, patria fuit Delius. Clemens Alex. Paed. II p. 140 ed. Col.: Ἀντιφάνης (leg. Ἀντιφῶν) δὲ ὁ Δήλιος ἰατρὸς καὶ μίαν τῶν νόσου αἰτιῶν εἴρηκε τῶν ἐδεσμάτων τὴν πολυείδειαν.</note>
+            </div>
+          </div></body></text></TEI>

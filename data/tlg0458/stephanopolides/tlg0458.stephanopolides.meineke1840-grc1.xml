@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Eubulus, ΣΤΕΦΑΝΟΠΩΛΙΔΕΣ: fragments</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.stephanopolides.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.stephanopolides.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.stephanopolides.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_stephanopolides"><head>ΣΤΕΦΑΝΟΠΩΛΙΔΕΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0458-stephanopolides-1">
+              <head>I.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0458-stephanopolides-1-l1">Μὰ Δί᾽ οὐχὶ περιπεπλασμέναι ψιμυθίοις,</l>
+                <l n="2" xml:id="meineke-0458-stephanopolides-1-l2">οὐδ᾽ ὥσπερ ὑμεῖς συκαμίνῳ τὰς γνάθους</l>
+                <l n="3" xml:id="meineke-0458-stephanopolides-1-l3">κεχριμέναι. κἂν ἐξίητε τοῦ θέρους,</l>
+                <l n="4" xml:id="meineke-0458-stephanopolides-1-l4">ἀπὸ τῶν μὲν ὀφθαλμῶν ὑδρορρόαι δύο</l>
+                <l n="5" xml:id="meineke-0458-stephanopolides-1-l5">ῥέουσι μέλανος, ἐκ δὲ τῶν γνάθων ἱδρὼς</l>
+                <l n="6" xml:id="meineke-0458-stephanopolides-1-l6">ἐπὶ τὸν τράχηλον ἄλοκα μιλτώδη ποιεῖ,</l>
+                <l n="7" xml:id="meineke-0458-stephanopolides-1-l7">ἐπὶ τῷ προσώπῳ δ᾽ αἱ τρίχες φορούμεναι</l>
+                <l n="8" xml:id="meineke-0458-stephanopolides-1-l8">εἴξασι πολιαῖς, ἀνάπλεῳ ψιμυθίου.</l>
+              </lg>
+              <note type="source">Athenaeus XIII p. 557 f: <quote>αἱ δὲ γαμεταὶ ἡμῶν γυναῖκες οὐκ εἰσὶ τοιαῦται, οἵας Εὔβουλός φησιν ἐν Στεφανο-</quote>
+              </note>
+              <pb n="251" facs="urn:hathi:hvd.32044079388682:scan:261" />
+              <note type="source">
+                <quote>πώλισιν Μὰ Δί᾽ κτλ.</quote> Hinc sumpsit Eustathius ad Homer. p. 976 56.</note>
+              <note type="apparatus">Vs. 1 ψιμυθίοις ABP. duplici μ VL et cum Epit. Eustathius, qui ψιμμυθίῳ. — Vs. 3 κεχρισμέναι C et Eust. — Vs. 4 τῶν μὲν AB. μὲν τῶν margo P Epit. et Eustathius. τῶν sine μὲν PVL. Tum B ὑδρορόαι. „Ad rem ipsam quod spectat, v. Hesychium in ὑπογράμματα, et Polluc. V 101. Scilicet stibio (antimonio) supercilia et ipsa cilia oculorum denigrabant quae bellae haberi cupiebant.“ Schweighaeuserus. — Vs. 5 ἱδρὼς prima brevi dixit ut Aristoph. Ach. 695: θερμὸν ἀπομορξάμενον ἀνδρικὸν ἱδρῶτα δὴ καὶ πολύν. Sophocles Ai. 10: στάζων ἱδρῶτι καὶ χέρας ξιφοκτόνους. Pherecrates Thalass. VII: τὸν ἱδρῶτα καὶ τὴν ἄρδαν ἀπ᾽ ἐμοῦ σπόγγισον. Ion apud Athen. X p. 451 d: δρυός μ᾽ ἱδρὼς | καὶ θαμνομήκης ῥάβδος ἥ τ᾽ Αἰγυπτία κτλ. Ita enim legendum. Atque ita Attici, ni fallor, constanter. — Vs. 8 ψιμυθίου ABPV, ceteri ψιμμυθίου.</note>
+            </div>
+            <pb n="254" facs="urn:hathi:hvd.32044079388682:scan:262" />
+            <div type="textpart" subtype="fragment" n="8" ana="#compiled-citation-normalized" xml:id="meineke-0458-stephanopolides-8">
+              <head>VIII.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0458-stephanopolides-8-l1">Εὔχρων τι κιλλόν, μανθάνεις; θερίστριον.</l>
+                </lg>
+              </quote>
+              <note type="source">Scholiasta Iliad. π΄ 234: τὰ εἰς λος ἑτέρῳ λ παραληγόμενα, οὗ τὸ α μὴ προηγεῖται, ὀξύνεται. κιλλός, εἶδος χρώματος ἐν Στεφανοπώλισιν Εὐβούλου Εὔχρων κτλ.</note>
+              <note type="apparatus">De θεριστρίῳ vide Valckenarium ad Theocriti Adon. p. 368 c.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0458-stephanopolides-2">
+              <head>II.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0458-stephanopolides-2-l1">Ὦ μάκαρ ἥτις ἔχουσ᾽ ἐν δώματι</l>
+                <l n="2" xml:id="meineke-0458-stephanopolides-2-l2">* * στρούθιον ἀεροφόρητον</l>
+                <l n="3" xml:id="meineke-0458-stephanopolides-2-l3">λεπτότατον περὶ σῶμα συνίλλεσται τε</l>
+                <l n="4" xml:id="meineke-0458-stephanopolides-2-l4">ἡδυπότατον περὶ νυμφίον εὔτριχα,</l>
+                <l n="5" xml:id="meineke-0458-stephanopolides-2-l5">κισσὸς ὅπως καλάμῳ περιφύεται</l>
+                <l n="6" xml:id="meineke-0458-stephanopolides-2-l6">αὐξόμενος ἔαρος ὀλολυγόνος</l>
+                <l n="7" xml:id="meineke-0458-stephanopolides-2-l7">ἔρωτι κατατετηκώς.</l>
+              </lg>
+              <note type="source">Athenaeus XV p. 679 b: <quote>τὸν στρούθιον καλούμενον στέφανον, οὗ μέμνηται μὲν Ἀσκληπιάδης, παρατιθέμενος τὰ ἐκ τῶν Εὐβούλου Στεφανοπωλίδων ταῦτα <quote rend="merge">Ὦ μάκαρ ἥτις — κατατετηκώς.</quote> Πλέκεται δ᾽ οὗτος ἐκ τοῦ στρουθίου καλουμένου ἄνθους.</quote>
+              </note>
+              <note type="apparatus">Nullis haec vulgo versibus distincta sunt. Vs. 1 ὦ μάκαρ ἥ τις cur monstrosa dicat Dobraeus Adv. II p. 352 non perspicio, si quidem μάκαρ genere feminino haud infrequens est. V. Elmsleium ad Euripidis Bacch. 565, cuius exemplis adde Meleagrum Epigr. VII 3: τρὶς μάκαρες</note>
+              <pb n="252" facs="https://archive.org/details/fragmentacomicor03meinuoft/page/n259/mode/1up" />
+              <note type="apparatus">νᾶες, τρὶς δ᾿ ὄλβια κύματα πόντου. Ibidem δώματι scripsi pro δωματίῳ. — Vs. 2 posui lacunae indicium. Pro ἀεροφόρητον fortasse ἁβροφόρητον. Ceterum ludere videtur in ambigua significatione vocis στρούθιον vel στρουθίον, quod et corollam ex flore struthio factam et passerculum i. e. hominem salacem denotat. Hesychius, Στρουθός: καταφερὴς καὶ λάγνος. — Vs. 3 Schweighaeuserus tentabat συνίλλεται, deleta τε. Quod si verum est vs. 1 malim ὢ μάκαρ vel ἆ μάκαρ. Verba περὶ σῶμα cum ἔχουσα coniungenda videntur. — Vs. 4 pro ἡδυπότατον scribendum videtur ἡδύτατον. Ibid. libri περινύμφιον. Adiectivo εὖθριξ ex atticis poetis usus est etiam Cratinus Cleobul. III p. 69. — Vs. 6 fortasse εἴαρος αὐξομένου. Quamquam ne hoc quidem offensione caret. Ingeniose Bergkius αὐξομένας ὥρας. Sequentia ad incognitam nobis fabulam spectare videntur de Cisso (Nonnus XII 97. Pausan. I 31) Ololygonis nymphae amore tabescente.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0458-stephanopolides-5">
+              <head>V.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0458-stephanopolides-5-l1">Εἰ μὴ σὺ χηνὸς ἦπαρ ἢ ψυχὴν ἔχεις.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus IX p. 384 c: χηνείων δ’ ἡπάτων — μνημονεύει Εὔβουλος ἐν Στεφανοπώλισι λέγων οὕτως <quote>Εἰ μὴ κτλ.</quote>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0458-stephanopolides-6">
+              <head>VI.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0458-stephanopolides-6-l1">Αἰγυπτίῳ ψάγδανι τρὶς λελουμένη.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XV p. 690 e: Εὔβουλος δ’ ἐν Στεφανοπώλισιν <quote>Αἰγυπτίῳ κτλ.</quote>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" ana="#compiled-citation-normalized" xml:id="meineke-0458-stephanopolides-7">
+              <head>VII.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0458-stephanopolides-7-l1">Λῦε τἀλαβάστια</l>
+                  <l n="2" xml:id="meineke-0458-stephanopolides-7-l2">θᾶττον σὺ καὶ τῇ σπαθίδι τὸν πώγωνά μου</l>
+                  <l n="3" xml:id="meineke-0458-stephanopolides-7-l3">καὶ τὴν ὑπήνην μύρισον.</l>
+                </lg>
+              </quote>
+              <note type="source">Pollux X 120: Εὔβουλος ἐν ταῖς Στεφανοπώλισι τοῦτο μὲν σπαθίδα τοὺς δ’ ἀλαβάστους ἀλαβάστια εἴρηκε <quote>Λῦε τἀλαβάστια κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 2 libri σὺ θᾶττον. Correxit Iungermannus.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="3_4" ana="#compiled-citation-normalized" xml:id="meineke-0458-stephanopolides-3_4">
+              <head>III. IV.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0458-stephanopolides-3_4-l1">Αἰγίδιον, σὺ δὲ τόνδε φορήσεις</l>
+                <l n="2" xml:id="meineke-0458-stephanopolides-3_4-l2">στέφανον πολυποίκιλον ἀνθέων,</l>
+                <l n="3" xml:id="meineke-0458-stephanopolides-3_4-l3">γρυπότατον, χαριέστατον, ὦ Ζεῦ.</l>
+                <l n="4" xml:id="meineke-0458-stephanopolides-3_4-l4">τί γάρ; αὐτὸν ἔχουσα φιλήσει.</l>
+                <gap reason="lost" unit="line" extent="unknown" />
+                <l n="5" xml:id="meineke-0458-stephanopolides-3_4-l5">Στεφάνους ἴσως βούλεσθε· πότερ᾿ ἑρπυλλίνους</l>
+                <l n="6" xml:id="meineke-0458-stephanopolides-3_4-l6">ἢ μυρτίνους ἢ τῶν διεξηνθισμένων;</l>
+                <sp>
+                  <speaker>Β.</speaker>
+                  <l n="7" xml:id="meineke-0458-stephanopolides-3_4-l7">τῶν μυρτίνων βουλόμεθα τουτωνί· σὺ δὲ</l>
+                  <l n="8" xml:id="meineke-0458-stephanopolides-3_4-l8">τά γ᾿ ἄλλα πώλει πάντα πλὴν τῶν μυρτίνων.</l>
+                </sp>
+              </lg>
+              <note type="source">Athenaeus XV p. 679 d: καταλέγει δ᾿ Εὔβουλος καὶ ἄλλους στεφάνους <quote>Αἰγίδιον — φιλήσει.</quote> κἀν τοῖς ἑξῆς τάδε φησί <quote>Στεφάνους κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 Ἀργίδιον B. Capra (Αἲξ) cognomen fuit Nannii, teste Photio p. 286 18. Ναννίον: Ἀπολλόδωρος ἐν τῷ περὶ τῶν ἑταιρῶν Αἶγα λέγεσθαί φησι ταύτην τὴν ἑταίραν διὰ τὸ Θαλλὸν τὸν κάπηλον καταφα-</note>
+              <pb n="253" facs="https://archive.org/details/fragmentacomicor03meinuoft/page/n260/mode/1up" />
+              <note type="apparatus">γεῖν· χαίρουσι γὰρ αἱ αἶγες τῷ θαλλῷ. ἔστι δὲ αὐτῆς μνήμη καὶ ἐν τῇ κωμῳδίᾳ. Quae eadem de Nicone Samia meretricula (Athen. V p. 220 f) narrat Machon apud Athen. XV p. 582 f. — Vs. 2 ἀνθέων bisyllabum in hoc metri genere nihil offensionis habet. — Vs. 3 γρυπότατον haud dubie corruptum est. — Vs. 4 libri τίς γὰρ αὐτὸν etc. Correxit Bergkius Comment. p. 12. Ibid. fort. φιλήσεις. — Vs. 5 πότερ' Canterus: libri πότερον. Nimium delicatae fuerunt aures Reisigii Coniect. p. 61. — Vs. 6 libri διηνθημένων. Correxit Porsonus. — Vs. 7 libri τούτων σύ τ’ ἄλλα. Hermannus de metr. p. 162: τούτων, ἀλλὰ σὺ | τά γ’ ἄλλα πώλει. Dobraeus ad Aristoph. Plut. 361: τουτωνί· σὺ δὲ | ἅπαντα πώλει τἄλλα κτλ. Ex utroque assumsi quod mihi commodum videbatur. Sensus: <quote>myrteas volumus corollas ; ceteras vendas licet</quote>. In quo quid inepti insit (Hanov. Exerc. crit. p. 162) non video. Bergkius tentabat: τούτων τῶν καλῶν· | σὺ δὲ τἄλλα etc.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΑΣΩΤΟΔΙΔΑΣΚΑΛΟΣ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.asotodidaskalos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.asotodidaskalos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.asotodidaskalos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_asotodidaskalos"><head>ΑΣΩΤΟΔΙΔΑΣΚΑΛΟΣ</head><pb n="396" facs="urn:hathi:hvd.32044079388682:scan:404" />
+            <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0402-asotodidaskalos-1">
+              <lg>
+                <l n="1" xml:id="meineke-0402-asotodidaskalos-1-l1">τύρβαζε, Μανῆ. γαστρὸς οὐδὲν ἥδιον.</l>
+                <l n="2" xml:id="meineke-0402-asotodidaskalos-1-l2">αὕτη πατήρ σοι καὶ πάλιν μήτηρ μόνη.</l>
+                <l n="3" xml:id="meineke-0402-asotodidaskalos-1-l3">ἀρεταὶ δὲ πρεσβεῖαί τε καὶ στρατηγίαι</l>
+                <l n="4" xml:id="meineke-0402-asotodidaskalos-1-l4">κόμποι κενοὶ ψοφοῦσιν ἀντ᾿ ὀνειράτων.</l>
+                <l n="5" xml:id="meineke-0402-asotodidaskalos-1-l5">ψύξει σε δαίμων τῷ πεπρωμένῳ χρόνῳ·</l>
+                <l n="6" xml:id="meineke-0402-asotodidaskalos-1-l6">ἕξεις δ᾽ ὅσ᾽ ἂν φάγῃς τε καὶ πίῃς μόνα·</l>
+                <l n="7" xml:id="meineke-0402-asotodidaskalos-1-l7">σποδὸς δὲ τἄλλα, Περικλέης, Κόδρος, Κίμων.</l>
+              </lg>
+              <note type="source">Athenaeus VIII p. 336 d: <quote>῎Αλεξις δ᾽ ἐν Ἀσωτοδιδασκάλῳ, φησὶ Σωτίων ὁ Ἀλεξανδρεὺς ἐν τοῖς περὶ τῶν Τίμωνος Σίλλων· ἐγὼ γὰρ οὐκ ἀπήντησα τῷ δράματι· — ὁ δὲ Σωτίων φησὶν ἐν τῷ δράματι Ξανθίαν τινὰ οἰκέτην πεποιῆσθαι προτρεπόμενον ἐπὶ ἡδυπάθειαν ὁμοδούλους ἑαυτοῦ καὶ λέγοντα <quote>Τί ταῦτα ληρεῖς</quote> κτλ.</quote>
+              </note>
+              <note type="apparatus">Non Alexidis haec esse certissimum est. Ipsi Sotioni praeter Marklandum tribuunt Dobraeus Adv. II p. 317 et Porsonus apud Walpolium Com. gr. p. 88, cuius coniecturae in Athenaei verbis nil praesidii. Cfr Hist. crit. p. 397. Similem scenam repraesentaverat mediae vel novae comoediae poeta, quo utitur Plutarchus Non suav. vivi sec. Epic. p. 1098 b: <quote>καὶ γὰρ οἱ θεράποντες ὅταν Κρόνια δειπνῶσιν ἢ Διονύσια κατ᾿ ἀγρὸν ἄγωσι περιϊόντες, οὐκ ἂν αὐτῶν τὸν ὀλολυγμὸν ὑπομείναις καὶ τὸν θόρυβον, ὑπὸ χαρμονῆς καὶ ἀπειροκαλίας τοιαῦτα ποιούντων καὶ φθεγγομένων
+<lg>
+                    <l n="8" xml:id="meineke-0402-asotodidaskalos-1-l8">Τί καὶ κάθῃ <ref target="#fn1">*)</ref>; πίωμεν· οὐ καὶ σιτία</l>
+                    <l n="9" xml:id="meineke-0402-asotodidaskalos-1-l9">πάρεστιν; ὦ δύστηνε, μὴ σαυτῷ φθόνει κτλ.</l>
+                  </lg>
+                </quote>
+Vs. 2 ante Dindorfium Ἀκαδημίαν. Ibidem Ὠιδείου πύλας ABC et MSS Casauboni. ὠδεῖον πύλας PVL. Odei portas dicere videtur porticum Odei, quam philosophos frequentasse probabile est. Si recte habet Ὠιδεῖον, Πύλαι de Propylaeis intelligendum. V. Wordsworth Itin. Att. p. 113. — Vs. 4 πίωμεν C. Ibidem ἐμπίνωμεν, ὦ Schweighaeuserus.
+<note id="fn1" type="footnote">*) Ita scripsi pro edito <quote>τί κάθῃ; καὶ πίωμεν</quote>. Aliter Bergkius Comment. p. 194.</note>
+              </note>
+              <pb n="396" facs="urn:hathi:hvd.32044079388682:scan:404" />
+              <note type="apparatus">ἐνπινομένῳ A. ἐνπινωμένῳ P. ἐμπίνωμεν sine ὦ B. ἐμπίωμεν C. Alias corruptelas vide apud Dindorfium. Σίκων Σίκων Casaubonus. Libri Σικῶν, idque semel scriptum. — Vs. 6 libri μανήν, pro quo Μάνη Muretus V. L. XIX 3 et Casaubonus. Poterant servato accentu Μανῆ. V. ad Fragm. Hermippi p. 398. — Vs. 6 ἥδιον dixit penultima brevi. Cfr Hist. crit. l. l. — Vs. 8 pro ἀρεταὶ Iacobsius ἀρχαί. Sed v. Simonidem fragm. 52. Ibidem δὲ CVL. τε ABP. — Vs. 9 κόμποι κενοὶ ψοφοῖσιν. Phrynichus Bekk. p. 48 18. Καινὰ ψοφεῖν: καινῶς κομπάζειν. Lege κενὰ et κενῶς. Ibidem pro ὀνειράτων Valcken. ad Eurip. Phoen. p. 249 mire coniectat ὀνειάτων, probatum Marklando ad Suppl. 127. — Vs. 10 Muretus ex veteribus libris affert σ᾽ ὁ δαίμων. — Vs. 11 φάγοις et πίοις P. — Vs. 12 σποδὸς scripsi, ut voluit Dobraeus Adv. II p. 317. Libri σποδοί. Eodem errore PVL Κόδροι habent pro Κόδρος.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0402-asotodidaskalos-1_2">
+              <lg>
+                <l n="1" xml:id="meineke-0402-asotodidaskalos-1_2-l1">Quid ista toties repetis ad fastidium,</l>
+                <l n="2" xml:id="meineke-0402-asotodidaskalos-1_2-l2">Academiam, Lyceum et Odei fores,</l>
+              </lg>
+            </div>
+            <pb n="691" facs="urn:hathi:hvd.32044079388682:scan:693" />
+            <div type="textpart" subtype="fragment" n="1_3" author_heading="ALEXIS" work_heading="ΑΣΩΤΟΔΙΔΑΣΚΑΛΟΣ" starts_on_page="true" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0402-asotodidaskalos-1_3">
+              <lg>
+                <l n="1" xml:id="meineke-0402-asotodidaskalos-1_3-l1">magistellorum nugas, in queis nil boni est?</l>
+                <l n="2" xml:id="meineke-0402-asotodidaskalos-1_3-l2">bibamus, ebibamus, epulis optimis</l>
+                <l n="3" xml:id="meineke-0402-asotodidaskalos-1_3-l3">gaudentes animam fulciamus, dum licet.</l>
+                <l n="4" xml:id="meineke-0402-asotodidaskalos-1_3-l4">vivamus, Mane. ventre nihil est suavius:</l>
+                <l n="5" xml:id="meineke-0402-asotodidaskalos-1_3-l5">hic solus pater est, solus est mater tibi.</l>
+                <l n="6" xml:id="meineke-0402-asotodidaskalos-1_3-l6">virtus, legationes, ductus bellici,</l>
+                <l n="7" xml:id="meineke-0402-asotodidaskalos-1_3-l7">fastus inanes somnii strepitant vicem.</l>
+                <l n="8" xml:id="meineke-0402-asotodidaskalos-1_3-l8">veniet fatalis hora quae te frigeret:</l>
+                <l n="9" xml:id="meineke-0402-asotodidaskalos-1_3-l9">nil nisi quod biberis et edis, restabat tibi.</l>
+                <l n="10" xml:id="meineke-0402-asotodidaskalos-1_3-l10">reliqua cinis sunt, ut Codrus, Pericles, Cimon.</l>
+              </lg>
+            </div>
+          </div></body></text></TEI>

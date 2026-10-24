@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Anaxilas, ΜΑΓΕΙΡΟΙ: fragments</title><author>Anaxilas</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0406.mageiroi.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0406.mageiroi.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0406.mageiroi.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_mageiroi"><head>ΜΑΓΕΙΡΟΙ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0406-mageiroi-1">
+              <lg>
+                <l n="1" xml:id="meineke-0406-mageiroi-1-l1">Τῶν Αἰσχύλου πολὺ μᾶλλον εἶναί μοι δοκεῖ</l>
+                <l n="2" xml:id="meineke-0406-mageiroi-1-l2">ἰχθύδι᾽ ὀπτᾶν. Β. τί σὺ λέγεις; ἰχθύδια;</l>
+                <l n="3" xml:id="meineke-0406-mageiroi-1-l3">συσσίτιον μέλλεις νοσηλεύειν; ὅσον</l>
+                <l n="4" xml:id="meineke-0406-mageiroi-1-l4">ἀκροκώλι᾽ ἔψειν ῥύγχη, πόδας.</l>
+              </lg>
+              <note type="apparatus">Athenaeus III p. 95 a: ποδῶν δὲ καὶ ὠτίων, ἔτι δὲ ῥύγχους Ἄλεξις (sc. μνημονεύει) — Ἀναξίλας Μαγείροις Τῶν Αἰσχύλου κτλ. Vs. 1 πολὺ μᾶλλον multo praestabilius, insolito dicendi genere et, ni fallor, vitioso. Nec sufficit quod Dobraeus Adv. II p. 301 suspicatur πολὺ μεῖζον. Quid enim hoc est, quod pisces assare melius esse dicit tragoediis Aeschyli? — Vs. 3 συσσίτιον de convivio h. e. convivis dictum in rarioribus est. — Vs. 4 ἔψειν pro ἑψεῖν Dindorfius. ἐστὶ quod vulgo post ἔψειν legitur omittunt BP. Dindorfius inter ἔψειν et ῥύγχη lacuuam indicavit. Vereor ut</note>
+              <pb n="347" facs="urn:hathi:hvd.32044079388682:scan:355" />
+              <note type="apparatus">recte. Ad ὅσον necessario requiritur κάλλιον vel βέλτιον. Suspiceris igitur ὅσον | βέλτιόν ἐστ᾽ ἀκροκώλι᾽ ἔψειν, ῥυγχία, | πόδας. Theophilus Pancrat. 2: ῥυγχίον, κωλῆν, πόδας τέτταρας ὑείους.</note>
+              <pb n="348" facs="urn:hathi:hvd.32044079388682:scan:356" />
+              <lg>
+                <l n="5" xml:id="meineke-0406-mageiroi-1-l5">εἷς μόνος δ᾽ ἱππεύς τις αὐτῆς τὸν βίον παρείλετο·</l>
+                <l n="6" xml:id="meineke-0406-mageiroi-1-l6">πάντα τὰ σκεύη γὰρ ἕλκων ᾤχετ᾽ ἐκ τῆς οἰκίας.</l>
+                <l n="7" xml:id="meineke-0406-mageiroi-1-l7">οἱ Σινώπῃ δ᾽ αὖ συνόντες οὐχ ὕδρᾳ σύνεισι νῦν;</l>
+                <l n="8" xml:id="meineke-0406-mageiroi-1-l8">γραῦς μὲν αὕτη, παραπέφυκε δ᾽ ἡ Γνάθαινα πλησίον·</l>
+                <l n="9" xml:id="meineke-0406-mageiroi-1-l9">ὥστ᾽ ἀπαλλαγεῖσι ταύτης ἐστὶ διπλάσιον κακόν.</l>
+                <l n="10" xml:id="meineke-0406-mageiroi-1-l10">ἡ δὲ Νάννιον τί νυνὶ διαφέρειν Σκύλλης δοκεῖ;</l>
+                <l n="11" xml:id="meineke-0406-mageiroi-1-l11">οὐ δύ᾽ ἀποπνίξασ᾽ ἑταίρους τὸν τρίτον θηρεύεται</l>
+                <l n="12" xml:id="meineke-0406-mageiroi-1-l12">ἔτι λαβεῖν; ἀλλ᾽ ἐξέπαισε πορθμὶς ἐλατίνῳ πλάτῃ.</l>
+                <l n="13" xml:id="meineke-0406-mageiroi-1-l13">ἡ δὲ Φρύνη τὴν Χάρυβδιν οὐχὶ πόρρω που ποιεῖ,</l>
+                <l n="14" xml:id="meineke-0406-mageiroi-1-l14">τόν τε ναύκληρον λαβοῦσα καταπέπωκ᾽ αὐτῷ σκάφει;</l>
+                <l n="15" xml:id="meineke-0406-mageiroi-1-l15">ἡ Θεανὼ δ᾽ οὐχὶ Σειρήν ἐστιν ἀποτετιλμένη;</l>
+                <l n="16" xml:id="meineke-0406-mageiroi-1-l16">βλέμμα καὶ φωνὴ γυναικός, τὰ σκέλη δὲ κοψίχου.</l>
+                <l n="17" xml:id="meineke-0406-mageiroi-1-l17">Σφίγγα Θηβαίαν δὲ πάσας ἔστι τὰς πόρνας καλεῖν,</l>
+                <l n="18" xml:id="meineke-0406-mageiroi-1-l18">αἳ λαλοῦσ᾽ ἁπλῶς μὲν οὐδέν, ἀλλ᾽ ἐν αἰνιγμοῖς τισιν,</l>
+                <l n="19" xml:id="meineke-0406-mageiroi-1-l19">ὡς ἐρῶσι καὶ φιλοῦσι καὶ σύνεισιν ἡδέως.</l>
+                <l n="20" xml:id="meineke-0406-mageiroi-1-l20">εἶτα τετράπους μοι γένοιτο, φησί, τήνπρος ἢ θρόνος·</l>
+                <l n="21" xml:id="meineke-0406-mageiroi-1-l21">εἶτα δὴ τρίπους τις, εἶτα, φησί, παιδίσκη δίπους.</l>
+                <l n="22" xml:id="meineke-0406-mageiroi-1-l22">εἶθ᾽ ὁ μὲν γνοὺς ταῦτ᾽ ἀπῆλθεν εὐθὺς ὥσπερ Οἰδίπους,</l>
+                <l n="23" xml:id="meineke-0406-mageiroi-1-l23">οὐδ᾽ ἰδεῖν δόξας ἐκείνην, σώζεται δ᾽ ἄκων μόνος.</l>
+                <l n="24" xml:id="meineke-0406-mageiroi-1-l24">οἱ δ᾽ ἐρᾶσθαι προσδοκῶντες εὐθύς εἰσιν ἠρμένοι,</l>
+                <l n="25" xml:id="meineke-0406-mageiroi-1-l25">καὶ φέρονθ᾽ ὑψοῦ πρὸς αἴθραν. συντεμόντι δ᾽ οὐδὲ ἕν</l>
+                <l n="26" xml:id="meineke-0406-mageiroi-1-l26">ἔσθ᾽ ἑταίρας ὅσα περ ἔστι θηρί᾽ ἐξωλέστερον.</l>
+              </lg>
+              <note type="source">
+                <bibl>Athenaeus XIII p. 558 a</bibl>: <quote>Ἀναξίλας δ᾽ ἐν Νεοττίδι φησίν Ὅστις κτλ.</quote> Ex Athenaeo partem loci inde a vs. 1—8 repetiit Eustathius ad Hom. p. 1714 38 sqq.</note>
+              <note type="apparatus">In fine eius versus, qui primum versum praecedebat, fuisse videtur ὡς τρισάθλιος vel simile quid. Vs. 2 οὗ Wyttenbachius ad Plutarch. vol. VI p. 945. οὐ PVL et Eustathius. τίς om. C et epit. Hoesch. et Eustath. παρανομώτερον Grotius in Excerptis p. 859. libri παρανομώτατον. Dindorfius. — Vs. 3 τις Grotius; vulgo τί. Pro πυρπνόος Eustathius πύρπνος.</note>
+              <pb n="349" facs="urn:hathi:hvd.32044079388682:scan:357" />
+              <note type="apparatus">— Vs. 4 τρίκρανος Σκύλλα. Homerus Od. XII 90 Scyllae sex capita attribuit. — Vs. 8 Πλάγονα C. Vide Hist. crit. p. 366. — Vs. 10 μόνος δ᾽ ABC. μόνος δὲ C. δὲ μόνος PVL. — Vs. 13 γραῦς μὲν αὕτη. V. ad Antiphan. p. 14. — Vs. 14 ὥστ᾽ ἀπαλλαγεῖσι ταύτης Dobraeus Advers. II p. 341. Libri ὡς τὰ πολλά γ᾽ εἰσὶ ταύτης. Quae egregia emendatio est. — Vs. 15 Νάννιον τί AB et epit. Hoesch. Ναννὼ τί VL. Ναννὼ ... τί P. Tum νυνὶ Iacobsius. νῦν PVL. om. B. νῦν δὴ Grotius. δὴ νῦν Porsonus. Dindorfius. — Vs. 16 θηρεύεται λαβεῖν. Similia collegit Lobeckius ad Aiac. p. 71 et Add. — Vs. 17 ἐξέπαισε Casaubonus. Libri ἐξέπεσε. Similiter ἐκλακτίζειν dixit Menander Pisc. p. 15: <quote>ἐκλελάκτικεν ὁ χρηστὸς ἡμῖν μοιχός</quote>, evasit, effugit. Porsonus ἐξέπλευσε. — Vs. 20 Σειρὴν ἀποτετιλμένη. Spectare haec ad fabulam illam, qua Sirenibus a Musis pennae evulsae ferebantur, monuit Schweighaeuserus, quam in rem laudat Iacobsium Mus. Att. II 3 p. 173 et Winkelmannum Monum. ined. Tab. 46. Quibus adde versum incerti auctoris, <quote>
+                  <lg>
+                    <l n="27" xml:id="meineke-0406-mageiroi-1-l27">αἱ Μοῦσαι δὲ πτεροῖς Σειρήνων ἐστεφανοῦντο,</l>
+                  </lg>
+                </quote> apud Suidam. — Vs. 20 et 21 memoriae errore tanquam Eubuli versus citat I. Scaliger ad Varr. L. L. VI p. 217 Bip. De gracili Theanus corpore cfr Antiphanes Ἁλιευομ. p. 15. Pro τὰ σκέλη fortasse τὼ σκέλη scribendum. — Vs. 23 λαλοῦσ᾽ L. λαβοῦσ᾽ ABPV. λαβοῦσαι C. ἀλλ᾽ ἐν AC. ἐν om. BPVL. αἰνιγμοῖς BC. αἰνίγμασιν PVL. Dindorfius. Post vs. 24 nescio an aliquid exciderit. — Vs. 25 et 26 in VL sic sunt depravati εἶτα φησὶ παιδίσκη δίπους τετράπους μοι γένοιτο σκίμπους ἢ θρόνος εἶτα δὲ τρίπους τίς, εἶτα παιδίσκη δίπους. in P εἶτα φησὶ παιδίσκη δίπους τετράπους μοι γένοιτο φησὶ τὴν πρὸς ἢ θρόνος εἶτα δὲ τρίπους τίς εἶτα φησὶ παιδίσκη δίπους. Emendatum ex ABC, qui non nisi uno verbo inter se differunt. nam τὴν πρὸς scriptum in B, τήνπρος in A, σκίμπους in C, quae perinde corrupta. Dindorfius. Transpositione verborum sanare locum tentavit Dobraeus, εἶτά μοι σκίμπους γένοιτο, φησί, τετράπους ἢ θρόνος. Quae etsi vix vera tamen probabilior est alterâ</note>
+              <pb n="350" facs="urn:hathi:hvd.32044079388682:scan:358" />
+              <note type="apparatus">quam proposuit coniecturâ, verba φησὶ τήνπρος ex sqq. orta esse et hemistichium excidisse: ἡ μὲν οὖν ᾔτησε· τετράπους μοι γένοιτό τις θρόνος. Ceterum recte Grotius „alludit ad aenigma Sphingis de quadrupede, bipede, tripede; et primum quidem interpretatur de <hi rend="italic">sedili</hi> in munus postulato, alterum de <hi rend="italic">pedissequa</hi>, tertium de <hi rend="italic">tripode</hi>.“ — Vs. 27 εἶτα B. Tum libri ὥσπερ γʼ omisso Οἰδίπους. Emendavit Grotius. „Qui aenigmata intellegit ad exemplum Oedipi salvus abit.“ — Vs. 28 οὐδʼ ἰδεῖν δόξας, <hi rend="italic">ne vidisse quidem illam se simulans</hi>. Frustra haec tentantur. Pro μόνος Iacobsius μόλις, quod nec ipsum necessarium. — Vs. 29 προσδοκῶντες ABC. προσδοκοῦντες PVL. — Vs. 30 καὶ φέρονθʼ ὑψοῦ πρὸς αἴθραν. Cfr Eurip. Phoen. 824.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΜΑΝΤΕΙΣ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.manteis.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.manteis.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.manteis.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_manteis"><head>ΜΑΝΤΕΙΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0402-manteis-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-manteis-1-l1">Ὦ δυστυχεῖς ἡμεῖς μὲν οἱ πεπρακότες</l>
+                  <l n="2" xml:id="meineke-0402-manteis-1-l2">τὴν τοῦ βίου παρρησίαν καὶ τὴν τρυφήν,</l>
+                  <l n="3" xml:id="meineke-0402-manteis-1-l3">γυναιξὶ δοῦλοι ζῶμεν ἀντ᾽ ἐλευθέρων.</l>
+                  <l n="4" xml:id="meineke-0402-manteis-1-l4">ἔπειτ᾽ ἔχειν προῖκ᾽ οὐχὶ τιμὴν φάσκομεν;</l>
+                  <l n="5" xml:id="meineke-0402-manteis-1-l5">πικράν γε καὶ μεστὴν γυναικείας χολῆς.</l>
+                  <l n="6" xml:id="meineke-0402-manteis-1-l6">ἡ τῶν γὰρ ἀνδρῶν ἐστι πρὸς ἐκείνην μέλι·</l>
+                  <l n="7" xml:id="meineke-0402-manteis-1-l7">οἱ μέν γε συγγνώμην ἔχουσ᾽ ἀδικούμενοι,</l>
+                  <l n="8" xml:id="meineke-0402-manteis-1-l8">αὗται δ᾽ ἀδικοῦσαι καὶ προσεγκαλοῦσ᾽ ἔτι·</l>
+                  <l n="9" xml:id="meineke-0402-manteis-1-l9">ὧν οὐκ ἐχρῆν ἄρχουσιν, ὧν δ᾽ ἄρχειν ἐχρῆν</l>
+                  <l n="10" xml:id="meineke-0402-manteis-1-l10">ἀμελοῦσιν, ἐπιορκοῦσιν, οὐδὲ ἓν κακόν</l>
+                  <l n="11" xml:id="meineke-0402-manteis-1-l11">ἔχουσι καὶ κάμνειν λέγουσ᾽ ἑκάστοτε.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XIII p. 558 e: ὁ Λεωνίδης ψέγων τὸ τῆς γαμετῆς ὄνομα τὰ ἐκ τῶν Μάντεων Ἀλέξιδος προηνέγκατο ταυτὶ τῶν ἐπῶν <quote>Ὦ δυστυχεῖς</quote> κτλ.</note>
+              <note type="apparatus">Vs. 1 <quote>ἡμῖν</quote> L. Verba <quote>μὲν οἱ</quote> addidit Grotius Excerptis p. 579. Rectius fortasse suppleas <quote>ἄρ᾽ οἱ,</quote> sive potius <quote>οἵ,</quote> a quo suspensum sit <quote>ζῶμεν,</quote> quod vs. 3 legitur. — Vs. 4 <quote>φάσκομεν</quote> pro <quote>πάσχομεν</quote> Nic. Sturio. Casaubonns: <quote>tam fatui sumus, ut auctoramentum servitutis nostrae vocemus dotem.</quote> — Vs. 6 ante Dindorfium <quote>κείνην.</quote> — Vs. 7 <quote>γε</quote> om. BP. Fort. <quote>οἱ μὲν γὰρ οὐ μνήμην.</quote> — Vs. 11 libri <quote>λέγουσιν.</quote> Illud Dindorfius.</note>
+            </div>
+            </div></body></text></TEI>

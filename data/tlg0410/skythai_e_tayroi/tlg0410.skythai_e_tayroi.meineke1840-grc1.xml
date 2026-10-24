@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΣΚΥΘΑΙ Η ΤΑΥΡΟΙ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.skythai_e_tayroi.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.skythai_e_tayroi.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.skythai_e_tayroi.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_skythai_e_tayroi"><head>ΣΚΥΘΑΙ Η ΤΑΥΡΟΙ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0410-skythai_e_tayroi-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0410-skythai_e_tayroi-1-l1">Ἐπὶ κῶμον, εἰ δοκεῖ,</l>
+                  <l n="2" xml:id="meineke-0410-skythai_e_tayroi-1-l2">ἴωμεν ὥσπερ ἔχομεν. <sp>
+                      <speaker>Β.</speaker> οὐκοῦν δᾷδα καὶ</sp>
+                  </l>
+                  <l n="3" xml:id="meineke-0410-skythai_e_tayroi-1-l3">στεφάνους λαβόντες Χαιρεφῶν οὕτως * *</l>
+                  <l n="4" xml:id="meineke-0410-skythai_e_tayroi-1-l4">μεμάθηκε κωμάζειν ἄδειπνος.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus VI p. 243 c. de Chaerephonte comicorum ῥήσεις apponens: <quote>Ἀντιφάνης δ᾽ ἐν Σκύθῃ Ἐπὶ κῶμον κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 2 καὶ quod libri ante δᾷδα habent delevi Quaest. Menandr. p. 34. Sequutus est Dindorfius. Idem fecit nunc</note>
+              <pb n="115" facs="urn:hathi:hvd.32044079388682:scan:125" />
+              <note type="apparatus">etiam Dobraeus Adv. II p. 311. qui priorem fragmenti partem duplici coniectura tentavit: <quote>Οὐκοῦν εἰ δοκεῖ | ἐπὶ κῶμον ἴωμεν ὥσπερ ἔχομεν, δᾷδα καὶ | στεφάνους λαβόντες. Χαιρεφῶν γὰρ οὑτοσὶ | μεμάθηκε κωμάζειν.</quote> Vel <quote>Οὐκοῦν δᾷδα καὶ | στεφάνους λαβ., ὥσπερ ἔχομεν, εἰ δοκεῖ, | ἐπὶ κῶμον ἴωμεν. Χαιρεφῶν etc.</quote> — Vs. 3 fortasse scribendum <quote>οὕτως ἄρα</quote>, vel <quote>οὕτως γε μήν</quote>. — Vs. 4 <quote>μεμάθηκ᾽ ἐγκωμιάζειν</quote> PVL. <quote>μεμάθηκ᾽ ἐγκωμάζειν</quote> Ven. Correxit Casaubonus praeeunte Dalecampio.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0410-skythai_e_tayroi-2">
+              <lg>
+                <l n="1" xml:id="meineke-0410-skythai_e_tayroi-2-l1">Ταχὺ γὰρ γίγνεται</l>
+                <l n="2" xml:id="meineke-0410-skythai_e_tayroi-2-l2">κἀκκλησιαστὴς οἰκόσιτος.</l>
+              </lg>
+              <note type="source">Athenaeus VI p. 247 f: καλεῖται δ᾽ οἰκόσιτος ὁ μὴ μισθοῦ ἀλλὰ προῖκα τῇ πόλει ὑπηρετῶν. Ἀντιφάνης Σκύθῃ <quote>Ταχὺ γὰρ κτλ.</quote>
+              </note>
+              <note type="apparatus">Libri <quote>γίνεται καὶ ἐκκλησιαστής</quote>. Post <quote>οἰκόσιτος</quote> Porsonus supplebat <quote>ὢν προτοῦ</quote>.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0410-skythai_e_tayroi-3">
+              <lg>
+                <l n="1" xml:id="meineke-0410-skythai_e_tayroi-3-l1">Σαράβαρα καὶ χιτῶνας πάντες ἐνδεδυκότες.</l>
+              </lg>
+              <note type="source">Pollux VII 59: ἐν δὲ τοῖς Σκύθαις Ἀντιφάνης <quote>Σαράβαρα καὶ χιτῶνας πάντας ἐνδεδυκότας</quote>. MSS <quote>πάντες ἐνδεδυκότες</quote>. Idem X 168: Ἀντιφάνης ἐν Σκύθαις ἢ Ταύροις <quote>Σαράβαρα καὶ χιτῶνας πάντας (MSS πάντα) ἐνδεδυκότας</quote>.</note>
+              <note type="apparatus">De sarabaris, quo nomine Parthi sive Persae femorum tegumenta a principibus viris gestari solita significabant, vide interpretes Hesychii vol. II p. 1151. Initio versus <quote>καὶ</quote> addendum suspiceris; nisi forte in <quote>σαράβαρα</quote> prima et tertia syllaba producitur.</note>
+            </div>
+          </div></body></text></TEI>

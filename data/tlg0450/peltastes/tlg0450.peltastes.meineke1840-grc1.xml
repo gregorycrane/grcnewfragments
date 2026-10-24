@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Ephippus, ΠΕΛΤΑΣΤΗΣ: fragments</title><author>Ephippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0450.peltastes.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0450.peltastes.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0450.peltastes.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_peltastes"><head>ΠΕΛΤΑΣΤΗΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0450-peltastes-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0450-peltastes-1-l1">Τοιαῦθ’ ὑθλῶν δειπνεῖ καὶ ζῇ</l>
+                  <l n="2" xml:id="meineke-0450-peltastes-1-l2">θαυμαζόμενος μετὰ μειρακίων,</l>
+                  <l n="3" xml:id="meineke-0450-peltastes-1-l3">οὐ γιγνώσκων ψήφων ἀριθμούς,</l>
+                  <l n="4" xml:id="meineke-0450-peltastes-1-l4">σεμνὸς σεμνῶς χλανίδ’ ἕλκων.</l>
+                </lg>
+              </quote>
+              <pb n="337" facs="urn:hathi:hvd.32044079388682:scan:345" />
+              <note type="source">
+                <bibl>Athenaeus VIII p. 247 b:</bibl> οὐκ ἀγνοῶ δ᾽ ὅτι τὰ αὐτὰ (versus dicit ex Geryone fabula supra appositos) εἴρηκεν Ἔφιππος κἀν Πελταστῇ τῷ δράματι, ἐν ᾧ καὶ ταῦτα ἐκείνοις ὑποτέτακται <quote>Τοιαῦθ᾽ — ἕλκων.</quote> εἰς τίνα δὲ ταῦτ᾽ ἀποτεινόμενος Ἔφιππος εἴρηκεν ὥρα σοι ζητεῖν, ὦ καλὲ Οὐλπιανέ, καὶ διδάσκειν ἡμᾶς.</note>
+              <note type="apparatus">Dicuntur haec de eodem illo Macedonum duce, de quo in superioribus egit poeta. V. Geryonis fragm. 1. Vs. 3 οὐ γιγνώσκων (libri γινώσκων) ψήφων ἀριθμοὺς proverbialis fuisse videtur locutio de homine imperitissimo. — Vs. 4 σεμνὸς σεμνῶς. Herodot. II 173: ἐν θρόνῳ σεμνῷ σεμνὸν θωκέοντα. Alia huius annominationis exempla attulit Lobeckius Paral. gramm. p. 54.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="unnumbered" xml:id="meineke-0450-peltastes-unnumbered">
+              <lg>
+                <l n="1" xml:id="meineke-0450-peltastes-unnumbered-l1">Haec deblaterans coenat, vivit,</l>
+                <l n="2" xml:id="meineke-0450-peltastes-unnumbered-l2">iuvenes inter magnus habetur,</l>
+                <l n="3" xml:id="meineke-0450-peltastes-unnumbered-l3">et rationum summam ignorans</l>
+                <l n="4" xml:id="meineke-0450-peltastes-unnumbered-l4">gravis ipse sagum graviter fert.</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0450-peltastes-2">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0450-peltastes-2-l1">Οὐ Μενεκράτης μὲν ἔφασκεν εἶναι Ζεὺς θεός;</l>
+                  <l n="2" xml:id="meineke-0450-peltastes-2-l2">Νικόστρατος δ᾽ Ἁργεῖος ἕτερος Ἡρακλῆς;</l>
+                </lg>
+              </quote>
+              <note type="source">
+                <bibl>Athenaeus VII p. 289 b:</bibl> μνημονεύει δ᾽ αὐτῶν (Menecratis et Nicostrati) Ἔφιππος ἐν Πελταστῇ λέγων ὧδε <quote>Οὐ Μενεκράτης κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 οὐ A. ὁ BPVL. De Menecrate, medico Syracusano, qui Iovem se appellari iussit, nota omnia ex Athenaeo l. l. Plutarcho Ages. c. 21. Clemente Alex. Protr. p. 16 aliisque, quorum testimonia post alios composuit C. Keilius Spec. Onomatol. gr. p. 20. De Nicostrato Argivo, quem Menecrates ab Herculeo h. e. comitiali morbo liberaverat, cfr ad Menandri fragm. p. 153.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0450-peltastes-3">
+              <head>III.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0450-peltastes-3-l1">Ἔνθ᾽ ὄνων ἵππων στάσεις</l>
+                  <l n="2" xml:id="meineke-0450-peltastes-3-l2">καὶ γεύματ᾽ οἴνων.</l>
+                </lg>
+              </quote>
+              <note type="source">
+                <bibl>Athenaeus IX p. 380 f.</bibl> de usu vocabuli γεῦμα disserens: Ἔφιππος ἐν Πελταστῇ <quote>Ἔνθ᾽ ὄνων ἵππων τε στάσεις καὶ γεύματα οἴνων.</quote>
+              </note>
+              <note type="apparatus">Delevi τε, quod omitti posse videtur, ut in similibus dicendi formis, νέοι γέροντες, ἄνδρες γυναῖκες, pedes eques etc. Quamquam haec aliquid differunt.</note>
+            </div>
+          </div></body></text></TEI>

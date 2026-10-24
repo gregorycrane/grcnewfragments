@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΠΑΡΑΣΙΤΟΣ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.parasitos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.parasitos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.parasitos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_parasitos"><head>ΠΑΡΑΣΙΤΟΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0402-parasitos-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-parasitos-1-l1">Καλοῦσι δ᾽ αὐτὸν πάντες οἱ νεώτεροι</l>
+                  <l n="2" xml:id="meineke-0402-parasitos-1-l2">παράσιτον ὑποκόρισμα· τῷ δ᾽ οὐδὲν μέλει.</l>
+                  <l n="3" xml:id="meineke-0402-parasitos-1-l3">δειπνεῖ δ᾽ ἄφωνος Τήλεφος, νεύων μόνον</l>
+                  <l n="4" xml:id="meineke-0402-parasitos-1-l4">πρὸς τοὺς ἐπερωτῶντάς τι, ὥστε πολλάκις</l>
+                  <l n="5" xml:id="meineke-0402-parasitos-1-l5">αὐτὸν ὁ κεκληκὼς τὰ Σαμοθρᾴκι᾽ εὔχεται</l>
+                  <l n="6" xml:id="meineke-0402-parasitos-1-l6">λῆξαι πνέοντα καὶ γαληνίσαι ποτέ.</l>
+                  <l n="7" xml:id="meineke-0402-parasitos-1-l7">χειμὼν ὁ μειρακίσκος ἐστὶ τοῖς φίλοις.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus X p. 421 d: ἐν δὲ τῷ Παρασίτῳ Ἄλεξις περὶ πολυφάγου τινὸς διαλεγόμενός φησι Καλοῦσι δ᾽ αὐτὸν κτλ.</note>
+              <note type="apparatus">Vs. 2 μέλλει AB. — Vs. 3 ἄφωνος Τήλεφος. V. ad Amphidis fragm. p. 314. — Vs. 5 ad τὰ Σαμοθρᾴκια Casaubonus intellegit πνεύματα, Boream designari existimans, quod sine exemplo est. Rectius δαιμόνια subintellegas, in qua sententia etiam Lobeckium ad Sophoclis Aiac. p. 198 ed. nov. esse video. Se ne huius quidem usus exemplum novi. Itaque τοῖς Σαμοθρᾳξὶν scribendum suspicatus sum, quo nomine Samothracios deos sive Cabiros designari constat e Diodoro Sic. IV 43: φασὶν Ὀρφέα — ποιήσασθαι τοῖς Σαμοθρᾳξὶ τὰς ὑπὲρ τῆς σωτηρίας εὐχάς, et ibid. 48: τοῦ δ᾽ Ὀρφέως εὐχὰς ποιησαμένου τοῖς Σαμοθρᾳξὶ λῆξαι τοὺς ἀνέμους. Cfr Lobeckius Aglaoph. p. 1218, ubi pluribus agit de Cabirorum auxilio, quo nautas ex praesenti discrimine servabant. Cfr Iacobsius ad Anal. Br. VII p. 278. Hoc igitur dicit Alexis: ὁ κεκληκὼς εὔχεται τοῖς Σαμοθρᾳξίν, αὐτὸν</note>
+              <pb n="468" facs="urn:hathi:hvd.32044079388682:scan:474" />
+              <note type="apparatus">(sc. parasitum turbinis instar in patinas ingruentem) λῆξαι πνέοντα καὶ γαληνίσαι. Hoc postremum, γαληνίσαι, quiescere recte interpretatur Lobeckius ad Aiac. l. l. Neutrali significatione illud posuit etiam Plutarchus Moral. p. 1088 e. ubi coniungitur χαίρειν καὶ γαληνίζειν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-parasitos-2">
+              <head rend="align-center">II.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0402-parasitos-2-l1">Καὶ γὰρ βούλομαι</l>
+                <l n="2" xml:id="meineke-0402-parasitos-2-l2">ὕδατός σε γεῦσαι· πρᾶγμα δ᾽ ἐστί μοι μέγα</l>
+                <l n="3" xml:id="meineke-0402-parasitos-2-l3">φρέατος ἔνδον ψυχρότερον Ἀραρότος.</l>
+              </lg>
+              <note type="source">Athenaeus III p. 123 e: <quote>Ἄλεξις γοῦν ἐν Παρασίτῳ φησί Καὶ γὰρ βούλομαι κτλ.</quote>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0402-parasitos-3">
+              <head rend="align-center">III.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0402-parasitos-3-l1">Ἢ μετὰ Πλάτωνος ἀδολεσχεῖν κατὰ μόνας.</l>
+              </lg>
+              <note type="source">Diogenes Laert. III 28: <quote>Ἄλεξις Ὀλυμπιοδώρῳ — καὶ ἐν Παρασίτῳ Ἢ μετὰ Πλάτωνος κτλ.</quote>
+              </note>
+              <note type="apparatus">Menagius ἀδολεσχεῖς et καταμόνας.</note>
+            </div>
+            </div></body></text></TEI>

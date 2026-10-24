@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΠΟΝΗΡΑ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.ponera.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.ponera.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.ponera.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_ponera"><head>ΠΟΝΗΡΑ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0402-ponera-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-ponera-1-l1">Ὅμως λογίσασθαι πρὸς ἐμαυτὸν βούλομαι</l>
+                  <l n="2" xml:id="meineke-0402-ponera-1-l2">καθεζόμενος ἐνταῦθα τὴν ὀψωνίαν,</l>
+                  <l n="3" xml:id="meineke-0402-ponera-1-l3">ὁμοῦ τε συντάξαι τί πρῶτον οἰστέον,</l>
+                  <l n="4" xml:id="meineke-0402-ponera-1-l4">ἡδυντέον τε πῶς ἕκαστόν ἐστί μοι.</l>
+                  <l n="5" xml:id="meineke-0402-ponera-1-l5">τάριχός ἐστι πρῶτον ὡραῖον τοδί.</l>
+                  <l n="6" xml:id="meineke-0402-ponera-1-l6">διωβόλου τοῦτ’ ἔστι. πλυτέον εὖ μάλα.</l>
+                  <l n="7" xml:id="meineke-0402-ponera-1-l7">εἶτ’ εἰς λοπάδιον ὑποπάσας ἡδύσματα</l>
+                  <l n="8" xml:id="meineke-0402-ponera-1-l8">ἐνθεὶς τὸ τέμαχος, λευκὸν οἶνον ἐπιχέας,</l>
+                  <l n="9" xml:id="meineke-0402-ponera-1-l9">ἐπεσκέδασα τοὔλαιον· εἶθ’ ἕψων ποιῶ</l>
+                  <l n="10" xml:id="meineke-0402-ponera-1-l10">μυελόν, ἀφεῖλόν τ’ ἐπιγανώσας σιλφίῳ.</l>
+                </lg>
+              </quote>
+              <note type="source">
+                <bibl>Athenaeus III p. 117 d</bibl>: <quote>ὁ δ’ αὐτὸς ποιητὴς ἐν Πονήρᾳ περὶ σκευασίας ταρίχων μάγειρόν τινα παράγει λέγοντα τάδε <title>Ὅμως λογίσασθαι</title> κτλ.</quote> Ex eodem eiusdem hominis sermone sequentia fragmenta (II. III. IV) derivata sunt.</note>
+              <note type="apparatus">Vs. 1 Dindorfius probabiliter ὅμως δέ. Nisi scribendum λογίζεσθαι. — Vs. 5 inverso ordine πρῶτόν ἐστι A. Tum τοδί. διωβόλου Dindorfius. AP τὸ διοβόλου. B τὸ διοβολοῦ. VL τοδὶ ὀβολοῦ μόνου. — Vs. 7 εἴ τις pro εἶτ’ εἰς AP. Ibid. B ἡδύσματι. — Vs. 9 ποιῶν A. ποῶ C. πῶ B. ποτὲ VL. ποτὶ P. — Vs. 10 μυελὸν recte transfert Schweighaeuserus: <foreign xml:lang="la">coquens ut sit tenerum et molle veluti medulla.</foreign> Vide quae infra in Epimetro de Philoxeni Convivio attuli. Tum ἀφεῖλόν τ’ Dindorfius. Vulgo ἀφεῖλον. AB ἀφεῖλοντ’. Ceterum aoristo usus est ut vs. 9 de re facienda, sed de qua tanquam de facta loquitur.</note>
+            </div>
+            <pb n="471" facs="urn:hathi:hvd.32044079388682:scan:477" />
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-ponera-2">
+              <lg>
+                <l n="1" xml:id="meineke-0402-ponera-2-l1">Τῆς ὀριγάνου</l>
+                <l n="2" xml:id="meineke-0402-ponera-2-l2">πρώτιστον ὑποθεὶς εἰς λοπάδα νεανικήν</l>
+                <l n="3" xml:id="meineke-0402-ponera-2-l3">τὸ τρῖμμ᾿ ἐπιπολῆς εὐρύθμως διειμένον</l>
+                <l n="4" xml:id="meineke-0402-ponera-2-l4">ὄξει, σιραίῳ χρωματίσας καὶ σιλφίῳ</l>
+                <l n="5" xml:id="meineke-0402-ponera-2-l5">πυκνῷ πατάξας.</l>
+              </lg>
+              <note type="source">Athenaeus IV p. 170 b. c: ἐν δὲ Παννυχίδι ἢ Ἐρίθοις μάγειρον τάδε ποιεῖ λέγοντα — κὰν Πονήρᾳ Τῆς ὀριγάνου κτλ.</note>
+              <note type="apparatus">Vs. 2 ὑποθεὶς pro ὑποτιθεὶς Casaubonus. λοπάδα νεανικήν, ingentem patinam, ut νεανικὸν κρέας apud Aristoph. Plut. 1138 et νεανικὴν βροντήν, validum tenitru, apud Aristot. H. A. VIII 20, citante Schweighaeusero. — Vs. 3 τὸ τρῖμμα. V. Athen. I p. 38 f et VII p. 293 b. a Schweighaeuserum laudatum. — Vs. 5 πατάξας ne pro corrupto habeatur, similiter Axionicus Athenaei III p. 95 c: σιλφίῳ σφενδονῶν ἀλλᾶντα, et ipse Alexis Λεύκῃ vs. 5: σιλφίῳ μάστιξον εὖ τε καὶ καλῶς, et alius: ἀψινθίῳ σποδῆσον.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0402-ponera-3">
+              <lg>
+                <l n="1" xml:id="meineke-0402-ponera-3-l1">Σηπίας τόσας</l>
+                <l n="2" xml:id="meineke-0402-ponera-3-l2">δραχμῆς μιᾶς τρίς. τῶν δὲ τὰς μὲν πλεκτάνας</l>
+                <l n="3" xml:id="meineke-0402-ponera-3-l3">καὶ τὰ πτερύγια συντεμὼν ἑφθὰς ποιῶ,</l>
+                <l n="4" xml:id="meineke-0402-ponera-3-l4">τὸ δ᾽ ἄλλο σῶμα κατατεμὼν πολλοὺς κύβους</l>
+                <l n="5" xml:id="meineke-0402-ponera-3-l5">σμήσας τε λεπτοῖς ἁλσί, δειπνούντων ἅμα</l>
+                <l n="6" xml:id="meineke-0402-ponera-3-l6">ἐπὶ τὸ τάγηνον σίζον ἐπισείων φέρω.</l>
+              </lg>
+              <note type="source">Athenaeus VII p. 324 b: περὶ δὲ ἑψήσεως σηπιδίων Ἄλεξις ἐν Πονήρᾳ παράγει μάγειρον τάδε λέγοντα Σηπίας τόσας κτλ.</note>
+              <note type="apparatus">Vs. 1 σηπίας τόσας Schweighaeuserus. σηπίαι τοσου ABP. σηπίαι πόσου VL. — Vs. 2 τρὶς ABPV. τρεῖς L. Triplo maiorem sepiarum copiam pro una drachma emisse dicit. In superioribus alios pisces commemoraverat. — Vs. 3 ante Dindorfium ἑφθά. — Vs. 4 κατατεμὼν πολλοὺς κύβους. Ephippus Philyra vs. 2 τὴν βατίδα τεμάχη κατατε-</note>
+              <pb n="472" facs="urn:hathi:hvd.32044079388682:scan:478" />
+              <note type="apparatus">μών. Aristoph. Acharn. 301: ὃν κατατεμῶ καττύματα. Cfr Schaeferus ad Plut. Vit. vol. IV p. 293. — Vs. 6 τήγανον VL. τάγηνον BCP et MSS Casaubonus. σίζον ABC et MSS Casaubonus. σίζων PVL. Ibidem libri ἐπεισιών, quod ne vitiosam caesuram commemorem, grammaticis legibus vix satis accommodatum est. Expectes enim ἐπὶ τῷ ταγήνῳ. Et cur se <foreign xml:lang="la">introeuntem afferre cibos</foreign> dicit? Itaque ἐπισείων correxi.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0402-ponera-4">
+              <head>IV.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-ponera-4-l1">Τριωβόλου κρεΐσκον ἀστεῖον πάνυ</l>
+                  <l n="2" xml:id="meineke-0402-ponera-4-l2">ὕειον· ὀπτὸν θερμὸν εὔχυλον τέρεν</l>
+                  <l n="3" xml:id="meineke-0402-ponera-4-l3">ὅταν ᾖ, προσφέρων.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XIV p. 655 f: ὀπτῶν δελφάκων δὲ μνημονεύει Ἐπικράτης — ῎Αλεξις δ᾽ ἐν Πονήρᾳ Τριωβόλου κτλ.</note>
+              <note type="apparatus">Vs. 1 τριωβόλου κρεΐσκον Β, ut coniecerat Porsonus ad Xenophontis Anab. p. LIII. Vulgo τριωβολοκρεΐσκον. — Vs. 2 καί, quod ante θερμὸν in libris est, delevit Casaubonus. Ibidem εὔχυλον τέρεν Porsoni est emendatio pro εὐχυλότερον. L εὐχυλώτερον. — Vs. 3 τι post ᾖ addit Porsonus. προσφέρων PV. προσφέρον L. πρόσφερ᾽ Porsonus. At de se ipso loqui hominem docet Fragm. I et III. Participium pendet a verbo quod omisit Athenaeus; nisi forte προσφέρω scribendum.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0402-ponera-5">
+              <head>V.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-ponera-5-l1">Ἐναλείφεται τὰς ῥῖνας, ὑγιείας μέρος</l>
+                  <l n="2" xml:id="meineke-0402-ponera-5-l2">μέγιστον, ὀσμὰς ἐγκεφάλῳ χρηστὰς ποιῶν.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus II p. 46 a. disserens de usu caput unguentis delibuendi: οὐ κακῶς οὖν ῎Αλεξίς φησιν Ἐναλείφεται κτλ. Idem Athenaeus XV p. 687 d: οὐκ οἶδας ὅτι αἱ ἐν τῷ ἐγκεφάλῳ ἡμῶν αἰσθήσεις ὀδμαῖς ἡδείαις παρηγοροῦνται προσέτι τε θεραπεύονται, καθὰ καὶ ῎Αλεξίς φησιν ἐν Πονήρᾳ οὕτως Ὑγιείας μέρος κτλ.</note>
+              <note type="apparatus">Ad ὑγιείας μέρος conf. Philyllium Incert. I, 2: ὅπερ μέγιστόν ἐστιν ὑγιείας μέρος. — Vs. 2 ποιεῖ libro XV.</note>
+            </div>
+            <pb n="473" facs="urn:hathi:hvd.32044079388682:scan:479" />
+            <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0402-ponera-6">
+              <head>VI.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-ponera-6-l1">Καὶ χόνδρος ἔνδον ἐστὶ Θετταλικὸς πολύς.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus III p. 127 c: ἐν δὲ Πονήρᾳ πάλιν ὁ Ἄλεξις <quote>Καὶ χόνδρος</quote> κτλ.</note>
+              <note type="apparatus">V. Antiphanis Anteam Fragm. I, 3.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="7" ana="#compiled-citation-normalized" xml:id="meineke-0402-ponera-7">
+              <head>VII.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-ponera-7-l1">Ἀκρολίπαροι, τὸ δ᾽ ἄλλο σῶμ᾽ ὑπόξυλον.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus IX p. 385 b: ἀκρολιπάρους δέ τινας ἀνθρώπους κέκληκεν Ἄλεξις ἐν Πονήρᾳ οὕτως <quote>Ἀκρολίπαροι</quote> κτλ.</note>
+              <note type="apparatus">Fortasse scribendum ὑπόξυλοι.</note>
+            </div>
+            </div></body></text></TEI>

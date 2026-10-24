@@ -30,6 +30,10 @@ ET.register_namespace("ti", CTS)
 VERSION = "meineke1839-grc1"
 LABEL = "Greek (Meineke, 1839; OCR draft)"
 SOURCE = Path("sources/volumes/meineke/meineke.fragmenta-comicorum-graecorum.vol2.xml")
+VOLUME_NUMBER = "2"
+PUBLICATION_YEAR = "1839"
+REVISION_DATE = "2026-10-20"
+REPORT = Path("sources/volumes/meineke/meineke-fcg2-install-report.json")
 
 
 def indent(tree: ET.ElementTree) -> None:
@@ -159,6 +163,11 @@ AUTHOR_ALIASES = {
     norm("Σαννυρίων"): "tlg0501",
     # canon-keys.txt: AUTOCRATES, Comic., 5/4 B.C.
     norm("AUTOCRATES"): "tlg0423",
+    # canon-keys.txt: Dromo, Comic., 4 B.C.; Theophilus, Comic., 4 B.C.
+    norm("DROMO"): "tlg0448",
+    norm("CALLICRATES"): "tlg1783",
+    norm("THEOPHILUS"): "tlg0512",
+    norm("ΘΕΟΦΙΛΟΣ"): "tlg0512",
 }
 
 
@@ -186,9 +195,11 @@ def author_identity(author: ET.Element, groups: dict[str, dict]) -> str | None:
     return None
 
 
-def ensure_canonical_autocrates(groups: dict[str, dict]) -> None:
-    """Add comic Autocrates from the authoritative TLG canon when Kock lacks him."""
+def ensure_canonical_authors(groups: dict[str, dict]) -> None:
+    """Add canonical comic authors absent from the existing Kock catalogue."""
     groups.setdefault("tlg0423", {"name": "Autocrates", "works": {}})
+    groups.setdefault("tlg0448", {"name": "Dromo", "works": {}})
+    groups.setdefault("tlg1783", {"name": "Callicrates", "works": {}})
 
 
 def work_identity(title: str, group: dict, used_new: dict[str, str]) -> tuple[str, str]:
@@ -251,7 +262,7 @@ def work_identity(title: str, group: dict, used_new: dict[str, str]) -> tuple[st
 def collect(source: Path, data_dir: Path) -> tuple[dict, list[dict]]:
     root = ET.parse(source).getroot()
     groups = kock_catalog(data_dir)
-    ensure_canonical_autocrates(groups)
+    ensure_canonical_authors(groups)
     compiled: dict[tuple[str, str], dict] = {}
     omitted = []
     new_ids: dict[str, dict[str, str]] = {}
@@ -326,7 +337,7 @@ def work_tree(source_root: ET.Element, record: dict, source_path: Path) -> ET.El
     revision = header.find("tei:revisionDesc", NS)
     if revision is None:
         revision = ET.SubElement(header, q("revisionDesc"))
-    ET.SubElement(revision, q("change"), {"when": "2026-10-20"}).text = (
+    ET.SubElement(revision, q("change"), {"when": REVISION_DATE}).text = (
         "Compiled from the reviewed volume-level Meineke transcription; repeated "
         "page-derived containers were consolidated without changing fragment wording.")
     root.append(header)
@@ -339,6 +350,7 @@ def work_tree(source_root: ET.Element, record: dict, source_path: Path) -> ET.El
     ET.SubElement(edition, q("head")).text = record["title"]
     seen_ids = set()
     seen_numbers: dict[str, int] = {}
+    seen_citations: dict[str, int] = {}
     fragment_numbers = []
     printed_numbers = []
     last_page = None
@@ -354,9 +366,11 @@ def work_tree(source_root: ET.Element, record: dict, source_path: Path) -> ET.El
         printed_number = node.get("n") or "unnumbered"
         printed_numbers.append(printed_number)
         seen_numbers[printed_number] = seen_numbers.get(printed_number, 0) + 1
-        number = citation_number(printed_number)
-        if seen_numbers[printed_number] > 1:
-            number = f"{number}_{seen_numbers[printed_number]}"
+        citation = citation_number(printed_number)
+        seen_citations[citation] = seen_citations.get(citation, 0) + 1
+        number = citation
+        if seen_citations[citation] > 1:
+            number = f"{citation}_{seen_citations[citation]}"
             tokens = node.get("ana", "").split()
             if "#compiled-duplicate-number" not in tokens:
                 tokens.append("#compiled-duplicate-number")
@@ -412,7 +426,8 @@ def update_work_metadata(path: Path, textgroup: str, work: str, title: str) -> N
     ET.SubElement(edition, cq("label"), {xq("lang"): "eng"}).text = f"{LABEL}: {title}"
     ET.SubElement(edition, cq("description"), {xq("lang"): "eng"}).text = (
         "Fragments edited by August Meineke in Fragmenta Comicorum Graecorum, "
-        "volume 2 (Berlin, 1839). OCR-derived diplomatic transcription requiring review.")
+        f"volume {VOLUME_NUMBER} (Berlin, {PUBLICATION_YEAR}). "
+        "OCR-derived diplomatic transcription requiring review.")
     indent(tree)
     tree.write(path, encoding="utf-8", xml_declaration=True)
 
@@ -455,10 +470,10 @@ def install(root_dir: Path, dry_run: bool = False) -> dict:
         destination = destination_dir / f"{textgroup}.{work}.{VERSION}.xml"
         if not dry_run:
             destination_dir.mkdir(parents=True, exist_ok=True)
-            if textgroup == "tlg0423" and not (data_dir / textgroup / "__cts__.xml").exists():
+            if not (data_dir / textgroup / "__cts__.xml").exists():
                 group = ET.Element(cq("textgroup"), {
                     "urn": f"urn:cts:greekLit:{textgroup}", "projid": f"greekLit:{textgroup}"})
-                ET.SubElement(group, cq("groupname"), {xq("lang"): "eng"}).text = "Autocrates"
+                ET.SubElement(group, cq("groupname"), {xq("lang"): "eng"}).text = record["author"]
                 group_tree = ET.ElementTree(group)
                 indent(group_tree)
                 group_tree.write(data_dir / textgroup / "__cts__.xml", encoding="utf-8", xml_declaration=True)
@@ -482,7 +497,7 @@ def install(root_dir: Path, dry_run: bool = False) -> dict:
         "outputs": report_rows,
     }
     if not dry_run:
-        report_path = root_dir / "sources/volumes/meineke/meineke-fcg2-install-report.json"
+        report_path = root_dir / REPORT
         report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return report
 

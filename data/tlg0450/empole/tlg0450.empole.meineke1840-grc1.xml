@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Ephippus, ΕΜΠΟΛΗ: fragments</title><author>Ephippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0450.empole.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0450.empole.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0450.empole.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_empole"><head>ΕΜΠΟΛΗ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0450-empole-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0450-empole-1-l1">Ἔπειτά γ᾽ εἰσιόντ᾽, ἐὰν λυπούμενος</l>
+                  <l n="2" xml:id="meineke-0450-empole-1-l2">τύχῃ τις ἡμῶν, ἐκολάκευσεν ἡδέως,</l>
+                  <l n="3" xml:id="meineke-0450-empole-1-l3">ἐφίλησεν, οὐχὶ συμπιέσασα τὸ στόμα,</l>
+                  <l n="4" xml:id="meineke-0450-empole-1-l4">ὥσπερ πολέμιον, ἀλλὰ τοῖσι στρουθίοις</l>
+                  <l n="5" xml:id="meineke-0450-empole-1-l5">χαυνοῦσ᾽ ὁμοίως ἦσε, παρεμυθήσατο,</l>
+                  <l n="6" xml:id="meineke-0450-empole-1-l6">ἐποίησέ θ᾽ ἱλαρὸν εὐθέως τ᾽ ἀφεῖλε πᾶν</l>
+                  <l n="7" xml:id="meineke-0450-empole-1-l7">αὐτοῦ τὸ λυποῦν κἀπέδειξεν ἵλεων.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus VIII p. 363 c: ὅτι δὲ τὸν αὐτὸν ἵλεων καὶ ἱλαρὸν ἔλεγον δηλοῖ Ἔφιππος ἐν τῷ ἐπιγραφομένῳ δράματι</note>
+              <pb n="327" facs="urn:hathi:hvd.32044079388682:scan:335" />
+              <note type="source">
+                <quote>Ἐμπολή· περὶ ἑταίρας δέ τινος λέγει. Ἔπειτα κτλ.</quote> Idem XIII p. 571 e: <quote>περὶ δὲ τῶν ἑταιρῶν Ἔφιππος ἐν Ἐμπολῇ τάδε φησίν Ἔπειτα κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 2 et 3 ἡδέως, ἐφίλησεν. Ita 363, altero loco ἢ κατεφίλησεν. Praeterea malim ἐκολάκευσεν ἡδέως ἐφίλησέ τ᾽. — Vs. 4 πολέμιον. 363 πολέμιος. Ita etiam Eustathius p. 1411 8. Fuit, ni fallit memoria, qui coniiceret ὥσπερ πελειάς. Si sana est librorum lectio, de quo etiam Iacobsius Anim. ad Athen. p. 305 dubitabat, πολέμιον fortasse cum στόμα coniungendum est. — Vs. 5 pro χαυνοῦσα requiro verbum quod contrarium sit eius quod supra dixerat, συμπιέσασα τὸ στόμα. Suspicor χναύουσα, osculatur intrantes non quasi hostile os comprimens, sed passerum instar morsiunculis vellicans. Hesychius, Χναύων: περικνίζων, περιτίλλων. — Vs. 5 correxit Turnebus: libri ἧς ἐπαρεμυθήσατο. — Vs. 7 λυποῦν 363. altero loco λοιπόν.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0450-empole-1_2">
+              <head>I.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0450-empole-1_2-l1">Tum vero intrantem si quem moestitudine</l>
+                <l n="2" xml:id="meineke-0450-empole-1_2-l2">tentatum cernat, eum demulcet molliter,</l>
+                <l n="3" xml:id="meineke-0450-empole-1_2-l3">et osculatur, non os rigidum comprimens</l>
+                <l n="4" xml:id="meineke-0450-empole-1_2-l4">hostilem in morem, sed hians et passerculos</l>
+                <l n="5" xml:id="meineke-0450-empole-1_2-l5">imitata, cantat, invenit solatia,</l>
+                <l n="6" xml:id="meineke-0450-empole-1_2-l6">atque his remediis tristitatis nubilum</l>
+                <l n="7" xml:id="meineke-0450-empole-1_2-l7">dispellens hilarem desubito ac placidum facit.</l>
+              </lg>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0450-empole-2">
+              <head>II.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0450-empole-2-l1">Plane, adolescens, convenit</l>
+                <l n="2" xml:id="meineke-0450-empole-2-l2">vel tibiarum cantus vel testudinis</l>
+                <l n="3" xml:id="meineke-0450-empole-2-l3">cum nostris istis ludicris: utrumque enim</l>
+                <l n="4" xml:id="meineke-0450-empole-2-l4">eorum qui adsunt ingenio si consonet,</l>
+                <l n="5" xml:id="meineke-0450-empole-2-l5">ea demum magnam res voluptatem parit.</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0450-empole-2_2">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0450-empole-2_2-l1">Κοινωνεῖ γάρ, ὦ μειράκιον, ἡ</l>
+                  <l n="2" xml:id="meineke-0450-empole-2_2-l2">ἐν τοῖσιν αὐλοῖς μουσικὴ κὰν τῇ λύρᾳ</l>
+                  <l n="3" xml:id="meineke-0450-empole-2_2-l3">τοῖς ἡμετέροισι παιγνίοις· ὅταν γὰρ εὖ</l>
+                  <l n="4" xml:id="meineke-0450-empole-2_2-l4">συναρμόσῃ τις τοῖς συνοῦσι τὸν τρόπον,</l>
+                  <l n="5" xml:id="meineke-0450-empole-2_2-l5">τόθ᾽ ἡ μεγίστη τέρψις ἐξευρίσκεται.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XIV p. 617 f: <quote>περὶ δὲ τῆς αὐλῶν πρὸς λύραν κοινωνίας — Ἔφιππος ἐν Ἐμπολῇ λέγει Κοινωνεῖ κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 et 2 ἡ ἐν Dindorfius pro ἤ, praeeunte Casaubono, qui primum versum terminabat voce μειράκιον, et altero scribebat ἣν τοῖσιν αὐλοῖς. Dobraeus Adv. II p. 347 dubitanter μειρακίδιον | ἣν τοῖσιν αὐλοῖς.</note>
+            </div>
+          </div></body></text></TEI>

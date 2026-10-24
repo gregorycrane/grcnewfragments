@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antidotus, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title><author>Antidotus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0409.adelon_dramaton.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0409.adelon_dramaton.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0409.adelon_dramaton.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0409_adelon_dramaton"><head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0409-adelon_dramaton-1">
+              <lg>
+                <l n="1" xml:id="meineke-0409-adelon_dramaton-1-l1">Θάσιον ἔγχει * * *</l>
+                <l n="2" xml:id="meineke-0409-adelon_dramaton-1-l2">ὃ γὰρ ἂν λαβόν μου καταφάγῃ τὴν καρδίαν,</l>
+                <l n="3" xml:id="meineke-0409-adelon_dramaton-1-l3">ὅταν πίω τοῦτ᾽, εὐθὺς ὑγιὴς γίγνεται.</l>
+                <l n="4" xml:id="meineke-0409-adelon_dramaton-1-l4">Ἀσκληπιὸς κατέβρεξεν.</l>
+              </lg>
+              <note type="source">Athenaeus I p. 28 e: Χίου δὲ οἴνου καὶ Θασίου μέμνηται Ἐπίλυκος „Χῖος καὶ Θάσιος ἠθημένος.” καὶ Ἀντίδοτος δέ <quote>Θάσιον ἔγχει κτλ.</quote>
+              </note>
+              <note type="apparatus">Vulgo καὶ ἀντίδοτον δὲ Θάσιον κτλ. Verissime Kiddius ad Porsoni Misc. p. 390. „Lege καὶ Ἀντίδοτος δέ, sc. φησί. Antidoti comici nomen leviter corruptum latere apud Athenaeum aiebat Porsonus, si recte memini; forsan hunc ipsum locum volebat.” Vs. 2 ὃ γὰρ C. ὁ γὰρ Corselianus. Tum ἂν λαβὸν Iacobsius. Vulgo λαβὼν sine ἄν. Dobraeus Adv. II p. 295 tentabat: ἔγχει λαβὼν | Θάσιον· ὃ γὰρ ἄν μου καταφάγῃ etc. Nisi is describentis error est. — Vs. 3 ὑγιὴς γίγνεται, sc. καρδία. Ita C. γίνομαι Corselianus.</note>
+            </div>
+          </div></body></text></TEI>

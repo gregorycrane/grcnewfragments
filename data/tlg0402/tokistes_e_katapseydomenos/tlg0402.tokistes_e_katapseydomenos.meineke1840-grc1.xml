@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΤΟΚΙΣΤΗΣ Η ΚΑΤΑΨΕΥΔΟΜΕΝΟΣ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.tokistes_e_katapseydomenos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.tokistes_e_katapseydomenos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.tokistes_e_katapseydomenos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_tokistes_e_katapseydomenos"><head>ΤΟΚΙΣΤΗΣ Η ΚΑΤΑΨΕΥΔΟΜΕΝΟΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0402-tokistes_e_katapseydomenos-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-tokistes_e_katapseydomenos-1-l1">Μὴ παντελῶς αὐτῷ δίδου</l>
+                  <l n="2" xml:id="meineke-0402-tokistes_e_katapseydomenos-1-l2">ὑδαρῆ. κατανοεῖς; ἴσον ἴσῳ μικροῦ. καλῶς.</l>
+                  <l n="3" xml:id="meineke-0402-tokistes_e_katapseydomenos-1-l3">
+                    <sp>
+                      <speaker>Β.</speaker> ἡδύ γε τὸ πῶμα. ποδαπὸς ὁ Βρόμιος, Τρύφη;</sp>
+                  </l>
+                  <l n="4" xml:id="meineke-0402-tokistes_e_katapseydomenos-1-l4">
+                    <sp>
+                      <speaker>ΤΡ.</speaker> Θάσιος.</sp>
+                    <sp>
+                      <speaker>Β.</speaker> ὅμοιον. καὶ δίκαιον τοὺς ξένους</sp>
+                  </l>
+                  <l n="5" xml:id="meineke-0402-tokistes_e_katapseydomenos-1-l5">πίνειν ξενικόν, τοὺς δ᾽ ἐγγενεῖς ἐπιχώριον.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus X p. 431 a: <quote>Ἄλεξις Τοκιστῇ ἢ Καταψευδομένῳ <title>Μὴ παντελῶς</title> κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 2 ὑδαρῆ Bas. L. ὑδαρῆν V. ὑδαρην A. ὑδαρὴν BP. — Vs. 3 libri ποταπός. P ποταμός. Dindorfius ποδαπός. V. ad Pannych. II 3. Τρύφη pro τρυφῇ</note>
+              <pb n="489" facs="urn:hathi:hvd.32044079388682:scan:495" />
+              <note type="apparatus">correxi iam olim ad Menandr. p. 154. — Vs. 4 vulgo coniunctim ὅμοιον καὶ δίκαιον etc. Recte distinxit Dobraeus Adv. II p. 326 allato Aeschylo Agam. 1375: σὺ δ᾽ αἰνεῖν εἴτε με ψέγειν θέλεις, ὅμοιον. Nos gleichviel, einerlei.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-tokistes_e_katapseydomenos-2">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-tokistes_e_katapseydomenos-2-l1">Εὐδαίμων ἐγώ, μὰ τὸν Δία</l>
+                  <l n="2" xml:id="meineke-0402-tokistes_e_katapseydomenos-2-l2">τὸν Ὀλύμπιον καὶ τὴν Ἀθηνᾶν, οὐχ ὅτι</l>
+                  <l n="3" xml:id="meineke-0402-tokistes_e_katapseydomenos-2-l3">ἐν τοῖς γάμοισιν, ἄνδρες, εὐωχήσομαι,</l>
+                  <l n="4" xml:id="meineke-0402-tokistes_e_katapseydomenos-2-l4">ἀλλ᾽ ὅτι διαρραγήσομ᾽, ἂν θεὸς θέλῃ.</l>
+                  <l n="5" xml:id="meineke-0402-tokistes_e_katapseydomenos-2-l5">τούτου δέ μοι γένοιτο τοῦ θανάτου τυχεῖν.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus VI p. 258 e: <quote>῎Αλεξις δ᾽ ἐν Καταψευδομένῳ λέγοντά τινα κόλακα τοιαῦτα παρεισάγων φησίν Εὐδαίμων ἐγώ κτλ.</quote>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0402-tokistes_e_katapseydomenos-3">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-tokistes_e_katapseydomenos-3-l1">Ἀλλ᾽ ἔγχεον</l>
+                  <l n="2" xml:id="meineke-0402-tokistes_e_katapseydomenos-3-l2">αὐτῷ Διός γε τήνδε σωτῆρος, θεῶν</l>
+                  <l n="3" xml:id="meineke-0402-tokistes_e_katapseydomenos-3-l3">θνητοῖς ἁπάντων χρησιμωτάτου πολύ.</l>
+                  <l n="4" xml:id="meineke-0402-tokistes_e_katapseydomenos-3-l4">
+                    <sp>
+                      <speaker>Β.</speaker> ὁ Ζεὺς ὁ σωτήρ, ἂν ἐγὼ διαρραγῶ,</sp>
+                  </l>
+                  <l n="5" xml:id="meineke-0402-tokistes_e_katapseydomenos-3-l5">οὐδὲν μ᾽ ὀνήσει. <sp>
+                      <speaker>Α.</speaker> πῖθι θαρρῶν.</sp>
+                  </l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XV p. 692 f. de πώματι Διὸς σωτῆρος dicens: <quote>῎Αλεξις δ᾽ ἐν Τοκιστῇ ἢ Καταψευδομένῳ Ἀλλ᾽ ἔγχεον κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 3 libri χρησιμώτατον. Scripsi χρησιμωτάτου. Casaubonus χρησιμώτατος, id ut coniungatur cum verbis ὁ Ζεὺς ὁ σωτήρ. — Vs. 5 vulgo οὐδὲν μόνης εἰ. Correxit Piersonus ad Moerin p. 72. Ibidem πῖθι pro πείθει Canterus N. L. IX 1.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0402-tokistes_e_katapseydomenos-4">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-tokistes_e_katapseydomenos-4-l1">Πάντως ἀναρίστητος οὐ δυνήσομαι</l>
+                  <l n="2" xml:id="meineke-0402-tokistes_e_katapseydomenos-4-l2">διακαρτερῆσαι τηλικαύτην ἡμέραν.</l>
+                </lg>
+              </quote>
+              <note type="source">Suidas vol. I p. 179. <quote>Ἀνάριστος: μᾶλλον δὲ ἀναρίστητος. Ἀριστοφάνης Πολυΐδῳ Διὰ τῆς ἀγορᾶς τρέχων, ἀναρίστητος ὤν. ῎Αλεξις Καταψευδομένῳ Πάντως κτλ.</quote>
+              </note>
+            </div>
+          </div></body></text></TEI>

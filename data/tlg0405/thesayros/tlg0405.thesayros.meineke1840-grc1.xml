@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Anaxandrides, ΘΗΣΑΥΡΟΣ: fragments</title><author>Anaxandrides</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0405.thesayros.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0405.thesayros.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0405.thesayros.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0405_thesayros"><head>ΘΗΣΑΥΡΟΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0405-thesayros-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0405-thesayros-1-l1">Ὁ τὸ σκόλιον εὑρὼν ἐκεῖνος, ὅστις ἦν,</l>
+                  <l n="2" xml:id="meineke-0405-thesayros-1-l2">τὸ μὲν ὑγιαίνειν πρῶτον ὡς ἄριστον ἦν,</l>
+                  <l n="3" xml:id="meineke-0405-thesayros-1-l3">ὠνόμασεν ὀρθῶς, δεύτερον δ’ εἶναι καλόν·</l>
+                  <l n="4" xml:id="meineke-0405-thesayros-1-l4">τρίτον δὲ πλουτεῖν, τοῦθ’, ὁρᾷς, ἐμαίνετο·</l>
+                  <l n="5" xml:id="meineke-0405-thesayros-1-l5">μετὰ τὴν ὑγίειαν γὰρ τὸ πλουτεῖν διαφέρει·</l>
+                  <l n="6" xml:id="meineke-0405-thesayros-1-l6">καλὸς δὲ πεινῶν ἐστιν αἰσχρὸν θηρίον.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XV p. 694 e: <quote>ᾀσθέντος τούτου καὶ πάντων ἡσθέντων ἐπ’ αὐτῷ καὶ μνημονευσάντων, ὅτι καὶ ὁ καλὸς Πλάτων αὐτοῦ μέμνηται ὡς ἄριστα εἰρημένου, ὁ Μυρτίλος ἔφη Ἀναξανδρίδην αὐτὸ διακεχλευακέναι τὸν κωμῳδιοποιὸν ἐν Θησαυρῷ λέγοντα οὕτως Ὁ τὸ σκόλιον κτλ.</quote>
+              </note>
+              <note type="apparatus">Scolion dicit illud nobilissimum Simonidis, de quo vide Schneidewinus ad Simon. p. 55. Ad idem carmen respicit incertus poeta apud Aristot. Rhet. II 21: <quote>ἀνδρὶ δ’ ὑγιαίνειν ἄριστόν ἐστιν, ὥς γ’ ἡμῖν δοκεῖ.</quote>
+                <ref target="#note-1">*)</ref> Cfr Philemonis Inc. LXVIII p. 419:
+  <note id="note-1" type="footnote">*) In his parum aptus est pluralis ἡμῖν, pro quo in tali loco nemo non singularem requireret. Iam attende ad haec scholiastae ad Platonis Gorg. p. 451 e: <quote>τὸ σκόλιον τοῦτο οἱ μὲν Σιμωνίδου φασίν, οἱ δὲ Ἐπιχάρμου.</quote> Nonne igitur pro ἡμῖν legendum ἐμίν, et ipse ille versus:
+  <quote>
+                    <lg>
+                      <l n="7" xml:id="meineke-0405-thesayros-1-l7">ἀνδρὶ δ’ ὑγιαίνειν ἄριστόν ἐστιν, ὡς γ’ ἐμὶν δοκεῖ,</l>
+                    </lg>
+                  </quote>
+  Epicharmo tribuendus est? Quod enim scholiasta atque ipse adeo Anaxandrides de auctore illius scolii dubitatum esse dicunt, non ad ipsum carmen, sed ad sententiam carmini subiectam referendum est, quam similiter expresserat etiam Italus poeta Sclerias; unde factum est ut is quoque in auctoribus Simonidei carminis nominaretur. V. Stobaeum</note>
+              </note>
+              <pb n="170" facs="urn:hathi:hvd.32044079388682:scan:180" />
+              <quote>
+                <lg>
+                  <l n="8" xml:id="meineke-0405-thesayros-1-l8">αἰτῶ δ’ ὑγίειαν πρῶτον, εἶτ’ εὐπραξίαν, τρίτον δὲ χαίρειν,</l>
+                  <l n="9" xml:id="meineke-0405-thesayros-1-l9">εἶτ’ ὀφείλειν μηδενί.</l>
+                </lg>
+              </quote>
+              <note type="apparatus">Vs. 5 ὑγίειαν. Ita B. ὑγιείαν Cant. L. ὑγείαν C.</note>
+              <note type="footnote">Flor. CIII 9. His scriptis afferuntur mihi Crameri viri de litteris nostris meritissimi Anecdota Parisiensia, in quorum vol. I p. 290 hoc edidit ad Aristotelis rhetoricam scholion: τὸ „ἀνδρὶ δ’ ὑγιαίνειν ἄριστον“ Σιμωνίδου ἐστὶν ἀπὸ τῶν σκολιῶν αὐτοῦ ἐπῶν. οἳ δ’ Ἐπιχάρμου.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0405-thesayros-2">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0405-thesayros-2-l1">Ἀναλαβὼν μόναυλον ηὔλουν τὸν ὑμέναιον.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus IV p. 176 a. de μοναύλῳ disserens: <quote>Ἀναξανδρίδης δ’ ἐν Θησαυρῷ Ἀναλαβὼν κτλ.</quote>
+              </note>
+              <note type="apparatus">Pro μόναυλον B μένανδρον. Apertum est versuum reliquias etiam ad iambicos numeros revocari posse.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΔΙΠΛΑΣΙΟΙ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.diplasioi.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.diplasioi.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.diplasioi.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_diplasioi"><head>ΔΙΠΛΑΣΙΟΙ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0410-diplasioi-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0410-diplasioi-1-l1">
+                    <sp>
+                      <speaker>Α.</speaker> Τί οὖν ἐνέσται τοῖς θεοῖσιν;</sp>
+                    <sp>
+                      <speaker>Β.</speaker> οὐδὲ ἕν,</sp>
+                  </l>
+                  <l n="2" xml:id="meineke-0410-diplasioi-1-l2">ἂν μὴ κεράσῃ τις. <sp>
+                      <speaker>Α.</speaker> ἴσχε, τὸν ᾠδὸν λάμβανε.</sp>
+                  </l>
+                  <l n="3" xml:id="meineke-0410-diplasioi-1-l3">ἔπειτα μηδὲν τῶν ἀπηρχαιωμένων</l>
+                  <l n="4" xml:id="meineke-0410-diplasioi-1-l4">τούτων περάνῃς, τὸν Τελαμῶνα, μηδὲ τὸν</l>
+                  <l n="5" xml:id="meineke-0410-diplasioi-1-l5">παιῶνα, μηδ᾽ Ἁρμόδιον.</l>
+                </lg>
+              </quote>
+              <pb n="47" facs="urn:hathi:hvd.32044079388682:scan:57" />
+              <note type="source">Athenaeus XI p. 503 c: οὕτως (ᾠδὸς) ἐκαλεῖτο τὸ ποτήριον, φησὶ Τρύφων ἐν τοῖς Ὀνοματικοῖς, τὸ ἐπὶ τῷ σκολίῳ διδόμενον, ὡς Ἀντιφάνης παρίστησιν ἐν Διπλασίοις <quote>Τί οὖν ἐνέσται κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 2 ante Dindorfium ἐάν. — Vs. 4 „τὸν τελαμῶνα ΑΒΡ. τὸν τετελαμῶνα V, quod in τόν τε Τελαμῶνα mutarunt Basil. L." Dindorfius. De Telamone cantilena v. Athen. I p. 23 e. et X p. 503 e. — Vs. 5 παιῶνα. Ne quis παιᾶνα requirat, vix usi sunt hac forma poetae comici. V. Elmsleius ad Aristoph. Ach. 1211. Ac fortasse etiam supra Ἀγροίκου fragm. V. scribendum παιών. Certe vana videtur harum formarum distinctio quam tradit scholiasta Platonis Bekk. p. 373: τοὺς λεγομένους παιᾶνας ὕμνους εἰς Ἀπόλλωνα — ἢ παιῶνας, ὡς νῦν, ᾠδὰς ἐπὶ εὐτυχίᾳ καὶ νίκῃ, διὰ τοῦ ω, ἐξ οὗ καὶ παιωνίζειν. Utramque formam eadem de re agnoscit schol. Aristidis p. 50 ed. Fromm. et Hesychius v. παίων. Si quid interest, παιὰν antiquius fuisse dicas.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0410-diplasioi-2">
+              <lg>
+                <l n="1" xml:id="meineke-0410-diplasioi-2-l1">Οὐδεὶς πώποτε,</l>
+                <l n="2" xml:id="meineke-0410-diplasioi-2-l2">ὦ δέσποτ᾽, ἀπέθαν᾽ ἀποθανεῖν πρόθυμος ὤν,</l>
+                <l n="3" xml:id="meineke-0410-diplasioi-2-l3">τοὺς γλιχομένους δὲ ζῆν κατασπᾷ τοῦ σκέλους</l>
+                <l n="4" xml:id="meineke-0410-diplasioi-2-l4">ἄκοντας ὁ Χάρων εἰς τὸ πορθμεῖόν τ᾽ ἄγει</l>
+                <l n="5" xml:id="meineke-0410-diplasioi-2-l5">σιτιζομένους καὶ πάντ᾽ ἔχοντας ἀφθόνως.</l>
+                <l n="6" xml:id="meineke-0410-diplasioi-2-l6">ὁ δὲ λιμός ἐστιν ἀθανασίας φάρμακον.</l>
+              </lg>
+              <note type="source">Stobaeus Floril. CXXI 4 cum lemmate Ἀντιφάνους ἐκ Διπλασίων.</note>
+              <note type="apparatus">Vs. 1 editur οὐθείς, quales formae vix ferendae in Antiphane ceterisque huius aetatis scriptoribus. — Vs. 4 libri ἐπὶ τόπον θεῖον τ᾽ ἄγει, in quo non offendebat Hemsterhusius ad Lucian. I p. 421. Verissime correxit Valckenarius Diatr. p. 280. — Vs. 6 λιμός ΑB et Arsenius. Vulgo λοιμός. Novam sententiam esse putat Grotius.</note>
+            </div>
+          </div></body></text></TEI>

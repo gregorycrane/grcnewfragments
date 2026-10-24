@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΓΑΝΥΜΗΔΗΣ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.ganymedes.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.ganymedes.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.ganymedes.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_ganymedes"><head>ΓΑΝΥΜΗΔΗΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0410-ganymedes-1">
+              <lg>
+                <l n="1" xml:id="meineke-0410-ganymedes-1-l1">Ὁρᾷς, ἐν τῇδε μὲν</l>
+                <l n="2" xml:id="meineke-0410-ganymedes-1-l2">ὁ τῶν Φρυγῶν τύραννος οἰκῶν τυγχάνει,</l>
+                <l n="3" xml:id="meineke-0410-ganymedes-1-l3">γέρων ἀπ᾿ ὀργῆς, Λαομέδων καλούμενος.</l>
+              </lg>
+              <note type="source">
+                <bibl corresp="urn:cts:greekLit:tlg5026.tlg001:822">Scholiasta Euripidis Troad. 822:</bibl>
+                <quote>Τὸν Γανυμήδην καθ᾽ Ὅμηρον Τρωὸς ὄντα παῖδα Λαομέδοντος νῦν εἶπεν, ἀκολουθήσας τῷ τὴν μικρὰν Ἰλιάδα πεποιηκότι. — καὶ Ἀριστοφάνης (sic) Λαομέδοντος παῖδα τὸν Γανυμήδην φησὶ διὰ τὴν τῶν οἰκείων ὁρᾷς ἐν τῇδε μενόντων κτλ.</quote>
+              </note>
+              <note type="apparatus">Ad Antiphanis Ganymedem haec recte revocavit Hermannus Opusc. V p. 186. Post οἰκείων in codice dimidii versus lacuna est. Priora ibidem sic scripta sunt: <quote>ὁρᾷς ἐν τῇδε μενόντων φρυγῶν τύραννος ὤκων τυγχάνει.</quote> Ea olim Quaest. sc. III p. 34 sic correxi ut supra adscripsi. Eodem modo postea Hermannus l. l. qui cetera ita refingere conatus est: <quote>καὶ Ἀντιφάνης Λαομέδοντος παῖδα τὸν Γανυμήδην φησὶ διὰ τὴν τῶν οἰκιῶν κοινωνίαν· <lg>
+                    <l n="4" xml:id="meineke-0410-ganymedes-1-l4">στέγας δὲ Γανυμήδους ὁρᾷς, ἐν τῇδε μὲν —</l>
+                  </lg>
+                </quote> Fritzschius autem, indicante Hermanno, hunc in modum: <quote>τὸν Γανυμήδην φησὶ διὰ τούτων· <lg>
+                    <l n="5" xml:id="meineke-0410-ganymedes-1-l5">τὴν οἰκίαν</l>
+                    <l n="6" xml:id="meineke-0410-ganymedes-1-l6">τὴν τοῦ Γανυμήδους οὐχ ὁρᾷς; ἐν τῇδε μὲν —</l>
+                  </lg>
+                </quote> Ex neutra ratione apparet id quod scholiasta demonstrare vult, Laomedontis filium perhiberi Ganymedem ab Antiphane. Neque enim id ex sola tectorum communione colle-</note>
+              <pb n="41" facs="urn:hathi:hvd.32044079388682:scan:51" />
+              <note type="apparatus">gisse videtur. Suspicor igitur quod de Ganymede dicendum erat in fine fragmenti excidisse, ut ita procedat narratio: in hac quidem domo habitat Laomedon, in illa autem filius eius Ganymedes. Cetera Fritzschii coniectura adiutus ita scripserim: τὸν Γανυμήδην φησὶ διὰ τούτων·</note>
+              <quote>
+                <lg>
+                  <l n="7" xml:id="meineke-0410-ganymedes-1-l7">Τῶν οἰκιῶν τούτων, ὁρᾶς, ἐν τῇδε μὲν —</l>
+                </lg>
+              </quote>
+              <note type="apparatus">Tertio versu L. Dindorfius pro ἀπ’ ὀργῆς scribebat ἀποργής, Seidlerus apud Hermannum ἀπ’ ἀρχῆς. Hoc quidem nimium mihi languere videtur; ἀποργὴς autem, quod Hermannus interpretatur irascendo confectus, abgeaergert, nec ipsum satis aptum est. Ipse ἀμοργῆς scribendum suspicabar, quo vetus et vietus senex haud inepte mihi significari posse videbatur. De voce ἀμόργη, qua languidus et insipidus olivarum humor denotatur, dixi ad Cratinum p. 76. Nisi forte περιοργής scribendum, qualem se praestat Laomedon fragmento sequenti. Ceterum videntur praesentes in scena agere Mercurius et alius quidam, cui Ganymedis rapinam Iuppiter mandaverat. Huic viam monstrabat Mercurius.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="2" starts_on_page="true" author_heading="ANTIPHANIS" work_heading="ΓΑΝΥΜΗΔΗΣ" ana="#compiled-citation-normalized" xml:id="meineke-0410-ganymedes-2">
+              <lg>
+                <l n="1" xml:id="meineke-0410-ganymedes-2-l1">Οἴμοι περιπλοκὰς</l>
+                <l n="2" xml:id="meineke-0410-ganymedes-2-l2">λίαν ἐρωτᾷς. Β. ἀλλ’ ἐγὼ σαφῶς φράσω.</l>
+                <l n="3" xml:id="meineke-0410-ganymedes-2-l3">τῆς ἁρπαγῆς τοῦ παιδὸς εἰ ξύνοισθά τι,</l>
+                <l n="4" xml:id="meineke-0410-ganymedes-2-l4">ταχέως λέγειν χρὴ πρὶν κρέμασθαι. Α. πότερά μοι</l>
+                <l n="5" xml:id="meineke-0410-ganymedes-2-l5">γρῖφον προβάλλεις τοῦτον εἰπεῖν, δέσποτα,</l>
+                <l n="6" xml:id="meineke-0410-ganymedes-2-l6">τῆς ἁρπαγῆς τοῦ παιδὸς εἰ ξύνοιδά τι,</l>
+                <l n="7" xml:id="meineke-0410-ganymedes-2-l7">ἢ τί δύναται τὸ ῥηθέν; Β. ἔξω τις δότω</l>
+                <l n="8" xml:id="meineke-0410-ganymedes-2-l8">ἱμάντα ταχέως. Α. οἷον οὐκ ἔγνων ἴσως.</l>
+                <l n="9" xml:id="meineke-0410-ganymedes-2-l9">ἔπειτα τοῦτο ζημιοῖς με; μηδαμῶς·</l>
+                <l n="10" xml:id="meineke-0410-ganymedes-2-l10">ἅλμης δ’ ἐχρῆν τι περιφέρειν ποτήριον.</l>
+                <l n="11" xml:id="meineke-0410-ganymedes-2-l11">Β. οἶσθ’ οὖν ὅπως δεῖ τοῦτό σ’ ἐκπιεῖν; Α. ἐγὼ</l>
+                <l n="12" xml:id="meineke-0410-ganymedes-2-l12">κομιδῆ γε. Β. πῶς; Α. ἐνέχυρον ἀποφέροντά σου.</l>
+                <l n="13" xml:id="meineke-0410-ganymedes-2-l13">Β. οὐκ ἀλλ’ ὀπίσω τω χεῖρε ποιήσαντα δεῖ</l>
+                <l n="14" xml:id="meineke-0410-ganymedes-2-l14">ἕλκειν ἀπνευστί.</l>
+              </lg>
+              <pb n="42" facs="urn:hathi:hvd.32044079388682:scan:52" />
+              <note type="source">
+                <bibl>Athenaeus XI p. 459 a</bibl>: ἐπεὶ δὲ ἱκανὴν παράβασιν πεποιήµεθα περὶ τῶν γρίφων, λεκτέον ἤδη καὶ τίνα κόλασιν ὑπέμενον οἱ μὴ λύσαντες τὸν προτεθέντα γρῖφον. ἔπινον οὗτοι ἅλμην παραμισγομένην τῷ αὐτῶν ποτῷ, καὶ ἔδει προσενέγκασθαι τὸ ποτήριον ἀπνευστί, ὡς Ἀντιφάνης δηλοῖ ἐν Γανυμήδει διὰ τούτων <quote>Οἴμοι περιπλοκάς κτλ.</quote>
+              </note>
+              <note type="apparatus">Laomedon de raptu Ganymedis iratus expostulat cum paedagogo, cui filii custodiam demandaverat. Vs. 1 explere conatus est, sed improspero successu, Valckenarius ad Phoeniss. p. 181. — Vs. 4 κρέμασθαι VL. κρεμᾶσθαι AP. — Vs. 5 προβάλλεις VL. προβαλεῖς ABP. — Vs. 6 ξύνοιδα BPVL. ἔξοιδα A. — Vs. 7 ἢ a Dindorfio additum latet in lectione A ἔξοιδά τιν τί δύναται. Vulgo εἰ ξύνοιδά τι δύναται. — Vs. 8 Dindorfius ἱμᾶντα, quam τόνωσιν fortasse nunc ne ipse quidem probabit. Ibidem Koppiersius Observ. p. 35 scripsit <quote>
+                  <sp>
+                    <speaker>Α.</speaker>
+                    <p>οἷον;</p>
+                  </sp>
+                  <sp>
+                    <speaker>Β.</speaker>
+                    <p>οὐκ ἔγνως ἴσως,</p>
+                  </sp>
+                </quote> praeeunte Dalecampio, qui ita transtulit: <quote>A. quale? B. fortasse id nescis.</quote> Itaque ποῖον debebat Koppiersius. Hermannus <quote>ὃν γ᾽ ἐγὼ οὐκ ἔγνων. ἴσως.</quote> Potior videtur Dalecampii ratio, probata item Dobraeo Advers. II p. 329. — Vs. 10 Schweighaeuserus et Dindorfius παραφέρειν, praeeunte Villebrunio. Iis qui griphum non solvissent muriae poculum ebibendum fuisse tradidit etiam <bibl>Pollux VI 107</bibl>: ὁ μὲν λύσας γέρας ἔσχε κρεῶν τινα περιφοράν, ὁ δὲ ἀδυνατήσας ἅλμης ποτήριον ἐκπιεῖν. — Vs. 11 post ὅπως VL addunt γε. Ibidem τοῦτό σ᾽ pro σε τοῦτ᾽ Casaubonus. — Vs. 12 ἐνέχειρον PVL. Ibidem vulgo σοι, quod Hermanno praeeunte in σου mutavi. „Servus praecavens sibi ne loris caedatur, ita, inquit, me poculum ebibere oportet, ut id pro pignore a te auferam, quo meum sit, si tu me caedas. Minime vero, respondet senex: ne tanges quidem, sed reiectis in dorsum manibus uno spiritu trahes.“</note>
+            </div>
+            </div></body></text></TEI>

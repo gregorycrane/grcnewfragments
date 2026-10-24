@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Eubulus, ΑΜΑΛΘΕΙΑ: fragments</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.amaltheia.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.amaltheia.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.amaltheia.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_amaltheia"><head>ΑΜΑΛΘΕΙΑ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0458-amaltheia-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0458-amaltheia-1-l1">Καὶ πρός γε τούτοις ἀσκὸν εἰς μέσον * *</l>
+                  <l n="2" xml:id="meineke-0458-amaltheia-1-l2">καταθέντες εἰσάλλεσθε καὶ καχάζετε</l>
+                  <l n="3" xml:id="meineke-0458-amaltheia-1-l3">ἐπὶ τοῖς καταρρέουσιν ἀπὸ κελεύσματος.</l>
+                </lg>
+              </quote>
+              <note type="source">Scholiasta Aristoph. Plut. 1130: <quote>κυρίως δὲ ἀσκωλιάζειν ἔλεγον τὸ ἐπὶ τῶν ἀσκῶν ἅλλεσθαι ἕνεκα τοῦ γελωτοποιεῖν. ἐν μέσῳ δὲ τοῦ θεάτρου ἐτίθεντο ἀσκοὺς πεφυσημένους καὶ ἀληλιμμένους, εἰς οὓς ἐναλλόμενοι ὠλίσθανον. καθάπερ Εὔβουλος ἐν Δαμαλείᾳ φησὶν οὕτως Καὶ πρός γε τούτοις κτλ.</quote> Eadem habet Suidas s. v. ἀσκωλιάζειν (ubi fabu-</note>
+              <note type="footnote">*) V. Hist. crit. p. 360. Nomen fabulae ex Ἀμαλθείᾳ corruptum esse statuenti Hemsterhusio accedit Dindorfius.</note>
+              <pb n="217" facs="urn:hathi:hvd.32044079388682:scan:227" />
+              <note type="apparatus">lae nomen Δαμαλία scribitur) et qui fabulae nomen omittit Cod. Marc. Harpocrat. p. 37 Bekk. Vs. 1 τούτοις schol. et Suidas. τοῦτο Harpocratio. Ibidem ἀσκοὺς Suidas. In fine versus Bentleius addebat χαμαί, Dindorfius τινά. Possis etiam τάχα. — Vs. 2 εἰσάλλεσθε schol. et Harpocratio. Suidas ἐνάλλεσθε. Ibid. καχάζετε Dindorfius. Schol. et Suidas καγχάζετε, qua forma Attici non utuntur. V. Dindorfius ad Sophocl. Aiac. 199. Harpocratio κἀκχέζετε omisso καί. — Vs. 3 ἀπὸ κελεύσματος, ab Harpocratione omissum, cum καχάζετε coniungendum esse monuit Hemsterhusius.</note>
+            </div>
+          <pb n="205" facs="urn:hathi:hvd.32044079388682:scan:215" />
+            <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0458-amaltheia-1_2">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0458-amaltheia-1_2-l1">Θερμότερον ἢ κραυρότερον ἢ μέσως ἔχον,</l>
+                  <l n="2" xml:id="meineke-0458-amaltheia-1_2-l2">τοῦτ᾽ ἔσθ᾽ ἑκάστῳ μεῖζον ἢ Τροίαν ἑλεῖν.</l>
+                  <l n="3" xml:id="meineke-0458-amaltheia-1_2-l3">κἀγὼ γὰρ οὐ καυλοῖσιν οὐδὲ σιλφίῳ</l>
+                  <l n="4" xml:id="meineke-0458-amaltheia-1_2-l4">οὐδ᾽ ἱεροσύλοις καὶ πικραῖς παροψίσι</l>
+                  <l n="5" xml:id="meineke-0458-amaltheia-1_2-l5">βολβοῖς τ᾽ ἐμαυτὸν χορτάσων ἐλήλυθα.</l>
+                  <l n="6" xml:id="meineke-0458-amaltheia-1_2-l6">ἃ δ᾽ εἰς τ᾽ ἐδωδὴν πρῶτα καὶ ῥώμης ἀκμήν</l>
+                  <l n="7" xml:id="meineke-0458-amaltheia-1_2-l7">καὶ πρὸς ὑγίειαν ,πάντα ταῦτ᾽ ἐδαινύμην,</l>
+                  <l n="8" xml:id="meineke-0458-amaltheia-1_2-l8">κρέας βόειον ἑφθὸν ἀσόλοικον μέγα,</l>
+                  <l n="9" xml:id="meineke-0458-amaltheia-1_2-l9">ἀκροκώλιόν τε γεννικόν, ὀπτὰ δελφάκια</l>
+                  <l n="10" xml:id="meineke-0458-amaltheia-1_2-l10">ἁλίπαστα τρία.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus II p. 63 d : τούτων (βολβῶν) Ἡρακλῆς ἐσθίειν παραιτεῖται ἐν Ἀμαλθείᾳ Εὐβούλου λέγων <quote>Θερμότερον ἢ κραυρότερον κτλ.</quote>
+              </note>
+              <note type="apparatus">Aversatur cibos condimentorum artificio corruptos nec quidquam ad augendum corporis robur conferentes. Vs. 1 κραυρότερον, quod Schweighaeuserus de arido vel de tenero cibo interpretatur, ego de carne paullo durius assata intelligam. Photius Lex. p. 177: κραυρότερον, εὐθραυστότερον, σκληρότερον. Videtur ad hunc ipsum Eubuli locum respicere. Male Casaubonus et Ruhnkenius ad Tim. p. 168 tentant κρυερώτερον, pro quo ψυχρότερον dicendum fuisset. Sententia loci haec est: Meliusne cibus sapiat, si calidior an si durior an si mediocriter sese habens (h. e. nec nimium nec parum vel calidus vel durus) apponatur, id vero delicatuli nostri maioris momenti esse putant quam Troiam cepisse. Spectant haec ad praecepta artis culinariae multis modis a coquis comicorum iactata. Alexis Pannych. 1: θερμοτέροις χαίρεις ἀεὶ τοῖς ὀψαρίοις ἢ τὸ μέσον ἢ κατωτέρω; Sosipater apud Athen. IX p. 378 f: <lg>
+                  <l n="11" xml:id="meineke-0458-amaltheia-1_2-l11">καὶ πότε</l>
+                  <l n="12" xml:id="meineke-0458-amaltheia-1_2-l12">εὔκαιρον αὐτῶν ἐστι τῶν ὄψων τὰ μὲν</l>
+                  <l n="13" xml:id="meineke-0458-amaltheia-1_2-l13">θερμὰ παραθεῖναι, τὰ δ᾽ ἐπανέντα, τὰ δὲ μέσως,</l>
+                  <l n="14" xml:id="meineke-0458-amaltheia-1_2-l14">τὰ δ᾽ ὅλως ἀποψύξαντα.</l>
+                </lg>
+              </note>
+              <pb n="206" facs="urn:hathi:hvd.32044079388682:scan:216" />
+              <note type="apparatus">
+                <p>Apte comparari possunt etiam quae ex incerto poeta affert Plutarchus Mor. p. 461 b: <quote>
+                    <lg>
+                      <l n="15" xml:id="meineke-0458-amaltheia-1_2-l15">ὁ δ᾽ οὔτ᾽ ἄγαν ὀπτοῖσιν οὔθ᾽ ἑφθοῖς ἄγαν</l>
+                      <l n="16" xml:id="meineke-0458-amaltheia-1_2-l16">οὔθ᾽ ἧττον οὔτε μᾶλλον οὔτε διὰ μέσου</l>
+                      <l n="17" xml:id="meineke-0458-amaltheia-1_2-l17">ἠρτυμένοις χαίρων (leg. ἔχαιρεν) ὥστ᾽ ἐπαινέσαι.</l>
+                    </lg>
+                  </quote> Quae et ipsa fortasse de Hercule interpretanda sunt. — Vs. 2 ex Euripidis Androm. 369: <quote>εὖ δ᾽ ἴσθ᾽ ὅτου τις τυγχάνει χρείαν ἔχων, τοῦτ᾽ ἔσθ᾽ ἑκάστῳ μεῖζον ἢ Τροίαν ἑλεῖν</quote>. Attulit haec iam Casaubonus. Post secundum versum nescio an nonnihil omiserit Athenaeus. — Vs. 3 „καυλοὶ sunt silphii caules edules: σίλφιον laserpitium seu succus ipse silphii qui Cyrenaicus dicitur. Inde παροψίδας i. e. obsonia (Athen. IX p. 367 c. d.) quae cum silphio parantur, ἱεροσύλους sacrilega obsonia vocat, quia silphium frutex est generis ferulacei, Theophr. H. P. VI 3, Plin. H. N. XIX 3 15, et πικρὰς misera, luctuosa; quod nimiae deliciae multorum morborum sint causae.” Schweighaeuserus. Ἱερόσυλοι παροψίδες sunt deliciae detestabiles, nefandae. Similiter τοιχωρύχον λαγύνιον dixit Diphilus Adelph. et incertus poeta apud Plutarch. Praec. sanit. p. 125 Α: <quote>τὰ πανοῦργα ταῦτ᾽ ὀψάρια χἰποτρίμματα</quote>. Pro πικραῖς Dobraeus Adv. II p. 298 tentat μιαραῖς. Si sanum est vulgatum, verterim <quote>invisa obsonia</quote>; Sophocles Phil. 254 <quote>ὦ πικρὸς θεοῖς</quote>. Nisi potius cibos dicit condimentis acres et quasi acutos, quo sensu muria dicitur πικρά, et πικρὰ φάρμακα in versu proverbiali <quote>πικρὰν πικροῖς κλύζουσι φαρμάκοις χολὴν</quote> apud Plutarch. Mor. p. 923 a. — Vs. 8 κρέας ἀσόλοικον recte Toupius Emend. III p. 96 de carne nullo artis lenocinio corrupta interpretatur. — Vs. 9 γεννικὸν L. γενικὸν V. δελφάκια VL. δελφάκι᾿ BCD. Eleganter Dindorfius in Zimmermanni Diario Stud. antiqu. (1839) coniecit: <quote>ἀκροκώλιόν τε δελφάκειον γεννικόν, | ὀπτὰ δ᾽ ἁλίπαστα τρία</quote>. Fortasse leniore manu refingendum: <quote>ἀκροκώλιον τε γεννικὸν ὀπτοῦ δέλφακος, | ἁλίπαστα τρία</quote>. Nec dubito quin id etiam Dindorfio in mentem venerit, sed sprevit propter numerorum levitatem in loco ad tragicam gravitatem composito. Vide</p>
+              </note>
+            </div>
+          </div></body></text></TEI>

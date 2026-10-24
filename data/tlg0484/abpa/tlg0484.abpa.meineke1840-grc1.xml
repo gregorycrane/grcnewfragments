@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Nicostratus, ABPA: fragments</title><author>Nicostratus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0484.abpa.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0484.abpa.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0484.abpa.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_abpa"><head>ABPA</head><div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0484-abpa-2">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0484-abpa-2-l1">Ταῦτ᾽ ἀξιῶ.</l>
+                  <l n="2" xml:id="meineke-0484-abpa-2-l2">εἴτ᾽ ὀρνιθάριον, τὸ περιστέριον, τὸ γάστριον.</l>
+                </lg>
+              </quote>
+              <note type="apparatus">
+                <bibl>Athenaeus XIV p. 654 b:</bibl>
+                <quote>περιστέριον οὕτως ἔστιν εὑρεῖν εἰρημένον παρὰ Μενάνδρῳ — ὁμοίως Νικόστρατος Ἅβρᾳ Ταῦτ᾽ ἀξιῶ κτλ.</quote> Dindorfius proposuit ταῦτ᾽ ἀξιοῖ. τοὐρνιθάριον. Dobraeus Advers. II p. 349: ταῦτ᾽ ἄξι᾽ ἦν· τοὐρνιθάριον.</note>
+              <pb n="280" facs="urn:hathi:hvd.32044079388682:scan:288" />
+              <lg>
+                <l n="3" xml:id="meineke-0484-abpa-2-l3">ταριχοπώλου πάνυ καλοῦ τε κἀγαθοῦ</l>
+                <l n="4" xml:id="meineke-0484-abpa-2-l4">τιλτὸν μέγιστον, ἄξιον δραχμῆς, δυοῖν</l>
+                <l n="5" xml:id="meineke-0484-abpa-2-l5">ὀβολοῖν, ὃν οὐκ ἂν καταφάγοιμεν ἡμερῶν</l>
+                <l n="6" xml:id="meineke-0484-abpa-2-l6">τριῶν ἤδη κατεσθίοντες δώδεκα·</l>
+                <l n="7" xml:id="meineke-0484-abpa-2-l7">ὑπερμέγεθες γάρ ἐστι.</l>
+              </lg>
+              <note type="source">Athenaeus III p. 118 e. de ταρίχῳ disserens: <quote>Νικόστρατος ἢ Φιλέταιρος ἐν Ἀντύλλῳ <title>Βυζάντιον</title> — <title>παρεισίτω</title>. καὶ προελθὼν <title>Ἀλλ'</title> κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 τε addidit Schweighaeuserus. Byzantiorum salsamentorum frequens memoria, rarior Gadicorum, de quibus dixi ad Eupol. p. 506 et ad Antiph. p. 43. — Vs. 5 τιλτὸν Schweighaeuserus, τίλτον L et Dindorfius. τίλιτον BPV. τιλιτον sine accentu A. τίλτον tueri videtur Hesychius, Τίλτον: εἶδος ταριχίου. Sed nec in aliis verbalibus substantivorum vim assumentibus accentus mutatur, v. c. in φρυκτοί, ἑψητοί. Non recte autem Casaubonus τιλτὸν explicat de <quote>salsamento squamato</quote>; debebat potius <quote>desquamatum</quote> interpretari. — Vs. 6 recte Casaubonus ὅ γ' οὐκ ἄν, nisi vs. 8 ὑπερμεγέθης scribendum. — Vs. 7 in A ex collat. Bekkeri ita scriptus est τριῶν ἤδη κατεσθίοντες δεδωκάγε. PVL τριῶν ἤδη κατεσθίοντες οὐ δώδεκά γ᾽. Porsonus Advers. p. 67: τριῶν κατεσθίοντες οὐδὲ δώδεκα. Id sequutus est Dindorfius. Videtur aliud quid latere, v. c. νὴ Δία τριῶν.</note>
+            </div>
+          </div></body></text></TEI>

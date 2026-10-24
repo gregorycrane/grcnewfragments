@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Ephippus, ΦΙΛΥΡΑ: fragments</title><author>Ephippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0450.philyra.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0450.philyra.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0450.philyra.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_philyra"><head>ΦΙΛΥΡΑ</head><pb n="339" facs="urn:hathi:hvd.32044079388682:scan:347" />
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0450-philyra-2">
+              <head>II.</head>
+              <quote>
+                <sp>
+                  <speaker>
+                    <gap reason="lost" extent="unknown" />
+                  </speaker>
+                  <lg>
+                    <l n="1" xml:id="meineke-0450-philyra-2-l1">Παππία, βούλει δραμὼν</l>
+                    <l n="2" xml:id="meineke-0450-philyra-2-l2">εἰς τὴν ἀγορὰν καταγοράσαι μοι;</l>
+                  </lg>
+                </sp>
+                <sp>
+                  <speaker>Β.</speaker>
+                  <lg>
+                    <l n="2_2" rend="indent" xml:id="meineke-0450-philyra-2-l2_2">φράζε τί.</l>
+                  </lg>
+                </sp>
+                <sp>
+                  <speaker>Α.</speaker>
+                  <lg>
+                    <l n="3" xml:id="meineke-0450-philyra-2-l3">ἰχθῦς φρονοῦντας, ὦ πάτερ. μή μοι βρέφη.</l>
+                  </lg>
+                </sp>
+                <sp>
+                  <speaker>Β.</speaker>
+                  <lg>
+                    <l n="4" xml:id="meineke-0450-philyra-2-l4">οὐκ οἶσθ᾽ ὁτιὴ τἀργύριόν ἐστ᾽ ἰσάργυρον;</l>
+                  </lg>
+                </sp>
+              </quote>
+              <note type="source">Athenaeus VIII p. 358 f: ἐκφαυλίζων δὲ καὶ Ἔφιππος τοὺς μικροὺς τῶν ἰχθύων ἐν Φιλύρᾳ φησίν <quote>Παππία</quote> κτλ.</note>
+              <note type="apparatus">Vs. 1 Παππία pro Παπία Schweighaeuserus. — Vs. 2 nescio quae vis sit compositi καταγοράσαι, pro quo κᾆτ᾽ ἀγοράσαι malim: κᾆτα post participium inferri notissimum est. Verba φράζε ἰχθῦς φρονοῦντας μή μοι βρέφη, sic coniunctim scripta, affert Eustathius p. 1720 54. — Vs. 4 cod. A ἐσθ᾽ εἰσάργυρον. PVL ἔστ᾽ εἰς ἄργυρον. Correxit Heringa Observ. p. 276 recte transferens, <quote>nescis pecuniam argento contra caram esse?</quote>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0450-philyra-3">
+              <head>III.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0450-philyra-3-l1">῾Ὡς σκαιὸς εἶ κἄγροικος αἰσχροεπῶν· ἔα,</l>
+                  <l n="2" xml:id="meineke-0450-philyra-3-l2">ἐπαρίστερ᾽ ἐν τῷ στόματι τὴν γλῶτταν φορεῖς.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XIII p. 571 a: <quote>ὡς σκαιὸς — φορεῖς</quote>, κατὰ τὴν Ἐφίππου Φιλύραν.</note>
+              <note type="apparatus">In his ἔα, ἐπαρίστερ᾽ scripsit Dindorfius. ἕ᾽ ἀπαριστερᾶ B. ἔἀπ᾽ ἀριστερὸς P. ἐπαρίστερα A. ἐπαρίστερος VL. Iacobsius αἰσχροεπῶν ἀεί· ἐπαρίστερ᾽ ἐν τῷ κτλ.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0450-philyra-3_2">
+              <head>III.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0450-philyra-3_2-l1">Ut rusticus es et stupidus, ut foedum loquens!</l>
+                <l n="2" xml:id="meineke-0450-philyra-3_2-l2">nimirum in ore laevam linguam possides.</l>
+              </lg>
+            </div>
+          </div></body></text></TEI>

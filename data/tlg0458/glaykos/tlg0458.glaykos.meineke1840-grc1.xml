@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Eubulus, ΓΛΑΥΚΟΣ: fragments</title><author>Eubulus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0458.glaykos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0458.glaykos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0458.glaykos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0458_glaykos"><head>ΓΛΑΥΚΟΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0458-glaykos-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0458-glaykos-1-l1">
+                    <foreign xml:lang="grc">Καὶ νᾶπυ Κύπριον καὶ σκαμωνίας ὀπόν,</foreign>
+                  </l>
+                  <l n="2" xml:id="meineke-0458-glaykos-1-l2">
+                    <foreign xml:lang="grc">καὶ κάρδαμον Μιλήσιον, καὶ κρόμμυον</foreign>
+                  </l>
+                  <l n="3" xml:id="meineke-0458-glaykos-1-l3">
+                    <foreign xml:lang="grc">Σαμοθράκιον, καὶ καυλὸν ἐκ Καρχηδόνος,</foreign>
+                  </l>
+                  <l n="4" xml:id="meineke-0458-glaykos-1-l4">
+                    <foreign xml:lang="grc">καὶ σίλφιον θύμον τε τῶν Ὑμηττίων,</foreign>
+                  </l>
+                  <l n="5" xml:id="meineke-0458-glaykos-1-l5">
+                    <foreign xml:lang="grc">ὀρίγανόν τε Τενέδιον.</foreign>
+                  </l>
+                </lg>
+              </quote>
+              <note type="source">Pollux VI 67: <quote>ἔνια δὲ τῶν ἡδυσμάτων ἐπῃνεῖτο ἐκ χωρίων, ὡς Εὔβουλος ἐν Γλαύκῳ φησί <quote>Καὶ νᾶπυ Κύπριον κτλ.</quote>
+                </quote>
+              </note>
+              <note type="apparatus">Antiphani haec tribuuntur apud Athen. I p. 28 d, ubi allato Eubuli loco, quem vide in fragmentis incertis, ita pergit <quote>Ἀντιφάνης δὲ <quote>Νᾶπυ Κύπρου, καὶ σκαμωνίας ὀπόν, κάρδαμον Μιλήσιον, κρόμμυον Σαμοθράκιον, καυλὸν ἐκ Καρχηδόνος καὶ σίλφιον, θύμον Ὑμήττιον, ὀρίγανον Τενέδιον</quote>.</quote> Eustathius ad Iliad. p. 867 45: <quote>περιάδεται ἐν κρομύοις τὸ Σαμοθράκιον παρὰ Ἀντιφάνει, καθὰ καὶ τὸ Κύ-</quote>
+              </note>
+              <pb n="215" facs="urn:hathi:hvd.32044079388682:scan:225" />
+              <note type="source">
+                <quote>πριον νᾶπυ, καὶ τὸ Μιλήσιον κάρδαμον, καὶ ὁ Ὑμήττιος θύμος, καὶ τὸ Τενέδιον ὀρίγανον.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 Pollux Κύπριον. Athenaeus Κύπρου at C ut videtur Κύπριον. Tum σκαμμωνίας Athenaei cod. L. quae vulgaris est forma. Alteram, qua usus est Eubulus, reperio apud Nicandrum Alexiph. 481 νείμειας τοτὲ δάκρυ νεοβλάστοιο κάμωνος. *) Eandem tuetur nomen proprium Σκάμων apud Suidam v. Ἑλλάνικος et Athen. XIV p. 630 b et 637 b. Postrema verba ὀρίγανόν τε Τενέδιον ex Athenaeo accesserunt. Particulam τε adiecit Porsonus.
+<note type="footnote">*) Κάμων pro σκάμων dixit eadem licentia qua Κάμανδρος sequioris aetatis epici dixerunt pro Σκάμανδρος. Quam formam fuerunt qui etiam in Homerum inferrent.</note>
+              </note>
+            </div>
+          <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0458-glaykos-2">
+              <lg>
+                <l n="1" xml:id="meineke-0458-glaykos-2-l1">῾Ἡμεῖς ποτ᾽ ἄνδρας Κεκροπίδας ἐπείσαμεν</l>
+                <l n="2" xml:id="meineke-0458-glaykos-2-l2">λαβόντας εἰς Ὑμηττὸν ἐξελθεῖν ὅπλα</l>
+                <l n="3" xml:id="meineke-0458-glaykos-2-l3">καὶ σιτί᾽ ἐπὶ μύρμηκας ἡμερῶν τριῶν,</l>
+                <l n="4" xml:id="meineke-0458-glaykos-2-l4">ὡς χρυσοτεύκτου ψήγματος πεφηνότος.</l>
+              </lg>
+              <note type="source">Harpocratio p. 185 21: ἔπεσέ τις φήμη ποτὲ εἰς τὸ πλῆθος Ἀθηναίων, ὡς ἐν Ὑμηττῷ ψῆγμα χρυσοῦ πολὺ φανείη καὶ φυλάττοιτο ὑπὸ τῶν μαχίμων μυρμήκων. οἱ δὲ ἀναλαβόντες ὅπλα ἐξέθεον ἐπ᾽ αὐτούς· ἄπρακτοι δὲ ὑποστρέψαντες καὶ μάτην κεκακοπαθηκότες, ἔσκωπτον ἀλλήλους λέγοντες <quote>„σὺ δέ γ᾽ ὤου χρυσοχοήσειν.”</quote> — ἐχλευάζοντο δὲ καὶ ὑπὸ τῶν κωμικῶν. Εὔβουλος γοῦν ἐν Γλαύκῳ φησίν <quote>Ἡμεῖς ποτ᾽ ἄνδρας κτλ.</quote> Versum primum et secundum habet etiam omisso fabulae titulo Suidas v. χρυσοχοεῖον.</note>
+              <note type="apparatus">Similia de Indorum expeditione contra formicas auri custodes fabulatur Herodotus III 102 et Dio Chrysost. Orat. XXXV p. 73 Rsk. Vs. 1 malim ἄνδρες. — Vs. 3 σιτί᾽ Valesius: codd. συὸς et σύ. Erasmus σῖτον. Aristophanes Pac. 843: σιτί᾽ ἡμερῶν τριῶν.</note>
+            </div>
+          </div></body></text></TEI>

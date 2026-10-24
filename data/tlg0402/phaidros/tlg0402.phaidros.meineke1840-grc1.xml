@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΦΑΙΔΡΟΣ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.phaidros.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.phaidros.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.phaidros.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_phaidros"><head>ΦΑΙΔΡΟΣ</head><div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-phaidros-2">
+              <head>II.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0402-phaidros-2-l1">Σχολῇ γε, νὴ τὸν ἥλιον, σχολῇ λέγεις.</l>
+                <l n="2" xml:id="meineke-0402-phaidros-2-l2">Ἐπιχαρίδης ὁ μικρὸς ἐν πένθ᾽ ἡμέραις</l>
+                <l n="3" xml:id="meineke-0402-phaidros-2-l3">σφαῖραν ἐποίησεν τὴν πατρώαν οὐσίαν.</l>
+                <l n="4" xml:id="meineke-0402-phaidros-2-l4">οὕτω συνεστρόγγυλεν ἰταμῶς καὶ ταχύ.</l>
+              </lg>
+              <note type="source">
+                <ref>Athenaeus IV p. 165 d</ref>: ἀσώτους μὲν γὰρ οἶδα διαβοήτους, ἕνα μὲν οὗ μνημονεύει Ἄλεξις ἐν Κνιδίᾳ — ἐν δὲ Φαίδρῳ φησί <quote>Σχολῇ</quote> κτλ.</note>
+              <note type="apparatus">Vs. 1 recte interpretatus esse</note>
+              <pb n="497" facs="urn:hathi:hvd.32044079388682:scan:503" />
+              <note type="apparatus">videtur Th. Bergkius Epist. ad C. Schillerum p. 135, dicere haec aliquem, qui cum ex Phaedro quaesivisset, quo temporis spatio opes paternas dilapidavisset, miratus, tarde tu quidem, inquit, rem familiarem perdidisti, siquidem Epicharidi quinque dies suffecerunt. — Vs. 2 ὁ μικρὸς. haud rarum apud Athenienses sive cognomen sive convicium. Ita Κλειγένη τὸν μικρὸν habemus apud Aristophanem Ran. 720. Ἀριστόδημον τὸν μικρὸν apud Xenophont. Memor. I 4 2 et Platon. Symp. I, 7. Non opus igitur, quod Bergkius, quamquam dubitanter, proponebat ὁ μιαρός. Epicharidem, quem postea inopia adegisse videtur ut inter Pythagoreos nomen profiteretur, perstrinxit Alexis etiam in Tarentinis Fragm. I. Nisi forte alius hoc loco homo innuitur, et pro Ἐπιχαρίδης legendum ἐπεὶ Χαρίδης, quod in suo epitomes exemplari habuisse videtur Eustathius p. 1554 2: πέπαικταί τινι παλαιῷ εἰς ἄσωτον βραχυήλικα τό· Χαρίδης ὁ μικρὸς ἐν πένθ’ ἡμέραις κτλ. Nec negari potest ita orationem melius coagmentari. — Vs. 3 σφαῖραν ἐποίησε κτλ. bona sua veluti in pilulam conglobata devoravit, ut recte interpretatus est H. Stephanus. Cfr Alexidis Cnid. p. 427. — Vs. 4 οὕτω L. οὕτως ABPV et Eustathius. συνεστρόγγυλεν ABP et Eustathius. συνεστρόγγυλλεν VL. Cfr Nicomachus apud Athen. II p. 58 a: οὐσίδιον — οὕτω συνεστρογγύλικα κἀξεκόκκισα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0402-phaidros-1">
+              <head>1.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0402-phaidros-1-l1">Πορευομένῳ δ᾿ ἐκ Πειραιῶς ὑπὸ τῶν κακῶν</l>
+                <l n="2" xml:id="meineke-0402-phaidros-1-l2">καὶ τῆς ἀπορίας φιλοσοφεῖν ἐπῆλθέ μοι.</l>
+                <l n="3" xml:id="meineke-0402-phaidros-1-l3">καί μοι δοκοῦσιν ἀγνοεῖν οἱ ζωγράφοι</l>
+                <l n="4" xml:id="meineke-0402-phaidros-1-l4">τὸν Ἔρωτα, συντομώτατον δ᾿ εἰπεῖν, ὅσοι</l>
+                <l n="5" xml:id="meineke-0402-phaidros-1-l5">τοῦ δαίμονος τούτου ποιοῦσιν εἰκόνας.</l>
+                <l n="6" xml:id="meineke-0402-phaidros-1-l6">ἔστιν γὰρ οὔτε θῆλυς οὔτ᾿ ἄρρην, πάλιν</l>
+                <l n="7" xml:id="meineke-0402-phaidros-1-l7">οὔτε θεὸς οὔτ᾿ ἄνθρωπος, οὔτ᾿ ἀβέλτερος</l>
+                <l n="8" xml:id="meineke-0402-phaidros-1-l8">οὔτ᾿ αὖθις ἔμφρων, ἀλλὰ συννενησμένος</l>
+              </lg>
+              <pb n="496" facs="urn:hathi:hvd.32044079388682:scan:502" />
+              <lg>
+                <l n="9" xml:id="meineke-0402-phaidros-1-l9">πανταχόθεν, ἑνὶ τύπῳ τε πόλλ᾽ εἴδη φέρων.</l>
+                <l n="10" xml:id="meineke-0402-phaidros-1-l10">ἡ τόλμα μὲν γὰρ ἀνδρός, ἡ δὲ δειλία</l>
+                <l n="11" xml:id="meineke-0402-phaidros-1-l11">γυναικός, ἡ δ᾽ ἄνοια μανίας, ὁ δὲ λόγος</l>
+                <l n="12" xml:id="meineke-0402-phaidros-1-l12">φρονοῦντος, ἡ σφοδρότης δὲ θηρός, ὁ δὲ πόνος</l>
+                <l n="13" xml:id="meineke-0402-phaidros-1-l13">ἀδάμαντος, ἡ φιλοτιμία δὲ δαίμονος.</l>
+                <l n="14" xml:id="meineke-0402-phaidros-1-l14">καὶ ταῦτ᾽ ἐγώ, μὰ τὴν Ἀθηνᾶν καὶ θεούς,</l>
+                <l n="15" xml:id="meineke-0402-phaidros-1-l15">οὐκ οἶδ᾽ ὅ τι ἐστίν, ἀλλ᾽ ὅμως ἔχει γέ τι</l>
+                <l n="16" xml:id="meineke-0402-phaidros-1-l16">τοιοῦτον, ἐγγύς τ᾽ εἰμὶ τοὐνόματος.</l>
+              </lg>
+              <note type="source">
+                <ref>Athenaeus XIII p. 562 a</ref>: ὁ Πλούταρχος ἀπεμνημόνευσε τῶν ἐκ Φαίδρου Ἀλέξιδος <quote>Πορευομένῳ</quote> κτλ. Hinc <ref>Eustathius ad Odyss. p. 988 14</ref>.</note>
+              <note type="apparatus">Vs. 1 πορευομένῳ PVL. πορευομένων AB, quod fortasse servari potest, si Phaedrum cum sodalibus ex Piraeeo ad urbem accessisse ponas. — Vs. 4 συντομώτερον C et Eustathius. Ibidem γ᾽ pro δ᾽ VL. — Vs. 6 ante Dindorfium ἄρσην. — Vs. 8 συννενηγμένος PVL. συνηνεγμένος C epit. Hoesch. Eustath. συννενημένος ex Casauboni coniectura Dindorfius. Lenius mihi videbatur συννενησμένος, de qua forma vide Lobeckium ad Soph. Ai. p. 318. — Vs. 9 ἐν ante ἑνὶ inserunt PVL. τε additum a Schweighaeusero. — Vs. 16 εγγυστ᾽ εἰ μὴ Α. ἔγγυστ᾽ εἰμὶ Β. ἔγγιστ᾽ εἰ μὴ VL. Ibid. libri τοῦ ὀνόματος. Dobraeus tentabat που τοῦ πράγματος Advers. II p. 341. Th. Bergkius in Epistola ad C. Schillerum p. 133 post τοὐνόματος addebat φράσαι. Aequo iure possis λέγειν. Sed neutro opus.</note>
+            </div>
+          </div></body></text></TEI>

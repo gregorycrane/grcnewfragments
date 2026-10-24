@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΠΟΙΗΤΑΙ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.poietai.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.poietai.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.poietai.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_poietai"><head>ΠΟΙΗΤΑΙ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0402-poietai-1">
+              <head rend="align-center">I.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0402-poietai-1-l1">Ὁ συκοφάντης οὐ δικαίως τοὔνομα</l>
+                <l n="2" xml:id="meineke-0402-poietai-1-l2">ἐν τοῖσι μοχθηροῖσίν ἐστι κείμενον.</l>
+                <l n="3" xml:id="meineke-0402-poietai-1-l3">ἔδει γὰρ ὅστις χρηστὸς ἦν ἡδύς τ᾽ ἀνήρ</l>
+                <l n="4" xml:id="meineke-0402-poietai-1-l4">τὰ σῦκα προστεθέντα δηλοῦν τὸν τρόπον.</l>
+                <l n="5" xml:id="meineke-0402-poietai-1-l5">νυνὶ δὲ πρὸς μοχθηρὸν ἡδὺ προστεθέν</l>
+                <l n="6" xml:id="meineke-0402-poietai-1-l6">ἀπορεῖν πεποίηκε διὰ τί τοῦθ᾽ οὕτως ἔχει.</l>
+              </lg>
+              <pb n="469" facs="urn:hathi:hvd.32044079388682:scan:475" />
+              <note type="source">Athenaeus III p. 74 e: <quote>῎Αλεξις δ᾽ ἐν Ποιητῇ φησίν Ὁ συκοφάντης κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 2 ἔδει γὰρ κτλ. Recte Schweighaeuserus „Mihi, cum συκοφάντης proprie idem valeat ac σῦκα φαίνων, hoc visus est poeta dicere: nomen σῦκα, cum voce φάντης compositum, debebat nomen declarare mores hominis probi et suavis, nempe qui ficos prae se ferret i. e. bonos et suaves mores ostenderet: nunc, cum hominis pravi nomen ex illo suavi nomine sit compositum (i. e. cum nomen ex illo suavi vocabulo σῦκον compositum ponatur in homine pravo) nescio cur ita factum sit. Puto autem dicere illa peregrinum hominem, cui insolens visus esset ille usus vocabuli συκοφάντης apud Atticos.“ Coraes vs. 4 προστιθέντα coniiciebat.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-poietai-2">
+              <lg>
+                <l n="1" xml:id="meineke-0402-poietai-2-l1">Πάνυ τι βούλομαι</l>
+                <l n="2" xml:id="meineke-0402-poietai-2-l2">οὕτω γελᾶσθαι καὶ γελοῖ᾽ ἀεὶ λέγειν</l>
+                <l n="3" xml:id="meineke-0402-poietai-2-l3">μετὰ τὸν Κόρυδον μάλιστ᾽ Ἀθηναίων πολύ.</l>
+              </lg>
+              <note type="source">Athenaeus VI p. 241 d: <quote>ὅτι δὲ γελοῖα ἔλεγεν ὁ Κόρυδος καὶ ἐπὶ τούτοις γελᾶσθαι ἤθελεν ὁ αὐτὸς ῎Αλεξις ἐν Ποιηταῖς φησι Πάνυ τι κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 πάνυ τι C. πάνυ τοι PVL. — Vs. 2 οὕτω B. οὕτως VL. οὗτος C. οὗτος P.</note>
+            </div>
+          </div></body></text></TEI>

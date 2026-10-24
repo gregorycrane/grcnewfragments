@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΟΜΟΙΟΙ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.omoioi.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.omoioi.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.omoioi.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_omoioi"><head>ΟΜΟΙΟΙ</head><pb n="95" facs="urn:hathi:hvd.32044079388682:scan:105" />
+            <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0410-omoioi-1">
+              <lg>
+                <l n="3" xml:id="meineke-0410-omoioi-1-l3">ὡς δ᾽ ἐδείπνησαν, συνάψαι βούλομαι γὰρ τὰν μέσῳ,</l>
+                <l n="4" xml:id="meineke-0410-omoioi-1-l4">καὶ Διὸς σωτῆρος ἦλθε θηρίκλειον ὄργανον,</l>
+                <l n="5" xml:id="meineke-0410-omoioi-1-l5">τῆς τρυφερᾶς ἀπὸ Λέσβου σεμνοπότου σταγόνος</l>
+                <l n="6" xml:id="meineke-0410-omoioi-1-l6">πλῆρες, ἀφρίζον, ἕκαστος δεξιτέρᾳ δ᾽ ἔλαβεν.</l>
+              </lg>
+              <note type="source">Athenaeus XIV p. 642 a. de secundis mensis disserens: <quote>Ἀντιφάνης ἐν Λεπτινίσκῳ — ἐν δὲ Ὁμοίοις <quote>Εἶτ᾽ ἐπεισῆγεν — παντοδαποῖς</quote>
+                </quote>. Idem XI p. 471 c: μνημονεύει τοῦ ἐκπώματος (thericlei poculi) <quote>καὶ Ἀντιφάνης ἐν Ὁμοίοις οὕτως <quote>Ὡς δ᾽ ἐδείπνησαν — ἔλαβεν</quote>
+                </quote>.</note>
+              <note type="apparatus">Coniunxi haec ad unum fragmentum. Vs. 1 ἐπεισῆγ᾽ εὐχορίαν P. — Vs. 3 τὰν μέσῳ pro τὰ μέσῳ Koppiersius Observ. p. 50. — Vs. 5 libri σεμνοπόνου. Correxit Casaubonus. — Vs. 4 et 5 Dindorfius non dubitari posse dicit quin ex Philoxeni Δείπνῳ sumpserit Antiphanes. Vereor ut recte, siquidem similibus quidem, nec tamen iisdem, quales apud Antiphanem habemus, numeris in illo carmine usus est Philoxenus. Hoc unum concedere licebit, Antiphanem ad Philoxeni imitationem se composuisse.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0410-omoioi-2">
+              <head>II.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0410-omoioi-2-l1">Εὖ δ᾽ ἐγίγνεθ᾽ ὅτι φακῆν</l>
+                <l n="2" xml:id="meineke-0410-omoioi-2-l2">ἕψειν μ᾽ ἐδίδασκε τῶν ἐπιχωρίων τις εἷς.</l>
+              </lg>
+              <note type="source">Athenaeus IV p. 158 c. de φακῇ disserens: <quote>Ἀντιφάνης δ᾽ Ὁμοίαις <quote>Εὖ δ᾽ ἐγίγνεθ᾽ ὅτι</quote> κτλ.</quote>
+              </note>
+              <note type="apparatus">A εὖ δὲ γίνεθ᾽ η φακῆν. BD εὖ δὲ γύναι τὴν φακῆν. P εὖ δὲ γίνεθ᾽ ἢ φ. VL εὖ δὲ γίνεθ᾽ ἡ φακῆν. Sequutus sum cum Dindorfio Porsonum. Fortasse tamen praestat εὖ δὲ γίγνετ᾽ εἰ φακῆν, et versu altero ἕψειν με διδάσκει. Versum alterum Porsonus emendavit, nisi quod ἑψεῖν scripsit pro quo recte Dindorfius ἕψειν. Vulgo ἑψεῖν με δίδασκε. A ἑψειη με δίδασκε. P ἕψειη με διδασκε. Pro τις εἷς vulgo τί εἷς. A τισεις. BP τίσεις. Rarum autem illud τις εἷς pro εἷς τις. Habet tamen Sophocles Oed. T. 247 et ni fallit memoria, Thucydides.</note>
+            </div>
+          </div></body></text></TEI>

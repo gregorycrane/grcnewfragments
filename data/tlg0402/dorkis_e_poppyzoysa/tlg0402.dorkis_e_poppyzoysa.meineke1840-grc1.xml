@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΔΟΡΚΙΣ Η ΠΟΠΠΥΖΟΥΣΑ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.dorkis_e_poppyzoysa.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.dorkis_e_poppyzoysa.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.dorkis_e_poppyzoysa.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_dorkis_e_poppyzoysa"><head>ΔΟΡΚΙΣ Η ΠΟΠΠΥΖΟΥΣΑ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0402-dorkis_e_poppyzoysa-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-dorkis_e_poppyzoysa-1-l1">Τοῖς ἰχθυοπώλαις ἐστὶν ἐψηφισμένον,</l>
+                  <l n="2" xml:id="meineke-0402-dorkis_e_poppyzoysa-1-l2">ὡς φασι, χαλκῆν Καλλιμέδοντος εἰκόνα</l>
+                  <l n="3" xml:id="meineke-0402-dorkis_e_poppyzoysa-1-l3">στῆσαι Παναθηναίοισιν ἐν τοῖς ἰχθύσιν,</l>
+                  <l n="4" xml:id="meineke-0402-dorkis_e_poppyzoysa-1-l4">ἔχουσαν ὀπτὸν κάραβον ἐν τῇ δεξιᾷ,</l>
+                  <l n="5" xml:id="meineke-0402-dorkis_e_poppyzoysa-1-l5">ὡς αὐτὸν ὄντ᾿ αὐτοῖσι τῆς τέχνης μόνον</l>
+                  <l n="6" xml:id="meineke-0402-dorkis_e_poppyzoysa-1-l6">σωτῆρα, τοὺς ἄλλους δὲ πάντας ζημίαν.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus III p. 104 d: ῎Αλεξις μὲν οὖν αὐτὸν (Callimedontem) ἐν Δορκίδι ἢ Ποππυζούσῃ φίλιχθυν εἶναι κοινῶς παραδίδωσι, καθάπερ καὶ ἄλλοι τῶν κωμῳδιοποιῶν, λέγων οὕτως <quote>Τοῖς ἰχθυοπώλαις</quote> κτλ.</note>
+              <note type="apparatus">Versu tertio στήσειν C.</note>
+            </div>
+            <pb n="408" facs="urn:hathi:hvd.32044079388682:scan:416" />
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-dorkis_e_poppyzoysa-2">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-dorkis_e_poppyzoysa-2-l1">Περιστερὰς</l>
+                  <l n="2" xml:id="meineke-0402-dorkis_e_poppyzoysa-2-l2">ἔνδον τρέφων τῶν Σικελικῶν τούτων πάνυ</l>
+                  <l n="3" xml:id="meineke-0402-dorkis_e_poppyzoysa-2-l3">κομψάς.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus IX p. 395 b: ἐν δὲ Ῥοδίῳ *) ἢ Ποππυζούσῃ θηλυκῶς (περιστερὰ) εἴρηκε (Alexis) καὶ ὅτι αἱ Σικελικαὶ διάφοροί εἰσι Περιστερὰς κτλ.</note>
+              <note type="apparatus">Vs. 2 Dindorfius ex B τρέφω. Ibidem P τούτων πάνυ τούτων.</note>
+              <note type="footnote">*) V. Hist. crit. p. 387.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0402-dorkis_e_poppyzoysa-3">
+              <head>III.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-dorkis_e_poppyzoysa-3-l1">Τῆς φιλοτησίας ἐγὼ</l>
+                  <l n="2" xml:id="meineke-0402-dorkis_e_poppyzoysa-3-l2">μεστὰς προπίνω γ᾽ ἴσον ἴσῳ κεκραμένας.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus X p. 431 a: καὶ Ἄλεξις ἐν Δορκίδι ἢ Ποππυζούσῃ Τῆς φιλοτησίας κτλ.</note>
+              <note type="apparatus">Vs. 1 Iacobsius Addit. p. 234 scribebat τρεῖς φιλοτησίας. Recte legi genitivum docet disputatio Phrynichi App. soph. p. 70. Ad μεστὰς supple κύλικας. — Vs. 2 addidi γ᾽. Possis etiam cum Dindorfio δ᾽, vel προπίνων.</note>
+            </div>
+          </div></body></text></TEI>

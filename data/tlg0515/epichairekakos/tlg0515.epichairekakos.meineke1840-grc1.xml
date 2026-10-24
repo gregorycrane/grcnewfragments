@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Timocles, ΕΠΙΧΑΙΡΕΚΑΚΟΣ: fragments</title><author>Timocles</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0515.epichairekakos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0515.epichairekakos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0515.epichairekakos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0515_epichairekakos"><head>ΕΠΙΧΑΙΡΕΚΑΚΟΣ</head><div type="textpart" subtype="fragment" n="1" fragment_number="1" author_heading="TIMOCLES" work_heading="ΕΠΙΧΑΙΡΕΚΑΚΟΣ" starts_on_page="true" xml:id="meineke-0515-epichairekakos-1">
+              <lg>
+                <l n="1" xml:id="meineke-0515-epichairekakos-1-l1">Forum videre plenum egregiis piscibus,</l>
+                <l n="2" xml:id="meineke-0515-epichairekakos-1-l2">diti voluptas, crux est summa pauperi.</l>
+                <l n="3" xml:id="meineke-0515-epichairekakos-1-l3">nam Corydus, quem nunc nemo, quod videam, vocat,</l>
+                <l n="4" xml:id="meineke-0515-epichairekakos-1-l4">miser iam tristi vapulat domicoenio.</l>
+                <l n="5" xml:id="meineke-0515-epichairekakos-1-l5">ridicula res evenit, cum plus quattuor</l>
+              </lg>
+              <pb n="714" facs="urn:hathi:hvd.32044079388682:scan:716" />
+              <lg>
+                <l n="6" xml:id="meineke-0515-epichairekakos-1-l6">aereolis non haberet, anguillas videt,</l>
+                <l n="7" xml:id="meineke-0515-epichairekakos-1-l7">torpedines, locustas, thynnos, dentiens</l>
+                <l n="8" xml:id="meineke-0515-epichairekakos-1-l8">et circumcursans quanti quaeque interrogat,</l>
+                <l n="9" xml:id="meineke-0515-epichairekakos-1-l9">sed pretio attonitus tandem fugit ad membradas.</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0515-epichairekakos-1_2">
+              <lg>
+                <l n="1" xml:id="meineke-0515-epichairekakos-1_2-l1">Ἀγορὰν ἰδεῖν εὔοψον εὐποροῦντι μὲν</l>
+                <l n="2" xml:id="meineke-0515-epichairekakos-1_2-l2">ἥδιστον, ἂν δ᾽ ἀπορῇ τις ἀθλιώτατον.</l>
+              </lg>
+              <pb n="598" facs="urn:hathi:hvd.32044079388682:scan:602" />
+              <lg>
+                <l n="3" xml:id="meineke-0515-epichairekakos-1_2-l3">ὁ γοῦν Κόρυδος ἄκλητος, ὡς ἐμοὶ δοκεῖ,</l>
+                <l n="4" xml:id="meineke-0515-epichairekakos-1_2-l4">γενόμενος ὠψώνει παρ᾽ αὑτὸν οἴκαδε.</l>
+                <l n="5" xml:id="meineke-0515-epichairekakos-1_2-l5">ἦν δὲ τὸ πάθος γελοῖον, οἴμοι, τέτταρας</l>
+                <l n="6" xml:id="meineke-0515-epichairekakos-1_2-l6">χαλκοῦς ἔχων ἄνθρωπος, ἐγχέλεις ὁρῶν</l>
+                <l n="7" xml:id="meineke-0515-epichairekakos-1_2-l7">θύννεια νάρκας καράβους· ἡμωδία.</l>
+                <l n="8" xml:id="meineke-0515-epichairekakos-1_2-l8">καὶ ταῦτα πάντα μὲν περιελθὼν ἤρετο</l>
+                <l n="9" xml:id="meineke-0515-epichairekakos-1_2-l9">ὁπόσου, πυθόμενος δ᾽ ἀπέτρεχ᾽ εἰς τὰς μεμβράδας.</l>
+              </lg>
+              <note type="source">Athenaeus VI p. 241 a: μνημονεύει δ᾽ αὐτοῦ (Corydi parasiti) Τιμοκλῆς ἐν Ἐπιχαιρεκάκῳ οὕτως Ἀγορὰν ἰδεῖν κτλ.</note>
+              <note type="apparatus">Vs. 4 ὠψώνει Schweighaeuserus pro ὀψωνεῖ. Verte locum ita: pisces emebat ad se domum ferendos. Verba παρ᾽ αὑτὸν et οἴκαδε, ut passim similia, ἐκ παραλλήλου sunt posita. Abusus sum h. l. supra p. 498. — Vs. 5 τέσσαρας B. — Vs. 7 θύννεια C. θυννεῖα VL. θυννία P. Ibid. ἡμωδία pro ἠμωδία Casaubonus. — Vs. 8 πάντα μέν. P πάντα ημέν, in quo πάντη μέν latere videtur Dindorfio. μὲν a cod. B abest. — Vs. 9 ἀπέτρεχ᾽ εἰς Casaubonus. ἀποτρέχεις ABP. ἀποτρέχει εἰς C. ἀπότρεχ᾽ εἰς VL. τὰς μεμβράδας (B μεμβάδας) de illa fori piscatorii parte, ubi membrades, vilissimum piscium genus, veneunt, recte interpretatur Schweighaeuserus cll. Piersono ad Moer. p. 351.</note>
+            </div>
+          </div></body></text></TEI>

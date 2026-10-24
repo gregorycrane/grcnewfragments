@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Dromo, ΨΑΛΤΡΙΑ: fragments</title><author>Dromo</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0448.psaltria.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0448.psaltria.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0448.psaltria.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0448_psaltria"><head>ΨΑΛΤΡΙΑ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0448-psaltria-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <sp>
+                    <l n="1" xml:id="meineke-0448-psaltria-1-l1">Ὑπερῃσχυνόμην</l>
+                    <l n="2" xml:id="meineke-0448-psaltria-1-l2">μέλλων ἀσύμβολος πάλιν δειπνεῖν· πάνυ</l>
+                    <l n="3" xml:id="meineke-0448-psaltria-1-l3">αἰσχρὸν γάρ.</l>
+                  </sp>
+                  <sp>
+                    <speaker>Β.</speaker>
+                    <l n="3_2" part="F" xml:id="meineke-0448-psaltria-1-l3_2">ἀμέλει· τὸν Τιθύμαλλον γοῦν ἀεὶ</l>
+                    <l n="4" xml:id="meineke-0448-psaltria-1-l4">ἐρυθρότερον κόκκου περιπατοῦντ᾽ ἔσθ᾽ ὁρᾶν·</l>
+                    <l n="5" xml:id="meineke-0448-psaltria-1-l5">οὕτως ἐρυθριᾷ συμβολὰς οὐ κατατιθείς.</l>
+                  </sp>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus VI p. 240 d. de Tithymallo parasito comicorum testimonia apponens: <quote>Δρόμων δ᾽ ἐν Ψαλτρίᾳ Ὑπερῃσχυνόμην κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 3 γὰρ a Schweighaeusero additum.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0448-psaltria-2">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0448-psaltria-2-l1">Ἐπεὶ δὲ θᾶττον ἦμεν ἠριστηκότες,</l>
+                  <l n="2" xml:id="meineke-0448-psaltria-2-l2">ὁ παῖς περιεῖλε τὰς τραπέζας, νίμματα</l>
+                  <l n="3" xml:id="meineke-0448-psaltria-2-l3">ἐπέχει τις, ἀπενιζόμεθα, τοὺς στεφάνους πάλιν</l>
+                  <l n="4" xml:id="meineke-0448-psaltria-2-l4">τοὺς ἰρίνους λαβόντες ἐστεφανούμεθα.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus IX p. 409 e. de more manus lavandi post coenam poetarum testimonia apponens: <quote>Δρόμων δ᾽ ἐν Ψαλτρίᾳ ᾿Ἐπεὶ δὲ θᾶττον κτλ.</quote>
+              </note>
+              <note type="apparatus">Versu secundo ὁ παῖς Porsonus. Libri ἦμεν, quod ex primo versu repetitum P recte omittit. Schweighaeuserus ἡ μέν. — Vs. 4 τοὺς ἰρίνους Casaubonus pro δέ σπορίνους. Coronantur autem denuo convivatores, ut secundis mensis sese praeparent. Matron</note>
+              <pb n="542" facs="urn:hathi:hvd.32044079388682:scan:546" />
+              <note type="apparatus">apud Athen. IV p. 136 f: αὐτὰρ ἐπεὶ δόρποιο μελίφρονος ἐξ ἔρον ἕντο | χεῖρας νιψαμένοισιν ἀπ᾽ Ὠκεανοῖο ῥοάων | ὡραῖος παῖς ἦλθε φέρων μύρον ἴρινον ἡδύ· | ἄλλος δ᾽ αὖ στεφάνους ἐπὶ δεξιὰ πᾶσιν ἔδωκεν. Et paucis interiectis:
+<quote>
+                  <lg>
+                    <l n="5" xml:id="meineke-0448-psaltria-2-l5">δεύτεραι αὖτε τράπεζαι ἐφωπλίζοντο γέμουσαι.</l>
+                  </lg>
+                </quote>
+Eodem modo Philoxenus apud Athenaeum IV p. 147 e. IX 409 c et XV 643 a: ὅτε δ᾽ ἤδη | βρωτύος ἠδὲ ποτᾶτος ἐς κόρον ἦμεν ἑταῖροι, | τῆνα μὲν ἐξαπάειρον δμῶες, ἔπειτα δὲ παῖδες | νίπτρ᾽ ἔδοσαν κατὰ χειρῶν σμήμασιν ἰρινομίκτοις χλιεροθαλπὲς ὕδωρ ἐπεγχέοντες | τόσσον ὅσον τις ἔχρῃζ᾽· ἐκτρίμματα . . . λαμπρὰ | σινδονυφῆ δίδοσάν τε χρίματά τ᾽ ἀμβροσίοδμα καὶ στεφάνους ἰοθαλέας. | Τὰς δὲ δὴ πρόσθεν μολούσας . . . λιπαραυγεῖς | πορθμίδας πολλῶν ἀγαθῶν πάλιν εἴσφερον γεμούσας, | τὰς ἐφήμεροι καλέοντι νῦν τραπέζας, | ἀθάνατοι δέ τ᾽ Ἀμαλθείας κέρας. Ita enim haec quae apud Athenaeum diversis locis leguntur coniunxi, in prioribus Schweighaeuseri et Th. Bergkii coniecturas sequutus Act. societ. gr. I p. 208.</note>
+            </div>
+          </div></body></text></TEI>

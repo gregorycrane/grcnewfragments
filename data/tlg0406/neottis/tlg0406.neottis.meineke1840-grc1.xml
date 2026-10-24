@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Anaxilas, ΝΕΟΤΤΙΣ: fragments</title><author>Anaxilas</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0406.neottis.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0406.neottis.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0406.neottis.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0406_neottis"><head>ΝΕΟΤΤΙΣ</head><div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0406-neottis-2">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0406-neottis-2-l1">Ἐὰν δέ τις μέτρια λέγουσα * * *</l>
+                  <l n="2" xml:id="meineke-0406-neottis-2-l2">τοῖς δεομένοις τινῶν ὑπουργῇ πρὸς χάριν,</l>
+                  <l n="3" xml:id="meineke-0406-neottis-2-l3">ἐκ τῆς ἑταιρίας ἑταίρα τοὔνομα</l>
+                  <l n="4" xml:id="meineke-0406-neottis-2-l4">προσηγορεύθη· καὶ σὺ νῦν οὐχ ὡς λέγεις</l>
+                  <l n="5" xml:id="meineke-0406-neottis-2-l5">πόρνης, ἑταίρας δʼ εἰς ἔρωτα τυγχάνεις</l>
+                  <l n="6" xml:id="meineke-0406-neottis-2-l6">ἐληλυθώς· ἆρʼ ὡς ἀληθῶς ἐστι γοῦν</l>
+                  <l n="7" xml:id="meineke-0406-neottis-2-l7">ἁπλῆ τις; <speaker>Β.</speaker> ἀστεία μὲν οὖν, νὴ τὸν Δία.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XIII p. 572 b: Ἀναξίλας Νεοττίδι Ἐὰν κτλ.</note>
+              <note type="apparatus">Vs. 1 Iacobsius scribebat λέγουσʼ ἀεί, <hi rend="italic">si qua modestis semper usa verbis gratificetur iis qui aliquid desiderant</hi>. Indicavi lacunam praeeunte Schweighaeusero in notis. C λέγουσι. — Vs. 2 epit. Hoesch. δυναμένοις. Pro τινῶν B τινός. — Vs. 3 ἑταίρας PV. Malim ἑταιρείας. — Vs. 6 ἆρʼ ὡς Schweighaeuseri editio. ἄρʼ ὡς VL. ἄρα οὐκ P, qui ὡς deleto οὐκ in margine habet. Dindorfius. Non credo locum persanatum esse.</note>
+            </div>
+          <pb n="683" facs="urn:hathi:hvd.32044079388682:scan:685" />
+            <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0406-neottis-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0406-neottis-1-l1">Quisquis unquam quamquam amavit genere de meretricio,</l>
+                  <l n="2" xml:id="meineke-0406-neottis-1-l2">dicet nullum aeque scelestum posse reperiri genus.</l>
+                  <l n="3" xml:id="meineke-0406-neottis-1-l3">nam quae terribilis dracaena, quae Chimaera ignem vomens,</l>
+                  <l n="4" xml:id="meineke-0406-neottis-1-l4">quae Charybdis, quae trivertex Scylla canis Neptunia,</l>
+                  <l n="5" xml:id="meineke-0406-neottis-1-l5">Vipera, excetra, Sphinx, leaena, volucre Harpyiarum genus</l>
+                  <l n="6" xml:id="meineke-0406-neottis-1-l6">exsuperare nationem valeat exsecrabilem?</l>
+                  <l n="7" xml:id="meineke-0406-neottis-1-l7">non pote. illae quod malorum est usquam, superant malitia.</l>
+                  <l n="8" xml:id="meineke-0406-neottis-1-l8">singulas consideremus ordine. primum Plangonem,</l>
+                  <l n="9" xml:id="meineke-0406-neottis-1-l9">more quae trucis Chimaerae vastat igne barbaros:</l>
+                  <l n="10" xml:id="meineke-0406-neottis-1-l10">unus tandem eques est repertus, ipsi qui vitam abstulit:</l>
+                  <l n="11" xml:id="meineke-0406-neottis-1-l11">nam supellectile omni rapta se proripuit de domo.</l>
+                  <l n="12" xml:id="meineke-0406-neottis-1-l12">at quibus res cum Sinope est, nonne res est cum excetra?</l>
+                  <l n="13" xml:id="meineke-0406-neottis-1-l13">ipsa namque anus est; at illi iam Gnathaena agnascitur,</l>
+                  <l n="14" xml:id="meineke-0406-neottis-1-l14">pleraque illam pulchre referens, pestis ut fiat duplex.</l>
+                  <l n="15" xml:id="meineke-0406-neottis-1-l15">Nannium vero quid est quod, oro, a Scylla differat?</l>
+                  <l n="16" xml:id="meineke-0406-neottis-1-l16">nonne duobus strangulatis iam venatur tertium?</l>
+                  <l n="17" xml:id="meineke-0406-neottis-1-l17">sed remorum auxilio navis effugit periculum.</l>
+                  <l n="18" xml:id="meineke-0406-neottis-1-l18">at Charybdim noune Phryne longe post se postumat,</l>
+                  <l n="19" xml:id="meineke-0406-neottis-1-l19">quae naviculatorem absorpsit totum cum navi sua?</l>
+                  <l n="20" xml:id="meineke-0406-neottis-1-l20">at Theano Siren ipsa est, nisi quod glabro corpore,</l>
+                  <l n="21" xml:id="meineke-0406-neottis-1-l21">cui feminea vox et os est, crura qualia merulae.</l>
+                  <l n="22" xml:id="meineke-0406-neottis-1-l22">Sphinx Thebana, hoc nomen omnes in meretrices convenit,</l>
+                  <l n="23" xml:id="meineke-0406-neottis-1-l23">quae nihil dicunt aperte, sed perplexiloquis modis:</l>
+                  <l n="24" xml:id="meineke-0406-neottis-1-l24">nempe se diligere, amare et una esse libentissime.</l>
+                  <l n="25" xml:id="meineke-0406-neottis-1-l25">tum, quadrupes mibi detur, aiunt, lectus aut sedes puta,</l>
+                  <l n="26" xml:id="meineke-0406-neottis-1-l26">adde bipedem, haec est puella: veniat postremo tripes.</l>
+                  <l n="27" xml:id="meineke-0406-neottis-1-l27">haec qui intelligit, recedit illico tanquam Oedipus,</l>
+                  <l n="28" xml:id="meineke-0406-neottis-1-l28">nil sui dans, atque ita solus damni se immunem facit.</l>
+                  <l n="29" xml:id="meineke-0406-neottis-1-l29">at qui se credunt amari, sursum tolluntur statim</l>
+                  <l n="30" xml:id="meineke-0406-neottis-1-l30">coeli sublimes in auras. breviter quot sunt belluae,</l>
+                  <l n="31" xml:id="meineke-0406-neottis-1-l31">inter has est nulla, scorto quae sit pestilentior.</l>
+                </lg>
+              </quote>
+            </div>
+            <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0406-neottis-2_2">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0406-neottis-2_2-l1">Si qua ex divitibus colligens mediocria,</l>
+                  <l n="2" xml:id="meineke-0406-neottis-2_2-l2">pauperibus gratis copiam faceret sui,</l>
+                </lg>
+              </quote>
+              <pb n="684" facs="urn:hathi:hvd.32044079388682:scan:686" />
+              <lg>
+                <l n="3" xml:id="meineke-0406-neottis-2_2-l3">amice quod sic ageret eo amicae sibi</l>
+                <l n="4" xml:id="meineke-0406-neottis-2_2-l4">accepit nomen. et tu, quantum praedicas,</l>
+                <l n="5" xml:id="meineke-0406-neottis-2_2-l5">nunc incidisti in amicae, non meretriculae</l>
+                <l n="6" xml:id="meineke-0406-neottis-2_2-l6">amorem. estne ergo vere aperta et fraudium</l>
+                <l n="7" xml:id="meineke-0406-neottis-2_2-l7">expers? <sp>
+                    <speaker>B.</speaker> Venusta certe est: ita me Di iuvent.</sp>
+                </l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0406-neottis-1_2">
+              <head>Ι.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0406-neottis-1_2-l1">Ὅστις ἀνθρώπων ἑταίραν ἠγάπησε πώποτε,</l>
+                  <l n="2" xml:id="meineke-0406-neottis-1_2-l2">οὗ γένος τίς ἂν δύναιτο παρανομώτερον φράσαι;</l>
+                  <l n="3" xml:id="meineke-0406-neottis-1_2-l3">τίς γὰρ ἢ δράκαιν᾽ ἄμικτος, ἢ Χίμαιρα πυρπνόος</l>
+                  <l n="4" xml:id="meineke-0406-neottis-1_2-l4">ἢ Χάρυβδις, ἢ τρίκρανος Σκύλλα, ποντία κύων,</l>
+                  <l n="5" xml:id="meineke-0406-neottis-1_2-l5">Σφίγξ, ὕδρα, λέαιν᾽, ἔχιδνα, πτηνά θ᾽ Ἁρπυιῶν γένη,</l>
+                  <l n="6" xml:id="meineke-0406-neottis-1_2-l6">εἰς ὑπερβολὴν ἀφῖκται τοῦ καταπτύστου γένους;</l>
+                  <l n="7" xml:id="meineke-0406-neottis-1_2-l7">οὐκ ἔνεσθ᾽, αὗται δ᾽ ἁπάντων ὑπερέχουσι τῶν κακῶν.</l>
+                  <l n="8" xml:id="meineke-0406-neottis-1_2-l8">ἔστι δὲ σκοπεῖν ἀπ᾽ ἀρχῆς πρῶτα μὲν τὴν Πλαγγόνα,</l>
+                  <l n="9" xml:id="meineke-0406-neottis-1_2-l9">ἥτις ὥσπερ ἡ Χίμαιρα πυρπολεῖ τοὺς βαρβάρους.</l>
+                </lg>
+              </quote>
+            </div>
+          </div></body></text></TEI>

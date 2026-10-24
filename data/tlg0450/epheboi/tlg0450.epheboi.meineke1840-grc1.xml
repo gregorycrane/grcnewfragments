@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Ephippus, ΕΦΗΒΟΙ: fragments</title><author>Ephippus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0450.epheboi.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0450.epheboi.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0450.epheboi.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0450_epheboi"><head>ΕΦΗΒΟΙ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0450-epheboi-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0450-epheboi-1-l1">Χόνδρος μετὰ ταῦτ᾽ εἰσῆλθε, μύρον Αἰγύπτιον,</l>
+                  <l n="2" xml:id="meineke-0450-epheboi-1-l2">φοινικίνου βῖκός τις ὑπανεῴγνυτο,</l>
+                  <l n="3" xml:id="meineke-0450-epheboi-1-l3">ἴτρια τραγήμαθ᾽ ἧκε, πυραμοῦς, ἄμης,</l>
+                </lg>
+              </quote>
+              <pb n="328" facs="urn:hathi:hvd.32044079388682:scan:336" />
+              <lg>
+                <l n="4" xml:id="meineke-0450-epheboi-1-l4">ᾠῶν ἑκατόμβη. πάντα ταῦτ᾿ ἐχναύομεν.</l>
+                <l n="5" xml:id="meineke-0450-epheboi-1-l5">ἐμασώμεθ᾿ οὕτως ἀνδρικῶς ὅσ᾿ εἴχομεν·</l>
+                <l n="6" xml:id="meineke-0450-epheboi-1-l6">καὶ γὰρ παραμασύντας τινὰς παραβόσκομεν.</l>
+              </lg>
+              <note type="source">
+                <bibl>Athenaeus XIV p. 642 e.</bibl> de τράγημα disserens: <quote>Ἔφιππος Ἐφήβοις Χόνδρος κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 emendavit Iacobsius: libri μετά τ᾿ εἰσῆλθε. — Vs. 2 φοινικίνου. Ita legitur apud <bibl>Athen. I p. 29 d</bibl>: <quote>φοινικίου (sic) δὲ οἴνου μέμνηται Ἔφιππος — φοινικίνου βῖκός τις ὑπανεῴγνυτο</quote>, et <bibl>Eustathium ad Odyss. II 290 p. 1445 48</bibl>: <quote>τὸ γοῦν „οἴνου φοινικίνου βῖκός τις ὑπανεῴγνυτο” οὐ πάνυ βραχὺ ἀγγεῖον τὸν βῖκον εἶναι δηλοῖ.</quote> Libri φοινίκου. Casaubonus utroque loco voluit φοινικικοῦ, quod probarem si vinum illud a Phoenicia denominatum esset: nunc quum a φοῖνιξ dictum sit, praetuli φοινίκινον, eandemque formam etiam in alio Ephippi loco (Fragm. inc. III) reposui. Quod eodem versu legitur υπανεῴγνυτο praeter Athen. p. 642 e praebuit C et Eustathius. Libri ὑπανεώγνυται. — Vs. 3 libri fere εἶτ᾿ ἴτρια habent: recte εἶτ᾿ abest apud <bibl>Athen. II p. 58 a</bibl>, ubi tertius et quartus fragmenti versus omisso fabulae titulo iterum leguntur. Tum τραγήμαθ᾿ ἧκε debetur <bibl>Porsono Miscell. p. 246</bibl>. Similiter Coraes τραγήματά θ᾿ ἧκε. Vulgo τραγήματα θῆκε legitur: τραγήματα sine θῆκε altero loco Athenaeus p. 58. — Vs. 4 ᾠῶν ἑκατόμβη. <bibl>Eustathius p. 1205 55</bibl>: <quote>ὅμοιον δὲ καὶ τὸ „ᾠῶν ἑκατόμβη” παιχθὲν παρά τινι παλαιῷ.</quote> — Vs. 5 ante Schweighaeuserum ἐκμασώμεθ᾿. Ibid. pro οὕτως ἀνδρικῶς Dobraeus Advers. II p. 349 tentat εὖ τε κἀνδρικῶς. — Vs. 6 libri παραμασύλτας. Correxit Casaubonus.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0450-epheboi-2">
+              <head>II.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0450-epheboi-2-l1">Οὐ κύλικας ἐπὶ τὰ δεῖπνα Χαιρήμων φέρει;</l>
+                <l n="2" xml:id="meineke-0450-epheboi-2-l2">οὐ κυμβίοισι πεπολέμηκ᾿ Εὐριπίδης;</l>
+              </lg>
+              <note type="source">
+                <bibl>Athenaeus XIII p. 482 c</bibl>: <quote>ὅταν δ᾿ Ἔφιππος ἐν Ἐφήβοις λέγῃ Οὐ κύλικας — Εὐριπίδης, οὐ τὸν τραγικὸν λέγει ποιητήν, ἀλλά τινα ὁμώνυμον αὐτῷ ἤτοι φίλοινόν τινα ἢ αἰτίαν ἔχοντα οὐ χρηστήν, ὥς φησιν Ἀντίοχος ὁ Ἀλεξαν-</quote>
+              </note>
+              <pb n="329" facs="urn:hathi:hvd.32044079388682:scan:337" />
+              <note type="source">δρεὺς ἐν τῷ περὶ τῶν ἐν τῇ μέσῃ κωμῳδίᾳ κωμῳδουμένων ποιητῶν.</note>
+              <note type="apparatus">Chaeremonem dicere videtur tragicum. Ceterum Casaubono obsequutus sum illos versus per interrogationem efferenti.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0450-epheboi-3">
+              <head>III.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0450-epheboi-3-l1">Φιάλην ἑκατέρᾳ</l>
+                  <l n="2" xml:id="meineke-0450-epheboi-3-l2">ἔδωκε κεράσας ζωρότερον Ὁμηρικῶς.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus X p. 423 d: πρότερον δέ μοι λέξεται περὶ τοῦ ζωρότερον. — Ἔφιππος Ἐφήβοις <quote>Φιάλην ἑκατέρᾳ</quote> κτλ.</note>
+              <note type="apparatus">Respicit Iliad. ι 203: ζωρότερον δὲ κέραιρε. Cfr Phrynichum Ecl. p. 145. Pro ἑκατέρᾳ B habet ἑκάτερα.</note>
+            </div>
+          </div></body></text></TEI>

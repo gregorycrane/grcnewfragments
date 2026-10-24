@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Philetaerus, ΚΥΝΑΓΙΣ.: fragments</title><author>Philetaerus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0489.kynagis.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0489.kynagis.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0489.kynagis.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0489_kynagis"><head>ΚΥΝΑΓΙΣ.</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0489-kynagis-1">
+              <head>I.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0489-kynagis-1-l1">Οὐχὶ Κερκώπη μὲν ἤδη γέγον’ ἔτη τρισχίλια,</l>
+                <l n="2" xml:id="meineke-0489-kynagis-1-l2">ἡ δὲ Διοπείθους ἀειδὴς Τέλεσις ἕτερα μυρία;</l>
+                <l n="3" xml:id="meineke-0489-kynagis-1-l3">Θεολύτην δ’ οὐδ’ οἶδεν οὐδείς, ὅτε τὸ πρῶτον ἐγένετο.</l>
+                <l n="4" xml:id="meineke-0489-kynagis-1-l4">οὐχὶ Λαΐς μὲν τελευτῶσ’ ἀπέθανεν βινουμένη,</l>
+                <l n="5" xml:id="meineke-0489-kynagis-1-l5">Ἰσθμιὰς δὲ καὶ Νέαιρα κατασέσηπε καὶ Φίλα;</l>
+                <l n="6" xml:id="meineke-0489-kynagis-1-l6">Κοσσύφας δὲ καὶ Γαλήνας καὶ Κορώνας οὐ λέγω·</l>
+                <l n="7" xml:id="meineke-0489-kynagis-1-l7">περὶ δὲ Ναΐδος σιωπῶ· γομφίους γὰρ οὐκ ἔχει.</l>
+              </lg>
+              <note type="source">Athenaeus XIII p. 587 c. de meretricibus disserens: Φιλέταιρος ἐν Κυναγίδι Οὐχὶ Κερκώπη κτλ.</note>
+              <note type="apparatus">Vs. 1 Κερκώπη. Grammaticus Bekkeri Anecd. p. 271 21. Κερκώπη: ἑταίρας ὄνομα, καλουμένης οὕτω διὰ κακοήθειαν. Κέρκωπες γάρ εἰσιν οἱ κακοῦργοι ἄνθρωποι. Nisi potius a garrulitate nomen traxit. V. Alexidis Thras. vs. 2. Ibid. vulgo γεγόνει, C γέγονεν. Correxit Piersonus ad Moerin p. 112. — Vs. 3 οὐδ’ addidit Iacobsius, nisi quod minus bene οὐκ scripsit. Possis etiam δέ γ’. — Vs. 5 et 6 Φίλα. Κοσσύφας Schweighaeuserus. A φίλακος, σύφας δε. B φύλακος, σύφας. Farn. φύλακος, συφεύς. — Vs. 6 Γαλήνας PV. γαλείνας AB. γαλύνας Basil. L. Apud Hesychium, Γαλίνη: ὄνομα κύριον</note>
+              <pb n="295" facs="urn:hathi:hvd.32044079388682:scan:303" />
+              <note type="apparatus">ἑταίρας, rectius scribi Γαλήνην iam olim monui Cur. crit. 69. Alia nominis exempla vide apud Hesiodum Theog. 747. Lucianum T. I p. 124 Hal. et Athen. XV p. 679 c.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0489-kynagis-2">
+              <head>II.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0489-kynagis-2-l1">Παῦσαι γέρων ὢν τοὺς τρόπους. οὐκ οἶσθ᾽ ὅτι</l>
+                <l n="2" xml:id="meineke-0489-kynagis-2-l2">ἥδιστόν ἐστιν ἀποθανεῖν βινοῦνθ᾽ ἅμα,</l>
+                <l n="3" xml:id="meineke-0489-kynagis-2-l3">ὥσπερ λέγουσιν ἀποθανεῖν Φορμίσιον;</l>
+                <l n="4" xml:id="meineke-0489-kynagis-2-l4">τί δεῖ γὰρ ὄντα θνητόν, ἱκετεύω, ποιεῖν,</l>
+                <l n="5" xml:id="meineke-0489-kynagis-2-l5">πλὴν ἡδέως ζῆν τὸν βίον καθ᾽ ἡμέραν,</l>
+                <l n="6" xml:id="meineke-0489-kynagis-2-l6">ἐὰν ἔχῃ τις ὁπόθεν. ἀλλὰ δεῖ σκοπεῖν</l>
+                <l n="7" xml:id="meineke-0489-kynagis-2-l7">τοῦτ᾽ αὐτό, τἀνθρώπει᾽ ὁρῶντα πράγματα,</l>
+                <l n="8" xml:id="meineke-0489-kynagis-2-l8">εἰς αὔριον δὲ μηδὲ φροντίζειν ὅ τι</l>
+                <l n="9" xml:id="meineke-0489-kynagis-2-l9">ἔσται· περίεργόν ἐστιν ἀποκεῖσθαι πάνυ</l>
+                <l n="10" xml:id="meineke-0489-kynagis-2-l10">ἕωλον ἔνδον ἀργύριον.</l>
+              </lg>
+              <note type="source">Athenaeus XIII p. 570 f: <quote>ταῦτά σοι παραινεῖν ἔχω — καὶ κατὰ τὴν Φιλεταίρου Κυνηγίδα Παῦσαι — ἀποθανεῖν Φορμίσιον;</quote> Idem VI p. 280 c. de iis disserens qui voluptuosam vitam commendaverint : <quote>Φιλέταιρος Κυναγίδι Τί δεῖ γὰρ ὄντα θνητὸν κτλ.</quote>
+              </note>
+              <note type="apparatus">Coniunxi haec ad unius fragmenti perpetuitatem. — Vs. 2 ἥδιστόν ἐστιν. Ita Toupius App. ad Theocr. XXI 626. Libri οὐκ ἐστὶν ἥδιστον. — Vs. 3 vulgo Φορμήσιον. C Φοριμίσι. Correxit Schweighaeuserus. De Phormisio dixi Hist. crit. p. 182 sqq. — Vs. 4 ἱκετεύω sine σέ, ut apud Eubulum p. 260. Ita etiam ἀντιβολῶ apud Platonem fab. inc. VII 1 et Aristoph. Eccl. 1071. Cfr Dobraeus Adv. II p. 157. — Vs. 8 μηδὲ a Grotio additum. Ibidem ὅ τι Erfurdtius. Libri εἴ τι.</note>
+            </div>
+            <pb n="677" facs="urn:hathi:hvd.32044079388682:scan:679" />
+            <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0489-kynagis-2_2">
+              <head>ΚΥΝΑΓΙΣ.</head>
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0489-kynagis-2_2-l1">Hominem mortalem facere quid tandem est opus,</l>
+                  <l n="2" xml:id="meineke-0489-kynagis-2_2-l2">nisi suaviter aevum degere, atque id in diem,</l>
+                  <l n="3" xml:id="meineke-0489-kynagis-2_2-l3">si quis modo habeat unde: praeterea nihil</l>
+                  <l n="4" xml:id="meineke-0489-kynagis-2_2-l4">curandum est, quid agant homines, aut quid non agant,</l>
+                  <l n="5" xml:id="meineke-0489-kynagis-2_2-l5">nec quid futurum cras sit, nostrum est quaerere.</l>
+                  <l n="6" xml:id="meineke-0489-kynagis-2_2-l6">rex anxiorum pridianam intus pati</l>
+                  <l n="7" xml:id="meineke-0489-kynagis-2_2-l7">pecuniam iacere.</l>
+                </lg>
+              </quote>
+            </div>
+          <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0489-kynagis-3">
+              <head>III.</head>
+              <lg>
+                <l n="1" xml:id="meineke-0489-kynagis-3-l1">Οὐκ ἐτὸς ἑταίρας ἱερόν ἐστι πανταχοῦ,</l>
+                <l n="2" xml:id="meineke-0489-kynagis-3-l2">ἀλλ᾽ οὐχὶ γαμετῆς οὐδαμοῦ τῆς Ἑλλάδος.</l>
+              </lg>
+              <note type="source">Athenaeus XIII p. 572 d: <quote>περὶ δὲ τῶν ἑταιρῶν καὶ Φιλέταιρος ἐν Κυνηγίδι τάδε φησίν Οὐκ ἐτὸς κτλ.</quote> Iisdem</note>
+              <pb n="296" facs="urn:hathi:hvd.32044079388682:scan:304" />
+              <note type="apparatus">versibus usus est in Κορινθιαστῇ. Ac probabile est etiam primum fragmenti versum ὡς τακερόν, ὦ Ζεῦ, καὶ μαλακὸν τὸ βλέμμ᾽ ἔχει, in Cynegide fuisse repetitum. Ceterum non dubitari potest quin hi versus ex eadem oratione petiti sint, ex qua fragmentum secundum servatum est.</note>
+            </div>
+          </div></body></text></TEI>

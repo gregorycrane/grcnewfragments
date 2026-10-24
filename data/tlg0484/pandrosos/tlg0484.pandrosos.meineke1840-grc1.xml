@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Nicostratus, ΠΑΝΔΡΟΣΟΣ: fragments</title><author>Nicostratus</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0484.pandrosos.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0484.pandrosos.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0484.pandrosos.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0484_pandrosos"><head>ΠΑΝΔΡΟΣΟΣ</head><div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0484-pandrosos-1">
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0484-pandrosos-1-l1">Ἔπειτα τῆς αὐτῆς ὁδοῦ πρὸς Ἀερόπην</l>
+                  <l n="2" xml:id="meineke-0484-pandrosos-1-l2">ἐλθοῦσα πέμψαι στρώματ᾿ αὐτὴν αὐτίκα</l>
+                  <l n="3" xml:id="meineke-0484-pandrosos-1-l3">κέλευε καὶ παρ᾿ Ὥκιμον χαλκώματα.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XIII p. 587 d. de Ocimo, famosi nominis scorto, disserens: Νικόστρατος δὲ ὁ τῆς μέσης κωμῳδίας ποιητὴς ἐν Πανδρόσῳ οὑτωσὶ λέγων <quote>Ἔπειτα</quote> κτλ.</note>
+              <note type="apparatus">Vs. 1 Ἀερόπην prima correpta tuetur quodammodo Sophocleum illud ἰσόμοιρος ἀὴρ Electr. 87, ubi vide Hermannum. — Vs. 2 et 3 libri αὐτὴν κέλευ᾿ ἔφη καί. Emendavit Iacobsius. His scriptis video Dobraeum Advers. II p. 345 totum fragmentum fortasse rectius ita constituisse:
+  <quote>
+                  <lg>
+                    <l n="1_2" xml:id="meineke-0484-pandrosos-1-l1_2">Ἔπειτα τῆς αὐτῆς ὁδοῦ</l>
+                    <l n="2_2" xml:id="meineke-0484-pandrosos-1-l2_2">πρὸς Ἀερόπην ἐλθοῦσα πέμψαι στρώματα</l>
+                    <l n="3_2" xml:id="meineke-0484-pandrosos-1-l3_2">αὐτὴν κέλευε, φησί, καὶ παρ᾿ Ὥκιμον</l>
+                    <l n="4" xml:id="meineke-0484-pandrosos-1-l4">χαλκώματα.</l>
+                  </lg>
+                </quote>
+              </note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0484-pandrosos-2">
+              <head>II.</head>
+              <quote>
+                <sp>
+                  <lg>
+                    <l n="1" xml:id="meineke-0484-pandrosos-2-l1">Κἀγώ, φιλτάτη,</l>
+                    <l n="2" xml:id="meineke-0484-pandrosos-2-l2">μετανιπτρίδ᾿ αὐτῷ τῆς ὑγιείας ἔγχεον.</l>
+                  </lg>
+                </sp>
+                <sp>
+                  <speaker>Β.</speaker>
+                  <lg>
+                    <l n="3" xml:id="meineke-0484-pandrosos-2-l3">λαβὲ τῆς ὑγιείας δὴ σύ. φέρε, τύχἀγαθῇ.</l>
+                    <l n="4" xml:id="meineke-0484-pandrosos-2-l4">τύχη τὰ θνητῶν πράγμαθ᾿, ἡ πρόνοια δέ</l>
+                    <l n="5" xml:id="meineke-0484-pandrosos-2-l5">τυφλόν τι κἀσύντακτόν ἐστιν, ὦ πάτερ.</l>
+                  </lg>
+                </sp>
+              </quote>
+              <note type="source">Athenaeus XV p. 693 a. de ὑγιείας ποτηρίῳ in epulis posci solito disserens: Νικόστρατος Πανδρόσῳ <quote>Κἀγὼ</quote> κτλ.</note>
+              <note type="apparatus">Vs. 1 legendum videtur ἄγ᾿ ὦ φιλτάτη. Iacobsius κἆτ᾿ ὦ φιλτάτη. — Vs. 2 vulgo μετανιπτρίδα δ᾿ αὐτῷ. Α μετα-</note>
+              <pb n="286" facs="urn:hathi:hvd.32044079388682:scan:294" />
+              <note type="apparatus">
+                <quote>νίπρια δ᾽ αὐτῷ</quote>. Recte scriptus legitur hic versus in Ἀντερώσῃ, unde h. l. correctus est. — Vs. 3 libri τύχᾳ ἀγαθῇ. Schweighaeuserus τύχῃ γ̓αθῇ. V. Dindorfium ad Aristoph. Thesm. 283. — Vs. 4 τύχη τὰ θνητῶν πράγματα. Haec e Chaeremonis versu apud Stobaeum Eclog. phys. I 7 p. 196: τύχη τὰ θνητῶν πράγματ᾽ οὐκ εὐβουλία, assumpsit. Latine vertit Cicero Quaest. Tusc. V 9: <quote>vitam regit fortuna non sapientia</quote>. Eundem versum omisso auctoris nomine servavit Plutarchus de fortuna p. 97 c. Cfr Theodorum Prodr. MS apud Dobraeum Adv. II p. 66: τὸ „τύχη τὰ θνητῶν πράγματα” τῆς τραγῳδίας ἀποτεμνόμενοι. Libanius de servit. vol. II p. 67 Rsk.: ἐπαινοῦσι δὴ τὸν εἰπόντα „τύχη τὰ θνητῶν πράγματα.” Adde Eumathium VIII p. 317 Gaulm. Ceterum vulgo legitur πράγματα· πρόνοια, quod correxit Iacobsius. A quarto versu fortasse altera persona loquitur.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0484-pandrosos-3">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0484-pandrosos-3-l1">Ἀλλ᾽ ἐγχέασα θᾶττον ἀγαθοῦ δαίμονος</l>
+                  <l n="2" xml:id="meineke-0484-pandrosos-3-l2">ἀπενεγκάτω μοι τὴν τράπεζαν ἐκ ποδῶν·</l>
+                  <l n="3" xml:id="meineke-0484-pandrosos-3-l3">ἱκανῶς κεχόρτασμαι γάρ. ἀγαθοῦ δαίμονος</l>
+                  <l n="4" xml:id="meineke-0484-pandrosos-3-l4">δέχομαι. λαβοῦσ᾽ ἀπένεγκε ταύτην ἐκ ποδῶν.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus l. l. ἐν δὲ τῷ αὐτῷ δράματι καὶ τῆς ἀγαθοῦ δαίμονος κράσεως μνημονεύει, ἧς καὶ σχεδὸν πάντες οἱ τῆς ἀρχαίας κωμῳδίας ποιηταί. ἀλλ᾽ ὅ γε Νικόστρατος οὕτως φησίν <quote>Ἀλλ᾽ ἐγχέασα</quote> κτλ.</note>
+            </div>
+            </div></body></text></TEI>

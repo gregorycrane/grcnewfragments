@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΙΠΠΕΥΣ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.ippeys.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.ippeys.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.ippeys.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_ippeys"><head>ΙΠΠΕΥΣ</head><div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0402-ippeys-3">
+              <head>III.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-ippeys-3-l1">Τά τε κυμβία</l>
+                  <l n="2" xml:id="meineke-0402-ippeys-3-l2">ἆρ᾽ ἦν πρόσωπ᾽ ἔχοντα χρυσᾶ παρθένων;</l>
+                  <l n="3" xml:id="meineke-0402-ippeys-3-l3">
+                    <sp>
+                      <speaker>Β.</speaker> νὴ τὸν Δί᾽ ἦν γάρ.</sp>
+                    <sp>
+                      <speaker>Α.</speaker> ὦ τάλαιν᾽ ἐγὼ κακῶν.</sp>
+                  </l>
+                </lg>
+              </quote>
+              <note type="apparatus">
+                <bibl>Athenaeus XI p. 481 f.</bibl> de κυμβίῳ poculo agens: <quote>῎Αλεξις Ἱππεῖ Τά τε κυμβία κτλ.</quote> Vs. 2 libri ἦν sine ἆρ᾽, et vs. 3 ἔγωγε pro ἐγώ. Correxit additis personarum notis Dobraeus Adv. II p. 333.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0402-ippeys-1">
+              <head rend="center">I.</head>
+              <quote rend="verse">
+                <lg>
+                  <l n="1" xml:id="meineke-0402-ippeys-1-l1">Τοῦτ᾿ ἔστιν Ἀκαδήμεια, τοῦτο Ξενοκράτης;</l>
+                  <l n="2" xml:id="meineke-0402-ippeys-1-l2">πόλλ᾿ ἀγαθὰ δοῖεν οἱ θεοὶ Δημητρίῳ</l>
+                  <l n="3" xml:id="meineke-0402-ippeys-1-l3">καὶ τοῖς νομοθέταις, διότι τοὺς τὰς τῶν λόγων,</l>
+                  <l n="4" xml:id="meineke-0402-ippeys-1-l4">ὡς φασι, δυνάμεις παραδιδόντας τοῖς νέοις</l>
+                  <l n="5" xml:id="meineke-0402-ippeys-1-l5">ἐς κόρακας ἔρρειν φασὶν ἐκ τῆς Ἀττικῆς.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XIII p. 610 e: <quote>οὓς (φιλοσόφους) οὐ μόνον Λυσίμαχος ὁ βασιλεὺς ἐξεκήρυξε τῆς ἰδίας βασιλείας ἀπελαύνων, ἀλλὰ καὶ Ἀθηναῖοι. ῎Αλεξις γοῦν ἐν Ἵππῳ (<choice>
+                    <sic>leg. Ἱππεῖ</sic>
+                    <corr>Ἱππεῖ</corr>
+                  </choice>) φησί <quote rend="inline">Τοῦτ᾿ ἔστιν Ἀκαδήμεια κτλ.</quote>
+                </quote>
+              </note>
+              <note type="apparatus">Vs. 1 libri Ἀκαδημία. Attigit hunc versum propter Xenocratis memoriam Ionsius de Script. Philos. I 19 p. 120, non constare sibi dicens, utrum de vivo loquatur Alexis Xenocrate an de pictura eius. Immo illa verba τοῦτ᾿ ἔστιν Ἀκαδήμεια etc. ad eandem rationem dicta sunt, qua Oedipus apud Sophoclem Tyr. 1326 exclamat Ἀπόλλων τάδ᾿ ἦν, et chorus in fine Trachiniarum κοὐδὲν τούτων ὅ τι μὴ Ζεύς. Quibus adde Menandrum p. 168: πάνθ᾿ ὅσα νοοῦμεν ἢ λέγομεν ἢ πράττομεν Τύχη σ̓τίν. Cfr Matthiae ad Euripidis Troad. 99. Sunt autem senis verba philosophis irati, quod filium corruperint. — Vs. 3 νομοθέταις. Sophoclem Suniensem dicit, de cuius lege ad quam respicit Alexis v. Hist. crit. p. 394.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0402-ippeys-2">
+              <head rend="center">II.</head>
+              <quote rend="verse">
+                <lg>
+                  <l n="1" xml:id="meineke-0402-ippeys-2-l1">Καὶ θηρίκλειός τις κύλιξ, στέφανον κύκλῳ</l>
+                  <l n="2" xml:id="meineke-0402-ippeys-2-l2">ἔχουσα χρυσοῦν· οὐ γὰρ ἐπίτηκτόν τινα.</l>
+                </lg>
+              </quote>
+              <pb n="422" facs="urn:hathi:hvd.32044079388682:scan:430" />
+              <note type="apparatus">
+                <bibl>Athenaeus XI p. 471 e.</bibl> de thericleis poculis poetarum testimonia afferens: <quote>῎Αλεξις δ᾽ ἐν Ἱππεῖ Καὶ θηρίκλειος κτλ.</quote> Vs. 2 ἐπίτηκτον Coraes apud Schweighaeuserum et Porsonus Miscell. p. 248. Libri ἐπίκτητον. Aureae coronae, i. e. de solido auro factae, opponit ἐπίτηκτον, i. e. laminis aureis, quae ferrumine agglutinabantur, superductam. In titulis apud Boeckhium Corp. Inscr. 150 21 et 151 44 commemoratur κρατὴρ ὑπάργυρος ἐπίτηκτος, ubi vide editorem. Ex eadem fabulae scena sequens fragmentum petitum est.</note>
+            </div>
+          <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0402-ippeys-1_2">
+              <lg>
+                <l n="1" xml:id="meineke-0402-ippeys-1_2-l1">Hoc est Xenocrates ergo, hoc est Academia?</l>
+                <l n="2" xml:id="meineke-0402-ippeys-1_2-l2">Demetrio atque legum conditoribus</l>
+                <l n="3" xml:id="meineke-0402-ippeys-1_2-l3">bona multa Di dent, quod eos qui se praedicant</l>
+                <l n="4" xml:id="meineke-0402-ippeys-1_2-l4">tradere iuventae bene dicendi copiam,</l>
+                <l n="5" xml:id="meineke-0402-ippeys-1_2-l5">iusserunt fine ex Attico ire in rem malam.</l>
+              </lg>
+            </div>
+          </div></body></text></TEI>

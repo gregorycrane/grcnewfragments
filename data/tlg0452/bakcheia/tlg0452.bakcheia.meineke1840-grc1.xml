@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Epigenes, ΒΑΚΧΕΙΑ: fragments</title><author>Epigenes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0452.bakcheia.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0452.bakcheia.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0452.bakcheia.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0452_bakcheia"><head>ΒΑΚΧΕΙΑ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0452-bakcheia-1">
+              <head>Β Α Κ Χ Ε Ι Α. *)</head>
+              <head>I.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0452-bakcheia-1-l1">Εἶτ᾿ ἔρχεται</l>
+                  <l n="2" xml:id="meineke-0452-bakcheia-1-l2">χελιδονείων μετ᾿ ὀλίγον σκληρῶν ἁδρὸς</l>
+                  <l n="3" xml:id="meineke-0452-bakcheia-1-l3">πινακίσκος.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus III p. 75 c: χελιδονείων δὲ σύκων μνημονεύει Ἐπιγένης ἐν Βακχείᾳ (libri βραγχίᾳ) Εἶτ᾽ ἔρχεται κτλ.</note>
+              <note type="apparatus">Vs. 2 χελιδονείων Bentleius Phalar. p. 280 Lips. Libri χελιδονίων.</note>
+              <note type="footnote">*) V. Hist. crit. p. 355. Genuinus fabulae titulus non Βακχεία, quae Bentleii coniectura est, fuisse videtur, sed Βακχίας, quod viri nomen fuisse constat. Ad hanc igitur normam Athenaei loci corrigendi videntur.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" xml:id="meineke-0452-bakcheia-2">
+              <head>II.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0452-bakcheia-2-l1">Ἀλλ᾿ εἴ τις ὥσπερ χῆνα σιτευτὸν λαβὼν</l>
+                  <l n="2" xml:id="meineke-0452-bakcheia-2-l2">ἔτρεφέ με.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus IX p. 384 a. de anseribus disserens: καὶ Ἐπιγένης ἐν Βάκχαις (sic) φησίν Ἀλλ᾿ εἴ τις ὥσπερ χῆνα ἔτρεφέ με λαβὼν σιτευτόν.</note>
+              <note type="apparatus">Ita Venetus. Ceteri fere μοι pro με. Porsonus Miscell. p. 315: ἀλλ᾽ εἴ τις ὥσπερ χῆν᾽ ἐμὲ | ἔτρεφε λαβὼν σιτευτόν. Ego Dindorfium sequutus sum. Quamquam possis etiam, ἀλλ᾽ εἴ τις ὥσπερ χῆν᾽ ἔτρεφέ με παραλαβὼν | σιτευτόν.</note>
+            </div>
+          </div></body></text></TEI>

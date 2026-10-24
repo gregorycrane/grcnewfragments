@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΜΥΣΤΙΣ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.mystis.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.mystis.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.mystis.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_mystis"><head>ΜΥΣΤΙΣ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0410-mystis-1">
+              <head>I.</head>
+              <lg>
+                <sp>
+                  <speaker>Α.</speaker>
+                  <l n="1" xml:id="meineke-0410-mystis-1-l1">Σὺ δ᾽ ἀλλὰ πῖθι.</l>
+                </sp>
+                <sp>
+                  <speaker>Β.</speaker>
+                  <l n="2" xml:id="meineke-0410-mystis-1-l2">τοῦτο μέν σοι πείσομαι·</l>
+                  <l n="3" xml:id="meineke-0410-mystis-1-l3">καὶ γὰρ ἐπαγωγόν, ὦ θεοί, τὸ σχῆμά πως</l>
+                </sp>
+              </lg>
+              <pb n="89" facs="urn:hathi:hvd.32044079388682:scan:99" />
+              <lg>
+                <l n="4" xml:id="meineke-0410-mystis-1-l4">τῆς κύλικός ἐστιν ἄξιόν τε τοῦ κλέους</l>
+                <l n="5" xml:id="meineke-0410-mystis-1-l5">τοῦ τῆς ἑορτῆς. οὗ μὲν ἦμεν ἄρτι γὰρ</l>
+                <l n="6" xml:id="meineke-0410-mystis-1-l6">ἐξ ὀξυβαφίων κεραμέων ἐπίνομεν·</l>
+                <l n="7" xml:id="meineke-0410-mystis-1-l7">τούτῳ δέ, τέκνον, πολλὰ κἀγάθ᾽ οἱ θεοὶ</l>
+                <l n="8" xml:id="meineke-0410-mystis-1-l8">τῷ δημιουργῷ δοῖεν, ὃς ἐποίησέ σε,</l>
+                <l n="9" xml:id="meineke-0410-mystis-1-l9">τῆς συμμετρίας καὶ τῆς ἀφελείας οὕνεκα.</l>
+              </lg>
+              <note type="source">
+                <bibl>Athenaeus X p. 446 b.</bibl> de imperativo πῖθι disserens: <quote>Ἀντιφάνης ἐν Μύστιδι Σὺ δ᾽ ἀλλὰ κτλ.</quote> Idem <bibl>XI p. 494 c</bibl>: <quote>ὅτι δ᾽ ἐστὶ τὸ ὀξύβαφον εἶδος κύλικος μικρᾶς κεραμέας, σαφῶς παρίστησιν Ἀντιφάνης ἐν Μύστιδι διὰ τούτων· γραῦς ἐστι φίλοινος, ἐπαινοῦσα κύλικα μεγάλην καὶ ἐξευτελίζουσα τὸ ὀξύβαφον ὡς βραχύ. εἰπόντος οὖν τινος πρὸς αὐτήν „Σὺ δ᾽ ἀλλὰ πῖθι” λέγει Τοῦτο μέν σοι κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 libro X πείσομαι PVL. πίσομαι AB, „qua scriptura deceptus „epitomes auctor scripsit καὶ ὅτι ἐν χρήσει κεῖται παρὰ „Ἀντιφάνει τὸ πίσομαι ἀντὶ τοῦ πίω, relicuis verbis omis- „sis: quem sequitur Eustathius p. 1253 57.” Dindorfius. — Vs. 4 libro X cod. Α ου μεν η μεν. Β οὐ μενήμεν. PVL οὖ μέμνηται. Lib. XI cod. A οὐ μὲν οὐ μέν. Β οὔμεν οὔμεν. PVL οὐ μέν. Sequutus sum Dindorfium. Fortasse tamen praeferendum quod Lobeckius Aglaoph. p. 628 coniecit οὗ τ̓ελοῦμεν. Minus placet ratio Dobraei Advers. II p. 327 οὗ μενοῦμεν. Pro ἄρτι γὰρ XI omnes codd. ἀρτίως γάρ. VL ἀρτίως γάρον. — Vs. 5 propter ὀξυβάφια affertur a Polluce X 67: καὶ τὸ ἐν Ἀντιφάνους Μύστιδι Ἐξ ὀξυβαφίων κεραμέων ἐπίνομεν. — Vs. 6 τέκνον penultima producta in huius aetatis poetis nihil habet offensionis. — Vs. 8 ἀφελείας libro X habent AB. ἀσφαλείας PVL et lib. XI.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0410-mystis-2">
+              <lg>
+                <l n="1" xml:id="meineke-0410-mystis-2-l1">Ταῖς εὐτελείαις οἱ θεοὶ χαίρουσι γάρ·</l>
+                <l n="2" xml:id="meineke-0410-mystis-2-l2">τεκμήριον δ᾽· ὅταν γὰρ ἑκατόμβας τινὲς</l>
+                <l n="3" xml:id="meineke-0410-mystis-2-l3">θύωσιν, ἐπὶ τούτοις ἅπασιν ὕστατος</l>
+              </lg>
+              <pb n="90" facs="urn:hathi:hvd.32044079388682:scan:100" />
+              <quote>
+                <lg>
+                  <l n="4" xml:id="meineke-0410-mystis-2-l4">πάντων καὶ λιβανωτὸς ἐπετέθη,</l>
+                  <l n="5" xml:id="meineke-0410-mystis-2-l5">
+                    <label>5</label> ὡς τἄλλα μὲν τὰ πολλὰ παραναλούμενα</l>
+                  <l n="6" xml:id="meineke-0410-mystis-2-l6">δαπάνην ματαίαν οὖσαν αὐτῶν οὔνεκα,</l>
+                  <l n="7" xml:id="meineke-0410-mystis-2-l7">τὸ δὲ μικρὸν αὐτὸ τοῦτ᾽ ἀρεστὸν τοῖς θεοῖς.</l>
+                </lg>
+              </quote>
+              <note type="source">Porphyrius de Abstin. carn. II 17: ὅθεν καὶ τῶν ποιητῶν τισι διὰ τὸ γνώριμον ἀποφαίνεσθαι ἐδόκει τὰ τοιαῦτα, ὡς Ἀντιφάνει ἐν Μύστιδι λέγεται (fort. λέγοντι) Ταῖς εὐτελείαις κτλ.</note>
+              <note type="apparatus">Vs. 3 quo ἐπὶ τούτοις ἅπασι spectet vix intellegas; post θύωσιν videntur aliqua excidisse. Sequentia ita scribenda videntur: ὕστατον πόπανον ἁπάντων καὶ λιβανωτὸς ἐπετέθη, vel quod aeque expeditum est: ὕστατον πάντων πόπανόν τε καὶ λιβανωτὸς ἐπετέθη. Utrumque, πόπανον καὶ λιβανωτός, simillimo loco coniungitur a Menandro p. 50:<quote>
+                  <lg>
+                    <l n="8" xml:id="meineke-0410-mystis-2-l8">ὁ λιβανωτὸς εὐσεβὲς</l>
+                    <l n="9" xml:id="meineke-0410-mystis-2-l9">καὶ τὸ πόπανον· τοῦτ᾽ ἔλαβεν ὁ θεὸς ἐπὶ τὸ πῦρ</l>
+                    <l n="10" xml:id="meineke-0410-mystis-2-l10">ἅπαν ἐπιτεθέν.</l>
+                  </lg>
+                </quote>Cfr Boissonade ad Marini V. Proculi p. 64. — Vs. 5 scripsi ὡς τἄλλα pro edito ὥστ᾽ ἄλλα.</note>
+            </div>
+            <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0410-mystis-1_2">
+              <lg>
+                <l n="1" xml:id="meineke-0410-mystis-1_2-l1">Frugalitatis studium Dis ipsis placet:</l>
+                <l n="2" xml:id="meineke-0410-mystis-1_2-l2">argumento hoc est quod post centenos boves</l>
+                <l n="3" xml:id="meineke-0410-mystis-1_2-l3">ad sacra tus adhibetur postremo loco,</l>
+                <l n="4" xml:id="meineke-0410-mystis-1_2-l4">quo significatur, illa quae antecesserant</l>
+                <l n="5" xml:id="meineke-0410-mystis-1_2-l5">inanes esse sumptus hominum gratia,</l>
+                <l n="6" xml:id="meineke-0410-mystis-1_2-l6">exiguum at illud esse quod oblectet Deos.</l>
+              </lg>
+            </div>
+          <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0410-mystis-3">
+              <head>III.</head>
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0410-mystis-3-l1">Βούλει καὶ σύ, φιλτάτη,</l>
+                  <l n="2" xml:id="meineke-0410-mystis-3-l2">πιεῖν; <sp>
+                      <speaker>Β.</speaker> καλῶς ἔχοιμι.</sp>
+                    <sp>
+                      <speaker>Α.</speaker> τοιγαροῦν φέρε·</sp>
+                  </l>
+                  <l n="3" xml:id="meineke-0410-mystis-3-l3">μέχρι γὰρ τριῶν δεῖν φασὶ τιμᾶν τοὺς θεούς.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus X p. 441 c: οἷαι δ᾽ εἰσὶ παρὰ τοῖς Ἕλλησι μεθύουσαι αἱ γυναῖκες παραδίδωσιν Ἀντιφάνης μὲν ἐν τῇ Ἀκοντιζομένῃ οὕτω — καὶ ἐν Μύστιδι (γυναῖκες δ᾽ εἰσὶν αἱ διαλεγόμεναι) Βούλει καὶ σὺ κτλ.</note>
+              <note type="apparatus">Vs. 1 Schweighaeuserus post βούλει excidisse suspicatur δέ. Sed fortasse versus ita distinguere praestat, ut secundus versus ordiatur a verbis καλῶς ἔχοιμι, in eoque aliquid excidisse statuatur. Vs. 2 pro πιεῖν καλῶς B habet ποιεῖν καὶ ὡς. Ad ἔχοιμι desidero ἄν. — Vs. 3 καὶ ante τριῶν inserunt PVL. Ibidem δεῖν additum ab Dindorfio.</note>
+            </div>
+          </div></body></text></TEI>

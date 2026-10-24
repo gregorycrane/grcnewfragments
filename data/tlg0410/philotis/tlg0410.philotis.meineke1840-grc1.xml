@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Antiphanes, ΦΙΛΩΤΙΣ: fragments</title><author>Antiphanes</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0410.philotis.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0410.philotis.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0410.philotis.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0410_philotis"><head>ΦΙΛΩΤΙΣ</head><pb n="132" facs="urn:hathi:hvd.32044079388682:scan:142" />
+            <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0410-philotis-1">
+              <note type="source">phanis Προβατεῖ) ἐν Φιλώτιδι καὶ ταῦτα λέγει <quote>Οὐκοῦν τὸ μέν</quote> κτλ.</note>
+              <note type="apparatus">Coquus inducitur dominum suum obtundens aegre et brevissime respondentem. Ita recte Dobraeus Advers. II p. 314. Personarum vices primus indicavit Schweighaeuserus, nisi quod vs. 2 minus recte coniunxit <quote>ἕψειν ἐν ἅλμῃ φημί</quote>. At <quote>φημὶ</quote> domini est. Intellexit hoc etiam Dobraeus. — Vs. 3 editio Dindorfii γαλέον. Ibid. Α ἐνυποτριμματίζεσθαι AC. ἐν ὑποτρίμματι ζέσθαι BP. ἐν ἀποτρίμματι ζέσθαι L. Correxit Casaubonus. — Vs. 4 libri ἐγχέλιον. Illud Schweighaeuserus. Ibid. pro ἅλες libri XIV ἅλας. Nec male vide vol. II p. 866. — Vs. 7 sententiam indicavit Coraes apud Schweighaeuserum: <quote>haedi caro assa esto: caro altera autem i. e. agnina (nam opponuntur vulgo τὰ ἐρίφεια τοῖς ἀρνείοις) elixa.</quote> — Vs. 8. Schweighaeuserus <quote>„Quamvis nostro palato lien nec farctus nec nudus admodum sapiat, aliter de hoc viscere iudicarunt veteres; apud quos etiam torreri et nescio quo exquisito condimento parari solitum reperias, Athen. III p. 49 f. Ut hic sic etiam III 96 c. coniunctim nominantur σπλὴν et νῆστις.”</quote>
+              </note>
+              <pb n="132" facs="urn:hathi:hvd.32044079388682:scan:142" />
+              <lg>
+                <l n="1" xml:id="meineke-0410-philotis-1-l1">φιάλας, τριήρεις, τραγελάφους, καρχήσια,</l>
+                <l n="2" xml:id="meineke-0410-philotis-1-l2">
+                  <stage>
+                    <gap reason="editorial" />
+                  </stage> γαυλοὺς ὁλοχρύσους. <sp>
+                    <speaker>Β.</speaker> πλοῖα;</sp>
+                  <sp>
+                    <speaker>Α.</speaker> τοὺς κάδους μὲν οὖν</sp>
+                </l>
+                <l n="3" xml:id="meineke-0410-philotis-1-l3">καλοῦσι γαυλοὺς πάντες οἱ προγάστορες.</l>
+              </lg>
+              <note type="source">Athenaeus XI p. 500 e. de τραγελάφῳ poculi nomine disserens: <quote>Ἀντιφάνης Χρυσίδι Σατραποπλούτῳ κτλ.</quote>
+              </note>
+              <note type="apparatus">Vs. 1 libri σαπροπλούτῳ omisso articulo. Correxit Dobraeus Adv. II p. 335. Articulum addiderat etiam Schweighaeuserus. — Vs. 2 ἐπιτρόπους procuratores. V. Salmasius ad Script. H. A. I p. 130. — Vs. 4 τριήρεις. Athenaeus l. l. ὅτι καὶ τριήρης εἶδος ἐκπώματος Ἐπίνικος ἐν Ὑποβαλλομέναις δεδήλωκε. — Vs. 5 vulgo sine personarum vicibus scribitur ὁλοχρύσους, πλοῖα, τοὺς κάδους μὲν οὖν etc. Non recte factum esse docent particulae μὲν οὖν. Monui iam olim; nunc etiam Dobraeus. — Vs. 6 πάντες οἱ προγάστορες. Inepte vertunt cados appellant mulctralia omnes gulosi. Scribendum videtur πάντας οἳ προγάστορες, cados omnes, qui ventricosi sunt, appellant γαυλούς. Cfr ad Fragm. Cratini p. 129. Sententiam loci perspexit etiam Dobraeus, qui πάντες servato, pro οἳ scripsit ὅσοι. Sed ita eadem relinquitur ambiguitas.</note>
+            </div>
+          </div></body></text></TEI>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume III: Fragmenta Poetarum Comoediae Mediae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Alexis, ΕΛΕΝΗ: fragments</title><author>Alexis</author></titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1840</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-pages-67-68)</ref>
+          <ref target="https://archive.org/details/fragmentacomicor03meinuoft">Internet Archive scan (volume3-after-missing-pages)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044079388682">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/nyp.33433082193438">HathiTrust New York Public Library OCR</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbc">HathiTrust Harvard OCR (Volume III)</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+    <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])"><p>This pointer pattern extracts lines within fragments.</p></cRefPattern><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts fragments.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-10-23">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0402.elene.meineke1840-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0402.elene.meineke1840-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0402.elene.meineke1840-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0402_elene"><head>ΕΛΕΝΗ</head><div type="textpart" subtype="fragment" n="1" xml:id="meineke-0402-elene-1">
+              <quote>
+                <lg>
+                  <l n="1" xml:id="meineke-0402-elene-1-l1">Ὡς ὅστις αὐτῆς τῆς ἀκμῆς τῶν σωμάτων</l>
+                  <l n="2" xml:id="meineke-0402-elene-1-l2">ἐρᾷ, τὸν ἄλλον δ᾽ οὐδὲ γιγνώσκει λόγον,</l>
+                  <l n="3" xml:id="meineke-0402-elene-1-l3">τῆς ἡδονῆς ἔστ᾽, οὐχὶ τῶν φίλων φίλος,</l>
+                  <l n="4" xml:id="meineke-0402-elene-1-l4">ἀδικεῖ τε τὸν ῎Ερωτ᾽ ἐμφανῶς θνητὸς θεόν,</l>
+                  <l n="5" xml:id="meineke-0402-elene-1-l5">ἄπιστον αὐτὸν πᾶσι τοῖς ἄλλοις ποιῶν.</l>
+                </lg>
+              </quote>
+              <note type="source">Athenaeus XIII p. 563 d: <quote>῎Αλεξις Ἑλένῃ <quote>Ὡς ὅστις αὐτῆς</quote> κτλ.</quote>
+              </note>
+              <note type="apparatus">Locus ex alterutra duarum insequentium fabularum desumptus videtur. Vs. 1 ὅστις αὐτῆς τῆς ἀκμῆς. Ita</note>
+              <pb n="412" facs="urn:hathi:hvd.32044079388682:scan:420" />
+              <note type="apparatus">Iacobsius Addit. p. 297. ὅστις αὐτῆς (Α αὖ τῆς) ἀκμῆς ABP. ὅστις αὖθις ἀκμῆς C. ὅστις ἀκμῆς VL. — Vs. 2 δ' om. VL. add. P. ut coniecerat Iacobsius. Ibidem libri γινώσκει.</note>
+            </div>
+          </div></body></text></TEI>
