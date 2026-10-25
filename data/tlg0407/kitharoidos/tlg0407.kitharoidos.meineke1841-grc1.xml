@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Anaxippus, ΚΙΘΑΡΩΙΔΟΣ: fragments</title>
+        <author>Anaxippus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0407.kitharoidos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0407.kitharoidos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0407.kitharoidos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0407_kitharoidos">
+        <head>ΚΙΘΑΡΩΙΔΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0407-kitharoidos-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0407-kitharoidos-1-l1">Ζωμήρυσιν φέρ᾽· οἶσ᾽ ὀβελίσκους δώδεκα·</l>
+            <l n="2" xml:id="meineke-0407-kitharoidos-1-l2">κρεάγραν· θυείαν· τυροκνῆστιν παιδικήν·</l>
+            <l n="3" xml:id="meineke-0407-kitharoidos-1-l3">στελεόν· σκαφίδας τρεῖς· δορίδα· κοπίδας τέτταρας·</l>
+            <l n="4" xml:id="meineke-0407-kitharoidos-1-l4">οὐ μὴ πρότερον οἴσεις, θεοῖσιν ἐχθρὲ σύ,</l>
+            <l n="5" xml:id="meineke-0407-kitharoidos-1-l5">τὸ λεβήτιον· τἀκ τοῦ νίτρου· πάλιν ὑστερεῖς;</l>
+            <l n="6" xml:id="meineke-0407-kitharoidos-1-l6">καὶ τὴν κύβηλιν τὴν ἀγωνιστηρίαν.</l>
+          </lg>
+          <note type="source">Athenaeus IV p. 169 b: μαγειρικὰ δὲ σκεύη καταριθμεῖται Ἀνάξιππος ἐν Κιθαρῳδῷ οὕτως <quote>Ζωμήρυσιν</quote> κτλ.</note>
+          <note type="apparatus">Vs. 1 φέρ᾽ οἶσ᾽ Dobraeus Adv. II p. 271. Vulgo φέροις. — Vs. 2 θυείαν Schweigh. ex Eustathio ad Iliad. p. 872 12: τυροκνῆστις μαγειρικὸν σκεῦος ἦν, καθά φησι (sc. Athenaeus), καὶ ἡ ζωμήρυσις καὶ οἱ ὀβελίσκοι καὶ ἡ κρεάγρα καὶ ἡ θυεία καὶ ὁ στελεὸς καὶ αἱ κοπίδες καὶ ἡ κύβηλις καὶ ἡ χύτρα. VL θυίαν. P θαννίαν. Tum παιδικὴν haud dubie corruptum. Fort. παῖ scribendum, ut vitium nonnisi in δίκην lateat, pro quo possis e. c. λύκον, quem in instrumentis culinariis memorat Pollux. — Vs. 3 στελεὸν Schweighaeuserus recte interpretatur de ligno massae farinaceae extendendae et aequandae inserviente. Stephanus Ind. Thes. p. 58 9</note>
+          <pb n="466" facs="urn:hathi:hvd.32044098646714:scan:490" />
+          <note type="apparatus">frustra coniiciebat ἐλεόν. Ibidem δορίδα L. διρίδα ABP. „Unice verum δορίδα i. e. cultrum excoriatorium. V. Polluc. VI 89 et X 104 et Hesych. in δορίδες. Omisit illam vocem C et cum eo Eustath. ad Iliad. (l. l.) sed idem ad Iliad. β′ p. 184 8 Bas. idem vocabulum commemorans μαγειρικαὶ τράπεζαι interpretatur.“ Schweighaeuserus. — Vs. 4 libri νεύσεις. Recte Villebrunius οἴσεις. Iacobsius θήσεις. — Vs. 5 A κἀκ τοῦ λήτρου. B κἀκ τοῦ χήτρου. P κἀκ τοῦ χύτρου superscripto η. VL κἀκ τοῦ χύτρου. Th. Bergkius Comment. p. 47 tentabat καὶ λίστριον. Verum sine dubio est quod ipse reposui τὰκ τοῦ νίτρου, idque ipsum manifesto inest in Ven. codicis lectione ΛΗΤΡΟΥ h. e. ΝΙΤΡΟΥ. Quae autem fuerint illa quae τἀκ τοῦ νίτρου appellat, optime docet Hesychius vicissim hinc emendandus, Τακτονίτου: τὰ τῶν μαγείρων ξηρὰ ἀρτύματα, διὰ τὸ ἐνταῦθα (recte cod. ἔνθα) καὶ τὸ νίτρον πωλεῖσθαι. Scribendum Τἀκ τοῦ νίτρου. Ita igitur dicebantur arida condimenta (Gewürz), quoniam eodem loco prostabant quo natrum vendebatur. — Vs. 6 κύβηλιν AB et Eustathius. PVL κύβηλον. Illum cultrum autem quo sensu ἀγωνιστήριον appellet nemo adhuc docuit.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0407-kitharoidos-2">
+          <head>II.</head>
+          <note type="source">Pollux X 94: καί τοι καὶ τὴν μυιοσόβην ἔν γε τοῖς Μενάνδρου Φιλαδέλφοις ἐστὶν εὑρεῖν, καὶ ἐν Ἀναξίππου Κιθαρῳδῷ</note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0407-kitharoidos-2-l1">Μυιοσόβην λαβὼν παράστηθι ἐνθάδε.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">Cod. Voss. στάθητι. Fortasse legendum Καὶ μυιοσόβην λαβὼν παράστηθ᾽ ἐνθάδε.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

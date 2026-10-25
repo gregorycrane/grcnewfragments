@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΑΣΠΙΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.aspis.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.aspis.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.aspis.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_aspis">
+        <head>ΑΣΠΙΣ</head>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-aspis-4">
+          <head>IV.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-aspis-4-l1">Ὃ βούλεται γὰρ μόνον ὁρῶν καὶ προσδοκῶν</l>
+              <l n="2" xml:id="meineke-0541-aspis-4-l2">ἀλόγιστός ἐστι τῆς ἀληθείας κριτής.</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <bibl>Stobaeus Flor. XXIII 4.</bibl>
+          </note>
+          <note type="apparatus">Vs. 1 suspicabar <mentioned>ὁ δρῶν</mentioned> pro <mentioned>ὁρῶν</mentioned>. Sed loquitur fortasse de certo quodam homine: <foreign xml:lang="lat">cum nihil ille agat nisi quod ipse vult etc.</foreign> — Vs. 2 A et B m. s. <mentioned>ἔσται</mentioned>.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-aspis-5">
+          <head>V.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-aspis-5-l1">Ὦ τρισάθλιοι,</l>
+              <l n="2" xml:id="meineke-0541-aspis-5-l2">τί πλέον ἔχουσι τῶν ἄλλων; βίον</l>
+              <l n="3" xml:id="meineke-0541-aspis-5-l3">ὡς οἰκτρὸν ἐξαντλοῦσιν οἱ τὰ φρούρια</l>
+              <l n="4" xml:id="meineke-0541-aspis-5-l4">τηροῦντες, οἱ τὰς ἀκροπόλεις κεκτημένοι,</l>
+              <l n="5" xml:id="meineke-0541-aspis-5-l5">εἰ πάντας ὑπονοοῦσιν οὕτω ῥᾳδίως</l>
+              <l n="6" xml:id="meineke-0541-aspis-5-l6">ἐγχειρίδιον ἔχοντας αὐτοῖς προσιέναι·</l>
+              <l n="7" xml:id="meineke-0541-aspis-5-l7">οἵαν δίκην διδόασιν.</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <bibl>Stobaeus Flor. XLIX 8</bibl> in titulo de vituperio tyrannidis.</note>
+          <note type="apparatus">Vs. 2 Bentleius <mentioned>τί δῆτα πλέον</mentioned>, aut <mentioned>τί πλέον ἔχουσι δημοτῶν ἄλλων</mentioned>, quod placet. Vide edit. mai. Nisi forte <mentioned>τῶν γὰρ ἄλλων; τὸν βίον</mentioned> scribendum. Pro <mentioned>βίον</mentioned> Trinc. <mentioned>βίων</mentioned>. — Vs. 3 A post <mentioned>οἰκτρὸν</mentioned> addit <mentioned>οἱ</mentioned>. — Vs. 4 forsan <mentioned>τηροῦντες ἢ τὰς ἀκροπόλεις</mentioned> etc. — Vs. 5 Porsonus Adv. p. 292 <mentioned>οὗτοι</mentioned> pro <mentioned>οὕτω</mentioned>.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6_8" ana="#compiled-citation-normalized" xml:id="meineke-0541-aspis-6_8">
+          <head>VI — VIII.</head>
+          <note type="source">
+            <bibl>Stephanus Byz. v. Ἰβηρία p. 409</bibl> (sive apud Constant. Porphyr. de Admin. Imp. 23): <quote>ἀπὸ τοῦ Ἴβηρος γενικῆς Ἰβηρὶς τὸ θηλυκόν. „Ἑλληνὶς οὐκ Ἰβηρίς” Μένανδρος Ἀσπίδι.</quote> — <bibl>Erotianus gloss. Hippocr. p. 144.</bibl>
+            <quote>Ἔμυξεν: ἐστέναξεν. Μένανδρος ἐν Ἀσπίδι.</quote> — <bibl>Pollux X 137:</bibl>
+            <quote>κανδύταλις, οὗ μέμνηται Μένανδρος ἐν Ἀσπίδι.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-aspis-3">
+          <lg>
+            <l n="1" xml:id="meineke-0541-aspis-3-l1">Militi causam salutis, Smicrina,</l>
+            <l n="2" xml:id="meineke-0541-aspis-3-l2">reperire difficile, exiti facillimum.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="4_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-aspis-4_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-aspis-4_2-l1">Nam quia quod optat, nilque praeterea videt,</l>
+            <l n="2" xml:id="meineke-0541-aspis-4_2-l2">nimis est ineptus veritatis arbiter.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="5_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-aspis-5_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-aspis-5_2-l1">Reges o miserrimi!</l>
+            <l n="2" xml:id="meineke-0541-aspis-5_2-l2">nam quid praecipuum tandem habent? atque interim</l>
+            <l n="3" xml:id="meineke-0541-aspis-5_2-l3">quam vitam ducunt anxiam, custodiis</l>
+            <l n="4" xml:id="meineke-0541-aspis-5_2-l4">septi undequaque et munimentis arcium?</l>
+            <l n="5" xml:id="meineke-0541-aspis-5_2-l5">nam qui tam facile suspicantur singulos</l>
+            <l n="6" xml:id="meineke-0541-aspis-5_2-l6">ad sese armatos pugione accedere,</l>
+            <l n="7" xml:id="meineke-0541-aspis-5_2-l7">supplicia pendunt quanta!</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-aspis-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-aspis-1-l1">Ἔχων τὴν ἀσπίδα</l>
+              <l n="2" xml:id="meineke-0541-aspis-1-l2">ἔκειτο συντετριμμένην.</l>
+            </lg>
+          </quote>
+          <note type="source">Scholiasta Aristoph. Acharn. 283: τῷ δὲ συντριβείη (<choice>
+              <sic>leg. συντρίβειν</sic>
+              <corr>leg. συντρίβειν</corr>
+            </choice>) καὶ Μένανδρος κέχρηται ἐν Λευκαδίᾳ καὶ ἐν Ἀσπίδι <quote>Ἔχων τὴν ἀσπίδα ἔκειτο συντετριμμένην</quote>.</note>
+          <note type="apparatus">Ex eadem fabulae parte sequens fragmentum petitum videtur.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-aspis-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-aspis-2-l1">Πολλοὶ γὰρ ἐκλελοιπότες</l>
+              <l n="2" xml:id="meineke-0541-aspis-2-l2">τὸν χάρακα τὰς κώμας ἐπόρθουν.</l>
+            </lg>
+          </quote>
+          <note type="source">Harpocratio p. 188 16: Χάρακα τὸ χαράκωμα ὃ περιεβάλλοντό τινες στρατοπέδῳ ἐπὶ σωτηρίᾳ. καὶ Μένανδρος Ἀσπίδι <quote>Πολλοὶ γάρ</quote> κτλ. Habent etiam Suidas et Zonaras.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-aspis-3_2">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-aspis-3_2-l1">Στρατιώτην, Σμικρίνη, σωτηρίας</l>
+              <l n="2" xml:id="meineke-0541-aspis-3_2-l2">ἔστ᾽ ἔργον εὑρεῖν πρόφασιν, ὀλέθρου δ᾽ εὔπορον.</l>
+            </lg>
+          </quote>
+          <pb n="92" facs="urn:hathi:hvd.32044098646714:scan:116" />
+          <note type="source">
+            <bibl>Stobaeus Flor. LIII 5.</bibl>
+          </note>
+          <note type="apparatus">Pro <mentioned>Σμικρίνη</mentioned>, quae Bentleii emendatio est, vulgo <mentioned>σμικρὸν ἡ</mentioned>. Firmat lectio cod. A <mentioned>σμικρὴν ἡ</mentioned>.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΣΙΚΕΛΙΚΟΣ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.sikelikos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.sikelikos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.sikelikos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_sikelikos">
+        <head>ΣΙΚΕΛΙΚΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0487-sikelikos-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0487-sikelikos-1-l1">῎Αλλῳ πονοῦντι ῥᾴδιον παραινέσαι</l>
+            <l n="2" xml:id="meineke-0487-sikelikos-1-l2">ἐστίν, ποιῆσαι δ᾽ αὐτὸν οὐχὶ ῥᾴδιον.</l>
+            <l n="3" xml:id="meineke-0487-sikelikos-1-l3">τεκμήριον δέ· τοὺς ἰατροὺς οἶδ᾽ ἐγὼ</l>
+            <l n="4" xml:id="meineke-0487-sikelikos-1-l4">ὑπὲρ ἐγκρατείας τοῖς νοσοῦσιν εὖ σφόδρα</l>
+            <l n="5" xml:id="meineke-0487-sikelikos-1-l5">πάντας λαλοῦντας, εἶτ᾽ ἐπὰν πταίσωσί τι,</l>
+            <l n="6" xml:id="meineke-0487-sikelikos-1-l6">αὐτοὺς ποιοῦντας πάνθ᾽ ὅσ᾽ οὐκ εἴων τότε.</l>
+            <l n="7" xml:id="meineke-0487-sikelikos-1-l7">ἕτερον τό τ᾽ ἀλγεῖν καὶ θεωρεῖν ἐστ᾽ ἴσως.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. CII 4 et addito fabulae titulo inde a verbis <quote>τοὺς ἰατροὺς οἶδ᾽ ἐγώ</quote> CXIV 1.</note>
+          <note type="apparatus">Vs. 1 libri ἄνθρω-</note>
+          <pb n="25" facs="urn:hathi:hvd.32044098646714:scan:49" />
+          <note type="apparatus">πον ὄντα. Correxit Bentleius. — Vs. 3 vulgo τεκμήριον δὲ τοὺς ἰατροὺς οἶδ᾽ etc. Correxit interpunctionem Schaeferus. Idem post articulum γὰρ inseri voluit. Quod si necessarium esset, probabilius possis οἶδα γὰρ pro οἶδ᾽ ἐγώ. Sed v. Xenoph. Anab. I 9 29. Menandri Δεισιδαιμ. IV et quae in edit. mai. attuli. — Vs. 5 pro ἐπὰν plerique codd. ἐάν. — Vs. 6 τότε, tum quum ipsi aliorum morbos curabant, h. e. antea. V. edit. mai. — Vs. 7 ἕτερον fere codd. ἑτέρων vulgo. Ante θεωρεῖν articulum addidit Brunckius Poet. gnom. p. 196. Sed vide edit. mai.</note>
+        </div>
+        <pb n="734" facs="urn:hathi:hvd.32044098646714:scan:760" />
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0487-sikelikos-1_2">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0487-sikelikos-1_2-l1">Facile omnes homines aliis consilium damus,</l>
+            <l n="2" xml:id="meineke-0487-sikelikos-1_2-l2">sed in re nostra non tam facile est exsequi.</l>
+            <l n="3" xml:id="meineke-0487-sikelikos-1_2-l3">a medicis argumentum est in promtu situm,</l>
+            <l n="4" xml:id="meineke-0487-sikelikos-1_2-l4">praecepta videas quos dare invalentibus</l>
+            <l n="5" xml:id="meineke-0487-sikelikos-1_2-l5">victus severi: at ipsi si in morbo cubent,</l>
+            <l n="6" xml:id="meineke-0487-sikelikos-1_2-l6">eadem illa facere quae aliis interdixerant.</l>
+            <l n="7" xml:id="meineke-0487-sikelikos-1_2-l7">credo una nolunt dolor esse et curatio.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0487-sikelikos-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-sikelikos-2-l1">Ἐγὼ πρότερον μὲν ᾠόμην τὴν Σικελίαν</l>
+              <l n="2" xml:id="meineke-0487-sikelikos-2-l2">ἓν τοῦτ᾽ ἀπότακτον αὐτὸ τοὺς τυροὺς ποιεῖν</l>
+              <l n="3" xml:id="meineke-0487-sikelikos-2-l3">καλούς· ἔτι ταῦτα προσετίθην ἀκηκοώς,</l>
+              <l n="4" xml:id="meineke-0487-sikelikos-2-l4">ἱμάτια ποικίλ᾽ εἰ λέγοι τις Σικελικά.</l>
+              <l n="5" xml:id="meineke-0487-sikelikos-2-l5">σκεύη μὲν οὖν καὶ κτήματ᾽ ᾠόμην φέρειν.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XIV p. 658 b: Φιλήμων ἐν τῷ ἐπιγραφομένῳ Σικελικῷ <quote rend="merge">Ἐγὼ πρότερον μέν</quote> κτλ.</note>
+          <note type="apparatus">Vs. 1 libri ὤμην. Correxit Bentleis. Praeterea recte puto Dobraeus Adv. II p. 288 τῇ Σικελίᾳ, dativum ab ἀπότακτον suspendens. — Vs. 3 libri ἔτι τε correxit Bentleius. Post ἀκηκοὼς quae in libris adduntur verba: τυρὸς Σικελικὸς ὅτι κράτιστος ἦν αἵ τε περιστεραὶ Σικελικαί, delevit Bentleius. Ea qui servare voluit Dobraeus, parum probabiliter coniecit ὁ πυρὸς ὅτι κράτιστος αἵ τε περιστεραί.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0487-sikelikos-2_2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0487-sikelikos-2_2-l1">Equidem putabam, hoc proprium et eximium sibi</l>
+            <l n="2" xml:id="meineke-0487-sikelikos-2_2-l2">Siciliam habere, ut caseos faciat bonos;</l>
+            <l n="3" xml:id="meineke-0487-sikelikos-2_2-l3">hoc unum: ex fama adieci praeterea alterum,</l>
+            <l n="4" xml:id="meineke-0487-sikelikos-2_2-l4">Siculas vocari varias vestes audiens:</l>
+            <l n="5" xml:id="meineke-0487-sikelikos-2_2-l5">ergo textilia hanc ferre credebam et greges.</l>
+          </lg>
+          <pb n="735" facs="urn:hathi:hvd.32044098646714:scan:761" />
+          <lg>
+            <l n="6" xml:id="meineke-0487-sikelikos-2_2-l6">quid si accepissem scarum? quid si ex Attica</l>
+            <l n="7" xml:id="meineke-0487-sikelikos-2_2-l7">glauciscum, pro dî summi, aut ex Argis aprum,</l>
+            <l n="8" xml:id="meineke-0487-sikelikos-2_2-l8">aut congrum amica de Sicyone qui venit,</l>
+            <l n="9" xml:id="meineke-0487-sikelikos-2_2-l9">coenam Neptunus quam caelitibus fert deis?</l>
+            <l n="10" xml:id="meineke-0487-sikelikos-2_2-l10">certe convivas cunctos fecissem deos.</l>
+            <l n="11" xml:id="meineke-0487-sikelikos-2_2-l11">reperi immortalitatem: nam iam mortui</l>
+            <l n="12" xml:id="meineke-0487-sikelikos-2_2-l12">in vitam redeunt, si quid olfaxint mei.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0487-sikelikos-3">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-sikelikos-3-l1">Τὸ δὴ λεγόμενον τοῦτο Μυσῶν ἔσχατον</l>
+              <l n="2" xml:id="meineke-0487-sikelikos-3-l2">ἐνόμιζεν ὁρᾶν τὸν υἱὸν ἐκπλέονθ᾽ ὁρῶν.</l>
+            </lg>
+          </quote>
+          <note type="source">Scholiasta Eurip. Rhes. 248: τῆς „ἔσχατος Μυσῶν” παροιμίας μέμνηται Φιλήμων ἐν σκελετῷ <quote rend="merge">Τὸ δὴ λεγόμενον</quote> κτλ.</note>
+          <note type="apparatus">Recte L. Dindorfius Σικελῷ vel Σικελικῷ. Versu altero legendum videtur νόμιζ᾽ ὁρᾶν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0487-sikelikos-4">
+          <head>IV.</head>
+          <note type="source">Pollux IV 175: ἔνιοι δὲ καὶ τῶν Ἀθήνησι κωμῳδούντων τῶν νέων, οἷον Φιλήμων ἐν Σικελικῷ — λίτρας μνη-</note>
+          <pb n="26" facs="urn:hathi:hvd.32044098646714:scan:50" />
+          <note type="source">μονεύουσι. Idem IX 81: ὅτι δὲ καὶ τῶν κωμῳδῶν τινες τῆς λίτρας μνημονεύουσιν, ἐν τοῖς περὶ στατικῆς προείρηται. οὐ γὰρ οἱ Δωριεῖς μόνον ἀλλὰ καὶ τῶν Ἀττικῶν τινες, ὡς Δίφιλος ἐν Σικελικῷ·</note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-sikelikos-4-l1">Οἷον ἀγοράζειν πάντα, μηδὲ ἓν δ᾽ ἔχειν,</l>
+              <l n="2" xml:id="meineke-0487-sikelikos-4-l2">εἰ μὴ κικίννους ἀξίους λίτραιν δυεῖν.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">Quum Pollux manifesto ad priora verba, ubi Philemonis Σικελικὸν laudavit, respiciat, non male opinor Diphilo Philemonem substituas. Quae nomina quam facile permutari potuerint, in promptu est. Eiusdem permutationis exempla praebet margo Gesnerianus Stobaei Serm. CVI p. 569 49. Vide Fragm. Inc. 46 b. et 51 d. Dubitationem tamen iniicit Photii glossa Lex. p. 166: λίτρα ἦν μὲν καὶ νόμισμά τι, ὡς Δίφιλος. Ac fortasse scripserat Pollux: ὡς Δίφιλος, καὶ Φιλήμων Σικελικῷ. Bentleius Resp. ad Boyl. p. 413 Lips. rem ita componere conatus est, ut iam a veteribus dubitatum fuisse statuat, uter eius fabulae auctor habendus esset.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

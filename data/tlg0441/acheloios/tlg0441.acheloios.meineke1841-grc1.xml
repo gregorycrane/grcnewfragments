@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Demonicus, ΑΧΕΛΩΙΟΣ: fragments</title>
+        <author>Demonicus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0441.acheloios.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0441.acheloios.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0441.acheloios.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0441_acheloios">
+        <head>ΑΧΕΛΩΙΟΣ</head>
+        <div type="textpart" subtype="fragment" n="local_p0570_u3" ana="#compiled-citation-normalized" xml:id="meineke-0441-acheloios-local_p0570_u3">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0441-acheloios-local_p0570_u3-l1">Ἐσπουδάκει δ᾽ ἕκαστος, ὡς ἂν ἑστιῶν</l>
+              <l n="2" xml:id="meineke-0441-acheloios-local_p0570_u3-l2">ἅμα τ᾽ ὀξύπεινον ἄνδρα καὶ Βοιώτιον·</l>
+              <l n="3" xml:id="meineke-0441-acheloios-local_p0570_u3-l3">τὸ γοῦν κατὰ χειρὸς περιγράφει πᾶς, ὅτι μετά</l>
+              <l n="4" xml:id="meineke-0441-acheloios-local_p0570_u3-l4">τὸ δεῖπνον αὐτῷ τοῦτο γίγνεται λαβεῖν.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus IX p. 410 d: Πολέμων ἐν ἕκτῳ τῶν πρὸς Ἀντίγονον καὶ Ἀδαῖον περὶ τῆς διαφορᾶς λέγει τοῦ κατὰ χειρὸς πρὸς τὸ νίψασθαι. Δημόνικος δ᾽ ἐν τῷ Ἀχελωνίῳ τὸ πρὸ τοῦ δείπνου κατὰ χειρός φησι διὰ τούτων <quote>Ἐσπουδάκει κτλ.</quote>
+          </note>
+          <note type="apparatus">Spectant haec ad Aristophanis aliorumque grammaticorum doctrinam, qui τὸ κατὰ χειρὸς et τὸ ἀνονίψασθαι Atticos ita distinxisse statuebant, ut illud de manuum lavatione ante coenam, ἀπονίψασθαι autem de lavatione post coenam diceretur. Vide Athenaeum VIII p. 408 f. Eadem Polemonis fuisse videtur doctrina; ex quo consentaneum est, quod proxime subiicitur Demonici testimonium eo consilio Athenaeum attulisse, ut Demonicum κατὰ χειρὸς de utraque lavatione dixisse doceret. Hinc suspicari licet Athenaei verba luxata et ita redintegranda esse: ἐν τῷ Ἀχελωνίῳ τό τε πρὸ τοῦ δείπνου [καὶ τὸ μετὰ τὸ δεῖπνον] κατὰ χειρός φησι διὰ τούτων. Tale quid nisi dicere voluit Athenaeus, prorsus inutilis erat Demonici citatio, quum τὸ κατὰ χειρὸς de lavatione manuum ante coenam peragenda dici plurimis exemplis iam in superioribus docuerit. Ceterum verba τὸ γοῦν κατὰ χειρὸς etc. non Athenaei esse, cui vulgo tribuuntur, sed cum prioribus Demonici versibus coniungenda esse, et res ipsa docet et monuit iam Schweighaeuserus, cui miror</note>
+          <note type="footnote">*) V. Hist. crit. p. 492. Fortasse tamen recte Dalecampius Ἀχελῷος fabulae titulum fecit.</note>
+          <pb n="571" facs="urn:hathi:hvd.32044098646714:scan:595" />
+          <note type="apparatus">non obsequutum esse Dindorfium, qui poetae locum vs. 2 terminavit. Vs. 1 propter περιγράφει, quod vs. 3 legitur, malim ἐσπούδακεν, quod praesentis significationem habet. Vide Lehrsium Quaest. epic. p. 288. Potest tamen etiam vulgatum ferri. Tum ἑστιῶν verissime Casaubonus a Dindorfio neglectus. Vulgo ἐσθίων. Hoc enim dicit, accelerasse convivas coenam quasi famelicum et multivorum virum hospitio exciperent. — Vs. 2 fort. μάλ᾽, vel ἅμ᾽, ὀξύπεινον. — Vs. 3 περιγράφει, tollit, omittit, quod frequens recentioribus Attici fere διαγράφειν dicebant. Recte Grammaticus Mediceus apud Ruhnkenium ad Tim. p. 82: Διάγραφε, μὴ περίγραφε. Cfr Hemsterhusium Anecd. p. 255. Tum πᾶς AB. Vulgo πως. — Vs. 4 addidi τό.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

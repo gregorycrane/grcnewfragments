@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΠΑΡΕΙΣΙΩΝ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.pareision.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.pareision.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.pareision.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_pareision">
+        <head>ΠΑΡΕΙΣΙΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0487-pareision-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0487-pareision-1-l1">Τοὺς ἐν τῇ πόλει</l>
+            <l n="2" xml:id="meineke-0487-pareision-1-l2">μάρτυρας ἔχω γάρ, ὅτι μόνος φύσκην ποιῶ,</l>
+            <l n="3" xml:id="meineke-0487-pareision-1-l3">κάνδαυλον, ᾠά, θρῖον, ἐν στενῷ. τί γὰρ</l>
+            <l n="4" xml:id="meineke-0487-pareision-1-l4">τούτων διάπτωμ’ ἐγένετ’ ἢ ’μάρτημα τί;</l>
+          </lg>
+          <note type="source">Athenaeus XII p. 516 f: <quote>μνημονεύει τοῦ κανδαύλου καὶ Φιλήμων ἐν Παρεισιόντι οὕτως Τοὺς ἐν κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 3 addidi γάρ. Ibid. ἐν στενῷ, brevi tempore? Menander Ploc. IX 2: <quote>μικρόν τι τὸ βίου καὶ στενὸν ζῶμεν χρόνον.</quote> Sunt autem coqui verba, ex cuius sermone etiam sequens fragm. servatum est.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0487-pareision-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0487-pareision-2-l1">Περὶ τοὐπτάνιον οὐ γίγνεθ’ ἡ σκευωρία·</l>
+            <l n="2" xml:id="meineke-0487-pareision-2-l2">τραπεζοποιός ἐστ’ ἐπὶ τοῦ διακονεῖν.</l>
+          </lg>
+          <note type="source">Athenaeus IV p. 170 f: <quote>ἐκάλουν δὲ τραπεζοποιὸν τὸν τραπεζῶν ἐπιμελητὴν καὶ τῆς ἄλλης εὐκοσμίας. Φιλήμων</quote>
+          </note>
+          <pb n="19" facs="urn:hathi:hvd.32044098646714:scan:43" />
+          <note type="apparatus">
+            <quote>Παρεισιόντι Περὶ τοὐπτάνιον κτλ.</quote> Quibus verbis ille τῷ τραπεζοποιῷ importunam diligentiam exprobrat. Similis Plauti iocus Mostell. init. „Exi e culina — qui mi inter patinas exhibes argutias". Vs. 1 τοὐπτάνιον ABP. τοὐπτάνειον V. τοὐπτανεῖον L. Ibid. ABP γίνεται. Tum libri σκεπτωρία. Correxit post Pursanum apud Villebrunium Schneiderus in lexico.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

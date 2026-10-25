@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Apollodorus Carystius vel Gelous, ΛΑΚΑΙΝΑ: fragments</title>
+        <author>Apollodorus Carystius vel Gelous</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0412.lakaina.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0412.lakaina.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0412.lakaina.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0412_lakaina">
+        <head>ΛΑΚΑΙΝΑ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0412-lakaina-1">
+          <lg>
+            <l n="1" xml:id="meineke-0412-lakaina-1-l1">Μὴ καταφρόνει, Φιλῖν', ἐθῶν γεροντικῶν,</l>
+            <l n="2" xml:id="meineke-0412-lakaina-1-l2">οἷς ἔνοχος, εἰς τὸ γῆρας ἂν ἔλθῃς, ἔσει.</l>
+            <l n="3" xml:id="meineke-0412-lakaina-1-l3">ἀλλὰ μέγα τοῦθ' οἱ πατέρες ἠλαττώμεθα·</l>
+            <l n="4" xml:id="meineke-0412-lakaina-1-l4">ὑμεῖς μὲν ὠνειδίσατ', ἐάν τι μὴ ποιῇ</l>
+            <l n="5" xml:id="meineke-0412-lakaina-1-l5">ὁ πατὴρ προθύμως, οὐ γέγονας αὐτὸς νέος;</l>
+            <l n="6" xml:id="meineke-0412-lakaina-1-l6">τῷ δὲ πατρὶ πρὸς τὸν υἱόν, ἂν ἀγνωμονῇ,</l>
+            <l n="7" xml:id="meineke-0412-lakaina-1-l7">οὐκ ἔστιν εἰπεῖν, οὐ γέγονας αὐτὸς γέρων;</l>
+          </lg>
+          <note type="source">Stobaeus Flor. CXVI 35 cum lemmate Ἀπολλοδώρου Λακαίνης.</note>
+          <note type="apparatus">Vs. 1 ante Grotium legebatur φιλεῖν. Ibidem scripsi ἐθῶν pro vulgato ἐτῶν, quod cur ferri non possit exposui in Praefatione ad Menandrum p. XVIII. — Vs. 3 legebatur τοῦθ' οὗ πατέρες. Correxi l. 1. τοῦθ' οἱ πατέρες, quod nunc Gaisfordi codd. confirmant. — Vs. 4 ὑμεῖς μὲν codd. et Grotius pro vulgato ἡμεῖς. — Vs. 5 legebatur πρό θ' ἡμῶν. Codd. πρόθ' ὑμῶν. Scripsi προθύμως. V. Praefat. Menandri l. 1. — Vs. 6 legebatur ἐάν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0412-lakaina-2">
+          <lg>
+            <l n="1" xml:id="meineke-0412-lakaina-2-l1">Φυσικὸν τοῦθ' ἕκαστον ἐν ταῖς ἀτυχίαις</l>
+            <l n="2" xml:id="meineke-0412-lakaina-2-l2">ἥδιστα τοῦθ' ὁ τοὺς ὁμοιοπαθεῖς ὀδύρεται.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. CXIII 7 cum lemmate Ἀπολλοδώρου ἐκ Λακαίνης.</note>
+          <note type="apparatus">Ita cod. A. Editi ἥδιστα τοῦθ' ὃς τοὺς ὁμοπαθεῖς. Grotius: φυσικὸν τόδ' ὅτι ἕκαστος ἐν ταῖς ἀτυχίαις ἥδιστα πρὸς τοὺς ὁμοπαθεῖς. Partim recte, partim secus. Scribendum:</note>
+          <pb n="453" facs="urn:hathi:hvd.32044098646714:scan:477" />
+          <quote>
+            <lg>
+              <l n="3" xml:id="meineke-0412-lakaina-2-l3">Φυσικόν γε τοῦθ᾽· ἕκαστος ἐν ταῖς ἀτυχίαις</l>
+              <l n="4" xml:id="meineke-0412-lakaina-2-l4">ἥδιστα πρὸς τοὺς ὁμοπαθεῖς ὀδύρεται..</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0412-lakaina-1_2">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0412-lakaina-1_2-l1">Annos seniles ne, Philine, spreveris,</l>
+            <l n="2" xml:id="meineke-0412-lakaina-1_2-l2">ad quos pervenies et tu vivendo diu.</l>
+            <l n="3" xml:id="meineke-0412-lakaina-1_2-l3">sed unum est in quo a vobis patres vincimur:</l>
+            <l n="4" xml:id="meineke-0412-lakaina-1_2-l4">nam si qua in re minus indulgemus, illico</l>
+            <l n="5" xml:id="meineke-0412-lakaina-1_2-l5">audimus, Non fuisti iuvenis tu quoque?</l>
+            <l n="6" xml:id="meineke-0412-lakaina-1_2-l6">at contra genitor nato morigero minus</l>
+            <l n="7" xml:id="meineke-0412-lakaina-1_2-l7">haud est ut dicat, Non fuisti et tu senex?</l>
+          </lg>
+        </div>
+        <pb n="831" facs="urn:hathi:hvd.32044098646714:scan:857" />
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0412-lakaina-2_2">
+          <lg>
+            <l n="1" xml:id="meineke-0412-lakaina-2_2-l1">Ita est miseriae ingenium, ut vice sit gaudii</l>
+            <l n="2" xml:id="meineke-0412-lakaina-2_2-l2">cum lamentari apud eadem patientes licet.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

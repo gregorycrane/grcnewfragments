@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΠΕΡΙΝΘΙΑ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.perinthia.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.perinthia.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.perinthia.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_perinthia">
+        <head>ΠΕΡΙΝΘΙΑ</head>
+        <pb n="187" facs="urn:hathi:hvd.32044098646714:scan:211" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-perinthia-1">
+          <head>Ι.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-perinthia-1-l1">Ὅστις παραλαβὼν δεσπότην ἀπράγμονα</l>
+              <l n="2" xml:id="meineke-0541-perinthia-1-l2">καὶ κοῦφον ἐξαπατᾷ θεράπων, οὐκ οἶδ᾽ ὅ τι</l>
+              <l n="3" xml:id="meineke-0541-perinthia-1-l3">οὗτος μεγαλεῖόν ἐστι διαπεπραγμένος,</l>
+              <l n="4" xml:id="meineke-0541-perinthia-1-l4">ἐπαβελτερώσας τόν ποτ᾽ ὄντ᾽ ἀβέλτερον.</l>
+            </lg>
+          </quote>
+          <note type="source">Suidas, <quote>Ἀβέλτερος: ἀνόητος, ἀσύνετος, ὁ τὸ βέλτιον μὴ γινώσκων — Μένανδρος Περινθίᾳ <quote>Ὅστις παραλαβὼν</quote> κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 2 Porsonus Adv. p. 255 οὐκ οἶσθ᾽ ὅτι. Sed vide Bentleium. — Vs. 4 Scaliger ποτ᾽ ὄντ᾽ pro ποτε. Grotius τὸ πρόσθ᾽.</note>
+        </div>
+        <pb n="189" facs="urn:hathi:hvd.32044098646714:scan:213" />
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-perinthia-1_2">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-perinthia-1_2-l1">Quicunque dominum nactus vecordem ac rudem</l>
+              <l n="2" xml:id="meineke-0541-perinthia-1_2-l2">tractavit illum servus doctis astubus,</l>
+              <l n="3" xml:id="meineke-0541-perinthia-1_2-l3">ignoro quantae molis rem confecerit,</l>
+              <l n="4" xml:id="meineke-0541-perinthia-1_2-l4">quod exstupidavit illum qui stupidus fuit.</l>
+            </lg>
+          </quote>
+        </div>
+        <pb n="187" facs="urn:hathi:hvd.32044098646714:scan:211" />
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-perinthia-2">
+          <head>ΙΙ.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-perinthia-2-l1">Οὐπώποτ᾽ ἐζήλωσα πολυτελῆ νεκρόν·</l>
+              <l n="2" xml:id="meineke-0541-perinthia-2-l2">εἰς τὸν ἴσον ὄγκον τῷ σφόδρ᾽ ἔρχετ᾽ εὐτελεῖ.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. CXXII. 2.</note>
+          <note type="apparatus">Altero versu libri τόν δ᾽ ἴσον. Bentleius <quote>εἰς τὸν ἴσον οἶκον</quote>, quod verum videtur. Vide quae in edit. mai. annotavi.</note>
+        </div>
+        <pb n="189" facs="urn:hathi:hvd.32044098646714:scan:213" />
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-perinthia-2_2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-perinthia-2_2-l1">Nunquam laudavi sumtuosum mortuum:</l>
+              <l n="2" xml:id="meineke-0541-perinthia-2_2-l2">namque in idem cum vili atque contemto redit.</l>
+            </lg>
+          </quote>
+        </div>
+        <pb n="187" facs="urn:hathi:hvd.32044098646714:scan:211" />
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-perinthia-3">
+          <head>ΙΙΙ.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-perinthia-3-l1">Ὅσ᾽ ἐστὶ μαλακὰ συλλαβὼν</l>
+              <l n="2" xml:id="meineke-0541-perinthia-3-l2">ἐκ τῆς πόλεως τὸ σύνολον ἐκπήδα, φίλος.</l>
+            </lg>
+          </quote>
+          <note type="source">Pollux X 12: <quote>ἐκαλεῖτο δὲ ταῦτα ὑπὸ τῶν νεωτέρων μαλακά, ὥσπερ εὐμεταχείριστα, ὡς εἶπε Μένανδρος ἐν τῇ Περινθίᾳ <quote>Ὅσ᾽ ἐστί</quote> κτλ.</quote>
+          </note>
+          <note type="apparatus">Ita Bentleius. Editur ὅ ἐστι μαλακὸν et ἐκπηδᾷ. Cod. ὅ ἐστι μαλὰ καί. Pro φίλος, quod pro vulgato θᾶττον codex praebuit, fortasse in attico poeta expectabas φίλε, vel certe ὦ φίλος. Scribendum videtur Φίλων. Illud θᾶττον autem fortasse in sequentis versus initio positum erat.</note>
+        </div>
+        <pb n="188" facs="urn:hathi:hvd.32044098646714:scan:212" />
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-perinthia-4">
+          <head>IV.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-perinthia-4-l1">Ἐπὶ τῶν ἁμαξῶν εἰσι πομπεῖαί τινες</l>
+              <l n="2" xml:id="meineke-0541-perinthia-4-l2">σφόδρα λοίδοροι.</l>
+            </lg>
+          </quote>
+          <note type="source">Harpocratio p. 155 12: <quote>Πομπείας καὶ πομπεύειν ἀντὶ τοῦ λοιδορίας καὶ λοιδορεῖν. — ἡ μεταφορὰ δὲ ἀπὸ τῶν ἐν ταῖς Διονυσιακαῖς πομπαῖς ἐπὶ τῶν ἁμαξῶν λοιδορουμένων ἀλλήλοις. Μένανδρος Περινθίᾳ Ἐπὶ τῶν ἁμαξῶν κτλ.</quote>
+          </note>
+          <note type="apparatus">Eadem habet Photius et ex Photio Suidas.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-perinthia-5">
+          <head>V.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-perinthia-5-l1">Οὐδεμίαν ἡ γραῦς ὅλως</l>
+              <l n="2" xml:id="meineke-0541-perinthia-5-l2">κύλικα παρῆκεν, ἀλλὰ πίνει τὴν κύκλῳ.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XI p. 504 a: <quote>ἔδωκε (τὴν φιάλην) τῷ παιδὶ περισοβεῖν ἐν κύκλῳ κελεύσας, τὸ κύκλῳ πίνειν τοῦτ᾽ εἶναι λέγων, παρατιθέμενος Μενάνδρου ἐκ Περινθίας Οὐδεμίαν κτλ.</quote>
+          </note>
+          <note type="apparatus">De temulenta obstetrice apud Terent. Andr. I 4 et 5 haec dicta censet Grauertus.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0541-perinthia-6">
+          <head>VI.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-perinthia-6-l1">Τὸ παιδίον δ᾽ εἰσῆλθεν ἑψητοὺς φέρον.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus VII p. 103 b: <quote>ἑψητοὶ ἐπὶ τῶν λεπτῶν ἰχθυδίων — Μένανδρος Περινθίᾳ Τὸ παιδίον κτλ.</quote>
+          </note>
+          <note type="apparatus">Victorius Var. Lect. V 8 comparat Terent. Andr. II 2 31: puerum conveni Chremis, olera et pisciculos minutos ferre obolo in coenam seni.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" ana="#compiled-citation-normalized" xml:id="meineke-0541-perinthia-7">
+          <head>VII.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-perinthia-7-l1">Οὐδ᾽ αὐτός εἰμι σὺν θεοῖς ὑπόξυλος.</l>
+            </lg>
+          </quote>
+          <note type="source">Scholiasta Hermog. περὶ σεμν. p. 391 28 (vol. V p. 486 ed. Walz.): <quote>κεῖται δὲ (τὸ ὑπόξυλος) ἐπὶ τῶν λαμπρῶν μὲν ἔξωθεν καὶ ἐπιεικῶν, πονηρῶν δὲ τὰ ἔνδον. καὶ Μένανδρος ἐν τῇ Περινθίᾳ Οὐδ᾽ αὐτός κτλ.</quote> Schol. ined. apud Bast. ad Gregor. Corinth. I p. 241 et apud Bekkerum Anecd. p. 1073: <quote>Μένανδρος ἐν Περινθίᾳ φησίν Οὐδ᾽ αὐτός εἰμι κτλ. οἷον κίβδηλος καὶ οὐ γνήσιος, οὐδὲ ἀληθής.</quote>
+          </note>
+        </div>
+        <pb n="189" facs="urn:hathi:hvd.32044098646714:scan:213" />
+        <div type="textpart" subtype="fragment" n="8" ana="#compiled-citation-normalized" xml:id="meineke-0541-perinthia-8">
+          <head>VIII.</head>
+          <note type="source">
+            <ref>Suidas I p. 197.</ref> Ἀνέπαφον: ἀνεύθυνον, καθαρόν, ἀθιγές, ἀψηλάφητον. Μένανδρος Περινθίᾳ</note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-perinthia-8-l1">Τὰ δ᾽ ἄλλ᾽ ἀνέπαφα σώματ᾽ οὐδ᾽ ἕλῃ.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">Codices οὐδέλη, pro quo Bentleius οὐδὲ ληϊστὰ coniicit, ut sint Suidae verba. Quae parum probabilis coniectura est.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

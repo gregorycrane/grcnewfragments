@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΠΑΡΑΣΙΤΟΣ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.parasitos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.parasitos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.parasitos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_parasitos">
+        <head>ΠΑΡΑΣΙΤΟΣ</head>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0447-parasitos-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-parasitos-2-l1">Ὅταν με καλέσῃ πλούσιος δεῖπνον ποιῶν,</l>
+              <l n="2" xml:id="meineke-0447-parasitos-2-l2">οὐ κατανοῶ τὰ τρίγλυφ᾽ οὐδὲ τὰς στέγας,</l>
+              <l n="3" xml:id="meineke-0447-parasitos-2-l3">οὐδὲ δοκιμάζω τοὺς Κορινθίους κάδους,</l>
+              <l n="4" xml:id="meineke-0447-parasitos-2-l4">ἀτενὲς δὲ τηρῶ τοῦ μαγείρου τὸν καπνόν.</l>
+              <l n="5" xml:id="meineke-0447-parasitos-2-l5">κἂν μὲν σφοδρὸς φερόμενος εἰς ὀρθὸν τρέχῃ,</l>
+              <l n="6" xml:id="meineke-0447-parasitos-2-l6">γέγηθα καὶ χαίρω τι καὶ πτερύττομαι·</l>
+              <l n="7" xml:id="meineke-0447-parasitos-2-l7">ἂν δὲ πλάγιος καὶ λεπτός, εὐθέως νοῶ</l>
+              <l n="8" xml:id="meineke-0447-parasitos-2-l8">ὅτι τοῦτό μοι τὸ δεῖπνον ἀλλ᾽ οὐδ᾽ αἷμ᾽ ἔχει.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus VI p. 236 b: καὶ ἄλλα δὲ τοιαῦτα ἐπιλέγει ὁ τοῦ Ἐπιχάρμου παράσιτος. ὁ δὲ παρὰ τῷ Διφίλῳ τάδε φησίν <quote>Ὅταν</quote> κτλ.</note>
+          <note type="apparatus">
+            <label>Vs. 2</label> τὰ τρίγλυφ᾽ οὐδὲ τὰς στέγας. Ea enim mirari et laudare solebant qui elegantiores et modestiores esse vellent. Aristophanes Vesp. 1209: ἐπαίνεσόν τι τῶν χαλκωμάτων, ὀροφὴν θέασαι, κρεκάδι᾿ αὐλῆς θαύμασον. Quae cum Homericis Odyss. IV 43 composuit Athenaeus V p. 179 s. — <label>Vs. 5</label> σφοδρῶς C. — <label>Vs. 6</label> ante Dindorfium πτερύσσομαι. Imitatur Aristoph. Nubb. 1136: πέφρικα καὶ δέδοικα καὶ βδελύττομαι, quae mutuo sumpsit ab Aristophane Alciphro Epist. I 4. — <label>Vs. 7</label> ἂν Grotius Exc. p. 799 pro ἐάν. — <label>Vs. 8</label> pro ἀλλ᾽ οὐδ᾽ αἷμ᾽ ἔχει Iacobsius Addit. p. 140 ἅλας οὐ δ᾽ αἷμ᾽ ἔχει, id ut sit ἅλας μὲν ἔχει, αἷμα δὲ οὐκ ἔχει. Quod plures ob caussas ferri non potest. Erfurdtius Observ. p. 459 scripsit ἀλλ᾽ οὐδ᾽ ἅλας ἔχει. Sane frequenti usu trita est formula, apud poetas maxime non atticos, οὐδ᾽ ἅλα δοῦναι, de re vili nulliusque</note>
+          <pb n="405" facs="urn:hathi:hvd.32044098646714:scan:429" />
+          <note type="apparatus">
+            <p>pretii *), quae tamen, ut omittam in ea constanti usu ἅλα dici non ἅλας, ne propter sententiam quidem nostro loco accommodata est. Mihi recte videtur habere αἷμα, ut coena sine carnibus intellegatur; ac fortasse id ipsum etiam proverbialiter dicebatur. Seriores poetae epici eo sensu dicebant τράπεζαν ἀναιμάκετον et ἀδαίτρευτον. Vide Naekium Dissert. de Callim. Hecale cap. IV p. 548. De particulis ἀλλ᾽ οὐδὲ dixit Erfurdtius l. l. recteque eas explicuerat iam Spaldingius ad Demosthenis Midian. p. 67. Parasitum, qualem Diphilus h. l. describit, comici καπνοσφράντην vel καπνοτηρήτην vocabant. V. Eustathium ad Hom. p. 1718 60.</p>
+          </note>
+          <note type="footnote">*) Apud Hesychium, Οὐδ᾽ ἄλα: οὐδὲ τὸ ψυχρὸν καὶ ἄφθονον εἰς χρῆσιν, pro ψυχρὸν lege τυχόν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0447-parasitos-3">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-parasitos-3-l1">Ἀγνοεῖς ἐν ταῖς ἀραῖς</l>
+              <l n="2" xml:id="meineke-0447-parasitos-3-l2">ὅ τι ἐστίν, εἴ τις μὴ φράσει᾽ ὀρθῶς ὁδόν,</l>
+              <l n="3" xml:id="meineke-0447-parasitos-3-l3">ἢ πῦρ ἐναύσει᾽, ἢ διαφθείρει᾽ ὕδωρ,</l>
+              <l n="4" xml:id="meineke-0447-parasitos-3-l4">ἢ δειπνιεῖν μέλλοντα κωλύσαι τινά;</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus VI p. 238 f: <quote>Δίφιλος δ᾽ ἐν Παρασίτῳ μελλόντων γίνεσθαι γάμων τὸν παράσιτον ποιεῖ λέγοντα τάδε</quote> Ἀγνοεῖς κτλ.</note>
+          <note type="apparatus">
+            <p>Vs. 2 φράσει᾽ Erfurdtius Observ. p. 459 et Porsonus. Libri fere φράσει ἢ et φράσῃ ἤ. — Vs. 3 ἐναύσει᾽ et διαφθείρει᾽ Erfurdtius et Porsonus. ἐναύσει PL. ἐναύσῃ V. διαφθείρει AB. διαφθείρῃ CP. διαφθερεῖ VL. Erfurdtius praeterea ἢ εἰ διαφθείρει᾽, quo non opus est. Ad priora ἢ πῦρ ἐναύσει᾽ Iacobsius frustra desiderabat negationem, quae in tali orationis conformatione commode omitti potest. — Vs. 4 δειπνιεῖν et κωλίσαι Erfurdtius et Porsonus. Libri δειπνεῖν et κωλύσει vel κωλύσῃ. Inesse his iocularem parasitique ingenio egregie consentaneam exsecrationem eorum, qui convivio apparando aliquem prohibeant, vere monuit Erfurdtius. De iis quae primis versibus commemorantur exsecrationibus vide Wesselingium ad Petit. de Legg. Att. p. * * cll. Cicerone de Offic. III 13.</p>
+          </note>
+        </div>
+        <pb n="406" facs="urn:hathi:hvd.32044098646714:scan:430" />
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0447-parasitos-4">
+          <lg>
+            <l n="1" xml:id="meineke-0447-parasitos-4-l1">Οὐ δεῖ παρασιτεῖν ὄντα δυσάρεστον σφόδρα.</l>
+          </lg>
+          <note type="source">Athenaeus VI p. 247 d: περὶ ὀργιζομένου παρασίτου λέγων (Diphilus) φησί — κἀν τῷ δὲ ἐπιγραφομένῳ Παρασίτῳ δράματί φησιν Οὐ δεῖ κτλ.</note>
+          <note type="apparatus">Δυσάρεστον dicit morosum, difficilem et qui aegre ad aliorum voluntatem sese accommodat. Ita C in textu. δυσάριστον ABP et inter versus C. δυσάρεσκον VL.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0447-parasitos-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-parasitos-1-l1">Egregie ut multa, dixit bonus Euripides:</l>
+            <l n="2" xml:id="meineke-0447-parasitos-1-l2">me dira egestas subigit et miserabilis</l>
+            <l n="3" xml:id="meineke-0447-parasitos-1-l3">venter. nam certe ventre nihil est miserius:</l>
+            <l n="4" xml:id="meineke-0447-parasitos-1-l4">in illum cuncta coniicis: at in vas alid</l>
+            <l n="5" xml:id="meineke-0447-parasitos-1-l5">idem non liceat: panem fers in mantica,</l>
+            <l n="6" xml:id="meineke-0447-parasitos-1-l6">ius non fers: aliter manticam corruperis.</l>
+            <l n="7" xml:id="meineke-0447-parasitos-1-l7">imples placenta sportulam, non lentibus:</l>
+            <l n="8" xml:id="meineke-0447-parasitos-1-l8">in utrem villum immittis, non et carabum.</l>
+            <l n="9" xml:id="meineke-0447-parasitos-1-l9">at in illum Dis invisum compingi solent</l>
+            <l n="10" xml:id="meineke-0447-parasitos-1-l10">etiam quae inter se nil habent commercii:</l>
+            <l n="11" xml:id="meineke-0447-parasitos-1-l11">nec caetera addo: quippe cum constet satis</l>
+            <l n="12" xml:id="meineke-0447-parasitos-1-l12">illius ergo miseri peccari omnia.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0447-parasitos-2_2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-parasitos-2_2-l1">Ad caenam si quis rex me invitat, non ego</l>
+            <l n="2" xml:id="meineke-0447-parasitos-2_2-l2">laquearia introspecto, aut intertignia,</l>
+            <l n="3" xml:id="meineke-0447-parasitos-2_2-l3">nec quod Corinthia arte constructum est opus.</l>
+            <l n="4" xml:id="meineke-0447-parasitos-2_2-l4">sed ad culinae fumum obtutum dirigo,</l>
+            <l n="5" xml:id="meineke-0447-parasitos-2_2-l5">qui se alacer sursum si ferat recto itinere,</l>
+            <l n="6" xml:id="meineke-0447-parasitos-2_2-l6">gaudeo laetorque et plausis alis gestio:</l>
+            <l n="7" xml:id="meineke-0447-parasitos-2_2-l7">sin tenuis obliquusque est, satis intellego</l>
+            <l n="8" xml:id="meineke-0447-parasitos-2_2-l8">caenam illam nobis nauseae plenam fore.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0447-parasitos-3_2">
+          <head>III.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-parasitos-3_2-l1">Nescis in dirarum carmine</l>
+            <l n="2" xml:id="meineke-0447-parasitos-3_2-l2">hoc esse, ni quis rectam monstrassit viam,</l>
+            <l n="3" xml:id="meineke-0447-parasitos-3_2-l3">ignem ni accensit, siquis aquas infecerit,</l>
+            <l n="4" xml:id="meineke-0447-parasitos-3_2-l4">coenatum eunti siquis iniexit moram?</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0447-parasitos-1_2">
+          <head>Ι.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-parasitos-1_2-l1">Εὖ γ᾽ ὁ κατάχρυσος εἶπε πόλλ᾽ Εὐριπίδης·</l>
+              <l n="2" xml:id="meineke-0447-parasitos-1_2-l2">„νικᾷ δὲ χρεία μ᾿ ἡ ταλαίπωρός τέ μου</l>
+            </lg>
+          </quote>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

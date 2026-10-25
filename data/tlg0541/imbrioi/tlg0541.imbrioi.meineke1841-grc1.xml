@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΙΜΒΡΙΟΙ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.imbrioi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.imbrioi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.imbrioi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_imbrioi">
+        <head>ΙΜΒΡΙΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-citation-normalized" xml:id="meineke-0541-imbrioi-1_2">
+          <head>Ι. ΙΙ.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-imbrioi-1_2-l1">Οὐκ ἔστιν οὐδέν, πάτερ, ἐν ἀνθρώπου φύσει</l>
+              <l n="2" xml:id="meineke-0541-imbrioi-1_2-l2">μεῖζον λογισμοῦ τῷ διαθέσθαι πράγματα.</l>
+            </lg>
+          </quote>
+          <pb n="142" facs="urn:hathi:hvd.32044098646714:scan:166" />
+          <lg>
+            <l n="3" xml:id="meineke-0541-imbrioi-1_2-l3">Ἕκαστός ἐστι τῷ λογίσασθαι κατὰ τρόπον</l>
+            <l n="4" xml:id="meineke-0541-imbrioi-1_2-l4">ἄρχων, στρατηγός, ἡγεμὼν δήμου, πάλιν</l>
+            <l n="5" xml:id="meineke-0541-imbrioi-1_2-l5">σύμβουλος· ὁ διαφέρων λογισμῷ πάντʼ ἔχει.</l>
+          </lg>
+          <note type="apparatus">
+            <note type="source">Stobaeus Flor. III 9.</note> Dispescui haec in duo fragmenta, quorum alterum num ad eandem fabulam referendum sit incertum est. Vulgo legitur vs. 2 et 3 τῷ διαθέσθαι πράγματα ἕκαστός ἐστι καὶ λογίσασθαι, in quibus pro καί, quod a codicibus abest, scripsi τῷ. — Vs. 5 Bentleius βουλῆς pro σύμβουλος. Porsonus autem Miscell. p. 250 ὁ λογισμῷ διαφέρων. Ceterum vide edit. mai. ubi etiam de Caecilii Imbriis dictum est.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

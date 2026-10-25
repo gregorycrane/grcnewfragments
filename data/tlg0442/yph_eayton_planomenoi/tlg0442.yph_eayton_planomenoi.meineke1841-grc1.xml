@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Dexicrates, ΥΦ ΕΑΥΤΩΝ ΠΛΑΝΩΜΕΝΟΙ: fragments</title>
+        <author>Dexicrates</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0442.yph_eayton_planomenoi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0442.yph_eayton_planomenoi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0442.yph_eayton_planomenoi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0442_yph_eayton_planomenoi">
+        <head>ΥΦ ΕΑΥΤΩΝ ΠΛΑΝΩΜΕΝΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0442-yph_eayton_planomenoi-1">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0442-yph_eayton_planomenoi-1-l1">Εἰ δὲ μεθύω καὶ χιόνα πίνω, καὶ μύρον</l>
+              <l n="2" xml:id="meineke-0442-yph_eayton_planomenoi-1-l2">ἐπὶ στόματι κράτιστον Αἴγυπτος ποιεῖ.</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <bibl>Athenaeus III p. 124 b.</bibl> de nivis potu disserens: <quote>Δεξικράτης δ᾽ ἐν τῷ ἐπιγραφομένῳ Ὑφ᾿ ἑαυτῶν πλανώμενοι φησίν Εἰ δὲ μεθύω κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 ἴδε pro εἰ δὲ Porsonus, ἤδη Dindorfius. Possis etiam τί δέ. Sed videtur Athenaeus apodosin omisisse. — Vs. 2 vulgo ἐπὶ στόματος. Recepi ex AB ἐπὶ στόματι, quod etsi non minus corruptum est, genuinae tamen lectionis vestigia continere videtur. Suspicor:
+<quote>
+              <lg>
+                <l n="1_2" xml:id="meineke-0442-yph_eayton_planomenoi-1-l1_2">Εἰ δὲ μεθύω καὶ χιόνα πίνω, καὶ μύρον</l>
+                <l n="2_2" xml:id="meineke-0442-yph_eayton_planomenoi-1-l2_2">ἐπίσταμ᾽ ὅτι κράτιστον Αἴγυπτος ποιεῖ,</l>
+                <l n="3" xml:id="meineke-0442-yph_eayton_planomenoi-1-l3">[τί σοὶ διαφέρει τοῦτο;]</l>
+              </lg>
+            </quote>
+Si inebrior et nivem poto, et Aegyptiacum unguentum optimum esse scio, quid hoc tua refert? De unguento Aegyptio vide Theophrastum de Odor. 28. Athenaeum II p. 66 d. Plutarchum praec. sanit. p. 125 a.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

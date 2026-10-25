@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΣΑΡΔΙΟΣ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.sardios.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.sardios.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.sardios.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_sardios">
+        <head>ΣΑΡΔΙΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0487-sardios-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0487-sardios-1-l1">Εἰ τὰ δάκρυ᾽ ἡμῖν τῶν κακῶν ἦν φάρμακον,</l>
+            <l n="2" xml:id="meineke-0487-sardios-1-l2">ἀεί θ᾽ ὁ κλαύσας τοῦ πονεῖν ἐπαύετο,</l>
+            <l n="3" xml:id="meineke-0487-sardios-1-l3">ἠλλαττόμεσθ᾽ ἂν δάκρυα δόντες χρυσίον·</l>
+            <l n="4" xml:id="meineke-0487-sardios-1-l4">νῦν δ᾽ οὐ προσέχει τὰ πράγματ᾽ οὐδ᾽ ἀποβλέπει</l>
+            <l n="5" xml:id="meineke-0487-sardios-1-l5">εἰς ταῦτα, δέσποτ᾽, ἀλλὰ τὴν αὐτὴν ὁδόν,</l>
+            <l n="6" xml:id="meineke-0487-sardios-1-l6">ἐάν τε κλάῃς ἄν τε μή, πορεύεται.</l>
+            <l n="7" xml:id="meineke-0487-sardios-1-l7">τί οὖν ποιεῖς πλέον; οὐδέν· ἡ λύπη δ᾽ ἔχει</l>
+            <l n="8" xml:id="meineke-0487-sardios-1-l8">ὥσπερ τὸ δένδρον τοῦτο καρπὸν τὸ δάκρυον.</l>
+          </lg>
+          <note type="source">
+            <bibl>Stobaeus Flor. CVIII 1</bibl> omisso fabulae titulo, quem addit <bibl>CXXIV 18</bibl>, ubi tres priores loci versus apponit. Tacito poetae nomine legitur apud <bibl>Plutarch. Cons. Apoll. p. 105 F</bibl>.</note>
+          <note type="apparatus">Vs. 1 Stobaeus <quote>ἡμῶν</quote>, Plut. cod. Stobaei apud Brunck. P. E. p. 271 et ipse Stob. Serm. CXXIV <quote>ἡμῖν</quote>. — Vs. 3 Stobaeus primo loco vulgo <quote>ἀλλαττόμεσθ᾽</quote>, ubi A et B et altero loco ipse Stobaeus <quote>ἠλλαττόμεσθ᾽</quote>. Ibid. B <quote>χρυσίῳ</quote>. — Vs. 4 A <quote>νυνί</quote>. — Vs. 5 deest apud Stobaeum, pro <quote>τὴν αὐτὴν ὁδὸν</quote> codd. Wyttenb. <quote>τὴν αὑτῶν ὁδόν</quote>. — Vs. 6 libri <quote>κλαίῃς</quote>. Tum Plutarchus <quote>πορεύσεται</quote>. — Vs. 7 <quote>τί οὖν ποιεῖς πλέον;</quote> Ita partim e Plutarcho scripsi, qui habet <quote>τί οὖν πλέον ποιοῦμεν</quote>, partim e Stobaeo, ubi legitur <quote>τί δὴ ποιεῖς πλέον</quote>. Cfr Valcken. Diatr. p. 150. — Vs. 8 Plutarchus <quote>ὥσπερ τὰ δένδρα τοῦτο καρπὸν τὰ δάκρυα</quote>, ubi omittunt <quote>τοῦτο</quote> codd. Wyttenbachii. Frustra Stobaei lectionem attrectarunt Valckenarius et Brunckius. Verte: <foreign xml:lang="la">ut arbor haec fructum, ita luctus</foreign>
+          </note>
+          <pb n="24" facs="urn:hathi:hvd.32044098646714:scan:48" />
+          <note type="apparatus">fert lacrimas. Pronomine οὗτος similiter usus est Menander Incert. V 3: τὸν ὄνον ὁρᾶν ἔξεστι πρῶτα τουτονί. Philem. Inc. XII 3: τὰ πετραῖα ταῦτ᾽ ὀψάρια. Horatius C. II 11 13: alta sub platano vel hac pinu iacentes. Ceterum constat Muretum hos versus latine a se redditos tanquam genuinum Trabeae fragmentum venditasse per iocum Ios. Scaligero, de qua re vide quae attuli in edit. maiore.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0487-sardios-1_2">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-sardios-1_2-l1">Lamenta nostris si mederentur malis</l>
+              <l n="2" xml:id="meineke-0487-sardios-1_2-l2">et possent fletu deliniri miseriae,</l>
+              <l n="3" xml:id="meineke-0487-sardios-1_2-l3">auro licerent contra et pluris lacrumae.</l>
+              <l n="4" xml:id="meineke-0487-sardios-1_2-l4">nunc non attendit luctum res, nec respicit;</l>
+              <l n="5" xml:id="meineke-0487-sardios-1_2-l5">sed, plores seu non plores, insistit viam.</l>
+              <l n="6" xml:id="meineke-0487-sardios-1_2-l6">quid proficis? nec hilum: at interea tamen</l>
+              <l n="7" xml:id="meineke-0487-sardios-1_2-l7">ut arbor poma, sic dolor lacrumas parit.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0487-sardios-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0487-sardios-2-l1">Χαλκοῦς ὀφείλεις πέντε μοι. μέμνησ᾽; <sp>
+                <speaker>Β.</speaker> ἐγὼ</sp>
+            </l>
+            <l n="2" xml:id="meineke-0487-sardios-2-l2">σοὶ πέντε χαλκοῦς, σὺ δὲ γέ μοι τριτήμορον.</l>
+            <l n="3" xml:id="meineke-0487-sardios-2-l3">τοὺς ἓξ ἀποδοὺς τοὺς πέντε χαλκοῦς ἀπόλαβε.</l>
+          </lg>
+          <note type="source">Pollux IX 65: ὅτι ἓξ χαλκοῦς τριτημόριον ὠνόμαζον, ἔστιν εὑρεῖν ἐν τῷ Φιλήμονος Σαρδίῳ <quote>Χαλκοῦς ὀφείλεις</quote> κτλ.</note>
+          <note type="apparatus">Vs. 1 et 2 fortasse praestat: <quote>Β. μέμνημ᾽· ἐγὼ σοὶ πέντε χαλκοῦς.</quote> Vs. 2 libri σὺ δέ μοι τριτημόριον. Correxit Salmasius de Mod. Usur. p. 262. Respexit ad hunc locum Harpocrat. p. 178. ὅτι τριτημόριόν ἐστιν ἓξ χαλκοῖ Φιλήμων ἐν ἀρχῇ τοῦ Σαρδίου διδάσκει. Photius p. 602: τοὺς ἓξ χαλκοῦς εἴρηκεν Φιλήμων τοῦ ὀβολοῦ τριτημόριον. Eadem Suidas et Zonaras. Hinc apud Etym. M. p. 753 50: τριτημόριον τοὺς ἓξ χαλκοῦς εἴρηκε Φιλόξενος, lege Φιλήμων.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

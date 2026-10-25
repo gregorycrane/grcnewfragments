@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΚΝΙΔΙΑ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.knidia.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.knidia.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.knidia.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_knidia">
+        <head>ΚΝΙΔΙΑ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-knidia-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-knidia-1-l1">Οὐδὲν γένους γένος γὰρ οἶμαι διαφέρειν,</l>
+              <l n="2" xml:id="meineke-0541-knidia-1-l2">ἀλλ᾽ εἰ δικαίως ἐξετάσεις, καὶ γνήσιος</l>
+              <l n="3" xml:id="meineke-0541-knidia-1-l3">ὁ χρηστός ἐστιν, ὁ δὲ πονηρὸς καὶ νόθος.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. LXXXVI 10 cum lemmate <quote>Μενάνδρου Κνηδία</quote> (sic).</note>
+          <note type="apparatus">Vs. 1 libri οὐθέν. — Vs. 2 Voss. ἐξετάσης.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-knidia-1_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-knidia-1_2-l1">Quo quis sit genere, nil ego referre arbitror.</l>
+            <l n="2" xml:id="meineke-0541-knidia-1_2-l2">quod si rem potius spectes quam vocis sonum,</l>
+            <l n="3" xml:id="meineke-0541-knidia-1_2-l3">legitimus est frugi omnis, et nequam nothus.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-knidia-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-knidia-2-l1">Ταὐτόματόν ἐστιν ὡς ἔοικέ που θεός,</l>
+              <l n="2" xml:id="meineke-0541-knidia-2-l2">σώζει τε πολλὰ τῶν ἀοράτων πραγμάτων.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Ecl. phys. I p. 196.</note>
+          <note type="apparatus">Respexit fortasse Palladas Alex. epigr. CVIII: <quote>εὖ γε λέγων τὸν καιρὸν ἔφης θεὸν εὖ γε Μένανδρε</quote>, et paullo post: <quote>πολλάκι γὰρ τοῦ σφόδρα μεριμνηθέντος ἄμεινον προσπεσὸν εὐκαίρως εὗρέ τι ταὐτόματον.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-knidia-2_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-knidia-2_2-l1">Casus quoque ipse est nescio quid numinis,</l>
+            <l n="2" xml:id="meineke-0541-knidia-2_2-l2">et res plerasque nos latendo sospitat.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

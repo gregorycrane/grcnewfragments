@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΦΙΛΑΔΕΛΦΟΙ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.philadelphoi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.philadelphoi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.philadelphoi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_philadelphoi">
+        <head>ΦΙΛΑΔΕΛΦΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-philadelphoi-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-philadelphoi-1-l1">Ἤδη δ᾽ ἐπίχυσις, διάλιθοι λαβρώνιοι,</l>
+              <l n="2" xml:id="meineke-0541-philadelphoi-1-l2">Πέρσαι δ᾽ ἔχοντες μυιοσόβας ἑστήκεσαν.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XI p. 484 d. de labroniis, poculorum genere, agens: <quote>Μένανδρος ἐν Φιλαδέλφοις Ἤδη δ᾽ ἐπίχυσις κτλ·</quote> Ad vs. 2 respexit Pollux X 94: <quote>καὶ τὴν μυιοσόβην ἔν γε τοῖς Μενάνδρου Φιλαδέλφοις ἔστιν εὑρεῖν, καὶ ἐν Ἀναξίππου Κιθαρωδῷ „μυιοσόβην λαβὼν ἐνθάδε παραστάθητι”.</quote>
+          </note>
+          <note type="apparatus">Cfr edit. mai.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-philadelphoi-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-philadelphoi-2-l1">Ὥστ᾽ ἔγωγ᾽ ἂν εἱλόμην που σαυνίῳ πεπληγμένος.</l>
+            </lg>
+          </quote>
+          <note type="source">Pollux X 143: <quote>ἐπὶ τοῦ δόρατος (τὸ σαυνίον) Μένανδρος Φιλαδέλφοις Ὥστ᾽ ἔγωγ᾽ ἄν κτλ.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-philadelphoi-3">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-philadelphoi-3-l1">Οὐ ῥᾴδιον</l>
+              <l n="2" xml:id="meineke-0541-philadelphoi-3-l2">ἄνοιαν ἐν μικρῷ μεταστῆσαι χρόνῳ.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaei App. Flor. p. 35 18.</note>
+          <note type="apparatus">Eandem sententiam iisdem fere verbis expressit supra p. 146.</note>
+        </div>
+        <pb n="220" facs="urn:hathi:hvd.32044098646714:scan:244" />
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-philadelphoi-4">
+          <head>IV.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-philadelphoi-4-l1">Νὴ τὸν Δία τὸν μέγιστον ἐκτυφήσομαι.</l>
+            </lg>
+          </quote>
+          <note type="source">Scholiasta Euripidis Phoen. 1161: <quote>τύφεσθαι ἐστὶ τοὺς ὀφθαλμοὺς συγκεχύσθαι. Μένανδρος Φιλαδέλφοις <quote>Νὴ τὸν Δία</quote> κτλ.</quote> Cod. Aug. μὰ τὸν Δία et ἐκτυφώσομαι.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-philadelphoi-5">
+          <head>V.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-philadelphoi-5-l1">῾Ὡς ἡδὺ τὸ ζῆν, εἰ μεθ᾽ ὧν κρίνῃ τις ἄν.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. CXXI 5.</note>
+          <note type="apparatus">Scripsi κρίνῃ pro edito κρίνει. Sensus enim est, εἰ ζῇ τις μεθ᾽ ὧν ἂν κρίνῃ ζῆν. Dobraeus Advers. II p. 280: ἢν μεθ᾽ ὧν κρίνει τις ᾖ. Qui continuo sequitur versus male cum hoc coniunctus, eum inter incert. fab. fragm. CCLVII exhibui. Cfr edit. mai.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

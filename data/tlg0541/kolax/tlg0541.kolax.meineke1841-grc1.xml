@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΚΟΛΑΞ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.kolax.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.kolax.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.kolax.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kolax">
+        <head>ΚΟΛΑΞ</head>
+        <pb n="152" facs="urn:hathi:hvd.32044098646714:scan:176" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-kolax-1">
+          <lg>
+            <l n="1" xml:id="meineke-0541-kolax-1-l1">Κοτύλας χωροῦν δέκα</l>
+            <l n="2" xml:id="meineke-0541-kolax-1-l2">ἐν Καππαδοκίᾳ κόνδυ χρυσοῦν, Στρουθία,</l>
+            <l n="3" xml:id="meineke-0541-kolax-1-l3">τρὶς ἐξέπιον μεστόν γ᾽. <sp>
+                <speaker>ΣΤ.</speaker> Ἀλεξάνδρου πλέον</sp>
+            </l>
+            <l n="4" xml:id="meineke-0541-kolax-1-l4">
+              <sp>τοῦ βασιλέως πέπωκας.</sp>
+              <sp>
+                <speaker>Β.</speaker> οὐκ ἔλαττον, οὔ,</sp>
+            </l>
+            <l n="5" xml:id="meineke-0541-kolax-1-l5">
+              <sp>μὰ τὴν Ἀθηνῶν.</sp>
+              <sp>
+                <speaker>ΣΤ.</speaker> μέγα γε.</sp>
+            </l>
+          </lg>
+          <note type="source">Athenaeus X p. 434 e: ἔπινε δὲ ὁ Ἀλέξανδρος πλεῖστον, ὡς καὶ ἀπὸ μέθης συνεχῶς κοιμᾶσθαι δύο ἡμέρας καὶ δύο νύκτας. — Μένανδρος δ᾽ ἐν Κόλακί φησι Κοτύλας χωροῦν δέκα κτλ.</note>
+          <note type="apparatus">Priora usque ad Στρουθία repetiit Athenaeus XI p. 477 f. ubi libri praebent Στρουθίον, quod fortasse in Στρουθίων mutandum, qua forma bis usus est Alciphro Epist. I 9 et III 43. Alia huius nominis forma fuit Στρούθης, de qua v. Harpocr. p. 170. Sed Στρουθίας in Menandri loco tuetur Aelianus H. A. IX 7 de parasitis agens: καὶ ὁ τοῦ Μενάνδρου Στρουθίας τοιοῦτός ἐστι. Idem Menandri Struthias primariis veteris aevi parasitis adnumeratur ab auctore anonymo apud Suidam I p. 607: διώνυμοι κόλακες περιηχοῦσιν ἡμᾶς Κλείσοφοί τε καὶ Στρουθίαι καὶ Θήρωνες. Idem II p. 327: οἱ Ἕλληνες Κλεισόφους τε ᾄδουσι καὶ Θήρωνας καὶ Στρουθίας καὶ Χαιρεφῶντας, ἀνθρώπους ἐσθίειν εἰδότας εἰς κόρον καὶ δεινοὺς γαστέρα. Cum Gna-</note>
+          <pb n="153" facs="urn:hathi:hvd.32044098646714:scan:177" />
+          <note type="apparatus">thonide coniungitur a Luciano Fugit. vol. III p. 375: κολακείας ἕνεκα τὸν Γναθωνίδην ἢ Στρουθίαν ὑπερβαλέσθαι δυνάμενοι. Colloquuntur in loco supra adscripto parasitus et miles gloriosus, cui Terentius Thrasonis nomen imposuit. A Menandro eum Biantem appellatum fuisse docet Plutarchus de Adulat. et Amic. p. 57 a. maxime cavendum esse dicens τὸν κόλακα περὶ τοὺς ἐπαίνους· ὅπερ οὐδὲ αὐτὸν ἐκεῖνον λέληθεν, ἀλλὰ δεινὸς ὢν φυλάττεσθαι τὸ ὕποπτον, ἂν μὲν εὐπαρύφου τινος ἢ ἀγροίκου λάβηται φορίνην παχεῖαν φέροντος, ὅλῳ τῷ μυκτῆρι χρῆται, καθάπερ ὁ Στρουθίας ἐμπεριπατῶν (fort. συμπεριπατῶν) τῷ Βίαντι, καὶ κατορχούμενος τῆς ἀναισθησίας αὐτοῦ τοῖς ἐπαίνοις „Ἀλεξάνδρου τοῦ βασιλέως πλέον πέπωκας.“</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-kolax-2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-kolax-2-l1">Γέλωτι πρὸς τὸν Κύπριον ἐκθανούμενος.</l>
+          </lg>
+          <note type="source">Plutarchus l. l. καὶ κατορχούμενος τῆς ἀναισθησίας αὐτοῦ τοῖς ἐπαίνοις „Ἀλεξάνδρου τοῦ βασιλέως πλέον πέπωκας“ καί Γέλωτι πρὸς τὸν Κύπριον ἐκθανούμενος.</note>
+          <note type="apparatus">Ita enim corruptum verbum ἐνηθούμενος, ut vulgo legitur, vere correxit Wyttenbachius, apte comparans Terentii Eun. III 2 44, ubi Gnatho Thrasoni risus causam quaerenti respondet: <quote>istud quod dixti modo, et illud de Rhodio dictum in mentem venit</quote>, ut Menandri Cyprio Terentius Rhodium substituerit. Quae si vera est coniectura, sensus verborum hic est: <quote>ad dicterium illud, quod miles in Cyprium se coniecisse dixerat, prae risu emoriturus.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-kolax-3">
+          <lg>
+            <l n="1" xml:id="meineke-0541-kolax-3-l1">Σπονδή· δίδου σὺ σπλάγχν᾿ ἀκολουθῶν· ποῖ βλέπεις;</l>
+            <l n="2" xml:id="meineke-0541-kolax-3-l2">σπονδή· φέρ᾽ ὦ παῖ Σωσία· σπονδή· καλῶς.</l>
+            <l n="3" xml:id="meineke-0541-kolax-3-l3">ἔγχει. θεοῖς Ὀλυμπίοις εὐχώμεθα</l>
+            <l n="4" xml:id="meineke-0541-kolax-3-l4">Ὀλυμπίαισι πᾶσι πάσαις· λάμβανε</l>
+            <l n="5" xml:id="meineke-0541-kolax-3-l5">τὴν γλῶτταν ἐν τούτῳ· διδόναι σωτηρίαν,</l>
+            <l n="6" xml:id="meineke-0541-kolax-3-l6">ὑγίειαν, ἀγαθὰ πολλά, τῶν ὄντων τε νῦν</l>
+            <l n="7" xml:id="meineke-0541-kolax-3-l7">ἀγαθῶν ὄνησιν πᾶσι· ταῦτ᾽ εἰχώμεθα.</l>
+          </lg>
+          <pb n="154" facs="urn:hathi:hvd.32044098646714:scan:178" />
+          <note type="source">
+            <bibl>Athenaeus XIV p. 659 d</bibl>: <quote>Μένανδρος ἐν Κόλακι τὸν τοῖς τετραδισταῖς διακονούμενον μάγειρον ἐν τῇ τῆς πανδήμου Ἀφροδίτης ἑορτῇ ποιεῖ ταυτὶ λέγοντα Σπονδὴ κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 2 cod. A φέρεω πλείω ωσια. Correxit Piersonus ad Moer. p. 298 praeeunte Heringa Observ. p. 247, qui φέρε πλείω Σωσία. — Vs. 3 ἔγχει Piersonus pro εὔχου. — Vs. 4 Ὀλυμπίαισι πᾶσι πάσαις. Simili verborum structura Alciphro Epist. II 2 30: θεραπαίνας θεράποντας Ἰνδοὺς Ἰνδάς, ubi malim Ἰνδὰς Ἰνδούς. Ceterum illa e solenni sacrificantium formula dicta sunt, qua usus est Aristoph. Av. 866: εὔχεσθε ὄρνισιν Ὀλυμπίοις καὶ Ὀλυμπίαισι πᾶσι καὶ πάσαισι — διδόναι Νεφελοκοκκυγιεῦσιν ὑγίειαν καὶ σωτηρίαν. Cfr Pac. 1104 sqq. — Vs. 5 ἐν τούτῳ h. l. esse videtur interea.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-kolax-3_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-kolax-3_2-l1">Libatur. heus fer exta! quonam respicis?</l>
+            <l n="2" xml:id="meineke-0541-kolax-3_2-l2">libatur. Sosia heus! fer! libatur. bene.</l>
+            <l n="3" xml:id="meineke-0541-kolax-3_2-l3">iam nunc infunde. Coelites deos deas</l>
+          </lg>
+          <pb n="764" facs="urn:hathi:hvd.32044098646714:scan:790" />
+          <lg>
+            <l n="4" xml:id="meineke-0541-kolax-3_2-l4">cunctos precemur atque cunctas. accipe</l>
+            <l n="5" xml:id="meineke-0541-kolax-3_2-l5">linguam. salutem sanitatemque ut duint,</l>
+            <l n="6" xml:id="meineke-0541-kolax-3_2-l6">bona nobis tribuant multa, quaeque adsunt bona</l>
+            <l n="7" xml:id="meineke-0541-kolax-3_2-l7">ea prosperassint cunctis: hae fiant preces.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-kolax-4">
+          <lg>
+            <l n="1" xml:id="meineke-0541-kolax-4-l1">Χρυσίδα, Κορώνην, Ἀντίκυραν, Ἰσχάδα,</l>
+            <l n="2" xml:id="meineke-0541-kolax-4-l2">καὶ Ναννάριον ἔσχηκας ὡραίαν πάνυ.</l>
+          </lg>
+          <note type="source">
+            <bibl>Athenaeus XIII p. 587 d</bibl>: <quote>Μένανδρος δ’ ἐν Κόλακι τάσδε καταλέγει ἑταίρας Χρυσίδα κτλ.</quote>
+          </note>
+          <note type="apparatus">Nominis Ἀντίκυρα penultimam produci permirum est. Fortasse id nomen Ἀντίκιρραν scribendum, cui coniecturae non obstat quod Anticyram meretricem alii memorant. Vs. 2 Ναννάριον AB. Ceteri Νάννιον.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-kolax-5">
+          <lg>
+            <l n="1" xml:id="meineke-0541-kolax-5-l1">Κωβιός, ἠλακατῆνες,</l>
+            <l n="2" xml:id="meineke-0541-kolax-5-l2">[καὶ] κυνὸς οὐραῖον.</l>
+          </lg>
+          <note type="source">
+            <bibl>Athenaeus VII p. 301 d</bibl>: <quote>ἠλακατῆνες — εἰσὶ κητώδεις, ἐπιτήδειοι εἰς ταριχείαν. Μένανδρος Κόλωσί (recte corrigunt Κόλακί) φησι Κωβιός κτλ.</quote>
+          </note>
+          <note type="apparatus">Haec vulgo uno versu continuata leguntur. Sunt anapaestorum reliquiae. Iisdem plane verbis eodem metro adstrictis usus est Mnesimachus Athen. p. 403 b. ubi καὶ recte omittitur. Itaque seclusi.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0541-kolax-6">
+          <lg>
+            <l n="1" xml:id="meineke-0541-kolax-6-l1">Οὐδεὶς ἐπλούτησεν ταχέως δίκαιος ὤν·</l>
+          </lg>
+          <pb n="155" facs="urn:hathi:hvd.32044098646714:scan:179" />
+          <lg>
+            <l n="2" xml:id="meineke-0541-kolax-6-l2">ὁ μὲν γὰρ αὑτῷ συλλέγει καὶ φείδεται,</l>
+            <l n="3" xml:id="meineke-0541-kolax-6-l3">ὁ δὲ τὸν πάλαι τηροῦντ᾽ ἐνεδρεύσας πάντ᾽ ἔχει.</l>
+          </lg>
+          <note type="source">
+            <ref>Stobaeus Flor. X 21</ref> cum lemmate <quote>Μενάνδρου ἐν Κολακείᾳ.</quote>
+          </note>
+          <note type="apparatus">Idem error, ut videtur, apud Hesychium, <quote>Ἀψοφητί: ἠρέμα, ἡσύχως, κολακείᾳ.</quote> Ubi Menandri nomen excidisse et <foreign xml:lang="grc">Κόλακι</foreign> scribendum esse conieci Praef. ad Menandr. p. VI. Ceterum secundum et tertium versum incerto poetae tribuit Grotius.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-kolax-6_2">
+          <head>VI.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-kolax-6_2-l1">Nemo et repente dives, et iustus fuit.</l>
+            <l n="2" xml:id="meineke-0541-kolax-6_2-l2">est cui vectigal magnum parsimonia est:</l>
+            <l n="3" xml:id="meineke-0541-kolax-6_2-l3">at alius cuncta insidians comparsa abripit.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" ana="#compiled-citation-normalized" xml:id="meineke-0541-kolax-7">
+          <head>VII.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-kolax-7-l1">Ἀλλ᾿ οὐδὲ γενητὴν δύναμαι εὑρεῖν οὐδένα</l>
+            <l n="2" xml:id="meineke-0541-kolax-7-l2">ἐκ τῶν τοσούτων, καὶ ἀπείλημμαι μόνος.</l>
+          </lg>
+          <note type="source">
+            <ref>Glossae ad Hippocratis Iusiur.</ref>
+            <quote>Γενέτῃσιν: γονεῦσιν ἢ συγγενέσιν. οὕτως ἀττικῶς λέγονται, ὡς καὶ Φιλήμων ἐν Κόλακί φησιν.</quote>
+          </note>
+          <note type="apparatus">De Philemonis Colace nihil aliunde constat. Iam compara Terentii Eunuch. II 2 7: <quote>En quo redactus sum! omnes noti me atque amici deserunt,</quote> nec dubitabis quin glossae auctor memoriae errore Philemonem pro Menandro nominaverit. Vs. 1 possis γεννητὴν et δύναμ᾽ εὑρεῖν. — Vs. 2 ἐx addidit Hemsterh. ad Plut. p. 326. Nec male Luzacius apud Ruhnk. ad Tim. p. 66 ὄντων pro τῶν. Ibid. forsan ἀλλ᾽ ἀπείλημμαι vel κἄτ᾽ ἀπείλημμαι. Dobraeus Adv. II p. 583 καὶ περιείλημμαι.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

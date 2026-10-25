@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΜΑΙΝΟΜΕΝΟΣ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.mainomenos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.mainomenos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.mainomenos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_mainomenos">
+        <head>ΜΑΙΝΟΜΕΝΟΣ</head>
+        <div type="textpart" subtype="fragment" unit_type="fragment" n="1" fragment_number="1" author_heading="Diphilus" work_heading="ΜΑΙΝΟΜΕΝΟΣ" xml:id="meineke-0447-mainomenos-1">
+          <lg>
+            <l n="1" xml:id="meineke-0447-mainomenos-1-l1">Καὶ προσέτι τοίνυν ἐσχάραν, κλίνην, κάδον,</l>
+            <l n="2" xml:id="meineke-0447-mainomenos-1-l2">στρώματα, σίγυνον, ἀσκοπήραν, θύλακον,</l>
+            <l n="3" xml:id="meineke-0447-mainomenos-1-l3">ὥστ' οὐ στρατιώτην ἄν τις ἀλλὰ καὶ κύκλον</l>
+            <l n="4" xml:id="meineke-0447-mainomenos-1-l4">ἐκ τῆς ἀγορᾶς ὀρθὸν βαδίζειν ὑπολάβοι.</l>
+            <l n="5" xml:id="meineke-0447-mainomenos-1-l5">τοσοῦτός ἐσθ' ὁ ῥῶπος ὃν σὺ περιφέρεις.</l>
+          </lg>
+          <note type="apparatus">Pollux X 18: ἵνα δ' ἐπιπράσκετο τὰ σκεύη τῆς ἀγορᾶς τὸ μέρος τοῦτο κύκλοι ὠνομάζοντο, ὡς Ἄλεξις ὑποδηλοῦν ἔοικεν — σαφέστερον δὲ ἐν Μαινομένῳ Δίφιλος Καὶ προσέτι κτλ. Vs. 1 pro τοίνυν scripsit fortasse τύλην, culcitam. Tum κλίνην Hemsterhusius pro καὶ νῦν. — Vs. 2 σίγυνον Bentleius Epist. ad Hemst. p. 92. Libri συνόν. Hanovius Exerc. crit. I p. 47 λάγυνον. — Vs. 3 ὥστ' οὐ pro edito ὡς που Porsonus Advers. p. 252. et iam ante Porsonum, ni fallit memoria, Piersonus ad Moerin. — Vs. 4 ὀρθὸν βαδίζειν, ut ipse κύκλος recto talo incedere videatur. Ita incertus apud Athenaeum XIII p. 622 c: θέλει γὰρ ὁ θεὸς ὀρθὸς ἐσφυρωμένος διὰ μέσου βαδίζειν.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

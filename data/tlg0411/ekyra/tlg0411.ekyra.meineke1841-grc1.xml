@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Apollodorus Carystius, ΕΚΥΡΑ: fragments</title>
+        <author>Apollodorus Carystius</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0411.ekyra.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0411.ekyra.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0411.ekyra.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_ekyra">
+        <head>ΕΚΥΡΑ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0411-ekyra-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0411-ekyra-1-l1">Ὀλίγαις ἐραστὴς γέγον᾽ ἑταίραις, ὦ Σύρα,</l>
+            <l n="2" xml:id="meineke-0411-ekyra-1-l2">βέβαιος.</l>
+          </lg>
+          <note type="source">Terentius Hecyrae initio: Per pol quam paucos reperias meretricibus fideles evenire amatores, Syra. Sunt Philotidis verba, ad quae Donatus: „Quidam non paucos sed paucis legunt. Sic enim Apollodorus αλπα ICHPAS THC rei IONHNC THPAICCI PAγγιβαίωC.” Emendavit Bent-</note>
+          <pb n="445" facs="urn:hathi:hvd.32044098646714:scan:469" />
+          <note type="apparatus">leius, nisi quod ἑταίραισιν Σύρα scripsit, pro quo ego malui ἑταίραις ὦ Σύρα.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0411-ekyra-2">
+          <lg>
+            <l n="1" xml:id="meineke-0411-ekyra-2-l1">Σύ με παντάπασιν ἡγεῖ λίθον.</l>
+          </lg>
+          <note type="source">Terentius l. l. II 1 17. ubi Laches Sostratae dicit: <quote>Tu, inquam, mulier, quae me omnino lapidem, non hominem putas.</quote> Donatus „ἐν ἤθει. Sic Apollodorus Σύ με παντάπασιν eHCAY λίθον.”</note>
+          <note type="apparatus">Scripsi ἡγεῖ, nescio meane an alius ex coniectura. Praeterea possis δὴ addere post ἡγεῖ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0411-ekyra-3">
+          <note type="source">Terentins III 1 6: <quote>Nam nos omnes, quibus est alicunde aliquis obiectus labos, omne quod est interea tempus, prius quam id rescitum est, lucro est.</quote> Donatus: „Hac figura usus est etiam Tullius pro Murena (c. 12) <quote>praetor quoque ne se pulchrum ac beatum putaret, ei quoque carmen compositum est.</quote> Nam ille dativum casum subiecit, cum praeposuisset nominativum. Et totum Apollodori est, qui sic ait „ΟΙΓΑΡ ACICOYNIEIΣ ΤΟΝ χΡω CNOY Διε ΝΤΙΚΗКОТНС.” H. e. <quote>οἱ γὰρ ἀτυχοῦντες τὸν χρόνον διευτυχηκότες.</quote>
+          </note>
+          <note type="apparatus">Apertum est post ἀτυχοῦντες plura intercidisse.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0411-ekyra-4">
+          <lg>
+            <l n="1" xml:id="meineke-0411-ekyra-4-l1">Οὕτως ἕκαστός ἐστι διὰ τὰ πράγματα</l>
+            <l n="2" xml:id="meineke-0411-ekyra-4-l2">ἢ σεμνὸς ἢ ταπεινός.</l>
+          </lg>
+          <note type="source">Terentius III 3 20: <quote>Omnibus nobis ut res dant sese, ita magni atque humiles sumus.</quote> Ubi Donatus haec Apoliodori verba adscripsit: <quote>οὕτως ἕκαστος διὰ τὰ πράγματα σεμνὸς ἦν καὶ ταπεινός.</quote>
+          </note>
+          <note type="apparatus">Corrige ut supra vides.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΕΝΑΓΙΣΜΑΤΑ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.enagismata.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.enagismata.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.enagismata.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_enagismata">
+        <head>ΕΝΑΓΙΣΜΑΤΑ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0447-enagismata-1">
+          <lg>
+            <l n="1" xml:id="meineke-0447-enagismata-1-l1">Εἰ μὴ συνήθης Φαιδίμῳ γ᾽ ἐτύγχανεν</l>
+            <l n="2" xml:id="meineke-0447-enagismata-1-l2">ὁ Χαβρίου Κτήσιππος, εἰσηγησάμην</l>
+          </lg>
+          <pb n="392" facs="urn:hathi:hvd.32044098646714:scan:416" />
+          <lg>
+            <l n="3" xml:id="meineke-0447-enagismata-1-l3">νόμον τίν᾿ οὐκ ἄχρηστον, ὡς ἐμοὶ δοκεῖ,</l>
+            <l n="4" xml:id="meineke-0447-enagismata-1-l4">ὥστ᾿ ἐπιτελεσθῆναί ποτ᾿ αὐτῷ τοῦ πατρός</l>
+            <l n="5" xml:id="meineke-0447-enagismata-1-l5">τὸ μνῆμα, κατ᾿ ἐνιαυτὸν ἕνα λίθον</l>
+            <l n="6" xml:id="meineke-0447-enagismata-1-l6">ἁμαξιαῖον· καὶ σφόδρ᾿ εὐτελὲς λέγω.</l>
+          </lg>
+          <note type="source">Athenaeus IV p. 165 f: καὶ Κτήσιππος δ᾿ ὁ Χαβρίου υἱὸς εἰς τοσοῦτον ἦλθεν ἀσωτίας, ὡς καὶ τοῦ μνήματος τοῦ πατρός, εἰς ὃ οἱ Ἀθηναῖοι χιλίας ἀνάλωσαν δραχμάς, τοὺς λίθους πωλῆσαι εἰς τὰς ἡδυπαθείας. Δίφιλος γοῦν ἐν τοῖς Ἐναγίζουσί φησιν <quote>Εἰ μὴ συνήθης κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 Φαίδίμ᾿ ὢν ἐτύγχανεν Dobraeus Adv. II p. 307 et vs. 2 υἱὸς Χαβρίου. Hermannus vs. 1 nihil mutans, ante ὁ Χαβρίου addebat ὤν. In sequentibus iniuria Dobraeus desiderabat particulam ἄν, quam inseruit ante εἰσηγησάμην. — Vs. 5 Iacobsius et Erfurdtius ἕνα φαγεῖν λίθον, ut unum quotannis lapidem nec plures vendendi venia Ctesippo concedatur. Ita quo pacto monumentum Chabriae ἐπιτελεσθῆναι dici possit, non perspicio. Ex vs. 6 καὶ σφόδρ᾿ εἰτελὲς λέγω apparet, potius contrariae significationis verbum requiri, e. c. φέρειν vel θεῖναι. Quamquam ne sic quidem quid acrimoniae iocus habeat perspicitur. — Vs. 6 ἁμαξιαῖοι λίθοι, lapides quadrati ingentis magnitudinis, commemorantur in titulo attico apud Müllerum Dissert. de munimentis Athen. p. 40.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0447-enagismata-2">
+          <note type="source">Scholiasta ad Aristoph. Equ. 960. ψωλὸν γενέσθαι δεῖ σε μέχρι τοῦ μυρρίνου: ψωλὸς ὁ λειπόδερμος ὀξυτόνως. καὶ ἀκρόψωλος ὁ ἐπιβραχὺ τοιοῦτος. ἢ ὁ ἀσχήμων κατὰ παρέκτασιν τοῦ μορίου. ἐνταῦθα δ᾿ ἰδίως ἐπὶ τῶν μέχρι πολλοῦ διεσκυλμένων. παρὰ δὲ Διφίλῳ ἐν τοῖς Ἐναγίσμασι παραπεποίηται ἄχρι τοῦ λάρυγγος. Photius Lex. p. 657 9: ἐλέχθη δὲ ἐπὶ τῶν μέχρι πολλοῦ διελκυσμένων *) παρὰ δὲ</note>
+          <note type="apparatus">*) Scholiasta διεσκυλμένων. Kusterus ἀπεσκολυμμένων. Hesychii glossa, Ἀπεσκόλυπτεν: ἀπέσκεπε τὸ δέρμα, ὅθεν καὶ σκολαδέψης, referenda videtur ad Archilochum apud Athen. III p. 122 b.</note>
+          <pb n="393" facs="urn:hathi:hvd.32044098646714:scan:417" />
+          <note type="source">
+            <quote>Διφίλῳ ἐν τοῖς Ἐναγίσμασι παραπεποίηται ἄχρι τοῦ λάρυγγος.</quote> Eadem Suidas s. ψωλὸν γενέσθαι.</note>
+          <note type="apparatus">Itaque, nisi λάρυγγος corruptum est, Diphilus dixisse videtur:
+<quote>
+              <lg>
+                <l n="1" xml:id="meineke-0447-enagismata-2-l1">ψωλὸν γενέσθαι δεῖ σε μέχρι λάρυγγος,</l>
+              </lg>
+            </quote>
+ut sint tetrametri reliquiae. Id vero quo sensu posuerit obscurum est.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

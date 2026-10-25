@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΟΡΓΗ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.orge.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.orge.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.orge.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_orge">
+        <head>ΟΡΓΗ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-orge-1">
+          <head type="fragment-number">I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-orge-1-l1">Καίτοι νέος πότ᾽ ἐγενόμην κἀγώ, γύναι,</l>
+            <l n="2" xml:id="meineke-0541-orge-1-l2">ἀλλ᾽ οὐκ ἐλούμην πεντάκις τῆς ἡμέρας</l>
+            <l n="3" xml:id="meineke-0541-orge-1-l3">τότ᾽· ἀλλὰ νῦν. οὐδὲ χλανίδ᾽ εἶχον· ἀλλὰ νῦν.</l>
+            <l n="4" xml:id="meineke-0541-orge-1-l4">οὐδὲ μύρον εἶχον· ἀλλὰ νῦν. καὶ βάψομαι,</l>
+            <l n="5" xml:id="meineke-0541-orge-1-l5">καὶ παρατιλοῦμαι νὴ Δία καὶ γενήσομαι</l>
+            <l n="6" xml:id="meineke-0541-orge-1-l6">Κτήσιππος, οὐκ ἄνθρωπος ἐν ὀλίγῳ χρόνῳ·</l>
+            <l n="7" xml:id="meineke-0541-orge-1-l7">κἆθ᾽ ὡς ἐκεῖνος κατέδομαι καὶ τοὺς λίθους</l>
+            <l n="8" xml:id="meineke-0541-orge-1-l8">ἁπαξάπαντας, οὐ γὰρ οὖν τὴν γῆν μόνον.</l>
+          </lg>
+          <note type="source">Athenaeus IV p. 166 a: καὶ Κτήσιππος δ᾽ ὁ Χαβρίου υἱὸς εἰς τοσοῦτον ἦλθεν ἀσωτίας, ὡς καὶ τοῦ μνήματος</note>
+          <pb n="179" facs="urn:hathi:hvd.32044098646714:scan:203" />
+          <note type="source">
+            <quote>τοῦ πατρός, εἰς ὃ Ἀθηναῖοι χιλίας ἀνήλωσαν δραχμάς, τοὺς λίθους πωλῆσαι εἰς τὰς ἡδυπαθείας· — καὶ Μένανδρος ἐν Ὀργῇ περὶ αὐτοῦ τόδε λέγει Καίτοι νέος πότ᾿ ἐγενόμην κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 6 et 7 vulgo οὐκ ἄνθρωπος. ἐν ὀλίγῳ χρόνῳ καθὼς ἐκεῖνος. Correxit Porsonus Adv. p. 258. Ad vs. 7 confer Diphilum Enagism. I.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-orge-1_2">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-orge-1_2-l1">Et ego adolescens, mulier, aliquando fui:</l>
+            <l n="2" xml:id="meineke-0541-orge-1_2-l2">nec tunc lavabar quinquies una die:</l>
+            <l n="3" xml:id="meineke-0541-orge-1_2-l3">nunc fiet; nec eram patagiatus: nunc ero;</l>
+            <l n="4" xml:id="meineke-0541-orge-1_2-l4">nec unguentatus: at nunc pol tingar quoque,</l>
+            <l n="5" xml:id="meineke-0541-orge-1_2-l5">et depilabor: denique evadam brevi</l>
+            <l n="6" xml:id="meineke-0541-orge-1_2-l6">Ctesippus alter, non homo ut eram: denique,</l>
+            <l n="7" xml:id="meineke-0541-orge-1_2-l7">ut ille, ipsos etiam lapides abliguriam,</l>
+            <l n="8" xml:id="meineke-0541-orge-1_2-l8">ne mihi sufficere terram posse censeas.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-orge-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-orge-2-l1">Quisquis est differt nihil</l>
+            <l n="2" xml:id="meineke-0541-orge-2-l2">a Chaerephonte, qui vocatus ad dapes</l>
+            <l n="3" xml:id="meineke-0541-orge-2-l3">in serum tempus umbrae duodecimpedis,</l>
+            <l n="4" xml:id="meineke-0541-orge-2-l4">mane umbra aspecta lumen ad lunae exiit</l>
+            <l n="5" xml:id="meineke-0541-orge-2-l5">cunctari metuens, cumque ipso die adfuit.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-orge-3">
+          <head>III.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-orge-3-l1">Iste verus est sodalis: non, ut alii, interrogat</l>
+            <l n="2" xml:id="meineke-0541-orge-3-l2">quando coena sit futura, quidve praesentes vetet</l>
+            <l n="3" xml:id="meineke-0541-orge-3-l3">coenam incipere: deinde coenam quaerit in perendinum,</l>
+            <l n="4" xml:id="meineke-0541-orge-3-l4">mox ubi silicernium sit.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-orge-4">
+          <head>IV.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-orge-4-l1">Hunc vobis si pulchellum contigerit fames,</l>
+            <l n="2" xml:id="meineke-0541-orge-4-l2">cadaver faciet gracilius Philippide.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-orge-5">
+          <head>V.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-orge-5-l1">Adulter est res, crede, pretiosissima:</l>
+            <l n="2" xml:id="meineke-0541-orge-5-l2">nam morte constat.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-orge-2_2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-orge-2_2-l1">Διαφέρει Χαιρεφῶντος οὐδὲ γρῦ</l>
+            <l n="2" xml:id="meineke-0541-orge-2_2-l2">ἅνθρωπος ὅστις ἐστίν, ὃς κληθείς ποτε</l>
+            <l n="3" xml:id="meineke-0541-orge-2_2-l3">εἰς ἑστίασιν δωδεκάποδος ὄρθριος</l>
+            <l n="4" xml:id="meineke-0541-orge-2_2-l4">πρὸς τὴν σελήνην ἔτρεχε τὴν σκιὰν ἰδών</l>
+            <l n="5" xml:id="meineke-0541-orge-2_2-l5">ὡς ὑστερίζων, καὶ παρῆν ἅμ᾿ ἡμέρᾳ.</l>
+          </lg>
+          <note type="source">Athenaeus VI p. 243 a. de Chaerephonte parasito dicens: <quote>κἀν τῇ Ὀργῇ δέ φησι Μένανδρος Διαφέρει κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 γρῦ AB. τοῦ C. που PVL. — Vs. 2 fortasse respicit Pollux VI 8: <quote>κληθῆναι ἐπὶ δεῖπνον ἥ τε παροιμία λέγει καὶ Μένανδρος.</quote> Proverbium illud, cuius sedem frustra quaesiverunt intpp. Pollucis, latet apud schol. Theocr. VII 24: <quote>ἐπὶ δὲ τῶν βραδυνόντων παροιμία· Ὅστις ἐπὶ δεῖπνον ὀψὲ κληθεὶς ἔρχεται, | ἢ χωλός ἐστιν ἢ οὐ δίδωσι συμβολάς.</quote> Eandem paroemiam respexit Plut. Symp. p. 726 B et Apollonius de pronom. p. 106. — Vs. 3 respicit Hesychius, <quote>Δωδεκάποδος: οὕτως ἔλεγον ἐλλειπτικῶς στοιχείου ἢ σκιᾶς. οὕτω γὰρ συνέθεντο ἐπὶ δεῖπνον ἥξειν, τοῦ στοιχείου ὄντος δωδεκάποδος.</quote> De re vide Casaubonum ad Athenaeum l. l. et Beckerum in Charicle II p. 492. Apposite ad nostrum locum Plutarchus de amic. et adul. p. 50 e. <quote>parasitus,</quote> inquit, <quote>ἁλίσκεται σκιὰν καταμετρῶν ἐπὶ δεῖπνον.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-orge-3_2">
+          <head>III.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-orge-3_2-l1">Τοῦθ᾿ ἑταῖρός ἐστιν ὄντως. οὐκ ἐρωτᾷ, πηνίκα</l>
+            <l n="2" xml:id="meineke-0541-orge-3_2-l2">δεῖπνόν ἐστιν; ὥσπερ ἕτεροι, καὶ τί δειπνεῖν κωλύει</l>
+            <l n="3" xml:id="meineke-0541-orge-3_2-l3">τοὺς παρόντας; εἶτα δεῖπνον ἕτερον εἰς τρίτην βλέπει,</l>
+            <l n="4" xml:id="meineke-0541-orge-3_2-l4">
+              <gap reason="lost" extent="unknown" unit="line" /> εἶτα περίδειπνον πάλιν.</l>
+          </lg>
+          <pb n="180" facs="urn:hathi:hvd.32044098646714:scan:204" />
+          <note type="source">
+            <bibl>Athenaeus VI p. 247 e:</bibl>
+            <quote>Μένανδρος ἐν Ὀργῇ περὶ φίλου λέγων οὐχ ὑπακούοντος γάμων δείπνῳ φησί <title>Τοῦθ᾽ ἑταῖρος</title> κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 ἐστιν ὄντως Grotius, ὄντως ἐστὶν libri. — Vs. 4 Porsonus probabili coniectura ita explet, εἶτα δ᾽ ἕτερον εἰς τετάρτην. Possis etiam εἰς τετάρτην δ᾽ αὖθις ἕτερον.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-orge-4_2">
+          <head>IV.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-orge-4_2-l1">Ὁ λιμὸς ὑμῶν τὸν καλὸν τοῦτον δακών</l>
+            <l n="2" xml:id="meineke-0541-orge-4_2-l2">Φιλιππίδου λεπτότερον ἀποδείξει νεκρόν.</l>
+          </lg>
+          <note type="source">
+            <bibl>Athenaeus XII p. 552 e.</bibl> de Philippidis tenuitate comicorum exempla apponens: <quote>Μένανδρος ἐν Ὀργῇ <title>Ὁ λιμὸς ὑμῶν</title> κτλ.</quote>
+          </note>
+          <note type="apparatus">Bentleius vs. 1 ὑμῖν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-orge-5_2">
+          <head>V.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-orge-5_2-l1">Οὐκ ἔστι μοιχοῦ πρᾶγμα τιμιώτερον</l>
+            <l n="2" xml:id="meineke-0541-orge-5_2-l2">θανάτου γάρ ἐστιν ὤνιον.</l>
+          </lg>
+          <note type="source">
+            <bibl>Stobaeus Flor. VI 25.</bibl>
+          </note>
+          <note type="apparatus">Libri ἐντιμότερον. Correxit Scaliger. Cfr Euripides apud Stobaeum I 6: οὐκ ἔστιν ἀρετῆς κτῆμα τιμιώτερον.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6_7" ana="#compiled-citation-normalized" xml:id="meineke-0541-orge-6_7">
+          <head>VI. VII.</head>
+          <note type="source">
+            <bibl>Pollux VI 102:</bibl>
+            <quote>ἀριστόδειπνον δὲ Μένανδρος εἴρηκε, καὶ ἄδειπνον ὁ αὐτὸς ἐν Ὀργῇ.</quote> — <bibl>Hesychius</bibl>, <quote>Οὐ μάτην: οὐκ ἀληθῶς. Μένανδρος ἐν Ὀργῇ.</quote>
+          </note>
+          <note type="apparatus">Bentleius οὐ μὰ τήν. Lamb. Bosius Animadv. III p. 14 pro ἀληθῶς scribi vult ἄλλως. Ac sane Suidas, Μάτην: ἄλλως. Passovius in Act. Societ. Philol. Lips. T. I p. 107 οὐκ ante ἀληθῶς delebat. Praestat his quod Bentleius voluit. De formulis μὰ τὸν, μὰ τὴν, οὐ μὰ τόν, οὐ μὰ τήν, ναὶ τὸν, ναὶ τὴν, dixi in edit. mai. Quibus adde locum Philonis Iud. II p. 271 Mang. εἰώθασιν ἀναφθέγγεσθαι τοσοῦτον μόνον νὴ τὸν, ἢ μὰ τὸν, μηδὲ παραλαβόντες ἐμφάσει τῆς ἀποκοπῆς τρανοῦν ὅρκον οὐ γινόμενον.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

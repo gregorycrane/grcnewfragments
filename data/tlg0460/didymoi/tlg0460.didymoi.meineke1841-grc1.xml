@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Euphron, ΔΙΔΥΜΟΙ: fragments</title>
+        <author>Euphron</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0460.didymoi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0460.didymoi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0460.didymoi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0460_didymoi">
+        <head>ΔΙΔΥΜΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0460-didymoi-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0460-didymoi-1-l1">Qui se nepotans rebus evolvit suis,</l>
+            <l n="2" xml:id="meineke-0460-didymoi-1-l2">aliena recte quomodo curet bona?</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0460-didymoi-1_2">
+          <lg>
+            <l n="1" xml:id="meineke-0460-didymoi-1_2-l1">Ὁ γὰρ τὸν ἴδιον οἰκονομῶν κακῶς βίον,</l>
+            <l n="2" xml:id="meineke-0460-didymoi-1_2-l2">πῶς οὗτος ἂν σώσειε τῶν ἔξω τινά;</l>
+          </lg>
+          <note type="source">Stobaeus Flor. XV 2 cum lemmate Εὔφρονος Διδύμων. „Sic Froben. Εὔφρονος B. Nihil enotavi ex A. Εὔφρονος ἐν Διδύμοις Schow. Euphronis in Didymis Gesner. Euphro Geminis Grotius.“ Gaisfordus.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0460-didymoi-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0460-didymoi-2-l1">Cum tam breve aevum tribuas nobis, Iuppiter,</l>
+            <l n="2" xml:id="meineke-0460-didymoi-2-l2">cur sine dolore hoc non permittis degere?</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0460-didymoi-2_2">
+          <lg>
+            <l n="1" xml:id="meineke-0460-didymoi-2_2-l1">Ὦ Ζεῦ, τί ποθ᾽ ἡμῖν δοὺς χρόνον τοῦ ζῆν βραχύν</l>
+            <l n="2" xml:id="meineke-0460-didymoi-2_2-l2">πλέκειν ἀλύπως τοῦτον ἡμᾶς οὐκ ἐᾶς;</l>
+          </lg>
+          <note type="source">Stobaeus Flor. XCVIII 42 cum lemmate Εὔφρονος Διδύμων. Versu primo A πάνθ᾽ pro ποθ᾽.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

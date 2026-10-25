@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Thugenides, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <author>Thugenides</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0514.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0514.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0514.adelon_dramaton.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0514_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0514-adelon_dramaton-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0514-adelon_dramaton-1-l1">“Ἤιτησεν εἰς ὀψώνιον τριώβολον.</l>
+          </lg>
+          <note type="source">Pollux VI 38: καὶ τόπος Ἀθήνησιν (adde ex cod. τὸ ὄψον, forum piscarium), ἀφ' οὗ φασιν „ἀπῆλθον εἰς τοὔψον.̓ Κριτίας δὲ — τὸ ὀψωνεῖν καὶ ὀψονομεῖν ὠνόμασε. Θουκυδίδης (cod. Falck. Θουγενίδης) δὲ ἔφη Ἤιτησεν κτλ.</note>
+          <note type="apparatus">Ita codices. Vulgo εἰς ὀψώνιον ᾔτησε τριώβολον. Cfr Piersonus ad Moerin p. 334.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0514-adelon_dramaton-2">
+          <head>II.</head>
+          <note type="source">Photius Lex. p. 267 8. Μή νόμισον: ἀντὶ τοῦ μὴ νομίσῃς. Θουκυδίδης. Suidas Θαγενίδης h. e. Θουγενίδης, ut vidit Porsonus ad Hecub. 1166. Thugenidem respicit Antiattic. p. 107 30. Μὴ νόμισον: ἀντὶ τοῦ μὴ νομίσῃς.</note>
+          <pb n="594" facs="urn:hathi:hvd.32044098646714:scan:618" />
+          <note type="apparatus">
+            <p>Eadem syntaxi Sophocles <quote>μὴ ψεῦσον ὦ Ζεῦ· μή μ᾿ ἕλῃς ἄνευ δορός</quote>, apud schol. Aristoph. Thesm. 877 et schol. Ven. Iliad. δ' 410.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0514-adelon_dramaton-3">
+          <note type="source">Zonaras II p. 1294. <quote>Λειβήθριοι: ἔθνος μωρόν, ἀπὸ τόπου Λείβηθρα καλούμενον, ἐν ᾧ κατοικοῦσιν ἀνόητοι ἄνθρωποι. Θουκυδίδης <title>Λειβηθρίων ἀνοητότεροι</title>.</quote>
+          </note>
+          <note type="apparatus">
+            <p>Recte Schaeferus apud Tittmannum in Addendis p. CXLVI correxit Θουγενίδης. De proverbio <quote>Λειβηθρίων ἀνοητότεροι</quote> sive <quote>ἀμουσότεροι</quote> vide Albertum ad Hesych. II p. 440 et Leutschium ad Zenob. I 79.</p>
+            <p>Denique fortasse etiam apud Suidam s. v. <quote>ἀνέσπακεν</quote> pro Thucydide Thugenidis nomen reponendum, ubi libri habent <quote>Ἀνέσπακεν: Θουκυδίδης, ἀνεύρηκεν, εἴληφεν. Μένανδρος Ῥαπιζομένῃ <title>Πόθεν γάρ</title> κτλ.</quote>
+            </p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

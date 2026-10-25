@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΓΕΩΡΓΟΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.georgos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.georgos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.georgos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_georgos">
+        <head>ΓΕΩΡΓΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-georgos-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-georgos-1-l1">Male feriatus sit necesse est quisquis est</l>
+              <l n="2" xml:id="meineke-0541-georgos-1-l2">qui vestram fuit in paupertatem iniurius;</l>
+              <l n="3" xml:id="meineke-0541-georgos-1-l3">fortunae insultans, ipsi quae forte imminet:</l>
+              <l n="4" xml:id="meineke-0541-georgos-1-l4">nam quamvis opulens, rebus incertis tumet.</l>
+              <l n="5" xml:id="meineke-0541-georgos-1-l5">fretum fortunae reciprocos aestus habet.</l>
+            </lg>
+          </quote>
+        </div>
+        <pb n="96" facs="urn:hathi:hvd.32044098646714:scan:120" />
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-georgos-1_2">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-georgos-1_2-l1">Ὁ δ᾽ ἠδικηκὼς ὅστις ἔσθ᾽ οὗτός ποτε</l>
+              <l n="2" xml:id="meineke-0541-georgos-1_2-l2">τὴν ὑμετέραν πενίαν, κακοδαίμων ἔσθ᾽, ὅτι</l>
+              <l n="3" xml:id="meineke-0541-georgos-1_2-l3">τοῦτ᾽ ἠδίκηκεν, οὗ τυχὸν μεταλήψεται·</l>
+              <l n="4" xml:id="meineke-0541-georgos-1_2-l4">εἰ καὶ σφόδρ᾽ εὐπορεῖ γάρ, ἀβεβαίως τρυφᾷ·</l>
+              <l n="5" xml:id="meineke-0541-georgos-1_2-l5">τὸ τῆς τύχης γὰρ ῥεῦμα μεταπίπτει ταχύ.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. CV 28.</note>
+          <note type="apparatus">Vs. 2 ἡμετέραν Voss. et Ars. — Vs. 3 τυχὼν N. — Vs. 4 εὖ ποιεῖ Ars. Postremus versus est etiam apud Cramerum Anecd. I p. 333. Etymol. M. p. 685 38. Favorinum Ecl. p. 377 31 Dind. et schol. Sophoclis Oed. T. 1191.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-georgos-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-georgos-2-l1">Gorgia, homo pauper res est fastidibilis:</l>
+              <l n="2" xml:id="meineke-0541-georgos-2-l2">namque, ut loquatur ea quae sunt iustissima,</l>
+              <l n="3" xml:id="meineke-0541-georgos-2-l3">tamen loqui censetur quaesti gratia:</l>
+              <l n="4" xml:id="meineke-0541-georgos-2-l4">tritis lacernis qui advenit, statim audiet</l>
+              <l n="5" xml:id="meineke-0541-georgos-2-l5">calumniator, ipse sit laesus licet.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-georgos-2_2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-georgos-2_2-l1">Εὐκαταφρόνητόν ἐστι, Γοργία, πένης,</l>
+              <l n="2" xml:id="meineke-0541-georgos-2_2-l2">κἂν πάνυ λέγῃ δίκαια· τούτου γὰρ λέγειν</l>
+              <l n="3" xml:id="meineke-0541-georgos-2_2-l3">ἕνεκα μόνου νομίζεθ᾽ οὗτος τοῦ λαβεῖν,</l>
+              <l n="4" xml:id="meineke-0541-georgos-2_2-l4">καὶ συκοφάντης εὐθὺς ὁ τὸ τριβώνιον</l>
+              <l n="5" xml:id="meineke-0541-georgos-2_2-l5">ἔχων καλεῖται, κἂν ἀδικούμενος τύχῃ.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. XCVI 5.</note>
+          <note type="apparatus">Vs. 2 et 3 fortasse transponenda sunt vocabula λέγειν et μόνου; quamquam etiam vulgatus ordo defendi potest.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-georgos-3">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-georgos-3-l1">O Gorgia, ille vir virorum est optimus</l>
+              <l n="2" xml:id="meineke-0541-georgos-3-l2">qui melius aliis callet ferre iniurias.</l>
+              <l n="3" xml:id="meineke-0541-georgos-3-l3">At amarus ille mos et irritabilis</l>
+              <l n="4" xml:id="meineke-0541-georgos-3-l4">degeneris animi praebet indicium omnibus.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-georgos-3_2">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-georgos-3_2-l1">Οὗτος κράτιστός ἐστ᾽ ἀνήρ, ὦ Γοργία,</l>
+              <l n="2" xml:id="meineke-0541-georgos-3_2-l2">ὅστις ἀδικεῖσθαι πλεῖστ᾽ ἐπίστατ᾽ ἐγκρατῶς·</l>
+              <l n="3" xml:id="meineke-0541-georgos-3_2-l3">τὸ δ᾽ ὀξύθυμον τοῦτο καὶ λίαν πικρόν</l>
+              <l n="4" xml:id="meineke-0541-georgos-3_2-l4">δεῖγμ᾽ ἔστιν εὐθὺς πᾶσι μικροψυχίας.</l>
+            </lg>
+          </quote>
+          <note type="source">Orion Gnomol. VII 9. Duos priores versus habet Stobaeus Flor. V 1. duos posteriores idem XX 21.</note>
+          <note type="apparatus">Vs. 2 ἐπίστατ᾽ ἐγκρατῶς Orion. Vitiose Stobaeus ἐπίσταται βροτῶν. De ἀδικεῖσθαι, iniurias ferre, vide praeter eos quos edit. mai. citavi Thucyd. III 47.</note>
+        </div>
+        <pb n="754" facs="urn:hathi:hvd.32044098646714:scan:780" />
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-georgos-4">
+          <head>IV.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-georgos-4-l1">Meo agro iustiorem nemo est qui colat:</l>
+            <l n="2" xml:id="meineke-0541-georgos-4-l2">nam flores profert tanquam caelitibus diis,</l>
+            <l n="3" xml:id="meineke-0541-georgos-4-l3">laurumque et hederam: quod si insevero hordeum,</l>
+            <l n="4" xml:id="meineke-0541-georgos-4-l4">tantumdem exacte reddit quantum acceperat.</l>
+          </lg>
+        </div>
+        <pb n="97" facs="urn:hathi:hvd.32044098646714:scan:121" />
+        <div type="textpart" subtype="fragment" n="4_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-georgos-4_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-georgos-4_2-l1">Ἀγρὸν εὐσεβέστερον γεωργεῖν οὐδένα</l>
+            <l n="2" xml:id="meineke-0541-georgos-4_2-l2">οἶμαι· φέρει γὰρ ὅσα θεοῖς ἄνθη καλά,</l>
+            <l n="3" xml:id="meineke-0541-georgos-4_2-l3">κιττόν, δάφνην· κριθὰς δ᾽ ἐὰν σπείρω, πάνυ</l>
+            <l n="4" xml:id="meineke-0541-georgos-4_2-l4">δίκαιος ὢν ἀπέδωχ᾽ ὅσας ἂν καταβάλω.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. LVII 5. Sunt ipsius agricolae verba.</note>
+          <note type="apparatus">Vs. 3 δ᾽ ἐὰν Grotius. δ᾽ ἂν ΑΒ. Vulgo τε ἄν. — Vs. 4 δίκαιος ὢν ante Porsonum App. ad Toup. p. 435 iam Zedelius Magazin für Schulen vol. II p. 359. Vulgo δικαίως. Ib. ὅσας pro ὅσα Porsonus. Respexisse locum videri potest Pollnx I 227: <quote>Μένανδρος δίκαιον γήδιον καλεῖ ὃ μηδὲν πλέον τοῦ σπέρματος ἐκφέρει</quote>. Quamquam vereor ne is simul Xenophontis locum in animo habuerit Cyrop. VIII 3, 15: <quote>μικρὸν γήδιον, οὐ μέντοι πονηρόν γε, ἀλλὰ πάντων δικαιότατον· ὅ τι γὰρ ἂν λάβοι σπέρμα καλῶς καὶ δικαίως ἀπεδίδου αὐτό τε καὶ τόκον οὐδέν τι πολύν</quote>. Ac fortasse scripsit Pollux: <quote>Μένανδρος δίκαιον [ἀγρὸν καὶ Ξενοφῶν δίκαιον] γήδιον καλεῖ</quote>. Idem Menandri locus respicitur a Quintil. XII 10: <quote>quos ego existimo, si quod in his finibus (Atticam dicit) uberius invenerint solum, fertilioremve segetem, negaturos Atticam esse, quod plus quam acceperit seminis reddat, quia hanc eius terrae fidem Menander eludit</quote>.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-georgos-5">
+          <lg>
+            <l n="1" xml:id="meineke-0541-georgos-5-l1">Εἰμὶ μὲν ἄγροικος, καὐτὸς οὐκ ἄλλως ἐρῶ,</l>
+            <l n="2" xml:id="meineke-0541-georgos-5-l2">καὶ τῶν κατ᾿ ἄστυ πραγμάτων οὐ παντελῶς</l>
+            <l n="3" xml:id="meineke-0541-georgos-5-l3">ἔμπειρος, ὁ δὲ χρόνος τί μ᾽ εἰδέναι ποιεῖ</l>
+            <l n="4" xml:id="meineke-0541-georgos-5-l4">πλέον.</l>
+          </lg>
+          <note type="source">Orion Gnomol. I 19.</note>
+          <note type="apparatus">Versu primo cod. ἄλλος. Correxit Schneidewinus.</note>
+        </div>
+        <pb n="754" facs="urn:hathi:hvd.32044098646714:scan:780" />
+        <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0541-georgos-6">
+          <head>VI.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-georgos-6-l1">Mentis es motae et ridiculus, qui quum ingenuam virginem</l>
+            <l n="2" xml:id="meineke-0541-georgos-6-l2">coeperis adamare, tacitus istas pateris nuptias</l>
+            <l n="3" xml:id="meineke-0541-georgos-6-l3">irritas tibi parari.</l>
+          </lg>
+        </div>
+        <pb n="97" facs="urn:hathi:hvd.32044098646714:scan:121" />
+        <div type="textpart" subtype="fragment" n="6_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-georgos-6_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-georgos-6_2-l1">Ἐμβεβρόντησαι; γελοῖον, ὃς κόρης ἐλευθέρας</l>
+            <l n="2" xml:id="meineke-0541-georgos-6_2-l2">εἰς ἔρωθ᾽ ἥκων σιωπᾷς καὶ μάτην ποθουμένους</l>
+            <l n="3" xml:id="meineke-0541-georgos-6_2-l3">περιορᾷς γάμους σεαυτῷ.</l>
+          </lg>
+          <pb n="98" facs="urn:hathi:hvd.32044098646714:scan:122" />
+          <note type="apparatus">Maximus Planudes ad Hermogenem de ideis in Walzii Rhet. V p. 525 trochaicorum tetrametrorum exempla afferens: καὶ παρὰ τῷ Μενάνδρῳ ἐν Γεωργῷ Ἐμβεβρόντησαι κτλ. Vs. 2 vulgo ποιουμένους. Ioh. Siceliota ποθουμένης, reliquis omissis. Hinc scripsi ποθουμένους. Heringa Observ. crit. p. 243 πονουμένους.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" ana="#compiled-citation-normalized" xml:id="meineke-0541-georgos-7">
+          <lg>
+            <l n="1" xml:id="meineke-0541-georgos-7-l1">Βουβὼν ἐπήρθη τῷ γέροντι, θέρμα τε</l>
+            <l n="2" xml:id="meineke-0541-georgos-7-l2">ἐπέλαβεν αὐτόν.</l>
+          </lg>
+          <note type="source">Zonaras Lex. p. 1030: <quote>Θέρμη καὶ θέρμα — Μένανδρος Βουβὼν ἐπήρθη κτλ.</quote> Partem loci addito fabulae titulo habet Etymol. M. p. 206 57: <quote>Μένανδρος ἐν Γεωργῷ Βουβὼν ἐπήρθη τῷ γέροντι.</quote> Eadem omisso auctoris nomine Suidas v. βουβών.</note>
+          <note type="apparatus">Respicit eundem locum Phrynichus Epit. p. 331 propter formam <foreign xml:lang="grc">θέρμα</foreign>, pro qua veteres Attici constanter <foreign xml:lang="grc">θέρμη</foreign> dixerunt.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="8" ana="#compiled-citation-normalized" xml:id="meineke-0541-georgos-8">
+          <note type="source">Choeroboscus apud Bekkerum Anecd. p. 1380 (Crameri Anecd. IV p. 363): <quote>ἔχομεν τὴν χρῆσιν τοῦ „ἦν ἐγὼ” παρὰ Ἀριστοφάνει — καὶ παρὰ Μενάνδρῳ ἐν τῷ Γεωργῷ</quote>
+          </note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-georgos-8-l1">Ἦν δ᾽ οὐ πονηρὸς οὐδ᾽ ἐδόκουν.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">V. Dindorf. ad Aristoph. Av. 97.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="9" ana="#compiled-citation-normalized" xml:id="meineke-0541-georgos-9">
+          <note type="source">Scholiasta Aristoph. Plut. 652: <quote>ὅτι ἐπὶ κακῷ ἔλεγον οἱ Ἀθηναῖοι τὰ πράγματα, ἰδοὺ διεσάφησεν· καὶ Μένανδρος δὲ ἐν Γεωργῷ</quote>
+          </note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-georgos-9-l1">ἐν πράγμασιν ἐν μάχαις.</l>
+            </lg>
+          </quote>
+          <note type="source">Eadem Suidas v. πράγματα.</note>
+          <note type="apparatus">Verba <foreign xml:lang="grc">ἐν μάχαις</foreign> scholiastae esse suspicatur Dobraeus Adv. II p. 272.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

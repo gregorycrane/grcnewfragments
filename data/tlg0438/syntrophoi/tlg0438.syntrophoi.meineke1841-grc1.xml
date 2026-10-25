@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Damoxenus, ΣΥΝΤΡΟΦΟΙ: fragments</title>
+        <author>Damoxenus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0438.syntrophoi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0438.syntrophoi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0438.syntrophoi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0438_syntrophoi">
+        <head>ΣΥΝΤΡΟΦΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0438-syntrophoi-1">
+          <lg>
+            <l n="1" xml:id="meineke-0438-syntrophoi-1-l1">Ἐπικούρου δέ με</l>
+            <l n="2" xml:id="meineke-0438-syntrophoi-1-l2">ὁρᾷς μαθητὴν ὄντα τοῦ σοφοῦ, παρ' ᾧ</l>
+            <l n="3" xml:id="meineke-0438-syntrophoi-1-l3">ἐν δύ' ἔτεσιν καὶ μησὶν οὐχ ὅλοις δέκα</l>
+            <l n="4" xml:id="meineke-0438-syntrophoi-1-l4">τάλαντ' ἐγώ σοι κατεπύκνωσα τέτταρα.</l>
+            <l n="5" xml:id="meineke-0438-syntrophoi-1-l5">Β. τοῦτο δὲ τί ἐστιν; εἰπέ μοι. Α. καθήγισα.</l>
+            <l n="6" xml:id="meineke-0438-syntrophoi-1-l6">μάγειρος ἦν κἀκεῖνος. οὐκ ἤδει θεοί.</l>
+            <l n="7" xml:id="meineke-0438-syntrophoi-1-l7">Β. ποῖος μάγειρος; Α. ἡ φύσις πάσης τέχνης</l>
+            <l n="8" xml:id="meineke-0438-syntrophoi-1-l8">ἀρχέγονόν ἐστ', ἀρχέγονον, ὠλιτήριε.</l>
+            <l n="9" xml:id="meineke-0438-syntrophoi-1-l9">οὐκ ἔστιν οὐδὲν τοῦ πονεῖν σοφώτερον,</l>
+            <l n="10" xml:id="meineke-0438-syntrophoi-1-l10">ἦν τ' εὐχερὲς τὸ πρᾶγμα τοῦ λόγου τριβήν</l>
+            <l n="11" xml:id="meineke-0438-syntrophoi-1-l11">ἔχοντι τούτου· πολλὰ γὰρ συμβάλλεται.</l>
+            <l n="12" xml:id="meineke-0438-syntrophoi-1-l12">διόπερ μάγειρον ὅταν ἴδῃς ἀγράμματον</l>
+            <l n="13" xml:id="meineke-0438-syntrophoi-1-l13">μὴ Δημόκριτόν τε πάντα διανεγνωκότα</l>
+            <l n="14" xml:id="meineke-0438-syntrophoi-1-l14">[μᾶλλον δὲ κατέχοντα, καταγέλα ὡς κενοῦ]</l>
+            <l n="15" xml:id="meineke-0438-syntrophoi-1-l15">καὶ τὸν Ἐπικούρου κανόνα, μινθώσας ἄφες</l>
+            <l n="16" xml:id="meineke-0438-syntrophoi-1-l16">ὡς ἐκ διατριβῆς. τοῦτο δεῖ γὰρ εἰδέναι,</l>
+            <l n="17" xml:id="meineke-0438-syntrophoi-1-l17">τίν' ἔχει διαφορὰν πρῶτον, ὦ βέλτιστε σύ,</l>
+            <l n="18" xml:id="meineke-0438-syntrophoi-1-l18">γλαυκίσκος ἐν χειμῶνι καὶ θέρει, πάλιν</l>
+            <l n="19" xml:id="meineke-0438-syntrophoi-1-l19">ποῖος περὶ δύσιν Πλειάδος συνειδέναι</l>
+            <l n="20" xml:id="meineke-0438-syntrophoi-1-l20">ἰχθὺς ὑπὸ τροπάς τ' ἐστὶ χρησιμώτατος.</l>
+            <l n="21" xml:id="meineke-0438-syntrophoi-1-l21">αἱ μεταβολαὶ γὰρ αἵ τε κινήσεις κακόν</l>
+            <l n="22" xml:id="meineke-0438-syntrophoi-1-l22">ἠλίβατον ἀνθρώποισιν ἀλλοιώματα</l>
+            <l n="23" xml:id="meineke-0438-syntrophoi-1-l23">ἐν ταῖς τροφαῖς ποιοῦσι, μανθάνεις; τὸ δέ</l>
+          </lg>
+          <pb n="531" facs="urn:hathi:hvd.32044098646714:scan:555" />
+          <lg>
+            <l n="24" xml:id="meineke-0438-syntrophoi-1-l24">ληφθὲν καθ’ ὥραν ἀποδίδωσι τὴν χάριν.</l>
+            <l n="25" xml:id="meineke-0438-syntrophoi-1-l25">τίς παρακολουθεῖ ταῦτα; τοιγαροῦν στρόφοι</l>
+            <l n="26" xml:id="meineke-0438-syntrophoi-1-l26">καὶ πνευμάτια γιγνόμενα τὸν κεκλημένον</l>
+            <l n="27" xml:id="meineke-0438-syntrophoi-1-l27">ἀσχημονεῖν ποιοῦσι. παρὰ δ’ ἐμοὶ τρέφει</l>
+            <l n="28" xml:id="meineke-0438-syntrophoi-1-l28">τὸ προσφερόμενον βρῶμα, καὶ λεπτύνεται</l>
+            <l n="29" xml:id="meineke-0438-syntrophoi-1-l29">ὀρθῶς τε διαπνεῖ. τοιγαροῦν εἰς τοὺς πόρους</l>
+            <l n="30" xml:id="meineke-0438-syntrophoi-1-l30">ὁ χυμὸς ὁμαλῶς πανταχοῦ συνίσταται.</l>
+            <l n="31" xml:id="meineke-0438-syntrophoi-1-l31">χυμὸς λέγεις Δημόκριτος οὐδὲν πρᾶγμα τά</l>
+            <l n="32" xml:id="meineke-0438-syntrophoi-1-l32">γινόμενα ποιεῖ τὸν φαγόντ’ ἀρθριτικόν.</l>
+            <l n="33" xml:id="meineke-0438-syntrophoi-1-l33">
+              <sp>
+                <speaker>Β.</speaker> καὶ τῆς ἰατρικῆς τι μετέχειν μοι δοκεῖς.</sp>
+            </l>
+            <l n="34" xml:id="meineke-0438-syntrophoi-1-l34">
+              <sp>
+                <speaker>Α.</speaker> καὶ πᾶς ὁ φύσεως ἐντός. ἡ δ’ ἀπειρία</sp>
+            </l>
+            <l n="35" xml:id="meineke-0438-syntrophoi-1-l35">τῶν νῦν μαγείρων κατανόει πρὸς τῶν θεῶν</l>
+            <l n="36" xml:id="meineke-0438-syntrophoi-1-l36">οἷα σ̓τίν. ἅλμην ὅταν ἴδῃς ἐξ ἰχθύων</l>
+            <l n="37" xml:id="meineke-0438-syntrophoi-1-l37">ὑπεναντίων αὑτοῖσι ποιοῦντας μίαν,</l>
+            <l n="38" xml:id="meineke-0438-syntrophoi-1-l38">καὶ σήσαμ’ ὑποτρίβοντας εἰς ταύτην, λαβών</l>
+            <l n="39" xml:id="meineke-0438-syntrophoi-1-l39">ἕκαστον αὐτῶν κατὰ μέρος προσπαρδέτω.</l>
+            <l n="40" xml:id="meineke-0438-syntrophoi-1-l40">
+              <sp>
+                <speaker>Β.</speaker> ὥς μοι κέχρησαι.</sp>
+              <sp>
+                <speaker>Α.</speaker> τί γὰρ ἂν εὖ γένοιτ’ ἔτι,</sp>
+            </l>
+            <l n="41" xml:id="meineke-0438-syntrophoi-1-l41">τῆς ἰδιότητος πρὸς ἑτέραν μεμιγμένης</l>
+            <l n="42" xml:id="meineke-0438-syntrophoi-1-l42">καὶ συμπλεκομένης οὐχὶ συμφώνους ἁφάς;</l>
+            <l n="43" xml:id="meineke-0438-syntrophoi-1-l43">τὸ ταῦτα διορᾶν ἐστιν εὐψύχου τέχνης,</l>
+            <l n="44" xml:id="meineke-0438-syntrophoi-1-l44">οὐ τοῦ διανίζειν λοπάδας οὐδ’ ὄζειν καπνοῦ.</l>
+            <l n="45" xml:id="meineke-0438-syntrophoi-1-l45">ἐγὼ γὰρ εἰς τοὐπτάνιον οὐκ εἰσέρχομαι.</l>
+            <l n="46" xml:id="meineke-0438-syntrophoi-1-l46">
+              <sp>
+                <speaker>Β.</speaker> ἀλλὰ τί;</sp>
+              <sp>
+                <speaker>Α.</speaker> θεωρῶ πλησίον καθήμενος,</sp>
+            </l>
+            <l n="47" xml:id="meineke-0438-syntrophoi-1-l47">πονοῦσι δ’ ἕτεροι. <sp>
+                <speaker>Β.</speaker> σὺ δέ;</sp>
+              <sp>
+                <speaker>Α.</speaker> λέγω τὰς αἰτίας</sp>
+            </l>
+            <l n="48" xml:id="meineke-0438-syntrophoi-1-l48">καὶ τἀποβαῖνον· ὀξὺ τὸ περίκομμ’, ἄφες.</l>
+            <l n="49" xml:id="meineke-0438-syntrophoi-1-l49">
+              <sp>
+                <speaker>Β.</speaker> ἁρμονικός, οὐ μάγειρος.</sp>
+              <sp>
+                <speaker>Α.</speaker> ἐπίτεινον τὸ πῦρ.</sp>
+            </l>
+            <l n="50" xml:id="meineke-0438-syntrophoi-1-l50">ὁμαλιζέτω τοῖς τάχεσιν· ἡ πρώτη λοπάς</l>
+            <l n="51" xml:id="meineke-0438-syntrophoi-1-l51">ζεῖ ταῖς ἐφεξῆς οὐχὶ συμφώνως. νοεῖς</l>
+            <l n="52" xml:id="meineke-0438-syntrophoi-1-l52">τὸν τύπον; <sp>
+                <speaker>Β.</speaker> Ἄπολλον.</sp>
+              <sp>
+                <speaker>Α.</speaker> καὶ τί φαίνεται;</sp>
+              <sp>
+                <speaker>Β.</speaker> τέχνη.</sp>
+            </l>
+            <l n="53" xml:id="meineke-0438-syntrophoi-1-l53">
+              <sp>
+                <speaker>Α.</speaker> εἶτ’ οὐδὲν εἰκῆ παρατίθημι, μανθάνεις;</sp>
+            </l>
+          </lg>
+          <pb n="532" facs="urn:hathi:hvd.32044098646714:scan:556" />
+          <lg>
+            <l n="54" xml:id="meineke-0438-syntrophoi-1-l54">βρῶμ', ἀλλὰ μίξας πάντα κατὰ συμφωνίαν.</l>
+            <l n="55" xml:id="meineke-0438-syntrophoi-1-l55">Β. πῶς; Α. ἔστιν αὑτοῖς ἃ διὰ τεττάρων ἔχει</l>
+            <l n="56" xml:id="meineke-0438-syntrophoi-1-l56">κοινωνίαν, διὰ πέντε, διὰ πασῶν πάλιν.</l>
+            <l n="57" xml:id="meineke-0438-syntrophoi-1-l57">ταῦτα προσάγω πρὸς αὐτὰ τὰ διαστήματα,</l>
+            <l n="58" xml:id="meineke-0438-syntrophoi-1-l58">καὶ ταῖς ἐπιφοραῖς εὐθὺς οἰκείως πλέκω·</l>
+            <l n="59" xml:id="meineke-0438-syntrophoi-1-l59">ἐνίοτε δ' ἀφεστὼς παρακελεύομαι, πόθεν</l>
+            <l n="60" xml:id="meineke-0438-syntrophoi-1-l60">ἅπτει; τί τούτῳ μιγνύειν μέλλεις; ὅρα,</l>
+            <l n="61" xml:id="meineke-0438-syntrophoi-1-l61">διάφωνον ἕλκεις· οὐχ ὑπερβήσει σοφόν;</l>
+            <l n="62" xml:id="meineke-0438-syntrophoi-1-l62">Ἐπίκουρος οὕτω κατεπύκνου τὴν ἡδονήν,</l>
+            <l n="63" xml:id="meineke-0438-syntrophoi-1-l63">ἐμασᾶτ' ἐπιμελῶς, εἶδε τἀγαθὸν μόνος</l>
+            <l n="64" xml:id="meineke-0438-syntrophoi-1-l64">ἐκεῖνος οἷόν ἐστιν· οἱ δ' ἐν τῇ στοᾷ</l>
+            <l n="65" xml:id="meineke-0438-syntrophoi-1-l65">ζητοῦσι συνεχῶς οἷόν ἐστ' οὐκ εἰδότες.</l>
+            <l n="66" xml:id="meineke-0438-syntrophoi-1-l66">οὐκοῦν ὅ γ' οὐκ ἔχουσιν, ἀγνοοῦσι δέ,</l>
+            <l n="67" xml:id="meineke-0438-syntrophoi-1-l67">οὐδ' ἂν ἑτέρῳ δοίησαν. Β. οὕτω συνδοκεῖ·</l>
+            <l n="68" xml:id="meineke-0438-syntrophoi-1-l68">ἀφῶμεν οὖν τὰ λοιπά. δῆλα δὴ πάλαι.</l>
+          </lg>
+          <note type="source">Athenaeus III p. 101 f: ἐσθίειν παρακελεύεται τὰ καὶ τά, οὐδὲν ἀποδέων τοῦ παρὰ Δαμοξένῳ τῷ κωμῳδιοποιῷ μαγείρου, ὃς ἐν Συντρόφοις φησίν Ἐπικούρου δέ με κτλ.</note>
+          <note type="apparatus">Vs. 5 καθήγισα Hermannus Praef. ad Dracon. p. XXV. Vulgo καθήγησαι. Libri καθήγησα. Hermanni haec verba sunt: „non hoc ille dicit, se quattuor talenta lucratum esse, sed consumpsisse in culina. Alter vero quum, quid hoc esset, κατεπύκνωσα, interrogasset, de quo Epicuri verbo ad vs. 62 disseruerunt interpretes, prior iste respondet καθήγισα, in fumum dissolutam esse pecuniam significans." — Vs. 6 Dindorfius οὐκ ᾔδεισθα σύ; Mihi non liquet. — Vs. 7 ποῖος μάγειρος; qui, malum, coquus? Dobraeus Advers. II p. 301. ποῖος, ut saepe, indignantis esse monens. — Vs. 6 ἀρχέγονον ἐστιν, ἀρχέγονον ὦ ἀλιτήριε ABP. — Vs. 9 libri οὐθέν. Ibidem Reisigius Coni. p. 31 τοῦ 'πινοεῖν. Alii ποιεῖν. — Vs. 10 Reisigius probabiliter πᾶν τ' εὐχερές. — Vs. 11 ἔχοντι L. ἔχοντα PV. — Vs. 13 Δημοκρίτου Bas. L.</note>
+          <pb n="533" facs="urn:hathi:hvd.32044098646714:scan:557" />
+          <note type="apparatus">Δημόκριτον ceteri omnes. — Vs. 14 Β μᾶλλον δὲ καὶ κατέχοντα. Ibid. καταγέλα ὡς ABCP. καταγέλα σύ γ᾽ ὡς VL. Hermannus Doctr. metr. p. 135: μᾶλλον δὲ κατέχοντ᾽, εὖ καταγελᾶν ὡς κενοῦ. Rectius idem Praef. ad Drac. Strat. l. l. totum hunc versum ut ex interpretatione natum deleri iusserat. Inclusi igitur Dindorfii exemplum sequutus, qui trimetrum, si hoc agatur, ita restitui posse iudicat, μᾶλλον δὲ καὶ κατέχοντα, καταγέλα κενοῦ. — Vs. 15 libri μισθώσω σαφές. Grotius Excerptis p. 701 μισθώσας ἄφες. Perfecit emendationem Hermannus scribendum coniiciens μινθώσας ἄφες, quorum verborum ipsum illud, quod superiore versu legitur καταγέλα ὡς κενοῦ, interpretamentum est. Verbo μινθῶσαι, quod reponendum vidit etiam Lobeckius ad Phryn. p. 276. eodem modo utitur Archestratus Athenaei VII p. 285 b: τὴν ἀφύην μίνθου πᾶσαν πλὴν τὴν ἐν Ἀθήναις. Usitatius hoc sensu est προσπέρδειν. — Vs. 16 ὡς ἐκ διατριβῆς cum sequentibus coniunxit Schweighaeuserus vertens: <quote>nam veluti ex erudito studio et ex doctorum hominum commercio notum hoc debet habere etc.</quote> Sed vulgata distinctio retineri potest. — Vs. 17 πρῶτον D. Vulgo πρῶτος. — Vs. 19 ἐπὶ δύσιν πλειάδων DP. — Vs. 20 τ᾽ accessit ex C. — Vs. 22 ἠλίβατον ἀνθρώποισιν Schweighaeuserus in annotationibus et Porsonus. ἠλίβατόν ἐστ᾽ ἀνθρώποις Α. ἠλίβατον ἐν ἀνθρώποισιν VL. Ibid. Porsonus ἀλλοίωμά τε. C ἀλλοιώματ᾽. Servari poterit edita lectio, si ἀλλοιώματα per appositionem ad κακὸν ἠλίβατον adiectum statuas. — Vs. 23 τροφαῖς Grotius. Libri τροπαῖς. — Vs. 25 sine causa haeserunt editores in accusativo ταῦτα. Menander Inc. fab. XXXII 2: ὁ δέ μ᾽ ἠκολούθησεν μέχρι τοῦ πρὸς τὴν θύραν, ubi vide notam. Sententiam recte expressit Grotius: <quote>Quotus ista quisque observat?</quote> — Vs. 29 pro διαπνεῖ P habet διὰ δείπνου. — Vs. 30 C inverso verborum ordine ὁμαλῶς ὁ χυμός. — Vs. 31 et 32 omittit C. Petitus πράγματα, quo parum profici in loco corruptissimo recte monet Dindorfius. Id unum mihi certum videtur, referri Democriti de χυμῷ sententiam, et scribendum esse χυμός, λέγει Δημόκριτος, etc.</note>
+          <pb n="534" facs="urn:hathi:hvd.32044098646714:scan:558" />
+          <note type="apparatus">ἀρθριτικὸν ABP. ἀρθρητικὸν VL. — Vs. 34 ὁ φύσεως ἐντός, naturae cognitione imbutus. Laudant Budaei Comment. lingu. gr. p. 179. Adde Sextum Empir. adv. gramm. I 155: καὶ ἰδιῶται καὶ οἱ παιδείας ἐντός. — Vs. 36 οἷά σ̓τὶν Grotius. Libri οἵαν τήν. Ibid. pro ὀσμὴν scripsi ἅλμην, quam coniecturam meam commemoravit Dindorfius. Casaubonus ἐδωδήν, quae Homerica vox est. Reisigius tentabat δεσμήν, quod minus aptum videtur. Quod ego conieci olim, nunc etiam ex Dobraei Adversariis allatum est, qui praeterea tentat οἷα σ̓τίν· οὓς ἅλμην ἂν ἴδοις. — Vs. 37 libri αὐτοῖσιν. Ibidem ποιοῦντας Schweighaeuserus; libri ποιούντων. — Vs. 38 probabiliter Reisigius ἐπιτρίβοντας. — Vs. 40 Iacobsius ὀσμῇ κέχρησαι. Coniecturam meam ὡς μοι κεχάρισαι memoravit Dindorfius. Idem nunc Dobraeus. Ibid. γένοιτ᾿ ἔτι ABDP. γένοιτό τι VL. — Vs. 42 συμπλεκομένης BC. συμπλεκομένας APVL. Vocem ἁφαὶ ex musicorum arte adscitam esse recte statuit Petitus. Casaubono translatio a lucta sumpta videbatur. — Vs. 43 Dobraeus εὐφυοῦς pro eo quod rectissime habet εὐψύχου. — Vs. 44 οὐ τοῦ Dobraeus. Vulgo οὐ τό. — Vs. 45 τοὐπτάνιον Valcken. ad Phoen. p. 252. τοὐπτάνειον AP. τοὐπτανεῖον VL. — Vs. 46 ἀλλὰ τί; Schweighaeuserus in annotationibus. Eodem auctore personarum vices ita descripsi, ut supra vides. Vulgo ἀλλά τι θεωρῶ etc. sine distinctione. — Vs. 47 Dindorfius ex mea coniectura πονοῦσι δ᾽ ἑτέροισιν λέγω τὰς αἰτίας. Libri πονοῦσι δ᾽ ἕτεροι σοὶ δὲ λέγω τὰς αἰτίας. Nunc Casaubonum sequutus sum. — Vs. 48 ὀξὺ τὸ περίκομμ᾽, ἄφες. In cibis quid fuerit περίκομμα notum est; sed videtur illud etiam musicum fuisse vocabulum, quoniam non credibile est propter unum illud ὀξύ coquum nostrum ab altero interlocutore harmonicum vocari. Eadem ambiguitate Athenio Samothrac. 31 (Athen. XIV p. 661 b): περικομματίῳ διεγίγγρασ᾽ ὑποκρούσας γλυκεῖ, ubi vide quae annotavi. Pro ἄφες nescio an ἄνες scribendum et versu sequente ἐπίτεινον a verbis τὸ πῦρ separandum sit, ut hoc dicat: <mentioned>nimium acutus sonus est; remitte; rursum intende.</mentioned> Vide tamen ad</note>
+          <pb n="535" facs="urn:hathi:hvd.32044098646714:scan:559" />
+          <note type="apparatus">sequentem versum. — Vs. 50 pro τάχεσιν ἡ cod. Α στάχεσιν, reliqui στάχεσι. Iacobsius ὁμαλιζέτω τις ὡς τάχος, quod sequutus est Dindorfius. Sed pluralem τὰ τάχη ex Epicurea dictione petitum (v. c. Epist. I 15 aliisque locis) non eripiam Damoxeno. Scribendum videtur ἐπίτεινον· τὸ πῦρ ὁμάλιζέ τις τοῖς τάχεσιν, ignem aliquis celeritate aequalem facito. At fortasse ne hoc quidem opus, si servata vulgari distinctione scribas: ἐπίτεινον τὸ πῦρ. ὁμαλίζετ᾿ ὦ τοῖς τάχεσιν. *) Dobraeus tentabat ἐπιτείνων τὸ πῦρ ὁμάλιζε τοῖσι τάχεσιν. — Vs. 51 „ταῖς Casaubonus adiuvante Hoescheliana epitome", in qua τοῖς reperisse videtur, ut in C scriptum est. τοὺς ABPVL." Dindorfius. — Vs. 52 τὸν τύπον recte interpretari videntur: tenesne formam et rationem praeceptorum meorum? „Sic apud Longinum Subl. 13 τὸν τύπον οὐ ἀγνοεῖς de forma et more scribendi Platonis accepit Toupius, collato hoc loco et Synesio Epist. 67." Schweighaeuserus. Qui etiam personas distinxit, quamquam possis etiam: Α. καί τι φαίνεται τέχνη; et videtur tibi ars mea aliquid praeclarum esse? — Vs. 53 libri οὐθέν. — Vs. 55 vulgo πῶς ἔστιν αὐτοῖς etc. Distinxi orationem ut iussit Iacobsius. Pro αὐτοῖς quod olim in αὐτῶν mutabam, cum Dobraeo scripsi αὑτοῖς h. e. ἀλλήλοις. — Vs. 59 possis ἔσθ᾽ ὅτε δ᾽, vel ἔνια δ᾽. Menander Polum. p. 150 καὶ συμμανῆναι δ᾽ ἔνια δεῖ. Idem Hypob. p. 170: ἀλλ᾿ ἔστι καὶ ταὐτόματον ἔνια χρήσιμον, ubi itidem olim ἐνίοτε legebatur. 'At fortasse probandum quod Hermannus Doctr. metr. p. 131 scripsit ἐνίοτ᾿. — Vs. 61 διάφωνον ἕλκειν haud dubie musicae artis dictio est. Ibid. libri ὑπερβήσηι. Pro σοφόν, quod certissime corruptum est, suspicabar Σόφων, non tamen ut celebrem illum coquinariae artis magistrum intellegam, de quo Athen. IX p. 403 c. et alibi. — Vs. 62. „Verbo καταπυκνοῦν (ex musicorum ratione desumto, ut docuit Meibomius ad Diog. Laert. X 142) ipse Epicurus usus est, de voluptate loquens in κυρίαις δόξαις num. IX εἰ</note>
+          <note type="footnote">*) Ita Aristophanes Lysistr. 350 ἔασον ὦ et Aeschylus Agam. 1089 κατολολύξατ᾽ ὦ λευσίμου θύματος. Ita enim scribendum pro edito κατολολυξάτω.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0438-syntrophoi-1_2">
+          <lg>
+            <l n="1" xml:id="meineke-0438-syntrophoi-1_2-l1">Sapientissimi</l>
+            <l n="2" xml:id="meineke-0438-syntrophoi-1_2-l2">Epicuri me genuinum discipulum vides.</l>
+            <l n="3" xml:id="meineke-0438-syntrophoi-1_2-l3">biennio atque mensibus haud totis decem</l>
+            <l n="4" xml:id="meineke-0438-syntrophoi-1_2-l4">talenta apud illum deglutivi quattuor.</l>
+            <sp>
+              <speaker>B.</speaker>
+              <l part="I" n="5" xml:id="meineke-0438-syntrophoi-1_2-l5">Quid est, quod narras? dic, magister, te rogo,</l>
+              <l part="I" n="6" xml:id="meineke-0438-syntrophoi-1_2-l6">coquus fuit ille?</l>
+            </sp>
+            <sp>
+              <speaker>A.</speaker>
+              <l part="F" n="7" xml:id="meineke-0438-syntrophoi-1_2-l7">Nempe id ignoras? coquus,</l>
+              <l n="8" xml:id="meineke-0438-syntrophoi-1_2-l8">proh superi, quantus? artium nempe omnium</l>
+              <l n="9" xml:id="meineke-0438-syntrophoi-1_2-l9">natura fons et origo est: natura, improbe,</l>
+              <l n="10" xml:id="meineke-0438-syntrophoi-1_2-l10">nihil ad res efficiendas est sapientius.</l>
+              <l n="11" xml:id="meineke-0438-syntrophoi-1_2-l11">hinc facilis illi ars nostra, cui percognita</l>
+              <l n="12" xml:id="meineke-0438-syntrophoi-1_2-l12">naturae ratio. namque id usus maximi est.</l>
+              <l n="13" xml:id="meineke-0438-syntrophoi-1_2-l13">illiteratum proinde si videas coquum,</l>
+              <l n="14" xml:id="meineke-0438-syntrophoi-1_2-l14">et qui Democriti libros non perlegerit,</l>
+              <l n="15" xml:id="meineke-0438-syntrophoi-1_2-l15">imo animo teneat, vanum et insulsum puta.</l>
+            </sp>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

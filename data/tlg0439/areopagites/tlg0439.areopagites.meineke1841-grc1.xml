@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Demetrius Comicus, ΑΡΕΟΠΑΓΙΤΗΣ: fragments</title>
+        <author>Demetrius Comicus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0439.areopagites.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0439.areopagites.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0439.areopagites.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0439_areopagites">
+        <head>ΑΡΕΟΠΑΓΙΤΗΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0439-areopagites-1">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0439-areopagites-1-l1">Ὅσον ἀπὸ ταύτης τῆς τέχνης εἴργασμ᾽ ἐγώ,</l>
+              <l n="2" xml:id="meineke-0439-areopagites-1-l2">οὐδεὶς ὑποκριτής ἐσθ᾽ ὅλως εἰργασμένος.</l>
+              <l n="3" xml:id="meineke-0439-areopagites-1-l3">καπνιζομένη τυραννὶς αὕτη σ̓θ᾽ ἡ τέχνη.</l>
+              <l n="4" xml:id="meineke-0439-areopagites-1-l4">ἀβυρτακοποιὸς παρὰ Σέλευκον ἐγενόμην·</l>
+              <l n="5" xml:id="meineke-0439-areopagites-1-l5">παρ᾿ Ἀγαθοκλεῖ δὲ πρῶτος εἰσήνεγκ᾽ ἐγώ</l>
+              <l n="6" xml:id="meineke-0439-areopagites-1-l6">τῷ Σικελιώτῃ τὴν τυραννικὴν φακῆν.</l>
+              <l n="7" xml:id="meineke-0439-areopagites-1-l7">τὸ μέγιστον οὐκ εἴρηκα· Λαχάρους τινός,</l>
+              <l n="8" xml:id="meineke-0439-areopagites-1-l8">ὅτ᾽ ἦν ὁ λιμός, ἑστιῶντος τοὺς φίλους,</l>
+              <l n="9" xml:id="meineke-0439-areopagites-1-l9">ἀνάληψιν ἐποίησ᾽ εἰσενέγκας κάππαριν.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus IX p. 405 e: <quote>καταφρονεῖς ὅτι μάγειρός εἰμι ἴσως· ὅσον ἀπὸ ταύτης τῆς τέχνης εἴργασμ᾽ ἐγώ, κατὰ τὸν κωμικὸν Δημήτριον, ὃς ἐν τῷ ἐπιγραφομένῳ Ἀρεοπαγίτῃ ταῦτ᾽ εἴρηκεν <quote>Ὅσον ἀπὸ ταύτης τῆς τέχνης κτλ.</quote>
+            </quote>
+          </note>
+          <note type="apparatus">
+            <label>Vs. 3</label> καπνιζομένην τυραννίδα vocat artem coquinariam, utpote inter culinae fumos versantem et imperium exercentem. Ibid. libri αὕτη ἐσθ᾽. — <label>Vs. 7</label> Λαχάρους τινός. De Lachare, impotentissimo Athenarum tyranno, postea a Demetrio expulso, veterum scriptorum loca composuit Wyttenbachius ad Plutarchum de S. N. V. p. 71. Eiusdem, puto, hominis libidines indicabant qui pudenda muliebria Λαχάρας dicebant. Hesychius v. Ἀριστόδημος: Φορμισίους δὲ (scil. ἔλεγον)</note>
+          <pb n="540" facs="urn:hathi:hvd.32044098646714:scan:564" />
+          <note type="apparatus">τὰ γυναικεῖα αἰδοῖα, καὶ Βασιλείδας καὶ Λαχάρας (i. e. Λαχάρεις), quae attigi vol. III p. 193. Iure offendit Schweighaeuserus in adiecto τινός, pro quo vide ne τότε vel ποτέ poeta scripserit. Nisi forte τινὸς versus explendi causa illatum, Demetrium autem scripsisse dicas: <quote>
+              <lg>
+                <l n="10" xml:id="meineke-0439-areopagites-1-l10">τὸ μέγιστον οὐκ εἴρηκα δ᾽ οὔπω· Λαχάρους, ὅτ᾽ ἦν ὁ λοιμός etc.</l>
+              </lg>
+            </quote> — Vs. 8 ὅτ᾽ ἦν ὁ λιμός. De hac fame constat ex Plutarchi Demetr. 33. — Vs. 9 ἀνάληψιν recte Schweighaeuserus interpretatur refectionem e morbo aut virium defectione. Itaque gloriatur coquus se debilitatas convivarum vires cappari artificiose apparata resuscitasse.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

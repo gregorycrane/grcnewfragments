@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΔΗΜΙΟΥΡΓΟΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.demioyrgos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.demioyrgos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.demioyrgos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_demioyrgos">
+        <head>ΔΗΜΙΟΥΡΓΟΣ</head>
+        <div type="textpart" subtype="fragment" n="3_4" ana="#compiled-citation-normalized" xml:id="meineke-0541-demioyrgos-3_4">
+          <note type="source">Pollux X 102: <quote>Μένανδρος δ᾿ ἐν Δημιουργῷ ληνὸν εἴρηκε τὴν κάρδοπον.</quote> — Antiatticista p. 83. <quote>Βίος: ἐπὶ συνουσίας (leg. οὐσίας) Ἡρόδοτος, Μένανδρος Δημιουργῷ, Εὔπολις Αἰξίν, ὁ ποιητὴς πολλάκις.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-demioyrgos-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-demioyrgos-1-l1">Τί τοῦτο, παῖ; διακονικῶς γὰρ νὴ Δία</l>
+              <l n="2" xml:id="meineke-0541-demioyrgos-1-l2">προελήλυθας. <speaker>Β.</speaker> ναί· πλάττομεν γὰρ πλάσματα,</l>
+              <l n="3" xml:id="meineke-0541-demioyrgos-1-l3">τὴν νύκτα τ᾿ ἠγρυπνήκαμεν· καὶ νῦν ἔτι</l>
+              <l n="4" xml:id="meineke-0541-demioyrgos-1-l4">ἀποίητα πάμπολλ᾽ ἐστὶν ἡμῖν.</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <bibl>Athenaeus IV p. 172 c</bibl>: <quote>ὅτι δὲ ἐκεχώριστο τὰ τῆς ὑπουργίας, πεμμάτων μὲν προνοουσῶν τῶν δημιουργῶν, ὀψαρτυτικῆς δὲ τῶν μαγείρων, διεσάφησεν — καὶ Μένανδρος Δημιουργῷ <quote>Τί τοῦτο</quote> κτλ.</quote>
+          </note>
+          <note type="apparatus">Quae sunt ipsius δημιουργοῦ verba, in nuptiali coena apparanda occupatae. Non recte enim <bibl>scholiasta Aristoph. Equit. 647</bibl>: <quote>δημιουργοὺς ἐκάλουν καὶ τὰς νῦν καλουμένας παρανυμφίδας, τοῦτ᾽ ἔστι τὰς παρεστώσας τῇ νύμφῃ γυναῖκας, ὅθεν ἐστὶ καὶ Μενάνδρου Δημιουργός.</quote> Eadem fere <bibl>Suidas</bibl> habet <quote>v. δημιουργός.</quote> Rectius <bibl>Pollux III 41</bibl> δημιουργόν vocari monet <quote>τὴν τὰ πέμματα μάττουσαν ἐν τοῖς γάμοις.</quote> Nonne igitur vs. 2 πέμματα?</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-demioyrgos-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-demioyrgos-2-l1">Μακάριος ὅστις οὐσίαν καὶ νοῦν ἔχει·</l>
+              <l n="2" xml:id="meineke-0541-demioyrgos-2-l2">χρῆται γὰρ οὗτος εἰς ἃ δεῖ ταύτῃ καλῶς.</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <bibl>Stobaeus Flor. CIII 7</bibl> et <bibl>Antonius Mel. CXI p. 221</bibl>.</note>
+          <note type="apparatus">Idem fragmentum duobus senariis auctum e Menagyrta Menandri laudatur a Stobaeo XCIV 7, cuius erroris originem in edit. mai. explicui. Primum versum servavit etiam <bibl>Plutarchus de aud. poet. p. 34 c</bibl>. Locum in rem suam convertit Democritus</note>
+          <pb n="104" facs="urn:hathi:hvd.32044098646714:scan:128" />
+          <note type="apparatus">qui vocatur in Galei Opusc. Mythol. p. 16: <quote>μακάριος ὃς οὐσίαν καὶ νοῦν ἔχει, χρῆται γὰρ οὗτος εἰς ἃ δεῖ καλῶς.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-demioyrgos-1_2">
+          <head>I.</head>
+          <sp>
+            <speaker>A.</speaker>
+            <lg>
+              <l n="1" xml:id="meineke-0541-demioyrgos-1_2-l1">Quid hoc, puella, quod ministerialiter</l>
+              <l n="2" xml:id="meineke-0541-demioyrgos-1_2-l2">incedis adeo?</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>B.</speaker>
+            <lg>
+              <l n="2_2" xml:id="meineke-0541-demioyrgos-1_2-l2_2">Nempe opera ad pistoria</l>
+              <l n="3" xml:id="meineke-0541-demioyrgos-1_2-l3">tota evigilata nox est, atque etiam tamen</l>
+              <l n="4" xml:id="meineke-0541-demioyrgos-1_2-l4">infecta restant multa.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-demioyrgos-2_2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-demioyrgos-2_2-l1">Felix qui mentem cum divitiis possidet:</l>
+            <l n="2" xml:id="meineke-0541-demioyrgos-2_2-l2">nam solus novit divitiis recte frui.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

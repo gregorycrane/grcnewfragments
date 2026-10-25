@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΑΠΟΛΙΣ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.apolis.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.apolis.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.apolis.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_apolis">
+        <head>ΑΠΟΛΙΣ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0487-apolis-unnumbered">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-apolis-unnumbered-l1">Οὐχὶ μόνον οὗτος εὗρε πῶς λαλήσομεν</l>
+              <l n="2" xml:id="meineke-0487-apolis-unnumbered-l2">αὑτοῖς, ἀπέχοντες πολὺν ἀπ᾽ ἀλλήλων χρόνον,</l>
+              <l n="3" xml:id="meineke-0487-apolis-unnumbered-l3">οὐδ᾽ ὃν τρόπον μηδέποτε μηδὲ εἷς πάλιν</l>
+              <l n="4" xml:id="meineke-0487-apolis-unnumbered-l4">ἐπιλήσεθ᾽ ἡμῶν μηδέν, ἐμβλέψας δέ που</l>
+              <l n="5" xml:id="meineke-0487-apolis-unnumbered-l5">τἀκ τοῦ χρόνου τοῦ παντὸς εἴσετ᾽, ἀλλὰ καὶ</l>
+              <l n="6" xml:id="meineke-0487-apolis-unnumbered-l6">ψυχῆς ἰατρὸν κατέλιπεν τὰ γράμματα.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. LXXXI 9 cum lemmate Φιλήμονος ἐξ Ἀπόλλωνος.</note>
+          <note type="apparatus">Grotius ex Exsule h. e. ἐξ Ἀπόλιδος. Cui titulo fragmenti ex hac fabula servati sententia bene convenit. Exsulem Caecilii a Nonio citari monet Clericus. Vs. 1 cod. Α λαλήσετε. — Vs. 2 αὑτοῖς i. e. ἀλλήλοις scripsi pro edito αὐτοῖς. Ibid. Trinc. πολλοὺς — χρόνους. — Vs. 4 A et Trinc. ἐπιλήψεθ᾽. Ceterum de Prometheo an Cadmo an Palamede loquatur Philemo incertum est. Cfr edit. mai.</note>
+          <quote>
+            <lg>
+              <l n="1_2" xml:id="meineke-0487-apolis-unnumbered-l1_2">Nec ille tantum reperit, quo pacto diu</l>
+              <l n="2_2" xml:id="meineke-0487-apolis-unnumbered-l2_2">absentes alter colloquamur alteri,</l>
+              <l n="3_2" xml:id="meineke-0487-apolis-unnumbered-l3_2">et qua ratione, quod quis addidicit semel</l>
+              <l n="4_2" xml:id="meineke-0487-apolis-unnumbered-l4_2">oblivionis e potestate eximat,</l>
+              <l n="5_2" xml:id="meineke-0487-apolis-unnumbered-l5_2">retro gesta repraesentans: verum adeo insuper</l>
+              <l n="6_2" xml:id="meineke-0487-apolis-unnumbered-l6_2">reliquit animi medicatrices litteras.</l>
+            </lg>
+          </quote>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

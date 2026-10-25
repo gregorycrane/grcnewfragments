@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Crobylus, ΨΕΥΔΥΠΟΒΟΛΙΜΑΙΟΣ: fragments</title>
+        <author>Crobylus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0437.pseydypobolimaios.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0437.pseydypobolimaios.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0437.pseydypobolimaios.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_pseydypobolimaios">
+        <head>ΨΕΥΔΥΠΟΒΟΛΙΜΑΙΟΣ</head>
+        <pb n="567" facs="urn:hathi:hvd.32044098646714:scan:591" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0437-pseydypobolimaios-1">
+          <head rend="large">Ι.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0437-pseydypobolimaios-1-l1">
+                <speaker>Λάχης.</speaker>
+                <speaker>Β.</speaker> ἐγὼ δὲ πρὸς σέ. <speaker>Α.</speaker> πρόαγε. <speaker>Β.</speaker> ποῖ;</l>
+              <l n="2" xml:id="meineke-0437-pseydypobolimaios-1-l2">
+                <speaker>Α.</speaker> ὅποι μ᾽ ἐρωτᾶς; ὡς Φιλουμένην, παρ᾽ ᾗ</l>
+              <l n="3" xml:id="meineke-0437-pseydypobolimaios-1-l3">τἀπιδόσιμ᾽ ἡμῖν ἐστιν, ἧς ἐχθὲς πιεῖν</l>
+              <l n="4" xml:id="meineke-0437-pseydypobolimaios-1-l4">κυάθους ἕκαστον ἐβιάσω σὺ δώδεκα.</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <bibl>Athenaeus VIII p. 364 f:</bibl> ὀνομάζουσι δ᾽ οἱ ἀρχαῖοι καὶ ἐπιδόσιμά τινα δεῖπνα, ἅπερ Ἀλεξανδρεῖς λέγουσιν ἐξ ἐπιδομάτων. Ἄλεξις (p. 409) καὶ Κρώβυλος ἐν Ψευδυποβολιμαίῳ <quote>Λάχης κτλ.</quote>
+          </note>
+          <note type="apparatus">Ἐπιδόσιμα δεῖπνα, adiectitias coenas, Casaubonus interpretatur de iis, quae confiebant ex ea pecunia quam conferebant sodales ultra id quod tenebantur ex pacto vel ex infelici iactu aleae. Personarum vices distinxi ut praeivit Dobraeus Adv. II p. 321. Ante Λάχης addendum videtur πρὸς σὲ βούλομαι, quae verba post Ψευδυποβολιμαίῳ facile excidere potuerunt. Cfr Aristoph. Ran. 1311 εἰς βαλανεῖον βούλομαι. Vs. 2 ὅποι pro ὅπου Iacobsius Addit. p. 196. — Vs. 4 ἕκαστον pro ἑκατὸν Casaubonus.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0437-pseydypobolimaios-2">
+          <head rend="large">ΙΙ.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0437-pseydypobolimaios-2-l1">Καὶ πλεκτάνην στιφρὰν σφόδρ᾽, ἐν τούτοις τέ που</l>
+              <l n="2" xml:id="meineke-0437-pseydypobolimaios-2-l2">αἰσχυνόμενον ἧπαρ καπρίσκου σκατοφάγου.</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <bibl>Athenaeus III p. 107 e:</bibl> μήποτε δὲ καὶ Κρώβυλος ὁ κωμῳδιοποιὸς αἰσχυνόμενον εἶπε τὸ τοιοῦτον ἧπαρ, ὥσπερ καὶ Ἄλεξις, ἐν Ψευδυποβολιμαίῳ λέγων οὕτως <quote>Καὶ πλεκτάνην κτλ.</quote>
+          </note>
+          <note type="apparatus">Scilicet Alexis dixerat Crat. I 16: ἡπάτιον ἐγκεκαλυμμένον· αἰσχύνεται γὰρ πελιτνὸν ὂν τῷ χρώματι. Pudore suffusum vocat iecur, quoniam fere omento involuta apponebantur. Hinc Matanira meretrix cum aliquando detracto adipe pro iecinore pulmonem se nactam esse vidisset, facete exclamabat: ἀπόλωλα, πέπλων μ᾽ ὤλεσαν περιπτυχαί. Narrat Hegesander Delphus apud Athenaeum l. l. Cfr Philoxenus Conv. 5. quem locum tractavi vol. III p. 636. Vs. 1</note>
+          <pb n="568" facs="urn:hathi:hvd.32044098646714:scan:592" />
+          <note type="apparatus">
+            <mentioned>πλεκτάνην</mentioned> collective sunt brachia polyporum. Ibid. <mentioned>ἐν τούτοις</mentioned> i. e. inter cibos quos in superioribus, quae omisit Athenaeus, commemoraverat Crobylus. — Vs. 2 καπρίσκου σκατοφάγου Porsonus. καὶ πρίσκους καταφαγοῦ BPV. καὶ καπρίσκους καταφαγοῦ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0437-pseydypobolimaios-3">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0437-pseydypobolimaios-3-l1">Εἰσῆλθεν ἡμίκραιρα τακερὰ δέλφακος·</l>
+              <l n="2" xml:id="meineke-0437-pseydypobolimaios-3-l2">ταύτης μὰ τὸν Δί᾽ οὐχὶ κατέλιπον δ᾽ ἐγώ</l>
+              <l n="3" xml:id="meineke-0437-pseydypobolimaios-3-l3">οὐδέν.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus IX p. 384 c: <quote>Ἦσαν δὲ καὶ ἡμίκραιραι πολλαὶ δελφάκων. μνημονεύει δ᾽ αὐτῶν Κρώβυλος ἐν Ψευδυποβολιμαίῳ <quote>Εἰσῆλθεν</quote> κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 2 ante Dindorfium γ᾽ ἐγώ. Β λέγω. Ex eadem huius fabulae scena petitum suspicor fragm. inc. II.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

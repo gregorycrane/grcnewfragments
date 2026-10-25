@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΑΥΤΟΝ ΠΕΝΘΩΝ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.ayton_penthon.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.ayton_penthon.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.ayton_penthon.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ayton_penthon">
+        <head>ΑΥΤΟΝ ΠΕΝΘΩΝ</head>
+        <pb n="93" facs="urn:hathi:hvd.32044098646714:scan:117" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-ayton_penthon-1">
+          <head rendition="#center">Ι.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-ayton_penthon-1-l1">Τυφλὸν ὁ πλοῦτος, καὶ τυφλοὺς</l>
+            <l n="2" xml:id="meineke-0541-ayton_penthon-1-l2">τοὺς ἐμβλέποντας εἰς ἑαυτὸν δεικνύει.</l>
+          </lg>
+          <note type="apparatus">Stobaeus Flor. XCIII 21. Libri τυφλοὺς ἐμβλέποντες εἰς αὐτόν. Correxit Bentleius; articulum addidit etiam Steph. Proleg. ad Com. Gr. p. 25. Simillimam sententiam Antiphanis vide vol. III p. 153 (inc. fab. LXI b).</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-ayton_penthon-2">
+          <head rendition="#center">ΙΙ.</head>
+          <note type="source">Harpocratio p. 169 22: στεφανῶν τοὺς νενικηκότας, Δημοσθένης ἐν τῷ κατ᾿ Αἰσχίνου, ἀντὶ τοῦ τιμῶν. — καὶ παρ᾿ ἄλλοις ἐπὶ ταύτης τῆς ἐννοίας τὸ στεφανοῦν, ὡς παρὰ Θεοπόμπῳ ἐν ζ΄ καὶ Μενάνδρῳ ἐν Αὑτὸν πενθοῦντι.</note>
+          <note type="apparatus">Vide edit. mai.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0541-ayton_penthon-6">
+          <lg>
+            <l n="1" xml:id="meineke-0541-ayton_penthon-6-l1">Caeca res pecunia est;</l>
+            <l n="2" xml:id="meineke-0541-ayton_penthon-6-l2">quique aciem in se defigunt, hos caecos facit.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

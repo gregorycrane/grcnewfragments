@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Theognetus, ΦΑΣΜΑ Η ΦΙΛΑΡΓΥΡΟΣ: fragments</title>
+        <author>Theognetus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0511.phasma_e_philargyros.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0511.phasma_e_philargyros.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0511.phasma_e_philargyros.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0511_phasma_e_philargyros">
+        <head>ΦΑΣΜΑ Η ΦΙΛΑΡΓΥΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0511-phasma_e_philargyros-unnumbered">
+          <lg>
+            <l n="1" xml:id="meineke-0511-phasma_e_philargyros-unnumbered-l1">Ἄνθρωπ᾽, ἀπολεῖς με· τῶν γὰρ ἐκ τῆς ποικίλης</l>
+            <l n="2" xml:id="meineke-0511-phasma_e_philargyros-unnumbered-l2">στοᾶς λογαρίων ἀναπεπλησμένος νοσεῖς·</l>
+            <l n="3" xml:id="meineke-0511-phasma_e_philargyros-unnumbered-l3">„ἀλλότριόν ἐσθ᾽ ὁ πλοῦτος ἀνθρώπῳ, πάχνη·</l>
+            <l n="4" xml:id="meineke-0511-phasma_e_philargyros-unnumbered-l4">σοφία δ᾽ ἴδιον, κρύσταλλος. οὐδεὶς πώποτε</l>
+            <l n="5" xml:id="meineke-0511-phasma_e_philargyros-unnumbered-l5">ταύτην λαβὼν ἀπώλεσ᾽.” ὦ τάλας ἐγώ,</l>
+            <l n="6" xml:id="meineke-0511-phasma_e_philargyros-unnumbered-l6">οἵῳ μ᾽ ὁ δαίμων φιλοσόφῳ συνώκισεν;</l>
+            <l n="7" xml:id="meineke-0511-phasma_e_philargyros-unnumbered-l7">ἐπαρίστερ᾽ ἔμαθες, ὦ πόνηρε, γράμματα·</l>
+            <l n="8" xml:id="meineke-0511-phasma_e_philargyros-unnumbered-l8">ἀνέστροφέν σου τὸν βίον τὰ βιβλία.</l>
+            <l n="9" xml:id="meineke-0511-phasma_e_philargyros-unnumbered-l9">πεφιλοσόφηκας γῇ τε κοὐρανῷ λαλῶν,</l>
+            <l n="10" xml:id="meineke-0511-phasma_e_philargyros-unnumbered-l10">οἷς οὐδέν ἐστιν ἐπιμελὲς τῶν σῶν λόγων.</l>
+          </lg>
+          <note type="source">Athenaeus III p. 104b: πρὸς οὓς καὶ Θεόγνητος (C Θέογνις) ἐν Φάσματι ἢ Φιλαργύρῳ φησὶν ἐκ τούτων „Ἄνθρωπ᾽ ἀπολεῖς με κτλ. Postremos quinque versus idem habet XV p. 671 b. Vs. 2 quod libri post νοσεῖς addunt ἐρεῖς, delevit Grotius. Idem vs. 3 πάχνη pro librorum lectione πάχνης. — Vs. 4 οὐδεὶς VL. οὐθεὶς ΑΒΡ. — Vs. 6 οἵῳ μ᾽ ὁ δαίμων φιλοσόφῳ συνώκισεν. Comparat haec Casaubonus cum Euripidis quem dicit versu ex Andromeda: οἵῳ μ᾽ ὁ δαίμων θηρίῳ συνώκισεν. Quem unde ille arripuerit vel quo auctore ad Euripidem rettulerit, non indicavit. Errorem Casauboni, quem non dubium est quin memoria fefellerit, praeter Valckenarium ad Euripidis Hippol. vs. 1389 et Matthiam Euripidis fragm. p. 45. sequutus est, et vero etiam exornavit, Fritzschius ad Aristoph. Thesmoph. p. 498. in eo etiam falsus, quod illum versum a Zenobio V 45 allatum</note>
+          <note type="apparatus">*) V. Hist. crit. p. 487. Prima tituli pars, Φάσμα, fortasse ex iis explicanda est, quae Donatus de Menandrea fabula Φάσμα inscripta tradidit. Vide supra p. 218.</note>
+          <note type="apparatus">esse dicit. Nihil, mihi crede, de Euripide Zenobius, sed Philoxeni ex Cyclope affert versum <quote>οἵῳ μ᾿ ὁ δαίμων τέρατι συγκαθείρξεν</quote> *), quem habent etiam Proverb. Bodlei. 737 et Diogen. Cent. VII 19. Non Euripidem igitur, sed Philoxenum imitatione expressit Theognetus. — Vs. 7 πονηρὲ C. — Vs. 8 ἀνέστροφεν pro ἀντέστροφεν Porsonus. — Vs. 9 ad γῇ τε κοὐρανῷ λαλῶν compara Philemonis Milit. 1: <quote>ὡς ἱμερός μ᾿ ὑπῆλθε γῇ τε κοὐρανῷ λαλεῖν</quote>. Quibus multa similia comparant Davisius ad Cicer. Tusc. III 26 et Valck. ad Callim. eleg. p. 299. — Vs. 10 οὐδὲν C et Athen. altero loco p. 671.</note>
+          <note type="apparatus">*) Non recte haec in trimetri leges cogere conati sunt, quo metri genere, etsi a dithyrambica poesi non alieno (Plutarch. de Mus. vol. XI p. 681 ed. Reisk.), tamen an Philoxenus in Cyclope usus sit incertum est. In illo autem Philoxeni versu tanto minus aliquid mutaverim, cum iisdem numeris aliud etiam ex Cyclope fragmentum apud Aristoph. Plut. 292 adstrictum sit: <quote>ἀλλ᾽ εἶα τέκεα θαμίν᾽ ἐπαναβοᾶτε</quote>. Nec aliam metri speciem referre videntur verba ἔθυσας ἀντιθύσῃ, quae ex eodem carmine afferunt Suidas I p. 685 et alii.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="unnumbered_2" ana="#compiled-unnumbered-fragment #compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0511-phasma_e_philargyros-unnumbered_2">
+          <lg>
+            <l n="1" xml:id="meineke-0511-phasma_e_philargyros-unnumbered_2-l1">Tandem puto me enicabis: nam totus tumes</l>
+            <l n="2" xml:id="meineke-0511-phasma_e_philargyros-unnumbered_2-l2">porticigenarum disputatiunculis.</l>
+            <l n="3" xml:id="meineke-0511-phasma_e_philargyros-unnumbered_2-l3">
+              <sp>
+                <speaker>B.</speaker> Pecunia homini alienum.</sp>
+              <sp>
+                <speaker>A.</speaker> Mera pruina id est.</sp>
+            </l>
+            <l n="4" xml:id="meineke-0511-phasma_e_philargyros-unnumbered_2-l4">
+              <sp>
+                <speaker>B.</speaker> Sapientia proprium.</sp>
+              <sp>
+                <speaker>A.</speaker> Glacies.</sp>
+              <sp>
+                <speaker>B.</speaker> Hanc qui acceperit,</sp>
+            </l>
+            <l n="5" xml:id="meineke-0511-phasma_e_philargyros-unnumbered_2-l5">amittet nunquam. <sp>
+                <speaker>A.</speaker> Miserum me quem Fors mala</sp>
+            </l>
+            <l n="6" xml:id="meineke-0511-phasma_e_philargyros-unnumbered_2-l6">philosophi talis iunxit contubernio.</l>
+            <l n="7" xml:id="meineke-0511-phasma_e_philargyros-unnumbered_2-l7">miser, perversas edidicisti literas.</l>
+            <l n="8" xml:id="meineke-0511-phasma_e_philargyros-unnumbered_2-l8">vitam corrupit tibi librorum lectio.</l>
+            <l n="9" xml:id="meineke-0511-phasma_e_philargyros-unnumbered_2-l9">agis cum caelo et terra verbis philosophis,</l>
+            <l n="10" xml:id="meineke-0511-phasma_e_philargyros-unnumbered_2-l10">quibus nulla dictis de tuis curatio est.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

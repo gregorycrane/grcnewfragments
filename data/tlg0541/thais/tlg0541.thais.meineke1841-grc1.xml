@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΘΑΙΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.thais.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.thais.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.thais.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_thais">
+        <head>ΘΑΙΣ</head>
+        <pb n="131" facs="urn:hathi:hvd.32044098646714:scan:155" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-thais-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-thais-1-l1">Ἐμοὶ μὲν οὖν ἄειδε τοιαύτην, θεά,</l>
+              <l n="2" xml:id="meineke-0541-thais-1-l2">θρασεῖαν, ὡραίαν δὲ καὶ πιθανὴν ἅμα,</l>
+              <l n="3" xml:id="meineke-0541-thais-1-l3">ἀδικοῦσαν, ἀποκλείουσαν, αἰτοῦσαν πυκνά,</l>
+              <l n="4" xml:id="meineke-0541-thais-1-l4">μηδενὸς ἐρῶσαν, προσποιουμένην δ᾽ ἀεί.</l>
+            </lg>
+          </quote>
+          <pb n="132" facs="urn:hathi:hvd.32044098646714:scan:156" />
+          <note type="apparatus">
+            <bibl>Plutarchus de aud. poet. p. 19 A</bibl>: <quote>Μένανδρος ἐν τῷ προλόγῳ τῆς Θαΐδος πεποίηκεν Ἐμοὶ μὲν οὖν κτλ.</quote> Vs. 1 de ἄειδε cfr ad Cratini fragm. p. 222. — Vs. 4 libri <foreign xml:lang="grc">μηθένος</foreign>.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-thais-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-thais-2-l1">Φθείρουσιν ἤθη χρήσθ᾽ ὁμιλίαι κακαί.</l>
+          </lg>
+          <note type="apparatus">Legitur in Pauli ep. ad Corinth. I 15 33. „Memini me in „uno ex vetustis exemplaribus N. T. legere haec verba mar„gini adscripta: <quote>Μενάνδρου τοῦ κωμικοῦ γνώμη ἐν Θαδίᾳ</quote>, „ubi tamen merito quis suspicetur scribendum potius <foreign xml:lang="grc">Θαΐδι</foreign>: „ac certe (ut verum fatear) propemodum oculos fugiebant „postremae huius vocis literae." Sunt H. Stephani verba in Comic. gr. p. 351. Menandro hunc versum tribui etiam ab Hieronymo in Tit. I et in Galat. IV monuit Clericus. Tanquam Euripidis versus laudatur a Socrate Hist. Eccl. III, 16. Sine auctoris nomine legitur apud Clem. Alex. Paed. II 6 p. 73 Sylb. Latine reddidit Tertull. ad Uxor. I 8: <quote>bonos corrumpunt mores congressus mali.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_4_5" ana="#compiled-citation-normalized" xml:id="meineke-0541-thais-3_4_5">
+          <head>III. IV. V.</head>
+          <note type="source">
+            <bibl>Aelianus H. A. XII 10</bibl>: <quote>ἡ παροιμία λέγει τὸν μυὸς ὄλεθρον. μέμνηται δὲ αὐτῆς καὶ Μένανδρος ἐν Θαΐδι.</quote> — <bibl>Photius et Suidas</bibl>, <quote>Πτωχότερος κίγκλου, παροιμία ᾗ κέχρηται Μένανδρος Θαΐδι.</quote> — <bibl>Harpocratio p. 125 27</bibl>: <quote>Μέταυλός ἐστιν ἡ ῥυπαρὰ λεγομένη αὐλή, οὗ ὄρνιθες ἦσαν. Ἀριστοφάνης Λημνίαις, Μένανδρος Θαΐδι.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-thais-1_2">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-thais-1_2-l1">Nunc illam talem cane, quod te veneror, dea,</l>
+              <l n="2" xml:id="meineke-0541-thais-1_2-l2">ferocem, sed pulchellam et illecebriloquam,</l>
+              <l n="3" xml:id="meineke-0541-thais-1_2-l3">iniustificam, clusiforem, poscinummiam,</l>
+              <l n="4" xml:id="meineke-0541-thais-1_2-l4">et neminamantem, semper simulantem tamen.</l>
+            </lg>
+          </quote>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΦΑΝΙΟΝ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.phanion.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.phanion.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.phanion.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_phanion">
+        <head>ΦΑΝΙΟΝ</head>
+        <pb n="217" facs="urn:hathi:hvd.32044098646714:scan:241" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-phanion-1">
+          <head>Ι.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-phanion-1-l1">Ὑπελήλυθέν τέ μου</l>
+              <l n="2" xml:id="meineke-0541-phanion-1-l2">νάρκα τις ὅλον τὸ δέρμα.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus VII p. 314 b: <quote>Νάρκη. Μένανδρος δ᾽ ἐν Φανίῳ διὰ τοῦ α ἔφη <quote rend="merge">
+                <l n="3" xml:id="meineke-0541-phanion-1-l3">Ὑπελήλυθεν</l>
+              </quote> κτλ. μηδενὸς τῶν παλαιῶν οὕτω κεχρημένου.</quote> Phrynichus App. soph. p. 66: <quote>τὴν νάρκην Μένανδρος διὰ τοῦ α.</quote> Ex Athenaeo repetiit Eustathius p. 1173 47.</note>
+          <note type="apparatus">Dobraeus Adv. II p. 279 haec ita transposuit, ὅλον τὸ δέρμα νάρκα τις, credo propter μου, quod in vulgato verborum ordine haud commodo loco positum est.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-phanion-2">
+          <head>ΙΙ.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-phanion-2-l1">Φειδωλὸς ἦν καὶ μέτριος ἀγοραστής.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus IV p. 17 a: <quote>παρὰ δὲ Μενάνδρῳ ἐστὶ κοινότερον (vocab. ἀγοραστής) ἐν Φανίῳ <quote rend="merge">
+                <l n="2" xml:id="meineke-0541-phanion-2-l2">Φειδωλὸς ἦν</l>
+              </quote> κτλ.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-phanion-3">
+          <head>ΙΙΙ.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-phanion-3-l1">Οἷα δὴ φιλοῦσιν ἰατροὶ λέγειν</l>
+              <l n="2" xml:id="meineke-0541-phanion-3-l2">τὰ φαῦλα μείζω καὶ τὰ δείν᾽ ὑπέρφοβα,</l>
+              <l n="3" xml:id="meineke-0541-phanion-3-l3">πυργοῦντες αὐτούς.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. CII 3 cum lemmate ex cod. Α κατὰ τῶν ἰατρῶν Μιμνέρμου Νάννου. Trinc. simpliciter Μιμνέρμου. Voss. Μιμνέρμου κατὰ τῶν ἰατρῶν.</note>
+          <note type="apparatus">Legendum videtur cum Porsono apud Gaisfordum ad Poet. min. II p. 425. Μενάνδρου. Pro Νάννου suspicor Φανίου. Mimnermi et Menandri nomina permutantur etiam alibi. V. ad Menandri fab. inc. 480. Pro vulgato ὑπὲρ φόβον cod. B ὑπέρφοβα.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

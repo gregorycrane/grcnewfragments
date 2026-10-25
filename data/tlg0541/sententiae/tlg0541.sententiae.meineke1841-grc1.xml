@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, SENTENTIAE: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.sententiae.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.sententiae.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.sententiae.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_sententiae">
+        <head>SENTENTIAE</head>
+        <pb n="815" facs="urn:hathi:hvd.32044098646714:scan:841" />
+        <div type="textpart" subtype="fragment" n="555" xml:id="meineke-0541-sententiae-555">
+          <lg>
+            <l n="1" xml:id="meineke-0541-sententiae-555-l1">Nil repperiri carius vita potest.</l>
+            <l n="2" xml:id="meineke-0541-sententiae-555-l2">Vitam dissociat mentiens calumnia.</l>
+            <l n="3" xml:id="meineke-0541-sententiae-555-l3">Mendacium odit qui vir est frugi et sapit.</l>
+            <l n="555" xml:id="meineke-0541-sententiae-555-l555">Quam dulce facies pulchra cum ingenio probo!</l>
+            <l n="5" xml:id="meineke-0541-sententiae-555-l5">Quam dulce servo lenem herum nanciscier!</l>
+            <l n="6" xml:id="meineke-0541-sententiae-555-l6">Quam nihil est disciplina ni mens adsiet!</l>
+            <l n="7" xml:id="meineke-0541-sententiae-555-l7">Opulenti amicos, quos volunt, omnes habent.</l>
+            <l n="8" xml:id="meineke-0541-sententiae-555-l8">Ut cuncta nunc sunt cara, nisi mores mali.</l>
+            <l n="560" xml:id="meineke-0541-sententiae-555-l560">Muliebris o quam sexus est infida res!</l>
+            <l n="10" xml:id="meineke-0541-sententiae-555-l10">* Quam turpe hominibus est intemperantia!</l>
+            <l n="11" xml:id="meineke-0541-sententiae-555-l11">Res est homo peramoena, quum vere est homo.</l>
+            <l n="12" xml:id="meineke-0541-sententiae-555-l12">Quam vita dulce est, fata dum non invident!</l>
+            <l n="13" xml:id="meineke-0541-sententiae-555-l13">* Turpis res, laute vivere ingenium malum.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="640" xml:id="meineke-0541-sententiae-640">
+          <lg>
+            <l n="1" xml:id="meineke-0541-sententiae-640-l1">Non iustus omnis abstinens iniuriae est,</l>
+            <l n="2" xml:id="meineke-0541-sententiae-640-l2">sed qui nocere quum potest, tunc abstinet.</l>
+            <l n="640" xml:id="meineke-0541-sententiae-640-l640">Res sunt cognatae vita et anxietudines.</l>
+            <l n="4" xml:id="meineke-0541-sententiae-640-l4">Spontalis est miseria, satio liberûm.</l>
+            <l n="5" xml:id="meineke-0541-sententiae-640-l5">Nil flore differt vegetus aetatis vigor.</l>
+            <l n="6" xml:id="meineke-0541-sententiae-640-l6">Presso miseria spes salus est unica.</l>
+            <l n="7" xml:id="meineke-0541-sententiae-640-l7">Mali est levamen esse sine negotio.</l>
+            <l n="645" xml:id="meineke-0541-sententiae-640-l645">Simul miseritum est, ipsa moritur gratia.</l>
+            <l n="9" xml:id="meineke-0541-sententiae-640-l9">Non fert honesta vita negligentiam.</l>
+            <l n="10" xml:id="meineke-0541-sententiae-640-l10">Per se ipsa vitae sat docent negotia.</l>
+            <l n="11" xml:id="meineke-0541-sententiae-640-l11">* Senectus omnia aufert, robur corporis.</l>
+            <l n="12" xml:id="meineke-0541-sententiae-640-l12">Eris beatus, sapere si recte vales.</l>
+            <l n="650" xml:id="meineke-0541-sententiae-640-l650">Praestare semper crede quod tutissimum est.</l>
+            <l n="14" xml:id="meineke-0541-sententiae-640-l14">Evasi doctus spectans aliena ad mala.</l>
+            <l n="15" xml:id="meineke-0541-sententiae-640-l15">Doctrina baculus dicier vitae potest.</l>
+            <l n="16" xml:id="meineke-0541-sententiae-640-l16">Recta institutio, virtutis praemium.</l>
+            <l n="17" xml:id="meineke-0541-sententiae-640-l17">Homini deus sua cuique conscientia est.</l>
+            <l n="655" xml:id="meineke-0541-sententiae-640-l655">Nil stabile in aevo cernitur mortalium.</l>
+            <l n="19" xml:id="meineke-0541-sententiae-640-l19">Ea vera vita est vivere ex sententia.</l>
+            <l n="20" xml:id="meineke-0541-sententiae-640-l20">Qui literas didicere, bis tantum vident.</l>
+          </lg>
+        </div>
+        <pb n="808" facs="urn:hathi:hvd.32044098646714:scan:834" />
+        <div type="textpart" subtype="fragment" n="1" author_heading="Menander" work_heading="Sententiae" starts_on_page="true" xml:id="meineke-0541-sententiae-1">
+          <lg>
+            <l n="300" xml:id="meineke-0541-sententiae-1-l300">Inopia honesta potior opibus improbis.</l>
+            <l n="301" xml:id="meineke-0541-sententiae-1-l301">Quaestus iniquos damna consequi solent.</l>
+            <l n="302" xml:id="meineke-0541-sententiae-1-l302">Hominem malignum nec viae comitem cape.</l>
+            <l n="303" xml:id="meineke-0541-sententiae-1-l303">Mores decori, frugis est pulchrae seges.</l>
+            <l n="304" xml:id="meineke-0541-sententiae-1-l304">* In vita occrevit nobis ut gramen malum</l>
+            <l n="305" xml:id="meineke-0541-sententiae-1-l305">mulier; malumque hoc opus est servemus domi.</l>
+            <l n="306" xml:id="meineke-0541-sententiae-1-l306">Suo arbitratu nullus est felix satis.</l>
+            <l n="307" xml:id="meineke-0541-sententiae-1-l307">* Sanus es? negotiorum observes tempora.</l>
+            <l n="308" xml:id="meineke-0541-sententiae-1-l308">Doctrinae habetur ratio vel ab agrestibus.</l>
+            <l n="309" xml:id="meineke-0541-sententiae-1-l309">Ars est hominibus portus infortunii.</l>
+            <l n="310" xml:id="meineke-0541-sententiae-1-l310">Amans sui ipse nimis, amicu'st nemini.</l>
+            <l n="311" xml:id="meineke-0541-sententiae-1-l311">Verbis repone verba suasori tuo.</l>
+            <l n="312" xml:id="meineke-0541-sententiae-1-l312">* Omnibus doctrina portus est mortalibus.</l>
+            <l n="313" xml:id="meineke-0541-sententiae-1-l313">* Oratione leni, medicina optima.</l>
+            <l n="314" xml:id="meineke-0541-sententiae-1-l314">Mortalium res sola regit oratio.</l>
+            <l n="315" xml:id="meineke-0541-sententiae-1-l315">* Ratio remedium est unum moestitudinis.</l>
+            <l n="316" xml:id="meineke-0541-sententiae-1-l316">Tristitia morbos parturit mortalibus.</l>
+            <l n="317" xml:id="meineke-0541-sententiae-1-l317">Capias ut iterum, redde quod iam ceperas.</l>
+            <l n="318" xml:id="meineke-0541-sententiae-1-l318">* Iuvat portus navem; vitam, animi serenitas.</l>
+            <l n="319" xml:id="meineke-0541-sententiae-1-l319">Sanare luctum scit benevola oratio.</l>
+            <l n="320" xml:id="meineke-0541-sententiae-1-l320">Inter dolores maximum humanos fames.</l>
+            <l n="321" xml:id="meineke-0541-sententiae-1-l321">Famem adeo responsare nil contra datur.</l>
+            <l n="322" xml:id="meineke-0541-sententiae-1-l322">* Illata mala repende; amantem magis ama.</l>
+            <l n="323" xml:id="meineke-0541-sententiae-1-l323">Servus molestu'st supra herum sese efferens.</l>
+            <l n="324" xml:id="meineke-0541-sententiae-1-l324">Mulier perenne pignus aegrimoniae est.</l>
+            <l n="325" xml:id="meineke-0541-sententiae-1-l325">Sermonem ab hoste benevolum nunquam puta.</l>
+            <l n="326" xml:id="meineke-0541-sententiae-1-l326">Moeroris unica medicina oratio.</l>
+            <l n="327" xml:id="meineke-0541-sententiae-1-l327">Melius leonis feminae commercio.</l>
+            <l n="328" xml:id="meineke-0541-sententiae-1-l328">* Modestus sermo, et qualis deceat, sit tuus.</l>
+            <l n="329" xml:id="meineke-0541-sententiae-1-l329">Latere semper posse ne spera nocens.</l>
+            <l n="330" xml:id="meineke-0541-sententiae-1-l330">* Est sermo gratus pro relata gratia.</l>
+            <l n="331" xml:id="meineke-0541-sententiae-1-l331">Curanda res est, ex decoro vivere.</l>
+            <l n="332" xml:id="meineke-0541-sententiae-1-l332">Odi professum sapere, qui sibi non sapit.</l>
+            <l n="333" xml:id="meineke-0541-sententiae-1-l333">Mores in arbitrando, non faciem vide.</l>
+            <l n="334" xml:id="meineke-0541-sententiae-1-l334">Mulier malorum plena semper sarcina est.</l>
+            <l n="335" xml:id="meineke-0541-sententiae-1-l335">Credenda cunctis esse cuncta ne putes.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

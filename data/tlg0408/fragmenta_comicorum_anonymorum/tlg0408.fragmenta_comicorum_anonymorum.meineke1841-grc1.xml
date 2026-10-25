@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Comica Adespota (CAF), Fragmenta Comicorum Anonymorum: fragments</title>
+        <author>Comica Adespota (CAF)</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0408.fragmenta_comicorum_anonymorum.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0408.fragmenta_comicorum_anonymorum.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0408.fragmenta_comicorum_anonymorum.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0408_fragmenta_comicorum_anonymorum">
+        <head>Fragmenta Comicorum Anonymorum</head>
+        <pb n="599" facs="urn:hathi:hvd.32044098646714:scan:623" />
+        <div type="textpart" subtype="fragment" n="i" ana="#compiled-citation-normalized" xml:id="meineke-0408-fragmenta_comicorum_anonymorum-i">
+          <head>** I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0408-fragmenta_comicorum_anonymorum-i-l1">Πόρνους μεγάλους Τιμαρχώδεις.</l>
+          </lg>
+          <note type="source">Aeschines c. Timarch. p. 301 Bekk.: <quote>τοσοῦτον ἀπέχει τῶν αἰσχρῶν, ὥστε πρώην ἐν τοῖς κατ’ ἀγροὺς Διονυσίοις κωμῳδῶν ὄντων ἐν Κολυττῷ καὶ Παρμένοντος τοῦ ὑποκριτοῦ εἰπόντος τι πρὸς τὸν χορὸν ἀνάπαιστον, ἐν ᾧ ἦν εἶναί τινας πόρνους μεγάλους Τιμαρχώδεις, οὐδεὶς ὑπελάμβανεν εἰς τὸ μειράκιον, ἀλλ’ εἰς σέ.</quote> Homines qui muliebria paterentur Timarchos appellatos esse testatur Hesychius s. v. Δημοκλείδαι.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="ii_a" ana="#compiled-citation-normalized" xml:id="meineke-0408-fragmenta_comicorum_anonymorum-ii_a">
+          <head>II a.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0408-fragmenta_comicorum_anonymorum-ii_a-l1">Καλὸν δὲ τὸ ζῆν, ἄν τις ὡς δεῖ ζῆν μάθῃ.</l>
+          </lg>
+          <note type="source">Alexander de fig. in Walzii Rhet. gr. VIII p. 479. περὶ ἀντιμεταθέσεως: ἐπὶ τούτου τοῦ σχήματος ταῖς αὐταῖς λέξεσι χρώμενοι πλεονάκις ἕτερα σημαίνομεν, ὡς ἔχει τὸ <quote>
+              <lg>
+                <l n="2" xml:id="meineke-0408-fragmenta_comicorum_anonymorum-ii_a-l2">ὡς χάριέν ἐστ’ ἄνθρωπος ὅστ’ ἄνθρωπος ᾖ.</l>
+              </lg>
+            </quote> καὶ <quote>
+              <lg>
+                <l n="3" xml:id="meineke-0408-fragmenta_comicorum_anonymorum-ii_a-l3">Καλὸν δὲ τὸ ζῆν ἄν τις ὡς δεῖ ζῆν μάθῃ.</l>
+              </lg>
+            </quote> De primo horum versuum dixi ad Menandri monost. 562. Alterum adscripsi ut edidit eum Walzius ex cod. Par. 2. Quamquam quum Aldus pro ᾖ καὶ καλὸν δὲ exhibeat δικαίως, versum ita potius</note>
+          <pb n="600" facs="urn:hathi:hvd.32044098646714:scan:624" />
+          <note type="apparatus">scribendum suspicor: <quote>ὡς [ἡδὺ] τὸ ζῆν, ἄν τις ὡς δεῖ ζῆν μάθῃ</quote>. Ita Menander Philadelph. V p. 220: <quote>ὡς ἡδὺ τὸ ζῆν, εἰ μεθ᾽ ὧν κρίνῃ τις ἄν</quote>. Possis etiam: <quote>ὡς [τοῦτο] τὸ ζῆν ἄν τις ὡς δεῖ ζῆν μάθῃ</quote>, ut Menander fragm. inc. fab. CCLVII p. 290: <quote>τοῦτ᾽ ἔστι τὸ ζῆν οὐχ ἑαυτῷ ζῆν μόνον</quote>. Quod Walzius edidit <quote>καλὸν δέ</quote> vix dubito quin interpolatori debeatur. Ad sententiam simile est Philemonis dictum inc. fab. XLII p. 49: <quote>τί ζῆν ὄφελος ᾧ μή σ̓τι τὸ ζῆν εἰδέναι;</quote>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

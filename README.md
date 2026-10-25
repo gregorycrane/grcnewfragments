@@ -42,5 +42,9 @@ page-derived headings are consolidated against the established Kock CTS
 identities; appendix headings without fragments remain only in the
 authoritative volume source. All 302 Meineke editions and their metadata pass
 HookTest.
+Meineke III and IV add 468 and 359 parallel work-level editions respectively.
+Volume IV contains 2,632 citable passages across 49 textgroups, including
+unnumbered work-level passages and the anonymous fragments under the canonical
+*Comica Adespota* identity. The complete repository passes HookTest.
 Older migrated fragment editions retain their existing encoding and can be
 normalized incrementally without mixing them back into `grcnewxml`.

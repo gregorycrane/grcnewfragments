@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Baton, ΑΝΔΡΟΦΟΝΟΣ: fragments</title>
+        <author>Baton</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0425.androphonos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0425.androphonos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0425.androphonos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0425_androphonos">
+        <head>ΑΝΔΡΟΦΟΝΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0425-androphonos-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0425-androphonos-1-l1">Τῶν φιλοσόφων τοὺς σώφρονας ἐνταυθοῖ καλῶ,</l>
+              <l n="2" xml:id="meineke-0425-androphonos-1-l2">τοὺς ἀγαθὸν αὑτοῖς οὐ διδόντας οὐδὲ ἕν,</l>
+              <l n="3" xml:id="meineke-0425-androphonos-1-l3">τοὺς τὸν φρόνιμον ζητοῦντας ἐν τοῖς περιπάτοις</l>
+              <l n="4" xml:id="meineke-0425-androphonos-1-l4">καὶ ταῖς διατριβαῖς ὥσπερ ἀποδεδρακότα.</l>
+              <l n="5" xml:id="meineke-0425-androphonos-1-l5">ἄνθρωπ᾽ ἀλάστωρ, διὰ τί συμβολὰς ἔχων</l>
+              <l n="6" xml:id="meineke-0425-androphonos-1-l6">νήφεις; τί τηλικοῦτον ἀδικεῖς τοὺς θεούς;</l>
+              <l n="7" xml:id="meineke-0425-androphonos-1-l7">τί τἀργύριον, ἄνθρωπε, τιμιώτερον</l>
+              <l n="8" xml:id="meineke-0425-androphonos-1-l8">αὐτοῦ τέθεικας ἢ πέφυκε τῇ φύσει;</l>
+              <l n="9" xml:id="meineke-0425-androphonos-1-l9">ἀλυσιτελὴς εἶ τῇ πόλει πίνων ὕδωρ·</l>
+              <l n="10" xml:id="meineke-0425-androphonos-1-l10">τὸν γὰρ γεωργὸν καὶ τὸν ἔμπορον κακοῖς.</l>
+              <l n="11" xml:id="meineke-0425-androphonos-1-l11">ἐγὼ δὲ τὰς προσόδους μεθύων καλὰς ποιῶ.</l>
+            </lg>
+          </quote>
+          <pb n="500" facs="urn:hathi:hvd.32044098646714:scan:524" />
+          <lg>
+            <l n="12" xml:id="meineke-0425-androphonos-1-l12">ἔπειθ᾽ ἕωθεν περιάγεις τὴν λήκυθον,</l>
+            <l n="13" xml:id="meineke-0425-androphonos-1-l13">καταμανθάνων τοὔλαιον, ὥστε περιφέρειν</l>
+            <l n="14" xml:id="meineke-0425-androphonos-1-l14">ὡρολόγιον δόξει τις, οὐχὶ λήκυθον.</l>
+          </lg>
+          <note type="source">Athenaeus IV p. 163 b: <quote>Βάτων δὲ ὁ κωμικὸς ἐν Ἀνδροφόνῳ φησίν Τῶν φιλοσόφων κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 2. 3. 4. etiam in Synexapatonte posuit. — Vs. 3 <quote>τὸν φρόνιμον</quote>, sapientiam. V. ad Menandri Polum. p. 150 ed. mai. Compares Thucydidium vocabulum <quote>ὁ παράλογος</quote> et de quo supra dixi p. 368 <quote>ὁ ἄτοπος</quote>. — Vs. 5 Dobraeus Adv. II p. 307 <quote>αὑτοῦ</quote>, de hoc genitivo afferens Aeschyli Pers. 164. Aristoph. Vesp. 356. Lys. 1127. — Vs. 13 <quote>καταμανθάνων τοὔλαιον</quote>, <foreign xml:lang="lat">diligenter explorans quod in ampulla inest oleum</foreign>. Apte comparat Schweighaeuserus incerti auctoris epigramma apud Athenaeum IV p. 162 a. in quo philosophi appellantur <quote>βλεπέλαιοι</quote>, et Epictetum Diss. I 24 11 in philosophi cynici supellectile commemorantem <quote>λήκυθον καὶ πήραν</quote>. — Vs. 14 <quote>ὡρολόγιον</quote> intellege viatorium seu pensile, qualia commemorat Vitruvius IX 9. Vide Martinum de Horolog. vet. p. 128 et Paciaudum Monum. Peloponn. I p. 52 oportune Herculanensis solaris admonentem, cuius summa est cum ampulla olearia similitudo. Minus recte alii, in his archaeologi Neapolitani in Pitture di Ercol. Tom. II Prefaz. p. VII. Batonis locum de horologio aquario intellexerunt.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0425-androphonos-1_2">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0425-androphonos-1_2-l1">Nunc illos ego conveniam frugi philosophos,</l>
+            <l n="2" xml:id="meineke-0425-androphonos-1_2-l2">qui nil sibi ipsis unquam concedunt boni,</l>
+            <l n="3" xml:id="meineke-0425-androphonos-1_2-l3">qui ubique quaerunt rectum ac sapientem virum</l>
+            <l n="4" xml:id="meineke-0425-androphonos-1_2-l4">tanquam fugitivum in ambulacris et scholis.</l>
+            <l n="5" xml:id="meineke-0425-androphonos-1_2-l5">pernicies hominum, cum tibi sit quod conferas,</l>
+            <l n="6" xml:id="meineke-0425-androphonos-1_2-l6">cur genium fraudas, cur ingratus es in Deos?</l>
+            <l n="7" xml:id="meineke-0425-androphonos-1_2-l7">dic, maius pretium cur ponis pecuniae</l>
+            <l n="8" xml:id="meineke-0425-androphonos-1_2-l8">natura quam fert, cur eam praefers tibi?</l>
+            <l n="9" xml:id="meineke-0425-androphonos-1_2-l9">aquam bibendo publicum damno afficis,</l>
+            <l n="10" xml:id="meineke-0425-androphonos-1_2-l10">laedens agricolae et mercatoris commoda.</l>
+            <l n="11" xml:id="meineke-0425-androphonos-1_2-l11">at ego temulentus augeo vectigalia.</l>
+            <l n="12" xml:id="meineke-0425-androphonos-1_2-l12">deinde ampullam mane a summo portitans</l>
+            <l n="13" xml:id="meineke-0425-androphonos-1_2-l13">oleum usque et usque exploras, sic horologium</l>
+            <l n="14" xml:id="meineke-0425-androphonos-1_2-l14">ut te aliquis ferre non ampullam existimet.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0425-androphonos-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0425-androphonos-2-l1">Fas est uxore cum formosa accumbere,</l>
+            <l n="2" xml:id="meineke-0425-androphonos-2-l2">duasque haurire Lesbii vini amphoras.</l>
+            <l n="3" xml:id="meineke-0425-androphonos-2-l3">nimirum hoc sapere recte est, hoc verum bonum.</l>
+            <l n="4" xml:id="meineke-0425-androphonos-2-l4">Epicurus eadem dixit quae nunc dictito.</l>
+            <l n="5" xml:id="meineke-0425-androphonos-2-l5">quod si omnes ego quam vivo vitam viverent,</l>
+            <l n="6" xml:id="meineke-0425-androphonos-2-l6">iam nemo adulter esset, nemo iniurius.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0425-androphonos-2_2">
+          <lg>
+            <l n="1" xml:id="meineke-0425-androphonos-2_2-l1">Ἐξὸν γυναῖκ᾽ ἔχοντα κατακεῖσθαι καλήν,</l>
+            <l n="2" xml:id="meineke-0425-androphonos-2_2-l2">καὶ Λεσβίου χυτρῖδε λαμβάνειν δύο·</l>
+            <l n="3" xml:id="meineke-0425-androphonos-2_2-l3">ὁ φρόνιμός ἐστι τοῦτο, τοῦτο τἀγαθόν.</l>
+            <l n="4" xml:id="meineke-0425-androphonos-2_2-l4">Ἐπίκουρος ἔλεγε ταῦθ᾽ ἃ νῦν ἐγὼ λέγω.</l>
+            <l n="5" xml:id="meineke-0425-androphonos-2_2-l5">εἰ τοῦτον ἔζων πάντες ὃν ἐγὼ ζῶ βίον,</l>
+            <l n="6" xml:id="meineke-0425-androphonos-2_2-l6">οὔτ᾽ ἄτοπος ἦν ἂν οὔτε μοιχὸς οὐδὲ εἷς.</l>
+          </lg>
+          <note type="source">Athenaeus VII p. 279 c: <quote>καὶ ἐν τῷ Ἀνδροφόνῳ δὲ ἐπιγραφομένῳ ὁ αὐτὸς Βάτων διαπαίξας τινὰ τῶν ἐπιεικῶν φιλοσόφων ἐπιφέρει Ἐξὸν γυναῖκ᾽ ἔχοντα κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 2 χυ-</note>
+          <pb n="501" facs="urn:hathi:hvd.32044098646714:scan:525" />
+          <note type="apparatus">τρῖδέ recte scripsit iam Casaubonus pro χυτρίδε. Porsonus ad Aristoph. Acharn. 1174 χυτρίδια. Sed ut νησὶς νησῖδος, χειρὶς χειρῖδος, ita etiam χυτρὶς χυτρῖδος recte habet. — <ref target="#b4-bat-andr-f2-l3">Vs. 3</ref> τοῦτο, τοῦτο τἀγαθὸν Casaubonus. τοῦτο τἀγαθὸν BCP. τοῦτ᾿ ἀγαθὸν Α. τοῦτο τοῦτ᾿ ἀγαθὸν VL. — <ref target="#b4-bat-andr-f2-l6">Vs. 6</ref> Grotius Excerpt. p. 966: „non mihi videtur, quod Casaubono placet, dicere poeta, sublati honesti et inhonesti discrimine nulla fore paccata: sed, si ipsius consilio uterentur caeteri, contentos fore permissis voluptatibus.”</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

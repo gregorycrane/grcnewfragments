@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Nicolaus, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <author>Nicolaus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0481.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0481.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0481.adelon_dramaton.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0481_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0481-adelon_dramaton-unnumbered">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0481-adelon_dramaton-unnumbered-l1">Τὸ τῶν παρασίτων, ἄνδρες, ἐξεῦρεν γένος</l>
+              <l n="2" xml:id="meineke-0481-adelon_dramaton-unnumbered-l2">Διὸς πεφυκώς, ὡς λέγουσι, Τάνταλος.</l>
+              <l n="3" xml:id="meineke-0481-adelon_dramaton-unnumbered-l3">οὐ δυνάμενος δὲ τῇ τέχνῃ χρῆσθαι καλῶς</l>
+              <l n="4" xml:id="meineke-0481-adelon_dramaton-unnumbered-l4">ἀκόλαστον ἔσχε γλῶσσαν, εἶτ᾿ ἀκουσίῳ</l>
+              <l n="5" xml:id="meineke-0481-adelon_dramaton-unnumbered-l5">δίφρῳ περιπεσὼν δυναμένῳ λιμὸν ποιεῖν</l>
+              <l n="6" xml:id="meineke-0481-adelon_dramaton-unnumbered-l6">ἀπὸ τῆς τραπέζης ἐξαπίνης ἀπεστράφη,</l>
+              <l n="7" xml:id="meineke-0481-adelon_dramaton-unnumbered-l7">ἄφνω δὲ πληγεὶς εἰς μέσην τὴν γαστέρα</l>
+              <l n="8" xml:id="meineke-0481-adelon_dramaton-unnumbered-l8">ἔδοξεν αὐτῷ γεγονέναι τἄνω κάτω,</l>
+              <l n="9" xml:id="meineke-0481-adelon_dramaton-unnumbered-l9">Σίπυλόν τε τοῦτον ἀνατετράφθαι τὸν τρόπον·</l>
+              <l n="10" xml:id="meineke-0481-adelon_dramaton-unnumbered-l10">καὶ μάλα δικαίως· Φρὺξ γὰρ ὢν οὐχ ἱκανὸς ἦν</l>
+              <l n="11" xml:id="meineke-0481-adelon_dramaton-unnumbered-l11">τὴν τοῦ τρέφοντος εὖ φέρειν παρρησίαν.</l>
+              <l n="12" xml:id="meineke-0481-adelon_dramaton-unnumbered-l12">διὸ δὴ τοιαύτης παντελῶς καχεξίας</l>
+              <l n="13" xml:id="meineke-0481-adelon_dramaton-unnumbered-l13">ἐν τοῖς βίοις παρὰ πᾶσιν ἐζηλωμένης</l>
+              <l n="14" xml:id="meineke-0481-adelon_dramaton-unnumbered-l14">πικρῶς ἐπιπλῆξαι βούλομ᾿, ἄνπερ νὴ Δία</l>
+              <l n="15" xml:id="meineke-0481-adelon_dramaton-unnumbered-l15">παρρησίαν μοι δῶτε, τοὺς ἀσυμβόλους</l>
+              <l n="16" xml:id="meineke-0481-adelon_dramaton-unnumbered-l16">τἀλλότρια δειπνεῖν ἑλομένους ἄνευ πόνου.</l>
+              <l n="17" xml:id="meineke-0481-adelon_dramaton-unnumbered-l17">τί γὰρ μαθών, ἄνθρωπε, πρὸς τῶν δαιμόνων</l>
+              <l n="18" xml:id="meineke-0481-adelon_dramaton-unnumbered-l18">βούλει παρασιτεῖν; ἢ τί τῶν ἐν τῷ βίῳ</l>
+              <l n="19" xml:id="meineke-0481-adelon_dramaton-unnumbered-l19">ξυνῆκας; εἶπον, ἄξιον γὰρ εἰδέναι·</l>
+              <l n="20" xml:id="meineke-0481-adelon_dramaton-unnumbered-l20">τίνος μαθητὴς γέγονας; αἵρεσιν τίνα</l>
+              <l n="21" xml:id="meineke-0481-adelon_dramaton-unnumbered-l21">ζηλοῖς; ἀπὸ τίνων δογμάτων ὁρμώμενος</l>
+              <l n="22" xml:id="meineke-0481-adelon_dramaton-unnumbered-l22">τολμᾷς παρασιτεῖν; ἃ μόλις ἡμεῖς τὸν βίον</l>
+              <l n="23" xml:id="meineke-0481-adelon_dramaton-unnumbered-l23">ἅπαντα κατατρίψαντες οὐδὲ νῦν ἔτι</l>
+            </lg>
+          </quote>
+          <lg>
+            <l n="24" xml:id="meineke-0481-adelon_dramaton-unnumbered-l24">ἀνεῳγμένην δυνάμεθα τὴν θύραν ἰδεῖν</l>
+            <l n="25" xml:id="meineke-0481-adelon_dramaton-unnumbered-l25">διὰ τοὺς ἀναιδῶς τἀλλότρια μασωμένους.</l>
+            <l n="26" xml:id="meineke-0481-adelon_dramaton-unnumbered-l26">οὐ παντὸς ἀνδρὸς ἐπὶ τράπεζάν ἐσθ᾽ ὁ πλοῦς.</l>
+            <l n="27" xml:id="meineke-0481-adelon_dramaton-unnumbered-l27">πλευρὰν ἔχειν πρώτιστον ἐν τούτοισι δεῖ,</l>
+            <l n="28" xml:id="meineke-0481-adelon_dramaton-unnumbered-l28">πρόσωπον ἰταμόν, χρῶμα διαμένον, γνάθον</l>
+            <l n="29" xml:id="meineke-0481-adelon_dramaton-unnumbered-l29">ἀκάματον, εὐθὺς δυναμένην πληγὰς φέρειν.</l>
+            <l n="30" xml:id="meineke-0481-adelon_dramaton-unnumbered-l30">στοιχεῖα μὲν ταῦτ᾽ ἐστὶ τῆς ὅλης τέχνης.</l>
+            <l n="31" xml:id="meineke-0481-adelon_dramaton-unnumbered-l31">ἔπειτα δεῖ σκωπτόμενον ἐφ᾽ ἑαυτῷ γελᾶν·</l>
+            <l n="32" xml:id="meineke-0481-adelon_dramaton-unnumbered-l32">αἰσχρὸν γὰρ οἶμαι δοῦλον εἶναι σκώμματος.</l>
+            <l n="33" xml:id="meineke-0481-adelon_dramaton-unnumbered-l33">ἀπὸ τῶν ἐτῶν κλέπτει τις ἢ καὶ βάπτεται,</l>
+            <l n="34" xml:id="meineke-0481-adelon_dramaton-unnumbered-l34">θέλων καλὸς εἶναι, καὶ παρ᾽ ἡδικίαν νοσεῖ·</l>
+            <l n="35" xml:id="meineke-0481-adelon_dramaton-unnumbered-l35">ἔστω Γανυμήδης οὗτος ἀποθεούμενος·</l>
+            <l n="36" xml:id="meineke-0481-adelon_dramaton-unnumbered-l36">πρὸς χάριν ὁμίλει τοῦ τρέφοντος ἐπ᾽ ὀλέθρῳ·</l>
+            <l n="37" xml:id="meineke-0481-adelon_dramaton-unnumbered-l37">παρατάττεταί τις καὶ ποιεῖ πάντας νεκροὺς</l>
+            <l n="38" xml:id="meineke-0481-adelon_dramaton-unnumbered-l38">δείπνῳ· σιωπῇ τοῦτον ὑπομυκτηρίσας</l>
+            <l n="39" xml:id="meineke-0481-adelon_dramaton-unnumbered-l39">εἰς τὴν τράπεζαν καὶ σὺ τὴν χολὴν ἄφες.</l>
+            <l n="40" xml:id="meineke-0481-adelon_dramaton-unnumbered-l40">οἶμαι δ᾽ ἐμαυτὸν εὔθετον τῷ πράγματι,</l>
+            <l n="41" xml:id="meineke-0481-adelon_dramaton-unnumbered-l41">παῖδες, γεγονέναι· πάντα γὰρ πρόσεστί μοι</l>
+            <l n="42" xml:id="meineke-0481-adelon_dramaton-unnumbered-l42">ὅσα περ ἔχειν τἀλλότρια τὸν δειπνοῦντα δεῖ,</l>
+            <l n="43" xml:id="meineke-0481-adelon_dramaton-unnumbered-l43">λιμός, ἀπόνοια, τόλμα, γαστήρ, ἀργία.</l>
+            <l n="44" xml:id="meineke-0481-adelon_dramaton-unnumbered-l44">καὶ νῦν μ᾽ ὁ Λυδῶν τῶν πολυχρύσων ἄναξ</l>
+            <l n="45" xml:id="meineke-0481-adelon_dramaton-unnumbered-l45">σύνδειπνον αὑτῷ κέκρικεν εἶναι καὶ φίλον.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. XIV 7 cum lemmate Νικολάου.</note>
+          <note type="apparatus">Vs. 1 mirum dicendi genus est τὸ παρασίτων γένος ἐξευρεῖν de eo qui parasitandi artem invenit. Suspicabar τὸ τῶν παρασίτων, ἄνδρες, ἐξῆρξεν γένος. — Versus secundus Euripidis est Orest. vs. 5. — Vs. 4 ἀκούσιον δίφρον dicere videtur ad quem invitus relegatus est Tantalus. Similiter ἄκοντα ἔργα dixit Sophocles Oed. Col. 240. Fortasse tamen ἀκουσίως vel ἀκούσιος scribendum. Sed totum hunc locum non intellego. Pro γλῶσσαν ne γλῶτταν scribatur prohibet Euripidis Orest.</note>
+          <note type="apparatus">10. ex quo verba ἀκόλαστον ἔσχε γλῶσσαν derivavit. — Vs. 6 εἰ τῆς, ut vulgo, libri meliores. ἀπὸ τῆς quattuor MSS apud Schowium et cod. B a manu sec. Grotius ex coniectura τὰ τῆς. Iacobsius θείης (θείας). — Vs. 7 πληγεὶς εἰς τὴν γαστέρα. Aristophanes Nub. 545: ὃς μέγιστον ὄντα Κλέων᾽ ἔπαισ᾽ ἐς τὴν γαστέρα. Id ab aliis ipsoque Aristophane Equ. 274. Vesp. 1529. uno verbo dicitur γαστρίζειν. — Vs. 9. Respicit terrae motum, quo Sipylum et Smyrnam antiquissimis temporibus concussa fuisse constat. Vide Reiskium ad Aristid. vol. I p. 427 Dind. — Vs. 12 διὸ δεῖ cod. A. — Vs. 14 ἐπιπλῆξαι cod. A. Gesneri margo et duo MSS apud Schowium. Vulgo ἐκπλῆξαι. Pro πικρῶς cod. A πικρός. — Vs. 17 τί μαθὼν recte tueri videtur Hermannus Praef. ad Aristoph. Nub. p. XLVII. — Vs. 19 „νυξῆκας AN. εὕρηκας A in marg. νύξηκας B cum ἴσ. ἤυξηκας et γρ. εὕρηκας in marg.“ Gaisfordus. — Vs. 21 ζηλοῖς Porsonus Adv. p. 302 et Valckenarius apud Gaisfordum. Trinc. κλοῖς. Gesn. * κλοῖς. AB et Gesneri margo εἵλου. Schowius ex uno MS φιλεῖς. Dictionis αἵρεσιν ζηλοῦν Porsonus et Valckenarius exempla attulerunt ex Diodoro Sic. I 28 35. Iosepho B. J. II 8 7 aliis. — Vs. 22 ἅ quo spectet non video. Suspicabar ὅ ad παρασιτεῖν relatum, cui quod vs. 24 subiicitur ἀνεῳγμένην τὴν θύραν ἰδεῖν, appositionis loco mihi illatum videbatur. — Vs. 23 verba οὐδὲ νῦν ἔτι corrupta videntur. Sententia requirit οὐδὲ νῦν γέ πω, vel simile quid. — Vs. 23 ἅπαντα pro πάντα Porsonus. — Vs. 25 ἀναιδῶς Grotius. Gaisfordus ἀνώδυνα ex quattuor MSS apud Schowium et B a m. sec. Quae aperta interpolatio est. Vulgo ἄνω δία, in quo aliud quid latere videtur quam quod Grotius coniecit. Fortasse ἀνοδίᾳ scribendum. Frequens dicendi genus est ἀνοδίᾳ πορεύεσθαι, quod quum proprie de iis dicatur qui non trito et expedito itinere incedunt (v. Wesseling. ad Diod. Sic. XIX 5), etiam de iis usurpari potuit qui quod agunt perverse agunt. Itaque ἀνοδίᾳ τἀλλότρια μασᾶσθαι dici posse videntur qui in parasitica arte praecipitem et negatam viam sequuntur. Ibidem μασωμένους scripsi pro μασσωμένους.</note>
+          <note type="apparatus">
+            <p>— Vs. 26 <quote>οὐ παντὸς ἀνδρὸς ἐπὶ τράπεζάν ἐσθ᾽ ὁ πλοῦς</quote> lepide detortum ex notissimo proverbio <quote>οὐ παντὸς ἀνδρὸς ἐς Κόρινθόν ἐσθ᾽ ὁ πλοῦς</quote>, de quo scriptorum locos apposuit Leutsch ad Zenob. V 37. — Vs. 27 <quote>πρώτιστον ἐν τούτοισι</quote> AB margo Gesn. et MSS Schowii. <quote>πρώτοισι τούτοισι</quote> Trinc. <quote>πρώτοισι τουτέοισι</quote> Gesn. Non credo tamen locum persanatum esse. Nam nec <quote>πλευρὰ</quote> epitheto carere potest, nec <quote>ἐν τούτοις</quote> habet quo referatur. Itaque vide an scripserit poeta: <quote>πλευρὰν ἔχειν πρώτιστον εὔτονόν σε δεῖ</quote>, <foreign xml:lang="lat">latus firmum et robustum</foreign>. Quo sensu <quote>εὔτονα σώματα</quote> habes apud Hippocratem, annotante Foesio Oec. Hipp. p. 253. — Vs. 29 <quote>εὐθὺς — φέρειν</quote>. Plato Soph. § 43 (p. 235 B) <quote>ἐὰν ἡμᾶς εὐθὺς ὁ σοφιστὴς ὑπομείνῃ</quote>. — Vs. 36 vulgo <quote>ὁμιλεῖ</quote>, pro quo <quote>ὁμίλει</quote> scripsi ex B. Ceterum meo iudicio hic versus melius post vs. 32 legeretur. — Vs. 33 de <quote>βάπτεσθαι</quote> cfr Hist. crit. p. 123. — Vs. 37 <quote>παρατάττεται</quote> AB in margine. <quote>παράττεται</quote> Trinc. et AB in textu. Vulgo <quote>ταράττεται</quote>. Bene Grotius: <foreign xml:lang="lat">aciem instruit debellaturus in mensa, non quidem Alexandrum, ut ille voluit, at hostes tamen</foreign>. Apposite Tibullus Eleg. I 10 29: <foreign xml:lang="lat">alius sit fortis in armis, Sternat et adversos Marte favente duces; Ut mihi potanti possit sua dicere facta Miles, et in mensa pingere castra mero</foreign>. Fortasse tamen <quote>χαράττεται</quote> scribendum i. e. <foreign xml:lang="lat">irascitur</foreign>. V. Elmsleium ad Euripidis Med. 154. — Vs. 38 B <quote>δείπνει</quote>, quod qui coniecit, id sine dubio cum sequentibus coniungi voluit hoc sensu: <foreign xml:lang="lat">si quis miles gloriator aciem in mensa instruit hostesque se omnes caesurum minatur, tu securus epulare</foreign>. Sed hoc plures ob caussas non placet. Non dubito quin <quote>δειπνῶν</quote> poeta scripserit. Quae sequuntur verte: <foreign xml:lang="lat">hunc tu tacite subsannans bilem ex insipidis militis iactationibus collectam in mensam effunde, i. e. fortiter te cibis ingurgita</foreign>. — Vs. 40 <quote>πράγματι</quote> A et margo Gesn. pro vulgato <quote>τοῖς πράγμασι</quote>. — Vs. 44 <quote>Λυδῶν ἄνακτα</quote> Lydiae dicere videtur satrapam. Verba ipsa ex tragico poeta petita videntur. — Vs. 45 <quote>καὶ</quote> addit Grotius.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

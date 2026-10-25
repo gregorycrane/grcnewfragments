@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Anaxippus, ΕΓΚΑΛΥΠΤΟΜΕΝΟΣ: fragments</title>
+        <author>Anaxippus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0407.egkalyptomenos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0407.egkalyptomenos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0407.egkalyptomenos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0407_egkalyptomenos">
+        <head>ΕΓΚΑΛΥΠΤΟΜΕΝΟΣ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0407-egkalyptomenos-unnumbered">
+          <lg>
+            <l n="1" xml:id="meineke-0407-egkalyptomenos-unnumbered-l1">Σόφων Ἀκαρνὰν καὶ Ῥόδιος Δαμόξενος</l>
+            <l n="2" xml:id="meineke-0407-egkalyptomenos-unnumbered-l2">ἐγένονθ᾽ ἑαυτῶν συμμαθηταὶ τῆς τέχνης·</l>
+            <l n="3" xml:id="meineke-0407-egkalyptomenos-unnumbered-l3">ἐδίδασκε δ᾽ αὐτοὺς Σικελιώτης Λάβδακος.</l>
+            <l n="4" xml:id="meineke-0407-egkalyptomenos-unnumbered-l4">οὗτοι τὰ μὲν παλαιὰ καὶ θρυλούμενα</l>
+            <l n="5" xml:id="meineke-0407-egkalyptomenos-unnumbered-l5">ἀρτίματ᾽ ἐξήλειψαν ἐκ τῶν βιβλίων,</l>
+            <l n="6" xml:id="meineke-0407-egkalyptomenos-unnumbered-l6">καὶ τὴν θυείαν ἠφάνισαν ἐκ τοῦ μέσου,</l>
+            <l n="7" xml:id="meineke-0407-egkalyptomenos-unnumbered-l7">οἷον λέγω κύμινον, ὄξος, σίλφιον,</l>
+            <l n="8" xml:id="meineke-0407-egkalyptomenos-unnumbered-l8">τυρόν, κορίαννον, οἷς ὁ Κρόνος ἀρτύμασιν</l>
+            <l n="9" xml:id="meineke-0407-egkalyptomenos-unnumbered-l9">ἐχρᾶτο, πάντ᾽ ἀφεῖλον εἶναί θ᾽ ὑπέλαβον</l>
+            <l n="10" xml:id="meineke-0407-egkalyptomenos-unnumbered-l10">τὸν τοῖς τοιούτοις παντοπώλην χρώμενον.</l>
+            <l n="11" xml:id="meineke-0407-egkalyptomenos-unnumbered-l11">αὐτοὶ δ᾽ ἔλαιον καὶ λοπάδα καινήν, πάτερ,</l>
+            <l n="12" xml:id="meineke-0407-egkalyptomenos-unnumbered-l12">πῦρ τ᾽ ὀξὺ καὶ μὴ πολλάκις φυσώμενον</l>
+            <l n="13" xml:id="meineke-0407-egkalyptomenos-unnumbered-l13">ἐποίουν· ἀπὸ τούτου πᾶν τὸ δεῖπνον εὐτρεπές.</l>
+            <l n="14" xml:id="meineke-0407-egkalyptomenos-unnumbered-l14">οὗτοί τε πρῶτον δάκρυα καὶ πταρμὸν πολὺν</l>
+            <l n="15" xml:id="meineke-0407-egkalyptomenos-unnumbered-l15">ἀπὸ τῆς τραπέζης καὶ σίαλον ἀπήγαγον,</l>
+            <l n="16" xml:id="meineke-0407-egkalyptomenos-unnumbered-l16">τῶν τ᾽ ἐσθιόντων ἀνεκάθηραν τοὺς πόρους.</l>
+            <l n="17" xml:id="meineke-0407-egkalyptomenos-unnumbered-l17">ὁ μὲν οὖν Ῥόδιος πιών τιν᾽ ἅλμην ἀπέθανεν.</l>
+            <l n="18" xml:id="meineke-0407-egkalyptomenos-unnumbered-l18">παρὰ τὴν φύσιν γὰρ τὸ ποτὸν ἦν. μάλ᾽ εἰκότως.</l>
+            <l n="19" xml:id="meineke-0407-egkalyptomenos-unnumbered-l19">ὁ Σόφων δὲ πᾶσαν τὴν Ἰωνίαν ἔχει,</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

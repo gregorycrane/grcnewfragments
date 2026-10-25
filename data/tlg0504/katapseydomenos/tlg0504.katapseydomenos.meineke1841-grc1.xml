@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Sosipater, ΚΑΤΑΨΕΥΔΟΜΕΝΟΣ: fragments</title>
+        <author>Sosipater</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0504.katapseydomenos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0504.katapseydomenos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0504.katapseydomenos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0504_katapseydomenos">
+        <head>ΚΑΤΑΨΕΥΔΟΜΕΝΟΣ</head>
+        <pb n="485" facs="urn:hathi:hvd.32044098646714:scan:509" />
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0504-katapseydomenos-1">
+          <note type="source">Athenaeus IX p. 377 f: Μέγας δ᾽ ἐστὶ σοφιστὴς καὶ οὐδὲν ἥττων τῶν ἰατρῶν εἰς ἀλαζονείαν καὶ ὁ παρὰ Σωσιπάτρῳ μάγειρος ἐν Καταψευδομένῳ, λέγων οὕτως Οὐ παντελῶς κτλ.</note>
+          <note type="apparatus">Vs. 2 Δημύλε. Libri Δήμυλε. Vide interpretes Gregorii Cor. p. 290. Bastii Epist. crit. p. 243 et quem Dindorfius attulit Boissonadum ad Aristaen. Epist. p. 441. — Vs. 3 πέπλυται, vilescere coepit. V. Porsonus ad Euripidis Med. 139 no. X. — Vs. 4 οὐδὲν Dindorfius pro οὐθέν. — Vs. 6 ante Grotium ἐάν. — Vs. 8 τὰς δυνάμεις sc. artis, non alimentorum, ut interpretatus est Casaubonus. — Vs. 10 μόνοι addidit Casaubonus. — Vs. 11 Βοιδίων καὶ Χαριάδης. Ex his Boedionem nusquam praeterea commemoratum reperio; Chariadem autem Atheniensem in septem artis coquinariae auctoribus numerat Euphro apud Athenaeum IX p. 379 e. — Vs. 13 τὸ διδασκαλεῖον, disciplinam, doctrinam, quae prorsus insolens est huius vocis significatio. Fortasse ἔγωγε· τὸ διδασκάλιον. Alterum nisi de loco, in quo scholae habentur, non dicitur. — Vs. 15 Σίκων addidit Grotius Exc. p. 887. — Vs. 20 κόπτειν, enecare, obtundere. Pollux VI 119: ἀποκναίων ἀηδίᾳ, κόπτων τὰ ὦτα. Alciphro Epist. II 3 7: ἵνα μὴ κόπτω σε δίς. Si modo haec vitio carent. Ambigue, ut Sosipater, verbo illo usi sunt etiam alii comici poetae. V. Piersonnum ad Moer. p. 74 et indicem graecitatis. — Vs. 22 μικρὰ διακινήσω σε, paucis te admonebo. Iacobsius tentabat μικρὸν διαμνήσω σε. — Vs. 23 ἄκαιρον V. — Vs. 24 ἐργῶδές γ᾽ pro ἐργῶ-</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

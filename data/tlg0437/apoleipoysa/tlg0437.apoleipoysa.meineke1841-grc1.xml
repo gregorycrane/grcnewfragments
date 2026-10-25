@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Crobylus, ΑΠΟΛΕΙΠΟΥΣΑ: fragments</title>
+        <author>Crobylus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0437.apoleipoysa.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0437.apoleipoysa.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0437.apoleipoysa.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_apoleipoysa">
+        <head>ΑΠΟΛΕΙΠΟΥΣΑ</head>
+        <pb n="566" facs="urn:hathi:hvd.32044098646714:scan:590" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0437-apoleipoysa-1">
+          <head rend="center">I.</head>
+          <quote rend="indent">
+            <lg>
+              <l n="1" xml:id="meineke-0437-apoleipoysa-1-l1">Πάλιν ἡ τοῦ βίου</l>
+              <l n="2" xml:id="meineke-0437-apoleipoysa-1-l2">ὑγρότης με τοῦ σοῦ τέθαφε· τὴν ἀσωτίαν</l>
+              <l n="3" xml:id="meineke-0437-apoleipoysa-1-l3">ὑγρότητα γὰρ νῦν προσαγορεύουσιν τινές.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus VI p. 258 b. c: οὐκ ἂν διαμάρτοι δέ τις τὸν τοῦ μειρακίου τούτου τοῦ Κυπρίου βίον ὑγρὸν ὀνομάζων, οὗ πολλοὺς καὶ διδασκάλους φησὶν εἶναι Ἀθήνησιν ῎Αλεξις ἐν Πυραύνῳ — καὶ Κρώβυλος ἐν Ἀπολιπούσῃ Πάλιν κτλ.</note>
+          <note type="apparatus">Videntur patris verba esse ad filium in luxuriosam vitam prolapsum. Vs. 1 fort. πάλαι δ᾽ ἡ vel πάνυ γ᾽ ἡ. — Vs. 2 Dindorfius „τέθαφε Casaubonus. τέθαιφε DPQVL. τε..φε membranae Casauboni. τέθ φε Β. τέθρεφε codex Huraldinus.“ Ven. quid habeat, non annotatum est. Sed consentit haud dubie cum B. Interim reliqui τέθαφε, quamvis certum est poetam aliud quid scripsisse. Infeliciter Buttmannus Gramm. gr. II p. 195 μέ σου τέθαμφε tentabat. Mihi vix dubium quin scribendum sit τέθυφε i. e. ἐκκέκαυκε, urit, lento igne me carpit, moerore afficit. De verbo τύφειν cfr Ruhnkenius ad Tim. p. 250. Apposite ad nostrum locum Libanius vol. I p. 68: τότε μὲν ἱλαρᾷ τε καὶ εὐθυμουμένῃ (τῇ ψυχῇ), ὕστερον δὲ ἄχους πλέᾳ καὶ διατεθυμμένῃ, quod recte a διατύφω derivat Reiskius.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0437-apoleipoysa-2">
+          <head rend="center">II.</head>
+          <quote rend="indent">
+            <lg>
+              <l n="1" xml:id="meineke-0437-apoleipoysa-2-l1">Τὸ γὰρ ἐνδελεχῶς μεθύειν τίν᾿ ἡδονὴν ἔχει,</l>
+              <l n="2" xml:id="meineke-0437-apoleipoysa-2-l2">ἀποστεροῦντα ζῶνθ᾽ ἑαυτὸν τοῦ φρονεῖν,</l>
+              <l n="3" xml:id="meineke-0437-apoleipoysa-2-l3">ὃ μέγιστον ἡμῶν ἀγαθὸν ἔσχεν ἡ φύσις;</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus X p. 429 d. de ebrietate disserens: τὸ δ᾽ ἐνδελεχῶς μεθύειν, φησί Κρώβυλος ἐν Ἀπολιπούσῃ, τίν᾿ ἡδονήν κτλ. Idem p. 443 f: Κρώβυλός τ᾽ ἐν Ἀπολιπούσῃ Τὸ γὰρ ἐνδελεχῶς κτλ.</note>
+          <note type="apparatus">Vs. 2 priore loco libri habent τοῦ σωφρονεῖν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" author_heading="CROBYLUS" work_heading="ΑΠΟΛΙΠΟΥΣΑ" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0437-apoleipoysa-2_2">
+          <lg>
+            <l n="1" xml:id="meineke-0437-apoleipoysa-2_2-l1">Quaenam est voluptas ebriulari perpetim,</l>
+            <l n="2" xml:id="meineke-0437-apoleipoysa-2_2-l2">virumque sese orbare mentis regimine,</l>
+            <l n="3" xml:id="meineke-0437-apoleipoysa-2_2-l3">quod maximum est humanae naturae bonum?</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

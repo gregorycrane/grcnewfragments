@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΑΝΕΨΙΟΙ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.anepsioi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.anepsioi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.anepsioi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_anepsioi">
+        <head>ΑΝΕΨΙΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-anepsioi-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-anepsioi-1-l1">Φύσει γάρ ἐστ᾽ ἔρως</l>
+              <l n="2" xml:id="meineke-0541-anepsioi-1-l2">τοῦ νουθετοῦντος κωφόν· ἅμα δ᾽ οὐ ῥᾴδιον</l>
+              <l n="3" xml:id="meineke-0541-anepsioi-1-l3">νεότητα νικᾶν ἐστι καὶ θεὸν λόγῳ.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. LXIV 17 cum lemmate Μενάνδρου Ἀνεψιός. Ita enim Gaisfordius ex A et Voss. Trincavellus fabulae nomen omittit. Gesnerus Menandri Antiope. Grotius Menander Patruelibus. Rectius Clericus Consobrinis, ut acerrimus Menandri imitator Afranius fabulam inscripserat. V. edit. mai.</note>
+          <note type="apparatus">Vs. 2 codd. A B et Trinc. νομοθετοῦντος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-anepsioi-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-anepsioi-2-l1">Εὐδαιμονία τοῦτ᾽ ἔστιν υἱὸς νοῦν ἔχων·</l>
+              <l n="2" xml:id="meineke-0541-anepsioi-2-l2">ἀλλὰ θυγάτηρ κτῆμ᾽ ἐστὶν ἐργῶδες πατρί.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. LXXVII 4 et 5. Primo versui Μενάνδρου, alteri Μενάνδρου Ἀνεψιοῖς adscriptum est. Recte Grotius utrumque versum ad unum fragmentum coniunxit.</note>
+          <note type="apparatus">Vs. 1 scripsi εὐδαιμονία pro εὐδαιμονίας cum H. Stephano Com. p. 131.</note>
+        </div>
+        <pb n="87" facs="urn:hathi:hvd.32044098646714:scan:111" />
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-anepsioi-3">
+          <lg>
+            <l n="1" xml:id="meineke-0541-anepsioi-3-l1">Τὰ κακῶς τρέφοντα χωρί᾽ ἀνδρείους ποιεῖ.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. LVI 7 cum lemmate Μενάνδρου Ἀνεψιοῖς.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4_5" ana="#compiled-citation-normalized" xml:id="meineke-0541-anepsioi-4_5">
+          <lg>
+            <l n="1" xml:id="meineke-0541-anepsioi-4_5-l1">Ὁ φανός ἐστι μεστὸς ὕδατος οὑτοσί,</l>
+            <l n="2" xml:id="meineke-0541-anepsioi-4_5-l2">δεῖ τ᾽ οὐχὶ σείειν, ἀλλ᾽ ἀποσείειν αὐτόθεν.</l>
+            <l n="3" xml:id="meineke-0541-anepsioi-4_5-l3">
+              <gap reason="omitted" extent="unknown" /> Οἶσ᾽ εἰσιὼν</l>
+            <l n="4" xml:id="meineke-0541-anepsioi-4_5-l4">πανόν, λύχνον, λυχνοῦχον, ὅ τι πάρεστι· φῶς</l>
+            <l n="5" xml:id="meineke-0541-anepsioi-4_5-l5">μόνον πολὺ ποίει.</l>
+          </lg>
+          <note type="source">Athenaeus XV p. 700 b: ἄλλοι δ᾽ ἔφασκον φανὸν λέγεσθαι τὴν λαμπάδα· οἱ δὲ τὴν ἔκ τινων ξύλων τετμημένην δέσμην. Μένανδρος Ἀνεψιοῖς (ΑΒ ἀνεψιός) Ὁ φανός κτλ. πανὸς δ᾽ ὀνομάζεται τὸ διακεκομμένον ξύλον καὶ συνδεδεμένον· τούτῳ δ᾽ ἐχρῶντο λαμπάδι. Μένανδρος Ἀνεψιοῖς Οἶσ᾽ εἰσιών κτλ.</note>
+          <note type="apparatus">Ad vs. 1 respexit Photius, Φανός: λαμπὰς ἐκ κλημάτων. οὕτως Μένανδρος. Item Eustathius p. 1571 3: τὸ φανίον ἐκ τοῦ φανοῦ παράγωγον, οὗ ἡ χρῆσις παρὰ Μενάνδρῳ. — Vs. 2 ante Bentleium legebatur ἀλλὰ ποδιεῖν αὐτόν. Quod in altero fragmento ante εἰσιὼν additum est οἶσε, debetur coniecturae Dobraei Adv. II p. 271. qui recte loci sententiam indicavit: <quote>effer phanum, lychnum, lychnuchum, quicquid est; modo claram lucem facito.</quote> Pro ποιεῖ enim vs. 3 rectissime scripsit Dalecampius ποίει.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-anepsioi-1_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-anepsioi-1_2-l1">Ingenio suo</l>
+            <l n="2" xml:id="meineke-0541-anepsioi-1_2-l2">Amor ad consilia surdus: tum vero haud facul</l>
+            <l n="3" xml:id="meineke-0541-anepsioi-1_2-l3">ratione superare et iuventutem et deum.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-anepsioi-3_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-anepsioi-3_2-l1">Fortes progenerant asperi victus loca.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-anepsioi-4">
+          <lg>
+            <l n="1" xml:id="meineke-0541-anepsioi-4-l1">Haec fax aquosis tota madet humoribus:</l>
+            <l n="2" xml:id="meineke-0541-anepsioi-4-l2">quassanda non est, abicienda est protinus.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

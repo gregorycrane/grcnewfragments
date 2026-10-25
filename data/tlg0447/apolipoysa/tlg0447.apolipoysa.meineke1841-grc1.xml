@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΑΠΟΛΙΠΟΥΣΑ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.apolipoysa.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.apolipoysa.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.apolipoysa.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_apolipoysa">
+        <head>ΑΠΟΛΙΠΟΥΣΑ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0447-apolipoysa-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-apolipoysa-1-l1">Quot sunt convivae numero quod ad nuptias</l>
+              <l n="2" xml:id="meineke-0447-apolipoysa-1-l2">quaeso, vocasti? deinde suntne ex Attica</l>
+              <l n="3" xml:id="meineke-0447-apolipoysa-1-l3">omnes, an adsunt et peregrini? <sp>
+                  <speaker>B.</speaker> Quid hoc</sp>
+              </l>
+              <l n="4" xml:id="meineke-0447-apolipoysa-1-l4">
+                <sp>te spectat tandem qui coquus sis? </sp>
+                <sp>
+                  <speaker>A.</speaker> Quin, senex,</sp>
+              </l>
+              <l n="5" xml:id="meineke-0447-apolipoysa-1-l5">in eo praecipua pars nostrae artis vertitur,</l>
+              <l n="6" xml:id="meineke-0447-apolipoysa-1-l6">ut convivarum recte noscamus gulam.</l>
+              <l n="7" xml:id="meineke-0447-apolipoysa-1-l7">puta si vocaris Rhodios, simul intraverint,</l>
+              <l n="8" xml:id="meineke-0447-apolipoysa-1-l8">dato Silurum discerpendum protinus</l>
+              <l n="9" xml:id="meineke-0447-apolipoysa-1-l9">de fervefacto iure, vel Lebiam: magis</l>
+              <l n="10" xml:id="meineke-0447-apolipoysa-1-l10">gratum id, quam vinum si unguentatum affuderis.</l>
+              <l n="11" xml:id="meineke-0447-apolipoysa-1-l11">
+                <sp>
+                  <speaker>A.</speaker> Silurizare lepidum est. </sp>
+                <sp>
+                  <speaker>B.</speaker> Sin Byzantios,</sp>
+              </l>
+              <l n="12" xml:id="meineke-0447-apolipoysa-1-l12">asperge quicquid est ciborum absynthio,</l>
+              <l n="13" xml:id="meineke-0447-apolipoysa-1-l13">salita et alliata fac sint omnia.</l>
+              <l n="14" xml:id="meineke-0447-apolipoysa-1-l14">nam quae est apud ipsos piscium frequentia,</l>
+              <l n="15" xml:id="meineke-0447-apolipoysa-1-l15">muccosos omnes et pituitosos facit.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0447-apolipoysa-1_2">
+          <quote>
+            <lg>
+              <sp>
+                <speaker>
+                  <gap extent="unknown" reason="omitted" />
+                </speaker>
+                <l n="1" xml:id="meineke-0447-apolipoysa-1_2-l1">Πόσοι τὸ πλῆθός εἰσιν οἱ κεκλημένοι</l>
+                <l n="2" xml:id="meineke-0447-apolipoysa-1_2-l2">εἰς τοὺς γάμους, βέλτιστε, καὶ πότερ᾽ Ἀττικοί</l>
+                <l n="3" xml:id="meineke-0447-apolipoysa-1_2-l3">ἅπαντες, ἢ κἀκ τοὐμπορίου τινές;</l>
+              </sp>
+              <sp>
+                <speaker>Β.</speaker>
+                <l n="4" xml:id="meineke-0447-apolipoysa-1_2-l4">τί δαί</l>
+                <l n="5" xml:id="meineke-0447-apolipoysa-1_2-l5">τοῦτ᾽ ἔστι πρὸς σὲ τὸν μάγειρον;</l>
+              </sp>
+              <sp>
+                <speaker>Α.</speaker>
+                <l n="6" xml:id="meineke-0447-apolipoysa-1_2-l6">τῆς τέχνης</l>
+                <l n="7" xml:id="meineke-0447-apolipoysa-1_2-l7">ἡγεμονία τίς ἐστιν αὐτῆς, ὦ πάτερ,</l>
+                <l n="8" xml:id="meineke-0447-apolipoysa-1_2-l8">τὸ τῶν ἐδομένων τὰ στόματα προειδέναι.</l>
+                <l n="9" xml:id="meineke-0447-apolipoysa-1_2-l9">οἷον Ῥοδίους κέκληκας· εἰσιοῦσι δός</l>
+                <l n="10" xml:id="meineke-0447-apolipoysa-1_2-l10">εὐθὺς ἀπὸ θερμοῦ τὴν μεγάλην αὐτοῖς σπάσαι,</l>
+                <l n="11" xml:id="meineke-0447-apolipoysa-1_2-l11">ἀποζέσας σίλουρον ἢ λεβίαν, ἐφ᾽ ᾧ</l>
+                <l n="12" xml:id="meineke-0447-apolipoysa-1_2-l12">χαριεῖ πολὺ μᾶλλον ἢ μυρίνην προσεγχέας.</l>
+              </sp>
+              <sp>
+                <speaker>Β.</speaker>
+                <l n="13" xml:id="meineke-0447-apolipoysa-1_2-l13">ἀστεῖον ὁ σιλουρισμός.</l>
+              </sp>
+              <sp>
+                <speaker>Α.</speaker>
+                <l n="14" xml:id="meineke-0447-apolipoysa-1_2-l14">ἂν Βυζαντίους,</l>
+                <l n="15" xml:id="meineke-0447-apolipoysa-1_2-l15">ἀψινθίῳ σπόδησον ὅσα γ᾽ ἂν παρατιθῇς,</l>
+                <l n="16" xml:id="meineke-0447-apolipoysa-1_2-l16">κάθαλα ποιήσας πάντα κάσκοροδισμένα.</l>
+                <l n="17" xml:id="meineke-0447-apolipoysa-1_2-l17">διὰ γὰρ τὸ πλῆθος τῶν παρ᾿ αὐτοῖς ἰχθύων</l>
+                <l n="18" xml:id="meineke-0447-apolipoysa-1_2-l18">πάντες βλιχανώδεις εἰσὶ καὶ μεστοὶ λάπης.</l>
+              </sp>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus IV p. 132 c: <quote>Δίφιλος δ᾽ ἐν Ἀπολιπούσῃ μάγειρόν τινα παράγων ποιεῖ τάδε λέγοντα Πόσοι τὸ πλῆ-</quote>
+          </note>
+          <pb n="382" facs="urn:hathi:hvd.32044098646714:scan:406" />
+          <note type="apparatus">θος κτλ. Vs. 3 τοὐμπορίου Schweigh. τοῦ ἐμπορείου ΑΒ. τοῦ ἐμπορίου VL. τοῦ μ̓πορείου P. Emporium intellege τὸ ξενικόν, ubi peregrini mercaturam faciebant. Cfr infra Ζωγραφ. 1, 9 sqq. Adde Lexicon Bekkeri Anecd. gr. p. 284, 5: <quote>Ξενικὸν ἐμπόριον, ὅπου οἱ ξένοι ἐμπορεύονται, ἀστικὸν δὲ ὅπου οἱ ἀστοί.</quote> — Vs. 4 Dobraeus Advers. II p. 305: <quote>πρὸς σέ; Β. τοῦ μαγείρου</quote>, et vs. 5 <quote>αὑτηΐ, πάτερ</quote>. Meo iudicio nihil novandum est nisi vs. 5 ἐστὶ ταύτης pro ἐστὶν αὐτῆς. — Vs. 8 B ante εὐθὺς habet αὐτοῖς. Sequentia ἀπὸ θερμοῦ τὴν μεγάλην σπάσαι etc. difficilem habent explicatum. Ad θερμοῦ aut ζωμοῦ intellegunt aut ὕδατος, illud de iure fervefacto, alterum de aqua interpretantes, qua convivae ante coenam manus lavabant. Ac tepefacta aqua ad hunc finem veteres usos esse constat ex Philoxeno Athenaei IX p. 409 e: <quote>χλιεροθαλπὲς ὕδωρ ἐπεγχέοντες</quote>. Sed aliud est θερμόν, <foreign xml:lang="lat">fervidum</foreign>, aliud χλιαρόν, <foreign xml:lang="lat">tepidum</foreign>. Minus etiam prior explicatio probari potest. Quantum ego video, verba ἀπὸ θερμοῦ in nostro loco de caldae sorbitione intellegenda sunt. Pollux IX 70: <quote>τὸ παρὰ Φιλήμονι „χαλκοῦ θερμὸν ἦν” ἄντικρυς δηλοῖ τὴν τοῦ θερμοῦ πόσιν</quote>. Cfr Fritzschius ad Aristoph. Thesm. p. 597. Ad τὴν μεγάλην autem subintellego κύλικα, ut apud Machonem Athenaei XIII p. 583 b: <quote>ἀλλ᾽ ἐγχεάτω μοι τέτταρας κοτύλας ἔπειτ᾽ εἰς τὴν μεγάλην</quote>, et apud Menandrum Chalc. II 2 <quote>ἐβόων τὴν μεγάλην</quote>, aliisque locis. Ac de potu agi etiam verbum σπάσαι ostendit, quod male ad σίλουρον transfert Grotius, qui vertit <foreign xml:lang="lat">dato silurum discerpendum protinus</foreign>. Sequentia autem quomodo cum his coniungi possint adeo non intellego, ut post vs. 8 unum vel duo versus excidisse suspicer. Pro ἀποζέσας C habet ἀποζεύξας, pro λεβίαν, de quo pisce attuli quaedam vol. III p. 573, ex B enotatum est λεσβίαν. — Vs. 10 χαριεῖ ΑΡ. χαριῇ VL. μυρρίνην C. μυρίνην Β. — Vs. 12 σπόδησον Dindorfius pro vulgato φοΐῳ δεῦσον. σφοίη ΑΒ. σφοΐῳ PVL. δεῦσον VL. δεῖξον ACP. σφι δεῦσον cum Casaubono Schweighaeuserus. Verte: <foreign xml:lang="lat">absinthium insperge</foreign>. Pro ἀψινθίῳ fortasse ἀσπινθίῳ scripserat Diphilus. Etymol. M. p. 183 25.</note>
+          <pb n="383" facs="urn:hathi:hvd.32044098646714:scan:407" />
+          <note type="apparatus">Ἀψίνθιον: εἶδος βοτάνης πικρᾶς, ὡς καὶ τὸ ἀβρότονον. ἔνιοι δὲ τῶν κωμικῶν ἀπίνθιον (leg. ἀσπίνθιον) καλοῦσι. Hesychius, Ἀσπίνθιον: ἀψίνθιον. Ibidem vulgo ὅσ᾽ ἄγαν παρατίθης. Correxit Casaubonus. — Vs. 13 ποιήσας scripsi pro edito ποίησαι. ποιῆσαι ABP. ποίησον CL et Eustathius ad Iliad. p. 749 1: ὅτι δὲ ὥσπερ ἁλίπαστον ἐκ τοῦ ἁλός, οὕτω καὶ κάθαλόν τι λέγεται, δηλοῖ ὁ γράψας τὸ κάθαλα ποίησον πάντα καὶ ἐσκοροδισμένα. — Vs. 15 βλιχώδεις Casaubonus, allato Erotiano gloss. Hippocr. p. 104: βλιχῶδες Ἐπικλῆς φησὶ τὸ λελιπασμένον μετὰ γλοιώδους ὑγρασίας ἀκαθάρτου. Idem haud dubie significat βλιχανῶδες. Ut enim e. c. a λιχὸς dicitur λιχανός, ita a βλιχὸς formatur βλιχανός. Βλιχὸς autem idem est quod γλιχός, ut βλήχων idem quod γλήχων, significatque muscosus, viscosus, pituitosus. Tum λάπης pro λαπῆς (A λαπης) Schweighaeuserus.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0447-apolipoysa-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-apolipoysa-2-l1">Acetum credo habes:</l>
+              <l n="2" xml:id="meineke-0447-apolipoysa-2-l2">puto, etiam laser quantum satis accepimus.</l>
+              <l n="3" xml:id="meineke-0447-apolipoysa-2-l3">his ergo cuncta quam potes spisse preme.</l>
+              <l n="4" xml:id="meineke-0447-apolipoysa-2-l4">circumspargentur folio suaveolentia.</l>
+              <l n="5" xml:id="meineke-0447-apolipoysa-2-l5">nam condimentorum id genus acrimonia</l>
+              <l n="6" xml:id="meineke-0447-apolipoysa-2-l6">senum sensificas partes facile exsuscitat:</l>
+              <l n="7" xml:id="meineke-0447-apolipoysa-2-l7">et nauseantis taedii torpedinem</l>
+              <l n="8" xml:id="meineke-0447-apolipoysa-2-l8">fugans edendi prolicit lubentiam.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0447-apolipoysa-2_2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-apolipoysa-2_2-l1">Ἔστιν ἔνδον ὄξος ὀξύ σοι;</l>
+              <sp>
+                <speaker>Β.</speaker>
+                <l n="2" xml:id="meineke-0447-apolipoysa-2_2-l2">ὑπολαμβάνω, παιδάριον, ὀπὸν εἰλήφαμεν.</l>
+              </sp>
+              <l n="3" xml:id="meineke-0447-apolipoysa-2_2-l3">ἄριστα τούτοις πάντα πιέσω καὶ πυκνά.</l>
+              <l n="4" xml:id="meineke-0447-apolipoysa-2_2-l4">ἡ φυλλὰς ἡ δριμεῖα περιοισθήσεται·</l>
+              <l n="5" xml:id="meineke-0447-apolipoysa-2_2-l5">τῶν πρεσβυτέρων γὰρ ταῦτα τῶν ἡδυσμάτων</l>
+              <l n="6" xml:id="meineke-0447-apolipoysa-2_2-l6">ἀναστομοῖ τάχιστα τᾄσθητήρια,</l>
+              <l n="7" xml:id="meineke-0447-apolipoysa-2_2-l7">τό τε νωκαρῶδες καὶ κατημβλυωμένον</l>
+              <l n="8" xml:id="meineke-0447-apolipoysa-2_2-l8">ἐσκέδασε κἀποίησεν ἡδέως φαγεῖν.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus IV p. 133 f. de condimentis agens, quibus ciborum sapor acuitur: <quote>Δίφιλος δ᾽ ἢ Σώσιππος ἐν Ἀπολιπούσῃ Ἔστιν κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 cod. A ἔνδο ξος. Ceteri ἐν δ᾽ ὄξος. Correxit Porsonus. — Vs. 4 ante Scaligerum apud Grotium Exc. p. 992 legebatur ἢ φυλὰς ἤ. Ibid. δριμεῖα AL. Vulgo δριμά. Tum περιοισθήσεται APL. περιισθήσεται V. περισεισθήσεται Scaliger. Unice verum est περιοισθήσεται, circumferetur, convivantibus apponetur. Cfr Antiphanes Ganym. II 10 et infra in Διαμαρτανούσῃ Diphilus, ἄρτους</note>
+          <pb n="384" facs="urn:hathi:hvd.32044098646714:scan:408" />
+          <note type="apparatus">
+            <p>περιφέρειν. Et ita saepius. — Vs. 6 ἀναστομοῖ Α. ἀναστομεῖ PVL. τᾠσθητήρια pro ταἰσθητήρια Dindorfius. — Vs. 7 κατημβλιωμένον Β. κατημβλυμμένον C.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0447-apolipoysa-3">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-apolipoysa-3-l1">Εἶτα μαλακὸν ὦ δύστην᾽ ἔχεις,</l>
+              <l n="2" xml:id="meineke-0447-apolipoysa-3-l2">σκευάριον, ἐκπωμάτιον, ἀργυρίδιον·</l>
+              <l n="3" xml:id="meineke-0447-apolipoysa-3-l3">οὐκ ἐκδραμεῖ λαβὼν τοδὶ δώσεις τ᾽ ἐμοί</l>
+              <l n="4" xml:id="meineke-0447-apolipoysa-3-l4">παρακαταθήκην;</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <p>Pollux X 12: ἐκαλεῖτο δὲ ταῦτα (domesticam supellectilem dicit) ὑπὸ τῶν νεωτέρων καὶ μαλακά, ὥσπερ εὐμεταχείριστα, ὡς εἶπε Μένανδρος — καὶ Δίφιλος ἐν Ἀπολιπούσῃ <quote>Εἶτα μαλακὸν ὦ δύστην᾽ ἔχεις, σκευάριον, ἐκπωμάτιον, ἀργυρίδιον, ἐκδράμει λαβὼν τόδε δώσεις ἐμοὶ παρακαταθήκην.</quote> Ita Aldus.</p>
+          </note>
+          <note type="apparatus">
+            <p>Vs. 3 cum Bentleio Epist. ad Hemsterh. II p. 50 scripsi οὐκ ἐκδραμεῖ. Idem τόδε καὶ δώσεις ἐμοί. Elegantius mihi visum est τοδί, δώσεις τ᾽ ἐμοί, ut voluit etiam Hanovius Exerc. crit. p. 140.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

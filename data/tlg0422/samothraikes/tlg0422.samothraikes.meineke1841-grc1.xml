@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Athenio, ΣΑΜΟΘΡΑΙΚΕΣ: fragments</title>
+        <author>Athenio</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0422.samothraikes.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0422.samothraikes.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0422.samothraikes.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0422_samothraikes">
+        <head>ΣΑΜΟΘΡΑΙΚΕΣ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0422-samothraikes-unnumbered">
+          <lg>
+            <l n="1" xml:id="meineke-0422-samothraikes-unnumbered-l1">Οὐκ οἶσθ’ ὅτι πάντων ἡ μαγειρικὴ τέχνη</l>
+            <l n="2" xml:id="meineke-0422-samothraikes-unnumbered-l2">πρὸς εἰσέβειαν πλεῖστα προσενήνεχθ’ ὅλως;</l>
+            <l n="3" xml:id="meineke-0422-samothraikes-unnumbered-l3">
+              <sp>
+                <speaker>Β.</speaker> τοιοῦτόν ἐστι τοῦτο;</sp>
+              <sp>
+                <speaker>Α.</speaker> πάνυ γε, βάρβαρε.</sp>
+            </l>
+            <l n="4" xml:id="meineke-0422-samothraikes-unnumbered-l4">τοῦ θηριώδους καὶ παρασπόνδου βίου</l>
+            <l n="5" xml:id="meineke-0422-samothraikes-unnumbered-l5">ἡμᾶς γὰρ ἀπολύσασα καὶ τῆς δυσχεροῦς</l>
+            <l n="6" xml:id="meineke-0422-samothraikes-unnumbered-l6">ἀλληλοφαγίας, ἤγαγ’ εἰς τάξιν τινά,</l>
+            <l n="7" xml:id="meineke-0422-samothraikes-unnumbered-l7">καὶ τουτονὶ περιῆψεν ὃν νυνὶ βίον</l>
+            <l n="8" xml:id="meineke-0422-samothraikes-unnumbered-l8">ζῶμεν. <sp>
+                <speaker>Β.</speaker> τίνα τρόπον;</sp>
+              <sp>
+                <speaker>Α.</speaker> πρόσεχε, κἀγώ σοι φράσω.</sp>
+            </l>
+            <l n="9" xml:id="meineke-0422-samothraikes-unnumbered-l9">ἀλληλοφαγίας καὶ κακῶν ὄντων συχνῶν,</l>
+            <l n="10" xml:id="meineke-0422-samothraikes-unnumbered-l10">γενόμενος ἄνθρωπός τις οὐκ ἀβέλτερος</l>
+            <l n="11" xml:id="meineke-0422-samothraikes-unnumbered-l11">θύσας ἱερεῖον πρῶτος ὤπτησεν κρέας.</l>
+            <l n="12" xml:id="meineke-0422-samothraikes-unnumbered-l12">ὡς δ’ ἦν τὸ κρέας ἥδιον ἀνθρώπου κρεῶν,</l>
+            <l n="13" xml:id="meineke-0422-samothraikes-unnumbered-l13">αὑτοὺς μὲν οὐκ ἐμασῶντο, τὰ δὲ βοσκήματα</l>
+            <l n="14" xml:id="meineke-0422-samothraikes-unnumbered-l14">θύοντες ὤπτων. ὡς δ’ ἅπαξ τῆς ἡδονῆς</l>
+            <l n="15" xml:id="meineke-0422-samothraikes-unnumbered-l15">ἐμπειρίαν τίν’ ἔλαβον, ἀρχῆς γενομένης,</l>
+            <l n="16" xml:id="meineke-0422-samothraikes-unnumbered-l16">ἐπὶ πλεῖον ηὖξον τὴν μαγειρικὴν τέχνην.</l>
+          </lg>
+          <lg>
+            <l n="17" xml:id="meineke-0422-samothraikes-unnumbered-l17">ὅθεν ἔτι καὶ νῦν τῶν πρότερον μεμνημένοι</l>
+            <l n="18" xml:id="meineke-0422-samothraikes-unnumbered-l18">τὰ σπλάγχνα τοῖς θεοῖσιν ὀπτῶσιν φλογί</l>
+            <l n="19" xml:id="meineke-0422-samothraikes-unnumbered-l19">ἅλας οὐ προσάγοντες· οὐ γὰρ ἦσαν οὐδέπω</l>
+            <l n="20" xml:id="meineke-0422-samothraikes-unnumbered-l20">εἰς τὴν τοιαύτην χρῆσιν ἐξευρημένοι.</l>
+            <l n="21" xml:id="meineke-0422-samothraikes-unnumbered-l21">ὡς δ᾽ ἤρεσ᾽ αὐτοῖς ὕστερον, καὶ τοὺς ἅλας</l>
+            <l n="22" xml:id="meineke-0422-samothraikes-unnumbered-l22">προσάγουσιν ἤδη τῶν ἱερῶν γεγραμμένων,</l>
+            <l n="23" xml:id="meineke-0422-samothraikes-unnumbered-l23">τὰ πάτρια διατηροῦντες, ἅπερ ἡμῖν μόνα</l>
+            <l n="24" xml:id="meineke-0422-samothraikes-unnumbered-l24">ἅπασιν ἀρχὴ γέγονε τῆς σωτηρίας,</l>
+            <l n="25" xml:id="meineke-0422-samothraikes-unnumbered-l25">τὸ προσφιλοτεχνεῖν διά τε τῶν ἡδυσμάτων</l>
+            <l n="26" xml:id="meineke-0422-samothraikes-unnumbered-l26">ἐπὶ πλεῖον αὔξειν τὴν μαγειρικὴν τέχνην.</l>
+            <l n="27" xml:id="meineke-0422-samothraikes-unnumbered-l27">
+              <sp>
+                <speaker>Β.</speaker> καινὸς γάρ ἐστιν οὑτοσὶ Παλαίφατος.</sp>
+            </l>
+            <l n="28" xml:id="meineke-0422-samothraikes-unnumbered-l28">
+              <sp>
+                <speaker>Α.</speaker> μετὰ ταῦτα γαστρίον τις ὠνθυλευμένον</sp>
+            </l>
+            <l n="29" xml:id="meineke-0422-samothraikes-unnumbered-l29">προϊόντος εἰσηνέγκατ᾽ ἤδη τοῦ χρόνου·</l>
+            <l n="30" xml:id="meineke-0422-samothraikes-unnumbered-l30">ἐρίφιον ἐτακέρωσε, πνικτὸν διέλαβεν,</l>
+            <l n="31" xml:id="meineke-0422-samothraikes-unnumbered-l31">περικομματίῳ διεγίγγρασ᾽ ὑποκρούσας γλυκεῖ,</l>
+            <l n="32" xml:id="meineke-0422-samothraikes-unnumbered-l32">ἰχθὺν παρεισεκύκλησεν οὐδ᾽ ὁρώμενον,</l>
+            <l n="33" xml:id="meineke-0422-samothraikes-unnumbered-l33">λάχανον, τάριχος πολυτελές, χόνδρον, μέλι.</l>
+            <l n="34" xml:id="meineke-0422-samothraikes-unnumbered-l34">ὡς πολὺ δὲ διὰ τὰς ἡδονὰς ἃς νῦν λέγω</l>
+            <l n="35" xml:id="meineke-0422-samothraikes-unnumbered-l35">ἀπεῖχ᾽ ἕκαστος τοῦ φαγεῖν ἂν ἔτι νεκροῦ,</l>
+            <l n="36" xml:id="meineke-0422-samothraikes-unnumbered-l36">αὑτοῖς ἅπαντες ἠξίουν συζῆν, ὄχλος</l>
+            <l n="37" xml:id="meineke-0422-samothraikes-unnumbered-l37">ἠθροίζετ᾽, ἐγένονθ᾽ αἱ πόλεις οἰκούμεναι</l>
+            <l n="38" xml:id="meineke-0422-samothraikes-unnumbered-l38">διὰ τὴν τέχνην, ὅπερ εἶπα, τὴν μαγειρικήν.</l>
+            <l n="39" xml:id="meineke-0422-samothraikes-unnumbered-l39">
+              <sp>
+                <speaker>Β.</speaker> ἄνθρωπε χαῖρε, περὶ πόδ᾽ εἶ τῷ δεσπότῃ.</sp>
+            </l>
+            <l n="40" xml:id="meineke-0422-samothraikes-unnumbered-l40">
+              <sp>
+                <speaker>Α.</speaker> καταρχόμεθ᾽ ἡμεῖς οἱ μάγειροι, θύομεν,</sp>
+            </l>
+            <l n="41" xml:id="meineke-0422-samothraikes-unnumbered-l41">σπονδὰς ποιοῦμεν, τῷ μάλιστα τοὺς θεούς</l>
+            <l n="42" xml:id="meineke-0422-samothraikes-unnumbered-l42">ἡμῖν ὑπακούειν διὰ τὸ ταῦθ᾽ εὑρηκέναι</l>
+            <l n="43" xml:id="meineke-0422-samothraikes-unnumbered-l43">τὰ μάλιστα συντείνοντα πρὸς τὸ ζῆν καλῶς.</l>
+            <l n="44" xml:id="meineke-0422-samothraikes-unnumbered-l44">
+              <sp>
+                <speaker>Β.</speaker> ὑπὲρ εὐσεβείας οὖν ἀφεὶς παῦσαι λέγων.</sp>
+            </l>
+            <l n="45" xml:id="meineke-0422-samothraikes-unnumbered-l45">
+              <sp>
+                <speaker>Α.</speaker> ἥμαρτον.</sp>
+              <sp>
+                <speaker>Β.</speaker> ἀλλὰ δεῦρο σὺ ξυνείσιθι</sp>
+            </l>
+            <l n="46" xml:id="meineke-0422-samothraikes-unnumbered-l46">ἐμοί, τά τ᾽ ἔνδον εὐτρεπῆ ποίει λαβών.</l>
+          </lg>
+          <note type="source">Athenaeus XIV p. 660 e: οὐκ ἀπεικότως δὲ καὶ Ἀθηνίων ἐν Σαμόθραξιν, ὥς φησιν Ἰόβας, μάγειρον εἰσάγει φυσιολογοῦντα διὰ τούτων <quote>Οὐκ οἶσθ᾽ ὅτι</quote> κτλ.</note>
+          <note type="apparatus">Vs. 3 βάρβαρε. Cum servo enim colloquitur coquus, quem ille coenae parandae causa conducere a domino iussus erat. Scena in ea fori parte est, ubi coquorum statio erat. — Vs. 6 sqq. Satis festive imitatur poetas tragicos mansuetioris vitae initia exponentes. Vide e. c. Critiam in Sisypho apud Sextum Empir. adv. M. IX 54 et Moschionem in Pheraeis <ref target="#p0559-u01-fn1">*)</ref> apud Stobaeum Ecl. phys. I 38. — Vs. 11 θύσας pro ἔθυσ᾽ margo P. ut voluit etiam Reisigius Coniect. I p. 41. Ibidem κρέας pro κρέα Porsonus ad Toupii Emend. IV p. 474. — Vs. 12 ὡς Casaubonus. Libri ἴσως. — Vs. 13 αὑτοὺς iam Schweigh. voluit pro αὐτούς, cui in C praefigitur εἶτ᾽. Post μὲν B inserit οὖν. — Vs. 16 Α ἐπὶ πλειον τιν. Β ἐπιπλεῖον τίν᾽. Ρ ἐπὶ πλεῖον τιν᾽. V ἐπιπλεῖστον τιν. L ἐπὶ πλεῖστον. C ἐπιπλεῖον τινες. Apertum est illud τιν᾽ ex praecedente versu irrepsisse. Ibidem ηὖξον AC. ἤυξον B. ηὖξαν PVL. — Vs. 17 μέμνημένη B. — Vs. 19 ἅλας οὐ προσάγοντες. Nullum hoc disertius testimonium, a salis usu abstinuisse Graecos in sacris faciendis. Cuius rei qui contrarium tradunt grammatici a Buttmanno Lexil. I p. 200 laudati, Romanorum morem in animo habuerunt. Cfr Schweigh. ad h. l. — Vs. 20 εἰς τὴν τοιαύτην χρῆσιν, sc. ad cibos condiendos. — Vs. 21 ἤρεσεν C. ἥρετ᾽ P. Scribendum videtur ὡς δ᾽ ἤρεσαν τοῖς ὕστερον. — Vs. 22 sqq. ita interpretatur Schweighaeuserus: „licet in cibos adhibitus a coquis sal fuerit, tamen in sacris servatum esse priscum ritum, scilicet ut sacrificiis sal non adhiberetur.“ Rectius ille quidem quam Grotius, qui plane aberravit a sensu loci quum vertit:
+<lg>
+              <l n="47" xml:id="meineke-0422-samothraikes-unnumbered-l47">Sed et hoc post illa placuit, et iam nunc salem</l>
+              <l n="48" xml:id="meineke-0422-samothraikes-unnumbered-l48">sacris non paucis admoveri cernimus</l>
+              <l n="49" xml:id="meineke-0422-samothraikes-unnumbered-l49">praescripto ritus patrii.</l>
+            </lg>
+            <note type="footnote" xml:id="p0559-u01-fn1">*) Ex hac enim fabula nobilissimum locum petitum esse probabiliter effici potest comparatis eius fabulae fragmentis apud Stobaeum Flor. CXXV 3 et 14.</note>
+          </note>
+          <note type="apparatus">Sed ex Schweighaeuseri ratione non recte, ut mihi quidem videtur, coniunguntur haec τῶν ἱερῶν γεγραμμένων τὰ πάτρια διατηροῦντες, quorum si is, quem ille voluit, sensus esset: <quote>patrios ritus praescriptorum sacrificiorum tenentes</quote>, nescio an inverso verborum ordine τῶν γεγραμμένων ἱερῶν dicendum fuisset. Itaque fortasse γεγραμμένα scribendum cum Grotio. — Vs. 25 τὸ προσφιλοτεχνεῖν etc. Schweighaeuserus ideo adiecta esse existimat, ut sint quaedam quasi ἐπεξήγησις superiorum ἅπερ etc. Vereor ne versus exciderit. — Vs. 27 fortasse καινὸς πάρεστιν. — Vs. 30 sqq. describitur haedus variis farciminibus distentus. ἀκριβῶς quod libri ante ἐρίφιον habent delevi praeeunte Dobraeo. Tum A ἐν τακερωσεπνικτω. ἐτακέρως ἐπνίκτω BP. ἐντακερὸν ἔμπνικτον VL. ἐτακέρωσε πνικτὸν Porsonus in Miscell. p. 247. Sed πνικτῷ fortasse retineri potest, ut coniungatur πνικτῷ διέλαβεν, <quote>suffocata carne dispescuit</quote>. Sin διέλαβεν per se positum est, verterim <quote>dissecuit</quote>. — Vs. 31 libri περικομματίω δι᾽ ἐπίγγρας. In his γίγγρας, quod tibiarum genus fuit, latere vidit Grotius. Perfecit emendationem Dobraeus. Verbum διαγιγγράζειν ex auletica arte petitum more comicorum ad culinariam transtulit. Cfr ad Machonis Epist. vs. 13. De nomine περικομμάτιον, quo et carnes minutim concisae et modus musicus significantur, cfr ad Damoxeni Syntroph. vs. 48. Non recte Dobraeum coniunxisse puto διέλαβεν περικομματίῳ, quo pacto non video quo γλυκεῖ referendum sit. — Vs. 32 οὐδ᾽ ὁρώμενον, adeo scilicet ceteris farciminibus obtegebatur. — Vs. 34 post πολύ, pro quo L habet πουλύ, addidi δέ, Dindorfius τι. — Vs. 35 ἄνευτι B. — Vs. 36 αὑτοῖς Dindorfius pro αὐτοῖς, quod mire interpretatur Casaubonus. Recte iam Grotius <quote>sociare vitam libuit</quote>. — Vs. 37 ἐγένονθ᾽ αἱ Grotius, confirmat B. Vulgo ἐγένοντό θ᾽ αἱ. — Vs. 39 περὶ πόδ᾽ εἶ Schweighaeuserus pro librorum lectione περίποδ᾽ εἶ vel περιποδεῖ. De formula περὶ πόδα εἶναι v. Casaubonus ad Theophr. Char. IV p. 49 Lips. — Vs. 42 ταῦτ᾽ εἰρηκέναι B. — Vs. 44 libri ἄφες. Coraes ἃ φῄς. Iacobsius Addit. p. 345 ἀφείς, quod recipiendum</note>
+          <note type="apparatus">duxi. — Vs. 45 σὺ ξυνείσιθι ἐμοί Dobraeus. Libri συνέσθιέ μοι. — Vs. 46 εὐτρεπῆ Grotius et Hemsterh. ad Luc. I p. 316. Libri εὐπρεπῆ. ποίει L. πόει ABV. om. P.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="unnumbered_2" ana="#compiled-unnumbered-fragment #compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0422-samothraikes-unnumbered_2">
+          <lg>
+            <l n="1" xml:id="meineke-0422-samothraikes-unnumbered_2-l1">Nescisne eam artem quam nos profitemur coqui</l>
+            <l n="2" xml:id="meineke-0422-samothraikes-unnumbered_2-l2">pietatis rebus contulisse plurimum?</l>
+            <l n="3" xml:id="meineke-0422-samothraikes-unnumbered_2-l3">
+              <sp>
+                <speaker>B.</speaker> Estne illa vero tanti?</sp>
+              <sp>
+                <speaker>A.</speaker> Certe est, barbare.</sp>
+            </l>
+            <l n="4" xml:id="meineke-0422-samothraikes-unnumbered_2-l4">namque a ferinis perfidiosis moribus</l>
+            <l n="5" xml:id="meineke-0422-samothraikes-unnumbered_2-l5">nos liberavit illa, et a sese invicem</l>
+            <l n="6" xml:id="meineke-0422-samothraikes-unnumbered_2-l6">edendi rabie ad sanam duxit regulam,</l>
+            <l n="7" xml:id="meineke-0422-samothraikes-unnumbered_2-l7">et eum ipsum quo nunc utimur vitae modum</l>
+            <l n="8" xml:id="meineke-0422-samothraikes-unnumbered_2-l8">imposuit. <sp>
+                <speaker>B.</speaker> At quo pacto?</sp>
+              <sp>
+                <speaker>A.</speaker> Iam attende, eloquar.</sp>
+            </l>
+            <l n="9" xml:id="meineke-0422-samothraikes-unnumbered_2-l9">pastus ex homine atque alia crebruerant mala,</l>
+            <l n="10" xml:id="meineke-0422-samothraikes-unnumbered_2-l10">cum quidam exortus ingenio excellens homo.</l>
+            <l n="11" xml:id="meineke-0422-samothraikes-unnumbered_2-l11">mactare coepit victimam, carnem ignibus</l>
+            <l n="12" xml:id="meineke-0422-samothraikes-unnumbered_2-l12">assare, quae cum humana saperet suavius,</l>
+            <l n="13" xml:id="meineke-0422-samothraikes-unnumbered_2-l13">esu abstinuerunt mutuo, assarunt Diis</l>
+            <l n="14" xml:id="meineke-0422-samothraikes-unnumbered_2-l14">mactatas pecudes. experimentum sui</l>
+            <l n="15" xml:id="meineke-0422-samothraikes-unnumbered_2-l15">semel ut voluptas dederat, hinc facto initio</l>
+          </lg>
+          <lg>
+            <l n="16" xml:id="meineke-0422-samothraikes-unnumbered_2-l16">artem coquendi in maius maiusque auxerunt:</l>
+            <l n="17" xml:id="meineke-0422-samothraikes-unnumbered_2-l17">unde et nunc memores morum qui fuerant prius</l>
+            <l n="18" xml:id="meineke-0422-samothraikes-unnumbered_2-l18">quae Dis sacrantur exta tradunt ignibus</l>
+            <l n="19" xml:id="meineke-0422-samothraikes-unnumbered_2-l19">sale non adhibito: nam principio non erat</l>
+            <l n="20" xml:id="meineke-0422-samothraikes-unnumbered_2-l20">usus saliendi ad condituram cognitus.</l>
+            <l n="21" xml:id="meineke-0422-samothraikes-unnumbered_2-l21">sed et hoc postilla placuit: et iam nunc salem</l>
+            <l n="22" xml:id="meineke-0422-samothraikes-unnumbered_2-l22">sacris non paucis admoveri cernimus</l>
+            <l n="23" xml:id="meineke-0422-samothraikes-unnumbered_2-l23">praescripto ritus patrii, quod unicum</l>
+            <l n="24" xml:id="meineke-0422-samothraikes-unnumbered_2-l24">nobis salutis exstitit primordium,</l>
+            <l n="25" xml:id="meineke-0422-samothraikes-unnumbered_2-l25">ut studio accenso simul ars consummatior</l>
+            <l n="26" xml:id="meineke-0422-samothraikes-unnumbered_2-l26">fieret coquendi, multis suavitatibus.</l>
+            <l n="27" xml:id="meineke-0422-samothraikes-unnumbered_2-l27">
+              <sp>
+                <speaker>B.</speaker> Profecto hic nobis alter est Palaephatus.</sp>
+            </l>
+            <l n="28" xml:id="meineke-0422-samothraikes-unnumbered_2-l28">
+              <sp>
+                <speaker>A.</speaker> Ergo paulatim procedente tempore</sp>
+            </l>
+            <l n="29" xml:id="meineke-0422-samothraikes-unnumbered_2-l29">omasum farctum nescio quis intulit,</l>
+            <l n="30" xml:id="meineke-0422-samothraikes-unnumbered_2-l30">tenerumque coctum cum suo sibi succo hoedulum</l>
+            <l n="31" xml:id="meineke-0422-samothraikes-unnumbered_2-l31">inclusit in pericomma. <sp>
+                <speaker>B.</speaker> Ad cantum tibiae?</sp>
+            </l>
+            <l n="32" xml:id="meineke-0422-samothraikes-unnumbered_2-l32">
+              <sp>
+                <speaker>A.</speaker> Piscem ambierunt ut nequiret conspici.</sp>
+            </l>
+            <l n="33" xml:id="meineke-0422-samothraikes-unnumbered_2-l33">alicula, salsamentum, mella, olusculum.</l>
+            <l n="34" xml:id="meineke-0422-samothraikes-unnumbered_2-l34">cum propter has quas dixi delicias procul</l>
+            <l n="35" xml:id="meineke-0422-samothraikes-unnumbered_2-l35">abessent cuncti a carnis humanae esibus,</l>
+            <l n="36" xml:id="meineke-0422-samothraikes-unnumbered_2-l36">sociare vitam libuit, populi colligi</l>
+            <l n="37" xml:id="meineke-0422-samothraikes-unnumbered_2-l37">coepere, passim surrexerunt oppida:</l>
+            <l n="38" xml:id="meineke-0422-samothraikes-unnumbered_2-l38">artis quae, ut dixi, nostra sunt beneficia.</l>
+            <l n="39" xml:id="meineke-0422-samothraikes-unnumbered_2-l39">
+              <sp>
+                <speaker>B.</speaker> Vale. nam nimius tu meo fores hero.</sp>
+            </l>
+            <l n="40" xml:id="meineke-0422-samothraikes-unnumbered_2-l40">
+              <sp>
+                <speaker>A.</speaker> Nos auspicamur, nos sacrificamus coqui,</sp>
+            </l>
+            <l n="41" xml:id="meineke-0422-samothraikes-unnumbered_2-l41">nos et libamus, quia Dî nobis maxime</l>
+            <l n="42" xml:id="meineke-0422-samothraikes-unnumbered_2-l42">sunt obsequentes, qui res tantas reperimus</l>
+            <l n="43" xml:id="meineke-0422-samothraikes-unnumbered_2-l43">quibus adiuti homines aevum recte degerent.</l>
+            <l n="44" xml:id="meineke-0422-samothraikes-unnumbered_2-l44">pietatis igitur causa. <sp>
+                <speaker>B.</speaker> Plus satis est: tace.</sp>
+            </l>
+            <l n="45" xml:id="meineke-0422-samothraikes-unnumbered_2-l45">
+              <sp>
+                <speaker>A.</speaker> Peccavi. <sp>
+                  <speaker>B.</speaker> Hic igitur mecum tu cibum cape:</sp>
+              </sp>
+            </l>
+            <l n="46" xml:id="meineke-0422-samothraikes-unnumbered_2-l46">mox intus recte tibi quae traduntur para.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

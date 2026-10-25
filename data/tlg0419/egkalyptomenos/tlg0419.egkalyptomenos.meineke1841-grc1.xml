@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Aristomenes, ΕΓΚΑΛΥΠΤΟΜΕΝΟΣ: fragments</title>
+        <author>Aristomenes</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0419.egkalyptomenos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0419.egkalyptomenos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0419.egkalyptomenos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0419_egkalyptomenos">
+        <head>ΕΓΚΑΛΥΠΤΟΜΕΝΟΣ</head>
+        <pb n="461" facs="urn:hathi:hvd.32044098646714:scan:485" />
+        <div type="textpart" subtype="fragment" n="1" author_heading="ANAXIPPI" work_heading="ΕΓΚΑΛΥΠΤΟΜΕΝΟΣ" starts_on_page="false" ends_on_page="true" xml:id="meineke-0419-egkalyptomenos-1">
+          <sp>
+            <speaker>Α</speaker>
+            <lg>
+              <l n="1" xml:id="meineke-0419-egkalyptomenos-1-l1">ἐμὸς γενόμενος, ὦ πάτερ, διδάσκαλος.</l>
+              <l n="2" xml:id="meineke-0419-egkalyptomenos-1-l2">καὐτὸς φιλοσοφῶ καταλιπεῖν συγγράμματα</l>
+              <l n="3" xml:id="meineke-0419-egkalyptomenos-1-l3">σπεύδων ἐμαυτοῦ καινὰ τῆς τέχνης.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Β</speaker>
+            <lg>
+              <l n="4" xml:id="meineke-0419-egkalyptomenos-1-l4">παπαῖ,</l>
+              <l n="5" xml:id="meineke-0419-egkalyptomenos-1-l5">ἐμὲ κατακόψεις, οὐχ ὃ θύειν μέλλομεν.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Α</speaker>
+            <lg>
+              <l n="6" xml:id="meineke-0419-egkalyptomenos-1-l6">τὸν ὄρθρον ἐν ταῖς χερσὶν ὄψει βιβλία</l>
+              <l n="7" xml:id="meineke-0419-egkalyptomenos-1-l7">ἔχοντα καὶ ζητοῦντα τὰ κατὰ τὴν τέχνην.</l>
+              <l n="8" xml:id="meineke-0419-egkalyptomenos-1-l8">οὐδὲν χονδρεύουσι διαφέρω τ' Ἀσπενδίου.</l>
+              <l n="9" xml:id="meineke-0419-egkalyptomenos-1-l9">γεύσω δ', ἐὰν βούλῃ, σὲ τῶν εὑρημένων.</l>
+              <l n="10" xml:id="meineke-0419-egkalyptomenos-1-l10">οὐ ταὐτὰ προσάγω πᾶσιν ἀεὶ βρώματα.</l>
+              <l n="11" xml:id="meineke-0419-egkalyptomenos-1-l11">τεταγμέν' εὐθύς ἐστι μοι πρὸς τὸν βίον,</l>
+              <l n="12" xml:id="meineke-0419-egkalyptomenos-1-l12">ἕτερ' ἐστὶ τοῖς ἐρῶσι καὶ τοῖς φιλοσόφοις</l>
+              <l n="13" xml:id="meineke-0419-egkalyptomenos-1-l13">καὶ τοῖς τελώναις. μειράκιον ἐρωμένην</l>
+              <l n="14" xml:id="meineke-0419-egkalyptomenos-1-l14">ἔχον πατρώαν οὐσίαν κατεσθίει·</l>
+              <l n="15" xml:id="meineke-0419-egkalyptomenos-1-l15">τούτῳ παρέθηκα σηπίας καὶ τευθίδας</l>
+              <l n="16" xml:id="meineke-0419-egkalyptomenos-1-l16">καὶ τῶν πετραίων ἰχθύων τῶν ποικίλων,</l>
+              <l n="17" xml:id="meineke-0419-egkalyptomenos-1-l17">ἐμβαμματίοις γλαφυροῖσι κεχορηγημένα·</l>
+              <l n="18" xml:id="meineke-0419-egkalyptomenos-1-l18">ὁ γὰρ τοιοῦτός ἐστιν οὐ δειπνητικός,</l>
+              <l n="19" xml:id="meineke-0419-egkalyptomenos-1-l19">πρὸς τῷ φιλεῖν δὲ τὴν διάνοιάν ἐστ' ἔχων.</l>
+              <l n="20" xml:id="meineke-0419-egkalyptomenos-1-l20">τῷ φιλοσόφῳ παρέθηκα κωλέαν, πόδας·</l>
+              <l n="21" xml:id="meineke-0419-egkalyptomenos-1-l21">ἀδηφάγον τὸ ζῷον εἰς ὑπερβολήν</l>
+              <l n="22" xml:id="meineke-0419-egkalyptomenos-1-l22">ἔστιν. τελώνῃ γλαῦκον, ἔγχελυν, σπάρον·</l>
+              <l n="23" xml:id="meineke-0419-egkalyptomenos-1-l23">ὅταν ἐγγὺς ᾖ δ' ὅδ' ὕστερος, ἀρτύω φακῆν,</l>
+              <l n="24" xml:id="meineke-0419-egkalyptomenos-1-l24">καὶ τὸ περίδειπνον τοῦ βίου λαμπρὸν ποιῶ.</l>
+              <l n="25" xml:id="meineke-0419-egkalyptomenos-1-l25">τὰ τῶν γερόντων στόματα διαφορὰν ἔχει,</l>
+              <l n="26" xml:id="meineke-0419-egkalyptomenos-1-l26">νωθρότερα πολλῷ δ' ἐστὶν ἢ τὰ τῶν νέων.</l>
+              <l n="27" xml:id="meineke-0419-egkalyptomenos-1-l27">σίναπι παρατίθημι τούτοις, καὶ ποιῶ</l>
+              <l n="28" xml:id="meineke-0419-egkalyptomenos-1-l28">χυλοὺς ἐχομένους δριμύτητος, τὴν φύσιν</l>
+              <l n="29" xml:id="meineke-0419-egkalyptomenos-1-l29">ἵνα διεγείρας πνευματῶ τὸν ἀέρα.</l>
+              <l n="30" xml:id="meineke-0419-egkalyptomenos-1-l30">ἰδὼν τὸ πρόσωπον γνώσομ' οὗ ζητεῖ φαγεῖν</l>
+              <l n="31" xml:id="meineke-0419-egkalyptomenos-1-l31">ἕκαστος ὑμῶν.</l>
+            </lg>
+          </sp>
+          <pb n="461" facs="urn:hathi:hvd.32044098646714:scan:485" />
+          <note type="apparatus">
+            <note type="source">Athenaeus IX p. 403 e: τί τοιοῦτον ἐξεῦρεν ὁ παρὰ Ἀναξίππῳ *) τῷ κωμικῷ μάγειρος, ὃς ἐν τῷ Ἐγκαλυπτομένῳ τοιάδε ὠγκώσατο Σόφων κτλ.</note> Vs. 1 Σόφων Ἀκαρνάν. Hic nobilissimis artis coquinariae auctoribus accensetur a Batone apud Athen. XIV p. 662 c. et Polluce VI 70. Cfr Suidas, Σόφων: ὄνομα μαγείρου, ex emendatione Toupii. — Vs. 4 θρυλούμενα, usu trita, quae paullo rarior est significatio. Cfr Antiphanes fab. inc. XIV 2. — Vs. 6 libri θυίαν. „Inter praecipua culinae instrumenta est mortarium, „ad intrita et condimenta. Sed illi novis inventis suis „effecisse dicuntur ne eo opus esset amplius." Casaubonus. — Vs. 9 πάντ᾽ ἀφεῖλον Dobraeus Adv. II p. 323. Vulgo πάντα φίλων τό. Pro φίλων D apud Villebrunium φ- λον. Toupius Emend. III p. 170 proponebat ἐχρᾶτο πάντ᾽ ἠλίθιον εἶναί θ᾽ ὑπέλαβον. — Vs. 8 respicit Eustathius p. 1257 34: κυμίνῳ καὶ ὄξει καὶ σιλφίῳ καὶ κοριάννῳ καὶ τοῖς τοιούτοις, ἃ δὴ ἀρτύματα Κρόνου παίζονται εἶναι — Vs. 10 τὸν τοῖς AV. τῶν τοῖς P. τὸν τοῖσι L. Toupius soloece τὸν τοῖσι τούτοις. Dindorfius τὸν τοῖς τοιούτοις, quod sequutus sum. Tum παντοπώλην AP. Vulgo παντοπώλαις. — Vs. 11 ἔλαιον] P ἔλαιο. Toupius ἐλεόν τε, non intellecta loci sententia, quae haec est ut pro acribus istis priorum coquorum condimentis illi oleo cibos condiisse dicantur. Nisi forte olei usum dicit eum, quem iactat coquus apud Archedicum Thes. 1, 5. Pro καινὴν nescio an κενὴν praestet. — Vs. 16 ἀνεκάθηραν C. ἀνεκάθαραν PVL. τοὺς πόρους dicit venas, ut Damoxenus Syntroph. 29: εἰς τοὺς πόρους ὁ χυμὸς ὁμαλῶς πανταχοῦ συνίσταται. — Vs. 18 verba μάλ᾽ εἰκότως, quae male intellexit Schweighaeuserus vertens meritum tulit praemium, nihil causae erat cur alteri interlocutori tribuerentur. Non mirandum esse dicit hominem lenibus minimeque acribus cibis adsuetum muria pota mortuum esse. Fortasse autem in initio versus ponenda sunt. — Vs. 21 φιλοσοφῶ ABC. φιλόσοφα PVL.
+<note type="footnote">*) V. Hist. crit. p. 470.</note>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

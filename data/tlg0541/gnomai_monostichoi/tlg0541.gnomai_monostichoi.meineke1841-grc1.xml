@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΓΝΩΜΑΙ ΜΟΝΟΣΤΙΧΟΙ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.gnomai_monostichoi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.gnomai_monostichoi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.gnomai_monostichoi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_gnomai_monostichoi">
+        <head>ΓΝΩΜΑΙ ΜΟΝΟΣΤΙΧΟΙ</head>
+        <pb n="348" facs="urn:hathi:hvd.32044098646714:scan:372" />
+        <div type="textpart" subtype="fragment" n="240" unit_type="fragment" author_heading="MENANDRI" work_heading="ΓΝΩΜΑΙ ΜΟΝΟΣΤΙΧΟΙ" fragment_number="240" xml:id="meineke-0541-gnomai_monostichoi-240">
+          <lg>
+            <l n="1" xml:id="meineke-0541-gnomai_monostichoi-240-l1">Θέλω τύχης σταλαγμὸν ἢ φρενῶν πίθον.</l>
+            <l n="2" xml:id="meineke-0541-gnomai_monostichoi-240-l2">Θεοῦ πέφυκε δῶρον εὐγνώμων τρόπος.</l>
+            <l n="3" xml:id="meineke-0541-gnomai_monostichoi-240-l3">Θεὸς δὲ τοῖς ἀργοῖσιν οὐ παρίσταται.</l>
+            <l n="4" xml:id="meineke-0541-gnomai_monostichoi-240-l4">Θνητοὶ γεγῶτες μὴ φρονεῖθ᾽ ὑπὲρ θεούς.</l>
+            <l n="5" xml:id="meineke-0541-gnomai_monostichoi-240-l5">Θεράπευε τὸν δυνάμενον, ἄνπερ νοῦν ἔχῃς.</l>
+            <l n="6" xml:id="meineke-0541-gnomai_monostichoi-240-l6">Θυμῷ χαρίζου μηδέν, ἄνπερ νοῦν ἔχῃς.</l>
+            <l n="7" xml:id="meineke-0541-gnomai_monostichoi-240-l7">Θυσία μεγίστη τῷ θεῷ τὸ εὐσεβεῖν.</l>
+            <l n="8" xml:id="meineke-0541-gnomai_monostichoi-240-l8">Θεῷ μάχεσθαι δεινόν ἐστι καὶ τύχῃ.</l>
+            <l n="9" xml:id="meineke-0541-gnomai_monostichoi-240-l9">Θηρῶν ἁπάντων ἀγριωτέρα γυνή.</l>
+            <l n="10" xml:id="meineke-0541-gnomai_monostichoi-240-l10">Θνητὸς πεφυκώς τοὐπίσω πειρῶ βλέπειν.</l>
+            <l n="11" xml:id="meineke-0541-gnomai_monostichoi-240-l11">Θεοῦ γὰρ οὐδεὶς χωρὶς εὐτυχεῖ βροτῶν.</l>
+            <l n="12" xml:id="meineke-0541-gnomai_monostichoi-240-l12">Θεοῦ δὲ πληγὴν οὐχ ὑπερπηδᾷ βροτός.</l>
+            <l n="13" xml:id="meineke-0541-gnomai_monostichoi-240-l13">Θεὸς δ᾽ ἁμαρτάνουσιν οὐ παρίσταται.</l>
+            <l n="14" xml:id="meineke-0541-gnomai_monostichoi-240-l14">Θεὸν ἐπιορκῶν μὴ δόκει λεληθέναι.</l>
+            <l n="15" xml:id="meineke-0541-gnomai_monostichoi-240-l15">Θυμοῦ κρατῆσαι κἀπιθυμίας καλόν.</l>
+            <l n="16" xml:id="meineke-0541-gnomai_monostichoi-240-l16">Θεοῦ ὄνειδος τοὺς κακοὺς εὐδαιμονεῖν.</l>
+            <l n="17" xml:id="meineke-0541-gnomai_monostichoi-240-l17">Ἱερὸν ἀληθῶς ἐστιν ἡ συμβουλία.</l>
+            <l n="18" xml:id="meineke-0541-gnomai_monostichoi-240-l18">Ἴσος ἴσθι πᾶσι κἂν ὑπερβάλλῃς βίῳ.</l>
+            <l n="19" xml:id="meineke-0541-gnomai_monostichoi-240-l19">Ἰσχυρότερον δέ γ᾽ οὐδέν ἐστι τοῦ λόγου.</l>
+            <l n="20" xml:id="meineke-0541-gnomai_monostichoi-240-l20">Ἰσότητα τίμα, καὶ πλεονέκτει μηδένα.</l>
+            <l n="21" xml:id="meineke-0541-gnomai_monostichoi-240-l21">Ἱστοὶ γυναικῶν ἔργα κοὐκ ἐκκλησίαι.</l>
+            <l n="22" xml:id="meineke-0541-gnomai_monostichoi-240-l22">Ἰὸς πέφυκεν ἀσπίδος κακὴ γυνή.</l>
+            <l n="23" xml:id="meineke-0541-gnomai_monostichoi-240-l23">Ἰκανὸν τὸ νικᾶν ἐπὶ τῶν ἐλευθέρων.</l>
+            <l n="24" xml:id="meineke-0541-gnomai_monostichoi-240-l24">Ἰδίας νόμιζε τῶν φίλων τὰς συμφοράς.</l>
+            <l n="25" xml:id="meineke-0541-gnomai_monostichoi-240-l25">Ἴσον ἐστὶν ὀργῇ καὶ θάλασσα καὶ γυνή.</l>
+            <l n="26" xml:id="meineke-0541-gnomai_monostichoi-240-l26">Ἰσχυρὸν ὄχλος ἐστίν, οὐκ ἔχει δὲ νοῦν.</l>
+            <l n="27" xml:id="meineke-0541-gnomai_monostichoi-240-l27">Ἴσος ἴσθι κρίνων καὶ φίλους καὶ μὴ φίλους.</l>
+            <l n="28" xml:id="meineke-0541-gnomai_monostichoi-240-l28">Ἴσον λεαίνης καὶ γυναικὸς ὠμότης.</l>
+            <l n="29" xml:id="meineke-0541-gnomai_monostichoi-240-l29">Ἰατρὸς ἀδόλεσχος ἐπὶ νόσῳ νόσος.</l>
+            <l n="30" xml:id="meineke-0541-gnomai_monostichoi-240-l30">Ἴσον θεῷ σου τοὺς φίλους τιμᾶν θέλε.</l>
+            <l n="31" xml:id="meineke-0541-gnomai_monostichoi-240-l31">Ἱκανῶς βιώσεις γηροβοσκῶν τοὺς γονεῖς.</l>
+            <l n="32" xml:id="meineke-0541-gnomai_monostichoi-240-l32">Ἰδών τι χρηστὸν μηδὲν ἐκφάνῃς ὅλως.</l>
+            <l n="33" xml:id="meineke-0541-gnomai_monostichoi-240-l33">Ἰδών ποτ᾽ αἰσχρὸν πρᾶγμα μὴ συνεκδράμῃς.</l>
+            <l n="34" xml:id="meineke-0541-gnomai_monostichoi-240-l34">Καλὸν τὸ καιροῦ παντὸς εἰδέναι μέτρον.</l>
+            <l n="35" xml:id="meineke-0541-gnomai_monostichoi-240-l35">Κακοῖς ὁμιλῶν καὐτὸς ἐκβήσῃ κακός.</l>
+            <l n="36" xml:id="meineke-0541-gnomai_monostichoi-240-l36">Κάλλιστόν ἐστι κτῆμα παιδεία βροτοῖς.</l>
+          </lg>
+          <pb n="348" facs="urn:hathi:hvd.32044098646714:scan:372" />
+          <lg>
+            <l n="37" xml:id="meineke-0541-gnomai_monostichoi-240-l37">Κρίνει φίλους ὁ καιρός, ὡς χρυσὸν τὸ πῦρ.</l>
+            <l n="38" xml:id="meineke-0541-gnomai_monostichoi-240-l38">Κακὸν μέγιστον ἐν βροτοῖς ἀπληστία.</l>
+            <l n="39" xml:id="meineke-0541-gnomai_monostichoi-240-l39">Κόλαζε τὸν πονηρόν, ἄνπερ δυνατὸς ᾖ.</l>
+            <l n="40" xml:id="meineke-0541-gnomai_monostichoi-240-l40">Καλὸν τὸ μηδὲν εἰς φίλους ἁμαρτάνειν.</l>
+            <l n="41" xml:id="meineke-0541-gnomai_monostichoi-240-l41">Κούφως φέρειν δεῖ τὰς παρεστώσας τύχας.</l>
+            <l n="42" xml:id="meineke-0541-gnomai_monostichoi-240-l42">Καιροῦ τυχὼν γὰρ πτωχὸς ἰσχύει μέγα.</l>
+            <l n="43" xml:id="meineke-0541-gnomai_monostichoi-240-l43">Κακοῦ μεταβολὴν ἀνδρὸς χρὴ σιωπᾶν.</l>
+            <l n="44" xml:id="meineke-0541-gnomai_monostichoi-240-l44">Καλὸν τὸ γηρᾶν καὶ τὸ μὴ γηρᾶν πάλιν.</l>
+            <l n="45" xml:id="meineke-0541-gnomai_monostichoi-240-l45">Κάλλιστα πειρῶ καὶ λέγειν καὶ μανθάνειν.</l>
+            <l n="46" xml:id="meineke-0541-gnomai_monostichoi-240-l46">Καλῶς ἀκούειν μᾶλλον ἢ πλουτεῖν θέλε.</l>
+            <l n="47" xml:id="meineke-0541-gnomai_monostichoi-240-l47">Κάλλιστον ἐν κήποισι φύεται ῥόδον.</l>
+            <l n="48" xml:id="meineke-0541-gnomai_monostichoi-240-l48">Κατηγορεῖν οὐκ ἔστι καὶ κρίνειν ὁμοῦ.</l>
+            <l n="49" xml:id="meineke-0541-gnomai_monostichoi-240-l49">Κέρδος πονηρὸν μηδέποτε βούλου λαβεῖν.</l>
+            <l n="50" xml:id="meineke-0541-gnomai_monostichoi-240-l50">Κενῆς δὲ δόξης οὐδὲν ἀθλιώτερον.</l>
+            <l n="51" xml:id="meineke-0541-gnomai_monostichoi-240-l51">Κρεῖττον σιωπᾶν ἐστιν ἢ λαλεῖν μάτην.</l>
+            <l n="52" xml:id="meineke-0541-gnomai_monostichoi-240-l52">Καλὸν τὸ θνήσκειν οἷς ὕβριν τὸ ζῆν φέρει.</l>
+            <l n="53" xml:id="meineke-0541-gnomai_monostichoi-240-l53">Κακοῦ γὰρ ἀνδρὸς δῶρ᾽ ὄνησιν οὐκ ἔχει.</l>
+            <l n="54" xml:id="meineke-0541-gnomai_monostichoi-240-l54">Κακὸν φέρουσι καρπὸν οἱ κακοὶ φίλοι.</l>
+            <l n="55" xml:id="meineke-0541-gnomai_monostichoi-240-l55">Καὶ ζῶν ὁ φαῦλος καὶ θανὼν κολάζεται.</l>
+            <l n="56" xml:id="meineke-0541-gnomai_monostichoi-240-l56">Καλὸν τὸ θησαύρισμα κειμένη χάρις.</l>
+            <l n="57" xml:id="meineke-0541-gnomai_monostichoi-240-l57">Κρεῖττον τὸ μὴ ζῆν ἐστιν ἢ ζῆν ἀθλίως.</l>
+            <l n="58" xml:id="meineke-0541-gnomai_monostichoi-240-l58">Καλὸν δὲ καὶ γέροντι μανθάνειν σοφά.</l>
+            <l n="59" xml:id="meineke-0541-gnomai_monostichoi-240-l59">Καρπὸς γὰρ ἀρετῆς ἐστιν εὔτακτος βίος.</l>
+            <l n="60" xml:id="meineke-0541-gnomai_monostichoi-240-l60">Καλὸν τὸ νικᾶν, ὑπερνικᾶν δὲ σφαλερόν.</l>
+            <l n="61" xml:id="meineke-0541-gnomai_monostichoi-240-l61">Καλῶς πένεσθαι μᾶλλον ἢ πλουτεῖν κακῶς.</l>
+            <l n="62" xml:id="meineke-0541-gnomai_monostichoi-240-l62">Κέρδος πονηρὸν ζημίαν ἀεὶ φέρει.</l>
+            <l n="63" xml:id="meineke-0541-gnomai_monostichoi-240-l63">Κακῷ σὺν ἀνδρὶ μηδ᾽ ὅλως ὁδοιπόρει.</l>
+            <l n="64" xml:id="meineke-0541-gnomai_monostichoi-240-l64">Καλὸν φέρουσι καρπὸν οἱ σεμνοὶ τρόποι.</l>
+            <l n="65" xml:id="meineke-0541-gnomai_monostichoi-240-l65">Κακὸν φυτὸν πέφυκεν ἐν βίῳ γυνή,</l>
+            <l n="66" xml:id="meineke-0541-gnomai_monostichoi-240-l66">καὶ κτώμεθ᾽ αὐτὰς ὡς ἀναγκαῖον κακόν.</l>
+            <l n="67" xml:id="meineke-0541-gnomai_monostichoi-240-l67">Κατὰ τὴν ἰδίαν φρόνησιν οὐδεὶς εὐτυχεῖ.</l>
+            <l n="68" xml:id="meineke-0541-gnomai_monostichoi-240-l68">Καιρῷ σκόπει τὰ πράγματ᾽, ἄνπερ νοῦν ἔχῃς.</l>
+            <l n="69" xml:id="meineke-0541-gnomai_monostichoi-240-l69">Κἀν τοῖς ἀγροίκοις ἐστὶ παιδείας λόγος.</l>
+            <l n="70" xml:id="meineke-0541-gnomai_monostichoi-240-l70">Λιμὴν ἀτυχίας ἐστὶν ἀνθρώποις τέχνη.</l>
+            <l n="71" xml:id="meineke-0541-gnomai_monostichoi-240-l71">Λίαν φιλῶν σεαυτὸν οὐχ ἕξεις φίλον.</l>
+            <l n="72" xml:id="meineke-0541-gnomai_monostichoi-240-l72">Λόγοις ἀμείβου τὸν λόγοις πείθοντά σε.</l>
+          </lg>
+        </div>
+        <pb n="354" facs="urn:hathi:hvd.32044098646714:scan:378" />
+        <div type="textpart" subtype="fragment" n="638_648" ana="#compiled-citation-normalized" xml:id="meineke-0541-gnomai_monostichoi-638_648">
+          <lg>
+            <l n="638" xml:id="meineke-0541-gnomai_monostichoi-638_648-l638">Ἀνὴρ δίκαιός ἐστιν οὐχ ὁ μὴ ἀδικῶν,</l>
+            <l n="639" xml:id="meineke-0541-gnomai_monostichoi-638_648-l639">ἀλλ᾽ ὅστις ἀδικεῖν δυνάμενος μὴ βούλεται.</l>
+            <l n="640" xml:id="meineke-0541-gnomai_monostichoi-638_648-l640">῎Αρ᾿ ἐστὶ συγγενές τι λύπη καὶ βίος.</l>
+            <l n="641" xml:id="meineke-0541-gnomai_monostichoi-638_648-l641">Αὐθαίρετος λύπη σ̓τὶν ἡ τέκνων σπορά.</l>
+            <l n="642" xml:id="meineke-0541-gnomai_monostichoi-638_648-l642">Ἀκμὴ τὸ σύνολον οὐδὲν ἄνθους διαφέρει.</l>
+            <l n="643" xml:id="meineke-0541-gnomai_monostichoi-638_648-l643">Ἀνὴρ ἀτυχῶν δὲ σώζεται ταῖς ἐλπίσιν.</l>
+            <l n="644" xml:id="meineke-0541-gnomai_monostichoi-638_648-l644">Ἀνάπαυσίς ἐστι τῶν κακῶν ἀπραξία.</l>
+            <l n="645" xml:id="meineke-0541-gnomai_monostichoi-638_648-l645">῎Αμ᾿ ἠλέηται καὶ τέθνηκεν ἡ χάρις.</l>
+            <l n="646" xml:id="meineke-0541-gnomai_monostichoi-638_648-l646">Ἀμελοῦντα τοῦ ζῆν οὐκ ἔνεστ᾽ εὐσχημονεῖν.</l>
+            <l n="647" xml:id="meineke-0541-gnomai_monostichoi-638_648-l647">Αὐτά σε διδάσκει τοῦ βίου τὰ πράγματα.</l>
+            <l n="648" xml:id="meineke-0541-gnomai_monostichoi-638_648-l648">῎Απαντ᾽ ἀφανίζει γῆρας, ἰσχὺν σώματος.</l>
+          </lg>
+          <note type="apparatus">*) Vide Praef. ad Menandrum p. XIII.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0541-gnomai_monostichoi-unnumbered">
+          <div type="textpart" subtype="section">
+            <lg>
+              <l n="24" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l24">Ἀνδρὸς πονηροῦ φεῦγε συνοδίαν ἀεί.</l>
+              <l n="25" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l25">Ἀνδρῶν δὲ φαύλων ὅρκον εἰς ὕδωρ γράφε.</l>
+              <l n="26" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l26">Ἀνδρὸς χαρακτὴρ ἐκ λόγου γνωρίζεται.</l>
+              <l n="27" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l27">Ἀνδρὸς δικαίου καρπὸς οὐκ ἀπόλλυται.</l>
+              <l n="28" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l28">Ἀνὴρ δὲ χρηστὸς χρηστὸν οὐ μισεῖ ποτε.</l>
+              <l n="29" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l29">Ἀνὴρ γὰρ ἄνδρα καὶ πόλις σώζει πόλιν.</l>
+              <l n="30" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l30">Ἀνὴρ ἄριστος οὐκ ἂν εἴη δυσγενής.</l>
+              <l n="31" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l31">Ἀνδρὸς πονηροῦ σπλάγχνον οὐ μαλάσσεται.</l>
+              <l n="32" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l32">Ἀνδρὸς κακῶς πράσσοντος ἐκποδὼν φίλοι.</l>
+              <l n="33" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l33">῎Αριστόν ἐστι πάντ᾿ ἐπίστασθαι καλά.</l>
+              <l n="34" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l34">Ἀεὶ δ᾽ ὁ σωθείς ἐστιν ἀχάριστος φύσει.</l>
+              <l n="35" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l35">῎Ανευ προφάσεως οὐδὲν ἀνθρώποις κακόν.</l>
+              <l n="36" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l36">Ἀνελεύθεροι γάρ εἰσιν οἱ φιλάργυροι.</l>
+              <l n="37" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l37">῎Αρ᾿ ἐστὶ θυμοῦ φάρμακον χρηστὸς λόγος.</l>
+              <l n="38" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l38">῞Απαντας εὖ πράττοντες ἥδομεν φίλους.</l>
+              <l n="39" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l39">῞Α μὴ προσήκει μήτ᾿ ἄκουε μήθ᾽ ὅρα.</l>
+              <l n="40" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l40">Ἀνὴρ ἀχάριστος μὴ νομιζέσθω φίλος.</l>
+              <l n="41" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l41">῞Απαντας ἡ παίδευσις ἡμέρους τελεῖ.</l>
+              <l n="42" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l42">Αἱ δ᾽ ἐλπίδες βόσκουσι τοὺς κενοὺς βροτῶν.</l>
+              <l n="43" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l43">Αὐτὸς πενόμενος τοῖς ἔχουσι μὴ φθόνει.</l>
+              <l n="44" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l44">Ἀρχῆς τετευχὼς ἴσθι ταύτης ἄξιος.</l>
+              <l n="45" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l45">Ἀνὴρ ὁ φεύγων καὶ πάλιν μαχήσεται.</l>
+              <l n="46" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l46">῞Απαντές ἐσμεν εἰς τὸ νουθετεῖν σοφοί,</l>
+              <l n="47" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l47">αὐτοὶ δ᾽ ἁμαρτάνοντες οὐ γιγνώσκομεν.</l>
+              <l n="48" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l48">῎Αρεσκε πᾶσι καὶ σὺ μὴ σαυτῷ μόνῳ.</l>
+              <l n="49" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l49">Ἀνουθέτητόν ἐστιν ἡ παρρησία.</l>
+              <l n="50" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l50">Ἀσυλλόγιστόν ἐστιν ἡ πονηρία.</l>
+              <l n="51" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l51">Ἀνὴρ ἄβουλος εἰς κενὸν μοχθεῖ τρέχων.</l>
+              <l n="52" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l52">Ἀνὴρ δίκαιος πλοῦτον οὐκ ἔχει ποτέ.</l>
+              <l n="53" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l53">Ἀρχὴν νόμιζε τὸν θεὸν φοβεῖσθαι.</l>
+              <l n="54" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l54">Ἀδίκοις φίλοισιν ἢ κακοῖς μὴ συμπλέκου.</l>
+              <l n="55" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l55">Ἀνὴρ ἄβουλος ἡδοναῖς θηρεύεται.</l>
+              <l n="56" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l56">῎Αλυπον ἄξεις τὸν βίον χωρὶς γάμου.</l>
+              <l n="57" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l57">Βέβαιον οὐδέν ἐστιν ἐν θνητῷ βίῳ.</l>
+              <l n="58" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l58">Βιοῦν ἀλύπως θνητὸν ὄντ᾽ οὐ ῥᾴδιον.</l>
+              <l n="59" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l59">Βέλτιστε, μὴ τὸ κέρδος ἐν πᾶσι σκόπει.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="section">
+            <head rendition="center">ΓΝΩΜΑΙ ΜΟΝΟΣΤΙΧΟΙ.</head>
+            <lg>
+              <l n="96" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l96">Γράμματα μαθεῖν δεῖ καὶ μαθόντα νοῦν ἔχειν.</l>
+              <l n="97" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l97">Γυνὴ τὸ σύνολόν ἐστι δαπανηρὸν φύσει.</l>
+              <l n="98" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l98">Γάμει δὲ μὴ τὴν προῖκα, τὴν γυναῖκα δέ.</l>
+              <l n="99" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l99">Γυνὴ δὲ χρηστὴ πηδάλιόν ἐστ᾽ οἰκίας.</l>
+              <l n="100" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l100">Γυναικὶ δ᾽ ἄρχειν οὐ δίδωσιν ἡ φύσις.</l>
+              <l n="101" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l101">Γνῶμαι δ᾽ ἀμείνους εἰσὶ τῶν γεραιτέρων.</l>
+              <l n="102" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l102">Γάμος γὰρ ἀνθρώποισιν εὐκταῖον κακόν.</l>
+              <l n="103" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l103">Γαμεῖν δὲ μέλλων βλέψον εἰς τοὺς γείτονας.</l>
+              <l n="104" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l104">Γύμναζε παῖδας· ἄνδρας οὐ γὰρ γυμνάσεις.</l>
+              <l n="105" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l105">Γονεῖς δὲ τίμα καὶ φίλους εὐεργέτει.</l>
+              <l n="106" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l106">Γυνὴ δ᾽ ὅλως τὸ συμφέρον οὐ βουλεύεται.</l>
+              <l n="107" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l107">Γνώμη γερόντων ἀσφαλεστέρα νέων.</l>
+              <l n="108" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l108">Γελᾷ δ᾽ ὁ μῶρος, κἄν τι μὴ γέλοιον ᾖ.</l>
+              <l n="109" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l109">Γυνὴ γυναικὸς πώποτ᾽ οὐδὲν διαφέρει.</l>
+              <l n="110" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l110">Γέρων γενόμενος μὴ γάμει νεωτέραν.</l>
+              <l n="111" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l111">Γλώσσῃ ματαίᾳ ζημία προστρίβεται.</l>
+              <l n="112" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l112">Γνώμης γὰρ ἐσθλῆς ἔργα χρηστὰ γίγνεται.</l>
+              <l n="113" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l113">Γήρως δὲ φαύλου τίς γένοιτ᾽ ἂν ἐκτροπή;</l>
+              <l n="114" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l114">Δίκαιος εἶναι μᾶλλον ἢ χρηστὸς θέλε.</l>
+              <l n="115" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l115">Δεῖ τοὺς φιλοῦντας πίστιν, οὐ λόγους ἔχειν.</l>
+              <l n="116" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l116">Δοῦλος πεφυκὼς εὐνόει τῷ δεσπότῃ.</l>
+              <l n="117" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l117">Δύσμορφος εἴην μᾶλλον ἢ κακηλόγος.</l>
+              <l n="118" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l118">Δίκαιον εὖ πράττοντα μεμνῆσθαι θεοῦ.</l>
+              <l n="119" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l119">Δίκαιος ἴσθι ἵνα δικαίων τύχῃς.</l>
+              <l n="120" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l120">Δύναται τὸ πλουτεῖν καὶ φιλανθρώπους ποιεῖν.</l>
+              <l n="121" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l121">Δὶς ἐξαμαρτεῖν ταὐτὸν οὐκ ἀνδρὸς σοφοῦ.</l>
+              <l n="122" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l122">Διάλυε, μὴ σύγκρουε μαχομένους φίλους.</l>
+              <l n="123" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l123">Δρυὸς πεσούσης πᾶς ἀνὴρ ξυλεύεται.</l>
+              <l n="124" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l124">Δοὺς τῇ τύχῃ τὸ μικρὸν ἐκλήψῃ μέγα.</l>
+              <l n="125" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l125">Δεῖ τοὺς μὲν εἶναι δυστυχεῖς τοὺς δ᾽ εὐτυχεῖς.</l>
+              <l n="126" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l126">Δίκαια δράσας συμμάχους ἕξεις θεούς.</l>
+              <l n="127" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l127">Δεινότερον οὐδὲν ἄλλο μητρυιᾶς κακόν.</l>
+              <l n="128" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l128">Δειλοῦ γὰρ ἀνδρὸς δειλὰ καὶ φρονήματα.</l>
+              <l n="129" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l129">Δέσποινα γὰρ γαμοῦντι νυμφίῳ γυνή.</l>
+              <l n="130" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l130">Δειναὶ γὰρ αἱ γυναῖκες εὑρίσκειν τέχνας.</l>
+              <l n="131" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l131">Δόλιον γὰρ ἄνδρα φεῦγε παρ᾽ ὅλον τὸν βίον.</l>
+            </lg>
+          </div>
+          <lg>
+            <l n="168" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l168">Εἷς ἐστι δοῦλος οἰκίας ὁ δεσπότης.</l>
+            <l n="169" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l169">Ἐμπειρία γὰρ τῆς ἀπειρίας κρατεῖ.</l>
+            <l n="170" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l170">Ἐπιλανθάνονται πάντες οἱ παθόντες εὖ.</l>
+            <l n="171" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l171">Ἔνιοι δὲ καὶ μισοῦσι τοὺς εὐεργέτας.</l>
+            <l n="172" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l172">Εἰ μὴ φυλάσσεις μίκρ᾽, ἀπολεῖς τὰ μείζονα.</l>
+            <l n="173" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l173">Εἰ θνητὸς εἶ, βέλτιστε, θνητὰ καὶ φρόνει.</l>
+            <l n="174" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l174">Εὔχου δ᾽ ἔχειν τι, κἂν ἔχῃς ἕξεις φίλους.</l>
+            <l n="175" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l175">Ἔστιν τὸ τολμᾶν, ὦ φίλ᾽, ἀνδρὸς οὐ σοφοῦ.</l>
+            <l n="176" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l176">Ἐν μυρίοισι τὰ καλὰ γίγνεται πόνοις.</l>
+            <l n="177" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l177">Ἔργοις φιλόπονος ἴσθι μὴ λόγοις μόνον.</l>
+            <l n="178" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l178">Εὑρεῖν τὸ δίκαιον πανταχῶς οὐ ῥᾴδιον.</l>
+            <l n="179" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l179">Ἔστιν Δίκης ὀφθαλμός, ὃς τὰ πάνθ᾽ ὁρᾷ.</l>
+            <l n="180" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l180">Ἐλεεινότατόν μοι φαίνετ᾽ ἀτυχία φίλου.</l>
+            <l n="181" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l181">Ἐκ τῶν γυναικῶν ὄλλυται κόσμος μέγας.</l>
+            <l n="182" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l182">Ἔστι κἀν κακοῖσιν ἡδονῆς τι μέτρον.</l>
+            <l n="183" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l183">Εὔπειστον ἀνὴρ δυστυχὴς καὶ λυπούμενος.</l>
+            <l n="184" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l184">Ἐξ ἡδονῆς γὰρ φύεται τὸ δυστυχεῖν.</l>
+            <l n="185" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l185">Εὐνοῦχος ἄλλο θηρίον τῶν ἐν βίῳ.</l>
+            <l n="186" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l186">Ζήσεις βίον κράτιστον, ἂν θυμοῦ κρατῇς.</l>
+            <l n="187" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l187">Ζήτει σεαυτὸν καλλίστην εὐδοξίαν.</l>
+            <l n="188" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l188">Ζήτει σεαυτῷ σύμμαχον τῶν πραγμάτων.</l>
+            <l n="189" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l189">Ζῶμεν πρὸς αὐτὴν τὴν τύχην οἱ σώφρονες.</l>
+            <l n="190" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l190">Ζῶμεν γὰρ οὐχ ὡς θέλομεν, ἀλλ᾽ ὡς δυνάμεθα.</l>
+            <l n="191" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l191">Ζῆθι προσεχόντως, ὡς μακρὰν ἐγγὺς βλέπων.</l>
+            <l n="192" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l192">Ζήλου τὸν ἐσθλὸν ἄνδρα καὶ τὸν σώφρονα.</l>
+            <l n="193" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l193">Ζωῆς πονηρᾶς θάνατος αἱρετώτερος.</l>
+            <l n="194" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l194">Ζῆν βουλόμενος μὴ πρᾶττε θανάτου ἄξια.</l>
+            <l n="195" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l195">Ζῆλος γυναικὸς πάντα πυρπολεῖ δόμον.</l>
+            <l n="196" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l196">Ζήτει συναγαγεῖν ἐκ δικαίων τὸν βίον.</l>
+            <l n="197" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l197">Ζευχθεὶς γάμοισιν οὐκ ἔτ᾽ ἔστ᾽ ἐλεύθερος.</l>
+            <l n="198" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l198">Ζῆν οὐκ ἔδει γυναῖκα κατὰ πολλοὺς τρόπους.</l>
+            <l n="199" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l199">Ζήτει γυναῖκα σύμμαχον τῶν πραγμάτων.</l>
+            <l n="200" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l200">Ζῶμεν ἀλογίστως προσδοκῶντες μὴ θανεῖν.</l>
+            <l n="201" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l201">Ζῆν ἡδέως οὐκ ἔστιν ἀργὸν καὶ κακόν.</l>
+            <l n="202" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l202">Ἢ ζῆν ἀλύπως ἢ θανεῖν εὐδαιμόνως.</l>
+            <l n="203" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l203">῎Ἤθη πονηρὰ τὴν φύσιν διαστρέφει.</l>
+          </lg>
+          <div type="textpart" subtype="section">
+            <lg>
+              <l n="384" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l384">Νέος ὢν ἀκούειν τῶν γεραιτέρων θέλε.</l>
+              <l n="385" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l385">Νὺξ μὲν ἀναπαύει, ἡμέρα δ᾽ ἔργον ποιεῖ.</l>
+              <l n="386" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l386">Νικᾷ παλαιὰς χάριτας ἡ νέα χάρις.</l>
+              <l n="387" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l387">Νέοις τὸ σιγᾶν κρεῖττόν ἐστι τοῦ λαλεῖν.</l>
+              <l n="388" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l388">Νέος ἂν πονήσῃς, γῆρας ἕξεις εὐθαλές.</l>
+              <l n="389" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l389">Ξένους πένητας μὴ παραδράμῃς ἰδών.</l>
+              <l n="390" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l390">Ξένοισι πιστοῖς πιστὸς ὢν γίγνου φίλος.</l>
+              <l n="391" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l391">Ξένοις ἐπαρκῶν τῶν ἴσων τεύξῃ ποτέ.</l>
+              <l n="392" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l392">Ξένῳ μάλιστα συμφέρει τὸ σωφρονεῖν.</l>
+              <l n="393" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l393">Ξίφος τιτρώσκει σῶμα, τὸν δὲ νοῦν λόγος.</l>
+              <l n="394" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l394">Ξένος ὢν ἀκολούθει τοῖς ἐπιχωρίοις νόμοις.</l>
+              <l n="395" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l395">Ξενία χαλεπὴ κατὰ πολλοὺς τρόπους.</l>
+              <l n="396" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l396">Ξενίας ἀεὶ φρόντιζε, μὴ καθυστέρει.</l>
+              <l n="397" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l397">Ξένον ἀδικήσεις μηδέποτε καιρὸν λαβών.</l>
+              <l n="398" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l398">Ξυνετὸς πεφυκὼς φεῦγε τὴν πανουργίαν.</l>
+              <l n="399" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l399">Ξένος ὢν ἀπράγμων ἴσθι, καὶ πράξεις καλῶς.</l>
+              <l n="400" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l400">Ξένους ξένιζε, καὶ σὺ γὰρ ξένος γ᾽ ἔσῃ.</l>
+              <l n="401" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l401">Ξένῳ δὲ σιγᾶν κρεῖττον ἢ κεκραγέναι.</l>
+              <l n="402" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l402">Ξένος πεφυκὼς τοὺς ξενηδόχους σέβου.</l>
+              <l n="403" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l403">Ὁ γράμματ᾽ εἰδὼς καὶ περισσὸν νοῦν ἔχει.</l>
+              <l n="404" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l404">Ὁ σοφὸς ἐν αὑτῷ περιφέρει τὴν οὐσίαν.</l>
+              <l n="405" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l405">Οὐκ ἔστιν αἰσχρὸν ἀγνοοῦντα μανθάνειν.</l>
+              <l n="406" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l406">Ἔλπιζε δ᾽ αὐτὸν πάλιν εἶναι σοῦ φίλον.</l>
+              <l n="407" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l407">Οὐκ ἔστιν οὐδεὶς ὅστις οὐχ αὑτῷ φίλος.</l>
+              <l n="408" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l408">Οὐκ ἔσθ᾽ ὑγιείας κρεῖττον οὐδὲν ἐν βίῳ.</l>
+              <l n="409" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l409">Ὅπου βία πάρεστιν, οὐδὲν ἰσχύει νόμος.</l>
+              <l n="410" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l410">Ὀργὴ φιλοῦντος μικρὸν ἰσχύει χρόνον.</l>
+              <l n="411" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l411">Οὐπώποτ᾽ ἐζήλωσα πολυτελῆ νεκρόν.</l>
+              <l n="412" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l412">Οὐδεὶς τὸ μέλλον ἀσφαλῶς ἐπίσταται.</l>
+              <l n="413" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l413">Οὐδὲν γυναικὸς χεῖρον οὐδὲ τῆς καλῆς.</l>
+              <l n="414" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l414">Οὐκ ἔστι λύπης χεῖρον ἀνθρώποις κακόν.</l>
+              <l n="415" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l415">Οὐδεὶς μετ᾽ ὀργῆς ἀσφαλῶς βουλεύεται.</l>
+              <l n="416" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l416">Οὐκ ἔστι σοφίας κτῆμα τιμιώτερον.</l>
+              <l n="417" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l417">Οὐκ ἔστι σιγᾶν αἰσχρόν, ἀλλ᾽ εἰκῆ λαλεῖν.</l>
+              <l n="418" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l418">Ὀργῆς χάριν τὰ κρυπτὰ μὴ κ̓φάνῃς φίλου.</l>
+              <l n="419" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l419">Οὐκ ἔστιν εὑρεῖν βίον ἄλυπον οὐδενός.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="section">
+            <lg>
+              <l n="456" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l456">Πονηρός ἐστι πᾶς ἀχάριστος ἄνθρωπος.</l>
+              <l n="457" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l457">Παθητός ἐστι πᾶς τις εὐπροσήγορος.</l>
+              <l n="458" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l458">Πάντως γὰρ ὁ σοφὸς εὐτελείας ἀνέχεται.</l>
+              <l n="459" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l459">Πάντα ἀνακαλύπτων ὁ χρόνος πρὸς φῶς φέρει.</l>
+              <l n="460" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l460">Πένητας ἀργοὺς οὐ τρέφει ῥᾳθυμία.</l>
+              <l n="461" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l461">Πενίαν φέρειν καὶ γῆράς ἐστι δύσκολον.</l>
+              <l n="462" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l462">Πᾶσιν γὰρ εὖ φρονοῦσι συμμαχεῖ τύχη.</l>
+              <l n="463" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l463">Πενίαν φέρειν οὐ παντός, ἀλλ’ ἀνδρὸς σοφοῦ.</l>
+              <l n="464" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l464">Πρὸς εὖ λέγοντας οὐδὲν ἀντειπεῖν ἔχω.</l>
+              <l n="465" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l465">Ῥοπή ’στιν ἡμῶν ὁ βίος, ὥσπερ ὁ ζυγός.</l>
+              <l n="466" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l466">Ῥῆμα παράκαιρον τὸν ὅλον ἀνατρέπει βίον.</l>
+              <l n="467" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l467">Ῥᾳθυμίας περίφευγε καὶ κακοὺς φίλους.</l>
+              <l n="468" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l468">Ῥᾷον βίον ζῇς, ἂν γυναῖκα μὴ τρέφῃς.</l>
+              <l n="469" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l469">Ῥύπος γυνὴ πέφυκεν ἠργυρωμένος.</l>
+              <l n="470" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l470">Ῥᾷον φέρειν δεῖ τὰς παρεστώσας τύχας.</l>
+              <l n="471" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l471">Ῥᾷον παραινεῖν ἢ παθόντα καρτερεῖν.</l>
+              <l n="472" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l472">Ῥάθυμος ἂν ᾖς πλούσιος, πένης ἔσῃ.</l>
+              <l n="473" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l473">Ῥύου δὲ σαυτὸν παντὸς ἐκ φαύλου τρόπου.</l>
+              <l n="474" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l474">Σέβου τὸ θεῖον, μὴ ’ξετάζων πῶς ἔχει.</l>
+              <l n="475" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l475">Σοφοῖς ὁμιλῶν καὐτὸς ἐκβήσῃ σοφός.</l>
+              <l n="476" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l476">Σοφοῦ παρ’ ἀνδρὸς ἐκδέχου συμβουλίαν.</l>
+              <l n="477" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l477">Σιγή ποτ’ ἐστὶν αἱρετωτέρα λόγου.</l>
+              <l n="478" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l478">Σωτηρίας σημεῖον ἥμερος τρόπος.</l>
+              <l n="479" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l479">Σύμβουλος οὐδείς ἐστι βελτίων χρόνου.</l>
+              <l n="480" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l480">Στερρῶς φέρειν χρὴ συμφορὰς τὸν εὐγενῆ.</l>
+              <l n="481" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l481">Σοφία γάρ ἐστι καὶ μαθεῖν ἃ μὴ νοεῖς.</l>
+              <l n="482" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l482">Σοφία δὲ πλούτου κτῆμα τιμιώτερον.</l>
+              <l n="483" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l483">Σοφὴ σοφῶν γὰρ γίγνεται συμβουλία.</l>
+              <l n="484" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l484">Σιγᾶν ἄμεινον ἢ λαλεῖν ἃ μὴ πρέπει.</l>
+              <l n="485" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l485">Σαυτὸν φύλαττε τοῖς τρόποις ἐλεύθερον.</l>
+              <l n="486" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l486">Σοφὸς γὰρ οὐδεὶς εἰς τὰ πάντα προσκοπεῖ.</l>
+              <l n="487" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l487">Σοφῷ παρ’ ἀνδρὶ πρῶτος εὑρέθη λόγος.</l>
+              <l n="488" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l488">Σὺν τοῖς φίλοισιν εὐτυχεῖν ἀεὶ θέλε.</l>
+              <l n="489" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l489">Τὰ θνητὰ πάντα μεταβολὰς πολλὰς ἔχει.</l>
+              <l n="490" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l490">Τὸ δὴ τρέφον με τοῦτ’ ἐγὼ λέγω θεόν.</l>
+              <l n="491" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l491">Τίμα τὸ γῆρας, οὐ γὰρ ἔρχεται μόνον.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="other">
+            <lg>
+              <l n="528" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l528">Φιλεῖ δ᾿ ἑαυτοῦ πλεῖον οὐδεὶς οὐδένα.</l>
+              <l n="529" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l529">Φίλον δι᾿ ὀργὴν ἐν κακοῖσι μὴ προδῷς.</l>
+              <l n="530" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l530">Φίλος με βλάπτων οὐδὲν ἐχθροῦ διαφέρει.</l>
+              <l n="531" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l531">Φύσιν πονηρὰν μεταβαλεῖν οὐ ῥᾴδιον.</l>
+              <l n="532" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l532">Φεῦγ᾿ ἡδονὴν φέρουσαν ὕστερον βλάβην.</l>
+              <l n="533" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l533">Φίλον βέβαιον ἐν κακοῖσι μὴ φοβοῦ.</l>
+              <l n="534" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l534">Φεύγειν ἀεὶ δεῖ δεσπότας θυμουμένους.</l>
+              <l n="535" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l535">Φίλων τρόπους γίγνωσκε, μὴ μίσει δ᾿ ὅλως.</l>
+              <l n="536" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l536">Φρόνημα λιπαρὸν οὐδαμῶς ἀναλίσκεται.</l>
+              <l n="537" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l537">Χωρισμὸς φίλων δοκιμαστήριον φιλίας.</l>
+              <l n="538" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l538">Χρυσὸς δ᾿ ἀνοίγει πάντα κἀΐδου πύλας.</l>
+              <l n="539" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l539">Χθὼν πάντα κομίζει καὶ πάλιν κομίζεται.</l>
+              <l n="540" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l540">Χειμὼν κατ᾿ οἴκους ἀνδράσιν κακὴ γυνή.</l>
+              <l n="541" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l541">Χωρὶς γυναικὸς ἀνδρὶ κακὸν οὐ γίγνεται.</l>
+              <l n="542" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l542">Χρηστὸς πονηροῖς οὐ τιτρώσκεται λόγοις.</l>
+              <l n="543" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l543">Χεὶρ χεῖρα νίπτει, δάκτυλοι δὲ δακτύλους.</l>
+              <l n="544" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l544">Χαίρειν ἐπ᾿ αἰσχροῖς οὐδέποτε χρὴ πράγμασιν.</l>
+              <l n="545" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l545">Χρόνος δ᾿ ἀμαυροῖ πάντα κεἰς λήθην ἄγει.</l>
+              <l n="546" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l546">Χρηστοῦ παρ᾿ ἀνδρὸς χρὴ σοφόν τι μανθάνειν.</l>
+              <l n="547" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l547">Ψευδόμενος οὐδεὶς λανθάνει πολὺν χρόνον.</l>
+              <l n="548" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l548">Ψυχὴν ἔθιζε πρὸς τὰ χρηστὰ πράγματα.</l>
+              <l n="549" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l549">Ψυχῆς μέγας χαλινὸς ἀνθρώποις ὁ νοῦς.</l>
+              <l n="550" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l550">Ψυχῆς νοσούσης ἐστὶ φάρμακον λόγος.</l>
+              <l n="551" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l551">Ψυχῆς ἐπιμελοῦ τῆς σεαυτοῦ καθὰ δύνῃ.</l>
+              <l n="552" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l552">Ψυχῆς γὰρ οὐδέν ἐστι τιμιώτερον.</l>
+              <l n="553" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l553">Ψευδὴς διαβολὴ τὸν βίον λυμαίνεται.</l>
+              <l n="554" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l554">Ψεῦδος δὲ μισεῖ πᾶς σοφὸς καὶ χρήσιμος.</l>
+              <l n="555" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l555">Ὡς ἡδὺ κάλλος, ὅταν ἔχῃ νοῖν σώφρονα.</l>
+              <l n="556" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l556">Ὡς ἡδὺ δούλῳ δεσπότου χρηστοῦ τυχεῖν.</l>
+              <l n="557" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l557">Ὡς οὐδὲν ἡ μάθησις, ἂν μὴ νοῦς παρῇ.</l>
+              <l n="558" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l558">Ὡς τῶν ἐχόντων πάντες ἄνθρωποι φίλοι.</l>
+              <l n="559" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l559">Ὡς πάντα τιμῆς ἐστι πλὴν τρόπου κακοῦ.</l>
+              <l n="560" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l560">Ὡς ἔστ᾿ ἄπιστος ἡ γυναικεία φύσις.</l>
+              <l n="561" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l561">Ὡς αἰσχρὸν ἀνθρώποισίν ἐστ᾿ ἀπληστία.</l>
+              <l n="562" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l562">Ὡς χάριέν ἐστ᾿ ἄνθρωπος ὅταν ἄνθρωπος ᾖ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="work_prose">
+            <lg>
+              <l n="649" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l649">῎Αν εὖ φρονῇς, τὰ πάντα γ᾽ εὐδαίμων ἔσῃ.</l>
+              <l n="650" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l650">Ἀεὶ κράτιστόν ἐστι τἀσφαλέστατον.</l>
+              <l n="651" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l651">Βλέπων πεπαίδευμ᾽ εἰς τὰ τῶν πολλῶν κακά.</l>
+              <l n="652" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l652">Βακτηρία γάρ ἐστι παιδεία βίου.</l>
+              <l n="653" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l653">Βραβεῖον ἀρετῆς ἐστιν εὐπαιδευσία.</l>
+              <l n="654" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l654">Βροτοῖς ἅπασιν ἡ συνείδησις θεός.</l>
+              <l n="655" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l655">Βέβαιον οὐδὲν ἐν βίῳ δοκεῖ πέλειν.</l>
+              <l n="656" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l656">Βίος ἐστὶν ἄν τις τῷ βίῳ χαίρῃ βιῶν.</l>
+              <l n="657" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l657">Διπλοῖν ὁρῶσιν οἱ μαθόντες γράμματα.</l>
+              <l n="658" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l658">Δύναμις πέφυκε τοῖς βροτοῖς τὰ χρήματα.</l>
+              <l n="659" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l659">Διὰ δὲ σιωπῆς πικρότερον κατηγορεῖ.</l>
+              <l n="660" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l660">Δυσπαρακολούθητον δὲ πρᾶγμ᾽ ἔσθ᾽ ἡ τύχη.</l>
+              <l n="661" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l661">Ἔλπιζε πάντα μέχρι γήρως θνητὸς ὤν.</l>
+              <l n="662" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l662">Εἰ μὴ καθέξεις γλῶσσαν, ἔστι σοι κακά.</l>
+              <l n="663" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l663">Ἐν δ᾽ εὐπροσηγόροισίν ἐστί τις χάρις.</l>
+              <l n="664" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l664">Ἐν γῇ πένεσθαι κρεῖττον ἢ πλουτοῦντα πλεῖν.</l>
+              <l n="665" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l665">Εἰ μὴ τὸ λαβεῖν ἦν, οὐδ᾽ ἂν εἷς πονηρὸς ἦν.</l>
+              <l n="666" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l666">Ζῆν αἰσχρόν, οἷς ζῆν ἐφθόνησεν ἡ τύχη.</l>
+              <l n="667" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l667">Ἡ δὲ μετάνοια γίγνετ᾽ ἀνθρώποις κρίσις.</l>
+              <l n="668" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l668">Ἡ δοῦσα πάντα καὶ κομίζεται φύσις.</l>
+              <l n="669" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l669">Ἡδύ γε πατὴρ φρόνησιν ἀντ᾽ ὀργῆς ἔχων.</l>
+              <l n="670" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l670">Θνητὸς πεφυκὼς μὴ γέλα τεθνηκότα.</l>
+              <l n="671" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l671">Θεοῦ θέλοντος κἂν ἐπὶ ῥιπὸς πλέοις.</l>
+              <l n="672" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l672">Ἰσότητα δ᾽ αἱροῦ καὶ πλεονεξίαν φύγε.</l>
+              <l n="673" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l673">Ἰδίας νόμιζε τῶν φίλων τὰς συμφοράς.</l>
+              <l n="674" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l674">Ἰατρὸς ὁ λόγος τοῦ κατὰ ψυχὴν πάθους.</l>
+              <l n="675" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l675">Καλὸν γυναικὸς εἰσορᾶν καλοὺς τρόπους.</l>
+              <l n="676" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l676">Καιρὸς γάρ ἐστι τῶν νόμων κρεῖττον πολύ.</l>
+              <l n="677" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l677">Καιροὶ δὲ καταλύουσι τὰς τυραννίδας.</l>
+              <l n="678" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l678">Κρίνειν δίκαιον μὴ τὸ συμφέρον θέλε.</l>
+              <l n="679" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l679">Κοινὸν τύχη, γνώμη δὲ τῶν κεκτημένων.</l>
+              <l n="680" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l680">Καλὸν τὸ νήφειν ἢ τὸ πολλὰ κραιπαλᾶν.</l>
+              <l n="681" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l681">Κοινὸν δὲ καλόν ἐστι χρηστὸς εὐτυχῶν.</l>
+              <l n="682" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l682">Λεπτῶς γέ τοι ζῆν κρεῖσσον ἢ λαμπρῶς κακῶς.</l>
+              <l n="683" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l683">Λόγον παρ᾽ ἐχθροῦ μήποθ᾽ ἡγήσῃ φίλον.</l>
+              <l n="684" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l684">Μηδέποτε γήμῃ μηδὲ εἷς εὔνους ἐμοί.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="section">
+            <lg>
+              <l n="721" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l721">Τιμὴ πέφυκε πᾶσι παιδεία βροτοῖς.</l>
+              <l n="722" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l722">Τὸ πολλὰ πράττειν ἐστὶ πανταχοῦ σαπρόν.</l>
+              <l n="723" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l723">Τὸ πολλὰ πράττειν κὠδύνας πολλὰς ἔχει.</l>
+              <l n="724" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l724">Τὸ πολλὰ τολμᾶν πόλλ᾿ ἁμαρτάνειν ποιεῖ.</l>
+              <l n="725" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l725">Τύχη τὰ θνητῶν πράγματ᾿, οὐκ εὐβουλία.</l>
+              <l n="726" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l726">Ταυτόματον ἡμῶν καλλίω βουλεύεται.</l>
+              <l n="727" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l727">Τὴν τῶν κρατούντων μάθε φέρειν ἐξουσίαν.</l>
+              <l n="728" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l728">Τὸ μηδὲν εἰκῆ πανταχοῦ σ̓τι χρήσιμον.</l>
+              <l n="729" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l729">Τάχισθ᾿ ὁ καιρὸς μεταφέρει τὰ πράγματα.</l>
+              <l n="730" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l730">Τὸ γνῶθι σαυτὸν πανταχοῦ σ̓τι χρήσιμον.</l>
+              <l n="731" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l731">Τὸ ζῆν ἀλύπως ἀνδρός ἐστιν εὐτυχοῦς.</l>
+              <l n="732" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l732">Ὑπόνοια δεινόν ἐστιν ἀνθρώποις κακόν.</l>
+              <l n="733" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l733">Ὑπὸ τῆς ἀνάγκης πάντα δουλοῦται ταχύ.</l>
+              <l n="734" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l734">Ὑπερήφανον πρᾶγμ᾿ ἐστὶν ὡραία γυνή.</l>
+              <l n="735" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l735">Ὑπὲρ γυναικὸς καὶ φίλου πονητέον.</l>
+              <l n="736" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l736">Φιλίας μέγιστος δεσμὸς αἱ τέκνων γοναί.</l>
+              <l n="737" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l737">Φασὶν κακίστους οἱ πονηροὶ τοὺς κακούς.</l>
+              <l n="738" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l738">Φθείρουσιν ἤθη χρήσθ᾿ ὁμιλίαι κακαί.</l>
+              <l n="739" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l739">Φρονοῦντός ἐστι ζημίαν πρᾴως φέρειν.</l>
+              <l n="740" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l740">Φέρειν ἀνάγκη θνητὸν ὄντα τὴν τύχην.</l>
+              <l n="741" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l741">Φίλος φίλῳ γὰρ συμπονῶν αὑτῷ πονεῖ.</l>
+              <l n="742" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l742">Φίλου τρόπους γίγνωσκε, μισήσῃς δὲ μή.</l>
+              <l n="743" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l743">Φιλίας δικαίας κτῆσις ἀσφαλεστάτη.</l>
+              <l n="744" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l744">Φίλων ἔπαινον μᾶλλον ἢ σαυτοῦ λέγε.</l>
+              <l n="745" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l745">Χαλεπὸν τὸ γῆράς ἐστιν ἀνθρώποις βάρος.</l>
+              <l n="746" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l746">Χάριν λαβὼν εὔκαιρον ἐν καιρῷ δίδου.</l>
+              <l n="747" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l747">Χάριν χαρίζου, καθ᾿ ὅσον ἰσχύεις ὅμως.</l>
+              <l n="748" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l748">Χάριτας δικαίας καὶ δίδου καὶ λάμβανε.</l>
+              <l n="749" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l749">Χάριν λαβὼν μέμνησο καὶ δοὺς ἐπιλάθου.</l>
+              <l n="750" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l750">Χαλεπόν γε θυγάτηρ κτῆμα καὶ δυσδιάθετον.</l>
+              <l n="751" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l751">Χειμὼν μεταβάλλει ῥᾳδίως εἰς εὐδίαν.</l>
+              <l n="752" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l752">Ὡς μέγα τὸ μικρόν ἐστιν ἐν καιρῷ δοθέν.</l>
+              <l n="753" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l753">Ὥρα τὰ πάντα τοῦ βίου κρίνει καλῶς.</l>
+              <l n="754" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l754">Ὡς πολλὰ διὰ τὰς ἡδονὰς λυπούμεθα.</l>
+              <l n="755" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l755">Ὡς εὐκόλως πίπτουσιν αἱ λαμπραὶ τύχαι.</l>
+              <l n="756" xml:id="meineke-0541-gnomai_monostichoi-unnumbered-l756">Ὡς ἡδὺς ὁ βίος, ἄν τις αὐτὸν μὴ μάθῃ.</l>
+            </lg>
+          </div>
+          <div type="textpart" subtype="commentary">
+            <p>ἀνὴρ ἀχάριστος dedi pro ἀχάριστος ἀνήρ. Vind. 4 ἀνὴρ ἄχρηστος. V. supra p. 325. Vind. 2 λογιζέσθω. — Vs. 41 Aldus ποιεῖ pro τελεῖ. — Vs. 43 πενόμενος scripsi ex Boiss. Anecd. I p. 153 pro πενωθείς. Ibid. τοῖς εὐτυχοῦσιν. — Vs. 46 et 47 Euripidi tribuit Stob. Serm. XXIII 5. qui altero versu habet αὐτοὶ δ᾽ ὅταν σφάλωμεν, οὐ γ. V. Matthiae p. 433 et Ritschelium ad Orionis sent. p. VIII. — Vs. 49 pro παρρησία Brunck. πονηρία. — Vs. 50 Menandro tribuit Stob. Serm. II p. 30. — Vs. 53 est Christiani hominis foetus. Sententiam requiro fere hanc: <quote>ἀρχὴν σοφίας νόμιζε τοῦ θεοῦ φόβον</quote>. — Vs. 56 ante Schneiderum ἕξεις. — Vs. 57 Diphilo tribuit Stob. Flor. CV 47. — Vs. 59 Vind. 4 σκοπεῖν. Menandro disertim assignatur ab Anonymo in Walzii Rhet. II p. 16. Doxopatro ibid. p. 251. 294. 295. — Vs. 60 Aldinus <quote>γίγνου δ᾽ ἐς ὀργὴν μὴ ταχὺς ἀλλὰ βραδύς</quote>, ex elegiaco poeta desumptus est: <quote>γίγνου δ᾽ εἰς ὀργὴν μὴ ταχὺς ἀλλὰ βραδύς</quote>. Monuit Hermannus apud Erfurdtium ad Soph. Aiac. p. 630 In fine addidi γενοῦ. Confirmat codex Boissonadi Anecd. I p. 154. — Vs. 65 Diphili versus apud Stob. Flor. CV 47. — Vs. 66 δὲ adieci e Syll. Brunckii, qui pro ὃς habet ὅτι. — Vs. 67 pro βίου apud Boiss. Anecd. I p. 153 ἀνδρός. — Vs. 69 ἀποθανεῖν cod. pro κατθανεῖν. Versus est Euripidis. V. Stobaeum Serm. CXVIII 14. — Vs. 72 Philemonis est, fab. inc. CXVII. — Vs. 78 Philetae h. e. Philem. tribuitur a Stobaeo. V. Philem. Inc. 61. — Vs. 79 ἐστὶν εἰκὼν transposui. — Vs. 80 et 81 e Cratete citat Stob. Serm. XXXIII 4 et XVII 3. — Vs. 83 editur γυναικὶ πάσῃ. Vind. 2 κόσμος ἡ σιγὴ πέλει. Idem versus apud Eustath. ad Hom. p. 746 25 Rom. Apud Boiss. An. I 154 κόσμος ἡ σιγὴ πρέπει. — Vs. 89 Euripidis est apud Orion. Gnomol. II 1. — Vs. 91 Philemonis est, cuius v. Fr. inc. 115. Vind. 4 μεταμέλειαν. — Vs. 92 οὐ τὰ codd. pro κοὐ. Brunckius οὐχί. — Vs. 94 a Stob. LXVIII 21 tribuitur Diphilo, ubi pro ἐσθλῆς exhibetur ἀγαθῆς. — Vs. 95. Orion a Ritschelio editus p. V 28: <quote>γυναῖκα γὰρ θάπτειν [κρεῖσσον] ἢ γαμεῖν</quote>. Chaeremoni tribuitur a Stobaeo Serm.</p>
+          </div>
+          <div type="textpart" subtype="commentary">
+            <p>ἐν τοῖσι δεινοῖς. — Vs. 144 factus ad imitationem Aeschylei: ἀπάτης δικαίας οὐκ ἀποστατεῖ θεός. — Vs. 149 γὰρ Grot. Exc. p. 923. Stob. Serm. XXIX 11 τοι, ubi Euripidi tribuitur. — Vs. 154 apud Boiss. An. I p. 157: νέος ὢν ἐφόδιον ὡς τὸ γῆρας κατατίθου. — Vs. 156 „alii legunt εἰ δὲ μὴ χρόνος, ut e Diog. Laert. adnotavit Stephanus p. 289." Schneider. — Vs. 159 „cod. mutilum dat πλησμονῇ κύπρις, πεινῶσι. Est Euripidis, teste Athenaeo, qui πεινῶντι habet, schol. Sophoclis πεινῶσι." Schneider. — Vs. 162 pro ἐστι cod. ἀνδρός. Correxi in edit. mai. Confirmat nunc cod. apud Boiss. Anecd. I p. 154. — Vs. 164 pro πάθοις Vind. 4 λάβῃς. — Vs. 167 Vind. 3 εὐκαταφρόνητον, omisso ἐστιν. Tum Br. σιγηλός. — Vs. 168. Aristides vol. III p. 253 c. (vol. II p. 204 Dind.) τὸ τοῦ κωμῳδιοποιοῦ βεβαίως καὶ παγίως ἔχει ὡς ἄρ᾽ εἷς εἴη τῆς οἰκίας δοῦλος ὁ δεσπότης. Schol. ad Aphthon. apud Walzium rhet. gr. vol. II p. 23: τῶν γνωμῶν αἱ μὲν ἄνευ αἰτίας προφέρονται, ὡς τὸ εἷς ἐστι δοῦλος κτλ. Eadem p. 594. Utitur eo versu etiam Libanius orat. de Servis vol. II p. 88. — Vs. 172 φυλάξεις Brunck. — Vs. 173 Antiphani tribuitur a Stob. Serm. XXI 4. — Vs. 178 legebatur πανταχοῦ. — Vs. 179 vid. Philem. ed. mai. p. 433. — Vs. 182 fort. ἔνεστι et ἡδονῆς μέτρον. — Vs. 183 rectius εὔπιστον, suspicax. Menand. p. 183 εὔπιστον ἀτυχῶν ἐστιν ἄνθρωπος φύσει. Corruptis numeris plus una ratione succurras; quod certum sit, vix afferas. Suspicabar εὔπιστον ἀτυχής ἐστ᾽ ἀνὴρ λυπούμενος. — Vs. 185 Vind. 4 τῶν omittit. Mihi non liquet. — Vs. 186 Schneiderus dedit ἄριστον. — Vs. 187 legendum videtur σεαυτῷ καταλιπεῖν. Quo ducit Aldinus versus: ζήτει σεαυτῷ δόξαν ἐγκαταλιπεῖν. — Vs. 190 Vind. 2 ὡς ἀγόμεθα. Tetigi hunc versum supra p. 84. — Vs. 193 Stob. Serm. CXXI 17 praebet εὐπορώτερος. — Vs. 194 fort. θανάτου γ᾽. — Vs. 196 vulgatum συνάγειν correxit Brunck. — Vs. 197 Stobaeus Flor. 67 13 Hippothoo tribuit, 68 24 Euripidi. — Vs. 200 libri μὴ προσδοκοῦντες θανεῖν. — Vs. 206 cod. ἐρᾶν pro κρατεῖν. — Vs. 210 „ante Brunck. erat ἑκάστου γὰρ γένους: is e Stob. Tit. 85 ἑκάστῳ resti-</p>
+          </div>
+          <div type="textpart" subtype="other">
+            <p>habet Vind. 4. — Vs. 307 apud Boiss. An. I p. 156 εἴγε νοῦν ἔχῃς. — Vs. 313 Vind. 3 μὲν πεῖσαι φάρμακον σοφώτατον. Unde coniicias μʼ ἔπεισε φαρμάκῳ σοφωτάτῳ. — Vs. 316 vulgo νόσους, ut Stobaeus Tit. 99 10. Nostrum est e Vind. 1. Similiter Vind. 3 λῦπαι καὶ γὰρ ἀνδράσιν τίκτει νόσον. — Vs. 318 „Vind. 2 dat τοῦ βίου ὅρμος τοῦ βίου δʼ ἀλυπία, suprascripto πλόου. In Aldina est Πλοίου λιμὴν μέν, ἀλυπία.“ Schneider. V. Ritschelium ad Orionis sent. p. VII. Apud Boiss. Anecd. I p. 156 λιμὴν πλοίου ὅρμος, βίος δʼ ἀλυπία. — Vs. 319 Stob. Serm. CXIV p. 471 Grot. θεραπεύειν pro ἰᾶσθαι. — Vs. 322 Ald. μισοῦντα μίσει. — Vs. 323 „Aldina dedit δεσπότου μεῖζον. Rectius sub Menandri nomine Stob. Tit. 62 5 μεῖζον οἰκέτου.“ Schneider. Apud Boiss. An. I 156 δεσπότην ὑπερφρονῶν. — Vs. 330 erat ἐστιν ἀνταπόδοσις — Vs. 331 malim λαβοῦ. — Vs. 336 legebatur μιμοῦ κακοὺς τ. — Vs. 338 Stob. Tit. 29 9. Euripidi tribuit. — Vs. 339 cod. μία ἐστιν et τὸ ἄτοπον. Correxi ex Orione. V. supra p. 127. In his ὁ ἄτοπος pro ἀτοπία dictum accipio. Hesychius, Ἄτοπος: παράδοξος λόγος ἢ θαυμαστός, ubi frustra corrigunt ἄτοπον. Similiter dicitur ὁ φρόνιμος pro φρόνησις, ὁ παράλογος pro παραλογία. — Vs. 346 libri ἐστιν ὀργῆς, quod correxi. — Vs. 351 pro αἰὼν Guelf. et Vind. 3 βίος. Iidem pro ἔχει praebent φέρει. — Vs. 352 ὅταν dedi e Stobaeo Sermon. II 5 et Antonio Mel. p. 278 12. ubi Menandro versus tribuitur. Vind. 2 ἄν. — Vs. 353 dedi γυναῖκα pro γυναῖκας. — Vs. 355 Vind. 2 μήπω. Tum γυναῖκας scripsi pro γυναῖκα. — Vs. 357 ita dedi ex Aldo. Codex μ. ἐστιν, ὃς ἔτυχε φίλου. — Vs. 358 Vind. 4 ταχύ. Fort. ταχέως. — Vs. 360 Menandri est. V. Fragm. inc. 144. — Vs. 363 fort. ἀνδρὶ πλουσία γυνή. — Vs. 364 multa tentari possunt: quod certum sit, nihil. — Vs. 367 fort. μετὰ τοῦ δικαίου διατριβὰς ἀεὶ ποίει. — Vs. 368 alibi χρόνῳ, ut e Stephano notat Schneiderus. — Vs. 369 editur δυστυχήματα. — Vs. 372 habet Apost. 13 77. Pro ἐγχωρίοις Brunck. ἐγχώροις. Rectius Bentl. p. 93 ἐπιχωρίοις. Sophocli tribuitur a</p>
+          </div>
+          <div type="textpart" subtype="other">
+            <note type="apparatus">Stobaeo Flor. XLIII 25. Atqui ibi Sophoclis nomen ad sequentem versum pertinet. Pro τοῖς ἐγχ. κ. Vind. 4 habet πάντα δεῖ τὸν σώφρονα. Similiter infra 380. — Vs. 374 fort. μηδ᾽ ἄγαν ὑπερφρόνει. Apud Boisson. An. I p. 157: φυλάσσου μηδὲν ὑπέρογκον ποίει. — Vs. 376 „Vind. 1 dat γὰρ διάβολος τὰ κρείττονος ἀεί. Guelf. [et Vind. 3] γὰρ ἀεὶ ἡ διαβολὴ τοὺς κρείττονας.” Schneider. — Vs. 378 Menandro tribuit Stobaeus Flor. LXXIX 26. Philemoni Apost. XIII 78. — Vs. 383 pro δὲ editum πολύ, ut in Stob. Tit. 99 6. — Vs. 385 fort. νὺξ ἀναλύει μέν. — Vs. 388 dedi ἂν pro ἐάν. — Vs. 389 Vind. 2 πάρεκδρ. — Vs. 394 dedi ἀκολούθει pro ἐπακολούθει e Vind. 1. Tum scripsi ἐπιχωρίοις pro ἐγχωρίοις e Vind. 3 et 4. — Vs. 395 „κατὰ πολλοὺς τοὺς τρόπους dabat codex.” Schneider. Vind. 4 ξενιτεία. Fort. ξενία [γέ τοι] χαλεπή ’στι. — Vs. 397 ἀδικήσεις. V. Schaefer. ad Brunckii Poes. Eth. p. 313. — Vs. 399 Vind. 4 ζήσῃς h. e. ζήσεις. — Vs. 400 apud Boiss. An. I p. 157: ξένους προτίμα· σὺ γὰρ ἔσῃ ξένος ποτέ. — Vs. 401 editus et Vind. 3 ξένον. — Vs. 402 ξενηδόχους. V. Schaefer. l. l. p. 319. — Vs. 406 non suo loco positus est. V. Philem. Fragm. inc. 52 b. Post πάλιν adde ἄν. — Vs. 407 editus οὐχ αὑτὸν φιλεῖ. — Vs. 409 scribendum videtur ὅπου βία, παρ᾽ οὐδὲν ἰσχύει νόμος. — Vs. 410 a Stob. Flor. LXIII 20. Menandro tribuitur, ubi est φιλούντων. Convenit fere Terentii illud Andr. III 3 23: <quote>Amantium ira amoris integratio</quote>, ubi nostrum versum comparavit Lindenb. T. II p. 107 West. unde eum Clericus ad Menandri Andriam rettulit. — Vs. 411 est Menandri versus. Vide p. 187. — Vs. 415 δι᾽ ὀργῆς Guelf. — Vs. 418 „Vind. 1 μὴ ἐκφάνῃς. Vind. 2 φάνῃς.” Schneider. Vide Philemonis Inc. 52 b. — Vs. 419 ἐν οὐδενί edidit Aldus. Delevit praepositionem Grotius, sequente Brunckio. Schneiderus οὐδενός. V. supra p. 195. — Vs. 420 Menandri versus apud Stob. Flor. XVIII 4. Anton. Meliss. LXVIII p. 116. Clement. Alex. Paed. II p. 179. Cfr Gataker. Adv. Posth. p. 453 et 557 et Porson. apud Schaefer. ad Brunckii P. Eth. p. 316. — Vs. 421 editur</note>
+          </div>
+          <div type="textpart" subtype="work_prose">
+            <p>An. I p. 158: σοφοῦ γὰρ ἀνδρὸς εὐλαβοῦ συμβουλίας. — Vs. 487 editus πρῶτον. — Vs. 489 addidi πολλὰς e Grotii Exc. p. 945. — Vs. 490. Vide ad Menandri Fragm. p. 76. — Vs. 491 Aldus φοβοῦ τὸ γῆρας. — Vs. 493 Aldus ἀνδράσιν. — Vs. 495. Similiter Agatho apud Simplicium ad Aristot. Phys. p. 73 B. Ald. τέχνη τύχην ἔστερξε καὶ τέχνη τύχην. Editus τύχῃ τέχνην εἵρηκας, οὐ τέχνῃ τύχην. — Vs. 496 μείζονας βλάβας editus. Codd. μεγάλας ζημίας. — Vs. 497 est apud Stob. Ecl. ph. I p. 198. Respicit Simplicius l. l. Vind. 3. 4. et Guelf. εὐπραγοῦντα. — Vs. 498 fort. fuit olim ἅπασ᾽ ἐν ἀνθρώποισι τέθνηκεν χάρις. — Vs. 501 apud Boiss. An. I p. 158 τὸν εὐποιοῦνθ᾽. — Vs. 505 Menandro tribuitur apud Stob. Flor. V 9. ubi versus ita scriptus est: ταμιεῖον ἀρετῆς ἐστι σωφροσύνηνη. Sic etiam Gesnerus in margine, at in textu: ταμιεῖόν ἐστιν ἀρετῆς ἡ σωφροσύνη, in quo latere suspicor ἀρετῆς ἐστιν ἡ σώφρων γυνή. Ita iam in prim. edit. Postea idem Dobraeus Adv. II p. * *. Ceterum v. infra ad Alexandrum. — Vs. 515 Euripidi tribuit Stob. Ecl. phys. I p. 340. — Vs. 517 codd. ὑφ᾽ ἡδονῆς φρόνιμος οὐκ ἂν ἁλίσκεται. Correxi in edit. mai. Confirmat nunc codex apud Boiss. Anecd. I p. 158. — Vs. 524 Aldus ποιοῦμεν κακά. — Vs. 525 addidi ἔστ᾽. — Vs. 529 „vulgatum ἐν κακοῖς μὴ παρίδῃς Brunck. in περιΐδῃς mutavit. προδοίης Guelf. [et Vind. 3 4.] πρόδος Vind. 2. δι᾽ ὀργῆς Guelf." Schneider. — Vs. 532 Alexidi tribuitur apud Stob. Serm. VI 24. — Vs. 536 possis ἁλίσκεται. Sed quid est λιπαρὸν φρόνημα? — Vs. 537 non est veteris poetae versus. — Vs. 538 si versus est comici, scribendum κἂν Ἅιδου πύλας, ut voluit Erfurdt. ad Soph. Ant. 1226. Fortasse iambographi versus est. — Vs. 539. Editus ἡ δοῦσα πάντα καὶ κομίζεται φύσις. Cfr vs. 89 et Eurip. Orionis Gnom. II 1. — Vs. 540 editus οἴκους ἐστὶν ἀνδράσιν γυνή. Apud Boiss. An. I p. 26 χειμὼν μέγιστος οἰκίας κακὴ γυνή. — Vs. 543 Guelf. δάκτυλος δὲ δάκτυλον. — Vs. 544 legebatur ἐπ᾽ αἰσχρὸν οὐδέποτε χρὴ πρᾶγμα. Correxi in edit. mai. Confirmat nunc Vind. 6. qui pro οὐδέποτε χρὴ habet οὐδόλως</p>
+          </div>
+        </div>
+        <pb n="356" facs="urn:hathi:hvd.32044098646714:scan:380" />
+        <div type="textpart" subtype="fragment" n="565" xml:id="meineke-0541-gnomai_monostichoi-565">
+          <lg>
+            <l n="565" xml:id="meineke-0541-gnomai_monostichoi-565-l565">Ἀγαθὰ προθύμως καὶ λάλει καὶ μάνθανε.</l>
+            <l n="566" xml:id="meineke-0541-gnomai_monostichoi-565-l566">Ἄκουε πάντων, ἐκλέγου δ᾽ ἃ συμφέρει.</l>
+            <l n="567" xml:id="meineke-0541-gnomai_monostichoi-565-l567">Βούλου τὸ πρῶτον εὐσεβεῖν πρὸς τὸν θεόν.</l>
+            <l n="568" xml:id="meineke-0541-gnomai_monostichoi-565-l568">Βουλὴ πονηρὰ χρηστὸν οὐκ ἔχει τέλος.</l>
+            <l n="569" xml:id="meineke-0541-gnomai_monostichoi-565-l569">Γέλως τὰ σεμνὰ τοῦ βίου τοῖς σώφροσιν.</l>
+            <l n="570" xml:id="meineke-0541-gnomai_monostichoi-565-l570">Δίκαιος ἴσθι καὶ φίλοισι καὶ ξένοις.</l>
+            <l n="571" xml:id="meineke-0541-gnomai_monostichoi-565-l571">Ἔλεγχε σαυτὸν ὅστις εἶ πράττων κακῶς.</l>
+            <l n="572" xml:id="meineke-0541-gnomai_monostichoi-565-l572">*Ἦθος πανοῦργον μακρὰν οἰκίζει θεοῦ.</l>
+            <l n="573" xml:id="meineke-0541-gnomai_monostichoi-565-l573">Ἤθη τὰ πάντων ἐν χρόνῳ πειράζεται.</l>
+            <l n="574" xml:id="meineke-0541-gnomai_monostichoi-565-l574">Θυμὸν φυλάττου· τὸ φρονεῖν γὰρ οὐκ ἔχει.</l>
+            <l n="575" xml:id="meineke-0541-gnomai_monostichoi-565-l575">Ἴσον ἐστὶν εἰς πῦρ καὶ γυναῖκας ἐμπεσεῖν.</l>
+            <l n="576" xml:id="meineke-0541-gnomai_monostichoi-565-l576">Κόλαζε κρίνων ἀλλὰ μὴ θυμούμενος.</l>
+            <l n="577" xml:id="meineke-0541-gnomai_monostichoi-565-l577">Λύπης ἰατρός ἐστιν ὁ χρηστὸς φίλος.</l>
+            <l n="578" xml:id="meineke-0541-gnomai_monostichoi-565-l578">Μηδέποτε δοῦλον ἡδονῆς σαυτὸν ποίει.</l>
+            <l n="579" xml:id="meineke-0541-gnomai_monostichoi-565-l579">Νοῦς ἐστι πάντων ἡγεμὼν τῶν χρησίμων.</l>
+            <l n="580" xml:id="meineke-0541-gnomai_monostichoi-565-l580">Νόμοις ἕπεσθαι πάντα δεῖ τὸν σώφρονα.</l>
+            <l n="581" xml:id="meineke-0541-gnomai_monostichoi-565-l581">Ὁ βίος ἀδήλους τὰς μεταπτώσεις ἔχει.</l>
+            <l n="582" xml:id="meineke-0541-gnomai_monostichoi-565-l582">Οὐδεὶς ποιῶν πονηρὰ λανθάνει θεόν.</l>
+            <l n="583" xml:id="meineke-0541-gnomai_monostichoi-565-l583">Πολυπραγμονεῖν ἀλλότρια μὴ βούλου κακά.</l>
+            <l n="584" xml:id="meineke-0541-gnomai_monostichoi-565-l584">Τὸ γνῶθι σαυτὸν πᾶσίν ἐστι χρήσιμον.</l>
+            <l n="585" xml:id="meineke-0541-gnomai_monostichoi-565-l585">Τοῦτ᾽ ἐστὶ τὸ ζῆν μὴ σεαυτῷ ζῆν μόνῳ.</l>
+            <l n="586" xml:id="meineke-0541-gnomai_monostichoi-565-l586">Τὰ δ᾽ αἰσχρὰ κέρδη συμφορὰς ἐργάζεται.</l>
+            <l n="587" xml:id="meineke-0541-gnomai_monostichoi-565-l587">Ὕπουλος ἀνὴρ δίκτυον κεκρυμμένον.</l>
+            <l n="588" xml:id="meineke-0541-gnomai_monostichoi-565-l588">Ὕδωρ θαλάσσης ὁ τρόπος τῶν δυσκόλων.</l>
+            <l n="589" xml:id="meineke-0541-gnomai_monostichoi-565-l589">Φῶς ἐστι τῷ νῷ πρὸς θεὸν βλέπειν ἀεί.</l>
+            <l n="590" xml:id="meineke-0541-gnomai_monostichoi-565-l590">Φίλος φίλου δεόμενος οὐκ ἔστιν φίλος.</l>
+            <l n="591" xml:id="meineke-0541-gnomai_monostichoi-565-l591">Χαίρειν προσήκει τοῖς παθῶν ἐλευθέροις.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΔΑΚΤΥΛΙΟΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.daktylios.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.daktylios.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.daktylios.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_daktylios">
+        <head>ΔΑΚΤΥΛΙΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-daktylios-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-daktylios-1-l1">Dein hunc locutu'st in modum miserrimus,</l>
+            <l n="2" xml:id="meineke-0541-daktylios-1-l2">ut collocare gnatam in matrimonium</l>
+            <l n="3" xml:id="meineke-0541-daktylios-1-l3">gravetur, quinquaginta quum habeat filias.</l>
+          </lg>
+        </div>
+        <pb n="99" facs="urn:hathi:hvd.32044098646714:scan:123" />
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-daktylios-1_2">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-daktylios-1_2-l1">Ἐπὶ τοῦδ᾽ αὖθις οὑτοσὶ κακοδαίμων ἔφη,</l>
+            <l n="2" xml:id="meineke-0541-daktylios-1_2-l2">ὡς οὐκ ἂν ἐκδοίη γε θυγατέρ᾽ ἄσμενος,</l>
+            <l n="3" xml:id="meineke-0541-daktylios-1_2-l3">καὶ ταῦτα πεντήκοντα παιδίσκας ἔχων.</l>
+          </lg>
+          <note type="source">
+            <bibl>Ammonius p. 110:</bibl> παιδίσκη καὶ παῖς διαφέρει· παιδίσκη μὲν γὰρ ἡ ἐλευθέρα παρ᾿ Ἀττικοῖς, παῖς δὲ ἡ δούλη. Μένανδρος ἐν Δακτυλίῳ <quote>Ἐπὶ τοῦδ᾽ αὖθις</quote> κτλ.</note>
+          <note type="apparatus">Vs. 1 Aldus et cod. Par. αν τις et ἔφυ pro αὖθις et ἔφη. Valckenarius Bentleii coniecturam recepit ἐπὶ τοῦδε δ᾽ αὖθ᾽ οὕτως ὁ κακοδαίμων ἔφη, quod propter αὖτε ferri non potest. Coniicias ἔπειτα δ᾽ αὖθις τοῦθ᾽ ὁ κακοδαίμων ἔφη. Sed non dubito quin aliud quid lateat. Dobraeus Adv. II p. 272: ἐπεὶ οὐδὲ εἷς οὕτως γε κακοδαίμων ἔφυ. — Vs. 2 Aldus ἐκδείη θυγατέρας μένος. Correxit Scaliger, quamquam rectius fortasse Pauwius ἐκδοίη θυγατέρ᾽ ἄν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-daktylios-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-daktylios-2-l1">Maritum succo viventem suo,</l>
+            <l n="2" xml:id="meineke-0541-daktylios-2-l2">nihil indigentem dotis ecce invenimus.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-daktylios-2_2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-daktylios-2_2-l1">Οἰκόσιτον νυμφίον</l>
+            <l n="2" xml:id="meineke-0541-daktylios-2_2-l2">οὐδὲν δεόμενον προικὸς ἐξευρήκαμεν.</l>
+          </lg>
+          <note type="source">
+            <bibl>Athenaeus VI p. 247 f:</bibl> καλεῖται οἰκόσιτος ὁ μὴ μισθοῦ ἀλλὰ προῖκα τῇ πόλει ὑπηρετῶν. — Μένανδρος Δακτυλίῳ <quote>Οἰκόσιτον</quote> κτλ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-daktylios-3">
+          <head>III.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-daktylios-3-l1">Natum est subventaneum.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-daktylios-3_2">
+          <head>III.</head>
+          <note type="source">
+            <bibl>Photius, Ὑπηνέμια:</bibl> λέγουσιν (Attici) ὡς ἡμεῖς. — Πλάτων δὲ ὁ φιλόσοφος ἐν Θεαιτήτῳ ἀνεμιαῖα, καὶ Μένανδρος Δακτυλίῳ <quote>ἀνεμιαῖον ἐγένετο.</quote> τὰ δίχα σπέρματος ἄρρενος.</note>
+          <note type="apparatus">Eadem Suidas v. ὑπηνέμια.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-daktylios-4">
+          <head>IV.</head>
+          <note type="source">
+            <bibl>Harpocratio s. v. αὐτολήκυθοι:</bibl> τὸ ὄνομα καὶ παρὰ Μενάνδρῳ ἔν τε Ἡνιόχῳ καὶ Δακτυλίῳ.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Nausicrates, ΝΑΥΚΛΗΡΟΙ: fragments</title>
+        <author>Nausicrates</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0478.naykleroi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0478.naykleroi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0478.naykleroi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0478_naykleroi">
+        <head>ΝΑΥΚΛΗΡΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0478-naykleroi-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0478-naykleroi-1-l1">Δύο μὲν ἁπαλοὶ καὶ καλοί</l>
+            <l n="2" xml:id="meineke-0478-naykleroi-1-l2">. . . . τοῦ ναυτίλοισι πολλάκις</l>
+            <l n="3" xml:id="meineke-0478-naykleroi-1-l3">ἤδη φανέντος πελαγίοις ἐν ἀγκάλαις,</l>
+            <l n="4" xml:id="meineke-0478-naykleroi-1-l4">ὃν καὶ τὰ θνητῶν φασιν ἀγγέλλειν πάθη.</l>
+            <sp>
+              <speaker>
+                <foreign xml:lang="grc">Β.</foreign>
+              </speaker>
+              <l n="5" xml:id="meineke-0478-naykleroi-1-l5">γλαῦκον λέγεις. <speaker>
+                  <foreign xml:lang="grc">Α.</foreign>
+                </speaker> ἔγνωκας.</l>
+            </sp>
+          </lg>
+          <note type="source">Athenaeus VII p. 296 a. de glauco pisce disserens: <quote>Ναυσικράτης Ναυκλήροις Δύο μέν, φησίν, ἁπαλοί κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 2 Dobraeus Adv. II p. 315 probabili coniectura supplet παῖδες θεοῦ. Porsonus ἐπώνυμοι in Append. ad Toupii Emend. p. 477. — Vs. 3 πελαγίοις ἐν ἀγκάλαις. Imitatur sermonem tragicorum. Aeschylus apud schol. Aristoph. 716: ψυχὰς ἔχοντες κυμάτων ἐν ἀγκάλαις. Cfr Stanleius ad Aesch. Choeph. 578. Ceterum vide ad sequens fragmentum.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0478-naykleroi-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0478-naykleroi-2-l1">Μετ᾿ αὐτῶν δ᾽ εἰσὶν ἐκπρεπεῖς φύσιν</l>
+            <l n="2" xml:id="meineke-0478-naykleroi-2-l2">αἱ ξανθοχρῶτες, ἃς κλύδων Αἰξωνικός</l>
+            <l n="3" xml:id="meineke-0478-naykleroi-2-l3">πασῶν ἀρίστας ἐν τόποις παιδεύεται,</l>
+            <l n="4" xml:id="meineke-0478-naykleroi-2-l4">αἷς καὶ θεὰν τιμῶσι φωσφόρον Κόρην</l>
+            <l n="5" xml:id="meineke-0478-naykleroi-2-l5">δείπνων ὅταν πέμπωσι δῶρα ναυτίλοι.</l>
+            <sp>
+              <speaker>
+                <foreign xml:lang="grc">Β.</foreign>
+              </speaker>
+              <l n="6" xml:id="meineke-0478-naykleroi-2-l6">τρίγλας λέγεις. γαλακτοχρῶτα Σικελὸς ὅν</l>
+            </sp>
+            <l n="7" xml:id="meineke-0478-naykleroi-2-l7">πήγνυσ᾽ ὄχλος ῥόμβος.</l>
+          </lg>
+          <pb n="576" facs="urn:hathi:hvd.32044098646714:scan:600" />
+          <note type="apparatus">
+            <note type="source">Athenaeus VII p. 325 e: <quote>Ναυσικράτης δ᾽ ὁ κωμῳδιοποιὸς ἐπαινεῖ τὰς Αἰξωνικὰς τρίγλας ἐν Ναυκλήροις λέγων οὕτως <quote>Μετ᾽ αὐτῶν — τρίγλας λέγεις.</quote>
+              </quote> Idem p. 330 b: <quote>Ῥωμαῖοι δὲ καλοῦσι τὴν ψῆτταν ῥόμβον, καὶ ἔστι τὸ ὄνομα ἑλληνικόν. Ναυσικράτης ἐν Ναυκλήροις· προειπὼν δὲ περὶ γλαύκου τοῦ ἰχθύος ἐπιφέρει <quote>Αἱ ξανθοχρῶτες — πήγνυσ᾽ ὄχλος ῥόμβος.</quote>
+              </quote>
+            </note> Vs. 2 κλίδων priore loco BP et altero C. Ibidem Αἰξωνικὸς priore loco C. ἐξωνικὸς ABPVL. altero loco Αἰξωνικὸς CL. ἐξωνικὸς ABPV. — Vs. 3 loco priore ἐντόπους epit. Hoeschelii, quod sequuti sunt Schweigh. et Dindorfius. Praestat opinor ἐντόποις, incolis, vel ἐμπόροις, quod malim. Quamquam nec ἐν τόποις, in locis illis, spernendum. Cfr Aristoph. Thesm. 664: εἴτις ἐν τόποις ἑδραῖος ἄλλος αὖ λέληθεν ὤν. — Vs. 6 altero loco τρίγλαν. Postrema verba γαλακτοχρῶτα etc. quae ex altero Athenaei loco accesserunt, quid sibi velint nemo adhuc docuit. Recte Schweighaeuserus contra Casaubonum monuit, non hoc dicere Athenaeum, ψῆτταν piscem Graecis etiam ῥόμβον fuisse vocatum: sed hoc unum eum voluisse, latinum vocabulum rhombum sua origine graecum esse. Iam numerorum concinnitatem et sententiam ita quodammodo restituere licebit:<lg>
+              <l n="8" xml:id="meineke-0478-naykleroi-2-l8">τρίγλαν λέγεις γαλακτοχρῶτα, Σικελὸς ἥν</l>
+              <l n="9" xml:id="meineke-0478-naykleroi-2-l9">πήγνυσ᾽ ὄχλος ῥόμβοισι.</l>
+            </lg> H. e. triglam dicis, quam Siciliensis plebecula magicarum rotarum strepitu defigit. Quae ad nescio quam Siculorum superstitionem spectare videntur. At vix credibile est triglis, quas paucis versibus ante ξανθοχρῶτας appellaverat, nunc lacteum colorem tribui. Accedit quod Athenaeus Nausicratem ῥόμβον commemorasse dicit, postquam is de glauco pisce dixisset, προειπὼν περὶ γλαύκου τοῦ ἰχθύος ἐπιφέρει. Ex quo apertum esse arbitror verba „γαλακτοχρῶτα Σικελὸς ὃν πήγνυσ᾽ ὄχλος ῥόμβοισι” ad glaucum piscem, non autem ad triglam pertinere, et cum primo fabulae fragmeuto ita coniungenda esse:<lg>
+              <l n="10" xml:id="meineke-0478-naykleroi-2-l10">γλαῦκον λέγεις γαλακτοχρῶτα, Σικελὸς ὅν</l>
+              <l n="11" xml:id="meineke-0478-naykleroi-2-l11">πήγνυσ᾽ ὄχλος ῥόμβοισι.</l>
+            </lg>
+          </note>
+          <pb n="577" facs="urn:hathi:hvd.32044098646714:scan:601" />
+          <note type="apparatus">Glauci capturam cum magicis artibus coniunctam fuisse eo minus mirandum, cum alia etiam mirifica de illo pisce a veteribus credita sint. V. Fragm. Anon. MS apud Schneider. ad Marcell. Sid. p. 95. Haec si vera sunt, consentaneum est postremam partem secundi fragmenti ita scribendam esse: <quote>Β. τρίγλας λέγεις. Α. ἔγνωκας.</quote> Itaque ex mea quidem sententia utrumque fragmentum ita scribendum fuerit:
+<lg>
+              <l n="12" xml:id="meineke-0478-naykleroi-2-l12">Δύο μὲν ἁπαλοὶ καὶ καλοί</l>
+              <l n="13" xml:id="meineke-0478-naykleroi-2-l13">[παῖδες θεοῦ] τοῦ ναυτίλοισι πολλάκις</l>
+              <l n="14" xml:id="meineke-0478-naykleroi-2-l14">ἤδη φανέντος πελαγίοις ἐν ἀγκάλαις,</l>
+              <l n="15" xml:id="meineke-0478-naykleroi-2-l15">ὃν καὶ τὰ θνητῶν φασιν ἀγγέλλειν πάθη.</l>
+              <l n="16" xml:id="meineke-0478-naykleroi-2-l16">
+                <sp>
+                  <speaker>Β.</speaker>
+                  <p>γλαῦκον λέγεις γαλακτοχρῶτα, Σικελὸς ὅν</p>
+                </sp>
+              </l>
+              <l n="17" xml:id="meineke-0478-naykleroi-2-l17">πήγνυσ᾽ ὄχλος ῥόμβοισιν.</l>
+              <l n="18" xml:id="meineke-0478-naykleroi-2-l18">
+                <sp>
+                  <speaker>Β.</speaker>
+                  <p>ἔγνωκας . .</p>
+                </sp>
+              </l>
+              <l n="19" xml:id="meineke-0478-naykleroi-2-l19">. . .</l>
+              <l n="20" xml:id="meineke-0478-naykleroi-2-l20">
+                <sp>
+                  <speaker>Α.</speaker>
+                  <p>μετ᾽ αὐτῶν δ᾽ εἰσὶν ἐκπρεπεῖς φύσιν</p>
+                </sp>
+              </l>
+              <l n="21" xml:id="meineke-0478-naykleroi-2-l21">αἱ ξανθοχρῶτες, ἃς κλύδων Αἰξωνικός</l>
+              <l n="22" xml:id="meineke-0478-naykleroi-2-l22">πασῶν ἀρίστας ἐν τόποις παιδεύεται·</l>
+              <l n="23" xml:id="meineke-0478-naykleroi-2-l23">αἷς καὶ θεὰν τιμῶσι φωσφόρον Κόρην</l>
+              <l n="24" xml:id="meineke-0478-naykleroi-2-l24">δείπνων ὅταν πέμπωσι δῶρα ναυτίλοι.</l>
+              <l n="25" xml:id="meineke-0478-naykleroi-2-l25">
+                <sp>
+                  <speaker>Β.</speaker>
+                  <p>τρίγλας λέγεις.</p>
+                </sp>
+                <sp>
+                  <speaker>Α.</speaker>
+                  <p>ἔγνωκας.</p>
+                </sp>
+              </l>
+            </lg>
+Praeterea etiam in prioribus loci verbis aliquid vitii inesse suspicor, siquidem ex vs. 5 colligi potest, initio non plures glaucos sed unum tantum commemoratum fuisse. Itaque nescio an, non Athenaeus quidem, at poeta vs. 1 et 2 ita fere scripserit: <quote>Ἄκουε δή. πρῶτον μὲν ἁπαλὸς καὶ καλὸς | παῖς τοῦ θεοῦ τοῦ ναυτίλοισι κτλ.</quote> et vs. 7 <quote>μετ᾽ αὐτὸν</quote> pro <quote>μετ᾽ αὐτῶν</quote>. In fragmento multis modis turbato audacioribus coniecturis locus non denegandus est. Superest ut de altero Athenaei loco VII p. 330 b. aliquid adiiciam, in quo non tantum inutiles sunt scriptoris consilio quattuor illi Nausicratis versus <quote>αἱ ξανθοχρῶτες — τρίγλας λέγεις</quote>, sed etiam haec verba <quote>προειπὼν δὲ περὶ γλαύκου τοῦ ἰχθύος ἐπιφέρει</quote>, manca et imperfecta sunt. Meo iudicio optime omnia se habebunt, si recisis illis versibus locus ita constituitur: <quote>προειπὼν</quote>
+          </note>
+          <pb n="578" facs="urn:hathi:hvd.32044098646714:scan:602" />
+          <note type="apparatus">δὲ περὶ [ Γλαύκου τοῦ θεοῦ, εἶτα περὶ] τοῦ ἰχθύος ἐπιφέρει·
+<lg>
+              <l n="26" xml:id="meineke-0478-naykleroi-2-l26">γλαῦκον λέγεις γαλακτοχρῶτα, Σικελὸς ὅν</l>
+              <l n="27" xml:id="meineke-0478-naykleroi-2-l27">πήγνυσ᾽ ὄχλος ῥόμβοισι.</l>
+            </lg>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

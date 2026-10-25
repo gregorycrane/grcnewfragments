@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΑΙΡΗΣΙΤΕΙΧΗΣ ΕΥΝΟΥΧΟΣ Η ΣΤΡΑΤΙΩΤΗΣ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.airesiteiches_eynoychos_e_stratiotes.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.airesiteiches_eynoychos_e_stratiotes.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.airesiteiches_eynoychos_e_stratiotes.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_airesiteiches_eynoychos_e_stratiotes">
+        <head>ΑΙΡΗΣΙΤΕΙΧΗΣ ΕΥΝΟΥΧΟΣ Η ΣΤΡΑΤΙΩΤΗΣ</head>
+        <pb n="377" facs="urn:hathi:hvd.32044098646714:scan:401" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0447-airesiteiches_eynoychos_e_stratiotes-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-airesiteiches_eynoychos_e_stratiotes-1-l1">῎Εσθ᾿ ὑποχέασθαι πλείονας, πιεῖν γέ τι</l>
+              <l n="2" xml:id="meineke-0447-airesiteiches_eynoychos_e_stratiotes-1-l2">ἁδρότερον ἢ τῶν Ῥοδιακῶν ἢ τῶν ῥυτῶν.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XI p. 496 e: Ῥοδιάς. Δίφιλος Αἱρησιτείχει· τὸ δὲ δρᾶμα τοῦτο Καλλίμαχος ἐπιγράφει Εὐνοῦχον. λέγει δὲ οὕτως Πιεῖν δὲ ἄνδρ᾽ ἕτερον ἢ τῶν Ῥοδιακῶν ἢ τῶν ῥυτῶν.</note>
+          <note type="apparatus">Ita libri: L ex altero loco statim apponendo πιεῖν γέ τι ἁδρότερον. Dindorfius πιεῖν δὲ δεῖ ἁδρότερον. Alter quem dicebam locus, ex quo verba ἔσθ᾿ ὑποχέασθαι πλείονας accesserunt, paullo inferius legitur ubi de ῥυτῷ poculo disserit: Δίφιλος δ᾽ ἐν Εὐνούχῳ ἢ Στρατιώτῃ, ἔστι δὲ τὸ δρᾶμα διασκευὴ τοῦ Αἱρησιτείχους· Ἔσθ᾿ ὑποχέασθαι πλείονας· πιεῖν γέ τι ἁδρότερον κτλ. Hic etiam Dindorfius πιεῖν δὲ δεῖ ἁδρότερον ex sua ipse coniectura edidit. Sufficit fortasse πιεῖν τ᾽ ἔτι. Eidem debetur ὑποχέασθαι pro librorum lectione ὑποσχέσθαι. Altero versu nescio an ἐκ τῶν pro ἢ τῶν scribendum sit; hoc enim opinor dicit: plures cyathi suffundendi sunt et largius quam adhuc bibendum, ex Rhodiacis illis aut rhytis. Quos magni ambitus calices fuisse consentaneum est. Cfr Dioxippi Philarg. I, 2. De rhytis vide Letronnium de Nominibus vasorum etc. p. 65 sq. Ἁδρότερον πίνειν dixit etiam Xenophanes apud Athenaeum X p. 463: κεῖνος τῶν ἄλλων ὁδρότερον πιέτω. Pro ῥοδιακῶν Schweighaeuserus in prima huius fabulae editione ῥοδιάδων scriptum fuisse suspicatur, cui favet quodammodo Photius Lex. p. 489 16. Ῥοδιακὸν καὶ Ῥοδιάς: εἶδος ἐκτώματος. οὕτως Δίφιλος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0447-airesiteiches_eynoychos_e_stratiotes-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-airesiteiches_eynoychos_e_stratiotes-2-l1">Ἀλλ᾿ ὁ πανὸς ὕδατός ἐστι μεστός.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XV p. 700 e: πανὸς δ᾽ ὀνομάζεται τὸ δια-</note>
+          <pb n="378" facs="urn:hathi:hvd.32044098646714:scan:402" />
+          <note type="source">
+            <quote>κεκομμένον ξύλον καὶ συνδεδεμένον· τούτῳ δ᾽ ἐχρῶντο λαμπάδι. Μένανδρος Ἀνεψιοῖς (Fragm. IV p. 87) Δίφιλος Στρατιώτῃ <l n="2" xml:id="meineke-0447-airesiteiches_eynoychos_e_stratiotes-2-l2">Ἀλλ᾽ ὁ πανὸς ὕδατός ἐστι μεστός.</l> πρότερός τε τούτων Αἰσχύλος ἐν Ἀγαμέμνονι μέμνηται τοῦ πανοῦ [καὶ Εὐριπίδης] ἐν Ἴωνι.</quote>
+          </note>
+          <note type="apparatus">Ita enim haec legenda esse monui ad Alexidis fragm. p. 517. Forma πανός antiqui Attici constanter usi esse videntur. Eustathius ex Aelio Dionysio, ut puto, ad Iliad. p. 1189 24: <quote>τὸ παρ᾿ Ὁμήρῳ πυρὸς σέλας ἤτοι πυρσὸν φανὸν οἱ νεώτεροι Ἀττικοὶ εἶπον. ὁ δ᾽ αὐτὸς καὶ πανός, ἀπὸ τοῦ φαίνειν σχηματισθεὶς κατὰ μεταβολὴν τοῦ φ, οἷον πανοῦχον ἄξαντες (leg. ἅψαντες) φλόγα.</quote> Quae Sophoclis verba esse suspicor ex Helenae nuptiis. Photius p. 377 21. <quote>Πανόν: ἀπὸ τοῦ πάντα φαίνειν σχηματισθέντα, κατὰ μεταβολὴν τοῦ φ. Σοφοκλῆς Ἑλένης γάμῳ.</quote> Ad Diphili locum ut redeam, iisdem prope modum verbis usus est Menander l. l. <quote>ὁ φανός ἐστι μεστὸς ὕδατος οὑτοσί.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_4_5" ana="#compiled-citation-normalized" xml:id="meineke-0447-airesiteiches_eynoychos_e_stratiotes-3_4_5">
+          <note type="source">Antiatticista p. 95 17. <quote>Ἐκφυγγάνω: Δίφιλος Εὐνούχῳ.</quote> — Idem p. 100 31. <quote>Κάθου: ῎Αλεξις Ταραντίνοις, Δίφιλος Εὐνούχῳ.</quote> — Idem p. 101 29. <quote>Κλεῖν ἀξιοῦσι λέγειν, οὐ κλεῖδα. Δίφιλος Εὐνούχῳ.</quote>
+          </note>
+          <note type="apparatus">Fortasse igitur Diphili sunt quae tacito auctoris nomine affert Herodianus Hermanni p. 307: <quote>ὁ δ᾽ ἀγοράζει κλεῖδ᾽ ἔχων.</quote>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

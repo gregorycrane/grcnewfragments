@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Nicomachus, ΕΙΛΕΙΘΥΙΑ: fragments</title>
+        <author>Nicomachus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0482.eileithyia.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0482.eileithyia.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0482.eileithyia.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0482_eileithyia">
+        <head>ΕΙΛΕΙΘΥΙΑ</head>
+        <div type="textpart" subtype="fragment" n="1" author_heading="NICOMACHUS." work_heading="ΕΙΛΕΙΘΥΙΑ." xml:id="meineke-0482-eileithyia-1">
+          <lg>
+            <l n="1" xml:id="meineke-0482-eileithyia-1-l1">Ὑποδεικνύεις μὲν ἦθος ἀστεῖον πάνυ</l>
+            <l n="2" xml:id="meineke-0482-eileithyia-1-l2">καὶ πρᾶον, ὀλίγωρον δὲ πεποίηκάς τι. Β. πῶς;</l>
+            <l n="3" xml:id="meineke-0482-eileithyia-1-l3">Α. ἐν τῇ τέχνῃ τίνες ἐσμὲν οὐκ ἐξήτακας.</l>
+            <l n="4" xml:id="meineke-0482-eileithyia-1-l4">ἢ πρότερον ἐπύθου τῶν ἀκριβῶς εἰδότων</l>
+            <l n="5" xml:id="meineke-0482-eileithyia-1-l5">οὕτω τ᾿ ἐμισθώσω με; Β. μὰ Δί᾽ ἐγὼ μὲν οὔ.</l>
+            <l n="6" xml:id="meineke-0482-eileithyia-1-l6">Α. ἡ μὴν ἴσως ὅσον μαγείρου διαφέρει</l>
+            <l n="7" xml:id="meineke-0482-eileithyia-1-l7">μάγειρος οὐκ οἶσθ᾽. Β. εἴσομαι δέ γ᾽ ἣν λέγῃς.</l>
+            <l n="8" xml:id="meineke-0482-eileithyia-1-l8">τὸ γὰρ παραλαβόντ᾽ ὄψον ἠγορασμένον</l>
+            <l n="9" xml:id="meineke-0482-eileithyia-1-l9">πότερ᾽ ἀποδοῦναι σκευάσαντα μουσικῶς</l>
+            <l n="10" xml:id="meineke-0482-eileithyia-1-l10">διακόνου 'στ' οὐ τοῦ τυχόντος; Α. Ἡράκλεις.</l>
+            <l n="11" xml:id="meineke-0482-eileithyia-1-l11">ὁ μάγειρός ἐσθ᾽ ὁ τέλειος ἑτέρα διάθεσις.</l>
+            <l n="12" xml:id="meineke-0482-eileithyia-1-l12">πολλὰς τέχνας λάβοις ἂν ἐνδόξους πάνυ,</l>
+            <l n="13" xml:id="meineke-0482-eileithyia-1-l13">ὧν τὸν μαθεῖν βουλόμενον ὀρθῶς οὐκ ἔνι</l>
+            <l n="14" xml:id="meineke-0482-eileithyia-1-l14">ταύταις προσελθεῖν εὐθίς· ἀλλ᾽ ἔμπροσθε δεῖ</l>
+            <l n="15" xml:id="meineke-0482-eileithyia-1-l15">ζωγραφίας ἧφθαι. ταὐτὰ καὶ μαγειρικῆς</l>
+            <l n="16" xml:id="meineke-0482-eileithyia-1-l16">πρότερον μαθεῖν δεῖ τῆς τέχνης ἑτέρας τέχνας,</l>
+            <l n="17" xml:id="meineke-0482-eileithyia-1-l17">ὧν εἰδέναι σοι κρεῖττον ἦν μοι πρὶν λαλεῖν,</l>
+            <l n="18" xml:id="meineke-0482-eileithyia-1-l18">ἀστρολογικήν, γεωμετρικήν, ἰατρικήν.</l>
+            <l n="19" xml:id="meineke-0482-eileithyia-1-l19">τῶν ἰχθύων γὰρ τὰς δυνάμεις καὶ τὰς τύχας</l>
+            <l n="20" xml:id="meineke-0482-eileithyia-1-l20">ἐντεῦθεν εἴσει, παρακολουθήσεις χρόνοις,</l>
+          </lg>
+          <pb n="584" facs="urn:hathi:hvd.32044098646714:scan:608" />
+          <lg>
+            <l n="21" xml:id="meineke-0482-eileithyia-1-l21">πότ’ ἄωρός ἐσθ’ ἕκαστος ἢ πόθ’ ὥριμος.</l>
+            <l n="22" xml:id="meineke-0482-eileithyia-1-l22">τῶν ἡδονῶν γὰρ μεγάλα τὰ διαστήματα·</l>
+            <l n="23" xml:id="meineke-0482-eileithyia-1-l23">ἐνίοτε κρείττων γίγνεται θύννου βόαξ.</l>
+            <sp>
+              <speaker>
+                <choice>
+                  <sic>Β.</sic>
+                  <corr>Β</corr>
+                </choice>
+              </speaker>
+              <l n="24" xml:id="meineke-0482-eileithyia-1-l24">ἔστω. γεωμετρικῇ δὲ καὶ σοὶ πρᾶγμα τί;</l>
+            </sp>
+            <sp>
+              <speaker>Α.</speaker>
+              <l n="25" xml:id="meineke-0482-eileithyia-1-l25">τοὐπτάνιον ἡμεῖς σφαῖραν εἶναι τιθέμεθα.</l>
+              <l n="26" xml:id="meineke-0482-eileithyia-1-l26">τοῦτο διελέσθαι καὶ τόπον λαβόνθ’ ἕνα</l>
+              <l n="27" xml:id="meineke-0482-eileithyia-1-l27">μερίσαι κατ’ εἶδος τῆς τέχνης ἐπιδέξια,</l>
+              <l n="28" xml:id="meineke-0482-eileithyia-1-l28">ἐκεῖθεν ἐνταῦθ’ ἐστὶ μετενηνεγμένα.</l>
+            </sp>
+            <sp>
+              <speaker>Β.</speaker>
+              <l n="29" xml:id="meineke-0482-eileithyia-1-l29">οὗτος, πέπεισμαι· καὶ τὰ λοιπὰ μὴ λάλει.</l>
+            </sp>
+            <sp>
+              <speaker>Α.</speaker>
+              <l n="30" xml:id="meineke-0482-eileithyia-1-l30">περὶ τῆς ἰατρικῆς δέ· τῶν γὰρ βρωμάτων</l>
+              <l n="31" xml:id="meineke-0482-eileithyia-1-l31">πνευματικὰ καὶ δύσπεπτα καὶ τιμωρίαν</l>
+              <l n="32" xml:id="meineke-0482-eileithyia-1-l32">ἔχοντ’ ἔνι’ ἔστιν, οὐ τροφήν. δειπνῶν δὲ πᾶς</l>
+              <l n="33" xml:id="meineke-0482-eileithyia-1-l33">τἀλλότρια γίγνετ’ ὀξύχειρ κοὐκ ἐγκρατής.</l>
+              <l n="34" xml:id="meineke-0482-eileithyia-1-l34">τοῖς δὴ τοιούτοις βρώμασιν τὰ φάρμακα</l>
+              <l n="35" xml:id="meineke-0482-eileithyia-1-l35">εὕρητ’ ἐκεῖθεν, μεταφορὰ δ’ ἐστὶν τέχνης.</l>
+              <l n="36" xml:id="meineke-0482-eileithyia-1-l36">ἤδη τὸ μετὰ νοῦ καὶ τὸ συμμέτρως ἐμόν.</l>
+              <l n="37" xml:id="meineke-0482-eileithyia-1-l37">παρὰ τακτικῆς, ἕκαστα ποῦ τεθήσεται·</l>
+              <l n="38" xml:id="meineke-0482-eileithyia-1-l38">ἀριθμῷ τὸ πλῆθος εἰδέναι μαγειρικῆς.</l>
+              <l n="39" xml:id="meineke-0482-eileithyia-1-l39">οὐδεὶς ἕτερός σοι πρὸς ἐμὲ καὶ γραφήσεται.</l>
+            </sp>
+            <sp>
+              <speaker>Β.</speaker>
+              <l n="40" xml:id="meineke-0482-eileithyia-1-l40">μικρὰ διάκουσον ἐν μέρει κἀμοῦ.</l>
+            </sp>
+            <sp>
+              <speaker>Α.</speaker>
+              <l n="41" part="F" xml:id="meineke-0482-eileithyia-1-l41">λέγε.</l>
+            </sp>
+            <sp>
+              <speaker>Β.</speaker>
+              <l n="42" xml:id="meineke-0482-eileithyia-1-l42">σὺ μηδὲν ἐνόχλει μήτε σαυτὸν μήτ’ ἐμέ,</l>
+              <l n="43" xml:id="meineke-0482-eileithyia-1-l43">ἀπραγμόνως δὲ διαγενοῦ τὴν ἡμέραν.</l>
+            </sp>
+          </lg>
+          <note type="source">
+            <bibl>Athenaeus VII p. 290 e:</bibl>
+            <quote>Νικόμαχος δ’ ἐν Εἰλειθυίᾳ καὶ αὐτὸς παράγει τινὰ μάγειρον ὑπερβάλλοντα τοὺς περὶ τὸν Διόνυσον τεχνίτας. λέγει δ’ οὖν οὗτος πρὸς τὸν μισθωσάμενον Ὑποδεικνύεις κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 2 fortasse πεποίηκάς τί πως. — Vs. 5 et 6 vulgo οὐκ ᾤμην. Β. ἴσως. Grotius οὐκ. Α. ἦ μήν. Iacobsius οὔ. Α. καὶ μήν. — Vs. 6 et 7 μαγείρου διαφέρει μάγειρος Schweighaeuserus. διαφέρει μαγείρου μάγειρος ABCDPQ. διαφέρει διακόνου μάγειρος VL. Pro ἦν malim ἄν. Vide supra p. 451 sq. Post vs. 7 C ita</note>
+          <pb n="585" facs="urn:hathi:hvd.32044098646714:scan:609" />
+          <note type="apparatus">pergit: ἔπειτα αὐχήσας ὁ μάγειρος εἰδέναι τὸ ἠγορασμένον ὄψον σκευάζειν μουσικῶς, ληρεῖ ὅτι πρὸ τῆς μαγειρικῆς τέχνης πρότερον μαθεῖν δεῖ ἑτέρας τέχνας, ἀστρολογικήν, ἰατρικήν κτλ. — Vs. 10 vulgo διακόνου 'στὶ τοῦ. Cod. A διακόνουσ᾿ τούτου. Correxit Schweighaeuserus, qui totam hanc ῥῆσιν inde a vs. 8 usque ad τυχόντος vs. 10 alteri personae continuandum et per interrogationem efferendam vidit: <quote>At sciam si tu dixeris: nam acceptum piscem emtum reddere scite paratum, nonne hoc est famuli cuiuslibet?</quote> Atque ita etiam Dobraeus Append. ad Aristoph. p. (114), pro πότερον vs. 9 scribens πότερ᾿, quem sequutus est etiam Dindorfius. Quibus Hanovius Exerc. crit. p. 131 ita obloquutus est, ut neque πότερον vel πότερα in simplici oratione recte dici affirmaret, et vs. 10 non διακόνου ἐστὶν οὐ τοῦ τυχόντος, sed potius οὐ τοῦ τυχόντος διακόνου ἐστὶ dicendum fuisse contenderet. Neutrum recte obiectum est. De πότερον in simplici interrogatione (altera tacite suppressa) vide ne longe abeam Aeschyl. Pers. 244. Sophocl. Oed. Col. 333 et Philoct. 1219. Anaxandrid. Ter. I 2 et Fragm. comic. anonym. 186. Alterum autem, διακόνου σ̓τ᾿ οὐ τοῦ τυχόντος, recte dictum videbit, qui οὐχ ὁ τυχών de eximio homine recte dici meminerit. Itaque illud idem est ac si dixisset διακόνου ἐστὶ διαφέροντος. — Vs. 11 sententia verborum est τελείου μαγείρου ἑτέρα ἐστὶ διάθεσις. — Vs. 14 ἀλλὰ ἔμπροσθεν B. — Vs. 15 mirifice a sensu loci aberrarunt interpretes. Multae sunt artes, inquit, quas percipere non licet nisi antea alias artes in subsidium vocaveris. Simillima vide apud Sosipatrum Καταψευδ. 15. — Vs. 15 verba ζωγραφίας ἧφθαι corrupta esse et metrum arguit et multo magis sententiae ratio. Falluntur enim interpretes qui ζωγραφίαν, quam poeta commemorat, hunc ad coquinariam artem necessariam statuisse existimant. Immo certissimum est mancum esse locum, et intercidisse eius artis memoriam, ad quam pictoria opus esse dixerat. Tum demum ad coquinariam redit, ταὐτὰ καὶ μαγειρικῆς κτλ. ita etiam qui coquinariae arti operam daturus est, ei multae ante artes addiscendae</note>
+          <pb n="586" facs="urn:hathi:hvd.32044098646714:scan:610" />
+          <note type="apparatus">
+            <p>sunt, astrologia, geometria, medica. Vere igitur Dindorfius vs. 14 ex pluribus versibus contractum videri statuit. — Vs. 15 pro ταὐτὰ BP habent ταῦτα. Recte Dindorfius suspicatur κατὰ ταὐτὰ olim scriptum fuisse. — Vs. 17 pro ὧν cod. B ὡς. Ibid. λαβεῖν PVL. λαλεῖν A. Quae si vera est lectio, non intellegitur cur non πρίν μοι poeta scripserit. Sed vereor ne hic etiam alia corrupta sint. — Vs. 18 γεωμετρικήν, ἰατρικήν ex mea emendatione (in notis mscr.) edidit Dindorfius. Aque hunc verum esse verborum ordinem, ut de metro taceam, etiam sequentia docent, in quibus illae artes eodem ordine recensentur. Vidit id nunc etiam Dobraeus Advers. II p. 314. Vulgo ἰατρικὴν γεωμετρικήν. — Vs. 19 τύχας pro τέχνας Erfurdtio praeeunte Observ. p. 462 restitui. Ineptum est quod Dobraeus coniecit τροφάς. — Vs. 20 libri εἴσῃ. Ibidem legendum videtur παρακολουθήσας. — Vs. 21 pro πότ᾽ ἄωρος cod. B πόθωρος. Neque aliter ut puto cod. A. Fortasse igitur scribendum πόθ᾽ ὥριός ἐσθ᾽ ἕκαστος ἢ πότ᾽ ἀώριος, verborum ordine haud paullo commodiore. — Vs. 25 τοὐπτάνιον pro τοὐπτάνειον vel τοὐπτανεῖον Casaubonus, qui de sensu loci haec annotavit: „Non hoc dicit coquus, e culinae totius ambitu locum „deligi, ubi omnia artis totius officia exerceantur, sed hoc „potius, culinam sic dividi a coquis solitam, ut singulis artis „suae partibus proprium locum assignent." — Vs. 29 οὗτος AC. οὕτως PVL. λάλει VL. λαλεῖς AP. λαλῆς C. — Vs. 32 ἔνι᾽ ἔστιν ex mea emendatione edidit Dindorfius. Libri ἔνεστιν. Ibidem B δείπνω δέπας. P δειπνωδέπας. — Vs. 35 verba μεταφορὰ δ᾽ ἐστὶν τέχνης praeeunte Iacobsio a sequentibus separavi. — Vs. 36 pro ἐμὸν Iacobsius tentabat ἔχον, sublata in fine versus distinctione. Mihi haec gravius corrupta videntur quam ut coniectura sanari possint. Ac fortasse versus excidit, ut ita oratio procedat: ἤδη τὸ μετὰ νοῦ καὶ τὸ συμμέτρως ἔχον | παρ᾽ ἀρχιτεκτονικῆς διδάσκεται τέχνης. Quae inde a vs. 37 sequuntur in C ita contracta leguntur: ἔπειτα δεικνύει ὁ μάγειρος ὅτι καὶ τακτικῆς ἔστι τὸ εἰδέναι ἕκαστα ποῦ τεθήσεται, τὸ ἀριθμεῖν τὸ</p>
+          </note>
+          <pb n="587" facs="urn:hathi:hvd.32044098646714:scan:611" />
+          <note type="apparatus">
+            <p>πλῆθος, ἣν καὶ αὐτὴν δεῖ εἰδέναι τὸν μάγειρον. — <label>Vs. 38</label> pro μαγειρικῆς Iacobsius λογιστικῆς, Grotius ἀριθμητικῆς. Utrumque Plato in Gorgia ita distinguit, ut ἀριθμητικὴ iactantiae hominis magis convenire videatur quam λογιστική. Itaque scribendum videtur εἰδένἀριθμητικῆς. Vide vol. III p. 14. — <label>Vs. 39</label> fortasse κἀγγραφήσεται, scil. in tabulas quibus coquorum nomina inscripta erant. — <label>Vs. 41</label> ante Dindorfium μηθὲν ut vs. 39 οὐθείς. Clausulam eclogae comparare licet cum simillimo loco Sosipatri quem supra posui p. 484.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0482-eileithyia-1_2">
+          <quote>
+            <sp>
+              <speaker>A.</speaker>
+              <l n="1" xml:id="meineke-0482-eileithyia-1_2-l1">Ingenium lepidum ostendis ac tractabile:</l>
+              <l n="2" xml:id="meineke-0482-eileithyia-1_2-l2">sed negligenter hic fuisti.</l>
+            </sp>
+            <sp>
+              <speaker>B.</speaker>
+              <l n="3" xml:id="meineke-0482-eileithyia-1_2-l3">Quomodo?</l>
+            </sp>
+            <sp>
+              <speaker>A.</speaker>
+              <l n="4" xml:id="meineke-0482-eileithyia-1_2-l4">Non explorasti in arte me quantus forem.</l>
+              <l n="5" xml:id="meineke-0482-eileithyia-1_2-l5">an forte ab aliis rem qui scirent didiceras,</l>
+              <l n="6" xml:id="meineke-0482-eileithyia-1_2-l6">atque ita me conduxisti?</l>
+            </sp>
+            <sp>
+              <speaker>B.</speaker>
+              <l n="7" xml:id="meineke-0482-eileithyia-1_2-l7">Nil certe minus.</l>
+            </sp>
+            <sp>
+              <speaker>A.</speaker>
+              <l n="8" xml:id="meineke-0482-eileithyia-1_2-l8">Ignoras igitur forte, famulus et coquus</l>
+              <l n="9" xml:id="meineke-0482-eileithyia-1_2-l9">quid distent.</l>
+            </sp>
+            <sp>
+              <speaker>B.</speaker>
+              <l n="10" xml:id="meineke-0482-eileithyia-1_2-l10">At si docueris, iam scivero.</l>
+            </sp>
+            <sp>
+              <speaker>A.</speaker>
+              <l n="11" xml:id="meineke-0482-eileithyia-1_2-l11">Accipere ab alio praestinatum obsonium,</l>
+              <l n="12" xml:id="meineke-0482-eileithyia-1_2-l12">id sic ut oportet concinnatum reddere,</l>
+              <l n="13" xml:id="meineke-0482-eileithyia-1_2-l13">famuli sunt opera, non coqui.</l>
+            </sp>
+            <sp>
+              <speaker>B.</speaker>
+              <l n="14" xml:id="meineke-0482-eileithyia-1_2-l14">Quid praedicas?</l>
+            </sp>
+            <sp>
+              <speaker>A.</speaker>
+              <l n="15" xml:id="meineke-0482-eileithyia-1_2-l15">Coqui perfecti longe est alia qualitas.</l>
+              <l n="16" xml:id="meineke-0482-eileithyia-1_2-l16">multas ego artes claras nominaverim,</l>
+              <l n="17" xml:id="meineke-0482-eileithyia-1_2-l17">quas qui non recte didicerit, non debeat</l>
+              <l n="18" xml:id="meineke-0482-eileithyia-1_2-l18">ad nostram prosilire: de pictoria</l>
+            </sp>
+          </quote>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

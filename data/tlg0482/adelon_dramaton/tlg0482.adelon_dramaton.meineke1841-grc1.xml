@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Nicomachus, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <author>Nicomachus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0482.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0482.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0482.adelon_dramaton.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0482_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0482-adelon_dramaton-1">
+          <head>1.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0482-adelon_dramaton-1-l1">Οὐσίδιον γὰρ καταλιπόντος μοι πατρός</l>
+              <l n="2" xml:id="meineke-0482-adelon_dramaton-1-l2">οὕτω συνεστρογγύλικα κἀξεκόκκισα</l>
+              <l n="3" xml:id="meineke-0482-adelon_dramaton-1-l3">ἐν μησὶν ὀλίγοις ὥσπερ ᾠόν τις ῥοφῶν.</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <p>Athenaeus II p. 58 a: ᾠῶν δὲ ῥοφητῶν μνημονεύει Νικόμαχος Οὐσίδιον γάρ κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>
+              <label>Vs. 1</label> οὐσίδιον BCDV. οὐσείδιον L. Ibidem libri μοι τοῦ πατρός. Correxit Iacobsius Addit. p. 48. — <label>Vs. 2</label> nescio quo consilio diversa tempora coniuncta sint. Fortasse συνεστρογγύλισα vel συνεστρόγγυλα. Cfr Alexis Phaedr. II 4.</p>
+          </note>
+        </div>
+        <pb n="588" facs="urn:hathi:hvd.32044098646714:scan:612" />
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0482-adelon_dramaton-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0482-adelon_dramaton-2-l1">Ὦ χαῖρε χρυσόκλυστα καὶ χρυσοῦς ἐμῶν.</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <bibl>Athenaeus XI p. 781 f:</bibl> φησὶ πρός τινα Νικόμαχος Ὦ χαῖρε κτλ.</note>
+          <note type="apparatus">Aberat χαῖρε, quod addendum esse monui Curis crit. p. 29. Tum χρυσόκλυστα scripsi pro χρυσοκλαῦστα cum Letronnio Dissert. de nomin. vas. graec. p. 56. Compellari videtur homo qui quae furatus est reddere cogitur. Aristoph. Acharn. 6: τοῖς πέντε ταλάντοις οἷς Κλέων ἐξήμεσεν. Equit. 1147: ἀναγκάσω πάλιν ἐξεμεῖν ἅττ’ ἂν κεκλόφωσί μου. Quamquam χρυσόκλυστα καὶ χρυσοῦς ἐμεῖν etiam is dici potuit, qui divitias suas et auri acervos temere iactaret. Ita Diphilus Pict. II 21 dixit λαλῶν τὰ ναῦλα καὶ δάνει’ ἐρυγγάνων.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

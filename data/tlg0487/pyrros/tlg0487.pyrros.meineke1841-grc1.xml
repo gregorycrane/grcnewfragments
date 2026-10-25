@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΠΥΡΡΟΣ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.pyrros.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.pyrros.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.pyrros.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_pyrros">
+        <head>ΠΥΡΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0487-pyrros-unnumbered">
+          <lg>
+            <l n="1" xml:id="meineke-0487-pyrros-unnumbered-l1">Οἱ φιλόσοφοι ζητοῦσιν, ὡς ἀκήκοα,</l>
+            <l n="2" xml:id="meineke-0487-pyrros-unnumbered-l2">περὶ τοῦτό τ᾽ αὐτοῖς πολὺς ἀναλοῦται χρόνος,</l>
+            <l n="3" xml:id="meineke-0487-pyrros-unnumbered-l3">τί ἐστιν ἀγαθόν, κοὐδὲ εἷς εὕρηκέ πω</l>
+            <l n="4" xml:id="meineke-0487-pyrros-unnumbered-l4">τί ἐστιν. ἀρετὴν καὶ φρόνησίν φασι, καὶ</l>
+            <l n="5" xml:id="meineke-0487-pyrros-unnumbered-l5">λέγουσι πάντα μᾶλλον ἢ τί τἀγαθόν.</l>
+            <l n="6" xml:id="meineke-0487-pyrros-unnumbered-l6">ἐν ἀγρῷ διατρίβων τήν τε γῆν σκάπτων ἐγὼ</l>
+            <l n="7" xml:id="meineke-0487-pyrros-unnumbered-l7">νῦν εὗρον· εἰρήνη σ̓τίν· ὦ Ζεῦ φίλτατε,</l>
+            <l n="8" xml:id="meineke-0487-pyrros-unnumbered-l8">τῆς ἐπαφροδίτου καὶ φιλανθρώπου θεοῦ.</l>
+            <l n="9" xml:id="meineke-0487-pyrros-unnumbered-l9">γάμους, ἑορτάς, συγγενεῖς, παῖδας, φίλους,</l>
+            <l n="10" xml:id="meineke-0487-pyrros-unnumbered-l10">πλοῦτον, ὑγίειαν, σῖτον, οἶνον, ἡδονήν,</l>
+            <l n="11" xml:id="meineke-0487-pyrros-unnumbered-l11">αὕτη δίδωσι· ταῦτα πάντ᾽ ἂν ἐκλίπῃ,</l>
+            <l n="12" xml:id="meineke-0487-pyrros-unnumbered-l12">τέθνηκε κοινῇ πᾶς ὁ τῶν ζώντων βίος.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. LV 5 cum lemmate Φιλήμονος ἐκ Πύρρου. Suspicabar Φιλήμονος Ἐμπόρου. Similiter apud Harpocr. 130 26 codices pro Δίφιλος Ἐμπόρῳ habent Δ. ἐν πορρω et ἐν πόρῳ.</note>
+          <note type="apparatus">Vs. 2 A et Voss. τοῦτο θ᾽ ἑαυτοῖς. Atque ita etiam Trinc. Recepit Gaisfordius. Β τοῦ, τότ᾽ αὐτοῖς. — Vs. 3 Brunckius ad Aristoph. Plut. 985: τί τἀγαθόν ἐστι, quod verum videtur. — Vs. 4 τί Α. B. Voss. Grotius. Vulgo τις. — Vs. 5 πάντα Α. Β. Voss. et Gesneri margo. Ibid. λέγουσι Brunckius; libri πλέκουσι. — Vs. 10 libri ὑγείαν. V. edit. mai. — Vs. 11 scribendum videtur αὕτη δίδωσι ταῦτα πάνθ᾽, ἂν ἐκλίπῃ etc.</note>
+          <quote>
+            <lg>
+              <l n="1_2" xml:id="meineke-0487-pyrros-unnumbered-l1_2">Sollicita quaerit philosophorum natio,</l>
+              <l n="2_2" xml:id="meineke-0487-pyrros-unnumbered-l2_2">immane quantis temporum dispendiis,</l>
+              <l n="3_2" xml:id="meineke-0487-pyrros-unnumbered-l3_2">quae sit boni natura; nec reperit tamen.</l>
+              <l n="4_2" xml:id="meineke-0487-pyrros-unnumbered-l4_2">virtutem praefert ille, at hi prudentiam:</l>
+              <l n="5_2" xml:id="meineke-0487-pyrros-unnumbered-l5_2">omniaque dicunt potius, quam quid sit bonum.</l>
+              <l n="6_2" xml:id="meineke-0487-pyrros-unnumbered-l6_2">ego terram fodiens, vivens vitam rusticam,</l>
+              <l n="7_2" xml:id="meineke-0487-pyrros-unnumbered-l7_2">quam facile inveni, Iuppiter, quid sit bonum!</l>
+              <l n="8_2" xml:id="meineke-0487-pyrros-unnumbered-l8_2">pax nempe, sospitatrix et clemens dea:</l>
+              <l n="9_2" xml:id="meineke-0487-pyrros-unnumbered-l9_2">prolem, cognatos, sacra, amicos, nuptias,</l>
+              <l n="10_2" xml:id="meineke-0487-pyrros-unnumbered-l10_2">annonam, vinum, sanitatem, gaudia,</l>
+              <l n="11_2" xml:id="meineke-0487-pyrros-unnumbered-l11_2">divitias pax fert: ista si defecerint,</l>
+              <l n="12_2" xml:id="meineke-0487-pyrros-unnumbered-l12_2">nulla esse hominibus vita vitalis potest.</l>
+            </lg>
+          </quote>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

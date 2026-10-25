@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΠΟΛΥΠΡΑΓΜΩΝ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.polypragmon.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.polypragmon.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.polypragmon.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_polypragmon">
+        <head>ΠΟΛΥΠΡΑΓΜΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0447-polypragmon-1">
+          <head>ΠΟΛΥΠΡΑΓΜΩΝ.</head>
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-polypragmon-1-l1">Ὤιμην ἐγὼ τοὺς ἰχθυοπώλας τὸ πρότερον</l>
+              <l n="2" xml:id="meineke-0447-polypragmon-1-l2">εἶναι πονηροὺς τοὺς Ἀθήνησιν μόνους.</l>
+              <l n="3" xml:id="meineke-0447-polypragmon-1-l3">τόδε δ᾽, ὡς ἔοικε, τὸ γένος ὥσπερ θηρίον</l>
+              <l n="4" xml:id="meineke-0447-polypragmon-1-l4">ἐπίβουλόν ἐστι τῇ φύσει καὶ πανταχοῦ.</l>
+              <l n="5" xml:id="meineke-0447-polypragmon-1-l5">ἐνταῦθα γοῦν ἔστιν τις ὑπερηκοντικώς,</l>
+              <l n="6" xml:id="meineke-0447-polypragmon-1-l6">κόμην τρέφων μὲν πρῶτον ἱερὰν τοῦ θεοῦ,</l>
+              <l n="7" xml:id="meineke-0447-polypragmon-1-l7">ὡς φησίν· οὐ διὰ τοῦτό γ᾽, ἀλλ᾽ ἐστιγμένος</l>
+              <l n="8" xml:id="meineke-0447-polypragmon-1-l8">πρὸ τοῦ μετώπου παραπέτασμ᾽ αὐτὴν ἔχει.</l>
+              <l n="9" xml:id="meineke-0447-polypragmon-1-l9">οὗτος ἀποκρίνετ᾽, ἂν ἐρωτήσῃς πόσου</l>
+              <l n="10" xml:id="meineke-0447-polypragmon-1-l10">ὁ λάβραξ, δέκ᾽ ὀβολῶν, οὐχὶ προσθεὶς ὁποδαπῶν.</l>
+              <l n="11" xml:id="meineke-0447-polypragmon-1-l11">ἔπειτ᾽ ἐὰν τἀργύριον αὐτῷ καταβάλῃς,</l>
+              <l n="12" xml:id="meineke-0447-polypragmon-1-l12">ἐπράξατ᾽ Αἰγιναῖον· ἂν δ᾽ αὐτὸν δέῃ</l>
+              <l n="13" xml:id="meineke-0447-polypragmon-1-l13">κέρματ᾽ ἀποδοῦναι, προσαπέδωκεν Ἀττικά.</l>
+              <l n="14" xml:id="meineke-0447-polypragmon-1-l14">κατ᾽ ἀμφότερα δὲ τὴν καταλλαγὴν ἔχει.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus VI p. 225 a. de piscariorum malitia et fraudibus comicorum poetarum testimonia afferens: Δίφιλος Πο-</note>
+          <pb n="408" facs="urn:hathi:hvd.32044098646714:scan:432" />
+          <note type="source">λυπράγμονι <quote>Ὤιμην ἐγώ</quote> κτλ.</note>
+          <note type="apparatus">Vs. 3 vulgo τόδ᾽ ὡς ἔοικε. Correxit Schweighaeuserus. Ibidem pro θηρίον, velut excetra, Wakefieldius Sylv. crit. II p. 91 sine iusta causa θηρίων. — Vs. 6 κόμην τρέφων ἱερὰν τοῦ θεοῦ. Morem comam diis alendi iam Homero Iliad. 23 142 cognitum ne serioribus quidem temporibus obsolevisse indicio est Dio Chrysost. XXXV p. 67: πολλοὶ γὰρ ἤδη διὰ θεόν τινα κομῶσιν ἄνθρωποι. — Vs. 7 malim τοῦτο δ᾽. — Vs. 9 ἀπεκρίνετ᾽ B. — Vs. 10 προσθεὶς ὁποδαπῶν Schweighaeuserus. Vulgo προσθεὶς σοι ποταπῶν, unde Toupius προσθεὶς ὁποταπῶν, de qua forma cfr vol. III p. 488. At cod. AP προσθήσοι ποδαπῶν. — Vs. 11 ἔπειτ᾽ ἐὰν Porsonus Adv. p. 50. VL ἔπειτά γ᾽ ἄν. ABCP ἔπειτα ἄν. — Vs. 12 ἐπράξατ᾽ Αἰγιναῖον. Obolos Aegineticos crassiores et maioris pretii quam Atticos fuisse constat. Vid. Mülleri Aegin. p. 89. qui vs. 12 recte scripsit Ἀττικά, sc. κέρματα. Libri Ἀττικάς, quod Schweighaeuserus mutabat in Ἀττικούς. — Vs. 13 καταλλαγὴ de lucro ex permutanda pecunia nato dixit etiam laudatus a Schweighaeusero Demosth. c. Polycl. p. 1216 18. Adde Euphronem Athenaei XI p. 503 b.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0447-polypragmon-2">
+          <lg>
+            <l n="1" xml:id="meineke-0447-polypragmon-2-l1">Τί ποτ᾽ ἐστίν; ὡς ῥαγδαῖος ἐξελήλυθεν.</l>
+          </lg>
+          <note type="source">Photius Lex. p. 480 20. <quote>Ῥαγδαίους: τοὺς κεκινημένους καὶ σφοδροὺς καὶ βιαίους. — Δίφιλος Πολυπράγμονι <quote>Τί ποτ᾽ ἐστίν;</quote> κτλ.</quote>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

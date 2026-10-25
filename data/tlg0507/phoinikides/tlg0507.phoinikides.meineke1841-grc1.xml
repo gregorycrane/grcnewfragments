@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Straton, ΦΟΙΝΙΚΙΔΗΣ: fragments</title>
+        <author>Straton</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0507.phoinikides.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0507.phoinikides.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0507.phoinikides.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0507_phoinikides">
+        <head>ΦΟΙΝΙΚΙΔΗΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0507-phoinikides-1">
+          <lg>
+            <l n="1" xml:id="meineke-0507-phoinikides-1-l1">Σφίγγ’ ἄρρεν’, οὐ μάγειρον, εἰς τὴν οἰκίαν</l>
+            <l n="2" xml:id="meineke-0507-phoinikides-1-l2">εἴληφ’· ἁπλῶς γὰρ οὐδὲ ἓν μὰ τοὺς θεούς</l>
+            <l n="3" xml:id="meineke-0507-phoinikides-1-l3">ὅσ’ ἂν λέγῃ συνίημι. καινὰ ῥήματα</l>
+            <l n="4" xml:id="meineke-0507-phoinikides-1-l4">πεπορισμένος πάρεστιν· ὡς εἰσῆλθε γάρ</l>
+            <l n="5" xml:id="meineke-0507-phoinikides-1-l5">εὐθύς μ’ ἐπηρώτησε προσβλέψας μέγα,</l>
+            <l n="6" xml:id="meineke-0507-phoinikides-1-l6">„πόσους κέκληκας μέροπας ἐπὶ δεῖπνον; λέγε.”</l>
+            <l n="7" xml:id="meineke-0507-phoinikides-1-l7">ἐγὼ κέκληκα μέροπας ἐπὶ δεῖπνον; χολᾷς.</l>
+            <l n="8" xml:id="meineke-0507-phoinikides-1-l8">τοὺς δὲ μέροπας τούτους με γιγνώσκειν δοκεῖς;</l>
+            <l n="9" xml:id="meineke-0507-phoinikides-1-l9">οὐδεὶς παρέσται· τοῦτο γὰρ νὴ τὸν Δία</l>
+            <l n="10" xml:id="meineke-0507-phoinikides-1-l10">ἔστι κατάλοιπον, μέροπας ἐπὶ δεῖπνον καλεῖν.</l>
+            <l n="11" xml:id="meineke-0507-phoinikides-1-l11">„οὐδ’ ἄρα παρέσται δαιτυμὼν οὐδεὶς ὅλως;”</l>
+            <l n="12" xml:id="meineke-0507-phoinikides-1-l12">οὐκ οἴομαί γε Δαιτυμών. ἐλογιζόμην,</l>
+            <l n="13" xml:id="meineke-0507-phoinikides-1-l13">ἥξει Φιλίνος, Μοσχίων, Νικήρατος,</l>
+            <l n="14" xml:id="meineke-0507-phoinikides-1-l14">ὁ δεῖν’, ὁ δεῖνα· κατ’ ὄνομ’ ἀνελογιζόμην·</l>
+            <l n="15" xml:id="meineke-0507-phoinikides-1-l15">οὐκ ἦν ἐν αὐτοῖς οὐδὲ εἷς μοι Δαιτυμών.</l>
+            <l n="16" xml:id="meineke-0507-phoinikides-1-l16">οὐδεὶς παρέσται, φημί. „τί λέγεις; οὐδὲ εἷς;”</l>
+            <l n="17" xml:id="meineke-0507-phoinikides-1-l17">σφόδρ’ ἠγανάκτησ’, ὥσπερ ἠδικημένος,</l>
+            <l n="18" xml:id="meineke-0507-phoinikides-1-l18">εἰ μὴ κέκληκα δαιτυμόνας. καινὸν πάνυ.</l>
+            <l n="19" xml:id="meineke-0507-phoinikides-1-l19">„οὐδ’ ἄρα θύεις ἐρυσίχθον’;” οὐκ ἔφην ἐγώ.</l>
+            <l n="20" xml:id="meineke-0507-phoinikides-1-l20">„βοῦν δ’ εὐρυμέτωπον;” οὐ θύω βοῦν, ἄθλιε.</l>
+            <l n="21" xml:id="meineke-0507-phoinikides-1-l21">„μῆλα θυσιάζεις ἆρα;” μὰ Δί’ ἐγὼ μὲν οὔ,</l>
+            <l n="22" xml:id="meineke-0507-phoinikides-1-l22">οὐδέτερον αὐτῶν, προβάτιον δ’. „οὐκοῦν, ἔφη,</l>
+            <l n="23" xml:id="meineke-0507-phoinikides-1-l23">τὰ μῆλα πρόβατα. μανθάνεις”; οὐ μανθάνω</l>
+            <l n="24" xml:id="meineke-0507-phoinikides-1-l24">τούτων οὐδέν, οὐδὲ βούλομαι.</l>
+          </lg>
+          <pb n="546" facs="urn:hathi:hvd.32044098646714:scan:570" />
+          <lg>
+            <l n="25" xml:id="meineke-0507-phoinikides-1-l25">ἀγροικότερός εἰμ᾽, ὥσθ᾽ ἁπλῶς μοι διαλέγου.</l>
+            <l n="26" xml:id="meineke-0507-phoinikides-1-l26">„Ὅμηρον οὐκ οἶδας λέγοντα;” καὶ μάλα</l>
+            <l n="27" xml:id="meineke-0507-phoinikides-1-l27">ἐξῆν ὃ βούλοιτ᾽, ὦ μάγειρ᾽, αὐτῷ λέγειν.</l>
+            <l n="28" xml:id="meineke-0507-phoinikides-1-l28">ἀλλὰ τί πρὸς ἡμᾶς τοῦτο πρὸς τῆς Ἑστίας;</l>
+            <l n="29" xml:id="meineke-0507-phoinikides-1-l29">„κατ᾽ ἐκεῖνον ἤδη πρόσεχε καὶ τὰ λοιπά μοι.</l>
+            <l n="30" xml:id="meineke-0507-phoinikides-1-l30">„Ὁμηρικός γάρ.” διανοεῖ μ᾽ ἀπολλύναι;</l>
+            <l n="31" xml:id="meineke-0507-phoinikides-1-l31">„οὕτω λαλεῖν εἴωθε.” μὴ τοίνυν λάλει</l>
+            <l n="32" xml:id="meineke-0507-phoinikides-1-l32">οὕτως παρ᾽ ἐμοί γ᾽ ὤν. „ἀλλὰ διὰ τὰς τέτταρας</l>
+            <l n="33" xml:id="meineke-0507-phoinikides-1-l33">δραχμὰς ἀποβάλω, φησί, τὴν προαίρεσιν;</l>
+            <l n="34" xml:id="meineke-0507-phoinikides-1-l34">τὰς οὐλοχύτας φέρε δεῦρο.” τοῦτο δ᾽ ἐστὶ τί;</l>
+            <l n="35" xml:id="meineke-0507-phoinikides-1-l35">„κριθαί.” τί οὖν, ἀπόπληκτε, περιπλοκὰς λέγεις;</l>
+            <l n="36" xml:id="meineke-0507-phoinikides-1-l36">„πηγός πάρεστι;” πηγός; οὐχὶ λαικάσει;</l>
+            <l n="37" xml:id="meineke-0507-phoinikides-1-l37">ἐρεῖς σαφέστερόν θ᾽ ὃ βούλει μοι λέγειν;</l>
+            <l n="38" xml:id="meineke-0507-phoinikides-1-l38">„ἀτάσθαλός γ᾽ εἶ, πρέσβυ.” φήσ᾽. „ἅλας φέρε.</l>
+            <l n="39" xml:id="meineke-0507-phoinikides-1-l39">τοῦτ᾽ ἔστι πηγός, ἀλλὰ δεῖξον χέρνιβα.”</l>
+            <l n="40" xml:id="meineke-0507-phoinikides-1-l40">παρῆν. ἔθυεν, ἔλεγεν ἄλλα ῥήματα</l>
+            <l n="41" xml:id="meineke-0507-phoinikides-1-l41">τοιαῦθ᾽ ἃ μὰ τὴν γῆν οὐδὲ εἷς ἤκουσεν ἄν,</l>
+            <l n="42" xml:id="meineke-0507-phoinikides-1-l42">μίστυλλα, μοίρας, δίπτυχ᾽, ὀβελούς, ὥστε με</l>
+            <l n="43" xml:id="meineke-0507-phoinikides-1-l43">τῶν τοῦ Φιλητᾶ λαμβάνοντα βιβλίων</l>
+            <l n="44" xml:id="meineke-0507-phoinikides-1-l44">σκοπεῖν ἕκαστα τί δύναται τῶν ῥημάτων·</l>
+            <l n="45" xml:id="meineke-0507-phoinikides-1-l45">πλὴν ἱκέτευον αὐτὸν ἤδη μεταβαλεῖν</l>
+            <l n="46" xml:id="meineke-0507-phoinikides-1-l46">ἀνθρωπίνως λαλεῖν τε, τὸν δ᾽ οὐκ ἂν ταχύ</l>
+            <l n="47" xml:id="meineke-0507-phoinikides-1-l47">ἔπεισεν ἡ πειθώ μὰ τὴν γῆν οἶδ᾽ ὅτι.</l>
+          </lg>
+          <note type="source">Athenaeus IX p. 382 c: καίτοι καὶ ὁ πρῶτος τῶν τὸν Ὀλυμπίασιν ἀγῶνα ἀναθηκαμένων Κόροιβος ὁ Ἡλεῖος μάγειρος ἦν, καὶ οὐχ οὕτως ὠγκύλλετο ἐπὶ τῇ τέχνῃ, ὡς ὁ παρὰ Στράτωνι μάγειρος ἐν Φοινικίδῃ. περὶ οὗ τοιαῦτα λέγει ὁ μεμισθωμένος· Σφίγγ᾽ ἄρρεν, οὐ μάγειρον κτλ.</note>
+          <note type="apparatus">Ex his versus 1-3 cum initio quarti Philemoni tribuuntur ab Athenaeo XIV p. 659 b. unde recepi inter huius fragmenta p. 48 (411 ed. mai.). Fabulae index utrum Φοινικίδης fuerit,</note>
+          <pb n="547" facs="urn:hathi:hvd.32044098646714:scan:571" />
+          <note type="apparatus">ut ab Athenaeo, an Φοῖνιξ, ut ab Suida vocatur, incertum est. — Vs. 3 pro ὅσ᾿ ἂν λέγῃ Philemo ὧνπερ λέγει. Ibidem pro καινὰ ABC κενά. — Vs. 4 recte Philemo γάρ ἐστι. — Vs. 8 χολᾷς. i. e. μελαγχολᾷς, qui recentiorum usus est. V. ad Antiphanis fragm. p. 158 et Diog. Laert. IX 66 χολήσας τι περὶ τῆς ἀδελφῆς. Ibidem γινώσκειν AB. — Vs. 17 ἠγανάκτησ᾿, h. e. ἠγανάκτησε, Casaubonus et P. ἠγανάκτησα B. ἀγανάκτησ᾿ VL. — Vs. 18 δαιτυμόνα PL. δαιτυμώνα V. δαιτυμόνας ABC. Ibid. σκαιὸν PVL. καινὸν AC. καὶ οὐ B. — Vs. 19 θύει prima brevi dixit ut vs. 20 οὐ θύω βοῦν. Cfr Hist. crit. p. 428. ubi quod dixi θύειν veteris comoediae poetas constanter producere, ei non repugnat Aristoph. Acharn. 792 κάλλιστος ἔσται χοῖρος Ἀφροδίτᾳ θύειν, quae Megarensis verba sunt. Praeter Stratonem ex Atticis poetis qui θύειν prima brevi dixerit nullum novi nisi Euripidem Electr. 1136. quem attuli ad Menandri fragm. ed. mai. p. 254. Nam de Antiphanis fragm. inc. XXVII res incerta est. Heniochi autem locus, quo ibidem usus sum, huc non pertinet. Ibid. ἐρυσίχθονα recte de bove intellegunt. Cfr Lobeckius Aglaoph. p. 856. Sed possis etiam de sue cll. Hesychio, Βωλώρυγα: τὸν σῦν. Λάκωνες. — Vs. 21 ἐγὼ μὲν οὔ PVL. omittunt οὔ ABC. Schweighaeuserus ἐγὼ μὲν οὖν. Malim ἔγωγε μέν. — Vs. 22 δὲ pro δ᾿ BCP. — Vs. 23 sequutus sum Dobraeum Adv. II p. 322. Vulgo πρόβατ᾿ οὐ μανθάνω. Dindorfius locum ita supplendum coniicit:
+<lg>
+              <l n="48" xml:id="meineke-0507-phoinikides-1-l48">οὐδέτερον αὐτῶν, προβάτιον δ᾽, ἔφην ἐγώ.</l>
+              <l n="49" xml:id="meineke-0507-phoinikides-1-l49">οὐκοῦν, ἔφη, τὰ μῆλα πρόβατ᾿. οὐ μανθάνω.</l>
+            </lg>
+Epitome haec inde a verbis οὐκοῦν ἔφη usque ad vs. 30 ita contraxit: οὐκ οὖν, ἔφη, τὰ μῆλα πρόβατα ὅμηρος (ὅμηρον epit. Hoesch.) οὐκ οἶσθα λέγοντα. ὁμηρικῶς γὰρ διανοῇ. — Vs. 24 Casaubonus ἔγωγε τούτων. Possis etiam τούτων ἁπάντων. — Vs. 26 pro οἶδας B οἶδα. Idem μάλ᾿ pro μάλα. — Vs. 27 βούλει τῷ μάγειρ᾿ (μαγείρῳ B) PVL. βούλετ᾿ ὦ μάγειρ᾿ Casaubonus. βούλοιτ᾿ ὦ μάγειρε Coraes. Dindorfius. — Vs. 30 Ὁμηρικὸς γάρ, ut sint coqui verba,</note>
+          <pb n="548" facs="urn:hathi:hvd.32044098646714:scan:572" />
+          <note type="apparatus">
+            <p>Dobraeus. Vulgo Ὁμηρικῶς γὰρ διανοεῖ etc. — Vs. 32 τέσσαρας Β. — Vs. 33 ἀποβάλω Dindorfius: libri ἀποβαλῶ. — Vs. 34 τὰς οὐλ. φέρε δεῦρο affert Eustath. ad Odyss. p. 1476 48. — Vs. 35 περιπλοκὰς λέγεις. Antiphanes Ganym. II 1 περιπλοκὰς ἐρωτᾷς. — Vs. 36 λαικάσει Coraes. Libri λεκὰς εἰ. Casaubonus λευκὰ σὺ allato Eusebio Praep. evang. XI: καὶ τοῦτό γε λευκότερον διασαφήσας, et Φίλων ὁ Ἑβραῖος λευκότερον ἑρμηνεύων, aliisque ex eodem scriptorum genere pluribus. Recepit Casauboni coniecturam Dindorfius. Sed illa significatio adiectivi λευκὸς novitia est et antiquioribus scriptoribus plane incognita. Probavi igitur quod a poeta scriptum esse libri ostendunt, λαικάσει, respondens illud ei „quod effutire apud nos solent homines impuri et ἀνάγωγοι, dicentes allez vous faire f... ut patet ex sequente coqui sermone, ἀτάσθαλός γ᾽ εἶ, πρέσβυ." Coraes. Prorsus ita Cephisidorus Troph. I, 5 λαικάσομ᾽ ἄρα. — Vs. 39 fortasse praestat τοῦτ᾽ ἔστι πηγός; ut haec a sene et per interrogationem dicantur. Cfr ad Antiphan. p. 70. Per autem mirum est πηγὸς apud Homerum de sale usurpatum dici. Homerus arietem denso vellere praeditum dixit πηγεσίμαλλον, equos robustos et torosos πηγούς, et maris undam tumescentem et quasi compactam κῦμα πηγόν. Itaque Strato fortasse alius poetae locum in animo habuit, qui ἅλα πηγόν, marinam aquam concretam, de sale marino dixerat. — Vs. 40 pro παρῆν A habet παρ᾽ ἥν. — Vs. 42 Casaubonus μίστυλλε secundum illud Homericum μίστυλλόν τ᾽ ἄρα τἄλλα. „At nihil impedit quo minus credamus, consulto a poeta hic fingi senem vocabulo aliquo pro Homerico utentem, quod revera nullum fuisset." Schweighaeuserus. Quod etiam ὀβελὸς glossematicis vocabulis accensetur non mirandum est, quum Attici veru non ὀβελὸν sed ὀβελίσκον dicere soleant. — Vs. 43 τῶν τοῦ Φιλητᾶ. V. Hist. crit. p. 427 et 527. — Vs. 45 libri ἱκτεύω γ᾽. Correxit Porsonus. Idem pro ἤδη scripsit ἤθη, receptum a Dindorfio. Sed μεταβάλλειν recte intransitivo sensu dicitur; nec ἤδη, nunc tandem, ineptum.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0507-phoinikides-1_2">
+          <lg>
+            <l n="1" xml:id="meineke-0507-phoinikides-1_2-l1">Sphingem marem equidem, non coquum admisi in domum:</l>
+            <l n="2" xml:id="meineke-0507-phoinikides-1_2-l2">namque, ut simpliciter dicam, nihil intellego</l>
+            <l n="3" xml:id="meineke-0507-phoinikides-1_2-l3">horum quae loquitur. namque vix intraverat,</l>
+            <l n="4" xml:id="meineke-0507-phoinikides-1_2-l4">cum me respiciens acri vultu interrogat:</l>
+            <l n="5" xml:id="meineke-0507-phoinikides-1_2-l5">ad coenam hemones ede quot vocaveris.</l>
+            <l n="6" xml:id="meineke-0507-phoinikides-1_2-l6">egone vocarim hemones? delirus puto es,</l>
+            <l n="7" xml:id="meineke-0507-phoinikides-1_2-l7">aut ullos adeo hemones me nosse autumas?</l>
+            <l n="8" xml:id="meineke-0507-phoinikides-1_2-l8">nemo, inquam ego, aderit. id restabat scilicet</l>
+            <l n="9" xml:id="meineke-0507-phoinikides-1_2-l9">ut hemones nescio quos coenatum accerserem?</l>
+            <l n="10" xml:id="meineke-0507-phoinikides-1_2-l10">an nemo condapalis adventurus est?</l>
+            <l n="11" xml:id="meineke-0507-phoinikides-1_2-l11">non condapalis quod sciam. rationem inî:</l>
+            <l n="12" xml:id="meineke-0507-phoinikides-1_2-l12">venient Philinus, Moschio, Niceratus:</l>
+          </lg>
+          <pb n="846" facs="urn:hathi:hvd.32044098646714:scan:872" />
+          <lg>
+            <l n="13" xml:id="meineke-0507-phoinikides-1_2-l13">nemo isto e numero condapalis dicitur.</l>
+            <l n="14" xml:id="meineke-0507-phoinikides-1_2-l14">nemo aderit, inquam. quid? vocasti neminem?</l>
+            <l n="15" xml:id="meineke-0507-phoinikides-1_2-l15">inquit, succensens tanquam accepta iniuria.</l>
+            <l n="16" xml:id="meineke-0507-phoinikides-1_2-l16">mactasne terrisulcum? non, respondeo.</l>
+            <l n="17" xml:id="meineke-0507-phoinikides-1_2-l17">bovem ergo latifrontem? non macto bovem.</l>
+            <l n="18" xml:id="meineke-0507-phoinikides-1_2-l18">sedenim bidentes? imo, per summum Iovem,</l>
+            <l n="19" xml:id="meineke-0507-phoinikides-1_2-l19">neutrum, sed ovem mactabo. tun’ nescis oves</l>
+            <l n="20" xml:id="meineke-0507-phoinikides-1_2-l20">bidentes dici? nec scio, nec volo discere:</l>
+            <l n="21" xml:id="meineke-0507-phoinikides-1_2-l21">agrestis ego sum, loquere mecum planius.</l>
+            <l n="22" xml:id="meineke-0507-phoinikides-1_2-l22">an Ennium ita locutum ignoras? non nego:</l>
+            <l n="23" xml:id="meineke-0507-phoinikides-1_2-l23">nam licuit illi sic loqui, ut libuit, coque.</l>
+            <l n="24" xml:id="meineke-0507-phoinikides-1_2-l24">sed hoc, per Vestae numen, nos quid attinet?</l>
+            <l n="25" xml:id="meineke-0507-phoinikides-1_2-l25">quin tu magis audi caetera ad eundem modum.</l>
+            <l n="26" xml:id="meineke-0507-phoinikides-1_2-l26">an Enniane me decresti perdere?</l>
+            <l n="27" xml:id="meineke-0507-phoinikides-1_2-l27">meus ita fari mos est. at vero mihi</l>
+            <l n="28" xml:id="meineke-0507-phoinikides-1_2-l28">tu ne sic loquere. propter drachmas quattuor</l>
+            <l n="29" xml:id="meineke-0507-phoinikides-1_2-l29">meam, inquit, perdam vis consuetiloquentiam?</l>
+            <l n="30" xml:id="meineke-0507-phoinikides-1_2-l30">molas huc adfer. hem quid dicis? hordeum.</l>
+            <l n="31" xml:id="meineke-0507-phoinikides-1_2-l31">quid tam perplexa loqueris, insanissime?</l>
+            <l n="32" xml:id="meineke-0507-phoinikides-1_2-l32">adestne humoris aequorei concretio?</l>
+            <l n="33" xml:id="meineke-0507-phoinikides-1_2-l33">quin tu perspicuis verbis edis quid velis?</l>
+            <l n="34" xml:id="meineke-0507-phoinikides-1_2-l34">vecors es, inquit, mi senex: cedo salem:</l>
+            <l n="35" xml:id="meineke-0507-phoinikides-1_2-l35">concretio haec est illa. iam monstra aquiminal.</l>
+            <l n="36" xml:id="meineke-0507-phoinikides-1_2-l36">aderat, mactabat, verba attexens plurima,</l>
+            <l n="37" xml:id="meineke-0507-phoinikides-1_2-l37">quae medius fidius nemo unquam intellexerit:</l>
+            <l n="38" xml:id="meineke-0507-phoinikides-1_2-l38">ercisce, segmina, tum biplicia et subulam:</l>
+            <l n="39" xml:id="meineke-0507-phoinikides-1_2-l39">ut mihi legendus Verrii Flacci liber</l>
+            <l n="40" xml:id="meineke-0507-phoinikides-1_2-l40">fuerit, verborum ut significata evolverem.</l>
+            <l n="41" xml:id="meineke-0507-phoinikides-1_2-l41">nunc supplex oro morem ut immutet suum,</l>
+            <l n="42" xml:id="meineke-0507-phoinikides-1_2-l42">humanitusque loquatur: verum, hercle scio,</l>
+            <l n="43" xml:id="meineke-0507-phoinikides-1_2-l43">suada ipsa id illi neutiquam persuaserit.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Anaxippus, ΚΕΡΑΥΝΟΣ: fragments</title>
+        <author>Anaxippus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0407.keraynos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0407.keraynos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0407.keraynos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0407_keraynos">
+        <head>ΚΕΡΑΥΝΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0407-keraynos-1">
+          <head type="fragment-number">I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0407-keraynos-1-l1">Ὁρῶ γὰρ ἐκ παλαίστρας τῶν φίλων</l>
+            <l n="2" xml:id="meineke-0407-keraynos-1-l2">προσιόντα μοι Λάμιππον. <sp>
+                <speaker>Β.</speaker>
+                <p part="I">ἦ τοῦτον λέγεις,</p>
+              </sp>
+            </l>
+            <l n="3" xml:id="meineke-0407-keraynos-1-l3">
+              <sp part="F">
+                <p>τὸν πέτρινον;</p>
+              </sp>
+              <gap reason="lost" extent="unknown" />
+            </l>
+            <l n="4" xml:id="meineke-0407-keraynos-1-l4">
+              <gap reason="lost" extent="unknown" /> τοῦτον οἱ φίλοι καλοῦσί σοι</l>
+            <l n="5" xml:id="meineke-0407-keraynos-1-l5">νυνὶ δι᾽ ἀνδρείαν Κεραυνόν. <sp>
+                <speaker>Α.</speaker>
+                <p part="I">εἰκότως.</p>
+              </sp>
+            </l>
+            <l n="6" xml:id="meineke-0407-keraynos-1-l6">
+              <sp part="F">
+                <p part="I">ἀβάτους ποιεῖν γὰρ τὰς τραπέζας οἴομαι</p>
+              </sp>
+            </l>
+            <l n="7" xml:id="meineke-0407-keraynos-1-l7">
+              <sp part="F">
+                <p>αὐτόν, κατασκήπτοντά γ᾽ αὐταῖς τῇ γνάθῳ.</p>
+              </sp>
+            </l>
+          </lg>
+          <note type="source">Athenaeus X p. 416 f: Ἀνάξιππος Κεραυνῷ Ὁρῶ γὰρ κτλ.</note>
+          <note type="apparatus">Vs. 2 ἦ a Schweigh. additum. — Vs. 3 indicavi lacunam. Ita vs. 4 servari potuit librorum scriptura, quam non recte indicavit Dindorfius, in libris δίφιλοι pro φίλοι legi dicens. V. Schweighaeuserum. Dindorfius ita locum edidit: <quote>
+              <lg>
+                <l n="8" xml:id="meineke-0407-keraynos-1-l8">τὸν πέτρινον, * * ὃν καλοῦσιν οἱ φίλοι</l>
+                <l n="9" xml:id="meineke-0407-keraynos-1-l9">νυνὶ δι᾽ ἀνδρείαν Κεραυνόν —</l>
+              </lg>
+            </quote> in critica annotatione audacius etiam pro φίλοι fortasse νεώτεροι scribendum esse coniiciens. Elmsleius ad Euripidis Bacch. 10 haec ita exhibuit: <quote>ἦ τοῦτον λέγεις | τὸν * * * ὃν οἱ φίλοι καλοῦσί σοι — .</quote> Qui recte, opinor, haesit in cognomine πέτρινος, pro quo potius πτερινὸν hominem istum appellatum fuisse crediderim. — Vs. 6 ἀβάτους τραπέζας dicit utpote fulmine tactas ideoque nemini adeundas. Similis iocus Aristophontis apud Stobaeum Flor. VI 27: <quote>αἱ τῶν ἑταιρῶν διοπετεῖς γὰρ οἰκίαι γεγόνασιν ἄβατοι τοῖς ἔχουσι μηδὲ ἕν.</quote> Ibidem ποιεῖν abest a PV. add. L. — Vs. 7 αὐταῖς pro vulgato αὐτῇ Dindorfius ex C et Eustathio ad Iliad. λ' p. 962 8: <quote>καί τις ἕτερος πολυφάγος κεραυνὸς ἐκαλεῖτο, ἐπεὶ κατά τινα ποιητὴν ἀβάτους ἐποίει τὰς τραπέζας κατασκήπτων αὐταῖς τῇ γνάθῳ.</quote> Fortasse tamen praestat κατασκήπτοντα ταύταις. Nam ABP γ᾽ ante αὐταῖς omittunt.</note>
+        </div>
+        <pb n="465" facs="urn:hathi:hvd.32044098646714:scan:489" />
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0407-keraynos-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0407-keraynos-2-l1">Οἴμοι, φιλοσοφεῖς. ἀλλὰ τούς γε φιλοσόφους</l>
+            <l n="2" xml:id="meineke-0407-keraynos-2-l2">ἐν τοῖς λόγοις φρονοῦντας εὑρίσκω μόνον,</l>
+            <l n="3" xml:id="meineke-0407-keraynos-2-l3">ἐν τοῖσι δ᾽ ἔργοις ὄντας ἀνοήτους ὁρῶ.</l>
+          </lg>
+          <note type="source">Athenaeus XIII p. 610 f: Ἐμφανίζει δ᾽ ὑμῶν καὶ τὸ ἀνόητον Ἀνάξιππος ὁ κωμῳδιοποιός, ἐν Κεραυνουμένῳ λέγων οὕτως <quote>Οἴμοι φιλοσοφεῖς</quote> κτλ.</note>
+          <note type="apparatus">Versu primo γε Grotius Excerpt. p. 863. Libri τε.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0407-keraynos-3">
+          <head>III.</head>
+          <note type="source">Antiatticista p. 79. <quote>Ἀποτετύχηται: ἀντὶ τοῦ ἀποτέτευκται. Ἀνάξιππος Κεραυνῷ.</quote>
+          </note>
+          <note type="apparatus">Vide Lobeck. ad Phrynichum p. 728 et Buttmann. Gramm. II p. 237.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0407-keraynos-2_2">
+          <lg>
+            <l n="1" xml:id="meineke-0407-keraynos-2_2-l1">Hem philosopharis at ego reapte comperi</l>
+            <l n="2" xml:id="meineke-0407-keraynos-2_2-l2">sapere philosophos tantum verborum tenus;</l>
+            <l n="3" xml:id="meineke-0407-keraynos-2_2-l3">at rebus ipsis esse insipientissimos.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

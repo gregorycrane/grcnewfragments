@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΠΩΛΟΥΜΕΝΟΙ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.poloymenoi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.poloymenoi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.poloymenoi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_poloymenoi">
+        <head>ΠΩΛΟΥΜΕΝΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-poloymenoi-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-poloymenoi-1-l1">Τάλας, ἕστηκας ἔτι πρὸς ταῖς θύραις</l>
+            <l n="2" xml:id="meineke-0541-poloymenoi-1-l2">τὸ φορτίον θείς; σιτόκουρον, ἄθλιον,</l>
+            <l n="3" xml:id="meineke-0541-poloymenoi-1-l3">ἄχρηστον εἰς τὴν οἰκίαν εἰλήφαμεν.</l>
+          </lg>
+          <note type="source">Athenaeus VI p. 248 b: <quote>Μένανδρος δὲ τὸν ἄχρηστον καὶ μάτην τρεφόμενον σιτόκουρον εἴρηκεν — ἐν Πωλουμένοις <title>Τάλας</title> κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 Porsonus Τί ὦ τάλας κτλ. Idem vs. 3 addidit ἄχρηστον.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-poloymenoi-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-poloymenoi-2-l1">Οὐ πανταχοῦ τὸ φρόνιμον ἁρμόττει παρόν,</l>
+            <l n="2" xml:id="meineke-0541-poloymenoi-2-l2">καὶ συμμανῆναι δ᾽ ἔνια δεῖ.</l>
+          </lg>
+          <note type="source">Clemens Alex. Strom. VI p. 264: <quote>καὶ Καλλίᾳ τῷ κωμικῷ γράφοντι „μετὰ μαινομένων φασὶν χρῆναι μαίνεσθαι πάντας ὁμοίως” Μένανδρος ἐν Πωλουμένοις παρισάζεται</quote>
+          </note>
+          <pb n="197" facs="urn:hathi:hvd.32044098646714:scan:221" />
+          <note type="apparatus">λέγων <quote>Οὐ πανταχοῦ</quote> κτλ. Ita iam Sylburgius pro vulgato <quote>καὶ συμβῆναι δ᾽ ἔνια δεῖ.</quote> Suidas II p. 538: <quote>μετὰ γὰρ νοσούντων (insere ἐστὶ) μαίνεσθαι καλόν. χρὴ συνεξομοιοῦσθαι τοῖς παροῦσιν, ὅμοιον τῷ „μαινομένοις μὴ συμμαινόμενος οὗτος μαίνεται.”</quote> Seneca de tranqu. an. XV p. 387: <quote>nam si graeco poetae credimus, aliquando et insanire iucundum est.</quote> Primus versus ἐκ Πωλουμένων affertur etiam ab Orione Gnom. I 12 et tacito auctoris nomine a Stobaeo Schowii Serm. III p. 74, ubi non male editur <quote>οὐ πανταχῆ δ᾽ ὁ φρόνιμος ἁρμόττειν δοκεῖ.</quote> V. edit. mai.</note>
+        </div>
+        <pb n="772" facs="urn:hathi:hvd.32044098646714:scan:798" />
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-poloymenoi-2_2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-poloymenoi-2_2-l1">Non rebus apta est omnibus sapientia:</l>
+            <l n="2" xml:id="meineke-0541-poloymenoi-2_2-l2">aliquando opu'st desipere cum sodalibus.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_5" ana="#compiled-citation-normalized" xml:id="meineke-0541-poloymenoi-3_5">
+          <head>III — V.</head>
+          <note type="source">Incertus Crameri Anecd. Oxon. IV p. 310 24: <quote>μέμνηται τοῦ ὀνόματος (γραμματικὸς) Μένανδρος ἐν Πωλουμένοις.</quote> — Antiatticista p. 105: <quote>Καταφαγάς. Μένανδρος Πωλουμένοις.</quote> Eandem vocem e Menandro affert Phrynichus Epit. p. 433. — Harpocratio p. 58: <quote>διασείστους ἀστραγάλους — παρὰ τὸ κινεῖσθαι καὶ διασείεσθαι πρότερον, εἶτα βάλλεσθαι, ἵν᾽ ἀκακούργητοι μᾶλλον ὦσι. Μένανδρος Πωλουμένοις.</quote> Eadem fere Suidas habet s. v. διάσειστος.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

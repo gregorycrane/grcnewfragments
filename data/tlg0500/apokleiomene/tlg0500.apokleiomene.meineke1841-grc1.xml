@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Posidippus, ΑΠΟΚΛΕΙΟΜΕΝΗ: fragments</title>
+        <author>Posidippus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0500.apokleiomene.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0500.apokleiomene.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0500.apokleiomene.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_apokleiomene">
+        <head>ΑΠΟΚΛΕΙΟΜΕΝΗ</head>
+        <div type="textpart" subtype="fragment" n="1" author_heading="POSIDIPPUS" work_heading="ΑΠΟΚΛΕΙΟΜΕΝΗ" starts_on_page="true" ends_on_page="false" ana="#compiled-citation-normalized" xml:id="meineke-0500-apokleiomene-1">
+          <lg>
+            <l n="1" xml:id="meineke-0500-apokleiomene-1-l1">Ταυτὶ μὲν οὖν τοιαῦτα· συμβαίνει δέ τι</l>
+            <l n="2" xml:id="meineke-0500-apokleiomene-1-l2">νῦν μοι διακονοῦντι παρὰ τῷ δεσπότῃ</l>
+            <l n="3" xml:id="meineke-0500-apokleiomene-1-l3">ἀστεῖον· οὐχ ἁλώσομ᾽ ἐκφέρων κρέας.</l>
+          </lg>
+          <note type="source">
+            <p>Athenaeus XIV p. 659 a: ἀλλ᾽ ὅ γε Ποσείδιππος περὶ δούλων μαγείρων ἐν Ἀποκλειομένῃ φησί Ταυτί κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>Ad eundem hunc locum respiciens iam supra Athenaeus p. 658 f. scripsit: οὐδὲ γὰρ ἂν εὕροι τις ὑμῶν δοῦλόν τινα μάγειρον ἐν κωμῳδίᾳ πλὴν παρὰ Ποσειδίππῳ μόνῳ. Coqui apud Athenienses libera utebantur conditione, habebantque statio-</p>
+          </note>
+          <pb n="515" facs="urn:hathi:hvd.32044098646714:scan:539" />
+          <note type="apparatus">nem suam in foro, ubi pacta mercede eos conducebat quisquis eorum opera in convivio apparando uti vellet. Servi ut culinariam artem exercerent, id sub Macedonum demum imperio institutum esse disertim l. l. annotavit Athenaeus. Ex hoc genere fuit is quem Posidippus et hac in fabula et in Syntrophis in scenam produxerat. Qui quod dicit vs. 3 οὐχ ἁλώσομ᾽ ἐκφέρων κρέας, id non recte, ut mihi quidem videtur, Casaubonus ad epularum tenuitatem traxit, ex quibus aliquid furto subducere operae pretium non esset. Quam in rem affert Aristoph. Pac. vs. 13. Mihi hoc potius homo dicere videtur: Quam diu libera utebar conditione, si quid forte finitis, ad quas operam meam condixeram, epulis mecum auferrem, in furto fere a ianitore deprehensus sum: nunc autem, quum totus in domini servitium concesserim, id nequaquam mihi usu veniet; tutus enim et tranquillus a ianitoris vigilantia furto meo me oblectabo.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0500-apokleiomene-2">
+          <head>II.</head>
+          <note type="source">
+            <bibl>Athenaeus VII p. 301 b:</bibl> ἑνικῶς (ἑψητὸς) Νικόστρατος ἐν Ἡσιόδῳ „βεμβράδ᾽ ἀφύην ἑψητόν.” Ποσείδιππος Ἀποκλειομένῃ</note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0500-apokleiomene-2-l1">Ἑψητὸν ἀγοράζειν τινά.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">Sotades Ἐγκλειομ. vs. 18 ἑψητὸν δὲ μετὰ ταύτας τινά.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0500-apokleiomene-3">
+          <head>III.</head>
+          <note type="source">
+            <bibl>Pollux X 98:</bibl> τὸ τηγανίζεσθαι ἔστιν ἐν Ἀποκλειομένῃ Ποσειδίππου.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

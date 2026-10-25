@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΙΕΡΕΙΑ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.iereia.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.iereia.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.iereia.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_iereia">
+        <head>ΙΕΡΕΙΑ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-iereia-1">
+          <lg>
+            <l n="1" xml:id="meineke-0541-iereia-1-l1">Οὐδεὶς δι᾽ ἀνθρώπου θεὸς σώζει, γύναι,</l>
+            <l n="2" xml:id="meineke-0541-iereia-1-l2">ἑτέρου τὸν ἕτερον· εἰ γὰρ ἕλκει τὸν θεόν</l>
+            <l n="3" xml:id="meineke-0541-iereia-1-l3">τοῖς κυμβάλοις ἄνθρωπος εἰς ὃ βούλεται,</l>
+            <l n="4" xml:id="meineke-0541-iereia-1-l4">ὁ τοῦτο ποιῶν ἐστὶ μείζων τοῦ θεοῦ.</l>
+            <l n="5" xml:id="meineke-0541-iereia-1-l5">ἀλλ᾽ ἔστι τόλμης καὶ βίου ταῦτ᾽ ὄργανα</l>
+            <l n="6" xml:id="meineke-0541-iereia-1-l6">εὑρημέν᾽ ἀνθρώποις ἀναιδέσιν, Ῥόδη,</l>
+            <l n="7" xml:id="meineke-0541-iereia-1-l7">εἰς καταγέλωτα τῷ βίῳ πεπλασμένα.</l>
+          </lg>
+          <note type="source">Servavit Iustinus de Monarch. p. 29 E. et minus plene Clemens Alex. Protr. 29 p. 22 Sylb. cuius haec verba sunt: <quote>πάλιν δὲ ὁ αὐτὸς κωμῳδιοποιὸς ἐν Ἱερείᾳ τῷ δράματι χα-</quote>
+          </note>
+          <pb n="141" facs="urn:hathi:hvd.32044098646714:scan:165" />
+          <note type="source">
+            <quote>λεπαίνων πρὸς τὴν συνήθειαν, διελέγχειν πειρᾶται τὸν ἄθεον τῆς πλάνης τῦφον, ἐπιφθεγγόμενος ἐμφρόνως <lg>
+                <l n="8" xml:id="meineke-0541-iereia-1-l8">Εἰ γὰρ ἕλκει — εὑρημέν᾽ ἀνθρώποισιν.</l>
+              </lg>
+            </quote>
+          </note>
+          <note type="apparatus">Vs. 5 βίου, <choice>
+              <abbr>victus quaerendi caussa?</abbr>
+              <expan>victus quaerendi caussa?</expan>
+            </choice> an βίας cum Bentleio? Vs. 7 εἰς καταγέλωτα τῷ βίῳ, <quote>in seculi ignominiam.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-iereia-1_2">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-iereia-1_2-l1">Nunquam hominis opera alterius hominem sospitat</l>
+              <l n="2" xml:id="meineke-0541-iereia-1_2-l2">deus immortalis: namque si quo vult deum</l>
+              <l n="3" xml:id="meineke-0541-iereia-1_2-l3">homo perductat creperis tintinnabulis,</l>
+              <l n="4" xml:id="meineke-0541-iereia-1_2-l4">tantum qui pollet, ipse iam maior deo est.</l>
+              <l n="5" xml:id="meineke-0541-iereia-1_2-l5">sed victus instrumenta et confidentiae</l>
+              <l n="6" xml:id="meineke-0541-iereia-1_2-l6">haec sunt, hominum impudentium molimina,</l>
+              <l n="7" xml:id="meineke-0541-iereia-1_2-l7">ludibria vitae denique humanae, Rhode.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-iereia-2">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-iereia-2-l1">Τοὺς τῆς γαμετῆς ὅρους ὑπερβαίνεις, γύναι,</l>
+              <l n="2" xml:id="meineke-0541-iereia-2-l2">τὴν αὐλίαν· πέρας γὰρ αὔλιος θύρα</l>
+              <l n="3" xml:id="meineke-0541-iereia-2-l3">ἐλευθέρᾳ γυναικὶ νενόμιστ᾽ οἰκίας·</l>
+              <l n="4" xml:id="meineke-0541-iereia-2-l4">τὸ δ᾽ ἐπιδιώκειν εἴς τε τὴν ὁδὸν τρέχειν,</l>
+              <l n="5" xml:id="meineke-0541-iereia-2-l5">ἔτι λοιδορουμένην, κυνός ἐστ᾽ ἔργον, Ῥόδη.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. LXXIV 11 omisso fabulae nomine. Recte ad Ἱέρειαν rettulit Clericus.</note>
+          <note type="apparatus">Vs. 2 vulgo διὰ τὴν αὐλάν. Libri fere habent διὰ τὴν αὐλὰν λίαν. Nostrum Gesnerus in margine. Sed rectius forsan Porsonus Miscell. p. 387 τὴν αὔλιον. Harpocratio p. 40 7: <quote>αὔλειος ἡ ἀπὸ τῆς ὁδοῦ πρώτη θύρα τῆς οἰκίας, ὡς δηλοῖ Μένανδρος.</quote> At Moeris p. 192 5: <quote>αὐλία θύρα Ἀττικοί.</quote> Ceterum cfr Philo de Legg. Spec. p. 803 c: <quote>θηλείαις δ᾽ οἰκουρία καὶ ἔνδον μονή (sc. ἁρμόζει), παρθένοις μὲν εἴσω κλισιάδων, τὴν μεσαύλιον ὅρον πεποιημένας, τελείαις δ᾽ ἤδη γυναιξὶ τὴν αὔλιον.</quote> Synesius de provid. p. 105 c: <quote>μίαν γὰρ ἀρετὴν ῎Οσιρις ᾤετο γυναικὸς εἶναι τὸ μήτε τὸ σῶμα μήτε τὸ ὄνομα αὐτῆς διαβῆναι τὴν αὔλιον.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-iereia-2_2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-iereia-2_2-l1">Excedis, uxor, terminos uxorios,</l>
+              <l n="2" xml:id="meineke-0541-iereia-2_2-l2">quando atrio progrederis: nam limes domus</l>
+              <l n="3" xml:id="meineke-0541-iereia-2_2-l3">matronis gravibus atriense est ostium:</l>
+              <l n="4" xml:id="meineke-0541-iereia-2_2-l4">at insequi ultro et excursare in publicum,</l>
+              <l n="5" xml:id="meineke-0541-iereia-2_2-l5">Rhode, et differre pipulo, id vero est canum.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-iereia-3">
+          <note type="source">Zenobius V 39. <quote>῎Ονου παρακύψεως: μέμνηται ταύτης Μένμνδρος ἐν Ἱερείᾳ — ἐπὶ τῶν καταγελάστως συκοφαντουμένων εἴρηται ἡ παροιμία.</quote>
+          </note>
+          <note type="apparatus">Vide interpretes.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΜΙΣΟΥΜΕΝΟΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.misoymenos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.misoymenos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.misoymenos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_misoymenos">
+        <head>ΜΙΣΟΥΜΕΝΟΣ</head>
+        <pb n="168" facs="urn:hathi:hvd.32044098646714:scan:192" />
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-citation-normalized" xml:id="meineke-0541-misoymenos-1_2">
+          <head>I. II.</head>
+          <note type="apparatus">Primas laudatissimae fabulae partes Thrasonidae, militi iactatori, delatas fuisse docet Libanius Orat. XXXI p. 701: <quote>ἔχεις ἐκ τῆς κωμῳδίας παραλαβών, ὡς ὑπέρογκόν τι καὶ σοβαρὸν καὶ πολλή τις ἀλαζονεία στρατιώτης ἀνήρ. εἴ τις ὑμῶν φαντάζεται τὸν Μενάνδρου Θρασωνίδην, οἶδεν ὃ λέγω· στρατιωτικὴν γάρ φησιν ἀηδίαν νοσοῦντα τὸν ἄνθρωπον εἰς ἀπέχθειαν αὑτῷ κινῆσαι τὴν ἐρωμένην· καὶ γέγονεν ἀμέλει προσηγορία τῷ δράματι τοῦ Θρασωνίδου τὸ μῖσος.</quote> Itaque Thrasonides ille inepta ac stolida, qua facinora sua augere solebat, iactantia acerrimum sibi puellae quam amaret odium pepererat. Hinc fortasse Photius, <quote>Σπαθᾶν: Μένανδρος Μισουμένῳ τὸ ἀλαζονεύεσθαι.</quote> Ad futiles istas hominis gloriationes respexit Plutarch. non suav. vivi sec. Epicur. p. 1095 c. ubi habes <quote>Θρασωνίδας τινὰς καὶ Θρασυλέοντας ὀλολυγμοὺς καὶ κροτοθορύβους ποιοῦντας.</quote> Nec male ad hanc fabulae partem rettuleris incerti poetae fragm. apud schol. Hermog. p. 391 (vol. V p. 485 Walz.) <quote>τῶν κωμικῶν τις περὶ ἀλαζόνος στρατιώτου φησί</quote>
+            <quote>
+              <lg>
+                <l n="1" xml:id="meineke-0541-misoymenos-1_2-l1">Καὶ γὰρ μετὰ Κάλλα γέγονα καὶ μετ᾿ Ἀγαλλία,</l>
+                <l n="2" xml:id="meineke-0541-misoymenos-1_2-l2">καὶ μετὰ Μενοίτα καὶ μετὰ Περδίκκα πάλιν,</l>
+                <l n="3" xml:id="meineke-0541-misoymenos-1_2-l3">καὶ νή γε μὰ Δία τρίτον ἔτος μετὰ Κινησία.</l>
+              </lg>
+            </quote>
+  Certe non dedecent haec Thrasonidem nostrum, quorum ducum auspiciis stipendia fecerit magnifica quadam iactantia enarrantem. Sed haec sane etiam in alia fabula locum habere potuerunt. Certius est gloriationum a Thrasonide iactatarum particulam servasse scholium Ambros. ad Odyss. ρ΄ 442: <quote>πολλοὺς εἶχεν ἡ Κύπρος βασιλεῖς. ἐν ταὐτῷ φησι καὶ ὁ Μένανδρος ἐν Μισουμένῳ ὡς ἐν παραβάσει ἐκ Κύπρου λαμπρῶς πάνυ λαμπρὰ πράττων, ἐκεῖ γὰρ ὑπό τιν᾽ ἦν τῶν βασιλέων.</quote> Ex quo loco discimus, iactasse militem in Cypro se meruisse stipendia, unde auctus opibus redierit. Verba <quote>ὡς ἐν παραβάσει</quote> non intellego. Cetera sic concipienda videntur:</note>
+          <pb n="169" facs="urn:hathi:hvd.32044098646714:scan:193" />
+          <lg>
+            <l n="4" xml:id="meineke-0541-misoymenos-1_2-l4">Ἐκ Κύπρου λαμπρῶς πάνυ</l>
+            <l n="5" xml:id="meineke-0541-misoymenos-1_2-l5">πράττων· ἐκεῖ γὰρ ὑπό τιν᾿ ἦν τῶν βασιλέων.</l>
+          </lg>
+          <note type="apparatus">Vidimus igitur Thrasonidem in gravissimum amasiae odium incurrisse. Quo facto quid egerit homo ingenti puellae amore percussus, e sequentibus discimus.</note>
+        </div>
+        <pb n="170" facs="urn:hathi:hvd.32044098646714:scan:194" />
+        <div type="textpart" subtype="fragment" n="5_6" ana="#compiled-citation-normalized" xml:id="meineke-0541-misoymenos-5_6">
+          <lg>
+            <l n="1" xml:id="meineke-0541-misoymenos-5_6-l1">Παρ᾿ ἐμοὶ γάρ ἐστιν ἔνδον, ἔξεστιν δέ μοι</l>
+            <l n="2" xml:id="meineke-0541-misoymenos-5_6-l2">καὶ βούλομαι τοῦτ᾽, οὐ ποιῶ δέ.</l>
+          </lg>
+          <note type="source">Servavit haec Plutarchus de am. divit. p. 525 a. insanire dicens eos, qui veste non utuntur propter frigus, neque pane propter famem, neque opibus propter avaritiam: <quote>ἀλλ᾽ ἐν τοῖς τοῦ Θρασωνίδου κακοῖς ἐστιν Παρ᾿ ἐμοὶ γάρ κτλ.</quote>
+          </note>
+          <note type="apparatus">Quae ad hanc ipsam fabulam referenda esse primus vidit Toupius Emend. II p. 445. Sunt autem Thrasonidae verba, qui <quote>καίπερ ἐξουσίαν ἔχων τῆς ἐρωμένης, διὰ τὸ μισεῖσθαι ἀπέχει αὐτῆς</quote>, ut est apud Diogenem Laert. VII 130. Qui sequuntur apud Plutarchum versus:
+<quote>
+              <lg>
+                <l n="1_2" xml:id="meineke-0541-misoymenos-5_6-l1_2">῎Απολλον, ἀνθρώπων τίν᾿ ἀθλιώτερον</l>
+                <l n="2_2" xml:id="meineke-0541-misoymenos-5_6-l2_2">ἑόρακας <ref target="#fn1">*)</ref>; ἆρ᾽ ἐρῶντα δυσποτμώτερον;</l>
+              </lg>
+            </quote>
+a Geta recitabantur, quem adfuisse in scena, dum haec agebantur, ex sequentibus locis intellegitur.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7_8" ana="#compiled-citation-normalized" xml:id="meineke-0541-misoymenos-7_8">
+          <lg>
+            <l n="1" xml:id="meineke-0541-misoymenos-7_8-l1">Εἰ γὰρ ἐπίδοιμι τοῦτο, καὶ ψυχὴν πάλιν</l>
+            <l n="2" xml:id="meineke-0541-misoymenos-7_8-l2">λάβοιμ᾽ ἐγώ· νυνὶ γὰρ ἀλλὰ ποῦ θεούς</l>
+            <l n="3" xml:id="meineke-0541-misoymenos-7_8-l3">οὕτως δικαίους ἐστὶν εὑρεῖν ὦ Γέτα;</l>
+          </lg>
+          <note type="source">Servavit Iustinus de Mon. p. 40 b.</note>
+          <note type="apparatus">Vs. 1 πάλιν a Bentleio additum est. Pro <quote>καὶ</quote> fortasse scribendum <quote>κἀν</quote>. <foreign xml:lang="lat">Nam si hoc viderem (puellam meam mihi recuperatam), etiam animum reciperem.</foreign> Alius item locus extat ex colloquio militis cum Geta servatus:
+<quote>
+              <lg>
+                <l n="4" xml:id="meineke-0541-misoymenos-7_8-l4">Οὐπώποτ᾽ ἠράσθης Γέτα;</l>
+                <sp>
+                  <speaker>
+                    <foreign xml:lang="grc">Γ.</foreign>
+                  </speaker>
+                  <l n="5" xml:id="meineke-0541-misoymenos-7_8-l5">οὐ γὰρ ἐνεπλήσθην.</l>
+                </sp>
+              </lg>
+            </quote>
+Leguntur haec apud Hermiam ad Platonis Phaedr. p. 76: <quote>οἱ μὲν γὰρ ὑπέλαβον ἁπλῶς φαῦλον τὸ ἐρᾶν, ὡς Ἐπίκουρος, ὁρισάμενος αὐτὸν (ἔρωτα) σύντονον ὄρεξιν ἀφροδισίων μετὰ οἴστρου καὶ ἀδημονίας, καὶ ὁ εἰπών „πλήρει γὰρ ὄγκῳ</quote>
+          </note>
+          <note type="apparatus" n="*)" id="fn1">*) Ita Porsonus ad Eurip. Phoen. 1367 pro ἑώρακας.</note>
+          <pb n="171" facs="urn:hathi:hvd.32044098646714:scan:195" />
+          <note type="apparatus">γαστρὸς αὔξεται κύπρις” καὶ „οὐπώποτ᾿ ἠράσθης Γέτα; οὐ γὰρ ἐνεπλήσθην” φησίν. Ita enim haec ex codice D correxit Bekkerus ad schol. Platonis p. 312. <ref target="#fn1">*)</ref> Etsi autem apud Hermiam neque poetae neque fabulae nomen additum est, vix tamen dubitari potest, quin suum illis locum recte assignaverim. Ad sententiam, ne plura commemorem, apprime facit Euripidis versus <quote>οὐδεὶς προσαιτῶν βίοτον ἠράσθη βροτῶν</quote> Danaes fragm. VIII 4. Eidem fortasse assignandus est alter quem Hermias affert incerti auctoris versus <quote>Πλήρει γὰρ ὄγκῳ γαστρὸς αὔξεται κύπρις.</quote>
+            <ref target="#fn2">**)</ref>
+          </note>
+          <note id="fn1" type="footnote">*) Sequuntur apud Hermiam haec: οἱ δὲ ἁπλῶς ἀστεῖον, ὡς Ἡρακλείδης φιλίας λέγων εἶναι τὸν ἔρωτα καὶ οὐκ ἄλλου τινός, κατὰ συμβεβηκὸς δὲ τινας ἐκπίπτειν εἰς ἀφροδίσια. Pro Ἡρακλείδης cod. D habet Εὐκλείδης. Verissime; plane enim non dubito quin illa amoris definitio ex Euclidis Socratici Erotico a Diogene Laert. II 108 memorato derivata sit. Idem Euclides Socraticus, ni fallor, commemoratur a Stobaeo Flor. VI 56 et Polluce III 62 et VI 161. Cfr Hist. crit. p. 269.</note>
+          <note id="fn2" type="footnote">**) Eidem Euripidi tribuo quae Hermias paullo inferius affert verba δισσὰ πνεύματα πνεῖς Ἔρως, quae ex systemate glyconico ducta sunt.</note>
+        </div>
+        <pb n="172" facs="urn:hathi:hvd.32044098646714:scan:196" />
+        <div type="textpart" subtype="fragment" n="10_11" ana="#compiled-citation-normalized" xml:id="meineke-0541-misoymenos-10_11">
+          <head>Χ. XI.</head>
+          <note type="apparatus">Vidimus ex Arriano Thrasonidem nocte intempesta foras prodiisse, ut animi dolorem elugeret et amoris aestum quoquo modo sedaret. Ex hac scena petitus videtur hic versus:</note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-misoymenos-10_11-l1">Ὦ δυστυχής,</l>
+              <l n="2" xml:id="meineke-0541-misoymenos-10_11-l2">τί οὐ καθεύδεις; σὺ μ᾿ ἀποκναίεις περιπατῶν.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">Legitur hic versus apud schol. Aristoph. Vesp. 679. Suidam s. v. ἀποκναίειν et in Lexico Seguer. p. 428, <quote>Ἀποκναίει: ἀποκόπτει, ἀπολύει (<choice>
+                <sic>leg.</sic>
+                <corr>ἀπολλύει</corr>
+              </choice>) ἢ λυπεῖ· οἷον Τί οὐ καθεύδεις κτλ. Μένανδρος Μισουμένῳ.</quote> Verba <quote>ὦ δυστυχὴς</quote> addidi ductu Grammatici apud Bekk. Anecd. p. 1190: <quote>ὁ δυστυχὴς ὦ δυστυχής, ὡς παρὰ Μενάνδρῳ Ὦ δυστυχὴς τί οὐ καθεύδεις;</quote> Videntur autem illa Getae ad militem verba esse ex gurgustiolo suo dominum ut ne foris ambulet monentem. Nec dubito quin ab eodem dicantur haec:</note>
+          <quote>
+            <lg>
+              <l n="1_2" xml:id="meineke-0541-misoymenos-10_11-l1_2">Εἴσελθε κἂν νῦν ὦ μακάριε,</l>
+            </lg>
+          </quote>
+          <note type="apparatus">apud schol. Isocratis Nicocl. 9: <quote>τὸ παρὰ Μενάνδρῳ ἐν Μισουμένῃ (sic) Εἴσελθε κἂν νῦν ὦ μ.</quote> ubi <quote>κἂν</quote> est <foreign xml:lang="lat">nunc certe</foreign>, ut apud Solonem XX p. 30 Schneidew. <quote>ἀλλ᾽ εἴ μοι κἂν νῦν ἔτι πείσεαι.</quote> V. edit. mai.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="12" ana="#compiled-citation-normalized" xml:id="meineke-0541-misoymenos-12">
+          <head>XII.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-misoymenos-12-l1">Λακωνικὴ</l>
+              <l n="2" xml:id="meineke-0541-misoymenos-12-l2">κλείς ἐστιν ὡς ἔοικέ μοι περιοιστέα.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">
+            <note type="source">Scholiasta Aristoph. Thesm. 423: <quote>Μένανδρος Μισουμένῳ Λακωνικὴ — περιοιστέα. καί φασιν ὅτι ἔξωθεν περικλείεται μοχλοῦ παρατιθεμένου ἤ τινος τοιούτου ὥστε τοῖς ἔνδον μὴ εἶναι ἀνοῖξαι.</quote>
+            </note> Minus integre scripta haec leguntur apud Suidam s. v. Λακωνικαὶ κλεῖδες. Cfr Olympiodorus in Platon. Alcib. I p. 152 Creuz. <quote>αἱ δὲ τῶν Λακεδαιμονίων (γυναῖκες) ἐφυλάττοντο, ὡς ἐδήλωσεν ἡ πάντολμος κωμῳδία λέγουσα Λακωνικὴ κλείς ἐστι καὶ οὐ (margo κοὐ) περιοιστέα.</quote> In Menandri verbis <quote>μοι</quote> cum <quote>περιοιστέα</quote> coniungendum, non autem ut Porsono Advers. p. 292 visum,</note>
+          <pb n="173" facs="urn:hathi:hvd.32044098646714:scan:197" />
+          <note type="apparatus">cum ὡς ἔοικε, quod cur fieri non possit docebit Heindorfius ad Plat. Soph. p. 306. Cfr Bentleium Emend. Men. p. 2. Apud Philostr. Epist. 45 p. 935: <quote>πρόσταξον ὡς ἔοικέ σοι καὶ πείθομαι</quote>, lege ex cod. Vat. <quote>πρόσταξεν ὡς βούλει καὶ πείθομαι</quote>. Itaque unus restat Euripidis locus Androm. 552: <quote>οὐ γὰρ ὡς ἔοικέ μοι σχολῆς τόδ᾽ ὄργον</quote>, ubi vide an <quote>ὡς ἔοικέ που</quote> scribendum sit. Atque id ipsum, Olympiodori indicio, fortasse etiam Menandro restituendum. Cfr Cnidiae fragm. II 1: <quote>ταὐτόματόν ἐστιν ὡς ἔοικέ που θεός</quote>.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="8" ana="#compiled-citation-normalized" xml:id="meineke-0541-misoymenos-8">
+          <lg>
+            <l n="1" xml:id="meineke-0541-misoymenos-8-l1">Ὦ πάτερ</l>
+            <l n="2" xml:id="meineke-0541-misoymenos-8-l2">μισοῦσι μὲν Θράσων', ἀπεκτάγκασι δ᾽ οὔ.</l>
+          </lg>
+          <note type="source">Lexicon Seguer. p. 429: <quote>Ἀπεκτόνασιν, οὐκ ἀπεκτάγκασιν. Μισουμένῳ· πάτερ μὲν Θράσων ἀπεκτάγκασι δ᾽ οὔ.</quote> Quae emendatius scripta leguntur spud Suidam, <quote>Ἀπεκτάγκασι καὶ ἀπεκτόνασι· μισοῦσι μὲν ὦ πάτερ Θράσων' ἀπεκτάγκασι δ᾽ οὔ.</quote> Cfr s. v. ἀποκτιννύναι.</note>
+          <note type="apparatus">Versuum reliquias recte disposuisse videtur Toupius. Fortasse tamen rectius Dobraeus Adv. II p.277: <quote>μισοῦσι μὲν | Θρασωνίδην, ὦ πάτερ, ἀπεκτάγκασι δ᾽ οὔ.</quote> Ceterum quantam celebritatem haec Menandri fabula adepta sit, vel Alciphronis verba docent lib. II 4, ubi Glycera admonet Menandrum ut hanc etiam comoediam ad Ptolomaeum afferre ne neglegat. Obiter eam memorat Irenaeus c. Haer. II 27 p. 151 ed. Gr. mihi videntur eius passionem, qui est apud comicum Menandrum valde amans et odibilis, Aesoni suo circumdedisse. Agathiae Frontonis et Martialis, itidem ad Μισούμενον respicientium, verba supra ad Dyscoli Georgi et Disexapatontis fragmenta adscripta sunt. Luciani dial. meretr. XIII p. 315 vol. III et Alciphronis Epist. 36 lib. III ex eadem Menandri fabula expressa esse, vere monuit Boettigerus Spec. Terent. p. 57. Denique ad hanc potissimum fabulam respexisse puto Porphyrium ad Marc. p. 5 comoediae proprium esse dicentem <quote>ζηλοτυπίαν, μίσος, γέλωτα, διαπληκτισμόν</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" ana="#compiled-citation-normalized" xml:id="meineke-0541-misoymenos-7">
+          <head>VII.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-misoymenos-7-l1">Id mihi si quando detur conspicarier,</l>
+              <l n="2" xml:id="meineke-0541-misoymenos-7-l2">animum recipiam: nam nunc . . . at vero deos</l>
+              <l n="3" xml:id="meineke-0541-misoymenos-7-l3">ubinam sit invenire tam iustos, Geta?</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_4" ana="#compiled-citation-normalized" xml:id="meineke-0541-misoymenos-3_4">
+          <head>III. IV.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-misoymenos-3_4-l1">Παιδισκάριόν με καταδεδούλωκ᾿ εὐτελές,</l>
+              <l n="2" xml:id="meineke-0541-misoymenos-3_4-l2">ὃν οὐδὲ εἷς τῶν πολεμίων οὐπώποτε.</l>
+            </lg>
+          </quote>
+          <note type="source">Servavit haec Arrianus Dissert. Epict. III 26. qui vide, inquit, quid dicat faciatque Thrasonides: <quote>πρῶτον μὲν ἐξελήλυθε νυκτός, ὅτε Γέτας (qui servus est militis) οὐ τολμᾷ ἐξελθεῖν· εἶτα τί λέγει; Παιδισκάριον κτλ.</quote>
+          </note>
+          <note type="apparatus">Sic enim legendum videtur pro vulgato <quote>ὃν οὐδεὶς τῶν πολεμίων πώποτε</quote>, nisi praeferas quod cod. habet: <quote>ὃν πώποτ᾿ οὐδεὶς τῶν πολεμίων</quote>. Eundem locum respexit Clemens Alex. Strom. II p. 463: <quote>τὸν γὰρ κωμικὸν ἐκεῖνον Θρασωνίδην ἄλλη σκηνή, παιδισκάριόν με, φησίν, εὐτελὲς καταδεδούλωκεν</quote>. Constat <quote>παιδισκάρια</quote> dictas fuisse sevulas. Itaque domi habuit Thrasonides puellam belli iure partam. Cfr. Fragm. V. Sed videamus reliqua apud Arrianum. <quote>Τάλας, inquit, ὅς γε καὶ παιδισκαρίου δοῦλος εἶ, καὶ παιδισκαρίου εὐτελοῦς. τί οὖν ἔτι σαυτὸν ἐλεύθερον λέγεις; τί δὲ προφέρεις σου τὰς στρατηγίας; εἶτα ξίφος αἰτεῖ, καὶ πρὸς τὸν ὑπ᾿ εὐνοίας μὴ διδόντα χαλεπαίνει, καὶ δῶρα τῇ μισούσῃ πέμπει, καὶ δεῖται καὶ κλάει. πάλιν δὲ μικρὰ εὐημερήσας ἐπαίρεται· πλὴν καὶ τότε πῶς; κτλ.</quote> Vides argumentum fabulae tanquam in tabula descriptum. Ex verbis <quote>ξίφος αἰτεῖ</quote> etc. nescio an coniici possit ad hunc potissimum fabulae locum referenda esse quae servavit Pollux X 146: <quote>σπάθη ἐπὶ τοῦ ξίφους καὶ ἐν τῷ Μενάνδρου Μισουμένῳ, ὅταν λέγῃ Ἀφανεῖς γεγόνασιν αἱ σπάθαι</quote>. Certius est ex ea, quam Arrianus adumbravit, dramatis scena duo sequentia fragmenta petita esse.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="9" ana="#compiled-citation-normalized" xml:id="meineke-0541-misoymenos-9">
+          <head>IX.</head>
+          <note type="apparatus">Quod supra ex Arriano attuli, <quote>πάλιν δὲ μικρὰ εὐημερήσας ἐπαίρεται</quote>, docet opinor puellam tandem repetitis militis obtestationibus hoc dedisse, ut foras prodiret et mitiorem animum ostenderet. Quam rem probabile est ita instituisse poetam, ut Thrasonides identidem se alios mores sequuturum esse sanctissime iuraret. Quibus ita respondisse videtur puella, ut se affirmanti parum fidei habere diceret:</note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-misoymenos-9-l1">Ἀπαμφιεῖ γὰρ τὸ κατάπλαστον τοῦτό σου</l>
+              <l n="2" xml:id="meineke-0541-misoymenos-9-l2">καὶ λανθάνειν βουλόμενον ἡ μέθη ποτέ.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">Quae, tacito Menandri nomine, e Misumeno afferuntur a Suida s. v. <quote>ἀμφιέσαντες</quote> et Grammatico Seguer. p. 415 21, ubi legitur <quote>τοῦτο μέν</quote>. Suidas habet <quote>τοῦτό μου</quote>, quod emendavit Hemsterh. ad Lucian. I p. 443. Ad <quote>ἀπαμφιεῖ</quote> spectat fortasse Hesychii glossa, <quote>Ἀπαμφιεῖ: ἀπογυμνώσει</quote>.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

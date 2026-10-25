@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΡΑΠΙΖΟΜΕΝΗ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.rapizomene.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.rapizomene.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.rapizomene.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_rapizomene">
+        <head>ΡΑΠΙΖΟΜΕΝΗ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-rapizomene-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-rapizomene-1-l1">Quae vitae sunt utilia quum dî porrigunt,</l>
+            <l n="2" xml:id="meineke-0541-rapizomene-1-l2">accipere qui cunctatur, is sponte est miser:</l>
+            <l n="3" xml:id="meineke-0541-rapizomene-1-l3">at si recuset dare quod expediat deus,</l>
+            <l n="4" xml:id="meineke-0541-rapizomene-1-l4">iam non ista hominis culpa, sed non dantis est.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-rapizomene-1_2">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-rapizomene-1_2-l1">Ὁ μὴ δεχόμενος τῶν θεῶν τὸ σύμφορον</l>
+              <l n="2" xml:id="meineke-0541-rapizomene-1_2-l2">αὐτῷ διδόντων ἕνεκα τοῦ ζῆν, βούλεται</l>
+            </lg>
+          </quote>
+          <note id="note1" type="footnote">*) Ι. e. σαμβυκιστρίας. Similiter τὸν αὐλὸν ἀποπέμπειν pro τὴν αὐλητρίδα dixit Plutarchus vol. V p. 123 13 ed. Wytt.</note>
+          <pb n="198" facs="urn:hathi:hvd.32044098646714:scan:222" />
+          <lg>
+            <l n="3" xml:id="meineke-0541-rapizomene-1_2-l3">οὗτος ἀτυχεῖν· ἐὰν δὲ μὴ θεὸς διδῷ,</l>
+            <l n="4" xml:id="meineke-0541-rapizomene-1_2-l4">τοῦ μὴ διδόντος, οὐ τρόπου σ̓θ᾽ ἁμαρτία.</l>
+          </lg>
+          <note type="source">
+            <bibl>Stobaeus Ecl. phys. II 8 p. 341.</bibl>
+          </note>
+          <note type="apparatus">Vs. 2 et 3 legebatur οὐ βούλεται τόδ᾽ ἀτυχεῖν ἢ τὸ μὴ θεὸς δίδωσιν. Correxi viam monstrante Grotio, qui scripsit βούλεται τοιοῦτος ἀτυχεῖν· ἢν δὲ μὴ θεὸς διδῷ. — Vs. 4 e Grotii coniectura addidi verba τοῦ μὴ διδόντος. Postrema verba vulgo sic leguntur: οὐ τρόπου δ᾽ ἐσθ᾽ ἁμάρτημα. Codices ἁμαρτία. Hinc correxi ut supra edidi.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-rapizomene-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-rapizomene-2-l1">Ἀτύχημα κἀδίκημα διαφορὰν ἔχει·</l>
+            <l n="2" xml:id="meineke-0541-rapizomene-2-l2">τὸ μὲν διὰ τύχην γίγνεται, τὸ δ᾽ αἱρέσει.</l>
+          </lg>
+          <note type="source">
+            <bibl>Stobaeus Ecl. phys. II 8 p. 341.</bibl> In margine cod. V. Μενάνδρου ῥαπιζομένου.</note>
+          <note type="apparatus">Secundo versu codd. τὸ μὲν διὰ τύχην γάρ. Delevi γάρ, quod iussit etiam Wyttenb. ad Plutarch. S. N. V. p. 49.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-rapizomene-2_2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-rapizomene-2_2-l1">Iniuria illud distat infortunio,</l>
+            <l n="2" xml:id="meineke-0541-rapizomene-2_2-l2">hoc casus, illam quod voluntas efficit.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-rapizomene-3">
+          <head>III.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-rapizomene-3-l1">῎Ερχεται</l>
+            <l n="2" xml:id="meineke-0541-rapizomene-3-l2">τἀληθὲς εἰς φῶς ἐνίοτ᾽ οὐ ζητούμενον.</l>
+          </lg>
+          <note type="source">
+            <bibl>Stobaeus Flor. XI 10.</bibl>
+          </note>
+          <note type="apparatus">Apertum est haec etiam ad trochaicos numeros revocari posse.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-rapizomene-3_2">
+          <head>III.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-rapizomene-3_2-l1">Saepe admodum</l>
+            <l n="2" xml:id="meineke-0541-rapizomene-3_2-l2">in lucem prodit nec quaesita veritas.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-rapizomene-4">
+          <head>IV.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-rapizomene-4-l1">῎Αρ᾽ ἐστὶν ἀγαθῶν πᾶσι πλείστων αἰτία</l>
+            <l n="2" xml:id="meineke-0541-rapizomene-4-l2">ἡ σύνεσις, ἂν ᾖ πρὸς τὰ βελτίω σοφή.</l>
+          </lg>
+          <note type="source">
+            <bibl>Orion Gnomol. I 15:</bibl> ἐκ Ῥαπιζομένου Μενάνδρου. Omisso fabulae nomine <bibl>Stobaeus Flor. III 7.</bibl>
+          </note>
+          <note type="apparatus">ubi pro πᾶσι πλείστων, quae Orionis lectio est, legitur παμπλείστων.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-rapizomene-5">
+          <head>V.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-rapizomene-5-l1">Τοὐμὸν θυγάτριον; πάνυ γάρ ἐστι τῇ φύσει</l>
+            <l n="2" xml:id="meineke-0541-rapizomene-5-l2">. . . φιλάνθρωπον τὸ παιδάριον σφόδρα.</l>
+          </lg>
+          <note type="source">
+            <bibl>Clemens Alex. Paed. I p. 37 Sylb.:</bibl>
+            <quote>δοκοῦσιν οἱ Ἀττικοὶ παιδάριον ἐπικοίνως οὐ μόνον τὸ ἄρρεν ἀλλὰ καὶ τὸ</quote>
+          </note>
+          <pb n="199" facs="urn:hathi:hvd.32044098646714:scan:223" />
+          <note type="source">θῆλυ κεκληκέναι, εἴ τῳ πιστὸς καταφαίνεται ὁ κωμικὸς ἐν Ῥαπιζομένῃ Μένανδρος ὧδέ πως λέγων <quote>Τοὐμὸν θυγάτριον</quote> κτλ.</note>
+          <note type="apparatus">Vs. 2 fortasse νὴ Δία addendum vel τουτὶ cum Fritzschio ad Arist. Thesm. p. 563. De πάνυ σφόδρα, quae non dirimi posse male negavi vol. II p. 522, dixi ad h. l. in ed. mai.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0541-rapizomene-6">
+          <head>VI.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-rapizomene-6-l1">Εἶτ᾿ ἀμφορεαφόρος τις ἀποφορὰν φέρων.</l>
+            </lg>
+          </quote>
+          <note type="source">Suidas s. v. ἀμφορεαφόρους, τοὺς μισθίους, τοὺς τὰ κεράμια φέροντας <quote>Εἶτα — φέρων</quote>, Μένανδρος Ῥαπιζομένῃ.</note>
+          <note type="apparatus">De ἀποφορᾷ, mercede heris a servis praestari solita, vid. Wessel. ad Herod. II p. 153 et Valesius ad Harpocr. p. 291.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" ana="#compiled-citation-normalized" xml:id="meineke-0541-rapizomene-7">
+          <head>VII.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-rapizomene-7-l1">Πόθεν γάρ, ὦ φίλοι θεοί,</l>
+              <l n="2" xml:id="meineke-0541-rapizomene-7-l2">τούτους ἀνεσπάκασιν οὗτοι τοὺς λόγους;</l>
+            </lg>
+          </quote>
+          <note type="source">Suidas, Ἀνέσπακεν, Θουκυδίδης. ἀνεύρηκεν, εἴληφεν. Μένανδρος Ῥαπιζομένῃ <quote>Πόθεν γάρ</quote> κτλ.</note>
+          <note type="apparatus">Apud Suidam legitur πέπονθε γάρ, quod correxi e Lexico Seguer. p. 399 vicissim e Suida corrigendo. Minus recte autem Suidas ἀνασπᾶν λόγους interpretatur ἀνευρίσκειν. Quamquam ita etiam Hesychius, Ἀνεσπάκασιν: ἀνευρήκασιν, εἴληφασιν. Sophocles Aiac. 302 σκιᾷ τινι λόγους ἀνέσπα, ubi v. Lob.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="8" ana="#compiled-citation-normalized" xml:id="meineke-0541-rapizomene-8">
+          <head>VIII.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-rapizomene-8-l1">Ὁ μυόχοδος γέρων λεληθέναι σφόδρα</l>
+              <l n="2" xml:id="meineke-0541-rapizomene-8-l2">οἰόμενος.</l>
+            </lg>
+          </quote>
+          <note type="source">Photius, Μυόχοδον: μηδενὸς ἄξιον. Μένανδρος Ῥαπιζομένῃ <quote>Ὁ μυόχοδος</quote> κτλ. Eadem Suidas.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="9" ana="#compiled-citation-normalized" xml:id="meineke-0541-rapizomene-9">
+          <head>IX.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-rapizomene-9-l1">Οὐχ ὁρᾶτε τὴν τροφόν</l>
+              <l n="2" xml:id="meineke-0541-rapizomene-9-l2">ζῶμ᾽ ἐνδεδυμένην;</l>
+            </lg>
+          </quote>
+          <note type="source">Pollux VII 51: ὅτι δὲ ἐνδῦναι ἦν ἐπιτήδεια (τὰ ζώματα) τεκμήραιτ᾽ ἄν τις ἐκ τῶν ἐν τῇ Ῥαπιζομένῃ Μενάνδρου <quote>Οὐχ ὁρᾶτε</quote> κτλ. Respexit Photius, Ζῶμα: χιτῶνός τι ζωστοῦ γένος. οὕτω Μένανδρος.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

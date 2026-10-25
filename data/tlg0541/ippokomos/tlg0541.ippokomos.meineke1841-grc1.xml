@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΙΠΠΟΚΟΜΟΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.ippokomos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.ippokomos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.ippokomos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_ippokomos">
+        <head>ΙΠΠΟΚΟΜΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0541-ippokomos-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-ippokomos-1-l1">Μόνιμός τις ἦν ἄνθρωπος, ὦ Φίλων, σοφός,</l>
+            <l n="2" xml:id="meineke-0541-ippokomos-1-l2">ἀδοξότερος, μίαν δὲ πήραν οὐκ ἔχων,</l>
+            <l n="3" xml:id="meineke-0541-ippokomos-1-l3">πήρας μὲν οὖν τρεῖς· ἀλλʼ ἐκεῖνος ῥῆμά τι</l>
+            <l n="4" xml:id="meineke-0541-ippokomos-1-l4">ἐφθέγξατʼ οὐδὲν ἐμφερὲς μὰ τὸν Δία</l>
+            <l n="5" xml:id="meineke-0541-ippokomos-1-l5">τῷ γνῶθι σαυτόν, οὐδὲ τοῖς βοωμένοις</l>
+            <l n="6" xml:id="meineke-0541-ippokomos-1-l6">τούτοις· ὑπερεῖδε ταῦθʼ ὁ προσαιτῶν καὶ ῥυπῶν·</l>
+            <l n="7" xml:id="meineke-0541-ippokomos-1-l7">τὸ γὰρ ὑποληφθὲν τῦφον εἶναι πᾶν ἔφη.</l>
+          </lg>
+          <note type="apparatus">
+            <note type="source">Diogenes Laert. VI 83: ἐγένετο δὲ (ὁ Μόνιμος) ἀνὴρ ἐλλόγιμος, ὡς καὶ Μένανδρον αὐτοῦ τὸν κωμικὸν μεμνῆσθαι· ἔν τινι γοῦν τῶν δραμάτων, ἐν τῷ Ἱπποκόμῳ, εἶπεν οὕτως Μόνιμος κτλ.</note> Vs. 2 codd. Stephani ἀδοξότατος, quod fortasse verum est, non tamen vulgari significatu, sed hoc ut Monimus nullis opinionibus (δόξαις, ὑπολήψεσι) locum concessisse dicatur. Idem quod non unam sed duas peras gestasse dicitur, indicat, opinor, eum ceteros Cynicos longo intervallo post se reliquisse. Exhibui autem haec ut correcta sunt a Bentleio ex cod. Flor. Cfr varias lectt. apnd</note>
+          <pb n="143" facs="urn:hathi:hvd.32044098646714:scan:167" />
+          <note type="apparatus">Hübnerum. — Vs. 3 ῥῆμά τι Bentleius. Flor. ῥήματι. — Vs. 6 libri ὑπὲρ δὲ ταῦτα. Correxit Scaliger. — Vs. 7 Menagius comparat Sextum adv. Leg. VIII 5 p. 459: τάχα δὲ καὶ Μόνιμος ὁ κύων τῦφον εἰπὼν πάντα. Adde Antonin. Phil. II 15: ὅτι πᾶν ὑπόληψις. δῆλον μὲν γὰρ τὸ πρὸς τοῦ κυνικοῦ Μονίμου λεγόμενον, ubi v. Gatakerum.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_3" ana="#compiled-citation-normalized" xml:id="meineke-0541-ippokomos-2_3">
+          <head>II. III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-ippokomos-2_3-l1">Τὰ δ᾽ ἐκ μέσου τριπόδια καὶ τραγήματα.</l>
+            </lg>
+          </quote>
+          <note type="source">Pollux X 80: εἴρηνται δὲ οἱ τρίποδες — ὥσπερ καὶ τριπόδια, ὡς ἐν Ἱπποκόμῳ Μενάνδρου <quote>Τὰ δ᾽ ἐκ μέσου κτλ.</quote> — Idem X 98: ὑπόφαυλοι δὲ οἱ ἐν Ἱπποκόμῳ Μενάνδρου τηγανισμοί.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Euphron, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <author>Euphron</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0460.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0460.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0460.adelon_dramaton.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0460_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0460-adelon_dramaton-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0460-adelon_dramaton-1-l1">Magister olim mihi fuit Soterides,</l>
+            <l n="2" xml:id="meineke-0460-adelon_dramaton-1-l2">qui Nicomedi, cum dierum duodecim</l>
+            <l n="3" xml:id="meineke-0460-adelon_dramaton-1-l3">itinere abesset pelago et concupisceret</l>
+            <l n="4" xml:id="meineke-0460-adelon_dramaton-1-l4">manducare apuas, hiemis medio tempore</l>
+            <l n="5" xml:id="meineke-0460-adelon_dramaton-1-l5">exhibuit, suaves, cuncti ut exclamaverint.</l>
+            <l n="6" xml:id="meineke-0460-adelon_dramaton-1-l6">B. Qui fieri potuit istud? A. Rapum sumserat</l>
+            <l n="7" xml:id="meineke-0460-adelon_dramaton-1-l7">femineum, in partes quod minutas dissecans</l>
+            <l n="8" xml:id="meineke-0460-adelon_dramaton-1-l8">ita reformavit apuae ut speciem redderet:</l>
+            <l n="9" xml:id="meineke-0460-adelon_dramaton-1-l9">dumque elixatur oleum affudit, et salem</l>
+            <l n="10" xml:id="meineke-0460-adelon_dramaton-1-l10">pererudite aspersit: quo facto aulicae</l>
+            <l n="11" xml:id="meineke-0460-adelon_dramaton-1-l11">gulae aviditatem invitat multo vespere.</l>
+            <l n="12" xml:id="meineke-0460-adelon_dramaton-1-l12">ibi Nicomedes fervide rapum vocans</l>
+            <l n="13" xml:id="meineke-0460-adelon_dramaton-1-l13">laudavit apuam amicis applaudentibus.</l>
+            <l n="14" xml:id="meineke-0460-adelon_dramaton-1-l14">nihil a poeta scilicet differt coquus:</l>
+            <l n="15" xml:id="meineke-0460-adelon_dramaton-1-l15">utrique pro arte est ingeniosa audacia.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0460-adelon_dramaton-1_2">
+          <head>I.</head>
+          <quote>
+            <sp>
+              <speaker />
+              <lg>
+                <l n="1" xml:id="meineke-0460-adelon_dramaton-1_2-l1">Ἐγὼ μαθητὴς ἐγενόμην Σωτηρίδου,</l>
+                <l n="2" xml:id="meineke-0460-adelon_dramaton-1_2-l2">ὃς ἀπὸ θαλάττης Νικομήδει δώδεκα</l>
+                <l n="3" xml:id="meineke-0460-adelon_dramaton-1_2-l3">ὁδὸν ἀπέχοντι πρῶτος ἡμερῶν ποτε</l>
+                <l n="4" xml:id="meineke-0460-adelon_dramaton-1_2-l4">ἀφύης ἐπιθυμήσαντι χειμῶνος μέσου</l>
+                <l n="5" xml:id="meineke-0460-adelon_dramaton-1_2-l5">παρέθηκε νὴ Δί᾽ ὥστε πάντας ἀνακραγεῖν.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Β.</speaker>
+              <lg>
+                <l n="6" xml:id="meineke-0460-adelon_dramaton-1_2-l6">πῶς δὲ δυνατὸν τοῦτ᾽ ἐστί;</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Α.</speaker>
+              <lg>
+                <l n="7" part="F" xml:id="meineke-0460-adelon_dramaton-1_2-l7">θήλειαν λαβών</l>
+                <l n="8" xml:id="meineke-0460-adelon_dramaton-1_2-l8">γογγυλίδα, ταύτην ἔτεμε λεπτὰ καὶ μακρά,</l>
+                <l n="9" xml:id="meineke-0460-adelon_dramaton-1_2-l9">τὴν ὄψιν αὐτῆς τῆς ἀφύης μιμούμενος·</l>
+                <l n="10" xml:id="meineke-0460-adelon_dramaton-1_2-l10">ἀποζέσας, ἔλαιον ἐπιχέας, ἅλας</l>
+                <l n="11" xml:id="meineke-0460-adelon_dramaton-1_2-l11">δοὺς μουσικῶς, μήκωνος ἐπιπάσας ἄνω</l>
+                <l n="12" xml:id="meineke-0460-adelon_dramaton-1_2-l12">κόκκους μελαίνης τὸν ἀριθμὸν δώδεκα,</l>
+                <l n="13" xml:id="meineke-0460-adelon_dramaton-1_2-l13">περὶ τὴν Σκυθίαν ἔπαυσε τὴν ἐπιθυμίαν.</l>
+                <l n="14" xml:id="meineke-0460-adelon_dramaton-1_2-l14">καὶ Νικομήδης, γογγυλίδα μασώμενος,</l>
+                <l n="15" xml:id="meineke-0460-adelon_dramaton-1_2-l15">ἀφύης τότ᾽ ἔλεγε τοῖς φίλοις ἐγκώμιον.</l>
+                <l n="16" xml:id="meineke-0460-adelon_dramaton-1_2-l16">οὐδὲν ὁ μάγειρος τοῦ ποιητοῦ διαφέρει·</l>
+                <l n="17" xml:id="meineke-0460-adelon_dramaton-1_2-l17">ὁ νοῦς γάρ ἐστιν ἑκατέρῳ τούτων τέχνη.</l>
+              </lg>
+            </sp>
+          </quote>
+          <note type="source">
+            <p>Athenaeus I p. 7 d: Νικομήδει τῷ Βιθυνῶν βασιλεῖ ἐπιθυμήσαντι ἀφύης (μακρὰν δὲ καὶ οὗτος ἦν τῆς θαλάσσης) μάγειρός τις μιμησάμενος τὸ ἰχθύδιον παρέθηκεν ὡς ἀφίας. ὁ γοῦν παρ᾽ Εὔφρονι τῷ κωμικῷ μάγειρός φησιν Ἐγὼ μαθητής κτλ.</p>
+          </note>
+          <note type="apparatus">
+            <p>Vs. 2 libri θαλάσσης. Ibidem Νικομήδει. V. Hist. crit. p. 478. — Vs. 5 παρέθηκεν ἡδείας BC. παρέθηκεν ἡδεῖς VL. Correxi παρέθηκε νὴ Δί᾽ Praef. ad Menandrum p. XX. — Vs. 6—12 apud Suidam v. ἀφύα ita scripti leguntur: θήλειαν λαβὼν γογγυλίδα ταύτην ἔτεμεν εἰς μακρὰ καὶ λεπτὰ τὴν ὄψιν τῆς ἀφύης μιμούμενος</p>
+          </note>
+          <pb n="495" facs="urn:hathi:hvd.32044098646714:scan:519" />
+          <note type="apparatus">
+            <quote>ἐπιζέσας ἔλαιον ἐπιχέας ἅλας, μήκωνας ἐπιπάσας, ἔλυσε τὴν ἐπιθυμίαν.</quote> — Vs. 7 „ταύτην ἔτεμε λεπτὰ τὴν ὄψιν BCD. ταύτην ἔτεμεν εἰς λεπτὰ σφόδρα τὴν ὄψιν VL. Veram scripturam Suida duce restituerunt Porsonus et Elmsleius ad Acharn. 301." Dindorfius. — Vs. 9 ἀποζέσας BC. ἀποζέσαι δ᾽ VL. — Vs. 11 „δώδεκα V. δυώδεκα L, quod retinuit Schweigh. de codd. tacens. Qui ex B mihi enotavit ἀριθμόν, videtur voluisse ἀριθμὸν δώδεκα: nam in ἀριθμὸν nihil varietatis est Porsonus κόκκους μελαίνης τετταράκοντα τὸν ἀριθμόν.” Dindorfius. Suspicari possis τὸν ἀριθμόν που δώδεκα, vel potius commate post μελαίνης posito, τὸν ἀριθμὸν δὲ δώδεκα. — Vs. 12 ἔγλυσε V. ἐκλύσε Basil. ἔλυσε L. ἔπαυσε Porsonus.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0460-adelon_dramaton-2">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0460-adelon_dramaton-2-l1">Οὐκ ἔστι μοιχοῦ μεῖζον οὐδὲ ἕν κακόν·</l>
+              <l n="2" xml:id="meineke-0460-adelon_dramaton-2-l2">ἐν ταῖς γὰρ ἑτέρων βούλετ᾽ ἀτυχίαις τρυφᾶν.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. VI 21 cum lemmate Εὔφρονος.</note>
+        </div>
+        <pb n="838" facs="urn:hathi:hvd.32044098646714:scan:864" />
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0460-adelon_dramaton-2_2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0460-adelon_dramaton-2_2-l1">Nulla horribilior pestis est adultero,</l>
+            <l n="2" xml:id="meineke-0460-adelon_dramaton-2_2-l2">qui maximo lascivit alieno in malo.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΠΤΕΡΥΓΙΟΝ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.pterygion.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.pterygion.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.pterygion.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_pterygion">
+        <head>ΠΤΕΡΥΓΙΟΝ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0487-pterygion-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-pterygion-1-l1">Τὸ τῆς Ἀμαλθείας δοκεῖς εἶναι κέρας</l>
+              <l n="2" xml:id="meineke-0487-pterygion-1-l2">οἷον γράφουσιν οἱ γραφεῖς κέρας βοός;</l>
+              <l n="3" xml:id="meineke-0487-pterygion-1-l3">ἀργύριόν ἐστι· τοῦτ᾽ ἐὰν ἔχῃς, λέγε</l>
+              <l n="4" xml:id="meineke-0487-pterygion-1-l4">πρὸς τοῦτ᾽ εἰ βούλει, πάντα σοι γενήσεται,</l>
+              <l n="5" xml:id="meineke-0487-pterygion-1-l5">φίλοι, βοηθοί, μάρτυρες, συνοικίαι.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. XCI 13 cum lemmate Φιλήμονος Πτέρυγες. Idem locus apud Apostol. XIX 19.</note>
+          <note type="apparatus">Vs. 1 Ἀμαλθείας B et Apost. ἀμαθίας Trinc. Vulgo Ἀμαλθαίας. — Vs. 3 τοῦτ᾽ ἐὰν Apost. et Trinc. τοῦτο δ᾽ ἐὰν ceteri. Tum cod. A λέγει. — Vs. 4 pro τοῦτ᾽ εἰ Gesnerus et cod. B recentissimus multisque modis interpolatus τοῦθ᾽ ὅ. Melius Wakefieldius τοῦθ᾽ ὅ τι. Sed vereor ne hic plura corrupta sint. Repetitio pronominis τοῦτο hoc quidem loco minime elegans; nec dubito quin verba πρὸς τοῦτο interpolatori debeantur, Philemon autem scripserit: τοῦτ᾽ ἐὰν ἔχῃς, | λέγ᾽ εἴ τι βούλει· πάντα σοι γενήσεται, ita ut aut ante aut post verba τοῦτ᾽ ἐὰν ἔχῃς aliquid exciderit. Non displiceret ἀργύριόν ἐστι τοῦτο· τοῦτ᾽ ἐὰν ἔχῃς. Cfr Menandri locum ad sententiam et orationem huic nostro simillimum Fragm. inc. fab. X 6: εὖξ᾽ εἴ τι βούλει· πάντα σοι γενήσεται. Genuinae lectionis vestigium servavit cod. A, in quo non λέγε scriptum est, sed λέγει.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0487-pterygion-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-pterygion-2-l1">Νυνὶ δ᾽ ὅταν λάβῃ τις εἰς τὴν οἰκίαν</l>
+              <l n="2" xml:id="meineke-0487-pterygion-2-l2">τὰς Ἱππονίκας τάσδε καὶ Ναυσιστράτας</l>
+              <l n="3" xml:id="meineke-0487-pterygion-2-l3">καὶ Ναυσινίκας, τὰς Ἀθηναίας λέγω.</l>
+            </lg>
+          </quote>
+          <pb n="21" facs="urn:hathi:hvd.32044098646714:scan:45" />
+          <note type="source">
+            <bibl>Stephanus Byz. p. 15</bibl>: λέγεται (Ἀθηναία) καὶ ἐπὶ γυναικός, ὡς ἄλλοι μὲν πολλοί, Φιλήμων δὲ οὕτως ἐν Πτερυγίῳ <quote>Νυνὶ δ᾽ ὅταν κτλ.</quote> Idem locus apud Suidam s. v. Ἀθηναία, ubi pro Ναυσιστράτας fortasse rectius Λυσιστράτας legitur, sed male citatur Φιλήμων ἐν Πτέρυγι.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0487-pterygion-1_2">
+          <head>1.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-pterygion-1_2-l1">Tun’ almum credis esse Cornu Copiae,</l>
+              <l n="2" xml:id="meineke-0487-pterygion-1_2-l2">quale effigiant pictores cornu bubulum?</l>
+              <l n="3" xml:id="meineke-0487-pterygion-1_2-l3">imo est argentum: quod tu si habeas, dixeris</l>
+              <l n="4" xml:id="meineke-0487-pterygion-1_2-l4">ei quid cupias, omnia extemplo affluent,</l>
+              <l n="5" xml:id="meineke-0487-pterygion-1_2-l5">testes, amici, socii, contubernia.</l>
+            </lg>
+          </quote>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

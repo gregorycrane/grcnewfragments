@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Epinicus, ΥΠΟΒΑΛΛΟΜΕΝΑΙ: fragments</title>
+        <author>Epinicus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0454.ypoballomenai.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0454.ypoballomenai.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0454.ypoballomenai.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0454_ypoballomenai">
+        <head>ΥΠΟΒΑΛΛΟΜΕΝΑΙ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0454-ypoballomenai-1">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0454-ypoballomenai-1-l1">Καὶ τῶν ῥυτῶν τὰ μέγιστα τῶν ὄντων τρία</l>
+              <l n="2" xml:id="meineke-0454-ypoballomenai-1-l2">πίνειν δεήσει τήμερον πρὸς κλεψύδραν</l>
+              <l n="3" xml:id="meineke-0454-ypoballomenai-1-l3">κρουνιζόμενον. ἀμφότερα δ᾽ οἰωνίζομαι·</l>
+              <l n="4" xml:id="meineke-0454-ypoballomenai-1-l4">ἔστι δ᾽ ἐλέφας. <speaker>Β.</speaker> ἐλέφαντα περιάγει; <speaker>Α.</speaker> ῥυτόν</l>
+              <l n="5" xml:id="meineke-0454-ypoballomenai-1-l5">χωροῦν δύο χόας· οὐδ᾽ ἂν ἐλέφας ἐκπίοι.</l>
+              <l n="6" xml:id="meineke-0454-ypoballomenai-1-l6">ἐγὼ δὲ τοῦτο γ᾽ ἐκπέπωκα πολλάκις.</l>
+              <l n="7" xml:id="meineke-0454-ypoballomenai-1-l7">
+                <speaker>Β.</speaker> οὐδὲν ἐλέφαντος γὰρ διαφέρεις οὐδὲ σύ.</l>
+              <l n="8" xml:id="meineke-0454-ypoballomenai-1-l8">
+                <speaker>Α.</speaker> ἕτερον τριήρης· τοῦτ᾽ ἴσως χωρεῖ χόα.</l>
+              <gap reason="lost" extent="unknown" />
+              <l n="9" xml:id="meineke-0454-ypoballomenai-1-l9">
+                <speaker>Β.</speaker> ὁ Βελλεροφόντης ἔστιν ἀπὸ τοῦ Πηγάσου</l>
+              <l n="10" xml:id="meineke-0454-ypoballomenai-1-l10">τὴν πύρπνοον χίμαιραν εἰσηκοντικώς.</l>
+              <l n="11" xml:id="meineke-0454-ypoballomenai-1-l11">
+                <speaker>Α.</speaker> εἶεν. δέχου καὶ τοῦτο.</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <p>Athenaeus XI p. 497 a. de ῥυτῷ poculo disserens: <quote>Ἐπίνικος δ᾽ ἐν Ὑποβαλλομέναις <quote rend="merge">Καὶ τῶν ῥυτῶν — τοῦτ᾽ ἴσως χωρεῖ χόα.</quote> περὶ δὲ τοῦ τρίτου φησίν <quote rend="merge">Ὁ Βελλεροφόντης κτλ.</quote>
+              </quote> Respicit eundem locum Athenaeus XI p. 469 a: <quote>μνημονεύει τοῦ ποτηρίου τούτου (ἐλέφαντος) καὶ Ἐπίνικος ἐν Ὑποβαλλομέναις, οὗ τὸ μαρτύριον παρέξομαι ἐν τῷ περὶ τοῦ ῥυτοῦ λόγῳ.</quote>
+            </p>
+          </note>
+          <note type="apparatus">
+            <p>Personarum vices distinxi ut sententiarum progressus mihi requirere videbatur. Eodem fere modo Dobraeus Advers. II p. 335. — Vs. 3 Iacobsius Animadv. ad Analecta I, 2 p. 337 coniicit κρουνιζομένων, idque verbis πρὸς κλεψύδραν iungit. Sed κρουνιζόμενον, liquorem ore ex-</p>
+          </note>
+          <pb n="507" facs="urn:hathi:hvd.32044098646714:scan:531" />
+          <note type="apparatus">cipiendo, ut interpretatur Dobraeus, rectissime dicitur is, qui ex rhytio bibit, cuius quae forma fuerit indicat Dorotheus Sidonius apud Athen. p. 498 e: <quote>τὰ ῥυτὰ κέρασιν ὅμοια εἶναι, διατετρημένα δ᾽ εἶναι, ἐξ ὧν κρουνιζόντων λεπτῶς κάτωθεν πίνουσιν. ὠνομάσθαι τε ἀπὸ τῆς ῥύσεως<note type="footnote">*) Male alii ἀπὸ τοῦ ῥυτίδας ἔχειν deducebant. Photius Lex. p. 493 1. <quote>Ῥυτά: εἶδος φιαλῶν. τάχα δὲ οἷον ῥυτίδας καὶ συναγωγὰς ἐχουσῶν.</quote>
+              </note>
+            </quote>). Effluente liquore acutum edebat strepitum, ut Hedylus testatur epigrammate ibidem apud Athen. servato vs. 3 <quote>
+              <lg>
+                <l n="12" xml:id="meineke-0454-ypoballomenai-1-l12">λιγὺν ἦχον σαλπίζει κρουνοῦ πρὸς ῥύσιν οἰγομένου.</l>
+              </lg>
+            </quote> Verba <quote>ἀμφότερα δ᾽ οἰωνίζομαι</quote> Dobraeus vertit <foreign xml:lang="en">I will bet</foreign>, et fortasse tertiae personae tribuenda esse monet. — Vs. 4 <quote>περιάγει</quote>, <foreign xml:lang="la">tecum ducis</foreign>, non tentandum erat. Ad sequentia cfr Eustathius ad Iliad. ψʹ p. 1394 10 Bas.: <quote>Δίφιλος· ῥυτὸν χωροῦντα δύο χοᾶς (sic), ὃν οὐδ᾽ ἂν ἐλέφας ἐκπίῃ (sic)· καὶ σημείωσαι τὸ ῥυτὸς ἐνταῦθα ἀρσενικόν.</quote> Ubi quod Diphilo haec tribuit, id eum fecisse ab epitomae auctore deceptum, qui post superius Diphili testimonium ab Athenaeo prolatum omisso Epinici nomine ita perrexerat, <quote>καὶ πάλιν· ῥυτὸν χωροῦντα κτλ.</quote> monuit Schweighaeuserus. De masculino genere fallitur haud dubie Eustathius, corrupta loci lectione deceptus. — Vs. 5 scripsi <quote>χωροῦν</quote> pro <quote>χωροῦντα</quote>, et delevi quod libri ante <quote>οὐδ᾽</quote> habent <quote>ὃν</quote>. Dobraeus <quote>χωροῦν δύο χόας, οἷον οὐδ᾽ ἂν ἐκπίοι ἐλέφας.</quote> Sed ipse dubitat. — Vs. 6 <quote>δὲ</quote> addidit Casaubonus. Ibid. <quote>τοῦτο γ᾽ ἐκπέπωκα</quote> scripsi pro <quote>τοῦτο πέπωκα</quote>. Dobraeus <quote>ἐλέφας· ἐγὼ τοῦτ᾽ ἐκπέπωκα.</quote> — Vs. 7. cfr Diogenianum IV 43. <quote>Ἐλέφαντος διαφέρεις οὐδέν: ἐπὶ τῶν ἀναισθήτων.</quote> — Vs. 9 <quote>ἕτερον τριήρης</quote>. Athenaeus p. 500 f: <quote>ὅτι καὶ τριήρης εἶδος ἐκπώματος, Ἐπίνικος ἐν Ὑποβαλλομέναις δεδήλωκε. προείρηται δὲ τὸ μαρτύριον.</quote> Quod sequitur <quote>τοῦτ᾽ ἴσως</quote> Schweigh. debetur. Vulgo <quote>τοῦτο τίς οὐ</quote>. Cod. A <quote>τοῦ τις ὡ</quote>. Postrema verba <quote>εἶεν δέχου καὶ τοῦτο</quote>, primo interlocutori magis mihi convenire videbantur quam alteri, ex quo consequens est versus 9 et 10 ab hoc altero recitari, qui his</note>
+          <pb n="508" facs="urn:hathi:hvd.32044098646714:scan:532" />
+          <note type="apparatus">interpretari videtur quam artifex in tertio rhyto repraesentaverat imaginem. Videtur autem poculum describi quod πήγασος appellabatur. V. Astydamas apud Athenaeum XI p. 496 e: ῥέοντα (i. e. ῥυτὰ) δώδεχ᾽, ὧν τὰ μὲν δέκ᾽ ἀργυρᾶ | ἦν, δύο δὲ χρυσᾶ, γρύψ, τὸ δ᾽ ἕτερον πήγασος. — <bibl>Vs. 10</bibl> πύρπνοον PVL. πυρπνόον AB.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

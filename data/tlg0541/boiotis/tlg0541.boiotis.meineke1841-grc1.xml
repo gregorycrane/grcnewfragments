@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΒΟΙΩΤΙΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.boiotis.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.boiotis.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.boiotis.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_boiotis">
+        <head>ΒΟΙΩΤΙΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-boiotis-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-boiotis-1-l1">Habenda non est insuper calumnia</l>
+              <l n="2" xml:id="meineke-0541-boiotis-1-l2">quantumvis falsa; nam sunt qui augere assolent:</l>
+              <l n="3" xml:id="meineke-0541-boiotis-1-l3">quapropter ista praecavere, negotium est.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-boiotis-1_2">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-boiotis-1_2-l1">Οὐ δεῖ διαβολῆς καταφρονεῖν, οὐδ᾽ ἂν σφόδρ᾽ ᾗ</l>
+              <l n="2" xml:id="meineke-0541-boiotis-1_2-l2">ψευδής· ἐπίσταντ᾽ αὐξάνειν αὐτήν τινες,</l>
+              <l n="3" xml:id="meineke-0541-boiotis-1_2-l3">δι᾽ οὓς φυλάττεσθαι τὰ τοιαῦτ᾽ ὀρθῶς ἔχει.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. XLII 1 cum lemmate <quote>Μενάνδρου ἐκ Βοιωτίας.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-boiotis-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-boiotis-2-l1">Multa reperias</l>
+              <l n="2" xml:id="meineke-0541-boiotis-2-l2">molesta in rebus omnibus: sed id vide,</l>
+              <l n="3" xml:id="meineke-0541-boiotis-2-l3">maiorem an partem efficiant quae insunt commoda.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-boiotis-2_2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-boiotis-2_2-l1">Πολλὰ δύσκολα</l>
+              <l n="2" xml:id="meineke-0541-boiotis-2_2-l2">εὕροις ἂν ἐν τοῖς πᾶσιν· ἀλλ᾽ εἰ πλείονα</l>
+              <l n="3" xml:id="meineke-0541-boiotis-2_2-l3">τὰ συμφέροντ᾽ ἔνεστι, τοῦτο δεῖ σκοπεῖν.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. CVIII 42 cum lemmate <quote>Μενάνδρου ἐκ Βοιωτίας.</quote>
+          </note>
+          <note type="apparatus">Vs. 2 vulgo <foreign xml:lang="grc">ἐν τοῖς πᾶσιν εὕροις ἄν</foreign>. Correctum ex cod. A et B.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-boiotis-3">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-boiotis-3-l1">Multis divitiae sunt vitiis obtentui.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-boiotis-3_2">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-boiotis-3_2-l1">Πλοῦτος δὲ πολλῶν ἐπικάλυμμ᾽ ἐστὶν κακῶν.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. XCI 19 cum lemmate <quote>Μενάνδρου Βοιωτία.</quote> Idem versus in Excerptis Antonii Mel. p. 222. ubi editur: <quote>πολλῶν ἐπικάλυμμά ἐστιν ὁ πλοῦτος.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-boiotis-4">
+          <head>IV.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-boiotis-4-l1">Οὐκ ἔστιν ἐκτεὺς τοῦτο, μὰ τὸν Ἀσκληπιόν.</l>
+            </lg>
+          </quote>
+          <note type="source">Erotianus gloss. Hipp. p. 178: <quote>Ἡμιεκτέα, τὸ ἥμισυ τοῦ ἑκτέου (leg. ἑκτέως)· ἑκτεὺς δὲ λέγεται ἀττικὸν μέτρον,</quote>
+          </note>
+          <pb n="95" facs="urn:hathi:hvd.32044098646714:scan:119" />
+          <note type="source">ἔχον χοίνικας ὀκτώ, ὡς φησι Μένανδρος ἐν Βοιωτίᾳ Οὐκ ἔστιν κτλ.</note>
+          <note type="apparatus">Ante Bentleium τουτὶ legebatur.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-boiotis-5">
+          <head>V.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-boiotis-5-l1">Πεντεκτένους μὲν καὶ περίνησα πορφυρᾶ.</l>
+            </lg>
+          </quote>
+          <note type="source">Photius, Περίνησα: περιβόλαια περιφερῆ καὶ νησοειδῆ, ὅμοια ταῖς ὑπὸ Ῥωμαίων καλουμέναις χλαίναις (fort. λαίναις)· Μένανδρος Βοιωτίᾳ Πεντεκτένους κτλ. Idem, Πεντέκτενοι: περιπόρφυροι, διὰ τὸ ἐνυφάνθαι παρὰ τὰς ὤας πέντε κτένας πορφυροῦς</note>
+          <note type="apparatus">Male Bentleius πεντεκτενῆ. Πορφυρᾶ Hermannus et Porsonus. Cod. πορφυρά.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

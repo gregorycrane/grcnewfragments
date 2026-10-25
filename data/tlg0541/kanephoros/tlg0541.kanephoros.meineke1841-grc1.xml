@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΚΑΝΗΦΟΡΟΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.kanephoros.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.kanephoros.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.kanephoros.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_kanephoros">
+        <head>ΚΑΝΗΦΟΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-kanephoros-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-kanephoros-1-l1">Τὸ γὰρ προθύμως μὴ πονήσαντ᾿ εὐτυχεῖν</l>
+              <l n="2" xml:id="meineke-0541-kanephoros-1-l2">εὐδαιμονίας εἴωθ᾽ ὑπερηφανίας ποιεῖν.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. XXII 30 31 in titulo περὶ ὑπεροψίας.</note>
+          <note type="apparatus">Vs. 1 vulgo μὴ πονῆσαν εὐτύχησεν, cod. A πονήσαντες. Pro εὐτύχησεν cod. N εὐτυχῆς. Correxi ut supra adscripsi. Iacobsius Lectt. Stob. p. 67: τὸ γὰρ προθύμως μὴ π̓οθῇς ἄν εὐτυχῆς. Altero versu, quem Trinc. et Gaisfordus Euripidi, Menandro Schowius tribuit, legebatur εὐδαιμονί᾽ εἴωθεν. Hoc etiam correxi.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-kanephoros-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-kanephoros-2-l1">Ἀλογίστου τρόπου</l>
+              <l n="2" xml:id="meineke-0541-kanephoros-2-l2">ἀτύχημα φεύγειν ἐστὶν οὐκ αὐθαίρετον.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. CVIII 30.</note>
+          <note type="apparatus">Recte Clericus explicat: <quote>fieri non potest ut homo imprudens imprudentiae suae poenas subinde non luat.</quote> Grotius vertit: <quote>infortunia inopina fugere non est in nostra manu.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-kanephoros-2_2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-kanephoros-2_2-l1">Infortunia</l>
+              <l n="2" xml:id="meineke-0541-kanephoros-2_2-l2">inopina fugere non est in nostra manu.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-kanephoros-3">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-kanephoros-3-l1">Ἐδεῖτο χρῆσαι τὴν σεαυτῆς θυγατέρα</l>
+              <l n="2" xml:id="meineke-0541-kanephoros-3-l2">ἀντάλλαγον.</l>
+            </lg>
+          </quote>
+          <pb n="144" facs="urn:hathi:hvd.32044098646714:scan:168" />
+          <note type="source">Suidas, Ἀντάλλαγον: καλοῦσι τὸν ἀντὶ ἑτέρου ἠλλαγμένον· οὐχὶ ἄνταλλον. Μένανδρος Κανηφόρῳ Ἐδεῖτο κτλ. Eadem Lexicon Seguer. p. 407.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-kanephoros-4">
+          <head>IV.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-kanephoros-4-l1">Ὃ δ᾽ ἀποκρινεῖται, κἂν ἐγὼ λέγοιμί σοι.</l>
+            </lg>
+          </quote>
+          <note type="source">Suidas, Ἀποκρινεῖται: Μένανδρος Κανηφόρῳ “Ο δ᾽ ἀποκρινεῖται κτλ. Eadem Lexicon Seguer. p. 429.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-kanephoros-5">
+          <head>V.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-kanephoros-5-l1">Γραῦς τις κακολόγος ἐκ δυοῖν Αἰξωνέοιν.</l>
+            </lg>
+          </quote>
+          <note type="source">Harpocratio p. 13: Αἰξωνεῖς — ἐκωμῳδοῦντο δὲ εἰς βλασφήμους, ἀφ᾽ οὗ καὶ τὸ κακῶς λέγειν αἰξωνεύεσθαι ἔλεγον. Μένανδρος ἐν Κανηφόρῳ. Similia Apostolius I 92. Lexicon Seguer. p. 353 s. v. Αἰξωνεύεσθαι: βλάσφημοι γὰρ οἱ Αἰξωνεῖς κατηγοροῦνται. φησὶ γὰρ ὁ κωμικός Γραῦς τις κτλ.</note>
+          <note type="apparatus">Quem ipsum Menandri versum esse vidit etiam Bergkius Comment. p. 82.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

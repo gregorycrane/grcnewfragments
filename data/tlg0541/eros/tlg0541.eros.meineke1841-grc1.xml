@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΗΡΩΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.eros.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.eros.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.eros.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_eros">
+        <head>ΗΡΩΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-eros-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-eros-1-l1">Δέσποιν᾽, Ἔρωτος οὐδὲν ἰσχύει πλέον,</l>
+            <l n="2" xml:id="meineke-0541-eros-1-l2">οὐδ᾽ αὐτὸς ὁ κρατῶν τῶν ἐν οὐρανῷ θεῶν</l>
+            <l n="3" xml:id="meineke-0541-eros-1-l3">Ζεύς, ἀλλ᾽ ἐκείνῳ πάντ᾽ ἀναγκασθεὶς ποιεῖ.</l>
+          </lg>
+          <note type="source">
+            <bibl>Stobaeus Flor. LXIII 21</bibl>. <quote>Μενάνδρου Ἥρωϊ</quote>.</note>
+          <note type="apparatus">Vs. 2 τῶν a Grotio additum, cuius vide annotata ad Stobaeum p. 539.</note>
+        </div>
+        <pb n="129" facs="urn:hathi:hvd.32044098646714:scan:153" />
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-eros-1_2">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-eros-1_2-l1">Nil est Amore, nil, hera, est potentius,</l>
+              <l n="2" xml:id="meineke-0541-eros-1_2-l2">non vel deorum rector ipse Iuppiter;</l>
+              <l n="3" xml:id="meineke-0541-eros-1_2-l3">sed is quoque illi gerere morem cogitur.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-eros-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-eros-2-l1">Ἐχρῆν γὰρ εἶναι τὸ καλὸν εὐγενέστατον,</l>
+            <l n="2" xml:id="meineke-0541-eros-2-l2">τοὐλεύθερον δὲ πανταχοῦ φρονεῖν μέγα.</l>
+          </lg>
+          <note type="source">
+            <bibl>Stobaeus Flor. LXXXIX 7</bibl>. <quote>Μενάνδρου Ἥρωϊ</quote>.</note>
+          <note type="apparatus">Vs. 1 τὸ καλὸν A. Voss. et Trinc. τὸν καλὸν vulgo. — Vs. 2 libri τὸν ἐλεύθερον δὲ δεῖ. Correxit Bentleius Grotius τὸ δ᾽ ἐλ. δεῖ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-eros-2_2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-eros-2_2-l1">Bonum virum esse decuit nobilissimum:</l>
+              <l n="2" xml:id="meineke-0541-eros-2_2-l2">ingenuos animi semper generosi addecent.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-eros-3">
+          <head>III.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-eros-3-l1">Ὡς οἰκτρόν, ἦ τὰ τοιαῦτα δυστυχῶ μόνη,</l>
+            <l n="2" xml:id="meineke-0541-eros-3-l2">ἃ μηδὲ πιθανὰς τὰς ὑπερβολὰς ἔχει.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. CIV 13 cum lemmate Μενάνδρου Ἥρωι.</note>
+          <note type="apparatus">Vs. 1 cod. B εἰ pro ἦ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-eros-3_2">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-eros-3_2-l1">Hei mihi quae sola talibus mergor malis,</l>
+              <l n="2" xml:id="meineke-0541-eros-3_2-l2">quorum fidem omnem superat ipsa immanitas.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-eros-4">
+          <head>IV.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-eros-4-l1">Πεφαρμάκευσ᾽ ὦ γλυκύτατ᾽ ἀναλυθεὶς μόλις.</l>
+          </lg>
+          <note type="source">Suidas, Ἀναλυθῆναι: τὸ καθαρμῷ τινι χρήσασθαι φαρμάκων. Μένανδρος Ἥρωι <ref target="#p0129-u02-fn1">*)</ref> Ἐπιφαρμάκευσον γλυκύτατ᾽ ἀναλυθεὶς μόλις.</note>
+          <note type="apparatus">Ita vulgo. Cod. A et Zonaras Lex. p. 202 ἐπεφαρμάκευσο, unde scripsi in prima edit. ἐπιφαρμάκευσ᾽ ὦ γλυκύτατ᾽ etc. hac sententia: vix ac ne vix quidem incantamentis a malo liberatus, praeterea καθαρσίῳ te purga. In his ὦ γλυκύτατε haud dubie verum est. Sed pro ἐπιφαρμάκευσ᾽ probavi cum Bernhardio Lobeckii coniecturam πεφαρμάκευσαι. V. Aglaoph. p. 644. Cod. B ἐπεφαρμάκευσον. E ἐπεφαρμάκευσον, postremae syllabae superscripto ε. De verbo ἀναλυθῆναι dixi in edit. mai.</note>
+          <note type="footnote" xml:id="p0129-u02-fn1">*) Ita ex codd. Gaisfordus. Vulgo Ἥρωσι.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-eros-5">
+          <head>V.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-eros-5-l1">Εὖ ἴσθι, κἀγὼ τοῦτο συγχωρήσομαι.</l>
+          </lg>
+          <note type="source">Ammonius p. 76: ἴσθι καὶ γίνωσκε διαφέρει — Μένανδρος Ἥρωι Εὖ ἴσθι κτλ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0541-eros-6">
+          <head>VI.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-eros-6-l1">Χοῦς κεκραμένου</l>
+            <l n="2" xml:id="meineke-0541-eros-6-l2">οἴνου· λαβὼν ἔκπιθι τοῦτον.</l>
+          </lg>
+          <note type="source">Athenaeus X p. 426 c. de variis vini miscendi modis agens: Μένανδρος ἐν Ἥρωι Χοῦς κτλ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" ana="#compiled-citation-normalized" xml:id="meineke-0541-eros-7">
+          <head>VII.</head>
+          <note type="source">Grammaticus Bekkeri Anecd. p. 1262: ἀπὸ δὲ τοῦ θηλυκοῦ τοῦ παῖς γίγνεται ἡ παιδίσκη καὶ αἱ παιδίσκαι τῶν</note>
+          <pb n="130" facs="urn:hathi:hvd.32044098646714:scan:154" />
+          <note type="apparatus">
+            <p>παιδισκῶν περισπωμένως ὡς μονογενές, τῶν παιδισκῶν τινὶ δούς, παρὰ τῷ Μενάνδρῳ ἐν τῷ Ἥρωι. Fuit opinor: τῶν δὲ παιδισκῶν τινί | δούς.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

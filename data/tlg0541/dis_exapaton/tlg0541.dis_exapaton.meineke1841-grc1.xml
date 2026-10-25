@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΔΙΣ ΕΞΑΠΑΤΩΝ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.dis_exapaton.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.dis_exapaton.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.dis_exapaton.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dis_exapaton">
+        <head>ΔΙΣ ΕΞΑΠΑΤΩΝ</head>
+        <pb n="105" facs="urn:hathi:hvd.32044098646714:scan:129" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-dis_exapaton-1">
+          <head>Ι.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-dis_exapaton-1-l1">Βουληφόρως</l>
+            <l n="2" xml:id="meineke-0541-dis_exapaton-1-l2">τὴν ἡμετέραν, ὦ Δημέα, προκατέλαβες</l>
+            <l n="3" xml:id="meineke-0541-dis_exapaton-1-l3">ὅρασιν.</l>
+          </lg>
+          <note type="source">Fulgentius Mythol. III 1 p. 199: Bellerophonta posuerunt, quasi βουληφοροῦντα — nam et Menander similiter in Disexapatonte comoedia ita ait: <quote>Βουληφόρως — ὅρασιν,</quote> id est: consiliarie nostram, Demea, praeoccupavisti visionem.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-dis_exapaton-2">
+          <head>ΙΙ.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-dis_exapaton-2-l1">᾿Ἐμοὶ παράστα· τὴν θύραν κόψας ἐγὼ</l>
+            <l n="2" xml:id="meineke-0541-dis_exapaton-2-l2">καλῶ τιν᾿ αὐτῶν.</l>
+          </lg>
+          <note type="source">Suidas I p. 294: οὐ μόνον ἀπόστηθι λέγουσιν, ἀλλὰ καὶ ἀπόστα. — <quote>Μένανδρος Δὶς ἐξαπατῶντι ᾿Ἐμοὶ παράστα κτλ.</quote> Eadem Lex. Seguer. p. 436. ubi vitiose καλῶς τιν᾿ αὐτόν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-dis_exapaton-3">
+          <head>ΙΙΙ.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-dis_exapaton-3-l1">Οὐ Μεγάβυζος ἦν,</l>
+            <l n="2" xml:id="meineke-0541-dis_exapaton-3-l2">ὅστις γένοιτο ζάκορος.</l>
+          </lg>
+          <note type="source">Photius, Ζάκορος: νεωκόρος. <quote>Μένανδρος Δὶς ἐξαπατῶντι Οὐ Μεγάβυζος κτλ.</quote> Eadem Suidas v. ζάκορος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-dis_exapaton-4">
+          <head>IV.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-dis_exapaton-4-l1">Ὃν οἱ θεοὶ φιλοῦσιν ἀποθνήσκει νέος.</l>
+          </lg>
+          <note type="source">Plutarchus Cons. ad Apoll. p. 119 e: προσμαρτυρήσας τῷ καλῶς ὑπὸ Μενάνδρου ῥηθέντι τούτῳ <quote>“Ὃν οἱ θεοὶ κτλ.</quote>
+          </note>
+          <note type="apparatus">Idem versus legitur apud Clement. Alex. Str. VI p. 265 Sylb. in schol. Odyss. XV 246. Eustathium p. 1781 2 et Stobaeum Flor. CXX 8. cuius auctoritate ad Disexapatonta relatus est. Latine reddidit Plautus Bacch. IV 7 18: <quote>quem di diligunt adolescens moritur.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-dis_exapaton-4_2">
+          <head>IV.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-dis_exapaton-4_2-l1">Flore in iuvenili moritur quem di diligunt.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

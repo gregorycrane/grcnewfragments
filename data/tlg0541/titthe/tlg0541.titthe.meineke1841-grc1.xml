@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΤΙΤΘΗ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.titthe.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.titthe.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.titthe.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_titthe">
+        <head>ΤΙΤΘΗ</head>
+        <pb n="205" facs="urn:hathi:hvd.32044098646714:scan:229" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-titthe-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-titthe-1-l1">Ἢν ἄν τις ὑμῶν παιδίον</l>
+              <l n="2" xml:id="meineke-0541-titthe-1-l2">ᾐτήσατ᾽ ἢ κέχρηκεν, ἄνδρες γλυκύτατοι.</l>
+            </lg>
+          </quote>
+          <note type="source">Suidas, Αἰτήσασθαι: τὸ χρήσασθαι. Μένανδρος Τιτθῇ <quote>Ἢν ἄν τις</quote> κτλ.</note>
+          <note type="apparatus">Ita correxerunt vulgatum Ἀνδρὸς Τίτθην. Eadem corruptela apud Zonaram I p. 98. ubi in Menandri verbis pro ἣν ἄν τις legitur ἣν ἄν τις. Neutrum sanum est. Porsonus Adv. p. 292 εἴ τις. Aliud quid latere videtur.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-titthe-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-titthe-2-l1">Οἱ τὰς ὀφρῦς αἴροντες ὡς ἀβέλτεροι</l>
+              <l n="2" xml:id="meineke-0541-titthe-2-l2">καὶ „σκέψομαι” λέγοντες· ἄνθρωπος γὰρ ὤν</l>
+              <l n="3" xml:id="meineke-0541-titthe-2-l3">σκέψει τί περὶ τοῦ; δυστυχὴς ὅταν τύχῃ·</l>
+              <l n="4" xml:id="meineke-0541-titthe-2-l4">αὐτόματα γὰρ τὰ πράγματ᾽ ἐπὶ τὸ συμφέρον</l>
+              <l n="5" xml:id="meineke-0541-titthe-2-l5">ῥεῖ κἂν καθεύδῃς ἢ πάλιν τοὐναντίον.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. XXII 9 cum lemmate Μενάνδρου Τιτθὴ ex B et Arsenio. Omittunt Τιτθή Trinc. Frob. Deest locus in A.</note>
+          <note type="apparatus">Vs. 3 libri σκέψῃ. Tum τί περὶ τοῦ scripsi ex cod. Schowii. Vulgo σὺ περί του. Ars. σὺ περὶ τούτου. Ν σὺ περίττου. Β m. s. σὺ περιττοῦ ἢ περίτου. Sequentia, δυστυχὴς (N p. m. δυστυχεῖς) ὅταν τύχῃ, tuetur Bentleius. Dobraeus Adv. II p. 281: σκέψει σὺ περὶ τοῦ δυστυχῆσ᾽ ὅταν τύχῃ; an te curis enecabis, idque ut quandoque fortunae vi opprimaris? — Vs. 5 Trinc. καθευδήσῃ omisso κἄν. Recte locus scriptus est apud Stobaeum Ecl. phys. I p. 200. ubi duo postremi versus male cum alio coniuncti sunt.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-titthe-2_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-titthe-2_2-l1">O stultos homines, qui supercilio gravi</l>
+            <l n="2" xml:id="meineke-0541-titthe-2_2-l2">subinde repetunt, Videro. tun' videris,</l>
+            <l n="3" xml:id="meineke-0541-titthe-2_2-l3">homo quum sis, de re? miser utcumque res cadet!</l>
+            <l n="4" xml:id="meineke-0541-titthe-2_2-l4">atqui secundae res sponte adveniunt sua</l>
+            <l n="5" xml:id="meineke-0541-titthe-2_2-l5">vel dormienti, nec minus contrariae.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

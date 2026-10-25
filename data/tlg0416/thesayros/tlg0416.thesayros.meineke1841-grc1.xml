@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Archedicus, ΘΗΣΑΥΡΟΣ: fragments</title>
+        <author>Archedicus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0416.thesayros.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0416.thesayros.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0416.thesayros.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0416_thesayros">
+        <head>ΘΗΣΑΥΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0416-thesayros-1">
+          <lg>
+            <l n="1" xml:id="meineke-0416-thesayros-1-l1">Πρῶτον ὠμῶν κειμένων</l>
+            <l n="2" xml:id="meineke-0416-thesayros-1-l2">τῶν ἰχθύων πάρεισιν οἱ κεκλημένοι·</l>
+            <l n="3" xml:id="meineke-0416-thesayros-1-l3">„δίδου κατὰ χειρός.” „τοὔψον οἰχήσει λαβών.”</l>
+            <l n="4" xml:id="meineke-0416-thesayros-1-l4">τὰς λοπάδας ἐπιθεὶς ἐπὶ τὸ πῦρ τοὺς ἄνθρακας</l>
+            <l n="5" xml:id="meineke-0416-thesayros-1-l5">ἔρραν᾽ ἐλαίῳ πάντα καὶ ποιῶ φλόγα.</l>
+            <l n="6" xml:id="meineke-0416-thesayros-1-l6">ἐν ᾧ τὸ λάχανον αἵ τε τῶν παροψίδων</l>
+          </lg>
+          <pb n="436" facs="urn:hathi:hvd.32044098646714:scan:460" />
+          <lg>
+            <l n="7" xml:id="meineke-0416-thesayros-1-l7">τὸν ἄνδρα δριμύτητες εὐφραίνουσί μοι,</l>
+            <l n="8" xml:id="meineke-0416-thesayros-1-l8">ἑφθὸν τὸν ἰχθὺν ἀποδίδωμ᾽, ἔχοντα τοὺς</l>
+            <l n="9" xml:id="meineke-0416-thesayros-1-l9">χυμοὺς ἐν αὑτῷ τήν τε τῆς ἅλμης ἀκμήν,</l>
+            <l n="10" xml:id="meineke-0416-thesayros-1-l10">εἰς ἣν ἂν ἐμβάψαιτο πᾶς ἐλεύθερος·</l>
+            <l n="11" xml:id="meineke-0416-thesayros-1-l11">ἐλαδίου κοτύλης τε παραναλωμένης</l>
+            <l n="12" xml:id="meineke-0416-thesayros-1-l12">σέσωκά μοι τρίκλινα πεντήκοντ᾽ ἴσως.</l>
+          </lg>
+          <note type="source">Athenaeus VII p. 292 e: καὶ παρ᾽ Ἀρχεδίκῳ δὲ ἐν Θησαυρῷ ἄλλος σοφιστὴς μαγειρίσκος τάδε λέγει Πρῶτον κτλ.</note>
+          <note type="apparatus">Vs. 1 πρῶτον ABCP. πρῶτον μὲν VL. — Vs. 3 verba δίδου — λαβὼν a convivis sibi acclamari fingit. — Vs. 5 πάντα καὶ ποιῶ φλόγα. Hoc dicit, inspergo carbonibus oleum omnemque locum incendo. Itaque πάντα καὶ pro καὶ πάντα, insolenti particulae καὶ collocatione, cuius apud veteres Atticos nullum exemplum reperiri credo. De Aristoph. Acharn. 884 coniecturam haud improbabilem, opinor, protuli ad Theocr. I 12. In Nub. 744 vera videtur Hermanni emendatio. De Pac. 417 sic statuo ut τήνδε τε ξυνέλκυσον scribendum putem. Denique apud Aeschylum Prom. 51: ἔγνωκα τοῖσδε κοὐδὲν ἀντειπεῖν ἔχω, τοῖσδε cum ἔγνωκα coniungendum. — Vs. 7 μοι pro μου Schweighaeuserus. — Vs. 8 ἀποδίδωμ᾽ AB. nisi quod plene scribunt ἀποδίδωμι. VL ἀποδιδόντ᾽. — Vs. 10 post πᾶς ABP addunt ἀνήρ. — Vs. 11 verba ἐλαδίου κοτύλη affert Eustathius p. 1552 33. — Vs. 12 σέσωκ᾽ ἐμοὶ Schweighaeuserus praeeunte Dutheil, id ut sit σέσωκα: vulgo σέσωκέ μου. Scripsi σέσωκά μοι. Nisi forte cum Dobraeo Advers. II p. 314 praecedenti versu corrigendum κοτύλη τε παραναλωμένη, quo pacto vs. 13 σέσωκέ μοι scribendum fuerit. Ibid. notandum τρίκλινον, quod alias constanti usu dicitur τρίκλινος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0416-thesayros-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0416-thesayros-2-l1">Δραχμῶν τριῶν γλαυκίσκον . . . .</l>
+            <l n="2" xml:id="meineke-0416-thesayros-2-l2">γόγγρου κεφαλὴν καὶ τὰ πρῶτα τεμάχια</l>
+            <l n="3" xml:id="meineke-0416-thesayros-2-l3">δραχμῶν πάλιν πέντ᾽. ὦ ταλαιπώρου βίου.</l>
+            <l n="4" xml:id="meineke-0416-thesayros-2-l4">δραχμῆς τραχήλους. ἀλλὰ νὴ τὸν ἥλιον,</l>
+          </lg>
+          <pb n="437" facs="urn:hathi:hvd.32044098646714:scan:461" />
+          <lg>
+            <l n="5" xml:id="meineke-0416-thesayros-2-l5">κἀμοὶ τράχηλον ἕτερον εἴ ποθεν λαβεῖν</l>
+            <l n="6" xml:id="meineke-0416-thesayros-2-l6">ἦν καὶ πρίασθαι δυνατόν, ὃν ἔχω τοῦτον ἄν,</l>
+            <l n="7" xml:id="meineke-0416-thesayros-2-l7">πρὶν εἰσενεγκεῖν ταῦτα δεῦρ᾽, ἀπηγξάμην.</l>
+            <l n="8" xml:id="meineke-0416-thesayros-2-l8">οὐδεὶς δεδιηκόνηκεν ἐπιπονώτερον.</l>
+            <l n="9" xml:id="meineke-0416-thesayros-2-l9">ἅμα μὲν πρίασθαι πολλὰ καὶ πολλοῦ σφόδρα,</l>
+            <l n="10" xml:id="meineke-0416-thesayros-2-l10">ἅμα δ᾽ εἴ τι χρηστὸν ἀγοράσαιμ᾽ ἀπωλλύμην,</l>
+            <l n="11" xml:id="meineke-0416-thesayros-2-l11">„κατέδοντ᾽ ἐκεῖνοι τοῦτο” πρὸς ἐμαυτὸν λέγων,</l>
+            <l n="12" xml:id="meineke-0416-thesayros-2-l12">διαπυτιοῦσ᾽ οἶνον δὲ τοιοῦτον χαμαί.</l>
+            <l n="13" xml:id="meineke-0416-thesayros-2-l13">οἴμοι.</l>
+          </lg>
+          <note type="source">Athenaeus VII p. 294b: Ἀρχέδικος δ᾽ ἐν Θησαυρῷ παράγει τινὰ μάγειρον λέγοντα περὶ ὧν ὠψώνηκεν αὐτός <quote>Δραχμῶν</quote> κτλ.</note>
+          <note type="apparatus">Vs. 1 Dindorfius supplebat ὠψώνηκ᾽ ἐγώ. Tertium versum comparanti forsan exclamatio, v. c. ὦ μεγάλοι θεοί vel οἴμοι τῶν κακῶν, omissa esse videbitur. — Vs. 2 Schweigh. γόγγρου δὲ κεφαλήν. Possis etiam γόγγρου κεφάλαιον. — Vs. 4 τραχήλους, cervices cochlearum, de quibus dixi ad Posidippi Locrides. — Vs. 5 et 6 recte interpretatus est Schweighaeuserus. Mihi quoque si cervicem aliam aliunde emere liceret, hanc ego quam habeo, priusquam haec istuc inferrem, strangularem. „Veretur enim coquus, quum tam multos cibos tam caro pretio emisset, ne, ubi rationes inierit cum iuvenibus, qui eius operam ad parandam coenam locaverant, non sint ei fidem habituri isti nepotes, nolintque de expensa pecunia ei satisfacere.” — Vs. 8 ante Dindorfium οὐθείς. Ibidem δεδιηκόνηκεν debetur Valckenario Diatr. p. 278. Vulgo δὲ διηκόνηκεν. P δὲ διακόνηκεν. — Vs. 11 λέγων Dobraeus Advers. II p. 314. Libri λέγω. — Vs. 12 libri διαπυτιοῦσιν οἶνον. Cfr Clemens Alex. Paed. II p. 154 B (ed. Col.): περὶ τοῖς τραχήλοις ἔχοντας στεφάνους ὥσπερ τοὺς ἀμφορεῖς, διαπυτίζοντας ἀλλήλοις τὸν ἄκρατον φιλοτησίας ὀνόματι.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

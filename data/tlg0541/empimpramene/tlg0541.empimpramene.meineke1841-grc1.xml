@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΕΜΠΙΜΠΡΑΜΕΝΗ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.empimpramene.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.empimpramene.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.empimpramene.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_empimpramene">
+        <head>ΕΜΠΙΜΠΡΑΜΕΝΗ</head>
+        <pb n="114" facs="urn:hathi:hvd.32044098646714:scan:138" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-empimpramene-1">
+          <head rend="align-center">I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-empimpramene-1-l1">Ἐξώλης ἀπόλοιθ᾽ ὅστις ποτέ</l>
+              <l n="2" xml:id="meineke-0541-empimpramene-1-l2">ὁ πρῶτος ἦν γήμας, ἔπειθ᾽ ὁ δεύτερος,</l>
+              <l n="3" xml:id="meineke-0541-empimpramene-1-l3">εἶθ᾽ ὁ τρίτος, εἶθ᾽ ὁ τέταρτος, εἶθ᾽ ὁ μεταγενής.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XIII p. 559 e: <quote>Μένανδρος ἐν Ἐμπιπραμένῃ (libri Ἐμπιμπραμένῃ) Ἐξώλης ἀπόλοιτο κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 2 ante Grotium Exc. p. 713 legebatur ἦν ὁ γήμας. — Vs. 3 Zedelius Μεταγένης, ut habet L. At recte legitur μεταγενής. Photius p. 263 23. Μεταγενής: μεταγενέστερος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-empimpramene-2">
+          <head rend="align-center">II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-empimpramene-2-l1">Τρία γάρ ἐστι, δέσποτα,</l>
+              <l n="2" xml:id="meineke-0541-empimpramene-2-l2">δι᾽ ὧν ἅπαντα γίγνετ᾽, ἢ κατὰ τοὺς νόμους,</l>
+              <l n="3" xml:id="meineke-0541-empimpramene-2-l3">ἢ ταῖς ἀνάγκαις, ἢ τὸ τρίτον ἔθει τινί.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. XLIII 15 cum lemmate <quote>Μενάνδρου Ἐμπιπραμένη</quote>. Servavit locum etiam Apostolius XIX 54. neque poetae nec fabulae nomine indicato.</note>
+          <note type="apparatus">Vs. 2 Apost. κατὰ τὸν νόμον. Apud Stobaeum libri τοὺς omittunt. — Vs. 3 τὸ addidit Bentleius. Ad sententiam Cuiacius Observ. XIX 16 comparavit Modestinum Digest. I 3 40: Omne ius aut consensus fecit, aut necessitas constituit, aut firmavit consuetudo.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-empimpramene-3">
+          <head rend="align-center">III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-empimpramene-3-l1">Ἐφ᾽ ᾧ φρονεῖς μέγιστον ἀπολεῖ τοῦτό σε,</l>
+              <l n="2" xml:id="meineke-0541-empimpramene-3-l2">τὸ δοκεῖν τιν᾽ εἶναι· καὶ γὰρ ἄλλους μυρίους.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. XXII 28 cum lemmate <quote>Μενάνδρου Ἐμπιμπραμένῃ</quote>.</note>
+          <note type="apparatus">Vs. 2 cod. B τι pro τιν᾽. Malim τις.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-empimpramene-4">
+          <head rend="align-center">IV.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-empimpramene-4-l1">Ὡς ἀγαθόν ἐστι πρᾶγμα τὸ γενέσθαι τινός</l>
+              <l n="2" xml:id="meineke-0541-empimpramene-4-l2">πατέρα.</l>
+            </lg>
+          </quote>
+          <pb n="115" facs="urn:hathi:hvd.32044098646714:scan:139" />
+          <note type="source">Stobaeus Flor. LXXV 6 cum lemmate Μενάνδρου Ἐμπιμπραμένῃ.</note>
+          <note type="apparatus">Pro ἐστι codd. AB habent τό. Pro τινὸς cum Dobraeo Adv. II p. 273 malim τέκνων vel τινά.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5_6" ana="#compiled-citation-normalized" xml:id="meineke-0541-empimpramene-5_6">
+          <head>V. VI.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-empimpramene-5_6-l1">Καὶ νῦν ὑπὲρ τούτων συνάγουσι κατὰ μόνας.</l>
+              <l n="2" xml:id="meineke-0541-empimpramene-5_6-l2">Ἐπλήρωσέν τε τὸ συναγώγιον.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus VIII p. 365 c: ἔλεγον δὲ συνάγειν τὸ μετ᾽ ἀλλήλων πίνειν, καὶ συναγώγιον τὸ συμπόσιον. Μένανδρος Ἐμπιπραμένῃ <quote>Καὶ νῦν κτλ.</quote> εἶθ᾽ ἑξῆς <quote>Ἐπλήρωσέν τε τὸ συναγώγιον.</quote> μήποτε δὲ τοῦτ᾽ ἔστι τὸ ἀπὸ συμβολῶν καλούμενον.</note>
+          <note type="apparatus">Vide quae dixi in ed. mai.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-empimpramene-1_2">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-empimpramene-1_2-l1">Pereat male qui uxorem ducere</l>
+            <l n="2" xml:id="meineke-0541-empimpramene-1_2-l2">instituit primus, tum secundus qui fuit,</l>
+            <l n="3" xml:id="meineke-0541-empimpramene-1_2-l3">tum tertius, tum quartus, tum qui postumus.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-empimpramene-2_2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-empimpramene-2_2-l1">Tria sunt, here,</l>
+            <l n="2" xml:id="meineke-0541-empimpramene-2_2-l2">et quis geruntur cuncta: nempe ex legibus,</l>
+            <l n="3" xml:id="meineke-0541-empimpramene-2_2-l3">aut ex necessitate, aut consuetudine.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-empimpramene-3_2">
+          <head>III.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-empimpramene-3_2-l1">Ut ante multos, te quoque haec perdet lues,</l>
+            <l n="2" xml:id="meineke-0541-empimpramene-3_2-l2">quantumvis blanda, quod tibi nimium places.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="4_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-empimpramene-4_2">
+          <head>IV.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-empimpramene-4_2-l1">Quam vero lepida res est alicuius dicier</l>
+            <l n="2" xml:id="meineke-0541-empimpramene-4_2-l2">parentem!</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

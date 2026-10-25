@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΑΛΙΕΙΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.alieis.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.alieis.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.alieis.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_alieis">
+        <head>ΑΛΙΕΙΣ</head>
+        <pb n="74" facs="urn:hathi:hvd.32044098646714:scan:98" />
+        <div type="textpart" subtype="fragment" n="1_2_3" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-1_2_3">
+          <head>I. II. III.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-alieis-1_2_3-l1">Παχὺς γὰρ ὗς ἔκειτ᾽ ἐπὶ στόμα.</l>
+            <l n="2" xml:id="meineke-0541-alieis-1_2_3-l2">Ἐτρύφησεν ὥστε μὴ πολὺν τρυφᾶν χρόνον.</l>
+            <l n="3" xml:id="meineke-0541-alieis-1_2_3-l3">Ἴδιον ἐπιθυμῶν μόνος μοι θάνατος οὗτος φαίνεται</l>
+            <l n="4" xml:id="meineke-0541-alieis-1_2_3-l4">εὐθάνατος, ἔχοντα πολλὰς χολλάδας κεῖσθαι παχύν,</l>
+            <l n="5" xml:id="meineke-0541-alieis-1_2_3-l5">ὕπτιον, μόλις λαλοῦντα καὶ τὸ πνεῦμ᾽ ἔχοντ᾽ ἄνω,</l>
+            <l n="6" xml:id="meineke-0541-alieis-1_2_3-l6">ἐσθίοντα καὶ λέγοντα „σήπομ᾽ ὑπὸ τῆς ἡδονῆς.”</l>
+          </lg>
+          <note type="source">Athenaeus XII p. 549 c: μνημονεύει δ᾽ αὐτοῦ (Dionysii Heracleotae) καὶ Μένανδρος ἥκιστά γ᾽ ὢν λοίδορος ἐν τοῖς Ἁλιεῦσι, τὸν μῦθον ὑποστησάμενος ὑπέρ τινων φυγάδων ἐξ Ἡρακλείας <quote>Παχὺς γὰρ ὗς ἔκειτ᾽ ἐπὶ στόμα.</quote> καὶ πάλιν <quote>Ἐτρύφησεν — χρόνον.</quote> καὶ ἔτι <quote>Ἴδιον ἐπιθυμῶν</quote> κτλ.</note>
+          <note type="apparatus">De Dionysio, Heracleae Ponticae tyranno, vide quos in editione maiore commemoravi. Vs. 3 ἴδιον θάνατον dicere videtur mortis genus peculiare, quale vix aliis obtingat. De constructione ἴδιον ἐπιθυμῶν μόνος μοι φαίνεται dixi in edit. mai. — Vs. 4 cod. Β ἔχοντι. Ibid. πολλὰς ABV. πολλὰ P et Basil. L. Tum χολλάδας pro χολάδας ex mea coniectura scripsit Dindorfius. Phrynichus App. Soph. p. 72: Χολλάδες διὰ δυοῖν λλ, αἱ τῆς γαστρὸς διὰ πυκνότητα ἐπιπτύξεις, ventris plicae ex nimia obesitate ortae. Eadem forma praeter Menandrum usus est Pherecrates p. 346. — Vs. 5 de dictione πνεῦμ᾽ ἔχειν ἄνω vide edit. mai. Ceterum postremi quattuor versus ipsius Dionysii verba sunt ab uno exulum prolata.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-4">
+          <head>IV.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-alieis-4-l1">Εὐποροῦμεν, οὐδὲ μετρίως· ἐκ Κυΐνδων χρυσίον,</l>
+            <l n="2" xml:id="meineke-0541-alieis-4-l2">Περσικαὶ στολαὶ δ᾽ ἐκεῖναι πορφυραῖ, τορεύματα</l>
+            <l n="3" xml:id="meineke-0541-alieis-4-l3">ἔνδον ἔστ᾽, ἄνδρες, ποτηρίδια, τορεύματα,</l>
+            <l n="4" xml:id="meineke-0541-alieis-4-l4">κἀκτυπωμάτων πρόσωπα, τραγέλαφοι, λαβρώνια.</l>
+          </lg>
+          <note type="source">Athenaeus XI p. 484 c: Λαβρώνια, ἐκπώματος Περσικοῦ εἶδος, ἀπὸ τῆς ἐν τῷ πίνειν λαβρότητος ὠνομασμένον.</note>
+          <pb n="75" facs="urn:hathi:hvd.32044098646714:scan:99" />
+          <note type="source">
+            <quote>πλατὺ δ᾽ ἐστὶ τῇ κατασκευῇ καὶ μέγα, ἔχει δὲ καὶ ὦτα μεγάλα. Μένανδρος Ἁλιεῖ Εὐποροῦμεν κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 ante Bentleium legebatur εὐπορουμένου δέ. Tum VL ἐκ κυλίκων. Ρ ἐκκυλίνδων. ΑΒ ἐκ κυλίνδων. Correxi ἐκ Κυΐνδων. Recepit Dindorfius. De Quindis, Ciliciae castello postea Diocaesarea dicto (Suidas I p. 162), veterum scriptorum loca attuli in edit. maiore. Eo tanquam gazophylacio utebantur Macedones, donec Eumenes, quum ab Antigono defecisset, asservatas ibi opes diriperet. Strabo XIV p. 672: <quote>ὑπέρκειται δὲ τὰ Κύϊνδα τῆς Ἀγχιάλης, ἔρυμα, ᾧ ἐχρήσαντό ποτε οἱ Μακεδόνες γαζοφυλακίῳ· ἦρε δὲ τὰ χρήματα Εὐμένης ἀποστὰς Ἀντιγόνου.</quote> Ad hanc ipsam Eumenis expeditionem spectat fortasse Menandri locus, in quo militem audire mihi videor opes quas ex militia reportasset ambitiose enumerantem. Cfr Theophrastus Charact. XX iactatoris esse dicens commemorare <quote>ὡς μετ᾿ Εὐάνδρου ἐστρατεύσατο, καὶ ὅσα λιθοκόλλητα ποτήρια ἐκόμισε, καὶ περὶ τῶν τεχνιτῶν τῶν ἐν τῇ Ἀσίᾳ ὡς βελτίους εἰσὶ τῶν ἐν Εὐρώπῃ.</quote> — Vs. 2 Bentleius πορφυρᾶ τε στρώματα, et vs. 3 ποτηρίδιά τε καὶ τυρεύματα. At recte monet Dindorfius τορεύματα in tertio potius versu corruptum esse quam secundo. — Vs. 4 Dobraeus Adv. II p. 333 κἀκτυπώματ᾽ εὐπρόσωπα. Ac sane vulgatum paullo insolentius dictum est: non credo tamen aliquid mutandum esse. Similiter Philoxenus dixit προτομαὶ κεράτων, de quo vide Fragm. poet. com. med. p. 645. Sequentia iterum apposuit Athenaeus XI p. 500 c. τραγέλαφος· <quote>Μένανδρος δ᾽ ἐν Ἁλιεῖ τραγέλαφοι, λαβρώνιοι.</quote> Hoc an alterum probes nil interest. Photius, <quote>Λαβρώνιον: εἶδος ποτηρίου πλατὺ τῇ κατασκευῇ, καὶ μεγάλα ὦτα ἔχον. οὕτω Μένανδρος.</quote> Cfr edit. mai.</note>
+        </div>
+        <pb n="76" facs="urn:hathi:hvd.32044098646714:scan:100" />
+        <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-6">
+          <head>VI.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-alieis-6-l1">Χαλεπόν γε θυγάτηρ κτῆμα καὶ δυσδιάθετον.</l>
+          </lg>
+          <note type="apparatus">
+            <note type="source">Stobaeus Flor. LXXXVII 6 cum lemmate Μενάνδρου Ἁλιεύς, i. e. Ἁλιεῦσι.</note> Respicere videtur Hesychius, Οὐκ εὐδιάθετος: οὐ δυναμένη εὐχερῶς γήμασθαι. Ex quo suspiceris Menandrum scripsisse κοὐκ εὐδιάθετος. Metaphora a mercibus venum expositis petita. Lycon apud Diog. Laert. V 65: βαρὺ φορτίον πατρὶ κόρη.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-7">
+          <head>VII.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-alieis-7-l1">Δύναται τὸ πλουτεῖν καὶ φιλανθρώπους ποιεῖν.</l>
+          </lg>
+          <note type="apparatus">
+            <note type="source">Stobaeus Flor. XCI 5 cum lemmate Μένανδρος Ἁλιεῖ.</note> Est etiam in Gnomis monost. 120.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="8" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-8">
+          <head>VIII.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-alieis-8-l1">Χαῖρ᾽ ὦ φίλη γῆ, διὰ χρόνου πολλοῦ σ᾽ ἰδὼν</l>
+            <l n="2" xml:id="meineke-0541-alieis-8-l2">ἀσπάζομαι· τουτὶ γὰρ οὐ πᾶσαν ποιῶ</l>
+            <l n="3" xml:id="meineke-0541-alieis-8-l3">τὴν γῆν, ὅταν δὲ τοὐμὸν ἐσίδω χωρίον·</l>
+            <l n="4" xml:id="meineke-0541-alieis-8-l4">τὸ γὰρ τρέφον με τοῦτ᾽ ἐγὼ κρίνω θεόν.</l>
+          </lg>
+          <note type="apparatus">
+            <note type="source">Stobaeus Flor. LVI 3 cum lemmate Μενάνδρου Ἀδελφῶν, quod ex Ἁλιέων corruptum esse vidit Grauertus Anal. hist. et philol. p. 143. Iustinus de Monarch. p. 40 B: ἐν Μισουμένῳ δὲ πάλιν ἀποφαίνων τῶν εἰς θεοὺς παραλαμβανομένων τὰς γνώμας, μᾶλλον δὲ ἐλέγχων ὡς οὐκ ὄντας ὁ αὐτὸς Μένανδρος — ἐν Ἁλιεῦσι <quote>Τὸ γὰρ τρέφον με τοῦτ᾽ ἐγὼ κρίνω θεόν.</quote>
+            </note> — Vs. 3 Elmsleius ἐπίδω. V. Fritzschium ad Aristoph. Thesm. 657.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="9" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-9">
+          <head>IX.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-alieis-9-l1">῾Ὡς δὲ τὴν ἄκραν</l>
+            <l n="2" xml:id="meineke-0541-alieis-9-l2">κάμπτοντας ἡμᾶς εἶδον, ἐμβάντες ταχὺ</l>
+            <l n="3" xml:id="meineke-0541-alieis-9-l3">ἀνηγάγοντο.</l>
+          </lg>
+          <note type="apparatus">
+            <note type="source">Grammaticus Seguer. p. 402. Ἀνηγάγοντο: ἀνήχθησαν. — Μένανδρος Ἁλιεῦσιν <quote>῾Ὡς δὲ τὴν ἄκραν κτλ.</quote>
+            </note> Cod. κάμπτοντες. Correxit in notis Bekkerus.</note>
+        </div>
+        <pb n="750" facs="urn:hathi:hvd.32044098646714:scan:776" />
+        <div type="textpart" subtype="fragment" n="2_3" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-2_3">
+          <head>II. III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-alieis-2_3-l1">Nepotem ita egit, agere ut non posset diu.</l>
+              <l n="2" xml:id="meineke-0541-alieis-2_3-l2">Mortis e generibus proprium si sit capiendum mihi,</l>
+              <l n="3" xml:id="meineke-0541-alieis-2_3-l3">optimum hoc ego deputem, iacere tentis ilibus</l>
+              <l n="4" xml:id="meineke-0541-alieis-2_3-l4">pinguem, vix loquentem, resupinum ac sublimi anhelitu,</l>
+              <l n="5" xml:id="meineke-0541-alieis-2_3-l5">esitantem ac mihi dicentem, Diffluo voluptatibus.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-5">
+          <head>V.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-alieis-5-l1">Qui primus reperit artem altricem pauperis,</l>
+              <l n="2" xml:id="meineke-0541-alieis-5-l2">multos effecit miseros: simplicius fuit,</l>
+              <l n="3" xml:id="meineke-0541-alieis-5-l3">hunc cui difficilis vita est mature mori.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="6_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-alieis-6_2">
+          <head>VI.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-alieis-6_2-l1">Filia molestum incommodumque peculium est.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="7_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-alieis-7_2">
+          <head>VII.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-alieis-7_2-l1">Pecunia homines gratiosos efficit.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="8_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-alieis-8_2">
+          <head>VIII.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-alieis-8_2-l1">O grata tellus, longo te post tempore</l>
+              <l n="2" xml:id="meineke-0541-alieis-8_2-l2">visam saluto: non honos hic cuilibet</l>
+              <l n="3" xml:id="meineke-0541-alieis-8_2-l3">humo fit, sed agrum quoties intueor meum.</l>
+              <l n="4" xml:id="meineke-0541-alieis-8_2-l4">id quod me nutrit numinis veneror loco.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="9_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-alieis-9_2">
+          <head>IX.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-alieis-9_2-l1">Nos promontorium</l>
+              <l n="2" xml:id="meineke-0541-alieis-9_2-l2">flectentes ut conspiciunt, naves ilico</l>
+              <l n="3" xml:id="meineke-0541-alieis-9_2-l3">solvunt ingressi.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="5_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-alieis-5_2">
+          <head>V.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-alieis-5_2-l1">῾Ὁ πρῶτος εὑρὼν διατροφὴν πτωχῷ τέχνην</l>
+            <l n="2" xml:id="meineke-0541-alieis-5_2-l2">πολλοὺς ἐποίησεν ἀθλίους· ἁπλοῦν γὰρ ἦν</l>
+            <l n="3" xml:id="meineke-0541-alieis-5_2-l3">τὸν μὴ δυνάμενον ζῆν ἀλύπως ἀποθανεῖν.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. LXI 1 cum lemmate <quote>Μενάνδρου Ἁλιέως.</quote>
+          </note>
+        </div>
+        <pb n="77" facs="urn:hathi:hvd.32044098646714:scan:101" />
+        <div type="textpart" subtype="fragment" n="10" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-10">
+          <head>Χ.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-alieis-10-l1">Ἐκλελάκτικεν</l>
+              <l n="2" xml:id="meineke-0541-alieis-10-l2">ὁ χρηστὸς ἡμῖν μοιχός, ἀλλ᾿ ἀντάλλαγος.</l>
+            </lg>
+          </quote>
+          <note type="source">Suidas, Ἀντάλλαγον καλοῦσι τὸν ἀντὶ ἄλλου ἠλλαγμένον. Μένανδρος Ἁλιεῖ Ἐκλελάκτικεν κτλ.</note>
+          <note type="apparatus">Respicit Suidas, Ἐκλελάκτικεν: ἀποβέβηκεν, ἀπέφυγεν, et Grammat. Seguer. p. 410: Ἀνταλλαῖος (leg. ἀντάλλαγος) ἀντὶ τοῦ ἄνταλλος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="11" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-11">
+          <head>ΧΙ.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-alieis-11-l1">Δύ᾿ οἰκίας</l>
+              <l n="2" xml:id="meineke-0541-alieis-11-l2">φηλοῦν γερόντων, ὡς λέγεις, ἀβελτέρων.</l>
+            </lg>
+          </quote>
+          <note type="source">Suidas, Φηλοῦν: ἀπατᾶν. Μένανδρος Ἁλιεῖ Δύ᾿ οἰκίας κτλ. Photius, Φηλοῦν: ἀπατᾶν. Μένανδρος Ἁλιεῖ Δύ᾿ οἰκίας φίλων (sic) γερόντων κτλ. Scholiasta Aristoph. Pac. 1165: φῆλος, ὁ ἀπατεών. Μένανδρος Ἁλιεῖ Δύ᾿ οἰκίας φηλῶν γερόντων.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="12" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-12">
+          <head>XII.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-alieis-12-l1">Καὶ θάλαττα βορβορώδης, ἣ τρέφει θύννον μέγαν.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus VII p. 303 c: μνημονεύει δὲ τοῦ θύννου καὶ Μένανδρος Ἁλιεῦσιν Καὶ θάλαττα κτλ.</note>
+          <note type="apparatus">Menandri nomen supplevit Dalecampius; καὶ quod post θάλαττα (libri θάλασσα) legebatur delevit Bentleius.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="13" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-13">
+          <head>XIII.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-alieis-13-l1">Καὶ χρυσολαβὲς καλὸν πάνυ</l>
+              <l n="2" xml:id="meineke-0541-alieis-13-l2">ἐγχειρίδιον.</l>
+            </lg>
+          </quote>
+          <note type="source">Pollux X 145: Εὐριπίδης μὲν ἐν Παλαμήδει λέγει κώπην χρυσόκολλον, Μένανδρος δὲ ἐν Ἁλιεῦσι Καὶ χρυσολαβές κτλ.</note>
+          <note type="apparatus">Porsonus Advers. p. 292 πάνυ καλόν, verbis ad unum senarium continuatis; at ἐγχειρίδιον antepenultimam corripit.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="14" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-14">
+          <head>XIV.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-alieis-14-l1">Ἀναπετῶ τουτὶ προσελθὼν κοὐκ ἀνέξομ᾿ οὐκέτι.</l>
+            </lg>
+          </quote>
+          <note type="source">Suidas, Ἀναπετῶ: ἀναπετάσω. Μένανδρος Ἁλιεῦσιν Ἀναπετῶ κτλ. Eadem habet Zonaras Lex. p. 204.</note>
+          <note type="apparatus">Pro</note>
+          <pb n="78" facs="urn:hathi:hvd.32044098646714:scan:102" />
+          <note type="apparatus">Ἁλιεῦσι vulgo ἄλλοις. Correxit Kusterus, probantibus Bernhardio et Dobraeo Advers. II p. 271. qui ad τουτὶ recte intellegit τὸ θύριον.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="15_17" ana="#compiled-citation-normalized" xml:id="meineke-0541-alieis-15_17">
+          <note type="source">Pollux X 132: <quote>Μένανδρος ἔφη ἐν Ἁλιεῖ <quote>
+                <l n="1" xml:id="meineke-0541-alieis-15_17-l1">ἀμφιβλήστρῳ περιβάλλεται.</l>
+              </quote>
+            </quote> — Photius, <quote>Ἡδυλισμός: εἶδός τι κολακείας. καὶ Μένανδρος ἐν Ἁλιεῖ κέχρηται τῷ ἡδυλίζειν.</quote> Cfr Eustathius p. 1417 21: <quote>καὶ τὸ ἡδυλίζειν παρὰ Μενάνδρῳ.</quote> — Photius, <quote>Λαμπήνη: εἶδος ἁρμαμάξης. οὕτω Μένανδρος.</quote> Pollux X 52: <quote>ἡ λαμπήνη — καὶ ἐν τοῖς Μενάνδρου Ἁλιεῦσιν.</quote>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

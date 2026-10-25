@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΓΑΜΟΣ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.gamos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.gamos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.gamos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_gamos">
+        <head>ΓΑΜΟΣ</head>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0447-gamos-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-gamos-2-l1">Στίλπωνός ἐστι βύσμαθ᾽ ὁ Χαρίνου λόγος.</l>
+            </lg>
+          </quote>
+          <note type="source">Diogenes Laert. II 120: ἔστι καὶ εἰς τοῦτον (Stilponem dicit) ἡμῶν·<quote>
+              <lg>
+                <l n="2" xml:id="meineke-0447-gamos-2-l2">Τὸν Μεγαρέα Στίλπωνα, γινώσκεις δ᾽ ἴσως,</l>
+                <l n="3" xml:id="meineke-0447-gamos-2-l3">γῆρας, ἔπειτα νόσος καθεῖλε, δύσμαχον ζυγόν·</l>
+                <l n="4" xml:id="meineke-0447-gamos-2-l4">ἀλλ᾽ οἶνον εὗρε τῆς κακῆς συνωρίδος</l>
+                <l n="5" xml:id="meineke-0447-gamos-2-l5">φέρτερον ἡνίοχον· πιὼν γὰρ ἤλασε.</l>
+              </lg>
+            </quote>προσεσκώφθη δὲ (Stilpo) ὑπὸ Διφίλου τοῦ κωμικοῦ ἐν δράματι Γάμῳ Στίλπωνος κτλ.</note>
+          <note type="apparatus">V. Hist. crit. p. 426. Charinus personae nomen erat in fabula Diphili. Itaque hoc dicere videtur „quae Charinus dixit mera sunt Stilponis sophismata". Quae βύσματα dicit, quippe quibus Stilpo adversariorum ora obturabat. Quartum Diogenii carminis <ref target="#p0386-u02-note1">*)</ref> versum apparet uno pede esse minorem; nec sententia absoluta est. Scribe igitur: φέρτερον ἡνίοχον· πιὼν γὰρ ἤλασε πρόσω. ἐσκώφθη δέ etc.<note type="footnote" xml:id="p0386-u02-note1">*) Carmen hoc ex eo Diogenis libro petitum videtur, quem ille propter varia metra, quibus singula eius carmina incluserat, τὴν πάμμετρον βίβλον inscripserat. Non recte de huius tituli caussa statuit Hermannus Praef. ad Hübneri Diogen. vol. II p. IV.</note>
+          </note>
+          <pb n="387" facs="urn:hathi:hvd.32044098646714:scan:411" />
+          <note type="source">nichus Bekk. p. 31 25. Γάργαλος: ὁ ἐρεθισμός. καὶ γαργαλισμός. τὸ δὲ γαργαλίζεσθαι οὐκ ἀττικόν.</note>
+          <note type="apparatus">Utrum γαργαλισμὸς an γάργαλος dixerit Diphilus incertum est. Prius habes etiam apud Hegesippum Fratr. 16: τοιοῦτος ἐν τῷ σώματι διέδραμε γαργαλισμὸς ὡς ὄντων γάμων. V. Hemsterh. ad Thom. Mag. p. 179.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0447-gamos-1">
+          <lg>
+            <l n="1" xml:id="meineke-0447-gamos-1-l1">Ὁ γὰρ κόλαξ</l>
+            <l n="2" xml:id="meineke-0447-gamos-1-l2">καὶ στρατηγὸν καὶ δυνάστην καὶ φίλους καὶ τὰς πόλεις</l>
+            <l n="3" xml:id="meineke-0447-gamos-1-l3">ἀνατρέπει λόγῳ κακουργῷ μικρὸν ἡδύνας χρόνον.</l>
+            <l n="4" xml:id="meineke-0447-gamos-1-l4">νῦν δὲ καὶ καχεξία τις ὑποδέδυκε τοὺς ὄχλους·</l>
+            <l n="5" xml:id="meineke-0447-gamos-1-l5">αἱ κρίσεις θ᾽ ἡμῶν νοσοῦσι, καὶ τὸ πρὸς χάριν πολύ.</l>
+          </lg>
+          <note type="source">Athenaeus VI p. 254 e: <quote>Δίφιλος δ᾽ ἐν Γάμῳ φησίν Ὁ γὰρ κόλαξ κτλ.</quote> Vs. 2 καὶ φίλους καὶ τὰς πόλεις. „Quid</note>
+          <note type="apparatus">
+            <hi rend="superscript">*)</hi> V. Hist. crit. p. 453.</note>
+          <pb n="386" facs="urn:hathi:hvd.32044098646714:scan:410" />
+          <note type="apparatus">huc faciant οἱ φίλοι nescio; neque ferendum puto articulum ante πόλεις. Vide an dederit poeta καὶ τύραννον καὶ πόλιν. Maius est τύραννος quam δυνάστης." Dobraeus Adv. II p. 312. In C praeterea τοὺς ante φίλους. — Vs. 4 ὑποδέδυκε L. ὑπέδοικε superscripto υ P. ὑποδέδωκε C. ὑποδέδρικε V.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0447-gamos-unnumbered">
+          <lg>
+            <l n="1" xml:id="meineke-0447-gamos-unnumbered-l1">Assentator scilicet</l>
+            <l n="2" xml:id="meineke-0447-gamos-unnumbered-l2">satrapas, duces, amicos, civitates denique</l>
+            <l n="3" xml:id="meineke-0447-gamos-unnumbered-l3">facile evertit modicum oblectans tempus verbis maleficis.</l>
+            <l n="4" xml:id="meineke-0447-gamos-unnumbered-l4">at nunc nescio quae tabes populis cunctis insidet:</l>
+            <l n="5" xml:id="meineke-0447-gamos-unnumbered-l5">ipsa iudicia laborant victa regno gratiae.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

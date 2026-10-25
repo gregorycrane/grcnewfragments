@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philippides, ΦΙΛΑΔΕΛΦΟΙ: fragments</title>
+        <author>Philippides</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0490.philadelphoi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0490.philadelphoi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0490.philadelphoi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0490_philadelphoi">
+        <head>ΦΙΛΑΔΕΛΦΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1" author_heading="Φιλιππίδης" work_heading="Φιλάδελφοι" xml:id="meineke-0490-philadelphoi-1">
+          <lg>
+            <l n="1" xml:id="meineke-0490-philadelphoi-1-l1">Ὅταν ἀτυχεῖν σοι συμπέσῃ τι, δέσποτα,</l>
+            <l n="2" xml:id="meineke-0490-philadelphoi-1-l2">Εὐριπίδου μνήσθητι, καὶ ῥᾴων ἔσει.</l>
+            <l n="3" xml:id="meineke-0490-philadelphoi-1-l3">„οὐκ ἔστιν ὅστις πάντ' ἀνὴρ εὐδαιμονεῖ.”</l>
+            <l n="4" xml:id="meineke-0490-philadelphoi-1-l4">εἶναι δ' ὑπόλαβε καὶ σὲ τῶν πολλῶν ἕνα.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. CVIII 10.</note>
+          <note type="apparatus">His quattuor versibus Michael Hamartolus apud Boissonadum Anecd. IV p. 456 tacite usus est pro suis. Hinc corrige annotationem doctissimi editoris. Vs. 2 libri ἔσῃ. Euripidis versu praeter Philippidem usus est Aristophanes Ran. 1217 et Nicostratus inc. fab. p. 288. — Vs. 4 pro εἶναι δ' ὑπόλαβε Michael νόμιζε δ' εἶναι.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0490-philadelphoi-unnumbered">
+          <lg>
+            <l n="1" xml:id="meineke-0490-philadelphoi-unnumbered-l1">Here, si qua tibi unquam calamitas evenerit</l>
+            <l n="2" xml:id="meineke-0490-philadelphoi-unnumbered-l2">feres facilius dicti memor Euripidis:</l>
+            <l n="3" xml:id="meineke-0490-philadelphoi-unnumbered-l3">felix ab omni parte nemo usquam est homo:</l>
+            <l n="4" xml:id="meineke-0490-philadelphoi-unnumbered-l4">tum vero e multis esse te unum existima.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

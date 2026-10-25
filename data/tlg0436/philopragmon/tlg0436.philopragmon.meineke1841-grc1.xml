@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Crito, ΦΙΛΟΠΡΑΓΜΩΝ: fragments</title>
+        <author>Crito</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0436.philopragmon.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0436.philopragmon.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0436.philopragmon.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0436_philopragmon">
+        <head>ΦΙΛΟΠΡΑΓΜΩΝ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0436-philopragmon-unnumbered">
+          <lg>
+            <l n="1" xml:id="meineke-0436-philopragmon-unnumbered-l1">Φοίνικα, μεγάλου κύριον βαλλαντίου,</l>
+            <l n="2" xml:id="meineke-0436-philopragmon-unnumbered-l2">ναύκληρον ἐν τῷ λιμένι ποιήσας ἄπλουν,</l>
+            <l n="3" xml:id="meineke-0436-philopragmon-unnumbered-l3">κἀφ' ὅρμον ὦσαι ναῦς ἀναγκάσας δύο,</l>
+          </lg>
+          <lg>
+            <l n="4" xml:id="meineke-0436-philopragmon-unnumbered-l4">εἰς Δῆλον ἐλθεῖν ἠθέλησ᾽ ἐκ Πειραιῶς,</l>
+            <l n="5" xml:id="meineke-0436-philopragmon-unnumbered-l5">πάντων ἀκούων διότι παρασίτῳ τόπος</l>
+            <l n="6" xml:id="meineke-0436-philopragmon-unnumbered-l6">οὗτος τρία μόνος ἀγαθὰ κεκτῆσθαι δοκεῖ,</l>
+            <l n="7" xml:id="meineke-0436-philopragmon-unnumbered-l7">εὔοψον ἀγοράν, παντοδαπὸν οἰκοῦντ᾽ ὄχλον,</l>
+            <l n="8" xml:id="meineke-0436-philopragmon-unnumbered-l8">αὐτοὺς παρασίτους τοῦ θεοῦ τοὺς Δηλίους.</l>
+          </lg>
+          <note type="source">Athenaeus IV p. 173 b: Κρίτων δ᾽ ὁ κωμῳδιοποιὸς ἐν Φιλοπράγμονι παρασίτους τοῦ θεοῦ καλεῖ τοὺς Δηλίους διὰ τούτων Φοίνικα μεγάλου κτλ.</note>
+          <note type="apparatus">Sententiam priorum versuum, a qua aberraverat Casaubonus, recte indicavit Schweighaeuserus: Opulentum mercatorem Phoenicium parasitus, homo luxuriosus et alios luxuria perdens, eo redegerat, ut ob contractum aes alienum portu solvere non posset. Vs. 2 κἀφ᾽ ὅρμον ὦσαι Erfurdtius Observ. ad Athen. p. 453. Libri καὶ φορμιῶσαι. Fortasse tamen latet verbum, quo mercatorem illum naves suas oppignerasse indicabatur. — Vs. 4. Nominis Πειραιεύς penultimam corripientis quotquot apud atticos poetas exempla reperiuntur composui vol. III p. 580. Fortasse tamen omnibus his locis Πειραεύς reponendum est, quam formam servavit inscriptio navalis apud Boeckhium Urkunden etc. p. 439 30. Cfr Draco Straton. p. 75 24. Πειραϊκός: μετὰ συστολῆς τοῦ ᾶ ἀναγνωστέον Πειραιεύς (leg. Πειραεύς) καὶ τὸ κτητικὸν Πειραϊκός. Ad quae cfr Stephanum Byz. s. v. Πειραιός. λέγεται καὶ κτητικῶς Πειραϊκός, μετὰ συστολῆς τοῦ α. — Vs. 6 μόνος pro μόνον Casaubonus. — Vs. 7 valde otiosum est illud οἰκοῦντ᾽, pro quo aliud quid scriptum esse a poeta libri fidem faciunt. AB παντοδαπᾶν οἰκοῦντ᾽. P παντοδαπὰν οὔκουν τ᾽. Itaque vide an πλουτοῦντ᾽ ὄχλον scribendum sit, quod et rei accommodatissimum et codicum lectioni simillimum est.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

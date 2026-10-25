@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΝΑΥΚΛΗΡΟΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.naykleros.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.naykleros.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.naykleros.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_naykleros">
+        <head>ΝΑΥΚΛΗΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-naykleros-1">
+          <head rendition="center">I.</head>
+          <note type="source">
+            <p>Primas fabulae a Caecilio latine expressae partes egisse videtur Theophilus, navicularius, cuius ex mari Aegaeo reditum, diu frustra exspectatum, nescio quis laetabundus nuntiabat Stratoni, patri Theophili. Docet hoc locus ab Athen. XI p. 474 c. servatus, ubi de cantharo, navigii genere, disputatur:</p>
+          </note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-naykleros-1-l1">Ἥκει λιπὼν Αἰγαῖον ἁλμυρὸν βάθος</l>
+              <l n="2" xml:id="meineke-0541-naykleros-1-l2">Θεόφιλος ἡμῖν, ὦ Στράτων. ὡς ἐς καλόν</l>
+              <l n="3" xml:id="meineke-0541-naykleros-1-l3">τὸν υἱὸν εὐτυχοῦντα καὶ σεσωσμένον</l>
+              <l n="4" xml:id="meineke-0541-naykleros-1-l4">πρῶτος λέγω σοι τόν τε χρυσοῦν κάνθαρον.</l>
+              <l n="5" xml:id="meineke-0541-naykleros-1-l5">
+                <sp>
+                  <speaker>ΣΤ.</speaker> ποῖον; <speaker>Α.</speaker> τὸ πλοῖον· οὐδὲν οἶσθας ἄθλιε.</sp>
+              </l>
+              <l n="6" xml:id="meineke-0541-naykleros-1-l6">
+                <sp>
+                  <speaker>ΣΤ.</speaker> τὴν ναῦν σεσῶσθαί μοι λέγεις; <speaker>Α.</speaker> ἔγωγε μήν</sp>
+              </l>
+              <l n="7" xml:id="meineke-0541-naykleros-1-l7">τὴν ναῦν ἐκείνην ἣν ἐποίησε Καλλικλῆς</l>
+              <l n="8" xml:id="meineke-0541-naykleros-1-l8">ὁ Καλύμνιος, Εὐφράνωρ δ᾽ ἐκυβέρνα Θούριος.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">
+            <p>Primos quinque versus servavit etiam Macrob. Saturn. V 21: <quote>sequitur ut quando cantharum et poculi et navigii genus esse supra diximus, probetur exemplis. — Menander in Nauclero: Ἥκει λιπών κτλ.</quote> Primum versum, ex Euripidis Troadum initio derivatum, iterum habet Athen. I p. 4 a. Vs. 4 Maerobius πρῶτος δ᾽ ἐγώ σοι τόνδ᾽ ἐχρύσουν κάνθαρον. — Vs. 5 τὸ πλοῖον. Schol. Aristoph. Pac. 140 et hinc Suidas II p. 596: ἄντικρυς δὲ Μένανδρος ἐν Ναυκλήρῳ κάνθαρον εἶπε πλοῖον εἶναι. Sequentia ab Athenaeo omissa apud Macrobium ita scripta extant, οὐδέ μ᾽ οἶσθα σ᾽ ἄθλιε. Correxi in editione maiore, ubi de οἶσθας copiose dictum est. Adde Aelium Dionysium apud Eustath. 1773 13. — Vs. 6 ἔγωγε μὴν Bentleius. Libri ἐγὼ τὴν ἐμήν. — Vs. 7 correxit Grotius Excerpt. p. 735. Vulgo ναῦν κείνην καλλικλῆς</p>
+          </note>
+          <pb n="175" facs="urn:hathi:hvd.32044098646714:scan:199" />
+          <note type="apparatus">ἐποίησε. — Vs. 8 ὁ Καλύμνιος Heringa Observ. p. 251. Libri τὸν καλούμενον. Ibid. ante Grotium εὐφράνορ᾽ ἐκυβέρνα. Praeterea Heringa δὲ κυβερνᾷ.</note>
+        </div>
+        <pb n="767" facs="urn:hathi:hvd.32044098646714:scan:793" />
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-naykleros-1_2">
+          <head>Ι.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-naykleros-1_2-l1">
+              <sp>
+                <speaker>Α.</speaker> Navem mihi salvam nuntias?</sp>
+              <sp>
+                <speaker>Β.</speaker> Sane meam</sp>
+            </l>
+            <l n="2" xml:id="meineke-0541-naykleros-1_2-l2">navem illam quam qui nominatur Callicles</l>
+            <l n="3" xml:id="meineke-0541-naykleros-1_2-l3">exstruxit, rexit autem Euphranor Thurius?</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-naykleros-2">
+          <head>II.</head>
+          <note type="apparatus">Theophilus quum post diuturnam a patriis laribus absentiam rediisset, laetabundus patriam terram his verbis salutat:</note>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-naykleros-2-l1">Ὦ φιλτάτη γῆ μῆτερ, ὡς σεμνὸν σφόδρ᾽ εἶ</l>
+              <l n="2" xml:id="meineke-0541-naykleros-2-l2">τοῖς νοῦν ἔχουσι κτῆμα πολλοῦ τ᾽ ἄξιον.</l>
+              <l n="3" xml:id="meineke-0541-naykleros-2-l3">ὡς δῆτ᾽ ἐχρῆν, εἴ τις πατρώαν παραλαβών</l>
+              <l n="4" xml:id="meineke-0541-naykleros-2-l4">γῆν καταφάγοι, πλεῖν τοῦτον ἤδη διὰ τέλους,</l>
+              <l n="5" xml:id="meineke-0541-naykleros-2-l5">καὶ μηδ᾽ ἐπιβαίνειν γῆς, ἵν᾽ οὕτως ᾔσθετο</l>
+              <l n="6" xml:id="meineke-0541-naykleros-2-l6">οἷον παραλαβὼν ἀγαθὸν οὐκ ἐφείσατο.</l>
+            </lg>
+          </quote>
+          <note type="source">Servavit Athenaeus IV p. 166 b: <quote>χρὴ δὲ τοὺς τὰ πατρῷα κατεδηδοκότας κατὰ τὸν Μενάνδρου Ναύκληρον οὕτως κολάζεσθαι· φησὶ γάρ <quote>Ὦ φιλτάτη</quote> κτλ.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-naykleros-2_2">
+          <head>ΙΙ.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-naykleros-2_2-l1">O cara mater terra, quam venerabilis</l>
+            <l n="2" xml:id="meineke-0541-naykleros-2_2-l2">tu quamque sancta es recte rem putantibus!</l>
+            <l n="3" xml:id="meineke-0541-naykleros-2_2-l3">aequum pol fuerat, si quis patritum nepos</l>
+            <l n="4" xml:id="meineke-0541-naykleros-2_2-l4">fundum comesset, navigare hunc perpetem,</l>
+            <l n="5" xml:id="meineke-0541-naykleros-2_2-l5">nec usquam terra recipi, ut persentisceret</l>
+            <l n="6" xml:id="meineke-0541-naykleros-2_2-l6">quantum accepisset et non parsisset bonum.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-naykleros-3">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-naykleros-3-l1">Ὅ τε Πολυνείκης πῶς ἀπώλετ᾽ οὐχ ὁρᾷς;</l>
+            </lg>
+          </quote>
+          <note type="source">Scholiasta Sophoclis Oed. C. 1375: <quote>καὶ Μένανδρος ἐν Ναυκλήροις (sic) Ὅ τε Πολυνείκης.</quote>
+          </note>
+          <note type="apparatus">Fortasse ὁ δέ, propter Porsoni regulam.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-naykleros-3_2">
+          <head>ΙΙΙ.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-naykleros-3_2-l1">Polynices ut perierit non consideras?</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-naykleros-4">
+          <head>IV.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-naykleros-4-l1">Καὶ φύσει πως εὐάγωγόν ἐστι πᾶς ἀνὴρ ἐρῶν.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. LXIII 17 cum lemmate Μενάνδρου Ναυκλήρῳ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-naykleros-5">
+          <head>V.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-naykleros-5-l1">Ὦ Ζεῦ πολυτίμηθ᾽, οἷόν ἐστ᾽ ἐλπὶς κακόν.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. CX 8 cum lemmate Μενάνδρου Ναύκληρος.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-naykleros-5_2">
+          <head>V.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-naykleros-5_2-l1">O Iuppiter supreme, spes quantum est mali!</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

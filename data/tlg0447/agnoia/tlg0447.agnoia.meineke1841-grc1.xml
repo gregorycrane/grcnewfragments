@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΑΓΝΟΙΑ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.agnoia.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.agnoia.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.agnoia.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_agnoia">
+        <head>ΑΓΝΟΙΑ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0447-agnoia-1">
+          <head>I.</head>
+          <sp>
+            <speaker>
+              <gap reason="unspecified" />
+            </speaker>
+            <lg>
+              <l n="1" xml:id="meineke-0447-agnoia-1-l1">Τί τοῦτο; ποδαπὸς οὗτος;</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Β.</speaker>
+            <lg>
+              <l n="2" xml:id="meineke-0447-agnoia-1-l2">χελιδόνειος ὁ δασύπους, γλυκεῖα δ᾽ ἡ μίμαρκυς.</l>
+            </lg>
+          </sp>
+          <note type="source">Athenaeus IX p. 401 a: <quote>καλοῦνται δέ τινες καὶ χελιδονίαι λαγωοί. μνημονεύει δ᾽ αὐτῶν Δίφιλος ἢ Καλλιάδης ἐν Ἀγνοίᾳ οὕτως <quote>
+                <l n="3" xml:id="meineke-0447-agnoia-1-l3">Τί τοῦτο π. οὗτος χελιδόνιος ὁ δασύπους γλαυκία δ᾽ ἡ μίμαρκυς.</l>
+              </quote>
+            </quote>
+          </note>
+          <note type="apparatus">Correxi haec Praefat. ad Menandrum p. XX. Alia ratio placuit Dobraeo ad Plut. 361:
+<lg>
+              <l n="1_2" xml:id="meineke-0447-agnoia-1-l1_2">Τί τοῦτο; ποδαπὸς οὑτοσί;</l>
+              <l n="2_2" xml:id="meineke-0447-agnoia-1-l2_2">
+                <speaker>Β.</speaker> χελιδονίας ὁδὶ δασύπους, ὦ Γλαυκία·</l>
+              <l n="3_2" xml:id="meineke-0447-agnoia-1-l3_2">ἡδὶ μίμαρκυς.</l>
+            </lg>
+Sed verum puto quod ex mea emendatione recepit Dindorfius. In <foreign xml:lang="grc">μίμαρκυς</foreign> recte primam corripi docet Aristophanes Acharn. 1111. Χελιδόνειον leporem dicit hirundinis instar superiore parte pulla, ventre albo, ut est apud Varronem de Re rust. III 12. ubi vide Schneiderum p. 557. Cfr Eustathius ad Od. p. 1925 43: <quote>ἰστέον ὅτι παρώνυμοι χελιδόνι παρὰ τῷ δειπνοσοφιστῇ χελιδονίαι λαγωοί. τοιοῦτοι δὲ ἴσως οἱ ἄνω μὲν μέλανες, τὰ δὲ κάτω ὑπόλευκοι.</quote>
+          </note>
+        </div>
+        <pb n="376" facs="urn:hathi:hvd.32044098646714:scan:400" />
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0447-agnoia-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-agnoia-2-l1">Ἅψαντες λύχνον</l>
+              <l n="2" xml:id="meineke-0447-agnoia-2-l2">λυχνεῖον ἐζητοῦμεν.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XV p. 700 d: Φερεκράτης δ᾽ ἐν Κραπατάλοις τὴν νῦν λυχνίαν καλουμένην λυχνεῖον κέκληκε διὰ τούτων — Δίφιλος δ᾽ ἐν Ἀγνοίᾳ Ἅψαντες κτλ.</note>
+          <note type="apparatus">Praeterea huius fabulae memoriam quamquam incerta coniectura latere suspicabar apud Etymol. M. p. 127 in. de cuius loco dixi Hist. crit. p. 450.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

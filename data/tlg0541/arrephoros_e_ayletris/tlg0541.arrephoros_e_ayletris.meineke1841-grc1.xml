@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΑΡΡΗΦΟΡΟΣ Η ΑΥΛΗΤΡΙΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.arrephoros_e_ayletris.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.arrephoros_e_ayletris.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.arrephoros_e_ayletris.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_arrephoros_e_ayletris">
+        <head>ΑΡΡΗΦΟΡΟΣ Η ΑΥΛΗΤΡΙΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-arrephoros_e_ayletris-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-arrephoros_e_ayletris-1-l1">Οὐ γαμεῖς, ἂν νοῦν ἔχῃς,</l>
+            <l n="2" xml:id="meineke-0541-arrephoros_e_ayletris-1-l2">τοῦτον καταλιπὼν τὸν βίον· γεγάμηκα γὰρ</l>
+            <l n="3" xml:id="meineke-0541-arrephoros_e_ayletris-1-l3">αὐτός· διὰ τοῦτό σοι παραινῶ μὴ γαμεῖν.</l>
+            <l n="4" xml:id="meineke-0541-arrephoros_e_ayletris-1-l4">
+              <sp>
+                <speaker>Β.</speaker> δεδογμένον τὸ πρᾶγμ᾽· ἀνερρίφθω κύβος.</sp>
+            </l>
+            <l n="5" xml:id="meineke-0541-arrephoros_e_ayletris-1-l5">
+              <sp>
+                <speaker>Α.</speaker> πέραινε. σωθείης δὲ νῦν· ἀληθινὸν</sp>
+            </l>
+            <l n="6" xml:id="meineke-0541-arrephoros_e_ayletris-1-l6">εἰς πέλαγος αὑτὸν ἐμβαλεῖς γὰρ πραγμάτων,</l>
+            <l n="7" xml:id="meineke-0541-arrephoros_e_ayletris-1-l7">οὐ Λιβυκόν, οὐδ᾽ Αἰγαῖον,</l>
+            <l n="8" xml:id="meineke-0541-arrephoros_e_ayletris-1-l8">οὗ τῶν τριάκοντ᾽ οὐκ ἀπόλλυται τρία</l>
+            <l n="9" xml:id="meineke-0541-arrephoros_e_ayletris-1-l9">πλοιάρια· γήμας δ᾽ οὐδὲ εἷς σέσωσθ᾽ ὅλως.</l>
+          </lg>
+          <note type="source">
+            <quote>Athenaeus XIII p. 559 c: Μένανδρος δ᾽ ἐν Ἀρρηφόρῳ ἢ Αὐλητρίδι Οὐ γαμεῖς κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 ἂν νοῦν Dindorfius. ἐὰν νοῦν PV. ἐάν γε νοῦν L. — Vs. 5 νῦν Iacobsius fortasse rectius cum sequentibus iunxit. — Vs. 6 αὑτὸν LPV. αὐτὸν L. σεαυτὸν B. Ibid. ἐμβαλεῖς L. ἐμβάλλεις A. ἐμβαλεῖς ἐμβάλλεις P, deleto ἐμβάλλεις. — Vs. 7 Grotius Excerptis p. 713 supplet οὐδ᾽ Αἰγύπτιον, Scaliger apud Casaubonum οὐδ᾽ Ἰώνιον, nec male si scribas οὐδ᾽ Ἰωνικόν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-arrephoros_e_ayletris-1_2">
+          <sp>
+            <speaker>Α.</speaker>
+            <lg>
+              <l n="1" xml:id="meineke-0541-arrephoros_e_ayletris-1_2-l1">Si es sanus, duxis uxorem cave,</l>
+              <l n="2" xml:id="meineke-0541-arrephoros_e_ayletris-1_2-l2">vita quam nactu's derelicta: duxi ego:</l>
+              <l n="3" xml:id="meineke-0541-arrephoros_e_ayletris-1_2-l3">eo ne ducas etiam atque etiam suadeo.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Β.</speaker>
+            <lg>
+              <l n="4" xml:id="meineke-0541-arrephoros_e_ayletris-1_2-l4">Decretum est, constitutum est: iacta est alea.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Α.</speaker>
+            <lg>
+              <l n="5" xml:id="meineke-0541-arrephoros_e_ayletris-1_2-l5">Perge igitur: verum ex animo ut sis salvus precor.</l>
+              <l n="6" xml:id="meineke-0541-arrephoros_e_ayletris-1_2-l6">nam te in negotiorum conicies mare,</l>
+              <l n="7" xml:id="meineke-0541-arrephoros_e_ayletris-1_2-l7">non Libycum, non Aegaeum, non Aegyptium,</l>
+              <l n="8" xml:id="meineke-0541-arrephoros_e_ayletris-1_2-l8">ubi de triginta tres vix pereunt navibus:</l>
+              <l n="9" xml:id="meineke-0541-arrephoros_e_ayletris-1_2-l9">at de coniugio ne unus enavit quidem.</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-arrephoros_e_ayletris-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-arrephoros_e_ayletris-2-l1">Πάντας μεθύσους τοὺς ἐμπόρους</l>
+            <l n="2" xml:id="meineke-0541-arrephoros_e_ayletris-2-l2">ποιεῖ τὸ Βυζάντιον· ὅλην ἐπίνομεν</l>
+            <l n="3" xml:id="meineke-0541-arrephoros_e_ayletris-2-l3">τὴν νύκτα διὰ σὲ καὶ σφόδρ᾽ ἄκρατόν μοι δοκῶ·</l>
+            <l n="4" xml:id="meineke-0541-arrephoros_e_ayletris-2-l4">ἀνίσταμαι γοῦν τέτταρας κεφαλὰς ἔχων.</l>
+          </lg>
+          <pb n="89" facs="urn:hathi:hvd.32044098646714:scan:113" />
+          <note type="source">Athenaeus X p. 442 d: <quote>Μένανδρος δ᾽ ἐν Ἀρρηφόρῳ ἢ Αὐλητρίδι Πάντας μεθύσους κτλ.</quote> Ex Athenaeo profecit Eustathius ad Hom. p. 1504 63: <quote>ἔμπορος γοῦν τις μέθυσος παρὰ Μενάνδρῳ κατὰ τὴν ἱστορίαν τοῦ Ναυκρατίτου σοφοῦ οὕτως· ὅλην ἐπίνομεν τὴν νύκτα· καὶ σφόδρ᾽ ἄκρατόν μοι δοκῶ etc.</quote> Idem ad Dionys. Perieg. 801: <quote>κωμῳδοῦνται δ᾽ εἰς μέθην οἱ παλαιοὶ Βυζάντιοι.</quote> Aelian. Var. Hist. III 14: <quote>ὁμολογεῖν δὲ τούτοις ἔοικε καὶ Μένανδρος ὅταν λέγῃ· μεθύσους τοὺς ἐμπόρους ποιεῖ τὸ Βυζάντιον· ὅλην ἔπινε (sic) τὴν νύκτα.</quote> Nicetas Acomin. Hist. p. 251: <quote>Βυζαντίων ἄλλοι μὲν ὑπὸ μέθης διαρρεόντων οὐκ ὀλίγα ξυνέθεντο σκώμματα, ὁ δὲ Μένανδρος οὑτωσί πως· μεθύσους τοὺς ἐμπόρους ποιεῖ τὸ Βυζάντιον· ὅλην ἔπινον (sic) τὴν νύκτα.</quote> Ad eundem locum respexit Pollux VI 25: <quote>ὁ μέθυσος ἐπὶ ἀνδρῶν Μενάνδρῳ δεδόσθω.</quote>
+          </note>
+          <note type="apparatus">V. Lobeckius ad Phryn. p. 152 et quos in edit. mai. attuli. Vs. 3 cod. B δοκῆ. Forsan δοκεῖ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-arrephoros_e_ayletris-2_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-arrephoros_e_ayletris-2_2-l1">Mercatores illud Byzantium</l>
+            <l n="2" xml:id="meineke-0541-arrephoros_e_ayletris-2_2-l2">facit ebriosos omnes: perpotavimus</l>
+            <l n="3" xml:id="meineke-0541-arrephoros_e_ayletris-2_2-l3">tui causa noctem totam, et nimi', credo, merum:</l>
+            <l n="4" xml:id="meineke-0541-arrephoros_e_ayletris-2_2-l4">etenim nunc surgo capita gestans quattuor.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-arrephoros_e_ayletris-3">
+          <lg>
+            <l n="1" xml:id="meineke-0541-arrephoros_e_ayletris-3-l1">Ἐὰν δὲ κινήσῃ μόνον τὴν Μυρτίλην</l>
+            <l n="2" xml:id="meineke-0541-arrephoros_e_ayletris-3-l2">ταύτην τις ἢ τιτθὴν καλῇ, πέρας οὐ ποιεῖ</l>
+            <l n="3" xml:id="meineke-0541-arrephoros_e_ayletris-3-l3">λαλιᾶς· τὸ Δωδωναῖον ἄν τις χαλκίον,</l>
+            <l n="4" xml:id="meineke-0541-arrephoros_e_ayletris-3-l4">ὃ λέγουσιν ἠχεῖν, ἂν παράψηθ᾽ ὁ παριών,</l>
+            <l n="5" xml:id="meineke-0541-arrephoros_e_ayletris-3-l5">τὴν ἡμέραν ὅλην, καταπαύσαι θᾶττον ἢ</l>
+            <l n="6" xml:id="meineke-0541-arrephoros_e_ayletris-3-l6">ταύτην λαλοῦσαν· νύκτα γὰρ προσλαμβάνει.</l>
+          </lg>
+          <note type="source">Stephanus Byz. p. 746: <quote>μέμνηται αὐτῆς (proverbii τὸ Δωδωναῖον χαλκίον) Μένανδρος ἐν Ἀρρηφόρῳ Ἐὰν δὲ κινήσῃ κτλ.</quote> Respiciunt Suidas I p. 623 et Zenob. VI 5: <quote>τὸ Δωδωναῖον χαλκίον κεῖται παρὰ Μενάνδρῳ ἐν τῷ (leg. τῇ) Ἀρρηφόρῳ.</quote> Cfr Apuleium Orthogr. p. 129.</note>
+          <note type="apparatus">Vs. 2 ἢ pro ἣν Bentleius. Idem addidit οὐ. — Vs. 3 libri τι pro τις et vs. 5 καταπαῦσαι. Correxi Curis crit. p. 69. Idem placuisse Porsono, monuit postea Kiddius ad Dawesii Miscell. p. 387.</note>
+        </div>
+        <pb n="752" facs="urn:hathi:hvd.32044098646714:scan:778" />
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-arrephoros_e_ayletris-4">
+          <lg>
+            <l n="1" xml:id="meineke-0541-arrephoros_e_ayletris-4-l1">Dies avita saepe quae fuerant bona</l>
+            <l n="2" xml:id="meineke-0541-arrephoros_e_ayletris-4-l2">aliena fecit, corpori parcens: tamen</l>
+            <l n="3" xml:id="meineke-0541-arrephoros_e_ayletris-4-l3">praesidia vitae solida in arte sunt sita.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="4_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-arrephoros_e_ayletris-4_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-arrephoros_e_ayletris-4_2-l1">Τὰ πατρῷα μὲν ποιεῖ καιρός ποτε</l>
+          </lg>
+          <pb n="90" facs="urn:hathi:hvd.32044098646714:scan:114" />
+          <lg>
+            <l n="2" xml:id="meineke-0541-arrephoros_e_ayletris-4_2-l2">ἀλλότρια, σῴζει δ᾽ αὐτά που τὰ σώματα·</l>
+            <l n="3" xml:id="meineke-0541-arrephoros_e_ayletris-4_2-l3">βίου δ᾽ ἔνεστιν ἀσφάλει᾽ ἐν ταῖς τέχναις.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. LX 5 cum lemmate Μενάνδρου Αὐλητρίδος.</note>
+          <note type="apparatus">Vs. 1 Grotius τὰ γὰρ πατρῷα. — Vs. 2 pro σῴζει expectabam δουλοῖ vel simile quid. Iacobsius Anthol. XII p. 105 tentabat: τὰ μὲν πατρῷα μεταποιεῖ καιρός ποτε, | ἀλλοτριώσει δ᾽ αὐτά κτλ. — Vs. 3 cod. A ἔνεστι μία. Trinc. et Gesn. 1 ἔνεστι μί᾽. Recte μί᾽ vel μία om. Gesn. 3.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-arrephoros_e_ayletris-5">
+          <lg>
+            <sp>
+              <speaker>
+                <gap extent="unknown" reason="lost" />
+              </speaker>
+              <l n="1" xml:id="meineke-0541-arrephoros_e_ayletris-5-l1">Ἐλλέβορον ἤδη πώποτ᾽ ἔπιες Σωσία;</l>
+            </sp>
+            <sp>
+              <speaker>Β.</speaker>
+              <l n="2" xml:id="meineke-0541-arrephoros_e_ayletris-5-l2">ἅπασι.</l>
+            </sp>
+            <sp>
+              <speaker>Α.</speaker>
+              <l n="2_2" part="F" xml:id="meineke-0541-arrephoros_e_ayletris-5-l2_2">πάλιν οὖν πῖθι· μαίνει γὰρ κακῶς.</l>
+            </sp>
+          </lg>
+          <note type="source">Athenaeus X p. 446 d: Μένανδρος Αὐλητρίδι (libri Αὐλητρίσι) Ἐλλέβορον κτλ.</note>
+          <note type="apparatus">Vs. 1 libri βάλλ᾽ (BP βάλ᾽) ἐς κόρον ἤδη πώποτ᾽ ἔπιες Σωσίλα. Correxit Heringa Observ. p. 242, facem praeferente Bentleio. — Vs. 2 ἅπασι Porsonus Misc. p. 242, qui etiam personarum notas addidit. Vulgo πᾶσι. Ibid. πάλιν οὖν Porsonus ex B, qui habet πάλι νυν. Vulgo νῦν sine πάλιν. Fortasse tamen haec ita scribenda: πάλιν πάλιν νῦν πῖθι, et vs. 1 εἰ δὴ pro ἤδη. <quote>Si unquam elleborum bibisti, nunc iterum iterumque bibe.</quote> Meleager Epigr. 98 1: ἔγχει καὶ πάλιν εἶπε πάλιν πάλιν Ἡλιοδώρας.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0541-arrephoros_e_ayletris-6">
+          <lg>
+            <l n="1" xml:id="meineke-0541-arrephoros_e_ayletris-6-l1">Rectae rationi omnis locus</l>
+            <l n="2" xml:id="meineke-0541-arrephoros_e_ayletris-6-l2">pro templo est: mens est quippe qui loquitur deus.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="6_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-arrephoros_e_ayletris-6_2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-arrephoros_e_ayletris-6_2-l1">Πάντ᾽ ἐστὶ τῷ καλῷ λόγῳ</l>
+            <l n="2" xml:id="meineke-0541-arrephoros_e_ayletris-6_2-l2">ἱερόν· ὁ νοῦς γάρ ἐστιν ὁ λαλήσων θεός.</l>
+          </lg>
+          <note type="source">Iustinus de Mon. p. 40 B: καὶ ἐν Αὐλητρίσι (Αὐλητρίδι) Μένανδρος Πάντ᾽ ἐστὶ κτλ.</note>
+          <note type="apparatus">Bentleius πανταχῆ ἐστι coniecit. Lenius corrigas πάντη σ̓τί, ut monui iam in edit. pr. Nunc idem Dobraeus Adv. II p. 271.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" ana="#compiled-citation-normalized" xml:id="meineke-0541-arrephoros_e_ayletris-7">
+          <lg>
+            <l n="1" xml:id="meineke-0541-arrephoros_e_ayletris-7-l1">Ὦ τρισκατάρατε, ζωπύρει τοὺς ἄνθρακας.</l>
+          </lg>
+          <note type="source">Etymol. Gudian. p. 234: Ζωπυρεῖν κυρίως τὸ τοὺς ἄνθρακας φυσᾶν, ὡς τὸ τρισκατάρατε ἀναζωπύρει τοὺς ἄνθρακας, Μένανδρος ἐν Ἀρρηφόρῳ.</note>
+          <note type="apparatus">Correxi ut supra ad-</note>
+          <pb n="91" facs="urn:hathi:hvd.32044098646714:scan:115" />
+          <note type="apparatus">scripsi in edit. maiore. Nunc confirmatum video ab Etymol. M. p. 413 6. ubi versus ille non nominato auctore affertur.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

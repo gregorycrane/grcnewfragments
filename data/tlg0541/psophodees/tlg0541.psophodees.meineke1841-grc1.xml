@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΨΟΦΟΔΕΗΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.psophodees.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.psophodees.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.psophodees.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_psophodees">
+        <head>ΨΟΦΟΔΕΗΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-psophodees-1">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-psophodees-1-l1">Ἐπίσημον αὖ τὴν ἀσπίδ᾿ εἰς τὴν τοῦ Διός</l>
+              <l n="2" xml:id="meineke-0541-psophodees-1-l2">στοὰν ἀνέθηκαν.</l>
+            </lg>
+          </quote>
+          <note type="source">
+            <bibl>Grammaticus Barocc. in Museo phil. Oxon. II p. 113:</bibl>
+            <quote>Μένανδρος ἐν Ψοφοδεεῖ Ἐπίδημου κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 τοῦ additum ex Boissonadii Anecd. III p. 240, ubi pro αὖ legitur οὖν, recte forsan. Ἐπίσημον Duebnerus ad ridiculum aliquod insigne refert. Porticum dicere videtur Menander Iovis Eleutherii templo adiunctam, commemoratam ab Hyperide apud Harpocrat. p. 17, 13. Xenophonte Oecon. VII 1 aliisque. Cfr intpp. Hesychii s. v. Βασίλειος στοά.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-psophodees-2">
+          <note type="source">
+            <bibl>Photius,</bibl>
+            <quote>Ὄνος λύρας: Μένανδρος Ψοφοδεεῖ. ἡ δ᾿ ὅλη παροιμία Ὄνος λύρας ἤκουε καὶ σάλπιγγος ὗς.</quote>
+          </note>
+          <note type="apparatus">Itaque Menander nonnisi verbis ὄνος λύρας usus esse videtur. Suidas ἡ δ᾿ ὅλη omittit. De proverbio v. edit. mai.</note>
+        </div>
+        <pb n="226" facs="urn:hathi:hvd.32044098646714:scan:250" />
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-psophodees-3">
+          <head>III.</head>
+          <note type="source">Photius, <title>Πάνακτος</title>: πόλις μεταξὺ τῆς Ἀττικῆς καὶ τῆς Βοιωτίας. Θουκυδίδης καὶ οὐδετέρως καλεῖ τὸ χωρίον, Μένανδρος δὲ ἀρσενικῶς. Eadem Suidas et qui fabulae nomen addidit Harpocratio.</note>
+          <note type="apparatus">— Praeterea fabulam commemorat Quintil. X 1 cuius verba vide supra p. 116. De titulo dramatis vide edit. mai.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

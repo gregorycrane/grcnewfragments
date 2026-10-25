@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΚΩΝΕΙΑΖΟΜΕΝΑΙ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.koneiazomenai.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.koneiazomenai.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.koneiazomenai.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_koneiazomenai">
+        <head>ΚΩΝΕΙΑΖΟΜΕΝΑΙ</head>
+        <pb n="156" facs="urn:hathi:hvd.32044098646714:scan:180" />
+        <div type="textpart" subtype="fragment" n="2_3" ana="#compiled-citation-normalized" xml:id="meineke-0541-koneiazomenai-2_3">
+          <lg>
+            <l n="1" xml:id="meineke-0541-koneiazomenai-2_3-l1">Τὸ γνῶθι σαυτὸν ἔστιν ἂν τὰ πράγματα</l>
+            <l n="2" xml:id="meineke-0541-koneiazomenai-2_3-l2">ἴδῃς τὰ σαυτοῦ καὶ τί σοι ποιητέον.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. XXI 2, ubi Gesneri margo: <quote>Menander in Catazom.</quote> in quo Καταψευδομένου nomen latere suspicatus est Clericus. Schowii codd. perspicue Μενάνδρου ἐκ Κοτταβιζουσῶν. At cum cod. A apud Gaisfordium Κωταζομοις exhibeat, apertum est scribendum esse Κωνειαζομέναις, quode admonui iam olim Quaest. scen. III p. 9 allato schol. MS ad Clement. Alex. Protr. p. 22 (p. 103 Klotz) <quote>Ἐπιμενίδης ἐκάθηρε τὰς Ἀθήνας· ἦν δὲ Κρὴς τῷ γένει καὶ σοφώτατος, οὗ καὶ Μένανδρος μέμνηται Κωνεαζομέναις.</quote> Ac confirmat nunc coniecturam illam Orio Gnomol. I, 18, ubi idem locus servatus est cum lemmate ἐκ τῶν Κωνεαζομένων.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-koneiazomenai-1">
+          <head>Ι.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-koneiazomenai-1-l1">Ὥστε μηδεὶς πρὸς θεῶν</l>
+            <l n="2" xml:id="meineke-0541-koneiazomenai-1-l2">πράττων κακῶς λίαν ἀθυμήσῃ ποτέ·</l>
+            <l n="3" xml:id="meineke-0541-koneiazomenai-1-l3">ἴσως γὰρ ἀγαθοῦ τοῦτο πρόφασις γίγνεται.</l>
+          </lg>
+          <note type="source">
+            <ref>Stobaeu. Flor. CVIII 48:</ref>
+            <quote>Μενάνδρου Κονιαζομέναις.</quote>
+          </note>
+          <note type="apparatus">Hoc <foreign xml:lang="grc">Κωνειαζομέναις</foreign>, Cicutam bibentibus, scribendum esse conieci in editione maiore.</note>
+        </div>
+        <pb n="765" facs="urn:hathi:hvd.32044098646714:scan:791" />
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-koneiazomenai-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-koneiazomenai-2-l1">Hoc illud vetus est, nosce te ipsum, res tuas</l>
+              <l n="2" xml:id="meineke-0541-koneiazomenai-2-l2">si bene spectaris, et quid ex usu siet.</l>
+            </lg>
+          </quote>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

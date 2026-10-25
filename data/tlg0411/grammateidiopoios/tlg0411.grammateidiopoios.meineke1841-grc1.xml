@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Apollodorus Carystius, ΓΡΑΜΜΑΤΕΙΔΙΟΠΟΙΟΣ: fragments</title>
+        <author>Apollodorus Carystius</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0411.grammateidiopoios.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0411.grammateidiopoios.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0411.grammateidiopoios.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_grammateidiopoios">
+        <head>ΓΡΑΜΜΑΤΕΙΔΙΟΠΟΙΟΣ</head>
+        <div type="textpart" subtype="fragment" n="local_p0441_u5" ana="#compiled-citation-normalized" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l1">Ὦ πάντες ἄνθρωποι, τί τὸ ζῆν ἡδέως</l>
+              <l n="2" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l2">παρέντες ἐπιμελεῖσθε τοῦ κακῶς ποιεῖν</l>
+              <l n="3" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l3">πολεμοῦντες ἀλλήλους; πότερα πρὸς τῶν θεῶν</l>
+              <l n="4" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l4">ἐπιστατεῖ τις τοῦ βίου νυνὶ τύχη</l>
+              <l n="5" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l5">ἄγροικος ἡμῶν, οὔτε παιδείαν ὅλως</l>
+              <l n="6" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l6">εἰδυῖα, τί τὸ κακόν ποτ᾿ ἢ τί τἀγαθόν</l>
+              <l n="7" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l7">ἔστ᾿ ἀγνοοῦσα παντελῶς εἰκῆ τέ πως</l>
+              <l n="8" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l8">ἡμᾶς κυλίνδουσ᾿ ὅντιν᾿ ἂν τύχῃ τρόπον;</l>
+              <l n="9" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l9">οἶμαί γε· πῶς γὰρ μᾶλλον ἂν προείλετο</l>
+            </lg>
+          </quote>
+          <pb n="442" facs="urn:hathi:hvd.32044098646714:scan:466" />
+          <lg>
+            <l n="10" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l10">Ἕλλην ἀληθῶς οὖσα λεπομένους ὁρᾶν</l>
+            <l n="11" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l11">αὐτοὺς ὑφ᾽ αὑτῶν καὶ καταπίπτοντας νέκρους,</l>
+            <l n="12" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l12">ἐξὸν ἱλαροὺς παίζοντας ὑποπεπωκότας</l>
+            <l n="13" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l13">αὐλουμένους ὡδί; λέγ᾽ αὐτή, γλυκυτάτη,</l>
+            <l n="14" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l14">ἔλεγχ᾽ ἄγροικον οὖσαν ἡμῶν τὴν τύχην.</l>
+          </lg>
+          <p>* * * *</p>
+          <lg>
+            <l n="15" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l15">Οὐ τοῦτο τὸ ζῆν ἐστι τὸν καλούμενον</l>
+            <l n="16" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l16">θεῶν ἀληθῶς βίον. ὅσῳ δ᾽ ἡδίονα</l>
+            <l n="17" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l17">τὰ πράγματ᾽ ἐν ταῖς πόλεσιν ἦν ἂν ἢ τὰ νῦν,</l>
+            <l n="18" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l18">εἰ μεταβαλόντες τὸν βίον διήγομεν;</l>
+            <l n="19" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l19">πίνειν Ἀθηναίους ἅπαντας, τοὺς μέχρι</l>
+            <l n="20" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l20">ἐτῶν τριάκοντ᾽ ἐξιέναι, τοὺς δ᾽ ἱππέας</l>
+            <l n="21" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l21">ἐπὶ κῶμον εἰς Κόρινθον ἡμέρας δέκα,</l>
+            <l n="22" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l22">στεφάνους ἔχοντας καὶ μύρον πρὸ ἡμέρας,</l>
+            <l n="23" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l23">τοὺς τὴν ῥάφανον πωλοῦντας ἔψειν Μεγαρέων,</l>
+            <l n="24" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l24">εἰς τὸ βαλανεῖον ἀπιέναι τοὺς συμμάχους,</l>
+            <l n="25" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l25">κεραννύναι τὸν οἶνον Εὐβοῆς. τρυφὴ</l>
+            <l n="26" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l26">καὶ βίος ἀληθῶς. ἀλλ᾽ ἀπαιδεύτῳ τύχῃ</l>
+            <l n="27" xml:id="meineke-0411-grammateidiopoios-local_p0441_u5-l27">δουλεύομεν.</l>
+          </lg>
+          <note type="source">Athenaeus VII p. 280 d. de iis poetis disserens qui voluptates commendaverint: <quote>Ἀπολλόδωρος δ᾽ ὁ Καρύστιος ἐν Γραμματειδιοποιῷ Ὦ πάντες ἄνθρωποι — ἡμῶν τὴν τύχην. καὶ προελθών Οὐ τοῦτο τὸ ζῆν κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 2 κακῶς. ΑΡ καλῶς. — Vs. 3 pro ἀλλήλους P ἀλληλοις. Grotius ἀλλήλοις, quod probavit Schweighaeuserus, qui alterum illud tum demum probandum putabat, si πολεμοῦντες a πολεμόω derivetur; non vidit igitur ἀλλήλους pendere a κακῶς ποιεῖν, quod absque illo ἀλλήλους sententiam depravaret. — Vs. 5 οὔτε defendi potest similibus exemplis, fortasse tamen οὐδὲ scribendum. — Vs. 6 τί τὸ κακὸν ἢ τί τἀγαθόν. „Sic Erfurdtius Observ. p. 461 et ut videtur Porsonus ad Aristoph.</note>
+          <pb n="443" facs="urn:hathi:hvd.32044098646714:scan:467" />
+          <note type="apparatus">Nub. 1263 p. 48: <quote>τί τὸ κακὸν ἢ τί ποτ᾽ ᾖ τι τἀγαθὸν</quote> Α. <quote>τί τὸ κακὸν ἢ τί ποτ᾽ ἢ τί τ᾽ ἀγαθὸν</quote> Β. <quote>ἤ τι τὸ κακόν, ἢ τί ποτε τἀγαθὸν</quote> C. <quote>τί τὸ κακὸν ἢ τί ποτ᾽ ᾗ τἀγαθὸν</quote> PVL. <quote>τί ποτε τὸ κακὸν ἢ τί τἀγαθὸν</quote> Porsonus in Adversariis et Erfurdtius p. 461.“ Dindorfius. — Vs. 7 <quote>τέ πως</quote>. Ita Dindorfius pro <quote>τε πῶς</quote>. — Vs. 8 <quote>κυλίνδουσ᾽</quote> Dind. ex P pro edito <quote>κυλινδοῦσ᾽</quote>. Β <quote>κυλίνδουσα</quote>. — Vs. 9 <quote>πῶς</quote> Iacobsius. Libri <quote>τίς</quote>. Β <quote>γὰρ</quote> omittit. — Vs. 10 verba <quote>Ἕλλην ἀληθῶς οὖσα</quote> affert Eustathius p. 1077 31. <quote>Ἕλλην</quote> de muliere dictum ut apud Philemonem Paed. p. 17 aliosque. Quod sequitur <quote>λεπομένους</quote> ABCD. <quote>λυπομένους</quote> PVL. In Q utramque scripturam esse monuit Dindorfius. — Vs. 12 <quote>ὑποπεπωκότας</quote> C. <quote>ὑποπεπτωκότας</quote> PVL. — Vs. 13 <quote>ὡδὶ</quote> Dindorfius. <quote>ὠδὶ</quote> VL. <quote>ὠδεῖ</quote> Α. <quote>ώδει</quote> Ρ. <quote>ω δει</quote> Β. Grotius <quote>ὠδῇ</quote>, quod qui sequutus est Schweighaeuserus, <quote>αὐλεῖσθαι ὠδῇ</quote>
+            <quote>tibiis canere</quote> interpretatus est. Id vero esse debebat <quote>αὐλεῖν</quote>, contra <quote>αὐλεῖσθαι</quote> est tibiarum cantu deliniri vel oblectari. Vide ad Philet. p. 299. Ibid. <quote>λέγ᾽ αὐτὴ</quote> Α. <quote>λεγαύτη</quote> Ρ. <quote>λε γ αυτη</quote> Β. <quote>λέγειν ὦ</quote> VL. Non ad unam quamlibet mulierem haec dicta suspicor, sed ad deam aliquam, Pacem fortasse vel <quote>Γεωργίαν</quote>. — Vs. 15 <quote>τὸν καλούμενον</quote> Schweighaeuserus pro <quote>τὸ καλούμενον</quote>. — Vs. 17 pro <quote>ἢ</quote> Β <quote>ἦν</quote>. Ρ <quote>ἦ</quote>. — Vs. 18 <quote>οἱ</quote> pro <quote>εἰ</quote> Β. <quote>μεταβαλόντες</quote> Ρ. <quote>μεταβαλλόντες</quote> V. <quote>μεταβάλλοντες</quote> ΒΡ. — Vs. 19 <quote>ἅπαντας καὶ τοὺς</quote> VL. Post <quote>ἅπαντας</quote> distinxi. — Vs. 20 <quote>δ᾽ ἱππέας</quote> PL. <quote>δι᾽ ἱππέας</quote> V. Dindorfius particulam deletam malit. Id ipse etiam praetulerim, sed ita ut <quote>τοὺς ἱππέας</quote> appositionis loco superioribus, <quote>τοὺς μέχρι ἐτῶν τριάκοντα</quote>, illata putentur. — Vs. 22 verba <quote>πρὸ ἡμέρας</quote> alii, in his Dindorfius, cum sequentibus coniungunt, quod ferri vix potest. Cfr Pherecrates p. 253: <quote>λουσάμενοι δὲ πρὸ λαμπρᾶς ἡμέρας ἐν τοῖς στεφανώμασιν, οἱ δ᾽ ἐν τῷ μύρῳ</quote>. Itaque vel ante solis ortum commissandum esse dicit. — Vs. 23 Grotius <quote>ἐλθεῖν Μεγαρέας</quote>. Hoc dicere videtur: brassicam qui venalem apportent Megarenses, melius ipsos eam coquere et vesci. Constat enim Megarenses quidquid ad vitam sustentandam pertineret Athenas apportasse, ipsos autem fere</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

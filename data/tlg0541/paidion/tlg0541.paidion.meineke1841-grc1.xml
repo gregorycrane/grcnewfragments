@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΠΑΙΔΙΟΝ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.paidion.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.paidion.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.paidion.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_paidion">
+        <head>ΠΑΙΔΙΟΝ</head>
+        <pb n="181" facs="urn:hathi:hvd.32044098646714:scan:205" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-paidion-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-paidion-1-l1">῞Απαντα δουλεύειν ὁ δοῦλος μανθάνει,</l>
+              <l n="2" xml:id="meineke-0541-paidion-1-l2">πονηρὸς ἔσται· μεταδίδου παρρησίας,</l>
+              <l n="3" xml:id="meineke-0541-paidion-1-l3">βέλτιστον αὐτὸν τοῦτο ποιήσει πολύ.</l>
+            </lg>
+          </quote>
+          <note type="apparatus">Stobaeus Flor. LXII 27. Versu primo Gesnerus εἰ πάντα, Clericus εἰς πάντα, quod frustra barbarum dicit Bentleius. V. edit. mai. p. 480. Sed nihil mutandum videtur. Vs. 2 Dobraeus Adv. II p. 277 ἐστι et vs. 3 βελτίον', ut voluit iam Iacobsius.</note>
+        </div>
+        <pb n="769" facs="urn:hathi:hvd.32044098646714:scan:795" />
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-paidion-1_2">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-paidion-1_2-l1">Servire qui sic discit, ut excipiat nihil,</l>
+              <l n="2" xml:id="meineke-0541-paidion-1_2-l2">is nequam est servus: ius profandi libere,</l>
+              <l n="3" xml:id="meineke-0541-paidion-1_2-l3">quod sensit animus, dederis, reddes optimum.</l>
+            </lg>
+          </quote>
+        </div>
+        <pb n="181" facs="urn:hathi:hvd.32044098646714:scan:205" />
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-paidion-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-paidion-2-l1">Ἐφέσια τοῖς γαμοῦσιν οὗτος περιπατεῖ</l>
+              <l n="2" xml:id="meineke-0541-paidion-2-l2">λέγων ἀλεξιφάρμακα.</l>
+            </lg>
+          </quote>
+          <note type="source">Suidas, Ἀλεξιφάρμακα: ἀλεξιτήρια φαρμάκων. Μένανδρος Παιδίῳ Ἐφέσια κτλ. Respicit Photius, Ἐφέσια ἀλεξιφάρμακα: ὀνόματα ἄττα καὶ φωναὶ ἀντιπάθειαν φυσικὴν ἔχουσαι.</note>
+          <note type="apparatus">Eas qui pronuntiarent aut tabella scriptas secum ferrent, in omnibus rebus prospero successu frui existamabantur, ut est apud Apostol. IX 39. V. Lobeckii Aglaoph. p. 1163. 1330. Copiose de his formulis egerat Sextus Africanus. V. Suidam v. Ἀφρικανός.</note>
+        </div>
+        <pb n="769" facs="urn:hathi:hvd.32044098646714:scan:795" />
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-paidion-2_2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-paidion-2_2-l1">Cantus Ephesios nuptias facientibus</l>
+              <l n="2" xml:id="meineke-0541-paidion-2_2-l2">hic averruncos cantat.</l>
+            </lg>
+          </quote>
+        </div>
+        <pb n="181" facs="urn:hathi:hvd.32044098646714:scan:205" />
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-paidion-3">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-paidion-3-l1">Χρυσοῦν ἐπόρισας. εἴθε λιθοκόλλητον ἦν·</l>
+              <l n="2" xml:id="meineke-0541-paidion-3-l2">καλὸν ἦν ἂν οὕτως.</l>
+            </lg>
+          </quote>
+          <note type="source">Pollux X 187 de voce λιθοκόλλητος agens: Μένανδρος Παιδίῳ Χρυσοῦν ἐπόρισας κτλ.</note>
+          <note type="apparatus">Ex eadem scena sequens fragmentum petitum est.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-paidion-4">
+          <head>IV.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-paidion-4-l1">Μάραγδον εἶναι ταῦτ᾽ ἔδει καὶ σάρδια.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus III p. 94 b. de μάραγδος disserens: Μένανδρος Παιδίῳ Μάραγδον κτλ. Hinc petiit Eustathius p. 842</note>
+          <pb n="182" facs="urn:hathi:hvd.32044098646714:scan:206" />
+          <note type="apparatus">et 853. Quae vide num meretriculae verba fuerint, muneribus ab amatore oblatis non contentae. Ceterum conf. Fragm. incert. fab. 347.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-paidion-5">
+          <head>V.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-paidion-5-l1">Εἴ τις δικαστὴς ἢ διαιτητὴς θεῶν.</l>
+          </lg>
+          <note type="source">Ammonius p. 41: Δικαστὴς καὶ διαιτητὴς διαφέρει — <quote>Μένανδρος Παιδίῳ Εἴ τις κτλ.</quote> Eadem omisso fabulae indice Lexicon Gud. p. 146 14.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0541-paidion-6">
+          <head>VI.</head>
+          <note type="source">Lexicon Seguer. p. 436: Ἀπόστα, οὐ μόνον ἀπόστηθι — <quote>Μένανδρος Παιδίῳ <l n="1" xml:id="meineke-0541-paidion-6-l1">Ἐνταῦθ᾽ ἀπόστα μικρόν.</l>
+            </quote> Eadem Suidas s. v. ἀπόστα.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΔΑΡΔΑΝΟΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.dardanos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.dardanos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.dardanos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_dardanos">
+        <head>ΔΑΡΔΑΝΟΣ</head>
+        <pb n="100" facs="urn:hathi:hvd.32044098646714:scan:124" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-dardanos-1">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-dardanos-1-l1">Καὶ λαιμὰ βακχεύει λαβὼν τὰ χρήματα.</l>
+            </lg>
+          </quote>
+          <note type="source">Scholiasta Aristophanis Av. 1562: παραπεποίηκε (τὸ λαῖμα) παρὰ τὸ λαιμόν. ἔστι δὲ καὶ παρὰ Μενάνδρῳ ἐν Δαρδάνῳ Καὶ λαῖμα βακχεύει λαβὼν τὰ χρήματα. — ἔτι μέντοι τῶν περὶ τὴν Ἀσίαν τινὲς ἐπὶ τῶν ἀναιδῶν καὶ εὐτόλμων οὕτω λέγουσιν. ὅπερ συμφωνότερόν ἐστι τῷ παρὰ Μενάνδρῳ.</note>
+          <note type="apparatus">Recte Bentleius λαιμὰ correxit. Cod. Rav. λῆμα.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_3" ana="#compiled-citation-normalized" xml:id="meineke-0541-dardanos-2_3">
+          <head>II. III.</head>
+          <note type="source">Erotianus Lex. Hipp. 172. Ἡδύσμασι: τοῖς χλωροῖς καὶ ξηροῖς ἀρτύμασιν. ἀττικὴ δὲ ἡ λέξις, ὡς καὶ — Μένανδρος ἐν Δαρδάνῳ. — Priscianus VI p. 702: <quote>Menander quoque in Dardano Δρία παῖ pro Δρίαν.</quote>
+          </note>
+          <note type="apparatus">De hac forma cfr Bekkeri Anecd. p. 1183 et I. H. Vossii Krit. Blätter I p. 173. — De alio huius fabulae fragm. vide quae infra ad Xenologum dicentur.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

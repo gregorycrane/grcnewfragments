@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Apollodorus Carystius, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <author>Apollodorus Carystius</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0411.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0411.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0411.adelon_dramaton.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0411_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0411-adelon_dramaton-unnumbered">
+          <lg type="verse">
+            <l n="1" xml:id="meineke-0411-adelon_dramaton-unnumbered-l1">Heu quotquot estis, cur vita laetabili</l>
+            <l n="2" xml:id="meineke-0411-adelon_dramaton-unnumbered-l2">omissa id agitis ut se res habeant male,</l>
+            <l n="3" xml:id="meineke-0411-adelon_dramaton-unnumbered-l3">bellantes alii in alios? proh Superum fidem,</l>
+            <l n="4" xml:id="meineke-0411-adelon_dramaton-unnumbered-l4">an aliquis vitam nostram nunc Genius regit</l>
+            <l n="5" xml:id="meineke-0411-adelon_dramaton-unnumbered-l5">illiteratus, inficetus, barbarus,</l>
+            <l n="6" xml:id="meineke-0411-adelon_dramaton-unnumbered-l6">qui quid bonum sit, quidque sit contra malum,</l>
+            <l n="7" xml:id="meineke-0411-adelon_dramaton-unnumbered-l7">ignoret plane, quique nos ut fors tulit</l>
+            <l n="8" xml:id="meineke-0411-adelon_dramaton-unnumbered-l8">huc illuc verset impetu temerario?</l>
+            <l n="9" xml:id="meineke-0411-adelon_dramaton-unnumbered-l9">credo equidem. nam quis Graeco ingenio praeditus</l>
+            <l n="10" xml:id="meineke-0411-adelon_dramaton-unnumbered-l10">optaret potius cernere afflictarier</l>
+            <l n="11" xml:id="meineke-0411-adelon_dramaton-unnumbered-l11">alios ab aliis, cadere in terram mortuos,</l>
+            <l n="12" xml:id="meineke-0411-adelon_dramaton-unnumbered-l12">quam laetos, ludibundos, inter pocula</l>
+            <l n="13" xml:id="meineke-0411-adelon_dramaton-unnumbered-l13">ad tibiam cantantes: o dulcissima</l>
+            <l n="14" xml:id="meineke-0411-adelon_dramaton-unnumbered-l14">refelle nobis istum Genium barbarum.</l>
+            <l n="15" xml:id="meineke-0411-adelon_dramaton-unnumbered-l15">nonne illud vere est caelitum quod dicitur</l>
+          </lg>
+          <lg>
+            <l n="16" xml:id="meineke-0411-adelon_dramaton-unnumbered-l16">vitam agere? quanto res se haberent suavius</l>
+            <l n="17" xml:id="meineke-0411-adelon_dramaton-unnumbered-l17">nostras per urbes, istum vivendi modum</l>
+            <l n="18" xml:id="meineke-0411-adelon_dramaton-unnumbered-l18">si mutaremus placitis mollioribus:</l>
+            <l n="19" xml:id="meineke-0411-adelon_dramaton-unnumbered-l19">Athenienses usque ad tricenarios</l>
+            <l n="20" xml:id="meineke-0411-adelon_dramaton-unnumbered-l20">potatum ut irent omnes, equites pergerent</l>
+            <l n="21" xml:id="meineke-0411-adelon_dramaton-unnumbered-l21">Corinthum comessaturi in denos dies</l>
+            <l n="22" xml:id="meineke-0411-adelon_dramaton-unnumbered-l22">sertati et unguentati inde a diluculo,</l>
+            <l n="23" xml:id="meineke-0411-adelon_dramaton-unnumbered-l23">venirent Megaris brassicam qui venderent,</l>
+            <l n="24" xml:id="meineke-0411-adelon_dramaton-unnumbered-l24">adirent laeti nostra socii balnea,</l>
+            <l n="25" xml:id="meineke-0411-adelon_dramaton-unnumbered-l25">miscerent vinum Euboicum: o delitiae merae,</l>
+            <l n="26" xml:id="meineke-0411-adelon_dramaton-unnumbered-l26">o vera vita! nunc Genio immiti ac fero</l>
+            <l n="27" xml:id="meineke-0411-adelon_dramaton-unnumbered-l27">servimus.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" ana="#compiled-duplicate-number #compiled-citation-normalized" n="unnumbered_2" xml:id="meineke-0411-adelon_dramaton-unnumbered_2">
+          <lg>
+            <l n="1" xml:id="meineke-0411-adelon_dramaton-unnumbered_2-l1">Οἶδ᾽ ὅτι καλοῦμεν ῥάφανον, ὑμεῖς δ᾽ οἱ ξένοι</l>
+            <l n="2" xml:id="meineke-0411-adelon_dramaton-unnumbered_2-l2">κράμβην· γυναιξὶ διαφέρειν οἴει δὲ τί;</l>
+          </lg>
+          <note type="source">Athenaeus I p. 34 d: ὅτι δὲ τὴν κράμβην ῥάφανον ἐκάλουν οἱ παλαιοὶ Ἀπολλόδωρος δηλοῖ ὁ Καρύστιος <quote>Οἶδ᾽ ὅτι κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 pro οἶδ᾽ BC εἰ δ᾽. Tum legebatur ἡμεῖς. Nostrum Dalecampius.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

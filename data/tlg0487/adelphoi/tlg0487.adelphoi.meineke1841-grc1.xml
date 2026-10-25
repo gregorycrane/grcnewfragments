@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΑΔΕΛΦΟΙ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.adelphoi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.adelphoi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.adelphoi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_adelphoi">
+        <head>ΑΔΕΛΦΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0487-adelphoi-1">
+          <head>1.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-adelphoi-1-l1">Σὺ δ᾿ εἰς ἅπαντας εὗρες ἀνθρώπους, Σόλων·</l>
+              <l n="2" xml:id="meineke-0487-adelphoi-1-l2">σὲ γὰρ λέγουσι τοῦτ᾿ ἰδεῖν πρῶτον βροτῶν,</l>
+              <l n="3" xml:id="meineke-0487-adelphoi-1-l3">δημοτικὸν ὦ Ζεῦ πρᾶγμα καὶ σωτήριον,</l>
+              <l n="4" xml:id="meineke-0487-adelphoi-1-l4">(καί μοι λέγειν τοῦτ᾿ ἐστὶν ἁρμοστόν, Σόλων·)</l>
+              <l n="5" xml:id="meineke-0487-adelphoi-1-l5">μεστὴν ὁρῶντα τὴν πόλιν νεωτέρων,</l>
+              <l n="6" xml:id="meineke-0487-adelphoi-1-l6">τούτους τ᾿ ἔχοντας τὴν ἀναγκαίαν φύσιν,</l>
+              <l n="7" xml:id="meineke-0487-adelphoi-1-l7">ἁμαρτάνοντάς τ᾿ εἰς ὃ μὴ προσῆκον ἦν,</l>
+              <l n="8" xml:id="meineke-0487-adelphoi-1-l8">στῆσαι πριάμενόν τοι γυναῖκας κατὰ τόπους</l>
+              <l n="9" xml:id="meineke-0487-adelphoi-1-l9">κοινὰς ἅπασι καὶ κατεσκευασμένας.</l>
+              <l n="10" xml:id="meineke-0487-adelphoi-1-l10">ἑστᾶσι γυμναί· μὴ ξ̓απατηθῇς· πάνθ᾿ ὅρα.</l>
+              <l n="11" xml:id="meineke-0487-adelphoi-1-l11">οὐκ εὖ σεαυτοῦ τυγχάνεις ἔχων; ἔχεις</l>
+              <l n="12" xml:id="meineke-0487-adelphoi-1-l12">[ἐστυκότως] πως; ἡ θύρα σ̓τ᾿ ἀνεῳγμένη.</l>
+              <l n="13" xml:id="meineke-0487-adelphoi-1-l13">εἷς ὀβολός· εἰσπήδησον· οὐκ ἔστ᾿ οὐδὲ εἷς</l>
+              <l n="14" xml:id="meineke-0487-adelphoi-1-l14">ἀκκισμός, οὐδὲ λῆρος, οὐδ᾿ ὑφήρπασεν,</l>
+              <l n="15" xml:id="meineke-0487-adelphoi-1-l15">ἀλλ᾿ εὐθύς, ὡς βούλει σὺ χὢν βούλει τρόπον.</l>
+              <l n="16" xml:id="meineke-0487-adelphoi-1-l16">ἐξῆλθες· οἰμώζειν λέγ᾿, ἀλλοτρία σ̓τί σοι.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XIII p. 569 d: καὶ Φιλήμων δ᾿ ἐν Ἀδελφοῖς προσιστορῶν ὅτι πρῶτος Σόλων διὰ τὴν τῶν νέων ἀκμὴν ἔστησεν ἐπὶ οἰκημάτων γύναια πριάμενος — ἀλλ᾿ ὅγε Φιλήμων οὕτως φησί Σὺ δ᾿ εἰς ἅπαντας κτλ.</note>
+          <note type="apparatus">In his Ἀδελφοῖς Schweighaeuserus: libri Δελφοῖς. De illo Solonis instituto vide quae attuli in editione maiore. Vs. 1 Grotius εὖ pro σύ. — Vs. 2 βροτῶν addendum vidit Grotius. — Vs. 4 forsan κἀμοί. — Vs. 5 ὁρῶντα Grotius. Libri ὁρῶντι. — Vs. 8 τοι ABPV. τι Bas. L. — Vs. 12 ἐστυκότως addidit Bentleius. Dobraeus Adv. II p. 343 morbi nomen, v. c.</note>
+          <pb n="5" facs="urn:hathi:hvd.32044098646714:scan:29" />
+          <note type="apparatus">τέτανος, latere putat. Ibid. θύρα σ̓τὶν pro θύρα ἔσται Bentleius. — Vs. 14 ὑφήρπασεν. Dalecampius: non illae se subtrahunt. — Vs. 15 σὺ χὢν pro συχνὸν Bentleius. — Vs. 16 ante Grotium ἀλλοτρία τί σοι.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" xml:id="meineke-0487-adelphoi-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-adelphoi-2-l1">Οὐκ ἂν λαλῇ τις μικρόν, ἐστὶ κόσμιος,</l>
+              <l n="2" xml:id="meineke-0487-adelphoi-2-l2">οὐδ᾽ ἂν πορεύηταί τις εἰς τὴν γῆν βλέπων·</l>
+              <l n="3" xml:id="meineke-0487-adelphoi-2-l3">ὁ δ᾽ ἡλίκον μὲν ἡ φύσις φέρει λαλῶν,</l>
+              <l n="4" xml:id="meineke-0487-adelphoi-2-l4">μηδὲν ποιῶν δ᾽ ἄσχημον, οὗτος κόσμιος.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaei Append. Florent. p. 11. Φιλήμονος: Ἀδελφεοῦς κἂν λαλῇ τις κτλ. Correxit Gaisfordius.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0487-adelphoi-1_2">
+          <head>Ι.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0487-adelphoi-1_2-l1">Cunctis hominibus bene pol fecisti, Solon:</l>
+            <l n="2" xml:id="meineke-0487-adelphoi-1_2-l2">nam te commemorant esse auctorem principem</l>
+            <l n="3" xml:id="meineke-0487-adelphoi-1_2-l3">adeo popularis ac salutaris rei:</l>
+            <l n="4" xml:id="meineke-0487-adelphoi-1_2-l4">(namque haec conveniens mihi, Solon, oratio est :)</l>
+            <l n="5" xml:id="meineke-0487-adelphoi-1_2-l5">in urbe iuvenes quum videres plurimos,</l>
+            <l n="6" xml:id="meineke-0487-adelphoi-1_2-l6">quibus deesset nil naturae partium,</l>
+            <l n="7" xml:id="meineke-0487-adelphoi-1_2-l7">libidinantes in ea quae attingi nefas,</l>
+            <l n="8" xml:id="meineke-0487-adelphoi-1_2-l8">emtas mulieres certis statuisti in locis,</l>
+            <l n="9" xml:id="meineke-0487-adelphoi-1_2-l9">in hoc paratas, publici ut iuris forent.</l>
+            <l n="10" xml:id="meineke-0487-adelphoi-1_2-l10">nudae adstant: specta penitus, ne falli queas.</l>
+            <l n="11" xml:id="meineke-0487-adelphoi-1_2-l11">bene non est tibi? distenderis libidine?</l>
+            <l n="12" xml:id="meineke-0487-adelphoi-1_2-l12">est unde apertas indipiscaris fores:</l>
+            <l n="13" xml:id="meineke-0487-adelphoi-1_2-l13">sat obolus: intra: nulla detrectatio:</l>
+            <l n="14" xml:id="meineke-0487-adelphoi-1_2-l14">licet continuo quum libet et quantum libet.</l>
+            <l n="15" xml:id="meineke-0487-adelphoi-1_2-l15">existi? iube eam flere: nihil ad te attinet.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

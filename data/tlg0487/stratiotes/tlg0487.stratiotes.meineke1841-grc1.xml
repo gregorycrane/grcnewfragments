@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΣΤΡΑΤΙΩΤΗΣ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.stratiotes.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.stratiotes.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.stratiotes.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_stratiotes">
+        <head>ΣΤΡΑΤΙΩΤΗΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0487-stratiotes-1">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-stratiotes-1-l1">῾Ὡς ἵμερός μοὐπῆλθε γῇ τε κοὐρανῷ</l>
+              <l n="2" xml:id="meineke-0487-stratiotes-1-l2">λέξαι μολόντι τοὔψον ὡς ἐσκεύασα.</l>
+              <l n="3" xml:id="meineke-0487-stratiotes-1-l3">νὴ τὴν Ἀθηνᾶν, ἡδύ γ᾽ ἔστ᾽ εὐημερεῖν</l>
+              <l n="4" xml:id="meineke-0487-stratiotes-1-l4">ἐν ἅπασιν· ἰχθὺς ἁπαλὸς οἷος γέγονέ μοι</l>
+              <l n="5" xml:id="meineke-0487-stratiotes-1-l5">οἷον παρατέθεικ᾽, οὐ πεφαρμακευμένον</l>
+              <l n="6" xml:id="meineke-0487-stratiotes-1-l6">τυροῖσιν, οὐδ᾽ ἄνωθεν ἐξηνθισμένον,</l>
+              <l n="7" xml:id="meineke-0487-stratiotes-1-l7">ἀλλ᾽ οἷος ἦν ζῶν, κὠπτὸς ὢν τοιοῦτος ἦν·</l>
+              <l n="8" xml:id="meineke-0487-stratiotes-1-l8">οὕτως ἁπαλὸν ἔδωκα καὶ πρᾷον τὸ πῦρ</l>
+              <l n="9" xml:id="meineke-0487-stratiotes-1-l9">ὀπτῶν τὸν ἰχθύν, οὐδὲ πιστευθήσομαι.</l>
+              <l n="10" xml:id="meineke-0487-stratiotes-1-l10">ὅμοιον ἐγένετ᾽, ὄρνις ὁπόταν ἁρπάσῃ</l>
+              <l n="11" xml:id="meineke-0487-stratiotes-1-l11">τοῦ καταπιεῖν μεῖζόν τι· περιτρέχει κύκλῳ</l>
+              <l n="12" xml:id="meineke-0487-stratiotes-1-l12">τηροῦσα τοῦτο, καταπιεῖν δ᾽ ἐσπούδακεν,</l>
+              <l n="13" xml:id="meineke-0487-stratiotes-1-l13">ἕτεραι διώκουσιν δὲ ταύτην. ταὐτὸν ἦν.</l>
+              <l n="14" xml:id="meineke-0487-stratiotes-1-l14">τὴν ἡδονὴν ὁ πρῶτος αὐτῶν καταμαθὼν</l>
+            </lg>
+          </quote>
+          <pb n="27" facs="urn:hathi:hvd.32044098646714:scan:51" />
+          <lg>
+            <l n="15" xml:id="meineke-0487-stratiotes-1-l15">τῆς λοπάδος, ἀνεπήδησε κἄφευγεν κύκλῳ</l>
+            <l n="16" xml:id="meineke-0487-stratiotes-1-l16">τὴν λοπάδ᾽ ἔχων, ἄλλοι δ᾽ ἐδίωκον κατὰ πόδας.</l>
+            <l n="17" xml:id="meineke-0487-stratiotes-1-l17">ἐξῆν ὀλολύζειν· οἱ μὲν ἥρπασάν τι γάρ,</l>
+            <l n="18" xml:id="meineke-0487-stratiotes-1-l18">οἱ δ᾽ οὐδέν, οἱ δὲ πάντα. καί τοι παρέλαβον</l>
+            <l n="19" xml:id="meineke-0487-stratiotes-1-l19">ἰχθῦς ποταμίους ἐσθίοντας βόρβορον·</l>
+            <l n="20" xml:id="meineke-0487-stratiotes-1-l20">εἰ δ᾽ ἔλαβον ἀρτίως σκάρον, ἢ κ̓ τῆς Ἀττικῆς</l>
+            <l n="21" xml:id="meineke-0487-stratiotes-1-l21">γλαυκίσκον, ὦ Ζεῦ σῶτερ, ἢ ξ̓ Ἄργους κάπρον,</l>
+            <l n="22" xml:id="meineke-0487-stratiotes-1-l22">ἢ κ̓ τῆς Σικυῶνος τῆς φίλης ὃν τοῖς θεοῖς</l>
+            <l n="23" xml:id="meineke-0487-stratiotes-1-l23">φέρει Ποσειδῶν γόγγρον εἰς τὸν οὐρανόν,</l>
+            <l n="24" xml:id="meineke-0487-stratiotes-1-l24">ἅπαντες οἱ φαγόντες ἐγένοντ᾽ ἂν θεοί.</l>
+            <l n="25" xml:id="meineke-0487-stratiotes-1-l25">ἀθανασίαν εὕρηκα· τοὺς ἤδη νεκρούς,</l>
+            <l n="26" xml:id="meineke-0487-stratiotes-1-l26">ὅταν ὀσφρανθῶσι, ποιῶ ζῆν πάλιν.</l>
+          </lg>
+          <note type="source">Athenaeus VII p. 288 d: <quote>Φιλήμων δέ, τῆς κωμῳδίας ὁ ποιητής, καὶ αὐτὸς μνημονεύων τῶν ἐν Σικυῶνι διαφόρων γόγγρων, ποιεῖ τινα μάγειρον ἐπὶ τέχνῃ τῇ ἑαυτοῦ σεμνυνόμενον καί λέγοντα ἐν τῷ ἐπιγραφομένῳ Στρατιώτῃ τάδε <quote>Ὡς ἵμερος κτλ.</quote>
+            </quote>
+          </note>
+          <note type="apparatus">Vs. 1 iam alii contenderunt cum Eurip. Med. 57: ὥσθ᾽ ἵμερός μοὐπῆλθε γῇ τε κοὐρανῷ | λέξαι μολούσῃ δεῦρο δεσποίνης τύχας. Vide quae in edit. mai. attuli. Pro ὡς Koenius ad Greg. Cor. p. 136 ὥσθ᾽. Scripsi autem et in Philemonis et in Euripidis loco μοὐπῆλθε, h. e. μοι ὑπῆλθε, vel μοι ἐπῆλθε. Vulgo μ᾽ ὑπῆλθε, quod frustra, opinor, tuentur Euripidis exemplo Iphig. Aul. 492: ἄλλως τέ μ᾿ ἔλεος τῆς ταλαιπώρου κόρης εἰσῆλθε, συγγένειαν ἐννοουμένῳ, ubi recte Matthiae edidit ἐννοούμενον. Crasin μοὐπῆλθε pro μοι ὑπῆλθε agnoscit Choeroboscus apud Goettlingium ad Theodos. p. 222: ἔκθλιψις δὲ καὶ συναίρεσις, οἷον ἐμοὶ ὑποδύνει ἐμοὐποδύνει, ἐκθλίβεται γὰρ τὸ ι τῆς οι διφθόγγου — καὶ συναιρεῖται τὸ ο και υ εἰς ου δίφθογγον. Ac nescio an etiam apud Epicratem, cuius locum exhibui vol. III p. 369. scribendum sit τελέως δέ μοὐπῆλθ᾽ ἡ κατάρατος. Vide varietat. lect. — Vs. 4 ἐν ἅπασιν Bentleius cum sequentibus coniunxit, quod non</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0487-stratiotes-unnumbered">
+          <lg>
+            <l n="1" xml:id="meineke-0487-stratiotes-unnumbered-l1">Ut me narrare caelo et telluri lubet,</l>
+            <l n="2" xml:id="meineke-0487-stratiotes-unnumbered-l2">illinc egressum, quemadmodum struxi dapes.</l>
+            <l n="3" xml:id="meineke-0487-stratiotes-unnumbered-l3">ut suave est semper, per deos, quoties bene</l>
+            <l n="4" xml:id="meineke-0487-stratiotes-unnumbered-l4">res cedunt! piscis ille quam factus tener,</l>
+            <l n="5" xml:id="meineke-0487-stratiotes-unnumbered-l5">qualem apposivi, non medicatum caseo,</l>
+            <l n="6" xml:id="meineke-0487-stratiotes-unnumbered-l6">tinctumve adscitis desuper coloribus.</l>
+            <l n="7" xml:id="meineke-0487-stratiotes-unnumbered-l7">parebat assus qualis dum vixit fuit:</l>
+            <l n="8" xml:id="meineke-0487-stratiotes-unnumbered-l8">quam temperate ac molliter ignem admoverim</l>
+            <l n="9" xml:id="meineke-0487-stratiotes-unnumbered-l9">assando pisci, vix est quisquam ut creduit.</l>
+            <l n="10" xml:id="meineke-0487-stratiotes-unnumbered-l10">ita se res habuit, magni ut si quid in cibum</l>
+            <l n="11" xml:id="meineke-0487-stratiotes-unnumbered-l11">gallina rapuit, illa in orbem cursitat,</l>
+            <l n="12" xml:id="meineke-0487-stratiotes-unnumbered-l12">quaerens id ut edat: hanc insequitur altera</l>
+            <l n="13" xml:id="meineke-0487-stratiotes-unnumbered-l13">non illa minus approperans: plane ad hunc modum</l>
+            <l n="14" xml:id="meineke-0487-stratiotes-unnumbered-l14">qui patinae primus in voluptatem incidit,</l>
+            <l n="15" xml:id="meineke-0487-stratiotes-unnumbered-l15">continuo subsultavit et patinam tenens</l>
+            <l n="16" xml:id="meineke-0487-stratiotes-unnumbered-l16">in orbem fugit, sectabantur ceteri.</l>
+            <l n="17" xml:id="meineke-0487-stratiotes-unnumbered-l17">res digna plausu: quidam nacti aliquantulum,</l>
+            <l n="18" xml:id="meineke-0487-stratiotes-unnumbered-l18">nil alii, reliquum reliqui: atqui acceperam</l>
+            <l n="19" xml:id="meineke-0487-stratiotes-unnumbered-l19">pisces coquendos limedones, amnicos.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

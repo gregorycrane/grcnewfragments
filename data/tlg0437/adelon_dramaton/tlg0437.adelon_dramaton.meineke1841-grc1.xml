@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Crobylus, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <author>Crobylus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0437.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0437.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0437.adelon_dramaton.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0437_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0437-adelon_dramaton-1">
+          <quote>
+            <sp>
+              <speaker>Α.</speaker>
+              <lg>
+                <l n="1" xml:id="meineke-0437-adelon_dramaton-1-l1">Ἐγὼ δὲ πρὸς τὰ θερμὰ ταῦθ᾽ ὑπερβολῇ</l>
+                <l n="2" xml:id="meineke-0437-adelon_dramaton-1-l2">τοὺς δακτύλους δήπουθεν Ἰδαίους ἔχω,</l>
+                <l n="3" xml:id="meineke-0437-adelon_dramaton-1-l3">καὶ τὸν λάρυγγ᾽ ἥδιστα πυριῶ τεμαχίοις.</l>
+              </lg>
+            </sp>
+            <sp>
+              <speaker>Β.</speaker>
+              <lg>
+                <l n="4" xml:id="meineke-0437-adelon_dramaton-1-l4">κάμινος, οὐκ ἄνθρωπος.</l>
+              </lg>
+            </sp>
+          </quote>
+          <note type="source">Athenaeus I p. 5 f: <quote>Τὰ δ᾽ αὐτὰ καὶ περὶ τοῦ Κυθηρίου Φιλοξένου ἱστοροῦσι καὶ Ἀρχύτου καὶ ἄλλων πλειόνων, ὧν τις παρὰ Κρωβύλῳ τῷ κωμικῷ φησίν <quote>Ἐγὼ δὲ</quote> κτλ.</quote> Agit Athenaeus de helluonibus fervidos cibos devorantibus. Suidas I p. 94. <quote>Ἰδαίους: ψυχρούς. Ἐγὼ δὲ — Ἰδαίους ἔχω.</quote> Idem II p. 751: <quote>παραπλήσια δὲ ἱστοροῦσι καὶ περὶ Ἀρχύτου. καὶ Κρώβυλος φησίν <quote>Ἐγὼ δὲ — Ἰδαίους ἔχω.</quote>
+            </quote> Eadem idem III p. 471. ubi etiam tertium Crobyli versum adscripsit. Duo priores versus apposuit etiam Zonaras p. 1085.</note>
+          <note type="apparatus">Vs. 2 digitos Idaeos Turnebus interpretatur ferreos, Casaub. exercitatos et doctos, Kusterus ferro et aeri similes, Lo-</note>
+          <pb n="569" facs="urn:hathi:hvd.32044098646714:scan:593" />
+          <note type="apparatus">beckius Aglaoph. p. 1181 cum Suida <quote>frigidos et caloris patientes.</quote> — Vs. 3 φάρυγγ᾽ Suidas. πυρειῶ BCD. τεμάχοις Suidas secundo loco. τεμαχείῳ D.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0437-adelon_dramaton-2">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0437-adelon_dramaton-2-l1">Χλωρὸν ἐρέβινθόν τινα</l>
+              <l n="2" xml:id="meineke-0437-adelon_dramaton-2-l2">ἐκοττάβιζον κενὸν ὅλως. <sp>
+                  <speaker>Β.</speaker>
+                  <l n="2b" part="F" xml:id="meineke-0437-adelon_dramaton-2-l2b">τράγημα δέ</l>
+                </sp>
+              </l>
+              <l n="3" xml:id="meineke-0437-adelon_dramaton-2-l3">ἔστιν πιθήκου τοῦτο δήπου δυστυχοῦς.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus II p. 54 e: <quote>Ἐρέβινθοι. Κρώβυλος <title>Χλωρόν</title> κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 ἐρέβινθόν τινα collective dixit, ut ἑψητόν τινα Sotades Ἐγκλειομ. vs. 18 aliisque locis. Vini loco hos de quibus poeta agit cicera in lancem proiecisse existimat Schweighaeuserus, qui κενόν, i. e. λελεπισμένον, pro διακενῆς accepit, quod fieri non potest. Tum in fine versus vulgo τραγήματα δ᾽. Casaubonus τράγημα δή. Dindorfius τράγημα δέ.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0437-adelon_dramaton-3">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0437-adelon_dramaton-3-l1">Τὸν πλακοῦντα κόμμιδι,</l>
+              <l n="2" xml:id="meineke-0437-adelon_dramaton-3-l2">οὐ μέλιτι, διεκόσμει.</l>
+            </lg>
+          </quote>
+          <note type="source">Grammaticus Bekkeri Anecd. p. 1208: <quote>δεῖ δὲ γινώσκειν ὅτι τοῦ κόμμι εὑρέθη παρὰ Κρωβύλῳ (editur Κρυβόλῳ) ἡ δοτικὴ κόμμιδι ὡς παρὰ τῆς κόμμιδος γενικῆς· ἔχει δὲ οὕτως <title>Τὸν πλακοῦντα</title> κτλ.</quote>
+          </note>
+          <note type="apparatus">Aliis locis aut indeclinabile est aut formatur genitivus κόμμεως, vel κόμμεος ut est apud schol. Platon. Bekk. p. 399. Dativum κόμμιδι ex Herodoto II 86 affert Antiattic. p. 104 1. ubi nunc legitur κόμμι.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

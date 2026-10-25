@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Lynceus, ΚΕΝΤΑΥΡΟΣ: fragments</title>
+        <author>Lynceus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0471.kentayros.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0471.kentayros.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0471.kentayros.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0471_kentayros">
+        <head>ΚΕΝΤΑΥΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0471-kentayros-unnumbered">
+          <lg>
+            <l n="1" xml:id="meineke-0471-kentayros-unnumbered-l1">Μάγειρ᾽ ὁ θύων ἔσθ᾽ ὁ δειπνίζων τ᾽ ἐμέ</l>
+            <l n="2" xml:id="meineke-0471-kentayros-unnumbered-l2">Ῥόδιος, ἐγὼ δ᾽ ὁ κεκλημένος Περίνθιος·</l>
+            <l n="3" xml:id="meineke-0471-kentayros-unnumbered-l3">οὐδέτερος ἡμῶν ἥδεται τοῖς ἀττικοῖς</l>
+            <l n="4" xml:id="meineke-0471-kentayros-unnumbered-l4">δείπνοις. <speaker>Β.</speaker> ἀηδία γάρ ἐστιν ἀττική;</l>
+            <l n="5" xml:id="meineke-0471-kentayros-unnumbered-l5">
+              <speaker>Α.</speaker> ὥσπερ ξενική· παρέθηκε πίνακα γὰρ μέγαν,</l>
+            <l n="6" xml:id="meineke-0471-kentayros-unnumbered-l6">ἔχοντα μικροὺς πέντε πινακίσκους ἐν οἷ.</l>
+            <l n="7" xml:id="meineke-0471-kentayros-unnumbered-l7">τούτων ὁ μὲν ἔχει σκόροδον, ὁ δ᾽ ἐχίνους δύο,</l>
+            <l n="8" xml:id="meineke-0471-kentayros-unnumbered-l8">ὁ δὲ θρυμματίδα γλυκεῖαν, ὁ δὲ κόγχας δέκα,</l>
+            <l n="9" xml:id="meineke-0471-kentayros-unnumbered-l9">ὁ δ᾽ ἀντακαίου μικρόν. ἐν ὅσῳ δ᾽ ἐσθίω,</l>
+            <l n="10" xml:id="meineke-0471-kentayros-unnumbered-l10">ἕτερος ἐκεῖν᾽, ἐν ὅσῳ δ᾽ ἐκεῖνος, τοῦτ᾽ ἐγώ</l>
+            <l n="11" xml:id="meineke-0471-kentayros-unnumbered-l11">ἠφάνισα· βούλομαι δ᾽ ἐγώ, βέλτιστε σύ,</l>
+            <l n="12" xml:id="meineke-0471-kentayros-unnumbered-l12">κἀκεῖνο καὶ τοῦτ᾽, ἀλλ᾽ ἀδύνατα βούλομαι·</l>
+            <l n="13" xml:id="meineke-0471-kentayros-unnumbered-l13">οὔτε στόματα γὰρ οὔτε χείλη πέντ᾽ ἔχω.</l>
+            <l n="14" xml:id="meineke-0471-kentayros-unnumbered-l14">ὄψιν μὲν οὖν ἔχει τὰ τοιαῦτα ποικίλην,</l>
+            <l n="15" xml:id="meineke-0471-kentayros-unnumbered-l15">ἀλλ᾽ οὐδέν ἐστι τοῦτο πρὸς τὴν γαστέρα·</l>
+            <l n="16" xml:id="meineke-0471-kentayros-unnumbered-l16">κατέπλησα γὰρ τὸ χεῖλος, οὐκ ἐνέπλησα δέ.</l>
+            <l n="17" xml:id="meineke-0471-kentayros-unnumbered-l17">τί οὖν ἔχεις; <speaker>Β.</speaker> ὄστρεια πολλά. <speaker>Α.</speaker> πίνακά μοι</l>
+            <l n="18" xml:id="meineke-0471-kentayros-unnumbered-l18">τούτων παραθήσεις αὐτὸν ἐφ᾽ ἑαυτοῦ μέγαν.</l>
+            <l n="19" xml:id="meineke-0471-kentayros-unnumbered-l19">ἔχεις ἐχίνους; <speaker>Β.</speaker> ἕτερος ἔσται σοι πίναξ·</l>
+            <l n="20" xml:id="meineke-0471-kentayros-unnumbered-l20">αὐτὸς γὰρ αὐτὸν ἐπριάμην ὀκτὼ β̓ολῶν.</l>
+            <l n="21" xml:id="meineke-0471-kentayros-unnumbered-l21">
+              <speaker>Α.</speaker> ὀψάριον αὐτὸ τοῦτο παραθήσεις μόνον,</l>
+            <l n="22" xml:id="meineke-0471-kentayros-unnumbered-l22">ἵνα ταὐτὰ πάντες, μὴ τὸ μὲν ἐγώ, τὸ δ᾽ ἕτερος.</l>
+          </lg>
+          <note type="source">
+            <bibl>Athenaeus IV p. 131 f:</bibl>
+            <quote>Λυγκεὺς δ᾽ ἐν Κενταύρῳ διαπαίζων τὰ ἀττικὰ δεῖπνά φησι Μάγειρ᾽ ὁ θύων κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 1 vulgo ἐστὶν ὁ. — Vs. 4 et 5 personarum vices descripsi ut praeivit Dobraeus Adv. II p. 305. Hoc enim dicit: tu vero Atticis, quorum summa est in moribus omnique vita concinnitas et elegantia, ἀηδίαν obiicis? Quibus alter respondet: sane, non minus quam peregrinis, quibus scilicet Attici fere ἀηδίας crimen intendebant. Cfr Posidippum Fragm. inc. ubi Thessalus homo ab Attico propter sermonis inconcinnitatem notatus dicit: <quote>τὴν εὐτραπελίαν εἰς ἀηδίαν ἄγεις.</quote> — Vs. 5 παρέθηκε, scil. Atticus homo. — Vs. 6 ἐν οἷ Dindorfius. Dobraeus ἄνω. Libri ἐν ᾧ. — Vs. 9 ἀντακαίου μικρόν, paullulum antacaei salsamenti. Ita Schweighaeuserus. Frustra Valckenarius ad Herod. IV 53 ἀντακαῖον. — Vs. 11 Schweighaeuserus et Porsonus δέ γ᾽ ὦ pro δ᾽ ἐγώ. Tum βέλτιστε σὺ κἀκεῖνο Schweighaeuserus. Libri βέλτιστο συγκαμεῖν. Porsonus Adv. p. 294 tentabat βέλτιστε σύ, καὶ τοῦτο κάπτειν, ἀλλ᾽. — Vs. 12 ἀλλ᾽ — ἔχω attulit Eustathius p. 261 extr. indicante Dindorfio. — Vs. 14 οὖν accessit ex C. — Vs. 15 libri οὐθέν. — Vs. 17 nescio an praestet: <quote>τί οὖν; ἔχεις ὄστρεια; Β. πολλά.</quote> — Vs. 20 γὰρ VL. δ᾽ ABP. Ibid. libri ὀκτὼ ὀβολῶν.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΛΕΥΚΑΔΙΑ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.leykadia.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.leykadia.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.leykadia.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_leykadia">
+        <head>ΛΕΥΚΑΔΙΑ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-leykadia-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-leykadia-1-l1">Οὗ δὴ λέγεται πρώτη Σαπφώ</l>
+            <l n="2" xml:id="meineke-0541-leykadia-1-l2">τὸν ὑπέρκομπον θηρῶσα Φάων᾿</l>
+            <l n="3" xml:id="meineke-0541-leykadia-1-l3">οἰστρῶντι πόθῳ ῥῖψαι πέτρας</l>
+            <l n="4" xml:id="meineke-0541-leykadia-1-l4">ἀπὸ τηλεφανοῦς· ἀλλὰ κατ᾿ εὐχὴν</l>
+            <l n="5" xml:id="meineke-0541-leykadia-1-l5">σήν, δέσποτ᾽ ἄναξ, εὐφημείσθω</l>
+            <l n="6" xml:id="meineke-0541-leykadia-1-l6">τέμενος περὶ Λευκάδος ἀκτῆς.</l>
+          </lg>
+          <note type="source">Strabo X p. 452: Ἔχει δὲ τὸ τοῦ Λευκάτα Ἀπόλλωνος ἱερὸν καὶ τὸ ἅλμα τὸ τοὺς ἔρωτας παύειν πεπιστευμένον. οὗ δὴ λέγεται πρώτη Σαπφώ, ὥς πού φησιν ὁ Με-</note>
+          <pb n="159" facs="urn:hathi:hvd.32044098646714:scan:183" />
+          <note type="source">νανδρος, τὸν ὑπέρκομπον — δέσποτ᾽ ἄναξ.</note>
+          <note type="apparatus">Postrema εὐφημείσθω κτλ. cum his coniunxit Bentleius ex Hesychio, Λευκάδος: Μένανδρος Λευκάσεσιν (sic) εὐφημείσθω τέμενος περὶ Λευκάδος ἀκτῆς. Idem hoc carmen respicit scholiasta Hephaest. de poemat. IX p. 126 ed. Gaisf. τὴν εἰσβολὴν τῆς Λευκαδίας Μενάνδρου κατὰ περιορισμοὺς ἀνίσους compositam esse dicens. Ex quo intellegitur, carmen illud anapaesticum proximo post prologum loco a poeta positum fuisse. Cfr Hist. crit. p. 443. Vs. 5 κατ᾿ εὐχὴν σήν, ex tuo voto, quemadmodum tibi vovimus. Vide edit. mai. Bentleius σόν. Ceterum quod his versibus memoratur Leucatae Apollinis templum, id Menandrum hac ipsa in fabula a Phaone exstructum rettulisse, colligas e Servio ad Virg. Aen. III 279: <quote>Menander et Turpilius comici a Phaone Lesbio id templum conditum dicunt: qui cum esset navicularius, solitus a Lesbo in continentem proximos quosque mercede transvehere, Venerem mutatam in anus formam gratis transvexit; quapropter ab ea donatus unguenti alabastro, cum se in dies inde tum ungeret, foeminas in sui amorem trahebat, in queis fuit una, quae de monte Leucate, cum potiri eius nequiret, abiecisse se dicitur.</quote> Similia narrant alii, quorum loca indicavi in edit. mai. et Hist. crit. p. 186. Num vero omnia ista quae de Phaone tradit Servius, ex Menandri fabula adumbrata sint, dubitare licet. Turpilii Leucadiam ad Menandri exemplar compositam fuisse vel Servii locus docet. Praeterea huc pertinent quae ex ea attulit Nonius p. 175: <quote>Miseram me terrent omnia Mari' scopuli, sonitus, solitudo, sanctitudo Apollinis.</quote> Item haec apud Ciceronem Tusc. IV 34: <quote>Te Apollo sancte, fer opem, teque omnipotens Neptune invoco, vosque adeo venti. Nam quid ego te appellem, Venus?</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-leykadia-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-leykadia-2-l1">Ὅστις ὑπέχει χρυσίῳ</l>
+              <l n="2" xml:id="meineke-0541-leykadia-2-l2">τὴν χεῖρα, κἂν μὴ φῇ, πονηρὰ βούλεται.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. X 20 et Maximus Conf. CXL p. 221, ubi editur κἂν μή φησι.</note>
+          <note type="apparatus">Mox βούλεται e codice Grotius.</note>
+          <pb n="160" facs="urn:hathi:hvd.32044098646714:scan:184" />
+          <note type="apparatus">Vulgo βουλεύεται, ut Maximus. Ceterum confer Diogen. III 12. Ἀττικὸς ὑπέχει τὴν χεῖρα: ἐπὶ τῶν φιλαργύρων· φιλοκερδεῖς γὰρ οἱ Ἀθηναῖοι.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0541-leykadia-3">
+          <head>III.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-leykadia-3-l1">Ἀεὶ νομίζονθ᾽ οἱ πένητες τῶν θεῶν.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. XCV 4.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-leykadia-3_2">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-leykadia-3_2-l1">Deorum cura pauperes credi solent.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0541-leykadia-4">
+          <head>IV.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-leykadia-4-l1">Ἐπίθες τὸ πῦρ ἡ ζάκορος· οὑτωσὶ καλῶς.</l>
+          </lg>
+          <note type="source">Etymol. M. p. 407 22. <quote>Ζάκορος: νεωκόρος, ἤγουν ἡ διακονοῦσα περὶ τὸ ἱερόν. Μένανδρος. — Ζάκορος: ἡ κοσμοῦσα τὸν ναόν. Μένανδρος Λευκαδίᾳ <quote>
+                <lg>
+                  <l n="1_2" xml:id="meineke-0541-leykadia-4-l1_2">Ἐπίθες τὸ πῦρ ἡ ζάκορος, οὑτωσὶ καλῶς.</l>
+                </lg>
+              </quote> καὶ ὁ ὑπηρέτης ἢ ὁ ἱερεὺς ὁ τὸν ναὸν κοσμῶν καὶ σαρῶν.</quote>
+          </note>
+          <note type="apparatus">Ita haec legenda sunt. V. edit. mai. Idem Menandri locus apud Photium et Suidam s. v. ζάκορος. Dictione πῦρ ἐπιθεῖναι, ignem in ara incendere, iterum usus est Menander in Samia.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-leykadia-5">
+          <head>V.</head>
+          <note type="source">Scholiasta Aristoph. Acharn. 283: <quote>τῷ δὲ συντρίβειν καὶ Μένανδρος κέχρηται ἐν Λευκαδίᾳ.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="6" ana="#compiled-citation-normalized" xml:id="meineke-0541-leykadia-6">
+          <head>VI.</head>
+          <note type="source">Zenobius VI 13: <quote>Μένανδρος δέ φησιν ἐν Λευκαδίῳ (Λευκαδίᾳ) τὴν ἀγαθὴν ἡμέραν λευκὴν καλεῖσθαι.</quote>
+          </note>
+          <note type="apparatus">Fortasse φασὶν et καλεῖ. Cfr Prov. Bodl. 895, ubi scribitur Λευκάδι.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="7" ana="#compiled-citation-normalized" xml:id="meineke-0541-leykadia-7">
+          <head>VII.</head>
+          <note type="source">Choeroboscus apud Bekk. Anecd. p. 1431: <quote>Χέλυς χέλυος. σημαίνει δὲ τὴν κιθάραν· πάφωνε οὐρεία χέλυς. Μένανδρος ἐν Λευκαδίᾳ.</quote>
+          </note>
+          <note type="apparatus">Allata verba corrupta videntur ex Euripidis Alc. 459: καθ᾽ ἑπτάτονόν τ᾽ οὐρείαν χέλυν. Menandri non esse vel illud οὐρεία docet, qua forma comicus poeta uti vix potuit.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

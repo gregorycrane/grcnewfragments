@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Damoxenus, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <author>Damoxenus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0438.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0438.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0438.adelon_dramaton.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0438_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <pb n="536" facs="urn:hathi:hvd.32044098646714:scan:560" />
+        <div type="textpart" subtype="fragment" n="1" unit_type="fragment" author_heading="DAMOXENUS" work_heading="FABULA INCERTA" xml:id="meineke-0438-adelon_dramaton-1">
+          <lg>
+            <l n="1" xml:id="meineke-0438-adelon_dramaton-1-l1">Νεανίας τις ἐσφαίριζεν εἷς</l>
+            <l n="2" xml:id="meineke-0438-adelon_dramaton-1-l2">ἐτῶν ἴσως . . . ἑπτακαίδεκα,</l>
+            <l n="3" xml:id="meineke-0438-adelon_dramaton-1-l3">Κῶος· θεοὺς γὰρ φαίνεθ' ἡ νῆσος φέρειν.</l>
+            <l n="4" xml:id="meineke-0438-adelon_dramaton-1-l4">ὃς ἐπεί ποτ' ἐμβλέψειε τοῖς καθημένοις,</l>
+            <l n="5" xml:id="meineke-0438-adelon_dramaton-1-l5">ἢ λαμβάνων τὴν σφαῖραν ἢ διδούς, ἅμα</l>
+            <l n="6" xml:id="meineke-0438-adelon_dramaton-1-l6">πάντες ἐβοῶμεν . . . . .</l>
+            <l n="7" xml:id="meineke-0438-adelon_dramaton-1-l7">ἥ τ' εὐρυθμία τό τ' ἦθος ἡ τάξις θ' ὅση</l>
+            <l n="8" xml:id="meineke-0438-adelon_dramaton-1-l8">ἐν τῷ τι πράττειν ἢ λέγειν ἐφαίνετο.</l>
+            <l n="9" xml:id="meineke-0438-adelon_dramaton-1-l9">πέρας τι κάλλους, ἄνδρες. οὔτ' ἀκήκοα</l>
+            <l n="10" xml:id="meineke-0438-adelon_dramaton-1-l10">ἔμπροσθεν οὔθ' ἑόρακα τοιαύτην χάριν.</l>
+            <l n="11" xml:id="meineke-0438-adelon_dramaton-1-l11">κακὸν ἄν τι μεῖζον ἔλαβον, εἰ πλείω χρόνον</l>
+            <l n="12" xml:id="meineke-0438-adelon_dramaton-1-l12">ἔμεινα· καὶ νῦν δ' οὐχ ὑγιαίνειν μοι δοκῶ.</l>
+          </lg>
+          <note type="source">Athenaeus I p. 15 b: ἐφρόντιζον δ' εὐρυθμίας οἱ σφαιρίζοντες. Δαμόξενος γοῦν φησι Νεανίας κτλ.</note>
+          <note type="apparatus">Vs. 1 εἷς BCD. ὢν VL. — Vs. 2 addendum videtur γενόμενος. Porsonus ἴσως ἑκκαίδεκ' ἢ 'πτακαίδεκα, afferens Athen. III p. 127 d. et Dionem Chrysost. XXI p. 272. — Vs. 6 Pors. supplebat ὥσπερ ἐκ κελεύσματος. — Vs. 7 ἥ τ' Pors. pro ἡ δ'. Tum τό τ' VL et Pors. τὸ δὲ BCD. Ibid. ante Pors. ἥ τε (δὲ BC) τάξις ὅση. — Vs. 8 ante Casaub. λέγειν ἢ πράττειν. — Vs. 9 τι Pors. Vulgo ἔτι. Pro πέρας C τέρας. Dind. laudat Valck. ad N. T. p. 332. — Vs. 12 Pors. καὶ νῦν γ', quod esset et nunc certe.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

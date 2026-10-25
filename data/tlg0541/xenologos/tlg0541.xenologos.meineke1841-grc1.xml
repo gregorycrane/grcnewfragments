@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΞΕΝΟΛΟΓΟΣ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.xenologos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.xenologos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.xenologos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_xenologos">
+        <head>ΞΕΝΟΛΟΓΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-xenologos-1">
+          <lg>
+            <l n="1" xml:id="meineke-0541-xenologos-1-l1">Ἀνδρὸς πένητος υἱὸς ἐκτεθραμμένος</l>
+            <l n="2" xml:id="meineke-0541-xenologos-1-l2">οὐκ ἐξ ὑπαρχόντων, ἰδὼν ᾐσχύνετο</l>
+            <l n="3" xml:id="meineke-0541-xenologos-1-l3">τὸν πατέρα μίκρ᾿ ἔχοντα· παιδευθεὶς γὰρ εὖ</l>
+            <l n="4" xml:id="meineke-0541-xenologos-1-l4">τὸν καρπὸν εὐθὺς ἀπεδίδου χάριτος καλόν.</l>
+          </lg>
+          <note type="source">Theon Soph. Prog. IV p. 48 Cam.: Διὸ καὶ παρὰ τοιούτοις ποιηταῖς ἐπὶ πλεῖστόν ἐστιν, ὡς παρὰ Μενάνδρῳ πολλαχοῦ μὲν ἀλλαχόθι καὶ ἐν ἀρχῇ δὲ τοῦ τε Δαρδάνου καὶ τοῦ Ξενολόγου Ἀνδρὸς πένητος κτλ. ὁ γὰρ τελευταῖος στίχος ἐκ περιττοῦ πρόσκειται.</note>
+          <note type="apparatus">Dubitari potest utrum a Dardani an Xenologi prologo locus poetae desumtus sit. Vs. 2 οὐκ ἐξ ὑπαρχόντων, sumptuosius quam res patris ferebant. Vide edit. mai.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-xenologos-1_2">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-xenologos-1_2-l1">Natus quem genitor pauper educaverat</l>
+            <l n="2" xml:id="meineke-0541-xenologos-1_2-l2">melius quam res ferebat, indoluit patrem</l>
+            <l n="3" xml:id="meineke-0541-xenologos-1_2-l3">ut vidit inopem: nam probe edocta indoles</l>
+            <l n="4" xml:id="meineke-0541-xenologos-1_2-l4">pulchrum benefici fructum confestim edidit.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-xenologos-2">
+          <lg>
+            <l n="1" xml:id="meineke-0541-xenologos-2-l1">Οὕτως ἀσυλλόγιστον ἡ τύχη ποιεῖ,</l>
+            <l n="2" xml:id="meineke-0541-xenologos-2-l2">τὸ συμφέρον τί ποτ᾿ ἐστὶν ἀνθρώπου βίῳ,</l>
+            <l n="3" xml:id="meineke-0541-xenologos-2-l3">[οὐ χρῆται νόμοις, καθ᾿ οὓς κρίνει τὰ πράγματα]</l>
+            <l n="4" xml:id="meineke-0541-xenologos-2-l4">οὐδ᾿ ἔστιν εἰπεῖν ζῶντα ταῦτ᾿ οὐ πείσομαι.</l>
+          </lg>
+          <note type="source">Stobaeus Ecl. phys. I p. 216 ed. Heer. qui quem praeterea his addidit versum:</note>
+          <pb n="177" facs="urn:hathi:hvd.32044098646714:scan:201" />
+          <lg>
+            <l n="5" xml:id="meineke-0541-xenologos-2-l5">πρὸς τὰς τύχας γὰρ τὰς φρένας κεκτήμεθα,</l>
+          </lg>
+          <note type="apparatus">is non Menandri, sed Euripidis est ex Hippol. 785. De tertio versu, spurio illo et aliunde illato, vide quae dixi in edit. maiore. Ultimo versu praeter Stobaeum Serm. CVI 10 utitur Plutarchus de animi tranqu. p. 476 d: <quote>πολλοὶ καὶ τὸ τοῦ Μενάνδρου πεφρίκασιν· Οὐκ ἔστιν εἰπεῖν ζῶντα ταῦτ᾿ οὐ πείσομαι.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0541-xenologos-2_2">
+          <head>ΙΙ.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-xenologos-2_2-l1">Sic agit Fortuna, ratione ut non possies</l>
+            <l n="2" xml:id="meineke-0541-xenologos-2_2-l2">colligere, vere quid sit in vita utile.</l>
+            <l n="3" xml:id="meineke-0541-xenologos-2_2-l3">diiudicari nequit hoc certis legibus.</l>
+            <l n="4" xml:id="meineke-0541-xenologos-2_2-l4">nec vivens dicat quisquam, hoc mihi non accidet.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

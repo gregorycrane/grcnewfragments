@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon Junior, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <author>Philemon Junior</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0488.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0488.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0488.adelon_dramaton.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0488_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0488-adelon_dramaton-1">
+          <lg>
+            <l n="1" xml:id="meineke-0488-adelon_dramaton-1-l1">Ἐάσαθ᾽ οὕτως ὡς ἔχει. τὸ πῦρ μόνον</l>
+            <l n="2" xml:id="meineke-0488-adelon_dramaton-1-l2">ποιεῖτε τοῖς ὀπτοῖσι μήτ᾽ ἀνειμένον,</l>
+            <l n="3" xml:id="meineke-0488-adelon_dramaton-1-l3">τὸ γὰρ τοιοῦτ᾽ οὐκ ὀπτὸν ἀλλ᾽ ἑφθὸν ποιεῖ·</l>
+            <l n="4" xml:id="meineke-0488-adelon_dramaton-1-l4">μήτ᾽ ὀξύ, κατακάει γὰρ ὅσ᾽ ἂν ἔξω λάβῃ</l>
+            <l n="5" xml:id="meineke-0488-adelon_dramaton-1-l5">τοῦτο πάλιν, εἰς τὴν σάρκα δ᾽ οὐκ ἐνδύεται.</l>
+            <l n="6" xml:id="meineke-0488-adelon_dramaton-1-l6">μάγειρός ἐστιν οὐκ ἐὰν ζωμήρυσιν</l>
+            <l n="7" xml:id="meineke-0488-adelon_dramaton-1-l7">ἔχων τις ἔλθῃ καὶ μάχαιραν πρός τινα,</l>
+            <l n="8" xml:id="meineke-0488-adelon_dramaton-1-l8">οὐδ᾽ ἄν τις εἰς τὰς λοπάδας ἰχθῦς ἐμβάλῃ·</l>
+            <l n="9" xml:id="meineke-0488-adelon_dramaton-1-l9">ἀλλ᾽ ἔστι τις φρόνησις ἐν τῷ πράγματι.</l>
+          </lg>
+          <note type="source">Athenaeus VII p. 291 d: ὁ δὲ παρὰ τῷ νεωτέρῳ Φιλήμονι μάγειρος διδασκαλικός τις εἶναι θέλει τοιαῦτά τινα λαλῶν <quote>Ἐάσαθ᾽ οὕτως</quote> κτλ.</note>
+          <note type="apparatus">Vs. 1 libri οὕτως ἔχειν. Correxit Bentleius. Ceterum vide supra p. 28.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_3" ana="#compiled-citation-normalized" xml:id="meineke-0488-adelon_dramaton-2_3">
+          <lg>
+            <l n="1" xml:id="meineke-0488-adelon_dramaton-2_3-l1">
+              <sp>
+                <speaker>Α.</speaker> Τίς ἐστιν οὗτος;</sp>
+              <sp>
+                <speaker>Β.</speaker> ἰατρός.</sp>
+              <sp>
+                <speaker>Α.</speaker> ὡς κακῶς ἔχει</sp>
+            </l>
+            <l n="2" xml:id="meineke-0488-adelon_dramaton-2_3-l2">ἅπας ἰατρός, ἂν κακῶς μηδεὶς ἔχῃ.</l>
+            <l n="3" xml:id="meineke-0488-adelon_dramaton-2_3-l3">Μόνῳ δ᾽ ἰατρῷ τοῦτο καὶ συνηγόρῳ</l>
+            <l n="4" xml:id="meineke-0488-adelon_dramaton-2_3-l4">ἔξεστ᾽, ἀποκτείνειν μὲν ἀποθνήσκειν δὲ μή.</l>
+          </lg>
+          <note type="source">Stobaeus Flor. CII 6. cum lemmate Φιλήμονος νεωτέρου.</note>
+          <note type="apparatus">Vs. 1 οὗτός ἐστιν AB. — Vs. 4 cod. B ἀποκτεῖναι. Ib. Bentleius ἔξεστ᾽. Vulgo ἔξεστιν. Duo fragmenta esse vidit Grotius.</note>
+        </div>
+        <pb n="748" facs="urn:hathi:hvd.32044098646714:scan:774" />
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0488-adelon_dramaton-1_2">
+          <head>I.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0488-adelon_dramaton-1_2-l1">Sic hoc abire sinite, atque istud cernite,</l>
+              <l n="2" xml:id="meineke-0488-adelon_dramaton-1_2-l2">ad assandum ignis ne sit aequo tenuior</l>
+              <l n="3" xml:id="meineke-0488-adelon_dramaton-1_2-l3">(elixas namque is carnes, non assas facit),</l>
+              <l n="4" xml:id="meineke-0488-adelon_dramaton-1_2-l4">nec vehemens: namque is urit cuncta extrinsecus,</l>
+              <l n="5" xml:id="meineke-0488-adelon_dramaton-1_2-l5">neque interim ipsas penitus carnes percoquit.</l>
+              <l n="6" xml:id="meineke-0488-adelon_dramaton-1_2-l6">non si quis gestat ad confutandum truam,</l>
+              <l n="7" xml:id="meineke-0488-adelon_dramaton-1_2-l7">adde etiam cultrum, dixeris recte coquum;</l>
+              <l n="8" xml:id="meineke-0488-adelon_dramaton-1_2-l8">nec si quis pisces in patellam iecerit:</l>
+              <l n="9" xml:id="meineke-0488-adelon_dramaton-1_2-l9">prudentia opus est hoc quoque in negotio.</l>
+            </lg>
+          </quote>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0488-adelon_dramaton-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0488-adelon_dramaton-2-l1">
+                <sp>
+                  <speaker>A.</speaker> Quid hoc est hominis? <speaker>B.</speaker> Medicus. <speaker>A.</speaker> Proh superûm fidem</sp>
+              </l>
+              <l n="2" xml:id="meineke-0488-adelon_dramaton-2-l2">quam miser est omnis medicus si nemo est miser!</l>
+              <l n="3" xml:id="meineke-0488-adelon_dramaton-2-l3">causidicis hoc et medicis praecipuum obtigit:</l>
+              <l n="4" xml:id="meineke-0488-adelon_dramaton-2-l4">occidunt, legem nec timent Corneliam.</l>
+            </lg>
+          </quote>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

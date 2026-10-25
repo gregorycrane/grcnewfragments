@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΠΕΛΙΑΔΕΣ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.peliades.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.peliades.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.peliades.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_peliades">
+        <head>ΠΕΛΙΑΔΕΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0447-peliades-1">
+          <lg>
+            <l n="1" xml:id="meineke-0447-peliades-1-l1">Τὸ δειπνάριον ἀνθηρὸν ἦν, γλαφυρὸν σφόδρα,</l>
+            <l n="2" xml:id="meineke-0447-peliades-1-l2">φακῆς κατ᾿ ἄνδρα τρύβλιον μεστὸν μέγα.</l>
+            <l n="3" xml:id="meineke-0447-peliades-1-l3">
+              <sp>
+                <speaker>Β.</speaker> πρώτιστον οὐκ ἀνθηρόν.</sp>
+              <sp>
+                <speaker>Α.</speaker> ἐπὶ ταύτῃ φέρων</sp>
+            </l>
+            <l n="4" xml:id="meineke-0447-peliades-1-l4">εἰς τὸ μέσον ἐπεχόρευσε σαπέρδης μέγας,</l>
+            <l n="5" xml:id="meineke-0447-peliades-1-l5">ὑπό τι δυσώδης οὗτος ηρος ἀνθίαν,</l>
+            <l n="6" xml:id="meineke-0447-peliades-1-l6">ὃν πολλὰ * * ταῖς κίχλαις ἤδη λέγει.</l>
+          </lg>
+          <note type="source">Athenaeus IV p. 156 f: ἐμοὶ δὲ κατὰ τὸν κωμικὸν Δίφιλον, φησὶ δ᾽ οὗτος ἐν Πελιάσι, τὸ δειπνάριον κτλ.</note>
+          <note type="apparatus">Vs. 1 ἀνθηρὸν ἦν γλαφυρὸν Erfurdtius Observ. p. 451. ABCP ἦν ἀνθηρὸν γλαφυρόν. VL ἀνθηρὸν γλαφυρὸν ἦν. Maiora molitur Dobraeus Adv. II p. 306: τὸ δειπνάριον τἀνθηρὸν ἦ γλαφυρὸν σφόδρ᾽ ἦν. Β. φακῆς — vel τὸ δειπνάριον ἀνθηρόν. Β. ἦ γλαφυρὸν σφόδρα; Α. φακῆς κτλ. — Vs. 3 mirum est φέρων suspectum habuisse Dobraeum. V. Hemsterhusii disputationem ad Lucian. I p. 349 sq. — Vs. 4 ἐπεχόρευσε de cibo in convivium cum impetu quasi prosiliente dixit etiam supra in Ζωγρ. p. 394 ἄριστον ἐπεχόρευσεν. Adde Lycophronem apud Athen. X p. 420 b: ἐπεχόρευσε δαψιλὴς θέρμος. Similiter verbo ἐπάσσειν usus est alius poeta. — Vs. 5 οὗτος cum sequentibus Schweigh. personae B assignat. Ibid. ηρος P. κρος B. ἦρος VL. ἱερὸς Schweigh. allato Aristot. HA. IX 37. Ibid. ἀνθίαν VL. ἄνθιαν P. ἄνθειαν B.</note>
+          <pb n="407" facs="urn:hathi:hvd.32044098646714:scan:431" />
+          <note type="apparatus">ἀνθίας Schweigh. — Vs. 6 λέγει ABP. λέγειν VL. Totum versum Casaubonus ita refingebat ὡς πολλὰ χαίρειν — λέγειν. Schweighaeuserus ὃς πολλὰ χαίρειν — λέγει. Villebrunius „Je lis houtos ar pros anthian, hos chairein — legei, leçon du manuscrit Q.”</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

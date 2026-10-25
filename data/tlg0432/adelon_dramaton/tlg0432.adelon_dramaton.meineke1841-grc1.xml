@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Clearchus, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <author>Clearchus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0432.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0432.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0432.adelon_dramaton.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0432_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <pb n="564" facs="urn:hathi:hvd.32044098646714:scan:588" />
+        <div type="textpart" subtype="fragment" n="cont" xml:id="meineke-0432-adelon_dramaton-cont">
+          <p>Athenaeus XIV p. 642 b. de mensis secundis disserens : <quote>Κλέαρχος Πανδρόσῳ Λάβ᾽ ὕδωρ κτλ.</quote> Vs. 2 ἡ ante παῖς addidit Dobraeus Advers. II p. 349. Ipse olim male ὦ παῖ σὺ δὲ τίθει, quod recepit Dindorfius.</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0432-adelon_dramaton-1">
+          <lg>
+            <l n="1" xml:id="meineke-0432-adelon_dramaton-1-l1">Οἶνος Λέσβιος,</l>
+            <l n="2" xml:id="meineke-0432-adelon_dramaton-1-l2">ὃν αὐτὸς ἐποίησεν ὁ Μάρων ἐμοὶ δοκῶ.</l>
+          </lg>
+          <note type="source">Athenaeus I p. 28 e: <quote>οἶνος Λέσβιος, ὃν αὐτὸς ἐποίησεν ὁ Μάρων μοι δοκῶ</quote> φησί Κλέαρχος.</note>
+          <note type="apparatus">Eustathius ad Odyss. p. 1623 47: <quote>δοκεῖ δὲ ἀμπέλων ἐπιμελητὴς ὁ Μάρων γενέσθαι μάλιστα ὧν γλυκὺς ὁ οἶνος, διὸ Κλέαρχός τις ἐπισημαινόμενος ἔφη τὸ „οἶνος Λέσβιος, ὃν ἐποίησεν ὁ Μάρων μοι δοκῶ.”</quote> Scripsi ἐμοὶ pro μοι. Ἐποίησεν ictum habet in ultima, ut πίστωμα in Cithar. I, 3. Nisi forte ὁ delendum.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

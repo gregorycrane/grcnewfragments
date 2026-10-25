@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Dioxippus, ΦΙΛΑΡΓΥΡΟΣ: fragments</title>
+        <author>Dioxippus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0446.philargyros.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0446.philargyros.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0446.philargyros.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0446_philargyros">
+        <head>ΦΙΛΑΡΓΥΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0446-philargyros-1">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0446-philargyros-1-l1">Τῆς θηρικλείου τῆς μεγάλης χρεία σ̓τί μοι.</l>
+              <l n="2" xml:id="meineke-0446-philargyros-1-l2">
+                <sp>
+                  <speaker>Β.</speaker> εὖ οἶδα. <speaker>Α.</speaker> καὶ τῶν ῥοδιακῶν· ἥδιστα γάρ</sp>
+              </l>
+              <l n="3" xml:id="meineke-0446-philargyros-1-l3">ἐκ τῶν τοιούτων ἐκχέας ποτηρίων</l>
+              <l n="4" xml:id="meineke-0446-philargyros-1-l4">εἴωθα πίνειν.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XI p. 472 b: θηλυκῶς δὲ τὴν θηρίκλειον εἶπε Μένανδρος, καὶ Διώξιππος ἐν Φιλαργύρῳ Τῆς θηρικλείου κτλ. Vs. 2. Cfr Athenaeus XI p. 496 f: μνημονεύει αὐτῶν (ῥοδιακῶν) καὶ Διώξιππος ἐν Φιλαργύρῳ.</note>
+          <note type="apparatus">— Vs. 3 ἐκχέας Porsonus. Libri αἴσχεα. Coraes ἐσχέας vel ἐγχέας. Fortasse Αἰσχέα scribendum, quamquam exemplum eius nominis non succurrit; recte tamen formatum est. Ut enim a κάλλος Καλλέας, a φίλος Φιλέας, ita ab αἶσχος Αἰσχέας. Cui similia sunt Αἰσχύλος, Αἰσχίνης, Αἰσχυνάδης, quod nomen, ut hoc in transcursu moneam, reddendum Aristophanis loco, ubi invito metro editur Αἰσχινάδης, Pac. 1154: μυρρίνας τ᾿ αἴτησον ἐξ Αἰσχινάδου τῶν καρπίμων. Etymol.</note>
+          <pb n="543" facs="urn:hathi:hvd.32044098646714:scan:567" />
+          <note type="apparatus">
+            <ref target="#p542">Gud. 22 55</ref>: <quote>Αἰσχύλος — παρὰ τὸ αἶσχος, ὡς σιμὸς Σιμύλος. καὶ παρ᾿ αἰσχύνης αἰσχυνώδης (Αἰσχυνάδης) παρὰ τὸ εἶναι ἀδήμονα (αἰδήμονα)</quote>.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0446-philargyros-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0446-philargyros-2-l1">Παρ᾿ Ὀλυμπίχου δὲ θηρικλείους ἔλαβεν ἕξ,</l>
+              <l n="2" xml:id="meineke-0446-philargyros-2-l2">εἶτα τοὺς δύο ψυκτῆρας.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XI p. 502 d. de ψυκτήρ poculo agens: <quote>Διώξιππος Φιλαργύρῳ Παρ᾿ Ὀλυμπίχου</quote> κτλ.</note>
+          <note type="apparatus">Pro ἓξ εἶτα τοὺς libri ἐξιτάτους. Correxit Casaubonus. Praeterea Schweighaeuserus pro εἶτα scripsit ἔπειτα, quo recepto Dindorfius articulum τοὺς deleri iubet. Qua correctione quum parum elegans caesura numeris inferatur, videndum ne ita locus describendus sit:<quote>
+              <lg>
+                <l n="1_2" xml:id="meineke-0446-philargyros-2-l1_2">Παρ᾿ Ὀλυμπίχου δ᾽</l>
+                <l n="2_2" xml:id="meineke-0446-philargyros-2-l2_2">ἓξ θηρικλείους ἔλαβεν, εἶτα τοὺς δύο</l>
+                <l n="3" xml:id="meineke-0446-philargyros-2-l3">ψυκτῆρας.</l>
+              </lg>
+            </quote>Neque inutilis est articulus. Verte: <quote>duos, quos nosti, psycteras.</quote>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

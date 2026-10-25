@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΠΥΡΦΟΡΟΣ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.pyrphoros.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.pyrphoros.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.pyrphoros.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_pyrphoros">
+        <head>ΠΥΡΦΟΡΟΣ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0487-pyrphoros-unnumbered">
+          <lg>
+            <l n="1" xml:id="meineke-0487-pyrphoros-unnumbered-l1">Οὐκ ἔστιν οὔτε ζωγράφος, μὰ τοὺς θεούς,</l>
+            <l n="2" xml:id="meineke-0487-pyrphoros-unnumbered-l2">οὔτ᾽ ἀνδριαντοποιός, ὅστις ἂν πλάσαι</l>
+            <l n="3" xml:id="meineke-0487-pyrphoros-unnumbered-l3">κάλλος τοιοῦτον, οἷον ἡ ἀλήθει᾽ ἔχει.</l>
+            <l n="4" xml:id="meineke-0487-pyrphoros-unnumbered-l4">οὔτ᾽ ἀνδριάντος γὰρ καλῶς πεπλασμένου,</l>
+            <l n="5" xml:id="meineke-0487-pyrphoros-unnumbered-l5">ἂν μὴ τὸν αἰσθησόμενον ἡ τέχνη λάβῃ.</l>
+          </lg>
+          <note type="apparatus">
+            <bibl>Stobaeus Flor. LXV 5</bibl>. Vs. 1 <quote>μετὰ</quote> pro <quote>μὰ</quote> cod. A. — Vs. 2 <quote>ὅστις</quote> A et Grotius. Vulgo <quote>τις</quote>. — Vs. 3 <quote>τοσοῦτον</quote> A. — Vs. 4 possis <quote>οὐδ᾽ ἀνδριάντες γὰρ καλῶς πεπλασμένοι</quote>. Sed nec hoc sufficit. Excidisse versum, cuius haec fere fuerit sententia: <quote>οὔτ᾽ ὄφελος οὐδὲν εὖ γεγραμμένης γραφῆς</quote>, coniicit Porsonus Misc. p. 255.</note>
+          <quote>
+            <lg>
+              <l n="1_2" xml:id="meineke-0487-pyrphoros-unnumbered-l1_2">Edepol nec pictor quisquam est nec statuarius,</l>
+              <l n="2_2" xml:id="meineke-0487-pyrphoros-unnumbered-l2_2">qui talem possit arte pulchritudinem</l>
+              <l n="3_2" xml:id="meineke-0487-pyrphoros-unnumbered-l3_2">exprimere qualem rerum veritas habet.</l>
+              <l n="4_2" xml:id="meineke-0487-pyrphoros-unnumbered-l4_2">at vero periit usus simulachrûm omnium,</l>
+              <l n="5_2" xml:id="meineke-0487-pyrphoros-unnumbered-l5_2">nisi ars peritos iudices invenerit.</l>
+            </lg>
+          </quote>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

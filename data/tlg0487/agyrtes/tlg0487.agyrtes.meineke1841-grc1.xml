@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΑΓΥΡΤΗΣ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.agyrtes.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.agyrtes.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.agyrtes.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_agyrtes">
+        <head>ΑΓΥΡΤΗΣ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0487-agyrtes-unnumbered">
+          <lg>
+            <l n="1" xml:id="meineke-0487-agyrtes-unnumbered-l1">Ὦ πῶς πονηρόν ἐστιν ἀνθρώπου φύσις</l>
+            <l n="2" xml:id="meineke-0487-agyrtes-unnumbered-l2">τὸ σύνολον· οὐ γὰρ ἄν ποτ᾽ ἐδεήθη νόμου.</l>
+            <l n="3" xml:id="meineke-0487-agyrtes-unnumbered-l3">οἴει τι τῶν ἄλλων διαφέρειν θηρίων</l>
+            <l n="4" xml:id="meineke-0487-agyrtes-unnumbered-l4">ἄνθρωπον; οὐδὲ μικρὸν ἀλλὰ σχήματι·</l>
+            <l n="5" xml:id="meineke-0487-agyrtes-unnumbered-l5">πλάγι᾽ ἐστὶ τἄλλα, τοῦτο δ᾽ ὀρθὸν θηρίον.</l>
+          </lg>
+          <note type="source">Stobaeus Floril. II 26 cum lemmate Φιλήμονος Ἀγίρτου.</note>
+          <note type="apparatus">Ita certe cod. A et Marc. apud Morellium Bibl. MS Gr. Lat. p. 319. Quod Gesn. margo et Schowius fragmento adscriptum habent Λυκούργου nomen, ex Ἀγύρτου corruptum est. Vs. 1 ὦ πως A. Vulgo πῶς. Zedelius καί πως. Dobraeus Adv. II p. 286 ὄντως. Tres codd. Schowii φεῦ ὡς πονηρόν, quod fortasse verum est. — Vs. 4 ἄνθρωπον adden-</note>
+          <div type="textpart" subtype="other">
+            <note type="apparatus">dum esse vidit Gesnerus. Sequentia alii ita distinguunt: οὐδὲ μικρόν, ἀλλὰ σχήματι πλάγι᾿ ἐστὶ τἄλλα κτλ. Ceterum a tertio versu fortasse novum fragmentum incipit.</note>
+          </div>
+        </div>
+        <div type="textpart" subtype="fragment" n="unnumbered_2" ana="#compiled-unnumbered-fragment #compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0487-agyrtes-unnumbered_2">
+          <lg>
+            <l n="1" xml:id="meineke-0487-agyrtes-unnumbered_2-l1">Quam prava tota est indoles mortalium,</l>
+            <l n="2" xml:id="meineke-0487-agyrtes-unnumbered_2-l2">quae ceteroqui non egeret legibus?</l>
+            <l n="3" xml:id="meineke-0487-agyrtes-unnumbered_2-l3">Tun' credis hominem relicuis animantibus</l>
+            <l n="4" xml:id="meineke-0487-agyrtes-unnumbered_2-l4">differre? nihilum distat, hoc demto tamen,</l>
+            <l n="5" xml:id="meineke-0487-agyrtes-unnumbered_2-l5">quod alia quum sint prona, rectum animans homo est.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

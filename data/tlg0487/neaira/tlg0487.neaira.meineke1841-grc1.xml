@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΝΕΑΙΡΑ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.neaira.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.neaira.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.neaira.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_neaira">
+        <head>ΝΕΑΙΡΑ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0487-neaira-unnumbered">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-neaira-unnumbered-l1">Ὥσπερ Σέλευκος δεῦρ᾽ ἔπεμψε τὴν τίγριν,</l>
+              <l n="2" xml:id="meineke-0487-neaira-unnumbered-l2">ἣν εἴδομεν ἡμεῖς, τῷ Σελεύκῳ πάλιν ἔδει</l>
+              <l n="3" xml:id="meineke-0487-neaira-unnumbered-l3">ἡμᾶς τι παρ᾽ ἡμῶν ἀντιπέμψαι θηρίον.</l>
+              <l n="4" xml:id="meineke-0487-neaira-unnumbered-l4">
+                <sp>
+                  <speaker>Β.</speaker>
+                  <p>τρυγέρανον· οὐ γὰρ γίγνεται τοῦτ᾽ αὐτόθι.</p>
+                </sp>
+              </l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XIII p. 590 a: εἴ ἔχομεν ἀρρενικῶς εἰρημένον τὸν τίγριν. Φιλήμονα γὰρ οἶδα τοῦτ᾽ εἰρηκότα ἐν Νεαίρᾳ Ὥσπερ κτλ.</note>
+          <note type="apparatus">Vs. 2 εἴδομεν pro ἴδομεν Dindorfius. — Vs. 3 τι quod libri ante ἡμᾶς habent transposuit Schweighaeuserus. At fortasse delendum est. — Vs. 4 τρυγέρανον AB. τριγέρανον BVL. Afferunt Hesychium, Τρυγέρανος: φάσματι ἐοικώς. Ignotum alias vocabulum fortasse ex τρυγὼν et γέρανος compositum est, sive id verum seu ioco fictum avis nomen fuit. Plena igitur forma fuerit τρυγονο-</note>
+          <div type="textpart" subtype="commentary">
+            <p>γέρανος, quod primum in τρυγογέρανος, tum in τρυγέρανος concisum est. Similes verborum formas vide apud Lobeckium ad Phryn. p. 669. Si recte conieci, apud Hesychium pro φάσματι fortasse scribendum φάττῃ.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

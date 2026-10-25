@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΣΥΝΤΡΟΦΟΙ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.syntrophoi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.syntrophoi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.syntrophoi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_syntrophoi">
+        <head>ΣΥΝΤΡΟΦΟΙ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0447-syntrophoi-1">
+          <lg>
+            <l n="1" xml:id="meineke-0447-syntrophoi-1-l1">Ἀγαθὸς βαφεὺς ἔνεστιν ἐν τῷ παιδίῳ·</l>
+            <l n="2" xml:id="meineke-0447-syntrophoi-1-l2">ταυτὶ γὰρ ἡμῖν δευσοποιὰ παντελῶς</l>
+            <l n="3" xml:id="meineke-0447-syntrophoi-1-l3">τὰ σπάργαν᾿ ἀποδέδειχεν.</l>
+          </lg>
+          <note type="source">Harpocratio p. 55 8: ἐκ μεταφορᾶς δὲ καὶ ἐπὶ τῶν ἄλλων πάντων τῶν ἐχόντων τὸ χρῶμα ἔμμονον καὶ πολυχρόνιον τὸ δευσοποιὸν λέγεται παρὰ τοῖς παλαιοῖς, ὡς καὶ Πλάτων διασαφεῖ ἐν ἐ Πολιτείας. Δίφιλος Συντρόφοις Ἀγαθός κτλ. Ubi Bekkerus has lectiones e codd. enotavit: Vs. 1 ἔστιν J. πεδίω ABJ. — Vs. 2 ταύτη ABJN. — Vs. 3 ἀποδεδείχθω ABJN. — De usu vocis δευσοποιός vide Ruhnkenium ad Tim. p. 76.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

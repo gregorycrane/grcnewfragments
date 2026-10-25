@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Damoxenus, ΑΥΤΟΝ ΠΕΝΘΩΝ: fragments</title>
+        <author>Damoxenus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0438.ayton_penthon.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0438.ayton_penthon.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0438.ayton_penthon.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0438_ayton_penthon">
+        <head>ΑΥΤΟΝ ΠΕΝΘΩΝ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0438-ayton_penthon-1">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0438-ayton_penthon-1-l1">Εἰ δ᾽ οὐχ ἱκανόν σοι, τὸν ἐλέφανθ᾽ ἥκει φέρων</l>
+              <l n="2" xml:id="meineke-0438-ayton_penthon-1-l2">ὁ παῖς. <sp>
+                  <speaker>Β.</speaker> τί δ᾽ ἐστὶ τοῦτο, πρὸς θεῶν; <speaker>Α.</speaker> ῥυτόν</sp>
+              </l>
+              <l n="3" xml:id="meineke-0438-ayton_penthon-1-l3">δίκρουνον, ἡλίκον τι τρεῖς χωρεῖν χόας,</l>
+              <l n="4" xml:id="meineke-0438-ayton_penthon-1-l4">῎Αλκωνος ἔργον. προὔπιεν δέ μοί ποτε</l>
+              <l n="5" xml:id="meineke-0438-ayton_penthon-1-l5">ἐν Κυψέλοις Ἀδαῖος.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus XI p. 468 f: Ἐλέφας. οὕτως ἐκαλεῖτο ποτήριόν τι, ὡς Δαμόξενός φησιν ἐν Αὑτὸν (ita A pro vulgato αὐτῷ) πενθοῦντι Εἰ δ᾽ οὐχ ἱκανόν κτλ.</note>
+          <note type="apparatus">Vs. 4 ῎Αλκωνος ἔργον. De Alcone nobili artifice vide Pausaniam III 14 et Ovidii Metam. XIII 684. quae neglexit cum nostro loco Silligius Catal. Artific. p. 36. — Vs. 3 Epit. χοᾶς, ut Eustathius ad Hom. Iliad. p. 1286 26: κεῖται δὲ καὶ οὐδετέρως (τὸ ῥυτὸν) ἐν τῷ· ἐλέφας ἐστὶ ῥυτὸν δίκρουνον τρεῖς χωροῦν χοᾶς. At Hesychius I p. 1174 hunc ipsum, ut videtur, locum respiciens: ἐλέφας — καὶ ῥυτόν, τρεῖς χόας χωροῦν. De elephante confer Epinicum Athenaei XI p. 497 a. Eodem versu χωρεῖν scripsi suadente Corae pro χωροῦν. — Vs. 5 Ἀδαῖος ΑΒ. Ἀδέος Ρ. ἡδέως VL. Adaei nomen hinc sumpsit fortasse Suidas, Ἀδαῖος: ὄνομα κύριον. Fuit sub Philippo Amyntae filio dux mercenariorum, Alectryon ludibrii causa appellatus (v. vol. III p. 565), non confundendus ille cum Bubasti urbis praefecto, qui vixit Olymp. CXLIV. vel cum Adaeo Mitylenensi. Cypsela non Arcadiae castellum</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

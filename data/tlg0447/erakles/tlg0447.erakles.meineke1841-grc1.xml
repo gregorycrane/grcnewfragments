@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΗΡΑΚΛΗΣ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.erakles.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.erakles.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.erakles.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_erakles">
+        <head>ΗΡΑΚΛΗΣ</head>
+        <div type="textpart" subtype="fragment" n="1" xml:id="meineke-0447-erakles-1">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-erakles-1-l1">Ἐμὲ μὲν οὐχ ὁρᾷς πεπωκότα</l>
+              <l n="2" xml:id="meineke-0447-erakles-1-l2">ἤδη τ᾽ ἀκροθώρακ᾽ ὄντα καὶ θυμούμενον,</l>
+              <l n="3" xml:id="meineke-0447-erakles-1-l3">τονδὶ δὲ ναστὸν Ἀστίωνος μείζονα</l>
+              <l n="4" xml:id="meineke-0447-erakles-1-l4">ἤδη σχεδὸν δωδέκατον ἠριστηκότα.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus X p. 421 e: Δίφιλος δ᾽ ἐν Ἡρακλεῖ περί τινος τῶν ὁμοίων (scil. πολυφάγων) διαλεγόμενος διέξεισιν <quote rend="inline">Ἐμὲ μέν κτλ.</quote>
+          </note>
+          <note type="apparatus">Vs. 2 ἀκροθώρακα i. e. ἡμιμέθυσον, ut recte praeeunte Corae ad Xenocrat. de alim. ex aquat. p. 180 interpretatur Schweighaeuserus. Eadem aliorum adiectivorum cum ἄκρος compositorum ratio, ut ἀκρόψωλος, quod ἐπὶ βραχὺ ψωλός explicat schol. Aristoph. Equ. 960. Cfr Lobeckium ad Sophoclis Aiac. 285 et Coraen l. l. inter alia afferentem Hesychii glossam, Ἀκροχάλιξ: ἀκροθώραξ, ἡμιμέθυσος. *) — Vs. 3 libri fere τὸν δ᾽ ἴδεν ἀστὸν et μεῖζον. Correxit Heringa Observ. p. 279. Sed Ἀστίωνος, quod idem mutabat in ἀσπίδος ὄντα, haud dubie incorruptum est. Placentam dicit Astione, qui magnae staturae homo fuerit necesse est, maiorem. Sed praeterea in tota senten-</note>
+          <note type="footnote">*) Cod. ἡμιμεθεῖς. Itaque ἡμιμεθὴς scribendum.</note>
+          <pb n="398" facs="urn:hathi:hvd.32044098646714:scan:422" />
+          <note type="apparatus">tiae conformatione haereo, quae si haec est, ut non bibisse quidem at duodecimam iam placentam devorasse se dicat is quem loquentem inducit Diphilus, facile apparet prorsus importuno loco positam esse versu primo particulam μέν. Tum vero ineptum est placentam, quam polyphagus ille devoravit, digito monstrari, τονδὶ δὲ νάστον, quod ea tantum lege ferendum esset, si ἀριστῶντα scriptum esset pro ἠριστηκότα. Tolluntur hae difficultates, si vs. 1 scripseris ἐμὲ μὲν οὖν ὁρᾷς πεπωκότα. Ita hoc dicit: <quote>Me quidem iam semiebrium vides iraque concitatum, iste autem iam duodecim placentas ingentis magnitudinis devoravit.</quote> Quae dicens in Herculem, opinor, digitum intendit. Denique nescio an etiam θυμούμενον corruptum sit, pro quo vide ne δημούμενον scribendum sit, i. e. εὐφραινόμενον. De hoc verbo vide Ruhnkenium ad Tim. p. 78 et Pierson. ad Moer. p. 129. Sed praestat fortasse κεὐθυμούμενον.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

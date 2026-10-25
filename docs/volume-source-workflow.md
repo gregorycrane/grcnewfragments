@@ -40,11 +40,12 @@ directory. Never edit files under `build/` or compiler-generated files under
 
 ## Meineke production builds
 
-Meineke II and III have reviewed identity-aware production compilers:
+Meineke II, III, and IV have reviewed identity-aware production compilers:
 
 ```sh
 python tools/install_meineke_volume2.py
 python tools/install_meineke_volume3.py
+python tools/install_meineke_volume4.py
 ```
 
 They route fragments by their retained `work_heading`, consolidate repeated

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Hegesippus, ΑΔΕΛΦΟΙ: fragments</title>
+        <author>Hegesippus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0464.adelphoi.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0464.adelphoi.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0464.adelphoi.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0464_adelphoi">
+        <head>ΑΔΕΛΦΟΙ</head>
+        <div type="textpart" subtype="fragment" n="local_p0479_u3" ana="#compiled-citation-normalized" xml:id="meineke-0464-adelphoi-local_p0479_u3">
+          <lg>
+            <l n="1" xml:id="meineke-0464-adelphoi-local_p0479_u3-l1">Βέλτιστε, πολλοῖς πολλὰ περὶ μαγειρικῆς</l>
+            <l n="2" xml:id="meineke-0464-adelphoi-local_p0479_u3-l2">εἰρημέν᾽ ἐστίν. ἢ λέγων φαίνου τι δή</l>
+            <l n="3" xml:id="meineke-0464-adelphoi-local_p0479_u3-l3">καινὸν παρὰ τοὺς ἔμπροσθεν ἢ μὴ κόπτ᾽ ἐμέ.</l>
+          </lg>
+          <sp>
+            <speaker>Β.</speaker>
+            <lg>
+              <l n="4" xml:id="meineke-0464-adelphoi-local_p0479_u3-l4">οὐκ ἀλλὰ τὸ πέρας τῆς μαγειρικῆς, Σύρε,</l>
+              <l n="5" xml:id="meineke-0464-adelphoi-local_p0479_u3-l5">εὑρηκέναι πάντων νόμιζε μόνον ἐμέ.</l>
+              <l n="6" xml:id="meineke-0464-adelphoi-local_p0479_u3-l6">οὐ γὰρ παρέργως ἔμαθον ἐν ἔτεσιν δυσίν</l>
+              <l n="7" xml:id="meineke-0464-adelphoi-local_p0479_u3-l7">ἔχων περίζωμ᾽, ἀλλ᾽ ἅπαντα τὸν βίον</l>
+              <l n="8" xml:id="meineke-0464-adelphoi-local_p0479_u3-l8">ζητῶν κατὰ μέρη τὴν τέχνην ἐξήτακα.</l>
+              <l n="9" xml:id="meineke-0464-adelphoi-local_p0479_u3-l9">εἴδη λαχάνων ὅσ᾽ ἐστί, βεμβράδων τρόπους,</l>
+              <l n="10" xml:id="meineke-0464-adelphoi-local_p0479_u3-l10">φακῆς γένη παντοδαπά. τὸ πέρας σοι λέγω·</l>
+              <l n="11" xml:id="meineke-0464-adelphoi-local_p0479_u3-l11">ὅταν ἐν περιδείπνῳ τυγχάνω διακονῶν,</l>
+              <l n="12" xml:id="meineke-0464-adelphoi-local_p0479_u3-l12">ἐπὰν τάχιστ᾽ ἔλθωσιν ἐκ τῆς ἐκφορᾶς,</l>
+              <l n="13" xml:id="meineke-0464-adelphoi-local_p0479_u3-l13">τὰ βάπτ᾽ ἔχοντες, τοὐπίθημα τῆς χύτρας</l>
+              <l n="14" xml:id="meineke-0464-adelphoi-local_p0479_u3-l14">ἀφελὼν ἐποίησα τοὺς δακρύοντας γελᾶν.</l>
+              <l n="15" xml:id="meineke-0464-adelphoi-local_p0479_u3-l15">τοιοῦτος ἔνδοθέν τις ἐν τῷ σώματι</l>
+              <l n="16" xml:id="meineke-0464-adelphoi-local_p0479_u3-l16">διέδραμε γαργαλισμὸς ὡς ὄντων γάμων.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Α.</speaker>
+            <lg>
+              <l n="17" xml:id="meineke-0464-adelphoi-local_p0479_u3-l17">φακῆν παρατιθείς, εἰπέ μοι, καὶ βεμβράδας;</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Β.</speaker>
+            <lg>
+              <l n="18" xml:id="meineke-0464-adelphoi-local_p0479_u3-l18">τὰ πάρεργά μου ταῦτ᾽ ἔστιν· ἂν δὲ δὴ λάβω</l>
+              <l n="19" xml:id="meineke-0464-adelphoi-local_p0479_u3-l19">τὰ δέοντα, καὶ τοὐπτάνιον ἁρμόσωμ᾽ ἅπαξ,</l>
+              <l n="20" xml:id="meineke-0464-adelphoi-local_p0479_u3-l20">ὅπερ ἐπὶ τῶν ἔμπροσθε Σειρήνων, Σύρε,</l>
+            </lg>
+          </sp>
+          <pb n="480" facs="urn:hathi:hvd.32044098646714:scan:504" />
+          <lg>
+            <l n="21" xml:id="meineke-0464-adelphoi-local_p0479_u3-l21">ἐγένετο, καὶ νῦν ταὐτὸ τοῦτ᾽ ὄψει πάλιν·</l>
+            <l n="22" xml:id="meineke-0464-adelphoi-local_p0479_u3-l22">ὑπὸ τῆς γὰρ ὀσμῆς οὐδὲ εἷς δυνήσεται</l>
+            <l n="23" xml:id="meineke-0464-adelphoi-local_p0479_u3-l23">ἁπλῶς διελθεῖν τὸν στενωπὸν τουτονί·</l>
+            <l n="24" xml:id="meineke-0464-adelphoi-local_p0479_u3-l24">ὁ δὲ παριὼν πᾶς εὐθέως πρὸς τὴν θύραν</l>
+            <l n="25" xml:id="meineke-0464-adelphoi-local_p0479_u3-l25">ἑστήξετ᾽ ἀχανής, προσπεπατταλευμένος,</l>
+            <l n="26" xml:id="meineke-0464-adelphoi-local_p0479_u3-l26">ἄφωνος, ἄχρι ἂν τῶν φίλων βεβυσμένος</l>
+            <l n="27" xml:id="meineke-0464-adelphoi-local_p0479_u3-l27">τὴν ῥῖν᾽ ἕτερός τις προσδραμὼν ἀποσπάσῃ.</l>
+            <l n="28" xml:id="meineke-0464-adelphoi-local_p0479_u3-l28">
+              <sp>
+                <speaker>Α.</speaker> μέγας εἶ τεχνίτης.</sp>
+              <sp>
+                <speaker>Β.</speaker> ἀγνοεῖς πρὸς ὃν λαλεῖς·</sp>
+            </l>
+            <l n="29" xml:id="meineke-0464-adelphoi-local_p0479_u3-l29">πολλοὺς ἐγὼ σφόδρ᾽ οἶδα τῶν καθημένων,</l>
+            <l n="30" xml:id="meineke-0464-adelphoi-local_p0479_u3-l30">οἳ καταβεβρώκασ᾽ ἕνεκ᾽ ἐμοῦ τὰς οὐσίας.</l>
+          </lg>
+          <note type="source">
+            <bibl>Athenaeus VII p. 290 b:</bibl>
+            <quote>ἀλαζονικὸν δ᾽ ἐστὶ πᾶν τὸ τῶν μαγείρων φῦλον, ὡς καὶ Ἡγήσιππος ἐν Ἀδελφοῖς παρίστησι. παράγει δὲ μάγειρον λέγοντα Μάγειρε πολλοῖς κτλ.</quote> Priora iterum apposuit <bibl>Athen. IX p. 405 d:</bibl>
+            <quote>πρὸς ταῦτ᾽ Αἰμιλιανὸς ἔφη Βέλτιστε — ἐστί, κατὰ τοὺς Ἡγησίππου Ἀδελφούς· σὺ οὖν ἢ δρῶν τι φαίνου καινὸν παρὰ τοὺς ἔμπροσθεν ἢ μὴ κόπτ᾽ ἐμέ, καὶ δεῖξον ὃ φέρεις.</quote>
+          </note>
+          <note type="apparatus">Vs. 2 τί μοι VL. τι λη AB. τι δὴ Schweighaeuserus. — Vs. 3 κόπτε με VL. κόπτε ἐμὲ AP. κόπτ᾽ ἐμὲ Schweigh. et Dindorfius. De verbo κόπτειν obtundere, enecare v. ad Sosipatri Καταψευδ. vs. 20. — Vs. 4 Σύρε pro εὗρε Petitus Misc. VI 4. — Vs. 5 in libris ita scriptus legitur εὕρημα μόνον εἰδέναι τῶν νομιζομένων ἐμέ. Casaubonus εὑρηκέναι τὰ νῦν νόμιζε μόνον ἐμέ. Valckenarius Annot. ad N. T. p. 331: εὑρημένον μόνον εἰδέναι νόμιζ᾽ ἐμέ. Dobraeus Adv. II p. 314: εὑρηκέναι νόμισόν με τῶν (ὄντων, vel νυνί, vel ζώντων, vel πάντων) μόνον. Elegi ex his quae commodissima videbantur. — Vs. 6 δυσὶν pro δυεῖν Porsonus. — Vs. 8 ἐξήτακα AC. ἐξήτασα VL. ἐξήτηκα BP. — Vs. 9 βεμβράδων. C μεμβράδων, ut vs. 17 μεμβράδας. Ibidem τρόπους ABC. τρόπος PVL. — Vs. 11—13 partim affert Eustathius p. 1604 27. — Vs. 13 τὰ βάπτ᾽ ἔχοντες, colorati h. e. atrati. „Ita Graeci et Latini ambitum earum dictionum circumscribunt.“ Casaubonus. Afferunt Kirchmann. de Funer. Rom. II 17. —</note>
+          <pb n="481" facs="urn:hathi:hvd.32044098646714:scan:505" />
+          <note type="apparatus">Vs. 18 vulgo ἐάν. Scripsi ἄν. Dindorfius ex C ἤν. Vide supra p. 452. Ibidem δὲ δὴ VL. δὲ μὴ ABP. simplex δὲ C. — Vs. 19 libri τοὐπτανεῖον. V. Valcken. ad Euripidis Phoen. p. 253 et Lobeck. ad Phryn. p. 276. Hunc et sequentes octo versus affert Eustathius ad Odyss. μ΄ p. 1709 60: <quote>Ἀθήναιος δὲ παραφέρει μάγειρόν τινα ἐκ τοῦ κατὰ τὰς Σειρῆνας μύθου ἀστεϊζόμενον οὕτως· Ἢν τοὐπτανεῖον ἁρμόσωμαι ἅπαξ κτλ.</quote> — Vs. 20 ἔμπροσθεν Eustath. BP. — Vs. 22 libri ὀσμῆς γάρ. Correxit Pierson. ad Moer. p. 59. — Vs. 26 ἄχρι ἂν BC. ἀχαριαν Α. ἄχρις ἂν VL et Eustath. Ibidem ante τῶν VL addunt αὐτόν, quo ABC et Eusthathius carent.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

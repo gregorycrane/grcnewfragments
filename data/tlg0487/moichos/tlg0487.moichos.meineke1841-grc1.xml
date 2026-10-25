@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Philemon, ΜΟΙΧΟΣ: fragments</title>
+        <author>Philemon</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0487.moichos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0487.moichos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0487.moichos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0487_moichos">
+        <head>ΜΟΙΧΟΣ</head>
+        <div type="textpart" subtype="fragment" n="local_p0014_u4" ana="#compiled-citation-normalized" xml:id="meineke-0487-moichos-local_p0014_u4">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0487-moichos-local_p0014_u4-l1">Ἔδει παρεῖναι, Παρμένων, αὐλητρίδ᾽ ἢ</l>
+              <l n="2" xml:id="meineke-0487-moichos-local_p0014_u4-l2">νάβλαν τίν᾽. <sp>
+                  <speaker>Β.</speaker> ὁ δὲ νάβλας τί ἐστι; * *</sp>
+              </l>
+              <l n="3" xml:id="meineke-0487-moichos-local_p0014_u4-l3">
+                <sp>
+                  <speaker>Α.</speaker> * * * οὐκ οἶδας, ἐμβρόντητε σύ;</sp>
+              </l>
+              <l n="4" xml:id="meineke-0487-moichos-local_p0014_u4-l4">
+                <sp>
+                  <speaker>Β.</speaker> μὰ Δία. <speaker>Α.</speaker> τί φής; οὐκ οἶσθα νάβλαν; οὐδὲν οὖν</sp>
+              </l>
+              <l n="5" xml:id="meineke-0487-moichos-local_p0014_u4-l5">οἶσθας ἀγαθὸν σύγ᾽. οὐδὲ σαμβυκίστριαν;</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus IV p. 175 d. de nabla disserens: Φιλήμων ἐν Μοιχῷ <quote>Ἔδει παρεῖναι</quote> κτλ. Pollux IV 61: ἀλλὰ μὴν καὶ νάβλας μνημονεύει Φιλήμων <quote>Ἔδει — νάβλαν τινά</quote>.</note>
+          <note type="apparatus">Vs. 2 et 3 lacunas indicavit Dindorfius. Aliter locum distinxerunt Porsonus Adv. p. 63 et Seidlerus V. D. p. 389. In fine secundi versus Casaubonus addit εἰπέ μοι. — Vs. 3 B οἶδα. — Vs. 4 μὰ Δία ABP. μὰ Δί᾽ οὔ VL. Ibid. P οὐδὲ νοῦν. V οὐδὲ νῦν. — Vs. 5 οἶσθας scripsi pro οἶσθ᾽, de</note>
+          <pb n="15" facs="urn:hathi:hvd.32044098646714:scan:39" />
+          <note type="apparatus">qua forma vide ad Menandri fragm. p. 122 ed. mai. Ibid. σύγ᾽ VL. σὺ ABP. Dindorfius οἶσθ᾽ ἀγαθὸν οὐδὲ σαμβυκίστριαν, ut in fine versus aliquid omissum sit. Atqui σαμβυκίστρια secundam syllabam producit.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

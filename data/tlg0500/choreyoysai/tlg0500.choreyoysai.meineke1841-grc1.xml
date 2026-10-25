@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Posidippus, ΧΟΡΕΥΟΥΣΑΙ: fragments</title>
+        <author>Posidippus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0500.choreyoysai.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0500.choreyoysai.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0500.choreyoysai.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0500_choreyoysai">
+        <head>ΧΟΡΕΥΟΥΣΑΙ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0500-choreyoysai-unnumbered">
+          <div type="textpart" subtype="other">
+            <note type="apparatus">
+              <label>IX 28.</label> Ceterum „<foreign xml:lang="grc">ἐμπόριον</foreign> hic significat locum mercaturae idoneum quae per mare fit. <foreign xml:lang="grc">πόλιν ἐπὶ ἐμπορίου κειμένην</foreign> dicit Athen. infra p. 526 e. loquens de Byzantio: idem sonat Romanorum <hi rend="italic">emporium</hi>. Cfr Vitruv. V 12.” Coraes. — Vs. 20 <foreign xml:lang="grc">ὁ διδοὺς</foreign>
+              <hi rend="italic">socer</hi>, <foreign xml:lang="grc">ὁ λαμβάνων</foreign>
+              <hi rend="italic">gener</hi>. — Vs. 21 Erfurdtius Observ. p. 441 <foreign xml:lang="grc">γυναῖκές εἰσ᾽ ἱέρειαι τῇ θεᾷ</foreign>, omisso <foreign xml:lang="grc">θεοί</foreign>. Omnia in maius augens coquus deos deasque in illo nuptiali convivio praesentes adesse dicere potuit; itaque suspicari possis <foreign xml:lang="grc">τούτων γυναῖκες, ἱερέαι</foreign> (vel <foreign xml:lang="grc">ἱερίαι</foreign>), <foreign xml:lang="grc">θεοί, θεοί</foreign>. Forma <foreign xml:lang="grc">ἱερέα</foreign> vel <foreign xml:lang="grc">ἱερία</foreign> in Posidippo nihil mirationis haberet. Praeterea vitium haerere videtur in <foreign xml:lang="grc">τούτων</foreign>, quod ad socerum generumque versu superiore memoratos referri non potest. — Vs. 22 <foreign xml:lang="grc">κορύβαντες</foreign> i. e. <hi rend="italic">temulenti comissatores</hi>. V. Lobeckium Aglaoph. p. 1154. Ibidem „<foreign xml:lang="grc">ἀναστροφὴ</foreign> idem est „ac <hi rend="italic">circulus</hi> apud Romanos, <hi rend="italic">cercle</hi> apud Gallos; nempe po„litiorum hominum congressus. Italis ad verbum est <hi rend="italic">conversazione</hi>. Neograeci <foreign xml:lang="grc">συναναστροφὴν</foreign> eodem usurpant sensu.” Coraes. — Vs. 24 <foreign xml:lang="grc">τοῦτο</foreign> scripsi pro <foreign xml:lang="grc">τουτί</foreign>.</note>
+          </div>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0500-choreyoysai-unnumbered-l1">Discipule Leuco et comministri caeteri,</l>
+              <l n="2" xml:id="meineke-0500-choreyoysai-unnumbered-l2">(namque ad colloquia de arte nullus est locus</l>
+            </lg>
+          </quote>
+          <lg>
+            <l n="3" xml:id="meineke-0500-choreyoysai-unnumbered-l3">alienus) quodnam condimentorum omnium</l>
+            <l n="4" xml:id="meineke-0500-choreyoysai-unnumbered-l4">esse in culina tu praecipuum existimas?</l>
+            <l n="5" xml:id="meineke-0500-choreyoysai-unnumbered-l5">
+              <sp>
+                <speaker>B.</speaker> Fastum profecto. cunctis quippe in artibus</sp>
+            </l>
+            <l n="6" xml:id="meineke-0500-choreyoysai-unnumbered-l6">videas id habentes principem adipisci locum.</l>
+            <l n="7" xml:id="meineke-0500-choreyoysai-unnumbered-l7">sic et tribunus dum draconem ferreum</l>
+            <l n="8" xml:id="meineke-0500-choreyoysai-unnumbered-l8">ostentat et lorica squammata nitet,</l>
+            <l n="9" xml:id="meineke-0500-choreyoysai-unnumbered-l9">Briareus videtur: ad rem cum ventum est, lepus.</l>
+            <l n="10" xml:id="meineke-0500-choreyoysai-unnumbered-l10">ita cum ministris atque discipulis coquus</l>
+            <l n="11" xml:id="meineke-0500-choreyoysai-unnumbered-l11">si veniat ad plebeium, et quosquos repererit</l>
+            <l n="12" xml:id="meineke-0500-choreyoysai-unnumbered-l12">cuminisectores ac famelicos vocet,</l>
+            <l n="13" xml:id="meineke-0500-choreyoysai-unnumbered-l13">statim omnes illum metuunt. sin se simplicem</l>
+            <l n="14" xml:id="meineke-0500-choreyoysai-unnumbered-l14">gerat ac modestum, fugiet contusus probe.</l>
+            <l n="15" xml:id="meineke-0500-choreyoysai-unnumbered-l15">quare quod te monebam sequere inania,</l>
+            <l n="16" xml:id="meineke-0500-choreyoysai-unnumbered-l16">et convivarum ut ora cognoscas vide.</l>
+            <l n="17" xml:id="meineke-0500-choreyoysai-unnumbered-l17">nam plane extrema nostrae est artis linea,</l>
+            <l n="18" xml:id="meineke-0500-choreyoysai-unnumbered-l18">quasi circa portum, recta in os incurrere.</l>
+            <l n="19" xml:id="meineke-0500-choreyoysai-unnumbered-l19">damus nunc operam nuptiis: bos victima est:</l>
+            <l n="20" xml:id="meineke-0500-choreyoysai-unnumbered-l20">illustris socer est: est et illustris gener:</l>
+            <l n="21" xml:id="meineke-0500-choreyoysai-unnumbered-l21">horum matronae flaminicae sunt Palladis:</l>
+            <l n="22" xml:id="meineke-0500-choreyoysai-unnumbered-l22">Corybantes adsunt. pervigilia, tibiae,</l>
+            <l n="23" xml:id="meineke-0500-choreyoysai-unnumbered-l23">tumultus. plane circus hic nostrae artis est.</l>
+            <l n="24" xml:id="meineke-0500-choreyoysai-unnumbered-l24">
+              <sp>
+                <speaker>A.</speaker> Fac tu quoque id memineris.</sp>
+            </l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="unnumbered_2" ana="#compiled-unnumbered-fragment #compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0500-choreyoysai-unnumbered_2">
+          <lg>
+            <l n="1" xml:id="meineke-0500-choreyoysai-unnumbered_2-l1">Μαθητὰ Λεύκων οἵ τε συνδιάκονοι</l>
+            <l n="2" xml:id="meineke-0500-choreyoysai-unnumbered_2-l2">ὑμεῖς· ἅπας γάρ ἐστιν οἰκεῖος τόπος</l>
+            <l n="3" xml:id="meineke-0500-choreyoysai-unnumbered_2-l3">ὑπὲρ τέχνης λαλεῖν τι. τῶν ἡδυσμάτων</l>
+            <l n="4" xml:id="meineke-0500-choreyoysai-unnumbered_2-l4">πάντων κράτιστόν ἐστιν ἐν μαγειρικῇ</l>
+            <l n="5" xml:id="meineke-0500-choreyoysai-unnumbered_2-l5">ἀλαζονεία· τὸ καθ᾽ ὅλου δὲ τῶν τεχνῶν</l>
+            <l n="6" xml:id="meineke-0500-choreyoysai-unnumbered_2-l6">ὄψει σχεδόν τι πάντα τοῦθ᾽ ἡγούμενον.</l>
+            <l n="7" xml:id="meineke-0500-choreyoysai-unnumbered_2-l7">ξεναγὸς οὗτος, ὅστις ἂν θώρακ᾽ ἔχῃ</l>
+            <l n="8" xml:id="meineke-0500-choreyoysai-unnumbered_2-l8">φολιδωτὸν ἢ δράκοντα σεσιδηρωμένον,</l>
+            <l n="9" xml:id="meineke-0500-choreyoysai-unnumbered_2-l9">ἐφάνη Βριάρεως, ἂν τύχῃ δ᾽ ἐστὶν λαγώς.</l>
+            <l n="10" xml:id="meineke-0500-choreyoysai-unnumbered_2-l10">ὁ μάγειρος ἂν μὲν ὑποδιακόνους ἔχων</l>
+            <l n="11" xml:id="meineke-0500-choreyoysai-unnumbered_2-l11">πρὸς τὸν ἰδιώτην καὶ μαθητὰς εἰσίῃ,</l>
+            <l n="12" xml:id="meineke-0500-choreyoysai-unnumbered_2-l12">κυμινοπρίστας πάντας ἢ λιμοὺς καλῶν,</l>
+            <l n="13" xml:id="meineke-0500-choreyoysai-unnumbered_2-l13">ἔπτηξ᾽ ἕκαστος εὐθύς. ἂν δ᾽ ἀληθινόν</l>
+            <l n="14" xml:id="meineke-0500-choreyoysai-unnumbered_2-l14">σαυτὸν παραβάλλῃς, καὶ προσεκδαρεὶς ἄπει.</l>
+            <l n="15" xml:id="meineke-0500-choreyoysai-unnumbered_2-l15">ὅπερ οὖν ὑπεθέμην, τῷ κενῷ χώραν δίδου.</l>
+            <l n="16" xml:id="meineke-0500-choreyoysai-unnumbered_2-l16">καὶ τὰ στόμια γίγνωσκε τῶν κεκλημένων·</l>
+            <l n="17" xml:id="meineke-0500-choreyoysai-unnumbered_2-l17">ὥσπερ γὰρ εἰς τἀμπόρια τῆς τέχνης πέρας</l>
+            <l n="18" xml:id="meineke-0500-choreyoysai-unnumbered_2-l18">τοῦτ᾽ ἔστιν, ἂν εὖ προσδράμῃς πρὸς τὸ στόμα.</l>
+            <l n="19" xml:id="meineke-0500-choreyoysai-unnumbered_2-l19">διακονοῦμεν νῦν γάμους. τὸ θῦμα βοῖς,</l>
+            <l n="20" xml:id="meineke-0500-choreyoysai-unnumbered_2-l20">ὁ διδοὺς ἐπιφανής, ἐπιφανὴς ὁ λαμβάνων.</l>
+            <l n="21" xml:id="meineke-0500-choreyoysai-unnumbered_2-l21">τούτων γυναῖκες ἱέρειαι τῇ θεᾷ θεοί,</l>
+            <l n="22" xml:id="meineke-0500-choreyoysai-unnumbered_2-l22">κορύβαντες, αὐλοί, παννυχίδες, ἀναστροφή.</l>
+            <l n="23" xml:id="meineke-0500-choreyoysai-unnumbered_2-l23">ἱππόδρομος οὗτός ἐστί σοι μαγειρικῆς.</l>
+            <l n="24" xml:id="meineke-0500-choreyoysai-unnumbered_2-l24">μέμνησο καὶ σὺ τοῦτο.</l>
+          </lg>
+          <note type="source">Athenaeus IX p. 376 e: <quote>ἀλλ' ἦ νομίζετέ με ἔλαττον πεπαιδεῦσθαι τῶν ἀρχαίων ἐκείνων μαγείρων, περὶ ὧν οἱ κωμῳδιοποιοὶ λέγουσι; Ποσείδιππος μὲν ἐν Χορευούσαις· μάγειρος δ' ἐστὶν ὁ λέγων πρὸς τοὺς μαθητὰς τάδε Μαθητὰ Λεύκων κτλ.</quote>
+          </note>
+          <note type="apparatus">
+            <p>Vs. 3 λαλεῖν P. ἀλλειν A. ἅλλειν BPV. — Vs. 6 ὄψει σχεδόν τι πάντα τοῦθ' Porsonus pro ὄψεις δ' ἔχοντι τοῦθ'. — Vs. 7 pro ὅστις ἂν requirebam ἡνίκ' ἄν, vel οἷον ξεναγὸς οὗτος, ἂν θώρακ' ἔχῃ etc. — Vs. 8 δράκοντα σεσιδηρωμένον de dracone in clypei ferrea lamina sculpto interpretatur Casaubonus, de ipso clypeo Schweighaeuserus. — Vs. 9 Βριάρεως. Similiter Briarei nomine usus est Timocles Her. vs. 4. ubi vide notas. — Vs. 10 μὲν add. ABCL. om. PV. — Vs. 12 ἢ add. ABCL. om. VL. καλῶν pro καλῶς Grotius Excerpt. p. 817. qui ad sensum huius versus recte monuit audacter coquum exprobare domesticis nimiam tenuitatem. λιμοὺς dicit famelicos. Eustathius p. 1828 6: φειδωλὸς καὶ κίμβιξ — καὶ κυμινοπρίστης, ἔτι δὲ καὶ λιμός. — Vs. 13 ἔπτηξ' Casaubonus. ἐπίτηξ' PVL. ἔπειτ' ἦξεν C. qui ἕκαστος εὐθὺς omittit. ἀληθινὸν coquum dicit eum, qui simplex et sine pompa et specie inanium accesserit, ut perspecte annotavit Casaubonus. — Vs. 14 Dindorfius πρὸς ἐκδαρείς. Utro modo scribatur perinde est. Alexis Mant. II 8 p. 450: αὗται δ' ἀδικοῦσαι καὶ προσεγκαλοῦσ' ἔτι. Plato comicus Lacon. I, 6 καὶ προσαναφῦσαν. Et sic saepe etiam alii. Quibus locis qui πρὸς seorsim scribere volunt, eandem rationem etiam in aliis compositis sequi debebunt. — Vs. 15 ὅπερ οὖν ὑπεθέμην, igitur quod iam praecepi. — Vs. 16 στόμιον insolentius de gula dixit, quo sensu alias στόμα ponitur. Nec tamen recte Casaubonus στόματα. — Vs. 18 ἂν εὖ CL. ἄνευ APV. Sensum horum verborum optime expressit Grotius:</p>
+            <lg>
+              <l n="25" xml:id="meineke-0500-choreyoysai-unnumbered_2-l25">nam plane extrema nostrae est artis linea,</l>
+              <l n="26" xml:id="meineke-0500-choreyoysai-unnumbered_2-l26">quasi circa portum, recta in os incurrere.</l>
+            </lg>
+            <p>Idem recte monuit ambiguitatem esse in voce στόμια, quae et ostium fluminis significat et os hominis. Rectius et ad h. l. accommodatius dixisset os portus. Cfr Pollux I 102.</p>
+          </note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

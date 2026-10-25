@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Phoenicides, ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ: fragments</title>
+        <author>Phoenicides</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0495.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0495.adelon_dramaton.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0495.adelon_dramaton.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0495_adelon_dramaton">
+        <head>ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ</head>
+        <div type="textpart" subtype="fragment" n="unnumbered" ana="#compiled-unnumbered-fragment" xml:id="meineke-0495-adelon_dramaton-unnumbered">
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0495-adelon_dramaton-unnumbered-l1">Μὰ τὴν Ἀφροδίτην οὐκ ἂν ὑπομείναιμ᾽ ἔτι,</l>
+              <l n="2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l2">Πυθιάς, ἑταιρεῖν. χαιρέτω· μή μοι λέγε·</l>
+              <l n="3" xml:id="meineke-0495-adelon_dramaton-unnumbered-l3">ἀπέτυχον· οὐδὲν πρὸς ἐμέ· καταλῦσαι θέλω.</l>
+              <l n="4" xml:id="meineke-0495-adelon_dramaton-unnumbered-l4">εὐθὺς ἐπιχειρήσασα φίλον εἶχόν τινα</l>
+              <l n="5" xml:id="meineke-0495-adelon_dramaton-unnumbered-l5">στρατιωτικόν· διαπαντὸς οὗτος τὰς μάχας</l>
+              <l n="6" xml:id="meineke-0495-adelon_dramaton-unnumbered-l6">ἔλεγεν, ἐδείκνυ᾽ ἅμα λέγων τὰ τραύματα,</l>
+              <l n="7" xml:id="meineke-0495-adelon_dramaton-unnumbered-l7">εἰσέφερε δ᾽ οὐδέν. δωρεὰν ἔφη τινά</l>
+              <l n="8" xml:id="meineke-0495-adelon_dramaton-unnumbered-l8">παρὰ τοῦ βασιλέως λαμβάνειν, καὶ ταῦτ᾽ ἀεί</l>
+              <l n="9" xml:id="meineke-0495-adelon_dramaton-unnumbered-l9">ἔλεγεν· διὰ ταύτην ἣν λέγω τὴν δωρεάν</l>
+              <l n="10" xml:id="meineke-0495-adelon_dramaton-unnumbered-l10">ἐνιαυτὸν ἔσχε μ᾽ ὁ κακοδαίμων δωρεάν.</l>
+              <l n="11" xml:id="meineke-0495-adelon_dramaton-unnumbered-l11">ἀφῆκα τοῦτον, λαμβάνω δ᾽ ἄλλον τινά,</l>
+              <l n="12" xml:id="meineke-0495-adelon_dramaton-unnumbered-l12">ἰατρόν. οὗτος εἰσάγων πολλούς τινας</l>
+              <l n="13" xml:id="meineke-0495-adelon_dramaton-unnumbered-l13">ἔτεμν᾽, ἔκαε, πτωχὸς ἦν καὶ δήμιος.</l>
+              <l n="14" xml:id="meineke-0495-adelon_dramaton-unnumbered-l14">δεινότερος οὗτος θατέρου μοι κατεφάνη.</l>
+              <l n="15" xml:id="meineke-0495-adelon_dramaton-unnumbered-l15">ὁ μὲν διήγημ᾽ ἔλεγεν, ὁ δ᾽ ἐποίει νεκρούς.</l>
+              <l n="16" xml:id="meineke-0495-adelon_dramaton-unnumbered-l16">τρίτῳ συνέζευξ᾽ ἡ τύχη με φιλοσόφῳ,</l>
+              <l n="17" xml:id="meineke-0495-adelon_dramaton-unnumbered-l17">πώγων᾽ ἔχοντι καὶ τρίβωνα καὶ λόγον.</l>
+              <l n="18" xml:id="meineke-0495-adelon_dramaton-unnumbered-l18">εἰς προὖπτον ἦλθον ἐμπεσοῦσα δὴ κακόν·</l>
+              <l n="19" xml:id="meineke-0495-adelon_dramaton-unnumbered-l19">οὐδὲν ἐδίδου γάρ· εἴ τι δ᾽ αἰτοίμην, ἔφη</l>
+              <l n="20" xml:id="meineke-0495-adelon_dramaton-unnumbered-l20">οὐκ ἀγαθὸν εἶναι τἀργύριον. ἔστω κακόν,</l>
+              <l n="21" xml:id="meineke-0495-adelon_dramaton-unnumbered-l21">διὰ τοῦτο δός μοι, ῥῖψον· οὐκ ἐπείθετο.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. VI 30 cum lemmate Φοινικίδου.</note>
+          <note type="apparatus">Vs. 2. Pythias, quod alias honestarum feminarum nomen erat (v. Diogen. Laert. V 53 et Stobaeus Flor. XXXI 8), apud Phoenicidem aut lenae aut meretricis nomen fuisse videtur. Facit hnc Athenaeus XIII p. 487 c: Νεμεάδος τῆς αὐλητρίδος Ὑπερείδης μνημονεύει. περὶ ἧς ἄξιον θαυμάζειν πῶς περιεῖδον Ἀθηναῖοι οὕτω προσαγορευομένην τὴν πόρνην, πανηγύρεως ἐνδοξοτάτης ὀνόματι κεχρημένην· κεκώλυτο γὰρ</note>
+          <note type="apparatus">
+            <p>τὰ τοιαῦτα τίθεσθαι ὀνόματα οὐ μόνον ταῖς ἑταιρούσαις, ἀλλὰ καὶ ταῖς ἄλλαις δούλαις, ὥς φησι Πολέμων ἐν τοῖς περὶ ἀκροπόλεως. Sed hanc legem non constanter Atheniensis tenuisse, praeter Nemeam, a qua Theopompus fabulam inscripsit, etiam Isthmiadis meretricis nomen docet, de qua v. Athen. XIII p. 593 f. De verbo ἑταιρεῖν confer Athenaeus XIII p. 571 d: καλοῦσι δὲ τὰς μισθαρνούσας ἑταίρας καὶ τὸ ἐπὶ συνουσίαις μισθαρνεῖν ἑταιρεῖν. — Vs. 3 pro ἀπέτυχον H. Stephanus ἐπέτυχον, verba ita coniungens μή μοι λέγε ἐπέτυχον, id ut significet ὅτι ἐπέτυχον, idque Pythias de se ipsa dixerit. Ibidem καταλῦσαι θέλω, missionem dare volo, desinere volo artem meretriciam. Cfr Machon Athenaei XIII p. 581 c: καταλελυκυίας τῆς Γναθαινίου σχεδόν, οὐκ ἔτι θ᾽ ἑταιρεῖν ὑπομενούσης. Nos das Geschäft aufgeben. Incertus apud Diodorum Sic. XII 15 εὐημερῶν κατάλυσον. Ita enim legendum pro κατάπαυσον. Cfr praeterea Iacobsium Animadv. ad Anthol. gr. IX p. 445. — Vs. 6 vulgo ἐδείκνυ. Grotius ἐδείκνυ δ᾽. Gaisf. ἐδείκνυ᾽. — Vs. 11 δ᾽ additum a Valckenario. — Vs. 13 ἔτεμν᾽ Stephanus. Libri ἔτεμνεν. — Vs. 15 διήγημ᾽ ἔλεγε νεκροὺς h. e. διηγεῖτο ὅτι ἐποίησε νεκρούς. — Vs. 19 εἴ τι δ᾽ αἰτοίμην Grotius. Vulgo εἰ δέ τ᾽ αἰτοίμην. Cod. Α τάλαν αὐτῶ τι. Wakefieldus εἰ δ᾽ ἐπαιτοίην. Gaisfordus εἰ δ᾽ ἂν αἰτοίμην.</p>
+          </note>
+          <div type="textpart" subtype="work">
+            <head>EX INCERTA FABULA.</head>
+            <lg>
+              <l n="1_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l1_2">Non possum vitam ducere hanc meretriciam,</l>
+              <l n="2_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l2_2">ita me Venus amet, Pythias: nec dic mihi,</l>
+              <l n="3_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l3_2">disperii: nihil id ad me, cupio absistere.</l>
+              <l n="4_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l4_2">amator primus obtigit miles mihi:</l>
+              <l n="5_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l5_2">is mihi narrabat pugnas liberaliter,</l>
+              <l n="6_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l6_2">et vulnera ostentabat, sed dabat nihil.</l>
+              <l n="7_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l7_2">multas a Rege se retulisse gratias</l>
+              <l n="8_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l8_2">memorabat, repetens hoc identidem mihi,</l>
+              <l n="9_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l9_2">et propter illas quas narrabat gratias</l>
+              <l n="10_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l10_2">totum sibi annum me ductavit gratiis:</l>
+              <l n="11_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l11_2">quare hunc reliqui. glorioso militi</l>
+              <l n="12_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l12_2">successit medicus, multos qui quottidie</l>
+              <l n="13_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l13_2">urebat et secabat, pauper carnifex,</l>
+              <l n="14_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l14_2">qui mihi multo illo visus est crudelior:</l>
+              <l n="15_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l15_2">narrabat ille quod hic faciebat sedulo.</l>
+              <l n="16_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l16_2">Fortuna tertium mihi dedit philosophum,</l>
+              <l n="17_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l17_2">cui pallium erat et barba et sermonum satis :</l>
+              <l n="18_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l18_2">tum vero in manifestarium incidi malum:</l>
+              <l n="19_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l19_2">nam nihil erat quod daret, et si quid poscerem,</l>
+              <l n="20_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l20_2">pecunia non est bonum, ait: quod si dicerem,</l>
+              <l n="21_2" xml:id="meineke-0495-adelon_dramaton-unnumbered-l21_2">ergo malum illud proiice, audibat nihil.</l>
+            </lg>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΣΥΝΩΡΙΣ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.synoris.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.synoris.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.synoris.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_synoris">
+        <head>ΣΥΝΩΡΙΣ</head>
+        <pb n="411" facs="urn:hathi:hvd.32044098646714:scan:435" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0447-synoris-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-synoris-1-l1">῎Αριστ᾿ ἀπαλλάττεις ἐπὶ τούτου τοῦ κύβου.</l>
+            <l n="2" xml:id="meineke-0447-synoris-1-l2">
+              <sp>
+                <speaker>Β.</speaker> ἀστεῖος εἶ. δραχμὴν ὑπόθες.</sp>
+              <sp>
+                <speaker>Α.</speaker> κεῖται πάλαι.</sp>
+            </l>
+            <l n="3" xml:id="meineke-0447-synoris-1-l3">πῶς ἂν βάλοιμ᾿ Εὐριπίδην; <sp>
+                <speaker>Β.</speaker> οὐκ ἄν ποτε</sp>
+            </l>
+            <l n="4" xml:id="meineke-0447-synoris-1-l4">Εὐριπίδης γυναῖκα σώσει᾿. οὐχ ὁρᾷς</l>
+            <l n="5" xml:id="meineke-0447-synoris-1-l5">ἐν ταῖς τραγῳδίαισιν αὐτὰς ὡς στυγεῖ;</l>
+            <l n="6" xml:id="meineke-0447-synoris-1-l6">τοὺς δὲ παρασίτους ἠγάπα. λέγει γέ τοι</l>
+            <l n="7" xml:id="meineke-0447-synoris-1-l7">„Ἀνὴρ γὰρ ὅστις εὖ βίον κεκτημένος</l>
+            <l n="8" xml:id="meineke-0447-synoris-1-l8">„μὴ τοὐλάχιστον τρεῖς ἀσυμβόλους τρέφει,</l>
+            <l n="9" xml:id="meineke-0447-synoris-1-l9">„ὄλοιτο, νόστου μή ποτ᾿ εἰς πάτραν τυχών.”</l>
+            <l n="10" xml:id="meineke-0447-synoris-1-l10">
+              <sp>
+                <speaker>Α.</speaker> πόθεν ἐστὶ ταῦτα, πρὸς θεῶν;</sp>
+              <sp>
+                <speaker>Α.</speaker> τί δέ σοι μέλει;</sp>
+            </l>
+            <l n="11" xml:id="meineke-0447-synoris-1-l11">οὐ γὰρ τὸ δρᾶμα, τὸν δὲ νοῦν σκοπούμεθα.</l>
+          </lg>
+          <note type="source">
+            <bibl>Athenaeus VI p. 247 a:</bibl>
+            <quote>Δίφιλος δ᾽ ἐν Συνωρίδι, ἑταίρας δ᾽ ὄνομα ἡ Συνωρίς, Εὐριπίδου μνησθεὶς (κύβος δέ τις οὕτως καλεῖται Εὐριπίδης) παίζων καὶ πρὸς τὸ τοῦ ποιητοῦ ὄνομα ἅμα καὶ περὶ παρασίτων τάδε λέγει <mentioned>῎Αριστ᾿ ἀπαλλάτεις</mentioned> κτλ.</quote>
+          </note>
+          <note type="apparatus">Colloquuntur Synoris et parasitus. Ex eadem scena tria sequentia fragmenta derivata sunt. Vs. 2 πάλαι additum ex L. — Vs. 3. De Euripide, iactu talario, quem ab Euripide, uno illorum quadraginta qui soluto triginta virorum imperio civitati praeerant, nominato, v. <bibl>Polluc. IX 101:</bibl>
+            <quote>ἐπεὶ δὲ τοῖς τετταράκοντα μετὰ τοὺς τριάκοντα προστᾶσιν Ἀθήνησιν συνῆρξεν Εὐριπίδης, εἰ τετταράκοντα συνήθροιζεν ἀστραγάλων βολή, τὸν ἀριθμὸν τοῦτον Εὐριπίδην ὠνόμαζον.</quote>
+            <bibl>Eustathius ad Hom. p. 1289 61:</bibl>
+            <quote>ἑτέρα δὲ (πτῶσις) ἐκαλεῖτο Εὐριπίδης ἡ δηλαδὴ σημαίνουσα τὸ τεσσαράκοντα, ἐπειδὴ δοκεῖ ὁ Εὐριπίδης γενέσθαι εἷς τῶν ἐν Ἀθήναις τεσσαράκοντα προστατῶν.</quote> Ibidem οὐκ ἄν ποτ᾿ ABCP. οὐκ ἂν πόποτε V. οὐκ ἂν πώποτε L. — Vs. 4 σώσει᾿ pro σώσειεν Porsonus. Prope vero σώσει VL. — Vs. 5 τραγῳδίαισιν L. τραγῳδίαις ἵν᾿ BPV. Ibidem Porsonus sine</note>
+          <pb n="412" facs="urn:hathi:hvd.32044098646714:scan:436" />
+          <note type="apparatus">
+            <p>iusta causa ὡς αὐτὰς στυγεῖ. — Vs. 7 totum ex Antiope Euripidis apud Stobaeum Flor. XXX 1 desumpsit, indicante Valckenario Diatr. p. 84. — Vs. 9 Euripidis est ex Iphig. Taur. 525. ut indicavit Porsonus Advers. p. 138. Ibi recte legitur τυχών, pro quo apud Athenaeum vulgo μόλοι. AP μολεῖ. B μολεῖν. Valckenarius τύχοι. Non dubitari potest quin Euripidis versum Diphilus integrum receperit. Itaque scripsi τυχών, ut fecit etiam Dindorfius. Pessime Porsonus νοστῶν μήποτ’ εἰς πάτραν μολών.</p>
+          </note>
+        </div>
+        <pb n="413" facs="urn:hathi:hvd.32044098646714:scan:437" />
+        <div type="textpart" subtype="fragment" n="4" ana="#compiled-citation-normalized" xml:id="meineke-0447-synoris-4">
+          <head>IV.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-synoris-4-l1">Ἕλκ᾽ εἰς μέσον τὸν φιμὸν ὡς ἂν ἐμβάλῃ.</l>
+          </lg>
+          <note type="source">Harpocratio p. 182 2: φιμὸς δ᾽ ἐστὶν ὁ καλούμενος κημός, εἰς ὃν ἐνεβάλλοντο (adde οἱ κύβοι) καθά φασιν οἱ γλωσσογράφοι. Δίφιλος Συνωρίδι <quote>Ἕλκεις μέσον τὸν φιμὸν ὡς ἂν ἐμβάλῃ.</quote>
+          </note>
+          <note type="apparatus">Ita Bekkerus, qui ex cod. D enotavit ἑλκεσ̈. Scripsi igitur ἕλκ᾽ ἐς, ut habet Photius Lex. p. 650 5: Δίφιλος δέ φησιν <quote>Ἕλκ᾽ ἐς μέσον τὸν φιμὸν ὡς ἂν ἐμβάλῃ.</quote> Suidas III p. 614: Δίφιλος δέ φησιν <quote>ἕλκ᾽ εἰς μέσον κτλ.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0447-synoris-5">
+          <head>V.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-synoris-5-l1">Ἐχήνισας. ποιοῦσι τοῦτο πάντες οἱ</l>
+            <l n="2" xml:id="meineke-0447-synoris-5-l2">παρὰ Τιμοθέῳ;</l>
+          </lg>
+          <note type="source">Athenaeus XIV p. 657 e: χηνίζειν δὲ εἴρηται ἐπὶ τῶν αὐλούντων. Δίφιλος Συνωρίδι <quote>Ἐχήνισας κτλ.</quote>
+          </note>
+          <note type="apparatus">Vulgo ἐχηνίασας. Correxit Stephanus Thes. L. Gr. IV p. 338. Χηνίζειν auloedus ille, quem ridet poeta, dicitur, quia cantus eius anseris strepitum referebat. Similiter στρουθίζειν de cantore immodulatos sonos edente incertus comicus dixit apud Eustath. p. 1411 15. Reliqua per interrogationem extuli. Timotheus tibicen fuisse videtur illo tempore haud ignobilis; nam de celebri illo auloedo, Alexandri M. aequali, propter temporum rationes non videtur cogitari posse.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" author_heading="Diphilus" work_heading="Synoris" xml:id="meineke-0447-synoris-2">
+          <head>II. III.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-synoris-2-l1">Ὀργίζεται; παράσιτος ὢν ὀργίζεται;</l>
+            <l n="2" xml:id="meineke-0447-synoris-2-l2">Β. οὐκ ἀλλ’ ἀλείψας τὴν τράπεζαν τῇ χολῇ,</l>
+            <l n="3" xml:id="meineke-0447-synoris-2-l3">ὥσπερ τὰ παιδί’ αὑτὸν ἀπογαλακτιεῖ.</l>
+          </lg>
+          <gap reason="lacuna" extent="unknown" />
+        </div>
+        <div type="textpart" subtype="fragment" n="3" author_heading="Diphilus" work_heading="Synoris" xml:id="meineke-0447-synoris-3">
+          <lg>
+            <l n="1" xml:id="meineke-0447-synoris-3-l1">Τότε φάγοις, παράσιθ’. Β. ὅρα</l>
+            <l n="2" xml:id="meineke-0447-synoris-3-l2">ὡς διασέσυρκε τὴν τέχνην· οὐκ οἶσθ’ ὅτι</l>
+            <l n="3" xml:id="meineke-0447-synoris-3-l3">μετὰ τὸν κιθαρῳδὸν ὁ παράσιτος κρίνεται;</l>
+          </lg>
+          <note type="source">
+            <p>Athenaeus VI p. 247 c: ἐν δὲ τῇ διασκευῇ αὐτοῦ τοῦ δράματος *) περὶ ὀργιζομένου παρασίτου λέγων φησίν Ὀργίζεται — ἀπογαλακτιεῖ. καὶ ἑξῆς Τότε φάγοις κτλ. Partem loci ex Athenaeo affert Eustathius p. 1829 49: Διφίλου τοῦ κωμικοῦ τὸ „ἀλλ’ ἀλείψας τῇ χολῇ ἀπογαλακτίζει τὸν δεῖνα ὥσπερ τὰ παιδία.” Haec recte interpretatur Dalecampius: „Puerulos ut ablactent nutricis mammam aloë felleve inungunt. Festive id significat parasitum, effusa in mensem bile, redeundi ad convivium facultatem sibi ademisse.”</p>
+          </note>
+          <note type="apparatus">
+            <p>— Vs. 5 διασέσυρκε Porsonus, firmante cod. B. vulgo διασεσύρηκε. Verte: vide ut artem suam (parasiticam) dehonestat.</p>
+            <p>*) In superioribus primum huius fabulae fragmentum attulit. Schweighaeuserus et Porsonus τοῦ αὐτοῦ δράματος. Malim τούτου τοῦ δράματος.</p>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0447-synoris-1_2">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-synoris-1_2-l1">Egregie te ista liberasti tessera.</l>
+            <l n="2" xml:id="meineke-0447-synoris-1_2-l2">
+              <sp>
+                <speaker>B.</speaker> Lepidus es.</sp>
+              <sp>
+                <speaker>A.</speaker> Drachmam pone.</sp>
+              <sp>
+                <speaker>B.</speaker> Pono. Euripidem</sp>
+            </l>
+            <l n="3" xml:id="meineke-0447-synoris-1_2-l3">ecquando ego iaciam? <sp>
+                <speaker>A.</speaker> Certe nunquam feminae</sp>
+            </l>
+            <l n="4" xml:id="meineke-0447-synoris-1_2-l4">Euripides bene faxit. in tragoediis</l>
+            <l n="5" xml:id="meineke-0447-synoris-1_2-l5">non cernis quanto flagret odio mulierum?</l>
+            <l n="6" xml:id="meineke-0447-synoris-1_2-l6">parasitos vero amabat. etenim sic ait:</l>
+            <l n="7" xml:id="meineke-0447-synoris-1_2-l7">quicunque largas inter exsultans opes</l>
+            <l n="8" xml:id="meineke-0447-synoris-1_2-l8">non tres aluerit dapibus immunes suis,</l>
+            <l n="9" xml:id="meineke-0447-synoris-1_2-l9">pereat, nec unquam patrios videat lares.</l>
+            <l n="10" xml:id="meineke-0447-synoris-1_2-l10">
+              <sp>
+                <speaker>B.</speaker> At unde quaeso hoc recitas?</sp>
+              <sp>
+                <speaker>A.</speaker> Quid refert tua?</sp>
+            </l>
+            <l n="11" xml:id="meineke-0447-synoris-1_2-l11">non fabulam spectamus, sed sententiam.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0447-synoris-2_2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-synoris-2_2-l1">
+              <sp>
+                <speaker>A.</speaker> Parasitus irasci audet? irasci inquio.</sp>
+            </l>
+            <l n="2" xml:id="meineke-0447-synoris-2_2-l2">
+              <sp>
+                <speaker>B.</speaker> Non: sed perungens mensam amaritudine,</sp>
+            </l>
+            <l n="3" xml:id="meineke-0447-synoris-2_2-l3">ut pueros mater, sese a lacte depulit.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Diphilus, ΖΩΓΡΑΦΟΣ: fragments</title>
+        <author>Diphilus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within fragments.</p>
+        </cRefPattern>
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0447.zographos.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0447.zographos.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0447.zographos.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0447_zographos">
+        <head>ΖΩΓΡΑΦΟΣ</head>
+        <pb n="394" facs="urn:hathi:hvd.32044098646714:scan:418" />
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0447-zographos-1">
+          <head>I.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-zographos-1-l1">῎Αριστον ἐπεχόρευσεν ἐκλελεγμένον,</l>
+            <l n="2" xml:id="meineke-0447-zographos-1-l2">εἴ τι νέον ἢ ποθεινόν· ὀστρέων γένη</l>
+            <l n="3" xml:id="meineke-0447-zographos-1-l3">παντόδαπα, λοπάδων παρατεταγμένη φάλαγξ,</l>
+            <l n="4" xml:id="meineke-0447-zographos-1-l4">ὀπτῶν ἐπῆγε σωρὸς ἀπὸ τοῦ τηγάνου,</l>
+            <l n="5" xml:id="meineke-0447-zographos-1-l5">τριμμάτια τούτοις ἐν θυείαις ἀργυραῖς.</l>
+          </lg>
+          <note type="source">
+            <bibl corresp="urn:cts:greekLit:tlg0008.tlg001:6.230f">Athenaeus VI p. 230 f:</bibl> Δίφιλος δ’ ἐν Ζωγράφῳ ῎Αριστον κτλ.</note>
+          <note type="apparatus">Vs. 1 ἄριστον ἐκλελεγμένον non est exquisitum epulum, sed quod sibi elegit quicquid novi vel lauti reperiri poterat. — Vs. 2 malim ὀστρείων. — Vs. 4 pro ἐπῆγε Erfurdtius Observ. p. 457 ἐπῇξε, quod non praestat Valckenarii coniecturae (ad Phoen. p. 66) ἐπῄει. — Vs. 5 θυίαις ABP. Ibid. τριμμάτια h. l. non sunt intrita, quae seorsim comedebantur, sed iuscula ex allio, aceto porro aliisque condimentis composita, quibus carnes assatae, superiore versu memoratae, imbuenda erant. Cfr Sotades Ἐγκλειομ. I 17: τριμμάτιον ᾠκείωσα τούτοις ἀνθινὸν παντόδαπον.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0447-zographos-2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-zographos-2-l1">Οὐ μὴ παραλάβω σ’ οὐδαμοῦ, Δράκων, ἐγώ</l>
+            <l n="2" xml:id="meineke-0447-zographos-2-l2">ἐπ’ ἔργον οὗ μὴ διατελεῖς τὴν ἡμέραν</l>
+            <l n="3" xml:id="meineke-0447-zographos-2-l3">τραπεζοποιῶν ἐν ἀγαθοῖς πολλοῖς χύδην.</l>
+            <l n="4" xml:id="meineke-0447-zographos-2-l4">οὐ γὰρ βαδίζω πρότερον ἂν μὴ δοκιμάσω</l>
+            <l n="5" xml:id="meineke-0447-zographos-2-l5">τίς ἔσθ’ ὁ θύων, ἢ πόθεν συνίσταται</l>
+            <l n="6" xml:id="meineke-0447-zographos-2-l6">τὸ δεῖπνον, ἢ κέκληκεν ἀνθρώπους τίνας.</l>
+            <l n="7" xml:id="meineke-0447-zographos-2-l7">ἔστιν δ’ ἁπάντων τῶν γενῶν μοι διαγραφή,</l>
+            <l n="8" xml:id="meineke-0447-zographos-2-l8">εἰς ποῖα μισθοῦν ἢ φυλάττεσθαί με δεῖ.</l>
+            <l n="9" xml:id="meineke-0447-zographos-2-l9">οἷον τὸ κατὰ τοὐμπόριον, εἰ βούλει, γένος.</l>
+            <l n="10" xml:id="meineke-0447-zographos-2-l10">ναύκληρος ἀποθύει τις εὐχήν, ἀποβαλών</l>
+            <l n="11" xml:id="meineke-0447-zographos-2-l11">τὸν ἱστὸν ἢ πηδάλια συντρίψας νεώς,</l>
+          </lg>
+          <pb n="395" facs="urn:hathi:hvd.32044098646714:scan:419" />
+          <lg>
+            <l n="12" xml:id="meineke-0447-zographos-2-l12">ἢ φορτί’ ἐξέρριψ’ ὑπέραντλος γενόμενος·</l>
+            <l n="13" xml:id="meineke-0447-zographos-2-l13">ἀφῆκα τὸν τοιοῦτον· οὐδὲν ἡδέως</l>
+            <l n="14" xml:id="meineke-0447-zographos-2-l14">ποιεῖ γὰρ οὗτος, ἀλλ’ ὅσον νόμου χάριν.</l>
+            <l n="15" xml:id="meineke-0447-zographos-2-l15">ὁμοῦ δὲ ταῖς σπονδαῖσι διαλογίζεται</l>
+            <l n="16" xml:id="meineke-0447-zographos-2-l16">τοῖς συμπλέουσιν ὁπόσον ἐπιβάλλει μέρος</l>
+            <l n="17" xml:id="meineke-0447-zographos-2-l17">τιθείς, τά θ’ αὑτοῦ σπλάγχν’ ἕκαστος ἐσθίει.</l>
+            <l n="18" xml:id="meineke-0447-zographos-2-l18">ἀλλ’ ἕτερος εἰσπέπλευκεν ἐκ Βυζαντίου</l>
+            <l n="19" xml:id="meineke-0447-zographos-2-l19">τριταῖος, ἀπαθής, εὐπορηκώς, περιχαρὴς</l>
+            <l n="20" xml:id="meineke-0447-zographos-2-l20">εἰς δέκ’ ἐπὶ τῇ μνᾷ γεγονέναι καὶ δώδεκα,</l>
+            <l n="21" xml:id="meineke-0447-zographos-2-l21">λαλῶν τὰ ναῦλα καὶ δάνει’ ἐρυγγάνων,</l>
+            <l n="22" xml:id="meineke-0447-zographos-2-l22">ἀφροδίσι’ ὑπὸ κόλλοψι μαστροποῖς ποιῶν·</l>
+            <l n="23" xml:id="meineke-0447-zographos-2-l23">ὑπὸ τοῦτον ὑπέμυξ’ εὐθὺς ἐκβεβηκότα,</l>
+            <l n="24" xml:id="meineke-0447-zographos-2-l24">τὴν δεξιὰν ἐνέβαλον, ἐμνήσθην Διὸς</l>
+            <l n="25" xml:id="meineke-0447-zographos-2-l25">σωτῆρος, ἐμπέπηγα τῷ διακονεῖν.</l>
+            <l n="26" xml:id="meineke-0447-zographos-2-l26">τοιοῦτος ὁ τρόπος. μειράκιον ἐρῶν πάλιν</l>
+            <l n="27" xml:id="meineke-0447-zographos-2-l27">τὰ πατρῷα βρύκει καὶ σπαθᾷ, πορεύομαι.</l>
+            <l n="28" xml:id="meineke-0447-zographos-2-l28">ἀπὸ συμβολῶν συνάγοντα νὴ Δί’ ἕτερά που</l>
+            <l n="29" xml:id="meineke-0447-zographos-2-l29">ἐνέβαλεν εἰς τὸν κέραμον ἀνευρημένα,</l>
+            <l n="30" xml:id="meineke-0447-zographos-2-l30">τὰ κράσπεδ’ ἀποθλίβοντα καὶ κεκραγότα</l>
+            <l n="31" xml:id="meineke-0447-zographos-2-l31">„ὀψάριον ἀγοραῖον ποιεῖν τίς βούλεται;”</l>
+            <l n="32" xml:id="meineke-0447-zographos-2-l32">ἐῶ βοᾶν· πληγὰς γὰρ ἔνι προσλαμβάνειν</l>
+            <l n="33" xml:id="meineke-0447-zographos-2-l33">ἐλθόντα καὶ τὴν νύχθ’ ὅλην διακονεῖν.</l>
+            <l n="34" xml:id="meineke-0447-zographos-2-l34">τὸ μισθάριον γὰρ ἂν ἀπαιτῇς, ἀμίδα μοι</l>
+            <l n="35" xml:id="meineke-0447-zographos-2-l35">ἔνεγκε πρῶτον, φησίν. ὄξος ἡ φακῆ</l>
+            <l n="36" xml:id="meineke-0447-zographos-2-l36">οὐκ εἶχε. πάλιν ᾔτησας, οἰμώξει μακρὰ</l>
+            <l n="37" xml:id="meineke-0447-zographos-2-l37">πρῶτος μαγείρων, φησίν. ἕτερα μυρία</l>
+            <l n="38" xml:id="meineke-0447-zographos-2-l38">τοιαῦτα καταλέξαιμ’ ἄν. οὗ δὲ νῦν σ’ ἄγω,</l>
+            <l n="39" xml:id="meineke-0447-zographos-2-l39">πορνεῖόν ἐστι, πολυτελῶς Ἀδώνια</l>
+            <l n="40" xml:id="meineke-0447-zographos-2-l40">ἄγουσ’ ἑταίρα μεθ’ ἑτέρων πορνῶν χύδην.</l>
+            <l n="41" xml:id="meineke-0447-zographos-2-l41">σαυτὸν ἀποτάξεις τόν τε κόλπον ἀποτρέχων.</l>
+          </lg>
+          <pb n="396" facs="urn:hathi:hvd.32044098646714:scan:420" />
+          <note type="source">Athenaeus VII p. 291 f: ὁ δὲ παρὰ Διφίλῳ ἐν τῷ Ζωγράφῳ καὶ πρὸς οὓς ἐκμισθοῦν αὑτὸν δεῖ διδάσκει λέγων οὕτως Οὐ μή κτλ.</note>
+          <note type="apparatus">Vs. 1 σ᾿ οὐδαμοῦ Δράκων Porsonus. σοῦ θάμ᾿ οὐ δράκων VL. σοῦ θαμοῦ (θἅμοῦ B) δράκων BP. Sunt coqui ad Draconem τραπεζοποιὸν verba, cui ille persuasurus ut suum sibi ministerium addicat, se non nisi lautis conviviis operam suam commodare exponit. — Vs. 2 ante Porsonum οὐ. Ibidem διατελεῖς AB. διατελῆς VL. — Vs. 4 ἂν pro ἐὰν Dindorfius. — Vs. 7 ἔστιν δ᾿ BL. ἔστιν θ᾿ PV. — Vs. 10 εὐχὴν ABC et epit. Hoesch. εὐθὴν P. εὐθὺς VL. — Vs. 11 πηδάλια pro πηδάλιόν τι Grotius Exc. p. 789. — Vs. 12 ἐξέρριψεν ABCP. Participium qui desiderabat Toupius Emend. II 303 scripsit ἢ φορτία γ᾿ ἐκρίψας. Debebat certe ἢ φορτί᾿ ἐκρίψας. — Vs. 13 οὐδὲν Dindorfius pro οὐθέν. — Vs. 16 ἐπιβαλεῖ pro ἐπιβάλλει Coraes. — Vs. 17 τιθείς, calculum ponens, computum faciens, ut recte Schweighaeuserus. — Vs. 21 λαλῶν ABC. λαβὼν PVL. Cfr Eustathius p. 946 56: ἄλλοι δὲ (ναῦλον) κατὰ γένος οὐδέτερον, οἷον, λαλῶν τὰ ναῦλα καὶ δάνει᾿ ἐρυγγάνων. — Vs. 22 κόλλοψι ABCP et epit. Hoesch. κάλλοψι VL. Vide ad Antiphanem p. 210. — Vs. 23 Schweighaeuserus tentabat ὑπέμιξα, quod non magis graece dictum est. — Vs. 29 εἰς τὸν κέραμον i. e. in eam fori partem ubi coquorum erat statio, de quo dixi Praef. Menandri p. XVII. Ibid. ἀνευρημένα B et libri Casauboniani, ἐνευρημένα P, ἐν εὑρημένα VL. Suspicabar ἐπισεσυρμένα, immunda, ut apud Diogen. Laert. I 8 ἐπισεσυρμένον καὶ ῥυπαρόν, vel ἀνασεσυρμένα, impudentia, procacia, quod etiam de viris dictum esse, docet scriptor incertus apud Suidam s. v. ἀνασεσυρμένην. — Vs. 31 ἀγοραῖον ὄψον dicit vile et triviale, quale fere eorum erat qui de symbolis epulabantur. — Vs. 32 ἔνι Iacobsius Addit. p. 170 AB ἔστι, quod servans Schweighaeuserus coniiciebat προσλαβεῖν. Sed aoristo nullus hic locus est. — Vs. 34 ἀμίδα μοι ἔνεγκε. Vide Eupolidis fragm. inc. II 5. — Vs. 39 AB Ἄδωνιν. — Vs. 41 Casaubonus ἀποσάξεις. „Versaberis, inquit, in tanta rerum copia,</note>
+          <pb n="397" facs="urn:hathi:hvd.32044098646714:scan:421" />
+          <note type="apparatus">ut liceat tibi suffarcinato et praeda onusto domum tuam excurrere, atque ibi furta deponere.” Sunt Casauboni verba, et credo eum verum vidisse. Verbo ἀποσάττεσθαι, cibis ventrem implere, usus est Philemo p. 21: ἐξὸν ἀποσάττεσθαι δ᾽ ὅλην τὴν ἡμέραν.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2_2" ana="#compiled-duplicate-number #compiled-citation-normalized" xml:id="meineke-0447-zographos-2_2">
+          <head>II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0447-zographos-2_2-l1">Obsonium non accipio, operam nec meam</l>
+            <l n="2" xml:id="meineke-0447-zographos-2_2-l2">addico, nisi sim certus me totum diem</l>
+            <l n="3" xml:id="meineke-0447-zographos-2_2-l3">structurum rebus affatim affluentibus:</l>
+            <l n="4" xml:id="meineke-0447-zographos-2_2-l4">neque ante quenquam sector, quam cognovero</l>
+            <l n="5" xml:id="meineke-0447-zographos-2_2-l5">quis sit sacrum facturus, aut qua gratia</l>
+            <l n="6" xml:id="meineke-0447-zographos-2_2-l6">convivium paret, et quos advocaverit:</l>
+            <l n="7" xml:id="meineke-0447-zographos-2_2-l7">nam forma apud me generum descripta omnium est,</l>
+            <l n="8" xml:id="meineke-0447-zographos-2_2-l8">queis me elocare, quos cavere debeam.</l>
+            <l n="9" xml:id="meineke-0447-zographos-2_2-l9">primum ut de genere dicam mercatorio,</l>
+            <l n="10" xml:id="meineke-0447-zographos-2_2-l10">nauta aliquis voti damnas pollucet sacrum,</l>
+            <l n="11" xml:id="meineke-0447-zographos-2_2-l11">qui clavum fregit, malum aut praecipitem dedit,</l>
+          </lg>
+          <pb n="822" facs="urn:hathi:hvd.32044098646714:scan:848" />
+          <lg>
+            <l n="12" xml:id="meineke-0447-zographos-2_2-l12">aut iactum fecit cum sentina gravesceret:</l>
+            <l n="13" xml:id="meineke-0447-zographos-2_2-l13">omitto hunc nîl cunctatus; nam quicquid facit</l>
+            <l n="14" xml:id="meineke-0447-zographos-2_2-l14">facit dicis causa haud animi ex sententia:</l>
+            <l n="15" xml:id="meineke-0447-zographos-2_2-l15">tum vero inter libandum ponit calculum,</l>
+            <l n="16" xml:id="meineke-0447-zographos-2_2-l16">quantum eius imputandum sit vectoribus,</l>
+            <l n="17" xml:id="meineke-0447-zographos-2_2-l17">suamque de extis singuli partem vorant.</l>
+            <l n="18" xml:id="meineke-0447-zographos-2_2-l18">Byzantio alius autem nudius tertius</l>
+            <l n="19" xml:id="meineke-0447-zographos-2_2-l19">egressus venit salvus huc, re sospite,</l>
+            <l n="20" xml:id="meineke-0447-zographos-2_2-l20">decem lucratus in minas aut duodecim</l>
+            <l n="21" xml:id="meineke-0447-zographos-2_2-l21">drachmas, vectura accepta, ructans foenora,</l>
+            <l n="22" xml:id="meineke-0447-zographos-2_2-l22">qui Veneri faciat duris sub lenonibus?</l>
+            <l n="23" xml:id="meineke-0447-zographos-2_2-l23">hunc, simul exscendit, propter emungor, manum</l>
+            <l n="24" xml:id="meineke-0447-zographos-2_2-l24">cedo, Iovique praestiti grates ago,</l>
+            <l n="25" xml:id="meineke-0447-zographos-2_2-l25">meque ipse totus ad ministerium apparo:</l>
+            <l n="26" xml:id="meineke-0447-zographos-2_2-l26">meus iste mos est. iuvenis amore perditus</l>
+            <l n="27" xml:id="meineke-0447-zographos-2_2-l27">rem patriam luxu prodigit: sequor hunc ego.</l>
+            <l n="28" xml:id="meineke-0447-zographos-2_2-l28">at alios esse qui volunt de symbolis,</l>
+            <l n="29" xml:id="meineke-0447-zographos-2_2-l29">repertumque aliquid iaciunt forte in urceum,</l>
+            <l n="30" xml:id="meineke-0447-zographos-2_2-l30">quamvis torquentes fimbrias clament diu,</l>
+            <l n="31" xml:id="meineke-0447-zographos-2_2-l31">vile obsoniolum quisnam est, qui nobis paret?</l>
+            <l n="32" xml:id="meineke-0447-zographos-2_2-l32">sino clamitare. nam principio verbera</l>
+            <l n="33" xml:id="meineke-0447-zographos-2_2-l33">ibi sunt parata, et noctis perpetuae labor.</l>
+            <l n="34" xml:id="meineke-0447-zographos-2_2-l34">quod si mercedem flagites, Matulam mihi</l>
+            <l n="35" xml:id="meineke-0447-zographos-2_2-l35">prius, inquit, praebe. lenti, ne oblitum putes,</l>
+            <l n="36" xml:id="meineke-0447-zographos-2_2-l36">acetum deerat. poscas iterum: Nae tu, ait,</l>
+            <l n="37" xml:id="meineke-0447-zographos-2_2-l37">flebis coquorum primus. sexcenta id genus</l>
+            <l n="38" xml:id="meineke-0447-zographos-2_2-l38">adferre possem. <sp>
+                <speaker>B.</speaker> Verum quo te ductito</sp>
+            </l>
+            <l n="39" xml:id="meineke-0447-zographos-2_2-l39">lupanar est opiparum: scortum nobile</l>
+            <l n="40" xml:id="meineke-0447-zographos-2_2-l40">Adonia agere vult cum sociennis suis:</l>
+            <l n="41" xml:id="meineke-0447-zographos-2_2-l41">ubi abibis, et te excuties et pariter sinum.</l>
+          </lg>
+        </div>
+        <div type="textpart" subtype="fragment" n="3" ana="#compiled-citation-normalized" xml:id="meineke-0447-zographos-3">
+          <head>III.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0447-zographos-3-l1">Ἀπροσδόκητον οὐδὲν ἀνθρώποις πάθος·</l>
+              <l n="2" xml:id="meineke-0447-zographos-3-l2">ἐφημέρους γὰρ τὰς τύχας κεκτήμεθα.</l>
+            </lg>
+          </quote>
+          <note type="source">Stobaeus Flor. CV 5 cum lemmate Διφίλου ἐκ Ζωγράφου.</note>
+          <note type="apparatus">Vs. 1 Trinc. πάθους. Voss. πάθος, superscripto ultimae syllabae ους.</note>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

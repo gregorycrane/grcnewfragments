@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta Comicorum Graecorum, Volume IV: Fragmenta Poetarum Comoediae Novae</title>
+        <editor>August Meineke</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and TEI encoding</resp>
+          <name>Vision-language models via OpenRouter, under human review</name>
+        </respStmt>
+        <title type="compiled-work">Menander, ΔΙΔΥΜΑΙ: fragments</title>
+        <author>Menander</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Research draft. Final publication requires the notebook's completeness gate.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>August Meineke</persName>
+            </editor>
+            <title>Fragmenta Comicorum Graecorum</title>
+            <imprint>
+              <pubPlace>Berolini</pubPlace>
+              <publisher>G. Reimeri</publisher>
+              <date>1841</date>
+            </imprint>
+            <biblScope unit="volume">4</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/fragmentacomicor04meinuoft">Internet Archive scan (volume4)</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.32044098646714">HathiTrust OCR witness</ref>
+          <ref target="https://hdl.handle.net/2027/hvd.hxjhbb">HathiTrust Harvard auxiliary OCR</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The page image is authoritative. OCR transcriptions are comparison witnesses only. Printed text is not silently corrected. Verse lines use numbered l elements. Citation hierarchy is author.work.fragment.line.</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])">
+          <p>This pointer pattern extracts fragments.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-24">Compiled from the reviewed volume-level Meineke transcription; repeated page-derived containers were consolidated without changing fragment wording.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0541.didymai.meineke1841-grc1" xml:lang="grc">
+    <body n="urn:cts:greekLit:tlg0541.didymai.meineke1841-grc1" xml:lang="grc">
+      <div type="edition" n="urn:cts:greekLit:tlg0541.didymai.meineke1841-grc1" xml:lang="grc" corresp="urn:cite2:perseus:fragmentaryplays.v1:tlg0541_didymai">
+        <head>ΔΙΔΥΜΑΙ</head>
+        <div type="textpart" subtype="fragment" n="1" ana="#compiled-citation-normalized" xml:id="meineke-0541-didymai-1">
+          <head>Ι.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-didymai-1-l1">Συμπεριπατήσεις γὰρ τρίβων᾿ ἔχουσ᾿ ἐμοί,</l>
+              <l n="2" xml:id="meineke-0541-didymai-1-l2">ὥσπερ Κράτητι τῷ κυνικῷ ποθ᾿ ἡ γυνή.</l>
+            </lg>
+          </quote>
+          <note type="source">Diogenes Laert. VI 93: <quote>μέμνηται αὐτοῦ (Cratetem dicit) καὶ Μένανδρος ἐν Διδύμοις (sic) οὕτως Συμπεριπατήσεις κτλ.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="2" ana="#compiled-citation-normalized" xml:id="meineke-0541-didymai-2">
+          <head>II.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-didymai-2-l1">Ἐπὶ πείρᾳ δοὺς τριάκονθ᾿ ἡμέρας.</l>
+            </lg>
+          </quote>
+          <note type="source">Idem l. l. <quote>καὶ θυγατέρα ἐξέδωκε (Crates) μαθηταῖς αὑτοῦ, ὡς ὁ αὐτὸς ἔφη, ἐκείνοις ἐπὶ πείρᾳ δοὺς τριάκονθ᾿ ἡμέρας.</quote>
+          </note>
+        </div>
+        <div type="textpart" subtype="fragment" n="3_4" ana="#compiled-citation-normalized" xml:id="meineke-0541-didymai-3_4">
+          <head>III. IV.</head>
+          <quote>
+            <lg>
+              <l n="1" xml:id="meineke-0541-didymai-3_4-l1">῎Ορνεις φέρων ἐλήλυθα.</l>
+              <l n="2" xml:id="meineke-0541-didymai-3_4-l2">῎Ορνιθας ἀποστέλλει.</l>
+            </lg>
+          </quote>
+          <note type="source">Athenaeus IX p. 373 d: <quote>Μένανδρος Διδύμαις ῎Ορνεις φέρων ἐλήλυθα. καὶ ἑξῆς ῎Ορνιθας ἀποστέλλει.</quote>
+          </note>
+          <note type="apparatus">Postrema fortasse anapaestici versus reliquiae sunt.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="5" ana="#compiled-citation-normalized" xml:id="meineke-0541-didymai-5">
+          <head>V.</head>
+          <note type="source">Harpocratio p. 127 9: <quote>Μένανδρος ἐν Διδύμαις πρὸς ταῖς δώδεκα δραχμαῖς καὶ τριώβολόν φησι τούτους (τοὺς μετοίκους) τελεῖν.</quote> — Idem p. 156 20: <quote>ἐκωμῳδοῦντο οἱ Ποτάμιοι ὡς ῥᾳδίως δεχόμενοι τοὺς παρεγγράπτους, ὡς ἄλλοι τε δηλοῦσι καὶ Μένανδρος ἐν ταῖς Διδύμαις.</quote>
+          </note>
+          <note type="apparatus">Quo de loco dixi Hist. crit. p. 234.</note>
+        </div>
+        <div type="textpart" subtype="fragment" n="1_2" ana="#compiled-citation-normalized" xml:id="meineke-0541-didymai-1_2">
+          <head>I. II.</head>
+          <lg>
+            <l n="1" xml:id="meineke-0541-didymai-1_2-l1">Mecum ambulabis trito palliolo obsita,</l>
+            <l n="2" xml:id="meineke-0541-didymai-1_2-l2">ut Cynicus ductitavit uxorem Crates.</l>
+            <l n="3" xml:id="meineke-0541-didymai-1_2-l3">idem elocavit gnatam, lege hac addita,</l>
+            <l n="4" xml:id="meineke-0541-didymai-1_2-l4">periclum ut eius fieret triginta dies.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
