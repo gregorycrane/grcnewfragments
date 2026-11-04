@@ -57,6 +57,23 @@ install reports under `sources/volumes/meineke/` record every output
 and any printed fragment-number collision disambiguated in compiled citation
 values. Validate the installed corpus with HookTest before committing.
 
+## Diels production build
+
+The two Diels volumes use a page-stream compiler because the diplomatic TEI
+was established page by page rather than as nested author/work containers:
+
+```sh
+python tools/install_diels_vorsokratiker.py
+```
+
+The compiler retains both complete volume sources, splits at the ordered DK
+section headings, and emits one page-citable CTS work per DK section under the
+author's canonical TLG textgroup. The TLG numbers come from
+`canon-keys.txt`; the DK work IDs keep the combined publication sections
+distinct without claiming separate Testimonia and Fragmenta structures. The
+compiler checks that every non-page-break source child is assigned exactly
+once.
+
 ## Promotion workflow
 
 1. Compile the registered source.

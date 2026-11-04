@@ -46,5 +46,13 @@ Meineke III and IV add 468 and 359 parallel work-level editions respectively.
 Volume IV contains 2,632 citable passages across 49 textgroups, including
 unnumbered work-level passages and the anonymous fragments under the canonical
 *Comica Adespota* identity. The complete repository passes HookTest.
+Diels, *Die Fragmente der Vorsokratiker* volumes I–II are retained as two
+authoritative page-level diplomatic sources and compiled into 87 DK work
+files (54 from volume I and 33 from volume II). The compiled editions are
+citable by printed page, preserve every source content block, pass HookTest,
+and are registered in the Perseus Multitext Viewer under the canonical TLG
+textgroups recorded in `canon-keys.txt` (for example, Thales is
+`tlg1705.dk001`). The compiler does not infer unencoded A/B fragment
+boundaries.
 Older migrated fragment editions retain their existing encoding and can be
 normalized incrementally without mixing them back into `grcnewxml`.
