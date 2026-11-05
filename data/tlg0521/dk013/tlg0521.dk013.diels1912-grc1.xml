@@ -15,18 +15,18 @@
       <ref target="https://hdl.handle.net/2027/mdp.39015012889195">HathiTrust OCR witness</ref>
     </biblStruct><ptr target="../../../sources/volumes/diels/diels.vorsokratiker.vol1.xml" /></sourceDesc>
   </fileDesc>
-  <encodingDesc><p>The PDF page image is authoritative. Hathi OCR and the 2014 Leipzig XML are comparison witnesses only. Each independently valid page div begins with a page break; higher-level regrouping is deferred until diplomatic completeness is established.</p><refsDecl n="CTS"><citeStructure unit="page" match="//tei:div[@subtype='page']" use="@n" /><cRefPattern n="page" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='page' and @n='$1'])"><p>This pointer pattern extracts a printed page within a DK work section.</p></cRefPattern></refsDecl></encodingDesc>
+  <encodingDesc><p>The PDF page image is authoritative; Hathi OCR and the 2014 Leipzig XML are comparison witnesses. Printed A/B/C item numbers supply the citation hierarchy. Page breaks and facsimile links are retained inside those items as provenance.</p><refsDecl n="CTS"><citeStructure unit="fragment" match="//tei:div[@subtype='fragment']" use="@n" /><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts a printed A/B/C item within a DK work section.</p></cRefPattern></refsDecl></encodingDesc>
   <profileDesc><langUsage><language ident="grc">Greek</language><language ident="la">Latin</language><language ident="de">German</language></langUsage></profileDesc>
-<revisionDesc><change when="2026-11-03">Compiled deterministically from the retained volume-level diplomatic TEI. The work is citable by printed page; individual A/B fragment boundaries remain encoded only where explicit in the transcription.</change></revisionDesc></teiHeader>
-  <text xml:base="urn:cts:greekLit:tlg0521.dk013.diels1912-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0521.dk013.diels1912-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0521.dk013.diels1912-grc1" xml:lang="grc"><head>13. EPICHARMOS.</head><div type="textpart" subtype="page" n="113" xml:id="diels-v1-dk013-p113"><pb n="113" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=139" />
+<revisionDesc><change when="2026-11-04">Compiled deterministically from the retained volume-level diplomatic TEI. The work is citable by printed A/B/C item; printed pages are retained only as pb provenance.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0521.dk013.diels1912-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0521.dk013.diels1912-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0521.dk013.diels1912-grc1" xml:lang="grc"><head>13. EPICHARMOS.</head><div type="textpart" subtype="fragment" n="A1" xml:id="diels-v1-dk013-a1"><pb n="113" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=139" />
           <head>13. EPICHARMOS.</head>
           <head>A. LEBEN UND SCHRIFTEN.</head>
           <p>1. <hi rend="small">SUID.</hi> Ἐπίχαρμος Τιτύρου ἢ Χιμάρου καὶ Σηκίδος Συρακούσιος ἢ ἐκ πόλεως Κραστοῦ τῶν Σικανῶν. ὃς εὗρε τὴν κωμωιδίαν ἐν Συρακούσαις ἅμα Φόρμωι. ἐδίδαξε δὲ δράματα νβ, ὡς δὲ Λύκων [s. cap. 44] φησί, λε. τινὲς δὲ αὐτὸν Κῶιον ἀνέγραψαν τῶν μετὰ Κάδμου εἰς Σικελίαν μετοικησάντων, ἄλλοι Σάμιον, ἄλλοι Μεγαρέα τῶν ἐν Σικελίαι. ἦν δὲ πρὸ τῶν Περσικῶν [480] ἔτη ζ διδάσκων ἐν Συρακούσαις.</p>
-          <p>2. <hi rend="small">ARIST.</hi> poet. 5. 1449<hi rend="superscript">b</hi>5 τὸ δὲ μύθους ποιεῖν [näml. ἀπέδωκεν] Ἐ. καὶ Φόρμις· τὸ μὲν ἐξ ἀρχῆς ἐκ Σικελίας ἦλθε. 3. 1448<hi rend="superscript">a</hi>31 τῆς μὲν γὰρ κωμωιδίας οἱ Μεγαρεῖς οἵ τε ἐνταῦθα ὡς ἐπὶ τῆς παρ’ αὐτοῖς δημοκρατίας γενομένης καὶ οἱ ἐκ Σικελίας [näml. ἀντιποιοῦνται]· ἐκεῖθεν γὰρ ἦν Ἐπίχαρμος ὁ ποιητής, πολλῶι πρότερος ὢν Χιωνίδου καὶ Μάγνητος.</p>
+          </div><div type="textpart" subtype="fragment" n="A2" xml:id="diels-v1-dk013-a2"><p>2. <hi rend="small">ARIST.</hi> poet. 5. 1449<hi rend="superscript">b</hi>5 τὸ δὲ μύθους ποιεῖν [näml. ἀπέδωκεν] Ἐ. καὶ Φόρμις· τὸ μὲν ἐξ ἀρχῆς ἐκ Σικελίας ἦλθε. 3. 1448<hi rend="superscript">a</hi>31 τῆς μὲν γὰρ κωμωιδίας οἱ Μεγαρεῖς οἵ τε ἐνταῦθα ὡς ἐπὶ τῆς παρ’ αὐτοῖς δημοκρατίας γενομένης καὶ οἱ ἐκ Σικελίας [näml. ἀντιποιοῦνται]· ἐκεῖθεν γὰρ ἦν Ἐπίχαρμος ὁ ποιητής, πολλῶι πρότερος ὢν Χιωνίδου καὶ Μάγνητος.</p>
           <note type="apparatus">
             <p>3 πληγῆι (nach 12 B 11) *: πληγῆς Hs.: πληγής Bruck φύσεως πάντ’ ἔργα τελεῖται Arnim 5 μεγάλων μικροῖσι φάεσσι Hs.: verb. Brunck (μεγάλων d. i. ἡλίωι *) 13 περιχορέοντα Γ: περιχορεύοντα ΩΨΦ: verb. (vgl. 46 B 12) * 14 (συμφερόμενος) erg. bereits der Korrektor von Ψ 23 Σηκίδος] vgl. Epich. fr. 125 Kaibel 27 Μεγαρέα Kaibel: μεγάρων Hss. 33 vgl. SUID. Χιωνίδης Ἀθηναῖος κωμικὸς τῆς ἀρχαίας κωμωιδίας, ὃν καὶ λέγουσι πρωταγωνιστὴν γενέσθαι τῆς ἀρχαίας κωμωιδίας, διδάσκειν δὲ ἔτεσιν ἢ πρὸ τῶν Περσικῶν [488/7]. Wilhelm Urk. dram. Auff. S. 108 ff. 174. Also hat Aristoteles den Epicharm ins 6. Jahrh. gerückt. Ausgleichung bei SUID. Μάγνης Ἰκαρίου πόλεως Ἀττικῆς, ἢ Ἀθηναῖος, κωμικός. ἐπιβάλλει δὲ Ἐπιχάρμωι νέος πρεσβύτηι. S. Wilamowitz Gött. gel. Anz. 1906, 620</p>
           </note>
-        </div><div type="textpart" subtype="page" n="114" xml:id="diels-v1-dk013-p114"><pb n="114" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=140" />
+        </div><div type="textpart" subtype="fragment" n="A3" xml:id="diels-v1-dk013-a3"><pb n="114" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=140" />
           <head>13. EPICHARMOS.</head>
           <p>3. DIOG. VIII 78 Ἐπίχαρμος Ἡλοθαλοῦς Κῶιος. καὶ οὗτος ἤκουσε Πυθαγόρου. <hi rend="superscript">87</hi> τριμηνιαῖος δ’ ὑπάρχων ἀπηνέχθη τῆς Σικελίας εἰς Μέγαρα, ἐντεῦθεν δ’ εἰς Συρα- κούσας, ὥς φησι καὶ αὐτὸς ἐν τοῖς συγγράμμασιν. καὶ αὐτῶι ἐπὶ τοῦ ἀνδριάντος ἐπιγέγραπται τόδε·</p>
           <lg>
@@ -36,11 +36,11 @@
             <l>ὃν πατρὶς ἐστεφάνωσ’ ἅδε Συρακοσίων.</l>
           </lg>
           <p>οὗτος ὑπομνήματα καταλέλοιπεν ἐν οἷς φυσιολογεῖ, γνωμολογεῖ, ἰατρολογεῖ. καὶ παραστιχίδα γε ἐν τοῖς πλείστοις τῶν ὑπομνημάτων πεποίηκεν, οἷς διασαφεῖ ὅτι ἑαυτοῦ ἐστι τὰ συγγράμματα. βιοὺς δ’ ἔτη ἐνενήκοντα κατέστρεψεν.</p>
-          <p>3<hi rend="superscript">a</hi>. DIOMED. gr. p. 489 K. (p. 58,170 Kaib.) <foreign xml:lang="la">sunt qui velint Epicharmum in Co insula exulantem primum hoc carmen frequentasse et sic a Coo comoediam dici.</foreign></p>
-          <p>4. IAMBL. V. P. 226 τῶν δὲ ἔξωθεν ἀκροατῶν γενέσθαι καὶ Ἐπίχαρμον, ἀλλ’ οὐκ ἐκ τοῦ συστήματος τῶν ἀνδρῶν. ἀφικόμενον δὲ εἰς Συρακούσας διὰ τὴν Ἱέ- ρωνος τυραννίδα τοῦ μὲν φανερῶς φιλοσοφεῖν ἀποσχέσθαι, εἰς μέτρον δ’ ἐντεῖναι τὰς διανοίας τῶν ἀνδρῶν, μετὰ παιδιᾶς κρύφα ἐκφέροντα τὰ Πυθαγόρου δόγματα. 166 περὶ τῶν φυσικῶν ὅσοι τινὰ μνείαν πεποίηνται, πρῶτον Ἐμπεδοκλέα καὶ Παρ- μενίδην τὸν Ἐλεάτην προφερόμενοι τυγχάνουσιν, οἵ τε γνωμολογῆσαί τι τῶν κατὰ τὸν βίον βουλόμενοι τὰς Ἐπιχάρμου διανοίας προφέρονται, καὶ σχεδὸν πάντες αὐτὰς οἱ φιλόσοφοι κατέχουσι.</p>
-          <p>5. MARM. PAR. 71 ἀφ’ οὗ Ἱέρων Συρακουσσῶν ἐτυράννευσεν ἔτη ΗΗΓΙΙΙ ἄρχοντος Ἀθήνησι Χάρητος [472/1]. ἦν δὲ καὶ Ἐπίχαρμος ὁ ποιητὴς κατὰ τοῦ- τον. Vgl. 11 A 8 S. 43, 24. ANON. de com. II 4 S. 7, 16 Kaibel (Ἐ. Συρακόσιος). οὗτος πρῶτος τὴν κωμωιδίαν διερριμμένην ἀνεκτήσατο πολλὰ προσφιλοτεχνήσας. χρόνοις δὲ γέγονε κατὰ τὴν ὀλυμπιάδα [488—5], τῆι δὲ ποιήσει γνωμικὸς καὶ εὑρετικὸς καὶ φιλότεχνος. σώιζεται δὲ αὐτοῦ δράματα μ, ὧν ἀντιλέγονται δ.</p>
-          <p>6. PLATO Theaet. p. 152 DE ἔστι μὲν γὰρ οὐδέποτ’ οὐδέν, ἀεὶ δὲ γίγνεται. <hi rend="superscript">88</hi> καὶ περὶ τούτου πάντες ἐξαίσιοι (?) οἱ σοφοὶ πλὴν Παρμενίδου συμφερέσθων, Πρω- ταγόρας τε καὶ Ἡράκλειτος καὶ Ἐμπεδοκλῆς καὶ τῶν ποιητῶν οἱ ἄκροι τῆς ποιή- σεως ἑκατέρας, κωμωιδίας μὲν Ἐπίχαρμος, τραγωιδίας δὲ Ὅμηρος. Vgl. dazu 12 B 126<hi rend="superscript">b</hi>; 13 B 2. ALEXIS Linos bei Ath. IV 164 c [II 345 K.] Auswahl beliebter Bücher: Ὀρφεὺς ἔνεστιν, Ἡσίοδος, τραγωιδίαι, Χοιρίλος, Ὅμηρος, (ἔστ’) Ἐπί- χαρμος, γράμματα παντοδαπά.</p>
-          <p>6<hi rend="superscript">a</hi>. THEOCR. ep. 18 Wil. (auf die Bildsäule des E. im Theater zu Syrakus)</p>
+          </div><div type="textpart" subtype="fragment" n="A3a" xml:id="diels-v1-dk013-a3a"><p>3<hi rend="superscript">a</hi>. DIOMED. gr. p. 489 K. (p. 58,170 Kaib.) <foreign xml:lang="la">sunt qui velint Epicharmum in Co insula exulantem primum hoc carmen frequentasse et sic a Coo comoediam dici.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="A4" xml:id="diels-v1-dk013-a4"><p>4. IAMBL. V. P. 226 τῶν δὲ ἔξωθεν ἀκροατῶν γενέσθαι καὶ Ἐπίχαρμον, ἀλλ’ οὐκ ἐκ τοῦ συστήματος τῶν ἀνδρῶν. ἀφικόμενον δὲ εἰς Συρακούσας διὰ τὴν Ἱέ- ρωνος τυραννίδα τοῦ μὲν φανερῶς φιλοσοφεῖν ἀποσχέσθαι, εἰς μέτρον δ’ ἐντεῖναι τὰς διανοίας τῶν ἀνδρῶν, μετὰ παιδιᾶς κρύφα ἐκφέροντα τὰ Πυθαγόρου δόγματα. 166 περὶ τῶν φυσικῶν ὅσοι τινὰ μνείαν πεποίηνται, πρῶτον Ἐμπεδοκλέα καὶ Παρ- μενίδην τὸν Ἐλεάτην προφερόμενοι τυγχάνουσιν, οἵ τε γνωμολογῆσαί τι τῶν κατὰ τὸν βίον βουλόμενοι τὰς Ἐπιχάρμου διανοίας προφέρονται, καὶ σχεδὸν πάντες αὐτὰς οἱ φιλόσοφοι κατέχουσι.</p>
+          </div><div type="textpart" subtype="fragment" n="A5" xml:id="diels-v1-dk013-a5"><p>5. MARM. PAR. 71 ἀφ’ οὗ Ἱέρων Συρακουσσῶν ἐτυράννευσεν ἔτη ΗΗΓΙΙΙ ἄρχοντος Ἀθήνησι Χάρητος [472/1]. ἦν δὲ καὶ Ἐπίχαρμος ὁ ποιητὴς κατὰ τοῦ- τον. Vgl. 11 A 8 S. 43, 24. ANON. de com. II 4 S. 7, 16 Kaibel (Ἐ. Συρακόσιος). οὗτος πρῶτος τὴν κωμωιδίαν διερριμμένην ἀνεκτήσατο πολλὰ προσφιλοτεχνήσας. χρόνοις δὲ γέγονε κατὰ τὴν ὀλυμπιάδα [488—5], τῆι δὲ ποιήσει γνωμικὸς καὶ εὑρετικὸς καὶ φιλότεχνος. σώιζεται δὲ αὐτοῦ δράματα μ, ὧν ἀντιλέγονται δ.</p>
+          </div><div type="textpart" subtype="fragment" n="A6" xml:id="diels-v1-dk013-a6"><p>6. PLATO Theaet. p. 152 DE ἔστι μὲν γὰρ οὐδέποτ’ οὐδέν, ἀεὶ δὲ γίγνεται. <hi rend="superscript">88</hi> καὶ περὶ τούτου πάντες ἐξαίσιοι (?) οἱ σοφοὶ πλὴν Παρμενίδου συμφερέσθων, Πρω- ταγόρας τε καὶ Ἡράκλειτος καὶ Ἐμπεδοκλῆς καὶ τῶν ποιητῶν οἱ ἄκροι τῆς ποιή- σεως ἑκατέρας, κωμωιδίας μὲν Ἐπίχαρμος, τραγωιδίας δὲ Ὅμηρος. Vgl. dazu 12 B 126<hi rend="superscript">b</hi>; 13 B 2. ALEXIS Linos bei Ath. IV 164 c [II 345 K.] Auswahl beliebter Bücher: Ὀρφεὺς ἔνεστιν, Ἡσίοδος, τραγωιδίαι, Χοιρίλος, Ὅμηρος, (ἔστ’) Ἐπί- χαρμος, γράμματα παντοδαπά.</p>
+          </div><div type="textpart" subtype="fragment" n="A6a" xml:id="diels-v1-dk013-a6a"><p>6<hi rend="superscript">a</hi>. THEOCR. ep. 18 Wil. (auf die Bildsäule des E. im Theater zu Syrakus)</p>
           <lg>
             <l>ἅ τε φωνὰ Δώριος χὡνὴρ ὁ τὰν κωμωιδίαν</l>
             <l>εὑρὼν Ἐπίχαρμος·</l>
@@ -50,7 +50,7 @@
           <note type="apparatus">
             <p>3 αὐτῷ P<hi rend="superscript">1</hi>: αὐτὸ BF 8 ἐστεφάνωσεν B<hi rend="superscript">1</hi>P<hi rend="superscript">1</hi> συρακοσίων B: συρρα- κοσίων F: συρρακοσίων P<hi rend="superscript">1</hi>: συρρακουσίων F 10 γε BP<hi rend="superscript">1</hi>: fehlt F: δὲ Cobet 11 συντάγματα B 16 ἐντεῖναι Wyttenbach: ἐνεῖναι Hs. 29 ἐξαίσιοι BW, Eus.: ἐξαίσιοι οἱ Pap. Berol.: ἐξ αἰσίου * (das. p. XXI): ἑξῆς οἱ Stob., T corr. συμφερέσθων B (vor d. Corr.): συμφέρεσθον TW Pap. Ber.: συμφέρονται Stob. 33 ὅμηρος ἐπίχαρμος συγγράμματα Hs.: G. Hermanns Herst. unsicher. Vielleicht (ὁ δ’) Ἐπίχαρμος, γρ. *</p>
           </note>
-        </div><div type="textpart" subtype="page" n="115" xml:id="diels-v1-dk013-p115"><pb n="115" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=141" />
+        <pb n="115" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=141" />
           <head>A. LEBEN UND SCHRIFTEN. 3—10. B. FRAGMENTE.</head>
           <lg>
             <l>τοὶ Συρακούσσαις ἐνίδρυνται, πελωρίσται πόλει,</l>
@@ -60,19 +60,19 @@
             <l><lb n="5" />πολλὰ γὰρ ποττὰν ζόαν τοῖς παισὶν εἶπε χρήσιμα·</l>
             <l>μεγάλα χάρις αὐτῶι.</l>
           </lg>
-          <p><hi rend="small">6 b.</hi> PLIN. N. H. VII 192 <hi rend="italic">Aristoteles</hi> [Peplos; fr. 501 Rose] <hi rend="italic">x et VIII</hi> [sc. litteras] <hi rend="italic">priscas fuisse . . . et duas ab Epicharmo additas ΘΧ quam a Palamede mavolt.</hi></p>
-          <p><hi rend="small">6 c.</hi> DIOG. I 42 Ἱππόβοτος δ’ ἐν τῆι τῶν φιλοσόφων Ἀναγραφῆι· Ὀρφέα, <lb n="10" />Λίνον, Σόλωνα, Περίανδρον, Ἀνάχαρσιν, Κλεόβουλον, Μύσωνα, Θαλῆν, Βίαντα, Πιττακόν, Ἐπίχαρμον, Πυθαγόραν (7 Weise; vgl. 73 A 1).</p>
-          <p>7. PORPHYR. V. Plot. 24 (Apollodoros aus Athen) Ἐπίχαρμον τὸν κωμωιδιο-γράφον εἰς δέκα τόμους φέρων συνήγαγεν. SUID. u. Διονύσιος υἱὸς τοῦ Σικελίας τυράννου καὶ αὐτὸς τύραννος καὶ φιλόσοφος. Ἐπιστολὰς καὶ Περὶ τῶν ποιημά-<lb n="15" />των Ἐπιχάρμου.</p>
-          <p>8. IAMBL. V. P. 241 Μητρόδωρός τε ὁ Θύρσου ⟨ἀδελφὸς ἐκ τῆς⟩ τοῦ πατρὸς Ἐπιχάρμου καὶ τῆς ἐκείνου [Pythagoras] διδασκαλίας τὰ πλείονα πρὸς τὴν ἰατρι-κὴν μετενέγκας ἐξηγούμενος τοὺς τοῦ πατρὸς λόγους πρὸς τὸν ἀδελφόν φησι τὸν Ἐπίχαρμον καὶ πρὸ τούτου τὸν Πυθαγόραν τῶν διαλέκτων ἀρίστην λαμβάνειν <lb n="20" />τὴν Δωρίδα κτλ. Metrodors Buch ist nach Aristoxenos’ Zeit gefälscht. S. c. 4, 19 (S. 35, 1).</p>
+          </div><div type="textpart" subtype="fragment" n="A6b" xml:id="diels-v1-dk013-a6b"><p><hi rend="small">6 b.</hi> PLIN. N. H. VII 192 <hi rend="italic">Aristoteles</hi> [Peplos; fr. 501 Rose] <hi rend="italic">x et VIII</hi> [sc. litteras] <hi rend="italic">priscas fuisse . . . et duas ab Epicharmo additas ΘΧ quam a Palamede mavolt.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="A6c" xml:id="diels-v1-dk013-a6c"><p><hi rend="small">6 c.</hi> DIOG. I 42 Ἱππόβοτος δ’ ἐν τῆι τῶν φιλοσόφων Ἀναγραφῆι· Ὀρφέα, <lb n="10" />Λίνον, Σόλωνα, Περίανδρον, Ἀνάχαρσιν, Κλεόβουλον, Μύσωνα, Θαλῆν, Βίαντα, Πιττακόν, Ἐπίχαρμον, Πυθαγόραν (7 Weise; vgl. 73 A 1).</p>
+          </div><div type="textpart" subtype="fragment" n="A7" xml:id="diels-v1-dk013-a7"><p>7. PORPHYR. V. Plot. 24 (Apollodoros aus Athen) Ἐπίχαρμον τὸν κωμωιδιο-γράφον εἰς δέκα τόμους φέρων συνήγαγεν. SUID. u. Διονύσιος υἱὸς τοῦ Σικελίας τυράννου καὶ αὐτὸς τύραννος καὶ φιλόσοφος. Ἐπιστολὰς καὶ Περὶ τῶν ποιημά-<lb n="15" />των Ἐπιχάρμου.</p>
+          </div><div type="textpart" subtype="fragment" n="A8" xml:id="diels-v1-dk013-a8"><p>8. IAMBL. V. P. 241 Μητρόδωρός τε ὁ Θύρσου ⟨ἀδελφὸς ἐκ τῆς⟩ τοῦ πατρὸς Ἐπιχάρμου καὶ τῆς ἐκείνου [Pythagoras] διδασκαλίας τὰ πλείονα πρὸς τὴν ἰατρι-κὴν μετενέγκας ἐξηγούμενος τοὺς τοῦ πατρὸς λόγους πρὸς τὸν ἀδελφόν φησι τὸν Ἐπίχαρμον καὶ πρὸ τούτου τὸν Πυθαγόραν τῶν διαλέκτων ἀρίστην λαμβάνειν <lb n="20" />τὴν Δωρίδα κτλ. Metrodors Buch ist nach Aristoxenos’ Zeit gefälscht. S. c. 4, 19 (S. 35, 1).</p>
           <p>COLUMELL. I 1 <hi rend="italic">Siculi quoque non mediocri cura negotium istud</hi> [d. h. die Landwirtschaft] <hi rend="italic">prosecuti sunt Hieron et Epicharmus.</hi> STAT. silv. V 3, 150 <hi rend="italic">quan-tumque pios ditarit agrestes Ascraeus Siculusque senex.</hi> Vgl. PLIN. H. N. ind. <lb n="25" />I 20—27.</p>
-          <p>10. ATHEN. XIV 648 D τὴν μὲν ἡμίναν οἱ τὰ εἰς Ἐπίχαρμον ἀναφερόμενα ποιήματα πεποιηκότες οἴδασι κἂν τῶι Χίρωνι ἐπιγραφομένωι οὕτω λέγεται καὶ . . . δύο [B 58]. τὰ δὲ Ψευδεπιχάρμεια ταῦτα ὅτι πεποιήκασιν ἄνδρες ἔνδοξοι Χρυ-σόγονός τε ὁ αὐλητής, ὥς φησιν Ἀριστόξενος ἐν ὀγδόωι Πολιτικῶν νόμων <lb n="30" />[FHG II 289 fr. 80], τὴν Πολιτείαν ἐπιγραφομένην. Φιλόχορος δ’ ἐν τοῖς Περὶ μαντικῆς [I 416 fr. 193] Ἀξιόπιστον τὸν εἴτε Λοκρὸν γένος εἴτε Σικυώνιον τὸν Κανόνα καὶ τὰς Γνώμας πεποιηκέναι φησίν. ὁμοίως δὲ ἱστορεῖ καὶ Ἀπολλό-δωρος [FHG I 462 fr. 187].</p>
+          </div><div type="textpart" subtype="fragment" n="A10" xml:id="diels-v1-dk013-a10"><p>10. ATHEN. XIV 648 D τὴν μὲν ἡμίναν οἱ τὰ εἰς Ἐπίχαρμον ἀναφερόμενα ποιήματα πεποιηκότες οἴδασι κἂν τῶι Χίρωνι ἐπιγραφομένωι οὕτω λέγεται καὶ . . . δύο [B 58]. τὰ δὲ Ψευδεπιχάρμεια ταῦτα ὅτι πεποιήκασιν ἄνδρες ἔνδοξοι Χρυ-σόγονός τε ὁ αὐλητής, ὥς φησιν Ἀριστόξενος ἐν ὀγδόωι Πολιτικῶν νόμων <lb n="30" />[FHG II 289 fr. 80], τὴν Πολιτείαν ἐπιγραφομένην. Φιλόχορος δ’ ἐν τοῖς Περὶ μαντικῆς [I 416 fr. 193] Ἀξιόπιστον τὸν εἴτε Λοκρὸν γένος εἴτε Σικυώνιον τὸν Κανόνα καὶ τὰς Γνώμας πεποιηκέναι φησίν. ὁμοίως δὲ ἱστορεῖ καὶ Ἀπολλό-δωρος [FHG I 462 fr. 187].</p>
           <head>B. FRAGMENTE.</head>
           <p>(Auswahl nach Kaibel CGF I 91—147.)</p>
           <p>Die Echtheit der Fragmente, die nicht aus Apollodors Ausgabe der Komö-dien stammen, ist bestritten. Von den durch Alkimos, Stilpons Schüler, in seinen vier Büchern gegen Amyntas (von Heraclea, Schüler Platons Ind. ac. 6, 1 Ael. V. H. II 19 Diog. III 46) bezeugten Fragmenten erscheinen nach Inhalt,</p>
           <note type="apparatus">
             <p>2 οἱ ΚΠ: ὅσσ’ Anth. Pal. 3 σοφῶν ἔοικε Kaibel: σωρὸν ⟨γὰρ⟩ εἶχε ΚΠ, A. P. 5 πᾶσιν A. P. 16 ⟨ 〉*, vgl. Z. 18 19 ὑπολαμβάνειν Nauck 28 Die Anakoluthe sind durch Schuld des Epitomators unheilbar 34 vgl. Wilamowitz Textgesch. d. gr. Lyr. (Abh. d. Gött. G. d. W. 1900) 24. W. Nestle Philol. Suppl. VIII 601</p>
           </note>
-        </div><div type="textpart" subtype="page" n="116" xml:id="diels-v1-dk013-p116"><pb n="116" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=142" />
+        <pb n="116" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=142" />
           <head>13. EPICHARMOS.</head>
           <p>Form, Stil und Sprache einwandfrei B 1—5, worin 2. 4 Heraklit, 1 die Eleaten berühren, während 3, das der Sprache nach echt aussieht, der Katechismusform und dem Inhalt nach in das vierte Jahrh. zu gehören scheint. Vermutlich gehört dies fr., das Platos Apologie benutzt (s. Anm.), zu den Einlagen, die Dionysios bei den wohl zu Ehren Platons veranstalteten Neuaufführungen epicharmischer Stücke scherzhafter Weise zufügte. Wenigstens ist das Interesse des Tyrannen für den Dichter bezeugt (13 A 7). Ebendahin scheint auch B 7 zu weisen. Sicher unecht ist von den Anführungen des Alkimos B 6. Denn es hat sich jetzt als Gegenstück dazu der Anfang einer Gnomologie des Epicharmos gefunden, über deren naive Fälschung (4. Jahrh.) kein Zweifel bestehen kann: <hi rend="smallcaps">Hibeh papyr.</hi> I 1 [aus d. Z. d. Philadelphos; V. 8 u. 15 nach eigener Lesung*]</p>
           <lg>
@@ -93,14 +93,14 @@
             <l><lb n="15" />(πεῖραν) αὐταυτοῦ διδούς, ὡς καὶ β(ραχέα λέγειν ἔχει).</l>
           </lg>
           <p>Sicher unecht sind ferner nach A 10: 1) Πολιτεία (B 56—58), erbärmliche Poesie mit heraklitischen und pythagoreischen Reminiscenzen, verfaßt von dem Flötenvirtuosen Chrysogonos (Zeitg. d. Alkibiades nach Duris, Ath. XII 535). 2) Χίρων (B 59—62), Ärztliches (vgl. Anth. P. VII 158, 9), in pythagoreischem Kreise (vgl. A 8) nach dem Muster des Hesiod verfaßt. 3) Ὀψοποιία (B 63). Dergleichen wird im Altertum zur ärztlichen Schriftstellerei gerechnet, also Teil von n. 2?. 4) Πρὸς Ἀντήνορα (B 65), neupythagoreische Fälschung (vgl. Plin. 34, 12 [Varro], Plut. Num. 8 g. E.). 5) Ἐπίγραμμα (B 64), wegen B 9 auf Epicharm geschrieben. 6) Unecht als Sammlung sind auch die Γνῶμαι des Axiopistos (B 8—46), die Ennius in seiner Übersetzung (B 47—54) vor sich gehabt hat, da die Akrostichis (Q. ENNIUS FECIT Cic. d. div. II 54, 111) nach A 3 (φυσιολογεῖ γνωμολογεῖ κτλ.) sich auf diese Schrift beziehen wird. Aber einzelnes darin scheint alt. Die Form gemahnt zum Teil an die Kraft des Echten (B. 10. 12. 13. 16. 37), Dialogwendungen z. B. B 9. 29. 31. 37 sind stehen geblieben, einzelnes ist alt bezeugt (B 19. 36. 37) und der Inhalt vor allem geht das 6.—5. Jahrh. an: Xenophanes B 9 (?). 12. 52, Heraklit B 17. 48, Anaximenes (vgl. Diogenes v. Ap.) B 53, also wie in den echten Fragm. B 1. 2. 4. Vermutlich haben sich früh gnomologische Auszüge seiner Dramen verbreitet (vgl. Theognis, Menander, Publilius Syrus; vgl. B 45), die seinen Namen im 4. Jahrh. schon populär machten (vgl. A 6 und B 36. 37) und damals einen gewissen Axiopistos veranlaßten, dieses Volksbuch zu erweitern und pythagoreisch zu bearbeiten (vgl. B 9. 22. 47. 50, auf Empe-</p>
-        </div><div type="textpart" subtype="page" n="117" xml:id="diels-v1-dk013-p117"><pb n="117" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=143" />
+        <pb n="117" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=143" />
           <p>dokles weist B 49). Er könnte zum Kreis des Pontikers Herakleides gehören, <hi rend="sup">89</hi> wo man solche Fiktionen liebte und mit der Akrostichis Scherz trieb (Diog. v 93). Über ähnliche Gnomologien alex. Zeit vgl. Wilamowitz <hi rend="italic">Berl. Klassikert.</hi> v 2, 124. Vgl. Stob. IV 22, 84 H. <hi rend="italic">(flor.</hi> 69, 17). 7) Der Titel <foreign xml:lang="grc">Κανών</foreign> desselben Fälschers (B 58) deutet auf pythagoreische Sekte. — Das Verhältnis der Gnomen zu Euripides (Wilamowitz <hi rend="italic">Herakl.</hi> I <hi rend="sup">1</hi> 29, <hi rend="italic">Textg.</hi> a. O. 24; Rohde <hi rend="italic">Psyche</hi> II <hi rend="sup">2</hi> 258; Susemihl <hi rend="italic">Philol.</hi> 53, 564; Friedländer <hi rend="italic">Ioh. v. Gaza</hi> 30 <hi rend="sup">2</hi>) ist unaufgeklärt. B 45 ist nicht sicher herstellbar. Die anderen Berührungen (Eur. fr. 954 = 46, Hel. 1650 = 13, Herc. 1016 = 11, Bacch. 276 = 52, fr. 941 = 53, fr. 909, 6 [Hel. 122?]) sind an sich unsicher und entscheiden nicht, wer nachahmt. Der alte Dialekt Epicharms läßt sich nach unserer Überl. nicht überall rein herstellen.</p>
           <head>
             <foreign xml:lang="grc">ΕΚ ΤΩΝ ΑΛΚΙΜΟΥ ΠΡΟΣ ΑΜΥΝΤΑΝ ΑΒΓΔ.</foreign>
           </head>
           <p>Echtheit nicht ganz sicher, besonders bei 3. 6. 7.</p>
           <p>1—6. DIOG. III 9—17. 9) <foreign xml:lang="grc">πολλὰ δὲ καὶ παρ’ Ἐπιχάρμου τοῦ κωμωιδιοποιοῦ προσωφέληται [Πλάτων] τὰ πλεῖστα μεταγράψας, καθά φησιν Ἄλκιμος ἐν τοῖς</foreign> <lb n="5" /> <foreign xml:lang="grc">πρὸς Ἀμύνταν, ἅ ἐστι τέτταρα, ἔνθα καὶ ἐν τῶι πρώτωι [fr. 7, FHG IV 297] φησι ταῦτα· φαίνεται δὲ καὶ Πλάτων πολλὰ τῶν Ἐπιχάρμου λέγων· σκεπτέον δέ. ὁ Πλάτων φησὶν αἰσθητὸν μὲν εἶναι τὸ μηδέποτε ἐν τῶι ποιῶι μηδὲ ποσῶι δια- μένον, ἀλλ’ ἀεὶ ῥέον καὶ μεταβάλλον·</foreign> 10. <foreign xml:lang="grc">ὡς ἐξ ὧν ἄν τις ἀνέληι τὸν ἀριθμόν, τούτων οὔτε ἴσων οὔτε τινῶν οὔτε ποσῶν οὔτε ποιῶν ὄντων, ταῦτα δ’ ἐστὶν ὧν</foreign> <lb n="10" /> <foreign xml:lang="grc">ἀεὶ γένεσις, οὐσία δὲ μηδέποτε πέφυκε. νοητὸν δὲ ἐξ οὗ μηθὲν ἀπογίνεται μηδὲ προσγίνεται. τοῦτο δ’ ἐστὶν ἡ τῶν ἀιδίων φύσις, ἣν ὁμοίαν τε καὶ τὴν αὐτὴν ἀεὶ συμβέβηκεν εἶναι. καὶ μὴν ὅ γε Ε. περὶ τῶν αἰσθητῶν καὶ νοητῶν ἐναργῶς εἴρηκεν·</foreign></p>
-          <p>1. <hi rend="sup">[170 a K.]</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B1" xml:id="diels-v1-dk013-b1"><p>1. <hi rend="sup">[170 a K.]</hi></p>
           <lg>
             <l>
               <foreign xml:lang="grc">— ἀλλ’ ἀεί τοι θεοὶ παρῆσαν, χὐπέλιπον οὐ πώποκα,</foreign>
@@ -120,52 +120,52 @@
           <note type="apparatus">
             <p>3 <foreign xml:lang="grc">κωμωιδοποιοῦ</foreign> P (ähnl. F) <foreign xml:lang="grc">ἀεί τοι</foreign> Froben: <foreign xml:lang="grc">ἀεὶ τοὶ</foreign> vulg. <foreign xml:lang="grc">χὐπέλιπον</foreign> Dobree: <foreign xml:lang="grc">καὶ ὑπέλιπον</foreign> (od. -λειπον) Hss. 7 <foreign xml:lang="grc">μηδὲ τῶ ποσῶ</foreign> F 15 <foreign xml:lang="grc">διὰ δὲ</foreign> Hss.: verb. Kühn 16 <foreign xml:lang="grc">μὰν</foreign> FP<hi rend="sup">2</hi>: <foreign xml:lang="grc">μὰ</foreign> BP<hi rend="sup">1</hi> 17 <foreign xml:lang="grc">πῶς δέ κ’ ἀμήχανον γ’</foreign> Hss.: verb. G. Hermann <foreign xml:lang="grc">ἀπὸ τίνος</foreign>] sc. <foreign xml:lang="grc">μόλοι</foreign> <foreign xml:lang="grc">μηδὲς</foreign> B: <foreign xml:lang="grc">μηδὲν</foreign> PF: <foreign xml:lang="grc">ἐνθὲν</foreign> Kaibel: <foreign xml:lang="grc">εἶμεν</foreign> G. Hermann</p>
           </note>
-        </div><div type="textpart" subtype="page" n="118" xml:id="diels-v1-dk013-p118"><pb n="118" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=144" />
+        <pb n="118" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=144" />
           <p>5 — οὐκ ἄρ’ ἔμολε πρᾶτον οὐθέν; — οὐδὲ μὰ Δία δεύτερον <lb n="89" />τῶνδέ γ’ ὧν ἁμὲς νῦν ὧδε λέγομες, ἀλλ’ ἀεὶ τάδ’ ἦς.</p>
           <p>καί·</p>
-          <p><hi rend="bold">2.</hi> [170<hi rend="superscript">b</hi>] ⟨αἰ⟩ πὸτ ἀριθμόν τις περισσόν, αἰ δὲ λῆις, πὸτ ἄρτιον, <lb n="5" />(11) ποτθέμειν λῆι ψᾶφον ἢ καὶ τὰν ὑπαρχουσᾶν λαβεῖν, <lb n="5" />ἢ δοκεῖ κά τοί γ’ ⟨ἔθ’⟩ ωὐτὸς εἶμεν; — οὐκ ἐμίν γά κα. <lb n="5" />— οὐδὲ μὰν οὐδ’ αἰ ποτὶ μέτρον παχυαῖον ποτθέμειν <lb n="5" />λῆι τις ἕτερον μᾶκος ἢ τοῦ πρόσθ’ ἐόντος ἀποταμεῖν, <lb n="90" />ἔτι χ’ ὑπάρχοι κῆνο τὸ μέτρον; — οὐ γάρ. — ὧδε νῦν ὅρη <lb n="10" />καὶ τὸς ἀνθρώπως· ὁ μὲν γὰρ αὔξεθ’, ὁ δέ γα μὰν φθίνει, <lb n="10" />ἐν μεταλλαγᾶι δὲ πάντες ἐντὶ πάντα τὸν χρόνον. <lb n="10" />ὃ δὲ μεταλλάσσει κατὰ φύσιν κοὔποκ’ ἐν ταὐτῶι μένει, <lb n="10" />ἕτερον εἴη κα τόδ’ ἤδη τοῦ παρεξεστακότος,</p>
+          </div><div type="textpart" subtype="fragment" n="B2" xml:id="diels-v1-dk013-b2"><p><hi rend="bold">2.</hi> [170<hi rend="superscript">b</hi>] ⟨αἰ⟩ πὸτ ἀριθμόν τις περισσόν, αἰ δὲ λῆις, πὸτ ἄρτιον, <lb n="5" />(11) ποτθέμειν λῆι ψᾶφον ἢ καὶ τὰν ὑπαρχουσᾶν λαβεῖν, <lb n="5" />ἢ δοκεῖ κά τοί γ’ ⟨ἔθ’⟩ ωὐτὸς εἶμεν; — οὐκ ἐμίν γά κα. <lb n="5" />— οὐδὲ μὰν οὐδ’ αἰ ποτὶ μέτρον παχυαῖον ποτθέμειν <lb n="5" />λῆι τις ἕτερον μᾶκος ἢ τοῦ πρόσθ’ ἐόντος ἀποταμεῖν, <lb n="90" />ἔτι χ’ ὑπάρχοι κῆνο τὸ μέτρον; — οὐ γάρ. — ὧδε νῦν ὅρη <lb n="10" />καὶ τὸς ἀνθρώπως· ὁ μὲν γὰρ αὔξεθ’, ὁ δέ γα μὰν φθίνει, <lb n="10" />ἐν μεταλλαγᾶι δὲ πάντες ἐντὶ πάντα τὸν χρόνον. <lb n="10" />ὃ δὲ μεταλλάσσει κατὰ φύσιν κοὔποκ’ ἐν ταὐτῶι μένει, <lb n="10" />ἕτερον εἴη κα τόδ’ ἤδη τοῦ παρεξεστακότος,</p>
           <p>(5) B. Also kam überhaupt nichts zuerst? A. Gewißnicht, auch nicht zu zweit, wenigstens von dem, wovon wir hier jetzt so reden, sondern das war immer da.</p>
           <p><hi rend="bold">2.</hi> A. Wenn einer zu einer geraden Zahl, meinethalben auch einer ungeraden, einen Stein zulegen oder von den vorhandenen einen wegnehmen will, meinst du wohl, sie bleibe noch dieselbe? B. Bewahre! A. Nun ferner, wenn einer zu einer Elle Maß (5) eine andere Länge zulegen oder von der vorhandenen abschneiden will, bleibt dann wohl noch jenes Maß bestehen? B. Natürlich nicht. A. Nun so sieh dir auch die Menschen an. Der eine wächst, der andere nimmt halt ab, im Wechsel sind sie alle allezeit. Doch was von Natur wechselt und nimmer auf demselben Flecke bleibt, (10) das wäre ja dann wohl etwas von dem Veränderten verschiedenes. Auch du und ich sind gestern und heut</p>
           <note type="apparatus">
             <p>1 οὐθέν B: οὐδὲν BF 2 τωνδεγεων B: τῶνδ’ ὧν F: τῶ(εx τοῦ?)νδ.. ὧν (nach ὃ Rasur) P λέγομες G. Hermann: λέγω PB: λέγων F ἀλλ’ ἀεὶ τάδ’ ἦς Bergk: μέλλει τάδ’ εἶναι (ἦναι, ἢ in Ras. B) BP: μέλλει (με in Corr.) τάδ’ ἦναι F<hi rend="superscript">1</hi>. In ἦναι steckt ἦς· καί; καὶ fügte ich zu, da B 2 nicht zugehört 4 ⟨αἰ⟩ G. Hermann πὸτ (vor ἄρτιον) Bergk: τὸν Hss. 5 ποτὲ θέμην (θέμιν B) Hss.: verb. Ahrens 6 κά τοι γ’ ἔθ’ ωὐτὸς Kaibel: κατοικ’ ἑαυτος B: κατοῖκ’ (κ ausradiert) καὶ (in Rasur) ὁ αὐτὸς P: κἀτοὶ καὶ ὁ αὐτὸς F γά κα G. Hermann: τάκα Hss. 7 αἰ ποτὶ μ. π. Casaub.: ἀποτι μέτρον παχὺ ἐὸν Hss. ποτθεμειν B: ποτ’ ἐθέμην F: ποτ’ ἐθέμιν P 8 ἕτερον BP<hi rend="superscript">2</hi>: στερρὸν P<hi rend="superscript">1</hi>F<hi rend="superscript">2</hi> 9 χ’ Cobet: κ’ BPF κῆνο B: κεῖνο PF<hi rend="superscript">2</hi>: τῆνο G. Hermann 10 τὸς ἀνθρώπους B: τὼς ἀνθρώπους P: τὼς ἀνθρώπως F 13 κα τόδ’ ἤδη Cobet: κατωδὴ P: κατοδὴ F: καὶ τὸ δ’ εἰ B: κα τὸδ’ ἀεὶ Basileenses (Iuvenes dum sumus Basel 1897)</p>
           </note>
-        </div><div type="textpart" subtype="page" n="119" xml:id="diels-v1-dk013-p119"><pb n="119" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=145" />
+        <pb n="119" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=145" />
           <head>B. FRAGMENTE. 1—3.</head>
           <lg>
             <l>καὶ τὸ δὴ κἀγὼ χθὲς ἄλλοι καί νυν ἄλλοι τελέθομες,</l>
             <l>καὖθις ἄλλοι κοὔποχ' ωὐτοὶ καττὸν ⟨αὐτὸν αὖ⟩ λόγον.᾽</l>
           </lg>
           <p>[Vgl. Plut. d. comm. not. 44 p. 1083 A ὁ τοίνυν περὶ αὐξήσεως λόγος ἐστὶ μὲν ἀρ-<lb n="5" />χαῖος· ἠρώτηται γάρ, ὥς φησι Χρύσιππος, ὑπ' Ἐπιχάρμου. d. sera num. vind. 15<lb n="5" />p. 559 ταῦτά γε τοῖς Ἐπιχαρμείοις ἔοικεν, ἐξ ὧν ὁ αὐξόμενος ἀνέφυ τοῖς σοφι-<lb n="6" />σταῖς λόγος· ὁ γὰρ λαβὼν πάλαι τὸ χρέος νῦν οὐκ ὀφείλει γεγονὼς ἕτερος· ὁ δὲ<lb n="7" />κληθεὶς ἐπὶ δεῖπνον ἐχθὲς ἄκλητος ἥκει τήμερον· ἄλλος γάρ ἐστι. ANON. IN<lb n="8" />PLAT. Theaet. 71, 26 [nach 12 B 126<hi rend="sup">b</hi>] καὶ ἐκωμώιδησεν αὐτὸ ἐπὶ τοῦ ἀπαιτου-<lb n="9" />μένου συμβολὰς καὶ ἀρνουμένου τοῦ αὐτοῦ εἶναι διὰ τὸ τὰ μὲν προσγεγενῆσθαι,<lb n="10" />τὰ δὲ ἀπεληλυθέναι, ἐπεὶ δὲ ὁ ἀπαιτῶν ἐτύπτησεν αὐτὸν καὶ ἐνεκαλεῖτο, πάλιν<lb n="11" />κἀκείνου φάσκοντος ἕτερον μὲν εἶναι τὸν τετυπτηκότα, ἕτερον δὲ τὸν ἐγκαλούμενον].<lb n="12" />(12) ἔτι φησὶν ὁ Ἄλκιμος καὶ ταυτί· 'φασὶν οἱ σοφοὶ τὴν ψυχὴν τὰ μὲν διὰ<lb n="13" />τοῦ σώματος αἰσθάνεσθαι, οἷον ἀκούουσαν, βλέπουσαν· τὰ δ' αὐτὴν καθ' αὑτὴν<lb n="14" />ἐνθυμεῖσθαι, μηδὲν τῶι σώματι χρωμένην. διὸ καὶ τῶν ὄντων τὰ μὲν αἰσθητὰ<lb n="15" />εἶναι, τὰ δὲ νοητά. ὧν ἕνεκα καὶ Πλάτων ἔλεγεν ὅτι δεῖ τοὺς συνιδεῖν τὰς τοῦ<lb n="16" />παντὸς ἀρχὰς ἐπιθυμοῦντας πρῶτον μὲν αὐτὰς καθ' αὑτὰς διελέσθαι τὰς ἰδέας,<lb n="17" />οἷον ὁμοιότητα καὶ μονάδα καὶ πλῆθος καὶ μέγεθος καὶ στάσιν καὶ κίνησιν· δεύ-<lb n="18" />τερον αὐτὸ καθ' αὑτὸ τὸ καλὸν καὶ ἀγαθὸν καὶ δίκαιον καὶ τὰ τοιαῦτα ὑποθέσθαι.<lb n="19" />τρίτον τῶν ἰδεῶν συνιδεῖν ὅσαι πρὸς ἀλλήλας εἰσίν, οἷον ἐπιστήμην ἢ μέγεθος ἢ<lb n="20" />δεσποτείαν, ἐνθυμουμένους ὅτι τὰ παρ' ἡμῖν διὰ τὸ μετέχειν ἐκείνων ὁμώνυμα<lb n="21" />ἐκείναις ὑπάρχει· λέγω δὲ οἷον δίκαια μὲν ὅσα τοῦ δικαίου, καλὰ δὲ ὅσα τοῦ<lb n="22" />καλοῦ. ἔστι δὲ τῶν εἰδῶν ἓν ἕκαστον ἀίδιόν τε καὶ νόημα καὶ πρὸς τούτοις<lb n="23" />ἀπαθές· διὸ καί φησιν [Parm. 132 D] ἐν τῆι φύσει τὰς ἰδέας ἑστάναι καθάπερ<lb n="24" />παραδείγματα, τὰ δ' ἄλλα ταύταις ἐοικέναι τούτων ὁμοιώματα καθεστῶτα.<lb n="25" />(13) ὁ τοίνυν Ε. περί τε τοῦ ἀγαθοῦ καὶ περὶ τῶν ἰδεῶν οὕτω λέγει·</p>
-          <p><hi rend="bold">3.</hi> [171] (14) — ἆρ' ἔστιν αὔλησίς τι πρᾶγμα; — πάνυ μὲν οὖν.<lb n="26" />— ἄνθρωπος οὖν αὔλησίς ἐστιν; — οὐθαμῶς.<lb n="27" />— φέρ(ε) ἴδω, τί δ' αὐλητάς; τίς εἶμέν τοι δοκεῖ;</p>
+          </div><div type="textpart" subtype="fragment" n="B3" xml:id="diels-v1-dk013-b3"><p><hi rend="bold">3.</hi> [171] (14) — ἆρ' ἔστιν αὔλησίς τι πρᾶγμα; — πάνυ μὲν οὖν.<lb n="26" />— ἄνθρωπος οὖν αὔλησίς ἐστιν; — οὐθαμῶς.<lb n="27" />— φέρ(ε) ἴδω, τί δ' αὐλητάς; τίς εἶμέν τοι δοκεῖ;</p>
           <p>andere Leute und wieder andere in Zukunft und so sind wir nie wieder<lb />dieselben nach demselben Gesetz.</p>
           <p><hi rend="bold">3.</hi> A. Ist Flötenspiel ein Ding? B. Selbstverständlich. A. Ist<lb />denn nun aber Flötenspiel <hi rend="italic">auch</hi> ein Mensch? B. Keineswegs. A. Laß<lb />weiter sehn, was ist ein Flötenspieler? Was dünkt er dich zu sein?</p>
           <note type="apparatus">
             <p>1 κἠγὼ Ahrens 2 αὐτοὶ Hss. κατὰ τὸν λόγον BPF: verb. Cobet: κατά<lb />(γα τοῦτον) τὸν λ. Basil. 14 μηδὲν BFP<hi rend="sup">2</hi>: μηδὲ P<hi rend="sup">1</hi> 21 ἐκείναις so B: ἐκεί-<lb />νοις PF 24 ὁμοιώματα BF: ὁμοιότατα P 26 οὖν] ὢν Ahrens u. s. f. Nach<lb />Vers 1 nahm * (1. 2. Aufl.) Ausfall eines Verses an, um den Schluß logischer zu<lb />gestalten. Allein da jetzt die Beziehung des fr. auf Platos Apologie p. 27 B (Parodie<lb />der sokratischen Methode) festzustehen scheint, fällt diese Annahme fort. Vgl.<lb />Ed. Basil. Anm. 135. S. oben S. 116, 2 27 Deutlicher wäre κἄνθρωπος<lb />οὐθαμῶς B: οὐδαμῶς PF</p>
           </note>
-        </div><div type="textpart" subtype="page" n="120" xml:id="diels-v1-dk013-p120"><pb n="120" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=146" />
+        <pb n="120" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=146" />
           <head>13. EPICHARMOS.</head>
           <p><lb n="5" />ἄνθρωπος, ἢ οὐ γάρ; — πάνυ μὲν οὖν. — οὐκ οὖν δοκεῖς 91<lb n="6" />οὕτως ἔχειν ⟨κα⟩ καὶ περὶ τἀγαθοῦ; τὸ μὲν<lb n="7" />ἀγαθὸν τὸ πρᾶγμ(α) εἶμεν καθ’ αὑθ’· ὅστις δέ κα<lb n="8" />εἰδῆι μαθὼν τῆν(ο), ἀγαθὸς ἤδη γίγνεται.<lb n="9" />ὥσπερ γάρ ἐστ’ αὔλησιν αὐλητὰς μαθών<lb n="10" />ἢ ὄρχησιν ὀρχηστάς τις ἢ πλοκεὺς πλοκάν,<lb n="11" />ἢ πᾶν γ’ ὁμοίως τῶν τοιούτων ὅ τι τὺ λῆις,<lb n="12" />οὐκ αὐτὸς εἴη κα τέχνα, τεχνικός γα μάν.</p>
           <p>(15) Πλάτων ἐν τῆι περὶ τῶν ἰδεῶν ὑπολήψει [Phaedon p. 96 B] φησίν, εἴπερ<lb n="10" />ἔστι μνήμη, τὰς ἰδέας ἐν τοῖς οὖσιν ὑπάρχειν διὰ τὸ τὴν μνήμην ἠρεμοῦντός<lb n="11" />τινος καὶ μένοντος εἶναι· μένειν δὲ οὐδὲν ἕτερον ἢ τὰς ἰδέας. τίνα γὰρ ἂν τρό-<lb n="12" />πον, φησί, διεσώιζετο τὰ ζῶια μὴ τῆς ἰδέας ἐφαπτόμενα, καὶ πρὸς τοῦτο τὸν<lb n="13" />νοῦν φυσικῶς εἰληφότα; νῦν δὲ μνημονεύει [vgl. Parm. p. 129] τῆς ὁμοιότητος<lb n="14" />⟨γενέσεως⟩ τε καὶ τροφῆς, ὁποία τίς ἐστιν αὐτοῖς, ἐνδεικνύμενα διότι πᾶσι τοῖς<lb n="15" />ζώιοις ἔμφυτός ἐστιν ἡ τῆς ὁμοιότητος θεωρία· διὸ καὶ τῶν ὁμοφύλων αἰσθάνε-<lb n="16" />ται. πῶς οὖν ὁ Ἐ.;</p>
-          <p><hi rend="bold">4. [172] (16)</hi> Εὔμαιε, τὸ σοφόν ἐστιν οὐ καθ’ ἓν μόνον,<lb n="17" />ἀλλ’ ὅσσα περ ζῆι, πάντα καὶ γνώμαν ἔχει.<lb n="18" />καὶ γὰρ τὸ θῆλυ τῶν ἀλεκτορίδων γένος,<lb n="19" />αἰ λῆις καταμαθεῖν ἀτενές, οὐ τίκτει τέκνα<lb n="20" />5 ζῶντ(α), ἀλλ’ ἐπώιζει καὶ ποιεῖ ψυχὰν ἔχειν.</p>
+          </div><div type="textpart" subtype="fragment" n="B4" xml:id="diels-v1-dk013-b4"><p><hi rend="bold">4. [172] (16)</hi> Εὔμαιε, τὸ σοφόν ἐστιν οὐ καθ’ ἓν μόνον,<lb n="17" />ἀλλ’ ὅσσα περ ζῆι, πάντα καὶ γνώμαν ἔχει.<lb n="18" />καὶ γὰρ τὸ θῆλυ τῶν ἀλεκτορίδων γένος,<lb n="19" />αἰ λῆις καταμαθεῖν ἀτενές, οὐ τίκτει τέκνα<lb n="20" />5 ζῶντ(α), ἀλλ’ ἐπώιζει καὶ ποιεῖ ψυχὰν ἔχειν.</p>
           <p>(5) Ein Mensch. Nicht wahr? B. Selbstverständlich. A. Glaubst du<lb n="21" />nun nicht, daß es sich so auch grad mit dem Guten verhält? Das<lb n="22" />Gute ist doch das Ding an sich; wer es aber gelernt hat und weiß,<lb n="23" />wird dann zu einem Guten; wie nämlich Flötenspieler der heißt, der<lb n="24" />das Flötenspiel erlernt hat, (10) oder Tänzer wer Tanzen, Kranzbinder<lb n="25" />wer das Binden gelernt hat und ebenso all dergleichen was du willst;<lb n="26" />so ist überall der betreffende nicht selbst Kunst, wohl aber Künstler.</p>
           <p><hi rend="bold">4.</hi> Eumaios, die Weisheit ist nicht nur in der Einzahl vorhanden,<lb n="27" />sondern alles, was da lebt, hat auch Verstand. Denn das Hennenvolk<lb n="28" />bringt (wenn du scharf überlegen willst) keine lebendigen Jungen hervor,<lb n="29" />sondern (5) brütet sie erst aus und verschafft ihnen so eine Seele. Doch</p>
           <note type="apparatus">
             <p>1 (V. 4 δοκεῖς PF: δοκεῖ B    2 ⟨κα⟩ *: ⟨γα⟩ (vor τἀγαθοῦ) Kaibel    τὠ-<lb />γαθοῦ Ahrens    τὸ μὲν BPF: τό γα Ahrens    3 τὸ δὲ πρᾶγμα Hss.: verb.<lb />Kaibel: τι Ahrens    καθ’ αὑτὸ Hss.    4 γίνεται Ahrens    5 ἐστ’ Kaibel: εἰς<lb />τὴν P: εἴτην BF¹    6 ὄρχησιν BP¹F: τὴν ὄρχησιν P²    7 ἢ] καὶ Wilamowitz<lb />γ’] γε Hss.    8 οὐχ αὑτὸς PF: verb. Scaliger    κα Kaibel: χἀ PF    γε μάν<lb />PF: τε . . . B    13 φυσικῶς F: φυσικὸν BP    14 ⟨ ⟩ *    18 ὅσαπερ Hss.<lb />21 ἐπώιζει B: ἐπῴαζει P: ἐπόζει F</p>
           </note>
-        </div><div type="textpart" subtype="page" n="121" xml:id="diels-v1-dk013-p121"><pb n="121" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=147" />
+        <pb n="121" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=147" />
           <head>B. FRAGMENTE. 3—6.</head>
           <p>τὸ δὲ σοφὸν ἁ φύσις τόδ’ οἶδεν ὡς ἔχει <lb n="91" />μόνα· πεπαίδευται γὰρ αὐταύτας ὕπο.</p>
           <p>καὶ πάλιν· <lb n="92" /></p>
-          <p><hi rend="bold">5.</hi> [173] θαυμαστὸν οὐδὲν ἁμὲ ταῦθ’ οὕτω λέγειν,<lb n="5" />καὶ ἁνδάνειν αὐτοῖσιν αὐτοὺς καὶ δοκεῖν<lb />καλῶς πεφύκειν· καὶ γὰρ ἁ κύων κυνί<lb />κάλλιστον εἶμεν φαίνεται, καὶ βοῦς βοΐ,<lb n="5" />ὄνος δ(ὲ) ὄνωι κάλλιστον, ὗς δέ θην ὑί.</p>
+          </div><div type="textpart" subtype="fragment" n="B5" xml:id="diels-v1-dk013-b5"><p><hi rend="bold">5.</hi> [173] θαυμαστὸν οὐδὲν ἁμὲ ταῦθ’ οὕτω λέγειν,<lb n="5" />καὶ ἁνδάνειν αὐτοῖσιν αὐτοὺς καὶ δοκεῖν<lb />καλῶς πεφύκειν· καὶ γὰρ ἁ κύων κυνί<lb />κάλλιστον εἶμεν φαίνεται, καὶ βοῦς βοΐ,<lb n="5" />ὄνος δ(ὲ) ὄνωι κάλλιστον, ὗς δέ θην ὑί.</p>
           <p>(17) καὶ ταῦτα μὲν καὶ τὰ τοιαῦτα διὰ τῶν τεττάρων βιβλίων παραπήγνυσιν<lb n="10" />ὁ Ἄλκιμος, παρασημαίνων τὴν ἐξ Ἐπιχάρμου Πλάτωνι περιγενομένην ὠφέλειαν.<lb />ὅτι δ’ οὐδ’ αὐτὸς Ἑ. ἠγνόει τὴν αὑτοῦ σοφίαν, μαθεῖν ἔστι κἀκ τούτων ἐν οἷς<lb />τὸν ζηλώσοντα προμαντεύεται·</p>
-          <p><hi rend="bold">6.</hi> [254] ὡς δ(ὲ) ἐγὼ δοκέω, δοκέων γὰρ σάφα ἴσαμι τοῦθ’, ὅτι<lb n="15" />τῶν ἐμῶν μνάμα ποκ’ ἐσσεῖται λόγων τούτων ἔτι.<lb />καὶ λαβών τις αὐτὰ περιδύσας τὸ μέτρον ὃ νῦν ἔχει,<lb />εἷμα δοὺς καὶ πορφυροῦν, λόγοισι ποικίλας καλοῖς,<lb n="5" />δυσπάλαιστος ὢν τὸς ἄλλως εὐπαλαίστους ἀποφανεῖ.</p>
-          <p>wie sich’s mit dieser Weisheit verhält, das weiß die Natur allein. Denn sie hat’s ganz von selbst gelernt.</p>
           <p><hi rend="bold">5.</hi> Kein Wunder, daß wir so sprechen und uns selbst gefallen und uns selber schön gewachsen dünken. Denn ein Hund hält den andern für das schönste Geschöpf, ein Ochse, ein Esel den andern und ein Schwein hält das andere für das Schönste.</p>
+          </div><div type="textpart" subtype="fragment" n="B6" xml:id="diels-v1-dk013-b6"><p><hi rend="bold">6.</hi> [254] ὡς δ(ὲ) ἐγὼ δοκέω, δοκέων γὰρ σάφα ἴσαμι τοῦθ’, ὅτι<lb n="15" />τῶν ἐμῶν μνάμα ποκ’ ἐσσεῖται λόγων τούτων ἔτι.<lb />καὶ λαβών τις αὐτὰ περιδύσας τὸ μέτρον ὃ νῦν ἔχει,<lb />εἷμα δοὺς καὶ πορφυροῦν, λόγοισι ποικίλας καλοῖς,<lb n="5" />δυσπάλαιστος ὢν τὸς ἄλλως εὐπαλαίστους ἀποφανεῖ.</p>
+          <p>wie sich’s mit dieser Weisheit verhält, das weiß die Natur allein. Denn sie hat’s ganz von selbst gelernt.</p>
           <p><hi rend="bold">6.</hi> Wie ich meine (und wenn ich’s meine, so weiß ich es genau), wird von diesen meinen Worten noch einmal die Rede sein. Da wird einer sie hernehmen, das Versmaß, das sie jetzt haben, ihnen <hi rend="italic">vom Leibe</hi> abziehen, <hi rend="italic">dafür</hi> ihnen sogar ein Purpurgewand umlegen, sie mit schönen Reden verbrämen (5) und dann die andern damit leicht bezwingen, er selbst ein schwer bezwungener Held.</p>
           <note type="apparatus">
             <p>2 αὖ ταύτας PF: αὐταύτης B: verb. Porson 4 ἁμὲ Ahrens: με Hss. 6 πεφύκειν Ahrens: πεφυκέναι Hss.: πεφύκεν Basil. 7 καλλίστα B vor φαίνεται hat τινι F 10 περιγενομένην F(?): περιγινομένην BP 12 ζηλώσαντα F 13 σαφαισαμι B² mrg.: σαφισαμι B¹: σαφὲς ἅμι P: σαφάσαιμι F 15 περιδύσας PF: περιδήσας so B: περιλύσας zwecklos Cobet. Die Bedeutung dieser Worte ist zweifelhaft, da die Pseudepicharmea gerade das Metrum als charakteristisch beibehielten. Vielleicht deutet der Verf. dieser (Schluß?)-Verse auf die Imitationen des Euripides 16 καὶ BP: fehlt F: κα schwerlich richtig Basil. πορφυροῦν so BPF: πορφύραν cod. Q (Abschr. von P) und vulg. 17 ὢν τὸς Ahrens: ὢν τοὺς BPF: αὐτὸς Heinsöth, Kaibel ἀποφάνη F: ἀποφαίνει B¹P</p>
           </note>
-        </div><div type="textpart" subtype="page" n="122" xml:id="diels-v1-dk013-p122"><pb n="122" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=148" />
+        </div><div type="textpart" subtype="fragment" n="B7" xml:id="diels-v1-dk013-b7"><pb n="122" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=148" />
           <p><lb n="1" /><num>7.</num> <num>[78]</num> <foreign xml:lang="la">Eustrat. z. Ar. Nic. Γ 7 S. 155, 10 Heylb.</foreign> ἐν Ἡρακλεῖ τῶι παρὰ <num>92</num> Φόλωι·</p>
           <lg>
             <l>ἀλλὰ μὰν ἐγὼν ἀνάγκαι ταῦτα πάντα ποιέω·</l>
@@ -175,91 +175,98 @@
           <p>
             <foreign xml:lang="de">Vgl. A 10 und Vorbemerkung 6 S. 116.</foreign>
           </p>
-          <p><num>8.</num> <num>[239]</num> <foreign xml:lang="la">Stob. IV 31, 30 Μενάνδρου (537 Kock) vgl. B 53.</foreign></p>
+          <p><num>7.</num> <foreign xml:lang="de">Doch ich tue das alles nur aus Zwang. Niemand ist, dünkt mich, ohne seinen Willen schlecht oder unglücklich.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B8" xml:id="diels-v1-dk013-b8"><p><num>8.</num> <num>[239]</num> <foreign xml:lang="la">Stob. IV 31, 30 Μενάνδρου (537 Kock) vgl. B 53.</foreign></p>
           <lg>
             <l>ὁ μὲν Ἐπίχαρμος τοὺς θεοὺς εἶναι λέγει</l>
             <l>ἀνέμους, ὕδωρ, γῆν, ἥλιον, πῦρ, ἀστέρας·</l>
             <l>ἐγὼ δ’ ὑπέλαβον χρησίμους εἶναι θεούς</l>
             <l>τἀργύριον ἡμῖν καὶ τὸ χρυσίον μόνους.</l>
           </lg>
-          <p><num>9.</num> <num>[245]</num> <foreign xml:lang="la">[Plut.] cons. ad Apoll. 15 p. 110 A [vgl. B 48]</foreign> <num>93</num></p>
-          <lg>
-            <l>συνεκρίθη καὶ διεκρίθη κἀπῆλθεν ὅθεν ἦλθεν πάλιν,</l>
-            <l>γᾶ μὲν εἰς γᾶν, πνεῦμα δ’ ἄνω· τί τῶνδε χαλεπόν; οὐδὲ ἕν.</l>
-          </lg>
-          <p><num>10.</num> <num>[246]</num> <foreign xml:lang="la">Clem. Str. IV 45 (II 268, 20 St.)</foreign></p>
-          <lg>
-            <l>ἅ γα φύσις ἀνδρῶν τί ὦν; ἀσκοὶ πεφυσιωμένοι.</l>
-          </lg>
-          <p><num>11.</num> <num>[247]</num> <foreign xml:lang="la">Sext. adv. math. I 273 (vgl. Cic. Tusc. I 8, 15)</foreign></p>
-          <lg>
-            <l>ἀποθανεῖν ⟨μὴ εἴ⟩η, τεθνάκειν δ’ οὐκ ἐμίν ⟨γα⟩ διαφέρει.</l>
-          </lg>
-          <p><num>7.</num> <foreign xml:lang="de">Doch ich tue das alles nur aus Zwang. Niemand ist, dünkt mich, ohne seinen Willen schlecht oder unglücklich.</foreign></p>
           <head>
             <foreign xml:lang="de">AXIOPISTOS’ GNOMENSAMMLUNG.</foreign>
           </head>
           <p><num>8.</num> <foreign xml:lang="de">Epicharm sagt, die Götter seien Winde, Wasser, Erde, Sonne, Feuer, Sterne. Ich aber habe die Meinung bekommen, nützliche Götter seien für uns lediglich Gold- und Silbergeld.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B9" xml:id="diels-v1-dk013-b9"><p><num>9.</num> <num>[245]</num> <foreign xml:lang="la">[Plut.] cons. ad Apoll. 15 p. 110 A [vgl. B 48]</foreign> <num>93</num></p>
+          <lg>
+            <l>συνεκρίθη καὶ διεκρίθη κἀπῆλθεν ὅθεν ἦλθεν πάλιν,</l>
+            <l>γᾶ μὲν εἰς γᾶν, πνεῦμα δ’ ἄνω· τί τῶνδε χαλεπόν; οὐδὲ ἕν.</l>
+          </lg>
           <p><num>9.</num> <foreign xml:lang="de">Es verband und schied sich, es kam wieder hin, wo es herkam: Erde zur Erde, der Hauch in die Höhe! Was ist dabei schwierig; gar nichts!</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B10" xml:id="diels-v1-dk013-b10"><p><num>10.</num> <num>[246]</num> <foreign xml:lang="la">Clem. Str. IV 45 (II 268, 20 St.)</foreign></p>
+          <lg>
+            <l>ἅ γα φύσις ἀνδρῶν τί ὦν; ἀσκοὶ πεφυσιωμένοι.</l>
+          </lg>
           <p><num>10.</num> <foreign xml:lang="de">Was ist nun also die Natur der Menschen? Aufgeblasene Bälge.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B11" xml:id="diels-v1-dk013-b11"><p><num>11.</num> <num>[247]</num> <foreign xml:lang="la">Sext. adv. math. I 273 (vgl. Cic. Tusc. I 8, 15)</foreign></p>
+          <lg>
+            <l>ἀποθανεῖν ⟨μὴ εἴ⟩η, τεθνάκειν δ’ οὐκ ἐμίν ⟨γα⟩ διαφέρει.</l>
+          </lg>
           <p><num>11.</num> <foreign xml:lang="de">Sterben müssen bleibe mir fern, doch tot sein — das ist mir egal.</foreign></p>
           <note type="apparatus">
             <p><num>3</num> ἀναγκαῖα Hss.: verb. Ahrens <num>9</num> ἥλιον γῆν ὕδωρ stellen Hss.: verb. Grotius <num>11</num> ἡμῖν Grotius: ἡμῶν Hss. μόνους B (vgl. Cobet N. L. 82): fehlt sonst: μόνον vulg. <num>16</num> ἅ γα φύσις ἀνδρῶν τί ὦν *: αὕτα φύσις ἀνθρώπων Clem. πεφυσιωμένοι * (wie ἐμφυσιόω aufblähen neben ἐμφυσᾶν, φυσιάει Kerkidas Ox. P. VIII 31 [3, 17] neben φυσῆν ib. 33 [4, 6]: πεφυσημένοι Clem. <num>18</num> ἀποθανεῖν ἢ τεθνάναι οὔ μοι διαφέρει Sext.: verb. * (Cic. Tusc. I 8, 15 <foreign xml:lang="la">emori nolo, sed me esse mortuum nil aestumo</foreign>): ἁ. οὐ λῶ, τεθνάκειν δ’ οὐδὲ ἕν μοι διαφέρει Ahrens</p>
           </note>
-        </div><div type="textpart" subtype="page" n="123" xml:id="diels-v1-dk013-p123"><pb n="123" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=149" />
+        </div><div type="textpart" subtype="fragment" n="B12" xml:id="diels-v1-dk013-b12"><pb n="123" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=149" />
           <head>B. FRAGMENTE. 7—20.</head>
           <p>12. [249] Plut. de fort. Al. II 3 p. 336B [vgl. 11 B 24] <hi rend="align-right">93</hi><lb />νοῦς ὁρῆι καὶ νοῦς ἀκούει· τἆλλα κωφὰ καὶ τυφλά.</p>
-          <p>13. [250] Polyb. XVIII 40, 4<lb />νᾶφε καὶ μέμνασ’ ἀπιστεῖν· ἄρθρα ταῦτα τᾶν φρενῶν.</p>
-          <p><lb n="5" />14. [251] Arist. Metaph. M 9. 1068<hi rend="superscript">a</hi> 16 χαλεπὸν δ’ ἐκ μὴ καλῶς ἐχόντων λέγειν<lb />καλῶς κατ’ Ἐπίχαρμον· ἀρτίως τε γὰρ λέλεκται καὶ εὐθέως φαίνεται οὐ<lb />καλῶς ἔχον.</p>
-          <p>15. [252] — Metaph. Γ 5. 1010<hi rend="superscript">a</hi> 5. S. 11 A 15 (S. 44, 16).</p>
-          <p><lb n="10" />16. [253] Athen. VII 308 c<lb />τὰ πρὸ τοῦ δ’ ἄνδρες ἔλεγον, εἷς ἐγὼν ἀποχρέω.</p>
-          <p>17. [258] Stob. III 37, 18 H. Vgl. 12 B 119<lb />ὁ τρόπος ἀνθρώποισι δαίμων ἀγαθός, οἷς δὲ καὶ κακός.</p>
-          <p>18. [261] Anecd. Boiss. I 125.<lb />ἐφόδιον θνατοῖς μέγιστόν ἐστιν εὐσεβὴς βίος.</p>
-          <p><lb n="15" />19. [262] Arist. Rhet. II 21, 1394<hi rend="superscript">b</hi> 13 [ohne Lemma]<lb />ἀνδρὶ δ’ ὑγιαίνειν ἄριστόν ἐστιν, ὥς γ’ ἐμὶν δοκεῖ.</p>
-          <p>20. [263] Arist. Rhet. II 21, 1394<hi rend="superscript">b</hi> 25 <hi rend="align-right">94</hi><lb />θνατὰ χρὴ τὸν θνατόν, οὐκ ἀθάνατα τὸν θνατὸν φρονεῖν.</p>
           <p>12. Nur der Verstand ist’s, der sieht und hört. Alles andere ist<lb />taub und blind.</p>
+          </div><div type="textpart" subtype="fragment" n="B13" xml:id="diels-v1-dk013-b13"><p>13. [250] Polyb. XVIII 40, 4<lb />νᾶφε καὶ μέμνασ’ ἀπιστεῖν· ἄρθρα ταῦτα τᾶν φρενῶν.</p>
           <p>13. Nüchternheit und Mißtrauen, das sind des Geistes Arme.</p>
+          </div><div type="textpart" subtype="fragment" n="B14" xml:id="diels-v1-dk013-b14"><p><lb n="5" />14. [251] Arist. Metaph. M 9. 1068<hi rend="superscript">a</hi> 16 χαλεπὸν δ’ ἐκ μὴ καλῶς ἐχόντων λέγειν<lb />καλῶς κατ’ Ἐπίχαρμον· ἀρτίως τε γὰρ λέλεκται καὶ εὐθέως φαίνεται οὐ<lb />καλῶς ἔχον.</p>
           <p>14. <hi rend="italic">Denn es ist schwer aus unrichtigen Vordersätzen einen richtigen<lb />Schluß zu bilden nach Epicharm.</hi> ‘Eben ist es ausgesprochen und gleich<lb />ist der Fehler da’.</p>
+          </div><div type="textpart" subtype="fragment" n="B15" xml:id="diels-v1-dk013-b15"><p>15. [252] — Metaph. Γ 5. 1010<hi rend="superscript">a</hi> 5. S. 11 A 15 (S. 44, 16).</p>
+          </div><div type="textpart" subtype="fragment" n="B16" xml:id="diels-v1-dk013-b16"><p><lb n="10" />16. [253] Athen. VII 308 c<lb />τὰ πρὸ τοῦ δ’ ἄνδρες ἔλεγον, εἷς ἐγὼν ἀποχρέω.</p>
           <p>16. Was vordem zwei Männer sprachen, dazu bin ich allein Manns<lb />genug.</p>
+          </div><div type="textpart" subtype="fragment" n="B17" xml:id="diels-v1-dk013-b17"><p>17. [258] Stob. III 37, 18 H. Vgl. 12 B 119<lb />ὁ τρόπος ἀνθρώποισι δαίμων ἀγαθός, οἷς δὲ καὶ κακός.</p>
           <p>17. Der Charakter ist den Menschen ihr guter Dämon, welchen auch<lb />ihr schlechter.</p>
+          </div><div type="textpart" subtype="fragment" n="B18" xml:id="diels-v1-dk013-b18"><p>18. [261] Anecd. Boiss. I 125.<lb />ἐφόδιον θνατοῖς μέγιστόν ἐστιν εὐσεβὴς βίος.</p>
           <p>18. Ein frommes Leben ist den Sterblichen das beste Zehrgeld.</p>
+          </div><div type="textpart" subtype="fragment" n="B19" xml:id="diels-v1-dk013-b19"><p><lb n="15" />19. [262] Arist. Rhet. II 21, 1394<hi rend="superscript">b</hi> 13 [ohne Lemma]<lb />ἀνδρὶ δ’ ὑγιαίνειν ἄριστόν ἐστιν, ὥς γ’ ἐμὶν δοκεῖ.</p>
           <p>19. Für den Menschen ist Gesundheit das Beste, wie’s mir schei-<lb />nen will.</p>
+          </div><div type="textpart" subtype="fragment" n="B20" xml:id="diels-v1-dk013-b20"><p>20. [263] Arist. Rhet. II 21, 1394<hi rend="superscript">b</hi> 25 <hi rend="align-right">94</hi><lb />θνατὰ χρὴ τὸν θνατόν, οὐκ ἀθάνατα τὸν θνατὸν φρονεῖν.</p>
           <p>20. Sterbliche Gedanken soll der Sterbliche hegen, nicht unsterbliche<lb />der Sterbliche.</p>
           <note type="apparatus">
             <p>6 Epicharms Zitat beginnt erst mit ἀρτίως    8 (B 15) εἰκότως μὲν οὐκ ἔφα<lb />τόδ’ ἀλλ’ ἀλαθέως ἔφα Gomperz    14 εὐσεβὴς βίος μέγιστον ἐφόδιον θνατοῖς<lb />ἐστι Hs.: verb. Kaibel    15 Nach Schol. Plat. Gorg. 451 E Ep. zugesprochen<lb />von Meineke, der γ’ ἡμῖν der Hss. verb.</p>
           </note>
-        </div><div type="textpart" subtype="page" n="124" xml:id="diels-v1-dk013-p124"><pb n="124" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=150" />
+        </div><div type="textpart" subtype="fragment" n="B21" xml:id="diels-v1-dk013-b21"><pb n="124" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=150" />
           <head>13. EPICHARMOS.</head>
           <p>21. [264] Cic. ad Qu. fr. III 1, 23 <lb n="2" /><foreign xml:lang="grc">γνῶθι πῶς ἄλλωι κέχρηται . . .</foreign></p>
-          <p>22. [265] Clem. Str. IV 170 (II 322, 22 St.) <lb n="4" /><foreign xml:lang="grc">εὐσεβὴς νόωι πεφυκὼς οὐ πάθοις κ’ οὐδὲν κακὸν <lb n="5" />κατθανών· ἄνω τὸ πνεῦμα διαμενεῖ κατ’ οὐρανόν.</foreign></p>
-          <p>23. [266] — — V 101 (II 393, 10 St.) <foreign xml:lang="grc">ὁ μὲν Ἐπίχαρμος (Πυθαγόρειος δὲ ἦν) λέγων <lb n="7" />οὐδὲν ἐκφεύγει τὸ θεῖον· τοῦτο γινώσκειν σε δεῖ· <lb n="8" />αὐτός ἐσθ’ ἁμῶν ἐπόπτης, ἀδυνατεῖ δ’ οὐδὲν θεός.</foreign></p>
-          <p>24. [267] — — VI 12 (II 432, 11 St.) <lb n="10" /><foreign xml:lang="grc">ὡς πολὺν ζήσων χρόνον χὡς ὀλίγον, οὕτως διανοοῦ.</foreign></p>
-          <p>25. [268] — — VI 21 (II 439, 22 St.). Vgl. 1 A 1 (I 6, 15). 73<hi rend="superscript">a</hi> 2. 3 <foreign xml:lang="grc">δ</foreign> 1 <lb n="12" /><foreign xml:lang="grc">ἐγγύα ⟨δ’⟩ ἄτας ⟨γα⟩ θυγάτηρ, ἐγγύας δὲ Ζαμία.</foreign></p>
-          <p>26. [269] — — VII 27 (III 20, 11 St.) <lb n="14" /><foreign xml:lang="grc">καθαρὸν ἂν τὸν νοῦν ἔχηις, ἅπαν τὸ σῶμα καθαρὸς εἶ.</foreign></p>
-          <p>27. [270] Cornut. theol. 14 <lb n="16" /><foreign xml:lang="grc">αἴ τί κα ζατῆις σοφόν, τᾶς νυκτὸς ἐνθυμητέον.</foreign> <lb n="17" /><foreign xml:lang="grc">καί·</foreign></p>
-          <p>28. [271] <lb n="19" /><foreign xml:lang="grc">πάντα τὰ σπουδαῖα νυκτὸς μᾶλλον ἐξευρίσκεται.</foreign></p>
-          <p>29. [272] Gell. I 15, 15 <lb n="21" /><foreign xml:lang="grc">οὐ λέγειν τύ γ’ ἐσσὶ δεινός, ἀλλὰ σιγᾶν ἀδύνατος.</foreign></p>
           <p>21. Nimm Dir eine Lehre daraus, wie er einen andern ausgenutzt hat! <lb n="24" />22. Bist du im Herzen fromm geartet, wird Dir im Tode kein Leid <lb n="25" />widerfahren. In der Höhe wird der Hauch im Himmel ewig leben. <lb n="26" />23. Nichts entflieht der Gottheit; das sollst du lernen. Er selbst <lb n="27" />ist unser Aufseher, und bei Gott ist kein Ding unmöglich. <lb n="28" />24. Daß du sowohl lange als kurz leben kannst, daran denke stets! <lb n="29" />25. Der Verblendung Tochter ist die Bürgschaft und der Bürgschaft <lb n="30" />der Verlust. <lb n="31" />26. Hast du reinen Sinn, so ist dein ganzer Körper rein. <lb n="32" />27. Suchst du etwas Kluges, so bedenk’ es in der Nacht! <lb n="33" />28. Alles Ernste findet man eher bei Nacht. <lb n="34" />29. Nicht zu reden bist du fähig, sondern zu schweigen unfähig.</p>
           <note type="apparatus">
             <p>2 <foreign xml:lang="grc">ἄλλοις</foreign> verm. Kaibel 4 <foreign xml:lang="grc">νῶι</foreign> Hs. <foreign xml:lang="grc">κ’</foreign> Dindorf: <foreign xml:lang="grc">γ’</foreign> Hs. 5 <foreign xml:lang="grc">διαμένει</foreign> Hs., Kaibel 7 <foreign xml:lang="grc">τὺ</foreign> und <foreign xml:lang="grc">ἐπόπτας</foreign> (Grotius) wären notwendig, wenn das Fragm. alt aussähe 10 vgl. Bacchyl. 3, 78 12 *: <foreign xml:lang="grc">ἐγγύα ἄτα θυγάτηρ, ἐγγύα δὲ ζαμίας</foreign> Hs., <foreign xml:lang="grc">ἐγγύας ἄτα ’στὶ θυγ., ἐγγύα δὲ ζαμίας</foreign> Teuffel 16 <foreign xml:lang="grc">εἴ τι τὲ φησὶ ζητεῖς σοφὸν τῆς ν. ἐ.</foreign> Hss.: verb. Kaibel: <foreign xml:lang="grc">αἴτε τι ζατεῖ σοφόν τις ν. ἐ.</foreign> Porson-Lorenz</p>
           </note>
-        </div><div type="textpart" subtype="page" n="125" xml:id="diels-v1-dk013-p125"><pb n="125" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=151" />
+        </div><div type="textpart" subtype="fragment" n="B22" xml:id="diels-v1-dk013-b22"><p>22. [265] Clem. Str. IV 170 (II 322, 22 St.) <lb n="4" /><foreign xml:lang="grc">εὐσεβὴς νόωι πεφυκὼς οὐ πάθοις κ’ οὐδὲν κακὸν <lb n="5" />κατθανών· ἄνω τὸ πνεῦμα διαμενεῖ κατ’ οὐρανόν.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B23" xml:id="diels-v1-dk013-b23"><p>23. [266] — — V 101 (II 393, 10 St.) <foreign xml:lang="grc">ὁ μὲν Ἐπίχαρμος (Πυθαγόρειος δὲ ἦν) λέγων <lb n="7" />οὐδὲν ἐκφεύγει τὸ θεῖον· τοῦτο γινώσκειν σε δεῖ· <lb n="8" />αὐτός ἐσθ’ ἁμῶν ἐπόπτης, ἀδυνατεῖ δ’ οὐδὲν θεός.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B24" xml:id="diels-v1-dk013-b24"><p>24. [267] — — VI 12 (II 432, 11 St.) <lb n="10" /><foreign xml:lang="grc">ὡς πολὺν ζήσων χρόνον χὡς ὀλίγον, οὕτως διανοοῦ.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B25" xml:id="diels-v1-dk013-b25"><p>25. [268] — — VI 21 (II 439, 22 St.). Vgl. 1 A 1 (I 6, 15). 73<hi rend="superscript">a</hi> 2. 3 <foreign xml:lang="grc">δ</foreign> 1 <lb n="12" /><foreign xml:lang="grc">ἐγγύα ⟨δ’⟩ ἄτας ⟨γα⟩ θυγάτηρ, ἐγγύας δὲ Ζαμία.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B26" xml:id="diels-v1-dk013-b26"><p>26. [269] — — VII 27 (III 20, 11 St.) <lb n="14" /><foreign xml:lang="grc">καθαρὸν ἂν τὸν νοῦν ἔχηις, ἅπαν τὸ σῶμα καθαρὸς εἶ.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B27" xml:id="diels-v1-dk013-b27"><p>27. [270] Cornut. theol. 14 <lb n="16" /><foreign xml:lang="grc">αἴ τί κα ζατῆις σοφόν, τᾶς νυκτὸς ἐνθυμητέον.</foreign> <lb n="17" /><foreign xml:lang="grc">καί·</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B28" xml:id="diels-v1-dk013-b28"><p>28. [271] <lb n="19" /><foreign xml:lang="grc">πάντα τὰ σπουδαῖα νυκτὸς μᾶλλον ἐξευρίσκεται.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B29" xml:id="diels-v1-dk013-b29"><p>29. [272] Gell. I 15, 15 <lb n="21" /><foreign xml:lang="grc">οὐ λέγειν τύ γ’ ἐσσὶ δεινός, ἀλλὰ σιγᾶν ἀδύνατος.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="B30" xml:id="diels-v1-dk013-b30"><pb n="125" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=151" />
           <head>B. FRAGMENTE. 21—37.</head>
           <p><hi rend="bold">30.</hi> [273] [Plat.] Axioch. p. 366 c <space quantity="6" unit="char" /> 94<lb n="2" /><foreign xml:lang="grc">ἁ δὲ χεὶρ τὰν χεῖρα νίζει· δός τι καὶ λάβοις τί κα.</foreign><lb n="3" /><hi rend="bold">31.</hi> [274] <hi rend="smallcaps">Plut.</hi> Popl. 15 (πρὸς τὸν ἄσωτον) <space quantity="6" unit="char" /> 95<lb n="4" /><foreign xml:lang="grc">οὐ φιλάνθρωπος τύ γ’ ἔσσ’· ἔχεις νόσον, χαίρεις διδούς.</foreign><lb n="5" /><hi rend="bold">32.</hi> [275] — de aud. poet. 4 p. 21 E [ohne Lemma]<lb n="6" /><foreign xml:lang="grc">ποτὶ [τὸν] πονηρὸν οὐκ ἄχρηστον ὅπλον ἁ πονηρία.</foreign><lb n="7" /><hi rend="bold">33.</hi> [284] <hi rend="smallcaps">Stob.</hi> flor. (II) 29, 54 H.<lb n="8" /><foreign xml:lang="grc">ἁ δὲ μελέτα φύσιος ἀγαθᾶς πλέονα δωρεῖται, φίλοι.</foreign><lb n="9" /><hi rend="bold">34.</hi> [285] — 38, 21 H.<lb n="10" /><foreign xml:lang="grc">τίς δέ κα λώιη γενέσθαι μὴ φθονούμενος, φίλοι;<lb n="11" />δῆλον ὡς ἀνὴρ παρ’ οὐδέν ἐσθ’ ὁ μὴ φθονούμενος·<lb n="12" />τυφλὸν ἠλέησ’ ἰδών τις, ἐφθόνησε δ’ οὐδὲ εἷς.</foreign><lb n="13" /><hi rend="bold">35.</hi> [286] — (IV) 23, 37 H.<lb n="14" /><foreign xml:lang="grc">σώφρονος γυναικὸς ἀρετὰ τὸν συνόντα μὴ ἀδικεῖν [ἄνδρα].</foreign><lb n="15" /><hi rend="bold">36.</hi> [287] <hi rend="smallcaps">Xenoph.</hi> Mem. II 1, 20 μαρτυρεῖ δὲ καὶ Ἐ. ἐν τῶιδε·<lb n="16" /><foreign xml:lang="grc">τῶν πόνων πωλοῦσιν ἡμῖν πάντα τἀγάθ’ οἱ θεοί.</foreign><lb n="17" /><foreign xml:lang="grc">καὶ ἐν ἄλλωι δὲ τόπωι φησίν·</foreign><lb n="18" /><hi rend="bold">37.</hi> [288]<lb n="19" /><foreign xml:lang="grc">ὦ πονηρέ, μὴ τὰ μαλακὰ μῶσο, μὴ τὰ σκλήρ’ ἔχῃς.</foreign></p>
           <p><hi rend="bold">30.</hi> Hand wird nur von Hand gewaschen; wenn du nehmen willst, so gib!<lb n="21" /><hi rend="bold">31.</hi> Du bist nicht menschenfreundlich; du bist vielmehr krank. Dir macht ja das Schenken Freude.<lb n="23" /><hi rend="bold">32.</hi> Gegen Schurken ist Schurkerei keine unbrauchbare Waffe.<lb n="24" /><hi rend="bold">33.</hi> Doch die Übung, Freunde, gibt mehr aus als gute Anlage.<lb n="25" /><hi rend="bold">34.</hi> Wer möchte nicht gern beneidet werden, o Freunde! Wer nicht beneidet wird, der Mann taugt klärlich nichts. Einen Blinden bemitleidet mancher, der ihn erblickt, aber beneiden tut ihn keiner.<lb n="28" /><hi rend="bold">35.</hi> Einer braven Frau Tugend heißt: ihrem Gatten nicht weh zu tun.<lb n="29" /><hi rend="bold">36.</hi> Mühe heißt der Preis, um den uns die Götter alles Gute verkaufen.<lb n="31" /><hi rend="bold">37.</hi> Du Schurke, denk’ nicht auf das Weiche: sonst kriegst du das Harte.</p>
           <note type="apparatus">
             <p>2 s. Varianten zu 77 B 9 <space quantity="4" unit="char" /> 6 [τὸν] Schneidewin <space quantity="4" unit="char" /> 8 *: φίλοις Stob.: φίλε Wilamowitz <space quantity="4" unit="char" /> 10 δ’ ἐγκαλοίη Stob.: verb. Porson <space quantity="4" unit="char" /> *: φίλος Stob.: φίλοις Kaibel <space quantity="4" unit="char" /> 11 παρ’ οὐδὲν Hense, Kaibel: γὰρ οὐδεὶς Stob. <space quantity="4" unit="char" /> 14 [ἄνδρα] Valckenaer <space quantity="4" unit="char" /> 16 πωλοῦντι πάντα τἀγάθ’ ἁμὶν τοὶ Ahrens <space quantity="4" unit="char" /> 19 μῶσο Ahrens: μόσω, μώεο, μώσης ὦ Hss.</p>
           </note>
-        </div><div type="textpart" subtype="page" n="126" xml:id="diels-v1-dk013-p126"><pb n="126" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=152" />
+        </div><div type="textpart" subtype="fragment" n="B38" xml:id="diels-v1-dk013-b38"><pb n="126" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=152" />
           <head>13. EPICHARMOS.</head>
           <p><hi rend="bold">38.</hi> [277] <hi rend="sc">Stob. Ecl.</hi> II 15, 7 <lb n="1" /><foreign xml:lang="grc">πρὸς τὸς ⟨οὐ⟩ πέλας πορεύου λαμπρὸν ἱμάτιον ἔχων,</foreign> <lb n="2" /><foreign xml:lang="grc">καὶ φρονεῖν πολλοῖσι δόξεις, τυχὸν ἴσως ⟨οὐδὲν φρονῶν⟩.</foreign></p>
-          <p><hi rend="bold">39.</hi> [278] — — 18 (ohne Lemma) <lb n="3" /><foreign xml:lang="grc">τῶι λόγωι μὲν εὖ διέρχηι πάντα, τῶι δ’ ἔργωι κακῶς.</foreign></p>
-          <p><hi rend="bold">40.</hi> [279] — — 31, 25 (ohne Lemma) <lb n="4" /><foreign xml:lang="grc">φύσιν ἔχειν ἄριστόν ἐστι, δεύτερον δὲ ⟨μανθάνειν⟩.</foreign></p>
-          <p><hi rend="bold">41.</hi> [280] — <hi rend="sc">flor.</hi> (III) 1, 10 H. <lb n="5" /><foreign xml:lang="grc">οὐ μετανοεῖν ἀλλὰ προνοεῖν χρὴ τὸν ἄνδρα τὸν σοφόν.</foreign></p>
-          <p><hi rend="bold">42.</hi> [281] — — 20, 8 H. <lb n="6" /><foreign xml:lang="grc">μὴ (ἐ)πὶ μικροῖς αὐτὸς αὐτὸν ὀξύθυμον δείκνυε.</foreign></p>
-          <p><hi rend="bold">43.</hi> [282] — — 20, 9 H. <lb n="7" /><foreign xml:lang="grc">ἐπιπολάζειν οὔ τι χρὴ τὸν θυμόν, ἀλλὰ τὸν νόον.</foreign></p>
-          <p><hi rend="bold">44.</hi> [283] — — 20, 10 H. <lb n="8" /><foreign xml:lang="grc">οὐδὲ εἷς οὐδὲν μετ’ ὀργῆς κατὰ τρόπον βουλεύεται.</foreign></p>
-          <p><hi rend="bold">45.</hi> [297] <hi rend="sc">Anthol. Mahaff.</hi> [Flinders Petrie Pap. I t. 3] III. Jahrh. v. Chr. <lb n="9" /><foreign xml:lang="grc">a) Ἐπιχάρμου</foreign></p>
+          <p><hi rend="bold">38.</hi> Geh zu den Fernstehenden in glänzendem Gewande: dann werden viele meinen, du habest Verstand, wenn du vielleicht auch keinen hast.</p>
+          </div><div type="textpart" subtype="fragment" n="B39" xml:id="diels-v1-dk013-b39"><p><hi rend="bold">39.</hi> [278] — — 18 (ohne Lemma) <lb n="3" /><foreign xml:lang="grc">τῶι λόγωι μὲν εὖ διέρχηι πάντα, τῶι δ’ ἔργωι κακῶς.</foreign></p>
+          <p><hi rend="bold">39.</hi> In deinen Worten führst du alles gut aus, aber in deinen Werken übel.</p>
+          </div><div type="textpart" subtype="fragment" n="B40" xml:id="diels-v1-dk013-b40"><p><hi rend="bold">40.</hi> [279] — — 31, 25 (ohne Lemma) <lb n="4" /><foreign xml:lang="grc">φύσιν ἔχειν ἄριστόν ἐστι, δεύτερον δὲ ⟨μανθάνειν⟩.</foreign></p>
+          <p><hi rend="bold">40.</hi> Talent haben, das ist das Beste, das zweite, etwas lernen.</p>
+          </div><div type="textpart" subtype="fragment" n="B41" xml:id="diels-v1-dk013-b41"><p><hi rend="bold">41.</hi> [280] — <hi rend="sc">flor.</hi> (III) 1, 10 H. <lb n="5" /><foreign xml:lang="grc">οὐ μετανοεῖν ἀλλὰ προνοεῖν χρὴ τὸν ἄνδρα τὸν σοφόν.</foreign></p>
+          <p><hi rend="bold">41.</hi> Nicht nachbedenken, sondern vorbedenken soll der weise Mann.</p>
+          </div><div type="textpart" subtype="fragment" n="B42" xml:id="diels-v1-dk013-b42"><p><hi rend="bold">42.</hi> [281] — — 20, 8 H. <lb n="6" /><foreign xml:lang="grc">μὴ (ἐ)πὶ μικροῖς αὐτὸς αὐτὸν ὀξύθυμον δείκνυε.</foreign></p>
+          <p><hi rend="bold">42.</hi> Zeige dich nicht über Kleinigkeiten erregt!</p>
+          </div><div type="textpart" subtype="fragment" n="B43" xml:id="diels-v1-dk013-b43"><p><hi rend="bold">43.</hi> [282] — — 20, 9 H. <lb n="7" /><foreign xml:lang="grc">ἐπιπολάζειν οὔ τι χρὴ τὸν θυμόν, ἀλλὰ τὸν νόον.</foreign></p>
+          <p><hi rend="bold">43.</hi> Nicht der Zorn, sondern der Verstand muß obenauf schwimmen.</p>
+          </div><div type="textpart" subtype="fragment" n="B44" xml:id="diels-v1-dk013-b44"><p><hi rend="bold">44.</hi> [283] — — 20, 10 H. <lb n="8" /><foreign xml:lang="grc">οὐδὲ εἷς οὐδὲν μετ’ ὀργῆς κατὰ τρόπον βουλεύεται.</foreign></p>
+          <p><hi rend="bold">44.</hi> Kein einziger pflegt im Zorne Rat, wie sich’s gebührt.</p>
+          </div><div type="textpart" subtype="fragment" n="B45" xml:id="diels-v1-dk013-b45"><p><hi rend="bold">45.</hi> [297] <hi rend="sc">Anthol. Mahaff.</hi> [Flinders Petrie Pap. I t. 3] III. Jahrh. v. Chr. <lb n="9" /><foreign xml:lang="grc">a) Ἐπιχάρμου</foreign></p>
           <lg>
             <l>
               <foreign xml:lang="grc">⟨ἥκιστά γ’ ὅσ⟩τις δυστυχῶν βίον τ’ ἔχων</foreign>
@@ -274,18 +281,11 @@
               <foreign xml:lang="grc">⟨φύλακα δὲ μ⟩ᾶλλον χρημάτων καλῶν ⟨κακόν⟩.</foreign>
             </l>
           </lg>
-          <p><hi rend="bold">38.</hi> Geh zu den Fernstehenden in glänzendem Gewande: dann werden viele meinen, du habest Verstand, wenn du vielleicht auch keinen hast.</p>
-          <p><hi rend="bold">39.</hi> In deinen Worten führst du alles gut aus, aber in deinen Werken übel.</p>
-          <p><hi rend="bold">40.</hi> Talent haben, das ist das Beste, das zweite, etwas lernen.</p>
-          <p><hi rend="bold">41.</hi> Nicht nachbedenken, sondern vorbedenken soll der weise Mann.</p>
-          <p><hi rend="bold">42.</hi> Zeige dich nicht über Kleinigkeiten erregt!</p>
-          <p><hi rend="bold">43.</hi> Nicht der Zorn, sondern der Verstand muß obenauf schwimmen.</p>
-          <p><hi rend="bold">44.</hi> Kein einziger pflegt im Zorne Rat, wie sich’s gebührt.</p>
           <p><hi rend="bold">45.</hi> Wer nicht im geringsten vom Unglück verfolgt wird und sein Auskommen hat, aber dabei seiner Seele nichts Gutes und Schönes gönnt, den werde ich keineswegs glücklich nennen, sondern vielmehr schöner Schätze schlechten Hüter.</p>
           <note type="apparatus">
             <p>2 τὸς ⟨οὐ⟩ *: τοὺς Hss.: ⟨δὲ τοὺς⟩ Welcker 3 ⟨ ⟩ Meineke 7 ⟨ ⟩ Meineke 13 οὔ τι S: οὔ τε A: ὅτι M νόον Ahrens: νόμον Stob. 15 οὐθεὶς Stob.: verb. Grotius ὀργᾶς Ahrens 18 ⟨ ⟩ *: ⟨μηδὲν γὰρ εἴ⟩ Kaibel 18—21 meistens nach Kaibel *</p>
           </note>
-        </div><div type="textpart" subtype="page" n="127" xml:id="diels-v1-dk013-p127"><pb n="127" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=153" />
+        <pb n="127" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=153" />
           <head>B. FRAGMENTE. 38—50<hi rend="sup">a</hi>.</head>
           <p>b) Εὐριπίδου [fr. 198 N.]</p>
           <lg>
@@ -294,55 +294,59 @@
             <l>ἐγὼ μὲν αὐτὸν οὔποτ’ ὄλβιον καλῶ,</l>
             <l>φύλακα δὲ μᾶλλον χρημάτων δυσδαίμονα.</l>
           </lg>
-          <p><hi rend="b">46.</hi> [299] <hi rend="sc">Philo</hi> Qu. in Gen. IV 203 p. 406 Auch. <hi rend="sc">porro optime dixit Epicharmus</hi> ‘quicunque, ait, minus delinquit, optimus est vir: nemo est enim innocens, nemo reprehensionis expers.’ et Euripides [fr. 954 N.] ‘quicunque incontinentes sunt et redundat in eis malum inimicitiae et iniustitiae, mali sunt; in quibus autem opposita praevalent, virtute praediti; in aliis vero ita, quasi aequalis sit commixtio; ita ut nulli sint qui omnia mala habeant sine ullo bono.’</p>
+          </div><div type="textpart" subtype="fragment" n="B46" xml:id="diels-v1-dk013-b46"><p><hi rend="b">46.</hi> [299] <hi rend="sc">Philo</hi> Qu. in Gen. IV 203 p. 406 Auch. <hi rend="sc">porro optime dixit Epicharmus</hi> ‘quicunque, ait, minus delinquit, optimus est vir: nemo est enim innocens, nemo reprehensionis expers.’ et Euripides [fr. 954 N.] ‘quicunque incontinentes sunt et redundat in eis malum inimicitiae et iniustitiae, mali sunt; in quibus autem opposita praevalent, virtute praediti; in aliis vero ita, quasi aequalis sit commixtio; ita ut nulli sint qui omnia mala habeant sine ullo bono.’</p>
           <head>EPICHARMUS ENNI.</head>
           <p>(Aus Axiopistos’ Sammlung.)</p>
-          <p><hi rend="b">47.</hi> [1 Vahlen 1903] <hi rend="sc">Cic.</hi> Ac. II 16, 51 <hi rend="sc">at cum somniavit</hi> [näml. Ennius], <hi rend="sc">ita narravit</hi> ‘visus Homerus adesse poeta’ [Ann. 7]; <hi rend="sc">idemque in Epicharmo</hi></p>
+          <p><hi rend="b">46.</hi> Wer am wenigsten fehlt, ist der beste Mann. Denn niemand ist unschuldig, niemand ohne Tadel.</p>
+          </div><div type="textpart" subtype="fragment" n="B47" xml:id="diels-v1-dk013-b47"><p><hi rend="b">47.</hi> [1 Vahlen 1903] <hi rend="sc">Cic.</hi> Ac. II 16, 51 <hi rend="sc">at cum somniavit</hi> [näml. Ennius], <hi rend="sc">ita narravit</hi> ‘visus Homerus adesse poeta’ [Ann. 7]; <hi rend="sc">idemque in Epicharmo</hi></p>
           <lg>
             <l>nam videbar somniare med ego esse mortuum.</l>
           </lg>
-          <p><hi rend="b">48.</hi> [5] <hi rend="sc">Prisc.</hi> I 341 H. (mentis = mens)</p>
+          <head>EPICHARMUS DES ENNIUS.</head>
+          <p><hi rend="b">47.</hi> Denn im Traume dünkt’ es mich, ich sei gestorben.</p>
+          </div><div type="textpart" subtype="fragment" n="B48" xml:id="diels-v1-dk013-b48"><p><hi rend="b">48.</hi> [5] <hi rend="sc">Prisc.</hi> I 341 H. (mentis = mens)</p>
           <lg>
             <l>—◡—◡ terra corpus est, at mentis ignis est.</l>
           </lg>
-          <p><hi rend="b">49.</hi> [3] <hi rend="sc">Varro</hi> d. re r. I 4, 1 <hi rend="sc">eius</hi> [näml. agriculturae] <hi rend="sc">principia sunt eadem, quae mundi esse Ennius scribit, aqua terra anima et sol.</hi></p>
-          <p><hi rend="b">50.</hi> [6, 52] — d. ling. l. V 59 <hi rend="sc">itáque Epicharmus dicit de mente humana. ait:</hi></p>
+          <p><hi rend="b">48.</hi> Der Körper ist Erde, aber der Geist Feuer.</p>
+          </div><div type="textpart" subtype="fragment" n="B49" xml:id="diels-v1-dk013-b49"><p><hi rend="b">49.</hi> [3] <hi rend="sc">Varro</hi> d. re r. I 4, 1 <hi rend="sc">eius</hi> [näml. agriculturae] <hi rend="sc">principia sunt eadem, quae mundi esse Ennius scribit, aqua terra anima et sol.</hi></p>
+          <p><hi rend="b">49.</hi> <hi rend="sc">Wasser, Erde, Hauch und Sonne sind die Elemente der Welt.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B50" xml:id="diels-v1-dk013-b50"><p><hi rend="b">50.</hi> [6, 52] — d. ling. l. V 59 <hi rend="sc">itáque Epicharmus dicit de mente humana. ait:</hi></p>
           <lg>
             <l>istic est de sole sumptus ignis.</l>
           </lg>
-          <p><hi rend="b">50<hi rend="sup">a</hi>.</hi> [6, 53] <hi rend="sc">idem solem:</hi></p>
+          <p><hi rend="b">50.</hi> Jenes Feuer ist von der Sonne genommen.</p>
+          </div><div type="textpart" subtype="fragment" n="B50a" xml:id="diels-v1-dk013-b50a"><p><hi rend="b">50<hi rend="sup">a</hi>.</hi> [6, 53] <hi rend="sc">idem solem:</hi></p>
           <lg>
             <l>isque totus mentis est,</l>
           </lg>
           <p><hi rend="sc">ut humores frigidae sunt humi, ut supra ostendi.</hi> 60. <hi rend="sc">quibus iunctis caelum et terra omnia exgenuerunt, quod per hos natura</hi></p>
-          <p><hi rend="b">46.</hi> Wer am wenigsten fehlt, ist der beste Mann. Denn niemand ist unschuldig, niemand ohne Tadel.</p>
-          <head>EPICHARMUS DES ENNIUS.</head>
-          <p><hi rend="b">47.</hi> Denn im Traume dünkt’ es mich, ich sei gestorben.</p>
-          <p><hi rend="b">48.</hi> Der Körper ist Erde, aber der Geist Feuer.</p>
-          <p><hi rend="b">49.</hi> <hi rend="sc">Wasser, Erde, Hauch und Sonne sind die Elemente der Welt.</hi></p>
-          <p><hi rend="b">50.</hi> Jenes Feuer ist von der Sonne genommen.</p>
           <p><hi rend="b">50<hi rend="sup">a</hi>.</hi> Und sie (die Sonne) ist ganz Geist.</p>
           <note type="apparatus">
             <p>3 θηράσεται pap.: πειράσεται Stob. III 16, 4    4 αὐτὸν οὔποτ’ pap. MA: οὔποτ’ αὐτὸν S    5 (fehlt pap.) δυσδαίμονα Nauck: εὐδαίμονα Stob.: ἄλλων λέγω Vitelli    7 vgl. Horat. Serm. I 3, 68. Griechisch μεῖον ὅς χ’ ἁμαρτάνηι κράτιστος οὗτός ἐστ’ ἀνήρ· οὐ γὰρ ἀναμάρτητος οὐδεὶς οὐδ’ ἀμώματος πέλει * Herm. 23, 281    16 me et ego Cic.: verb. Manutius    23 (de) sole Spengel    25 iuncti Flor.: verb. Müller</p>
           </note>
-        </div><div type="textpart" subtype="page" n="128" xml:id="diels-v1-dk013-p128"><pb n="128" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=154" />
+        </div><div type="textpart" subtype="fragment" n="B51" xml:id="diels-v1-dk013-b51"><pb n="128" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=154" />
           <p><hi rend="bold">51.</hi> [2] <hi rend="italic">frigori miscet calorem atque humori aritudinem.</hi> <hi rend="bold">97</hi></p>
-          <p><hi rend="bold">52.</hi> [4, 48. 49] <hi rend="sc">Varro</hi> l. l. 64 <hi rend="italic">dicitur Ops mater quod terra mater. haec enim terris gentis omnis peperit et resumit denuo quae . . . . . . dat cibaria,</hi></p>
+          <p><hi rend="bold">51.</hi> <hi rend="italic">Durch Mischung von Feuer und Wasser haben Himmel und Erde alles geschaffen, weil die Natur durch sie Wärme der Kälte mischt und Trocknis der Feuchte.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B52" xml:id="diels-v1-dk013-b52"><p><hi rend="bold">52.</hi> [4, 48. 49] <hi rend="sc">Varro</hi> l. l. 64 <hi rend="italic">dicitur Ops mater quod terra mater. haec enim terris gentis omnis peperit et resumit denuo quae . . . . . . dat cibaria,</hi></p>
           <p>
             <lb n="5" />
             <hi rend="italic">ut ait Ennius. quae</hi>
           </p>
-          <p><hi rend="bold">52<hi rend="super">a</hi>.</hi> [4, 50] <hi rend="italic">quod gerit fruges, Ceres.</hi></p>
+          <p><hi rend="bold">52.</hi> <hi rend="italic">Die Mutter Erde hat alle Geschlechter in den Ländern erschaffen und nimmt sie wieder in sich auf. Sie ist es, die Futter darbietet.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B52a" xml:id="diels-v1-dk013-b52a"><p><hi rend="bold">52<hi rend="super">a</hi>.</hi> [4, 50] <hi rend="italic">quod gerit fruges, Ceres.</hi></p>
           <p>
             <hi rend="italic">antiquis enim, quod nunc G, C. 65 idem hi dei Caelum et Terra Iupiter et Iuno, quod ut ait Ennius</hi>
           </p>
-          <p><hi rend="bold">53.</hi> [7] <hi rend="italic">istic est is Iupiter quem dico, quem Graeci vocant</hi></p>
+          <p><hi rend="bold">52<hi rend="super">a</hi>.</hi> <hi rend="italic">Die Ceres heißt, weil sie die Früchte im Schoße trägt.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B53" xml:id="diels-v1-dk013-b53"><p><hi rend="bold">53.</hi> [7] <hi rend="italic">istic est is Iupiter quem dico, quem Graeci vocant</hi></p>
           <p>
             <lb n="10" />
             <hi rend="italic">aerem; qui ventus est et nubes, imber postea, atque ex imbre frigus, ventus post fit, aer denuo. haece propter Iupiter sunt ista quae dico tibi,</hi>
           </p>
-          <p><hi rend="italic">5 quia mortalis ⟨is⟩ atque urbes beluasque omnis iuvat.</hi> <hi rend="bold">98</hi></p>
-          <p><hi rend="bold">54.</hi> [8] — 68 <hi rend="italic">hinc Epicharmus Enni Proserpinam quoque</hi> [sc. lunam]</p>
+          <p><hi rend="bold">53.</hi> <hi rend="italic">Dies ist jener Jupiter, den die Griechen Luft nennen. Er ist Wind und Wolken, dann Regen und aus Regen wird Kälte, dann Wind und aufs neue Luft. Darum sind alle jene Elemente, die ich dir herzähle, Jupiter, weil er durch sie allen Menschen, Städten und Tieren hilft.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B98" xml:id="diels-v1-dk013-b98"><p><hi rend="italic">5 quia mortalis ⟨is⟩ atque urbes beluasque omnis iuvat.</hi> <hi rend="bold">98</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B54" xml:id="diels-v1-dk013-b54"><p><hi rend="bold">54.</hi> [8] — 68 <hi rend="italic">hinc Epicharmus Enni Proserpinam quoque</hi> [sc. lunam]</p>
           <p>
             <lb n="15" />
             <hi rend="italic">appellat quod solet esse sub terris; dicta Proserpina, quod haec ut serpens modo in dexteram modo in sinisteram partem late movetur.</hi>
@@ -351,32 +355,30 @@
           <p>
             <hi rend="bold">Unecht, vgl. A 10. Vorbem. S. 117.</hi>
           </p>
-          <p><hi rend="bold">55.</hi> [289] <hi rend="sc">Tertull.</hi> <hi rend="italic">de anima 46 (377, 8 Wiss.) ceterum E. etiam summum</hi></p>
+          <p><hi rend="bold">54.</hi> <hi rend="italic">Proserpina heißt der Mond, weil er unter der Erde zu verweilen pflegt; Proserpina ist sein Name, weil er wie eine Schlange bald nach rechts bald nach links sich in die Weite fortbewegt.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B55" xml:id="diels-v1-dk013-b55"><p><hi rend="bold">55.</hi> [289] <hi rend="sc">Tertull.</hi> <hi rend="italic">de anima 46 (377, 8 Wiss.) ceterum E. etiam summum</hi></p>
           <p>
             <lb n="20" />
             <hi rend="italic">apicem inter divinationes somniis extulit cum Philochoro Atheniensi. 47 porro</hi>
           </p>
-          <p><hi rend="bold">51.</hi> <hi rend="italic">Durch Mischung von Feuer und Wasser haben Himmel und Erde alles geschaffen, weil die Natur durch sie Wärme der Kälte mischt und Trocknis der Feuchte.</hi></p>
-          <p><hi rend="bold">52.</hi> <hi rend="italic">Die Mutter Erde hat alle Geschlechter in den Ländern erschaffen und nimmt sie wieder in sich auf. Sie ist es, die Futter darbietet.</hi></p>
-          <p><hi rend="bold">52<hi rend="super">a</hi>.</hi> <hi rend="italic">Die Ceres heißt, weil sie die Früchte im Schoße trägt.</hi></p>
-          <p><hi rend="bold">53.</hi> <hi rend="italic">Dies ist jener Jupiter, den die Griechen Luft nennen. Er ist Wind und Wolken, dann Regen und aus Regen wird Kälte, dann Wind und aufs neue Luft. Darum sind alle jene Elemente, die ich dir herzähle, Jupiter, weil er durch sie allen Menschen, Städten und Tieren hilft.</hi></p>
-          <p><hi rend="bold">54.</hi> <hi rend="italic">Proserpina heißt der Mond, weil er unter der Erde zu verweilen pflegt; Proserpina ist sein Name, weil er wie eine Schlange bald nach rechts bald nach links sich in die Weite fortbewegt.</hi></p>
           <head>KANON DES AXIOPISTOS.</head>
           <p><hi rend="bold">55.</hi> <hi rend="italic">E. legt sogar den größten Wert unter den Formen der Weissagung den Träumen bei; sie können nicht willkürlich hervorgerufen werden.</hi></p>
           <note type="apparatus">
             <p>1 <hi rend="italic">calori</hi> Flor.<hi rend="super">1</hi> G, C Lachmann: <hi rend="italic">et</hi> Flor. 11 <hi rend="italic">ventis</hi> Flor. 12 <hi rend="italic">hec</hi> Flor. 13 <hi rend="italic">quia</hi> Laetus: <hi rend="italic">qua</hi> Flor. ⟨is⟩ Vahlen<hi rend="super">2</hi> Add.</p>
           </note>
-        </div><div type="textpart" subtype="page" n="129" xml:id="diels-v1-dk013-p129"><pb n="129" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=155" />
+        <pb n="129" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=155" />
           <head>B. FRAGMENTE. 51—57.</head>
           <p>quia non est ex arbitrio somniare (nam et E. ita sentit), quomodo ipsa erit sibi causa alicuius visionis? Für berühmte Traumerfüllungen vorher 377, 3 zitiert: Artemon, Antiphon, Strato, Philochorus, Epicharmus usw.</p>
           <head>ΧΡΥΣΟΓΟΝΟΥ ΠΟΛΙΤΕΙΑ.</head>
           <p>Unecht, vgl. A 10. Vorbem. S. 116.</p>
-          <p><hi rend="bold">56.</hi> [255] Clem. Str. v 119 (II 405, 13 St.) ὅ τε κωμικὸς Ἐ. σαφῶς περὶ τοῦ λόγου ἐν τῆι Πολιτείαι λέγει ὧδέ πως·</p>
+          </div><div type="textpart" subtype="fragment" n="B56" xml:id="diels-v1-dk013-b56"><p><hi rend="bold">56.</hi> [255] Clem. Str. v 119 (II 405, 13 St.) ὅ τε κωμικὸς Ἐ. σαφῶς περὶ τοῦ λόγου ἐν τῆι Πολιτείαι λέγει ὧδέ πως·</p>
           <lg>
             <l>ὁ βίος ἀνθρώποις λογισμοῦ κἀριθμοῦ δεῖται πάνυ·</l>
             <l>ζῶμεν [δὲ] ἀριθμῶι καὶ λογισμῶι· ταῦτα γὰρ σώιζει βροτούς.</l>
           </lg>
-          <p><hi rend="bold">57.</hi> [256. 257] εἶτα διαρρήδην ἐπιφέρει·</p>
+          <head>VERFASSUNG DES CHRYSOGONOS.</head>
+          <p><hi rend="bold">56.</hi> Das menschliche Leben braucht vor allem Berechnung und Zahl. Wir leben durch Zahl und Berechnung. Denn das ist es, was die Sterblichen am Leben erhält.</p>
+          </div><div type="textpart" subtype="fragment" n="B57" xml:id="diels-v1-dk013-b57"><p><hi rend="bold">57.</hi> [256. 257] εἶτα διαρρήδην ἐπιφέρει·</p>
           <lg>
             <l>ὁ λόγος ἀνθρώπους κυβερνᾶι κατὰ τρόπον σώιζει τ’ ἀεί.</l>
             <l>ἔστιν ἀνθρώπωι λογισμός, ἔστι καὶ θεῖος λόγος·</l>
@@ -386,38 +388,36 @@
             <l>ἐκδιδάσκων αὐτὸς αὐτούς, ὅ τι ποιεῖν δεῖ συμφέρον.</l>
             <l>οὐ γὰρ ἄνθρωπος τέχναν τιν’ εὗρεν, ὁ δὲ θεὸς τοπάν.</l>
           </lg>
-          <head>VERFASSUNG DES CHRYSOGONOS.</head>
-          <p><hi rend="bold">56.</hi> Das menschliche Leben braucht vor allem Berechnung und Zahl. Wir leben durch Zahl und Berechnung. Denn das ist es, was die Sterblichen am Leben erhält.</p>
           <p><hi rend="bold">57.</hi> Die Vernunft lenkt die Menschen nach Gebühr und erhält sie immerdar. Der Mensch hat seine Berechnung, es gibt aber auch eine göttliche Vernunft. Und zwar ist die menschliche Vernunft aus der göttlichen geboren und sie bringt einem jeglichen die Mittel zum Leben und die Nahrung. Doch die göttliche Vernunft macht sich in allen Künsten geltend. Denn sie allein belehrt die Menschen, was man Fördersames zu tun hat. Denn kein Mensch hat irgend eine Kunst erfunden, vielmehr stets nur Gott.</p>
           <note type="apparatus">
             <p>9 [δὲ] Grotius: δ’ ἐν Euseb. 11 σώιζει τ’ ἀεί*: σώζει εἶτα εἰ Clem.: σώζει εἰ Eus. 12 ἀνθρώπωι Clem.: ἀνθρώπων Eus. 13 *: ὁ δέ γε ... θείου λόγου steht als V. 6 am Schluß in Clem., Eus. (Randnachtrag), an richtiger Stelle Z. 13 u. 14 steht verstümmelt ἀνθρώπωι πέφυκε περὶ βίου καὶ τὰς τροφάς (καταστροφάς Eus.) Clem., Eus. 14 καὶ ... ἑκάστωι *: fehlt Clem., Eus., doch ist φέρει am Ende von Z. 17 von dem Randnachtrage übrig geblieben πόρους ... περὶ vgl. Aristoph. Eccl. 653 15 *: τὰς τέχνας ἅπασι Clem., Eus. 16 ἐκδιδάσκων Clem.: διδάσκων Eus. αὐτὸς αὐτούς Eus.: ἀεὶ αὐτὸς αὐτοὺς Clem. σύμφορον Kaibel 17 τιν’ Clem.: fehlt Eus. τοπάν *: ταύταν φέρει (s. zu Z. 14) Clem., Eus. Bei Stählin wird das Fragment so geschrieben ‘ὁ λόγος ... σῴζει·’ εἶτα, εἰ ‘ἔστιν ἀνθρώπωι λογισμός, ἔστι καὶ θεῖος λόγος· ⟨ὁ μὲν ἐν⟩ (nach Schwartz) ἀνθρώπωι πέφυκεν περὶ βίου καταστροφάς· ὁ δέ γε τὰς τέχνας ἅπασι συνέπεται θεῖος λόγος ἐκδιδάσκων ... συμφέρον· οὐ γὰρ ἄνθρωπος τέχναν εὗρ’· ὁ δὲ θεὸς ταύταν φέρει. ὁ δέ γε τἀνθρώπου [λόγος] πέφυκεν ἀπό γε τοῦ θείου λόγου.’</p>
           </note>
-        </div><div type="textpart" subtype="page" n="130" xml:id="diels-v1-dk013-p130"><pb n="130" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=156" />
+        <pb n="130" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=156" />
           <head>ΧΙΡΩΝ.</head>
           <p>Unecht, vgl. A 10. Vorbem. S. 116.</p>
-          <p><hi rend="bold">58.</hi> [290] <hi rend="sc">Athen.</hi> XIV 648d [vgl. S. 115, 26].<lb />καὶ πιεῖν ὕδωρ διπλάσιον χλιαρόν, ἡμίνας δύο.</p>
-          <p><lb n="5" /><hi rend="bold">58<hi rend="sup">a</hi>.</hi> [291] <hi rend="sc">Anecd.</hi> Bekk. Antiattic. 98, 32 ἡμιλίτριον· Ἐ. Χίρωνι.</p>
-          <p><hi rend="bold">59.</hi> [248] <hi rend="sc">Censorin.</hi> VII 6 (D. 195) <hi rend="italic">contra eum [Euryphon von Knidos] ferme omnes Epicharmum secuti octava mense nasci negaverunt.</hi></p>
-          <p><hi rend="bold">60.</hi> [292] <hi rend="sc">Columell.</hi> VII 3, 6 <hi rend="italic">E. autem Syracusanus, qui pecudum medicinas diligentissime conscripsit, affirmat pugnacem arietem mitigari terebra secundum</hi><lb n="10" /><hi rend="italic">auriculas foratis cornibus, qua curvantur in flexu.</hi></p>
-          <p><hi rend="bold">61.</hi> [293] <hi rend="sc">Plin.</hi> nat. h. XX 89 <hi rend="italic">E. testium et genitalium malis hanc</hi> [sc. brassi<lb />cam] <hi rend="italic">utilissime inponi etc.</hi></p>
-          <p><hi rend="bold">62.</hi> [294] — — 94 <hi rend="italic">E. satis esse eam</hi> [sc. brassicam silvestrem] <hi rend="italic">contra canis rabiosi morsum imponi, melius si cum lasere et aceto acri, necari quoque canes</hi><lb n="15" /><hi rend="italic">ea si detur ex carne.</hi></p>
-          <head>ΟΨΟΠΟΙΙΑ.</head>
-          <p>Unecht, aus Χίρων? S. Vorbem. S. 116.</p>
-          <p><hi rend="bold">63.</hi> [290] <hi rend="sc">Anecd.</hi> Bekk. Antiattic. 99, 1 ἡμίνα· ἐν τῆι ἀναφερομένηι εἰς<lb />Ἐπίχαρμον Ὀψοποιίαι [= 58? vgl. B 58<hi rend="sup">a</hi>].</p>
-          <head>ΕΠΙΓΡΑΜΜΑ.</head>
-          <p><lb n="20" />Unecht, vgl. B 9. 48. Vorbem. S. 116.</p>
-          <p><hi rend="bold">64.</hi> [296] <hi rend="sc">Schol.</hi> BT zu X 414 ἔστι δὲ καὶ ἐπίγραμμα ὃ εἰς Ἐπίχαρμον ἀναφέρεται·<lb />εἰμὶ νεκρός· νεκρὸς δὲ κόπρος, γῆ δ’ ἡ κόπρος ἐστίν·<lb />εἰ δ’ ἡ γῆ θεός ἐστ’, οὐ νεκρός, ἀλλὰ θεός.</p>
+          </div><div type="textpart" subtype="fragment" n="B58" xml:id="diels-v1-dk013-b58"><p><hi rend="bold">58.</hi> [290] <hi rend="sc">Athen.</hi> XIV 648d [vgl. S. 115, 26].<lb />καὶ πιεῖν ὕδωρ διπλάσιον χλιαρόν, ἡμίνας δύο.</p>
           <head>CHIRON.</head>
           <p><hi rend="bold">58.</hi> Und ein doppelt Quantum laues Wasser trinken, zwei Halbe.<lb /><hi rend="bold">58<hi rend="sup">a</hi>.</hi> Halbes Liter.<lb /><hi rend="bold">59.</hi> <hi rend="italic">Achtmonatliche Geburt ist nicht lebensfähig.</hi><lb /><hi rend="bold">60.</hi> <hi rend="italic">Ein kampflustiger Widder läßt sich zähmen, wenn man ihm die Hörner in der Nähe der Ohren, wo ihre Krümmung umbiegt, durchbohrt.</hi><lb /><hi rend="bold">61.</hi> <hi rend="italic">Hoden- und Genitalleiden werden durch Auflegen von Kohl mit gutem Erfolg behandelt.</hi><lb /><hi rend="bold">62.</hi> <hi rend="italic">Es genügt Waldkohl gegen den Biß eines tollen Hundes aufzulegen, doch fügt man besser Silphionsaft und scharfen Essig zu. Auch sterben Hunde daran, wenn man ihn mit dem Fleisch vermengt eingibt.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B58a" xml:id="diels-v1-dk013-b58a"><p><lb n="5" /><hi rend="bold">58<hi rend="sup">a</hi>.</hi> [291] <hi rend="sc">Anecd.</hi> Bekk. Antiattic. 98, 32 ἡμιλίτριον· Ἐ. Χίρωνι.</p>
+          </div><div type="textpart" subtype="fragment" n="B59" xml:id="diels-v1-dk013-b59"><p><hi rend="bold">59.</hi> [248] <hi rend="sc">Censorin.</hi> VII 6 (D. 195) <hi rend="italic">contra eum [Euryphon von Knidos] ferme omnes Epicharmum secuti octava mense nasci negaverunt.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B60" xml:id="diels-v1-dk013-b60"><p><hi rend="bold">60.</hi> [292] <hi rend="sc">Columell.</hi> VII 3, 6 <hi rend="italic">E. autem Syracusanus, qui pecudum medicinas diligentissime conscripsit, affirmat pugnacem arietem mitigari terebra secundum</hi><lb n="10" /><hi rend="italic">auriculas foratis cornibus, qua curvantur in flexu.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B61" xml:id="diels-v1-dk013-b61"><p><hi rend="bold">61.</hi> [293] <hi rend="sc">Plin.</hi> nat. h. XX 89 <hi rend="italic">E. testium et genitalium malis hanc</hi> [sc. brassi<lb />cam] <hi rend="italic">utilissime inponi etc.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B62" xml:id="diels-v1-dk013-b62"><p><hi rend="bold">62.</hi> [294] — — 94 <hi rend="italic">E. satis esse eam</hi> [sc. brassicam silvestrem] <hi rend="italic">contra canis rabiosi morsum imponi, melius si cum lasere et aceto acri, necari quoque canes</hi><lb n="15" /><hi rend="italic">ea si detur ex carne.</hi></p>
+          <head>ΟΨΟΠΟΙΙΑ.</head>
+          <p>Unecht, aus Χίρων? S. Vorbem. S. 116.</p>
+          </div><div type="textpart" subtype="fragment" n="B63" xml:id="diels-v1-dk013-b63"><p><hi rend="bold">63.</hi> [290] <hi rend="sc">Anecd.</hi> Bekk. Antiattic. 99, 1 ἡμίνα· ἐν τῆι ἀναφερομένηι εἰς<lb />Ἐπίχαρμον Ὀψοποιίαι [= 58? vgl. B 58<hi rend="sup">a</hi>].</p>
+          <head>ΕΠΙΓΡΑΜΜΑ.</head>
+          <p><lb n="20" />Unecht, vgl. B 9. 48. Vorbem. S. 116.</p>
           <head>KOCHBUCH.</head>
           <p><hi rend="bold">63.</hi> Halber.</p>
+          </div><div type="textpart" subtype="fragment" n="B64" xml:id="diels-v1-dk013-b64"><p><hi rend="bold">64.</hi> [296] <hi rend="sc">Schol.</hi> BT zu X 414 ἔστι δὲ καὶ ἐπίγραμμα ὃ εἰς Ἐπίχαρμον ἀναφέρεται·<lb />εἰμὶ νεκρός· νεκρὸς δὲ κόπρος, γῆ δ’ ἡ κόπρος ἐστίν·<lb />εἰ δ’ ἡ γῆ θεός ἐστ’, οὐ νεκρός, ἀλλὰ θεός.</p>
           <head>EPIGRAMM.</head>
           <p><hi rend="bold">64.</hi> Eine Leiche bin ich. Leiche ist Mist, Mist ist Erde. Wenn aber die Erde eine Gottheit ist, so bin ich nicht eine Leiche, sondern ein Gott.</p>
           <note type="apparatus">23 δ’ ἡ γῆ Bergk: δὲ γῆ Schol.: δὴ Kaibel 24 θεὸς Bergk vgl. Büch. Anthol. Lat. 974, 4. 1532, 3. Epigr. Eretr. ed. Richardson Amer. Journ. of archaeol. VII 252</note>
-        </div><div type="textpart" subtype="page" n="131" xml:id="diels-v1-dk013-p131"><pb n="131" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=157" />
+        <pb n="131" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=157" />
           <head>ΠΡΟΣ ΑΝΤΗΝΟΡΑ.</head>
           <p>Unecht.</p>
-          <p><hi rend="bold">65.</hi> [295] <hi rend="sc">Plut.</hi> Num. 8 Πυθαγόραν Ῥωμαῖοι τῆι πολιτείαι προσέγραψαν, ὡς ἱστόρηκεν Ἐπίχαρμος ὁ κωμικὸς ἔν τινι λόγωι πρὸς Ἀντήνορα γεγραμμένωι, <lb n="5" />παλαιὸς ἀνὴρ καὶ τῆς Πυθαγορικῆς διατριβῆς μετεσχηκώς.</p>
+          </div><div type="textpart" subtype="fragment" n="B65" xml:id="diels-v1-dk013-b65"><p><hi rend="bold">65.</hi> [295] <hi rend="sc">Plut.</hi> Num. 8 Πυθαγόραν Ῥωμαῖοι τῆι πολιτείαι προσέγραψαν, ὡς ἱστόρηκεν Ἐπίχαρμος ὁ κωμικὸς ἔν τινι λόγωι πρὸς Ἀντήνορα γεγραμμένωι, <lb n="5" />παλαιὸς ἀνὴρ καὶ τῆς Πυθαγορικῆς διατριβῆς μετεσχηκώς.</p>
           <head>AN ANTENOR.</head>
           <p><hi rend="bold">65.</hi> <hi rend="italic">Die Römer haben Pythagoras zu ihrem Mitbürger gemacht.</hi></p>
           </div></div></body></text></TEI>

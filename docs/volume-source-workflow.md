@@ -57,6 +57,21 @@ install reports under `sources/volumes/meineke/` record every output
 and any printed fragment-number collision disambiguated in compiled citation
 values. Validate the installed corpus with HookTest before committing.
 
+### Bergk, *Poetae Lyrici Graeci* volume 2
+
+The retained page-level master is
+`sources/volumes/bergk/bergk.poetae-lyrici.vol2.xml`. Regenerate its sixty
+author-level CTS views and the Multitext Viewer registry entries with:
+
+```sh
+python3 tools/install_bergk_poetae_lyrici_vol2.py \
+  --viewer-registry /Users/gcrane/github/src-persverscomp/work_registry.json
+```
+
+The compiler splits only at printed author headings. Volume front matter and
+the final addenda remain in the master but are not assigned to an ancient
+author. The output citation unit is the printed page.
+
 ## Diels production build
 
 The two Diels volumes use a page-stream compiler because the diplomatic TEI

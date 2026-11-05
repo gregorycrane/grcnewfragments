@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Install Diels' *Fragmente der Vorsokratiker* as page-citable DK works.
+"""Install Diels' *Fragmente der Vorsokratiker* as fragment-citable DK works.
 
 The two diplomatic volume files remain authoritative under ``sources/volumes``.
 This compiler splits their page streams at the first printed heading for each
-DK section and publishes deterministic work-level CTS files under ``data``.
-It deliberately does not claim that page-level OCR has identified every A/B
-fragment boundary.
+DK section, groups the printed A/B/C items as fragments, and publishes
+deterministic work-level CTS files under ``data``. Printed pages are retained
+as ``pb`` provenance inside those fragments, never as citation units.
 """
 
 from __future__ import annotations
@@ -27,8 +27,12 @@ NS = {"tei": TEI, "cts": CTS}
 ET.register_namespace("", TEI)
 ET.register_namespace("ti", CTS)
 
-REVISION_DATE = "2026-11-03"
+REVISION_DATE = "2026-11-04"
 BOUNDARY = re.compile(r"^(\d{1,2}[ab]?)\.\s+", re.IGNORECASE)
+SECTION_HEADING = re.compile(r"(?:^|\s)([ABC])\.\s+(?=[A-ZÄÖÜΑ-Ω])")
+FRAGMENT_NUMBER = re.compile(r"^(\d+)\s*([a-zαβᵃᵇ]?)\s*(?:\. |\.$)", re.IGNORECASE)
+FRAGMENT_NUMBER_FULL = re.compile(r"^(\d+)\s*([a-zαβᵃᵇ]?)\s*\.?$", re.IGNORECASE)
+SUFFIXES = {"α": "a", "ᵃ": "a", "β": "b", "ᵇ": "b"}
 
 # Canonical author/textgroup numbers are taken from TLG's canon-keys.txt.  A DK
 # section remains one publication work because the retained diplomatic source
@@ -201,16 +205,110 @@ def split_volume(source: Path, volume: int) -> tuple[dict[str, dict], dict]:
     return records, audit
 
 
+def fragment_number(element: ET.Element, section: str) -> str | None:
+    """Return the printed item number starting a testimonium/fragment block."""
+    # B/C numbers are typographically bold in the edition. Prefer that marker
+    # because OCR line numbers can precede the actual fragment number.
+    if section in {"B", "C"}:
+        for hi in element.findall(".//tei:hi", NS):
+            if hi.get("rend") != "bold":
+                continue
+            match = FRAGMENT_NUMBER_FULL.match(text(hi))
+            if match:
+                suffix = SUFFIXES.get(match.group(2).casefold(), match.group(2).casefold())
+                return f"{match.group(1)}{suffix}"
+    match = FRAGMENT_NUMBER.match(text(element))
+    if not match:
+        return None
+    suffix = SUFFIXES.get(match.group(2).casefold(), match.group(2).casefold())
+    return f"{match.group(1)}{suffix}"
+
+
+def section_from_heading(heading: str, dk: str, current: str) -> str:
+    """Resolve a section marker without crossing composite running heads."""
+    markers = list(SECTION_HEADING.finditer(heading))
+    if not markers:
+        return current
+    work_heading = re.search(rf"(?<!\d){re.escape(dk)}\.\s+", heading, re.IGNORECASE)
+    if work_heading:
+        following = [marker for marker in markers if marker.start() > work_heading.end()]
+        return following[0].group(1).upper() if following else current
+    # A head such as "B. FRAGMENTE. 129—139. C. IMITATION. 1." describes
+    # the page in order: its first blocks are still B, with a later explicit
+    # C head marking the actual transition.
+    return markers[0].group(1).upper()
+
+
+def fragmentize_pages(pages: list[ET.Element], volume: int, dk: str) -> tuple[list[ET.Element], list[str]]:
+    """Regroup a DK work's page stream into its printed A/B/C item numbers."""
+    fragments: list[ET.Element] = []
+    by_label: dict[str, ET.Element] = {}
+    current: ET.Element | None = None
+    section = "A"
+
+    for page in pages:
+        page_prefix: list[ET.Element] = []
+        page_break = page.find("tei:pb", NS)
+        if page_break is not None:
+            page_prefix.append(copy.deepcopy(page_break))
+
+        for child in list(page):
+            if child.tag == q("pb"):
+                continue
+            child_copy = copy.deepcopy(child)
+            if child.tag == q("head"):
+                section = section_from_heading(text(child), dk, section)
+                page_prefix.append(child_copy)
+                continue
+
+            number = fragment_number(child, section) if child.tag == q("p") else None
+            if number is not None:
+                label = f"{section}{number}"
+                if label not in by_label:
+                    fragment = ET.Element(q("div"), {
+                        "type": "textpart", "subtype": "fragment", "n": label,
+                        xq("id"): f"diels-v{volume}-{work_id(dk)}-{label.lower()}",
+                    })
+                    by_label[label] = fragment
+                    fragments.append(fragment)
+                current = by_label[label]
+
+            if current is None:
+                page_prefix.append(child_copy)
+                continue
+            if page_prefix:
+                current.extend(page_prefix)
+                page_prefix = []
+            current.append(child_copy)
+
+        if page_prefix:
+            if current is None:
+                # A handful of one-item DK sections print no item number. Diels'
+                # implied sole testimonium is conventionally addressable as A1.
+                label = "A1"
+                current = ET.Element(q("div"), {
+                    "type": "textpart", "subtype": "fragment", "n": label,
+                    xq("id"): f"diels-v{volume}-{work_id(dk)}-a1",
+                })
+                by_label[label] = current
+                fragments.append(current)
+            current.extend(page_prefix)
+
+    if not fragments:
+        raise ValueError(f"DK {dk} produced no fragment citation units")
+    return fragments, [fragment.get("n") for fragment in fragments]
+
+
 def refs_decl() -> ET.Element:
     refs = ET.Element(q("refsDecl"), {"n": "CTS"})
     ET.SubElement(refs, q("citeStructure"), {
-        "unit": "page", "match": "//tei:div[@subtype='page']", "use": "@n",
+        "unit": "fragment", "match": "//tei:div[@subtype='fragment']", "use": "@n",
     })
     pattern = ET.SubElement(refs, q("cRefPattern"), {
-        "n": "page", "matchPattern": r"(\w+)",
-        "replacementPattern": "#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='page' and @n='$1'])",
+        "n": "fragment", "matchPattern": r"(\w+)",
+        "replacementPattern": "#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])",
     })
-    ET.SubElement(pattern, q("p")).text = "This pointer pattern extracts a printed page within a DK work section."
+    ET.SubElement(pattern, q("p")).text = "This pointer pattern extracts a printed A/B/C item within a DK work section."
     return refs
 
 
@@ -228,20 +326,28 @@ def work_tree(source_root: ET.Element, source_path: Path, volume: int, dk: str, 
     encoding = header.find("tei:encodingDesc", NS)
     if encoding is None:
         encoding = ET.SubElement(header, q("encodingDesc"))
+    encoding_note = encoding.find("tei:p", NS)
+    if encoding_note is None:
+        encoding_note = ET.SubElement(encoding, q("p"))
+    encoding_note.text = (
+        "The PDF page image is authoritative; Hathi OCR and the 2014 Leipzig XML are comparison "
+        "witnesses. Printed A/B/C item numbers supply the citation hierarchy. Page breaks and "
+        "facsimile links are retained inside those items as provenance."
+    )
     encoding.append(refs_decl())
     revision = header.find("tei:revisionDesc", NS)
     if revision is None:
         revision = ET.SubElement(header, q("revisionDesc"))
     ET.SubElement(revision, q("change"), {"when": REVISION_DATE}).text = (
         "Compiled deterministically from the retained volume-level diplomatic TEI. "
-        "The work is citable by printed page; individual A/B fragment boundaries remain encoded only where explicit in the transcription."
+        "The work is citable by printed A/B/C item; printed pages are retained only as pb provenance."
     )
     root.append(header)
     text_el = ET.SubElement(root, q("text"), {xq("base"): urn, xq("lang"): "grc"})
     body = ET.SubElement(text_el, q("body"), {"n": urn, xq("lang"): "grc"})
     edition = ET.SubElement(body, q("div"), {"type": "edition", "n": urn, xq("lang"): "grc"})
     ET.SubElement(edition, q("head")).text = record["title"]
-    edition.extend(copy.deepcopy(record["pages"]))
+    edition.extend(copy.deepcopy(record["fragments"]))
     return ET.ElementTree(root)
 
 
@@ -271,7 +377,7 @@ def write_work_metadata(path: Path, textgroup: str, title: str, version: str, ye
     ET.SubElement(edition, cq("label"), {xq("lang"): "eng"}).text = f"Greek and source context (Diels, {year}; OCR/AI draft)"
     ET.SubElement(edition, cq("description"), {xq("lang"): "eng"}).text = (
         "Testimonia and fragments in Hermann Diels, Die Fragmente der Vorsokratiker; "
-        "page-level diplomatic transcription requiring review."
+        "fragment-citable diplomatic transcription requiring review; printed pages are provenance only."
     )
     tree = ET.ElementTree(root); indent(tree)
     tree.write(path, encoding="utf-8", xml_declaration=True)
@@ -300,6 +406,7 @@ def install(root_dir: Path, inputs: dict[int, Path] | None = None) -> dict:
         version = "diels1912-grc1" if volume == 1 else "diels1922-grc1"
         year = "1912" if volume == 1 else "1922"
         for dk, record in records.items():
+            record["fragments"], record["fragment_labels"] = fragmentize_pages(record["pages"], volume, dk)
             work = work_id(dk)
             textgroup, group_label = DK_TEXTGROUPS[dk]
             group_dir = data_dir / textgroup
@@ -315,6 +422,7 @@ def install(root_dir: Path, inputs: dict[int, Path] | None = None) -> dict:
             outputs.append({
                 "dk": dk, "textgroup": textgroup, "work": work, "title": record["title"], "volume": volume,
                 "version": version, "pages": [page.get("n") for page in record["pages"]],
+                "fragments": record["fragment_labels"],
                 "path": destination.relative_to(root_dir).as_posix(), "sha256": sha256(destination),
             })
     for textgroup, _ in set(DK_TEXTGROUPS.values()):
@@ -331,7 +439,7 @@ def install(root_dir: Path, inputs: dict[int, Path] | None = None) -> dict:
 
 
 def update_viewer_registry(registry_path: Path, corpus_root: Path, report: dict) -> None:
-    """Register each compiled DK section as an ordinary page-citable edition."""
+    """Register each compiled DK section as an ordinary fragment-citable edition."""
     registry = json.loads(registry_path.read_text(encoding="utf-8"))
     expected = set()
     for row in report["outputs"]:
@@ -339,9 +447,11 @@ def update_viewer_registry(registry_path: Path, corpus_root: Path, report: dict)
         expected.add(key)
         source = corpus_root / row["path"]
         year = "1912" if row["volume"] == 1 else "1922"
+        _, author = DK_TEXTGROUPS[row["dk"]]
         registry[key] = {
             "textgroup": row["textgroup"],
             "work": row["work"],
+            "author": author,
             "title": row["title"],
             "strict_section_alignment": True,
             "editions": {

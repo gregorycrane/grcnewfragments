@@ -15,10 +15,10 @@
       <ref target="https://hdl.handle.net/2027/mdp.39015012889195">HathiTrust OCR witness</ref>
     </biblStruct><ptr target="../../../sources/volumes/diels/diels.vorsokratiker.vol1.xml" /></sourceDesc>
   </fileDesc>
-  <encodingDesc><p>The PDF page image is authoritative. Hathi OCR and the 2014 Leipzig XML are comparison witnesses only. Each independently valid page div begins with a page break; higher-level regrouping is deferred until diplomatic completeness is established.</p><refsDecl n="CTS"><citeStructure unit="page" match="//tei:div[@subtype='page']" use="@n" /><cRefPattern n="page" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='page' and @n='$1'])"><p>This pointer pattern extracts a printed page within a DK work section.</p></cRefPattern></refsDecl></encodingDesc>
+  <encodingDesc><p>The PDF page image is authoritative; Hathi OCR and the 2014 Leipzig XML are comparison witnesses. Printed A/B/C item numbers supply the citation hierarchy. Page breaks and facsimile links are retained inside those items as provenance.</p><refsDecl n="CTS"><citeStructure unit="fragment" match="//tei:div[@subtype='fragment']" use="@n" /><cRefPattern n="fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='fragment' and @n='$1'])"><p>This pointer pattern extracts a printed A/B/C item within a DK work section.</p></cRefPattern></refsDecl></encodingDesc>
   <profileDesc><langUsage><language ident="grc">Greek</language><language ident="la">Latin</language><language ident="de">German</language></langUsage></profileDesc>
-<revisionDesc><change when="2026-11-03">Compiled deterministically from the retained volume-level diplomatic TEI. The work is citable by printed page; individual A/B fragment boundaries remain encoded only where explicit in the transcription.</change></revisionDesc></teiHeader>
-  <text xml:base="urn:cts:greekLit:tlg0267.dk011.diels1912-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0267.dk011.diels1912-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0267.dk011.diels1912-grc1" xml:lang="grc"><head>11. XENOPHANES.</head><div type="textpart" subtype="page" n="42" xml:id="diels-v1-dk011-p42"><pb n="42" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=68" />
+<revisionDesc><change when="2026-11-04">Compiled deterministically from the retained volume-level diplomatic TEI. The work is citable by printed A/B/C item; printed pages are retained only as pb provenance.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg0267.dk011.diels1912-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg0267.dk011.diels1912-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg0267.dk011.diels1912-grc1" xml:lang="grc"><head>11. XENOPHANES.</head><div type="textpart" subtype="fragment" n="A1" xml:id="diels-v1-dk011-a1"><pb n="42" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=68" />
           <head>11. XENOPHANES.</head>
           <head>A. LEBEN UND LEHRE.</head>
           <p>1. <hi rend="sc">Diogenes</hi> ix 18 ff. (18) Ξενοφάνης Δεξίου ἤ, ὡς Ἀπολλόδωρος [fr. 21<hi rend="sup">a</hi> Jac.], <lb n="10" />Ὀρθομένους Κολοφώνιος ἐπαινεῖται πρὸς τοῦ Τίμωνος· φησὶ γοῦν [fr. 60 Diels; vgl. 11 A 35]·</p>
@@ -31,21 +31,21 @@
           <note type="apparatus">
             <p>2 ξύλον ὂν Meineke: ξύλινον    3 συμβάλλων Hs.: verb. *    12 ξεινοφανῆ θ’ BP: ξεινοφανῆν F    ὑπότυφον F    ὁμηραπάτην Sext. P<hi rend="sup">2</hi>F: ὁμηροπάτην P<hi rend="sup">1</hi>B    13 ⟨ ⟩*    14 διέτριβε δὲ καὶ BP: δὲ tilgte P<hi rend="sup">2</hi>F    15 falsche Einlage, vielleicht auf Xenophon bezüglich, der wie Sokrates an die ionische Diadochie des Archelaos angeknüpft und mit Boton dem rhetorischen Lehrer des Theramenes (V. x orat. 837 A) in Verbindung gebracht werden konnte. Die Verwechslung war bereits in Diogenes’ Vorlage vgl. 11 A 6 (s. <hi rend="italic">Poetarum phil. fragm.</hi> Berol. 1901. p. 20 ff.)    16 δὲ καὶ ἐν ἔπεσιν ἐλεγείας F    ἔπεσι] B 23 ff.    17 ἐλεγείας] B 1—9    ἰάμβους] B 10—22    21—26 Ausz. aus Theophr. Phys. Opin.    21 οὐ παραλλακτοὺς ΒΡΦ: ἀπαραλλάκτους FP<hi rend="sup">2</hi>    23 [αὐτὰ] Heidel (αἰρούσης intransitiv fassend)    24 ἀναπνεῖν] pythagoreische Lehre vgl. 45 B 30    27 τοῖς τυράννοις] Wanderanekdote vgl. Diod. ix 28. Val. M. vii 2 extr. Amm. Marc. 18, 3, 7</p>
           </note>
-        </div><div type="textpart" subtype="page" n="43" xml:id="diels-v1-dk011-p43"><pb n="43" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=69" />
+        <pb n="43" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=69" />
           <head>A. LEBEN UND LEHRE. 1. (DIOG. IX 18—20). 2—12.</head>
           <p>ἐποίησε δὲ καὶ Κολοφῶνος κτίσιν καὶ τὸν εἰς Ἐλέαν τῆς Ἰταλίας ἀποικισμὸν 34 ἔπη δισχίλια. καὶ ἤκμαζε κατὰ τὴν ἑξηκοστὴν ὀλυμπιάδα [540—537; Apollod. fr. 21<hi rend="sup">b</hi> Jac. Vgl. B 8, 4]. φησὶ δὲ Δημήτριος ὁ Φαληρεὺς ἐν τῶι Περὶ γήρως καὶ Παναίτιος ὁ Στωικὸς ἐν τῶι Περὶ εὐθυμίας [fr. 17 Fowler] ταῖς ἰδίαις χερσὶ <lb n="5" />θάψαι τοὺς υἱεῖς αὐτόν, καθάπερ καὶ Ἀναξαγόραν. δοκεῖ δὲ πεπρᾶσθαι ὑπὸ (* καὶ λελύσθαι ὑπὸ) τῶν Πυθαγορικῶν Παρμενίσκου καὶ Ὀρεστάδου, καθά φησι Φαβωρῖνος ἐν Ἀπομνημονευμάτων πρώτωι [fr. 2, FHG III 577]. γέγονε δὲ καὶ ἄλλος Ξενοφάνης Λέσβιος ποιητὴς ἰάμβων.</p>
-          <p>2. — Ix 21 Ξενοφάνους δὲ διήκουσε Παρμενίδης Πύρητος Ἐλεάτης. τοῦτον <lb n="10" />Θεόφραστος ἐν τῆι Ἐπιτομῆι [fr. 6<hi rend="sup">a</hi> Dox. 482] Ἀναξιμάνδρου φησὶν ἀκοῦσαι. Vgl. 18 A 1.</p>
-          <p>3. <hi rend="sc">Heraclit</hi> [12 B 40] πολυμαθίη νόον ἔχειν οὐ διδάσκει· Ἡσίοδον γὰρ ἂν ἐδίδαξε καὶ Πυθαγόρην αὖτίς τε Ξενοφάνεα καὶ Ἑκαταῖον.</p>
-          <p>4. <hi rend="sc">Cicero</hi> Acad. II 118 (aus Theophr.) <foreign xml:lang="la">Xenophanes paulo etiam antiquior</foreign> <lb n="15" />(<hi rend="sc">als Anaxagoras</hi>) <foreign xml:lang="la">unum esse omnia.</foreign></p>
-          <p>5. <hi rend="sc">Diog.</hi> VIII 56 [s. 21 A 1] Ἕρμιππος οὐ Παρμενίδου, Ξενοφάνους δὲ γεγονέναι ζηλωτήν (Empedokles), ὧι καὶ συνδιατρῖψαι καὶ μιμήσασθαι τὴν ἐποποιίαν [vgl. S. 42, 28].</p>
-          <p>6. [<hi rend="sc">Lucian.</hi>] Macrob. 20 Ξ. ὁ Δεξίνου μὲν υἱός, Ἀρχελάου δὲ τοῦ φυσικοῦ <lb n="20" />μαθητὴς ἐβίωσεν ἔτη ἓν καὶ ἐνενήκοντα.</p>
-          <p>7. <hi rend="sc">Censor.</hi> 15, 3 <hi rend="sc">X.</hi> <foreign xml:lang="la">Colophonius maior annorum centum fuit.</foreign> 35</p>
-          <p>8. <hi rend="sc">Clem.</hi> Strom. I 64 (II 40, 20 St.) τῆς δὲ Ἐλεατικῆς ἀγωγῆς Ξ. ὁ Κολοφώνιος κατάρχει, ὅν φησι Τίμαιος [fr. 92, FHG I 215] κατὰ Ἱέρωνα τὸν Σικελίας δυνάστην καὶ Ἐπίχαρμον τὸν ποιητὴν γεγονέναι, Ἀπολλόδωρος [fr. 22 Jac.] δὲ κατὰ <lb n="25" />τὴν τεσσαρακοστὴν ὀλυμπιάδα [620—617] γενόμενον παρατετακέναι ἄχρι Δαρείου τε καὶ Κύρου χρόνων. Aus derselben Quelle Sext. adv. math. I 257: Ξ. Κολοφώνιος ἐγένετο περὶ τὴν τεσσαρακοστὴν ὀλυμπιάδα [vgl. B 8].</p>
-          <p>9. <hi rend="sc">Euseb.</hi> Chron. a) Ol. 56 [556—3] Ξ. Κολοφώνιος ἐγνωρίζετο. b) Ol. 59—61 [richtig Arm. 60, 1 = 540] Ἴβυκος ὁ μελοποιὸς καὶ Φερεκύδης ὁ ἱστοριογράφος <lb n="30" />καὶ Φωκυλίδης καὶ Ξενοφάνης ὁ φυσικὸς παρωιδιῶν ποιητής. Vgl. A 1, oben Z. 2.</p>
-          <p>10. <hi rend="sc">Theol.</hi> arithm. p. 40 Ast. [c. 4, 8 S. 30, 9].</p>
-          <head>APOPHTHEGMATIK [vgl. A 1, S. 42, 27—31].</head>
+          </div><div type="textpart" subtype="fragment" n="A2" xml:id="diels-v1-dk011-a2"><p>2. — Ix 21 Ξενοφάνους δὲ διήκουσε Παρμενίδης Πύρητος Ἐλεάτης. τοῦτον <lb n="10" />Θεόφραστος ἐν τῆι Ἐπιτομῆι [fr. 6<hi rend="sup">a</hi> Dox. 482] Ἀναξιμάνδρου φησὶν ἀκοῦσαι. Vgl. 18 A 1.</p>
+          </div><div type="textpart" subtype="fragment" n="A3" xml:id="diels-v1-dk011-a3"><p>3. <hi rend="sc">Heraclit</hi> [12 B 40] πολυμαθίη νόον ἔχειν οὐ διδάσκει· Ἡσίοδον γὰρ ἂν ἐδίδαξε καὶ Πυθαγόρην αὖτίς τε Ξενοφάνεα καὶ Ἑκαταῖον.</p>
+          </div><div type="textpart" subtype="fragment" n="A4" xml:id="diels-v1-dk011-a4"><p>4. <hi rend="sc">Cicero</hi> Acad. II 118 (aus Theophr.) <foreign xml:lang="la">Xenophanes paulo etiam antiquior</foreign> <lb n="15" />(<hi rend="sc">als Anaxagoras</hi>) <foreign xml:lang="la">unum esse omnia.</foreign></p>
+          </div><div type="textpart" subtype="fragment" n="A5" xml:id="diels-v1-dk011-a5"><p>5. <hi rend="sc">Diog.</hi> VIII 56 [s. 21 A 1] Ἕρμιππος οὐ Παρμενίδου, Ξενοφάνους δὲ γεγονέναι ζηλωτήν (Empedokles), ὧι καὶ συνδιατρῖψαι καὶ μιμήσασθαι τὴν ἐποποιίαν [vgl. S. 42, 28].</p>
+          </div><div type="textpart" subtype="fragment" n="A6" xml:id="diels-v1-dk011-a6"><p>6. [<hi rend="sc">Lucian.</hi>] Macrob. 20 Ξ. ὁ Δεξίνου μὲν υἱός, Ἀρχελάου δὲ τοῦ φυσικοῦ <lb n="20" />μαθητὴς ἐβίωσεν ἔτη ἓν καὶ ἐνενήκοντα.</p>
+          </div><div type="textpart" subtype="fragment" n="A7" xml:id="diels-v1-dk011-a7"><p>7. <hi rend="sc">Censor.</hi> 15, 3 <hi rend="sc">X.</hi> <foreign xml:lang="la">Colophonius maior annorum centum fuit.</foreign> 35</p>
+          </div><div type="textpart" subtype="fragment" n="A8" xml:id="diels-v1-dk011-a8"><p>8. <hi rend="sc">Clem.</hi> Strom. I 64 (II 40, 20 St.) τῆς δὲ Ἐλεατικῆς ἀγωγῆς Ξ. ὁ Κολοφώνιος κατάρχει, ὅν φησι Τίμαιος [fr. 92, FHG I 215] κατὰ Ἱέρωνα τὸν Σικελίας δυνάστην καὶ Ἐπίχαρμον τὸν ποιητὴν γεγονέναι, Ἀπολλόδωρος [fr. 22 Jac.] δὲ κατὰ <lb n="25" />τὴν τεσσαρακοστὴν ὀλυμπιάδα [620—617] γενόμενον παρατετακέναι ἄχρι Δαρείου τε καὶ Κύρου χρόνων. Aus derselben Quelle Sext. adv. math. I 257: Ξ. Κολοφώνιος ἐγένετο περὶ τὴν τεσσαρακοστὴν ὀλυμπιάδα [vgl. B 8].</p>
+          </div><div type="textpart" subtype="fragment" n="A9" xml:id="diels-v1-dk011-a9"><p>9. <hi rend="sc">Euseb.</hi> Chron. a) Ol. 56 [556—3] Ξ. Κολοφώνιος ἐγνωρίζετο. b) Ol. 59—61 [richtig Arm. 60, 1 = 540] Ἴβυκος ὁ μελοποιὸς καὶ Φερεκύδης ὁ ἱστοριογράφος <lb n="30" />καὶ Φωκυλίδης καὶ Ξενοφάνης ὁ φυσικὸς παρωιδιῶν ποιητής. Vgl. A 1, oben Z. 2.</p>
+          </div><div type="textpart" subtype="fragment" n="A10" xml:id="diels-v1-dk011-a10"><p>10. <hi rend="sc">Theol.</hi> arithm. p. 40 Ast. [c. 4, 8 S. 30, 9].</p>
+          </div><div type="textpart" subtype="fragment" n="A11" xml:id="diels-v1-dk011-a11"><head>APOPHTHEGMATIK [vgl. A 1, S. 42, 27—31].</head>
           <p>11. <hi rend="sc">Plut.</hi> reg. apophth. p. 175 c πρὸς δὲ Ξενοφάνην τὸν Κολοφώνιον εἰπόντα μόλις οἰκέτας δύο τρέφειν· ἀλλ’ Ὅμηρος εἶπεν (Hiero), ὃν σὺ διασύρεις, πλείο-<lb n="35" />νας ἢ μυρίους τρέφει τεθνηκώς.</p>
-          <p>12. <hi rend="sc">Arist.</hi> Rhet. B 23. 1399<hi rend="sup">b</hi> 5 ἄλλος [sc. τόπος] ἐκ τοῦ, τὸ συμβαῖνον ἐὰν ἦι ταὐτόν, ὅτι καὶ ἐξ ὧν συμβαίνει ταὐτά· οἷον Ξ. ἔλεγεν ὅτι ὁμοίως ἀσεβοῦσιν</p>
+          </div><div type="textpart" subtype="fragment" n="A12" xml:id="diels-v1-dk011-a12"><p>12. <hi rend="sc">Arist.</hi> Rhet. B 23. 1399<hi rend="sup">b</hi> 5 ἄλλος [sc. τόπος] ἐκ τοῦ, τὸ συμβαῖνον ἐὰν ἦι ταὐτόν, ὅτι καὶ ἐξ ὧν συμβαίνει ταὐτά· οἷον Ξ. ἔλεγεν ὅτι ὁμοίως ἀσεβοῦσιν</p>
           <note type="apparatus">
             <p>1 ἐποίησε . . . δισχίλια verdächtigte Hiller <hi rend="sc">Rh. M.</hi> 33, 529. Dagegen Immisch <hi rend="sc">Philol.</hi> 49, 208, Crönert Χάριτες 123 ff. 5 Dublette zu Platons Leben</p>
             <p>5. 6 vgl. zu S. 41, 31 16 οὐ παρμενίδης F<hi rend="sup">2</hi>: ὁ παρμενίδου BP<hi rend="sup">1</hi>: fehlt F<hi rend="sup">1</hi></p>
@@ -54,32 +54,32 @@
             <p>Δαρείου τε καὶ Κύρου aus Versnot umgestellt? So * <hi rend="sc">Rh. Mus.</hi> 31, 23</p>
             <p>33 vgl. Sternbach <hi rend="sc">Abh. d. krak. Ak. philol.</hi> xx p. 152</p>
           </note>
-        </div><div type="textpart" subtype="page" n="44" xml:id="diels-v1-dk011-p44"><pb n="44" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=70" />
+        <pb n="44" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=70" />
           <head>11. XENOPHANES.</head>
           <p>οἱ γενέσθαι φάσκοντες τοὺς θεοὺς τοῖς ἀποθανεῖν λέγουσιν· ἀμφοτέρως γὰρ συμ-<lb n="35" />βαίνει μὴ εἶναι τοὺς θεούς ποτε.</p>
-          <p>13. <hi rend="smallcaps">Arist.</hi> B 26. 1400<hi rend="sup">b</hi>5 οἷον Ξ. Ἐλεάταις ἐρωτῶσιν, εἰ θύωσι τῆι Λευκοθέαι<lb n="5" />καὶ θρηνῶσιν ἢ μή, συνεβούλευεν, εἰ μὲν θεὸν ὑπολαμβάνουσιν, μὴ θρηνεῖν, εἰ δ’ ἄνθρωπον, μὴ θύειν. Anders Plut. Amat. 18, 12. 736 <hi rend="smallcaps">d</hi> Ξ. Αἰγυπτίοις ἐκέλευσε τὸν Ὄσιριν εἰ θνητὸν νομίζουσι μὴ τιμᾶν ὡς θνητόν, εἰ δὲ θεὸν ἡγοῦνται μὴ θρηνεῖν. de Is. et Os. 70. 379 <hi rend="smallcaps">b</hi> εὖ μὲν οὖν Ξ. ὁ Κολοφώνιος ἠξίωσε τοὺς Αἰγυπτίους, εἰ θεοὺς νομίζουσι, μὴ θρηνεῖν, εἰ δὲ θρηνοῦσι, θεοὺς μὴ νομίζειν [vgl. 12 B 127]. de superstit. 13 p. 171 <hi rend="smallcaps">e</hi> Ξ. ὁ φυσικὸς τοὺς Αἰγυπτίους κοπτο-<lb n="10" />μένους ἐν ταῖς ἑορταῖς καὶ θρηνοῦντας ὁρῶν ὑπέμνησεν οἰκείως· ‘οὗτοι’ φησίν ‘εἰ μὲν θεοί εἰσι, μὴ θρηνεῖτε αὐτούς· εἰ δ’ ἄνθρωποι, μὴ θύετε αὐτοῖς’ [vgl. Ps. Plut. apophth. Lac. 26 p. 228 <hi rend="smallcaps">e</hi>].</p>
-          <p>14. <hi rend="smallcaps">Arist.</hi> Rhet. A 15. 1377<hi rend="sup">a</hi> 19 καὶ τὸ τοῦ Ξενοφάνους ἁρμόττει, ὅτι οὐκ ἴση πρόκλησις αὕτη [zum Eid] ἀσεβεῖ πρὸς εὐσεβῆ, ἀλλ’ ὁμοία καὶ εἰ ἰσχυρὸς ἀσθενῆ<lb n="15" />πατάξαι ἢ πληγῆναι προκαλέσαιτο.</p>
-          <p>15. — Metaph. Γ 5. 1010<hi rend="sup">a</hi> 4 διὸ εἰκότως μὲν λέγουσιν, οὐκ ἀληθῆ δὲ λέγου-σιν· οὕτω γὰρ ἁρμόττει μᾶλλον εἰπεῖν ἢ ὥσπερ Ἐπίχαρμος εἰς Ξενοφάνην.</p>
-          <p>16. <hi rend="smallcaps">Plut.</hi> de vit. pud. 5 p. 530 <hi rend="smallcaps">e</hi> μὴ δυσωπηθῆις μηδὲ δείσηις σκωπτόμενος, ἀλλ’ ὥσπερ Ξ. Λάσου τοῦ Ἑρμιονέως μὴ βουλόμενον αὐτῶι συγκυβεύειν δειλὸν<lb n="20" />ἀποκαλοῦντος ὡμολόγει καὶ πάνυ δειλὸς εἶναι πρὸς τὰ αἰσχρὰ καὶ ἄτολμος.</p>
-          <p>17. — de commun. notit. 46, 3 p. 1084 <hi rend="smallcaps">f</hi> ὁ μὲν οὖν Ξ. διηγουμένου τινὸς ἐγχέλεις ἑωρακέναι ἐν ὕδατι θερμῶι ζώσας· ‘οὐκοῦν’ εἶπεν ‘ἐν ψυχρῶι αὐτὰς ἑψή-σομεν’.</p>
-          <head>POESIE.</head>
+          </div><div type="textpart" subtype="fragment" n="A13" xml:id="diels-v1-dk011-a13"><p>13. <hi rend="smallcaps">Arist.</hi> B 26. 1400<hi rend="sup">b</hi>5 οἷον Ξ. Ἐλεάταις ἐρωτῶσιν, εἰ θύωσι τῆι Λευκοθέαι<lb n="5" />καὶ θρηνῶσιν ἢ μή, συνεβούλευεν, εἰ μὲν θεὸν ὑπολαμβάνουσιν, μὴ θρηνεῖν, εἰ δ’ ἄνθρωπον, μὴ θύειν. Anders Plut. Amat. 18, 12. 736 <hi rend="smallcaps">d</hi> Ξ. Αἰγυπτίοις ἐκέλευσε τὸν Ὄσιριν εἰ θνητὸν νομίζουσι μὴ τιμᾶν ὡς θνητόν, εἰ δὲ θεὸν ἡγοῦνται μὴ θρηνεῖν. de Is. et Os. 70. 379 <hi rend="smallcaps">b</hi> εὖ μὲν οὖν Ξ. ὁ Κολοφώνιος ἠξίωσε τοὺς Αἰγυπτίους, εἰ θεοὺς νομίζουσι, μὴ θρηνεῖν, εἰ δὲ θρηνοῦσι, θεοὺς μὴ νομίζειν [vgl. 12 B 127]. de superstit. 13 p. 171 <hi rend="smallcaps">e</hi> Ξ. ὁ φυσικὸς τοὺς Αἰγυπτίους κοπτο-<lb n="10" />μένους ἐν ταῖς ἑορταῖς καὶ θρηνοῦντας ὁρῶν ὑπέμνησεν οἰκείως· ‘οὗτοι’ φησίν ‘εἰ μὲν θεοί εἰσι, μὴ θρηνεῖτε αὐτούς· εἰ δ’ ἄνθρωποι, μὴ θύετε αὐτοῖς’ [vgl. Ps. Plut. apophth. Lac. 26 p. 228 <hi rend="smallcaps">e</hi>].</p>
+          </div><div type="textpart" subtype="fragment" n="A14" xml:id="diels-v1-dk011-a14"><p>14. <hi rend="smallcaps">Arist.</hi> Rhet. A 15. 1377<hi rend="sup">a</hi> 19 καὶ τὸ τοῦ Ξενοφάνους ἁρμόττει, ὅτι οὐκ ἴση πρόκλησις αὕτη [zum Eid] ἀσεβεῖ πρὸς εὐσεβῆ, ἀλλ’ ὁμοία καὶ εἰ ἰσχυρὸς ἀσθενῆ<lb n="15" />πατάξαι ἢ πληγῆναι προκαλέσαιτο.</p>
+          </div><div type="textpart" subtype="fragment" n="A15" xml:id="diels-v1-dk011-a15"><p>15. — Metaph. Γ 5. 1010<hi rend="sup">a</hi> 4 διὸ εἰκότως μὲν λέγουσιν, οὐκ ἀληθῆ δὲ λέγου-σιν· οὕτω γὰρ ἁρμόττει μᾶλλον εἰπεῖν ἢ ὥσπερ Ἐπίχαρμος εἰς Ξενοφάνην.</p>
+          </div><div type="textpart" subtype="fragment" n="A16" xml:id="diels-v1-dk011-a16"><p>16. <hi rend="smallcaps">Plut.</hi> de vit. pud. 5 p. 530 <hi rend="smallcaps">e</hi> μὴ δυσωπηθῆις μηδὲ δείσηις σκωπτόμενος, ἀλλ’ ὥσπερ Ξ. Λάσου τοῦ Ἑρμιονέως μὴ βουλόμενον αὐτῶι συγκυβεύειν δειλὸν<lb n="20" />ἀποκαλοῦντος ὡμολόγει καὶ πάνυ δειλὸς εἶναι πρὸς τὰ αἰσχρὰ καὶ ἄτολμος.</p>
+          </div><div type="textpart" subtype="fragment" n="A17" xml:id="diels-v1-dk011-a17"><p>17. — de commun. notit. 46, 3 p. 1084 <hi rend="smallcaps">f</hi> ὁ μὲν οὖν Ξ. διηγουμένου τινὸς ἐγχέλεις ἑωρακέναι ἐν ὕδατι θερμῶι ζώσας· ‘οὐκοῦν’ εἶπεν ‘ἐν ψυχρῶι αὐτὰς ἑψή-σομεν’.</p>
+          </div><div type="textpart" subtype="fragment" n="A18" xml:id="diels-v1-dk011-a18"><head>POESIE.</head>
           <p>18. <hi rend="smallcaps">Diog.</hi> IX 22 καὶ αὐτὸς (Parmenides) δὲ διὰ ποιημάτων φιλοσοφεῖ καθά-<lb n="25" />περ Ἡσίοδός τε καὶ Ξ. καὶ Ἐμπεδοκλῆς. Vgl. 1 B 1 (S. 13, 6), 11 A 5 (S. 43, 16).</p>
-          <p>19. — IX 18 (oben S. 42, 16). II 46 vgl. S. 32, 37) ἀποθανόντι δὲ [scil. Ὁμή-<lb n="36" />ρωι ἐφιλονίκει] Ξ. ὁ Κολοφώνιος καὶ Κέρκωψ Ἡσιόδωι ζῶντι, τελευτήσαντι δὲ ὁ προειρημένος Ξ.</p>
-          <p>20. <hi rend="smallcaps">Strabo</hi> XIV p. 643 Ξ. ὁ φυσικὸς ὁ τοὺς Σίλλους ποιήσας διὰ ποιημάτων.</p>
-          <p>21. <hi rend="smallcaps">Apul.</hi> Florida c. 20 <hi rend="italic">canit enim Empedocles carmina, Plato dialogos, Socrates hymnos, Epicharmus comoedias, Xenophon historias, Xenocrates</hi> [<hi rend="italic">Xeno-phanes</hi> Casaubonus?] <hi rend="italic">satiras.</hi></p>
-          <p>22. <hi rend="smallcaps">Procl.</hi> zu Hesiod. opp. 284 (aus Plutarch) Ξ. διὰ δή τινα πρὸς τοὺς<lb n="35" />κατ’ αὐτὸν φιλοσόφους καὶ ποιητὰς μικροψυχίαν Σίλλους ἀτόπους ἐκθεῖναι λέγεται κατὰ πάντων φιλοσόφων καὶ ποιητῶν.</p>
-          <p>23. <hi rend="smallcaps">Schol.</hi> ABT zu B 212 ἤδη δὲ οὐ Ξενοφάνει, ἀλλ’ Ὁμήρωι πρώτωι Σίλλοι πεποίηνται, ἐν οἷς αὐτός τε τὸν Θερσίτην σιλλαίνει καὶ ὁ Θερσίτης τοὺς ἀρίστους.</p>
-          <p>24. <hi rend="smallcaps">Arius Did.</hi> bei Stob. ecl. I 1, 18 (p. 6, 14 W.) Ξενοφάνους πρώτου λόγος<lb n="40" />ἦλθεν εἰς τοὺς Ἕλληνας ἄξιος γραφῆς ἅμα παιδιᾶι τάς τε τῶν ἄλλων τόλμας ἐπι-πλήττοντος καὶ τὴν αὑτοῦ παριστάντος εὐλάβειαν, ὡς ἄρα θεὸς μὲν οἶδε τὴν ἀλή-θειαν, ‘δόκος ... τέτυκται’ (B 34, 4). Vgl. 11 A 35.</p>
+          </div><div type="textpart" subtype="fragment" n="A19" xml:id="diels-v1-dk011-a19"><p>19. — IX 18 (oben S. 42, 16). II 46 vgl. S. 32, 37) ἀποθανόντι δὲ [scil. Ὁμή-<lb n="36" />ρωι ἐφιλονίκει] Ξ. ὁ Κολοφώνιος καὶ Κέρκωψ Ἡσιόδωι ζῶντι, τελευτήσαντι δὲ ὁ προειρημένος Ξ.</p>
+          </div><div type="textpart" subtype="fragment" n="A20" xml:id="diels-v1-dk011-a20"><p>20. <hi rend="smallcaps">Strabo</hi> XIV p. 643 Ξ. ὁ φυσικὸς ὁ τοὺς Σίλλους ποιήσας διὰ ποιημάτων.</p>
+          </div><div type="textpart" subtype="fragment" n="A21" xml:id="diels-v1-dk011-a21"><p>21. <hi rend="smallcaps">Apul.</hi> Florida c. 20 <hi rend="italic">canit enim Empedocles carmina, Plato dialogos, Socrates hymnos, Epicharmus comoedias, Xenophon historias, Xenocrates</hi> [<hi rend="italic">Xeno-phanes</hi> Casaubonus?] <hi rend="italic">satiras.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="A22" xml:id="diels-v1-dk011-a22"><p>22. <hi rend="smallcaps">Procl.</hi> zu Hesiod. opp. 284 (aus Plutarch) Ξ. διὰ δή τινα πρὸς τοὺς<lb n="35" />κατ’ αὐτὸν φιλοσόφους καὶ ποιητὰς μικροψυχίαν Σίλλους ἀτόπους ἐκθεῖναι λέγεται κατὰ πάντων φιλοσόφων καὶ ποιητῶν.</p>
+          </div><div type="textpart" subtype="fragment" n="A23" xml:id="diels-v1-dk011-a23"><p>23. <hi rend="smallcaps">Schol.</hi> ABT zu B 212 ἤδη δὲ οὐ Ξενοφάνει, ἀλλ’ Ὁμήρωι πρώτωι Σίλλοι πεποίηνται, ἐν οἷς αὐτός τε τὸν Θερσίτην σιλλαίνει καὶ ὁ Θερσίτης τοὺς ἀρίστους.</p>
+          </div><div type="textpart" subtype="fragment" n="A24" xml:id="diels-v1-dk011-a24"><p>24. <hi rend="smallcaps">Arius Did.</hi> bei Stob. ecl. I 1, 18 (p. 6, 14 W.) Ξενοφάνους πρώτου λόγος<lb n="40" />ἦλθεν εἰς τοὺς Ἕλληνας ἄξιος γραφῆς ἅμα παιδιᾶι τάς τε τῶν ἄλλων τόλμας ἐπι-πλήττοντος καὶ τὴν αὑτοῦ παριστάντος εὐλάβειαν, ὡς ἄρα θεὸς μὲν οἶδε τὴν ἀλή-θειαν, ‘δόκος ... τέτυκται’ (B 34, 4). Vgl. 11 A 35.</p>
           <note type="apparatus">
             <p>3 Über die Wanderanekdote vgl. Nilsson <hi rend="italic">Gr. Feste</hi> 432, 4 &amp;nbsp;&amp;nbsp;&amp;nbsp; 16 Gomperz <hi rend="italic">Wien. Sitz. Ber.</hi> 78, 569 vermutet als Epicharmisch εἰκότως μὲν οὐκ ἔφα τόδ’, ἀλλ’ ἀλαθέως ἔφα mit Bezug auf die Götterlehre des X. &amp;nbsp;&amp;nbsp;&amp;nbsp; 32 <hi rend="italic">comoedias</hi> *: <hi rend="italic">modos</hi> Hs. besser Crates Rohde &amp;nbsp;&amp;nbsp;&amp;nbsp; 35 συνθεῖναι Paris. 2771 &amp;nbsp;&amp;nbsp;&amp;nbsp; 41 ‘wird der Trimeter θεὸς ... ἀλήθειαν (μόνος) etwa aus X. (Sillen) zitiert wie das folgende Fr.?’ Heidel</p>
           </note>
-        </div><div type="textpart" subtype="page" n="45" xml:id="diels-v1-dk011-p45"><pb n="45" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=71" />
+        </div><div type="textpart" subtype="fragment" n="A25" xml:id="diels-v1-dk011-a25"><pb n="45" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=71" />
           <head>A. LEBEN UND LEHRE 12—28 ([ARIST.] de MXG 3).</head>
           <p>25. CICERO Acad. prior. II 23, 74 Parmenides, X., <hi rend="italic">minus bonis quamquam</hi> 36 <hi rend="italic">versibus</hi> (nämlich als Empedokles), <hi rend="italic">sed tamen illi versibus increpant eorum adrogantiam quasi irati, qui cum sciri nihil possit, audeant se scire dicere.</hi></p>
-          <p>26. PHILO de provid. II 39 <hi rend="italic">non ita tamen X. aut Parmenides aut Empedocles</hi> <lb n="5" /><hi rend="italic">sive alii quicumque theologi a poesi capti sunt divini viri</hi> [sc. deos mendaces <hi rend="italic">finxerunt], sed potius theoriam naturae gaudio amplexi et vitam omnem ad pietatem laudemque deorum dedicantes optimi quidem viri comperti sunt, poetae tamen non felices: quos oportebat divinitus spiritum sortiri gratiamque de caelo metrum carmen rhythmumque caelestem ac divinum, ut poemata vera relinque</hi><lb n="10" /><hi rend="italic">rent velut prototypum libri perfectum et pulcrum cunctis exemplar.</hi> Ebend. 42 <hi rend="italic">at quare Empedocles, Parmenides, X. aemulatorque istorum chorus non sortiti sunt spiritum Musarum, cum theologiam exercuerunt?</hi></p>
-          <p>27. ATHEN. XIV 632 C D ὅτι δὲ πρὸς τὴν μουσικὴν οἰκειότατα διέκειντο οἱ ἀρ­χαῖοι δῆλον καὶ ἐξ Ὁμήρου· ὃς διὰ τὸ μεμελοποιηκέναι πᾶσαν ἑαυτοῦ τὴν ποίη­<lb n="15" />σιν ἀφροντιστὶ [τοὺς] πολλοὺς ἀκεφάλους ποιεῖ στίχους καὶ λαγαρούς, ἔτι δὲ μειούρους. Ξ. δὲ καὶ Σόλων καὶ Θέογνις καὶ Φωκυλίδης, ἔτι δὲ Περίανδρος ὁ Κορίνθιος ἐλεγειοποιὸς καὶ τῶν λοιπῶν οἱ μὴ προσάγοντες πρὸς τὰ ποιήματα μελωιδίαν ἐκπονοῦσι τοὺς στίχους τοῖς ἀριθμοῖς καὶ τῆι τάξει τῶν μέτρων καὶ σκοποῦσιν ὅπως αὐτῶν μηδεὶς (μήτε) ἀκέφαλος ἔσται μήτε λαγαρὸς μήτε μείουρος.</p>
+          </div><div type="textpart" subtype="fragment" n="A26" xml:id="diels-v1-dk011-a26"><p>26. PHILO de provid. II 39 <hi rend="italic">non ita tamen X. aut Parmenides aut Empedocles</hi> <lb n="5" /><hi rend="italic">sive alii quicumque theologi a poesi capti sunt divini viri</hi> [sc. deos mendaces <hi rend="italic">finxerunt], sed potius theoriam naturae gaudio amplexi et vitam omnem ad pietatem laudemque deorum dedicantes optimi quidem viri comperti sunt, poetae tamen non felices: quos oportebat divinitus spiritum sortiri gratiamque de caelo metrum carmen rhythmumque caelestem ac divinum, ut poemata vera relinque</hi><lb n="10" /><hi rend="italic">rent velut prototypum libri perfectum et pulcrum cunctis exemplar.</hi> Ebend. 42 <hi rend="italic">at quare Empedocles, Parmenides, X. aemulatorque istorum chorus non sortiti sunt spiritum Musarum, cum theologiam exercuerunt?</hi></p>
+          </div><div type="textpart" subtype="fragment" n="A27" xml:id="diels-v1-dk011-a27"><p>27. ATHEN. XIV 632 C D ὅτι δὲ πρὸς τὴν μουσικὴν οἰκειότατα διέκειντο οἱ ἀρ­χαῖοι δῆλον καὶ ἐξ Ὁμήρου· ὃς διὰ τὸ μεμελοποιηκέναι πᾶσαν ἑαυτοῦ τὴν ποίη­<lb n="15" />σιν ἀφροντιστὶ [τοὺς] πολλοὺς ἀκεφάλους ποιεῖ στίχους καὶ λαγαρούς, ἔτι δὲ μειούρους. Ξ. δὲ καὶ Σόλων καὶ Θέογνις καὶ Φωκυλίδης, ἔτι δὲ Περίανδρος ὁ Κορίνθιος ἐλεγειοποιὸς καὶ τῶν λοιπῶν οἱ μὴ προσάγοντες πρὸς τὰ ποιήματα μελωιδίαν ἐκπονοῦσι τοὺς στίχους τοῖς ἀριθμοῖς καὶ τῆι τάξει τῶν μέτρων καὶ σκοποῦσιν ὅπως αὐτῶν μηδεὶς (μήτε) ἀκέφαλος ἔσται μήτε λαγαρὸς μήτε μείουρος.</p>
           <p>20</p>
-          <head>LEHRE.</head>
+          </div><div type="textpart" subtype="fragment" n="A28" xml:id="diels-v1-dk011-a28"><head>LEHRE.</head>
           <p>28. [ARIST.] <hi rend="italic">de Melisso Xenophane Gorgia cc. 3. 4.</hi></p>
           <p>ed. Bekker p. 977<hi rend="sup">a</hi></p>
           <p>c. 3 (1) Ἀδύνατόν φησιν εἶναι, εἴ τι ἔστι, γενέσθαι, τοῦτο λέγων <lb n="15" />ἐπὶ τοῦ θεοῦ· ἀνάγκη γὰρ ἤτοι ἐξ ὁμοίου ἢ ἐξ ἀνομοίου γενέσθαι τὸ γενόμενον· δυνατὸν δὲ οὐδέτερον· οὔτε γὰρ ὅμοιον ὑφ’ ὁμοίου προσήκειν τεκνωθῆναι μᾶλλον ἢ τεκνῶσαι (ταὐτὰ γὰρ ἅπαντα τοῖς γε ἴσοις καὶ ὁμοίως ὑπάρχειν πρὸς ἄλληλα) οὔτ’ ἂν ἐξ ἀνομοίου τἀνόμοιον γενέσθαι. (2) εἰ γὰρ <lb n="20" />γίγνοιτο ἐξ ἀσθενεστέρου τὸ ἰσχυρότερον ἢ ἐξ ἐλάττονος τὸ μεῖζον ἢ ἐκ χείρονος τὸ κρεῖττον, ἢ τοὐναντίον τὰ χείρω ἐκ τῶν κρειττόνων, τὸ οὐκ ἂν ἐξ ὄντος (ἢ τὸ ὂν ἐξ οὐκ ὄντος) ἂν γε­νέσθαι· ὅπερ ἀδύνατον.</p>
@@ -87,7 +87,7 @@
           <note type="apparatus">
             <p>21 scheint (vielleicht mit Benutzung von Aristoteles’ Πρὸς τὰ Ξενοφάνους [Ξενοκράτους Hss.] ἆ, Diog. v 25) von einem Eklektiker röm. Zeit geschrieben. Text nach m. Ausg. Abh. d. Berl. Ak. 1900, Hss. LR 977<hi rend="sup">a</hi>22 ⟨ ⟩ Brandis γενέσθαι] γίγνεσθαι Blass 28 πάντα κρατεῖσθαι εἶναι LR: verb. Karsten</p>
           </note>
-        </div><div type="textpart" subtype="page" n="46" xml:id="diels-v1-dk011-p46"><pb n="46" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=72" />
+        <pb n="46" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=72" />
           <head>11. XENOPHANES.</head>
           <p>977<hi rend="superscript">a</hi> σθαι. (5) ἴσων δὲ ὄντων, οὐκ ἂν ἔχειν θεοῦ φύσιν, ὃν δεῖν εἶναι κράτιστον· τὸ δὲ ἴσον οὔτε βέλτιον οὔτε χεῖρον εἶναι τοῦ ἴσου. ὥστ᾽ εἴπερ εἴη τε καὶ τοιοῦτον εἴη θεός, ἕνα μόνον εἶναι τὸν <lb n="35" />θεόν. οὐδὲ γὰρ οὐδὲ πάντα δύνασθαι ἂν ἃ βούλοιτο [οὐ γὰρ ἂν δύνασθαι] πλειόνων ὄντων· ἕνα ἄρα εἶναι μόνον. (6) ἕνα δ᾽ ὄντα ὅμοιον εἶναι πάντη, ὁρῶντα καὶ ἀκούοντα τάς τε ἄλλας αἰσθήσεις ἔχοντα πάντη· εἰ γὰρ μή, κρατεῖν ἂν καὶ κρατεῖσθαι ὑπ᾽ ἀλλήλων τὰ μέρη θεοῦ [ὄντα], ὅπερ ἀδύνατον.</p>
           <p>977<hi rend="superscript">b</hi> <lb n="1" />(7) πάντη δ᾽ ὅμοιον ὄντα σφαιροειδῆ εἶναι· οὐ γὰρ τῇ μὲν τῇ δ᾽ οὐ τοιοῦτον εἶναι, ἀλλὰ πάντη. (8) ἀίδιον δὲ ὄντα καὶ ἕνα καὶ ⟨ὅμοιον καὶ⟩ σφαιροειδῆ οὔτε ἄπειρον οὔτε πεπεράνθαι. ἄπειρον μὲν ⟨γὰρ⟩ τὸ μὴ ὂν εἶναι· τοῦτο γὰρ οὔτε μέσον οὔτε ἀρχὴν καὶ τέλος οὔτ᾽ <lb n="5" />ἄλλο οὐδὲν μέρος ἔχειν, τοιοῦτον δὲ εἶναι τὸ ἄπειρον· οἷον δὲ τὸ μὴ ὄν, οὐκ ἂν εἶναι τὸ ὄν· περαίνειν δὲ πρὸς ἄλληλα, εἰ πλείω εἴη. τὸ δὲ ἓν οὔτε τῶι οὐκ ὄντι οὔτε τοῖς πολλοῖς ὡμοιῶσθαι· ἓν γὰρ ⟨ὂν⟩ οὐκ ἔχειν, πρὸς ὅτι περανεῖ. (9) τὸ δὴ τοιοῦτον ἕν, ὃν τὸν θεὸν εἶναι λέγει, οὔτε κινεῖσθαι οὔτε ἀκίνη<lb n="10" />τον εἶναι· ἀκίνητον μὲν γὰρ εἶναι τὸ μὴ ὄν· οὔτε γὰρ ἂν εἰς αὐτὸ ἕτερον οὔτ᾽ ἐκεῖνο εἰς ἄλλο ἐλθεῖν. κινεῖσθαι δὲ τὰ πλείω ὄντα ἑνός· ἕτερον γὰρ εἰς ἕτερον δεῖν κινεῖσθαι. εἰς μὲν οὖν τὸ μὴ ὂν οὐδὲν ἂν κινηθῆναι. (10) τὸ γὰρ μὴ ὂν οὐδαμῆ εἶναι, εἰ δὲ εἰς ἄλληλα μεταβάλλοι, πλείω ἂν τὸ ἓν <lb n="15" />εἶναι ἑνός. διὰ ταῦτα δὴ κινεῖσθαι μὲν ἂν τὰ δύο ἢ πλείω ἑνός, ἠρεμεῖν δὲ καὶ ἀκίνητον εἶναι τὸ οὐδέν. (11) τὸ δὲ ἓν οὔτε ἀτρεμεῖν οὔτε κινεῖσθαι· οὔτε γὰρ τῶι μὴ ὄντι οὔτε τοῖς πολλοῖς ὅμοιον εἶναι. κατὰ πάντα δὲ οὕτως ἔχοντα τὸν θεόν, ἀίδιόν τε καὶ ἕνα, ὅμοιόν τε καὶ σφαιροειδῆ ὄντα, οὔτε ἄπει<lb n="20" />ρον οὔτε πεπερασμένον οὔτε ἠρεμοῦντα οὔτε κινητὸν εἶναι.</p>
@@ -95,24 +95,24 @@
           <note type="apparatus">
             <p>977<hi rend="superscript">a</hi> 32 θεοῦ Bonitz: θεὸν LR φύσιν ὃν zuerst M. P. Hoffmann <hi rend="italic">Rev. de l'instr. p. en Belg.</hi> 27 (1884) p. 24: φυσῖν in ras. R: φύσιν L 35. 36 οὐ ... δύνασθαι tilgt Blass 37 ὁρᾶν τε καὶ ἀκούειν LR: verb. Wendland vgl. 39 39 [ὄντα] * 977<hi rend="superscript">b</hi> 3 ⟨ὅμοιον καὶ⟩ Wendl. μὲν ⟨γὰρ⟩ τὸ Bonitz: μὲν ὃ L: ὃ R 8 ⟨ὂν⟩ Blass 9 ἕν, ὃν *: ἓν, ὂν L: ὄν, ἓν ὂν R 14 ἂν τὸ ἓν Karsten: αὐτὸν LR 15 διὰ] κατὰ Wendl. 18 δὲ δὴ? * 20 *: ἠρεμῖν (comp.) L: ἠρεμεῖν R κινητὸν Fülleborn: ἀκίνητον LR 23 ⟨ ⟩ Brandis; doch genügt vielleicht τί κ. μηδ᾽ ἐξ ὁμοίου (d. h. καὶ ἐκ μὴ ὁμοίου vgl. Bonitz Ind. Ar. 539<hi rend="superscript">a</hi> 21) τ. γ. γ. Vgl. 11 A 31 S. 50, 20 f. 25 ἢ ἐξ] ἢ καὶ ἐξ L: ἢ R</p>
           </note>
-        </div><div type="textpart" subtype="page" n="47" xml:id="diels-v1-dk011-p47"><pb n="47" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=73" />
+        <pb n="47" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=73" />
           <head>A. LEHRE. 28 ([ARIST.] de MXG 3. 4).</head>
           <p>977<hi rend="superscript">b</hi> βέλτιστον λέγων· οὐ δοκεῖ δὲ τοῦτο κατὰ τὸν νόμον, ἀλλὰ <lb n="38" />πολλὰ κρείττους εἶναι ἀλλήλων οἱ θεοί. οὐκ οὖν ἐκ τοῦ δο-<lb n="30" />κοῦντος εἴληφε ταύτην κατὰ τοῦ θεοῦ τὴν ὁμολογίαν. (3) τό τε κράτιστον εἶναι τὸν θεὸν οὐχ οὕτως ὑπολαμβάνειν λέγεται, ὡς πρὸς ἄλλο τι τοιαύτη ἡ τοῦ θεοῦ φύσις, ἀλλὰ πρὸς τὴν αὐτοῦ διάθεσιν, ἐπεί τοί γε πρὸς ἕτερον οὐδὲν ἂν κωλύοι μὴ <lb n="35" />τῆι αὐτοῦ ἐπιεικείαι καὶ ῥώμηι ὑπερέχειν, ἀλλὰ διὰ τὴν τῶν ἄλλων ἀσθένειαν. θέλοι δ’ ἂν οὐδεὶς οὕτω τὸν θεὸν φάναι κράτιστον εἶναι, ἀλλ’ ὅτι αὐτὸς ἔχει ὡς οἷόν τε ἄριστα, καὶ οὐδὲν ἐλλείπει καὶ εὖ καὶ καλῶς ἔχειν αὐτῶι· τἆλλα γὰρ ἴσως ἔχοντι κἀκεῖνο ἂν συμβαίνοι. (4) οὕτω δὲ δια-<lb n="39" />κεῖσθαι καὶ πλείους αὐτοὺς ὄντας οὐδὲν ἂν κωλύοι, ἅπαντας ὡς</p>
           <p>978<hi rend="superscript">a</hi> <lb n="1" />οἷόν τε ἄριστα διακειμένους, καὶ κρατίστους τῶν ἄλλων, οὐχ αὑτῶν ὄντας. (5) ἔστι δ’, ὡς ἔοικε, καὶ ἄλλα. κράτιστον γὰρ εἶναι τὸν θεόν φησι, τοῦτο δὲ τινῶν εἶναι ἀνάγκη· ἕνα τ’ ὄντα πάντη ὁρᾶν καὶ ἀκούειν οὐδὲν προσήκει· οὐδὲ γὰρ εἰ μὴ καὶ <lb n="5" />τῇδ’ ὁρᾶι, χεῖρον ὁρᾶι ταύτη, ἀλλ’ οὐχ ὁρᾶι. ἀλλ’ ἴσως τοῦτο βούλεται τὸ πάντη αἰσθάνεσθαι, ὅτι οὕτως ἂν βέλτιστα ἔχοι, ὅμοιος ὢν πάντη. (6) ἔτι τοιοῦτος ὢν διὰ τί σφαιροειδὴς ἂν εἴη, ἀλλ’ οὐχ [ὅτι] ἑτέραν τινὰ μᾶλλον ἔχων ἰδέαν, ὅτι πάντη ἀκούει καὶ πάντη κρατεῖ; ὥσπερ γὰρ ὅταν λέγωμεν τὸ <lb n="10" />ψιμύθιον ὅτι πάντη ἐστὶ λευκόν, οὐδὲν ἄλλο σημαίνο-μεν ἢ ὅτι ἐν ἅπασιν αὐτοῦ τοῖς μέρεσιν ἐγκέχρωσται ἡ λευκότης· τί δὴ κωλύει οὕτως κἀκεῖ τὸ πάντη ὁρᾶν καὶ ἀκούειν καὶ κρατεῖν λέγεσθαι, ὅτι ἅπαν ὁ ἄν τις αὐτοῦ λαμβάνηι μέρος, τοῦτ’ ἔσται πεπονθός; ὥσπερ δὲ οὐδὲ τὸ <lb n="15" />ψιμύθιον, οὐδὲ τὸν θεὸν ἀνάγκη εἶναι διὰ τοῦτο σφαιροειδῆ. (7) ἔτι μήτε ἄπειρον (εἶναι) μήτε πεπεράνθαι σῶμά γε ὄντα καὶ ἔχοντα μέγεθος πῶς οἷόν τε, εἴπερ τοῦτ’ ἐστὶν ἄπειρον ὃ ἂν μὴ ἔχηι πέρας δεκτικὸν ὂν πέρατος, πέρας δ’ ἐν μεγέθει καὶ πλή-θει ἐγγίγνεται καὶ ἐν ἅπαντι τῶι ποσῶι, ὥστε εἰ μὴ ἔχει <lb n="20" />πέρας μέγεθος ὂν ἄπειρόν ἐστιν; (8) ἔτι δὲ σφαιροειδῆ ὄντα ἀνάγκη πέρας ἔχειν· ἔσχατα γὰρ ἔχει, εἴπερ μέσον ἔχει αὐτοῦ, οὗ πλεῖστον ἀπέχει. μέσον δὲ ἔχει σφαιροειδὴς ὤν· τοῦτο γάρ ἐστι σφαιροειδὲς ὃ ἐκ τοῦ μέσου ὁμοίως πρὸς τὰ ἔσχατα. (9) σῶμα δ’ ἔσχατα ἢ πέρατα ἔχειν, οὐδὲν διαφέρει. *** εἰ <lb n="25" />γὰρ καὶ τὸ μὴ ὂν ἄπειρόν ἐστι, τί οὐκ ἂν καὶ τὸ ὂν ἄπειρον; τί γὰρ κωλύει ἔνια ταῦτ’ ἂν λεχθῆναι κατὰ τοῦ ὄντος καὶ μὴ ὄντος; τό τε γὰρ ὂν † οὐκ ἂν οὐδεὶς νῦν αἰσθάνεται, καὶ ὃν δέ τις οὐκ</p>
           <note type="apparatus">
             <p>977<hi rend="superscript">b</hi> 31 ὑπολαμβάνειν Vahlen: ὑπολαμβάνων LR: ὑπολαμβανόντων Blass <lb n="37" />καὶ εὖ] τοῦ εὖ Heidel 38 τἆλλα * vgl. Z. 24: ἅμα LR: ἀλλὰ Bergk: ἄριστα Wendl. οὕτως fügt nach ἅμα γ. ἴσως zu Wilson 978<hi rend="superscript">a</hi> 8 [ὅτι] Karsten πάντη (ὁρᾶι καὶ πάντη) * 16 (εἶναι) nach Spuren von L Karsten ὄντα Spengel: ὢν L: fehlt R: ὂν Bekker ἔχοντα Spengel: ἔχον R: ἔχων L <lb n="22" />σφαιροειδὲς ὂν LR: verb. zuerst Spengel 24 Lücke * 25 *: τὸ μὴ ὂν ἄπεστι οὐκ (οὐκ korr. aus τ..) ἂν L: ἁπλοῦν οὐκ ἂν R</p>
           </note>
-        </div><div type="textpart" subtype="page" n="48" xml:id="diels-v1-dk011-p48"><pb n="48" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=74" />
+        <pb n="48" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=74" />
           <head>11. XENOPHANES.</head>
           <p>978<hi rend="superscript">a</hi> <lb n="28" />ἂν αἰσθάνοιτο ἃ νῦν· ἄμφω δὲ λεκτὰ καὶ διανοητά *** οὐ λευ-<lb n="29" />κόν τε τὸ μὴ ὄν· ἢ οὖν διὰ τοῦτο τὰ ὄντα πάντα λευκά, ὅπως <lb n="30" />μή τι ταὐτὸ κατὰ τοῦ ὄντος σημήνωμεν καὶ μὴ ὄντος, ἢ οὐ-<lb n="31" />δέν, οἶμαι, κωλύει καὶ τῶν ὄντων τι μὴ εἶναι λευκόν· οὕτω δὲ <lb n="32" />καὶ μᾶλλον ἂν ἀπόφασιν δέξαιτο τὸ ἄπειρον, εἰ κατὰ τὸ πά-<lb n="33" />λαι λεχθέν τι μᾶλλον, παρὰ τὸ μὴ ἔχειν ⟨πέρας⟩ ἐστὶν ἄπει-<lb n="34" />ρον· ὥστε καὶ τὸ ὂν ἢ ἄπειρον ἢ πέρας ἔχον ἐστίν. (10) ἴσως δὲ <lb n="35" />ἄτοπον καὶ τὸ προσάπτειν τῶι μὴ ὄντι ἀπειρίαν· οὐ γὰρ πᾶν, <lb n="36" />εἰ μὴ ἔχει πέρας, ἄπειρον λέγομεν, ὥσπερ οὐδ᾽ ἄνισον οὐκ ἂν <lb n="37" />φαῖμεν εἶναι τὸ μὴ ἴσον. (11) ἔ(τι) τί οὐκ ἂν ἔχοι ὁ θεὸς πέρας εἷς <lb n="38" />ὤν, ἀλλ᾽ οὐ πρὸς θεόν; εἰ δὲ ἓν μόνον ἐστὶν ὁ θεός, ⟨ἓν⟩ ἂν εἴη <lb n="39" />978<hi rend="superscript">b</hi> <lb n="1" />μόνον καὶ τὰ τοῦ θεοῦ μέρη. (12) ἔτι καὶ τοῦτ᾽ ἄτοπον, εἰ τοῖς <lb n="2" />πολλοῖς ξυμβέβηκεν πεπεράνθαι πρὸς ἄλληλα, διὰ τοῦτο <lb n="3" />τὸ ἓν μὴ ἔχειν πέρας. πολλὰ γὰρ τοῖς πολλοῖς καὶ τῶι <lb n="4" />ἑνὶ ὑπάρχει ταὐτά, ἐπεὶ καὶ τὸ εἶναι κοινὸν αὐτοῖς ἐστιν. <lb n="5" />ἄτοπον οὖν ἴσως ἂν εἴη, εἰ διὰ τοῦτο μὴ φαῖμεν εἶναι τὸν <lb n="6" />θεόν, εἰ τὰ πολλὰ ἔστιν, ὅπως μὴ ὅμοιον ἔσται αὐτοῖς ταύτηι. <lb n="7" />(13) ἔτι τί κωλύει πεπεράνθαι καὶ ἔχειν πέρατα ἓν ὄντα τὸν <lb n="8" />θεόν; ὡς καὶ ὁ Παρμενίδης [Β 8, 43] λέγει ἓν ὂν εἶναι αὐτὸν πάν-<lb n="9" />τοθεν εὐκύκλου σφαίρας ἐναλίγκιον ὄγκωι, μεσσόθεν ἰσοπα-<lb n="10" />λές. τὸ γὰρ πέρας τινὸς μὲν ἀνάγκη εἶναι, οὐ μέντοι <lb n="11" />πρός τί γε, οὐδὲ ἀνάγκη τὸ ἔχον πέρας πρός τι ἔχειν πέ-<lb n="12" />ρας, ὡς πεπερασμένον πρὸς τὸ [μὴ] ἐφεξῆς ἄπειρον, ἀλλ᾽ <lb n="13" />ἔστι τὸ πεπεράνθαι ἔσχατα ἔχειν, ἔσχατα δ᾽ ἔχον οὐκ <lb n="14" />ἀνάγκη πρός τι ἔχειν. (14) ἐνίοις μὲν οὖν συμβαίνοι <lb n="14a" />γ᾽ ἂν καὶ πεπεράνθαι ⟨καὶ⟩ πρός τι συνάπτειν, τοῖς <lb n="14b" />δὲ πεπεράνθαι μέν, μὴ μέντοι πρός τι πεπεράν-<lb n="15" />θαι. (15) πάλιν περὶ τοῦ ἀκίνητον εἶναι τὸ ὂν καὶ τὸ ⟨μὴ⟩ ὂν <lb n="15a" />(λεκτέον ὅτι τὸ ὑπολαμβάνειν ἀκίνητον εἶναι τὸ μὴ ὄν), <lb n="16" />ὅτι καὶ τὸ ὂν κινεῖται, ἴσως ὁμοίως τοῖς ἔμπροσθεν ἄτοπον. <lb n="17" />καὶ ἔτι· ἀρά γε οὐ ταὐτὸ ἄν τις ὑπολάβοι τὸ μὴ κινεῖσθαι <lb n="18" />καὶ τὸ ἀκίνητον εἶναι, ἀλλὰ τὸ μὲν ἀπόφασιν τοῦ κινεῖσθαι, <lb n="19" />ὥσπερ τὸ μὴ ἴσον, ὅπερ καὶ κατὰ τοῦ μὴ ὄντος εἰπεῖν <lb n="20" />ἀληθές, τὸ δὲ ἀκίνητον τῶι ἔχειν πως ἤδη λέγεσθαι, ὥσπερ <lb n="21" />τὸ ἄνισον, καὶ ἐπὶ τῶι ἐναντίωι τοῦ κινεῖσθαι, τῶι ἠρεμεῖν, <lb n="22" />ὡς καὶ σχεδὸν αἱ ἀπὸ τοῦ ᾱ ἀποφάσεις ἐπὶ ἐναντίοις λέ-<lb n="23" />γονται; τὸ μὲν οὖν μὴ κινεῖσθαι ἀληθὲς ἐπὶ τοῦ μὴ ὄντος,</p>
           <note type="apparatus">
             <p>978<hi rend="superscript">a</hi> 28 λεκτὰ καὶ L: λεκτὰ οπ R: ὄπη Bernens. 29 ἡ Brandis: εἰ LR <lb n="32" />32. 33 *: καὶ ἄλλην οὖν ἀπόφασιν δέξονται τὸ ἄπειρον, εἰ μὴ τὸ πάλαι λεχθέν τι <lb n="33" />μᾶλλον παρὰ τὸ μὴ ἔχειν ἢ μὴ ἔχειν ἐστὶν ἅπαν LR 33 λεχθέν] a 17 35 τὸ <lb n="34" />ἄτοπον τὸ καὶ L¹: τὸ ἄ. καὶ R: verb. vulg. 36 οὐκ; ἅπαν * 37 ἴσον Spengel: <lb n="35" />ὂν LR ἔ(τι) Brandis 38 ⟨ἓν⟩ Urbinas 108 978<hi rend="superscript">b</hi> 1 ἔτι Kern: ἐπεὶ LR <lb n="36" />12 [μὴ] Mullach; πρὸς τὸ ἐφεξῆς συνάπτον, ἀλλ᾽ Blass 14. 14<hi rend="superscript">a</hi> συμβαίνει πᾶν <lb n="37" />LR: verb. Wilson 14<hi rend="superscript">a</hi> ⟨καὶ⟩ Brandis 15 καὶ τὸ μὴ ὂν Urb. 108: καὶ τὸ ἓν <lb n="38" />L: καὶ τὸ ὂν R 15<hi rend="superscript">a</hi> ⟨ ⟩ * 16 ἔμπροσθεν] § 9 ff. 18 τοῦ Bekker: τῶι <lb n="39" />L: fehlt R 19 εἰπεῖν Bonitz: εἴπερ LR 22 καὶ (αἱ ἄλλαι) σχεδὸν Blass</p>
           </note>
-        </div><div type="textpart" subtype="page" n="49" xml:id="diels-v1-dk011-p49"><pb n="49" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=75" />
+        <pb n="49" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=75" />
           <head>A. LEHRE. 28 ([ARIST.] de MXG 4).</head>
           <p>978b <lb n="25" />τὸ δὲ ἠρεμεῖν οὐχ ὑπάρχει τῶι μὴ ὄντι. ὁμοίως δὲ οὐδὲ ⟨τὸ⟩ <lb n="26" />ἀκίνητον εἶναι σημαίνει ταὐτόν. ἀλλ’ οὗτος ἐπὶ τῶι ἠρεμεῖν <lb n="27" />αὐτῶι χρῆται, καὶ φησὶ τὸ μὴ ὂν ἠρεμεῖν, ὅτι οὐκ ἔχει <lb n="28" />μετάβασιν. (16) ὅπερ τε καὶ ἐν τοῖς ἄνω εἴπομεν, ἄτοπον ἴσως, <lb n="29" />εἴ τι τῶι μὴ ὄντι προσάπτομεν, τοῦτο μὴ ἀληθὲς εἶναι κατὰ <lb n="30" />τοῦ ὄντος εἰπεῖν, ἄλλως τε κἂν ἀπόφασις ἦι τὸ λεχθέν, οἷον <lb n="31" />καὶ τὸ μὴ κινεῖσθαι μηδὲ μεταβαίνειν ἐστί. πολλὰ <lb n="32" />γὰρ ἄν, καθάπερ καὶ ἐλέχθη, ἀφαιροῖτο τῶν ὄντων κατη-<lb n="33" />γορεῖν. οὐδὲ γὰρ ἂν πολλὰ ἀληθὲς εἰπεῖν εἴη μὴ ἕν, εἴπερ <lb n="34" />καὶ τὸ μὴ ὄν ἐστι μὴ ἕν. (17) ἔτι ἐπ’ ἐνίων τἀναντία συμβαί-<lb n="35" />νειν † δοκεῖ κατὰ τὰς αὐτὰς ἀποφάσεις· οἷον ἀνάγκη ἢ ἴσον <lb n="36" />ἢ ἄνισον, ἄν τι πλῆθος ἢ μέγεθος ἦι, καὶ ἄρτιον ἢ περιτ-<lb n="37" />τόν, ἂν ἀριθμὸς ἦι· ὁμοίως δ’ ἴσως καὶ τὸ ⟨ὂν ἢ⟩ ἠρεμεῖν ἢ <lb n="38" />κινεῖσθαι ἀνάγκη, ἂν σῶμα ἦι· (18) ἔτι εἰ καὶ διὰ τοῦτο μὴ <lb n="39" />κινεῖται ὁ θεός τε καὶ τὸ ἕν, ὅτι τὰ πολλὰ κινεῖται τῶι</p>
           <p>979a <lb n="1" />εἰς ἄλληλα ἰέναι, τί κωλύει καὶ τὸν θεὸν κινεῖσθαι εἰς <lb n="2" />ἄλλο; οὐδα⟨μοῦ γὰρ λέγει⟩ ὅτι ⟨ἓν ἐστι⟩ μόνον, ἀλλ’ ὅτι εἷς μόνος <lb n="3" />θεός. (19) εἰ δὲ καὶ <lb n="4" />οὕτως, τί κωλύει εἰς ἄλληλα κινουμένων τῶν μερῶν τοῦ <lb n="5" />⟨θεοῦ⟩ κύκλωι φέ⟨ρεσθαι τὸν⟩ θεόν; οὐ γὰρ δὴ τὸ τοιοῦτον <lb n="6" />ἕν, ὥσπερ ὁ Ζήνων, <lb n="7" />πολλὰ εἶναι φήσει. αὐτὸς γὰρ σῶμα λέγει εἶναι τὸν <lb n="8" />θεόν, εἴτε τόδε τὸ πᾶν εἴτε ὅ τι δήποτε αὐτὸ λέγων· ἀσώ-<lb n="9" />ματος γὰρ ὢν πῶς ἂν σφαιροειδὴς εἴη; (20) ἔτι μόνως γ’ ἂν <lb n="10" />οὕτως οὔτ’ ἂν κινοῖτο οὔτ’ ἂν ἠρεμοῖ μηδαμοῦ γε ὤν; ἐπεὶ δὲ <lb n="11" />σῶμά ἐστι, τί ἂν αὐτὸ κωλύοι κινεῖσθαι, ὡς ἐλέχθη;</p>
-          <p>29. <foreign xml:lang="la">PLATO Sophist. p. 242 c D [der Fremde aus Elea spricht]</foreign> μῦθόν τινα <lb n="2" />ἕκαστος φαίνεταί μοι διηγεῖσθαι παισὶν ὡς οὖσιν ἡμῖν, ὁ μὲν ὡς τρία τὰ ὄντα, <lb n="3" />πολεμεῖ δὲ ἀλλήλοις ἐνίοτε αὐτῶν ἄττα πηι, τοτὲ δὲ καὶ φίλα γιγνόμενα γάμους <lb n="4" />τε καὶ τόκους καὶ τροφὰς τῶν ἐκγόνων παρέχεται [vgl. 71 B 1. 4]· δύο δὲ ἕτερος <lb n="5" />εἰπών, ὑγρὸν καὶ ξηρὸν ἢ θερμὸν καὶ ψυχρόν, συνοικίζει τε αὐτὰ καὶ ἐκδίδωσι <lb n="6" />[vgl. 47 A 4]· τὸ δὲ παρ’ ἡμῶν Ἐλεατικὸν ἔθνος, ἀπὸ Ξενοφάνους τε καὶ ἔτι <lb n="7" />πρόσθεν ἀρξάμενον [vgl. Phileb. p. 16 c D], ὡς ἑνὸς ὄντος τῶν πάντων καλου-<lb n="8" />μένων, οὕτω διεξέρχεται τοῖς μύθοις. <foreign xml:lang="la">PHILOP. phys. 125, 27 Vitell.</foreign> ὁ Πορφύριος <lb n="9" />φησι τὸν Ξενοφάνη τὸ ξηρὸν καὶ τὸ ὑγρὸν δοξάσαι ἀρχάς, τὴν γῆν λέγω καὶ τὸ <lb n="10" />ὕδωρ, καὶ χρῆσιν αὐτοῦ παρατίθεται τοῦτο δηλοῦσαν ‘γῆ καὶ ὕδωρ πάντ’ ἔσθ’ <lb n="11" />ὅσα φύοντ’ ἠδὲ γίνονται’ [B 29]· ταύτης δὲ τῆς δόξης δοκεῖ καὶ Ὅμηρος <lb n="12" />εἶναι ἐν οἷς φησιν ‘ἀλλ’ ὑμεῖς μὲν πάντες ὕδωρ καὶ γαῖα γένοισθε’ [H 99].</p>
+          </div><div type="textpart" subtype="fragment" n="A29" xml:id="diels-v1-dk011-a29"><p>29. <foreign xml:lang="la">PLATO Sophist. p. 242 c D [der Fremde aus Elea spricht]</foreign> μῦθόν τινα <lb n="2" />ἕκαστος φαίνεταί μοι διηγεῖσθαι παισὶν ὡς οὖσιν ἡμῖν, ὁ μὲν ὡς τρία τὰ ὄντα, <lb n="3" />πολεμεῖ δὲ ἀλλήλοις ἐνίοτε αὐτῶν ἄττα πηι, τοτὲ δὲ καὶ φίλα γιγνόμενα γάμους <lb n="4" />τε καὶ τόκους καὶ τροφὰς τῶν ἐκγόνων παρέχεται [vgl. 71 B 1. 4]· δύο δὲ ἕτερος <lb n="5" />εἰπών, ὑγρὸν καὶ ξηρὸν ἢ θερμὸν καὶ ψυχρόν, συνοικίζει τε αὐτὰ καὶ ἐκδίδωσι <lb n="6" />[vgl. 47 A 4]· τὸ δὲ παρ’ ἡμῶν Ἐλεατικὸν ἔθνος, ἀπὸ Ξενοφάνους τε καὶ ἔτι <lb n="7" />πρόσθεν ἀρξάμενον [vgl. Phileb. p. 16 c D], ὡς ἑνὸς ὄντος τῶν πάντων καλου-<lb n="8" />μένων, οὕτω διεξέρχεται τοῖς μύθοις. <foreign xml:lang="la">PHILOP. phys. 125, 27 Vitell.</foreign> ὁ Πορφύριος <lb n="9" />φησι τὸν Ξενοφάνη τὸ ξηρὸν καὶ τὸ ὑγρὸν δοξάσαι ἀρχάς, τὴν γῆν λέγω καὶ τὸ <lb n="10" />ὕδωρ, καὶ χρῆσιν αὐτοῦ παρατίθεται τοῦτο δηλοῦσαν ‘γῆ καὶ ὕδωρ πάντ’ ἔσθ’ <lb n="11" />ὅσα φύοντ’ ἠδὲ γίνονται’ [B 29]· ταύτης δὲ τῆς δόξης δοκεῖ καὶ Ὅμηρος <lb n="12" />εἶναι ἐν οἷς φησιν ‘ἀλλ’ ὑμεῖς μὲν πάντες ὕδωρ καὶ γαῖα γένοισθε’ [H 99].</p>
           <note type="apparatus">
             <p>24 ⟨τὸ⟩ * 27 ἄνω] 978a 25 29 λεχθέντων καὶ R: ÷λε÷χθέν L: <foreign xml:lang="la">verb. Apelt</foreign> 30 μεταβαίνειν Felicianus: μεταλαμβάνειν LR 31 κατηγορεῖ LR: <foreign xml:lang="la">verb. Weise</foreign> 33 ἕν. ἔτι zuerst Spengel: ἕν· εἴτε LR 34 δοκεῖ] ἀδυνα- τεῖ; οἷον Bonitz: ὧν R: ὂν L 35 μέγεθος Felic.: μὴ ὡς L: καὶ μὴ ὡς R 36 ⟨ ⟩ * 979a 2 ⟨ ⟩ Kern 3 οὕτως Kern: οὗτος L: αὐτὸς R 979a 4 θεοῦ] Lücke LR φέ⟨ρεσθαι τὸν⟩ die Lücke füllte Bergk 7 ἔτι μόνως Apelt: ἐπιμόνως R: ἐπεὶ μόνως L γ’ ἂν Bergk: τὰν L: ὅταν R 9 αὐτὸς Bergk</p>
             <p>
@@ -120,25 +120,25 @@
             </p>
             <p><foreign xml:lang="la">Diels, Fragm. d. Vorsokr. I. 3. Aufl.</foreign> 4</p>
           </note>
-        </div><div type="textpart" subtype="page" n="50" xml:id="diels-v1-dk011-p50"><pb n="50" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=76" />
+        </div><div type="textpart" subtype="fragment" n="A30" xml:id="diels-v1-dk011-a30"><pb n="50" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=76" />
           <head>11. XENOPHANES.</head>
           <p>30. <hi rend="smallcaps">Aristot. Metaph.</hi> A 5. 986<hi rend="superscript">b</hi> 18 Παρμενίδης μὲν γὰρ ἔοικε τοῦ κατὰ τὸν <lb n="40" />λόγον ἑνὸς ἅπτεσθαι, Μέλισσος δὲ τοῦ κατὰ τὴν ὕλην· διὸ καὶ ὁ μὲν πεπερα-<lb n="5" />σμένον, ὁ δ’ ἄπειρόν φησιν εἶναι αὐτό· Ξ. δὲ πρῶτος τούτων ἑνίσας (ὁ γὰρ Παρ-<lb />μενίδης τούτου λέγεται γενέσθαι μαθητής) οὐδὲν διεσαφήνισεν, οὐδὲ τῆς φύσεως <lb />τούτων οὐδετέρας ἔοικε θιγεῖν, ἀλλ’ εἰς τὸν ὅλον οὐρανὸν ἀποβλέψας τὸ ἓν εἶναί <lb />φησι τὸν θεόν [vgl. B 23]· οὗτοι μὲν οὖν, καθάπερ εἴπομεν, ἀφετέοι πρὸς τὴν <lb />νῦν παροῦσαν ζήτησιν, οἱ μὲν δύο καὶ πάμπαν ὡς ὄντες μικρὸν ἀγροικότεροι, <lb />Ξ. καὶ Μέλισσος.</p>
-          <p>31. <hi rend="smallcaps">Simpl. Phys.</hi> 22, 22 ff. (1) ἀνάγκη τοίνυν τὴν ἀρχὴν ἢ μίαν εἶναι ἢ οὐ <lb n="10" />μίαν, ταὐτὸν δὲ εἰπεῖν πλείους, καὶ εἰ μίαν, ἤτοι ἀκίνητον ἢ κινουμένην. καὶ εἰ <lb />ἀκίνητον, ἤτοι ἄπειρον ὡς Μέλισσος ὁ Σάμιος δοκεῖ λέγειν, ἢ πεπερασμένην ὡς <lb />Παρμενίδης Πύρητος Ἐλεάτης, οὐ περὶ φυσικοῦ στοιχείου λέγοντες οὗτοι, ἀλλὰ <lb />περὶ τοῦ ὄντως ὄντος. (2) μίαν δὲ τὴν ἀρχὴν ἤτοι ἓν τὸ ὂν καὶ πᾶν (καὶ οὔτε <lb />πεπερασμένον οὔτε ἄπειρον οὔτε κινούμενον οὔτε ἠρεμοῦν) Ξενοφάνην τὸν Κολο-<lb n="15" />φώνιον τὸν Παρμενίδου διδάσκαλον ὑποτίθεσθαί φησιν ὁ Θεόφραστος [<hi rend="smallcaps">Phys. Op.</hi> <lb />fr. 5 D. 480] ὁμολογῶν ἑτέρας εἶναι μᾶλλον ἢ τῆς περὶ φύσεως ἱστορίας τὴν <lb />μνήμην τῆς τούτου δόξης. (3) τὸ γὰρ ἓν τοῦτο καὶ πᾶν τὸν θεὸν ἔλεγεν ὁ <lb />Ξ., ὃν ἕνα μὲν δείκνυσιν ἐκ τοῦ πάντων κράτιστον εἶναι· πλειόνων γάρ, φησίν, <lb />ὄντων ὁμοίως ὑπάρχειν ἀνάγκη πᾶσι τὸ κρατεῖν· τὸ δὲ πάντων κράτιστον καὶ <lb n="20" />ἄριστον θεός. (4) ἀγένητον δὲ ἐδείκνυεν ἐκ τοῦ δεῖν τὸ γινόμενον ἢ ἐξ ὁμοίου <lb />ἢ ἐξ ἀνομοίου γίνεσθαι. ἀλλὰ τὸ μὲν ὅμοιον ἀπαθές φησιν ὑπὸ τοῦ ὁμοίου· <lb />οὐδὲν γὰρ μᾶλλον γεννᾶν ἢ γεννᾶσθαι προσήκει τὸ ὅμοιον ἐκ τοῦ ὁμοίου· εἰ δὲ <lb />ἐξ ἀνομοίου γίνοιτο, ἔσται τὸ ὂν ἐκ τοῦ μὴ ὄντος. καὶ οὕτως ἀγένητον καὶ <lb />ἀίδιον ἐδείκνυ. (5) οὔτε δὲ ἄπειρον οὔτε πεπερασμένον εἶναι, διότι ἄπειρον μὲν <lb n="25" />τὸ μὴ ὂν ὡς οὔτε ἀρχὴν ἔχον οὔτε μέσον οὔτε τέλος, περαίνειν δὲ πρὸς ἄλληλα <lb />τὰ πλείω. (6) παραπλησίως δὲ καὶ τὴν κίνησιν ἀφαιρεῖ καὶ τὴν ἠρεμίαν, ἀκί-<lb />νητον μὲν γὰρ εἶναι τὸ μὴ ὄν· οὔτε γὰρ ἂν εἰς αὐτὸ ἕτερον οὔτε αὐτὸ πρὸς ἄλλο <lb />ἐλθεῖν· κινεῖσθαι δὲ τὰ πλείω τοῦ ἑνός· ἕτερον γὰρ εἰς ἕτερον μεταβάλλειν. <lb />(7) ὥστε καὶ ὅταν ἐν ταὐτῶι μένειν λέγηι καὶ μὴ κινεῖσθαι, ‘ἀεὶ δ’ . . . ἄλληι’ <lb n="30" />[B 26] οὐ κατὰ τὴν ἠρεμίαν τὴν ἀντικειμένην τῆι κινήσει μένειν αὐτὸ φησιν, <lb n="41" />ἀλλὰ κατὰ τὴν ἀπὸ κινήσεως καὶ ἠρεμίας ἐξηιρημένην μονήν. (8) Νικόλαος δὲ <lb />ὁ Δαμασκηνὸς ὡς ἄπειρον καὶ ἀκίνητον λέγοντος αὐτοῦ τὴν ἀρχὴν ἐν τῆι Περὶ <lb />θεῶν ἀπομνημονεύει, Ἀλέξανδρος δὲ ὡς πεπερασμένον αὐτὸ καὶ σφαιροειδές. <lb />(9) ἀλλ’ ὅτι μὲν οὔτε ἄπειρον οὔτε πεπερασμένον αὐτὸ δείκνυσιν, ἐκ τῶν προειρη-<lb n="35" />μένων δῆλον· πεπερασμένον δὲ καὶ σφαιροειδὲς αὐτὸ διὰ τὸ πανταχόθεν ὅμοιον <lb />λέγειν. καὶ πάντα νοεῖν δέ φησιν αὐτὸ λέγων ‘ἀλλ’ . . . κραδαίνει’ [B 25].</p>
-          <p>32. <hi rend="smallcaps">[Plut.] Strom.</hi> 4 [<hi rend="smallcaps">Eus. P. E.</hi> I 8, 4. D. 580] Ξ. δὲ ὁ Κολοφώνιος ἰδίαν <lb />τινὰ ὁδὸν πεπορευμένος καὶ παρηλλαχυῖαν πάντας τοὺς προειρημένους [Thales, <lb />Anaximander, Anaximenes] οὔτε γένεσιν οὔτε φθορὰν ἀπολείπει, ἀλλ’ εἶναι λέγει</p>
+          </div><div type="textpart" subtype="fragment" n="A31" xml:id="diels-v1-dk011-a31"><p>31. <hi rend="smallcaps">Simpl. Phys.</hi> 22, 22 ff. (1) ἀνάγκη τοίνυν τὴν ἀρχὴν ἢ μίαν εἶναι ἢ οὐ <lb n="10" />μίαν, ταὐτὸν δὲ εἰπεῖν πλείους, καὶ εἰ μίαν, ἤτοι ἀκίνητον ἢ κινουμένην. καὶ εἰ <lb />ἀκίνητον, ἤτοι ἄπειρον ὡς Μέλισσος ὁ Σάμιος δοκεῖ λέγειν, ἢ πεπερασμένην ὡς <lb />Παρμενίδης Πύρητος Ἐλεάτης, οὐ περὶ φυσικοῦ στοιχείου λέγοντες οὗτοι, ἀλλὰ <lb />περὶ τοῦ ὄντως ὄντος. (2) μίαν δὲ τὴν ἀρχὴν ἤτοι ἓν τὸ ὂν καὶ πᾶν (καὶ οὔτε <lb />πεπερασμένον οὔτε ἄπειρον οὔτε κινούμενον οὔτε ἠρεμοῦν) Ξενοφάνην τὸν Κολο-<lb n="15" />φώνιον τὸν Παρμενίδου διδάσκαλον ὑποτίθεσθαί φησιν ὁ Θεόφραστος [<hi rend="smallcaps">Phys. Op.</hi> <lb />fr. 5 D. 480] ὁμολογῶν ἑτέρας εἶναι μᾶλλον ἢ τῆς περὶ φύσεως ἱστορίας τὴν <lb />μνήμην τῆς τούτου δόξης. (3) τὸ γὰρ ἓν τοῦτο καὶ πᾶν τὸν θεὸν ἔλεγεν ὁ <lb />Ξ., ὃν ἕνα μὲν δείκνυσιν ἐκ τοῦ πάντων κράτιστον εἶναι· πλειόνων γάρ, φησίν, <lb />ὄντων ὁμοίως ὑπάρχειν ἀνάγκη πᾶσι τὸ κρατεῖν· τὸ δὲ πάντων κράτιστον καὶ <lb n="20" />ἄριστον θεός. (4) ἀγένητον δὲ ἐδείκνυεν ἐκ τοῦ δεῖν τὸ γινόμενον ἢ ἐξ ὁμοίου <lb />ἢ ἐξ ἀνομοίου γίνεσθαι. ἀλλὰ τὸ μὲν ὅμοιον ἀπαθές φησιν ὑπὸ τοῦ ὁμοίου· <lb />οὐδὲν γὰρ μᾶλλον γεννᾶν ἢ γεννᾶσθαι προσήκει τὸ ὅμοιον ἐκ τοῦ ὁμοίου· εἰ δὲ <lb />ἐξ ἀνομοίου γίνοιτο, ἔσται τὸ ὂν ἐκ τοῦ μὴ ὄντος. καὶ οὕτως ἀγένητον καὶ <lb />ἀίδιον ἐδείκνυ. (5) οὔτε δὲ ἄπειρον οὔτε πεπερασμένον εἶναι, διότι ἄπειρον μὲν <lb n="25" />τὸ μὴ ὂν ὡς οὔτε ἀρχὴν ἔχον οὔτε μέσον οὔτε τέλος, περαίνειν δὲ πρὸς ἄλληλα <lb />τὰ πλείω. (6) παραπλησίως δὲ καὶ τὴν κίνησιν ἀφαιρεῖ καὶ τὴν ἠρεμίαν, ἀκί-<lb />νητον μὲν γὰρ εἶναι τὸ μὴ ὄν· οὔτε γὰρ ἂν εἰς αὐτὸ ἕτερον οὔτε αὐτὸ πρὸς ἄλλο <lb />ἐλθεῖν· κινεῖσθαι δὲ τὰ πλείω τοῦ ἑνός· ἕτερον γὰρ εἰς ἕτερον μεταβάλλειν. <lb />(7) ὥστε καὶ ὅταν ἐν ταὐτῶι μένειν λέγηι καὶ μὴ κινεῖσθαι, ‘ἀεὶ δ’ . . . ἄλληι’ <lb n="30" />[B 26] οὐ κατὰ τὴν ἠρεμίαν τὴν ἀντικειμένην τῆι κινήσει μένειν αὐτὸ φησιν, <lb n="41" />ἀλλὰ κατὰ τὴν ἀπὸ κινήσεως καὶ ἠρεμίας ἐξηιρημένην μονήν. (8) Νικόλαος δὲ <lb />ὁ Δαμασκηνὸς ὡς ἄπειρον καὶ ἀκίνητον λέγοντος αὐτοῦ τὴν ἀρχὴν ἐν τῆι Περὶ <lb />θεῶν ἀπομνημονεύει, Ἀλέξανδρος δὲ ὡς πεπερασμένον αὐτὸ καὶ σφαιροειδές. <lb />(9) ἀλλ’ ὅτι μὲν οὔτε ἄπειρον οὔτε πεπερασμένον αὐτὸ δείκνυσιν, ἐκ τῶν προειρη-<lb n="35" />μένων δῆλον· πεπερασμένον δὲ καὶ σφαιροειδὲς αὐτὸ διὰ τὸ πανταχόθεν ὅμοιον <lb />λέγειν. καὶ πάντα νοεῖν δέ φησιν αὐτὸ λέγων ‘ἀλλ’ . . . κραδαίνει’ [B 25].</p>
+          </div><div type="textpart" subtype="fragment" n="A32" xml:id="diels-v1-dk011-a32"><p>32. <hi rend="smallcaps">[Plut.] Strom.</hi> 4 [<hi rend="smallcaps">Eus. P. E.</hi> I 8, 4. D. 580] Ξ. δὲ ὁ Κολοφώνιος ἰδίαν <lb />τινὰ ὁδὸν πεπορευμένος καὶ παρηλλαχυῖαν πάντας τοὺς προειρημένους [Thales, <lb />Anaximander, Anaximenes] οὔτε γένεσιν οὔτε φθορὰν ἀπολείπει, ἀλλ’ εἶναι λέγει</p>
           <note type="apparatus">
             <p>9 Simplic. hat Theophrast (aus Alexanders Kommentar) mit einem Aus-<lb />zug aus n. 28 verbunden. S. Dox. 109 ff. 16 ὁμολογῶν] Theophr. wiederholt <lb />Arist. Z. 6 ἀφετέοι πρὸς τὴν νῦν παροῦσαν ζήτησιν; Xen. gehöre eigentlich zur <lb />Theologie 28 μεταβάλλει Hss.: verb. Karsten 30 αὐτὸ DE: αὐτὸν E<hi rend="superscript">a</hi>F <lb />wie Z. 36 34 πεπερασμένον ⟨οὔτε ἠρεμοῦν οὔτε κινητόν⟩ H. Schoene <lb />36 λέγει Aldine: λέγειν Hss.: vgl. Dox. 112 f. αὐτὸ DE: αὐτὸν E<hi rend="superscript">a</hi>F <lb />λέγων] so die Hss.</p>
           </note>
-        </div><div type="textpart" subtype="page" n="51" xml:id="diels-v1-dk011-p51"><pb n="51" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=77" />
+        <pb n="51" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=77" />
           <head>A. LEHRE. 30—35.</head>
           <p>τὸ πᾶν ἀεὶ ὅμοιον· εἰ γὰρ γίγνοιτο τοῦτο, φησίν, ἀναγκαῖον πρὸ τούτου μὴ εἶναι· <hi rend="superscript">41</hi> τὸ μὴ ὂν δὲ οὐκ ἂν γένοιτο οὐδ’ ἂν τὸ μὴ ὂν ποιήσαι τι οὔτε ὑπὸ τοῦ μὴ ὄντος γένοιτ’ ἄν τι. ἀποφαίνεται δὲ καὶ τὰς αἰσθήσεις ψευδεῖς καὶ καθόλου σὺν αὐταῖς καὶ αὐτὸν τὸν λόγον διαβάλλει. ἀποφαίνεται δὲ καὶ τῶι χρόνωι καταφερομένην <lb n="5" />συνεχῶς καὶ κατ’ ὀλίγον τὴν γῆν εἰς τὴν θάλασσαν χωρεῖν. φησὶ δὲ καὶ τὸν ἥλιον ἐκ μικρῶν καὶ πλειόνων πυριδίων ἀθροίζεσθαι. ἀποφαίνεται δὲ καὶ περὶ θεῶν ὡς οὐδεμιᾶς ἡγεμονίας ἐν αὐτοῖς οὔσης· οὐ γὰρ ὅσιον δεσπόζεσθαί τινα τῶν θεῶν· ἐπιδεῖσθαί τε μηδενὸς αὐτῶν μηδένα μηδ’ ὅλως· ἀκούειν δὲ καὶ ὁρᾶν καθόλου καὶ μὴ κατὰ μέρος. ἀποφαίνεται δὲ καὶ τὴν γῆν ἄπειρον εἶναι καὶ μὴ <lb n="10" />κατὰ πᾶν μέρος περιέχεσθαι ὑπὸ ἀέρος· γίνεσθαι δὲ ἅπαντα ἐκ γῆς· τὸν δὲ ἥλιόν φησι καὶ τὰ ἄστρα ἐκ τῶν νεφῶν γίνεσθαι.</p>
-          <p>33. <hi rend="smallcaps">Hippol.</hi> Ref. I 14 (D. 565) (1) Ξ. δὲ ὁ Κολοφώνιος Ὀρθομένους υἱός. οὗτος ἕως Κύρου διέμεινεν. οὗτος ἔφη πρῶτος ἀκαταληψίαν εἶναι πάντων εἰπὼν οὕτως· ‘εἰ γὰρ . . . τέτυκται’ [B 34, 3. 4].</p>
+          </div><div type="textpart" subtype="fragment" n="A33" xml:id="diels-v1-dk011-a33"><p>33. <hi rend="smallcaps">Hippol.</hi> Ref. I 14 (D. 565) (1) Ξ. δὲ ὁ Κολοφώνιος Ὀρθομένους υἱός. οὗτος ἕως Κύρου διέμεινεν. οὗτος ἔφη πρῶτος ἀκαταληψίαν εἶναι πάντων εἰπὼν οὕτως· ‘εἰ γὰρ . . . τέτυκται’ [B 34, 3. 4].</p>
           <p><lb n="15" />(2) λέγει δὲ ὅτι οὐδὲν γίνεται οὐδὲ φθείρεται οὐδὲ κινεῖται καὶ ὅτι ἓν τὸ πᾶν ἐστιν ἔξω μεταβολῆς. φησὶ δὲ καὶ τὸν θεὸν εἶναι ἀίδιον καὶ ἕνα καὶ ὅμοιον πάντη καὶ πεπερασμένον καὶ σφαιροειδῆ καὶ πᾶσι τοῖς μορίοις αἰσθητικόν. (3) τὸν δὲ ἥλιον ἐκ μικρῶν πυριδίων ἀθροιζομένων γίνεσθαι καθ’ ἑκάστην ἡμέραν, τὴν δὲ γῆν ἄπειρον εἶναι καὶ μήτε ὑπ’ ἀέρος μήτε ὑπὸ τοῦ οὐρανοῦ περιέχεσθαι. <lb n="20" />καὶ ἀπείρους ἡλίους εἶναι καὶ σελήνας, τὰ δὲ πάντα εἶναι ἐκ γῆς. (4) οὗτος τὴν θάλασσαν ἁλμυρὰν ἔφη διὰ τὸ πολλὰ μίγματα συρρέειν ἐν αὐτῆι. ὁ δὲ Μητρόδωρος [57 A 19] διὰ τὸ ἐν τῆι γῆι διηθεῖσθαι, τούτου χάριν γίνεσθαι ἁλμυράν. (5) ὁ δὲ Ξενοφάνης μίξιν τῆς γῆς πρὸς τὴν θάλασσαν γίνεσθαι δοκεῖ καὶ τῶι <lb n="25" />χρόνωι ὑπὸ τοῦ ὑγροῦ λύεσθαι, φάσκων τοιαύτας ἔχειν ἀποδείξεις, ὅτι ἐν μέσηι γῆι καὶ ὄρεσιν εὑρίσκονται κόγχαι, καὶ ἐν Συρακούσαις δὲ ἐν ταῖς λατομίαις λέγει εὑρῆσθαι τύπον ἰχθύος καὶ φωκῶν, ἐν δὲ Πάρωι τύπον ἀφύης ἐν τῶι βάθει τοῦ λίθου, ἐν δὲ Μελίτηι πλάκας συμπάντων θαλασσίων. (6) ταῦτα δέ φησι γενέσθαι, ὅτε πάντα ἐπηλώθησαν πάλαι, τὸν δὲ τύπον ἐν τῶι πηλῶι ξηρανθῆναι. ἀναιρεῖσθαι δὲ τοὺς ἀνθρώπους πάντας, ὅταν ἡ γῆ κατενεχθεῖσα εἰς τὴν θάλατταν <lb n="30" />πηλὸς γένηται, εἶτα πάλιν ἄρχεσθαι τῆς γενέσεως, καὶ ταύτην πᾶσι τοῖς κόσμοις γίνεσθαι μεταβολήν. S. B 33.</p>
-          <p>34. <hi rend="smallcaps">Cic.</hi> Acad. II 118 [s. S. 43, 14] <foreign xml:lang="la">unum esse omnia neque id esse mutabile et id esse deum neque natum umquam et sempiternum, conglobata figura.</foreign> d. n. deor. I 11, 28 <foreign xml:lang="la">tum X. qui mente adiuncta omne praeterea quod esset infinitum <lb n="35" />deum voluit esse, de ipsa mente item reprehendetur ut ceteri, de infinitate autem vehementius, in qua nihil neque sentiens neque coniunctum potest esse.</foreign> Vgl. <hi rend="smallcaps">Arist.</hi> poet. 25. 1460<hi rend="superscript">b</hi> 35.</p>
-          <p>35. [<hi rend="smallcaps">Galen.</hi>] hist. phil. 7 (Dox. 604, 17) . . . Ξενοφάνην μὲν περὶ πάντων ἠπορηκότα, δογματίσαντα δὲ μόνον τὸ εἶναι πάντα ἓν καὶ τοῦτο ὑπάρχειν θεὸν <hi rend="superscript">42</hi></p>
+          </div><div type="textpart" subtype="fragment" n="A34" xml:id="diels-v1-dk011-a34"><p>34. <hi rend="smallcaps">Cic.</hi> Acad. II 118 [s. S. 43, 14] <foreign xml:lang="la">unum esse omnia neque id esse mutabile et id esse deum neque natum umquam et sempiternum, conglobata figura.</foreign> d. n. deor. I 11, 28 <foreign xml:lang="la">tum X. qui mente adiuncta omne praeterea quod esset infinitum <lb n="35" />deum voluit esse, de ipsa mente item reprehendetur ut ceteri, de infinitate autem vehementius, in qua nihil neque sentiens neque coniunctum potest esse.</foreign> Vgl. <hi rend="smallcaps">Arist.</hi> poet. 25. 1460<hi rend="superscript">b</hi> 35.</p>
+          </div><div type="textpart" subtype="fragment" n="A35" xml:id="diels-v1-dk011-a35"><p>35. [<hi rend="smallcaps">Galen.</hi>] hist. phil. 7 (Dox. 604, 17) . . . Ξενοφάνην μὲν περὶ πάντων ἠπορηκότα, δογματίσαντα δὲ μόνον τὸ εἶναι πάντα ἓν καὶ τοῦτο ὑπάρχειν θεὸν <hi rend="superscript">42</hi></p>
           <note type="apparatus">
             <p>6 πυριδίων Toup: πυρίων Hss. (vgl. A 33. 40) 7 vgl. 11 C 1 9 μὴ nach καὶ Brandis: nach μέρος Hss. (vgl. B 28) 11 τῶν νεφῶν] nämlich πεπυρωμένων A 38. 40. Dieser Satz stammt aus dem Kap. περὶ νεφῶν, dagegen τὸν ἥλιον . . . ἀθροίζεσθαι· (6) aus dem Kap. περὶ ἄστρων des Theophrastischen Werkes 25 κόγχαι] vgl. Herod. II 12 26 φυκῶν Gomperz ἀφύης Gronov: δάφνης 27 μελίτηι Hss.: verb. Karsten 30 ἄρχεσθαι] näml. τὴν γῆν 30. 31 *: καὶ τοῦτο πᾶσι τοῖς κόσμοις γίνεσθαι καταβάλλειν Hss. vgl. Ar. Meteor. A 14. 325<hi rend="superscript">a</hi> 14 ff. 34 esset ⟨unum et⟩ * u. Kalbfleisch 35 reprehenderetur Hss.</p>
           </note>
-        </div><div type="textpart" subtype="page" n="52" xml:id="diels-v1-dk011-p52"><pb n="52" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=78" />
+        <pb n="52" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=78" />
           <p>πεπερασμένον, λογικόν, ἀμετάβλητον. Timon fr. 59 [Sext. P. H. I 223] ἐν πολλοῖς 42 γὰρ αὐτὸν ἐπαινέσας [τὸν Ξενοφάνην] ὡς καὶ τοὺς Σίλλους αὐτῶι ἀναθεῖναι ἐποίησεν [Timon] αὐτὸν ὀδυρόμενον καὶ λέγοντα·</p>
           <lg>
             <l>ὡς καὶ ἐγὼν ὄφελον πυκινοῦ νόου ἀντιβολῆσαι</l>
@@ -159,27 +159,27 @@
           <note type="apparatus">
             <p>2 τὸν Ξενοφάνην Glosse; tilgte Kayser 5 ἀμφοτεροβλέπτου Bekker 6 ἔτ’ ἐὼν Hss. (noch im Greisenalter ließ er sich täuschen; vgl. Plato Menex. 236 c) : ἐτέων Bekker, τε γέρων Nauck unrichtig ἀπενθήριστος Hss.: verb. Bergk ‘unbekümmert um jede Vorsicht’ 7 ὅπη Sext. MC: ὅπου EAB 8 vgl. A 30. S. 50, 5 δ’ ἐὸν] δ’ ἐμὸν Ludwich unnötig, ebenso δέ οἱ Ottfr. Müller, der übersetzt: nach welcher Seite ich meine Gedanken lenkte, kehrten sie immer bei dem Einen und Gleichen ein; alles Seiende, auf welche Weise ich es wog, ergab eine und dieselbe Natur 11 Ξεινοφάνης usw. Sext.: Ξεινοφάνην usw. Diog. [11 A 1]. Der Akk. bei Diog. ist wahrscheinlicher als der von Sext. gegebene Nominativ ὁμηραπάτης ἐπισκώπτης Sext.: ὁμηροπάτην (ὁμηραπάτην FP²) ἐπικόπτην Diog. 12 ἔα τὸν (so) Sextushss.: ἢ τὸν (vgl. Tim. fr. 50. Diog. IX 69) oder ἐκτὸς Fabricius: εἰ τὸν (vielleicht ging ein Wort wie θαυμάζω vorher) * (1. 2. Aufl.): ὃς τὸν Roeper ἀπ’ ἀνθρώπων Fabricius nach fr. 50: ἀπάνθρωπον Hss. ἴσον ἁπάντη wohl aus Xenophanes vgl. 18 B 8, 44; 21 B 28. Daher 13 ἀτρεμῆ * aus 18 B 1, 29; 8, 4; ἀσκηθῆ = οὖλον 18 B 8, 4</p>
           </note>
-        </div><div type="textpart" subtype="page" n="53" xml:id="diels-v1-dk011-p53"><pb n="53" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=79" />
+        <pb n="53" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=79" />
           <head>A. LEHRE. 35—47.</head>
           <p>οὐδαμόθεν γὰρ εὑρίσκεται ὁ Ξ. ἀποφηνάμενος οὕτως . . . καὶ Θεόφραστος δ’ ἂν <lb n="42" />ἐν ταῖς τῶν Φυσικῶν δοξῶν ἐπιτομαῖς τὴν Ξενοφάνους δόξαν, εἴπερ οὕτως εἶχεν, ἐγεγράφει. Vgl. Arist. Metaph. A 8. 989<hi rend="superscript">a</hi>5.</p>
-          <p>37. Αἰτ. II 4, 11 (D. 332) Ξ. ἀγένητον καὶ ἀίδιον καὶ ἄφθαρτον τὸν κόσμον. <lb n="5" />Vgl. II 1, 3 s. S. 18, 33.</p>
-          <p>38. — II 13, 14 (D. 343) Ξ. ἐκ νεφῶν μὲν πεπυρωμένων [sc. τοὺς ἀστέρας γίνεσθαι]· σβεννυμένους δὲ καθ’ ἑκάστην ἡμέραν ἀναζωπυρεῖν νύκτωρ καθάπερ τοὺς ἄνθρακας· τὰς γὰρ ἀνατολὰς καὶ τὰς δύσεις ἐξάψεις εἶναι καὶ σβέσεις.</p>
-          <p>39. — II 18, 1 (D. 347) Ξ. τοὺς ἐπὶ τῶν πλοίων φαινομένους οἷον ἀστέρας, <lb n="10" />οὓς καὶ Διοσκούρους καλοῦσί τινες, νεφέλια εἶναι κατὰ τὴν ποιὰν κίνησιν παραλάμποντα.</p>
-          <p>40. — 20, 3 (D. 348) Ξ. ἐκ νεφῶν πεπυρωμένων εἶναι τὸν ἥλιον. Θεόφραστος ἐν τοῖς Φυσικοῖς [fr. 16. D. 492] γέγραφεν ἐκ πυριδίων μὲν τῶν συναθροιζομένων ἐκ τῆς ὑγρᾶς ἀναθυμιάσεως, συναθροιζόντων δὲ τὸν ἥλιον.</p>
-          <p>41. — II 24, 4 (D. 354) Ξ. κατὰ σβέσιν [sc. τὴν ἔκλειψιν, richtiger δύσιν, ἡλίου <lb n="15" /><lb n="43" />γίνεσθαι], ἕτερον δὲ πάλιν ταῖς ἀνατολαῖς γίνεσθαι. παριστόρηκε δὲ καὶ ἔκλειψιν ἡλίου ἐφ’ ὅλον μῆνα καὶ πάλιν ἔκλειψιν ἐντελῆ, ὥστε τὴν ἡμέραν νύκτα φανῆναι.</p>
-          <p>41<hi rend="superscript">a</hi>. — II 24, 9 (D. 355) Ξ. πολλοὺς εἶναι ἡλίους καὶ σελήνας κατὰ κλίματα τῆς γῆς καὶ ἀποτομὰς καὶ ζώνας, κατὰ δέ τινα καιρὸν ἐκπίπτειν τὸν δίσκον εἴς <lb n="20" />τινα ἀποτομὴν τῆς γῆς οὐκ οἰκουμένην ὑφ’ ἡμῶν καὶ οὕτως ὥσπερ κενεμβατοῦντα ἔκλειψιν ὑποφαίνειν· ὁ δ’ αὐτὸς τὸν ἥλιον εἰς ἄπειρον μὲν προϊέναι, δοκεῖν δὲ κυκλεῖσθαι διὰ τὴν ἀπόστασιν.</p>
-          <p>42. — II 30, 8 (D. 362) Ξ. τὸν μὲν ἥλιον χρήσιμον εἶναι πρὸς τὴν τοῦ κόσμου καὶ τὴν τῶν ἐν αὐτῶι ζώιων γένεσίν τε καὶ διοίκησιν, τὴν δὲ σελήνην <lb n="25" />παρέλκειν.</p>
-          <p>43. — II 25, 4 (D. 356) Ξ. νέφος εἶναι πεπιλημένον [sc. τὴν σελήνην]. II 28, 1 [D. 358] Ἀναξίμανδρος, Ξ., Βήρωσος ἴδιον αὐτὴν ἔχειν φῶς. II 29, 5 (D. 360) Ξ. καὶ τὴν μηνιαίαν ἀπόκρυψιν κατὰ σβέσιν [sc. γίνεσθαι].</p>
-          <p>44. — III 2, 11 (D. 367) Ξ. πάντα τὰ τοιαῦτα [sc. κομήτας, διάττοντας, δοκί<lb n="30" />δας] νεφῶν πεπυρωμένων συστήματα ἢ κινήματα.</p>
-          <p>45. — III 3, 6 (D. 368) Ξ. ἀστραπὰς γίνεσθαι λαμπρυνομένων τῶν νεφῶν κατὰ τὴν κίνησιν.</p>
-          <p>46. — II 4, 4 (D. 371) Ξ. ἀπὸ τῆς τοῦ ἡλίου θερμότητος ὡς ἀρκτικῆς αἰτίας τὰν τοῖς μεταρσίοις συμβαίνειν. ἀνελκομένου γὰρ ἐκ τῆς θαλάττης τοῦ ὑγροῦ <lb n="35" />τὸ γλυκὺ διὰ τὴν λεπτομέρειαν διακρινόμενον νέφη τε συνιστάνειν ὁμιχλούμενον καὶ καταστάζειν ὄμβρους ὑπὸ πιλήσεως καὶ διατμίζειν τὰ πνεύματα. γράφει γὰρ διαρρήδην ‘πηγὴ δ’ . . . ὕδατος’ B 30, 1].</p>
-          <p>47. ARISTOT. de caelo B 13. 294<hi rend="superscript">a</hi> 21 οἱ μὲν γὰρ διὰ ταῦτα ἄπειρον τὸ κάτω τῆς γῆς εἶναί φασιν, ἐπ’ ἄπειρον αὐτὴν ἐρριζῶσθαι λέγοντες ὥσπερ Ξ. ὁ Κολο<lb n="40" />φώνιος [B 28], ἵνα μὴ πράγματ’ ἔχωσι ζητοῦντες τὴν αἰτίαν. διὸ καὶ Ἐμπεδοκλῆς οὕτως ἐπέπληξεν εἰπὼν ὡς ‘εἴπερ . . . ἰδόντων [21 B 39]; vgl. Simpl. ad Ar. l. c. p. 522, 7 Heib. ἀγνοῶ δὲ ἐγὼ τοῖς Ξενοφάνους ἔπεσι τοῖς περὶ τούτου μὴ ἐντυχών, πότερον τὸ κάτω μέρος τῆς γῆς ἄπειρον εἶναι λέγων διὰ τοῦτο μένειν αὐτήν</p>
+          </div><div type="textpart" subtype="fragment" n="A37" xml:id="diels-v1-dk011-a37"><p>37. Αἰτ. II 4, 11 (D. 332) Ξ. ἀγένητον καὶ ἀίδιον καὶ ἄφθαρτον τὸν κόσμον. <lb n="5" />Vgl. II 1, 3 s. S. 18, 33.</p>
+          </div><div type="textpart" subtype="fragment" n="A38" xml:id="diels-v1-dk011-a38"><p>38. — II 13, 14 (D. 343) Ξ. ἐκ νεφῶν μὲν πεπυρωμένων [sc. τοὺς ἀστέρας γίνεσθαι]· σβεννυμένους δὲ καθ’ ἑκάστην ἡμέραν ἀναζωπυρεῖν νύκτωρ καθάπερ τοὺς ἄνθρακας· τὰς γὰρ ἀνατολὰς καὶ τὰς δύσεις ἐξάψεις εἶναι καὶ σβέσεις.</p>
+          </div><div type="textpart" subtype="fragment" n="A39" xml:id="diels-v1-dk011-a39"><p>39. — II 18, 1 (D. 347) Ξ. τοὺς ἐπὶ τῶν πλοίων φαινομένους οἷον ἀστέρας, <lb n="10" />οὓς καὶ Διοσκούρους καλοῦσί τινες, νεφέλια εἶναι κατὰ τὴν ποιὰν κίνησιν παραλάμποντα.</p>
+          </div><div type="textpart" subtype="fragment" n="A40" xml:id="diels-v1-dk011-a40"><p>40. — 20, 3 (D. 348) Ξ. ἐκ νεφῶν πεπυρωμένων εἶναι τὸν ἥλιον. Θεόφραστος ἐν τοῖς Φυσικοῖς [fr. 16. D. 492] γέγραφεν ἐκ πυριδίων μὲν τῶν συναθροιζομένων ἐκ τῆς ὑγρᾶς ἀναθυμιάσεως, συναθροιζόντων δὲ τὸν ἥλιον.</p>
+          </div><div type="textpart" subtype="fragment" n="A41" xml:id="diels-v1-dk011-a41"><p>41. — II 24, 4 (D. 354) Ξ. κατὰ σβέσιν [sc. τὴν ἔκλειψιν, richtiger δύσιν, ἡλίου <lb n="15" /><lb n="43" />γίνεσθαι], ἕτερον δὲ πάλιν ταῖς ἀνατολαῖς γίνεσθαι. παριστόρηκε δὲ καὶ ἔκλειψιν ἡλίου ἐφ’ ὅλον μῆνα καὶ πάλιν ἔκλειψιν ἐντελῆ, ὥστε τὴν ἡμέραν νύκτα φανῆναι.</p>
+          </div><div type="textpart" subtype="fragment" n="A41a" xml:id="diels-v1-dk011-a41a"><p>41<hi rend="superscript">a</hi>. — II 24, 9 (D. 355) Ξ. πολλοὺς εἶναι ἡλίους καὶ σελήνας κατὰ κλίματα τῆς γῆς καὶ ἀποτομὰς καὶ ζώνας, κατὰ δέ τινα καιρὸν ἐκπίπτειν τὸν δίσκον εἴς <lb n="20" />τινα ἀποτομὴν τῆς γῆς οὐκ οἰκουμένην ὑφ’ ἡμῶν καὶ οὕτως ὥσπερ κενεμβατοῦντα ἔκλειψιν ὑποφαίνειν· ὁ δ’ αὐτὸς τὸν ἥλιον εἰς ἄπειρον μὲν προϊέναι, δοκεῖν δὲ κυκλεῖσθαι διὰ τὴν ἀπόστασιν.</p>
+          </div><div type="textpart" subtype="fragment" n="A42" xml:id="diels-v1-dk011-a42"><p>42. — II 30, 8 (D. 362) Ξ. τὸν μὲν ἥλιον χρήσιμον εἶναι πρὸς τὴν τοῦ κόσμου καὶ τὴν τῶν ἐν αὐτῶι ζώιων γένεσίν τε καὶ διοίκησιν, τὴν δὲ σελήνην <lb n="25" />παρέλκειν.</p>
+          </div><div type="textpart" subtype="fragment" n="A43" xml:id="diels-v1-dk011-a43"><p>43. — II 25, 4 (D. 356) Ξ. νέφος εἶναι πεπιλημένον [sc. τὴν σελήνην]. II 28, 1 [D. 358] Ἀναξίμανδρος, Ξ., Βήρωσος ἴδιον αὐτὴν ἔχειν φῶς. II 29, 5 (D. 360) Ξ. καὶ τὴν μηνιαίαν ἀπόκρυψιν κατὰ σβέσιν [sc. γίνεσθαι].</p>
+          </div><div type="textpart" subtype="fragment" n="A44" xml:id="diels-v1-dk011-a44"><p>44. — III 2, 11 (D. 367) Ξ. πάντα τὰ τοιαῦτα [sc. κομήτας, διάττοντας, δοκί<lb n="30" />δας] νεφῶν πεπυρωμένων συστήματα ἢ κινήματα.</p>
+          </div><div type="textpart" subtype="fragment" n="A45" xml:id="diels-v1-dk011-a45"><p>45. — III 3, 6 (D. 368) Ξ. ἀστραπὰς γίνεσθαι λαμπρυνομένων τῶν νεφῶν κατὰ τὴν κίνησιν.</p>
+          </div><div type="textpart" subtype="fragment" n="A46" xml:id="diels-v1-dk011-a46"><p>46. — II 4, 4 (D. 371) Ξ. ἀπὸ τῆς τοῦ ἡλίου θερμότητος ὡς ἀρκτικῆς αἰτίας τὰν τοῖς μεταρσίοις συμβαίνειν. ἀνελκομένου γὰρ ἐκ τῆς θαλάττης τοῦ ὑγροῦ <lb n="35" />τὸ γλυκὺ διὰ τὴν λεπτομέρειαν διακρινόμενον νέφη τε συνιστάνειν ὁμιχλούμενον καὶ καταστάζειν ὄμβρους ὑπὸ πιλήσεως καὶ διατμίζειν τὰ πνεύματα. γράφει γὰρ διαρρήδην ‘πηγὴ δ’ . . . ὕδατος’ B 30, 1].</p>
+          </div><div type="textpart" subtype="fragment" n="A47" xml:id="diels-v1-dk011-a47"><p>47. ARISTOT. de caelo B 13. 294<hi rend="superscript">a</hi> 21 οἱ μὲν γὰρ διὰ ταῦτα ἄπειρον τὸ κάτω τῆς γῆς εἶναί φασιν, ἐπ’ ἄπειρον αὐτὴν ἐρριζῶσθαι λέγοντες ὥσπερ Ξ. ὁ Κολο<lb n="40" />φώνιος [B 28], ἵνα μὴ πράγματ’ ἔχωσι ζητοῦντες τὴν αἰτίαν. διὸ καὶ Ἐμπεδοκλῆς οὕτως ἐπέπληξεν εἰπὼν ὡς ‘εἴπερ . . . ἰδόντων [21 B 39]; vgl. Simpl. ad Ar. l. c. p. 522, 7 Heib. ἀγνοῶ δὲ ἐγὼ τοῖς Ξενοφάνους ἔπεσι τοῖς περὶ τούτου μὴ ἐντυχών, πότερον τὸ κάτω μέρος τῆς γῆς ἄπειρον εἶναι λέγων διὰ τοῦτο μένειν αὐτήν</p>
           <note type="apparatus">
             <p>12 Aëtios gab zuerst ein Excerpt aus Poseidonios, der Theophrast benutzt, dann aus Theophrast selbst 21 ὑποφαίνειν Stob., Plut. A: ὑπομένειν Plut. EBC 30 κινήματα] also νέφη κινούμενα z. B. διάττοντες.</p>
           </note>
-        </div><div type="textpart" subtype="page" n="54" xml:id="diels-v1-dk011-p54"><pb n="54" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=80" />
+        <pb n="54" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=80" />
           <p>φησιν ἢ τὸν ὑποκάτω τῆς γῆς τόπον καὶ αἰθέρα ἄπειρον καὶ διὰ τοῦτο ἐπ’ ἄπει-<lb n="43" />ρον καταφερομένην τὴν γῆν δοκεῖν ἠρεμεῖν. οὔτε γὰρ ὁ Ἀριστοτέλης διεσάφησεν<lb />οὔτε τὰ Ἐμπεδοκλέους ἔπη διορίζει σαφῶς· ‘γῆς’ γὰρ ‘βάθη’ λέγοιτο ἂν καὶ<lb />ἐκεῖνα εἰς ἃ κάτεισιν. Αἰτ. III 9, 4 (D. 376) Ξ. ἐκ τοῦ κατωτέρου μέρους εἰς<lb n="5" />ἄπειρον [μέρος] ἐρριζῶσθαι [scil. τὴν γῆν], ἐξ ἀέρος δὲ καὶ πυρὸς συμπαγῆναι.<lb />II 11, 1. 2 (D. 377) οἱ ἀπὸ Θάλεω τὴν γῆν μέσην, Ξ. πρώτην· εἰς ἄπειρον γὰρ<lb />ἐρριζῶσθαι [vgl. B 28]. Cic. Acad. pr. II 39, 122 <hi rend="italic">sed ecquid nos eodem modo rerum<lb />naturas persecare aperire dividere possumus. ut videamus, terra penitusne defixa<lb />sit et quasi radicibus suis haereat</hi> [d. i. Xenophanes] <hi rend="italic">an media pendeat?</hi> 123 <hi rend="italic">habi-<lb n="10" />tari ait Xenophanes</hi> [vielmehr Anaxagoras] <hi rend="italic">in luna eamque esse terram multarum<lb />urbium et montium.</hi> Vgl. Hippol. I 14, 3 [S. 51, 18]. Aus Aristoteles Pseudar.<lb />de MXG 2, 21 p. 976<hi rend="sup">a</hi> 32 [20 A 5]. Diog. Oenoand. fr. 21, 10 p. 26 f. William.<lb />48. [Arist.] Mirab. 38. 833<hi rend="sup">a</hi> 15 [viell. aus Timaios] τὸ δ’ ἐν τῆι Λιπάραι [scil.<lb />πῦρ] ποτὲ καὶ ἐκλιπεῖν Ξ. φησὶν ἐπ’ ἔτη ἑκκαίδεκα, τῶι δ’ ἑβδόμωι ἐπανελθεῖν.<lb n="15" />49. Aristocles Περὶ φιλοσοφίας ἢ [Eus. XIV 17, 1] οἴονται γὰρ δεῖν τὰς μὲν<lb />αἰσθήσεις καὶ τὰς φαντασίας καταβάλλειν, αὐτῶι δὲ μόνον τῶι λόγωι πιστεύειν·<lb />τοιαῦτα γάρ τινα πρότερον μὲν Ξ. καὶ Παρμενίδης καὶ Ζήνων καὶ Μέλισσος<lb />ἔλεγον, ὕστερον δ’ οἱ περὶ Στίλπωνα καὶ τοὺς Μεγαρικούς. ὅθεν ἠξίουν οὗτοί γε<lb />τὸ ὂν ἓν εἶναι καὶ τὸ ἕτερον μὴ εἶναι μηδὲ γεννᾶσθαί τι μηδὲ φθείρεσθαι μηδὲ<lb n="44" />κινεῖσθαι τὸ παράπαν. Αἰτ. IV 9, 1 (D. 369) Πυθαγόρας, Ἐμπεδοκλῆς, Ξ. . . .<lb n="20" />ψευδεῖς εἶναι τὰς αἰσθήσεις. Vgl. B 34.<lb />50. Macrob. S. Scip. I 14, 19 <hi rend="italic">X. ex terra et aqua</hi> [sc. animam esse].<lb />51. Tertull. <hi rend="italic">de anima</hi> c. 43 [über den Schlaf] <hi rend="italic">Anaxagoras cum Xenophane<lb />defetiscentiam</hi> [gr. κόπον τῆς σωματικῆς ἐνεργείας].<lb n="25" />52. Cic. <hi rend="italic">de divin.</hi> I 3, 5 <hi rend="italic">philosophorum vero exquisita quaedam argumenta<lb />cur esset vera divinatio collecta sunt, e quibus, ut de antiquissumis loquar, Colo-<lb />phonius X., unus qui deos esse diceret, divinationem funditus sustulit; reliqui<lb />vero omnes praeter Epicurum balbutientem de natura deorum divinationem pro-<lb />baverunt.</hi> Αἰτ. V 1, 1 (D. 415) Ξ. καὶ Ἐπίκουρος ἀναιροῦσι τὴν μαντικήν.</p>
-          <head>B. FRAGMENTE.</head>
+          </div><div type="textpart" subtype="fragment" n="B1" xml:id="diels-v1-dk011-b1"><head>B. FRAGMENTE.</head>
           <head>ΞΕΝΟΦΑΝΟΥΣ ΕΛΕΓΕΙΑΙ.</head>
           <p><hi rend="bold">1.</hi> [21 Karsten, 1 Crusius] <hi rend="sc">Athen.</hi> XI 462 c</p>
           <lg>
@@ -189,7 +189,7 @@
           <head>ELEGIEN.</head>
           <p><hi rend="bold">1.</hi> Nun ist ja der Estrich rein und aller Hände und Becher.<lb />Gewundene Kränze setzt uns einer aufs Haupt, und ein anderer reicht</p>
           <note type="apparatus"><lb n="5" />5 [ ] * (vgl. Z. 6) 26 <hi rend="italic">collecta sunt</hi>] näml. von Poseidonios 27 <hi rend="italic">unus<lb />qui deos esse diceret</hi>] ‘der einzige, der an Götter glaubte’. Korrekter wäre ge-<lb />wesen <hi rend="italic">unus ex eis qui deos esse dicerent</hi> 34 (1, 2) ἀμφιτιθεὶς Ath., was<lb />Ludwich (Mél. Nicole 343) als ἀμφιτιθεῖς deutet</note>
-        </div><div type="textpart" subtype="page" n="55" xml:id="diels-v1-dk011-p55"><pb n="55" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=81" />
+        <pb n="55" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=81" />
           <head>B. FRAGMENTE. 1. ELEGEIAI.</head>
           <lg>
             <l>ἄλλος δ’ εὐῶδες μύρον ἐν φιάληι παρατείνει·</l>
@@ -215,7 +215,7 @@
           <note type="apparatus">
             <p>3 (1, 5) ἄλλος δ’ οἶνος ἐστὶν ἕτοιμος Ath.: verb. apogr.: οἶνος δ’ ἐστὶν ἕτοιμος (ohne ἄλλος) Ludwich 10 (12) ἔχοι Usener wider die Absicht des Prooemiums 11 (13) χρὴ δὴ Bergk 13 (15) δὲ Bergk: τε Ath. 15 (17) οὐχ ὕβρεις πίνειν δ’ Ath.: verb. Musurus, Bergk 17 (19) ἀναφαίνει Ath. 18 (20) ὥς οἱ Coraes: ωση Ath. τὸν ὃς Ath. Die Beziehung von τόνος [vgl. 12 C 1, 8 E] ergibt sich durch den Zusammenhang; gefälliger wäre σύντονος vgl. Pratin. fr. 5 Die moderne Bedeutung von ἀρετή ergibt sich aus der Polemik gegen die alte Auffassung B 2</p>
           </note>
-        </div><div type="textpart" subtype="page" n="56" xml:id="diels-v1-dk011-p56"><pb n="56" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=82" />
+        <pb n="56" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=82" />
           <head>11. XENOPHANES.</head>
           <lg>
             <l>οὔτι μάχας διέπειν Τιτήνων οὐδὲ Γιγάντων</l>
@@ -223,7 +223,7 @@
             <l>ἢ στάσιας σφεδανάς, τοῖσ' οὐδὲν χρηστὸν ἔνεστι,</l>
             <l>θεῶν ⟨δὲ⟩ προμηθείην αἰὲν ἔχειν ἀγαθόν.</l>
           </lg>
-          <p><lb n="5" />2. [19 K., 2 Cr.] <hi rend="smallcaps">Ath.</hi> x 413 F nach 11 C 2: ταῦτ' εἴληφεν ὁ Εὐριπίδης ἐκ τῶν τοῦ Κολοφωνίου ἐλεγείων Ξενοφάνους οὕτως εἰρηκότος.</p>
+          </div><div type="textpart" subtype="fragment" n="B2" xml:id="diels-v1-dk011-b2"><p><lb n="5" />2. [19 K., 2 Cr.] <hi rend="smallcaps">Ath.</hi> x 413 F nach 11 C 2: ταῦτ' εἴληφεν ὁ Εὐριπίδης ἐκ τῶν τοῦ Κολοφωνίου ἐλεγείων Ξενοφάνους οὕτως εἰρηκότος.</p>
           <lg>
             <l>ἀλλ' εἰ μὲν ταχυτῆτι ποδῶν νίκην τις ἄροιτο</l>
             <l>ἢ πενταθλεύων, ἔνθα Διὸς τέμενος</l>
@@ -241,7 +241,7 @@
           <note type="apparatus">
             <p>1 (1, 21) διέπειν A: διέπει E &amp;nbsp;&amp;nbsp; 2 (22) ⟨ &amp;nbsp; ⟩ Ludwich: αὖ, τι, τὰ andere πλασμάτων πρ. Ath.: verb. Schweighäuser. Er wehrt die Rezitation von Hesiods Theog. u. dgl. Epen ab &amp;nbsp;&amp;nbsp; 3 (23) σφεδανάς Osann: φενδόνας Ath. Polemik gegen Alkaios' Stasiotika wie Anacr. fr. 94 B. &amp;nbsp;&amp;nbsp; 4 (24) ⟨ &amp;nbsp; ⟩ Scaliger ἀγαθὴν Ath.: verb. G. Hermann &amp;nbsp;&amp;nbsp; Die Textgestaltung ist von V. 19 an unsicher. Neuester Versuch von Ludwich a. O.: 19 ὃς ἔσθλ', ἃ πιὼν ἀναφαίνει, σώση μνημοσύνης, καί τινος ἀμφ' ἀρετῆς οὔ τι μ. διέπῃ ... 23 τοῖς ⟨δ'⟩ ... ἀγαθόν &amp;nbsp;&amp;nbsp; 10 (2, 4) ἑλὼν Usener &amp;nbsp;&amp;nbsp; 12 (6) προσέραν Ath.: verb. Jacobs &amp;nbsp;&amp;nbsp; 16 (10) κε] κ' εἰ Ath.</p>
           </note>
-        </div><div type="textpart" subtype="page" n="57" xml:id="diels-v1-dk011-p57"><pb n="57" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=83" />
+        <pb n="57" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=83" />
           <head>B. FRAGMENTE. 1—3. ELEGEIAI.</head>
           <lg>
             <l>οὐκ ἐὼν ἄξιος ὥσπερ ἐγώ. ῥώμης γὰρ ἀμείνων <hi rend="bold">46</hi></l>
@@ -257,7 +257,7 @@
             <l>εἴ τις ἀεθλεύων νικῶι Πίσαο παρ’ ὄχθας·</l>
             <l>οὐ γὰρ πιαίνει ταῦτα μυχοὺς πόλεως.</l>
           </lg>
-          <p><hi rend="bold">3.</hi> [20 K., 3 Cr.] <hi rend="sc">Ath.</hi> XII 526 A Κολοφώνιοι δ’ ὥς φησι Φύλαρχος [fr. 62 FHG I 353] τὴν ἀρχὴν ὄντες σκληροὶ ἐν ταῖς ἀγωγαῖς, ἐπεὶ εἰς τροφὴν ἐξώκειλαν πρὸς Λυδοὺς φιλίαν καὶ συμμαχίαν ποιησάμενοι, προήισαν διησκημένοι τὰς κόμας χρυσῶι κόσμωι, ὡς καὶ Ξ. φησίν.</p>
+          </div><div type="textpart" subtype="fragment" n="B3" xml:id="diels-v1-dk011-b3"><p><hi rend="bold">3.</hi> [20 K., 3 Cr.] <hi rend="sc">Ath.</hi> XII 526 A Κολοφώνιοι δ’ ὥς φησι Φύλαρχος [fr. 62 FHG I 353] τὴν ἀρχὴν ὄντες σκληροὶ ἐν ταῖς ἀγωγαῖς, ἐπεὶ εἰς τροφὴν ἐξώκειλαν πρὸς Λυδοὺς φιλίαν καὶ συμμαχίαν ποιησάμενοι, προήισαν διησκημένοι τὰς κόμας χρυσῶι κόσμωι, ὡς καὶ Ξ. φησίν.</p>
           <lg>
             <l>ἁβροσύνας δὲ μαθόντες ἀνωφελέας παρὰ Λυδῶν,</l>
             <l>ὄφρα τυραννίης ἦσαν ἄνευ στυγερῆς,</l>
@@ -269,20 +269,22 @@
           <note type="apparatus">
             <p>5 (2, 15) λαοίσιν ἐτ’ εἴη Ath.: verb. Stephanus 17 (3, 1) ἀφροσύνας Ath.: verb. Schneider Saxo</p>
           </note>
-        </div><div type="textpart" subtype="page" n="58" xml:id="diels-v1-dk011-p58"><pb n="58" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=84" />
+        <pb n="58" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=84" />
           <lb n="5" />
           <lg>
             <l>αὐχαλέοι, χαίτηισιν ἀγαλλόμεν(οι) εὐπρεπέεσσιν</l>
             <l>ἀσκητοῖσ’ ὀδμὴν χρίμασι δευόμενοι.</l>
           </lg>
-          <p><hi rend="bold">4.</hi> POLLUX IX 83 εἴτε Φείδων πρῶτος ὁ Ἀργεῖος ἔκοψε νόμισμα εἴτε Δη-<lb n="5" />μοδίκη ἡ Κυμαία συνοικήσασα Μίδαι τῶι Φρυγί (παῖς δ’ ἦν Ἀγαμέμνονος Κυμαίων βασιλέως) εἴτε Ἀθηναίοις Ἐριχθόνιος καὶ Λύκος, εἴτε Λυδοί, καθά φησι Ξ. Vgl. Herod. I 94 Λυδοὶ γὰρ δὴ καὶ πρῶτοι ἀνθρώπων τῶν ἡμεῖς ἴδμεν, νόμισμα χρυσοῦ καὶ ἀργυροῦ κοψάμενοι ἐχρήσαντο.</p>
-          <p><hi rend="bold">5.</hi> [23 K., 4 Cr.] ATH. XI 18. 782 A</p>
+          </div><div type="textpart" subtype="fragment" n="B4" xml:id="diels-v1-dk011-b4"><p><hi rend="bold">4.</hi> POLLUX IX 83 εἴτε Φείδων πρῶτος ὁ Ἀργεῖος ἔκοψε νόμισμα εἴτε Δη-<lb n="5" />μοδίκη ἡ Κυμαία συνοικήσασα Μίδαι τῶι Φρυγί (παῖς δ’ ἦν Ἀγαμέμνονος Κυμαίων βασιλέως) εἴτε Ἀθηναίοις Ἐριχθόνιος καὶ Λύκος, εἴτε Λυδοί, καθά φησι Ξ. Vgl. Herod. I 94 Λυδοὶ γὰρ δὴ καὶ πρῶτοι ἀνθρώπων τῶν ἡμεῖς ἴδμεν, νόμισμα χρυσοῦ καὶ ἀργυροῦ κοψάμενοι ἐχρήσαντο.</p>
+          <p><hi rend="bold">4.</hi> <hi rend="italic">Die Lyder prägten zuerst Geld.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B5" xml:id="diels-v1-dk011-b5"><p><hi rend="bold">5.</hi> [23 K., 4 Cr.] ATH. XI 18. 782 A</p>
           <lb n="10" />
           <lg>
             <l>οὐδέ κεν ἐν κύλικι πρότερον κεράσειέ τις οἶνον</l>
             <l>ἐγχέας, ἀλλ’ ὕδωρ καὶ καθύπερθε μέθυ.</l>
           </lg>
-          <p><hi rend="bold">6.</hi> [22 K., 5 Cr.] ATHEN. IX 368 E Ξ. δ’ ὁ Κολοφώνιος ἐν τοῖς ἐλεγείοις φησί·</p>
+          <p><hi rend="bold">5.</hi> <hi rend="italic">Auch beim Mischen im Becher würde Niemand den Wein zuerst hineingießen, sondern das Wasser und darüber den Wein.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B6" xml:id="diels-v1-dk011-b6"><p><hi rend="bold">6.</hi> [22 K., 5 Cr.] ATHEN. IX 368 E Ξ. δ’ ὁ Κολοφώνιος ἐν τοῖς ἐλεγείοις φησί·</p>
           <lg>
             <l>πέμψας γὰρ κωλῆν ἐρίφου σκέλος ἤραο πῖον</l>
             <l>ταύρου λαρινοῦ, τίμιον ἀνδρὶ λαχεῖν,</l>
@@ -290,21 +292,19 @@
             <l>τοῦ κλέος Ἑλλάδα πᾶσαν ἐφίξεται οὐδ’ ἀπολήξει,</l>
             <l>ἔστ’ ἂν ἀοιδάων ἧι γένος Ἑλλαδικών.</l>
           </lg>
-          <p><hi rend="bold">7.</hi> [18 K., 6 Cr.] DIOG. VIII 36 περὶ δὲ τοῦ ἄλλοτε ἄλλον γεγενῆσθαι (Pythagoras) Ξενοφάνης ἐν ἐλεγείᾳ προσμαρτυρεῖ, ἧς ἀρχή ‘νῦν ... κέλευθον’. ὃ δὲ περὶ αὐτοῦ (Pythagoras) φησιν, οὕτως ἔχει ‘καί ... αἰών’. Vgl. A 1, S. 42, 19.</p>
+          <p><hi rend="bold">6.</hi> <hi rend="italic">Du sandtest die Keule eines Böckchens und erhieltst dafür den fetten Schenkel eines Mastochsen, wie sich das als Preis für einen Mann gebührt, dessen Ruhm über ganz Hellas reichen und nimmer verklingen wird, solange nur das Geschlecht der Hellenischen Lieder am Leben bleibt.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B7" xml:id="diels-v1-dk011-b7"><p><hi rend="bold">7.</hi> [18 K., 6 Cr.] DIOG. VIII 36 περὶ δὲ τοῦ ἄλλοτε ἄλλον γεγενῆσθαι (Pythagoras) Ξενοφάνης ἐν ἐλεγείᾳ προσμαρτυρεῖ, ἧς ἀρχή ‘νῦν ... κέλευθον’. ὃ δὲ περὶ αὐτοῦ (Pythagoras) φησιν, οὕτως ἔχει ‘καί ... αἰών’. Vgl. A 1, S. 42, 19.</p>
           <lg>
             <l>νῦν αὖτ’ ἄλλον ἔπειμι λόγον, δείξω δὲ κέλευθον.</l>
           </lg>
           <p rend="center">* * *</p>
           <p>zumal, (5) prunkend, einherstolzierend mit schön geschmückten Locken und triefend vom Dufte künstlich bereiteter Salben.</p>
-          <p><hi rend="bold">4.</hi> <hi rend="italic">Die Lyder prägten zuerst Geld.</hi></p>
-          <p><hi rend="bold">5.</hi> <hi rend="italic">Auch beim Mischen im Becher würde Niemand den Wein zuerst hineingießen, sondern das Wasser und darüber den Wein.</hi></p>
-          <p><hi rend="bold">6.</hi> <hi rend="italic">Du sandtest die Keule eines Böckchens und erhieltst dafür den fetten Schenkel eines Mastochsen, wie sich das als Preis für einen Mann gebührt, dessen Ruhm über ganz Hellas reichen und nimmer verklingen wird, solange nur das Geschlecht der Hellenischen Lieder am Leben bleibt.</hi></p>
           <p><hi rend="bold">7.</hi> <hi rend="italic">Jetzo will ich wieder zu anderer Rede mich wenden und den Pfad weisen.</hi></p>
           <p rend="center">* * *</p>
           <note type="apparatus">
             <p>1 (3, 5) ἀγαλλομεν(οι) εὐπρεπέεσσιν Ath. Die (dialektische? vgl. Poet. phil. z. d. St.; Elision oder Krasis ist sonst ungewöhnlich. Emendation bisher vergeblich versucht 5 Ἀθηναῖοι ? * 11 (6) Ausfall auf einen Sänger wie Simonides (B 21) 14 ἀφίξεται Ath.: verb. Karsten 15 ἀοιδάων Ath. A: ἀοιδῶν C wertlose Korrektur ἑλλαδικόν A: verb. C; doch s. Dittenberger Herm. 41, 209</p>
           </note>
-        </div><div type="textpart" subtype="page" n="59" xml:id="diels-v1-dk011-p59"><pb n="59" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=85" />
+        <pb n="59" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=85" />
           <head>B. FRAGMENTE. 3—11. ELEGEIAI. SILLOI.</head>
           <lg>
             <l>καί ποτέ μιν στυφελιζομένου σκύλακος παριόντα</l>
@@ -312,108 +312,112 @@
             <l>‘παῦσαι μηδὲ ῥάπιζ’, ἐπεὶ ἦ φίλου ἀνέρος ἐστίν</l>
             <l><lb n="5" />ψυχή, τὴν ἔγνων φθεγξαμένης ἀίων’.</l>
           </lg>
-          <p><lb n="5" /><hi rend="bold">8.</hi> [24 K., 7 Cr.] <hi rend="sc">Diog.</hi> IX 18. 19 (vgl S. 42, 20) μακροβιώτατός τε γέγονεν <hi rend="sc">48</hi> (Xenophanes), ὥς που καὶ αὐτὸς φησίν·</p>
+          </div><div type="textpart" subtype="fragment" n="B8" xml:id="diels-v1-dk011-b8"><p><lb n="5" /><hi rend="bold">8.</hi> [24 K., 7 Cr.] <hi rend="sc">Diog.</hi> IX 18. 19 (vgl S. 42, 20) μακροβιώτατός τε γέγονεν <hi rend="sc">48</hi> (Xenophanes), ὥς που καὶ αὐτὸς φησίν·</p>
           <lg>
             <l>ἤδη δ’ ἑπτά τ’ ἔασι καὶ ἑξήκοντ’ ἐνιαυτοὶ</l>
             <l>βληστρίζοντες ἐμὴν φροντίδ’ ἀν’ Ἑλλάδα γῆν·</l>
             <l>ἐκ γενετῆς δὲ τότ’ ἦσαν ἐείκοσι πέντε τε πρὸς τοῖς,</l>
             <l><lb n="10" />εἴπερ ἐγὼ περὶ τῶνδ’ οἶδα λέγειν ἐτύμως.</l>
           </lg>
-          <p><hi rend="bold">9.</hi> [26 K., 8 Cr.] <hi rend="sc">Etym. gen.</hi> s. v. γῆρας</p>
+          <p><hi rend="bold">8.</hi> Siebenundsechzig Jahre sind es bereits, die meinen Kummer durch das Hellenische Land auf und ab treiben. Damals aber waren es fünfundzwanzig von meiner Geburt gerechnet, wenn ich hierüber der Wahrheit gemäß zu berichten weiß.</p>
+          </div><div type="textpart" subtype="fragment" n="B9" xml:id="diels-v1-dk011-b9"><p><hi rend="bold">9.</hi> [26 K., 8 Cr.] <hi rend="sc">Etym. gen.</hi> s. v. γῆρας</p>
           <lg>
             <l>ἀνδρὸς γηρέντος πολλὸν ἀφαυρότερος.</l>
           </lg>
-          <head>ΣΙΛΛΟΙ.</head>
+          <p><hi rend="bold">9.</hi> Viel kraftloser als ein gealterter Mann.</p>
+          </div><div type="textpart" subtype="fragment" n="B10" xml:id="diels-v1-dk011-b10"><head>ΣΙΛΛΟΙ.</head>
           <p><lb n="15" /><hi rend="bold">10.</hi> [18 Cr., 4 Wachsm. Sillogr.] <hi rend="sc">Herodian.</hi> π. διχρ. p. 296, 6 [Cr. An. Ox. III]</p>
           <lg>
             <l>ἐξ ἀρχῆς καθ’ Ὅμηρον ἐπεὶ μεμαθήκασι πάντες . . .</l>
           </lg>
-          <p><hi rend="bold">11.</hi> [7 K., 16 Cr., 2 W.] <hi rend="sc">Sext.</hi> adv. math. IX 193</p>
+          <head>SILLEN.</head>
+          <p><hi rend="bold">10.</hi> Da von Anfang an alle nach Homer gelernt haben . . .</p>
+          </div><div type="textpart" subtype="fragment" n="B11" xml:id="diels-v1-dk011-b11"><p><hi rend="bold">11.</hi> [7 K., 16 Cr., 2 W.] <hi rend="sc">Sext.</hi> adv. math. IX 193</p>
           <lg>
             <l>πάντα θεοῖσ’ ἀνέθηκαν Ὅμηρός θ’ Ἡσίοδός τε,</l>
           </lg>
           <p>Und es heißt, als er einmal vorüberging, wie ein Hündchen mißhandelt wurde, soll er Mitleid empfunden und dieses Wort gesprochen haben: ‘Hör auf mit deinem Schlagen. Denn es ist ja die Seele eines Freundes, die ich erkannte, wie ich ihre Stimme hörte’.</p>
-          <p><hi rend="bold">8.</hi> Siebenundsechzig Jahre sind es bereits, die meinen Kummer durch das Hellenische Land auf und ab treiben. Damals aber waren es fünfundzwanzig von meiner Geburt gerechnet, wenn ich hierüber der Wahrheit gemäß zu berichten weiß.</p>
-          <p><hi rend="bold">9.</hi> Viel kraftloser als ein gealterter Mann.</p>
-          <head>SILLEN.</head>
-          <p><hi rend="bold">10.</hi> Da von Anfang an alle nach Homer gelernt haben . . .</p>
           <p><hi rend="bold">11.</hi> Alles haben Homer und Hesiod den Göttern angehängt, was</p>
           <note type="apparatus">
             <p>1 (7, 2) μὴν BF 2 (3) φασὶν Anth., Σ (s. v. στυφελίξαι) : φασί γ’ PΦΣ (s. v. Ξενοφάνης): φασὶ γ’ οὖν F: B fehlt 9 (8, 3) τότ’] nach B 22 Ioniens Unterwerfung durch Harpagos (540. Vgl. c. 4, 8 (S. 30, 10); 11 A 1 S. 43, 3). Also danach Xen. geboren 565, Zeit der Elegie 473 13 Σίλλοι] mindestens 5 Bücher. Vgl. B 21<hi rend="sup">a</hi> 15 (10, 1) μεμαθήκασι] näml. τοὺς θεοὺς κακίστους εἶναι</p>
           </note>
-        </div><div type="textpart" subtype="page" n="60" xml:id="diels-v1-dk011-p60"><pb n="60" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=86" />
+        <pb n="60" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=86" />
           <head>11. XENOPHANES.</head>
           <lg>
             <l>ὅσσα παρ’ ἀνθρώποισιν ὀνείδεα καὶ ψόγος ἐστίν,</l>
             <l>κλέπτειν μοιχεύειν τε καὶ ἀλλήλους ἀπατεύειν.</l>
           </lg>
-          <p><hi rend="bold">12.</hi> [7 K., 16 Cr., 2 W.] <hi rend="sc">Sext.</hi> adv. math. I 289 Ὅμηρος δὲ καὶ Ἡσίοδος κατὰ τὸν Κολοφώνιον Ξενοφάνη</p>
+          </div><div type="textpart" subtype="fragment" n="B12" xml:id="diels-v1-dk011-b12"><p><hi rend="bold">12.</hi> [7 K., 16 Cr., 2 W.] <hi rend="sc">Sext.</hi> adv. math. I 289 Ὅμηρος δὲ καὶ Ἡσίοδος κατὰ τὸν Κολοφώνιον Ξενοφάνη</p>
           <lg>
             <l>ὡς πλείστ(α) ἐφθέγξαντο θεῶν ἀθεμίστια ἔργα,</l>
             <l>κλέπτειν μοιχεύειν τε καὶ ἀλλήλους ἀπατεύειν.</l>
           </lg>
           <p>Κρόνος μὲν γὰρ ἐφ’ οὗ τὸν εὐδαίμονα βίον γεγονέναι λέγουσι τὸν πατέρα ἠνδρο-<lb />τόμησε καὶ τὰ τέκνα κατέπιεν Ζεύς τε ὁ τούτου παῖς ἀφελόμενος αὐτὸν τῆς<lb />ἡγεμονίας ‘γαίης νέρθε καθεῖσε’ (Ξ 204) κτλ.</p>
-          <p><hi rend="bold">13.</hi> [31 K., 5 W.] <hi rend="sc">Gellius</hi> N. A. III 11 <hi rend="italic">alii Homerum quam Hesiodum maio-<lb />rem natu fuisse scripserunt, in quibus Philochorus</hi> [fr. 54<hi rend="sup">b</hi> FHG I 393] <hi rend="italic">et X., alii<lb />minorem.</hi></p>
-          <p><hi rend="bold">14.</hi> [5 K., 30 Cr.] <hi rend="sc">Clem.</hi> Str. v 109 [II 399, 19 St.] nach B 23</p>
+          <p><hi rend="bold">12.</hi> Wie sie gar viele ruchlose Taten der Götter erzählten: Stehlen und Ehebrechen und sich gegenseitig Betrügen.</p>
+          </div><div type="textpart" subtype="fragment" n="B13" xml:id="diels-v1-dk011-b13"><p><hi rend="bold">13.</hi> [31 K., 5 W.] <hi rend="sc">Gellius</hi> N. A. III 11 <hi rend="italic">alii Homerum quam Hesiodum maio-<lb />rem natu fuisse scripserunt, in quibus Philochorus</hi> [fr. 54<hi rend="sup">b</hi> FHG I 393] <hi rend="italic">et X., alii<lb />minorem.</hi></p>
+          <p><hi rend="bold">13.</hi> <hi rend="italic">Homer war älter als Hesiod.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B14" xml:id="diels-v1-dk011-b14"><p><hi rend="bold">14.</hi> [5 K., 30 Cr.] <hi rend="sc">Clem.</hi> Str. v 109 [II 399, 19 St.] nach B 23</p>
           <lg>
             <l>ἀλλ’ οἱ βροτοὶ δοκέουσι γεννᾶσθαι θεούς,</l>
             <l>τὴν σφετέρην δ’ ἐσθῆτα ἔχειν φωνήν τε δέμας τε.</l>
           </lg>
-          <p><hi rend="bold">15.</hi> [6 K., 17 Cr.] <hi rend="sc">Clem.</hi> Str. v 110 [II 400, 1 St.] nach B 14</p>
+          <p><hi rend="bold">14.</hi> Doch wähnen die Sterblichen, die Götter würden geboren und hätten Gewand und Stimme und Gestalt wie sie.</p>
+          </div><div type="textpart" subtype="fragment" n="B15" xml:id="diels-v1-dk011-b15"><p><hi rend="bold">15.</hi> [6 K., 17 Cr.] <hi rend="sc">Clem.</hi> Str. v 110 [II 400, 1 St.] nach B 14</p>
           <lg>
             <l>ἀλλ’ εἰ χεῖρας ἔχον βόες ⟨ἵπποι τ’⟩ ἠὲ λέοντες</l>
             <l>ἢ γράψαι χείρεσσι καὶ ἔργα τελεῖν ἅπερ ἄνδρες,</l>
             <l>ἵπποι μέν θ’ ἵπποισι βόες δέ τε βουσὶν ὁμοίας</l>
           </lg>
           <p>nur bei Menschen Schimpf und Schande ist: Stehlen und Ehebrechen und sich gegenseitig Betrügen.</p>
-          <p><hi rend="bold">12.</hi> Wie sie gar viele ruchlose Taten der Götter erzählten: Stehlen und Ehebrechen und sich gegenseitig Betrügen.</p>
-          <p><hi rend="bold">13.</hi> <hi rend="italic">Homer war älter als Hesiod.</hi></p>
-          <p><hi rend="bold">14.</hi> Doch wähnen die Sterblichen, die Götter würden geboren und hätten Gewand und Stimme und Gestalt wie sie.</p>
           <p><hi rend="bold">15.</hi> Doch wenn die Ochsen <hi rend="italic">und Rosse</hi> und Löwen Hände hätten oder malen könnten mit ihren Händen und Werke bilden wie die Menschen, so würden die Rosse roßähnliche, die Ochsen ochsenähnliche</p>
           <note type="apparatus">
             <p>5 12, 1) ὡς Fabricius: ὃς Sext.: οἳ Stephanus, καὶ Karsten, ὣς Wachsmuth, der v. 2 tilgte und v. 1 an fr. 11 schob. Sextus faßte ὡς πλεῖστα (<hi rend="italic">quam plurima</hi>) unepisch zusammen 6 (12, 2) ἀλλήλοις hier alle Hss. außer E 14 (14, 1) Iam-bus nach Art des Kolophonischen Margites δοκέουσι Eus.: δοκοῦσι Clem. γεννᾶσθαι wäre im epischen Verse unmöglich vgl. W. Ribbeck <hi rend="italic">Rh. Mus.</hi> 33, 456 15 (14, 2) σφετέρην ἐσθῆτά τ’ Karsten 17 (15, 1) ἀλλ’ ... ἔχον Euseb. (dessen Überl. meist weniger von Interpolation gelitten als die direkte des Clem. u. das Exc. d. Theodor.): ἀλλ’ εἴ τοι χεῖρας εἶχον Clem. (und daraus Theodor.). Danach ἀλλ’ ἵπποι εἰ ἔχον χέρας ἢ βόες ἠὲ λέοντες καὶ γράψαι Ludwich a. O. ἵπποι τ’ fügte zu * 18 (15, 2) γράψαι] sc. εἶχον χείρεσσι] χροίηισι ? * 19 (3) ὁμοίας (sc. ἰδέας) Theod.: ὁμοῖοι Clem., Eus.</p>
           </note>
-        </div><div type="textpart" subtype="page" n="61" xml:id="diels-v1-dk011-p61"><pb n="61" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=87" />
+        <pb n="61" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=87" />
           <head>B. FRAGMENTE. 11—21. ΣΙΛΛΟΙ.</head>
           <lg>
             <l>καὶ ⟨κε⟩ θεῶν ἰδέας ἔγραφον καὶ σώματ’ ἐποίουν <space quantity="3" unit="char" />49</l>
             <lb n="5" />
             <l>5 τοιαῦθ’ οἷόν περ καὐτοὶ δέμας εἶχον ⟨ἕκαστοι⟩.</l>
           </lg>
-          <p><hi rend="bold">16.</hi> [0] Clem. Str. VII 22 [III 16, 6 St.]</p>
+          </div><div type="textpart" subtype="fragment" n="B16" xml:id="diels-v1-dk011-b16"><p><hi rend="bold">16.</hi> [0] Clem. Str. VII 22 [III 16, 6 St.]</p>
           <lg>
             <l>Αἰθίοπές τε ⟨θεοὺς σφετέρους⟩ σιμοὺς μέλανάς τε</l>
             <lb n="5" />
             <l>Θρῆικές τε γλαυκοὺς καὶ πυρρούς ⟨φασι πέλεσθαι⟩.</l>
           </lg>
-          <p><hi rend="bold">17.</hi> [27 K., 10 Cr., 1 W.] Schol. Arist. Equ. 408 βάκχους . . . τοὺς κλάδους. οὓς οἱ μύσται φέρουσι. μέμνηται δὲ Ξ. ἐν Σίλλοις·</p>
+          <p><hi rend="bold">16.</hi> Die Äthiopen <hi rend="italic">behaupten, ihre Götter</hi> seien schwarz und stumpfnäsig, die Thraker, blauäugig und rothaarig.</p>
+          </div><div type="textpart" subtype="fragment" n="B17" xml:id="diels-v1-dk011-b17"><p><hi rend="bold">17.</hi> [27 K., 10 Cr., 1 W.] Schol. Arist. Equ. 408 βάκχους . . . τοὺς κλάδους. οὓς οἱ μύσται φέρουσι. μέμνηται δὲ Ξ. ἐν Σίλλοις·</p>
           <lg>
             <l>ἑστᾶσιν δ’ ἐλάτης ⟨βάκχοι⟩ πυκινὸν περὶ δῶμα.</l>
           </lg>
-          <p><hi rend="bold">18.</hi> [16 K., 28 Cr.] Stob. Ecl. I 8, 2. Flor. 29, 41.</p>
+          <p><hi rend="bold">17.</hi> Rings um das feste Haus stehen Fichtenmaien.</p>
+          </div><div type="textpart" subtype="fragment" n="B18" xml:id="diels-v1-dk011-b18"><p><hi rend="bold">18.</hi> [16 K., 28 Cr.] Stob. Ecl. I 8, 2. Flor. 29, 41.</p>
           <lg>
             <l>οὔτοι ἀπ’ ἀρχῆς πάντα θεοὶ θνητοῖσ’ ὑπέδειξαν,</l>
             <lb n="10" />
             <l>ἀλλὰ χρόνωι ζητοῦντες ἐφευρίσκουσιν ἄμεινον.</l>
           </lg>
-          <p><hi rend="bold">19.</hi> Diog. I 23 [vgl. S. 1, 19; 11 A 1 S. 42, 18] δοκεῖ δὲ [Thales] κατά τινας πρῶτος ἀστρολογῆσαι καὶ ἡλιακὰς ἐκλείψεις καὶ τροπὰς προειπεῖν, ὥς φησιν Εὔδημος ἐν τῆι περὶ τῶν Ἀστρολογουμένων ἱστορίαι [fr. 94 Speng. Vgl. 1 A 5 <lb n="15" />S. 8, 3], ὅθεν αὐτὸν καὶ Ξ. καὶ Ἡρόδοτος θαυμάζει.</p>
-          <p><hi rend="bold">20.</hi> [32 K.] — I 111 [vgl. S. 42, 19] ὡς δὲ Ξ. ὁ Κολοφώνιος ἀκηκοέναι φησί, τέτταρα πρὸς τοῖς πεντήκοντα καὶ ἑκατόν (sc. ἔτη βιῶναι Ἐπιμενίδην).</p>
-          <p><hi rend="bold">21.</hi> [28 K.] Schol. Aristoph. Pac. 697 ὁ Σιμωνίδης διεβέβλητο ἐπὶ φιλαργυρίαι . . . . χαριέντως δὲ πάνυ τῶι αὐτῶι λόγωι διέσυρε [β τοῦ ἰαμβοποιοῦ] καὶ <space quantity="3" unit="char" />50</p>
-          <p>Göttergestalten malen und solche Körper bilden, (5) wie <hi rend="italic">jede</hi> Art gerade selbst das Aussehen hätte.</p>
-          <p><hi rend="bold">16.</hi> Die Äthiopen <hi rend="italic">behaupten, ihre Götter</hi> seien schwarz und stumpfnäsig, die Thraker, blauäugig und rothaarig.</p>
-          <p><hi rend="bold">17.</hi> Rings um das feste Haus stehen Fichtenmaien.</p>
           <p><hi rend="bold">18.</hi> Nicht von Anfang an haben die Götter den Sterblichen alles Verborgene gezeigt, sondern allmählich finden sie suchend das Bessere.</p>
+          </div><div type="textpart" subtype="fragment" n="B19" xml:id="diels-v1-dk011-b19"><p><hi rend="bold">19.</hi> Diog. I 23 [vgl. S. 1, 19; 11 A 1 S. 42, 18] δοκεῖ δὲ [Thales] κατά τινας πρῶτος ἀστρολογῆσαι καὶ ἡλιακὰς ἐκλείψεις καὶ τροπὰς προειπεῖν, ὥς φησιν Εὔδημος ἐν τῆι περὶ τῶν Ἀστρολογουμένων ἱστορίαι [fr. 94 Speng. Vgl. 1 A 5 <lb n="15" />S. 8, 3], ὅθεν αὐτὸν καὶ Ξ. καὶ Ἡρόδοτος θαυμάζει.</p>
           <p><hi rend="bold">19.</hi> <hi rend="italic">Thales sagte Sonnenfinsternisse voraus.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B20" xml:id="diels-v1-dk011-b20"><p><hi rend="bold">20.</hi> [32 K.] — I 111 [vgl. S. 42, 19] ὡς δὲ Ξ. ὁ Κολοφώνιος ἀκηκοέναι φησί, τέτταρα πρὸς τοῖς πεντήκοντα καὶ ἑκατόν (sc. ἔτη βιῶναι Ἐπιμενίδην).</p>
           <p><hi rend="bold">20.</hi> <hi rend="italic">Epimenides lebte 150 Jahre.</hi></p>
+          </div><div type="textpart" subtype="fragment" n="B21" xml:id="diels-v1-dk011-b21"><p><hi rend="bold">21.</hi> [28 K.] Schol. Aristoph. Pac. 697 ὁ Σιμωνίδης διεβέβλητο ἐπὶ φιλαργυρίαι . . . . χαριέντως δὲ πάνυ τῶι αὐτῶι λόγωι διέσυρε [β τοῦ ἰαμβοποιοῦ] καὶ <space quantity="3" unit="char" />50</p>
+          <p>Göttergestalten malen und solche Körper bilden, (5) wie <hi rend="italic">jede</hi> Art gerade selbst das Aussehen hätte.</p>
           <p><hi rend="bold">21.</hi> <hi rend="italic">Simonides der Knicker.</hi></p>
           <note type="apparatus">
             <p>4. 5 (16, 1. 2) erg. *: Clemens’ Paraphrase lautet: τὰς μορφὰς αὐτῶν (n. θεῶν) ὁμοίας ἑαυτοῖς ἕκαστοι διαζωγραφοῦσιν, ὥς φησιν ὁ Ξ. ‘Αἰθίοπές τε μέλανας σιμούς τε Θρᾶικές τε πυρροὺς καὶ γλαύκους’ 5 πυρρούς] rothaarig nach [Ar.] probl. 38, 2. 966 b 26. Galen de temp. II 5 (I 618 K.) Die Hautfarbe scheint Hipp. de aer. aq. loc. 20 (I 63, 16 Kühlew.) zu meinen 8 ἐλάτης Wachsmuth: ἐλάτε Θ: ἐλάτη V 10 ὑπέδειξαν Flor. 29, 41: παρέδειξαν ecl. I 8, 2 17 das Gedicht, in dem von Epim. Schlaf berichtet war (Fälschung des Onomakritos? s. Berl. Sitz. B. 1891, 401), gab X. Anlaß zum Spott wie Pythagoras (B 7) 19 [β τοῦ ἰαμβοποιοῦ] Glosse tilgte *; sie bezieht sich wohl auf Simonides</p>
           </note>
-        </div><div type="textpart" subtype="page" n="62" xml:id="diels-v1-dk011-p62"><pb n="62" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=88" />
+        <pb n="62" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=88" />
           <p>μέμνηται ὅτι σμικρολόγος ἦν. ὅθεν Ξενοφάνης κίμβικα αὐτὸν προσαγορεύει 50 Vgl. 11 A 22.</p>
-          <p><hi rend="bold">21<hi rend="super">a</hi>.</hi> Schol. Hom. Oxyrh. 1087, 40 (Ox. Pap. VIII p. 103) τὸ Ἔρυκος παρὰ Ξενοφάνει ἐν ε̄ Σίλλων.</p>
+          </div><div type="textpart" subtype="fragment" n="B21a" xml:id="diels-v1-dk011-b21a"><p><hi rend="bold">21<hi rend="super">a</hi>.</hi> Schol. Hom. Oxyrh. 1087, 40 (Ox. Pap. VIII p. 103) τὸ Ἔρυκος παρὰ Ξενοφάνει ἐν ε̄ Σίλλων.</p>
           <p><lb n="5" /><hi rend="bold">ΠΑΡΩΙΔΙΑΙ</hi> [= ΣΙΛΛΟΙ? vgl. 11 A 9].</p>
-          <p><hi rend="bold">22.</hi> [17 K., 9 Cr., 3 W.] Athen. Epit. II p. 54 e Ξ. ὁ Κολοφώνιος ἐν Παρωιδίαις·</p>
+          <p><hi rend="bold">21<hi rend="super">a</hi>.</hi> Erykos (Stadt oder Berg in Sicilien = Eryx).</p>
+          <p>
+            <hi rend="bold">PARODIEN.</hi>
+          </p>
+          </div><div type="textpart" subtype="fragment" n="B22" xml:id="diels-v1-dk011-b22"><p><hi rend="bold">22.</hi> [17 K., 9 Cr., 3 W.] Athen. Epit. II p. 54 e Ξ. ὁ Κολοφώνιος ἐν Παρωιδίαις·</p>
           <lg>
             <l>πὰρ πυρὶ χρὴ τοιαῦτα λέγειν χειμῶνος ἐν ὥρηι</l>
             <l>ἐν κλίνηι μαλακῆι κατακείμενον, ἔμπλεον ὄντα,</l>
@@ -424,67 +428,66 @@
           <p>
             <hi rend="bold">ΠΕΡΙ ΦΥΣΕΩΣ.</hi>
           </p>
-          <p><hi rend="bold">23.</hi> [1 K., 12 Cr.] Clem. Strom. v 109 (II 399, 16 St.) Ξ. ὁ Κολ. διδάσκων ὅτι <lb n="15" />εἷς καὶ ἀσώματος ὁ θεὸς ἐπιφέρει [vgl. A 30]·</p>
-          <lg>
-            <l>εἷς θεός, ἔν τε θεοῖσι καὶ ἀνθρώποισι μέγιστος,</l>
-            <l>οὔτι δέμας θνητοῖσιν ὁμοίιος οὐδὲ νόημα.</l>
-          </lg>
-          <p><hi rend="bold">24.</hi> [2 K., 13 Cr.] Sext. adv. math. IX 144 [11 A 1 S. 42, 24]</p>
-          <lg>
-            <l>οὖλος ὁρᾶι, οὖλος δὲ νοεῖ, οὖλος δέ τ’ ἀκούει.</l>
-          </lg>
-          <p><hi rend="bold">21<hi rend="super">a</hi>.</hi> Erykos (Stadt oder Berg in Sicilien = Eryx).</p>
-          <p>
-            <hi rend="bold">PARODIEN.</hi>
-          </p>
           <p><hi rend="bold">22.</hi> Solch Gespräch ziemt beim Feuer zur Winterszeit, wenn man auf weichem Lager gesättigt daliegt und süßen Wein trinkt und Kichern dazu knuspert: ‘Wer und woher bist du der Männer? Wieviel Jahre zählst du, mein Bester? (5) Wie alt warst du, als der Meder einbrach?’</p>
           <p>
             <hi rend="bold">VON DER NATUR.</hi>
           </p>
+          </div><div type="textpart" subtype="fragment" n="B23" xml:id="diels-v1-dk011-b23"><p><hi rend="bold">23.</hi> [1 K., 12 Cr.] Clem. Strom. v 109 (II 399, 16 St.) Ξ. ὁ Κολ. διδάσκων ὅτι <lb n="15" />εἷς καὶ ἀσώματος ὁ θεὸς ἐπιφέρει [vgl. A 30]·</p>
+          <lg>
+            <l>εἷς θεός, ἔν τε θεοῖσι καὶ ἀνθρώποισι μέγιστος,</l>
+            <l>οὔτι δέμας θνητοῖσιν ὁμοίιος οὐδὲ νόημα.</l>
+          </lg>
           <p><hi rend="bold">23.</hi> Ein einziger Gott, unter Göttern und Menschen der größte, weder an Gestalt den Sterblichen ähnlich noch an Gedanken.</p>
+          </div><div type="textpart" subtype="fragment" n="B24" xml:id="diels-v1-dk011-b24"><p><hi rend="bold">24.</hi> [2 K., 13 Cr.] Sext. adv. math. IX 144 [11 A 1 S. 42, 24]</p>
+          <lg>
+            <l>οὖλος ὁρᾶι, οὖλος δὲ νοεῖ, οὖλος δέ τ’ ἀκούει.</l>
+          </lg>
           <p><hi rend="bold">24.</hi> <hi rend="italic">Die Gottheit ist ganz Auge, ganz Geist, ganz Ohr.</hi></p>
           <note type="apparatus">
             <p>3 Ἔρυκος] statt Ἔρυξ 6 παρώιδαις Hss.: verb. Menage. Aus der Epitome des Ath. geht nicht hervor, ob παρωιδίαι eigentlicher Titel oder Charakterisierung der Sillen sein soll. Doch ist die Homerimitation besonders kenntlich, deren Fehlen in den Sillenfragm. Voghera Stud. ital. XI 1 voreilig veranlaßte den Titel Σίλλοι für Xen. zu leugnen 10 vgl. Aristoph. Eccl. 45 12 ὁ Μῆδος] Harpagos vgl. B 8 16 εἷς θεός] vom οὐρανὸς gesagt vgl. A 30 S. 50, 5; der polarische Ausdruck ἔν τε θεοῖσι καὶ ἀνθρώποισι formelhaft und populär 17 οὔτε . . . οὔτε falsch Sylburg 18 vgl. 13 B 12</p>
           </note>
-        </div><div type="textpart" subtype="page" n="63" xml:id="diels-v1-dk011-p63"><pb n="63" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=89" />
+        </div><div type="textpart" subtype="fragment" n="B25" xml:id="diels-v1-dk011-b25"><pb n="63" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=89" />
           <head>B. FRAGMENTE. 21. ΣΙΛΛΟΙ 22. ΠΑΡΩΙΔΙΑΙ. 23—30. ΠΕΡΙ ΦΥΣΕΩΣ. 63</head>
           <p><hi rend="bold">25.</hi> [3 K., 14 Cr.] <hi rend="sc">Simpl.</hi> phys. 23, 19 [A 31, 9] <lb n="50" /><lb n="50" />ἀλλ’ ἀπάνευθε πόνοιο νόου φρενὶ πάντα κραδαίνει.</p>
-          <p><hi rend="bold">26.</hi> [4 K., 15 Cr.] <hi rend="sc">Simpl.</hi> phys. 22, 9 [A 31, 7]<lb n="5" />αἰεὶ δ’ ἐν ταὐτῶι μίμνει κινούμενος οὐδέν<lb />οὐδὲ μετέρχεσθαί μιν ἐπιτρέπει ἄλλοτε ἄλληι.</p>
-          <p><hi rend="bold">27.</hi> [8 K., 11 Cr.] <hi rend="sc">Aët.</hi> (Theodor.) IV 5 [vgl. A 36]<lb />ἐκ γαίης γὰρ πάντα καὶ εἰς γῆν πάντα τελευτᾶι.</p>
-          <p><hi rend="bold">28.</hi> [12 K., 22 Cr.] <hi rend="sc">Achill.</hi> Isag. 4 p. 34, 11 Maass [vgl. A 33, 3. S. 51, 19] <lb n="51" /><lb n="10" />γαίης μὲν τόδε πεῖρας ἄνω παρὰ ποσσὶν ὁρᾶται<lb />ἠέρι προσπλάζον, τὸ κάτω δ’ ἐς ἄπειρον ἱκνεῖται.</p>
-          <p><hi rend="bold">29.</hi> [10 K., 20 Cr.] <hi rend="sc">Simplic.</hi> phys. 188, 32 [vgl. A 29 S. 49]<lb />γῆ καὶ ὕδωρ πάντ’ ἐσθ’ ὅσα γίνοντ(αι) ἠδὲ φύονται.</p>
-          <p><hi rend="bold">30.</hi> [11 K. 11<hi rend="sup">a</hi>, 23 Cr.] <hi rend="sc">Aët.</hi> III 4, 4 [= 11 A 46] <hi rend="sc">Schol. Genav.</hi> ad Φ 196<lb />[aus Krates von Mallos] Ξ. ἐν τῶι Περὶ φύσεως·<lb n="15" />πηγὴ δ’ ἐστὶ θάλασσ(α) ὕδατος, πηγὴ δ’ ἀνέμοιο·<lb />οὔτε γὰρ ἐν νέφεσιν ⟨πνοιαί κ’ ἀνέμοιο φύοιντο<lb />ἐκπνείοντος⟩ ἔσωθεν ἄνευ πόντου μεγάλοιο</p>
           <p><hi rend="bold">25.</hi> Doch sonder Mühe schwingt er das All mit des Geistes Denkkraft.</p>
+          </div><div type="textpart" subtype="fragment" n="B26" xml:id="diels-v1-dk011-b26"><p><hi rend="bold">26.</hi> [4 K., 15 Cr.] <hi rend="sc">Simpl.</hi> phys. 22, 9 [A 31, 7]<lb n="5" />αἰεὶ δ’ ἐν ταὐτῶι μίμνει κινούμενος οὐδέν<lb />οὐδὲ μετέρχεσθαί μιν ἐπιτρέπει ἄλλοτε ἄλληι.</p>
           <p><hi rend="bold">26.</hi> Stets am selbigen Ort verharrt er sich nirgend bewegend, und es geziemt ihm nicht bald hierhin bald dorthin zu wandern.</p>
+          </div><div type="textpart" subtype="fragment" n="B27" xml:id="diels-v1-dk011-b27"><p><hi rend="bold">27.</hi> [8 K., 11 Cr.] <hi rend="sc">Aët.</hi> (Theodor.) IV 5 [vgl. A 36]<lb />ἐκ γαίης γὰρ πάντα καὶ εἰς γῆν πάντα τελευτᾶι.</p>
           <p><hi rend="bold">27.</hi> Denn aus Erde ist alles, und zur Erde wird alles am Ende.</p>
+          </div><div type="textpart" subtype="fragment" n="B28" xml:id="diels-v1-dk011-b28"><p><hi rend="bold">28.</hi> [12 K., 22 Cr.] <hi rend="sc">Achill.</hi> Isag. 4 p. 34, 11 Maass [vgl. A 33, 3. S. 51, 19] <lb n="51" /><lb n="10" />γαίης μὲν τόδε πεῖρας ἄνω παρὰ ποσσὶν ὁρᾶται<lb />ἠέρι προσπλάζον, τὸ κάτω δ’ ἐς ἄπειρον ἱκνεῖται.</p>
           <p><hi rend="bold">28.</hi> Dieses obere Ende der Erde erblickt man zu unseren Füßen an die Luft stoßen, das untere dagegen erstreckt sich ins Unermeßliche.</p>
+          </div><div type="textpart" subtype="fragment" n="B29" xml:id="diels-v1-dk011-b29"><p><hi rend="bold">29.</hi> [10 K., 20 Cr.] <hi rend="sc">Simplic.</hi> phys. 188, 32 [vgl. A 29 S. 49]<lb />γῆ καὶ ὕδωρ πάντ’ ἐσθ’ ὅσα γίνοντ(αι) ἠδὲ φύονται.</p>
           <p><hi rend="bold">29.</hi> Erde und Wasser ist alles, was da wird und wächst.</p>
+          </div><div type="textpart" subtype="fragment" n="B30" xml:id="diels-v1-dk011-b30"><p><hi rend="bold">30.</hi> [11 K. 11<hi rend="sup">a</hi>, 23 Cr.] <hi rend="sc">Aët.</hi> III 4, 4 [= 11 A 46] <hi rend="sc">Schol. Genav.</hi> ad Φ 196<lb />[aus Krates von Mallos] Ξ. ἐν τῶι Περὶ φύσεως·<lb n="15" />πηγὴ δ’ ἐστὶ θάλασσ(α) ὕδατος, πηγὴ δ’ ἀνέμοιο·<lb />οὔτε γὰρ ἐν νέφεσιν ⟨πνοιαί κ’ ἀνέμοιο φύοιντο<lb />ἐκπνείοντος⟩ ἔσωθεν ἄνευ πόντου μεγάλοιο</p>
           <p><hi rend="bold">30.</hi> Das Meer ist Quell des Wassers, Quell des Windes. Denn in den Wolken <hi rend="italic">würde kein Wehen des Windes, der von innen herausbläst,</hi></p>
           <note type="apparatus">
             <p>2 (25) Der immanente Gott ist in allem geistig regsam, ohne körperlicher Organe oder Bewegung dazu zu bedürfen (B 26) 4 (26, 1) κινούμενος E<hi rend="sup">a</hi>F: κινούμενον DE; beständige Variante vgl. zu S. 50, 29 ff. 9 (28, 1) φησὶ γὰρ μὲν Μ: γαίης γάρ φησι V πὰρ ποσσὶν Μ 10 (28, 2) ἠέρι *: καὶ ῥεῖ Hss.: αἰθέρι Karsten vgl. Herod. VII 8 γ γῆν τὴν Περσίδα ἀποδέξομεν τῶι Διὸς αἰθέρι ὁμουρέουσαν ἄπειρον] <hi rend="italic">indefinitum</hi>, nicht <hi rend="italic">infinitum</hi>. Doch s. 11 A 28 p. 977<hi rend="sup">b</hi> 3 ἱκνεῖται] s. 18 B 8, 46 11 (29) Simpl. nennt irrtümlich Anaximenes. Richtig Philop. a. O. 12 (29, 1) πάντ’ Philop. : πᾶν Simpl. 13 (30) <hi rend="italic">Berl.Sitz.B.</hi>1891, 572. Vgl. Arist. Meteor. B 2. 354<hi rend="sup">b</hi> 15 15 (30, 1) θαλασση Genav. 16 (2) Lücke füllte *: οὔτε γὰρ ⟨ἂν νέφε’ οὔτ’ ἀνέμων ἂν ἐγίγνετ’ ἀϋτμὴ⟩ ἐν νεφέεσσιν ἔσωθεν H. Weil: ohne Lücke οὔτε γὰρ ἂν γνόφος ἔσθεν’ ἄνευ κτλ. Ludwich (Mél. Nicole 336): οὔτε γὰρ ἂν νέφε’ ἔσκεν Wachsmuth 17 (3) πόντοιο Genav.: verb. Nicole</p>
           </note>
-        </div><div type="textpart" subtype="page" n="64" xml:id="diels-v1-dk011-p64"><pb n="64" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=90" />
+        <pb n="64" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=90" />
           <lg>
             <l>οὔτε ῥοαὶ ποταμῶν οὔτ’ αἰθέρος ὄμβριον ὕδωρ,</l>
             <lb n="5" />
             <l>ἀλλὰ μέγας πόντος γενέτωρ νεφέων ἀνέμων τε</l>
             <l>καὶ ποταμῶν.</l>
           </lg>
-          <p><hi rend="bold">31.</hi> <hi rend="bold">O.</hi> <hi rend="bold">HERACLIT.</hi> <hi rend="bold">Alleg. Hom. c. 44</hi> [<hi rend="bold">Etymologie</hi> v. ὑπερίων]</p>
+          </div><div type="textpart" subtype="fragment" n="B31" xml:id="diels-v1-dk011-b31"><p><hi rend="bold">31.</hi> <hi rend="bold">O.</hi> <hi rend="bold">HERACLIT.</hi> <hi rend="bold">Alleg. Hom. c. 44</hi> [<hi rend="bold">Etymologie</hi> v. ὑπερίων]</p>
           <lg>
             <l>ἠέλιός θ’ ὑπεριέμενος γαϊάν τ’ ἐπιθάλπων.</l>
           </lg>
-          <p><hi rend="bold">32.</hi> [13 K., 24 Cr.] <hi rend="bold">SCHOL. BLT Eust. ad Hom. Λ 27</hi></p>
+          <p><hi rend="bold">31.</hi> Die Sonne sich über die Erde schwingend und sie erwärmend.</p>
+          </div><div type="textpart" subtype="fragment" n="B32" xml:id="diels-v1-dk011-b32"><p><hi rend="bold">32.</hi> [13 K., 24 Cr.] <hi rend="bold">SCHOL. BLT Eust. ad Hom. Λ 27</hi></p>
           <lg>
             <l>ἥν τ’ Ἶριν καλέουσι, νέφος καὶ τοῦτο πέφυκε,</l>
             <l>πορφύρεον καὶ φοινίκεον καὶ χλωρὸν ἰδέσθαι.</l>
           </lg>
-          <p><hi rend="bold">33.</hi> [9 K., 21 Cr.] <hi rend="bold">SEXT. adv. math. x 314</hi></p>
+          <p><hi rend="bold">32.</hi> Und was sie Iris benennen, auch das ist seiner Natur nach nur eine Wolke, purpurn und hellrot und gelbgrün zu schauen.</p>
+          </div><div type="textpart" subtype="fragment" n="B33" xml:id="diels-v1-dk011-b33"><p><hi rend="bold">33.</hi> [9 K., 21 Cr.] <hi rend="bold">SEXT. adv. math. x 314</hi></p>
           <lb n="10" />
           <lg>
             <l>πάντες γὰρ γαίης τε καὶ ὕδατος ἐκγενόμεσθα.</l>
           </lg>
-          <p><hi rend="bold">34.</hi> [14 K., 19 Cr.] <hi rend="bold">SEXT. adv. math. VII 49. 110</hi> <hi rend="bold">PLUT. aud. poet. 2 p. 17 E</hi></p>
+          <p><hi rend="bold">33.</hi> Denn wir alle sind aus Erde und Wasser geboren.</p>
+          </div><div type="textpart" subtype="fragment" n="B34" xml:id="diels-v1-dk011-b34"><p><hi rend="bold">34.</hi> [14 K., 19 Cr.] <hi rend="bold">SEXT. adv. math. VII 49. 110</hi> <hi rend="bold">PLUT. aud. poet. 2 p. 17 E</hi></p>
           <lg>
             <l>καὶ τὸ μὲν οὖν σαφὲς οὔτις ἀνὴρ γένετ’ οὐδέ τις ἔσται</l>
             <l>εἰδὼς ἀμφὶ θεῶν τε καὶ ἅσσα λέγω περὶ πάντων·</l>
@@ -492,46 +495,43 @@
             <lb n="15" />
             <l>αὐτὸς ὅμως οὐκ οἶδε· δόκος δ’ ἐπὶ πᾶσι τέτυκται.</l>
           </lg>
-          <p><hi rend="bold">35.</hi> [15 K., 26 Cr.] <hi rend="bold">PLUT. Sympos. IX 7 p. 746 B</hi></p>
+          <p><hi rend="bold">34.</hi> Und was nun die Wahrheit betrifft, so gab es und wird es Niemand geben, der sie wüßte in bezug auf die Götter und alle Dinge, die ich nur immer erwähne. Denn spräche er auch einmal zufällig das allervollendetste, so weiß er’s selber doch nicht. Denn nur Wahn ist allen beschieden.</p>
+          </div><div type="textpart" subtype="fragment" n="B35" xml:id="diels-v1-dk011-b35"><p><hi rend="bold">35.</hi> [15 K., 26 Cr.] <hi rend="bold">PLUT. Sympos. IX 7 p. 746 B</hi></p>
           <lg>
             <l>ταῦτα δεδοξάσθω μὲν ἐοικότα τοῖς ἐτύμοισι.</l>
           </lg>
           <p>entstehen ohne den großen Pontos, noch Fluten der Ströme, noch Regenwasser des Äthers; (5) der große Pontos ist vielmehr der Vater der Wolken, Winde und Ströme.</p>
-          <p><hi rend="bold">31.</hi> Die Sonne sich über die Erde schwingend und sie erwärmend.</p>
-          <p><hi rend="bold">32.</hi> Und was sie Iris benennen, auch das ist seiner Natur nach nur eine Wolke, purpurn und hellrot und gelbgrün zu schauen.</p>
-          <p><hi rend="bold">33.</hi> Denn wir alle sind aus Erde und Wasser geboren.</p>
-          <p><hi rend="bold">34.</hi> Und was nun die Wahrheit betrifft, so gab es und wird es Niemand geben, der sie wüßte in bezug auf die Götter und alle Dinge, die ich nur immer erwähne. Denn spräche er auch einmal zufällig das allervollendetste, so weiß er’s selber doch nicht. Denn nur Wahn ist allen beschieden.</p>
           <p><hi rend="bold">35.</hi> Dies nun soll als wahrscheinlich hingestellt sein!</p>
           <note type="apparatus">
             <p>1 (30, 4) αἰθέρος Nicole: αἰ Genav. 7 (32, 1) καὶ] wie Sonne usw. Vgl. * Arch. f. Gesch. d. Phil. x 533 12 (34, 1) γένετ’ Plut.: ἴδεν Sext.: εἶδεν Diog. IX 72 (P): οἶδεν Diog. (BF) 13 (34, 2) ἀμφὶ θεῶν] Sext. paraphrasiert: τὸ μὲν οὖν ἀληθὲς καὶ γνώριμον οὐδεὶς ἄνθρωπος οἶδε τό γε ἐν τοῖς ἀδήλοις πράγμασιν· κἂν γὰρ ἐκ τύχης ἐπιβάλληι τούτωι, ὅμως οὐκ οἶδεν ὅτι ἐπιβέβληκεν αὐτῶι ἀλλ’ οἴεται καὶ δοκεῖ. 14 (34, 3) ἢν ... τύχηι ... τετελεσμένα Gal. VIII 636 K. 17 (35, 1) δεδόξασθαι Plut.: verb. Wilamowitz: δεδόξασται Karsten</p>
           </note>
-        </div><div type="textpart" subtype="page" n="65" xml:id="diels-v1-dk011-p65"><pb n="65" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=91" />
+        </div><div type="textpart" subtype="fragment" n="B36" xml:id="diels-v1-dk011-b36"><pb n="65" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=91" />
           <head>B. FRAGMENTE. 30—41. ΠΕΡΙ ΦΥΣΕΩΣ. 42. ZWEIFELH. FR.</head>
           <p><hi rend="bold">36.</hi> [27 Cr.] <hi rend="sc">Herodian.</hi> π. διχρ. 296, 9 <hi rend="right">52</hi><lb />ὁππόσα δὴ θνητοῖσι πεφήνασιν εἰσοράασθαι . . .</p>
-          <p><hi rend="bold">37.</hi> [29 Cr.] <hi rend="sc">Herodian.</hi> π. μον. λέξ. 30, 30<lb />καὶ μὲν ἐνὶ σπεάτεσσί τεοις καταλείβεται ὕδωρ.</p>
-          <p><lb n="5" /><hi rend="bold">38.</hi> [25 Cr.] <hi rend="sc">Herodian.</hi> π. μον. λέξ. p. 41, 5<lb />εἰ μὴ χλωρὸν ἔφυσε θεὸς μέλι, πολλὸν ἔφασκον<lb />γλύσσονα σῦκα πέλεσθαι.</p>
-          <p><hi rend="bold">39.</hi> [20 K.] <hi rend="sc">Pollux</hi> VI 46 κέρασον τὸ δένδρον ἐν τῶι Περὶ φύσεως Ξενο-<lb />φάνους εὑρών.</p>
-          <p><lb n="10" /><hi rend="bold">40.</hi> [30 K.] <hi rend="sc">Etym. gen.</hi> s. v. βρόταχον τὸν βάτραχον Ἴωνες [καὶ Ἀριστο-<lb />φάνης φησὶ] καὶ παρὰ Ξενοφάνει.</p>
-          <p><hi rend="bold">41.</hi> <hi rend="sc">Tzetz.</hi> ad Dion. Perieg. v. 940 p. 1010 Bernhardy περὶ τῶν εἰς ρος κανών<lb />(über σιρός)<lb />σιλλογράφος δέ τις τὸ σῖ μακρὸν γράφει<lb />τῶι ῥῶ, δοκεῖ μοι, τοῦτο μηκύνας τάχα.<lb />σιλλογράφος νῦν ὁ Ξενοφάνης ἐστὶ καὶ ὁ Τίμων καὶ ἕτεροι.</p>
-          <head>ZWEIFELHAFTE FRAGMENTE.</head>
-          <p><hi rend="bold">42.</hi> <hi rend="sc">Herodian.</hi> π. μον. λέξεως 7, 11 καὶ παρὰ Ξενοφάνει ἐν δωι Σίλλων·<lb />καί (κ’) ἐπιθυμήσειε νέος νῆς ἀμφιπόλοιο.</p>
           <p><hi rend="bold">36.</hi> Alles, was sich nur immer der menschlichen Anschauung offen-<lb />bart hat . . .</p>
+          </div><div type="textpart" subtype="fragment" n="B37" xml:id="diels-v1-dk011-b37"><p><hi rend="bold">37.</hi> [29 Cr.] <hi rend="sc">Herodian.</hi> π. μον. λέξ. 30, 30<lb />καὶ μὲν ἐνὶ σπεάτεσσί τεοις καταλείβεται ὕδωρ.</p>
           <p><hi rend="bold">37.</hi> Und in gewissen Höhlen fürwahr tropft das Wasser herab.</p>
+          </div><div type="textpart" subtype="fragment" n="B38" xml:id="diels-v1-dk011-b38"><p><lb n="5" /><hi rend="bold">38.</hi> [25 Cr.] <hi rend="sc">Herodian.</hi> π. μον. λέξ. p. 41, 5<lb />εἰ μὴ χλωρὸν ἔφυσε θεὸς μέλι, πολλὸν ἔφασκον<lb />γλύσσονα σῦκα πέλεσθαι.</p>
           <p><hi rend="bold">38.</hi> Wenn Gott nicht den gelblichen Honig erschaffen hätte, so würde<lb />man meinen, die Feigen seien viel süßer als alles andre.</p>
+          </div><div type="textpart" subtype="fragment" n="B39" xml:id="diels-v1-dk011-b39"><p><hi rend="bold">39.</hi> [20 K.] <hi rend="sc">Pollux</hi> VI 46 κέρασον τὸ δένδρον ἐν τῶι Περὶ φύσεως Ξενο-<lb />φάνους εὑρών.</p>
           <p><hi rend="bold">39.</hi> Kirschbaum.</p>
+          </div><div type="textpart" subtype="fragment" n="B40" xml:id="diels-v1-dk011-b40"><p><lb n="10" /><hi rend="bold">40.</hi> [30 K.] <hi rend="sc">Etym. gen.</hi> s. v. βρόταχον τὸν βάτραχον Ἴωνες [καὶ Ἀριστο-<lb />φάνης φησὶ] καὶ παρὰ Ξενοφάνει.</p>
           <p><hi rend="bold">40.</hi> Frosch.</p>
+          </div><div type="textpart" subtype="fragment" n="B41" xml:id="diels-v1-dk011-b41"><p><hi rend="bold">41.</hi> <hi rend="sc">Tzetz.</hi> ad Dion. Perieg. v. 940 p. 1010 Bernhardy περὶ τῶν εἰς ρος κανών<lb />(über σιρός)<lb />σιλλογράφος δέ τις τὸ σῖ μακρὸν γράφει<lb />τῶι ῥῶ, δοκεῖ μοι, τοῦτο μηκύνας τάχα.<lb />σιλλογράφος νῦν ὁ Ξενοφάνης ἐστὶ καὶ ὁ Τίμων καὶ ἕτεροι.</p>
           <p><hi rend="bold">41.</hi> Grube.</p>
+          </div><div type="textpart" subtype="fragment" n="B42" xml:id="diels-v1-dk011-b42"><head>ZWEIFELHAFTE FRAGMENTE.</head>
+          <p><hi rend="bold">42.</hi> <hi rend="sc">Herodian.</hi> π. μον. λέξεως 7, 11 καὶ παρὰ Ξενοφάνει ἐν δωι Σίλλων·<lb />καί (κ’) ἐπιθυμήσειε νέος νῆς ἀμφιπόλοιο.</p>
           <head>ZWEIFELHAFTE FRAGMENTE.</head>
           <p><hi rend="bold">42.</hi> Da würde Lust bekommen ein Junger nach einer jungen Magd.</p>
           <note type="apparatus">
             <p>2 (36) Gestirne? &amp;nbsp;&amp;nbsp;&amp;nbsp; 4 (37) *: καὶ μὴν Hs. &amp;nbsp;&amp;nbsp; ἐν σπεάτεσσι (vorher καὶ μὴν) Ludwich a. O. &amp;nbsp;&amp;nbsp; τεοῖς = <hi rend="italic">tuis</hi> sinnlos: ich verstehe τεοῖς indefinit, näml. in den Stalaktitenhöhlen, wo sich Erde aus Wasser bildet: τέως ‘währenddessen, daß das Wasser durch die Poren der Erde dringt, sickert es beständig von den Wän-den’ Ludwich &amp;nbsp;&amp;nbsp; 6 (38, 1) πολλῶν ἔφασκεν Hs. (<hi rend="italic">Rh. Mus.</hi> 35, 104): verb. Lehrs: πολλὸν ἔφης κεν Ludwich &amp;nbsp;&amp;nbsp; 18 (42) Ξ. ἐν δ Σίλλων Seidler: ἀριστοφάνει ἐν δινσίλλων Havn.: ἀρ. ἐν δ συλλάβωι Vind.: Ἀριστοφάνει ἐν Δίνῳ Σίλλων (!) Lud-wich: Ἀριστοφάνει ἐν Αἰολοσίκωνι W. Dindorf. Gegen Aristoph. spricht, daß Hero-dian die Kontraktion νῆ nur noch aus den Σαμίων ὧροι kennt, ferner πλῆ [51 B 10] und ‘Ρῆ [71 B 9] &amp;nbsp;&amp;nbsp; 19 (42) (κ’) Dindorf</p>
           </note>
           <p><hi rend="small">Diels, Fragm. d. Vorsokr. I. 3. Aufl.</hi> <hi rend="right">5</hi></p>
-        </div><div type="textpart" subtype="page" n="66" xml:id="diels-v1-dk011-p66"><pb n="66" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=92" />
+        </div><div type="textpart" subtype="fragment" n="B43" xml:id="diels-v1-dk011-b43"><pb n="66" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=92" />
           <p><hi rend="bold">43.</hi> Schol. Hom. B ad ι 539 χλούνην οἱ μὲν ἀφριστήν· . . . Ξενοφῶντα 53 [Ξενοφάνην G. Hermann] δὲ γένος τι Ἰνδῶν φάναι τὸν χλούνην εἶναι καθάπερ καὶ παρ’ Αἰσχύλωι ἐν Ἠδωνοῖς ‘μακροσκελὴς μέν· ἆρα μὴ χλούνης τις ἦν;’ [FT 62 Nauck<hi rend="sup">2</hi>].</p>
-          <p><lb n="5" /><hi rend="bold">44.</hi> Athen. IV p. 174 F ‘γιγγραίνοισι γὰρ οἱ Φοίνικες, ὥς φησιν ὁ Ξενοφῶν [Ξενοφάνης Dümmler], ἐχρῶντο αὐλοῖς σπιθαμιαίοις τὸ μέγεθος ὀξὺ καὶ γοερὸν φθεγγομένοις’. τούτοις δὲ καὶ οἱ Κᾶρες χρῶνται ἐν τοῖς θρήνοις, εἰ μὴ ἄρα καὶ ἡ Καρία Φοινίκη ἐκαλεῖτο, ὡς παρὰ Κορίννηι καὶ Βακχυλίδηι [fr. 40 Blass] ἔστιν εὑρεῖν. ὀνομάζονται δὲ οἱ αὐλοὶ γίγγροι ὑπὸ τῶν Φοινίκων ἀπὸ τῶν περὶ <lb n="10" />Ἄδωνιν θρήνων· τὸν γὰρ Ἄδωνιν Γίγγρην καλεῖτε ὑμεῖς οἱ Φοίνικες, ὡς ἱστορεῖ Δημοκλείδης.</p>
-          <p><hi rend="bold">45.</hi> Schol. Hippocr. ad Epid. I 13, 3 [Klein, Erotian. S. 18] βληστρισμός· ὁ ῥιπτασμός· οὕτω Βακχεῖος τίθησιν· ἐν ἐνίοις δὲ ἀντιγράφοις εὕρομεν βλητρισμὸν χωρὶς τοῦ δ. ὄντως δὲ τὸν ῥιπτασμὸν σημαίνει, καθὼς καὶ Ξενοφάνης ὁ Κολο<lb n="15" />φώνιός φησιν· ‘ἐγὼ δὲ ἐμαυτὸν πόλιν ἐκ πόλεως φέρων ἐβλήστριζον’ ἀντὶ τοῦ ἐρριπταζόμην [vgl. B 8, 2].</p>
-          <head>C. IMITATION.</head>
+          </div><div type="textpart" subtype="fragment" n="B44" xml:id="diels-v1-dk011-b44"><p><lb n="5" /><hi rend="bold">44.</hi> Athen. IV p. 174 F ‘γιγγραίνοισι γὰρ οἱ Φοίνικες, ὥς φησιν ὁ Ξενοφῶν [Ξενοφάνης Dümmler], ἐχρῶντο αὐλοῖς σπιθαμιαίοις τὸ μέγεθος ὀξὺ καὶ γοερὸν φθεγγομένοις’. τούτοις δὲ καὶ οἱ Κᾶρες χρῶνται ἐν τοῖς θρήνοις, εἰ μὴ ἄρα καὶ ἡ Καρία Φοινίκη ἐκαλεῖτο, ὡς παρὰ Κορίννηι καὶ Βακχυλίδηι [fr. 40 Blass] ἔστιν εὑρεῖν. ὀνομάζονται δὲ οἱ αὐλοὶ γίγγροι ὑπὸ τῶν Φοινίκων ἀπὸ τῶν περὶ <lb n="10" />Ἄδωνιν θρήνων· τὸν γὰρ Ἄδωνιν Γίγγρην καλεῖτε ὑμεῖς οἱ Φοίνικες, ὡς ἱστορεῖ Δημοκλείδης.</p>
+          </div><div type="textpart" subtype="fragment" n="B45" xml:id="diels-v1-dk011-b45"><p><hi rend="bold">45.</hi> Schol. Hippocr. ad Epid. I 13, 3 [Klein, Erotian. S. 18] βληστρισμός· ὁ ῥιπτασμός· οὕτω Βακχεῖος τίθησιν· ἐν ἐνίοις δὲ ἀντιγράφοις εὕρομεν βλητρισμὸν χωρὶς τοῦ δ. ὄντως δὲ τὸν ῥιπτασμὸν σημαίνει, καθὼς καὶ Ξενοφάνης ὁ Κολο<lb n="15" />φώνιός φησιν· ‘ἐγὼ δὲ ἐμαυτὸν πόλιν ἐκ πόλεως φέρων ἐβλήστριζον’ ἀντὶ τοῦ ἐρριπταζόμην [vgl. B 8, 2].</p>
+          </div><div type="textpart" subtype="fragment" n="C1" xml:id="diels-v1-dk011-c1"><head>C. IMITATION.</head>
           <p><hi rend="bold">1.</hi> Eurip. Herc. 1341 [vgl. B 11. 12. A 32; I 51, 6. 7]</p>
           <lg>
             <l>ἐγὼ δὲ τοὺς θεοὺς οὔτε λέκτρ’ ἃ μὴ θέμις</l>
@@ -541,7 +541,7 @@
             <l><lb n="25" />1345 δεῖται γὰρ ὁ θεός, εἴπερ ἔστ’ ὀρθῶς θεός,</l>
             <l>οὐδενός· ἀοιδῶν οἵδε δύστηνοι λόγοι.</l>
           </lg>
-          <p><hi rend="bold">2.</hi> Athen. X 413 c διὸ καὶ Εὐριπίδης ἐν τῶι πρώτωι Αὐτολύκωι λέγει [fr. 282 N.]</p>
+          </div><div type="textpart" subtype="fragment" n="C2" xml:id="diels-v1-dk011-c2"><p><hi rend="bold">2.</hi> Athen. X 413 c διὸ καὶ Εὐριπίδης ἐν τῶι πρώτωι Αὐτολύκωι λέγει [fr. 282 N.]</p>
           <lg>
             <l>κακῶν γὰρ ὄντων μυρίων καθ’ Ἑλλάδα</l>
             <l>οὐδὲν κάκιόν ἐστιν ἀθλητῶν γένους·</l>
@@ -550,13 +550,13 @@
             <l>5 γνάθου τε δοῦλος νηδύος θ’ ἡσσημένος,</l>
             <l>κτήσαιτ’ ἂν ὄλβον εἰς ὑπερβολὴν πατρός; . . .</l>
           </lg>
-          <p><hi rend="bold">43.</hi> Eber (?).</p>
-          <p><hi rend="bold">44.</hi> Die Phönikier gebrauchten spannenlange Gingrasflöten mit schrillem und klagendem Tone.</p>
-          <p><hi rend="bold">45.</hi> Doch ich warf mich hin und her von Stadt zu Stadt fahrend.</p>
+          </div><div type="textpart" subtype="fragment" n="C43" xml:id="diels-v1-dk011-c43"><p><hi rend="bold">43.</hi> Eber (?).</p>
+          </div><div type="textpart" subtype="fragment" n="C44" xml:id="diels-v1-dk011-c44"><p><hi rend="bold">44.</hi> Die Phönikier gebrauchten spannenlange Gingrasflöten mit schrillem und klagendem Tone.</p>
+          </div><div type="textpart" subtype="fragment" n="C45" xml:id="diels-v1-dk011-c45"><p><hi rend="bold">45.</hi> Doch ich warf mich hin und her von Stadt zu Stadt fahrend.</p>
           <note type="apparatus">
             <p>1 Ξενοφάνην und 6 Ξενοφάνης schwerlich richtig. Vielleicht ist der Geograph Xenophon v. Lampsakos gemeint 15 noch nicht emendiert. Iambus zwischen Hexametern (wie B 14) möglich. Etwa ἐγὼ δ’ ἐμαυτὸν ἐκ πόλεως πόλιν φέρων | ἐβλήστριζον. Aber Ausfall von B 8 nach φησιν wahrscheinlicher. Die obige Stelle würde dann einem ionischen Prosaiker gehören 24 ἀοιδῶν δ’ Hss.: δ’ fehlt Plut., Clem.</p>
           </note>
-        </div><div type="textpart" subtype="page" n="67" xml:id="diels-v1-dk011-p67"><pb n="67" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=93" />
+        <pb n="67" facs="https://babel.hathitrust.org/cgi/pt?id=mdp.39015012889195&amp;seq=93" />
           <head>B. ZWEIFELH. FR. 43—45. C. IMITAT. 12. HERAKLEITOS.</head>
           <lg>
             <l><lb n="5" />13 ἐμεμψάμην δὲ κα τὸν Ἑλλήνων νόμον,</l>

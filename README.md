@@ -49,10 +49,10 @@ unnumbered work-level passages and the anonymous fragments under the canonical
 Diels, *Die Fragmente der Vorsokratiker* volumes I–II are retained as two
 authoritative page-level diplomatic sources and compiled into 87 DK work
 files (54 from volume I and 33 from volume II). The compiled editions are
-citable by printed page, preserve every source content block, pass HookTest,
-and are registered in the Perseus Multitext Viewer under the canonical TLG
-textgroups recorded in `canon-keys.txt` (for example, Thales is
-`tlg1705.dk001`). The compiler does not infer unencoded A/B fragment
-boundaries.
+citable by printed A/B/C item number; printed pages and facsimile links remain
+inside those items as provenance. They preserve every source content block,
+pass HookTest, and are registered in the Perseus Multitext Viewer under the
+canonical TLG textgroups recorded in `canon-keys.txt` (for example, Thales is
+`tlg1705.dk001`).
 Older migrated fragment editions retain their existing encoding and can be
 normalized incrementally without mixing them back into `grcnewxml`.
