@@ -54,5 +54,12 @@ inside those items as provenance. They preserve every source content block,
 pass HookTest, and are registered in the Perseus Multitext Viewer under the
 canonical TLG textgroups recorded in `canon-keys.txt` (for example, Thales is
 `tlg1705.dk001`).
+Bergk, *Poetae Lyrici Graeci* volumes II–III are likewise retained as
+authoritative volume sources and compiled into 111 work-level editions (60
+from volume II and 51 from volume III), containing 2,025 citable printed
+fragments. Page breaks remain embedded provenance rather than citation units.
+Both volumes pass HookTest and use the TLG identities in `canon-keys.txt`;
+explicit project-local textgroups document the five volume-III poets for whom
+that canon supplies no matching identity.
 Older migrated fragment editions retain their existing encoding and can be
 normalized incrementally without mixing them back into `grcnewxml`.
