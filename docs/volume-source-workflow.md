@@ -89,6 +89,22 @@ distinct without claiming separate Testimonia and Fragmenta structures. The
 compiler checks that every non-page-break source child is assigned exactly
 once.
 
+## Kinkel production build
+
+Kinkel volume I retains its corrected page-level master under
+`sources/volumes/kinkel/`. Regenerate its 93 ordered section works and viewer
+registrations with:
+
+```sh
+python3 tools/install_kinkel_epicorum_vol1.py \
+  --viewer-registry /Users/gcrane/github/src-persverscomp/work_registry.json
+```
+
+The earlier Leipzig TEI supplies only the ordered section-heading map. The
+compiler aligns those headings to the corrected master and promotes printed
+numeric heads to fragment citation units. Page breaks and facsimile links
+remain inside fragments as provenance; pages are never the citation axis.
+
 ## Promotion workflow
 
 1. Compile the registered source.
