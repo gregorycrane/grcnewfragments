@@ -61,5 +61,9 @@ fragments. Page breaks remain embedded provenance rather than citation units.
 Both volumes pass HookTest and use the TLG identities in `canon-keys.txt`;
 explicit project-local textgroups document the five volume-III poets for whom
 that canon supplies no matching identity.
+Arnim, *Stoicorum Veterum Fragmenta* I-III is installed as 21 author-level
+works under the canon's Stoic TLG identities. The 2,710 compiled citation units
+use Arnim's `volume.fragment` axis, retain printed pages as provenance, pass
+HookTest, and are registered in the Perseus Multitext Viewer.
 Older migrated fragment editions retain their existing encoding and can be
 normalized incrementally without mixing them back into `grcnewxml`.

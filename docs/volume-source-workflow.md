@@ -105,6 +105,22 @@ compiler aligns those headings to the corrected master and promotes printed
 numeric heads to fragment citation units. Page breaks and facsimile links
 remain inside fragments as provenance; pages are never the citation axis.
 
+## Arnim, *Stoicorum Veterum Fragmenta*
+
+The three scan-first diplomatic masters are retained under
+`sources/volumes/arnim/`. Regenerate the canonical author-level CTS works and
+the Multitext Viewer registrations with:
+
+```sh
+python3 tools/install_arnim_stoicorum.py \
+  --viewer-registry /Users/gcrane/github/src-persverscomp/work_registry.json
+```
+
+The compiler uses explicit printed author headings and the TLG identities in
+the user's `canon-keys.txt`. The older Leipzig TEI snapshots are retained only
+as numbering and section guides; all published text comes from the scan-first
+masters. Citations are `volume.fragment`, and page breaks remain provenance.
+
 ## Promotion workflow
 
 1. Compile the registered source.

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="svfincerti-svf001-arnim1903-grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stoicorum Veterum Fragmenta, Volume I</title>
+        <editor>Hans Friedrich August von Arnim</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and page-level TEI repair</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Stoicorum Veterum Fragmenta: Early Stoics (uncertain attribution)</title></titleStmt>
+      <publicationStmt>
+        <p>Research draft; final publication requires the notebook completeness gate and human review.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Hans von Arnim</persName>
+            </editor>
+            <title>Stoicorum Veterum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date>1905</date>
+            </imprint>
+            <biblScope unit="volume">1</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/stoicorumveterum01arniuoft">Authoritative PDF scan</ref>
+          <ref target="https://hdl.handle.net/2027/coo.31924087124883">HathiTrust OCR comparison witness</ref>
+        </biblStruct>
+      <ptr target="../../../sources/volumes/arnim/arnim.stoicorum-veterum.vol1.xml" /></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The PDF image is authoritative. Hathi OCR and Leipzig TEI are fallible witnesses. Page breaks are provenance only; downstream citation is by Arnim volume and printed fragment number.</p>
+    <refsDecl n="CTS"><cRefPattern n="fragment" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='volume' and @n='$1']/tei:div[@subtype='fragment' and @n='$2'])"><p>This pointer extracts an Arnim printed fragment within an SVF volume; pages are provenance only.</p></cRefPattern><cRefPattern n="volume" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='volume' and @n='$1'])"><p>This pointer extracts an SVF printed volume within an author collection.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-11-09">Compiled deterministically from retained scan-first volume masters; citable by Arnim volume.fragment.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:svfincerti.svf001.arnim1903-grc1" xml:lang="grc"><body n="urn:cts:greekLit:svfincerti.svf001.arnim1903-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:svfincerti.svf001.arnim1903-grc1" xml:lang="grc"><head>Stoicorum Veterum Fragmenta: Early Stoics (uncertain attribution)</head><div type="textpart" subtype="volume" n="1" xml:id="svf-svfincerti-v1"><div type="textpart" subtype="fragment" n="631" xml:id="svf-v1-svfincerti-f631"><head>6. Τινὲς τῶν ἀρχαιοτέρων Στωϊκῶν.</head>
+          <pb n="142" facs="https://archive.org/details/stoicorumveterum01arniuoft/page/n191/mode/1up" />
+          <p><hi rend="bold">631</hi> Diocles Magnes apud Diog. Laërt. VII 54. ἄλλοι δέ τινες τῶν ἀρχαιοτέρων Στωϊκῶν τὸν ὀρθὸν λόγον κριτήριον ἀπολεί<lb n="17" />πουσιν, ὡς ὁ Ποσειδώνιος ἐν τῷ περὶ κριτηρίου φησί.</p>
+          <note type="apparatus"><lb n="19" />6 Ex libro περὶ τῆς Λακωνικῆς πολιτείας haec sumpta sunt. 10 nonne<lb n="20" />scribendum: ἑκάστοτε? 11 ᾖ add. Kaibel. 12 τὸ Cas., τὰ A. 15 Ad<lb n="21" />quos philosophos haec verba referantur, nescimus. Disputavit de ea quaestione<lb n="22" />Hirzelius.</note>
+        </div></div></div></body></text></TEI>

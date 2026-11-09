@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tlg2399-svf001-arnim1903-grc1"><teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stoicorum Veterum Fragmenta, Volume III</title>
+        <editor>Hans Friedrich August von Arnim</editor>
+        <respStmt>
+          <resp>Diplomatic scan transcription and page-level TEI repair</resp>
+          <name>DeepSeek, under human review</name>
+        </respStmt>
+      <title type="compiled-work">Stoicorum Veterum Fragmenta: Eudromus</title></titleStmt>
+      <publicationStmt>
+        <p>Research draft; final publication requires the notebook completeness gate and human review.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <editor>
+              <persName>Hans von Arnim</persName>
+            </editor>
+            <title>Stoicorum Veterum Fragmenta</title>
+            <imprint>
+              <pubPlace>Lipsiae</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date>1903</date>
+            </imprint>
+            <biblScope unit="volume">3</biblScope>
+          </monogr>
+          <ref target="https://archive.org/details/stoicorumveterum03arniuoft">Authoritative PDF scan</ref>
+          <ref target="https://hdl.handle.net/2027/uc1.b4807971">HathiTrust OCR comparison witness</ref>
+        </biblStruct>
+      <ptr target="../../../sources/volumes/arnim/arnim.stoicorum-veterum.vol3.xml" /></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The PDF image is authoritative. Hathi OCR and Leipzig TEI are fallible witnesses. Page breaks are provenance only; downstream citation is by Arnim volume and printed fragment number.</p>
+    <refsDecl n="CTS"><cRefPattern n="fragment" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='volume' and @n='$1']/tei:div[@subtype='fragment' and @n='$2'])"><p>This pointer extracts an Arnim printed fragment within an SVF volume; pages are provenance only.</p></cRefPattern><cRefPattern n="volume" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='volume' and @n='$1'])"><p>This pointer extracts an SVF printed volume within an author collection.</p></cRefPattern></refsDecl></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Greek</language>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+      </langUsage>
+    </profileDesc>
+  <revisionDesc><change when="2026-11-09">Compiled deterministically from retained scan-first volume masters; citable by Arnim volume.fragment.</change></revisionDesc></teiHeader>
+  <text xml:base="urn:cts:greekLit:tlg2399.svf001.arnim1903-grc1" xml:lang="grc"><body n="urn:cts:greekLit:tlg2399.svf001.arnim1903-grc1" xml:lang="grc"><div type="edition" n="urn:cts:greekLit:tlg2399.svf001.arnim1903-grc1" xml:lang="grc"><head>Stoicorum Veterum Fragmenta: Eudromus</head><div type="textpart" subtype="volume" n="3" xml:id="svf-tlg2399-v3"><div type="textpart" subtype="fragment" n="1" xml:id="svf-v3-tlg2399-f1"><p>
+            <lb n="10" />
+            <hi rend="bold">Eudromus.</hi>
+          </p>
+          <pb n="268" facs="https://archive.org/details/stoicorumveterum03arniuoft/page/n275/mode/1up" />
+          <p><hi rend="bold">1</hi> <hi rend="italic">Diog. Laërt.</hi> VII 39. τριμερῆ φασιν εἶναι τὸν κατὰ φιλοσο-<lb />φίαν λόγον· εἶναι γὰρ αὐτοῦ τὸ μέν τι φυσικόν, τὸ δὲ ἠθικόν, τὸ δὲ<lb />λογικόν. οὕτω δὲ πρῶτος διεῖλε Ζήνων ὁ Κιτιεύς — — καὶ Εὔ-<lb />δρομος ἐν τῇ ἠθικῇ στοιχειώσει — — ταῦτα δὲ τὰ μέρη ὁ μὲν<lb n="15" />Ἀπολλόδωρος τόπους καλεῖ, ὁ δὲ Χρύσιππος καὶ Εὔδρομος εἴδη.</p>
+          </div><div type="textpart" subtype="fragment" n="2" xml:id="svf-v3-tlg2399-f2"><pb n="268" facs="https://archive.org/details/stoicorumveterum03arniuoft/page/n275/mode/1up" />
+          <p><hi rend="bold">2</hi> <hi rend="italic">Diog. Laërt.</hi> VII 40. ἄλλοι δὲ πρῶτον μὲν τὸ λογικὸν τάτ-<lb />τουσι, δεύτερον δὲ τὸ φυσικὸν καὶ τρίτον τὸ ἠθικόν· ὧν ἐστι — καὶ<lb />Εὔδρομος.</p>
+          </div></div></div></body></text></TEI>
