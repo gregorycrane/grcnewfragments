@@ -65,5 +65,12 @@ Arnim, *Stoicorum Veterum Fragmenta* I-III is installed as 21 author-level
 works under the canon's Stoic TLG identities. The 2,710 compiled citation units
 use Arnim's `volume.fragment` axis, retain printed pages as provenance, pass
 HookTest, and are registered in the Perseus Multitext Viewer.
+Peter, *Historicorum Romanorum Reliquiae* I-II is retained as two scan-first
+volume masters and compiled into 143 work-level editions (41 from volume I and
+102 from volume II). Exact matches use the TLG identities in `canon-keys.txt`;
+the remaining historians use stable project-local textgroups. Citations use
+Peter's printed fragment number within each work, while page breaks remain
+provenance. The printed indices remain in the volume sources but are not
+published as ancient works.
 Older migrated fragment editions retain their existing encoding and can be
 normalized incrementally without mixing them back into `grcnewxml`.
